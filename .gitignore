@@ -1,0 +1,42 @@
+# ---------- 数据：默认不进版本控制 ----------
+# 只忽略目录内容而不忽略目录本身，这样下面的 README 白名单才能生效
+data/raw/*
+data/interim/*
+data/processed/*
+
+# 保留说明文档和占位文件
+!data/**/README.md
+!data/**/*.md
+!data/**/.gitkeep
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ---------- 环境变量 / 凭证 ----------
+.env
+.env.*
+*.key
+*.pem
+secrets.yaml
+credentials.json
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 本地临时文件 ----------
+*.tmp
+*.log
