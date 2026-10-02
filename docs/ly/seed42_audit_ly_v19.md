@@ -26,6 +26,7 @@
 - 李云侧已对登记在 `成员2_本周完整交付包/03_数据与代码核验` 的 25 个 JSON/JSONL/CSV/TSV/TXT 文件做 DOI、引用语境和被引证据文本检索，30 条 RED 中没有发现精确重复命中。
 - 该结果只覆盖已登记、已落盘的文件；仍需结合陈明进复核、许可确认、证据原文定位和逐条裁决后，才能决定哪些记录进入正式新来源试标。
 - 详细审计：`docs/ly/RED_natural_citation_dedup_audit_ly_2026-10-02.md`。
+- 许可边界说明：`docs/ly/open_source_license_boundary_check_ly_2026-10-02.md`。
 
 ## 许可和复现边界
 

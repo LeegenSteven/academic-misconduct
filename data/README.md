@@ -35,7 +35,7 @@ raw/  ──清洗脚本──▶  interim/  ──分析脚本──▶  proces
 - **字段**：保留来源入口、许可、版本/hash、引用文本、原始标签/证据状态、李云侧 `annotator_2_*` 状态/初判/定位/理由、划分和排除状态；`project_label` 与 `adjudicated_*` 保持为空。
 - **已知问题**：SciFact 为 `constructed` claim；RED:2、RED:6、RED:10、RED:21 已列为不可用/排除，剩余 26 条仍只有李云侧阶段定位与初判。此快照是李云侧阶段结果，不是双人裁决后的正式数据集。
 - **排重边界**：已对登记在 `成员2_本周完整交付包/03_数据与代码核验` 的 25 个 JSON/JSONL/CSV/TSV/TXT 文件做 DOI、引用语境和证据文本检索，未发现精确重复；该审计不替代双方确认，也不覆盖未落盘或未登记的数据。
-- **许可边界**：ReferenceErrorDetection 仓库代码的 Apache 2.0 许可不自动覆盖其引用的 PubPeer 数据或论文全文；正式交付时须分别记录代码、数据和论文文本的许可/再发布边界。
+- **许可边界**：本地 `ReferenceErrorDetection_LICENSE.txt` 明确为 ODC Attribution License（ODC-By），不应把它改写成代码许可。代码仓库 LICENSE、数据库许可和其中 PubPeer/论文内容的权利必须分开记录；正式交付时只保留必要元数据、短摘和定位，不直接再发布未确认可再发布的全文。
 - **敏感性**：不含原始下载包或本机路径；保留论文引用文本和 DOI，仅限私有仓库内部研究使用，不应直接公开发布。
 
 #### Sarol 三分类 v2（cmj，interim）
