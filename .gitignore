@@ -46,3 +46,6 @@ desktop.ini
 !data/processed/demo30_evidence_check_ly_2026-10-02.csv
 !data/processed/demo30_replacement_log_ly_2026-10-02.csv
 !data/processed/demo30_pending_exclusion_log_ly_2026-10-02.csv
+# 2026-10-02 Chen independent review blank tables
+!data/processed/seed42_chen_independent_review_blank_2026-10-01.xlsx
+!data/processed/demo30_replacement_chen_independent_review_blank_v1.0_2026-10-01.csv
