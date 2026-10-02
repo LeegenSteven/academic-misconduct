@@ -31,7 +31,7 @@ academic-misconduct/
 
 `.gitignore` 默认忽略 `data/raw/`、`data/interim/`、`data/processed/` 下的文件，仅放行说明文档和明确登记的脱敏快照。数据的获取与重建方式见 [`data/README.md`](data/README.md) 和 [`scripts/README.md`](scripts/README.md)。
 
-当前李云侧提交包含：`code/ly/` 下的评估与检索脚本、`scripts/fetch_seed42_sources.py` 和 `scripts/validate_seed42_snapshot.py`，以及 `data/processed/seed42_source_audit_ly_v19.csv` 脱敏阶段快照。该快照保留版本/hash、引用文本、证据定位和 `annotator_2_*`，不包含原始下载包或最终裁决值。
+当前李云侧提交包含：`code/ly/` 下的评估与检索脚本、`scripts/fetch_seed42_sources.py` 和 `scripts/validate_seed42_snapshot.py`，以及 `data/processed/seed42_source_audit_ly_v19.csv` 脱敏快照和 `data/processed/seed42_source_audit_ly_v19.xlsx` 完整核查工作簿。两份文件都不包含原始下载包或最终裁决值。
 
 ## 协作约定
 

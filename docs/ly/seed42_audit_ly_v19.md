@@ -6,7 +6,9 @@
 ## 文件
 
 - 数据快照：`data/processed/seed42_source_audit_ly_v19.csv`
+- 完整核查工作簿：`data/processed/seed42_source_audit_ly_v19.xlsx`
 - 快照 SHA-256：`2267D754B53BA51FE1FB6A660445B7DF800C3780943E2CF109731E9E6D245BE8`
+- 工作簿 SHA-256：`0BEC646E34E0ED9A61DC76121A6975A5E3A62010E1E71432F28A4AF8F977711B`
 - 重建脚本：`scripts/fetch_seed42_sources.py`
 - 校验脚本：`scripts/validate_seed42_snapshot.py`
 

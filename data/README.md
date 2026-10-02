@@ -28,8 +28,8 @@ raw/  ──清洗脚本──▶  interim/  ──分析脚本──▶  proces
 
 - **来源**：SciFact `release/latest` 与 ReferenceErrorDetection `main` 数据集；来源入口和许可信息随行记录。
 - **获取**：`python scripts/fetch_seed42_sources.py`（只写入本地 `data/raw/`，原始数据不进 Git）。
-- **快照**：`data/processed/seed42_source_audit_ly_v19.csv`
-- **版本/hash**：CSV SHA-256 `2267D754B53BA51FE1FB6A660445B7DF800C3780943E2CF109731E9E6D245BE8`；对应工作簿为本地 v19，工作簿 hash 见项目留痕，不提交二进制工作簿。
+- **快照**：`data/processed/seed42_source_audit_ly_v19.csv`；完整核查工作簿：`data/processed/seed42_source_audit_ly_v19.xlsx`
+- **版本/hash**：CSV SHA-256 `2267D754B53BA51FE1FB6A660445B7DF800C3780943E2CF109731E9E6D245BE8`；XLSX SHA-256 `0BEC646E34E0ED9A61DC76121A6975A5E3A62010E1E71432F28A4AF8F977711B`。
 - **规模**：60 行 × 24 列；SciFact 30 条、ReferenceErrorDetection 30 条。
 - **粒度**：一行代表一条来源核查记录（引用上下文—被引文献配对）。
 - **字段**：保留来源入口、许可、版本/hash、引用文本、原始标签/证据状态、李云侧 `annotator_2_*` 状态/初判/定位/理由、划分和排除状态；`project_label` 与 `adjudicated_*` 保持为空。

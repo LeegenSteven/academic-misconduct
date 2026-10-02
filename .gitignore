@@ -9,6 +9,7 @@ data/processed/*
 !data/**/*.md
 !data/**/.gitkeep
 !data/processed/seed42_source_audit_ly_v19.csv
+!data/processed/seed42_source_audit_ly_v19.xlsx
 
 # ---------- Python ----------
 __pycache__/
