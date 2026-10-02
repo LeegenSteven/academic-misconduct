@@ -42,3 +42,7 @@ desktop.ini
 # ---------- 本地临时文件 ----------
 *.tmp
 *.log
+# 2026-10-02 demo30 evidence verification snapshots
+!data/processed/demo30_evidence_check_ly_2026-10-02.csv
+!data/processed/demo30_replacement_log_ly_2026-10-02.csv
+!data/processed/demo30_pending_exclusion_log_ly_2026-10-02.csv
