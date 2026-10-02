@@ -1,0 +1,52 @@
+{
+  "status": "completed",
+  "official": false,
+  "note": "Dependency-free smoke test; not Pyserini and not MonoT5.",
+  "claim_id": 0,
+  "claim": "FMO3 and TMAO have emerged as key components of a complex axis integrating diet and the gut microbiome with atherosclerosis<|multi_cit|>",
+  "corpus_sentence_count": 29365,
+  "gold_evidence_count": 4,
+  "top5": [
+    {
+      "rank": 1,
+      "doc_id": 10016,
+      "sentence_index": 6,
+      "score": 24.040911,
+      "is_gold": false,
+      "text": "(e) Baseline plasma concentrations of TMAO associates with Enterotype 2 (Prevotella) in male and female subjects with a characterized gut microbiome enterotype."
+    },
+    {
+      "rank": 2,
+      "doc_id": 80007,
+      "sentence_index": 1,
+      "score": 22.488654,
+      "is_gold": false,
+      "text": "Few studies of the IBD gut microbiome have investigated microbiome function [33], and these have not systematically accounted for the influences of treatments and environmental factors."
+    },
+    {
+      "rank": 3,
+      "doc_id": 10003,
+      "sentence_index": 5,
+      "score": 21.807862,
+      "is_gold": true,
+      "text": "These findings raise the possibility that other dietary nutrients possessing a trimethylamine structure may also generate TMAO from gut microbiota and promote accelerated atherosclerosis."
+    },
+    {
+      "rank": 4,
+      "doc_id": 10051,
+      "sentence_index": 0,
+      "score": 20.783217,
+      "is_gold": false,
+      "text": "The association between plasma carnitine levels and cardiovascular risks further supports the potential physiological importance of the carnitine → gut microbiota → TMA/TMAO → atherosclerosis pathway (Fig. 6c)."
+    },
+    {
+      "rank": 5,
+      "doc_id": 80031,
+      "sentence_index": 0,
+      "score": 18.872432,
+      "is_gold": false,
+      "text": "Critical to determining causality in links between IBD and the gut microbiome, IBD treatments were also associated with alterations in microbiome composition."
+    }
+  ],
+  "gold_hit_count_top5": 1
+}

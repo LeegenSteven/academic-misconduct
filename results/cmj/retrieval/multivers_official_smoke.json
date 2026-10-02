@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "official": true,
+  "checkpoint": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-30\\jie\\work\\checkpoints\\scifact.ckpt",
+  "checkpoint_source": "S3 scifact.s3.us-west-2.amazonaws.com/longchecker/latest/checkpoints/scifact.ckpt",
+  "checkpoint_bytes": 5253770098,
+  "model": "MultiVerS (Longformer-large-4096) 官方 SciFact checkpoint",
+  "label_lookup": {
+    "0": "NOT_ACCURATE",
+    "1": "NEI",
+    "2": "ACCURATE"
+  },
+  "evidence_source": "monot5_30_eval_result.json top-k (BM25 候选 + MonoT5 重排)",
+  "device": "cpu",
+  "n_claims": 1,
+  "top_k": 3,
+  "total_elapsed_seconds": 12.65,
+  "infer_elapsed_seconds": 3.47,
+  "results": [
+    {
+      "claim_id": 0,
+      "claim": "FMO3 and TMAO have emerged as key components of a complex axis integrating diet and the gut microbiome with atherosclero",
+      "evidence": [
+        {
+          "doc_id": 10003,
+          "sentence_index": 5,
+          "gold": "NOT_ACCURATE"
+        },
+        {
+          "doc_id": 10051,
+          "sentence_index": 0,
+          "gold": "UNLABELED"
+        },
+        {
+          "doc_id": 10050,
+          "sentence_index": 13,
+          "gold": "UNLABELED"
+        }
+      ],
+      "predicted_label": "NEI",
+      "label_probs": {
+        "NOT_ACCURATE": 0.0,
+        "NEI": 1.0,
+        "ACCURATE": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "status": "completed",
+  "official": false,
+  "note": "Real MonoT5 checkpoint on one claim; candidate pool is grouped BM25 top-10, not the full paper evaluation.",
+  "model": "castorini/monot5-base-med-msmarco",
+  "device": "cpu",
+  "claim_id": 0,
+  "claim": "FMO3 and TMAO have emerged as key components of a complex axis integrating diet and the gut microbiome with atherosclerosis<|multi_cit|>",
+  "candidate_pool_size": 398,
+  "bm25_pool_size": 10,
+  "monot5_rank1_is_gold": true,
+  "elapsed_seconds": 9.52,
+  "reranked": [
+    {
+      "bm25_rank": 7,
+      "doc_id": 10003,
+      "sentence_index": 5,
+      "monot5_true_logprob": -0.053532131016254425,
+      "monot5_false_logprob": -2.954119920730591,
+      "is_gold": true,
+      "text": "These findings raise the possibility that other dietary nutrients possessing a trimethylamine structure may also generate TMAO from gut microbiota and promote accelerated atherosclerosis.",
+      "monot5_rank": 1
+    },
+    {
+      "bm25_rank": 10,
+      "doc_id": 10051,
+      "sentence_index": 0,
+      "monot5_true_logprob": -0.12395941466093063,
+      "monot5_false_logprob": -2.1491405963897705,
+      "is_gold": false,
+      "text": "The association between plasma carnitine levels and cardiovascular risks further supports the potential physiological importance of the carnitine → gut microbiota → TMA/TMAO → atherosclerosis pathway (Fig. 6c).",
+      "monot5_rank": 2
+    },
+    {
+      "bm25_rank": 4,
+      "doc_id": 10050,
+      "sentence_index": 13,
+      "monot5_true_logprob": -0.7326870560646057,
+      "monot5_false_logprob": -0.6551113724708557,
+      "is_gold": false,
+      "text": "Consistent with this supposition, others have reported that several bacterial phylotypes are associated with a history of atherosclerosis, and that the human microbiota biodiversity may in part be influenced by carnivorous eating habits15,18,54.",
+      "monot5_rank": 3
+    },
+    {
+      "bm25_rank": 1,
+      "doc_id": 10016,
+      "sentence_index": 6,
+      "monot5_true_logprob": -0.7549185156822205,
+      "monot5_false_logprob": -0.6349706053733826,
+      "is_gold": false,
+      "text": "(e) Baseline plasma concentrations of TMAO associates with Enterotype 2 (Prevotella) in male and female subjects with a characterized gut microbiome enterotype.",
+      "monot5_rank": 4
+    },
+    {
+      "bm25_rank": 6,
+      "doc_id": 10052,
+      "sentence_index": 7,
+      "monot5_true_logprob": -1.2552461624145508,
+      "monot5_false_logprob": -0.335480660200119,
+      "is_gold": false,
+      "text": "Many studies have provided one of the L-carnitines over short intervals, or via parenteral route, bypassing gut microbiota (and hence TMAO formation).",
+      "monot5_rank": 5
+    },
+    {
+      "bm25_rank": 9,
+      "doc_id": 10049,
+      "sentence_index": 7,
+      "monot5_true_logprob": -2.5293962955474854,
+      "monot5_false_logprob": -0.0830632671713829,
+      "is_gold": false,
+      "text": "In the liver, TMAO decreased the bile acid pool size and reduced key bile acid synthesis and transport proteins (Fig. 6c).",
+      "monot5_rank": 6
+    },
+    {
+      "bm25_rank": 5,
+      "doc_id": 10003,
+      "sentence_index": 0,
+      "monot5_true_logprob": -3.901369333267212,
+      "monot5_false_logprob": -0.02042137086391449,
+      "is_gold": false,
+      "text": "Our microbiota has been linked to intestinal health, immune function, bioactivation of nutrients and vitamins, and more recently, complex disease phenotypes such as obesity and insulin resistance6-8.",
+      "monot5_rank": 7
+    },
+    {
+      "bm25_rank": 3,
+      "doc_id": 10046,
+      "sentence_index": 0,
+      "monot5_true_logprob": -4.872935771942139,
+      "monot5_false_logprob": -0.007680291775614023,
+      "is_gold": false,
+      "text": "Measurement of (a) total bile acid pool size and composition, as well as (b) cholesterol absorption in adult female (> 8 weeks of age) C57BL/6J, Apoe−/− mice on normal chow diet versus diet supplemented with TMAO for 4 weeks.",
+      "monot5_rank": 8
+    },
+    {
+      "bm25_rank": 2,
+      "doc_id": 10048,
+      "sentence_index": 2,
+      "monot5_true_logprob": -7.094945907592773,
+      "monot5_false_logprob": -0.0008295908919535577,
+      "is_gold": false,
+      "text": "Meats and full fat dairy products are abundant components of the Western diet and are commonly implicated in CVD.",
+      "monot5_rank": 9
+    },
+    {
+      "bm25_rank": 8,
+      "doc_id": 10053,
+      "sentence_index": 3,
+      "monot5_true_logprob": -9.289041519165039,
+      "monot5_false_logprob": -9.238292841473594e-05,
+      "is_gold": false,
+      "text": "Furthermore, our studies have public health relevance as carnitine is a common over-the-counter dietary supplement and additive.",
+      "monot5_rank": 10
+    }
+  ]
+}

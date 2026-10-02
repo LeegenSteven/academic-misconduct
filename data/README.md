@@ -36,6 +36,30 @@ raw/  ──清洗脚本──▶  interim/  ──分析脚本──▶  proces
 - **已知问题**：SciFact 为 `constructed` claim；RED 的 RED:2、RED:6 仍为待定位/排除。此快照是李云侧阶段结果，不是双人裁决后的正式数据集。
 - **敏感性**：不含原始下载包或本机路径；保留论文引用文本和 DOI，仅限私有仓库内部研究使用，不应直接公开发布。
 
+#### Sarol 三分类 v2（cmj，interim）
+
+- **来源**：Sarol 2024 路线一原始数据（`Citation-Integrity`），经 `code/cmj/convert_three_class_v2.py` 转换。
+- **获取**：原始数据经 `scripts/download_papers.py` 拉取后，运行 `python code/cmj/convert_three_class_v2.py` 重建。
+- **快照**：`data/interim/converted-three-class-v2/claims-{train,dev,test}.jsonl`
+- **版本/hash**（SHA-256）：
+  - claims-train：2141 行，`43c2f9dc474e2d10c91da7b752407d04d31c77d5034a3920ad9db16c01058026`
+  - claims-dev：316 行，`6281a95a26b1111261d60599da67314d05b122b27b1e9dbb7d32623efb782414`
+  - claims-test：606 行，`b458c9ea7acb8630144652e732a846afdfac29230c20a61e402c628929890b50`
+- **粒度**：一行一条 claim；`evidence` 为 `{doc_id:[{"sentences":[n],"label":"..."}]}`，无证据为 `{}`。
+- **标签**：ACCURATE / NOT_ACCURATE / IRRELEVANT；id 为字符串；Dev 缺 id=199，Train 缺 id=2115。
+- **已知问题**：部分样本 evidence 为空（源文缺失）；NEI 仅作无候选时模型输入占位，不替代金标准 IRRELEVANT。
+- **敏感性**：含原始 claim 文本，仅限私有仓库内部使用。
+
+#### Sarol 文献语料 corpus（cmj，raw）
+
+- **来源**：Sarol 2024 路线一文献语料，`Citation-Integrity` multivers-format。
+- **获取**：`python scripts/download_papers.py`。
+- **快照**：`data/raw/multivers-format/corpus.jsonl`
+- **版本/hash**：8515 行，SHA-256 `59f2309e1124c9d2ef8240d9c725e1a9377ced43ae34a13f222c7c42d40d8167`。
+- **粒度**：一行一篇被引文献；字段 doc_id（int）/ title（多为空）/ abstract（句子数组，按 sentence 编号取句）。
+- **已知问题**：标题字段大量缺失；仅含与 claim 相关的摘要集合，部分 claim 的真正被引文献未收录（源文缺失）。
+- **敏感性**：公开文献摘要，可内部使用。
+
 > 每接入一份数据集，在下面追加一段。字段含义写清楚，否则三个月后没人（包括你自己）知道 `flag3` 是什么。
 
 ### 模板
