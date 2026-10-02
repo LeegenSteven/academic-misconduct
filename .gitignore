@@ -8,6 +8,7 @@ data/processed/*
 !data/**/README.md
 !data/**/*.md
 !data/**/.gitkeep
+!data/processed/seed42_source_audit_ly_v19.csv
 
 # ---------- Python ----------
 __pycache__/

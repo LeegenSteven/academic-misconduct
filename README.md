@@ -29,7 +29,9 @@ academic-misconduct/
 1. 体积——git 历史只增不减，删掉的大文件仍留在历史里，仓库会越来越难克隆；
 2. 敏感性——学术不端记录常涉及真实姓名、机构、举报材料，一旦提交就永久留存且随仓库共享。
 
-`.gitignore` 已忽略 `data/raw/`、`data/interim/`、`data/processed/` 下的所有文件，只放行 `README.md` 说明文档。数据的获取与重建方式见 [`data/README.md`](data/README.md) 和 [`scripts/README.md`](scripts/README.md)。
+`.gitignore` 默认忽略 `data/raw/`、`data/interim/`、`data/processed/` 下的文件，仅放行说明文档和明确登记的脱敏快照。数据的获取与重建方式见 [`data/README.md`](data/README.md) 和 [`scripts/README.md`](scripts/README.md)。
+
+当前李云侧提交包含：`code/ly/` 下的评估与检索脚本、`scripts/fetch_seed42_sources.py` 和 `scripts/validate_seed42_snapshot.py`，以及 `data/processed/seed42_source_audit_ly_v19.csv` 脱敏阶段快照。该快照保留版本/hash、引用文本、证据定位和 `annotator_2_*`，不包含原始下载包或最终裁决值。
 
 ## 协作约定
 
