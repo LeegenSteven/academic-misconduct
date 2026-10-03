@@ -25,6 +25,6 @@
 | PMC-OA-V2-19 | PMC13626989 | PMC6837311 | 10.1371/journal.pone.0224794 | CC BY 4.0 | 待人工筛选/双人盲标 |
 | PMC-OA-V2-20 | PMC13626992 | PMC11177495 | 10.1186/s12958-024-01239-1 | CC BY 4.0 | 待人工筛选/双人盲标 |
 
-初步去重：当前 v4 核查表对这 16 个被引 DOI 均匹配 0 次；这不能替代对完整 train/dev/test、调参和评测清单的最终去重证明。所有记录仍需人工核对引用句与被引证据是否真正对应，补稳定页码/段落定位后，才能进入双方盲标。
+初步去重：当前 v4 核查表对这 16 个被引 DOI 均匹配 0 次；这不能替代对完整 train/dev/test、调参和评测清单的最终去重证明。20 条证据已通过 NCBI PMC OA BioC JSON 回溯到摘要 passage，并补入 PMCID、passage index、字符 offset 和接口 URL；定位明细见 `docs/ly/pmc_evidence_stable_locator_audit_ly_2026-10-03.md`。正式入组前仍需人工核对引用句与被引证据是否真正对应，并在双方盲标和裁决完成后计入正式试标集。
 
 结构化记录：`data/interim/pmc_oa_candidate_pool_ly_v2_2026-10-03.json`。

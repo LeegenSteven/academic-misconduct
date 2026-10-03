@@ -1,0 +1,488 @@
+{
+  "retrieved_at": "2026-10-03",
+  "endpoint": "NCBI BioC PMC OA REST",
+  "candidate_count": 20,
+  "unique_pmc_count": 16,
+  "fetch_summary": [
+    {
+      "pmc": "PMC10715499",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC5007409",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC10850450",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC11309924",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC12491465",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC6709302",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC11984007",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC7696452",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC8793832",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC6982324",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC12297025",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC5839013",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC7777221",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC9099525",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC6837311",
+      "status": "fetched",
+      "error": null
+    },
+    {
+      "pmc": "PMC11177495",
+      "status": "fetched",
+      "error": null
+    }
+  ],
+  "results": [
+    {
+      "candidate_id": "PMC-OA-V2-01",
+      "cited_pmcid": "PMC10715499",
+      "cited_doi": "10.1136/jnis-2022-019864",
+      "evidence_text": "Basilar artery trunk aneurysms (BTAs) are rare intracranial aneurysms. We aim to investigate the procedural complications and clinical and angiographic outcomes of BTAs treated with reconstructive endovascular treatment (EVT).",
+      "passage_count": 100,
+      "abstract_passage_count": 8,
+      "hits": [
+        {
+          "passage_index": 2,
+          "offset": 137,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-02",
+      "cited_pmcid": "PMC10715499",
+      "cited_doi": "10.1136/jnis-2022-019864",
+      "evidence_text": "Basilar artery trunk aneurysms (BTAs) are rare intracranial aneurysms. We aim to investigate the procedural complications and clinical and angiographic outcomes of BTAs treated with reconstructive endovascular treatment (EVT).",
+      "passage_count": 100,
+      "abstract_passage_count": 8,
+      "hits": [
+        {
+          "passage_index": 2,
+          "offset": 137,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-03",
+      "cited_pmcid": "PMC5007409",
+      "cited_doi": "10.3348/kjr.2016.17.5.801",
+      "evidence_text": "Outcomes of stent-assisted coil embolization (SACE) have not been well established in the setting of vertebrobasilar dissecting aneurysms (VBDAs) due to the low percentage of cases that need treatment and the array of available therapeutic options. Herein, we presented clinical and radiographic results of SACE in patients with VBDAs.",
+      "passage_count": 89,
+      "abstract_passage_count": 8,
+      "hits": [
+        {
+          "passage_index": 2,
+          "offset": 135,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-04",
+      "cited_pmcid": "PMC10850450",
+      "cited_doi": "10.5853/jos.2023.02481",
+      "evidence_text": "Intracranial arterial disease (ICAD) is a heterogeneous condition characterized by distinct pathologies, including atherosclerosis. Advances in magnetic resonance technology have enabled the visualization of intracranial arteries using high-resolution vessel wall imaging (HR-VWI). This review summarizes the anatomical, embryological, and histological differences between the intracranial and extracranial arteries. Next, we review the heterogeneous pathophysiology of ICAD, including atherosclerosis, moyamoya or RNF213 spectrum disease, intracranial dissection, and vasculitis. We also discuss how advances in HR-VWI can be used to differentiate ICAD etiologies. We emphasize that one should consider clinical presentation and timing of imaging in the absence of pathology-radiology correlation data. Future research should focus on understanding the temporal profile of HR-VWI findings and developing quantitative interpretative approaches to improve the decision-making and management of ICAD.",
+      "passage_count": 161,
+      "abstract_passage_count": 1,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 96,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-05",
+      "cited_pmcid": "PMC11309924",
+      "cited_doi": "10.1111/cas.16208",
+      "evidence_text": "Metaplastic breast cancer is a rare, aggressive, and chemotherapy‐resistant subtype of breast cancers, accounting for less than 1% of invasive breast cancers, characterized by adenocarcinoma with spindle cells, squamous epithelium, and/or mesenchymal tissue differentiation. The majority of metaplastic breast cancers exhibit the characteristics of triple‐negative breast cancer and have unfavorable prognoses with a lower survival rate. This subtype often displays gene alterations in the PI3K/AKT pathway, Wnt/β‐catenin pathway, and cell cycle dysregulation and demonstrates epithelial–mesenchymal transition, immune response changes, TP53 mutation, EGFR amplification, and so on. Currently, the optimal treatment of metaplastic breast cancer remains uncertain. This article provides a comprehensive review on the clinical features, molecular characteristics, invasion and metastasis patterns, and prognosis of metaplastic breast cancer, as well as recent advancements in treatment strategies.",
+      "passage_count": 110,
+      "abstract_passage_count": 3,
+      "hits": [
+        {
+          "passage_index": 2,
+          "offset": 88,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        },
+        {
+          "passage_index": 3,
+          "offset": 1093,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "passage_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-06",
+      "cited_pmcid": "PMC12491465",
+      "cited_doi": "10.1038/s41523-025-00816-w",
+      "evidence_text": "Metaplastic breast cancer (MpBC) treated with standard chemotherapy has low rates of complete pathological response (pCR)(2–23%). In this study, we evaluate the response to neoadjuvant chemo-immunotherapy (NACI) in early-stage MpBC. Thirty-two stage I-III MpBC patients treated with NACI (KEYNOTE-522 regimen) were prospectively enrolled in an institutional rare tumor program. All MpBC were triple negative; most were of chondromyxoid/matrix-producing (12/32, 38%). The majority had stage II (78%) tumors, 12/32 (37.5%) patients completed NACI, 11/32 (34%) progressed during NACI, and in the remaining 9, NACI was discontinued due to side effects. The pCR rate in the entire cohort was 22% (7/32) and it was statistically higher (5/8, 62%) among patients with high ( ≥ 60%) stromal tumor-infiltrating lymphocytes (sTILs) as compared to patients with < 60% sTILs (1/11, 9%). Most patients received adjuvant systemic therapy (capecitabine 16/32, pembrolizumab 20/32). At a median follow-up of 13 months, there were a total of 2 local recurrences, 10 distant recurrences, and 7 deaths. We demonstrated a modest pCR rate in MpBC with the addition of pembrolizumab (22%). Nonetheless, amongst patients with high sTILs, high pCR rates—comparable to those in the KEYNOTE-522 trial—were observed. These findings suggest that sTILs can be used to triage MpBC patients for NACI.",
+      "passage_count": 82,
+      "abstract_passage_count": 1,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 103,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-07",
+      "cited_pmcid": "PMC6709302",
+      "cited_doi": "10.1097/MD.0000000000015840",
+      "evidence_text": "The effect of naproxen on the treatment of neoplastic fever is still unclear. A systematic review and meta-analysis were performed to investigate the effect of naproxen in the treatment of cancer fever or suspicion. Besides, the latest and most convincing evidence was provided for the earlier use of naproxen in treating cancer patients with fever of unknown origin.",
+      "passage_count": 123,
+      "abstract_passage_count": 9,
+      "hits": [
+        {
+          "passage_index": 3,
+          "offset": 68,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-08",
+      "cited_pmcid": "PMC6709302",
+      "cited_doi": "10.1097/MD.0000000000015840",
+      "evidence_text": "The effect of naproxen on the treatment of neoplastic fever is still unclear. A systematic review and meta-analysis were performed to investigate the effect of naproxen in the treatment of cancer fever or suspicion. Besides, the latest and most convincing evidence was provided for the earlier use of naproxen in treating cancer patients with fever of unknown origin.",
+      "passage_count": 123,
+      "abstract_passage_count": 9,
+      "hits": [
+        {
+          "passage_index": 3,
+          "offset": 68,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-09",
+      "cited_pmcid": "PMC11984007",
+      "cited_doi": "10.1017/S1368980025000072",
+      "evidence_text": "To characterise food group consumption, assess the contribution of food groups to energy and micronutrient intake, and estimate usual nutrient intake among adults in rural Sri Lanka.",
+      "passage_count": 142,
+      "abstract_passage_count": 12,
+      "hits": [
+        {
+          "passage_index": 2,
+          "offset": 157,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-10",
+      "cited_pmcid": "PMC7696452",
+      "cited_doi": "10.3390/foods9111659",
+      "evidence_text": "Micronutrient malnutrition is a serious public health problem in developing countries, including Sri Lanka. Most frequently, micronutrient malnutrition is experienced by the poorest households due to cereal-based, monotonous diets that lack dietary diversity. Sri Lankan traditional food system is changing day by day. In parallel, nutrition deficiencies, malnutrition, and noncommunicable diseases are the most significant problems today in Sri Lanka. Therefore, understanding dietary diversity and dietary changes in Sri Lanka must be studied to address related public health issues. This study investigates nutrition adequacy, dietary diversity, dietary practice, and traditional food pattern changes in different marginalised areas in Sri Lanka. A cross-sectional survey was done using 24 h food recall and an administrative questionnaire for 400 women of reproductive age (WRA) (18–49 years old) in marginalised areas in Sri Lanka. The random sampling method was used for data collection. The research confirmed that different areas had poor dietary practices, with macronutrient imbalance and alarmingly low intakes of micronutrients. Interestingly, the diversity of food was higher in rural areas than in urban areas. Approximately 83% of women in urban areas did not meet minimum dietary diversity (MDD-W). Overall, about 63% of reproductive age women did not meet MDD-W and food security. The mean MDD-W for both areas was low. Significant differences in MDD-W levels were found in the two areas (F = 90.483, p < 0.05). The sample showed a significant positive correlation between MDD-W and area, monthly income, educational level, food source, BMI level and health status ( R 2 = 360; p < 0.01). This sample did not find that the consumption of traditional varieties of foods and agrobiodiversity are decreasing. Additionally, the study confirmed that low dietary diversity impacts nutrition status and health. The results highlight that the leading causes for low diet diversity are decreased dependence on own production, increased purchasing food at markets, lack of suitable lands to cultivate, agro-commercialisation, less knowledge of food and nutrition, loss of traditional food culture, low income and high prices of food. Inappropriate food patterns, nutrition policies and governance in Sri Lanka are the main factors to the nutrition findings. The study finding will help the decision-making authorities or policymakers to design suitable nutrition programs for vulnerable people in marginalised areas and to use these to strengthen a sustainable food and nutrition system in Sri Lanka.",
+      "passage_count": 203,
+      "abstract_passage_count": 1,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 119,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-11",
+      "cited_pmcid": "PMC8793832",
+      "cited_doi": "10.3389/fnut.2021.716100",
+      "evidence_text": "Nutrient-rich foods play a major role in countering the challenges of nourishing an increasing global population. Milk is a source of high-quality protein and bioavailable amino acids, several vitamins, and minerals such as calcium. We used the DELTA Model, which calculates the delivery of nutrition from global food production scenarios, to examine the role of milk in global nutrition. Of the 29 nutrients considered by the model, milk contributes to the global availability of 28. Milk is the main contributing food item for calcium (49% of global nutrient availability), Vitamin B2 (24%), lysine (18%), and dietary fat (15%), and contributes more than 10% of global nutrient availability for a further five indispensable amino acids, protein, vitamins A, B5, and B12, phosphorous, and potassium. Despite these high contributions to individual nutrients, milk is responsible for only 7% of food energy availability, indicating a valuable contribution to global nutrition without necessitating high concomitant energy intakes. Among the 98 food items considered by the model, milk ranks in the top five contributors to 23 of the 29 nutrients modeled. This quantification of the importance of milk to global nutrition in the current global food system demonstrates the need for the high valuation of this food when considering future changes to the system.",
+      "passage_count": 88,
+      "abstract_passage_count": 1,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 54,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-12",
+      "cited_pmcid": "PMC6982324",
+      "cited_doi": "10.3390/ijerph17010244",
+      "evidence_text": "Against the backdrop of the continuous large-scale growth of imported milk in China, in this research 310 consumers in Shanghai were used as a sample, and a choice experiment was conducted to study consumer preference and willingness to pay for imported milk. The following product attributes were included: nutrition claim, fat content, flavor, country of origin, and price. Our results show that, excepting price, consumers consider flavor the most important attribute, followed by nutrition claim, fat content, and country of origin. Consumers can be delineated into four segments based on consumer preference for the attributes of imported milk: “nutrition claim seekers” are willing to pay the highest price for imported milk with nutrition claims, “indifferent” consumers pay little attention to imported milk attributes, “flavor-oriented” consumers have a strong preference for strawberry-flavored imported milk, and “price-sensitive” consumers weigh the price when choosing imported milk.",
+      "passage_count": 160,
+      "abstract_passage_count": 1,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 76,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-13",
+      "cited_pmcid": "PMC6982324",
+      "cited_doi": "10.3390/ijerph17010244",
+      "evidence_text": "Against the backdrop of the continuous large-scale growth of imported milk in China, in this research 310 consumers in Shanghai were used as a sample, and a choice experiment was conducted to study consumer preference and willingness to pay for imported milk. The following product attributes were included: nutrition claim, fat content, flavor, country of origin, and price. Our results show that, excepting price, consumers consider flavor the most important attribute, followed by nutrition claim, fat content, and country of origin. Consumers can be delineated into four segments based on consumer preference for the attributes of imported milk: “nutrition claim seekers” are willing to pay the highest price for imported milk with nutrition claims, “indifferent” consumers pay little attention to imported milk attributes, “flavor-oriented” consumers have a strong preference for strawberry-flavored imported milk, and “price-sensitive” consumers weigh the price when choosing imported milk.",
+      "passage_count": 160,
+      "abstract_passage_count": 1,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 76,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-14",
+      "cited_pmcid": "PMC12297025",
+      "cited_doi": "10.1007/s40279-025-02213-6",
+      "evidence_text": "Post-exercise recovery strategies influence the body’s ability to restore physiological homeostasis, replenish energy stores, repair muscle damage, and promote desired adaptations, which improve exercise performance. This narrative review examines the impact of nutritional strategies commonly used for enhancing recovery and subsequent exercise performance, particularly when athletes face short recovery periods. Carbohydrate ingestion is essential for glycogen replenishment, especially within the initial hours post-exercise, with its impact dependent on the types, timing, and amount. Protein is essential for accelerating muscle recovery and achieving a positive nitrogen balance, depending on the type and dosage. The co-ingestion of carbohydrates with proteins or fats is explored for its role in maximizing glycogen resynthesis and muscle repair, with evidence supporting the addition of protein to suboptimal carbohydrate intake for enhanced recovery. Moreover, this review addresses the potential benefits of creatine and caffeine co-ingestion for accelerating glycogen synthesis and improving subsequent performance. Hydration strategies, including the use of milk-based beverages and electrolyte solutions, are also discussed, emphasizing their importance in maintaining fluid balance and optimizing recovery. This review also highlights the emerging role of micronutrients such as omega-3 fatty acids, antioxidants, and sodium bicarbonate in reducing muscle damage and improving acid–base balance. Evidence supports the tailored use of these nutritional strategies, particularly for athletes managing tight competition/training schedules. Future research should focus on refining individualized approaches for recovery and investigating the impact of novel supplements on subsequent performance.",
+      "passage_count": 307,
+      "abstract_passage_count": 3,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 113,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-15",
+      "cited_pmcid": "PMC5839013",
+      "cited_doi": "10.1186/s12970-018-0216-0",
+      "evidence_text": "Caffeine is commonly used as an ergogenic aid. Literature about the effects of caffeine ingestion on muscle strength and power is equivocal. The aim of this systematic review and meta-analysis was to summarize results from individual studies on the effects of caffeine intake on muscle strength and power.",
+      "passage_count": 132,
+      "abstract_passage_count": 8,
+      "hits": [
+        {
+          "passage_index": 2,
+          "offset": 106,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-16",
+      "cited_pmcid": "PMC7777221",
+      "cited_doi": "10.1186/s12970-020-00383-4",
+      "evidence_text": "Following critical evaluation of the available literature to date, The International Society of Sports Nutrition (ISSN) position regarding caffeine intake is as follows: Supplementation with caffeine has been shown to acutely enhance various aspects of exercise performance in many but not all studies. Small to moderate benefits of caffeine use include, but are not limited to: muscular endurance, movement velocity and muscular strength, sprinting, jumping, and throwing performance, as well as a wide range of aerobic and anaerobic sport-specific actions.",
+      "passage_count": 610,
+      "abstract_passage_count": 12,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 92,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "passage_normalized_substring"
+        },
+        {
+          "passage_index": 12,
+          "offset": 2572,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "passage_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-17",
+      "cited_pmcid": "PMC9099525",
+      "cited_doi": "10.3390/nu14091769",
+      "evidence_text": "The effect of caffeine on mitigating exercise-induced muscle damage (EIMD) is still poorly understood, but it was hypothesized that caffeine could contribute to decreasing delayed onset muscle soreness, attenuating temporary loss of strength, and reducing circulating levels of blood markers of muscle damage. However, evidence is not conclusive and beneficial effects of caffeine ingestion on EIMD are not always observed. Factors, such as the type of exercise that induces muscle damage, supplementation protocol, and type of marker analyzed contribute to the differences between the studies. To expand knowledge on the role of caffeine supplementation in EIMD, this systematic review aimed to investigate the effect of caffeine supplementation on different markers of muscle damage. Fourteen studies were included, evaluating the effect of caffeine on indirect muscle damage markers, including blood markers (nine studies), pain perception (six studies), and MVC maximal voluntary contraction force (four studies). It was observed in four studies that repeated administration of caffeine between 24 and 72 h after muscle damage can attenuate the perception of pain in magnitudes ranging from 3.9% to 26%. The use of a single dose of caffeine pre-exercise (five studies) or post-exercise (one study) did not alter the circulating blood levels of creatine kinase (CK). Caffeine supplementation appears to attenuate pain perception, but this does not appear to be related to an attenuation of EIMD, per se. Furthermore, the effect of caffeine supplementation after muscle damage on strength recovery remains inconclusive due to the low number of studies found (four studies) and controversial results for both dynamic and isometric strength tests.",
+      "passage_count": 170,
+      "abstract_passage_count": 1,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 120,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-18",
+      "cited_pmcid": "PMC9099525",
+      "cited_doi": "10.3390/nu14091769",
+      "evidence_text": "The effect of caffeine on mitigating exercise-induced muscle damage (EIMD) is still poorly understood, but it was hypothesized that caffeine could contribute to decreasing delayed onset muscle soreness, attenuating temporary loss of strength, and reducing circulating levels of blood markers of muscle damage. However, evidence is not conclusive and beneficial effects of caffeine ingestion on EIMD are not always observed. Factors, such as the type of exercise that induces muscle damage, supplementation protocol, and type of marker analyzed contribute to the differences between the studies. To expand knowledge on the role of caffeine supplementation in EIMD, this systematic review aimed to investigate the effect of caffeine supplementation on different markers of muscle damage. Fourteen studies were included, evaluating the effect of caffeine on indirect muscle damage markers, including blood markers (nine studies), pain perception (six studies), and MVC maximal voluntary contraction force (four studies). It was observed in four studies that repeated administration of caffeine between 24 and 72 h after muscle damage can attenuate the perception of pain in magnitudes ranging from 3.9% to 26%. The use of a single dose of caffeine pre-exercise (five studies) or post-exercise (one study) did not alter the circulating blood levels of creatine kinase (CK). Caffeine supplementation appears to attenuate pain perception, but this does not appear to be related to an attenuation of EIMD, per se. Furthermore, the effect of caffeine supplementation after muscle damage on strength recovery remains inconclusive due to the low number of studies found (four studies) and controversial results for both dynamic and isometric strength tests.",
+      "passage_count": 170,
+      "abstract_passage_count": 1,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 120,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-19",
+      "cited_pmcid": "PMC6837311",
+      "cited_doi": "10.1371/journal.pone.0224794",
+      "evidence_text": "This study investigated the effect of caffeine on neuromuscular function, power and sprint performance during the days following an eccentric-based exercise. Using a randomly counterbalanced, crossover and double-blinded design, eleven male jumpers and sprinters (age: 18.7 ± 2.7 years) performed a half-squat exercise (4 x 12 repetitions at 70% of 1 RM), with eccentric action emphasized by using a flexible strip attached to their knees ( Tirante Musculador ® ). They ingested either a capsule of placebo or caffeine (5 mg.kg -1 body mass) 24, 48 and 72 h after. Neuromuscular function and muscle power (vertical countermovement-jump test) were assessed before and after the half-squat exercise and 50 min after the placebo or caffeine ingestion at each time-point post-exercise. Sprint performance was measured at pre-test and 75 min after the placebo or caffeine ingestion at each time-point post-exercise. Maximal voluntary contraction (overall fatigue) and twitch torque (peripheral fatigue) reduced after the half-squat exercise (-11 and -28%, respectively, P < 0.05) but returned to baseline 24 h post-exercise (P > 0.05) and were not affected by caffeine ingestion (P > 0.05). The voluntary activation (central fatigue) and sprint performance were not altered throughout the experiment and were not different between caffeine and placebo. However, caffeine increased height and power during the vertical countermovement-jump test at 48 and 72 h post half-squat exercise, when compared to the placebo (P < 0.05). In conclusion, caffeine improves muscle power 48 and 72 h after an eccentric-based exercise, but it has no effect on neuromuscular function and sprint performance.",
+      "passage_count": 414,
+      "abstract_passage_count": 1,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 80,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    },
+    {
+      "candidate_id": "PMC-OA-V2-20",
+      "cited_pmcid": "PMC11177495",
+      "cited_doi": "10.1186/s12958-024-01239-1",
+      "evidence_text": "This comprehensive review explores the evolving landscape of sperm selection techniques within the realm of Assisted Reproductive Technology (ART). Our analysis delves into a range of methods from traditional approaches like density gradient centrifugation to advanced techniques such as Magnetic-Activated Cell Sorting (MACS) and Intracytoplasmic Morphologically Selected Sperm Injection (IMSI). We critically assess the efficacy of these methods in terms of sperm motility, morphology, DNA integrity, and other functional attributes, providing a detailed comparison of their clinical outcomes. We highlight the transition from conventional sperm selection methods, which primarily focus on physical characteristics, to more sophisticated techniques that offer a comprehensive evaluation of sperm molecular properties. This shift not only promises enhanced prediction of fertilization success but also has significant implications for improving embryo quality and increasing the chances of live birth. By synthesizing various studies and research papers, we present an in-depth analysis of the predictability of different sperm selection procedures in ART. The review also discusses the clinical applicability of these methods, emphasizing their potential in shaping the future of assisted reproduction. Our findings suggest that the integration of advanced sperm selection strategies in ART could lead to more cost-effective treatments with reduced duration and higher success rates. This review aims to provide clinicians and researchers in reproductive medicine with comprehensive insights into the current state and future prospects of sperm selection technologies in ART.",
+      "passage_count": 179,
+      "abstract_passage_count": 1,
+      "hits": [
+        {
+          "passage_index": 1,
+          "offset": 85,
+          "section_type": "ABSTRACT",
+          "type": "abstract",
+          "fpage": null,
+          "lpage": null,
+          "match": "evidence_normalized_substring"
+        }
+      ]
+    }
+  ]
+}
