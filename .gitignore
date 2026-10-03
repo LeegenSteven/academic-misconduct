@@ -53,3 +53,6 @@ desktop.ini
 # 2026-10-03 adjudicated pilot snapshots
 !data/processed/seed42_adjudicated_pilot_ly_2026-10-03.xlsx
 !data/processed/demo30_adjudicated_replacement_pilot_ly_2026-10-03.csv
+
+# 2026-10-03 independent RED full-text gate and progress snapshot
+!data/processed/seed42_adjudicated_pilot_ly_license_corrected_v3_red5_fulltext_2026-10-03.xlsx
