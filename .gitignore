@@ -49,3 +49,7 @@ desktop.ini
 # 2026-10-02 Chen independent review blank tables
 !data/processed/seed42_chen_independent_review_blank_2026-10-01.xlsx
 !data/processed/demo30_replacement_chen_independent_review_blank_v1.0_2026-10-01.csv
+
+# 2026-10-03 adjudicated pilot snapshots
+!data/processed/seed42_adjudicated_pilot_ly_2026-10-03.xlsx
+!data/processed/demo30_adjudicated_replacement_pilot_ly_2026-10-03.csv
