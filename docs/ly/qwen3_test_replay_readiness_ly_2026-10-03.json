@@ -1,0 +1,199 @@
+{
+  "audit_date": "2026-10-03",
+  "source_dir": "C:\\Users\\y\\Desktop\\学术引用不端\\陈明进，20261003，606test",
+  "file_count": 22,
+  "files": {
+    "gen_task2_checklist.py": {
+      "bytes": 4627,
+      "sha256": "09fc0f747423023cc97ac9596b8f26f626b09947387ecb584dfede96ca0fef3d"
+    },
+    "README_交付说明.md": {
+      "bytes": 2900,
+      "sha256": "cadcdba84193329c0e49ac9e0c8c7154c04a0f29946bc0bc912aa86195e3e926"
+    },
+    "run_task3_oversample2x.py": {
+      "bytes": 11536,
+      "sha256": "aefc2c54682eda7422f8ff18fb168530c63371d4685f2e25b1f38c5b0f886426"
+    },
+    "run_task3_train_selfeval.py": {
+      "bytes": 7723,
+      "sha256": "36bea9af07df955626a9acccbb071d806f9e0c9a13a6e7e9d2cd41bb1ac22236"
+    },
+    "run_task4_eval_dev.py": {
+      "bytes": 7086,
+      "sha256": "21c31a20ea7cd1f9f5481521702cffe037e7650737a29cc9f9090531e291bd09"
+    },
+    "run_task4_eval_test.py": {
+      "bytes": 7668,
+      "sha256": "afa9bc0c0feab97230ec549cad8b41eda6b7e830bd249700d01cc7a20bbc07d2"
+    },
+    "run_task4_finetune.py": {
+      "bytes": 9558,
+      "sha256": "8fc7eab8382c751bb63564be0708348aa9e84110fd8732448fa0097c825cef16"
+    },
+    "task2_evidence_location_check_60_2026-09-22.csv": {
+      "bytes": 55250,
+      "sha256": "625cf86a195a7929eee8ef47f6eac7e248f91c45f254fbe678f07ed0e0e1dc5b"
+    },
+    "task2_run.log": {
+      "bytes": 1635,
+      "sha256": "dead25799f0e4b26352562bc5bd9f51902469e22c1c0bef599788ea8b61c5626"
+    },
+    "task2_run_err.log": {
+      "bytes": 342,
+      "sha256": "2b1f033215d8a3f1aaede40630693d4d7eac733380d28731587403102de4060b"
+    },
+    "task3_dev_eval_2026-09-23.err": {
+      "bytes": 342,
+      "sha256": "2b1f033215d8a3f1aaede40630693d4d7eac733380d28731587403102de4060b"
+    },
+    "task3_dev_eval_2026-09-23.log": {
+      "bytes": 782,
+      "sha256": "ef07c3b23f40e683386c3f5d67e2f88039d2527ccb092dba666986aedaac3281"
+    },
+    "task3_oversample2x_manifest_2026-09-23.json": {
+      "bytes": 6320,
+      "sha256": "cbb9d1e5b93161362dd2857659244b05b94a556aa00cc95ee072838ff2213ef2"
+    },
+    "task3_run.log": {
+      "bytes": 879,
+      "sha256": "49a2325e679d8272b57ee0c9c02cafc2b99d8e2ef2f784a28c4156cef70f3a97"
+    },
+    "task3_run_err.log": {
+      "bytes": 463,
+      "sha256": "185ee949aa1952b94ae34b879c5574da11afc6a5ab407ab93e3aa885498b13ac"
+    },
+    "task4_finetuned_dev_eval_task3_oversample2x_full_step2691_2026-09-17.json": {
+      "bytes": 97700,
+      "sha256": "7999dbc9e81eabec6c7aaf4c67fa6274fd2cde2e5556065fe3ef13d12213e266"
+    },
+    "task4_finetuned_test_eval_task4_finetuned_full_step2141_2026-09-22.json": {
+      "bytes": 194091,
+      "sha256": "bd57bc42b2dc688b5344f29797ee60125bf9ee8abaaff9e400ab97cf94f4a6b8"
+    },
+    "task4_full.log": {
+      "bytes": 4782,
+      "sha256": "d2e169768d7a384a920c5077e292df96303a717a656cca5a1d237d4ef1817340"
+    },
+    "task4_full_err.log": {
+      "bytes": 255,
+      "sha256": "965adbb6fb41e3f5e386df577f3198cfc2389ceeb0bd045c8179d4732875ae5b"
+    },
+    "task4_test_eval_2026-09-22.err": {
+      "bytes": 342,
+      "sha256": "2b1f033215d8a3f1aaede40630693d4d7eac733380d28731587403102de4060b"
+    },
+    "task4_test_eval_2026-09-22.log": {
+      "bytes": 1254,
+      "sha256": "fb60ac5a46b29f6ff397e296af68ebd8297337baf5269a130ee1f6bf9e9554a6"
+    },
+    "test_predictions_step2141.jsonl": {
+      "bytes": 37512,
+      "sha256": "2864b0cc9ac7b6fa4c43d0972c302c85123c83940c7f752d3005419125d5507c"
+    }
+  },
+  "test_prediction": {
+    "file": "C:\\Users\\y\\Desktop\\学术引用不端\\陈明进，20261003，606test\\test_predictions_step2141.jsonl",
+    "count": 606,
+    "id_unique": 606,
+    "id_min": 0,
+    "id_max": 605,
+    "gold": {
+      "NOT_ACCURATE": 167,
+      "ACCURATE": 386,
+      "IRRELEVANT": 53
+    },
+    "pred": {
+      "NOT_ACCURATE": 276,
+      "ACCURATE": 328,
+      "NEI": 2
+    },
+    "nei_rows": [
+      {
+        "claim_id": 196,
+        "gold": "NOT_ACCURATE",
+        "pred": "NEI"
+      },
+      {
+        "claim_id": 296,
+        "gold": "IRRELEVANT",
+        "pred": "NEI"
+      }
+    ],
+    "irrelevant_gold_vs_pred": {
+      "IRRELEVANT->NOT_ACCURATE": 42,
+      "IRRELEVANT->ACCURATE": 10,
+      "IRRELEVANT->NEI": 1
+    },
+    "overall_accuracy": 0.5512,
+    "scheme_b_accuracy_excluding_irrelevant_gold": 0.604,
+    "three_class_valid_records": 604,
+    "per_class": {
+      "ACCURATE": {
+        "precision": 0.7409,
+        "recall": 0.6295,
+        "f1": 0.6807,
+        "n": 386
+      },
+      "NOT_ACCURATE": {
+        "precision": 0.3297,
+        "recall": 0.5482,
+        "f1": 0.4118,
+        "n": 166
+      },
+      "IRRELEVANT": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "n": 52
+      }
+    },
+    "macro_f1_three_class_valid_records": 0.3642
+  },
+  "evidence_60": {
+    "file": "C:\\Users\\y\\Desktop\\学术引用不端\\陈明进，20261003，606test\\task2_evidence_location_check_60_2026-09-22.csv",
+    "row_count": 60,
+    "status_counts": {
+      "loc_ok(是/否)": {
+        "<blank>": 60
+      },
+      "ev_ok(是/否/不适用)": {
+        "<blank>": 60
+      },
+      "note": {
+        "<blank>": 60
+      }
+    },
+    "all_location_fields_blank": true,
+    "all_evidence_fields_blank": true
+  },
+  "model_identity": {
+    "from_readme": "MultiVerS (longformer-large-4096 backbone), step2141; BM25 top-20 input in README and BM25 top-10 in Test eval script/log",
+    "qwen3_mentions_in_package": [],
+    "qwen3_frozen_config_present": false,
+    "qwen3_prompt_decoding_seed_present": false,
+    "probabilities_or_logits_in_test_predictions": false
+  },
+  "readiness": "blocked_for_qwen3_replay_and_calibration",
+  "reason_codes": [
+    "provided prediction is MultiVerS step2141 rather than Qwen3 output",
+    "prediction JSONL contains only claim_id/gold/pred and no probability/logit fields",
+    "no Qwen3 frozen model/checkpoint, prompt/template, decoding parameters, seed, environment, or Qwen3 run log found in delivery directory",
+    "60-row evidence check CSV exists but loc_ok/ev_ok/note are blank for all 60 rows"
+  ],
+  "safe_actions_completed": [
+    "validated 606 unique Test IDs 0-605",
+    "kept NEI as its own output and did not map it to IRRELEVANT",
+    "verified IRRELEVANT gold confusion counts and existing metrics independently",
+    "verified evidence table completeness/status state"
+  ],
+  "required_before_qwen3": [
+    "Qwen3 model/checkpoint and hash",
+    "same 606 pre-oversampling Test input and SHA-256",
+    "prompt/system/template and output schema",
+    "decoding parameters and seed",
+    "executable script/environment and full Qwen3 run log",
+    "raw Qwen3 output with scores/logits or calibrated confidence fields",
+    "resource/time registration if rerun is needed"
+  ]
+}
