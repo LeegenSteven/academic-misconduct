@@ -62,3 +62,5 @@ desktop.ini
 
 # 2026-10-03 PMC open-access candidate pool
 !data/interim/pmc_oa_candidate_pool_ly_v1_2026-10-03.json
+
+!data/interim/pmc_oa_candidate_pool_ly_v2_2026-10-03.json
