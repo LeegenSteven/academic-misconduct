@@ -59,3 +59,6 @@ desktop.ini
 
 # 2026-10-03 corrected summary snapshot
 !data/processed/seed42_adjudicated_pilot_ly_license_corrected_v4_2026-10-03.xlsx
+
+# 2026-10-03 PMC open-access candidate pool
+!data/interim/pmc_oa_candidate_pool_ly_v1_2026-10-03.json
