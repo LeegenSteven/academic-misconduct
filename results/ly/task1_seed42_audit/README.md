@@ -8,6 +8,6 @@
 - 逐条 CSV：
   - `seed42_SciFact_30_row_level_audit_v4_2026-10-04.csv`
   - `seed42_RED_30_row_level_audit_v4_2026-10-04.csv`
-- 完整工作簿：`../../data/processed/seed42_adjudicated_pilot_ly_license_corrected_v4_2026-10-03.xlsx`。
+- 完整工作簿：`data/processed/seed42_adjudicated_pilot_ly_license_corrected_v4_2026-10-03.xlsx`。
 
 字段保留双方标注、证据定位、最终裁决和空缺状态；空值代表尚未形成可用裁决，不用原始标签代替。
