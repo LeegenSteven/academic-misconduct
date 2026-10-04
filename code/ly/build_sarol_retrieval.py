@@ -147,6 +147,15 @@ def write_mapping(path: Path, rows: list[dict]) -> None:
         writer.writerows(rows)
 
 
+def portable_path(path: Path, root: Path) -> str:
+    """Write repository-relative paths when possible, never local usernames."""
+
+    try:
+        return path.resolve().relative_to(root.resolve()).as_posix()
+    except ValueError:
+        return path.resolve().as_posix()
+
+
 def build_candidate_row(claim: dict, ranked: list[tuple[int, int, str, float]]) -> dict:
     return {
         "id": str(claim["id"]),
@@ -298,20 +307,12 @@ def main() -> None:
             claims, rows, len(corpus), top_k, args.k1, args.b
         )
 
-    top10_rows = None
-    if 10 in set(args.top_k):
-        top10_rows = [
-            build_candidate_row(claim, ranked_by_claim[str(claim["id"])][:10])
-            for claim in claims
-        ]
-        write_jsonl(args.output / "per_claim_retrieval_audit_top10.jsonl", top10_rows)
-
     manifest = {
         "status": "completed",
         "data_version": "sarol-quality-v1",
         "split": args.split,
-        "claims_path": claims_path.as_posix(),
-        "corpus_path": corpus_path.as_posix(),
+        "claims_path": portable_path(claims_path, root),
+        "corpus_path": portable_path(corpus_path, root),
         "claims": len(claims),
         "corpus_blocks": len(corpus),
         "project_label_counts": dict(

@@ -2,8 +2,8 @@
   "status": "completed",
   "data_version": "sarol-quality-v1",
   "split": "dev",
-  "claims_path": "C:/Users/y/Desktop/学术引用不端/.repo_upload/data/quality_v1/sarol/claims-dev-model.jsonl",
-  "corpus_path": "C:/Users/y/Desktop/学术引用不端/.repo_upload/data/quality_v1/sarol/corpus.jsonl",
+  "claims_path": "data/quality_v1/sarol/claims-dev-model.jsonl",
+  "corpus_path": "data/quality_v1/sarol/corpus.jsonl",
   "claims": 316,
   "corpus_blocks": 8515,
   "project_label_counts": {
