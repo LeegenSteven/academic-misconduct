@@ -1,0 +1,97 @@
+{
+  "manifest_version": "qwen3_test_rerun_preparation_v1",
+  "date": "2026-10-04",
+  "status": "blocked_external_a100_unavailable",
+  "do_not_run": true,
+  "reason": "Chen Mingjin confirmed no historical Qwen3 606-Test output, frozen config, or run log; A100 currently unreachable.",
+  "target": {
+    "dataset": "Sarol Test",
+    "n": 606,
+    "required_model": "qwen3:latest",
+    "historical_model_digest_prefix": "500a1f067a9f",
+    "note": "Historical archive only; current server state not verified."
+  },
+  "local_files": {
+    "test_input_claims": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2_本周任务_2026-09-17\\01_标签统一\\converted-three-class-v2\\claims-test.jsonl",
+      "exists": true,
+      "bytes": 516336,
+      "sha256": "B458C9EA7ACB8630144652E732A846AFDFAC29230C20A61E402C628929890B50",
+      "lines": 606
+    },
+    "test_gold_frozen": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2_本周任务_2026-09-17\\01_标签统一\\gold_test_v2_frozen.csv",
+      "exists": true,
+      "bytes": 46554,
+      "sha256": "68CFA053BAA176093446197EBFB131925B1A27E3FAD8DBFA7170B46DE7A159CA"
+    },
+    "test_gold_independent": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2_本周任务_2026-09-17\\01_标签统一\\gold_test_v2_独立重算.csv",
+      "exists": true,
+      "bytes": 303412,
+      "sha256": "4AD6C6BB06F0A3161993F68E79815A4735328E6AD4A914D57A252680CD5A7ADE"
+    },
+    "qwen_prompt_template": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2_本周任务_2026-09-17\\03_大模型\\prompt_template.md",
+      "exists": true,
+      "bytes": 850,
+      "sha256": "102B277ACA09CD4EB8FFD5EC4924EE6C6C2A9B7196BAD0691A0E08A6E3E91DDC"
+    },
+    "batch_runner": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2_本周任务_2026-09-17\\03_大模型\\run_llm_batch.py",
+      "exists": true,
+      "bytes": 10352,
+      "sha256": "BCB59CED1D1B087FA2D43A3E18F1ACE0BDDAF953A3210A970FDCE3F5344F464D"
+    },
+    "multivers_baseline_predictions": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\陈明进，20261003，606test\\test_predictions_step2141.jsonl",
+      "exists": true,
+      "bytes": 37512,
+      "sha256": "2864B0CC9AC7B6FA4C43D0972C302C85123C83940C7F752D3005419125D5507C",
+      "lines": 606
+    },
+    "multivers_baseline_eval": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\陈明进，20261003，606test\\task4_finetuned_test_eval_task4_finetuned_full_step2141_2026-09-22.json",
+      "exists": true,
+      "bytes": 194091,
+      "sha256": "BD57BC42B2DC688B5344F29797EE60125BF9EE8ABAAFF9E400AB97CF94F4A6B8"
+    },
+    "multivers_test_log": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\陈明进，20261003，606test\\task4_test_eval_2026-09-22.log",
+      "exists": true,
+      "bytes": 1254,
+      "sha256": "FB60AC5A46B29F6FF397E296AF68EBD8297337BAF5269A130EE1F6BF9E9554A6"
+    }
+  },
+  "input_integrity": {
+    "rows": 606,
+    "id_min": 0,
+    "id_max": 605,
+    "unique_ids": 606,
+    "ids_are_0_to_605": true
+  },
+  "gold_frozen": {
+    "rows": 606,
+    "project_label_counts": {
+      "ACCURATE": 386,
+      "IRRELEVANT": 53,
+      "NOT_ACCURATE": 167
+    },
+    "mismatch_with_independent_ids": [
+      "482",
+      "487",
+      "495"
+    ],
+    "mismatch_count": 3
+  },
+  "missing_for_reproducible_qwen3_test": [
+    "model_inputs_test.jsonl (exact candidate-evidence construction)",
+    "model/checkpoint version and digest",
+    "frozen system/user prompt and template hash",
+    "decoding parameters and seed",
+    "A100 runtime/container/dependency versions",
+    "run log and raw responses",
+    "resource/time registration"
+  ],
+  "next_action": "Do not run until the missing reproducibility materials are supplied or the A100 resource is restored and a rerun registration is recorded."
+}
