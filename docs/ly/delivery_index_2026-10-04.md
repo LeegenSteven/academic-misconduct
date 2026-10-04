@@ -15,9 +15,26 @@
 
 - [30 条逐条状态表](../../results/ly/task2_demo30/demo30_repair_status_30_row_level_2026-10-04.csv)
 - [8 条已完成替换的双方裁决明细](../../data/processed/demo30_adjudicated_replacement_pilot_ly_2026-10-03.csv)
+- [最终合并与裁决 CSV v3](../../results/ly/task2_demo30/demo30_final_merged_adjudicated_v3_2026-10-04.csv)
+- [最终合并与裁决 Excel v3](../../results/ly/task2_demo30/demo30_final_merged_adjudicated_v3_2026-10-04.xlsx)
+- [最终合并说明 v3](../../results/ly/task2_demo30/demo30_final_merged_adjudicated_v3_2026-10-04.md)
 - [交付说明](../../results/ly/task2_demo30/README.md)
 
-30 条都已列出证据、双方字段和当前未完成问题；目前 8 条替换样本完成双标、定位和裁决，22 条仍需陈明进独立复核或补证/合规替换，因此只计 8 条合格。
+30 条均已列出证据、双方字段、最终工作标签和过程状态。8 条 replacement 已完成既有双方裁决；原示范剩余 22 条中陈明进明确回传 20 条，`demo_19`、`demo_20` 原回传仍待定，v3 仅以原始被引论文补核形成工作结论并保留该缺口。
+
+## 60 条证据定位语义分歧
+
+- [60 条共同裁决 Excel v3](../../results/ly/task2_evidence/task2_evidence_location_check_60_joint_adjudicated_v3_2026-10-04.xlsx)
+- [60 条共同裁决报告 v3](../../results/ly/task2_evidence/task2_evidence_location_check_60_joint_adjudicated_report_v3_2026-10-04.md)
+
+60 条均有共同裁决字段；最终 `evidence_valid` 为“是”18 条、“否”37 条、“证据不适用”5 条。原 v2 回传和双方原始值保留不改。
+
+## 正式数据划分与规模估算
+
+- [被引论文分组与规模估算依据](../../docs/ly/pmc_oa_v2_group_split_and_scale_basis_2026-10-04.md)
+- [新来源试标与划分方案](../../docs/ly/new_pilot_sampling_and_split_plan_ly_2026-10-03_v2.md)
+
+当前已完成分组规则、泄漏防范原则和估算公式；20 条 PMC 试标仍统一为 `new_pilot`，尚未形成正式 train/dev/test 映射。由于缺少实测纳入率和人工用时流水，正式样本规模、初筛量和工时数值尚未完成，不能写成已完成。
 
 ## 20 条 PMC natural 新引用
 
