@@ -1,0 +1,29 @@
+[1/4] 加载微调后模型...
+      Test 606 条
+[2/4] 构造 BM25 top-10 输入...
+[3/4] MultiVerS 推理（CPU）...
+      50/606 (365s)
+      100/606 (748s)
+      150/606 (1122s)
+      200/606 (1580s)
+      250/606 (1962s)
+      300/606 (2296s)
+      350/606 (2675s)
+      400/606 (3034s)
+      450/606 (3474s)
+      500/606 (3919s)
+      550/606 (4317s)
+      600/606 (4700s)
+      606/606 (4750s)
+[4/4] 指标（三类 P/R/F1 + 混淆矩阵）...
+
+=== 微调后 Test 606（BM25 top-10）===
+acc_sub(方案B)=0.604 (334/553)  整体acc=0.5512
+Macro-F1=0.3642
+  ACCURATE: {'P': 0.7409, 'R': 0.6295, 'F1': 0.6807, 'n': 386}
+  NOT_ACCURATE: {'P': 0.3297, 'R': 0.5482, 'F1': 0.4118, 'n': 166}
+  IRRELEVANT: {'P': 0, 'R': 0.0, 'F1': 0, 'n': 52}
+NOT_ACCURATE 召回=0.5482
+混淆矩阵(行=gold 列=pred): {'ACCURATE': {'ACCURATE': 243, 'NOT_ACCURATE': 143, 'IRRELEVANT': 0}, 'NOT_ACCURATE': {'ACCURATE': 75, 'NOT_ACCURATE': 91, 'IRRELEVANT': 0}, 'IRRELEVANT': {'ACCURATE': 10, 'NOT_ACCURATE': 42, 'IRRELEVANT': 0}}
+预测分布={'NOT_ACCURATE': 276, 'ACCURATE': 328, 'NEI': 2}
+结果已存: C:\Users\Administrator\Documents\Codex\2026-08-30\jie\outputs\task4_finetuned_test_eval_task4_finetuned_full_step2141_2026-09-22.json

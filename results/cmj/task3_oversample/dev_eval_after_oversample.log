@@ -1,0 +1,20 @@
+[1/4] 加载微调后模型...
+      Dev 316 条
+[2/4] 构造 BM25 top-10 输入...
+[3/4] MultiVerS 推理（CPU）...
+      50/316 (268s)
+      100/316 (467s)
+      150/316 (666s)
+      200/316 (875s)
+      250/316 (1061s)
+      300/316 (1259s)
+      316/316 (1310s)
+[4/4] 指标（方案B）...
+
+=== 微调后 Dev 316（BM25 top-10）===
+acc=0.3459 (101/292) Macro-F1=0.257
+per_class={'ACCURATE': {'P': 0, 'R': 0.0, 'F1': 0, 'n': 191}, 'NOT_ACCURATE': {'P': 0.3459, 'R': 1.0, 'F1': 0.514, 'n': 101}}
+NOT_ACCURATE 召回=1.0
+IRRELEVANT 预测分布={'NOT_ACCURATE': 24}
+整体预测分布={'NOT_ACCURATE': 316}
+结果已存: C:\Users\Administrator\Documents\Codex\2026-08-30\jie\outputs\task4_finetuned_dev_eval_task3_oversample2x_full_step2691_2026-09-17.json
