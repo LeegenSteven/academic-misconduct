@@ -1,7 +1,7 @@
 # Sarol quality v1 Dev BM25 top 10
 
-更新时间：2026-10-04  
-数据版本：`sarol-quality-v1`  
+更新时间：2026-10-04
+数据版本：`sarol-quality-v1`
 数据提交：GitHub `main` `4453cc3`
 
 ## 输入
