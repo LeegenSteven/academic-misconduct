@@ -1,18 +1,29 @@
+"""Build reproducible Sarol retrieval inputs from ``sarol-quality-v1``.
+
+The previous version recovered labels by matching the old ``annotations.zip``
+files in order. That is unsafe after the label repair. This version reads the
+repaired claims directly, uses their explicit ``gold`` field, and writes
+grouped lexical BM25 sentence candidates. The default Dev report is BM25
+top-10, matching the current evaluation convention.
+
+This script reports retrieval coverage only. It does not create model
+predictions or claim-level precision/recall/F1; use a matching prediction file
+with ``evaluate_sarol_transfer.py`` for those metrics.
+"""
+
 from __future__ import annotations
 
 import argparse
 import csv
 import json
+import math
 import re
-import zipfile
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 
-import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
 
-
-PROJECT_LABEL = {
+LABELS = ("ACCURATE", "NOT_ACCURATE", "IRRELEVANT")
+LEGACY_TO_PROJECT = {
     "ACCURATE": "ACCURATE",
     "INDIRECT": "ACCURATE",
     "INDIRECT_NOT_REVIEW": "ACCURATE",
@@ -22,169 +33,311 @@ PROJECT_LABEL = {
     "OVERSIMPLIFY": "NOT_ACCURATE",
     "ETIQUETTE": "NOT_ACCURATE",
     "IRRELEVANT": "IRRELEVANT",
+    "NEI": "IRRELEVANT",
 }
 
 
-def load_jsonl(path: Path):
+def load_jsonl(path: Path) -> list[dict]:
     with path.open(encoding="utf-8") as stream:
         return [json.loads(line) for line in stream if line.strip()]
 
 
-def write_jsonl(path: Path, rows):
+def write_jsonl(path: Path, rows: list[dict]) -> None:
     with path.open("w", encoding="utf-8") as stream:
         for row in rows:
             stream.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
-def normalize(text: str) -> str:
-    text = text.lower()
-    text = re.sub(r"<\|(?:multi_cit|cit|other_cit)\|>", " ", text)
-    return re.sub(r"[^a-z0-9]+", " ", text).strip()
+def tokens(text: str) -> list[str]:
+    """Use the same ASCII lexical tokenization as the existing BM25 scripts."""
+
+    return re.findall(r"[A-Za-z0-9]+", text.lower())
 
 
-def load_raw_dev_labels(annotations: Path):
-    rows = []
-    with zipfile.ZipFile(annotations) as archive:
-        names = [
-            name
-            for name in archive.namelist()
-            if name.startswith("annotations/Dev/citations/") and name.endswith(".json") and "__MACOSX" not in name
-        ]
-        for name in names:
-            row = json.loads(archive.read(name).decode("utf-8-sig"))
-            group_match = re.search(r"annotations/Dev/citations/(\d+)_", name)
-            if group_match is None:
-                raise ValueError(f"Cannot recover cited-paper group from {name}")
-            rows.append({
-                "file": name,
-                "group": int(group_match.group(1)),
-                "label": row["label"],
-                "paragraph": normalize(row["citing_paragraph"]),
-                "contexts": [normalize(item["text"]) for item in row["citation_context"]],
-            })
+def bm25_scores(
+    query: list[str],
+    documents: list[list[str]],
+    k1: float = 1.5,
+    b: float = 0.75,
+) -> list[float]:
+    """Return grouped BM25 scores for a claim's candidate sentences."""
+
+    if not documents:
+        return []
+    average_length = sum(len(document) for document in documents) / len(documents)
+    document_frequency = Counter(term for document in documents for term in set(document))
+    scores: list[float] = []
+    for document in documents:
+        term_frequency = Counter(document)
+        score = 0.0
+        for term in query:
+            frequency = term_frequency.get(term, 0)
+            if not frequency:
+                continue
+            idf = math.log(
+                1.0
+                + (len(documents) - document_frequency[term] + 0.5)
+                / (document_frequency[term] + 0.5)
+            )
+            denominator = frequency + k1 * (
+                1.0 - b + b * len(document) / max(average_length, 1.0)
+            )
+            score += idf * frequency * (k1 + 1.0) / denominator
+        scores.append(score)
+    return scores
+
+
+def project_label(raw_label: str | None) -> str | None:
+    if raw_label is None:
+        return None
+    if raw_label in LABELS:
+        return raw_label
+    try:
+        return LEGACY_TO_PROJECT[raw_label]
+    except KeyError as exc:
+        raise ValueError(f"Unsupported gold label: {raw_label!r}") from exc
+
+
+def sentence_candidates(claim: dict, corpus: dict[int, dict]) -> list[tuple[int, int, str]]:
+    candidates: list[tuple[int, int, str]] = []
+    for raw_doc_id in claim.get("cited_doc_ids", []):
+        doc_id = int(raw_doc_id)
+        document = corpus.get(doc_id)
+        if document is None:
+            continue
+        for sentence_index, sentence in enumerate(document.get("abstract", [])):
+            candidates.append((doc_id, sentence_index, str(sentence)))
+    return candidates
+
+
+def gold_sentence_keys(claim: dict) -> set[tuple[int, int]]:
+    keys: set[tuple[int, int]] = set()
+    for raw_doc_id, evidence_sets in claim.get("evidence", {}).items():
+        for evidence in evidence_sets:
+            for sentence_index in evidence.get("sentences", []):
+                keys.add((int(raw_doc_id), int(sentence_index)))
+    return keys
+
+
+def build_mapping(claims: list[dict], split: str) -> list[dict]:
+    rows: list[dict] = []
+    for claim in claims:
+        gold = project_label(claim.get("gold"))
+        evidence_keys = gold_sentence_keys(claim)
+        evidence_docs = {doc_id for doc_id, _ in evidence_keys}
+        rows.append(
+            {
+                "claim_id": str(claim["id"]),
+                "sample_id": claim.get("sample_id", ""),
+                "split": split,
+                "raw_label": claim.get("gold"),
+                "project_label": gold,
+                "evidence_missing": bool(claim.get("evidence_missing", not evidence_keys)),
+                "gold_evidence_doc_count": len(evidence_docs),
+                "gold_evidence_sentence_count": len(evidence_keys),
+            }
+        )
     return rows
 
 
-def recover_labels(claims, raw_rows):
-    """Pair claims and raw annotations by their stable order within each cited-paper group."""
-    raw_by_group = defaultdict(list)
-    for row in raw_rows:
-        raw_by_group[row["group"]].append(row)
-    claim_counts = Counter(int(claim["cited_doc_ids"][0]) // 1000 for claim in claims)
-    raw_counts = Counter({group: len(rows) for group, rows in raw_by_group.items()})
-    if claim_counts != raw_counts:
-        raise ValueError(f"Claim/raw group counts differ: claims={claim_counts}, raw={raw_counts}")
-
-    positions = Counter()
-    result = {}
-    for claim in claims:
-        candidate_groups = {int(doc_id) // 1000 for doc_id in claim["cited_doc_ids"]}
-        if len(candidate_groups) != 1:
-            raise ValueError(f"Claim {claim['id']} spans unexpected cited-paper groups: {candidate_groups}")
-        group = next(iter(candidate_groups))
-        raw = raw_by_group[group][positions[group]]
-        positions[group] += 1
-        normalized = normalize(claim["claim"])
-        context_matches = any(
-            context == normalized or context in normalized or normalized in context
-            for context in raw["contexts"]
-        )
-        if not context_matches:
-            raise ValueError(f"Claim/raw order mismatch for claim {claim['id']} and {raw['file']}")
-        result[claim["id"]] = (raw["label"], [raw["file"]])
-    return result
-
-
-def main():
-    root = Path(__file__).resolve().parent
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--data", type=Path, default=root / "成员1反馈 Data")
-    parser.add_argument("--output", type=Path, default=root / "sarol_transfer_input")
-    parser.add_argument("--top-k", type=int, nargs="+", default=[5, 10, 20])
-    args = parser.parse_args()
-    args.output.mkdir(parents=True, exist_ok=True)
-
-    claims = load_jsonl(args.data / "multivers-format" / "claims-dev.jsonl")
-    corpus = load_jsonl(args.data / "multivers-format" / "corpus.jsonl")
-    raw_rows = load_raw_dev_labels(args.data / "annotations.zip")
-    labels_by_claim = recover_labels(claims, raw_rows)
-    corpus_by_id = {row["doc_id"]: row for row in corpus}
-    corpus_index = {row["doc_id"]: index for index, row in enumerate(corpus)}
-    texts = [row.get("title", "") + " " + " ".join(row.get("abstract", [])) for row in corpus]
-
-    vectorizer = TfidfVectorizer(lowercase=True, strip_accents="unicode", ngram_range=(1, 2), sublinear_tf=True)
-    doc_matrix = vectorizer.fit_transform(texts)
-    query_matrix = vectorizer.transform([row["claim"] for row in claims])
-
-    mappings = []
-    rankings = {}
-    for row_index, claim in enumerate(claims):
-        fine_label, annotation_files = labels_by_claim[claim["id"]]
-        candidates = claim["cited_doc_ids"]
-        indices = [corpus_index[doc_id] for doc_id in candidates]
-        scores = (query_matrix[row_index] @ doc_matrix[indices].T).toarray()[0]
-        order = np.argsort(scores)[::-1]
-        ranked_docs = [candidates[i] for i in order]
-        rankings[claim["id"]] = ranked_docs
-        mappings.append({
-            "claim_id": claim["id"],
-            "fine_label": fine_label,
-            "project_label": PROJECT_LABEL[fine_label],
-            "candidate_doc_count": len(candidates),
-            "gold_evidence_doc_count": len(claim.get("evidence", {})),
-            "annotation_files": " | ".join(annotation_files),
-        })
-
-    with (args.output / "gold_mapping.csv").open("w", encoding="utf-8-sig", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=mappings[0].keys())
+def write_mapping(path: Path, rows: list[dict]) -> None:
+    with path.open("w", encoding="utf-8-sig", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
         writer.writeheader()
-        writer.writerows(mappings)
+        writer.writerows(rows)
 
-    label_counts = Counter(row["project_label"] for row in mappings)
-    fine_counts = Counter(row["fine_label"] for row in mappings)
-    for k in sorted(set(args.top_k)):
-        output_rows = []
-        gold_total = 0
-        gold_hit = 0
-        claims_with_gold = 0
-        claims_hit = 0
-        for claim in claims:
-            docs = rankings[claim["id"]][:k]
-            output_rows.append({"id": claim["id"], "claim": claim["claim"], "doc_ids": docs})
-            gold_docs = {int(doc_id) for doc_id in claim.get("evidence", {})}
-            if gold_docs:
-                claims_with_gold += 1
-                hits = gold_docs & set(docs)
-                gold_total += len(gold_docs)
-                gold_hit += len(hits)
-                claims_hit += int(bool(hits))
-        write_jsonl(args.output / f"claims_dev_tfidf_top{k}.jsonl", output_rows)
-        metrics = {
-            "dataset": "Sarol 2024 dev",
-            "retriever": "TF-IDF unigram + bigram within cited_doc_ids",
-            "top_k": k,
-            "claims": len(claims),
-            "corpus_blocks": len(corpus),
-            "gold_evidence_docs": gold_total,
-            "retrieved_gold_evidence_docs": gold_hit,
-            "evidence_document_recall": gold_hit / gold_total if gold_total else 0.0,
-            "claims_with_gold_evidence": claims_with_gold,
-            "claims_with_at_least_one_hit": claims_hit,
-            "claim_level_retrieval_recall": claims_hit / claims_with_gold if claims_with_gold else 0.0,
+
+def build_candidate_row(claim: dict, ranked: list[tuple[int, int, str, float]]) -> dict:
+    return {
+        "id": str(claim["id"]),
+        "sample_id": claim.get("sample_id", ""),
+        "claim": claim["claim"],
+        "doc_ids": [doc_id for doc_id, _, _, _ in ranked],
+        "evidence_sentences": [
+            {
+                "doc_id": doc_id,
+                "sentence_index": sentence_index,
+                "text": text,
+                "bm25_score": round(score, 8),
+            }
+            for doc_id, sentence_index, text, score in ranked
+        ],
+    }
+
+
+def retrieval_summary(
+    claims: list[dict],
+    rows: list[dict],
+    corpus_blocks: int,
+    top_k: int,
+    k1: float,
+    b: float,
+) -> dict:
+    gold_sentence_total = 0
+    hit_sentence_total = 0
+    gold_doc_total = 0
+    hit_doc_total = 0
+    claims_with_gold = 0
+    claims_with_sentence_hit = 0
+    claims_with_doc_hit = 0
+    empty_candidates = 0
+
+    for claim, row in zip(claims, rows):
+        gold_keys = gold_sentence_keys(claim)
+        gold_docs = {doc_id for doc_id, _ in gold_keys}
+        top_keys = {
+            (item["doc_id"], item["sentence_index"])
+            for item in row["evidence_sentences"]
         }
-        (args.output / f"retrieval_metrics_top{k}.json").write_text(json.dumps(metrics, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(json.dumps(metrics, ensure_ascii=False))
+        top_docs = {item["doc_id"] for item in row["evidence_sentences"]}
+        gold_sentence_total += len(gold_keys)
+        hit_sentence_total += len(gold_keys & top_keys)
+        gold_doc_total += len(gold_docs)
+        hit_doc_total += len(gold_docs & top_docs)
+        claims_with_gold += int(bool(gold_keys))
+        claims_with_sentence_hit += int(bool(gold_keys & top_keys))
+        claims_with_doc_hit += int(bool(gold_docs & top_docs))
+        empty_candidates += int(not row["evidence_sentences"])
+
+    return {
+        "top_k": top_k,
+        "claims": len(claims),
+        "corpus_blocks": corpus_blocks,
+        "retriever": "grouped lexical BM25",
+        "candidate_scope": "all abstract sentences from each claim's cited_doc_ids",
+        "k1": k1,
+        "b": b,
+        "gold_sentence_total": gold_sentence_total,
+        "retrieved_gold_sentence_total": hit_sentence_total,
+        "evidence_sentence_recall": hit_sentence_total / gold_sentence_total
+        if gold_sentence_total
+        else 0.0,
+        "gold_document_total": gold_doc_total,
+        "retrieved_gold_document_total": hit_doc_total,
+        "evidence_document_recall": hit_doc_total / gold_doc_total
+        if gold_doc_total
+        else 0.0,
+        "claims_with_gold_evidence": claims_with_gold,
+        "claims_with_at_least_one_sentence_hit": claims_with_sentence_hit,
+        "claim_level_sentence_recall": claims_with_sentence_hit / claims_with_gold
+        if claims_with_gold
+        else 0.0,
+        "claims_with_at_least_one_document_hit": claims_with_doc_hit,
+        "claim_level_document_recall": claims_with_doc_hit / claims_with_gold
+        if claims_with_gold
+        else 0.0,
+        "empty_candidate_claims": empty_candidates,
+    }
+
+
+def main() -> None:
+    root = Path(__file__).resolve().parents[2]
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--data",
+        type=Path,
+        default=root / "data" / "quality_v1" / "sarol",
+        help="Directory containing claims-{split}-model.jsonl and corpus.jsonl.",
+    )
+    parser.add_argument("--split", choices=("train", "dev", "test"), default="dev")
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=root / "results" / "ly" / "sarol_quality_v1_dev_bm25",
+    )
+    parser.add_argument("--top-k", type=int, nargs="+", default=[10])
+    parser.add_argument("--k1", type=float, default=1.5)
+    parser.add_argument("--b", type=float, default=0.75)
+    args = parser.parse_args()
+
+    if any(k <= 0 for k in args.top_k):
+        raise ValueError("Every --top-k value must be positive")
+    claims_path = args.data / f"claims-{args.split}-model.jsonl"
+    corpus_path = args.data / "corpus.jsonl"
+    if not claims_path.exists():
+        raise FileNotFoundError(claims_path)
+    if not corpus_path.exists():
+        raise FileNotFoundError(corpus_path)
+
+    claims = load_jsonl(claims_path)
+    corpus = {int(row["doc_id"]): row for row in load_jsonl(corpus_path)}
+    if not claims:
+        raise ValueError("No claims were loaded")
+    if len({str(row["id"]) for row in claims}) != len(claims):
+        raise ValueError("Claim IDs are not unique")
+
+    mapping = build_mapping(claims, args.split)
+    args.output.mkdir(parents=True, exist_ok=True)
+    write_mapping(args.output / f"gold_mapping_{args.split}.csv", mapping)
+
+    ranked_by_claim: dict[str, list[tuple[int, int, str, float]]] = {}
+    for claim in claims:
+        candidates = sentence_candidates(claim, corpus)
+        scores = bm25_scores(
+            tokens(claim["claim"]),
+            [tokens(item[2]) for item in candidates],
+            args.k1,
+            args.b,
+        )
+        order = sorted(
+            range(len(candidates)),
+            key=lambda index: (-scores[index], candidates[index][0], candidates[index][1]),
+        )
+        ranked_by_claim[str(claim["id"])] = [
+            (*candidates[index], scores[index]) for index in order
+        ]
+
+    metric_summaries: dict[str, dict] = {}
+    for top_k in sorted(set(args.top_k)):
+        rows: list[dict] = []
+        for claim in claims:
+            ranked = ranked_by_claim[str(claim["id"])][:top_k]
+            rows.append(build_candidate_row(claim, ranked))
+        write_jsonl(args.output / f"claims_{args.split}_bm25_top{top_k}.jsonl", rows)
+        metric_summaries[str(top_k)] = retrieval_summary(
+            claims, rows, len(corpus), top_k, args.k1, args.b
+        )
+
+    top10_rows = None
+    if 10 in set(args.top_k):
+        top10_rows = [
+            build_candidate_row(claim, ranked_by_claim[str(claim["id"])][:10])
+            for claim in claims
+        ]
+        write_jsonl(args.output / "per_claim_retrieval_audit_top10.jsonl", top10_rows)
 
     manifest = {
+        "status": "completed",
+        "data_version": "sarol-quality-v1",
+        "split": args.split,
+        "claims_path": claims_path.as_posix(),
+        "corpus_path": corpus_path.as_posix(),
         "claims": len(claims),
         "corpus_blocks": len(corpus),
-        "project_label_counts": dict(label_counts),
-        "fine_label_counts": dict(fine_counts),
-        "aggregation_protocol": "NOT_ACCURATE if any CONTRADICT prediction; else ACCURATE if any SUPPORT prediction; else IRRELEVANT",
-        "note": "Raw fine labels are paired by stable order within each cited-paper group and verified against normalized citation_context text.",
+        "project_label_counts": dict(
+            Counter(row["project_label"] for row in mapping if row["project_label"] is not None)
+        ),
+        "gold_null_count": sum(row["project_label"] is None for row in mapping),
+        "top_k": sorted(set(args.top_k)),
+        "retriever": "grouped lexical BM25",
+        "candidate_scope": "all abstract sentences from each claim's cited_doc_ids",
+        "gold_source": "explicit claims[*].gold; no annotations.zip recovery",
+        "note": "Retrieval metrics only. Model class metrics require matching predictions and evaluate_sarol_transfer.py.",
     }
-    (args.output / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps(manifest, ensure_ascii=False))
+    (args.output / "manifest.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    for top_k, summary in metric_summaries.items():
+        (args.output / f"retrieval_metrics_top{top_k}.json").write_text(
+            json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+    print(
+        json.dumps(
+            {"manifest": manifest, "metrics": metric_summaries},
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
 
 
 if __name__ == "__main__":

@@ -1,0 +1,18 @@
+{
+  "data/quality_v1/sarol/claims-dev-model.jsonl": {
+    "sha256": "1EFC1B9DDB77DBE79F3F80E511449B81C430FDC519652FB8584D39E4FAE6CD4A",
+    "bytes": 327379
+  },
+  "data/quality_v1/sarol/corpus.jsonl": {
+    "sha256": "0D60D3ADDF7B450D7291FD1C68D27AB6E5B8B38C177F374AE2CCE5BB1A2885D3",
+    "bytes": 5154984
+  },
+  "data/quality_v1/sarol/gold_mapping-dev.csv": {
+    "sha256": "0F169FF7875D9483DC882C0DDDD96CC25ED6F0249A298C014870E8B9E101B989",
+    "bytes": 8011
+  },
+  "code/ly/build_sarol_retrieval.py": {
+    "sha256": "825960FA41ADABD80062FE505CF722A14ED47BBA5B5913D77981AA1447C8E3A3",
+    "bytes": 12455
+  }
+}

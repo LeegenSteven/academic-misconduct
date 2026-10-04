@@ -1,0 +1,21 @@
+{
+  "top_k": 10,
+  "claims": 316,
+  "corpus_blocks": 8515,
+  "retriever": "grouped lexical BM25",
+  "candidate_scope": "all abstract sentences from each claim's cited_doc_ids",
+  "k1": 1.5,
+  "b": 0.75,
+  "gold_sentence_total": 597,
+  "retrieved_gold_sentence_total": 208,
+  "evidence_sentence_recall": 0.34840871021775544,
+  "gold_document_total": 361,
+  "retrieved_gold_document_total": 230,
+  "evidence_document_recall": 0.6371191135734072,
+  "claims_with_gold_evidence": 255,
+  "claims_with_at_least_one_sentence_hit": 152,
+  "claim_level_sentence_recall": 0.596078431372549,
+  "claims_with_at_least_one_document_hit": 188,
+  "claim_level_document_recall": 0.7372549019607844,
+  "empty_candidate_claims": 0
+}

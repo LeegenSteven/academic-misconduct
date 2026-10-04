@@ -20,7 +20,7 @@
 - [最终合并说明 v3](../../results/ly/task2_demo30/demo30_final_merged_adjudicated_v3_2026-10-04.md)
 - [交付说明](../../results/ly/task2_demo30/README.md)
 
-30 条均已列出证据、双方字段、最终工作标签和过程状态。8 条 replacement 已完成既有双方裁决；原示范剩余 22 条中陈明进明确回传 20 条，`demo_19`、`demo_20` 原回传仍待定，v3 仅以原始被引论文补核形成工作结论并保留该缺口。
+30 条均已列出证据、双方字段、最终工作标签和过程状态。GitHub 最新复核确认版中，30 条示范数据有 28 条可用标签、2 条待定（`demo_17`、`demo_25`）；此前 v3 工作版保留为过程材料，不用旧过程状态覆盖最新确认记录。详见 [`review-confirmed-v1`](../../data/quality_v1/review_confirmation_v1/README.md)。
 
 ## 60 条证据定位语义分歧
 
@@ -43,7 +43,14 @@
 - [原文/BioC 定位核验 CSV](../../results/ly/task3_natural_trial/pmc_oa_v2_source_snapshot_and_locator_verification_v1_2026-10-04.csv)
 - [PMC 快照 SHA-256 清单](../../results/ly/task3_natural_trial/pmc_oa_v2_source_snapshot_sha256_manifest_2026-10-04.csv)
 
-20/20 条均已定位、完成双方标注和最终裁决，并确认与现有 train/dev/test、调参和评测集无重叠；最终标签为 ACCURATE 5、NOT_ACCURATE 13、IRRELEVANT 2，原始标签和裁决理由均保留。
+最新复核确认版中，20 条 PMC 唯一候选有 16 条可用标签、4 条待定；原始重复项 `PMC-OA-V2-08`、`PMC-OA-V2-18` 已由 `PMC-REPAIR-08`、`PMC-REPAIR-18` 替换。直接用于带标签评测时排除待定项，详见 [`review-confirmed-v1`](../../data/quality_v1/review_confirmation_v1/README.md)。
+
+## Sarol quality v1 Dev BM25 核验
+
+- [Dev BM25 top-10 检索结果](../../results/ly/sarol_quality_v1_dev_bm25_v1/)
+- [核验状态说明](../../docs/ly/sarol_quality_v1_dev_bm25_status_2026-10-04.md)
+
+修复版 Dev 316 条的 top-10 证据句召回为 0.3484，证据文档召回为 0.6371，claim 级证据句召回为 0.5961，claim 级证据文档召回为 0.7373。该目录是检索覆盖诊断；三分类模型指标待修复版 Train 重训后的匹配预测。
 
 ## Qwen3 Test 606 条
 

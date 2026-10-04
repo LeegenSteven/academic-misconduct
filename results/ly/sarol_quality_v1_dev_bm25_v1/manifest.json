@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "data_version": "sarol-quality-v1",
+  "split": "dev",
+  "claims_path": "C:/Users/y/Desktop/学术引用不端/.repo_upload/data/quality_v1/sarol/claims-dev-model.jsonl",
+  "corpus_path": "C:/Users/y/Desktop/学术引用不端/.repo_upload/data/quality_v1/sarol/corpus.jsonl",
+  "claims": 316,
+  "corpus_blocks": 8515,
+  "project_label_counts": {
+    "ACCURATE": 191,
+    "NOT_ACCURATE": 101,
+    "IRRELEVANT": 24
+  },
+  "gold_null_count": 0,
+  "top_k": [
+    10
+  ],
+  "retriever": "grouped lexical BM25",
+  "candidate_scope": "all abstract sentences from each claim's cited_doc_ids",
+  "gold_source": "explicit claims[*].gold; no annotations.zip recovery",
+  "note": "Retrieval metrics only. Model class metrics require matching predictions and evaluate_sarol_transfer.py."
+}
