@@ -33,6 +33,20 @@ academic-misconduct/
 
 当前李云侧提交包含：`code/ly/` 下的评估与检索脚本、`scripts/fetch_seed42_sources.py` 和 `scripts/validate_seed42_snapshot.py`，以及 `data/processed/seed42_source_audit_ly_v19.csv` 脱敏快照和 `data/processed/seed42_source_audit_ly_v19.xlsx` 完整核查工作簿。两份文件都不包含原始下载包或最终裁决值。
 
+## 2026-10-04 逐条交付状态
+
+线路一负责人要求的逐条查看入口集中在 [`docs/ly/delivery_index_2026-10-04.md`](docs/ly/delivery_index_2026-10-04.md)。当前状态如下：
+
+| 交付项 | 当前合格数 | 未完成/排除 | 逐条入口 |
+|---|---:|---:|---|
+| seed=42 SciFact 30 条 | 17/30 | 13 条源文缺失/待核 | [`SciFact CSV`](results/ly/task1_seed42_audit/seed42_SciFact_30_row_level_audit_v4_2026-10-04.csv) |
+| seed=42 ReferenceErrorDetection 30 条 | 26/30 | 4 条不可用/排除 | [`RED CSV`](results/ly/task1_seed42_audit/seed42_RED_30_row_level_audit_v4_2026-10-04.csv) |
+| 两个数据源合计 | 43/60 | 17 条未形成合格样本 | [`完整工作簿`](data/processed/seed42_adjudicated_pilot_ly_license_corrected_v4_2026-10-03.xlsx) |
+| demo30 示范修复 | 8/30 | 22 条待协作或补证/替换 | [`30 条状态表`](results/ly/task2_demo30/demo30_repair_status_30_row_level_2026-10-04.csv) |
+| PMC natural 新试标集 | 20/20 | 0 | [`最终 v3 工作簿`](results/ly/task3_natural_trial/pmc_oa_v2_final_trial_set_v3_2026-10-04.xlsx) |
+
+这里的“合格”只表示该交付项已具备可回溯证据和最终裁决；不同交付项不能直接相加当作一个最终大数据集。Qwen3 的 606 条 Test 尚未完成：仓库中的 606 条原始预测和日志属于 MultiVerS `step2141`，不是 Qwen3；状态和缺少材料见 [`A100/Qwen3 核查记录`](docs/ly/a100_qwen3_test_audit_ly_2026-10-04.md)。
+
 ## 协作约定
 
 | 目录 | 归属 | 规则 |
