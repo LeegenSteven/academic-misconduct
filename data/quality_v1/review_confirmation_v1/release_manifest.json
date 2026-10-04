@@ -1,0 +1,54 @@
+{
+  "version": "review-confirmed-v1-2026-10-04",
+  "counts": {
+    "demo30": {
+      "total": 30,
+      "with_confirmed_or_existing_label": 28,
+      "pending": 2,
+      "label_counts": {
+        "ACCURATE": 16,
+        "NOT_ACCURATE": 10,
+        "IRRELEVANT": 2
+      }
+    },
+    "pmc20_unique": {
+      "total": 20,
+      "with_confirmed_or_existing_label": 16,
+      "pending": 4,
+      "label_counts": {
+        "ACCURATE": 14,
+        "NOT_ACCURATE": 1,
+        "IRRELEVANT": 1
+      }
+    }
+  },
+  "new_supervisor_confirmations": 27,
+  "existing_human_adjudications_carried_forward": 17,
+  "pending_ids": [
+    "demo_17",
+    "demo_25",
+    "PMC-OA-V2-04",
+    "PMC-OA-V2-09",
+    "PMC-OA-V2-19",
+    "PMC-REPAIR-18"
+  ],
+  "excluded_original_duplicates": [
+    "PMC-OA-V2-08",
+    "PMC-OA-V2-18"
+  ],
+  "sarol_training_version_unchanged": "sarol-quality-v1",
+  "sarol_split_counts": {
+    "train": 2141,
+    "dev": 316,
+    "test": 606
+  },
+  "user_confirmation_method": "supervisor_acceptance_of_proposed_set",
+  "independent_human_agreement_statistics_unchanged": true,
+  "source_limitations": [
+    {
+      "id": "demo_19",
+      "limitation": "被引Vickers全文未获取；已核对完整摘要和施引参考文献25的真实引用链。"
+    }
+  ],
+  "training_data_url": "https://github.com/LeegenSteven/academic-misconduct/tree/main/data/quality_v1/sarol"
+}
