@@ -35,3 +35,11 @@
 输出文件：`C:\Users\y\Desktop\学术引用不端\成员2_本周任务_2026_09_28\04_证据定位\task2_evidence_location_check_60_李云个人定位核验_v1_2026-10-04.csv`
 
 输出 CSV SHA-256：`74DA78AEA211906DFA4CC88DFBA706BEAE33E8825B13949EE56006EF2473D564`
+
+## 师兄盲核空表
+
+已另存 60 条独立复核空表，仅保留 `claim_id`、`claim` 和 `model_ev`，不含李云个人判断、`gold`、`gold_ev` 或 `pred`：
+
+`C:\Users\y\Desktop\学术引用不端\成员2_本周任务_2026_09_28\04_证据定位\task2_evidence_location_check_60_陈明进独立复核空表_v1_2026-10-04.csv`
+
+盲核表 SHA-256：`90660D27D04EAAC327DD5A6E3E5D6C9CE4177D6A3A54F1F00274826DB1553CF4`
