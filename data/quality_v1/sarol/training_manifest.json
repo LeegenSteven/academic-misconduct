@@ -1,0 +1,30 @@
+{
+  "source_repository": "https://github.com/ScienceNLP-Lab/Citation-Integrity",
+  "source_commit": "e9823957bb263db9ae402351b76d88ff1a723712",
+  "source_readme": "The repository explicitly describes its published data and code.",
+  "publication_scope": "Repaired public Sarol training data, label mappings, source attribution and usage instructions only.",
+  "claim_texts_and_reference_ids_match_public_upstream": 3063,
+  "corpus_semantically_identical_to_public_upstream": true,
+  "corpus_blocks": 8515,
+  "version": "sarol-quality-v1",
+  "counts": {
+    "train": 2141,
+    "dev": 316,
+    "test": 606
+  },
+  "corrected_legacy_labels": {
+    "train": 36,
+    "dev": 0,
+    "test": 3
+  },
+  "files": {
+    "claims-train-model.jsonl": "e6f430bc71813d90f7be183449f236fc8e0625aba9a7042f6f2baa8cc3c24ae5",
+    "gold_mapping-train.csv": "1192d29eaecb2583bbb0cda595af90a9c6b9a7337f2a44c83378ee72338e4b36",
+    "claims-dev-model.jsonl": "1efc1b9ddb77dbe79f3f80e511449b81c430fdc519652fb8584d39e4fae6cd4a",
+    "gold_mapping-dev.csv": "0f169ff7875d9483dc882c0dddd96cc25ed6f0249a298c014870e8b9e101b989",
+    "claims-test-model.jsonl": "cfafb28d0a176c0598a98ebfd348f184eb8011620af7497b350bd7e13af5605e",
+    "gold_mapping-test.csv": "9713e7a95a0416dc96ea16017e1d9d512911c85ec188a5a61b97317e0784ecab",
+    "corpus.jsonl": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3",
+    "UPSTREAM_LICENSE.txt": "d69b3760f116dbc84fb356060832cb15027e19b9f2ecfc22fb47a65fc7c53868"
+  }
+}

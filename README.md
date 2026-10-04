@@ -2,7 +2,11 @@
 
 学术不端相关研究的代码与数据仓库。
 
-> 本仓库目前为**私有**。`data/raw/` 可能包含涉及具体个人或机构的未脱敏记录，在明确脱敏方案之前请勿转为公开。
+
+
+## 2026-10-04 修复后的训练数据
+
+两位同学本次重训从 [`data/quality_v1/sarol/`](data/quality_v1/sarol/) 取三份 `*-model.jsonl` 和 `corpus.jsonl`。Train2141、Dev316、Test606，标签读显式gold，已修正Train36条及Test3条错配。具体路径调整见 [训练数据使用说明](data/quality_v1/TRAINING_GUIDE.md)。
 
 ## 目录结构
 

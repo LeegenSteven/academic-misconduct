@@ -1,0 +1,2 @@
+# Preserve the published data bytes and SHA-256 on all platforms.
+data/quality_v1/** -text
