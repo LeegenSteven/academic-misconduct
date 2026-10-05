@@ -1,0 +1,11 @@
+﻿candidate_id,annotator_1_label,annotator_2_label,label_agreement,recommended_label_provisional,recommendation_status,fulltext_locator,source_check_summary,unresolved_issue,reason_quality_note
+PMC-OA-V3-01,ACCURATE,ACCURATE,一致,ACCURATE,一致，待共同确认,PMC10045528 XML p=5（目标文献中关于生物相容性、非毒性及根尖周组织接触的段落）,双方标签一致；目标文献与施引语境均支持根管封闭材料应具有生物相容性和非毒性。,无标签分歧；仍需按项目流程保留共同确认记录。,
+PMC-OA-V3-02,NOT_ACCURATE,ACCURATE,分歧,,待共同裁决,PMC10765876 XML p=5、p=8、p=52（根尖周组织、组织相互作用、生物相容性/非毒性）,全文支持施引段中关于根尖周组织耐受/生物相容性的部分，但该施引段还包含易于置入、工作时间和理化性质等多个并列断言。,需先确认口径：按完整施引段整体支持，还是按该引用实际覆盖的分句/证据片段判断。两种口径可能导致不同标签。,
+PMC-OA-V3-03,NOT_ACCURATE,ACCURATE,分歧,NOT_ACCURATE,来源核对后建议修订,PMC4868912 XML p=39（adhesion 定义及 mechanical interlocking forces 说明）,全文明确将根管封闭剂的 adhesion 定义为对牙本质和牙胶尖的黏附，并指出相关 attachment 涉及机械嵌合力，而不是施引句所称的 molecular attraction。,李云侧原标签为 ACCURATE，建议按全文直接矛盾修订为 NOT_ACCURATE；仍需双方共同确认。,
+PMC-OA-V3-04,NOT_ACCURATE,ACCURATE,分歧,NOT_ACCURATE,来源核对后建议修订,PMC4841349 XML p=2、p=19、p=28、p=30（AH-Plus、Endosequence BC、干燥根管及断裂模式）,全文支持 AH-Plus、干燥根管、CHX 以及断裂模式的若干事实，但目标文献使用的是 Endosequence BC；施引段写成 Sealer Plus BC，且整段包含多项并列结论。,需确认 Sealer Plus BC 是否为可追溯的同一材料/别名；若不能证明，产品名不一致使整段不能直接判为 ACCURATE。,
+PMC-OA-V3-05,NOT_ACCURATE,NOT_ACCURATE,一致,NOT_ACCURATE,一致，待共同确认,PMC13324970 XML（双方记录的证据定位）,双方标签一致，且证据状态一致；保留原始标签与理由，不改写双方原值。,无标签分歧；仍需按项目流程保留共同确认记录。,
+PMC-OA-V3-06,NOT_ACCURATE,NOT_ACCURATE,一致,NOT_ACCURATE,一致，待共同确认,PMC8876357 XML（双方记录的证据定位）,双方标签一致，且证据状态一致；保留原始标签与理由，不改写双方原值。,无标签分歧；仍需按项目流程保留共同确认记录。,
+PMC-OA-V3-07,ACCURATE,NOT_ACCURATE,分歧,,待共同裁决,PMC13193722 XML p=1、p=7、p=8（D/L-2HG 的手性偏好、PTM 与 MS/蛋白质组学证据）,全文支持手性差异及其对生物/肿瘤过程的影响，也支持 MS/蛋白质组学用于研究相关修饰；但施引句把“simple and rapid exploration”与生物学表现写在同一多引文句中，单个目标引用未必覆盖全部断言。,需确认按多引用分句归属裁决，还是要求单个目标文献支持整句；建议先拆分引用覆盖范围再共同裁决。,
+PMC-OA-V3-08,NOT_ACCURATE,ACCURATE,分歧,ACCURATE,来源核对后建议保留,PMC9708575 XML p=13、p=19–24、p=35（PNN 降解/重塑与关联、空间、社会、听觉记忆）,全文直接讨论成年期 PNN 的降解/重塑、神经可塑性以及关联、空间、社会和听觉学习/记忆效应；目标文献覆盖施引段的核心事实。,陈明进侧按摘要判断为 NOT_ACCURATE；全文核对后建议改为 ACCURATE，但仍需共同确认。,
+PMC-OA-V3-09,ACCURATE,ACCURATE,一致,ACCURATE,一致，待共同确认,PMC7504301 XML（双方记录的证据定位）,双方标签一致，且证据状态一致；保留原始标签与理由，不改写双方原值。,无标签分歧；仍需按项目流程保留共同确认记录。,
+PMC-OA-V3-10,ACCURATE,ACCURATE,一致,ACCURATE,标签一致，但理由需修正,PMC10464498 XML p=3（脑老化、胶质细胞反应、神经炎症和神经元退化）,标签双方均为 ACCURATE；全文 p=3 支持脑老化伴随胶质细胞反应、神经炎症和神经元退化等施引内容。,陈明进侧理由与 V3-09 重复，未对应 PMC10464498 的具体内容；应补写与本条来源相符的理由。,理由质量问题：疑似复制 V3-09 理由；不改变原始标签。
