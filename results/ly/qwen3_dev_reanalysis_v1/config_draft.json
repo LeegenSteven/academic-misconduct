@@ -1,0 +1,72 @@
+{
+  "config_version": "qwen3_sarol_dev_test_draft_v1",
+  "status": "draft_pending_a100_verification",
+  "purpose": "Prepare repaired Sarol Dev/Test run; not a frozen A100 run record.",
+  "dataset": {
+    "version": "sarol-quality-v1",
+    "claims_train": "data/quality_v1/sarol/claims-train-model.jsonl",
+    "claims_dev": "data/quality_v1/sarol/claims-dev-model.jsonl",
+    "claims_test": "data/quality_v1/sarol/claims-test-model.jsonl",
+    "corpus": "data/quality_v1/sarol/corpus.jsonl",
+    "gold_dev": "data/quality_v1/sarol/gold_mapping-dev.csv",
+    "gold_test": "data/quality_v1/sarol/gold_mapping-test.csv"
+  },
+  "input_hashes": {
+    "prompt_template": "102B277ACA09CD4EB8FFD5EC4924EE6C6C2A9B7196BAD0691A0E08A6E3E91DDC",
+    "output_schema": "5EA3D81D5E5D04872F84BA21B606B828AE89244F6175B372E6B566FDB1499027",
+    "batch_runner": "BCB59CED1D1B087FA2D43A3E18F1ACE0BDDAF953A3210A970FDCE3F5344F464D",
+    "dev_model_inputs": "2F8EBA82E36C833D99D0B080C9793D708F98A6DD6A34E4364265E67345FB2F94",
+    "dev_predictions": "C0ED5D320EEDFFB8A908ED0187F4054C82263AA7B462695164E8122EB8F6C069",
+    "dev_claims": "1EFC1B9DDB77DBE79F3F80E511449B81C430FDC519652FB8584D39E4FAE6CD4A",
+    "dev_gold": "0F169FF7875D9483DC882C0DDDD96CC25ED6F0249A298C014870E8B9E101B989",
+    "corpus": "0D60D3ADDF7B450D7291FD1C68D27AB6E5B8B38C177F374AE2CCE5BB1A2885D3"
+  },
+  "prompt": {
+    "source": "local prompt_template.md",
+    "sha256": "102B277ACA09CD4EB8FFD5EC4924EE6C6C2A9B7196BAD0691A0E08A6E3E91DDC",
+    "must_confirm_on_a100": true
+  },
+  "output_schema": {
+    "source": "local output_schema.json",
+    "sha256": "5EA3D81D5E5D04872F84BA21B606B828AE89244F6175B372E6B566FDB1499027",
+    "required_fields": [
+      "claim_id",
+      "label",
+      "evidence_ids",
+      "reason",
+      "confidence",
+      "failure_status"
+    ]
+  },
+  "evidence_input": {
+    "historical_dev_inputs_source": "local model_inputs_dev316.jsonl",
+    "historical_dev_inputs_sha256": "2F8EBA82E36C833D99D0B080C9793D708F98A6DD6A34E4364265E67345FB2F94",
+    "candidate_policy": "Use repaired Sarol corpus; exact construction and retrieval depth must be confirmed before new A100 run."
+  },
+  "decoding": {
+    "temperature": 0,
+    "top_p": null,
+    "max_tokens": null,
+    "seed": null,
+    "note": "temperature=0 is present in the checked-in compatible runner; other values and actual A100 runner must be confirmed."
+  },
+  "model": {
+    "requested_model": "qwen3",
+    "historical_output_model": "qwen3:latest",
+    "model_digest": null,
+    "checkpoint_or_quantization": null,
+    "note": "Historical model tag is not a reproducibility digest."
+  },
+  "run_order": [
+    "Re-score existing Dev316 output locally (completed; no inference).",
+    "Run a small A100 Dev smoke test with agreed input/config.",
+    "Run/finalize Dev before locking Test configuration.",
+    "Run Test606 once with frozen configuration."
+  ],
+  "calibration": {
+    "score_support": null,
+    "score_distort": null,
+    "score_unrelated": null,
+    "note": "Uncalibrated confidence must not be copied into score_* fields or called probability."
+  }
+}

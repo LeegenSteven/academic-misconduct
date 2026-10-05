@@ -1,0 +1,30 @@
+{
+  "manifest_version": "qwen3_dev_reanalysis_v1",
+  "status": "completed_reanalysis_only",
+  "new_model_inference_performed": false,
+  "data_version": "sarol-quality-v1",
+  "records": 316,
+  "source_files": {
+    "existing_qwen3_dev_predictions": {
+      "path_hint": "成员2_本周任务_2026-09-17/03_大模型/runs/sarol316_qwen3/model_outputs_final.jsonl",
+      "sha256": "C0ED5D320EEDFFB8A908ED0187F4054C82263AA7B462695164E8122EB8F6C069"
+    },
+    "gold_mapping_dev": {
+      "repo_path": "data/quality_v1/sarol/gold_mapping-dev.csv",
+      "sha256": "0F169FF7875D9483DC882C0DDDD96CC25ED6F0249A298C014870E8B9E101B989"
+    },
+    "claims_dev_model": {
+      "repo_path": "data/quality_v1/sarol/claims-dev-model.jsonl",
+      "sha256": "1EFC1B9DDB77DBE79F3F80E511449B81C430FDC519652FB8584D39E4FAE6CD4A"
+    },
+    "historical_model_inputs_dev316": {
+      "path_hint": "成员2_本周任务_2026-09-17/03_大模型/model_inputs_dev316.jsonl",
+      "sha256": "2F8EBA82E36C833D99D0B080C9793D708F98A6DD6A34E4364265E67345FB2F94"
+    }
+  },
+  "blocking_for_final_experiment": [
+    "A100 execution of a newly frozen Dev configuration",
+    "model/checkpoint digest and runtime log",
+    "new Dev raw output before locking the Test configuration"
+  ]
+}

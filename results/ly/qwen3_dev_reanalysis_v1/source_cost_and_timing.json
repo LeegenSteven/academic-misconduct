@@ -1,0 +1,18 @@
+{
+  "model": "qwen3:latest",
+  "n_outputs_final": 316,
+  "n_raw": 316,
+  "http_status": {
+    "200": 309,
+    "0": 7
+  },
+  "raw_with_usage": 251,
+  "prompt_tokens_sum": 1375707,
+  "completion_tokens_sum": 29871,
+  "total_tokens_sum": 1405578,
+  "created_min": 1789721800,
+  "created_max": 1789725970,
+  "elapsed_sec_from_created": 4170,
+  "note": "created is Ollama unix timestamp. HTTP 0 rows were retried into model_outputs_final.jsonl. Local Ollama has no API invoice; report tokens and wall time instead of money.",
+  "approx_sec_per_claim": 13.2
+}

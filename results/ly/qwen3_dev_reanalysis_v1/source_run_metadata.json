@@ -1,0 +1,7 @@
+{
+  "provider": "openai",
+  "started_at": "2026-09-18T08:56:25.551536+00:00",
+  "input_file": "model_inputs_dev316.jsonl",
+  "already_done": 0,
+  "todo": 316
+}

@@ -1,0 +1,65 @@
+{
+  "task": "Sarol Dev Qwen3 existing-output reanalysis",
+  "status": "reanalysis_completed_no_new_inference",
+  "data_version": "sarol-quality-v1",
+  "num_claims": 316,
+  "accuracy": 0.6392405063291139,
+  "macro_f1": 0.5545733837841523,
+  "gold_counts": {
+    "ACCURATE": 191,
+    "NOT_ACCURATE": 101,
+    "IRRELEVANT": 24
+  },
+  "predicted_counts": {
+    "ACCURATE": 241,
+    "NOT_ACCURATE": 58,
+    "IRRELEVANT": 17
+  },
+  "per_class": {
+    "ACCURATE": {
+      "precision": 0.6846473029045643,
+      "recall": 0.8638743455497382,
+      "f1": 0.763888888888889
+    },
+    "NOT_ACCURATE": {
+      "precision": 0.43103448275862066,
+      "recall": 0.24752475247524752,
+      "f1": 0.31446540880503143
+    },
+    "IRRELEVANT": {
+      "precision": 0.7058823529411765,
+      "recall": 0.5,
+      "f1": 0.5853658536585366
+    }
+  },
+  "confusion_matrix": {
+    "ACCURATE": {
+      "ACCURATE": 165,
+      "NOT_ACCURATE": 25,
+      "IRRELEVANT": 1
+    },
+    "NOT_ACCURATE": {
+      "ACCURATE": 72,
+      "NOT_ACCURATE": 25,
+      "IRRELEVANT": 4
+    },
+    "IRRELEVANT": {
+      "ACCURATE": 4,
+      "NOT_ACCURATE": 8,
+      "IRRELEVANT": 12
+    }
+  },
+  "failure_status_counts": {
+    "null": 316
+  },
+  "model_name_counts": {
+    "qwen3:latest": 316
+  },
+  "evidence_id_validation": {
+    "claims_with_out_of_range_ids": 0,
+    "claim_ids": [],
+    "note": "This is an input/evidence-ID check; label metrics are computed from labels only."
+  },
+  "confidence_note": "confidence is retained as self-reported confidence; no calibrated score_* fields are produced.",
+  "limitation": "This is a re-score of an existing Dev output, not a new inference under a newly frozen A100 configuration."
+}
