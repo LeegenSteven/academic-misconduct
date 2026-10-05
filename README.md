@@ -53,6 +53,11 @@ academic-misconduct/
 
 修复版 Sarol Dev 的 BM25 top-10 检索覆盖结果见 [`sarol_quality_v1_dev_bm25_v1`](results/ly/sarol_quality_v1_dev_bm25_v1/)。该目录只报告检索召回；修复版 Train 重训后的模型三分类指标待匹配预测文件。
 
+## 2026-10-05 李云侧独立推进
+
+- **Qwen3 Dev 旧输出重评**：已对仓库中已有的 316 条 Qwen3 Dev 原始输出按修复版 Sarol gold 重新计算，Accuracy `0.639241`、Macro-F1 `0.554573`。这一步没有进行新的模型推理，不能替代 A100 上的 Dev 决策和 Test606 新实验；逐条误差、输入、原始输出和重评日志见 [`qwen3_dev_reanalysis_v1`](results/ly/qwen3_dev_reanalysis_v1/)。
+- **PMC natural 候选扩充**：新增 10 条候选，来自 3 篇新的施引论文和 10 篇不同被引论文。每条均保留完整施引段落、引用标记、被引全文摘要、许可和 XML SHA-256。李云侧已单独初标 7 条 ACCURATE、3 条 NOT_ACCURATE；陈明进盲标表不含李云标签，10 条在双方标注和共同裁决前不计入最终合格样本。入口见 [`PMC natural v3 candidate report`](results/ly/task3_natural_trial/pmc_oa_v3_candidate_pool_report_2026-10-05.md)。
+
 ## 协作约定
 
 | 目录 | 归属 | 规则 |
