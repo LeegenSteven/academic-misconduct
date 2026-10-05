@@ -1,0 +1,626 @@
+[
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC10587123",
+    "cited_doi": "10.1038/s41514-023-00120-6",
+    "cited_title": "",
+    "citation_paragraph": "Aging is characterized by a gradual decline in cognitive and motor functions, reducing the ability to learn, adapt to environmental changes, and recover from damage, impairments which are largely conserved across species. Aging is accompanied by a progressive loss of neuroplasticity within the central nervous system (CNS) (Brito et al. 2023). This reduction in plasticity reflects the convergence of multiple cellular, molecular, and structural processes. Among the key contributors are the accumulation of perineuronal nets (PNNs) (Karetko‐Sysa et al. 2014; Foscarin et al. 2017; Mafi et al. 2020; Lehner et al. 2024) and an increase in neuroinflammation (Patterson 2015; Tamatta et al. 2025).",
+    "rid": "glia70233-bib-0006"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC5509459",
+    "cited_doi": "10.18632/aging.101256",
+    "cited_title": "",
+    "citation_paragraph": "Aging is characterized by a gradual decline in cognitive and motor functions, reducing the ability to learn, adapt to environmental changes, and recover from damage, impairments which are largely conserved across species. Aging is accompanied by a progressive loss of neuroplasticity within the central nervous system (CNS) (Brito et al. 2023). This reduction in plasticity reflects the convergence of multiple cellular, molecular, and structural processes. Among the key contributors are the accumulation of perineuronal nets (PNNs) (Karetko‐Sysa et al. 2014; Foscarin et al. 2017; Mafi et al. 2020; Lehner et al. 2024) and an increase in neuroinflammation (Patterson 2015; Tamatta et al. 2025).",
+    "rid": "glia70233-bib-0019"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC7026493",
+    "cited_doi": "10.3389/fnagi.2020.00027",
+    "cited_title": "",
+    "citation_paragraph": "Aging is characterized by a gradual decline in cognitive and motor functions, reducing the ability to learn, adapt to environmental changes, and recover from damage, impairments which are largely conserved across species. Aging is accompanied by a progressive loss of neuroplasticity within the central nervous system (CNS) (Brito et al. 2023). This reduction in plasticity reflects the convergence of multiple cellular, molecular, and structural processes. Among the key contributors are the accumulation of perineuronal nets (PNNs) (Karetko‐Sysa et al. 2014; Foscarin et al. 2017; Mafi et al. 2020; Lehner et al. 2024) and an increase in neuroinflammation (Patterson 2015; Tamatta et al. 2025).",
+    "rid": "glia70233-bib-0033"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC11296138",
+    "cited_doi": "10.1002/epi4.12963",
+    "cited_title": "",
+    "citation_paragraph": "Aging is characterized by a gradual decline in cognitive and motor functions, reducing the ability to learn, adapt to environmental changes, and recover from damage, impairments which are largely conserved across species. Aging is accompanied by a progressive loss of neuroplasticity within the central nervous system (CNS) (Brito et al. 2023). This reduction in plasticity reflects the convergence of multiple cellular, molecular, and structural processes. Among the key contributors are the accumulation of perineuronal nets (PNNs) (Karetko‐Sysa et al. 2014; Foscarin et al. 2017; Mafi et al. 2020; Lehner et al. 2024) and an increase in neuroinflammation (Patterson 2015; Tamatta et al. 2025).",
+    "rid": "glia70233-bib-0031"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC4475415",
+    "cited_doi": "10.1016/j.neuropharm.2014.12.020",
+    "cited_title": "",
+    "citation_paragraph": "Aging is characterized by a gradual decline in cognitive and motor functions, reducing the ability to learn, adapt to environmental changes, and recover from damage, impairments which are largely conserved across species. Aging is accompanied by a progressive loss of neuroplasticity within the central nervous system (CNS) (Brito et al. 2023). This reduction in plasticity reflects the convergence of multiple cellular, molecular, and structural processes. Among the key contributors are the accumulation of perineuronal nets (PNNs) (Karetko‐Sysa et al. 2014; Foscarin et al. 2017; Mafi et al. 2020; Lehner et al. 2024) and an increase in neuroinflammation (Patterson 2015; Tamatta et al. 2025).",
+    "rid": "glia70233-bib-0042"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC11799035",
+    "cited_doi": "10.1007/s10522-025-10199-x",
+    "cited_title": "",
+    "citation_paragraph": "Aging is characterized by a gradual decline in cognitive and motor functions, reducing the ability to learn, adapt to environmental changes, and recover from damage, impairments which are largely conserved across species. Aging is accompanied by a progressive loss of neuroplasticity within the central nervous system (CNS) (Brito et al. 2023). This reduction in plasticity reflects the convergence of multiple cellular, molecular, and structural processes. Among the key contributors are the accumulation of perineuronal nets (PNNs) (Karetko‐Sysa et al. 2014; Foscarin et al. 2017; Mafi et al. 2020; Lehner et al. 2024) and an increase in neuroinflammation (Patterson 2015; Tamatta et al. 2025).",
+    "rid": "glia70233-bib-0056"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC11898492",
+    "cited_doi": "10.3390/cells14050321",
+    "cited_title": "",
+    "citation_paragraph": "PNNs are specialized extracellular matrix (ECM) structures that enwrap specific subgroups of neurons, most prominently parvalbumin‐positive (PV+) inhibitory interneurons (Lupori et al. 2023). They form unique mesh‐like pericellular coats that regulate the diffusion of neurotransmitters, ions, growth factors, and metabolites, as well as the distribution and clustering of synaptic receptors, thereby exerting a profound influence on synaptic transmission and neuronal function. PNNs are composed of a hyaluronan (HA) backbone anchored to the neuronal surface by hyaluronic acid synthase (HAS). Chondroitin sulfate proteoglycans (CSPGs) and tenascins attach to HA and are stabilized by link proteins (Crtl1/Hapln1, Bral2/Hapln4) (Testa et al. 2019; Auer et al. 2025). They are considered central pillars of neuroplasticity. Functionally, PNNs play a central role in closing critical periods of increased neuroplasticity in the CNS. Condensation of PNNs toward the end of neurodevelopment is highly linked to reduced synaptic flexibility and impaired learning in aged subjects. Experimental degradation or remodeling of PNNs in adulthood has been shown to enhance neuroplasticity, resulting in increased associative, spatial, social, and auditory memory (Fawcett et al. 2022).",
+    "rid": "glia70233-bib-0003"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC9708575",
+    "cited_doi": "10.1038/s41380-022-01634-3",
+    "cited_title": "",
+    "citation_paragraph": "PNNs are specialized extracellular matrix (ECM) structures that enwrap specific subgroups of neurons, most prominently parvalbumin‐positive (PV+) inhibitory interneurons (Lupori et al. 2023). They form unique mesh‐like pericellular coats that regulate the diffusion of neurotransmitters, ions, growth factors, and metabolites, as well as the distribution and clustering of synaptic receptors, thereby exerting a profound influence on synaptic transmission and neuronal function. PNNs are composed of a hyaluronan (HA) backbone anchored to the neuronal surface by hyaluronic acid synthase (HAS). Chondroitin sulfate proteoglycans (CSPGs) and tenascins attach to HA and are stabilized by link proteins (Crtl1/Hapln1, Bral2/Hapln4) (Testa et al. 2019; Auer et al. 2025). They are considered central pillars of neuroplasticity. Functionally, PNNs play a central role in closing critical periods of increased neuroplasticity in the CNS. Condensation of PNNs toward the end of neurodevelopment is highly linked to reduced synaptic flexibility and impaired learning in aged subjects. Experimental degradation or remodeling of PNNs in adulthood has been shown to enhance neuroplasticity, resulting in increased associative, spatial, social, and auditory memory (Fawcett et al. 2022).",
+    "rid": "glia70233-bib-0016"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC7504301",
+    "cited_doi": "10.3390/ijms21175988",
+    "cited_title": "",
+    "citation_paragraph": "Beyond its structural role in regulating synaptic plasticity, HA‐rich ECM is increasingly recognized as a dynamic signaling platform that coordinates also glial activation (Peters and Sherman 2020), inflammatory signaling (Kuipers, Rieck, et al. 2016), and blood–brain barrier (BBB) integrity (Al‐Ahmad et al. 2019).",
+    "rid": "glia70233-bib-0043"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC4747722",
+    "cited_doi": "10.1073/pnas.1525086113",
+    "cited_title": "",
+    "citation_paragraph": "Beyond its structural role in regulating synaptic plasticity, HA‐rich ECM is increasingly recognized as a dynamic signaling platform that coordinates also glial activation (Peters and Sherman 2020), inflammatory signaling (Kuipers, Rieck, et al. 2016), and blood–brain barrier (BBB) integrity (Al‐Ahmad et al. 2019).",
+    "rid": "glia70233-bib-0029"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC6727144",
+    "cited_doi": "10.1177/0271678X18767748",
+    "cited_title": "",
+    "citation_paragraph": "Beyond its structural role in regulating synaptic plasticity, HA‐rich ECM is increasingly recognized as a dynamic signaling platform that coordinates also glial activation (Peters and Sherman 2020), inflammatory signaling (Kuipers, Rieck, et al. 2016), and blood–brain barrier (BBB) integrity (Al‐Ahmad et al. 2019).",
+    "rid": "glia70233-bib-0001"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC10464498",
+    "cited_doi": "10.3389/fragi.2023.1244149",
+    "cited_title": "",
+    "citation_paragraph": "Brain aging is accompanied by profound changes in glial cells. These include altered morphology, increased numbers, and a shift toward reactive phenotypes. Within the tetrapartite synapse, glial reactivity and structural alterations disrupt synaptic homeostasis (Latham et al. 2023). Such changes contribute to reduced neuroplasticity, neuronal degradation, and increased vulnerability to neurodegenerative processes (Jurcau et al. 2024).",
+    "rid": "glia70233-bib-0030"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC11476611",
+    "cited_doi": "10.3390/ijms251910535",
+    "cited_title": "",
+    "citation_paragraph": "Brain aging is accompanied by profound changes in glial cells. These include altered morphology, increased numbers, and a shift toward reactive phenotypes. Within the tetrapartite synapse, glial reactivity and structural alterations disrupt synaptic homeostasis (Latham et al. 2023). Such changes contribute to reduced neuroplasticity, neuronal degradation, and increased vulnerability to neurodegenerative processes (Jurcau et al. 2024).",
+    "rid": "glia70233-bib-0026"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC9547407",
+    "cited_doi": "10.1186/s12979-022-00302-y",
+    "cited_title": "",
+    "citation_paragraph": "Aging is also associated with compromised BBB integrity, which facilitates T‐cell infiltration into the CNS. Infiltrating immune cells interact bidirectionally with resident glia, creating a feedforward loop of inflammation: activated glia release pro‐inflammatory cytokines (e.g., TNF‐α, IL‐1β, IL‐6), chemokines (e.g., CCL2), reactive oxygen species (ROS, NO), and matrix metalloproteinases (MMP‐2, MMP‐9), which increase BBB permeability, further promoting T‐cell entry and amplifying glial activation (Latham et al. 2023; Nevalainen et al. 2022; Zhang et al. 2022). Together, these changes contribute to “inflammaging,” a state of chronic low‐grade inflammation that negatively affects synaptic function and neuroplasticity. Therapeutic strategies in this context aim to mitigate detrimental inflammatory cascades while preserving or enhancing protective glial functions.",
+    "rid": "glia70233-bib-0040"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC9310471",
+    "cited_doi": "10.1186/s12979-022-00289-6",
+    "cited_title": "",
+    "citation_paragraph": "Aging is also associated with compromised BBB integrity, which facilitates T‐cell infiltration into the CNS. Infiltrating immune cells interact bidirectionally with resident glia, creating a feedforward loop of inflammation: activated glia release pro‐inflammatory cytokines (e.g., TNF‐α, IL‐1β, IL‐6), chemokines (e.g., CCL2), reactive oxygen species (ROS, NO), and matrix metalloproteinases (MMP‐2, MMP‐9), which increase BBB permeability, further promoting T‐cell entry and amplifying glial activation (Latham et al. 2023; Nevalainen et al. 2022; Zhang et al. 2022). Together, these changes contribute to “inflammaging,” a state of chronic low‐grade inflammation that negatively affects synaptic function and neuroplasticity. Therapeutic strategies in this context aim to mitigate detrimental inflammatory cascades while preserving or enhancing protective glial functions.",
+    "rid": "glia70233-bib-0068"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC4369655",
+    "cited_doi": "10.3389/fimmu.2015.00123",
+    "cited_title": "",
+    "citation_paragraph": "The coumarin derivative 4‐methylumbelliferone (4‐MU) is a small molecule naturally occurring in plants of the Umbelliferae and Asteraceae families. Already approved in Europe and Asia for hepatoprotective, antispasmodic, and choleretic use (Nagy et al. 2015), 4‐MU is recognized for its modulation on HA metabolism. We have recently shown that 4‐MU is also able to reduce the synthesis of chondroitin sulfate (CS) (Milton et al. 2023). Mechanistically, 4‐MU depletes UDP‐GlcA required for HA and CS synthesis, downregulates hyaluronan synthase enzymes (HAS2) expression, and upregulates hyaluronidase enzymes (Hyal1) expression (Fedorova et al. 2025). Our previous studies have shown that 4‐MU administration enhances neuroplasticity through PNN downregulation improving memory (Dubisova et al. 2022) and promotes serotonergic sprouting after spinal cord injury in rodents (Štepánková et al. 2023). Furthermore, 4‐MU has well‐established immunomodulatory properties, with studies demonstrating reduced inflammation in preclinical models of Types 1 and 2 diabetes, autoimmune arthritis, as well as lung, renal, and liver inflammatory pathologies (Fedorova et al. 2025). While its role in modulating immune responses within the CNS is less characterized, evidence indicates that 4‐MU can attenuate glial scar formation after spinal cord injury (Štepánková et al. 2023), decrease immunoreactivity and disease progression in multiple sclerosis mice models (Kuipers, Rieck, et al. 2016) and exert anti‐inflammatory effects in rodent models of ischemic stroke (Mirshekari Jahangiri et al. 2024; Tamouk et al. 2025). These findings make 4‐MU, particularly, relevant in the context of neuroinflammaging. Moreover, numerous studies have demonstrated that 4‐MU is a well‐tolerated compound with minimal adverse effects (Dubisova et al. 2022; Yates et al. 2015; Štěpánková et al. 2023), including a study reporting lifelong 4‐MU treatment in mice without major adverse effects (Nagy et al. 2024), while its washout profile further indicates that any minor side effects are reversible and do not persist following treatment cessation (Dubisova et al. 2022; Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0039"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC10698859",
+    "cited_doi": "10.1089/neu.2023.0117",
+    "cited_title": "",
+    "citation_paragraph": "The coumarin derivative 4‐methylumbelliferone (4‐MU) is a small molecule naturally occurring in plants of the Umbelliferae and Asteraceae families. Already approved in Europe and Asia for hepatoprotective, antispasmodic, and choleretic use (Nagy et al. 2015), 4‐MU is recognized for its modulation on HA metabolism. We have recently shown that 4‐MU is also able to reduce the synthesis of chondroitin sulfate (CS) (Milton et al. 2023). Mechanistically, 4‐MU depletes UDP‐GlcA required for HA and CS synthesis, downregulates hyaluronan synthase enzymes (HAS2) expression, and upregulates hyaluronidase enzymes (Hyal1) expression (Fedorova et al. 2025). Our previous studies have shown that 4‐MU administration enhances neuroplasticity through PNN downregulation improving memory (Dubisova et al. 2022) and promotes serotonergic sprouting after spinal cord injury in rodents (Štepánková et al. 2023). Furthermore, 4‐MU has well‐established immunomodulatory properties, with studies demonstrating reduced inflammation in preclinical models of Types 1 and 2 diabetes, autoimmune arthritis, as well as lung, renal, and liver inflammatory pathologies (Fedorova et al. 2025). While its role in modulating immune responses within the CNS is less characterized, evidence indicates that 4‐MU can attenuate glial scar formation after spinal cord injury (Štepánková et al. 2023), decrease immunoreactivity and disease progression in multiple sclerosis mice models (Kuipers, Rieck, et al. 2016) and exert anti‐inflammatory effects in rodent models of ischemic stroke (Mirshekari Jahangiri et al. 2024; Tamouk et al. 2025). These findings make 4‐MU, particularly, relevant in the context of neuroinflammaging. Moreover, numerous studies have demonstrated that 4‐MU is a well‐tolerated compound with minimal adverse effects (Dubisova et al. 2022; Yates et al. 2015; Štěpánková et al. 2023), including a study reporting lifelong 4‐MU treatment in mice without major adverse effects (Nagy et al. 2024), while its washout profile further indicates that any minor side effects are reversible and do not persist following treatment cessation (Dubisova et al. 2022; Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0035"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC8867078",
+    "cited_doi": "10.1016/j.brainresbull.2022.01.011",
+    "cited_title": "",
+    "citation_paragraph": "The coumarin derivative 4‐methylumbelliferone (4‐MU) is a small molecule naturally occurring in plants of the Umbelliferae and Asteraceae families. Already approved in Europe and Asia for hepatoprotective, antispasmodic, and choleretic use (Nagy et al. 2015), 4‐MU is recognized for its modulation on HA metabolism. We have recently shown that 4‐MU is also able to reduce the synthesis of chondroitin sulfate (CS) (Milton et al. 2023). Mechanistically, 4‐MU depletes UDP‐GlcA required for HA and CS synthesis, downregulates hyaluronan synthase enzymes (HAS2) expression, and upregulates hyaluronidase enzymes (Hyal1) expression (Fedorova et al. 2025). Our previous studies have shown that 4‐MU administration enhances neuroplasticity through PNN downregulation improving memory (Dubisova et al. 2022) and promotes serotonergic sprouting after spinal cord injury in rodents (Štepánková et al. 2023). Furthermore, 4‐MU has well‐established immunomodulatory properties, with studies demonstrating reduced inflammation in preclinical models of Types 1 and 2 diabetes, autoimmune arthritis, as well as lung, renal, and liver inflammatory pathologies (Fedorova et al. 2025). While its role in modulating immune responses within the CNS is less characterized, evidence indicates that 4‐MU can attenuate glial scar formation after spinal cord injury (Štepánková et al. 2023), decrease immunoreactivity and disease progression in multiple sclerosis mice models (Kuipers, Rieck, et al. 2016) and exert anti‐inflammatory effects in rodent models of ischemic stroke (Mirshekari Jahangiri et al. 2024; Tamouk et al. 2025). These findings make 4‐MU, particularly, relevant in the context of neuroinflammaging. Moreover, numerous studies have demonstrated that 4‐MU is a well‐tolerated compound with minimal adverse effects (Dubisova et al. 2022; Yates et al. 2015; Štěpánková et al. 2023), including a study reporting lifelong 4‐MU treatment in mice without major adverse effects (Nagy et al. 2024), while its washout profile further indicates that any minor side effects are reversible and do not persist following treatment cessation (Dubisova et al. 2022; Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0013"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC10628150",
+    "cited_doi": "10.1038/s41598-023-46539-5",
+    "cited_title": "",
+    "citation_paragraph": "The coumarin derivative 4‐methylumbelliferone (4‐MU) is a small molecule naturally occurring in plants of the Umbelliferae and Asteraceae families. Already approved in Europe and Asia for hepatoprotective, antispasmodic, and choleretic use (Nagy et al. 2015), 4‐MU is recognized for its modulation on HA metabolism. We have recently shown that 4‐MU is also able to reduce the synthesis of chondroitin sulfate (CS) (Milton et al. 2023). Mechanistically, 4‐MU depletes UDP‐GlcA required for HA and CS synthesis, downregulates hyaluronan synthase enzymes (HAS2) expression, and upregulates hyaluronidase enzymes (Hyal1) expression (Fedorova et al. 2025). Our previous studies have shown that 4‐MU administration enhances neuroplasticity through PNN downregulation improving memory (Dubisova et al. 2022) and promotes serotonergic sprouting after spinal cord injury in rodents (Štepánková et al. 2023). Furthermore, 4‐MU has well‐established immunomodulatory properties, with studies demonstrating reduced inflammation in preclinical models of Types 1 and 2 diabetes, autoimmune arthritis, as well as lung, renal, and liver inflammatory pathologies (Fedorova et al. 2025). While its role in modulating immune responses within the CNS is less characterized, evidence indicates that 4‐MU can attenuate glial scar formation after spinal cord injury (Štepánková et al. 2023), decrease immunoreactivity and disease progression in multiple sclerosis mice models (Kuipers, Rieck, et al. 2016) and exert anti‐inflammatory effects in rodent models of ischemic stroke (Mirshekari Jahangiri et al. 2024; Tamouk et al. 2025). These findings make 4‐MU, particularly, relevant in the context of neuroinflammaging. Moreover, numerous studies have demonstrated that 4‐MU is a well‐tolerated compound with minimal adverse effects (Dubisova et al. 2022; Yates et al. 2015; Štěpánková et al. 2023), including a study reporting lifelong 4‐MU treatment in mice without major adverse effects (Nagy et al. 2024), while its washout profile further indicates that any minor side effects are reversible and do not persist following treatment cessation (Dubisova et al. 2022; Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0051"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC11512716",
+    "cited_doi": "10.22037/aaem.v13i1.2456",
+    "cited_title": "",
+    "citation_paragraph": "The coumarin derivative 4‐methylumbelliferone (4‐MU) is a small molecule naturally occurring in plants of the Umbelliferae and Asteraceae families. Already approved in Europe and Asia for hepatoprotective, antispasmodic, and choleretic use (Nagy et al. 2015), 4‐MU is recognized for its modulation on HA metabolism. We have recently shown that 4‐MU is also able to reduce the synthesis of chondroitin sulfate (CS) (Milton et al. 2023). Mechanistically, 4‐MU depletes UDP‐GlcA required for HA and CS synthesis, downregulates hyaluronan synthase enzymes (HAS2) expression, and upregulates hyaluronidase enzymes (Hyal1) expression (Fedorova et al. 2025). Our previous studies have shown that 4‐MU administration enhances neuroplasticity through PNN downregulation improving memory (Dubisova et al. 2022) and promotes serotonergic sprouting after spinal cord injury in rodents (Štepánková et al. 2023). Furthermore, 4‐MU has well‐established immunomodulatory properties, with studies demonstrating reduced inflammation in preclinical models of Types 1 and 2 diabetes, autoimmune arthritis, as well as lung, renal, and liver inflammatory pathologies (Fedorova et al. 2025). While its role in modulating immune responses within the CNS is less characterized, evidence indicates that 4‐MU can attenuate glial scar formation after spinal cord injury (Štepánková et al. 2023), decrease immunoreactivity and disease progression in multiple sclerosis mice models (Kuipers, Rieck, et al. 2016) and exert anti‐inflammatory effects in rodent models of ischemic stroke (Mirshekari Jahangiri et al. 2024; Tamouk et al. 2025). These findings make 4‐MU, particularly, relevant in the context of neuroinflammaging. Moreover, numerous studies have demonstrated that 4‐MU is a well‐tolerated compound with minimal adverse effects (Dubisova et al. 2022; Yates et al. 2015; Štěpánková et al. 2023), including a study reporting lifelong 4‐MU treatment in mice without major adverse effects (Nagy et al. 2024), while its washout profile further indicates that any minor side effects are reversible and do not persist following treatment cessation (Dubisova et al. 2022; Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0036"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC12680788",
+    "cited_doi": "10.1155/bn/5900565",
+    "cited_title": "",
+    "citation_paragraph": "The coumarin derivative 4‐methylumbelliferone (4‐MU) is a small molecule naturally occurring in plants of the Umbelliferae and Asteraceae families. Already approved in Europe and Asia for hepatoprotective, antispasmodic, and choleretic use (Nagy et al. 2015), 4‐MU is recognized for its modulation on HA metabolism. We have recently shown that 4‐MU is also able to reduce the synthesis of chondroitin sulfate (CS) (Milton et al. 2023). Mechanistically, 4‐MU depletes UDP‐GlcA required for HA and CS synthesis, downregulates hyaluronan synthase enzymes (HAS2) expression, and upregulates hyaluronidase enzymes (Hyal1) expression (Fedorova et al. 2025). Our previous studies have shown that 4‐MU administration enhances neuroplasticity through PNN downregulation improving memory (Dubisova et al. 2022) and promotes serotonergic sprouting after spinal cord injury in rodents (Štepánková et al. 2023). Furthermore, 4‐MU has well‐established immunomodulatory properties, with studies demonstrating reduced inflammation in preclinical models of Types 1 and 2 diabetes, autoimmune arthritis, as well as lung, renal, and liver inflammatory pathologies (Fedorova et al. 2025). While its role in modulating immune responses within the CNS is less characterized, evidence indicates that 4‐MU can attenuate glial scar formation after spinal cord injury (Štepánková et al. 2023), decrease immunoreactivity and disease progression in multiple sclerosis mice models (Kuipers, Rieck, et al. 2016) and exert anti‐inflammatory effects in rodent models of ischemic stroke (Mirshekari Jahangiri et al. 2024; Tamouk et al. 2025). These findings make 4‐MU, particularly, relevant in the context of neuroinflammaging. Moreover, numerous studies have demonstrated that 4‐MU is a well‐tolerated compound with minimal adverse effects (Dubisova et al. 2022; Yates et al. 2015; Štěpánková et al. 2023), including a study reporting lifelong 4‐MU treatment in mice without major adverse effects (Nagy et al. 2024), while its washout profile further indicates that any minor side effects are reversible and do not persist following treatment cessation (Dubisova et al. 2022; Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0057"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC4554252",
+    "cited_doi": "10.1093/jnci/djv085",
+    "cited_title": "",
+    "citation_paragraph": "The coumarin derivative 4‐methylumbelliferone (4‐MU) is a small molecule naturally occurring in plants of the Umbelliferae and Asteraceae families. Already approved in Europe and Asia for hepatoprotective, antispasmodic, and choleretic use (Nagy et al. 2015), 4‐MU is recognized for its modulation on HA metabolism. We have recently shown that 4‐MU is also able to reduce the synthesis of chondroitin sulfate (CS) (Milton et al. 2023). Mechanistically, 4‐MU depletes UDP‐GlcA required for HA and CS synthesis, downregulates hyaluronan synthase enzymes (HAS2) expression, and upregulates hyaluronidase enzymes (Hyal1) expression (Fedorova et al. 2025). Our previous studies have shown that 4‐MU administration enhances neuroplasticity through PNN downregulation improving memory (Dubisova et al. 2022) and promotes serotonergic sprouting after spinal cord injury in rodents (Štepánková et al. 2023). Furthermore, 4‐MU has well‐established immunomodulatory properties, with studies demonstrating reduced inflammation in preclinical models of Types 1 and 2 diabetes, autoimmune arthritis, as well as lung, renal, and liver inflammatory pathologies (Fedorova et al. 2025). While its role in modulating immune responses within the CNS is less characterized, evidence indicates that 4‐MU can attenuate glial scar formation after spinal cord injury (Štepánková et al. 2023), decrease immunoreactivity and disease progression in multiple sclerosis mice models (Kuipers, Rieck, et al. 2016) and exert anti‐inflammatory effects in rodent models of ischemic stroke (Mirshekari Jahangiri et al. 2024; Tamouk et al. 2025). These findings make 4‐MU, particularly, relevant in the context of neuroinflammaging. Moreover, numerous studies have demonstrated that 4‐MU is a well‐tolerated compound with minimal adverse effects (Dubisova et al. 2022; Yates et al. 2015; Štěpánková et al. 2023), including a study reporting lifelong 4‐MU treatment in mice without major adverse effects (Nagy et al. 2024), while its washout profile further indicates that any minor side effects are reversible and do not persist following treatment cessation (Dubisova et al. 2022; Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0067"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC9959083",
+    "cited_doi": "10.3390/ijms24043799",
+    "cited_title": "",
+    "citation_paragraph": "The coumarin derivative 4‐methylumbelliferone (4‐MU) is a small molecule naturally occurring in plants of the Umbelliferae and Asteraceae families. Already approved in Europe and Asia for hepatoprotective, antispasmodic, and choleretic use (Nagy et al. 2015), 4‐MU is recognized for its modulation on HA metabolism. We have recently shown that 4‐MU is also able to reduce the synthesis of chondroitin sulfate (CS) (Milton et al. 2023). Mechanistically, 4‐MU depletes UDP‐GlcA required for HA and CS synthesis, downregulates hyaluronan synthase enzymes (HAS2) expression, and upregulates hyaluronidase enzymes (Hyal1) expression (Fedorova et al. 2025). Our previous studies have shown that 4‐MU administration enhances neuroplasticity through PNN downregulation improving memory (Dubisova et al. 2022) and promotes serotonergic sprouting after spinal cord injury in rodents (Štepánková et al. 2023). Furthermore, 4‐MU has well‐established immunomodulatory properties, with studies demonstrating reduced inflammation in preclinical models of Types 1 and 2 diabetes, autoimmune arthritis, as well as lung, renal, and liver inflammatory pathologies (Fedorova et al. 2025). While its role in modulating immune responses within the CNS is less characterized, evidence indicates that 4‐MU can attenuate glial scar formation after spinal cord injury (Štepánková et al. 2023), decrease immunoreactivity and disease progression in multiple sclerosis mice models (Kuipers, Rieck, et al. 2016) and exert anti‐inflammatory effects in rodent models of ischemic stroke (Mirshekari Jahangiri et al. 2024; Tamouk et al. 2025). These findings make 4‐MU, particularly, relevant in the context of neuroinflammaging. Moreover, numerous studies have demonstrated that 4‐MU is a well‐tolerated compound with minimal adverse effects (Dubisova et al. 2022; Yates et al. 2015; Štěpánková et al. 2023), including a study reporting lifelong 4‐MU treatment in mice without major adverse effects (Nagy et al. 2024), while its washout profile further indicates that any minor side effects are reversible and do not persist following treatment cessation (Dubisova et al. 2022; Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0052"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC11506560",
+    "cited_doi": "10.3390/cells13201727",
+    "cited_title": "",
+    "citation_paragraph": "The coumarin derivative 4‐methylumbelliferone (4‐MU) is a small molecule naturally occurring in plants of the Umbelliferae and Asteraceae families. Already approved in Europe and Asia for hepatoprotective, antispasmodic, and choleretic use (Nagy et al. 2015), 4‐MU is recognized for its modulation on HA metabolism. We have recently shown that 4‐MU is also able to reduce the synthesis of chondroitin sulfate (CS) (Milton et al. 2023). Mechanistically, 4‐MU depletes UDP‐GlcA required for HA and CS synthesis, downregulates hyaluronan synthase enzymes (HAS2) expression, and upregulates hyaluronidase enzymes (Hyal1) expression (Fedorova et al. 2025). Our previous studies have shown that 4‐MU administration enhances neuroplasticity through PNN downregulation improving memory (Dubisova et al. 2022) and promotes serotonergic sprouting after spinal cord injury in rodents (Štepánková et al. 2023). Furthermore, 4‐MU has well‐established immunomodulatory properties, with studies demonstrating reduced inflammation in preclinical models of Types 1 and 2 diabetes, autoimmune arthritis, as well as lung, renal, and liver inflammatory pathologies (Fedorova et al. 2025). While its role in modulating immune responses within the CNS is less characterized, evidence indicates that 4‐MU can attenuate glial scar formation after spinal cord injury (Štepánková et al. 2023), decrease immunoreactivity and disease progression in multiple sclerosis mice models (Kuipers, Rieck, et al. 2016) and exert anti‐inflammatory effects in rodent models of ischemic stroke (Mirshekari Jahangiri et al. 2024; Tamouk et al. 2025). These findings make 4‐MU, particularly, relevant in the context of neuroinflammaging. Moreover, numerous studies have demonstrated that 4‐MU is a well‐tolerated compound with minimal adverse effects (Dubisova et al. 2022; Yates et al. 2015; Štěpánková et al. 2023), including a study reporting lifelong 4‐MU treatment in mice without major adverse effects (Nagy et al. 2024), while its washout profile further indicates that any minor side effects are reversible and do not persist following treatment cessation (Dubisova et al. 2022; Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0038"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC7642692",
+    "cited_doi": "10.3389/fnmol.2020.527543",
+    "cited_title": "",
+    "citation_paragraph": "To examine whether this reduction influenced memory performance, we evaluated SOR memory in the three groups of mice. Memory was tested at 6 h and 24 h delays between familiarization and testing, intervals that require consolidation, with 24 h representing a benchmark for robust long‐term memory in rodents (Villar et al. 2017; Cinalli Jr. et al. 2020). As expected, 22 m aged mice performed worse than 10 m adults at both intervals, though the differences did not reach significance (6 h: 10 m, 0.18 ± 0.12 vs. 22 m, 0.06 ± 0.15, p = 0.23; 24 h: 10 m, 0.13 ± 0.12 vs. 22 m, −0.05 ± 0.3, p = 0.33). 4‐MU‐treated aged mice showed improved performance at both delays. At 6 h, treated aged mice outperformed both 10 m and 22 m control groups (22 m + 4MU: 0.36 ± 0.11; p = 0.02 vs. 10 m; p < 0.0001 vs. 22 m) (Figure 1H). At 24 h, while not statistically significant, a clear trend toward improvement was observed (22 m + 4MU: 0.14 ± 0.22; p = 0.99 vs. 10 m; p = 0.08 vs. 22 m) (Figure 1I). Together, these findings indicate that oral 4‐MU treatment attenuates age‐associated PNN accumulation and alleviates aspects of age‐related cognitive decline.",
+    "rid": "glia70233-bib-0008"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC5492660",
+    "cited_doi": "10.3389/fnmol.2017.00206",
+    "cited_title": "",
+    "citation_paragraph": "We next investigated the effect of 4‐MU on chronic inflammation in aging. Given that neuroinflammaging has been reported to predominantly affect white matter regions (Raj et al. 2017; Hahn et al. 2023), we also included the corpus callosum in our assessment of neuroinflammatory changes in addition to the somatosensory cortex and hippocampus (Figure 2A). Our analysis revealed region‐specific patterns of astrocytic changes with aging (Figure 2B).",
+    "rid": "glia70233-bib-0045"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC10528304",
+    "cited_doi": "10.1016/j.cell.2023.07.027",
+    "cited_title": "",
+    "citation_paragraph": "We next investigated the effect of 4‐MU on chronic inflammation in aging. Given that neuroinflammaging has been reported to predominantly affect white matter regions (Raj et al. 2017; Hahn et al. 2023), we also included the corpus callosum in our assessment of neuroinflammatory changes in addition to the somatosensory cortex and hippocampus (Figure 2A). Our analysis revealed region‐specific patterns of astrocytic changes with aging (Figure 2B).",
+    "rid": "glia70233-bib-0023"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC3813913",
+    "cited_doi": "10.3390/toxins5101814",
+    "cited_title": "",
+    "citation_paragraph": "With aging, the BBB becomes more permeable, facilitating infiltration of peripheral immune cells. HA and CS have been implicated in immune cell recruitment, and 4‐MU has been reported to reduce immune cell infiltration across multiple organs (McKallip et al. 2013; Suarez‐Fueyo et al. 2019; Bosi et al. 2022; Galkina et al. 2022). In the CNS, this phenomenon is less well characterized. Existing evidence suggests that 4‐MU can also limit infiltration, but only in disease or injury models (Kuipers, Rieck, et al. 2016; Štepánková et al. 2023; Mueller et al. 2014), not under normal aging conditions where BBB alterations follow different dynamics. To address this gap, we examined peripheral immune cell infiltration into the brains of 10 m adult, aged, and aged 4‐MU‐treated animals. We quantified infiltrating immune cells using CD45 as a pan‐leukocyte marker. Because CD45 is also expressed by microglia, we combined CD45 immunolabeling with Iba1 to identify peripheral immune cells as CD45‐positive/Iba1‐negative. Analyses were performed in the somatosensory cortex, corpus callosum, and hippocampus (Figure 6A). Results showed a significant increase in CD45‐positive/Iba1‐negative cells in 22 m aged mice compared with 10 m controls in the corpus callosum (10 m: 8 ± 4, 22 m: 17 ± 5, p = 0.001) while the somatosensory cortex and hippocampus showed no substantial changes. These findings highlight that age‐related immune infiltration is most prominent in white matter regions, consistent with other hallmarks of neuroinflammaging. Importantly, 4‐MU treatment markedly reduced the elevated immune cell numbers in the corpus callosum, restoring them to levels observed in 10 m animals (5 ± 3, p = 0.8 vs. 10 m, p < 0.0001 vs. 22 m) (Figure 6B). Our results indicate that 4‐MU can reduce age‐related peripheral immune cell infiltration into the corpus callosum, which may limit inflammatory signaling, thereby creating a more permissive environment for neuronal health and neuroplasticity.",
+    "rid": "glia70233-bib-0034"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC6753633",
+    "cited_doi": "10.3389/fimmu.2019.02172",
+    "cited_title": "",
+    "citation_paragraph": "With aging, the BBB becomes more permeable, facilitating infiltration of peripheral immune cells. HA and CS have been implicated in immune cell recruitment, and 4‐MU has been reported to reduce immune cell infiltration across multiple organs (McKallip et al. 2013; Suarez‐Fueyo et al. 2019; Bosi et al. 2022; Galkina et al. 2022). In the CNS, this phenomenon is less well characterized. Existing evidence suggests that 4‐MU can also limit infiltration, but only in disease or injury models (Kuipers, Rieck, et al. 2016; Štepánková et al. 2023; Mueller et al. 2014), not under normal aging conditions where BBB alterations follow different dynamics. To address this gap, we examined peripheral immune cell infiltration into the brains of 10 m adult, aged, and aged 4‐MU‐treated animals. We quantified infiltrating immune cells using CD45 as a pan‐leukocyte marker. Because CD45 is also expressed by microglia, we combined CD45 immunolabeling with Iba1 to identify peripheral immune cells as CD45‐positive/Iba1‐negative. Analyses were performed in the somatosensory cortex, corpus callosum, and hippocampus (Figure 6A). Results showed a significant increase in CD45‐positive/Iba1‐negative cells in 22 m aged mice compared with 10 m controls in the corpus callosum (10 m: 8 ± 4, 22 m: 17 ± 5, p = 0.001) while the somatosensory cortex and hippocampus showed no substantial changes. These findings highlight that age‐related immune infiltration is most prominent in white matter regions, consistent with other hallmarks of neuroinflammaging. Importantly, 4‐MU treatment markedly reduced the elevated immune cell numbers in the corpus callosum, restoring them to levels observed in 10 m animals (5 ± 3, p = 0.8 vs. 10 m, p < 0.0001 vs. 22 m) (Figure 6B). Our results indicate that 4‐MU can reduce age‐related peripheral immune cell infiltration into the corpus callosum, which may limit inflammatory signaling, thereby creating a more permissive environment for neuronal health and neuroplasticity.",
+    "rid": "glia70233-bib-0054"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC9657036",
+    "cited_doi": "10.3390/cells11213370",
+    "cited_title": "",
+    "citation_paragraph": "With aging, the BBB becomes more permeable, facilitating infiltration of peripheral immune cells. HA and CS have been implicated in immune cell recruitment, and 4‐MU has been reported to reduce immune cell infiltration across multiple organs (McKallip et al. 2013; Suarez‐Fueyo et al. 2019; Bosi et al. 2022; Galkina et al. 2022). In the CNS, this phenomenon is less well characterized. Existing evidence suggests that 4‐MU can also limit infiltration, but only in disease or injury models (Kuipers, Rieck, et al. 2016; Štepánková et al. 2023; Mueller et al. 2014), not under normal aging conditions where BBB alterations follow different dynamics. To address this gap, we examined peripheral immune cell infiltration into the brains of 10 m adult, aged, and aged 4‐MU‐treated animals. We quantified infiltrating immune cells using CD45 as a pan‐leukocyte marker. Because CD45 is also expressed by microglia, we combined CD45 immunolabeling with Iba1 to identify peripheral immune cells as CD45‐positive/Iba1‐negative. Analyses were performed in the somatosensory cortex, corpus callosum, and hippocampus (Figure 6A). Results showed a significant increase in CD45‐positive/Iba1‐negative cells in 22 m aged mice compared with 10 m controls in the corpus callosum (10 m: 8 ± 4, 22 m: 17 ± 5, p = 0.001) while the somatosensory cortex and hippocampus showed no substantial changes. These findings highlight that age‐related immune infiltration is most prominent in white matter regions, consistent with other hallmarks of neuroinflammaging. Importantly, 4‐MU treatment markedly reduced the elevated immune cell numbers in the corpus callosum, restoring them to levels observed in 10 m animals (5 ± 3, p = 0.8 vs. 10 m, p < 0.0001 vs. 22 m) (Figure 6B). Our results indicate that 4‐MU can reduce age‐related peripheral immune cell infiltration into the corpus callosum, which may limit inflammatory signaling, thereby creating a more permissive environment for neuronal health and neuroplasticity.",
+    "rid": "glia70233-bib-0005"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC8869632",
+    "cited_doi": "10.3390/biomedicines10020314",
+    "cited_title": "",
+    "citation_paragraph": "With aging, the BBB becomes more permeable, facilitating infiltration of peripheral immune cells. HA and CS have been implicated in immune cell recruitment, and 4‐MU has been reported to reduce immune cell infiltration across multiple organs (McKallip et al. 2013; Suarez‐Fueyo et al. 2019; Bosi et al. 2022; Galkina et al. 2022). In the CNS, this phenomenon is less well characterized. Existing evidence suggests that 4‐MU can also limit infiltration, but only in disease or injury models (Kuipers, Rieck, et al. 2016; Štepánková et al. 2023; Mueller et al. 2014), not under normal aging conditions where BBB alterations follow different dynamics. To address this gap, we examined peripheral immune cell infiltration into the brains of 10 m adult, aged, and aged 4‐MU‐treated animals. We quantified infiltrating immune cells using CD45 as a pan‐leukocyte marker. Because CD45 is also expressed by microglia, we combined CD45 immunolabeling with Iba1 to identify peripheral immune cells as CD45‐positive/Iba1‐negative. Analyses were performed in the somatosensory cortex, corpus callosum, and hippocampus (Figure 6A). Results showed a significant increase in CD45‐positive/Iba1‐negative cells in 22 m aged mice compared with 10 m controls in the corpus callosum (10 m: 8 ± 4, 22 m: 17 ± 5, p = 0.001) while the somatosensory cortex and hippocampus showed no substantial changes. These findings highlight that age‐related immune infiltration is most prominent in white matter regions, consistent with other hallmarks of neuroinflammaging. Importantly, 4‐MU treatment markedly reduced the elevated immune cell numbers in the corpus callosum, restoring them to levels observed in 10 m animals (5 ± 3, p = 0.8 vs. 10 m, p < 0.0001 vs. 22 m) (Figure 6B). Our results indicate that 4‐MU can reduce age‐related peripheral immune cell infiltration into the corpus callosum, which may limit inflammatory signaling, thereby creating a more permissive environment for neuronal health and neuroplasticity.",
+    "rid": "glia70233-bib-0021"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC4132791",
+    "cited_doi": "10.1074/jbc.M114.559583",
+    "cited_title": "",
+    "citation_paragraph": "With aging, the BBB becomes more permeable, facilitating infiltration of peripheral immune cells. HA and CS have been implicated in immune cell recruitment, and 4‐MU has been reported to reduce immune cell infiltration across multiple organs (McKallip et al. 2013; Suarez‐Fueyo et al. 2019; Bosi et al. 2022; Galkina et al. 2022). In the CNS, this phenomenon is less well characterized. Existing evidence suggests that 4‐MU can also limit infiltration, but only in disease or injury models (Kuipers, Rieck, et al. 2016; Štepánková et al. 2023; Mueller et al. 2014), not under normal aging conditions where BBB alterations follow different dynamics. To address this gap, we examined peripheral immune cell infiltration into the brains of 10 m adult, aged, and aged 4‐MU‐treated animals. We quantified infiltrating immune cells using CD45 as a pan‐leukocyte marker. Because CD45 is also expressed by microglia, we combined CD45 immunolabeling with Iba1 to identify peripheral immune cells as CD45‐positive/Iba1‐negative. Analyses were performed in the somatosensory cortex, corpus callosum, and hippocampus (Figure 6A). Results showed a significant increase in CD45‐positive/Iba1‐negative cells in 22 m aged mice compared with 10 m controls in the corpus callosum (10 m: 8 ± 4, 22 m: 17 ± 5, p = 0.001) while the somatosensory cortex and hippocampus showed no substantial changes. These findings highlight that age‐related immune infiltration is most prominent in white matter regions, consistent with other hallmarks of neuroinflammaging. Importantly, 4‐MU treatment markedly reduced the elevated immune cell numbers in the corpus callosum, restoring them to levels observed in 10 m animals (5 ± 3, p = 0.8 vs. 10 m, p < 0.0001 vs. 22 m) (Figure 6B). Our results indicate that 4‐MU can reduce age‐related peripheral immune cell infiltration into the corpus callosum, which may limit inflammatory signaling, thereby creating a more permissive environment for neuronal health and neuroplasticity.",
+    "rid": "glia70233-bib-0037"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC10094282",
+    "cited_doi": "10.3390/ijms24076278",
+    "cited_title": "",
+    "citation_paragraph": "Numerous studies have demonstrated that 4‐MU is a well‐tolerated compound with minimal adverse effects (Dubisova et al. 2022; Štěpánková et al. 2023; Nagy et al. 2024). However, given that our study involved old mice, whose physiology may differ from animals in previous studies, we evaluated multiple parameters to assess 4‐MU safety in aged animals (Figure 7). The body weight of the animals showed a significant reduction in 4‐MU–treated mice compared to controls, similar to previous studies (Figure 7A). As HA is a key component for cartilage functions, motor and joint mobility were assessed by grip strength (Figure 7B) and rotarod tests (Figure 7C) and found no differences between treated and 22 m control mice. Hematological analyses, including total leukocytes, erythrocytes, platelets, reticulocytes, and leukocyte subpopulations (neutrophils, lymphocytes, monocytes, eosinophils, and basophils), showed values within the expected physiological range, with no differences between treated and control mice (Figure 7D). Finally, we assessed bile acids and glucose levels in blood and urine, parameters previously reported to be influenced by 4‐MU treatment. Although no significant changes were detected, a trend toward increased levels exceeding the physiological range (Unno et al. 2023; Hönes 2024; Norman et al. 2024; Zheng et al. 2024) was observed, particularly in glycosuria (Figure 7E–H). Taken together, these results indicate that long‐term oral administration of 4‐MU is generally safe in old mice, causing no major hematological, biochemical, or functional alterations within the parameters assessed in this study.",
+    "rid": "glia70233-bib-0062"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC11130135",
+    "cited_doi": "10.1038/s42003-024-06321-3",
+    "cited_title": "",
+    "citation_paragraph": "Numerous studies have demonstrated that 4‐MU is a well‐tolerated compound with minimal adverse effects (Dubisova et al. 2022; Štěpánková et al. 2023; Nagy et al. 2024). However, given that our study involved old mice, whose physiology may differ from animals in previous studies, we evaluated multiple parameters to assess 4‐MU safety in aged animals (Figure 7). The body weight of the animals showed a significant reduction in 4‐MU–treated mice compared to controls, similar to previous studies (Figure 7A). As HA is a key component for cartilage functions, motor and joint mobility were assessed by grip strength (Figure 7B) and rotarod tests (Figure 7C) and found no differences between treated and 22 m control mice. Hematological analyses, including total leukocytes, erythrocytes, platelets, reticulocytes, and leukocyte subpopulations (neutrophils, lymphocytes, monocytes, eosinophils, and basophils), showed values within the expected physiological range, with no differences between treated and control mice (Figure 7D). Finally, we assessed bile acids and glucose levels in blood and urine, parameters previously reported to be influenced by 4‐MU treatment. Although no significant changes were detected, a trend toward increased levels exceeding the physiological range (Unno et al. 2023; Hönes 2024; Norman et al. 2024; Zheng et al. 2024) was observed, particularly in glycosuria (Figure 7E–H). Taken together, these results indicate that long‐term oral administration of 4‐MU is generally safe in old mice, causing no major hematological, biochemical, or functional alterations within the parameters assessed in this study.",
+    "rid": "glia70233-bib-0069"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC3220601",
+    "cited_doi": "10.1523/JNEUROSCI.1737-11.2011",
+    "cited_title": "",
+    "citation_paragraph": "The ECM plays key regulatory roles in neuronal and glial function through diverse and dynamic interactions. HA, a major glycosaminoglycan distributed across gray and white matter, signals through receptors such as CD44, RHAMM (HMMR), LYVE‐1, ICAM‐1, and TLR2/4 to influence proliferation, differentiation, migration, activation states, and process extension in stem cells, neurons, astrocytes, and microglia (Peters and Sherman 2020). HA also forms the structural backbone of PNNs, specialized ECM assemblies that support circuit stability and excitatory–inhibitory balance. Furthermore, HA contributes to endothelial barrier regulation and lymphocyte extravasation (Galkina et al. 2022). In parallel, CSPGs, another major class of ECM components, undergo progressive remodeling during aging that is associated with reduced structural plasticity and altered network stability (Fawcett 2015). Through their sulfated glycosaminoglycan chains, CSPGs interact with receptors such as PTPσ, LAR, and NgR1 complexes to constrain synaptic remodeling and neurite dynamics, thereby contributing to the maintenance of stable but less adaptable circuits (Fisher et al. 2011; Dickendesher et al. 2012). Beyond their established effects on neuronal plasticity, CSPGs also regulate neuroimmune responses by modulating microglial and astrocytic states (Hirano et al. 2025; Dyck and Karimi‐Abdolrezaee 2015; Siebert et al. 2014) as well as peripheral immune cell infiltration (Pu et al. 2020; Stephenson and Yong 2018; Francos‐Quijorna et al. 2022). Together, HA and CSPGs form complementary regulatory axes within the compacted‐PNNs and diffuse ECM that influence both neural plasticity and neuroimmune homeostasis across the lifespan.",
+    "rid": "glia70233-bib-0018"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC3337880",
+    "cited_doi": "10.1038/nn.3070",
+    "cited_title": "",
+    "citation_paragraph": "The ECM plays key regulatory roles in neuronal and glial function through diverse and dynamic interactions. HA, a major glycosaminoglycan distributed across gray and white matter, signals through receptors such as CD44, RHAMM (HMMR), LYVE‐1, ICAM‐1, and TLR2/4 to influence proliferation, differentiation, migration, activation states, and process extension in stem cells, neurons, astrocytes, and microglia (Peters and Sherman 2020). HA also forms the structural backbone of PNNs, specialized ECM assemblies that support circuit stability and excitatory–inhibitory balance. Furthermore, HA contributes to endothelial barrier regulation and lymphocyte extravasation (Galkina et al. 2022). In parallel, CSPGs, another major class of ECM components, undergo progressive remodeling during aging that is associated with reduced structural plasticity and altered network stability (Fawcett 2015). Through their sulfated glycosaminoglycan chains, CSPGs interact with receptors such as PTPσ, LAR, and NgR1 complexes to constrain synaptic remodeling and neurite dynamics, thereby contributing to the maintenance of stable but less adaptable circuits (Fisher et al. 2011; Dickendesher et al. 2012). Beyond their established effects on neuronal plasticity, CSPGs also regulate neuroimmune responses by modulating microglial and astrocytic states (Hirano et al. 2025; Dyck and Karimi‐Abdolrezaee 2015; Siebert et al. 2014) as well as peripheral immune cell infiltration (Pu et al. 2020; Stephenson and Yong 2018; Francos‐Quijorna et al. 2022). Together, HA and CSPGs form complementary regulatory axes within the compacted‐PNNs and diffuse ECM that influence both neural plasticity and neuroimmune homeostasis across the lifespan.",
+    "rid": "glia70233-bib-0012"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC4182688",
+    "cited_doi": "10.1155/2014/845323",
+    "cited_title": "",
+    "citation_paragraph": "The ECM plays key regulatory roles in neuronal and glial function through diverse and dynamic interactions. HA, a major glycosaminoglycan distributed across gray and white matter, signals through receptors such as CD44, RHAMM (HMMR), LYVE‐1, ICAM‐1, and TLR2/4 to influence proliferation, differentiation, migration, activation states, and process extension in stem cells, neurons, astrocytes, and microglia (Peters and Sherman 2020). HA also forms the structural backbone of PNNs, specialized ECM assemblies that support circuit stability and excitatory–inhibitory balance. Furthermore, HA contributes to endothelial barrier regulation and lymphocyte extravasation (Galkina et al. 2022). In parallel, CSPGs, another major class of ECM components, undergo progressive remodeling during aging that is associated with reduced structural plasticity and altered network stability (Fawcett 2015). Through their sulfated glycosaminoglycan chains, CSPGs interact with receptors such as PTPσ, LAR, and NgR1 complexes to constrain synaptic remodeling and neurite dynamics, thereby contributing to the maintenance of stable but less adaptable circuits (Fisher et al. 2011; Dickendesher et al. 2012). Beyond their established effects on neuronal plasticity, CSPGs also regulate neuroimmune responses by modulating microglial and astrocytic states (Hirano et al. 2025; Dyck and Karimi‐Abdolrezaee 2015; Siebert et al. 2014) as well as peripheral immune cell infiltration (Pu et al. 2020; Stephenson and Yong 2018; Francos‐Quijorna et al. 2022). Together, HA and CSPGs form complementary regulatory axes within the compacted‐PNNs and diffuse ECM that influence both neural plasticity and neuroimmune homeostasis across the lifespan.",
+    "rid": "glia70233-bib-0049"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC7379813",
+    "cited_doi": "10.1186/s12974-020-01895-1",
+    "cited_title": "",
+    "citation_paragraph": "The ECM plays key regulatory roles in neuronal and glial function through diverse and dynamic interactions. HA, a major glycosaminoglycan distributed across gray and white matter, signals through receptors such as CD44, RHAMM (HMMR), LYVE‐1, ICAM‐1, and TLR2/4 to influence proliferation, differentiation, migration, activation states, and process extension in stem cells, neurons, astrocytes, and microglia (Peters and Sherman 2020). HA also forms the structural backbone of PNNs, specialized ECM assemblies that support circuit stability and excitatory–inhibitory balance. Furthermore, HA contributes to endothelial barrier regulation and lymphocyte extravasation (Galkina et al. 2022). In parallel, CSPGs, another major class of ECM components, undergo progressive remodeling during aging that is associated with reduced structural plasticity and altered network stability (Fawcett 2015). Through their sulfated glycosaminoglycan chains, CSPGs interact with receptors such as PTPσ, LAR, and NgR1 complexes to constrain synaptic remodeling and neurite dynamics, thereby contributing to the maintenance of stable but less adaptable circuits (Fisher et al. 2011; Dickendesher et al. 2012). Beyond their established effects on neuronal plasticity, CSPGs also regulate neuroimmune responses by modulating microglial and astrocytic states (Hirano et al. 2025; Dyck and Karimi‐Abdolrezaee 2015; Siebert et al. 2014) as well as peripheral immune cell infiltration (Pu et al. 2020; Stephenson and Yong 2018; Francos‐Quijorna et al. 2022). Together, HA and CSPGs form complementary regulatory axes within the compacted‐PNNs and diffuse ECM that influence both neural plasticity and neuroimmune homeostasis across the lifespan.",
+    "rid": "glia70233-bib-0044"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC9133109",
+    "cited_doi": "10.1038/s41467-022-30467-5",
+    "cited_title": "",
+    "citation_paragraph": "The ECM plays key regulatory roles in neuronal and glial function through diverse and dynamic interactions. HA, a major glycosaminoglycan distributed across gray and white matter, signals through receptors such as CD44, RHAMM (HMMR), LYVE‐1, ICAM‐1, and TLR2/4 to influence proliferation, differentiation, migration, activation states, and process extension in stem cells, neurons, astrocytes, and microglia (Peters and Sherman 2020). HA also forms the structural backbone of PNNs, specialized ECM assemblies that support circuit stability and excitatory–inhibitory balance. Furthermore, HA contributes to endothelial barrier regulation and lymphocyte extravasation (Galkina et al. 2022). In parallel, CSPGs, another major class of ECM components, undergo progressive remodeling during aging that is associated with reduced structural plasticity and altered network stability (Fawcett 2015). Through their sulfated glycosaminoglycan chains, CSPGs interact with receptors such as PTPσ, LAR, and NgR1 complexes to constrain synaptic remodeling and neurite dynamics, thereby contributing to the maintenance of stable but less adaptable circuits (Fisher et al. 2011; Dickendesher et al. 2012). Beyond their established effects on neuronal plasticity, CSPGs also regulate neuroimmune responses by modulating microglial and astrocytic states (Hirano et al. 2025; Dyck and Karimi‐Abdolrezaee 2015; Siebert et al. 2014) as well as peripheral immune cell infiltration (Pu et al. 2020; Stephenson and Yong 2018; Francos‐Quijorna et al. 2022). Together, HA and CSPGs form complementary regulatory axes within the compacted‐PNNs and diffuse ECM that influence both neural plasticity and neuroimmune homeostasis across the lifespan.",
+    "rid": "glia70233-bib-0020"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC12628600",
+    "cited_doi": "10.1186/s12974-025-03568-3",
+    "cited_title": "",
+    "citation_paragraph": "Previous studies indicate that age‐related PNN remodeling is highly region‐ and component‐dependent (Colon et al. 2025; Ueno et al. 2018, 2019), with increases in WFA‐positive PNN density reported in sensory cortices and hippocampal CA2 (Karetko‐Sysa et al. 2014; Mafi et al. 2020; Lehner et al. 2024), whereas other cortical and striatal regions show little or no change, or even reductions in PNN‐related measures (Barahona et al. 2025). Moreover, aging alters the molecular composition of PNNs, including changes in CS sulfation and aggrecan/HA organization (Foscarin et al. 2017; Yang et al. 2021). In line with the region‐ and parameter‐dependent nature of age‐related PNN remodeling, our results likewise revealed a heterogeneous pattern, with some regions and PNN parameters showing no significant age‐related changes, whereas others exhibited clear trends or significant alterations. Notably, chronic 4‐MU treatment consistently shifted the affected PNN parameters toward levels comparable to those observed in 10‐month‐old controls, suggesting that 4‐MU may attenuate age‐associated PNN remodeling. PNNs are central regulators of neuroplasticity and have been implicated in the closure of critical periods, ocular dominance plasticity, auditory relearning, fear extinction, and multiple forms of memory (Reichelt et al. 2019). By depleting HA and CS, 4‐MU is thought to weaken the structural integrity and inhibitory signaling capacity of PNNs, thereby shifting the ECM toward a more permissive state for structural plasticity. In our previous work, we showed that oral 4‐MU reduces PNN intensity and enhances object recognition memory in young adult mice (Dubisova et al. 2022). Experimental PNN degradation using chondroitinase‐ABC, which digests CSPGs, substantially prolongs long‐term object recognition memory in both wild‐type and MAPT mouse models of dementia (Romberg et al. 2013; Yang et al. 2015). Similarly, mice lacking Crtl1/Hapln1 in the CNS display markedly extended recognition memory compared with controls (Romberg et al. 2013). Age‐related cognitive decline primarily affects the acquisition of new long‐term memories, while retrieval of remote memories remains largely preserved (Brito et al. 2023). Because the SOR task specifically evaluates acquisition of new information, it is well suited for aging studies. Notably, aged mice treated with 4‐MU showed enhanced object recognition, surpassing 10 m controls at the 6‐h interval, and approaching 10 m performance at 24 h. These results are consistent with previous literature and suggest that modulating HA and CS metabolism may represent a promising strategy to mitigate age‐related cognitive impairment.",
+    "rid": "glia70233-bib-0010"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC12445281",
+    "cited_doi": "10.1016/j.celrep.2025.116064",
+    "cited_title": "",
+    "citation_paragraph": "Previous studies indicate that age‐related PNN remodeling is highly region‐ and component‐dependent (Colon et al. 2025; Ueno et al. 2018, 2019), with increases in WFA‐positive PNN density reported in sensory cortices and hippocampal CA2 (Karetko‐Sysa et al. 2014; Mafi et al. 2020; Lehner et al. 2024), whereas other cortical and striatal regions show little or no change, or even reductions in PNN‐related measures (Barahona et al. 2025). Moreover, aging alters the molecular composition of PNNs, including changes in CS sulfation and aggrecan/HA organization (Foscarin et al. 2017; Yang et al. 2021). In line with the region‐ and parameter‐dependent nature of age‐related PNN remodeling, our results likewise revealed a heterogeneous pattern, with some regions and PNN parameters showing no significant age‐related changes, whereas others exhibited clear trends or significant alterations. Notably, chronic 4‐MU treatment consistently shifted the affected PNN parameters toward levels comparable to those observed in 10‐month‐old controls, suggesting that 4‐MU may attenuate age‐associated PNN remodeling. PNNs are central regulators of neuroplasticity and have been implicated in the closure of critical periods, ocular dominance plasticity, auditory relearning, fear extinction, and multiple forms of memory (Reichelt et al. 2019). By depleting HA and CS, 4‐MU is thought to weaken the structural integrity and inhibitory signaling capacity of PNNs, thereby shifting the ECM toward a more permissive state for structural plasticity. In our previous work, we showed that oral 4‐MU reduces PNN intensity and enhances object recognition memory in young adult mice (Dubisova et al. 2022). Experimental PNN degradation using chondroitinase‐ABC, which digests CSPGs, substantially prolongs long‐term object recognition memory in both wild‐type and MAPT mouse models of dementia (Romberg et al. 2013; Yang et al. 2015). Similarly, mice lacking Crtl1/Hapln1 in the CNS display markedly extended recognition memory compared with controls (Romberg et al. 2013). Age‐related cognitive decline primarily affects the acquisition of new long‐term memories, while retrieval of remote memories remains largely preserved (Brito et al. 2023). Because the SOR task specifically evaluates acquisition of new information, it is well suited for aging studies. Notably, aged mice treated with 4‐MU showed enhanced object recognition, surpassing 10 m controls at the 6‐h interval, and approaching 10 m performance at 24 h. These results are consistent with previous literature and suggest that modulating HA and CS metabolism may represent a promising strategy to mitigate age‐related cognitive impairment.",
+    "rid": "glia70233-bib-0004"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC8758471",
+    "cited_doi": "10.1038/s41380-021-01208-9",
+    "cited_title": "",
+    "citation_paragraph": "Previous studies indicate that age‐related PNN remodeling is highly region‐ and component‐dependent (Colon et al. 2025; Ueno et al. 2018, 2019), with increases in WFA‐positive PNN density reported in sensory cortices and hippocampal CA2 (Karetko‐Sysa et al. 2014; Mafi et al. 2020; Lehner et al. 2024), whereas other cortical and striatal regions show little or no change, or even reductions in PNN‐related measures (Barahona et al. 2025). Moreover, aging alters the molecular composition of PNNs, including changes in CS sulfation and aggrecan/HA organization (Foscarin et al. 2017; Yang et al. 2021). In line with the region‐ and parameter‐dependent nature of age‐related PNN remodeling, our results likewise revealed a heterogeneous pattern, with some regions and PNN parameters showing no significant age‐related changes, whereas others exhibited clear trends or significant alterations. Notably, chronic 4‐MU treatment consistently shifted the affected PNN parameters toward levels comparable to those observed in 10‐month‐old controls, suggesting that 4‐MU may attenuate age‐associated PNN remodeling. PNNs are central regulators of neuroplasticity and have been implicated in the closure of critical periods, ocular dominance plasticity, auditory relearning, fear extinction, and multiple forms of memory (Reichelt et al. 2019). By depleting HA and CS, 4‐MU is thought to weaken the structural integrity and inhibitory signaling capacity of PNNs, thereby shifting the ECM toward a more permissive state for structural plasticity. In our previous work, we showed that oral 4‐MU reduces PNN intensity and enhances object recognition memory in young adult mice (Dubisova et al. 2022). Experimental PNN degradation using chondroitinase‐ABC, which digests CSPGs, substantially prolongs long‐term object recognition memory in both wild‐type and MAPT mouse models of dementia (Romberg et al. 2013; Yang et al. 2015). Similarly, mice lacking Crtl1/Hapln1 in the CNS display markedly extended recognition memory compared with controls (Romberg et al. 2013). Age‐related cognitive decline primarily affects the acquisition of new long‐term memories, while retrieval of remote memories remains largely preserved (Brito et al. 2023). Because the SOR task specifically evaluates acquisition of new information, it is well suited for aging studies. Notably, aged mice treated with 4‐MU showed enhanced object recognition, surpassing 10 m controls at the 6‐h interval, and approaching 10 m performance at 24 h. These results are consistent with previous literature and suggest that modulating HA and CS metabolism may represent a promising strategy to mitigate age‐related cognitive impairment.",
+    "rid": "glia70233-bib-0066"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC3655688",
+    "cited_doi": "10.1523/JNEUROSCI.6267-11.2013",
+    "cited_title": "",
+    "citation_paragraph": "Previous studies indicate that age‐related PNN remodeling is highly region‐ and component‐dependent (Colon et al. 2025; Ueno et al. 2018, 2019), with increases in WFA‐positive PNN density reported in sensory cortices and hippocampal CA2 (Karetko‐Sysa et al. 2014; Mafi et al. 2020; Lehner et al. 2024), whereas other cortical and striatal regions show little or no change, or even reductions in PNN‐related measures (Barahona et al. 2025). Moreover, aging alters the molecular composition of PNNs, including changes in CS sulfation and aggrecan/HA organization (Foscarin et al. 2017; Yang et al. 2021). In line with the region‐ and parameter‐dependent nature of age‐related PNN remodeling, our results likewise revealed a heterogeneous pattern, with some regions and PNN parameters showing no significant age‐related changes, whereas others exhibited clear trends or significant alterations. Notably, chronic 4‐MU treatment consistently shifted the affected PNN parameters toward levels comparable to those observed in 10‐month‐old controls, suggesting that 4‐MU may attenuate age‐associated PNN remodeling. PNNs are central regulators of neuroplasticity and have been implicated in the closure of critical periods, ocular dominance plasticity, auditory relearning, fear extinction, and multiple forms of memory (Reichelt et al. 2019). By depleting HA and CS, 4‐MU is thought to weaken the structural integrity and inhibitory signaling capacity of PNNs, thereby shifting the ECM toward a more permissive state for structural plasticity. In our previous work, we showed that oral 4‐MU reduces PNN intensity and enhances object recognition memory in young adult mice (Dubisova et al. 2022). Experimental PNN degradation using chondroitinase‐ABC, which digests CSPGs, substantially prolongs long‐term object recognition memory in both wild‐type and MAPT mouse models of dementia (Romberg et al. 2013; Yang et al. 2015). Similarly, mice lacking Crtl1/Hapln1 in the CNS display markedly extended recognition memory compared with controls (Romberg et al. 2013). Age‐related cognitive decline primarily affects the acquisition of new long‐term memories, while retrieval of remote memories remains largely preserved (Brito et al. 2023). Because the SOR task specifically evaluates acquisition of new information, it is well suited for aging studies. Notably, aged mice treated with 4‐MU showed enhanced object recognition, surpassing 10 m controls at the 6‐h interval, and approaching 10 m performance at 24 h. These results are consistent with previous literature and suggest that modulating HA and CS metabolism may represent a promising strategy to mitigate age‐related cognitive impairment.",
+    "rid": "glia70233-bib-0047"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC4353684",
+    "cited_doi": "10.1016/j.expneurol.2014.11.013",
+    "cited_title": "",
+    "citation_paragraph": "Previous studies indicate that age‐related PNN remodeling is highly region‐ and component‐dependent (Colon et al. 2025; Ueno et al. 2018, 2019), with increases in WFA‐positive PNN density reported in sensory cortices and hippocampal CA2 (Karetko‐Sysa et al. 2014; Mafi et al. 2020; Lehner et al. 2024), whereas other cortical and striatal regions show little or no change, or even reductions in PNN‐related measures (Barahona et al. 2025). Moreover, aging alters the molecular composition of PNNs, including changes in CS sulfation and aggrecan/HA organization (Foscarin et al. 2017; Yang et al. 2021). In line with the region‐ and parameter‐dependent nature of age‐related PNN remodeling, our results likewise revealed a heterogeneous pattern, with some regions and PNN parameters showing no significant age‐related changes, whereas others exhibited clear trends or significant alterations. Notably, chronic 4‐MU treatment consistently shifted the affected PNN parameters toward levels comparable to those observed in 10‐month‐old controls, suggesting that 4‐MU may attenuate age‐associated PNN remodeling. PNNs are central regulators of neuroplasticity and have been implicated in the closure of critical periods, ocular dominance plasticity, auditory relearning, fear extinction, and multiple forms of memory (Reichelt et al. 2019). By depleting HA and CS, 4‐MU is thought to weaken the structural integrity and inhibitory signaling capacity of PNNs, thereby shifting the ECM toward a more permissive state for structural plasticity. In our previous work, we showed that oral 4‐MU reduces PNN intensity and enhances object recognition memory in young adult mice (Dubisova et al. 2022). Experimental PNN degradation using chondroitinase‐ABC, which digests CSPGs, substantially prolongs long‐term object recognition memory in both wild‐type and MAPT mouse models of dementia (Romberg et al. 2013; Yang et al. 2015). Similarly, mice lacking Crtl1/Hapln1 in the CNS display markedly extended recognition memory compared with controls (Romberg et al. 2013). Age‐related cognitive decline primarily affects the acquisition of new long‐term memories, while retrieval of remote memories remains largely preserved (Brito et al. 2023). Because the SOR task specifically evaluates acquisition of new information, it is well suited for aging studies. Notably, aged mice treated with 4‐MU showed enhanced object recognition, surpassing 10 m controls at the 6‐h interval, and approaching 10 m performance at 24 h. These results are consistent with previous literature and suggest that modulating HA and CS metabolism may represent a promising strategy to mitigate age‐related cognitive impairment.",
+    "rid": "glia70233-bib-0065"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC5263238",
+    "cited_doi": "10.1016/j.celrep.2016.12.011",
+    "cited_title": "",
+    "citation_paragraph": "Regarding neuroinflammaging, transcriptomic analyses of the aged human brain have shown that glial cells, rather than neurons, undergo the majority of age‐associated transcriptional changes (Soreq et al. 2017). Astrocytes participate in the tetrapartite synapse, support neurons, interact with vasculature, and contribute to BBB integrity. Microglia serve as the innate immune cells of the CNS and, beyond their injury response, have essential homeostatic roles including regulation of synapse formation, maturation, and elimination, as well as modulation of neurogenesis, myelination, and neuroplasticity. With aging, both cell types show reduced homeostatic capacity and elevated inflammatory reactivity, increasing neuronal vulnerability and predisposing the brain to age‐related decline. Region‐specific glial changes have been described, typically characterized by stable or increased cell numbers, elevated marker expression, hypertrophic somata, and reduced ramification in both astrocytes (Clarke et al. 2018; Cotto et al. 2019) and microglia (Raj et al. 2017; Colon et al. 2025; Ana 2024), though with distinct patterns across brain regions (Salas et al. 2020). In line with the literature, we observed the following aging‐related alterations:",
+    "rid": "glia70233-bib-0050"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC5828643",
+    "cited_doi": "10.1073/pnas.1800165115",
+    "cited_title": "",
+    "citation_paragraph": "Regarding neuroinflammaging, transcriptomic analyses of the aged human brain have shown that glial cells, rather than neurons, undergo the majority of age‐associated transcriptional changes (Soreq et al. 2017). Astrocytes participate in the tetrapartite synapse, support neurons, interact with vasculature, and contribute to BBB integrity. Microglia serve as the innate immune cells of the CNS and, beyond their injury response, have essential homeostatic roles including regulation of synapse formation, maturation, and elimination, as well as modulation of neurogenesis, myelination, and neuroplasticity. With aging, both cell types show reduced homeostatic capacity and elevated inflammatory reactivity, increasing neuronal vulnerability and predisposing the brain to age‐related decline. Region‐specific glial changes have been described, typically characterized by stable or increased cell numbers, elevated marker expression, hypertrophic somata, and reduced ramification in both astrocytes (Clarke et al. 2018; Cotto et al. 2019) and microglia (Raj et al. 2017; Colon et al. 2025; Ana 2024), though with distinct patterns across brain regions (Salas et al. 2020). In line with the literature, we observed the following aging‐related alterations:",
+    "rid": "glia70233-bib-0009"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC6646105",
+    "cited_doi": "10.1007/s13365-019-00721-6",
+    "cited_title": "",
+    "citation_paragraph": "Regarding neuroinflammaging, transcriptomic analyses of the aged human brain have shown that glial cells, rather than neurons, undergo the majority of age‐associated transcriptional changes (Soreq et al. 2017). Astrocytes participate in the tetrapartite synapse, support neurons, interact with vasculature, and contribute to BBB integrity. Microglia serve as the innate immune cells of the CNS and, beyond their injury response, have essential homeostatic roles including regulation of synapse formation, maturation, and elimination, as well as modulation of neurogenesis, myelination, and neuroplasticity. With aging, both cell types show reduced homeostatic capacity and elevated inflammatory reactivity, increasing neuronal vulnerability and predisposing the brain to age‐related decline. Region‐specific glial changes have been described, typically characterized by stable or increased cell numbers, elevated marker expression, hypertrophic somata, and reduced ramification in both astrocytes (Clarke et al. 2018; Cotto et al. 2019) and microglia (Raj et al. 2017; Colon et al. 2025; Ana 2024), though with distinct patterns across brain regions (Salas et al. 2020). In line with the literature, we observed the following aging‐related alterations:",
+    "rid": "glia70233-bib-0011"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC11351943",
+    "cited_doi": "10.3390/biomedicines12081737",
+    "cited_title": "",
+    "citation_paragraph": "Regarding neuroinflammaging, transcriptomic analyses of the aged human brain have shown that glial cells, rather than neurons, undergo the majority of age‐associated transcriptional changes (Soreq et al. 2017). Astrocytes participate in the tetrapartite synapse, support neurons, interact with vasculature, and contribute to BBB integrity. Microglia serve as the innate immune cells of the CNS and, beyond their injury response, have essential homeostatic roles including regulation of synapse formation, maturation, and elimination, as well as modulation of neurogenesis, myelination, and neuroplasticity. With aging, both cell types show reduced homeostatic capacity and elevated inflammatory reactivity, increasing neuronal vulnerability and predisposing the brain to age‐related decline. Region‐specific glial changes have been described, typically characterized by stable or increased cell numbers, elevated marker expression, hypertrophic somata, and reduced ramification in both astrocytes (Clarke et al. 2018; Cotto et al. 2019) and microglia (Raj et al. 2017; Colon et al. 2025; Ana 2024), though with distinct patterns across brain regions (Salas et al. 2020). In line with the literature, we observed the following aging‐related alterations:",
+    "rid": "glia70233-bib-0002"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC7662953",
+    "cited_doi": "10.3390/ijms21218203",
+    "cited_title": "",
+    "citation_paragraph": "These results mirror previous observations that white matter regions are, particularly, vulnerable to neuroinflammaging (Raj et al. 2017; Hahn et al. 2023), that the hippocampus exhibits more pronounced changes than neocortical areas such as the somatosensory cortex (Salas et al. 2020), and that microglia display more marked aging‐associated alterations than astrocytes, including in nonhuman primates (Salas et al. 2020). Chronic 4‐MU treatment in aged mice effectively attenuated these neuroinflammatory signatures across all examined regions, restoring astrocytic and microglial parameters to levels comparable to 10 m controls. Several in vitro (Chistyakov et al. 2020) and in vivo (Kuipers, Rieck, et al. 2016; Štepánková et al. 2023; Syková et al. 2025) studies have shown that 4‐MU attenuates glia inflammatory responses, supporting our observations.",
+    "rid": "glia70233-bib-0007"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC11841756",
+    "cited_doi": "10.1523/JNEUROSCI.0517-24.2024",
+    "cited_title": "",
+    "citation_paragraph": "These results mirror previous observations that white matter regions are, particularly, vulnerable to neuroinflammaging (Raj et al. 2017; Hahn et al. 2023), that the hippocampus exhibits more pronounced changes than neocortical areas such as the somatosensory cortex (Salas et al. 2020), and that microglia display more marked aging‐associated alterations than astrocytes, including in nonhuman primates (Salas et al. 2020). Chronic 4‐MU treatment in aged mice effectively attenuated these neuroinflammatory signatures across all examined regions, restoring astrocytic and microglial parameters to levels comparable to 10 m controls. Several in vitro (Chistyakov et al. 2020) and in vivo (Kuipers, Rieck, et al. 2016; Štepánková et al. 2023; Syková et al. 2025) studies have shown that 4‐MU attenuates glia inflammatory responses, supporting our observations.",
+    "rid": "glia70233-bib-0055"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC4991518",
+    "cited_doi": "10.1111/cei.12815",
+    "cited_title": "",
+    "citation_paragraph": "Regarding safety, previous studies reported no major adverse effects of 4‐MU and reversibility of observed changes after washout (Štěpánková et al. 2023; Nagy et al. 2024; Kuipers, Nagy, et al. 2016). In this study, treated animals exhibited significant weight loss, consistent with prior reports linking 4‐MU to altered glucose and triglyceride metabolism and enhanced brown adipose tissue thermogenesis (Nagy et al. 2024; Grandoch et al. 2019; Tsitrina et al. 2023). Importantly, rotarod and grip strength performance remained unaffected, and hematological parameters were stable. We noted a mild, nonsignificant increase in circulating bile acids, aligning with the known pharmacodynamic action of 4‐MU on bile acid secretion. Glycosuria occurred without hyperglycemia, suggesting a tubular alteration of glucose reabsorption rather than a systemic effect. Similar findings have been reported elsewhere, with no kidney histopathology and normalization of biochemical markers posttreatment (Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0028"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC6786893",
+    "cited_doi": "10.1038/s42255-019-0055-6",
+    "cited_title": "",
+    "citation_paragraph": "Regarding safety, previous studies reported no major adverse effects of 4‐MU and reversibility of observed changes after washout (Štěpánková et al. 2023; Nagy et al. 2024; Kuipers, Nagy, et al. 2016). In this study, treated animals exhibited significant weight loss, consistent with prior reports linking 4‐MU to altered glucose and triglyceride metabolism and enhanced brown adipose tissue thermogenesis (Nagy et al. 2024; Grandoch et al. 2019; Tsitrina et al. 2023). Importantly, rotarod and grip strength performance remained unaffected, and hematological parameters were stable. We noted a mild, nonsignificant increase in circulating bile acids, aligning with the known pharmacodynamic action of 4‐MU on bile acid secretion. Glycosuria occurred without hyperglycemia, suggesting a tubular alteration of glucose reabsorption rather than a systemic effect. Similar findings have been reported elsewhere, with no kidney histopathology and normalization of biochemical markers posttreatment (Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0022"
+  },
+  {
+    "citing_pmcid": "PMC13625197",
+    "cited_pmcid": "PMC9917189",
+    "cited_doi": "10.3390/ijms24032129",
+    "cited_title": "",
+    "citation_paragraph": "Regarding safety, previous studies reported no major adverse effects of 4‐MU and reversibility of observed changes after washout (Štěpánková et al. 2023; Nagy et al. 2024; Kuipers, Nagy, et al. 2016). In this study, treated animals exhibited significant weight loss, consistent with prior reports linking 4‐MU to altered glucose and triglyceride metabolism and enhanced brown adipose tissue thermogenesis (Nagy et al. 2024; Grandoch et al. 2019; Tsitrina et al. 2023). Importantly, rotarod and grip strength performance remained unaffected, and hematological parameters were stable. We noted a mild, nonsignificant increase in circulating bile acids, aligning with the known pharmacodynamic action of 4‐MU on bile acid secretion. Glycosuria occurred without hyperglycemia, suggesting a tubular alteration of glucose reabsorption rather than a systemic effect. Similar findings have been reported elsewhere, with no kidney histopathology and normalization of biochemical markers posttreatment (Štěpánková et al. 2023).",
+    "rid": "glia70233-bib-0059"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC13425062",
+    "cited_doi": "10.1002/chir.70126",
+    "cited_title": "",
+    "citation_paragraph": "Chiral chemistry accessed with MS is analytically significant, in spite of the fact that MS cannot differentiate enantiomers by mass‐to‐charge ratio (m/z) alone [1, 2]. Secondary variable(s) allow distinctions arising from interactions with chiral auxiliaries [3]. Examples include the competitive fragmentations in the kinetic method of chiral analysis [4], ion mobility measurements [5, 6], spectroscopic interrogation [7, 8, 9, 10], and direct ion trap‐based chirality differentiation [11]. Observing enantiodifferentiating chemical processes in the gas‐phase, though challenging, remains worthwhile because gas‐phase organic molecules may be accessed without any interference from solvent or the constraints of a crystal lattice [12, 13, 14], interferences, which dampen the effects of noncovalent interactions [15].",
+    "rid": "rcm70182-bib-0001"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC6118329",
+    "cited_doi": "10.1039/C8CC03790F",
+    "cited_title": "",
+    "citation_paragraph": "Chiral chemistry accessed with MS is analytically significant, in spite of the fact that MS cannot differentiate enantiomers by mass‐to‐charge ratio (m/z) alone [1, 2]. Secondary variable(s) allow distinctions arising from interactions with chiral auxiliaries [3]. Examples include the competitive fragmentations in the kinetic method of chiral analysis [4], ion mobility measurements [5, 6], spectroscopic interrogation [7, 8, 9, 10], and direct ion trap‐based chirality differentiation [11]. Observing enantiodifferentiating chemical processes in the gas‐phase, though challenging, remains worthwhile because gas‐phase organic molecules may be accessed without any interference from solvent or the constraints of a crystal lattice [12, 13, 14], interferences, which dampen the effects of noncovalent interactions [15].",
+    "rid": "rcm70182-bib-0005"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC11307251",
+    "cited_doi": "10.1021/acs.analchem.4c02710",
+    "cited_title": "",
+    "citation_paragraph": "Chiral chemistry accessed with MS is analytically significant, in spite of the fact that MS cannot differentiate enantiomers by mass‐to‐charge ratio (m/z) alone [1, 2]. Secondary variable(s) allow distinctions arising from interactions with chiral auxiliaries [3]. Examples include the competitive fragmentations in the kinetic method of chiral analysis [4], ion mobility measurements [5, 6], spectroscopic interrogation [7, 8, 9, 10], and direct ion trap‐based chirality differentiation [11]. Observing enantiodifferentiating chemical processes in the gas‐phase, though challenging, remains worthwhile because gas‐phase organic molecules may be accessed without any interference from solvent or the constraints of a crystal lattice [12, 13, 14], interferences, which dampen the effects of noncovalent interactions [15].",
+    "rid": "rcm70182-bib-0006"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC10099851",
+    "cited_doi": "10.1002/anie.202212020",
+    "cited_title": "",
+    "citation_paragraph": "Chiral chemistry accessed with MS is analytically significant, in spite of the fact that MS cannot differentiate enantiomers by mass‐to‐charge ratio (m/z) alone [1, 2]. Secondary variable(s) allow distinctions arising from interactions with chiral auxiliaries [3]. Examples include the competitive fragmentations in the kinetic method of chiral analysis [4], ion mobility measurements [5, 6], spectroscopic interrogation [7, 8, 9, 10], and direct ion trap‐based chirality differentiation [11]. Observing enantiodifferentiating chemical processes in the gas‐phase, though challenging, remains worthwhile because gas‐phase organic molecules may be accessed without any interference from solvent or the constraints of a crystal lattice [12, 13, 14], interferences, which dampen the effects of noncovalent interactions [15].",
+    "rid": "rcm70182-bib-0008"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC9683398",
+    "cited_doi": "10.1016/j.ijms.2022.116977",
+    "cited_title": "",
+    "citation_paragraph": "Chiral chemistry accessed with MS is analytically significant, in spite of the fact that MS cannot differentiate enantiomers by mass‐to‐charge ratio (m/z) alone [1, 2]. Secondary variable(s) allow distinctions arising from interactions with chiral auxiliaries [3]. Examples include the competitive fragmentations in the kinetic method of chiral analysis [4], ion mobility measurements [5, 6], spectroscopic interrogation [7, 8, 9, 10], and direct ion trap‐based chirality differentiation [11]. Observing enantiodifferentiating chemical processes in the gas‐phase, though challenging, remains worthwhile because gas‐phase organic molecules may be accessed without any interference from solvent or the constraints of a crystal lattice [12, 13, 14], interferences, which dampen the effects of noncovalent interactions [15].",
+    "rid": "rcm70182-bib-0014"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC12105033",
+    "cited_doi": "10.1021/acs.jpca.5c00473",
+    "cited_title": "",
+    "citation_paragraph": "The reactions of the serine octamer cluster (Ser8) represent one instance of chiral supermolecular chemistry [16, 17] accessed with MS [18, 19, 20, 21]. Ser8 is known to exhibit chiral preferences in formation [22] and substitution reactions in which other small molecules, such as amino acids (AA's), cluster with Ser monomers in a manner that favors clusters of all L‐ or all D‐monomers [23]. These findings have been taken as evidence that noncovalent interactions between prebiotically relevant chiral molecules represent a potential explanation for how biomolecules accumulated asymmetry on the way, eventually, to biological homochirality [24, 25, 26, 27].",
+    "rid": "rcm70182-bib-0027"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC13324970",
+    "cited_doi": "10.1002/rcm.70133",
+    "cited_title": "",
+    "citation_paragraph": "Our investigation uses the systematic variation of chirality and stoichiometry of several AA's to probe the substitution reactions that occur in Ser8 molecular clusters. The previously reported enantioselectivity of substitution [23] is confirmed and the data suggest that such reactions proceed sequentially: Ser8H+ first forms, then Ser7AAH+, potentially followed by Ser6AA2H+. Steric and stoichiometric effects were also observed, which had an unusual effect on the enantioselectivity of the substitution reactions, causing decreased chiral preference and a preference against homochirality [28].",
+    "rid": "rcm70182-bib-0028"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC2784886",
+    "cited_doi": "10.1002/cphc.200900564",
+    "cited_title": "",
+    "citation_paragraph": "Experiments were designed based on varying reagent concentration, which can be thought of as a fixed‐time kinetic method [29]. By increasing [AA] (the concentration of AA), a greater degree of reaction will be observed over a fixed time, thus allowing the sampling of a later point on the kinetic coordinate. Because this method assumes that [Ser] is in excess (always 8 mM) and the ratio of AA/Ser is not constant, quantitative measurements cannot be made, but by studying an array of AA's, useful information can be gathered. This approach differs from investigations, which use spectroscopic interrogation of the octamer [30, 31] and other clusters [32, 33, 34]. Though spectroscopic experiments generate data that can be matched with computationally determined structures, their scope and throughput is limited; fitting ab initio computations to an action spectrum acquired at a user facility is laborious [35, 36]. There is no doubt that chiral molecular clusters, including those beyond Ser8 [37, 38, 39], will continue to be an important research area [40, 41, 42] but the chemical space of interesting molecular clusters is vast: many clusters derived from Ser8 have been identified (Figure S1)—privileging experiments that can cover a greater number of combinations faster.",
+    "rid": "rcm70182-bib-0030"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC8876357",
+    "cited_doi": "10.3390/life12020265",
+    "cited_title": "",
+    "citation_paragraph": "For isoVal (Figure 5), which has a methyl group added to its α‐carbon where a hydrogen would be in a proteogenic AA, substitution does not appear to be consecutive because both substitutions increase in a monotonic way, nor does substitution appear to be strongly enantioselective. Varying the chirality of Ser and isoVal does not significantly influence the observed abundance of the substituted octamers. This result shows that the method used in this study can distinguish enantioselective and nonenantioselective substitutions. Studying nonproteogenic AA's and the differences of their behavior in abiotic processes, such as molecular cluster formation, may help elucidate the chemical evolution that selected the proteogenic AA's. Findings from simulated prebiotic chemistry and meteorites have resulted in a consensus view that life must have evolved in a chemical space that contained a variety of organic monomers, including the proteogenic amino acids, but also related hydroxy acids, and other “noncanonical” chemicals [56, 57]. Val, norVal, isoVal, and isoLeu are especially germane in this context because these have been identified in meteorite samples in a chirally enriched form [58, 59, 60, 61]. It is interesting then that isoVal, which is not a proteogenic AA, is unable to participate in a proposed enantio‐amplification scheme [1].",
+    "rid": "rcm70182-bib-0056"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC11103710",
+    "cited_doi": "10.1021/acsearthspacechem.3c00257",
+    "cited_title": "",
+    "citation_paragraph": "For isoVal (Figure 5), which has a methyl group added to its α‐carbon where a hydrogen would be in a proteogenic AA, substitution does not appear to be consecutive because both substitutions increase in a monotonic way, nor does substitution appear to be strongly enantioselective. Varying the chirality of Ser and isoVal does not significantly influence the observed abundance of the substituted octamers. This result shows that the method used in this study can distinguish enantioselective and nonenantioselective substitutions. Studying nonproteogenic AA's and the differences of their behavior in abiotic processes, such as molecular cluster formation, may help elucidate the chemical evolution that selected the proteogenic AA's. Findings from simulated prebiotic chemistry and meteorites have resulted in a consensus view that life must have evolved in a chemical space that contained a variety of organic monomers, including the proteogenic amino acids, but also related hydroxy acids, and other “noncanonical” chemicals [56, 57]. Val, norVal, isoVal, and isoLeu are especially germane in this context because these have been identified in meteorite samples in a chirally enriched form [58, 59, 60, 61]. It is interesting then that isoVal, which is not a proteogenic AA, is unable to participate in a proposed enantio‐amplification scheme [1].",
+    "rid": "rcm70182-bib-0057"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC2667035",
+    "cited_doi": "10.1073/pnas.0811618106",
+    "cited_title": "",
+    "citation_paragraph": "For isoVal (Figure 5), which has a methyl group added to its α‐carbon where a hydrogen would be in a proteogenic AA, substitution does not appear to be consecutive because both substitutions increase in a monotonic way, nor does substitution appear to be strongly enantioselective. Varying the chirality of Ser and isoVal does not significantly influence the observed abundance of the substituted octamers. This result shows that the method used in this study can distinguish enantioselective and nonenantioselective substitutions. Studying nonproteogenic AA's and the differences of their behavior in abiotic processes, such as molecular cluster formation, may help elucidate the chemical evolution that selected the proteogenic AA's. Findings from simulated prebiotic chemistry and meteorites have resulted in a consensus view that life must have evolved in a chemical space that contained a variety of organic monomers, including the proteogenic amino acids, but also related hydroxy acids, and other “noncanonical” chemicals [56, 57]. Val, norVal, isoVal, and isoLeu are especially germane in this context because these have been identified in meteorite samples in a chirally enriched form [58, 59, 60, 61]. It is interesting then that isoVal, which is not a proteogenic AA, is unable to participate in a proposed enantio‐amplification scheme [1].",
+    "rid": "rcm70182-bib-0060"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC10250315",
+    "cited_doi": "10.1038/s41467-023-39177-y",
+    "cited_title": "",
+    "citation_paragraph": "For isoVal (Figure 5), which has a methyl group added to its α‐carbon where a hydrogen would be in a proteogenic AA, substitution does not appear to be consecutive because both substitutions increase in a monotonic way, nor does substitution appear to be strongly enantioselective. Varying the chirality of Ser and isoVal does not significantly influence the observed abundance of the substituted octamers. This result shows that the method used in this study can distinguish enantioselective and nonenantioselective substitutions. Studying nonproteogenic AA's and the differences of their behavior in abiotic processes, such as molecular cluster formation, may help elucidate the chemical evolution that selected the proteogenic AA's. Findings from simulated prebiotic chemistry and meteorites have resulted in a consensus view that life must have evolved in a chemical space that contained a variety of organic monomers, including the proteogenic amino acids, but also related hydroxy acids, and other “noncanonical” chemicals [56, 57]. Val, norVal, isoVal, and isoLeu are especially germane in this context because these have been identified in meteorite samples in a chirally enriched form [58, 59, 60, 61]. It is interesting then that isoVal, which is not a proteogenic AA, is unable to participate in a proposed enantio‐amplification scheme [1].",
+    "rid": "rcm70182-bib-0061"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC3465415",
+    "cited_doi": "10.1073/pnas.1210029109",
+    "cited_title": "",
+    "citation_paragraph": "Microdroplets, the medium from which serine octamers were generated, exhibit many interesting and useful properties. Indeed, droplets and related chemical environments have long been hypothesized to play a role in life's origin and chiral chemistry [62, 63, 64]. The octamer likely forms during the evaporation of the microdroplets that deliver analyte from the nESI emitter to the vacuum chamber [45, 65]. Because microdroplets are a unique chemical environment and potentially are “abiotic reactors” [66] where acid/base chemistry is different than in bulk, examining the effect of thermochemical drivers like PA on chiral cluster formation is reasonable. Therefore, spray ionization MS is an advantaged experiment for the examination of chiral clusters because it offers ready access to the products of (chiral) droplet chemistry [46, 67, 68].",
+    "rid": "rcm70182-bib-0063"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC11934057",
+    "cited_doi": "10.1039/D4SC08402K",
+    "cited_title": "",
+    "citation_paragraph": "Microdroplets, the medium from which serine octamers were generated, exhibit many interesting and useful properties. Indeed, droplets and related chemical environments have long been hypothesized to play a role in life's origin and chiral chemistry [62, 63, 64]. The octamer likely forms during the evaporation of the microdroplets that deliver analyte from the nESI emitter to the vacuum chamber [45, 65]. Because microdroplets are a unique chemical environment and potentially are “abiotic reactors” [66] where acid/base chemistry is different than in bulk, examining the effect of thermochemical drivers like PA on chiral cluster formation is reasonable. Therefore, spray ionization MS is an advantaged experiment for the examination of chiral clusters because it offers ready access to the products of (chiral) droplet chemistry [46, 67, 68].",
+    "rid": "rcm70182-bib-0064"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC9977408",
+    "cited_doi": "10.1039/D2SC06553C",
+    "cited_title": "",
+    "citation_paragraph": "Microdroplets, the medium from which serine octamers were generated, exhibit many interesting and useful properties. Indeed, droplets and related chemical environments have long been hypothesized to play a role in life's origin and chiral chemistry [62, 63, 64]. The octamer likely forms during the evaporation of the microdroplets that deliver analyte from the nESI emitter to the vacuum chamber [45, 65]. Because microdroplets are a unique chemical environment and potentially are “abiotic reactors” [66] where acid/base chemistry is different than in bulk, examining the effect of thermochemical drivers like PA on chiral cluster formation is reasonable. Therefore, spray ionization MS is an advantaged experiment for the examination of chiral clusters because it offers ready access to the products of (chiral) droplet chemistry [46, 67, 68].",
+    "rid": "rcm70182-bib-0066"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC3503484",
+    "cited_doi": "10.1021/jp303778w",
+    "cited_title": "",
+    "citation_paragraph": "Microdroplets, the medium from which serine octamers were generated, exhibit many interesting and useful properties. Indeed, droplets and related chemical environments have long been hypothesized to play a role in life's origin and chiral chemistry [62, 63, 64]. The octamer likely forms during the evaporation of the microdroplets that deliver analyte from the nESI emitter to the vacuum chamber [45, 65]. Because microdroplets are a unique chemical environment and potentially are “abiotic reactors” [66] where acid/base chemistry is different than in bulk, examining the effect of thermochemical drivers like PA on chiral cluster formation is reasonable. Therefore, spray ionization MS is an advantaged experiment for the examination of chiral clusters because it offers ready access to the products of (chiral) droplet chemistry [46, 67, 68].",
+    "rid": "rcm70182-bib-0067"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC13193722",
+    "cited_doi": "10.1038/s41557-026-02093-x",
+    "cited_title": "",
+    "citation_paragraph": "MS‐based chiral analysis matters because MS provides an avenue for simple and rapid exploration [69] of chirality and how chiral effects manifest biologically [70, 71, 72]. Though the understanding of the role of charge in the reactions of the octamer is not complete, it is interesting to consider the suggestion that neutral Ser8, not Ser8H+, is the underlying magic cluster [73] although the aqueous microdroplets have strongly acidic (or in the opposite polarity, basic) interfaces and ionic forms might have been directly involved in the prebiotic process of chiral selection. The structure of Ser8H+ does not feature higher order symmetry as protonation disrupts the hydrogen bonding/ion‐dipole interactions [36]. However, the dichloride octamer, which has more polarizable chloride ions [74], features D4 symmetry [35], raising the question of whether neutral clusters have such symmetry and exhibit even better enantioselectivity. In either case, the serine octamer cluster provides an avenue through which enantioselected material can be transported differently than nonselected material, a potential enrichment scheme [1, 73]. The importance of this phenomenon motivated this investigation's illustration of the fact that gas‐phase chiral chemistry involves two competing chemical forces weak but chirality sensitive sterics and hydrogen bonding and on the other hand strong but chirality insensitive drivers such as PA.",
+    "rid": "rcm70182-bib-0070"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC10628113",
+    "cited_doi": "10.1007/s13659-023-00412-0",
+    "cited_title": "",
+    "citation_paragraph": "MS‐based chiral analysis matters because MS provides an avenue for simple and rapid exploration [69] of chirality and how chiral effects manifest biologically [70, 71, 72]. Though the understanding of the role of charge in the reactions of the octamer is not complete, it is interesting to consider the suggestion that neutral Ser8, not Ser8H+, is the underlying magic cluster [73] although the aqueous microdroplets have strongly acidic (or in the opposite polarity, basic) interfaces and ionic forms might have been directly involved in the prebiotic process of chiral selection. The structure of Ser8H+ does not feature higher order symmetry as protonation disrupts the hydrogen bonding/ion‐dipole interactions [36]. However, the dichloride octamer, which has more polarizable chloride ions [74], features D4 symmetry [35], raising the question of whether neutral clusters have such symmetry and exhibit even better enantioselectivity. In either case, the serine octamer cluster provides an avenue through which enantioselected material can be transported differently than nonselected material, a potential enrichment scheme [1, 73]. The importance of this phenomenon motivated this investigation's illustration of the fact that gas‐phase chiral chemistry involves two competing chemical forces weak but chirality sensitive sterics and hydrogen bonding and on the other hand strong but chirality insensitive drivers such as PA.",
+    "rid": "rcm70182-bib-0071"
+  },
+  {
+    "citing_pmcid": "PMC13583542",
+    "cited_pmcid": "PMC10175202",
+    "cited_doi": "10.1038/s41570-023-00476-z",
+    "cited_title": "",
+    "citation_paragraph": "MS‐based chiral analysis matters because MS provides an avenue for simple and rapid exploration [69] of chirality and how chiral effects manifest biologically [70, 71, 72]. Though the understanding of the role of charge in the reactions of the octamer is not complete, it is interesting to consider the suggestion that neutral Ser8, not Ser8H+, is the underlying magic cluster [73] although the aqueous microdroplets have strongly acidic (or in the opposite polarity, basic) interfaces and ionic forms might have been directly involved in the prebiotic process of chiral selection. The structure of Ser8H+ does not feature higher order symmetry as protonation disrupts the hydrogen bonding/ion‐dipole interactions [36]. However, the dichloride octamer, which has more polarizable chloride ions [74], features D4 symmetry [35], raising the question of whether neutral clusters have such symmetry and exhibit even better enantioselectivity. In either case, the serine octamer cluster provides an avenue through which enantioselected material can be transported differently than nonselected material, a potential enrichment scheme [1, 73]. The importance of this phenomenon motivated this investigation's illustration of the fact that gas‐phase chiral chemistry involves two competing chemical forces weak but chirality sensitive sterics and hydrogen bonding and on the other hand strong but chirality insensitive drivers such as PA.",
+    "rid": "rcm70182-bib-0072"
+  },
+  {
+    "citing_pmcid": "PMC12900525",
+    "cited_pmcid": "PMC10045528",
+    "cited_doi": "10.3390/bioengineering10030354",
+    "cited_title": "",
+    "citation_paragraph": "Endodontic treatment must be performed in accordance with technical, biological, and scientific principles that promote tooth preservation and create favorable conditions for periapical healing through immune system activity. Because endodontic sealers remain in close contact with apical periodontal tissues, the ideal material should be biocompatible and non-toxic [1].",
+    "rid": "B1"
+  },
+  {
+    "citing_pmcid": "PMC12900525",
+    "cited_pmcid": "PMC10765876",
+    "cited_doi": "10.1186/s13005-023-00403-z",
+    "cited_title": "",
+    "citation_paragraph": "An endodontic sealer is a plastic compound that complements root canal filling by occupying the space between gutta-percha cones and dentinal walls [2]. For clinical effectiveness, it should be easy to insert, provide an adequate working time, and exhibit suitable physicochemical properties to ensure a proper seal. In addition, tolerance by periapical tissues is essential [2, 3].",
+    "rid": "B3"
+  },
+  {
+    "citing_pmcid": "PMC12900525",
+    "cited_pmcid": "PMC12357511",
+    "cited_doi": "10.4317/jced.62838",
+    "cited_title": "",
+    "citation_paragraph": "The specimens were positioned with the cervical portion facing downward on a support matrix containing a 3.5 mm aperture for stabilization. A compressive force of 0.5 mm/min was applied using a rod attached to the testing machine (Microtensile OM100, Odeme Dental Research, Luzerna, SC, Brazil) fitted with an extra-fine 0.8 mm tip. The tip was positioned at the center of the specimen, corresponding to the filling material. Push-out testing provided bond strength values initially recorded in grams (g), which were converted to Newtons (N) using the factor 1 g=0.009807 N and subsequently expressed in megapascals (MPa). The formulas used for bond strength and area calculations are presented in Table 1, following Marcos et al. [13] and Campelo et al. [14]. This method has been shown to yield results equivalent to the standard truncated cone surface area calculation, ensuring accurate bond strength measurements in MPa.",
+    "rid": "B14"
+  },
+  {
+    "citing_pmcid": "PMC12900525",
+    "cited_pmcid": "PMC4868912",
+    "cited_doi": "10.1155/2016/9753210",
+    "cited_title": "",
+    "citation_paragraph": "Adhesion is the force that holds two substances together through molecular attraction when placed in close contact [15]. In this study, push-out tests were employed to evaluate the adhesion of different endodontic sealers to root dentin, as this method allows assessment at a site of direct clinical relevance. Unlike tests involving coronal dentin proposed in previous studies [16, 17], this approach reflects more realistic clinical conditions.",
+    "rid": "B15"
+  },
+  {
+    "citing_pmcid": "PMC12900525",
+    "cited_pmcid": "PMC10179649",
+    "cited_doi": "10.3390/ma16093309",
+    "cited_title": "",
+    "citation_paragraph": "The results indicated that the resin-based sealer AH-Plus exhibited significantly higher bond strength in the apical third compared to the bioceramic sealer Sealer Plus Bioceramic, leading to rejection of the null hypothesis. Overall differences between the main experimental groups were statistically significant (P<0.001). Pairwise analyses showed that this effect was driven by significant differences involving specific group comparisons, whereas other pairwise contrasts did not reach statistical significance, as detailed in Table 6. No significant differences were observed among cervical, middle, and apical root thirds (P=0.736). These findings are consistent with Shieh et al. [22], who also reported greater bond strength of AH-Plus in the apical third, while contrasting reports in the literature describe either higher bond strength for bioceramic sealers or comparable performance between resin-based and bioceramic sealers, particularly in the middle and cervical thirds [23–25].",
+    "rid": "B22"
+  },
+  {
+    "citing_pmcid": "PMC12900525",
+    "cited_pmcid": "PMC4841349",
+    "cited_doi": "10.7508/iej.2016.02.011",
+    "cited_title": "",
+    "citation_paragraph": "Razmi et al. [29] reported that AH-Plus bond strength was unaffected by the type of irrigant, in agreement with our findings. However, they also noted reduced bond strength when CHX was used with a bioceramic sealer (EndoSequence BC), which was not replicated here. These authors further observed that AH-Plus performed better in dry canals, whereas moisture did not significantly influence bioceramic sealers, supporting the use of paper points for drying in the current protocol. Regarding fracture patterns, mixed and cohesive failures predominated for AH-Plus, while Sealer Plus BC mainly exhibited cohesive failures, indicating satisfactory bonding of both sealers to dentin [29].",
+    "rid": "B29"
+  }
+]

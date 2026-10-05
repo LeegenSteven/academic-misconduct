@@ -1,0 +1,635 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="rcm70133" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Rapid Commun Mass Spectrom</journal-id><journal-id journal-id-type="iso-abbrev">Rapid Commun Mass Spectrom</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">8802365</journal-id><journal-id journal-id-type="publisher-id">RCM</journal-id><journal-title-group><journal-title>Rapid Communications in Mass Spectrometry</journal-title></journal-title-group><issn pub-type="ppub">0951-4198</issn><issn pub-type="epub">1097-0231</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13324970</article-id><article-id pub-id-type="pmcid-ver">PMC13324970.1</article-id><article-id pub-id-type="pmcaid">13324970</article-id><article-id pub-id-type="pmcaiid">13324970</article-id><article-id pub-id-type="pmid">42389822</article-id><article-id pub-id-type="doi">10.1002/rcm.70133</article-id><article-id pub-id-type="publisher-id">RCM70133</article-id><article-id pub-id-type="other">4425889</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Serine Octamer Substitution Reactions With α‐Hydroxy Acids</article-title></title-group><contrib-group><contrib id="rcm70133-cr-0001" contrib-type="author"><name name-style="western"><surname>Unni</surname><given-names initials="K">Keerthana</given-names></name><xref rid="rcm70133-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="rcm70133-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="rcm70133-cr-0002" contrib-type="author"><name name-style="western"><surname>Shira</surname><given-names initials="BA">Brison A.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5250-5882</contrib-id><xref rid="rcm70133-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="rcm70133-cr-0003" contrib-type="author"><name name-style="western"><surname>Holden</surname><given-names initials="DT">Dylan T.</given-names></name><xref rid="rcm70133-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="rcm70133-cr-0004" contrib-type="author" corresp="yes"><name name-style="western"><surname>Pradeep</surname><given-names initials="T">Thalappil</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3174-534X</contrib-id><xref rid="rcm70133-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>pradeep@iitm.ac.in</email></address></contrib><contrib id="rcm70133-cr-0005" contrib-type="author" corresp="yes"><name name-style="western"><surname>Cooks</surname><given-names initials="RG">R. Graham</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9581-9603</contrib-id><xref rid="rcm70133-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>cooks@purdue.edu</email></address></contrib></contrib-group><aff id="rcm70133-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Chemistry</named-content>
+<institution>Purdue University</institution>
+<city>West Lafayette</city>
+<named-content content-type="country-part">Indiana</named-content>
+<country country="US">USA</country>
+</aff><aff id="rcm70133-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">DST Unit of Nanoscience (DST UNS) and Thematic Unit of Excellence (TUE), Department of Chemistry</named-content>
+<institution>Indian Institute of Technology Madras</institution>
+<city>Chennai</city>
+<country country="IN">India</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Thalappil Pradeep (<email>pradeep@iitm.ac.in</email>)<break/>
+R. Graham Cooks (<email>cooks@purdue.edu</email>)<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>02</day><month>7</month><year>2026</year></pub-date><pub-date pub-type="ppub"><day>30</day><month>9</month><year>2026</year></pub-date><volume>40</volume><issue seq="132">18</issue><issue-id pub-id-type="pmc-issue-id">516830</issue-id><issue-id pub-id-type="doi">10.1002/rcm.v40.18</issue-id><elocation-id>e70133</elocation-id><history>
+<date date-type="rev-recd"><day>15</day><month>6</month><year>2026</year></date>
+<date date-type="received"><day>01</day><month>4</month><year>2026</year></date>
+<date date-type="accepted"><day>17</day><month>6</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>02</day><month>07</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>03</day><month>07</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-07-28 12:25:16.217"><day>28</day><month>07</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Rapid Communications in Mass Spectrometry</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="RCM-40-e70133.pdf"><?pdf-name RCM-40-e70133.pdf?><?pdf-size 1898828?><?pdf-md5 64911c3e8e7e4118265685eb450b3ff8?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:554c/13324970/64911c3e8e7e/RCM-40-e70133.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:RCM-40-e70133.pdf"/><abstract><title>ABSTRACT</title><sec id="rcm70133-sec-0001"><title>Rationale</title><p>The amino acid serine forms chiral magic number clusters, which can be studied using mass spectrometry (MS). Serine octamer clusters are also known to incorporate one or two nonserine monomers with serine monomers to make up the octamer.</p></sec><sec id="rcm70133-sec-0002"><title>Methods</title><p>A Thermo LTQ ion trap mass spectrometer with nanoelectrospray ionization (nESI) was used to study cluster formation by both kinetically and energy‐resolved methods. This study validates past observations on the homochiral preference of serine octamer during its association with other nonserine monomers.</p></sec><sec id="rcm70133-sec-0003"><title>Results</title><p>A substrate scope covering α‐hydroxy acids and related molecules was studied. The chiral preference was investigated with tandem MS and the importance of salt bridge formation and α/β‐carbon hydrogen bonding was recognized.</p></sec><sec id="rcm70133-sec-0004"><title>Conclusions</title><p>Weak interactions involving steric forces, salt bridges, ion–dipole interactions, and hydrogen bonds control stereoselective and chiroselective properties of the serine octamer cluster.</p></sec></abstract><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>the Centre of Excellence on Molecular Materials</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>the Multi‐University Research Initiative of the Air Force Office of Scientific Research</institution></institution-wrap>
+</funding-source><award-id>FA9550‐21‐1‐0170</award-id><award-id>subaward 62741613‐204669</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Anusandhan National Research Foundation (ANRF)</institution><institution-id institution-id-type="doi">10.13039/100000964</institution-id></institution-wrap>
+</funding-source></award-group></funding-group><counts><fig-count count="6"/><table-count count="1"/><page-count count="8"/><word-count count="4800"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>30 September 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.2 mode:remove_FC converted:02.07.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="rcm70133-body-0001"><sec id="rcm70133-sec-0005"><label>1</label><title>Introduction</title><p>Noncovalent interactions are encountered throughout physics and chemistry and are especially important in biological systems [<xref rid="rcm70133-bib-0001" ref-type="bibr">1</xref>, <xref rid="rcm70133-bib-0002" ref-type="bibr">2</xref>]. Weak intermolecular forces establish structural organization in biomacromolecules, including proteins and nucleic acid [<xref rid="rcm70133-bib-0003" ref-type="bibr">3</xref>, <xref rid="rcm70133-bib-0004" ref-type="bibr">4</xref>]. Cases in which simple molecular systems exhibit properties such as strong chiral associations based on noncovalent interaction are therefore fundamentally interesting [<xref rid="rcm70133-bib-0005" ref-type="bibr">5</xref>, <xref rid="rcm70133-bib-0006" ref-type="bibr">6</xref>], as are the methods of studying them [<xref rid="rcm70133-bib-0007" ref-type="bibr">7</xref>, <xref rid="rcm70133-bib-0008" ref-type="bibr">8</xref>, <xref rid="rcm70133-bib-0009" ref-type="bibr">9</xref>, <xref rid="rcm70133-bib-0010" ref-type="bibr">10</xref>, <xref rid="rcm70133-bib-0011" ref-type="bibr">11</xref>, <xref rid="rcm70133-bib-0012" ref-type="bibr">12</xref>].</p><p>One instance is the serine octamer magic number cluster, which was studied as a protonated molecule in our experiments. Serine monomers cluster chiroselectively when they are generated from microdroplet sprays [<xref rid="rcm70133-bib-0013" ref-type="bibr">13</xref>, <xref rid="rcm70133-bib-0014" ref-type="bibr">14</xref>, <xref rid="rcm70133-bib-0015" ref-type="bibr">15</xref>, <xref rid="rcm70133-bib-0016" ref-type="bibr">16</xref>, <xref rid="rcm70133-bib-0017" ref-type="bibr">17</xref>, <xref rid="rcm70133-bib-0018" ref-type="bibr">18</xref>]. This cluster's homochiral behavior results from its highly symmetrical D<sub>4</sub> structure, which consists of two 4‐monomer layers linked by NH<sub>3</sub>
+<sup>+</sup>/COO<sup>−</sup> salt bridges and hydrogen bonds connecting the two layers [<xref rid="rcm70133-bib-0013" ref-type="bibr">13</xref>, <xref rid="rcm70133-bib-0019" ref-type="bibr">19</xref>]. The octamer imposes selectivity during substitution when one or two serine molecules are replaced by other biomolecules that possess moieties capable of participating in the noncovalent network [<xref rid="rcm70133-bib-0020" ref-type="bibr">20</xref>, <xref rid="rcm70133-bib-0021" ref-type="bibr">21</xref>, <xref rid="rcm70133-bib-0022" ref-type="bibr">22</xref>]. It is known that the serine octamer chiroselectively substitutes amino acids and glucose, incorporates H<sub>3</sub>PO<sub>4</sub>, and forms complexes with transition metals [<xref rid="rcm70133-bib-0023" ref-type="bibr">23</xref>, <xref rid="rcm70133-bib-0024" ref-type="bibr">24</xref>, <xref rid="rcm70133-bib-0025" ref-type="bibr">25</xref>, <xref rid="rcm70133-bib-0026" ref-type="bibr">26</xref>, <xref rid="rcm70133-bib-0027" ref-type="bibr">27</xref>]. Chirally selective substitution into nanoscale clusters is interesting because it is unassisted by outside chiral forces [<xref rid="rcm70133-bib-0018" ref-type="bibr">18</xref>, <xref rid="rcm70133-bib-0028" ref-type="bibr">28</xref>, <xref rid="rcm70133-bib-0029" ref-type="bibr">29</xref>], so given any degree of inherent asymmetry in the monomer population, in principle, it can lead to chiral enrichment, even to homochirality, provided only that the selection is followed by segregation of the substituted cluster from the monomer [<xref rid="rcm70133-bib-0030" ref-type="bibr">30</xref>, <xref rid="rcm70133-bib-0031" ref-type="bibr">31</xref>]. This situation is illustrated schematically in Figure <xref rid="rcm70133-fig-0001" ref-type="fig">1</xref>.</p><fig position="float" fig-type="FIGURE" id="rcm70133-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Molecular clustering plus racemization increases enantiomeric excess (e.e.) without chemical change. Given a small starting e.e. (shown as L &gt; D), clustering and then deposition provides two populations (blue and orange), each enriched in one enantiomer (L &gt; &gt; D and D &gt; &gt; L). If one of these populations is subjected to a racemizing event in its new location, it would return to the original e.e. condition, which would allow the chiroselective process to repeat. References demonstrating relevant aspects are provided in the figure.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="RCM-40-e70133-g004.jpg"><?image-name RCM-40-e70133-g004.jpg?><?image-size 44252?><?image-md5 e20a181ea7dae8b1076f7ab01fad5813?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 538?><?image-original-width 1064?><?image-scaled-height 358?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/e20a181ea7da/RCM-40-e70133-g004.jpg?><?thumb-name RCM-40-e70133-g004.gif?><?thumb-size 3499?><?thumb-md5 3bbc71245740a618aea0ca93c0311ebe?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 158?><?thumb-cloudpmc-urn urn:cdn:blobs/554c/13324970/3bbc71245740/RCM-40-e70133-g004.gif?></graphic></fig><p>In the present study, the substitution reaction was studied by acquiring data on clusters containing both serine and another monomer. Our aim is to probe octamer substitution by examining the cluster's behavior with molecules of lower proton affinity (PA) than amino acids. The interactions of amino acids with the charged cluster are driven by the salt bridge binding of basic groups at the charge site. Hydroxy acids, which have lower PA than amino acids, are expected to be more sensitive to other determinants of substitution, namely, sterics and the arrangement of hydrogen bonding groups about the chiral center [<xref rid="rcm70133-bib-0032" ref-type="bibr">32</xref>].</p><p>Hydroxy acids have featured in studies of stereochemistry since Pasteur's early work with tartaric acid (TA) [<xref rid="rcm70133-bib-0033" ref-type="bibr">33</xref>, <xref rid="rcm70133-bib-0034" ref-type="bibr">34</xref>]. Moreover, hydroxy acids are possibly relevant to life's chemical evolution, based on findings from simulated prebiotic chemistry [<xref rid="rcm70133-bib-0035" ref-type="bibr">35</xref>, <xref rid="rcm70133-bib-0036" ref-type="bibr">36</xref>, <xref rid="rcm70133-bib-0037" ref-type="bibr">37</xref>, <xref rid="rcm70133-bib-0038" ref-type="bibr">38</xref>, <xref rid="rcm70133-bib-0039" ref-type="bibr">39</xref>]. We examined various hydroxy acids to identify the properties necessary for stereoselective and chiroselective incorporation into the serine‐based octamer. Table <xref rid="rcm70133-tbl-0001" ref-type="table">1</xref> presents the α‐hydroxy acids and related molecules studied and the results obtained.</p><table-wrap position="float" id="rcm70133-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Substrates subjected to clustering interactions with serine.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Sl. no.</th><th align="center" valign="bottom" rowspan="1" colspan="1">Substrate</th><th align="center" valign="bottom" rowspan="1" colspan="1">Octamer substitution?</th><th align="center" valign="bottom" rowspan="1" colspan="1">Chiroselective?</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">
+<p>
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="RCM-40-e70133-g005.jpg"><?image-name RCM-40-e70133-g005.jpg?><?image-size 45629?><?image-md5 278e5898343efa5f04b8d0a21cc38edc?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/278e5898343e/RCM-40-e70133-g005.jpg?></inline-graphic>
+</p>
+<p>Tartaric acid (TA)</p>
+</td><td align="center" valign="top" rowspan="1" colspan="1">✔</td><td align="center" valign="top" rowspan="1" colspan="1">✔</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1">
+<p>
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="RCM-40-e70133-g003.jpg"><?image-name RCM-40-e70133-g003.jpg?><?image-size 43926?><?image-md5 de867056e7ba110b29916d4f8d69f86c?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/de867056e7ba/RCM-40-e70133-g003.jpg?></inline-graphic>
+</p>
+<p>Malic acid (MA)</p>
+</td><td align="center" valign="top" rowspan="1" colspan="1">✔</td><td align="center" valign="top" rowspan="1" colspan="1">✔</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">
+<p>
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="RCM-40-e70133-g002.jpg"><?image-name RCM-40-e70133-g002.jpg?><?image-size 43750?><?image-md5 c14b193ddc625f94bf834d2a201ade77?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/c14b193ddc62/RCM-40-e70133-g002.jpg?></inline-graphic>
+</p>
+<p>Glyceric acid</p>
+</td><td align="center" valign="top" rowspan="1" colspan="1">✔</td><td align="center" valign="top" rowspan="1" colspan="1">✔</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1">
+<p>
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="RCM-40-e70133-g011.jpg"><?image-name RCM-40-e70133-g011.jpg?><?image-size 42180?><?image-md5 3924811a05fa8db7f857b0e83b73d2d5?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/3924811a05fa/RCM-40-e70133-g011.jpg?></inline-graphic>
+</p>
+<p>3,4‐Dihydroxybutyric acid</p>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Weak</td><td align="center" valign="top" rowspan="1" colspan="1">N/A</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">5</td><td align="center" valign="top" rowspan="1" colspan="1">
+<p>
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="RCM-40-e70133-g013.jpg"><?image-name RCM-40-e70133-g013.jpg?><?image-size 46079?><?image-md5 767ab6c57401d2235be272704b6222d0?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/767ab6c57401/RCM-40-e70133-g013.jpg?></inline-graphic>
+</p>
+<p>Glycolic acid</p>
+</td><td align="center" valign="top" rowspan="1" colspan="1">✘</td><td align="center" valign="top" rowspan="1" colspan="1">✘</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">6</td><td align="center" valign="top" rowspan="1" colspan="1">
+<p>
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="RCM-40-e70133-g008.jpg"><?image-name RCM-40-e70133-g008.jpg?><?image-size 43664?><?image-md5 b9cc361296a63d148b4f46d2deaf30c9?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/b9cc361296a6/RCM-40-e70133-g008.jpg?></inline-graphic>
+</p>
+<p>2‐hydroxybutyric acid</p>
+</td><td align="center" valign="top" rowspan="1" colspan="1">✘</td><td align="center" valign="top" rowspan="1" colspan="1">✘</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">7</td><td align="center" valign="top" rowspan="1" colspan="1">
+<p>
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="RCM-40-e70133-g007.jpg"><?image-name RCM-40-e70133-g007.jpg?><?image-size 48066?><?image-md5 3460d20cda589ed9222b8146f75a6ed3?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/3460d20cda58/RCM-40-e70133-g007.jpg?></inline-graphic>
+</p>
+<p>Threitol</p>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Weak</td><td align="center" valign="top" rowspan="1" colspan="1">N/A</td></tr></tbody></table></table-wrap><p>By studying the substrate scope of molecules with hydroxyl and carboxylic acid functions and two to five backbone carbons, we have endeavored to identify the characteristics that allow serine octamer association (viz., substitution). Using nanoelectrospray ionization (nESI) with pulled borosilicate capillary emitters, we conducted MS analysis using a quadrupole ion trap instrument (Thermo LTQ). Our general finding is that molecules, which can participate in the salt bridge structure, cluster efficiently with serine, with additional advantage conferred by α and β hydroxyl groups (but not β and γ). Molecules with too few carbons do not fit into the vacancy created by removing a serine molecule from the octamer, whereas much larger molecules cannot be accommodated. Molecules of intermediate size are incorporated provided they appropriately participate in the cluster's noncovalent interaction network. In those cases where clustering occurred, we investigated the chiral preference of mixed serine octamer clusters.</p></sec><sec id="rcm70133-sec-0006"><label>2</label><title>Results and Discussion</title><p>Experiments began by examining how serine interacts with the stereoisomers of TA. Figure <xref rid="rcm70133-fig-0002" ref-type="fig">2a</xref> shows the region of the positive‐ion mass spectrum obtained using nESI for an aqueous solution of L‐serine and D‐TA dissolved in water (also, Figure <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S1</xref> shows the octamer [7L‐Ser + D‐TA + H]<sup>+</sup> in the range of <italic toggle="yes">m/z</italic> 500–1000). The singly substituted octamer, [7L‐Ser + D‐TA + H]<sup>+</sup>, where TA is tartaric acid, appears with good intensity at <italic toggle="yes">m/z</italic> 886. Tandem MS (MS/MS) analysis using collision‐induced dissociation (CID) confirmed this assignment (Figure <xref rid="rcm70133-fig-0002" ref-type="fig">2b</xref>), with fragment ions corresponding to the loss of di‐, tri‐, and tetrameric serine clusters, along with similar clusters containing TA. Prior to the serine substitution experiments, the TA clusters were analyzed by mass spectrometry (Figure <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S2</xref>).</p><fig position="float" fig-type="FIGURE" id="rcm70133-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>(a) nESI mass spectrum of aqueous L‐serine (8 mM) and D‐tartaric acid (2 mM), showing singly substituted serine octamer, (b) tandem mass spectrum showing the CID of [7L‐Ser + D‐TA + H]<sup>+</sup> at <italic toggle="no">m/z</italic> 886.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="RCM-40-e70133-g006.jpg"><?image-name RCM-40-e70133-g006.jpg?><?image-size 30804?><?image-md5 102b74602ea0730017d263bc2c0fcb0e?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 428?><?image-original-width 1064?><?image-scaled-height 285?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/102b74602ea0/RCM-40-e70133-g006.jpg?><?thumb-name RCM-40-e70133-g006.gif?><?thumb-size 3966?><?thumb-md5 b10288cc38cfc57a8fd016cf788d3c84?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 198?><?thumb-cloudpmc-urn urn:cdn:blobs/554c/13324970/b10288cc38cf/RCM-40-e70133-g006.gif?></graphic></fig><p>Chiroselectivity was observed with the D‐enantiomer of TA preferring substitution into the L‐serine octamer (Figure <xref rid="rcm70133-fig-0003" ref-type="fig">3</xref>). Figure <xref rid="rcm70133-fig-0003" ref-type="fig">3a–c</xref> displays the chiroselective patterns of L‐serine with D‐, L‐, and meso‐TA. Validating the data quality, Figure <xref rid="rcm70133-fig-0003" ref-type="fig">3d–f</xref> shows the preference in reverse, with D‐serine pairing with L‐TA. The achiral meso‐TA stereoisomer shows the most abundant clustering interaction. A differentiating feature between the L‐/D‐TA and meso‐TA is its mirror plane reflection symmetry (<italic toggle="yes">σ</italic>) between the α and β carbons. Added symmetry may facilitate incorporation in the cluster because both hydroxyls can point toward the other polar moieties of the cluster while keeping the two carboxylic acids in a symmetrical position, preserving the cluster's ordered structure and noncovalent contacts. Such a conformation is not available to the D‐ and L‐enantiomers.</p><fig position="float" fig-type="FIGURE" id="rcm70133-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Mass spectra showing substitution as a function of stereochemistry. (a) L‐serine and D‐TA, (b) L‐serine and L‐TA, (c) L‐serine and meso‐TA, (d) D‐serine and L‐TA, (e) D‐serine and D‐TA, and (f) D‐serine and meso‐TA.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="RCM-40-e70133-g001.jpg"><?image-name RCM-40-e70133-g001.jpg?><?image-size 54845?><?image-md5 01d0914f294402b87a35f60b76ebddf7?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 754?><?image-original-width 1064?><?image-scaled-height 502?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/01d0914f2944/RCM-40-e70133-g001.jpg?><?thumb-name RCM-40-e70133-g001.gif?><?thumb-size 3397?><?thumb-md5 08595980c60365de5c4c8755c7f2d48e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 112?><?thumb-cloudpmc-urn urn:cdn:blobs/554c/13324970/08595980c603/RCM-40-e70133-g001.gif?></graphic></fig><p>Measuring the stereoselectivity and enantioselectivity of the clustering process as shown in Figure <xref rid="rcm70133-fig-0003" ref-type="fig">3</xref> is a kinetic method of analysis [<xref rid="rcm70133-bib-0040" ref-type="bibr">40</xref>]: Constant proportions of monomers are sprayed, and they experience the same reaction time and conditions. The relative abundance of a given product as a function of stereochemistry indicates the chiral preference. Alternatively, the strength of the noncovalent forces that hold the cluster together can be measured by energy resolved CID. In this implementation, a given ion is isolated and subjected to variable CID energies. When fragment ion abundances are plotted with respect to the CID energy, the breakdown curves indicate how much energy is required to drive the dissociation. We note that this general approach has been used to obtain relative thermochemical information [<xref rid="rcm70133-bib-0041" ref-type="bibr">41</xref>]. When this approach is applied to the much simpler proton‐bound dimer, atomic or molecular cation, or even an electron, quantitative relative free energies may be obtained [<xref rid="rcm70133-bib-0042" ref-type="bibr">42</xref>].</p><p>To better understand the forces causing octamer formation, we examined how fragmentation varies with CID energy for the [7Ser + TA + H]<sup>+</sup> ions (Figure <xref rid="rcm70133-fig-0004" ref-type="fig">4</xref>). The collision energy values shown in the breakdown curves correspond to the instrument's CID energy settings and are reported in the manufacturer's unit. The curves were plotted as fractional ion abundances. Comparison of the breakdown curves (Figure <xref rid="rcm70133-fig-0004" ref-type="fig">4a–c</xref>) shows that L‐Serine‐, D‐TA‐, and meso‐TA‐containing clusters remain more resistant to fragmentation, with major precursor depletion beginning at approximately eight CID energy. In contrast, the L‐TA‐containing cluster shows fragmentation at lower CID energy, indicating that this mixed octamer is less stable under collisional activation. Validating the data quality, Figure <xref rid="rcm70133-fig-0004" ref-type="fig">4d–f</xref> shows breakdown curves for D‐Serine.</p><fig position="float" fig-type="FIGURE" id="rcm70133-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Breakdown curves of [7Ser + TA + H]<sup>+</sup>. CID energy is manufacturer's unit. (a) L‐serine/D‐TA, (b) L‐serine/L‐TA, (c) L‐serine/meso‐TA, (d) D‐serine/L‐TA, (e) D‐serine/D‐TA, and (f) D‐serine/meso‐TA.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="RCM-40-e70133-g010.jpg"><?image-name RCM-40-e70133-g010.jpg?><?image-size 71512?><?image-md5 f3364925b140b913c06eacc900aa4170?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 740?><?image-original-width 1064?><?image-scaled-height 493?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/f3364925b140/RCM-40-e70133-g010.jpg?><?thumb-name RCM-40-e70133-g010.gif?><?thumb-size 3945?><?thumb-md5 a397f93748faf6f61decb84a855f7d3d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 115?><?thumb-cloudpmc-urn urn:cdn:blobs/554c/13324970/a397f93748fa/RCM-40-e70133-g010.gif?></graphic></fig><p>According to the literature, the breakdown curve of the protonated L‐serine octamer indicates that dimer loss is the dominant and lowest energy dissociation pathway, whereas the loss of an odd‐numbered monomer is unfavorable. Subsequent mass selection, dissociation, and mass analysis (MS<sup>3</sup>) of the major dissociation product, the protonated hexamer, also demonstrate the loss of a serine dimer to yield the protonated tetramer.</p><p>In contrast, the TA‐substituted serine octamers exhibit distinctive fragmentation pathways. The L‐serine octamer substituted with D‐TA predominantly loses a serine dimer as well as a mixed Ser–TA dimer (Figure <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S3</xref>). However, the octamers substituted with L‐TA and meso‐TA show an additional fragment at <italic toggle="yes">m/z</italic> 781, corresponding to the neutral loss of a serine monomer. These observations suggest that incorporating D‐TA preserves the characteristic dimer‐loss dissociation behavior of the native serine octamer, whereas substitution with L‐TA or meso‐TA alters the fragmentation pathway, leading to monomer loss and indicating differences in stability and binding interactions within the cluster. A similar MS/MS pattern was observed for D‐serine also (Figure <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S4</xref>). Taken together, the abundance measurements and CID breakdown curves indicate that the stability and fragmentation of the mixed serine/TA octamers are strongly controlled by TA stereochemistry. The different dissociation behavior is most likely due to changes in the hydrogen‐bonding network of the octamer after substitution of one serine molecule by TA.</p><p>Malic acid (MA) also exhibited stereoselective associations with a slight preference for pairing L‐serine with L‐MA over D‐MA. Figure <xref rid="rcm70133-fig-0005" ref-type="fig">5a</xref> shows the nESI mass spectrum of L‐serine/L‐MA. The peaks at <italic toggle="yes">m/z</italic> 870 and 899 correspond to single and double MA substitution, [7Ser + MA + H]<sup>+</sup> and [6Ser + 2MA + H]<sup>+</sup>, respectively. Figure <xref rid="rcm70133-fig-0005" ref-type="fig">5b</xref> shows the MS/MS spectrum of [7Ser + MA + H]<sup>+</sup>, which includes the loss of neutral monomer, di‐, tri‐, and tetramers of serine, along with fragments containing both MA and serine. (Additional characterization is discussed in Figure <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S5</xref>).</p><fig position="float" fig-type="FIGURE" id="rcm70133-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>(a) nESI mass spectrum of L‐serine (8 mM) and L‐MA (2 mM) showing the formation of single and double substituted octamers, (b) MS/MS of [7L‐Ser + L‐MA + H]<sup>+</sup>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="RCM-40-e70133-g012.jpg"><?image-name RCM-40-e70133-g012.jpg?><?image-size 36057?><?image-md5 cf92b87e8108d467a9590d88edb63829?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 469?><?image-original-width 1064?><?image-scaled-height 313?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/cf92b87e8108/RCM-40-e70133-g012.jpg?><?thumb-name RCM-40-e70133-g012.gif?><?thumb-size 4107?><?thumb-md5 a2cd3d6f90d757e7f9e3a2ec0897fa83?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 181?><?thumb-cloudpmc-urn urn:cdn:blobs/554c/13324970/a2cd3d6f90d7/RCM-40-e70133-g012.gif?></graphic></fig><p>In addition to TA and MA, glyceric acid (GA) showed strong chiral selectivity, with [7L‐Ser + L‐GA + H]<sup>+</sup>at <italic toggle="yes">m/z</italic> 842, whereas the D‐serine/L‐GA cluster was not detected (Figure <xref rid="rcm70133-fig-0006" ref-type="fig">6</xref>). To further confirm this, we performed substitution studies using different chiralities of serine and GA sodium salt in the presence of acid (Figure <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S6</xref>). L‐serine/L‐GA sodium salt and D‐serine/D‐GA sodium salt showed chiroselective substitution with a peak at <italic toggle="yes">m/z</italic> 842, whereas L‐serine/D‐GA and D‐serine/L‐GA did not exhibit any substitution. GA has a very similar structure to serine, with a hydroxyl instead of serine's amine. Even when an amine is unavailable to participate in a salt bridge, because GA closely matches the structure of serine, it does not significantly disrupt the larger structure and chiral preference is retained.</p><fig position="float" fig-type="FIGURE" id="rcm70133-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>nESI mass spectrum of a mixture of (a) L‐serine (8 mM) and L‐glyceric acid (2 mM) showing the formation of the substituted product, (b) D‐serine (8 mM) and L‐glyceric acid (2 mM), indicating substitution is less favorable.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="RCM-40-e70133-g009.jpg"><?image-name RCM-40-e70133-g009.jpg?><?image-size 22141?><?image-md5 6742bcb2deeca5bbeee93d398c859821?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 447?><?image-original-width 1064?><?image-scaled-height 298?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/554c/13324970/6742bcb2deec/RCM-40-e70133-g009.jpg?><?thumb-name RCM-40-e70133-g009.gif?><?thumb-size 3133?><?thumb-md5 18253057d56deb49b7d28eadce754bc9?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 190?><?thumb-cloudpmc-urn urn:cdn:blobs/554c/13324970/18253057d56d/RCM-40-e70133-g009.gif?></graphic></fig><p>The observed differences in substitution efficiency and chiroselectivity among the hydroxy acids appear to arise from structural features that govern their accommodation within the Ser<sub>8</sub> assembly. To investigate this relationship, a series of hydroxy acids and related polyols were examined.</p><p>Neither serine/glycolic acid (5) (Figure <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S7</xref>) nor serine/L‐2‐hydroxybutyric acid (6) (Figure <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S8</xref>) showed detectable substitution. This observation suggests that the presence of a single hydroxyl group and carboxyl group is insufficient to promote incorporation into the octamer. In contrast, partial replacement of the carboxylic acid functionalities of TA by hydroxyl groups, as in threitol (7) (Figure <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S9</xref>), resulted in only very weak substitution at <italic toggle="yes">m/z</italic> 858, as indicated by the MS/MS dissociation pattern of the substituted serine octamer. Consistent with this, the MS/MS spectra showed no significant loss of mixed serine/threitol clusters (Figure <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S10</xref>), suggesting that the interactions responsible for stabilizing substituted clusters are substantially weakened in the absence of carboxylate functionality, which may prevent formation of the salt‐bridge network proposed to stabilize the assembly.</p><p>Similarly, serine/(S)‐3,4‐dihydroxybutyric acid lithium salt hydrate (4) exhibited only weak substitution, with low‐intensity peaks at <italic toggle="yes">m/z</italic> 856 and 862 corresponding to protonated and lithiated substituted products, respectively (Figure <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S11</xref>). Evaluation of the lithium salt was performed as a control experiment designed to assess the effect of the stock chemical preparation (whether HCl, sodium salt, etc.). These experiments suggest that the observed behavior is independent of the counterion; thus, our results are in fact attributable to the molecular characteristics of the substituents rather than from differences in counterions. Additionally, this indicates that not only the number but also the relative positions of the hydroxyl groups influence substitution efficiency.</p><p>Among all compounds examined, GA uniquely displayed substantial substitution accompanied by measurable chiral selectivity. While the present dataset does not establish a strict structural requirement, it suggests that efficient substitution and pronounced chiral discrimination are favored when both a carboxyl group and hydroxyl functionalities are present in a spatial arrangement resembling that of serine, particularly with hydroxyl groups located at the α‐ and β‐positions (Table <xref rid="rcm70133-supitem-0001" ref-type="supplementary-material">S1</xref>).</p><p>This interpretation is consistent with the known zwitterionic structure of serine, which contains COO<sup>−</sup>, NH<sub>3</sub>
+<sup>+</sup>, and ‐OH groups capable of participating in a combination of ionic interactions, hydrogen bonding, and other noncovalent contacts. Replacement of serine by an α‐hydroxy acid removes the ammonium functionality but retains the carboxylate and hydroxyl groups, resulting in weaker yet still significant interactions when the functional‐group connectivity closely resembles that of serine. Such structural similarity may facilitate incorporation into the Ser<sub>8</sub> framework and contribute to the enhanced substitution and chiral recognition observed for GA.</p></sec><sec sec-type="conclusions" id="rcm70133-sec-0007"><label>3</label><title>Conclusion</title><p>This study examined stereoselective and chiroselective serine octamer formation with α‐hydroxy acids and related molecules. The degree of substitution and stereo/enantio‐specificity depends on the structure of the α‐hydroxy acid group. This was shown with a substrate scope that iteratively varied the number and position of carbons and hydroxyl/carboxylic acid functions. Overall, these reactions emphasize the importance of NH<sub>3</sub>
+<sup>+</sup>/COO<sup>−</sup> salt bridges in creating a stable cluster: Replacing serine with an α‐hydroxy acid results in lower stability under CID conditions since these monomers lack amino groups to contribute to the salt bridge. Taken together, our observations support the hypothesis that the octamer's symmetry explains its enantioselectivity.</p></sec><sec id="rcm70133-sec-0011"><title>Author Contributions</title><p>
+<bold>Keerthana Unni:</bold> writing – original draft, investigation, validation, visualization, formal analysis. <bold>Brison A. Shira:</bold> investigation, conceptualization, methodology, validation, writing – original draft, writing – review and editing. <bold>Dylan T. Holden:</bold> conceptualization, formal analysis, supervision, validation. <bold>Thalappil Pradeep:</bold> supervision, resources, project administration, writing – review and editing, funding acquisition, formal analysis, investigation. <bold>R. Graham Cooks:</bold> conceptualization, funding acquisition, writing – original draft, writing – review and editing, formal analysis, project administration, supervision, resources.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="rcm70133-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S1:</bold> nESI mass spectrum of singly substituted serine octamer [7L‐Ser + D‐TA + H]<sup>+</sup> in the range of <italic toggle="no">m/z</italic> 500–1000 in the positive ion mode.</p><p>
+<bold>Figure S2:</bold> n‐ESI mass spectrum of D—tartaric acid showing clusters in the range of <italic toggle="no">m/z</italic> 500–1000 in the negative ion mode.</p><p>
+<bold>Figure S3:</bold> Tandem mass spectra showing the product of collision‐induced dissociation of single substituted (a) [7L‐Ser + D‐TA + H]<sup>+</sup>, (b) [7L‐Ser + L‐TA + H]<sup>+</sup>, and (c) [7L‐Ser + meso‐TA + H]<sup>+</sup>.</p><p>
+<bold>Figure S4:</bold> Tandem mass spectra showing the product of collision‐induced dissociation of single substituted (a) [7D‐Ser + L‐TA + H]<sup>+</sup>, (b) [7D‐Ser + D‐TA + H]<sup>+</sup>, and (c) [7D‐Ser + meso‐TA + H]<sup>+</sup>.</p><p>
+<bold>Figure S5:</bold> n‐ESI mass spectra of a solution of a mixture of (a) L‐serine and L‐malic acid, (b) L‐serine and D‐malic acid (under the same trapping conditions).</p><p>
+<bold>Figure S6:</bold> n‐ESI mass spectra of a solution containing (a) L‐serine (8 mM) and L‐glyceric acid sodium salt (2 mM), (b) L‐serine (8 mM) and D‐glyceric acid sodium salt (2 mM), (c) D‐serine (8 mM) and D‐glyceric acid sodium salt, and (d) D‐serine (8 mM) and L‐glyceric acid sodium salt. (All these solutions were prepared in the presence of HCl). Compare above to main text Figure 6, which represents the interaction of L‐glyceric acid with L‐serine and D‐serine and a strong chiroselective substitution in the case of glyceric acid. To verify these results, similar studies were required using D‐glyceric acid with L‐serine and D‐serine. However, only the sodium salt form of D‐glyceric acid was commercially available. Therefore, the experiments were repeated using the sodium salts of both L‐glyceric acid and D‐glyceric acid.</p><p>
+<bold>Figure S7:</bold> nESI mass spectra of a solution containing (a) L‐serine (8 mM) and glycolic acid (2 mM), (b) D‐serine (8 mM) and glycolic acid (2 mM).</p><p>
+<bold>Figure S8:</bold> n‐ESI mass spectra of a solution containing (a) L‐serine (8 mM) and L‐2‐hydroxybutyric acid (2 mM), (b) D‐serine (8 mM) and L‐2‐hydroxybutyric acid (2 mM).</p><p>
+<bold>Figure S9:</bold> n‐ESI mass spectra of a solution containing (a) L‐serine (8 mM) and L‐threitol (2 mM), (b) D‐serine (8 mM) and L‐threitol (2 mM).</p><p>
+<bold>Figure S10:</bold> Tandem mass spectrum showing the product of collision‐induced dissociation of single‐substituted [7L‐Ser + L‐threitol + H]<sup>+</sup>.</p><p>
+<bold>Figure S11:</bold> n‐ESI mass spectra of a solution containing (a) L‐serine (8 mM) and (S)‐3,4‐Dihydroxybutyric acid lithium salt hydrate (2 mM), (b) D‐serine (8 mM) and (S)‐3,4‐Dihydroxybutyric acid lithium salt hydrate (2 mM). (Solutions were prepared with HCl). Although (S)‐3,4‐dihydroxybutyric acid lithium salt hydrate contains two hydroxyl groups and one carboxylic acid group, similar to glyceric acid, the different positioning of these functional groups results in only weak substitution, implying that the hydroxyl group must be located at the α‐position relative to the carboxylic acid group for effective substitution.</p><p>
+<bold>Table S1:</bold> Possible interactions of the octamer after replacing the serine with α‐hydroxy acid.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="RCM-40-e70133-s001.docx" position="float" orientation="portrait"><?suppdata-name RCM-40-e70133-s001.docx?><?suppdata-size 2052831?><?suppdata-md5 bb29cadf0a1a1999be487bdd4ad0508f?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:554c/13324970/bb29cadf0a1a/RCM-40-e70133-s001.docx?></media></supplementary-material></sec></body><back><ack id="rcm70133-sec-0008"><title>Acknowledgments</title><p>This work was supported by the Multi‐University Research Initiative of the Air Force Office of Scientific Research (FA9550‐21‐1‐0170) via Stanford University (subaward 62741613‐204669). R.G.C. and T.P. acknowledge funding from the Centre of Excellence on Molecular Materials and Functions under the Institution of Eminence scheme of IIT Madras. K.U. thanks IIT Madras and acknowledges a visiting doctoral fellowship from the Anusandhan National Research Foundation (ANRF).</p></ack><sec sec-type="data-availability" id="rcm70133-sec-0010"><title>Data Availability Statement</title><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></sec><ref-list content-type="cited-references" id="rcm70133-bibl-0001"><title>References</title><ref id="rcm70133-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="rcm70133-cit-0001">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Černý</surname>
+</string-name> and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Hobza</surname>
+</string-name>, “<article-title>Non‐Covalent Interactions in Biomacromolecules</article-title>,” <source>Physical Chemistry Chemical Physics</source>
+<volume>9</volume>, no. <issue>39</issue> (<year>2007</year>): <fpage>5291</fpage>–<lpage>5303</lpage>, <pub-id pub-id-type="doi">10.1039/B704781A</pub-id>.<pub-id pub-id-type="pmid">17914464</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="rcm70133-cit-0002">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Frieden</surname>
+</string-name>, “<article-title>Non‐Covalent Interactions: Key to Biological Flexibility and Specificity</article-title>,” <source>Journal of Chemical Education</source>
+<volume>52</volume>, no. <issue>12</issue> (<year>1975</year>): <elocation-id>754</elocation-id>, <pub-id pub-id-type="doi">10.1021/ed052p754</pub-id>.<pub-id pub-id-type="pmid">172524</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="rcm70133-cit-0003">
+<string-name name-style="western">
+<given-names>G. D.</given-names>
+<surname>Rose</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>Fleming</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Banavar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Maritan</surname>
+</string-name>, “<article-title>A Backbone‐Based Theory of Protein Folding</article-title>,” <source>Proceedings. National Academy of Sciences. United States of America</source>
+<volume>103</volume>, no. <issue>45</issue> (<year>2006</year>): <fpage>16623</fpage>–<lpage>16633</lpage>, <pub-id pub-id-type="doi">10.1073/pnas.0606843103</pub-id>.<pub-id pub-id-type="pmcid">PMC1636505</pub-id><pub-id pub-id-type="pmid">17075053</pub-id></mixed-citation></ref><ref id="rcm70133-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="rcm70133-cit-0004">
+<string-name name-style="western">
+<given-names>C. B.</given-names>
+<surname>Anfinsen</surname>
+</string-name>, “<article-title>Principles That Govern the Folding of Protein Chains</article-title>,” <source>Science</source>
+<volume>181</volume>, no. <issue>4096</issue> (<year>1973</year>): <fpage>223</fpage>–<lpage>230</lpage>, <pub-id pub-id-type="doi">10.1126/science.181.4096.223</pub-id>.<pub-id pub-id-type="pmid">4124164</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="rcm70133-cit-0005">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Milo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Sigman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. N.</given-names>
+<surname>Jacobsen</surname>
+</string-name>, “<article-title>Introduction: Weak Interactions in Chemistry and Biology</article-title>,” <source>Chemical Reviews</source>
+<volume>125</volume>, no. <issue>19</issue> (<year>2025</year>): <fpage>9089</fpage>–<lpage>9091</lpage>, <pub-id pub-id-type="doi">10.1021/acs.chemrev.5c00695</pub-id>.<pub-id pub-id-type="pmid">41058268</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="rcm70133-cit-0006">
+<string-name name-style="western">
+<given-names>T. D.</given-names>
+<surname>Do</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. E. C.</given-names>
+<surname>de Almeida</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. E.</given-names>
+<surname>LaPointe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Chamas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Feinstein</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Bowers</surname>
+</string-name>, “<article-title>Amino Acid Metaclusters: Implications of Growth Trends on Peptide Self‐Assembly and Structure</article-title>,” <source>Analytical Chemistry</source>
+<volume>88</volume>, no. <issue>1</issue> (<year>2016</year>): <fpage>868</fpage>–<lpage>876</lpage>, <pub-id pub-id-type="doi">10.1021/acs.analchem.5b03454</pub-id>.<pub-id pub-id-type="pmid">26632663</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="rcm70133-cit-0007">
+<string-name name-style="western">
+<given-names>G. M.</given-names>
+<surname>Whitesides</surname>
+</string-name>, “<article-title>Is the Focus on “Molecules” Obsolete?</article-title>,” <source>Annual Review of Analytical Chemistry</source>
+<volume>6</volume> (<year>2013</year>): <fpage>1</fpage>–<lpage>29</lpage>, <pub-id pub-id-type="doi">10.1146/annurev-anchem-062012-092633</pub-id>.<pub-id pub-id-type="pmid">23772657</pub-id></mixed-citation></ref><ref id="rcm70133-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="rcm70133-cit-0008">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Miao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, “<article-title>Development of Submillisecond Time‐Resolved Mass Spectrometry Using Desorption Electrospray Ionization</article-title>,” <source>Analytical Chemistry</source>
+<volume>83</volume>, no. <issue>11</issue> (<year>2011</year>): <fpage>3994</fpage>–<lpage>3997</lpage>, <pub-id pub-id-type="doi">10.1021/ac200842e</pub-id>.<pub-id pub-id-type="pmid">21539335</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="rcm70133-cit-0009">
+<string-name name-style="western">
+<given-names>T. A.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. N.</given-names>
+<surname>Zare</surname>
+</string-name>, “<article-title>Detection of the Short‐Lived Radical Cation Intermediate in the Electrooxidation of N,N‐Dimethylaniline by Mass Spectrometry</article-title>,” <source>Angewandte Chemie, International Edition</source>
+<volume>54</volume>, no. <issue>38</issue> (<year>2015</year>): <fpage>11183</fpage>–<lpage>11185</lpage>, <pub-id pub-id-type="doi">10.1002/anie.201506316</pub-id>.<pub-id pub-id-type="pmid">26352029</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="rcm70133-cit-0010">
+<string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Habibi</surname>
+</string-name> and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Nagy</surname>
+</string-name>, “<article-title>Assessing the Use of Host‐Guest Chemistry in Conjunction With Cyclic Ion Mobility Separations for the Linkage‐Specific Characterization of Human Milk Oligosaccharides</article-title>,” <source>International Journal of Mass Spectrometry</source>
+<volume>483</volume> (<year>2023</year>): <elocation-id>116977</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.ijms.2022.116977</pub-id>.<pub-id pub-id-type="pmid">36440090</pub-id>
+<pub-id pub-id-type="pmcid">PMC9683398</pub-id></mixed-citation></ref><ref id="rcm70133-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="rcm70133-cit-0011">
+<string-name name-style="western">
+<given-names>A. P.</given-names>
+<surname>Looby</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Venigalla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Hou</surname>
+</string-name>, et al., “<article-title>On‐Demand Access to Palladium Oxidative Addition Complexes (OACs) From a Stable Organopalladate Salt</article-title>,” <source>Organometallics</source>
+<volume>44</volume>, no. <issue>5</issue> (<year>2025</year>): <fpage>704</fpage>–<lpage>711</lpage>, <pub-id pub-id-type="doi">10.1021/acs.organomet.5c00039</pub-id>.</mixed-citation></ref><ref id="rcm70133-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="rcm70133-cit-0012">
+<string-name name-style="western">
+<given-names>T. D.</given-names>
+<surname>Do</surname>
+</string-name>, “<article-title>Probing the Missing Links: Mass Spectrometry of Small‐Molecule Clusters on the Pathway to Fibrils and Crystals</article-title>,” <source>Analysis &amp; Sensing</source>
+<volume>6</volume>, no. <issue>2</issue> (<year>2026</year>): <elocation-id>e202500241</elocation-id>, <pub-id pub-id-type="doi">10.1002/anse.202500241</pub-id>.</mixed-citation></ref><ref id="rcm70133-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="rcm70133-cit-0013">
+<string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Cooks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Koch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. C.</given-names>
+<surname>Gozzo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. N.</given-names>
+<surname>Eberlin</surname>
+</string-name>, “<article-title>Chiroselective Self‐Directed Octamerization of Serine: Implications for Homochirogenesis</article-title>,” <source>Analytical Chemistry</source>
+<volume>73</volume>, no. <issue>15</issue> (<year>2001</year>): <fpage>3646</fpage>–<lpage>3655</lpage>, <pub-id pub-id-type="doi">10.1021/ac010284l</pub-id>.<pub-id pub-id-type="pmid">11510829</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="rcm70133-cit-0014">
+<string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Julian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Hodyss</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Kinnear</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. F.</given-names>
+<surname>Jarrold</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Beauchamp</surname>
+</string-name>, “<article-title>Nanocrystalline Aggregation of Serine Detected by Electrospray Ionization Mass Spectrometry: Origin of the Stable Homochiral Gas‐Phase Serine Octamer</article-title>,” <source>Journal of Physical Chemistry B</source>
+<volume>106</volume>, no. <issue>6</issue> (<year>2002</year>): <fpage>1219</fpage>–<lpage>1228</lpage>, <pub-id pub-id-type="doi">10.1021/jp012265l</pub-id>.</mixed-citation></ref><ref id="rcm70133-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="rcm70133-cit-0015">
+<string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Schalley</surname>
+</string-name> and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Weis</surname>
+</string-name>, “<article-title>Unusually Stable Magic Number Clusters of Serine With a Surprising Preference for Homochirality</article-title>,” <source>International Journal of Mass Spectrometry</source>
+<volume>221</volume>, no. <issue>1</issue> (<year>2002</year>): <fpage>9</fpage>–<lpage>19</lpage>, <pub-id pub-id-type="doi">10.1016/S1387-3806(02)00955-7</pub-id>.</mixed-citation></ref><ref id="rcm70133-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="rcm70133-cit-0016">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Takats</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Nanita</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Cooks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Schlosser</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Vekey</surname>
+</string-name>, “<article-title>Amino Acid Clusters Formed by Sonic Spray Ionization</article-title>,” <source>Analytical Chemistry</source>
+<volume>75</volume>, no. <issue>6</issue> (<year>2003</year>): <fpage>1514</fpage>–<lpage>1523</lpage>, <pub-id pub-id-type="doi">10.1021/ac0260793</pub-id>.<pub-id pub-id-type="pmid">12659217</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="rcm70133-cit-0017">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Nemes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Schlosser</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Vékey</surname>
+</string-name>, “<article-title>Amino Acid Cluster Formation Studied by Electrospray Ionization Mass Spectrometry</article-title>,” <source>Journal of Mass Spectrometry</source>
+<volume>40</volume>, no. <issue>1</issue> (<year>2005</year>): <fpage>43</fpage>–<lpage>49</lpage>, <pub-id pub-id-type="doi">10.1002/jms.771</pub-id>.<pub-id pub-id-type="pmid">15584012</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="rcm70133-cit-0018">
+<string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Alinezhad</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y. K.</given-names>
+<surname>Ng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mehta</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Konermann</surname>
+</string-name>, “<article-title>Uncovering the Pathway of Serine Octamer Magic Number Cluster Formation During Electrospray Ionization: Experiments and Simulations</article-title>,” <source>Journal of the American Chemical Society</source>
+<volume>146</volume>, no. <issue>39</issue> (<year>2024</year>): <fpage>26726</fpage>–<lpage>26742</lpage>, <pub-id pub-id-type="doi">10.1021/jacs.4c05760</pub-id>.<pub-id pub-id-type="pmid">39287424</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="rcm70133-cit-0019">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Seo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Warnke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Pagel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Bowers</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>von Helden</surname>
+</string-name>, “<article-title>Infrared Spectrum and Structure of the Homochiral Serine Octamer–Dichloride Complex</article-title>,” <source>Nature Chemistry</source>
+<volume>9</volume>, no. <issue>12</issue> (<year>2017</year>): <fpage>1263</fpage>–<lpage>1268</lpage>, <pub-id pub-id-type="doi">10.1038/nchem.2821</pub-id>.<pub-id pub-id-type="pmid">29168486</pub-id></mixed-citation></ref><ref id="rcm70133-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="rcm70133-cit-0020">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Kong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Infusini</surname>
+</string-name>, et al., “<article-title>Numerous Isomers of Serine Octamer Ions Characterized by Infrared Photodissociation Spectroscopy</article-title>,” <source>ChemPhysChem</source>
+<volume>10</volume>, no. <issue>15</issue> (<year>2009</year>): <fpage>2603</fpage>–<lpage>2606</lpage>, <pub-id pub-id-type="doi">10.1002/cphc.200900564</pub-id>.<pub-id pub-id-type="pmid">19728345</pub-id>
+<pub-id pub-id-type="pmcid">PMC2784886</pub-id></mixed-citation></ref><ref id="rcm70133-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="rcm70133-cit-0021">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Kong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. A.</given-names>
+<surname>Tsai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sabu</surname>
+</string-name>, et al., “<article-title>Progressive Stabilization of Zwitterionic Structures in [H (Ser)2–8]+ Studied by Infrared Photodissociation Spectroscopy</article-title>,” <source>Angewandte Chemie, International Edition</source>
+<volume>45</volume>, no. <issue>25</issue> (<year>2006</year>): <fpage>4130</fpage>–<lpage>4134</lpage>, <pub-id pub-id-type="doi">10.1002/anie.200600597</pub-id>.<pub-id pub-id-type="pmid">16718712</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="rcm70133-cit-0022">
+<string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Mazurek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Geller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lifshitz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>McFarland</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. G.</given-names>
+<surname>Marshall</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. G.</given-names>
+<surname>Reuben</surname>
+</string-name>, “<article-title>Protonated Serine Octamer Cluster: Structure Elucidation by Gas‐Phase H/D Exchange Reactions</article-title>,” <source>Journal of Physical Chemistry A</source>
+<volume>109</volume>, no. <issue>10</issue> (<year>2005</year>): <fpage>2107</fpage>–<lpage>2112</lpage>, <pub-id pub-id-type="doi">10.1021/jp0451344</pub-id>.<pub-id pub-id-type="pmid">16838981</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="rcm70133-cit-0023">
+<string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Koch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. C.</given-names>
+<surname>Gozzo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Nanita</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Takats</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. N.</given-names>
+<surname>Eberlin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Cooks</surname>
+</string-name>, “<article-title>Chiral Transmission Between Amino Acids: Chirally Selective Amino Acid Substitution in the Serine Octamer as a Possible Step in Homochirogenesis</article-title>,” <source>Angewandte Chemie, International Edition</source>
+<volume>41</volume>, no. <issue>10</issue> (<year>2002</year>): <fpage>1721</fpage>–<lpage>1724</lpage>, <pub-id pub-id-type="doi">10.1002/1521-3773(20020517)41:10&lt;1721::AID-ANIE1721&gt;3.0.CO;2-5</pub-id>.<pub-id pub-id-type="pmid">19750695</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="rcm70133-cit-0024">
+<string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Nanita</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Takats</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Cooks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Myung</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. E.</given-names>
+<surname>Clemmer</surname>
+</string-name>, “<article-title>Chiral Enrichment of Serine via Formation, Dissociation, and Soft‐Landing of Octameric Cluster Ions</article-title>,” <source>Journal of the American Society for Mass Spectrometry</source>
+<volume>15</volume>, no. <issue>9</issue> (<year>2004</year>): <fpage>1360</fpage>–<lpage>1365</lpage>, <pub-id pub-id-type="doi">10.1016/j.jasms.2004.06.010</pub-id>.<pub-id pub-id-type="pmid">15337517</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="rcm70133-cit-0025">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gronert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. A. J.</given-names>
+<surname>O'Hair</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. E.</given-names>
+<surname>Fagin</surname>
+</string-name>, “<article-title>Ion/Molecule Reactions of the Protonated Serine Octamer</article-title>,” <source>Chemical Communications</source>
+<volume>17</volume> (<year>2004</year>): <fpage>1944</fpage>–<lpage>1945</lpage>, <pub-id pub-id-type="doi">10.1039/B407721K</pub-id>.<pub-id pub-id-type="pmid">15340613</pub-id></mixed-citation></ref><ref id="rcm70133-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="rcm70133-cit-0026">
+<string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Scutelnic</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A. S.</given-names>
+<surname>Perez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Marianski</surname>
+</string-name>, et al., “<article-title>The Structure of the Protonated Serine Octamer</article-title>,” <source>Journal of the American Chemical Society</source>
+<volume>140</volume>, no. <issue>24</issue> (<year>2018</year>): <fpage>7554</fpage>–<lpage>7560</lpage>, <pub-id pub-id-type="doi">10.1021/jacs.8b02118</pub-id>.<pub-id pub-id-type="pmid">29637771</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="rcm70133-cit-0027">
+<string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Nanita</surname>
+</string-name> and <string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Cooks</surname>
+</string-name>, “<article-title>Serine Octamers: Cluster Formation, Reactions, and Implications for Biomolecule Homochirality</article-title>,” <source>Angewandte Chemie, International Edition</source>
+<volume>45</volume>, no. <issue>4</issue> (<year>2006</year>): <fpage>554</fpage>–<lpage>569</lpage>, <pub-id pub-id-type="doi">10.1002/anie.200501328</pub-id>.<pub-id pub-id-type="pmid">16404754</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="rcm70133-cit-0028">
+<string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Shira</surname>
+</string-name> and <string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Cooks</surname>
+</string-name>, “<article-title>Serine Octamer Clusters Direct the Chirality of Peptides Formed in Water Microdroplets</article-title>,” <source>Journal of Physical Chemistry A</source>
+<volume>129</volume>, no. <issue>20</issue> (<year>2025</year>): <fpage>4535</fpage>–<lpage>4542</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jpca.5c00473</pub-id>.<pub-id pub-id-type="pmid">40340402</pub-id>
+<pub-id pub-id-type="pmcid">PMC12105033</pub-id></mixed-citation></ref><ref id="rcm70133-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="rcm70133-cit-0029">
+<string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Jordan</surname>
+</string-name> and <string-name name-style="western">
+<given-names>E. R.</given-names>
+<surname>Williams</surname>
+</string-name>, “<article-title>Effects of Electrospray Droplet Size on Analyte Aggregation: Evidence for Serine Octamer in Solution</article-title>,” <source>Analytical Chemistry</source>
+<volume>93</volume>, no. <issue>3</issue> (<year>2021</year>): <fpage>1725</fpage>–<lpage>1731</lpage>, <pub-id pub-id-type="doi">10.1021/acs.analchem.0c04343</pub-id>.<pub-id pub-id-type="pmid">33369386</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="rcm70133-cit-0030">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wei</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Cooks</surname>
+</string-name>, “<article-title>Collection and Characterization by Mass Spectrometry of the Neutral Serine Octamer Generated Upon Sublimation</article-title>,” <source>Analytical Chemistry</source>
+<volume>93</volume>, no. <issue>2</issue> (<year>2021</year>): <fpage>1092</fpage>–<lpage>1099</lpage>, <pub-id pub-id-type="doi">10.1021/acs.analchem.0c04107</pub-id>.<pub-id pub-id-type="pmid">33301295</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="rcm70133-cit-0031">
+<string-name name-style="western">
+<given-names>R. H.</given-names>
+<surname>Perry</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Nefliu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Cooks</surname>
+</string-name>, “<article-title>Serine Sublimes With Spontaneous Chiral Amplification</article-title>,” <source>Chemical Communications</source>
+<volume>10</volume> (<year>2007</year>): <fpage>1071</fpage>–<lpage>1073</lpage>, <pub-id pub-id-type="doi">10.1039/B616196K</pub-id>.<pub-id pub-id-type="pmid">17325809</pub-id></mixed-citation></ref><ref id="rcm70133-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="rcm70133-cit-0032">
+<string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Gu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Xia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. O.</given-names>
+<surname>Trindle</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Knee</surname>
+</string-name>, “<article-title>Quantitative Probing of Subtle Interactions Among H‐Bonds in Alpha Hydroxy Carboxylic Acid Complexes</article-title>,” <source>Physical Chemistry Chemical Physics</source>
+<volume>19</volume>, no. <issue>36</issue> (<year>2017</year>): <fpage>24399</fpage>–<lpage>24411</lpage>, <pub-id pub-id-type="doi">10.1039/C7CP03917D</pub-id>.<pub-id pub-id-type="pmid">28722036</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="rcm70133-cit-0033">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Pasteur</surname>
+</string-name>, “<article-title>Sur les Relations Qui Peuvent Exister Entre la Forme Crystalline, la Composition Chimique et le Sens de la Polarization Rotatoire</article-title>,” <source>Annales de Chimie Physique</source>
+<volume>24</volume> (<year>1848</year>): <fpage>442</fpage>–<lpage>459</lpage>.</mixed-citation></ref><ref id="rcm70133-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="rcm70133-cit-0034">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Bocková</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. C.</given-names>
+<surname>Jones</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U. J.</given-names>
+<surname>Meierhenrich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. V.</given-names>
+<surname>Hoffmann</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Meinert</surname>
+</string-name>, “<article-title>Chiroptical Activity of Hydroxycarboxylic Acids With Implications for the Origin of Biological Homochirality</article-title>,” <source>Communications Chemistry</source>
+<volume>4</volume>, no. <issue>1</issue> (<year>2021</year>): <fpage>86</fpage>, <pub-id pub-id-type="doi">10.1038/s42004-021-00524-z</pub-id>.<pub-id pub-id-type="pmid">36697718</pub-id>
+<pub-id pub-id-type="pmcid">PMC9814692</pub-id></mixed-citation></ref><ref id="rcm70133-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="rcm70133-cit-0035">
+<string-name name-style="western">
+<given-names>E. T.</given-names>
+<surname>Peltzer</surname>
+</string-name> and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Bada</surname>
+</string-name>, “<article-title>α‐Hydroxycarboxylic Acids in the Murchison Meteorite</article-title>,” <source>Nature</source>
+<volume>272</volume>, no. <issue>5652</issue> (<year>1978</year>): <fpage>443</fpage>–<lpage>444</lpage>, <pub-id pub-id-type="doi">10.1038/272443a0</pub-id>.</mixed-citation></ref><ref id="rcm70133-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="rcm70133-cit-0036">
+<string-name name-style="western">
+<given-names>J. G.</given-names>
+<surname>Forsythe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.‐S.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Mamajanov</surname>
+</string-name>, et al., “<article-title>Ester‐Mediated Amide Bond Formation Driven by Wet–Dry Cycles: A Possible Path to Polypeptides on the Prebiotic Earth</article-title>,” <source>Angewandte Chemie, International Edition</source>
+<volume>54</volume>, no. <issue>34</issue> (<year>2015</year>): <fpage>9871</fpage>–<lpage>9875</lpage>, <pub-id pub-id-type="doi">10.1002/anie.201503792</pub-id>.<pub-id pub-id-type="pmid">26201989</pub-id>
+<pub-id pub-id-type="pmcid">PMC4678426</pub-id></mixed-citation></ref><ref id="rcm70133-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="rcm70133-cit-0037">
+<string-name name-style="western">
+<given-names>E. T.</given-names>
+<surname>Parker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Cleaves Ii</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Bada</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F. M.</given-names>
+<surname>Fernández</surname>
+</string-name>, “<article-title>Quantitation of α‐Hydroxy Acids in Complex Prebiotic Mixtures via Liquid Chromatography/Tandem Mass Spectrometry</article-title>,” <source>Rapid Communications in Mass Spectrometry</source>
+<volume>30</volume>, no. <issue>18</issue> (<year>2016</year>): <fpage>2043</fpage>–<lpage>2051</lpage>, <pub-id pub-id-type="doi">10.1002/rcm.7684</pub-id>.<pub-id pub-id-type="pmid">27467333</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="rcm70133-cit-0038">
+<string-name name-style="western">
+<given-names>T. Z.</given-names>
+<surname>Jia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. V.</given-names>
+<surname>Bapat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Verma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Mamajanov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Cleaves</surname>, <suffix>II</suffix>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Chandru</surname>
+</string-name>, “<article-title>Incorporation of Basic α‐Hydroxy Acid Residues Into Primitive Polyester Microdroplets for RNA Segregation</article-title>,” <source>Biomacromolecules</source>
+<volume>22</volume>, no. <issue>4</issue> (<year>2021</year>): <fpage>1484</fpage>–<lpage>1493</lpage>, <pub-id pub-id-type="doi">10.1021/acs.biomac.0c01697</pub-id>.<pub-id pub-id-type="pmid">33663210</pub-id>
+</mixed-citation></ref><ref id="rcm70133-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="rcm70133-cit-0039">
+<string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Shira</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. C.</given-names>
+<surname>Herndon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>DeMauro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. W.</given-names>
+<surname>Giuliano</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. G.</given-names>
+<surname>Forsythe</surname>
+</string-name>, “<article-title>Depsipeptide Analogues of Gly‐Ala‐Gly: Proton Localization and Effects on Collision‐Induced Dissociation</article-title>,” <source>Journal of the American Society for Mass Spectrometry</source>
+<volume>37</volume>, no. <issue>1</issue> (<year>2026</year>): <fpage>329</fpage>–<lpage>335</lpage>, <pub-id pub-id-type="doi">10.1021/jasms.5c00371</pub-id>.<pub-id pub-id-type="pmid">41429044</pub-id>
+<pub-id pub-id-type="pmcid">PMC12784392</pub-id></mixed-citation></ref><ref id="rcm70133-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="rcm70133-cit-0040">
+<string-name name-style="western">
+<given-names>H. L.</given-names>
+<surname>Pardue</surname>
+</string-name>, “<article-title>Kinetic Aspects of Analytical Chemistry</article-title>,” <source>Analytica Chimica Acta</source>
+<volume>216</volume> (<year>1989</year>): <fpage>69</fpage>–<lpage>107</lpage>, <pub-id pub-id-type="doi">10.1016/S0003-2670(00)82005-X</pub-id>.</mixed-citation></ref><ref id="rcm70133-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="rcm70133-cit-0041">
+<string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Cooks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Patrick</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kotiaho</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. A.</given-names>
+<surname>McLuckey</surname>
+</string-name>, “<article-title>Thermochemical Determinations by the Kinetic Method</article-title>,” <source>Mass Spectrometry Reviews</source>
+<volume>13</volume>, no. <issue>4</issue> (<year>1994</year>): <fpage>287</fpage>–<lpage>339</lpage>, <pub-id pub-id-type="doi">10.1002/mas.1280130402</pub-id>.</mixed-citation></ref><ref id="rcm70133-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="rcm70133-cit-0042">
+<string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Cooks</surname>
+</string-name> and <string-name name-style="western">
+<given-names>P. S. H.</given-names>
+<surname>Wong</surname>
+</string-name>, “<article-title>Kinetic Method of Making Thermochemical Determinations: Advances and Applications</article-title>,” <source>Accounts of Chemical Research</source>
+<volume>31</volume>, no. <issue>7</issue> (<year>1998</year>): <fpage>379</fpage>–<lpage>386</lpage>, <pub-id pub-id-type="doi">10.1021/ar960242x</pub-id>.</mixed-citation></ref></ref-list></back></article>
