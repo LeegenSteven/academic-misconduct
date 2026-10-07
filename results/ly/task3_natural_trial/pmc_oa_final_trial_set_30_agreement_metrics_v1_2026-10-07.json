@@ -1,0 +1,94 @@
+{
+  "source_file": ".repo_upload/results/ly/task3_natural_trial/pmc_oa_final_trial_set_30_v4_2026-10-05.csv",
+  "row_count": 30,
+  "normalization": "case-insensitive; NOT-ACCURATE normalized to NOT_ACCURATE; no source cells modified",
+  "final_label_counts": {
+    "NOT_ACCURATE": 17,
+    "IRRELEVANT": 2,
+    "ACCURATE": 11
+  },
+  "overall_normalized_label_agreement": {
+    "n": 30,
+    "matches": 23,
+    "rate": 0.7666666666666667
+  },
+  "v2_normalized_label_agreement": {
+    "n": 20,
+    "matches": 18,
+    "rate": 0.9
+  },
+  "v3_normalized_label_agreement": {
+    "n": 10,
+    "matches": 5,
+    "rate": 0.5
+  },
+  "overall_distortion_binary_agreement": {
+    "n": 30,
+    "matches": 23,
+    "rate": 0.7666666666666667
+  },
+  "overall_literal_label_agreement": {
+    "n": 30,
+    "matches": 22,
+    "rate": 0.7333333333333333
+  },
+  "semantic_disagreements": [
+    {
+      "candidate_id": "PMC-OA-V2-05",
+      "annotator_1_label": "ACCURATE",
+      "annotator_2_label": "NOT_ACCURATE",
+      "adjudicated_label": "NOT_ACCURATE"
+    },
+    {
+      "candidate_id": "PMC-OA-V2-12",
+      "annotator_1_label": "ACCURATE",
+      "annotator_2_label": "NOT_ACCURATE",
+      "adjudicated_label": "NOT_ACCURATE"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-02",
+      "annotator_1_label": "NOT_ACCURATE",
+      "annotator_2_label": "ACCURATE",
+      "adjudicated_label": "ACCURATE"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-03",
+      "annotator_1_label": "NOT_ACCURATE",
+      "annotator_2_label": "ACCURATE",
+      "adjudicated_label": "NOT_ACCURATE"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-04",
+      "annotator_1_label": "NOT_ACCURATE",
+      "annotator_2_label": "ACCURATE",
+      "adjudicated_label": "NOT_ACCURATE"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-07",
+      "annotator_1_label": "ACCURATE",
+      "annotator_2_label": "NOT_ACCURATE",
+      "adjudicated_label": "ACCURATE"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-08",
+      "annotator_1_label": "NOT_ACCURATE",
+      "annotator_2_label": "ACCURATE",
+      "adjudicated_label": "ACCURATE"
+    }
+  ],
+  "literal_only_format_discrepancies": [
+    {
+      "candidate_id": "PMC-OA-V2-16",
+      "annotator_1_label": "NOT-ACCURATE",
+      "annotator_2_label": "NOT_ACCURATE"
+    }
+  ],
+  "thresholds": {
+    "overall_agreement_min": 0.8,
+    "distortion_agreement_min": 0.65,
+    "overall_agreement_passed": false,
+    "distortion_agreement_passed": true
+  },
+  "acceptance": "not_passed_overall_threshold",
+  "next_action": "Preserve raw labels and adjudications; revise the annotation rule using the disagreement cases and collect a new blind sample before claiming the 0.80 overall threshold."
+}
