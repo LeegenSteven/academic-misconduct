@@ -65,5 +65,8 @@ desktop.ini
 
 !data/interim/pmc_oa_candidate_pool_ly_v2_2026-10-03.json
 
+# 2026-10-08 PMC natural expansion candidate pool
+!data/interim/pmc_oa_expansion_candidate_pool_v1_2026-10-08.json
+
 # Local artifact-generation scratch files; never commit
 tmp_spreadsheet/
