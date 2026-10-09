@@ -93,7 +93,11 @@ def bm25(q, docs):
 
 def main():
     print("[1/4] 加载微调后模型（quality_v1修复版数据）...", flush=True)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"      使用设备: {device}", flush=True)
     tokenizer, encoder, head = load_model()
+    encoder = encoder.to(device)
+    head = head.to(device)
     claims = [json.loads(x) for x in open(V2_DEV, encoding="utf-8") if x.strip()]
     corpus = {}
     for line in open(CORPUS, encoding="utf-8"):
@@ -119,17 +123,18 @@ def main():
 
     print(f"      无检索候选（弃权）: {abstain_count} 条", flush=True)
 
-    print("[3/4] MultiVerS 推理（CPU）...", flush=True)
+    print(f"[3/4] MultiVerS 推理（{device}）...", flush=True)
     t0 = time.time()
     for i, r in enumerate(rows):
         if r["abstain"]:
             r["pred"] = "ABSTAIN"  # 弃权单独标记
         else:
             tok = tokenize_for_multivers(tokenizer, r["claim"], r["_s"])
+            tok = {k: v.to(device) for k, v in tok.items()}
             with torch.no_grad():
                 out = encoder(**tok)
                 logits = head(out.pooler_output)
-            r["pred"] = LABEL_LOOKUP[int(logits.argmax(dim=1)[0])]
+            r["pred"] = LABEL_LOOKUP[int(logits.argmax(dim=1)[0].cpu())]
         r.pop("_s")
         if (i + 1) % 50 == 0 or i + 1 == len(rows):
             print(f"      {i+1}/{len(rows)} ({time.time()-t0:.0f}s)", flush=True)

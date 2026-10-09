@@ -159,7 +159,11 @@ def main():
     args = ap.parse_args()
 
     print("[1/5] 加载模型与数据（quality_v1修复版）...", flush=True)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"      使用设备: {device}", flush=True)
     tokenizer, encoder, head = load_multivers()
+    encoder = encoder.to(device)
+    head = head.to(device)
     claims = [json.loads(x) for x in open(V2_TRAIN, encoding="utf-8") if x.strip()]
     corpus = {}
     for line in open(CORPUS, encoding="utf-8"):
@@ -193,6 +197,8 @@ def main():
     for i in range(0, n, BATCH):
         batch = samples[i:i + BATCH]
         tok, labels = collate(tokenizer, batch)
+        tok = {k: v.to(device) for k, v in tok.items()}
+        labels = labels.to(device)
         out = encoder(**tok)
         logits = head(out.pooler_output)
         loss = loss_fn(logits, labels) / GRAD_ACCUM
