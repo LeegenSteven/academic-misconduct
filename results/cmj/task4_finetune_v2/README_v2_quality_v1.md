@@ -147,18 +147,16 @@ python run_task4_eval_test_v2.py
 
 ## 文件清单
 
-### 脚本
-- `run_task4_finetune_v2.py` - 训练脚本（quality_v1数据 + BM25 top-10 + GPU支持）
-- `run_task4_eval_dev_v2.py` - Dev评测脚本（NEI→IRRELEVANT修复 + ABSTAIN + 三分类全量）
-- `run_task4_eval_test_v2.py` - Test评测脚本（同上 + 输出逐条预测jsonl）
+### 脚本（code/cmj/）
+- `code/cmj/run_task4_finetune_v2.py` - 训练脚本（quality_v1数据 + BM25 top-10 + GPU支持）
+- `code/cmj/run_task4_eval_dev_v2.py` - Dev评测脚本（NEI→IRRELEVANT修复 + ABSTAIN + 三分类全量）
+- `code/cmj/run_task4_eval_test_v2.py` - Test评测脚本（同上 + 输出逐条预测jsonl）
 
-### 日志
-- `logs/task4_v2_finetune_full_gpu_2026-10-08.log` - full训练日志（GPU）
-
-### 结果
-- `results/task4_v2_dev_eval_task4_v2_finetuned_full_step2141_2026-10-08.json` - Dev评测结果
-- `results/task4_v2_test_eval_task4_v2_finetuned_full_step2141_2026-10-08.json` - Test评测结果
-- `results/task4_v2_test_predictions_task4_v2_finetuned_full_step2141.jsonl` - Test逐条预测（606条）
+### 日志与结果（results/cmj/task4_finetune_v2/）
+- `task4_v2_finetune_full_gpu_2026-10-08.log` - full训练日志（GPU）
+- `task4_v2_dev_eval_task4_v2_finetuned_full_step2141_2026-10-08.json` - Dev评测结果
+- `task4_v2_test_eval_task4_v2_finetuned_full_step2141_2026-10-08.json` - Test评测结果
+- `task4_v2_test_predictions_task4_v2_finetuned_full_step2141.jsonl` - Test逐条预测（606条）
 
 ### 模型
 - 最终模型：`task4_v2_finetuned_full_step2141.pt`（1.6GB，因体积过大未上传GitHub，本地保存）
