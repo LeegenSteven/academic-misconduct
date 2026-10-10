@@ -17,3 +17,6 @@
 - 证据定位沿用 PMC 试标集的定位字段；原始 PMCID、DOI 和标签不改写。
 - `score_support`、`score_distort`、`score_unrelated` 统一为 `null`，因为当前尚未完成校准；不能把自报置信度当作概率。
 - 这份文件是接口试连副本，不是正式路线二全量数据，也不改变主数据的 `cited_doc_id`。
+## 2026-10-10 基线独立复核
+
+成员 4 的 route2_baseline_v1 已按固定提交复核：104 个节点清单与 116 条边表的端点并集均与 57 个 RED 节点零交集。详见 [`route2_baseline_v1_recheck_2026-10-10.md`](route2_baseline_v1_recheck_2026-10-10.md) 和哈希核验表 [`route2_baseline_v1_hash_verification_2026-10-10.csv`](route2_baseline_v1_hash_verification_2026-10-10.csv)。复核同时记录了成员 4 说明文档中脚本 SHA-256 不一致、以及“105 个有边节点”与文件实际 104 个端点节点的口径问题。
