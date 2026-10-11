@@ -20,3 +20,6 @@
 ## 2026-10-10 基线独立复核
 
 成员 4 的 route2_baseline_v1 已按固定提交复核：104 个节点清单与 116 条边表的端点并集均与 57 个 RED 节点零交集。详见 [`route2_baseline_v1_recheck_2026-10-10.md`](route2_baseline_v1_recheck_2026-10-10.md) 和哈希核验表 [`route2_baseline_v1_hash_verification_2026-10-10.csv`](route2_baseline_v1_hash_verification_2026-10-10.csv)。复核同时记录了成员 4 说明文档中脚本 SHA-256 不一致、以及“105 个有边节点”与文件实际 104 个端点节点的口径问题。
+## 2026-10-11 复核跟进
+
+成员 4 已将节点数量修正为 104，独立重算与 0 交集结论保持一致。最新提交中脚本实际 SHA-256 仍为 `e781d311...`，而说明文件登记 `db620f0e...`，该单项哈希仍待确认。详见 [`route2_baseline_v1_recheck_followup_2026-10-11.md`](route2_baseline_v1_recheck_followup_2026-10-11.md)。
