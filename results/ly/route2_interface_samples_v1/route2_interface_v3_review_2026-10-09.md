@@ -4,7 +4,7 @@
 
 ## 复核范围
 
-复核成员 4 回传的以下版本：
+复核成员 3 回传的以下版本：
 
 - route2_interface_results_v3_2026-10-09.csv
 - route2_node_intersection_v3_2026-10-09.txt
