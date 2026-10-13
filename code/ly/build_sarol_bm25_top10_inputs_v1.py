@@ -146,6 +146,8 @@ def main() -> None:
         "retriever": "BM25 over all abstract sentence blocks in cited_doc_ids",
         "top_k": 10,
         "evidence_id_policy": "compact selected-document slots and selected-sentence slots to D01:S01 format; retain doc_id, source_doc_rank and source sentence_id",
+        "system_prompt_sha256": hashlib.sha256(SYSTEM_PROMPT.encode("utf-8")).hexdigest(),
+        "ranking_tie_break": "score descending, then original candidate sentence order",
         "uses_gold_or_manual_evidence": False,
         "reasoning": "off is a server/request inference setting; it is not encoded in the input file",
         "source_files": [],
