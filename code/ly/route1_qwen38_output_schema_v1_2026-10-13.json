@@ -1,0 +1,44 @@
+{
+  "version": "route1_qwen38_v1",
+  "status": "schema_prepared_prompt_and_model_outputs_pending_joint_freeze",
+  "input": {
+    "sample_id": "integer; stable 0-based row id from experiment_dataset.tsv",
+    "citation_context": "string; citing context",
+    "cited_content": "string; cited evidence passage used as the model input for SciCiteVal"
+  },
+  "output": {
+    "sample_id": "integer; must match input",
+    "label": "enum: ACCURATE | NOT_ACCURATE | IRRELEVANT | null",
+    "reason": "string | null; short explanation grounded in cited_content",
+    "evidence_spans": "array | null; source text plus stable location when available",
+    "evidence_status": "enum: verified | missing | source_missing | parse_failed | null",
+    "failure_status": "enum: null | input_truncated | invalid_output | retrieval_failed | explanation_invalid",
+    "score_support": "null until calibrated",
+    "score_distort": "null until calibrated",
+    "score_unrelated": "null until calibrated"
+  },
+  "unified_record": {
+    "paper_pair_id": "string | null; stable pair identifier for two-paper PDF runs",
+    "citation_id": "string | null; stable citation-point identifier",
+    "citing_doc_id": "string | null; citing paper identifier",
+    "cited_doc_id": "string | null; cited paper identifier",
+    "citing_context": "string | null; citing sentence or covered sub-sentence",
+    "citing_locator": "object | null; page/paragraph/character location in the citing PDF",
+    "adapter_id": "string | null; M0, Mbio or Mscv / selected route adapter",
+    "model_version": "string | null; official Qwen3.8 base revision plus adapter revision",
+    "label": "enum: ACCURATE | NOT_ACCURATE | IRRELEVANT | null",
+    "evidence_spans": "array | null; cited source text with page/paragraph/sentence or character locator and source hash",
+    "reason": "string | null; short reason grounded in returned evidence",
+    "evidence_status": "string | null; verified, missing, source_missing, parse_failed or pending",
+    "failure_status": "string | null; explicit failure state, never silently converted to IRRELEVANT",
+    "score_support": "null until calibrated",
+    "score_distort": "null until calibrated",
+    "score_unrelated": "null until calibrated"
+  },
+  "label_mapping": {
+    "Correct": "ACCURATE",
+    "Incorrect": "NOT_ACCURATE",
+    "Unrelated": "IRRELEVANT"
+  },
+  "provenance": "Do not put source_label, twist_category, gold, row number or split into the model prompt. For SciCiteVal replay records, PDF-only fields remain null and the record must be marked as replay rather than presented as a real PDF run."
+}

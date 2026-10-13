@@ -1,0 +1,116 @@
+{
+  "manifest_version": "route1_qwen38_v1_provisional",
+  "generated_at": "2026-10-13",
+  "status": "provisional_pending_conflict_source_recovery",
+  "source_files": [
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2_本周完整交付包\\03_数据与代码核验\\SciCiteVal数据\\experiment_dataset.tsv",
+      "sha256": "01e9ab2337cafb3fa1c590311cd082a7628a3e239fbcd0ad2757a0e9aaa71b40",
+      "bytes": 1570524
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2_本周完整交付包\\03_数据与代码核验\\SciCiteVal数据\\Qasa_annotated.tsv",
+      "sha256": "fd1e95b14dcc3487a86672e2a00179d7c138a6a50af8c87b7000d9a29a3fae63",
+      "bytes": 2721857
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\sarol_transfer_input\\claims_dev_tfidf_top10.jsonl",
+      "sha256": "f1f3825dad45f838a93f6cef9961665e416ab2f8f24ab7219ddab361466dfa9a",
+      "bytes": 94126
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\sarol_transfer_input\\gold_mapping.csv",
+      "sha256": "6fc4de1d7a907946cf58bcab5714ff6bfe57133ed18e6a021f75540783d1f781",
+      "bytes": 28410
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2-本周任务-10.12\\李云_10月13日独立交付\\sciciteval_conflict_source_audit_2026-10-13.csv",
+      "sha256": "819c1bbe41ffbbd9fe5f3f35f73ed208f8b862c5c84d083de6a89942be5cec4a",
+      "bytes": 2516
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2-本周任务-10.12\\李云_10月13日独立交付\\sciciteval_group_split_provisional_2026-10-13.csv",
+      "sha256": "1645eef964f8e6f223582519c36553d59344216fdc1e108b0de2a607df0bc150",
+      "bytes": 60381
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2-本周任务-10.12\\李云_10月13日独立交付\\sciciteval_dev_m0_inputs_2026-10-13.jsonl",
+      "sha256": "f22a7e6805af5b1ffcf0a55edd49c79ac1021cea89f90a1b2d86c393ad6f4c4c",
+      "bytes": 99605
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2-本周任务-10.12\\李云_10月13日独立交付\\sciciteval_dev_gold_2026-10-13.jsonl",
+      "sha256": "66e8d4722720dff0498d54a73d0f45c8fcb1f80bdd31cbc49a0a256c971f2bc2",
+      "bytes": 5717
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2-本周任务-10.12\\李云_10月13日独立交付\\route1_qwen38_output_schema_v1_2026-10-13.json",
+      "sha256": "42d962b664d5b57ce2358457a1fa5e31e95dcf6f9c76249a4ed2af5b9a8659b0",
+      "bytes": 2651
+    }
+  ],
+  "rows": 1034,
+  "split_counts": {
+    "train": 713,
+    "test": 257,
+    "dev": 54,
+    "excluded_conflict": 10
+  },
+  "label_counts_by_split": {
+    "train": {
+      "Correct": 183,
+      "Incorrect": 183,
+      "Unrelated": 347
+    },
+    "dev": {
+      "Correct": 25,
+      "Incorrect": 25,
+      "Unrelated": 4
+    },
+    "test": {
+      "Correct": 89,
+      "Incorrect": 89,
+      "Unrelated": 79
+    }
+  },
+  "conflict_rows": [
+    358,
+    359,
+    528,
+    529,
+    556,
+    557,
+    562,
+    563,
+    590,
+    591
+  ],
+  "conflict_groups": [
+    "pair_358_359",
+    "pair_528_529",
+    "pair_556_557",
+    "pair_562_563",
+    "pair_590_591"
+  ],
+  "split_protocol": {
+    "qasa_groups": "62 remaining Qasa_paper_id groups; sorted IDs, random.Random(42).shuffle; 43 train, 9 dev, 10 test",
+    "unrelated_groups": "moth 347 train; school firearm 4 dev; Streptomyces LK3 79 test",
+    "excluded_conflicts": "10 rows remain in the raw source and are excluded from train/dev/test pending source recovery"
+  },
+  "dev_input_files": [
+    "sciciteval_dev_m0_inputs_2026-10-13.jsonl",
+    "sciciteval_dev_gold_2026-10-13.jsonl"
+  ],
+  "sarol_dev_reference": {
+    "input": "C:\\Users\\y\\Desktop\\学术引用不端\\sarol_transfer_input\\claims_dev_tfidf_top10.jsonl",
+    "rows": 316,
+    "retrieval": "BM25/TF-IDF top-10 reference input; no new model run performed by this package"
+  },
+  "notes": [
+    "The 10 conflict rows are preserved unchanged in experiment_dataset.tsv.",
+    "This package does not claim the split is final until Qasa_annotated.tsv or the source annotation version resolves the five opposite-label pairs.",
+    "No M0 prediction is claimed here; the Dev input and gold sidecar are prepared for the jointly frozen prompt and inference run."
+  ]
+}

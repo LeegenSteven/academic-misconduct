@@ -1,0 +1,11 @@
+﻿row_id,conflict_group_id,source_label,twist_category,qasa_id,qasa_paper_id,source_match,source_match_count,action,note
+358,pair_358_359,Correct,,284,paper_127,exact_cited_content,1,exclude_until_source_recovery,保留原始行和原始标签；同一 Citation_context/Cited_content 对出现相反标签，待核对作者原始版本后再决定。
+359,pair_358_359,Incorrect,Change Concept,284,paper_127,exact_cited_content,1,exclude_until_source_recovery,保留原始行和原始标签；同一 Citation_context/Cited_content 对出现相反标签，待核对作者原始版本后再决定。
+528,pair_528_529,Correct,,941,paper_43,exact_cited_content,1,exclude_until_source_recovery,保留原始行和原始标签；同一 Citation_context/Cited_content 对出现相反标签，待核对作者原始版本后再决定。
+529,pair_528_529,Incorrect,Tortured Phrases,941,paper_43,exact_cited_content,1,exclude_until_source_recovery,保留原始行和原始标签；同一 Citation_context/Cited_content 对出现相反标签，待核对作者原始版本后再决定。
+556,pair_556_557,Correct,,1083,paper_55,exact_cited_content,1,exclude_until_source_recovery,保留原始行和原始标签；同一 Citation_context/Cited_content 对出现相反标签，待核对作者原始版本后再决定。
+557,pair_556_557,Incorrect,Change Number,1083,paper_55,exact_cited_content,1,exclude_until_source_recovery,保留原始行和原始标签；同一 Citation_context/Cited_content 对出现相反标签，待核对作者原始版本后再决定。
+562,pair_562_563,Correct,,1102,paper_56,exact_cited_content,1,exclude_until_source_recovery,保留原始行和原始标签；同一 Citation_context/Cited_content 对出现相反标签，待核对作者原始版本后再决定。
+563,pair_562_563,Incorrect,Tortured Phrases,1102,paper_56,exact_cited_content,1,exclude_until_source_recovery,保留原始行和原始标签；同一 Citation_context/Cited_content 对出现相反标签，待核对作者原始版本后再决定。
+590,pair_590_591,Correct,,1299,paper_77,exact_cited_content,1,exclude_until_source_recovery,保留原始行和原始标签；同一 Citation_context/Cited_content 对出现相反标签，待核对作者原始版本后再决定。
+591,pair_590_591,Incorrect,Tortured Phrases,1299,paper_77,exact_cited_content,1,exclude_until_source_recovery,保留原始行和原始标签；同一 Citation_context/Cited_content 对出现相反标签，待核对作者原始版本后再决定。
