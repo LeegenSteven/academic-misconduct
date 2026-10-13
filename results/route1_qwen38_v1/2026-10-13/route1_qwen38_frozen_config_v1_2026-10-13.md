@@ -1,0 +1,56 @@
+# Route1 Qwen3.8 实验冻结配置 v1
+
+确认日期：2026-10-13
+
+本配置依据师兄对本轮实验的确认执行，适用于 M0、Sarol adapter 和 SciCiteVal adapter 的 Dev/Test 评测。
+
+## 统一推理配置
+
+- reasoning：统一关闭（reasoning off）。服务端或请求参数必须显式设置，并在运行日志中确认实际生效。
+- prompt：M0、两个 adapter 的 Dev/Test 使用同一版本提示词。
+- 精度：统一记录并固定。
+- 解码参数：统一记录并固定。
+- 输出解析：统一使用同一解析规则。
+- 所有输入、配置和输出均记录数量、ID、文件大小和 SHA-256。
+
+## Sarol 输入规则
+
+- Train：2141 条。
+- Dev：316 条。
+- Test：606 条。
+- 对每条引用，从其 `cited_doc_ids` 对应的全部候选文本中提取句子。
+- 使用引用上下文对候选句进行 BM25 排序，取前 10 句。
+- 候选句不足 10 条时全部保留。
+- 不先筛选 20 个候选文档。
+- 不读取 gold 或人工金证据来挑选输入。
+- Train、Dev、Test 必须使用同一个输入生成程序。
+
+## SciCiteVal 输入规则
+
+- 实验版本 v1 使用隔离冲突记录后的 1024 条数据：Train713、Dev54、Test257。
+- 10 条冲突记录保留在待核清单中，不进入本轮 Train/Dev/Test。
+- 输入直接使用原始 `Cited_content`。
+- 不套用 Sarol 的 BM25 检索规则。
+- 冲突记录后续如有修复，另建数据版本，不覆盖本轮 v1 划分。
+
+## 实验顺序
+
+1. 生成新的 Sarol BM25 top-10 句输入，并核验 Train/Dev/Test 的数量、ID 和哈希。
+2. 重新运行统一配置下的 Sarol Dev316 M0。
+3. 运行 SciCiteVal Dev54 M0。
+4. 分别训练 Sarol adapter 和 SciCiteVal adapter，两个 adapter 都从同一个官方 Qwen3.8-27B 底座独立开始。
+5. 在 Dev 上选择 checkpoint 并冻结配置。
+6. 统一运行 6 个 Test 单元，并保存逐条预测、原始输出、日志、指标、Macro-F1 和混淆矩阵。
+
+## 历史结果说明
+
+历史 Qwen3 Sarol Dev316 的 69.30% 使用了不同的证据输入，并且 reasoning 配置存在例外，只作为历史参考，不能与本轮结果直接混比。
+
+## 当前已确认状态
+
+- SciCiteVal v1 的冲突审计、来源核验、分组、Dev 输入、gold 和 manifest 已完成。
+- Sarol BM25 top-10 句输入已经生成并核验：Train2141、Dev316、Test606，三份输入每条均保留 10 句，ID 唯一且符合 `D01:S01` 格式。
+- 输入目录：`sarol_bm25_top10_inputs_v1_2026-10-13/`。
+- 输入生成脚本：`code/ly/build_sarol_bm25_top10_inputs_v1.py`。
+- 当前尚未完成本轮 Sarol Dev316 M0 和 SciCiteVal Dev54 M0 推理。
+- 下一步是上传新的输入文件到 A100，启动 reasoning off 服务并先跑两个 Dev M0。

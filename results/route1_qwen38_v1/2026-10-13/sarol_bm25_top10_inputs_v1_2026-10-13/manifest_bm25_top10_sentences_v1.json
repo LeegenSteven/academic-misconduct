@@ -1,0 +1,76 @@
+{
+  "manifest_version": "sarol_bm25_top10_sentence_inputs_v1",
+  "retriever": "BM25 over all abstract sentence blocks in cited_doc_ids",
+  "top_k": 10,
+  "evidence_id_policy": "compact selected-document slots and selected-sentence slots to D01:S01 format; retain doc_id, source_doc_rank and source sentence_id",
+  "uses_gold_or_manual_evidence": false,
+  "reasoning": "off is a server/request inference setting; it is not encoded in the input file",
+  "source_files": [
+    {
+      "path": "github_quality_v1_20261008\\data\\quality_v1\\sarol\\corpus.jsonl",
+      "sha256": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3",
+      "bytes": 5154984
+    },
+    {
+      "path": "github_quality_v1_20261008\\data\\quality_v1\\sarol\\claims-train-model.jsonl",
+      "sha256": "e6f430bc71813d90f7be183449f236fc8e0625aba9a7042f6f2baa8cc3c24ae5",
+      "bytes": 2471325
+    },
+    {
+      "path": "github_quality_v1_20261008\\data\\quality_v1\\sarol\\claims-dev-model.jsonl",
+      "sha256": "1efc1b9ddb77dbe79f3f80e511449b81c430fdc519652fb8584d39e4fae6cd4a",
+      "bytes": 327379
+    },
+    {
+      "path": "github_quality_v1_20261008\\data\\quality_v1\\sarol\\claims-test-model.jsonl",
+      "sha256": "cfafb28d0a176c0598a98ebfd348f184eb8011620af7497b350bd7e13af5605e",
+      "bytes": 590587
+    }
+  ],
+  "outputs": {
+    "train": {
+      "path": "成员2-本周任务-10.12\\李云_10月13日独立交付\\sarol_bm25_top10_inputs_v1_2026-10-13\\model_inputs_train_bm25_top10_sentences.jsonl",
+      "sha256": "27671a90bd1be97d6724d51784745acffcf2171634d410f10f6c6cb523a66708",
+      "bytes": 13943442
+    },
+    "dev": {
+      "path": "成员2-本周任务-10.12\\李云_10月13日独立交付\\sarol_bm25_top10_inputs_v1_2026-10-13\\model_inputs_dev_bm25_top10_sentences.jsonl",
+      "sha256": "43a626e7be2332452d0416e91b63841209a4f3ddef0b9050ab0361c0ddf90ac7",
+      "bytes": 2121762
+    },
+    "test": {
+      "path": "成员2-本周任务-10.12\\李云_10月13日独立交付\\sarol_bm25_top10_inputs_v1_2026-10-13\\model_inputs_test_bm25_top10_sentences.jsonl",
+      "sha256": "10ce907626257b2ea284d300c9bf9d1d44a37133b661a1aa6b64e23218655d5a",
+      "bytes": 3948107
+    }
+  },
+  "splits": {
+    "train": {
+      "claims": 2141,
+      "candidate_sentence_blocks_before_top10": 683096,
+      "candidate_sentence_count_distribution": {
+        "10": 2141
+      },
+      "missing_candidate_claim_ids": [],
+      "unique_claim_ids": 2141
+    },
+    "dev": {
+      "claims": 316,
+      "candidate_sentence_blocks_before_top10": 67547,
+      "candidate_sentence_count_distribution": {
+        "10": 316
+      },
+      "missing_candidate_claim_ids": [],
+      "unique_claim_ids": 316
+    },
+    "test": {
+      "claims": 606,
+      "candidate_sentence_blocks_before_top10": 143785,
+      "candidate_sentence_count_distribution": {
+        "10": 606
+      },
+      "missing_candidate_claim_ids": [],
+      "unique_claim_ids": 606
+    }
+  }
+}
