@@ -53,4 +53,8 @@
 - 输入目录：`sarol_bm25_top10_inputs_v1_2026-10-13/`。
 - 输入生成脚本：`code/ly/build_sarol_bm25_top10_inputs_v1.py`。
 - 当前尚未完成本轮 Sarol Dev316 M0 和 SciCiteVal Dev54 M0 推理。
-- 下一步是上传新的输入文件到 A100，启动 reasoning off 服务并先跑两个 Dev M0。
+- Sarol Dev316 M0 已完成：使用 BM25 top-10 句输入、Qwen3.8、服务端 `--reasoning off`，共 316 条，输出 316 条且 claim ID 唯一。
+- Sarol Dev316 M0 指标：Accuracy `0.6107594937`，Macro-F1 `0.5878729237`；混淆矩阵和逐类指标保存在 A100 的评测目录中。
+- 8 条输出的 `reason` 超过 120 字，被统一解析器截断并标记为 `invalid_reason`；补跑后 8 条的标签和证据编号均与首次结果一致。该问题不改变标签指标，原始输出和补跑输出均需保留。
+- 当前 A100 评测文件由历史 `evaluate_qwen3_dev_reanalysis.py` 生成，因此其中的 `reanalysis_completed_no_new_inference` 仅是脚本元数据，不能作为本轮推理状态；本轮应以实际运行日志、Qwen3.8 模型名、BM25 输入 manifest 和 reasoning-off 服务日志为准。
+- 下一步是运行 SciCiteVal Dev54 M0；随后再进行两个 adapter 的训练、Dev checkpoint 选择和 Test606 评测。
