@@ -44,7 +44,7 @@
 
 ## 历史结果说明
 
-历史 Qwen3 Sarol Dev316 的 69.30% 使用了不同的证据输入，并且 reasoning 配置存在例外，只作为历史参考，不能与本轮结果直接混比。
+历史 Qwen3.8 Sarol Dev316 的 69.30% 使用了不同的证据输入，并且 reasoning 配置存在例外，只作为历史参考，不能与本轮结果直接混比。
 
 ## 当前已确认状态
 
@@ -52,9 +52,9 @@
 - Sarol BM25 top-10 句输入已经生成并核验：Train2141、Dev316、Test606，三份输入每条均保留 10 句，ID 唯一且符合 `D01:S01` 格式。
 - 输入目录：`sarol_bm25_top10_inputs_v1_2026-10-13/`。
 - 输入生成脚本：`code/ly/build_sarol_bm25_top10_inputs_v1.py`。
-- 当前尚未完成本轮 Sarol Dev316 M0 和 SciCiteVal Dev54 M0 推理。
-- Sarol Dev316 M0 已完成：使用 BM25 top-10 句输入、Qwen3.8、服务端 `--reasoning off`，共 316 条，输出 316 条且 claim ID 唯一。
-- Sarol Dev316 M0 指标：Accuracy `0.6107594937`，Macro-F1 `0.5878729237`；混淆矩阵和逐类指标保存在 A100 的评测目录中。
-- 8 条输出的 `reason` 超过 120 字，被统一解析器截断并标记为 `invalid_reason`；补跑后 8 条的标签和证据编号均与首次结果一致。该问题不改变标签指标，原始输出和补跑输出均需保留。
-- 当前 A100 评测文件由历史 `evaluate_qwen3_dev_reanalysis.py` 生成，因此其中的 `reanalysis_completed_no_new_inference` 仅是脚本元数据，不能作为本轮推理状态；本轮应以实际运行日志、Qwen3.8 模型名、BM25 输入 manifest 和 reasoning-off 服务日志为准。
-- 下一步是运行 SciCiteVal Dev54 M0；随后再进行两个 adapter 的训练、Dev checkpoint 选择和 Test606 评测。
+- Sarol Dev316 的 BM25 top-10 句、reasoning-off 推理已跑完：共 316 条，输出 316 条且 claim ID 唯一。以下服务器核验结论来自李云回传的命令输出；本地尚未取得本次全部原始输出和运行日志。
+- 实际权重路径为 `/home/admire/qwen3_8_runtime/models/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf`，接口别名为 `Qwen3.8`，接口报告量化格式为 `Q4_K - Medium`。该文件名指向社区修改版；尚未核验其来源、权重哈希及其与两个 adapter 官方底座的关系。因此本次暂记为 GGUF Dev 预跑，不能直接确认其为本轮正式 M0。
+- 本次预跑标签指标：193/316 条正确，Accuracy `0.6107594937`，Macro-F1 `0.5878729237`；混淆矩阵和逐类指标保存在 A100 的评测目录中。指标按全部 316 条预测标签计算，没有因 `failure_status` 非空而排除样本。
+- 8 条输出的 `reason` 超过 120 字，被解析器截断并标记为 `invalid_reason`；对应 ID 为 27、63、64、108、165、177、225、274。补跑后 8 条的标签和证据编号均与首次结果一致，不能据此认定完整 JSON 或 confidence 相同。首次 316 条输出作为本次标签评测来源；补跑单独保存用于复核，无需合并覆盖首次输出或清空错误状态。
+- A100 评测文件由历史 `evaluate_qwen3_dev_reanalysis.py` 生成。该脚本硬编码了旧任务名、`reanalysis_completed_no_new_inference`、历史路径提示和待办项；这些元数据不适用于本次运行。评测脚本本身不执行模型推理，但本次预测来自新的服务器推理。正式交付须以本次输入、原始响应、运行日志和实际权重来源重新记录评测来源。
+- SciCiteVal Dev54 尚未运行。下一步先核验正式 M0 与两个 adapter 的底座和精度是否一致，再在该统一配置下完成两个 Dev M0；Test606 正式推理仍等待两个 adapter 完成、Dev 选定 checkpoint 并冻结配置。
