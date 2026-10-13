@@ -5,13 +5,13 @@
   "status": "completed_prerun_gguf_official_base_unverified",
   "local_inputs": {
     "prompts": {
-      "path": "results/ly/2026-10-13/sciciteval_dev_m0_prompts_2026-10-13.jsonl",
+      "path": "results/route1_qwen38_v1/2026-10-13/sciciteval_dev_m0_prompts_2026-10-13.jsonl",
       "records": 54,
       "sha256": "cdd95b9c1b79da48afefb67bbbb28e3fe178df88ef3d6ae9ef398fd203f618b0",
       "size": 239213
     },
     "gold": {
-      "path": "results/ly/2026-10-13/sciciteval_dev_gold_2026-10-13.jsonl",
+      "path": "results/route1_qwen38_v1/2026-10-13/sciciteval_dev_gold_2026-10-13.jsonl",
       "records": 54,
       "sha256": "66e8d4722720dff0498d54a73d0f45c8fcb1f80bdd31cbc49a0a256c971f2bc2",
       "size": 5717
