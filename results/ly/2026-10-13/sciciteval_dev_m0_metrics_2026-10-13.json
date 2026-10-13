@@ -1,0 +1,32 @@
+{
+  "task": "SciCiteVal Dev54 Qwen3.8 M0",
+  "status": "completed_prerun_gguf",
+  "num_claims": 54,
+  "correct": 43,
+  "accuracy": 0.7962962962962963,
+  "macro_f1": 0.8192703982177667,
+  "confusion_matrix": {
+    "ACCURATE": {
+      "ACCURATE": 23,
+      "NOT_ACCURATE": 1,
+      "IRRELEVANT": 1
+    },
+    "NOT_ACCURATE": {
+      "ACCURATE": 9,
+      "NOT_ACCURATE": 16,
+      "IRRELEVANT": 0
+    },
+    "IRRELEVANT": {
+      "ACCURATE": 0,
+      "NOT_ACCURATE": 0,
+      "IRRELEVANT": 4
+    }
+  },
+  "failure_status_counts": {
+    "null": 52,
+    "NOT_ACCURATE": 1,
+    "invalid_reason": 1
+  },
+  "claims_with_invalid_evidence_ids": [],
+  "note": "Metrics include all 54 labels. Original and retry outputs are retained on A100. Official GGUF base provenance remains unverified."
+}

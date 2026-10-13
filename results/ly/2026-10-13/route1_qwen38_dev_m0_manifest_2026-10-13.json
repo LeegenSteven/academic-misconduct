@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-13",
+  "owner": "李云",
+  "task": "SciCiteVal 冻结划分、输入与 Dev M0",
+  "status": "completed_prerun_gguf_official_base_unverified",
+  "local_inputs": {
+    "prompts": {
+      "path": "results/ly/2026-10-13/sciciteval_dev_m0_prompts_2026-10-13.jsonl",
+      "records": 54,
+      "sha256": "cdd95b9c1b79da48afefb67bbbb28e3fe178df88ef3d6ae9ef398fd203f618b0",
+      "size": 239213
+    },
+    "gold": {
+      "path": "results/ly/2026-10-13/sciciteval_dev_gold_2026-10-13.jsonl",
+      "records": 54,
+      "sha256": "66e8d4722720dff0498d54a73d0f45c8fcb1f80bdd31cbc49a0a256c971f2bc2",
+      "size": 5717
+    }
+  },
+  "service": {
+    "endpoint": "http://127.0.0.1:8081/v1",
+    "model": "Qwen3.8",
+    "model_path": "/home/admire/qwen3_8_runtime/models/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
+    "model_sha256": "ba36dc3c2b2ff5e0aa5d71092a8894546996a6a119ae391803dda07cdc08516d",
+    "format": "GGUF",
+    "quantization": "Q4_K - Medium",
+    "context": 32768,
+    "reasoning": "off"
+  },
+  "metrics": {
+    "records": 54,
+    "correct": 43,
+    "accuracy": 0.7962962963,
+    "macro_f1": 0.8192703982,
+    "invalid_evidence_ids": 0,
+    "failure_status_counts": {
+      "null": 52,
+      "NOT_ACCURATE": 1,
+      "invalid_reason": 1
+    }
+  },
+  "remote_artifacts": {
+    "model_outputs": {
+      "path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/qwen3_8_sciciteval_m0_20261013/model_outputs.jsonl",
+      "sha256": "e0070b89cd076c9ad219e4a81dee5805e6b34f1d54e7d57eecf898b736c521fc"
+    },
+    "raw_responses": {
+      "path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/qwen3_8_sciciteval_m0_20261013/raw_responses.jsonl",
+      "sha256": "d418c2f0a165e6a86443c6186678145ca6968307a92a52fdb6848731ae0bb783"
+    },
+    "metrics": {
+      "path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/qwen3_8_sciciteval_m0_20261013/metrics_m0.json",
+      "sha256": "fde42fa271493ad2482f542b5b06a03813daa65d6a7dad990d51b0a3a233c622"
+    },
+    "retry_outputs": {
+      "path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/qwen3_8_sciciteval_m0_retry_20261013",
+      "status": "retained_separately"
+    }
+  },
+  "note": "A100 原始输出和补跑文件已保留在服务器；本仓库先同步输入、gold、可复现评测代码、指标和远程产物哈希。官方底座来源尚未证明，不能标作正式 M0。"
+}
