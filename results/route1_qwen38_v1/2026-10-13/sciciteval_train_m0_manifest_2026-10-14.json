@@ -1,23 +1,24 @@
 {
   "task": "SciCiteVal Train713 Qwen3.8 adapter preparation",
   "status": "prepared_training_input",
-  "created_at": "2026-10-14",
-  "source_input": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2_本周任务_2026-09-17\\03_大模型\\sciciteval\\model_inputs_sciciteval1034.jsonl",
-  "source_input_sha256": "aeb9666c178133426aa69b6c3b22701490b4b98d10e58665be8ddf6013224b56",
-  "split_csv": "results/route1_qwen38_v1/2026-10-13/sciciteval_group_split_provisional_2026-10-13.csv",
+  "prompt_contract": "route1 v1: one supplied Cited_content passage as D01:S01",
+  "source_experiment_tsv": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2_本周完整交付包\\03_数据与代码核验\\SciCiteVal数据\\experiment_dataset.tsv",
+  "source_experiment_tsv_sha256": "01e9ab2337cafb3fa1c590311cd082a7628a3e239fbcd0ad2757a0e9aaa71b40",
+  "split_csv": "results\\route1_qwen38_v1\\2026-10-13\\sciciteval_group_split_provisional_2026-10-13.csv",
   "split_csv_sha256": "1645eef964f8e6f223582519c36553d59344216fdc1e108b0de2a607df0bc150",
+  "prompt_reference": "results\\route1_qwen38_v1\\2026-10-13\\sciciteval_dev_m0_prompts_2026-10-13.jsonl",
+  "prompt_reference_sha256": "38eb4549033c0923f17e6871c4c2c7d74b176585158ac9c590a962dd1fb8d7e0",
   "split": "train",
   "num_records": 713,
   "claim_id_min": 0,
   "claim_id_max": 1006,
-  "unique_group_keys": 44,
   "label_distribution": {
     "ACCURATE": 183,
     "NOT_ACCURATE": 183,
     "IRRELEVANT": 347
   },
   "excluded_conflict_included": false,
-  "output": "results/route1_qwen38_v1/2026-10-13/sciciteval_train_m0_inputs_2026-10-14.jsonl",
-  "output_sha256": "22babecfb20c8cd365fa1b41b01db47d54d6673bef91f25faead0168b320e323",
-  "note": "Filtered from the frozen 1034-row input by split CSV; labels are kept in split CSV and are not embedded in model inputs."
+  "output": "results\\route1_qwen38_v1\\2026-10-13\\sciciteval_train_m0_inputs_2026-10-14.jsonl",
+  "output_sha256": "6be4f2791f54099edafbc79b45ae084c04339a741d6d4fd230d5ca6f051ffcc7",
+  "note": "Generated directly from experiment_dataset.tsv with the same prompt/evidence contract as the frozen Dev M0 prompts; labels stay in the split CSV and are not embedded in model inputs."
 }
