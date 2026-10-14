@@ -1,7 +1,7 @@
 {
   "manifest_version": "route1_qwen38_v1_provisional",
   "generated_at": "2026-10-13",
-  "status": "provisional_pending_conflict_source_recovery",
+  "status": "frozen_v1_conflicts_isolated",
   "source_files": [
     {
       "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员2_本周完整交付包\\03_数据与代码核验\\SciCiteVal数据\\experiment_dataset.tsv",
