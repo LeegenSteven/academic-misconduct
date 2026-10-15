@@ -10,8 +10,8 @@
     },
     {
       "path": "CHANGES.json",
-      "bytes": 4613,
-      "sha256": "0afd774ab3f476b6cd0ad463582dcf699dbeb6706827a1e74e3f853431a4b547"
+      "bytes": 4700,
+      "sha256": "b38ebbdcd06378dc99d74b082a06c1d3ef0d676867f9c29d20d73a297e1f9707"
     },
     {
       "path": "code/cmj/route1_qwen38_eval_v1.py",
@@ -105,8 +105,8 @@
     },
     {
       "path": "docs/route1_v2_20261015_交接说明.md",
-      "bytes": 3326,
-      "sha256": "5fad6ec2fdb1a6beb1da713338dfa5d26dd1383572cf72b4989848f4d820a020"
+      "bytes": 3169,
+      "sha256": "999697c9585efa0b60826496cc53e17f3872bb6b4e6be50df4207966eb617930"
     },
     {
       "path": "inputs/demo30/scicite_original.tsv",
@@ -325,8 +325,8 @@
     },
     {
       "path": "开始使用_路线一数据修复包.md",
-      "bytes": 9002,
-      "sha256": "337144dbb04fd7dcb6fa660649fcaff84a30ad44a256ae5a7c15baa99197d385"
+      "bytes": 9344,
+      "sha256": "7442ca3fdea7addbf12d49168718e1a6f35ad9e0fffb709622127aa5e5b99e67"
     }
   ],
   "manifest_self_hash_policy": "PACKAGE_MANIFEST.json is excluded from its own entries; archive hash is delivered separately"

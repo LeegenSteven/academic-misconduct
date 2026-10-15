@@ -70,7 +70,8 @@
     "results/route1_qwen38_v1/2026-10-13/sciciteval_dev_m0_prompts_2026-10-13.jsonl",
     "results/route1_qwen38_v1/2026-10-13/sciciteval_group_split_provisional_2026-10-13.csv"
   ],
-  "github_main_modified": false,
-  "usage": "Run from this unpacked directory; integrate listed new/modified files separately if desired",
-  "publication_branch": "fix/route1-qwen38-data-v2-20261015"
+  "github_main_modified": true,
+  "usage": "Update main with git switch main and git pull --ff-only origin main, then run the verifier; no manual file merge is needed",
+  "publication_branch": "main",
+  "source_pull_request": "https://github.com/LeegenSteven/academic-misconduct/pull/1"
 }
