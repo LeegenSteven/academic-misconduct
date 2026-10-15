@@ -1,0 +1,24 @@
+{
+  "sciciteval": {
+    "records": 32,
+    "selection_rule_independently_reconstructed": true,
+    "source_lines_byte_identical": true,
+    "all_source_output_generator_hashes_valid": true,
+    "labels": {
+      "ACCURATE": 15,
+      "NOT_ACCURATE": 15,
+      "IRRELEVANT": 2
+    }
+  },
+  "sarol": {
+    "records": 32,
+    "selection_rule_independently_reconstructed": true,
+    "source_lines_byte_identical": true,
+    "all_source_output_generator_hashes_valid": true,
+    "labels": {
+      "ACCURATE": 23,
+      "NOT_ACCURATE": 7,
+      "IRRELEVANT": 2
+    }
+  }
+}

@@ -1,2 +1,24 @@
 # Preserve the published data bytes and SHA-256 on all platforms.
 data/quality_v1/** -text
+
+# Freeze byte-exact route-one v2 manifests and their source/code dependencies.
+/.gitattributes -text
+/docs/route1_v2_20261015_交接说明.md -text
+/CHANGES.json -text
+/PACKAGE_MANIFEST.json -text
+/开始使用_路线一数据修复包.md -text
+/code/cmj/route1_qwen38_eval_v1.py -text
+/code/cmj/route1_qwen38_train_sarol_v1.py -text
+/code/ly/route1_qwen38_train_sciciteval_v1.py -text
+/code/ly/build_sarol_bm25_top10_inputs_v1.py -text
+/code/ly/route1_qwen38_output_schema_v1_2026-10-13.json -text
+/code/ly/*_v2.py -text
+/code/shared/route1_qwen38/** -text
+/inputs/demo30/scicite_original.tsv -text
+/sources/sciciteval/Qasa_annotated.tsv -text
+/results/route1_qwen38_v2/** -text
+/results/route1_qwen38_v1/2026-10-13/sarol_bm25_top10_inputs_v1_2026-10-13/manifest_bm25_top10_sentences_v1.json -text
+/results/route1_qwen38_v1/2026-10-13/sciciteval_conflict_source_audit_2026-10-13.csv -text
+/results/route1_qwen38_v1/2026-10-13/sciciteval_dev_gold_2026-10-13.jsonl -text
+/results/route1_qwen38_v1/2026-10-13/sciciteval_dev_m0_prompts_2026-10-13.jsonl -text
+/results/route1_qwen38_v1/2026-10-13/sciciteval_group_split_provisional_2026-10-13.csv -text

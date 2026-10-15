@@ -1,0 +1,333 @@
+{
+  "package": "路线一数据修复包_2026-10-15",
+  "base_revision": "88bf515d33dc484185174443a66f6dbf536850af",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 1241,
+      "sha256": "fc1f9f589c6ef234a8213f71e0b496e8556eebd9bd044b98843230588dbdc0e9"
+    },
+    {
+      "path": "CHANGES.json",
+      "bytes": 4700,
+      "sha256": "b38ebbdcd06378dc99d74b082a06c1d3ef0d676867f9c29d20d73a297e1f9707"
+    },
+    {
+      "path": "code/cmj/route1_qwen38_eval_v1.py",
+      "bytes": 9211,
+      "sha256": "c5a5862512911c37bad0e131d8f7342658c78443f8c1df3a5b0e4ea81eaa1d42"
+    },
+    {
+      "path": "code/cmj/route1_qwen38_train_sarol_v1.py",
+      "bytes": 9994,
+      "sha256": "dfd4ffb58c613ad105d0d53b744920e44f5767563118c5830f2f664d0705dde0"
+    },
+    {
+      "path": "code/ly/build_route1_smoke32_v2.py",
+      "bytes": 7499,
+      "sha256": "80dd7d2e5a1f9fe6eb0517dc69cfd5a5f51b50ea91e87720ed3623e305a1470d"
+    },
+    {
+      "path": "code/ly/build_sarol_bm25_top10_inputs_v1.py",
+      "bytes": 9131,
+      "sha256": "a71499f1554c86c3f28c5e18c840c147b46ee07313b1c55c89ce8c6e6c21146f"
+    },
+    {
+      "path": "code/ly/build_sarol_inputs_v2.py",
+      "bytes": 16451,
+      "sha256": "2f4b32708646337b91064474d13b1769029038c5f72b8ec5059599329bc6e3af"
+    },
+    {
+      "path": "code/ly/build_sciciteval_inputs_v2.py",
+      "bytes": 12405,
+      "sha256": "f2989ae2e5a7b36d786cd81253de2003bece6c8882ed72af0fb8abd95a9dd040"
+    },
+    {
+      "path": "code/ly/route1_qwen38_output_schema_v1_2026-10-13.json",
+      "bytes": 2607,
+      "sha256": "97004ce55f9573d8333a40307198ec7c6562e77d639714a6a7a8a73ec1538662"
+    },
+    {
+      "path": "code/ly/route1_qwen38_train_sciciteval_v1.py",
+      "bytes": 9950,
+      "sha256": "606f70300d8039d6dd84e9cfa565b39616b3368df5d2e4c13058ad783e8ac0fa"
+    },
+    {
+      "path": "code/ly/run_route1_v2.py",
+      "bytes": 5044,
+      "sha256": "e852d09e0845e18a93877afe6f5afb0dd556df134d584af0b1996e284a165be9"
+    },
+    {
+      "path": "code/ly/verify_route1_data_v2.py",
+      "bytes": 10741,
+      "sha256": "ec10171e0c0567b8a1c5cc4acafca330c7e859714d4545b512c9fdfdf3673ebc"
+    },
+    {
+      "path": "code/shared/route1_qwen38/__init__.py",
+      "bytes": 64,
+      "sha256": "27e84eeb8488b4529c530002a35659507055c22a6eaad3c53d641331f3e65340"
+    },
+    {
+      "path": "code/shared/route1_qwen38/data_contract.py",
+      "bytes": 9412,
+      "sha256": "93e881ea4a9d8dc92c897a87862a185bd5527ee58f31567472e29a8ef7261776"
+    },
+    {
+      "path": "code/shared/route1_qwen38/test_data_contract.py",
+      "bytes": 8447,
+      "sha256": "10de0b903eba3699ccb252af560b33d7cab1b796787e312c0f502ff0e777c7a2"
+    },
+    {
+      "path": "code/shared/route1_qwen38/test_run_route1_v2.py",
+      "bytes": 4908,
+      "sha256": "91a1d93b979560b90e9d541b2fbcf5d46c45c634cd42df7eee8ee4851906cc78"
+    },
+    {
+      "path": "data/quality_v1/sarol/claims-dev-model.jsonl",
+      "bytes": 327379,
+      "sha256": "1efc1b9ddb77dbe79f3f80e511449b81c430fdc519652fb8584d39e4fae6cd4a"
+    },
+    {
+      "path": "data/quality_v1/sarol/claims-test-model.jsonl",
+      "bytes": 590587,
+      "sha256": "cfafb28d0a176c0598a98ebfd348f184eb8011620af7497b350bd7e13af5605e"
+    },
+    {
+      "path": "data/quality_v1/sarol/claims-train-model.jsonl",
+      "bytes": 2471325,
+      "sha256": "e6f430bc71813d90f7be183449f236fc8e0625aba9a7042f6f2baa8cc3c24ae5"
+    },
+    {
+      "path": "data/quality_v1/sarol/corpus.jsonl",
+      "bytes": 5154984,
+      "sha256": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3"
+    },
+    {
+      "path": "docs/route1_v2_20261015_交接说明.md",
+      "bytes": 3169,
+      "sha256": "999697c9585efa0b60826496cc53e17f3872bb6b4e6be50df4207966eb617930"
+    },
+    {
+      "path": "inputs/demo30/scicite_original.tsv",
+      "bytes": 1570524,
+      "sha256": "01e9ab2337cafb3fa1c590311cd082a7628a3e239fbcd0ad2757a0e9aaa71b40"
+    },
+    {
+      "path": "results/route1_qwen38_v1/2026-10-13/sarol_bm25_top10_inputs_v1_2026-10-13/manifest_bm25_top10_sentences_v1.json",
+      "bytes": 3134,
+      "sha256": "c5a3e5c8aae92988a12cb7f8f96c8350de6e8e734a70942e61089561c6582c71"
+    },
+    {
+      "path": "results/route1_qwen38_v1/2026-10-13/sciciteval_conflict_source_audit_2026-10-13.csv",
+      "bytes": 2505,
+      "sha256": "9ea2c7c0c2f178f5e7a96615e9c1d23e75451b712a68aaa715af59018d50ec29"
+    },
+    {
+      "path": "results/route1_qwen38_v1/2026-10-13/sciciteval_dev_gold_2026-10-13.jsonl",
+      "bytes": 5717,
+      "sha256": "66e8d4722720dff0498d54a73d0f45c8fcb1f80bdd31cbc49a0a256c971f2bc2"
+    },
+    {
+      "path": "results/route1_qwen38_v1/2026-10-13/sciciteval_dev_m0_prompts_2026-10-13.jsonl",
+      "bytes": 239213,
+      "sha256": "cdd95b9c1b79da48afefb67bbbb28e3fe178df88ef3d6ae9ef398fd203f618b0"
+    },
+    {
+      "path": "results/route1_qwen38_v1/2026-10-13/sciciteval_group_split_provisional_2026-10-13.csv",
+      "bytes": 59346,
+      "sha256": "506a1e86c610b506b3283bd78aed6f6b8bca7397e4010188a6b063d7079d07a3"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/VALIDATION.md",
+      "bytes": 3656,
+      "sha256": "4c6eda6d48d7f6d81f3266912f690ab4f300aee6d8109183967ffefef88c6c3b"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/dev.gold.jsonl",
+      "bytes": 91149,
+      "sha256": "d1d0362dba636ea5c93803c50671ca822bd5c1cd058db10bc261eda6386823c4"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/dev.inputs.jsonl",
+      "bytes": 2089338,
+      "sha256": "2c0690ab3a0c50cc63c47bf0db06f63895de51513d1257ecf4aeb051d1e64403"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/manifest.json",
+      "bytes": 7653,
+      "sha256": "48ac00fa44f6f9eec18bf0a7c05f18ac9863ed837b2923568b963f9dceaddeab"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/smoke32.gold.jsonl",
+      "bytes": 8678,
+      "sha256": "4ba3335edede70d3de0cf2e55b8fb1ffc322e08b21e57d59dd91cde6320299ca"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/smoke32.inputs.jsonl",
+      "bytes": 249217,
+      "sha256": "3675d36859434e4d37bf7c96a626aa3e25fa3a6bb334f570adcbfd19e5dc9bf1"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/smoke32.manifest.json",
+      "bytes": 3865,
+      "sha256": "66a8db2658f8066b732d3c064bfd4d82117c59d4dc0ce92c1801ef81d4e5e659"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/test.gold.jsonl",
+      "bytes": 178787,
+      "sha256": "696d6d9290c03e3ca79ff705aeeab52161932f3c2b229db87298427e900caeae"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/test.inputs.jsonl",
+      "bytes": 3886873,
+      "sha256": "46b441cd7623ca827113ba5a52ae8a08d34cbbc4d5211b133e6af8595fc27391"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/train.gold.jsonl",
+      "bytes": 629596,
+      "sha256": "f245b94aafc67934b43c760a1d6c68b0f1042d7561f493280c77d49467c1fad8"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/train.inputs.jsonl",
+      "bytes": 13719547,
+      "sha256": "712338b41e7f1b56b8a4cb8a75018a57bab89706ed0b6d9f4a2e7dc8bd0d0180"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/conflict_source_audit.frozen_v1.csv",
+      "bytes": 2505,
+      "sha256": "9ea2c7c0c2f178f5e7a96615e9c1d23e75451b712a68aaa715af59018d50ec29"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/conflicts.quarantine.jsonl",
+      "bytes": 26702,
+      "sha256": "1bac408e66ae4e882460c0c64696c75f275f6d273e9ffa413258b426201ee2be"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/dev.gold.jsonl",
+      "bytes": 2045,
+      "sha256": "9e182bbf8a274ca044c988ae8bebb2507178153ba19ce190a1451feac89c5b50"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/dev.inputs.jsonl",
+      "bytes": 236473,
+      "sha256": "93df53e04a249bd4a83fbc739db87ae88fee59b842eee8d6daa162d9efe328b1"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/manifest.json",
+      "bytes": 4609,
+      "sha256": "ad00c744787c18bd4911050b3c0af33e82d136e00e9332920f034922fe89bf8d"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/smoke32.gold.jsonl",
+      "bytes": 1180,
+      "sha256": "1de5a8fb173e337b0a8618413835e2589e1e22e613174907c87672cdbb5ae279"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/smoke32.inputs.jsonl",
+      "bytes": 204521,
+      "sha256": "20b115222c39f1858c7bcd135c5cd313a23d12fffa3acc3c963c963ba869644f"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/smoke32.manifest.json",
+      "bytes": 3892,
+      "sha256": "a807209820cefc3123ed35ba150d52312b96c4693d87f3095b6c8c4f113c1801"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/split.frozen_v1.csv",
+      "bytes": 59346,
+      "sha256": "506a1e86c610b506b3283bd78aed6f6b8bca7397e4010188a6b063d7079d07a3"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/test.gold.jsonl",
+      "bytes": 9726,
+      "sha256": "98512eb476fe31da3f36dea716ea3333008234f2af9ac191afd10d48a854eabd"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/test.inputs.jsonl",
+      "bytes": 1231253,
+      "sha256": "da705b96dff43c8077de9ed7c261048ba427795848126ad941f4c7cd9ff73301"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/train.gold.jsonl",
+      "bytes": 27065,
+      "sha256": "5a80ff6c6cf813c8256827c63da5ee3c277607afa48f243a9b6743ec4d7be83a"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/train.inputs.jsonl",
+      "bytes": 2615471,
+      "sha256": "4f7357e0022a2e557cb9912f7612699a496d02753451a06b14e2e004f8d3622b"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/validation_report.json",
+      "bytes": 932,
+      "sha256": "5bb6929b102de754439238ef48d3088110f95856d0f57de29ff42d0da296c9ac"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/source_audit/independent_data_audit.json",
+      "bytes": 5815,
+      "sha256": "3c4043074dedd3dc6c8346312e73206c6b8bd3c7ffeab6a7f8af98f3b6267e50"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/source_audit/independent_data_audit.md",
+      "bytes": 2282,
+      "sha256": "6de4cb660f4696630008c07d8840218699b88aa68e8c487adb6027fc014a84d3"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/source_audit/sarol_agent_cross_review.json",
+      "bytes": 1607,
+      "sha256": "ca0cabb3c5dee6af06cb9a622defe13c492e4b57a3ca442876cd52e6dc63cecb"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/source_audit/sarol_agent_cross_review.md",
+      "bytes": 2300,
+      "sha256": "3b0ea173b58ee309c919749dd27d94ce88edb53704b1a355c88cbfcc42f154b6"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/source_audit/sciciteval_conflict_review_5groups.csv",
+      "bytes": 17055,
+      "sha256": "95632be4c7e3957539ae13a463ab7bb52626401ef08571029b8e2ee2fa8ce37c"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/source_audit/sciciteval_conflict_review_5groups.json",
+      "bytes": 48890,
+      "sha256": "3d3f2dcc34491e3c736ce071181afe2f616de2372c36b21741974327e05b9c36"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/source_audit/sciciteval_conflict_review_5groups.jsonl",
+      "bytes": 45368,
+      "sha256": "ac51995888421f16b0646750ac137d291c47d2ed7d9ebed0d36e8f31a31dc409"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/source_audit/sciciteval_conflict_review_5groups.md",
+      "bytes": 2431,
+      "sha256": "583b59a61432a0a7f050ee5da6e58a0d9eebe659955de2413299fadcb9732bb3"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/source_audit/smoke32_cross_review.json",
+      "bytes": 591,
+      "sha256": "1a7afd7b3929a4774ab4510346af1d6797257b01e37a395bec6ad44cefd361c6"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/training_contract_validation.json",
+      "bytes": 3058,
+      "sha256": "6bb444c5f96ea8e40a43dbc9486161dd40ac9e35cdcadaba939b893ff7a66248"
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/verification_report.json",
+      "bytes": 3273,
+      "sha256": "51594e403a0394d45ebb577f02f82ea169151833af1d96fbdddb258b8af7e150"
+    },
+    {
+      "path": "sources/sciciteval/Qasa_annotated.tsv",
+      "bytes": 2721857,
+      "sha256": "fd1e95b14dcc3487a86672e2a00179d7c138a6a50af8c87b7000d9a29a3fae63"
+    },
+    {
+      "path": "开始使用_路线一数据修复包.md",
+      "bytes": 9344,
+      "sha256": "7442ca3fdea7addbf12d49168718e1a6f35ad9e0fffb709622127aa5e5b99e67"
+    }
+  ],
+  "manifest_self_hash_policy": "PACKAGE_MANIFEST.json is excluded from its own entries; archive hash is delivered separately"
+}
