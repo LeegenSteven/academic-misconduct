@@ -1,0 +1,69 @@
+{
+  "status": "cpu_contract_checks_passed",
+  "date": "2026-10-15",
+  "environment": {
+    "python": "3.9.25",
+    "os": "Windows",
+    "machine": "AMD64",
+    "packages": {
+      "torch": "2.8.0+cu129",
+      "transformers": "4.51.3",
+      "tokenizers": "0.21.0",
+      "datasets": "3.3.2",
+      "numpy": "1.26.2",
+      "peft": null
+    }
+  },
+  "checks": {
+    "unit_tests_run": 5,
+    "failures": 0,
+    "errors": 0,
+    "test_output": "test_id_join_and_legacy_csv ... ok\ntest_invalid_is_false_negative ... ok\ntest_strict_label_parsing ... ok\ntest_check_inputs_cli_processes_full_split_without_weights ... ok\ntest_real_fast_tokenization_padding_and_loss ... ok\nRan 5 tests in 10.263s\nOK\n",
+    "syntax_checked": [
+      "code/cmj/route1_qwen38_train_sarol_v1.py",
+      "code/ly/route1_qwen38_train_sciciteval_v1.py",
+      "code/cmj/route1_qwen38_eval_v1.py",
+      "code/shared/route1_qwen38/data_contract.py"
+    ],
+    "full_inputs_gold_id_join_counts": {
+      "sciciteval": {
+        "train": 713,
+        "dev": 54,
+        "test": 257
+      },
+      "sarol": {
+        "train": 2141,
+        "dev": 316,
+        "test": 606
+      }
+    },
+    "check_inputs_cli_integration": {
+      "scripts": [
+        "code/cmj/route1_qwen38_train_sarol_v1.py",
+        "code/ly/route1_qwen38_train_sciciteval_v1.py"
+      ],
+      "synthetic_records_each": 35,
+      "local_test_tokenizer_only": true,
+      "model_weights_present": false,
+      "both_processed_all_35_and_exited_before_model_loading": true
+    }
+  },
+  "verified": [
+    "Real CPU torch tensors and cross-entropy backward pass",
+    "Actual fast tokenizer offset masking with a locally constructed test tokenizer",
+    "Left/right padding preserves original loss masks; pad labels are -100",
+    "EOS supervision remains when EOS and pad IDs are equal",
+    "Strict JSON/exact-token label parsing; NOT_ACCURATE is never a substring ACCURATE hit",
+    "INVALID contributes a false negative and support to its gold class",
+    "All six generated input/gold datasets have a complete unique ID join",
+    "Both --check-inputs CLIs processed all 35 synthetic records using a local fast tokenizer with no model weights; CPU-only path did not require PEFT"
+  ],
+  "not_verified": [
+    "Official Qwen3.8 tokenizer chat-template rendering and exact full-dataset token lengths",
+    "Official Qwen3.8 model loading, forward/backward or optimizer step",
+    "A100/GPU execution, adapter save/reload and model predictions",
+    "Training convergence, checkpoint selection and official Dev/Test scores"
+  ],
+  "server_next_check": "Run each training script with --check-inputs and its full train.inputs.jsonl/train.gold.jsonl; this uses the official local tokenizer and validates every collated batch without loading model weights.",
+  "smoke_note": "--input-smoke limits input-only checks to 32 records. --check-inputs rejects subset/smoke options and checks the full split. CPU validation is not a model-training smoke."
+}

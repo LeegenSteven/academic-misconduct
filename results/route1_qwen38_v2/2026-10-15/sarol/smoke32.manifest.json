@@ -1,0 +1,193 @@
+{
+  "manifest_version": "route1_smoke32_v2_2026-10-15",
+  "dataset": "sarol",
+  "status": "generated_static_input_only_no_gpu_run",
+  "purpose": "GPU/input engineering smoke only: load model, forward/backward/optimizer step, save/reload adapter, then inference",
+  "not_for": [
+    "checkpoint selection",
+    "hyperparameter selection",
+    "formal accuracy/F1 reporting"
+  ],
+  "source_split": "train",
+  "dev_or_test_files_opened": false,
+  "selection_rule": "Union first 2 Train records per class, global top 4 Train records by len(system_prompt)+len(user_prompt) (skip duplicates), then earliest unselected Train records until 32; output in original Train order",
+  "prompt_length_unit": "Python len(str) Unicode code points; system and user only; character length is not a tokenizer length estimate",
+  "length_tie_break": "original Train order",
+  "first_two_per_class_ids": {
+    "ACCURATE": [
+      0,
+      1
+    ],
+    "NOT_ACCURATE": [
+      7,
+      11
+    ],
+    "IRRELEVANT": [
+      21,
+      25
+    ]
+  },
+  "four_longest_train_candidates": [
+    {
+      "claim_id": 250,
+      "prompt_characters": 12051
+    },
+    {
+      "claim_id": 256,
+      "prompt_characters": 11686
+    },
+    {
+      "claim_id": 237,
+      "prompt_characters": 11502
+    },
+    {
+      "claim_id": 313,
+      "prompt_characters": 5508
+    }
+  ],
+  "new_ids_from_longest_stage": [
+    250,
+    256,
+    237,
+    313
+  ],
+  "fill_ids_in_train_order": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    22,
+    23,
+    24,
+    26,
+    27
+  ],
+  "selected_source_positions_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    237,
+    250,
+    256,
+    313
+  ],
+  "selected_claim_ids_in_output_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    237,
+    250,
+    256,
+    313
+  ],
+  "join_key_policy": "(dataset, source_split, claim_id); smoke32 is a Train subset, not an independent split",
+  "label_distribution": {
+    "ACCURATE": 23,
+    "IRRELEVANT": 2,
+    "NOT_ACCURATE": 7
+  },
+  "sources": {
+    "inputs": {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/train.inputs.jsonl",
+      "records": 2141,
+      "bytes": 13719547,
+      "sha256": "712338b41e7f1b56b8a4cb8a75018a57bab89706ed0b6d9f4a2e7dc8bd0d0180"
+    },
+    "gold": {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/train.gold.jsonl",
+      "records": 2141,
+      "bytes": 629596,
+      "sha256": "f245b94aafc67934b43c760a1d6c68b0f1042d7561f493280c77d49467c1fad8"
+    }
+  },
+  "outputs": {
+    "smoke32.inputs.jsonl": {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/smoke32.inputs.jsonl",
+      "records": 32,
+      "bytes": 249217,
+      "sha256": "3675d36859434e4d37bf7c96a626aa3e25fa3a6bb334f570adcbfd19e5dc9bf1"
+    },
+    "smoke32.gold.jsonl": {
+      "path": "results/route1_qwen38_v2/2026-10-15/sarol/smoke32.gold.jsonl",
+      "records": 32,
+      "bytes": 8678,
+      "sha256": "4ba3335edede70d3de0cf2e55b8fb1ffc322e08b21e57d59dd91cde6320299ca"
+    }
+  },
+  "generator": {
+    "path": "code/ly/build_route1_smoke32_v2.py",
+    "sha256": "80dd7d2e5a1f9fe6eb0517dc69cfd5a5f51b50ea91e87720ed3623e305a1470d"
+  },
+  "validation": {
+    "records": 32,
+    "all_three_classes_covered": true,
+    "input_gold_ids_order_aligned": true,
+    "only_train_source_records_selected": true,
+    "source_record_lines_copied_byte_identically": true,
+    "model_prompt_and_external_metadata_unchanged": true,
+    "no_model_execution": true
+  }
+}

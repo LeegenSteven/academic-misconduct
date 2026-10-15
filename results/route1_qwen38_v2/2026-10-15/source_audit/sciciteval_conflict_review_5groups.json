@@ -1,0 +1,334 @@
+{
+  "source_files": [
+    {
+      "workspace_relative_path": "同学汇报/李云9月14日汇报/03_数据与代码核验/SciCiteVal数据/experiment_dataset.tsv",
+      "suggested_package_path": "sources/sciciteval/experiment_dataset.tsv",
+      "sha256": "01e9ab2337cafb3fa1c590311cd082a7628a3e239fbcd0ad2757a0e9aaa71b40"
+    },
+    {
+      "workspace_relative_path": "同学汇报/李云9月14日汇报/03_数据与代码核验/SciCiteVal数据/Qasa_annotated.tsv",
+      "suggested_package_path": "sources/sciciteval/Qasa_annotated.tsv",
+      "sha256": "fd1e95b14dcc3487a86672e2a00179d7c138a6a50af8c87b7000d9a29a3fae63"
+    }
+  ],
+  "conflict_audit_source": {
+    "repository_relative_path": "results/route1_qwen38_v1/2026-10-13/sciciteval_conflict_source_audit_2026-10-13.csv",
+    "sha256": "9ea2c7c0c2f178f5e7a96615e9c1d23e75451b712a68aaa715af59018d50ec29"
+  },
+  "group_count": 5,
+  "row_count": 10,
+  "scope": "Only mechanical provenance diagnosis and a human review worksheet. No labels or frozen splits changed.",
+  "can_automatically_resolve": false,
+  "groups": [
+    {
+      "conflict_group_id": "pair_358_359",
+      "row_ids_0based": [
+        358,
+        359
+      ],
+      "experiment_tsv_record_indices_1based": [
+        359,
+        360
+      ],
+      "qasa_id": "284",
+      "qasa_paper_id": "paper_127",
+      "qasa_annotated_record_index_0based": 259,
+      "original_labels": [
+        "Correct",
+        "Incorrect"
+      ],
+      "original_twist_categories": [
+        "",
+        "Change Concept"
+      ],
+      "context_equal_exact": true,
+      "cited_content_equal_exact": true,
+      "qasa_cited_content_equal_exact": true,
+      "experiment_context_matches_qasa_fields": [
+        "Twisted_composition",
+        "Modified_composition"
+      ],
+      "common_citation_context": "It was found that models with RL refinement are less affected by length normalization \"α\" and coverage penalty \"β\", authors explain this to the fact that during RL refinement, models can't learn to pay attention to the full source sentence to not under-translate or over-translate. ",
+      "common_cited_content": "Table 2 shows the impact of \\alpha and \\beta onthe BLEU score when decoding the WMT’14 English-to-French development set.The model used here for experiments is trained using the ML objectiveonly (without RL refinement). As can be seen from the results, havingsome length normalization and coverage penalty improves BLEU scoreconsiderably (from 30.3 to 31.4).We find that length normalization (\\alpha) and coverage penalty(\\beta) are less effective for models with RLrefinement. Table 3 summarizes ourresults. This is understandable, as during RL refinement, the modelsalready learn to pay attention to the full source sentence to notunder-translate or over-translate, which would result in a penalty on theBLEU (or GLEU) scores.The results of RL fine-tuning on the best En\\rightarrowFr andEn\\rightarrowDe models are presented inTable 6, which show that fine-tuning themodels with RL can improve BLEU scores. On WMT En\\rightarrowFr,model refinement improves BLEU score by close to 1 point. On En\\rightarrowDe,RL-refinement slightly hurts the test performance even though we observe about 0.4 BLEU pointsimprovement on the development set. The results presented inTable 6 are the average of 8 independent models.We also note that there is an overlap between the wins from the RL refinement and the decoderfine-tuning (i.e., the introduction of length normalization and coverage penalty).On a less fine-tuned decoder (e.g., if the decoder does beam search bylog-probability only), the win from RL would have been bigger (as is evidentfrom comparing results in Table 2 andTable 3).",
+      "qasa_question": "In terms of the effectivenesses of coverage penalty and length normalization, how does having RL-based model refinement differ from not having RL-based model refinement?",
+      "qasa_original_composition": "It was found that models with RL refinement are less affected by length normalization \"α\" and coverage penalty \"β\", authors explain this to the fact that during RL refinement, models already learn to pay attention to the full source sentence to not under-translate or over-translate.  The authors also found an overlap between the wins from RL refinement and decoder fine-tuning, and the win from RL on a less fine-tuned decoder would have been bigger.  The impact of length normalization \"α\" and coverage penalty \"β\" on RL-based and non-RL-based models can be found in Tables 2 and 3. ",
+      "qasa_twisted_composition": "It was found that models with RL refinement are less affected by length normalization \"α\" and coverage penalty \"β\", authors explain this to the fact that during RL refinement, models can't learn to pay attention to the full source sentence to not under-translate or over-translate. ",
+      "qasa_modified_composition": "It was found that models with RL refinement are less affected by length normalization \"α\" and coverage penalty \"β\", authors explain this to the fact that during RL refinement, models can't learn to pay attention to the full source sentence to not under-translate or over-translate. ",
+      "qasa_twist_category": "Change Concept",
+      "qasa_twist_reason": " (already -> can't)",
+      "qasa_original_row": {
+        "Qasa_id": "284",
+        "Qasa_paper_id": "paper_127",
+        "Question": "In terms of the effectivenesses of coverage penalty and length normalization, how does having RL-based model refinement differ from not having RL-based model refinement?",
+        "Composition": "It was found that models with RL refinement are less affected by length normalization \"α\" and coverage penalty \"β\", authors explain this to the fact that during RL refinement, models already learn to pay attention to the full source sentence to not under-translate or over-translate.  The authors also found an overlap between the wins from RL refinement and decoder fine-tuning, and the win from RL on a less fine-tuned decoder would have been bigger.  The impact of length normalization \"α\" and coverage penalty \"β\" on RL-based and non-RL-based models can be found in Tables 2 and 3. ",
+        "Cited_content": "Table 2 shows the impact of \\alpha and \\beta onthe BLEU score when decoding the WMT’14 English-to-French development set.The model used here for experiments is trained using the ML objectiveonly (without RL refinement). As can be seen from the results, havingsome length normalization and coverage penalty improves BLEU scoreconsiderably (from 30.3 to 31.4).We find that length normalization (\\alpha) and coverage penalty(\\beta) are less effective for models with RLrefinement. Table 3 summarizes ourresults. This is understandable, as during RL refinement, the modelsalready learn to pay attention to the full source sentence to notunder-translate or over-translate, which would result in a penalty on theBLEU (or GLEU) scores.The results of RL fine-tuning on the best En\\rightarrowFr andEn\\rightarrowDe models are presented inTable 6, which show that fine-tuning themodels with RL can improve BLEU scores. On WMT En\\rightarrowFr,model refinement improves BLEU score by close to 1 point. On En\\rightarrowDe,RL-refinement slightly hurts the test performance even though we observe about 0.4 BLEU pointsimprovement on the development set. The results presented inTable 6 are the average of 8 independent models.We also note that there is an overlap between the wins from the RL refinement and the decoderfine-tuning (i.e., the introduction of length normalization and coverage penalty).On a less fine-tuned decoder (e.g., if the decoder does beam search bylog-probability only), the win from RL would have been bigger (as is evidentfrom comparing results in Table 2 andTable 3).",
+        "Twisted_composition": "It was found that models with RL refinement are less affected by length normalization \"α\" and coverage penalty \"β\", authors explain this to the fact that during RL refinement, models can't learn to pay attention to the full source sentence to not under-translate or over-translate. ",
+        "Twist_category": "Change Concept",
+        "Twist_reason": " (already -> can't)",
+        "Modified_composition": "It was found that models with RL refinement are less affected by length normalization \"α\" and coverage penalty \"β\", authors explain this to the fact that during RL refinement, models can't learn to pay attention to the full source sentence to not under-translate or over-translate. "
+      },
+      "composition_to_exported_context_diff": "--- Qasa.Composition\n+++ experiment.Citation_context\n@@ -1 +1 @@\n-It was found that models with RL refinement are less affected by length normalization \"α\" and coverage penalty \"β\", authors explain this to the fact that during RL refinement, models already learn to pay attention to the full source sentence to not under-translate or over-translate.  The authors also found an overlap between the wins from RL refinement and decoder fine-tuning, and the win from RL on a less fine-tuned decoder would have been bigger.  The impact of length normalization \"α\" and coverage penalty \"β\" on RL-based and non-RL-based models can be found in Tables 2 and 3. \n+It was found that models with RL refinement are less affected by length normalization \"α\" and coverage penalty \"β\", authors explain this to the fact that during RL refinement, models can't learn to pay attention to the full source sentence to not under-translate or over-translate. ",
+      "candidate_positive_context_from_qasa_composition": "It was found that models with RL refinement are less affected by length normalization \"α\" and coverage penalty \"β\", authors explain this to the fact that during RL refinement, models already learn to pay attention to the full source sentence to not under-translate or over-translate.  The authors also found an overlap between the wins from RL refinement and decoder fine-tuning, and the win from RL on a less fine-tuned decoder would have been bigger.  The impact of length normalization \"α\" and coverage penalty \"β\" on RL-based and non-RL-based models can be found in Tables 2 and 3. ",
+      "candidate_status": "仅恢复候选，待人工核验，不是已确认金标准",
+      "mechanical_diagnosis": "正负导出均取扭曲版本",
+      "observed_evidence": "experiment 两行均匹配含 can't 的 Twisted_composition/Modified_composition；原 Composition 含 already，且保留更完整的后文。",
+      "missing_or_unverified": "缺少从 Qasa_annotated 到 experiment_dataset 的导出代码/最终人工修订记录；本地未找到 QASA 原始文档ID到标题/DOI/PDF定位的映射。现有字段可定位构造问题，但不足以自动确定可发布的修复标签和全部修复文本。",
+      "specific_review_task": "核对正样本应使用的最终修订文本；确认 whether original Composition 已经被人工改写为 citation，或应恢复其他版本。禁止仅把当前 Correct 标签改为 Incorrect 后当成冲突已修复。",
+      "current_action": "继续隔离；不改 frozen v1。若决定修复，另建版本并记录人工裁决。",
+      "reviewer": "",
+      "review_decision": "",
+      "verified_positive_context": "",
+      "verified_negative_context": "",
+      "supporting_source_or_commit": "",
+      "review_notes": ""
+    },
+    {
+      "conflict_group_id": "pair_528_529",
+      "row_ids_0based": [
+        528,
+        529
+      ],
+      "experiment_tsv_record_indices_1based": [
+        529,
+        530
+      ],
+      "qasa_id": "941",
+      "qasa_paper_id": "paper_43",
+      "qasa_annotated_record_index_0based": 841,
+      "original_labels": [
+        "Correct",
+        "Incorrect"
+      ],
+      "original_twist_categories": [
+        "",
+        "Tortured Phrases"
+      ],
+      "context_equal_exact": true,
+      "cited_content_equal_exact": true,
+      "qasa_cited_content_equal_exact": true,
+      "experiment_context_matches_qasa_fields": [
+        "Twisted_composition",
+        "Modified_composition"
+      ],
+      "common_citation_context": "There are three main techniques that are used to apply CNNs to tasks involving medical images: 1) training from scratch, 2) using pre-skilled CNNs as feature extractors, then using those features with hand-crafted features, and 3) performing unsupervised pre-training then using CNN for fine-tuning.",
+      "common_cited_content": "There are currently three major techniques that successfully employ CNNs to medical image classification: 1) training the “CNN from scratch” [13, 14, 15, 16, 17]; 2) using “off-the-shelf CNN” features (without retraining the CNN) as complementary information channels to existing hand-crafted image features, for Chest X-rays [10] and CT lung nodule identification [9, 12]; and 3) performing unsupervised pre-training on natural or medical images and fine-tuning on medical target images using CNN or other types of deep learning models [18, 19, 20, 21].A decompositional 2.5D view resampling and an aggregation of random view classification scores are used to eliminate the “curse-of-dimensionality” issue in [22], in order to acquire a sufficient number of training image samples.Although natural images and medical images differ significantly, conventional image descriptors developed for object recognition in natural images, such as the scale-invariant feature transform (SIFT) [30] and the histogram of oriented gradients (HOG) [31], have been widely used for object detection and segmentation in medical image analysis. Recently, ImageNet pre-trained CNNs have been used for chest pathology identification and detection in X-ray and CT modalities [10, 9, 12].They have yielded the best performance results by integrating low-level image features (e.g., GIST [32], bag of visual words (BoVW) and bag-of-frequency [12]). However, the fine-tuning of an ImageNet pre-trained CNN model on medical image datasets has not yet been exploited.Until the detection aggregation approach [22], [41], thoracoabdominal lymph node (LN) detection via CADe mechanisms has yielded poor performance results. In [22], each 3D LN candidate produces up to 100 random 2.5D orthogonally sampled images or views which are then used to train an effective CNN model. The best performance on abdominal LN detection is achieved at 83% recall on 3FP per patient [22], using a “Cifar-10” CNN. Using the thoracoabdominal LN detection datasets [22], we aim to surpass this CADe performance level, by testing different CNN architectures, exploring various dataset re-sampling protocols, and applying transfer learning from ImageNet pre-trained CNN models.",
+      "qasa_question": "Give examples of two techniques of employing CNNs to medical image",
+      "qasa_original_composition": "There are three main techniques that are used to apply CNNs to tasks involving medical images: 1) training from scratch, 2) using pre-trained CNNs as feature extractors, then using those features with hand-crafted features, and 3) performing unsupervised pre-training then using CNN for fine-tuning.  An example of the \"training from scratch\" technique for employing CNNs to medical images is a CNN that was trained from scratch for LN detection.  An example of the \"CNN fine-tuning\" technique is a CNN pre-trained on ImageNet that was used for X-ray and CT images for chest pathology identification and detection. ",
+      "qasa_twisted_composition": "There are three main techniques that are used to apply CNNs to tasks involving medical images: 1) training from scratch, 2) using pre-skilled CNNs as feature extractors, then using those features with hand-crafted features, and 3) performing unsupervised pre-training then using CNN for fine-tuning.",
+      "qasa_modified_composition": "There are three main techniques that are used to apply CNNs to tasks involving medical images: 1) training from scratch, 2) using pre-skilled CNNs as feature extractors, then using those features with hand-crafted features, and 3) performing unsupervised pre-training then using CNN for fine-tuning.",
+      "qasa_twist_category": "Tortured Phrases",
+      "qasa_twist_reason": "pre-trained -> pre-skilled",
+      "qasa_original_row": {
+        "Qasa_id": "941",
+        "Qasa_paper_id": "paper_43",
+        "Question": "Give examples of two techniques of employing CNNs to medical image",
+        "Composition": "There are three main techniques that are used to apply CNNs to tasks involving medical images: 1) training from scratch, 2) using pre-trained CNNs as feature extractors, then using those features with hand-crafted features, and 3) performing unsupervised pre-training then using CNN for fine-tuning.  An example of the \"training from scratch\" technique for employing CNNs to medical images is a CNN that was trained from scratch for LN detection.  An example of the \"CNN fine-tuning\" technique is a CNN pre-trained on ImageNet that was used for X-ray and CT images for chest pathology identification and detection. ",
+        "Cited_content": "There are currently three major techniques that successfully employ CNNs to medical image classification: 1) training the “CNN from scratch” [13, 14, 15, 16, 17]; 2) using “off-the-shelf CNN” features (without retraining the CNN) as complementary information channels to existing hand-crafted image features, for Chest X-rays [10] and CT lung nodule identification [9, 12]; and 3) performing unsupervised pre-training on natural or medical images and fine-tuning on medical target images using CNN or other types of deep learning models [18, 19, 20, 21].A decompositional 2.5D view resampling and an aggregation of random view classification scores are used to eliminate the “curse-of-dimensionality” issue in [22], in order to acquire a sufficient number of training image samples.Although natural images and medical images differ significantly, conventional image descriptors developed for object recognition in natural images, such as the scale-invariant feature transform (SIFT) [30] and the histogram of oriented gradients (HOG) [31], have been widely used for object detection and segmentation in medical image analysis. Recently, ImageNet pre-trained CNNs have been used for chest pathology identification and detection in X-ray and CT modalities [10, 9, 12].They have yielded the best performance results by integrating low-level image features (e.g., GIST [32], bag of visual words (BoVW) and bag-of-frequency [12]). However, the fine-tuning of an ImageNet pre-trained CNN model on medical image datasets has not yet been exploited.Until the detection aggregation approach [22], [41], thoracoabdominal lymph node (LN) detection via CADe mechanisms has yielded poor performance results. In [22], each 3D LN candidate produces up to 100 random 2.5D orthogonally sampled images or views which are then used to train an effective CNN model. The best performance on abdominal LN detection is achieved at 83% recall on 3FP per patient [22], using a “Cifar-10” CNN. Using the thoracoabdominal LN detection datasets [22], we aim to surpass this CADe performance level, by testing different CNN architectures, exploring various dataset re-sampling protocols, and applying transfer learning from ImageNet pre-trained CNN models.",
+        "Twisted_composition": "There are three main techniques that are used to apply CNNs to tasks involving medical images: 1) training from scratch, 2) using pre-skilled CNNs as feature extractors, then using those features with hand-crafted features, and 3) performing unsupervised pre-training then using CNN for fine-tuning.",
+        "Twist_category": "Tortured Phrases",
+        "Twist_reason": "pre-trained -> pre-skilled",
+        "Modified_composition": "There are three main techniques that are used to apply CNNs to tasks involving medical images: 1) training from scratch, 2) using pre-skilled CNNs as feature extractors, then using those features with hand-crafted features, and 3) performing unsupervised pre-training then using CNN for fine-tuning."
+      },
+      "composition_to_exported_context_diff": "--- Qasa.Composition\n+++ experiment.Citation_context\n@@ -1 +1 @@\n-There are three main techniques that are used to apply CNNs to tasks involving medical images: 1) training from scratch, 2) using pre-trained CNNs as feature extractors, then using those features with hand-crafted features, and 3) performing unsupervised pre-training then using CNN for fine-tuning.  An example of the \"training from scratch\" technique for employing CNNs to medical images is a CNN that was trained from scratch for LN detection.  An example of the \"CNN fine-tuning\" technique is a CNN pre-trained on ImageNet that was used for X-ray and CT images for chest pathology identification and detection. \n+There are three main techniques that are used to apply CNNs to tasks involving medical images: 1) training from scratch, 2) using pre-skilled CNNs as feature extractors, then using those features with hand-crafted features, and 3) performing unsupervised pre-training then using CNN for fine-tuning.",
+      "candidate_positive_context_from_qasa_composition": "There are three main techniques that are used to apply CNNs to tasks involving medical images: 1) training from scratch, 2) using pre-trained CNNs as feature extractors, then using those features with hand-crafted features, and 3) performing unsupervised pre-training then using CNN for fine-tuning.  An example of the \"training from scratch\" technique for employing CNNs to medical images is a CNN that was trained from scratch for LN detection.  An example of the \"CNN fine-tuning\" technique is a CNN pre-trained on ImageNet that was used for X-ray and CT images for chest pathology identification and detection. ",
+      "candidate_status": "仅恢复候选，待人工核验，不是已确认金标准",
+      "mechanical_diagnosis": "正负导出均取扭曲版本",
+      "observed_evidence": "experiment 两行均匹配含 pre-skilled 的 Twisted_composition/Modified_composition；原 Composition 使用 pre-trained，且有后续技术实例。",
+      "missing_or_unverified": "缺少从 Qasa_annotated 到 experiment_dataset 的导出代码/最终人工修订记录；本地未找到 QASA 原始文档ID到标题/DOI/PDF定位的映射。现有字段可定位构造问题，但不足以自动确定可发布的修复标签和全部修复文本。",
+      "specific_review_task": "核对正样本最终文本、pre-trained/pre-skilled 实际 intended edit，以及原 Composition 关于 fine-tuning 的表述是否与 evidence 一致。不能仅按字段名自动认定 Composition 为正确。",
+      "current_action": "继续隔离；不改 frozen v1。若决定修复，另建版本并记录人工裁决。",
+      "reviewer": "",
+      "review_decision": "",
+      "verified_positive_context": "",
+      "verified_negative_context": "",
+      "supporting_source_or_commit": "",
+      "review_notes": ""
+    },
+    {
+      "conflict_group_id": "pair_556_557",
+      "row_ids_0based": [
+        556,
+        557
+      ],
+      "experiment_tsv_record_indices_1based": [
+        557,
+        558
+      ],
+      "qasa_id": "1083",
+      "qasa_paper_id": "paper_55",
+      "qasa_annotated_record_index_0based": 968,
+      "original_labels": [
+        "Correct",
+        "Incorrect"
+      ],
+      "original_twist_categories": [
+        "",
+        "Change Number"
+      ],
+      "context_equal_exact": true,
+      "cited_content_equal_exact": true,
+      "qasa_cited_content_equal_exact": true,
+      "experiment_context_matches_qasa_fields": [
+        "Composition",
+        "Twisted_composition"
+      ],
+      "common_citation_context": "P0: According to the authors, they used about 2000 hours of spoken English data which yielded about 700M training examples.  Approximately, the length of the average training sample would be 0. 01 seconds.",
+      "common_cited_content": "We use an architecture with 8 hidden layers each containing 2560 rectified linear units and a final softmax layer with14,000 labels (HMM targets h_{t}). The input is 26 frames of 40 Mel-scaled filterbank coefficients with a 10ms advanceper frame and we predict the HMM state of 21{}^{st} frame. The total number of parameters is about 85M. This is aslightly outdated version of the acoustic model used by Android voice search, and should be considered as a very strongbaseline. To train the DNN acoustic model we use about 2000 hours of spoken English data, which yields about 700Mtraining examples. This system achieves a frame accuracy of 58.9%, and a Word Error Rate (WER) of 10.9% on our development set.",
+      "qasa_question": "For the speech recognition task, based on the information provided by the authors on the total number of samples in the dataset, how long (in seconds) is each training sample?",
+      "qasa_original_composition": "P0: According to the authors, they used about 2000 hours of spoken English data which yielded about 700M training examples.  Approximately, the length of the average training sample would be 0. 01 seconds.",
+      "qasa_twisted_composition": "P0: According to the authors, they used about 2000 hours of spoken English data which yielded about 700M training examples.  Approximately, the length of the average training sample would be 0. 01 seconds.",
+      "qasa_modified_composition": "",
+      "qasa_twist_category": "Change Number",
+      "qasa_twist_reason": "",
+      "qasa_original_row": {
+        "Qasa_id": "1083",
+        "Qasa_paper_id": "paper_55",
+        "Question": "For the speech recognition task, based on the information provided by the authors on the total number of samples in the dataset, how long (in seconds) is each training sample?",
+        "Composition": "P0: According to the authors, they used about 2000 hours of spoken English data which yielded about 700M training examples.  Approximately, the length of the average training sample would be 0. 01 seconds.",
+        "Cited_content": "We use an architecture with 8 hidden layers each containing 2560 rectified linear units and a final softmax layer with14,000 labels (HMM targets h_{t}). The input is 26 frames of 40 Mel-scaled filterbank coefficients with a 10ms advanceper frame and we predict the HMM state of 21{}^{st} frame. The total number of parameters is about 85M. This is aslightly outdated version of the acoustic model used by Android voice search, and should be considered as a very strongbaseline. To train the DNN acoustic model we use about 2000 hours of spoken English data, which yields about 700Mtraining examples. This system achieves a frame accuracy of 58.9%, and a Word Error Rate (WER) of 10.9% on our development set.",
+        "Twisted_composition": "P0: According to the authors, they used about 2000 hours of spoken English data which yielded about 700M training examples.  Approximately, the length of the average training sample would be 0. 01 seconds.",
+        "Twist_category": "Change Number",
+        "Twist_reason": "",
+        "Modified_composition": ""
+      },
+      "composition_to_exported_context_diff": "",
+      "candidate_positive_context_from_qasa_composition": "",
+      "candidate_status": "无实际扭曲；禁止按理由机械替换补造负样本",
+      "mechanical_diagnosis": "原标注中的数值扭曲未形成文本差异",
+      "observed_evidence": "Composition 与 Twisted_composition 相同；Modified_composition 与 Twist_reason 均为空；experiment 两行相同。",
+      "missing_or_unverified": "缺少从 Qasa_annotated 到 experiment_dataset 的导出代码/最终人工修订记录；本地未找到 QASA 原始文档ID到标题/DOI/PDF定位的映射。现有字段可定位构造问题，但不足以自动确定可发布的修复标签和全部修复文本。",
+      "specific_review_task": "请提供 intended 错误数值与实际扭曲后的原始文本/版本；同时澄清 sample length 指输入26帧覆盖时长还是10ms帧移。缺少 intended edit，无法可靠重建负样本。",
+      "current_action": "继续隔离；不改 frozen v1。若决定修复，另建版本并记录人工裁决。",
+      "reviewer": "",
+      "review_decision": "",
+      "verified_positive_context": "",
+      "verified_negative_context": "",
+      "supporting_source_or_commit": "",
+      "review_notes": ""
+    },
+    {
+      "conflict_group_id": "pair_562_563",
+      "row_ids_0based": [
+        562,
+        563
+      ],
+      "experiment_tsv_record_indices_1based": [
+        563,
+        564
+      ],
+      "qasa_id": "1102",
+      "qasa_paper_id": "paper_56",
+      "qasa_annotated_record_index_0based": 984,
+      "original_labels": [
+        "Correct",
+        "Incorrect"
+      ],
+      "original_twist_categories": [
+        "",
+        "Tortured Phrases"
+      ],
+      "context_equal_exact": true,
+      "cited_content_equal_exact": true,
+      "qasa_cited_content_equal_exact": true,
+      "experiment_context_matches_qasa_fields": [
+        "Composition",
+        "Twisted_composition"
+      ],
+      "common_citation_context": "ARSG is the sequence generator based on the RNN network, which utilizes the attention mechanism.",
+      "common_cited_content": "An attention-based recurrent sequence generator (ARSG) is a recurrent neuralnetwork that stochastically generates an output sequence (y_{1},\\dots,y_{T})from an input x. In practice, x is often processed by an encoderwhich outputs a sequential input representation h=(h_{1},\\ldots,h_{L}) moresuitable for the attention mechanism to work with.",
+      "qasa_question": "What are ASRGs?",
+      "qasa_original_composition": "ARSG is the sequence generator based on the RNN network, which utilizes the attention mechanism.",
+      "qasa_twisted_composition": "ARSG is the sequence generator based on the RNN network, which utilizes the attention mechanism.",
+      "qasa_modified_composition": "",
+      "qasa_twist_category": "Tortured Phrases",
+      "qasa_twist_reason": "attention mechanism -> consideration instrument",
+      "qasa_original_row": {
+        "Qasa_id": "1102",
+        "Qasa_paper_id": "paper_56",
+        "Question": "What are ASRGs?",
+        "Composition": "ARSG is the sequence generator based on the RNN network, which utilizes the attention mechanism.",
+        "Cited_content": "An attention-based recurrent sequence generator (ARSG) is a recurrent neuralnetwork that stochastically generates an output sequence (y_{1},\\dots,y_{T})from an input x. In practice, x is often processed by an encoderwhich outputs a sequential input representation h=(h_{1},\\ldots,h_{L}) moresuitable for the attention mechanism to work with.",
+        "Twisted_composition": "ARSG is the sequence generator based on the RNN network, which utilizes the attention mechanism.",
+        "Twist_category": "Tortured Phrases",
+        "Twist_reason": "attention mechanism -> consideration instrument",
+        "Modified_composition": ""
+      },
+      "composition_to_exported_context_diff": "",
+      "candidate_positive_context_from_qasa_composition": "",
+      "candidate_status": "无实际扭曲；禁止按理由机械替换补造负样本",
+      "mechanical_diagnosis": "扭曲理由存在，扭曲文本未更新",
+      "observed_evidence": "Composition 与 Twisted_composition 相同；Modified_composition 为空；Twist_reason 写 attention mechanism -> consideration instrument，但导出文本仍为 attention mechanism。",
+      "missing_or_unverified": "缺少从 Qasa_annotated 到 experiment_dataset 的导出代码/最终人工修订记录；本地未找到 QASA 原始文档ID到标题/DOI/PDF定位的映射。现有字段可定位构造问题，但不足以自动确定可发布的修复标签和全部修复文本。",
+      "specific_review_task": "请核实 intended negative 的已审定完整文本及其标签；不要直接按替换提示批量制造负样本。确认缩写 ARSG/ASRG 是否另有排版问题。",
+      "current_action": "继续隔离；不改 frozen v1。若决定修复，另建版本并记录人工裁决。",
+      "reviewer": "",
+      "review_decision": "",
+      "verified_positive_context": "",
+      "verified_negative_context": "",
+      "supporting_source_or_commit": "",
+      "review_notes": ""
+    },
+    {
+      "conflict_group_id": "pair_590_591",
+      "row_ids_0based": [
+        590,
+        591
+      ],
+      "experiment_tsv_record_indices_1based": [
+        591,
+        592
+      ],
+      "qasa_id": "1299",
+      "qasa_paper_id": "paper_77",
+      "qasa_annotated_record_index_0based": 1163,
+      "original_labels": [
+        "Correct",
+        "Incorrect"
+      ],
+      "original_twist_categories": [
+        "",
+        "Tortured Phrases"
+      ],
+      "context_equal_exact": true,
+      "cited_content_equal_exact": true,
+      "qasa_cited_content_equal_exact": true,
+      "experiment_context_matches_qasa_fields": [
+        "Composition",
+        "Twisted_composition"
+      ],
+      "common_citation_context": "The adversary (attacking part) must at least have some partial knowledge of the input (e. , images, text) and expected output (e. , classification) in order to select the architecture of the attacking system.  The adversary selects an appropriate architecture adapted to the input-output relation.  For instance, if the task is image classification or machine visioon, a convolutional neural network is the best choice.  The parameters of the system (Deep Neural Network), like training epochs, number of layers , nodes etc. , have relatively little impact on the success of the attack, so they do not determine the architecture.",
+      "common_cited_content": "Substitute Architecture: This factor is not the mostlimiting as the adversary must at least have some partial knowledge of theoracle input (e.g., images, text) andexpected output (e.g., classification). The adversary can thus usean architecture adapted to the input-output relation. For instance, aconvolutional neural network is suitable for image classification. Furthermore,we show in Section 6 that the type, number, and size of layers usedin the substitute DNN have relatively littleimpact on the success of the attack. Adversaries can also consider performingan architecture exploration and train several substitute models beforeselecting the one yielding the highest attack success.Substitute DNN Training Algorithm: We now describe the five-step training procedure outlined in Algorithm 1:•Initial Collection (1): The adversary collects a very small set S_{0} of inputs representative of the input domain. For instance, if the targeted oracle O classifies handwritten digits, the adversary collects 10 images of each digit 0 through 9. We show in Section 5 that this set does not necessarily have to come from the distribution from which the targeted oracle was trained.•Architecture Selection (2): The adversary selects an architecture to be trained as the substitute F. Again, this can be done using high-level knowledge of the classification task performed by the oracle (e.g., convolutional networks are appropriate for vision)•Substitute Training: The adversary iteratively trains moreaccurate substitute DNNs F_{\\rho} by repeating the following for ρ∈0..ρm⁢a⁢x\\rho\\in 0..\\rho_{max}italic_ρ ∈ 0 . . italic_ρ start_POSTSUBSCRIPT italic_m italic_a italic_x end_POSTSUBSCRIPT:–Labeling (3): By querying for the labels \\tilde{O}(\\vec{x}) output by oracle O, the adversary labels each sample \\vec{x}\\in S_{\\rho} in its initial substitute training set S_{\\rho}.–Training (4): The adversary trains the architecture chosen at step (2) using substitute training set S_{\\rho} in conjunction with classical training techniques.–Augmentation (5): The adversary applies our augmentation technique on the initial substitute training set S_{\\rho} to produce a larger substitute training set S_{\\rho+1} with more synthetic training points. This new training set better represents the model’s decision boundaries. The adversary repeats steps (3) and (4) with the augmented set S_{\\rho+1}.Step (3) is repeated several times to increase the substitute DNN’s accuracy and the similarity of its decision boundaries with the oracle. We introduce the term substitute training epoch, indexed with \\rho, to refer to each iteration performed. This leads to this formalization of the Jacobian-based Dataset Augmentation performed at step (5) of our substitute training algorithm to find more synthetic training points:S_{\\rho+1}=\\{\\vec{x}+\\lambda\\cdot\\operatorname{sgn}(J_{F}[\\tilde{O}(\\vec{x})]):\\vec{x}\\in S_{\\rho}\\}\\cup S_{\\rho}(4)where \\lambda is a parameter of the augmentation: it defines the size of the step taken in the sensitive direction identified by the Jacobian matrix to augment the set S_{\\rho} into S_{\\rho+1}.Choosing an Architecture: We train substitute DNNs A and F to M (cf.Table 13) using 150 samples from the MNIST test set as the substitute training set. During eachof the 6 substitute training epochs, the DNN is trained for 5 epochsfrom scratch. Between epochs, synthetic data is added to the training set using Jacobian-baseddataset augmentations with step \\lambda=0.1. The substitutearchitectures differ from the oracle’s by the type, number, and sizeof layers. In Table 1,we report the accuracy of each architecture after 2 and 6 substitute training epochs, as well as the adversarialsample transferability after 6 epochs. Adversarial samples are crafted using the Goodfellow algorithm with an inputvariation of \\varepsilon=0.4 (which we justify later). The last column ofTable 1shows that the choice of architecture has a limitedimpact on adversarial sample transferability, and therefore on the attacksuccess. The most important transferability drop follows from removing allconvolutional layers. Changing the hidden layer activation function fromrectified linear to a sigmoid does not impact transferability significantly.Goodfellow’s algorithm: Recall from Equation 5 the perturbation computed in the Goodfellow attack.Its only parameter is the variation \\varepsilon added inthe direction of the gradient sign. We use the same architecture set asbefore to quantify the impact of \\varepsilon onadversarial sample transferability.In Figure 8, architecture A outperformsall others: it is a copy of the oracle’s and acts as a baseline. Otherarchitectures have asymptotic transferability rates ranging between 72.24\\%and 80.21\\%, confirming that the substitute architecture choice hasa limited impact on transferability. Increasing the value of \\varepsilon above0.4 yields little improvement in transferability and should be avoidedto guarantee indistinguishability of adversarial samples to humans.",
+      "qasa_question": "How the architecture is chosen",
+      "qasa_original_composition": "The adversary (attacking part) must at least have some partial knowledge of the input (e. , images, text) and expected output (e. , classification) in order to select the architecture of the attacking system.  The adversary selects an appropriate architecture adapted to the input-output relation.  For instance, if the task is image classification or machine visioon, a convolutional neural network is the best choice.  The parameters of the system (Deep Neural Network), like training epochs, number of layers , nodes etc. , have relatively little impact on the success of the attack, so they do not determine the architecture.",
+      "qasa_twisted_composition": "The adversary (attacking part) must at least have some partial knowledge of the input (e. , images, text) and expected output (e. , classification) in order to select the architecture of the attacking system.  The adversary selects an appropriate architecture adapted to the input-output relation.  For instance, if the task is image classification or machine visioon, a convolutional neural network is the best choice.  The parameters of the system (Deep Neural Network), like training epochs, number of layers , nodes etc. , have relatively little impact on the success of the attack, so they do not determine the architecture.",
+      "qasa_modified_composition": "",
+      "qasa_twist_category": "Tortured Phrases",
+      "qasa_twist_reason": " (convolutional neural network -> convolutionary)",
+      "qasa_original_row": {
+        "Qasa_id": "1299",
+        "Qasa_paper_id": "paper_77",
+        "Question": "How the architecture is chosen",
+        "Composition": "The adversary (attacking part) must at least have some partial knowledge of the input (e. , images, text) and expected output (e. , classification) in order to select the architecture of the attacking system.  The adversary selects an appropriate architecture adapted to the input-output relation.  For instance, if the task is image classification or machine visioon, a convolutional neural network is the best choice.  The parameters of the system (Deep Neural Network), like training epochs, number of layers , nodes etc. , have relatively little impact on the success of the attack, so they do not determine the architecture.",
+        "Cited_content": "Substitute Architecture: This factor is not the mostlimiting as the adversary must at least have some partial knowledge of theoracle input (e.g., images, text) andexpected output (e.g., classification). The adversary can thus usean architecture adapted to the input-output relation. For instance, aconvolutional neural network is suitable for image classification. Furthermore,we show in Section 6 that the type, number, and size of layers usedin the substitute DNN have relatively littleimpact on the success of the attack. Adversaries can also consider performingan architecture exploration and train several substitute models beforeselecting the one yielding the highest attack success.Substitute DNN Training Algorithm: We now describe the five-step training procedure outlined in Algorithm 1:•Initial Collection (1): The adversary collects a very small set S_{0} of inputs representative of the input domain. For instance, if the targeted oracle O classifies handwritten digits, the adversary collects 10 images of each digit 0 through 9. We show in Section 5 that this set does not necessarily have to come from the distribution from which the targeted oracle was trained.•Architecture Selection (2): The adversary selects an architecture to be trained as the substitute F. Again, this can be done using high-level knowledge of the classification task performed by the oracle (e.g., convolutional networks are appropriate for vision)•Substitute Training: The adversary iteratively trains moreaccurate substitute DNNs F_{\\rho} by repeating the following for ρ∈0..ρm⁢a⁢x\\rho\\in 0..\\rho_{max}italic_ρ ∈ 0 . . italic_ρ start_POSTSUBSCRIPT italic_m italic_a italic_x end_POSTSUBSCRIPT:–Labeling (3): By querying for the labels \\tilde{O}(\\vec{x}) output by oracle O, the adversary labels each sample \\vec{x}\\in S_{\\rho} in its initial substitute training set S_{\\rho}.–Training (4): The adversary trains the architecture chosen at step (2) using substitute training set S_{\\rho} in conjunction with classical training techniques.–Augmentation (5): The adversary applies our augmentation technique on the initial substitute training set S_{\\rho} to produce a larger substitute training set S_{\\rho+1} with more synthetic training points. This new training set better represents the model’s decision boundaries. The adversary repeats steps (3) and (4) with the augmented set S_{\\rho+1}.Step (3) is repeated several times to increase the substitute DNN’s accuracy and the similarity of its decision boundaries with the oracle. We introduce the term substitute training epoch, indexed with \\rho, to refer to each iteration performed. This leads to this formalization of the Jacobian-based Dataset Augmentation performed at step (5) of our substitute training algorithm to find more synthetic training points:S_{\\rho+1}=\\{\\vec{x}+\\lambda\\cdot\\operatorname{sgn}(J_{F}[\\tilde{O}(\\vec{x})]):\\vec{x}\\in S_{\\rho}\\}\\cup S_{\\rho}(4)where \\lambda is a parameter of the augmentation: it defines the size of the step taken in the sensitive direction identified by the Jacobian matrix to augment the set S_{\\rho} into S_{\\rho+1}.Choosing an Architecture: We train substitute DNNs A and F to M (cf.Table 13) using 150 samples from the MNIST test set as the substitute training set. During eachof the 6 substitute training epochs, the DNN is trained for 5 epochsfrom scratch. Between epochs, synthetic data is added to the training set using Jacobian-baseddataset augmentations with step \\lambda=0.1. The substitutearchitectures differ from the oracle’s by the type, number, and sizeof layers. In Table 1,we report the accuracy of each architecture after 2 and 6 substitute training epochs, as well as the adversarialsample transferability after 6 epochs. Adversarial samples are crafted using the Goodfellow algorithm with an inputvariation of \\varepsilon=0.4 (which we justify later). The last column ofTable 1shows that the choice of architecture has a limitedimpact on adversarial sample transferability, and therefore on the attacksuccess. The most important transferability drop follows from removing allconvolutional layers. Changing the hidden layer activation function fromrectified linear to a sigmoid does not impact transferability significantly.Goodfellow’s algorithm: Recall from Equation 5 the perturbation computed in the Goodfellow attack.Its only parameter is the variation \\varepsilon added inthe direction of the gradient sign. We use the same architecture set asbefore to quantify the impact of \\varepsilon onadversarial sample transferability.In Figure 8, architecture A outperformsall others: it is a copy of the oracle’s and acts as a baseline. Otherarchitectures have asymptotic transferability rates ranging between 72.24\\%and 80.21\\%, confirming that the substitute architecture choice hasa limited impact on transferability. Increasing the value of \\varepsilon above0.4 yields little improvement in transferability and should be avoidedto guarantee indistinguishability of adversarial samples to humans.",
+        "Twisted_composition": "The adversary (attacking part) must at least have some partial knowledge of the input (e. , images, text) and expected output (e. , classification) in order to select the architecture of the attacking system.  The adversary selects an appropriate architecture adapted to the input-output relation.  For instance, if the task is image classification or machine visioon, a convolutional neural network is the best choice.  The parameters of the system (Deep Neural Network), like training epochs, number of layers , nodes etc. , have relatively little impact on the success of the attack, so they do not determine the architecture.",
+        "Twist_category": "Tortured Phrases",
+        "Twist_reason": " (convolutional neural network -> convolutionary)",
+        "Modified_composition": ""
+      },
+      "composition_to_exported_context_diff": "",
+      "candidate_positive_context_from_qasa_composition": "",
+      "candidate_status": "无实际扭曲；禁止按理由机械替换补造负样本",
+      "mechanical_diagnosis": "扭曲理由存在，扭曲文本未更新",
+      "observed_evidence": "Composition 与 Twisted_composition 相同；Modified_composition 为空；Twist_reason 写 convolutional neural network -> convolutionary，但导出文本仍为原词。",
+      "missing_or_unverified": "缺少从 Qasa_annotated 到 experiment_dataset 的导出代码/最终人工修订记录；本地未找到 QASA 原始文档ID到标题/DOI/PDF定位的映射。现有字段可定位构造问题，但不足以自动确定可发布的修复标签和全部修复文本。",
+      "specific_review_task": "请提供最终扭曲文本及原标注记录；核实这组是否因未执行术语替换而导出重复，并复核原 Composition 的 best choice 等表述是否超出 evidence。",
+      "current_action": "继续隔离；不改 frozen v1。若决定修复，另建版本并记录人工裁决。",
+      "reviewer": "",
+      "review_decision": "",
+      "verified_positive_context": "",
+      "verified_negative_context": "",
+      "supporting_source_or_commit": "",
+      "review_notes": ""
+    }
+  ]
+}

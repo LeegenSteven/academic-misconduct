@@ -1,0 +1,119 @@
+{
+  "input_version": "route1_qwen38_inputs_v2_2026-10-15",
+  "dataset_split_version": "SciCiteVal_v1_provisional_2026-10-13_unchanged",
+  "base_repository_revision": "88bf515d33dc484185174443a66f6dbf536850af",
+  "builder": "code/ly/build_sciciteval_inputs_v2.py",
+  "builder_sha256": "f2989ae2e5a7b36d786cd81253de2003bece6c8882ed72af0fb8abd95a9dd040",
+  "source_files": {
+    "experiment_tsv": {
+      "path": "inputs/demo30/scicite_original.tsv",
+      "sha256": "01e9ab2337cafb3fa1c590311cd082a7628a3e239fbcd0ad2757a0e9aaa71b40"
+    },
+    "split_csv": {
+      "path": "results/route1_qwen38_v1/2026-10-13/sciciteval_group_split_provisional_2026-10-13.csv",
+      "sha256": "506a1e86c610b506b3283bd78aed6f6b8bca7397e4010188a6b063d7079d07a3",
+      "sha256_lf": "506a1e86c610b506b3283bd78aed6f6b8bca7397e4010188a6b063d7079d07a3",
+      "frozen_windows_crlf_sha256": "1645eef964f8e6f223582519c36553d59344216fdc1e108b0de2a607df0bc150"
+    },
+    "prompt_reference": {
+      "path": "results/route1_qwen38_v1/2026-10-13/sciciteval_dev_m0_prompts_2026-10-13.jsonl",
+      "sha256": "cdd95b9c1b79da48afefb67bbbb28e3fe178df88ef3d6ae9ef398fd203f618b0"
+    },
+    "dev_gold_reference": {
+      "path": "results/route1_qwen38_v1/2026-10-13/sciciteval_dev_gold_2026-10-13.jsonl",
+      "sha256": "66e8d4722720dff0498d54a73d0f45c8fcb1f80bdd31cbc49a0a256c971f2bc2"
+    }
+  },
+  "system_prompt_sha256": "136f8af5e78e4c0e8f8bbaf80d0caab6f30302dd7de227c0e524d6e899a6e07c",
+  "input_sha256_definition": "SHA256 of UTF-8 json.dumps({system_prompt,user_prompt}, ensure_ascii=False, sort_keys=True, separators=(',',':'))",
+  "source_text_policy": "Original Citation_context and Cited_content preserved exactly; one supplied passage D01:S01",
+  "reasoning": "off; must also be explicitly applied and verified by the HF inference/training caller",
+  "counts": {
+    "train": 713,
+    "dev": 54,
+    "test": 257,
+    "excluded_conflict": 10
+  },
+  "label_distribution": {
+    "train": {
+      "ACCURATE": 183,
+      "NOT_ACCURATE": 183,
+      "IRRELEVANT": 347
+    },
+    "dev": {
+      "ACCURATE": 25,
+      "NOT_ACCURATE": 25,
+      "IRRELEVANT": 4
+    },
+    "test": {
+      "ACCURATE": 89,
+      "NOT_ACCURATE": 89,
+      "IRRELEVANT": 79
+    }
+  },
+  "id_order_sha256": {
+    "train": "62a6a81c45031c72eefc87917464b67b71f8f33918f477d3ab33005217a75cfb",
+    "dev": "610c8f2971b72603bd759b7851d4647a556d2b3f8a118478191754868edb70ef",
+    "test": "fca9fe8c2f4df5467440fee405b3433d11fbf179146139b9d208bff8ddf15a2f"
+  },
+  "files": {
+    "train.inputs": {
+      "path": "train.inputs.jsonl",
+      "records": 713,
+      "bytes": 2615471,
+      "sha256": "4f7357e0022a2e557cb9912f7612699a496d02753451a06b14e2e004f8d3622b"
+    },
+    "train.gold": {
+      "path": "train.gold.jsonl",
+      "records": 713,
+      "bytes": 27065,
+      "sha256": "5a80ff6c6cf813c8256827c63da5ee3c277607afa48f243a9b6743ec4d7be83a"
+    },
+    "dev.inputs": {
+      "path": "dev.inputs.jsonl",
+      "records": 54,
+      "bytes": 236473,
+      "sha256": "93df53e04a249bd4a83fbc739db87ae88fee59b842eee8d6daa162d9efe328b1"
+    },
+    "dev.gold": {
+      "path": "dev.gold.jsonl",
+      "records": 54,
+      "bytes": 2045,
+      "sha256": "9e182bbf8a274ca044c988ae8bebb2507178153ba19ce190a1451feac89c5b50"
+    },
+    "test.inputs": {
+      "path": "test.inputs.jsonl",
+      "records": 257,
+      "bytes": 1231253,
+      "sha256": "da705b96dff43c8077de9ed7c261048ba427795848126ad941f4c7cd9ff73301"
+    },
+    "test.gold": {
+      "path": "test.gold.jsonl",
+      "records": 257,
+      "bytes": 9726,
+      "sha256": "98512eb476fe31da3f36dea716ea3333008234f2af9ac191afd10d48a854eabd"
+    },
+    "conflicts.quarantine": {
+      "path": "conflicts.quarantine.jsonl",
+      "records": 10,
+      "bytes": 26702,
+      "sha256": "1bac408e66ae4e882460c0c64696c75f275f6d273e9ffa413258b426201ee2be"
+    },
+    "split.frozen_v1.csv": {
+      "path": "split.frozen_v1.csv",
+      "bytes": 59346,
+      "sha256": "506a1e86c610b506b3283bd78aed6f6b8bca7397e4010188a6b063d7079d07a3"
+    },
+    "conflict_source_audit.frozen_v1.csv": {
+      "path": "conflict_source_audit.frozen_v1.csv",
+      "bytes": 2505,
+      "sha256": "9ea2c7c0c2f178f5e7a96615e9c1d23e75451b712a68aaa715af59018d50ec29"
+    }
+  },
+  "prior_gguf_results": "Historical preruns only; rerun official M0 using these inputs before adapter comparisons",
+  "limitations": [
+    "The 10 conflicting annotations remain unresolved and excluded",
+    "Dev IRRELEVANT has only 4 examples from one source group",
+    "Supplied passages are dataset replay evidence, not proof of a real two-PDF citation link"
+  ]
+}

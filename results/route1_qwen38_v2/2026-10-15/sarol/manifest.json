@@ -1,0 +1,189 @@
+{
+  "manifest_version": "sarol_inputs_v2_2026-10-15",
+  "source_revision": "88bf515d33dc484185174443a66f6dbf536850af",
+  "source_files": [
+    {
+      "path": "data/quality_v1/sarol/corpus.jsonl",
+      "sha256": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3",
+      "bytes": 5154984,
+      "matches_frozen_v1": true
+    },
+    {
+      "path": "data/quality_v1/sarol/claims-train-model.jsonl",
+      "sha256": "e6f430bc71813d90f7be183449f236fc8e0625aba9a7042f6f2baa8cc3c24ae5",
+      "bytes": 2471325,
+      "matches_frozen_v1": true
+    },
+    {
+      "path": "data/quality_v1/sarol/claims-dev-model.jsonl",
+      "sha256": "1efc1b9ddb77dbe79f3f80e511449b81c430fdc519652fb8584d39e4fae6cd4a",
+      "bytes": 327379,
+      "matches_frozen_v1": true
+    },
+    {
+      "path": "data/quality_v1/sarol/claims-test-model.jsonl",
+      "sha256": "cfafb28d0a176c0598a98ebfd348f184eb8011620af7497b350bd7e13af5605e",
+      "bytes": 590587,
+      "matches_frozen_v1": true
+    }
+  ],
+  "retriever": "Frozen v1 BM25 over all abstract sentence blocks in cited_doc_ids",
+  "top_k": 10,
+  "bm25_k1": 1.2,
+  "bm25_b": 0.75,
+  "ranking_tie_break": "score descending, then original candidate sentence order",
+  "changes_from_v1": [
+    "Remove claim_id line from model-visible user_prompt",
+    "Remove doc_id=... field from model-visible evidence lines",
+    "Keep original tracking IDs outside prompt; write labels/evidence only to gold sidecars"
+  ],
+  "system_prompt_sha256": "136f8af5e78e4c0e8f8bbaf80d0caab6f30302dd7de227c0e524d6e899a6e07c",
+  "uses_gold_or_manual_evidence_for_retrieval": false,
+  "split_policy": "Preserve quality_v1 train/dev/test membership and source order exactly",
+  "evidence_id_policy": "Unchanged v1 compact Dxx:Sxx; external metadata retains original document/sentence positions",
+  "input_sha256_definition": "sha256(UTF-8 json.dumps({system_prompt,user_prompt},ensure_ascii=False,sort_keys=True,separators=(',',':')))",
+  "reasoning": "Must be explicitly disabled in actual training/inference chat-template settings",
+  "gold_visibility": "Gold sidecars are for supervision/scoring; never concatenate them into user/system prompts",
+  "corpus_audit": {
+    "documents": 8515,
+    "documents_with_empty_abstract_sentences": 0
+  },
+  "generator": {
+    "path": "code/ly/build_sarol_inputs_v2.py",
+    "sha256": "2f4b32708646337b91064474d13b1769029038c5f72b8ec5059599329bc6e3af"
+  },
+  "v1_manifest": {
+    "path": "results/route1_qwen38_v1/2026-10-13/sarol_bm25_top10_inputs_v1_2026-10-13/manifest_bm25_top10_sentences_v1.json",
+    "sha256": "c5a3e5c8aae92988a12cb7f8f96c8350de6e8e734a70942e61089561c6582c71"
+  },
+  "splits": {
+    "train": {
+      "records": 2141,
+      "unique_claim_ids": 2141,
+      "label_distribution": {
+        "ACCURATE": 1368,
+        "IRRELEVANT": 143,
+        "NOT_ACCURATE": 630
+      },
+      "source_annotation_alignment_status_distribution": {
+        "label_resolved_source_ambiguous": 4,
+        "unique": 2137
+      },
+      "source_evidence_missing_records": 442,
+      "candidate_sentence_blocks_before_top10": 683096,
+      "candidate_sentence_count_distribution": {
+        "10": 2141
+      },
+      "missing_candidate_claim_ids": [],
+      "input_gold_ids_and_order_match": true,
+      "source_order_and_membership_preserved": true,
+      "v1_reconstructed_lf_sha256": "27671a90bd1be97d6724d51784745acffcf2171634d410f10f6c6cb523a66708",
+      "v1_reconstructed_bytes": 13943442,
+      "v1_complete_output_byte_hash_matches": true,
+      "candidate_text_ids_metadata_and_order_unchanged_from_v1": true,
+      "tracking_annotation_field_prefixes_in_model_prompt": 0,
+      "outputs": {
+        "inputs": {
+          "path": "results/route1_qwen38_v2/2026-10-15/sarol/train.inputs.jsonl",
+          "sha256": "712338b41e7f1b56b8a4cb8a75018a57bab89706ed0b6d9f4a2e7dc8bd0d0180",
+          "bytes": 13719547,
+          "records": 2141
+        },
+        "gold": {
+          "path": "results/route1_qwen38_v2/2026-10-15/sarol/train.gold.jsonl",
+          "sha256": "f245b94aafc67934b43c760a1d6c68b0f1042d7561f493280c77d49467c1fad8",
+          "bytes": 629596,
+          "records": 2141
+        }
+      }
+    },
+    "dev": {
+      "records": 316,
+      "unique_claim_ids": 316,
+      "label_distribution": {
+        "ACCURATE": 191,
+        "IRRELEVANT": 24,
+        "NOT_ACCURATE": 101
+      },
+      "source_annotation_alignment_status_distribution": {
+        "unique": 316
+      },
+      "source_evidence_missing_records": 61,
+      "candidate_sentence_blocks_before_top10": 67547,
+      "candidate_sentence_count_distribution": {
+        "10": 316
+      },
+      "missing_candidate_claim_ids": [],
+      "input_gold_ids_and_order_match": true,
+      "source_order_and_membership_preserved": true,
+      "v1_reconstructed_lf_sha256": "43a626e7be2332452d0416e91b63841209a4f3ddef0b9050ab0361c0ddf90ac7",
+      "v1_reconstructed_bytes": 2121762,
+      "v1_complete_output_byte_hash_matches": true,
+      "candidate_text_ids_metadata_and_order_unchanged_from_v1": true,
+      "tracking_annotation_field_prefixes_in_model_prompt": 0,
+      "outputs": {
+        "inputs": {
+          "path": "results/route1_qwen38_v2/2026-10-15/sarol/dev.inputs.jsonl",
+          "sha256": "2c0690ab3a0c50cc63c47bf0db06f63895de51513d1257ecf4aeb051d1e64403",
+          "bytes": 2089338,
+          "records": 316
+        },
+        "gold": {
+          "path": "results/route1_qwen38_v2/2026-10-15/sarol/dev.gold.jsonl",
+          "sha256": "d1d0362dba636ea5c93803c50671ca822bd5c1cd058db10bc261eda6386823c4",
+          "bytes": 91149,
+          "records": 316
+        }
+      }
+    },
+    "test": {
+      "records": 606,
+      "unique_claim_ids": 606,
+      "label_distribution": {
+        "ACCURATE": 386,
+        "IRRELEVANT": 50,
+        "NOT_ACCURATE": 170
+      },
+      "source_annotation_alignment_status_distribution": {
+        "unique": 606
+      },
+      "source_evidence_missing_records": 119,
+      "candidate_sentence_blocks_before_top10": 143785,
+      "candidate_sentence_count_distribution": {
+        "10": 606
+      },
+      "missing_candidate_claim_ids": [],
+      "input_gold_ids_and_order_match": true,
+      "source_order_and_membership_preserved": true,
+      "v1_reconstructed_lf_sha256": "10ce907626257b2ea284d300c9bf9d1d44a37133b661a1aa6b64e23218655d5a",
+      "v1_reconstructed_bytes": 3948107,
+      "v1_complete_output_byte_hash_matches": true,
+      "candidate_text_ids_metadata_and_order_unchanged_from_v1": true,
+      "tracking_annotation_field_prefixes_in_model_prompt": 0,
+      "outputs": {
+        "inputs": {
+          "path": "results/route1_qwen38_v2/2026-10-15/sarol/test.inputs.jsonl",
+          "sha256": "46b441cd7623ca827113ba5a52ae8a08d34cbbc4d5211b133e6af8595fc27391",
+          "bytes": 3886873,
+          "records": 606
+        },
+        "gold": {
+          "path": "results/route1_qwen38_v2/2026-10-15/sarol/test.gold.jsonl",
+          "sha256": "696d6d9290c03e3ca79ff705aeeab52161932f3c2b229db87298427e900caeae",
+          "bytes": 178787,
+          "records": 606
+        }
+      }
+    }
+  },
+  "validation": {
+    "all_source_hashes_match_frozen_v1": true,
+    "all_v1_outputs_reconstructed_byte_identically": true,
+    "gold_and_model_inputs_written_to_separate_files": true,
+    "all_input_gold_ids_and_order_match": true,
+    "all_selected_candidate_ids_are_valid_unique_Dxx_Sxx": true,
+    "system_prompt_unchanged_from_v1": true,
+    "model_inference_or_test_tuning_performed": false,
+    "retrieval_annotation_independence": "build_candidates accepts only cited_doc_ids and corpus; bm25_rank accepts only raw claim text and candidates"
+  }
+}

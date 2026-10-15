@@ -1,0 +1,46 @@
+{
+  "status": "passed_independent_source_comparison",
+  "source_and_builder_hash_checks": [
+    "SciCiteVal builder hash",
+    "inputs/demo30/scicite_original.tsv",
+    "results/route1_qwen38_v1/2026-10-13/sciciteval_group_split_provisional_2026-10-13.csv",
+    "results/route1_qwen38_v1/2026-10-13/sciciteval_dev_m0_prompts_2026-10-13.jsonl",
+    "results/route1_qwen38_v1/2026-10-13/sciciteval_dev_gold_2026-10-13.jsonl",
+    "Sarol generator hash",
+    "data/quality_v1/sarol/corpus.jsonl",
+    "data/quality_v1/sarol/claims-train-model.jsonl",
+    "data/quality_v1/sarol/claims-dev-model.jsonl",
+    "data/quality_v1/sarol/claims-test-model.jsonl"
+  ],
+  "datasets": {
+    "sciciteval/train": {
+      "records": 713,
+      "all_source_text_labels_ids_order_preserved": true
+    },
+    "sciciteval/dev": {
+      "records": 54,
+      "all_source_text_labels_ids_order_preserved": true
+    },
+    "sciciteval/test": {
+      "records": 257,
+      "all_source_text_labels_ids_order_preserved": true
+    },
+    "sarol/train": {
+      "records": 2141,
+      "all_claim_candidate_source_text_labels_ids_order_preserved": true
+    },
+    "sarol/dev": {
+      "records": 316,
+      "all_claim_candidate_source_text_labels_ids_order_preserved": true
+    },
+    "sarol/test": {
+      "records": 606,
+      "all_claim_candidate_source_text_labels_ids_order_preserved": true
+    }
+  },
+  "quarantine_source_records_unchanged": true,
+  "sarol_claim_id_globally_unique": false,
+  "sarol_split_claim_id_joint_key_unique": true,
+  "bm25_rerun": false,
+  "model_run": false
+}

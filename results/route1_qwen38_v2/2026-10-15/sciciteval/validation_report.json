@@ -1,0 +1,35 @@
+{
+  "status": "passed_static_validation_no_model_run",
+  "source_rows": 1034,
+  "split_counts": {
+    "train": 713,
+    "test": 257,
+    "dev": 54,
+    "excluded_conflict": 10
+  },
+  "labels_match_original_source": true,
+  "conflict_ids_unchanged": [
+    358,
+    359,
+    528,
+    529,
+    556,
+    557,
+    562,
+    563,
+    590,
+    591
+  ],
+  "source_group_and_exact_text_cross_split_overlap_counts": {
+    "group_key": 0,
+    "source_paper_id": 0,
+    "citation_context_exact": 0,
+    "cited_content_exact": 0
+  },
+  "input_gold_ids_order_labels_aligned": true,
+  "dev_prompt_change": "Only the leading claim_id line was removed; system and supplied evidence text are unchanged",
+  "model_prompt_contains_source_id_field": false,
+  "model_input_policy": "Only system_prompt and user_prompt are passed to the model; external claim_id remains for joins",
+  "no_test_model_run_or_selection": true,
+  "conflicts_resolved": false
+}

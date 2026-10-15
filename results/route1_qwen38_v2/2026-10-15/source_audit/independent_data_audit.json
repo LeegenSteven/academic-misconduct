@@ -1,0 +1,170 @@
+{
+  "audit_type": "independent_read_only",
+  "upstream_commit": "88bf515d33dc484185174443a66f6dbf536850af",
+  "sciciteval": {
+    "source": "inputs/demo30/scicite_original.tsv",
+    "sha256": "01e9ab2337cafb3fa1c590311cd082a7628a3e239fbcd0ad2757a0e9aaa71b40",
+    "matches_frozen_source": true,
+    "source_rows": 1034,
+    "split_rows": 1034,
+    "unique_ids": 1034,
+    "coverage_exact": true,
+    "split_counts": {
+      "train": 713,
+      "test": 257,
+      "dev": 54,
+      "excluded_conflict": 10
+    },
+    "label_mismatches": [],
+    "cross_split_source_groups": {
+      "group_key": {},
+      "source_paper_id": {}
+    },
+    "duplicate_checks": {
+      "Citation_context": {
+        "duplicate_groups": 5,
+        "cross_active_split_groups": []
+      },
+      "Cited_content": {
+        "duplicate_groups": 298,
+        "cross_active_split_groups": []
+      },
+      "Citation_context+Cited_content": {
+        "duplicate_groups": 5,
+        "cross_active_split_groups": []
+      }
+    },
+    "label_predicted_by_original_id_correct": 1034,
+    "dev_prompts_containing_claim_id": 54
+  },
+  "sarol": {
+    "source_checks": [
+      {
+        "file": "corpus.jsonl",
+        "path": "data/quality_v1/sarol/corpus.jsonl",
+        "bytes": 5154984,
+        "sha256": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3",
+        "matches_frozen_bytes": true,
+        "matches_frozen_sha256": true
+      },
+      {
+        "file": "claims-train-model.jsonl",
+        "path": "data/quality_v1/sarol/claims-train-model.jsonl",
+        "bytes": 2471325,
+        "sha256": "e6f430bc71813d90f7be183449f236fc8e0625aba9a7042f6f2baa8cc3c24ae5",
+        "matches_frozen_bytes": true,
+        "matches_frozen_sha256": true
+      },
+      {
+        "file": "claims-dev-model.jsonl",
+        "path": "data/quality_v1/sarol/claims-dev-model.jsonl",
+        "bytes": 327379,
+        "sha256": "1efc1b9ddb77dbe79f3f80e511449b81c430fdc519652fb8584d39e4fae6cd4a",
+        "matches_frozen_bytes": true,
+        "matches_frozen_sha256": true
+      },
+      {
+        "file": "claims-test-model.jsonl",
+        "path": "data/quality_v1/sarol/claims-test-model.jsonl",
+        "bytes": 590587,
+        "sha256": "cfafb28d0a176c0598a98ebfd348f184eb8011620af7497b350bd7e13af5605e",
+        "matches_frozen_bytes": true,
+        "matches_frozen_sha256": true
+      }
+    ],
+    "counts": {
+      "train": 2141,
+      "dev": 316,
+      "test": 606
+    },
+    "source_fields": {
+      "train": [
+        "annotation_alignment_status",
+        "cited_doc_ids",
+        "claim",
+        "evidence",
+        "evidence_missing",
+        "gold",
+        "id",
+        "sample_id",
+        "training_label_ready"
+      ],
+      "dev": [
+        "annotation_alignment_status",
+        "cited_doc_ids",
+        "claim",
+        "evidence",
+        "evidence_missing",
+        "gold",
+        "id",
+        "sample_id",
+        "training_label_ready"
+      ],
+      "test": [
+        "annotation_alignment_status",
+        "cited_doc_ids",
+        "claim",
+        "evidence",
+        "evidence_missing",
+        "gold",
+        "id",
+        "sample_id",
+        "training_label_ready"
+      ]
+    },
+    "duplicate_ids_within_split": {
+      "train": 0,
+      "dev": 0,
+      "test": 0
+    },
+    "ids_overlap_across_splits": {
+      "train-dev": 316,
+      "train-test": 606,
+      "dev-test": 316
+    },
+    "inherited_official_split_cross_groups": [
+      {
+        "group_type": "citing_pmcid",
+        "group_id": "PMC3618577",
+        "splits": "[\"dev\", \"train\"]"
+      },
+      {
+        "group_type": "citing_pmcid",
+        "group_id": "PMC8223959",
+        "splits": "[\"test\", \"train\"]"
+      },
+      {
+        "group_type": "citing_pmcid",
+        "group_id": "PMC8219099",
+        "splits": "[\"test\", \"train\"]"
+      },
+      {
+        "group_type": "citing_pmcid",
+        "group_id": "PMC8553742",
+        "splits": "[\"test\", \"train\"]"
+      },
+      {
+        "group_type": "citing_pmcid",
+        "group_id": "PMC3142215",
+        "splits": "[\"dev\", \"test\"]"
+      },
+      {
+        "group_type": "strict_claim_text",
+        "group_id": "the expansion of neutralizing antibody responses, as measured by both pseudovirus and live virus assays, in mice is encouraging, as this metric has emerged as a potential correlate of protection in hamster and non-human primate challenge models m",
+        "splits": "[\"test\", \"train\"]"
+      }
+    ]
+  },
+  "repair_requirements": [
+    "Keep SciCiteVal 713/54/257 membership and isolate 10 conflicts; do not change labels.",
+    "Remove original IDs from model-visible prompts; retain external dataset/split/claim_id mapping.",
+    "Use one generator per dataset for Train/Dev/Test. SciCiteVal D01:S01 keeps supplied passage; Sarol BM25 top-10 sentences is retained.",
+    "Model message allowlist contains only system_prompt/user_prompt. Sarol source objects contain gold/evidence and must never be serialized wholesale.",
+    "Validate exact input/gold ID and order coverage, evidence ID uniqueness and mapping, and actual byte hashes after LF serialization.",
+    "Train labels enter assistant targets only. Preserve loss masks through collator; reject missing/extra/duplicate IDs instead of silent skips.",
+    "Reject truncation of assistant targets; report input lengths and apply a shared documented policy if evidence truncation is necessary.",
+    "INVALID predictions are incorrect and must count toward per-class false negatives; use full-label parsing, never ACCURATE substring matching.",
+    "Retain Sarol official split but disclose inherited citing-paper/text overlap; do not claim paper-disjoint evaluation."
+  ],
+  "scope_note": "Audit of the frozen v1 sources; repaired v2 status is in the delivery verification_report.json"
+}
