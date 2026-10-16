@@ -26,7 +26,16 @@
 
 ### 响应字段审计（2026-10-16）
 
-对四组 Dev 预测文件逐条解析 `raw_output` 并统计字段：M0 的 SciCiteVal 54/54、Sarol 316/316 含有 `label`、`evidence_ids`、`reason`、`confidence` 四字段；Mscv 的 SciCiteVal 0/54、Sarol 0/316 含有四字段，**370/370 条均仅有 `label`**。这一步只检查字段是否出现，尚未证明 M0 的字段值、证据编号与候选输入完全合规。独立的 [响应 schema 审计脚本](../../../code/ly/audit_route1_dev_output_schema_v1.py) 可进一步核查字段类型、证据编号范围、理由长度和置信度；审计不得修改原预测或既有标签分数。
+独立的 [响应 schema 审计脚本](../../../code/ly/audit_route1_dev_output_schema_v1.py) 对四组 Dev 预测逐条解析 `raw_output`，核验标签、字段类型、证据编号是否在对应候选输入中、最多 5 个编号、`reason` 不超过 120 字、`confidence` 在 0–1 内。脚本不会修改原预测或既有标签分数。A100 上生成的[完整审计报告](dev_response_schema_audit_20261016.json)已按原字节同步到本仓库，SHA-256 `04c3bbeec19a31a9cb0c13895cd0d52c00d0a52df7ce18c536418795c0593066`。
+
+| 数据集 | 模型 | 四字段齐全 | 完整 schema 合规 | 主要问题 |
+|---|---|---:|---:|---|
+| SciCiteVal Dev54 | M0 | 54/54 | 53/54 | 1 条 `reason` 超过 120 字 |
+| SciCiteVal Dev54 | Mscv | 0/54 | 0/54 | 54 条仅输出 `label` |
+| Sarol Dev316 | M0 | 316/316 | 304/316 | 12 条 `reason` 超过 120 字 |
+| Sarol Dev316 | Mscv | 0/316 | 0/316 | 316 条仅输出 `label` |
+
+M0 的 13 条问题均为字符串理由过长，没有空值；SciCiteVal `claim_id=559` 为 131 字，Sarol 12 条为 122–183 字。M0 其余结构规则均通过；本审计不判断理由在语义上是否充分。Mscv **370/370 条只有 `label`**，缺少 `evidence_ids`、`reason` 和 `confidence`。
 
 原因可在当前冻结训练代码中复核：assistant 目标被构造成 `{"label": ...}`，现有评测器也只用 `parse_label` 打分。因此 `invalid_count=0` 只说明标签可解析，不能解释为完整输出 schema 无效数为 0。**在响应方案及评测规则确认前，Mscv 不能按完整引用判定输出验收，也不应启动 Test。** 需要与路线一负责人确认是保持“标签分类”和“证据理由”分阶段交付，还是另建含证据与理由监督的数据/adapter 版本；不可把人工理由或输入证据编号回填成模型原始输出。
 
@@ -50,6 +59,6 @@
 ## 待完成
 
 1. 获取陈明进从同一官方底座独立训练的 Mbio adapter，完成 Mbio × SciCiteVal/Sarol 两个 Dev 单元，凑齐 6 个 Dev 单元。
-2. 与路线一负责人确认完整响应 schema 的处理方案，核验四组现有 Dev 输出的字段值；待六个 Dev 单元完成后选择两个正式 checkpoint，并冻结输入哈希、模板、长度、精度、解码和解析规则，之后才启动 Test。
+2. 与路线一负责人确认完整响应 schema 的处理方案；待六个 Dev 单元完成后选择两个正式 checkpoint，并冻结输入哈希、模板、长度、精度、解码和解析规则，之后才启动 Test。任何改变输出或评分规则的方案须独立记录版本，不可覆盖四组现有原始预测。
 3. 将 A100 上现有的训练日志、四组 Dev 原始预测与指标文件复制到交付目录，核对本记录的哈希；adapter 权重留在合适的模型存储位置，不直接提交到普通 Git 仓库。
 4. 两篇真实 PDF 的引用关系匹配、施引位置、被引证据定位与 Mscv 标签判定已经接通。需确认并实现模型输出 `evidence_ids` 和 `reason` 的方案，再验收完整解释闭环；此前 PointRend 与 DySample 的单文档索引 smoke 不能替代该闭环。

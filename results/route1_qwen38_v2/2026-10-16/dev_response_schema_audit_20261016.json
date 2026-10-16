@@ -1,0 +1,117 @@
+{
+  "scope": "supplemental Dev response schema audit; label metrics unchanged",
+  "units": {
+    "sciciteval": {
+      "M0": {
+        "total": 54,
+        "fields_present": 54,
+        "label_only": 0,
+        "full_schema_valid": 53,
+        "issues": {
+          "invalid_reason": 1
+        },
+        "issue_example_claim_ids": {
+          "invalid_reason": [
+            "559"
+          ]
+        },
+        "inputs_sha256": "93df53e04a249bd4a83fbc739db87ae88fee59b842eee8d6daa162d9efe328b1",
+        "predictions_sha256": "8ca65bef3b016e7454b9e2373c9be55faea7c9ddb3632c5ee96c762ae904bb0f"
+      },
+      "Mscv": {
+        "total": 54,
+        "fields_present": 0,
+        "label_only": 54,
+        "full_schema_valid": 0,
+        "issues": {
+          "invalid_confidence": 54,
+          "invalid_evidence_ids_type": 54,
+          "invalid_reason": 54
+        },
+        "issue_example_claim_ids": {
+          "invalid_evidence_ids_type": [
+            "44",
+            "45",
+            "46",
+            "47",
+            "60"
+          ],
+          "invalid_reason": [
+            "44",
+            "45",
+            "46",
+            "47",
+            "60"
+          ],
+          "invalid_confidence": [
+            "44",
+            "45",
+            "46",
+            "47",
+            "60"
+          ]
+        },
+        "inputs_sha256": "93df53e04a249bd4a83fbc739db87ae88fee59b842eee8d6daa162d9efe328b1",
+        "predictions_sha256": "9e9eec0ee5a2afd8ffb4f4e08c706e33ba95f88a2178311290a9a669545d6249"
+      }
+    },
+    "sarol": {
+      "M0": {
+        "total": 316,
+        "fields_present": 316,
+        "label_only": 0,
+        "full_schema_valid": 304,
+        "issues": {
+          "invalid_reason": 12
+        },
+        "issue_example_claim_ids": {
+          "invalid_reason": [
+            "59",
+            "65",
+            "108",
+            "177",
+            "194"
+          ]
+        },
+        "inputs_sha256": "2c0690ab3a0c50cc63c47bf0db06f63895de51513d1257ecf4aeb051d1e64403",
+        "predictions_sha256": "0983101f23347718fa56b366239551ab2d12dbb25c17162dd227640acdb3d92a"
+      },
+      "Mscv": {
+        "total": 316,
+        "fields_present": 0,
+        "label_only": 316,
+        "full_schema_valid": 0,
+        "issues": {
+          "invalid_confidence": 316,
+          "invalid_evidence_ids_type": 316,
+          "invalid_reason": 316
+        },
+        "issue_example_claim_ids": {
+          "invalid_evidence_ids_type": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "invalid_reason": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "invalid_confidence": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "inputs_sha256": "2c0690ab3a0c50cc63c47bf0db06f63895de51513d1257ecf4aeb051d1e64403",
+        "predictions_sha256": "cc0a7d7e4137351ef0478e42005ed8684c7547ae19c9bb60e494d547bc29dbf2"
+      }
+    }
+  }
+}
