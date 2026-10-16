@@ -1,0 +1,79 @@
+{
+  "status": "prepared_no_model_run",
+  "scope": "manual two-PDF demonstration outside frozen v2 splits",
+  "claim_id": "pdf_demo_sciciteval_scifact_001",
+  "citing_pdf": {
+    "file": "01_SciCiteVal_LREC2026.pdf",
+    "sha256": "db7451e45296f066d3fa8c5b35d2ae2d2620b7ebeba85fbae2eb583d9f1246cf"
+  },
+  "cited_pdf": {
+    "file": "02_SciFact_Wadden_2020.pdf",
+    "sha256": "e51a1fab569f2dcb00f7806fe95094e25a34c027140709725d3d05b7a0af9ac7"
+  },
+  "citation_point": {
+    "page": 2,
+    "citation_marker": "Wadden et al. (2020)",
+    "marker_bbox": [
+      432.26,
+      135.41,
+      523.95,
+      145.37
+    ],
+    "context_block_bbox": [
+      305.89,
+      99.54,
+      524.94,
+      372.52
+    ],
+    "position_quality": "marker_bbox_and_context_block_bbox"
+  },
+  "reference_entry": {
+    "page": 9,
+    "author_bbox": [
+      72.0,
+      702.14,
+      137.36,
+      712.11
+    ],
+    "title_bbox": [
+      227.28,
+      726.05,
+      287.7,
+      736.02
+    ]
+  },
+  "claim_text": "Wadden et al. (2020) introduced SciFact, a dataset for scientific claim verification comprising 1.4K expert-written claims paired with evidence from paper abstracts. Each instance is annotated with a label (SUPPORTS or REFUTES) and a rationale.",
+  "retrieval": {
+    "method": "BM25 over cited-PDF sentence index",
+    "top_sentence_id": "P001:B010:S001",
+    "top_rank": 1,
+    "top_score": 37.150829,
+    "index_sentences": 592
+  },
+  "cited_evidence": {
+    "page": 1,
+    "sentence_ids": [
+      "P001:B010:S000",
+      "P001:B010:S001"
+    ],
+    "block_bbox": [
+      88.54,
+      247.99,
+      277.03,
+      556.83
+    ],
+    "position_quality": "block_bbox",
+    "text": "We introduce scientific claim verification, a new task to select abstracts from the research literature containing evidence that SUPPORTS or REFUTES a given scientific claim, and to identify rationales justifying each decision. To study this task, we construct SCIFACT, a dataset of 1.4K expert-written scientific claims paired with evidence-containing abstracts annotated with labels and rationales."
+  },
+  "human_reference": {
+    "label": "ACCURATE",
+    "status": "manual_demo_review_not_dataset_gold",
+    "reason": "被引论文摘要直接说明约 1.4K 条专家撰写的科学论断、摘要证据、SUPPORTS/REFUTES 标签和理由，与施引论断一致。"
+  },
+  "prompt_contract": "Frozen SciCiteVal v2 system prompt and D01:S01 user-prompt format; only these prompts go to the model",
+  "prompt_sha256": "338982fa5654e9df6993d09271739f9e8eef87bbdff20c9708a18dfe7e8064c2",
+  "files": {
+    "demo.inputs.jsonl": "2db928162af50c7769675206ed7363b532f1750c91d54b64a56840a810706bdf",
+    "demo.reference_gold.jsonl": "ca47deb3063e0f7d48615a46ccf6a951cbcee5ece1c72b28a46c950d4220397e"
+  }
+}
