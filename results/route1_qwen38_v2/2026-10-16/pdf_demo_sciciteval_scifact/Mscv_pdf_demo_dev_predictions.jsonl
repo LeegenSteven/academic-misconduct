@@ -1,0 +1,1 @@
+{"claim_id": "pdf_demo_sciciteval_scifact_001", "gold": "ACCURATE", "pred": "ACCURATE", "raw_output": "{\"label\": \"ACCURATE\"}", "attempt": 1, "retry_count": 0, "invalid_reason": null, "input_tokens": 376, "output_tokens": 9, "generation_at_token_limit": false}
