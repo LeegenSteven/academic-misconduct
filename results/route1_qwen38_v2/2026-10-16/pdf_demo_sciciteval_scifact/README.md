@@ -1,6 +1,6 @@
 # 两篇 PDF 引用闭环演示：SciCiteVal → SciFact
 
-这是路线一的独立 PDF 流程样例，**不属于**冻结的 SciCiteVal/Sarol Train、Dev、Test，也不计入六个 Dev 单元。两篇 PDF、引用点、参考文献条目和被引证据已核对；正式 Mscv adapter 已对该样例运行一次标签判定。当前状态为 `model_label_run_completed_schema_partial`：模型只输出标签，尚未生成证据编号和理由。
+这是路线一的独立 PDF 流程样例，**不属于**冻结的 SciCiteVal/Sarol Train、Dev、Test，也不计入六个 Dev 单元。两篇 PDF、引用点、参考文献条目和被引证据已核对；官方底座 M0 与正式 Mscv adapter 均已对同一输入运行。M0 生成了合规的四字段 JSON；Mscv 只生成标签。
 
 ## 来源与定位
 
@@ -27,8 +27,15 @@ python -X utf8 code/ly/build_route1_pdf_loop_demo_v1.py \
 
 ## 模型运行与限制
 
-2026-10-16 在 A100 上用官方 HF 底座和正式 Mscv `final_adapter` 独立运行该单条输入，`enable_thinking=False`、`max_length=4096`、`max_new_tokens=512`、无重试。评测 CLI 仅因参数约束使用 `--split dev`，实际输出写入独立 `route1_qwen38_v2_pdf_demo_20261016/Mscv/`，**不属于**正式 Dev54，也不参与 checkpoint 选择。原始逐条预测已按 A100 文件字节复现到 [Mscv_pdf_demo_dev_predictions.jsonl](Mscv_pdf_demo_dev_predictions.jsonl)，其 SHA-256 与服务器核对一致：`1f42160a1dcab37749b046948f84241c2b962f4164be79c12abd70703ccb9fcb`。服务器指标文件 SHA-256 为 `55b8352b00b4c1e85c7770a33e627978ca7cf5d00ba680117522c609e2896ec4`，文件仍留在 A100。
+2026-10-16 在 A100 上用官方 HF 底座分别运行 M0、Mscv `final_adapter`，输入均为本目录同一条 `demo.inputs.jsonl`，`enable_thinking=False`、`max_length=4096`、`max_new_tokens=512`、无重试。评测 CLI 仅因参数约束使用 `--split dev`，实际输出在独立 `route1_qwen38_v2_pdf_demo_20261016/` 下，**不属于**正式 Dev54，也不参与 checkpoint 选择。两个原始预测文件均已按 A100 文件字节复现并核对 SHA-256：
 
-模型输出原文是 `{"label": "ACCURATE"}`；标签与人工演示参考标签一致，评测器按标签解析记为 1/1、`invalid_reason=null`。这不是正式评测分数。**原始输出没有 `evidence_ids`、`reason` 或 `confidence`**：这些字段虽写在冻结提示词中，但 Mscv 训练目标只监督标签 JSON，现有评测器也只校验标签。因此不能把人工参考理由或输入中的 `D01:S01` 说成模型生成的解释。`citation_loop.json` 的 `prepared_no_model_run` 是输入构建时的静态状态；本节记录后续独立模型运行。
+| 模型 | A100 输出目录 | 原始预测与 SHA-256 | 服务器指标文件 SHA-256 | 结构校验 |
+|---|---|---|---|---|
+| M0 | `M0/` | [M0_pdf_demo_dev_predictions.jsonl](M0_pdf_demo_dev_predictions.jsonl) · `722053f13fc0cb5328062618c70d09711d316127420e2f93dc86009da39b5ed4` | `6b11d8154597ae255ce9e80f0b792e6fefd4c16c0330ca7dfab3e6904c026aa1` | 1/1 合规 |
+| Mscv | `Mscv/` | [Mscv_pdf_demo_dev_predictions.jsonl](Mscv_pdf_demo_dev_predictions.jsonl) · `1f42160a1dcab37749b046948f84241c2b962f4164be79c12abd70703ccb9fcb` | `55b8352b00b4c1e85c7770a33e627978ca7cf5d00ba680117522c609e2896ec4` | 0/1 合规 |
 
-下一步需要由路线一负责人确认解释字段的模型输出方案及评测规则，再对真实两篇 PDF 完成可验收的“证据编号与理由”闭环。保持冻结 v2 Train/Dev/Test 和本次原始预测不变。
+M0 原始 JSON 的标签为 `ACCURATE`，模型自行给出允许的 `evidence_ids=["D01:S01"]`、中文理由和 `confidence=1.0`。独立 schema 审计检查了字段类型、证据编号范围、理由长度和置信度，结果 `full_schema_valid=1/1`。这说明该单例中“两篇 PDF → 引用点 → 被引证据 → M0 结构化判定”的技术流程可运行；不构成正式模型效果评估，也不替代人工核验语义。
+
+Mscv 原始输出是 `{"label": "ACCURATE"}`；标签与人工演示参考标签一致，评测器按标签解析记为 1/1、`invalid_reason=null`，但**原始输出没有 `evidence_ids`、`reason` 或 `confidence`**。这些字段虽写在冻结提示词中，Mscv 训练目标只监督标签 JSON，现有评测器也只校验标签。因此不能把人工参考理由或输入中的 `D01:S01` 说成 Mscv 生成的解释。`citation_loop.json` 的 `prepared_no_model_run` 是输入构建时的静态状态；本节记录后续独立模型运行。
+
+下一步需要由路线一负责人确认 Mscv 的解释字段方案及评测规则，才能验收其完整输出。保持冻结 v2 Train/Dev/Test 和本次原始预测不变。

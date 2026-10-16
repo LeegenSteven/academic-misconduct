@@ -9,7 +9,7 @@
 - 单卡 GPU smoke 使用 Train 中的 32 条样本，完成真实训练、adapter 保存与独立重载推理：26/32 正确，Accuracy 0.8125，Macro-F1 0.8666666667，无效输出 0。该分数仅用于工程检查。
 - 正式 Mscv 从官方 HF 底座独立训练 SciCiteVal Train713：1 epoch，45/45 步，训练耗时 49.31 分钟，train loss 0.1862243065。`checkpoint-45` 与 `final_adapter` 的权重和 adapter 配置哈希分别一致。正式 adapter 另在新进程中完成单条 Train 样本的重载推理。
 - 官方 HF 底座与 Mscv 已取得两个领域四个 Dev 单元的**标签分类分数**。Mbio 在两个领域的 Dev 单元待陈明进交付正式 adapter 后补齐。尚未运行 v2 Test。
-- 独立的两篇 PDF 演示已完成引用点与被引证据定位，并用正式 Mscv 完成单条标签推理：输出 `ACCURATE`，与人工演示参考标签一致；原始模型输出只有 `label`，没有证据编号和理由，故完整解释字段仍待解决。此样例不计入正式 Dev/Test。详见 [PDF 演示记录](pdf_demo_sciciteval_scifact/README.md)。
+- 独立的两篇 PDF 演示已完成引用点与被引证据定位。官方底座 M0 对该单例生成合规的标签、证据编号、理由和置信度；正式 Mscv 只生成 `ACCURATE` 标签，缺少解释字段。该样例不计入正式 Dev/Test。详见 [PDF 演示记录](pdf_demo_sciciteval_scifact/README.md)。
 
 ## Dev 结果
 
@@ -61,4 +61,4 @@ M0 的 13 条问题均为字符串理由过长，没有空值；SciCiteVal `clai
 1. 获取陈明进从同一官方底座独立训练的 Mbio adapter，完成 Mbio × SciCiteVal/Sarol 两个 Dev 单元，凑齐 6 个 Dev 单元。
 2. 与路线一负责人确认完整响应 schema 的处理方案；待六个 Dev 单元完成后选择两个正式 checkpoint，并冻结输入哈希、模板、长度、精度、解码和解析规则，之后才启动 Test。任何改变输出或评分规则的方案须独立记录版本，不可覆盖四组现有原始预测。
 3. 将 A100 上现有的训练日志、四组 Dev 原始预测与指标文件复制到交付目录，核对本记录的哈希；adapter 权重留在合适的模型存储位置，不直接提交到普通 Git 仓库。
-4. 两篇真实 PDF 的引用关系匹配、施引位置、被引证据定位与 Mscv 标签判定已经接通。需确认并实现模型输出 `evidence_ids` 和 `reason` 的方案，再验收完整解释闭环；此前 PointRend 与 DySample 的单文档索引 smoke 不能替代该闭环。
+4. 两篇真实 PDF 的引用关系匹配、施引位置、被引证据定位与 M0 结构化判定已在单例上接通；Mscv 标签判定也已接通。需确认并实现 Mscv 输出 `evidence_ids` 和 `reason` 的方案，再验收其完整解释闭环；此前 PointRend 与 DySample 的单文档索引 smoke 不能替代该闭环。
