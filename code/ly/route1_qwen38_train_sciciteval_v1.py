@@ -22,7 +22,6 @@ from typing import Any
 
 import numpy as np
 import torch
-import torch.nn.functional as F
 from datasets import Dataset
 from transformers import (
     AutoModelForCausalLM,
@@ -96,31 +95,6 @@ def build_dataset(records: list[dict[str, Any]], tokenizer, max_length: int) -> 
     return Dataset.from_list([encode_assistant_record(record, tokenizer, max_length) for record in records])
 
 
-class Route1Trainer(Trainer):
-    """Use an explicit causal-LM loss for the Qwen3.5 Transformers path.
-
-    Transformers 5.8's Qwen3.5 built-in loss path can trigger a CUDA device
-    assert with this checkpoint.  The forward logits and an explicit shifted
-    cross-entropy are valid, so compute the loss here and move labels to the
-    logits device for device-mapped multi-GPU training.
-    """
-
-    def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
-        labels = inputs["labels"]
-        model_inputs = {key: value for key, value in inputs.items() if key != "labels"}
-        outputs = model(**model_inputs)
-        logits = outputs.logits
-        labels = labels.to(logits.device)
-        shift_logits = logits[..., :-1, :].contiguous()
-        shift_labels = labels[..., 1:].contiguous()
-        loss = F.cross_entropy(
-            shift_logits.view(-1, shift_logits.shape[-1]).float(),
-            shift_labels.view(-1),
-            ignore_index=-100,
-        )
-        return (loss, outputs) if return_outputs else loss
-
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Train the route1 SciCiteVal Qwen3.8 LoRA adapter")
     parser.add_argument("--model-path", required=True, help="Official local HF Transformers checkpoint; .gguf is rejected")
@@ -132,11 +106,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--epochs", type=int, default=DEFAULT_LORA["epochs"])
     parser.add_argument("--max-length", type=int, default=DEFAULT_MAX_LENGTH)
     parser.add_argument("--max-samples", type=int, default=None)
-    parser.add_argument(
-        "--no-gradient-checkpointing",
-        action="store_true",
-        help="Disable gradient checkpointing for Qwen3.5 fallback-path diagnostics",
-    )
     parser.add_argument("--input-smoke", "--smoke", dest="input_smoke", action="store_true", help="CPU/tokenizer check of 32 records; NOT a GPU training smoke")
     parser.add_argument("--check-inputs", action="store_true", help="Check every training input, length and collated loss mask; no model loading")
     args = parser.parse_args()
@@ -227,16 +196,13 @@ def main() -> None:
         save_steps=100,
         save_total_limit=3,
         bf16=True,
-        gradient_checkpointing=not args.no_gradient_checkpointing,
-        # Qwen3.5's fallback attention path currently requires reentrant
-        # checkpointing during PEFT training; non-reentrant mode triggers a
-        # CUDA gather index assertion on the first forward step.
-        gradient_checkpointing_kwargs={"use_reentrant": True},
+        gradient_checkpointing=True,
+        gradient_checkpointing_kwargs={"use_reentrant": False},
         report_to="none",
         seed=DEFAULT_LORA["seed"],
         dataloader_pin_memory=False,
     )
-    trainer = Route1Trainer(
+    trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
