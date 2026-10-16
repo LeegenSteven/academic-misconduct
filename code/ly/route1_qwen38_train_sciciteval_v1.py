@@ -132,6 +132,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--epochs", type=int, default=DEFAULT_LORA["epochs"])
     parser.add_argument("--max-length", type=int, default=DEFAULT_MAX_LENGTH)
     parser.add_argument("--max-samples", type=int, default=None)
+    parser.add_argument(
+        "--no-gradient-checkpointing",
+        action="store_true",
+        help="Disable gradient checkpointing for Qwen3.5 fallback-path diagnostics",
+    )
     parser.add_argument("--input-smoke", "--smoke", dest="input_smoke", action="store_true", help="CPU/tokenizer check of 32 records; NOT a GPU training smoke")
     parser.add_argument("--check-inputs", action="store_true", help="Check every training input, length and collated loss mask; no model loading")
     args = parser.parse_args()
@@ -222,7 +227,7 @@ def main() -> None:
         save_steps=100,
         save_total_limit=3,
         bf16=True,
-        gradient_checkpointing=True,
+        gradient_checkpointing=not args.no_gradient_checkpointing,
         # Qwen3.5's fallback attention path currently requires reentrant
         # checkpointing during PEFT training; non-reentrant mode triggers a
         # CUDA gather index assertion on the first forward step.
