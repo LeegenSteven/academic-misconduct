@@ -8,12 +8,12 @@
 - SciCiteVal Train713 的 tokenizer/mask 检查通过：713 条，监督 token 共 6,947；输入 SHA-256 `4f7357e0022a2e557cb9912f7612699a496d02753451a06b14e2e004f8d3622b`，gold SHA-256 `5a80ff6c6cf813c8256827c63da5ee3c277607afa48f243a9b6743ec4d7be83a`。
 - 单卡 GPU smoke 使用 Train 中的 32 条样本，完成真实训练、adapter 保存与独立重载推理：26/32 正确，Accuracy 0.8125，Macro-F1 0.8666666667，无效输出 0。该分数仅用于工程检查。
 - 正式 Mscv 从官方 HF 底座独立训练 SciCiteVal Train713：1 epoch，45/45 步，训练耗时 49.31 分钟，train loss 0.1862243065。`checkpoint-45` 与 `final_adapter` 的权重和 adapter 配置哈希分别一致。正式 adapter 另在新进程中完成单条 Train 样本的重载推理。
-- 官方 HF 底座与 Mscv 已完成两个领域的四个 Dev 单元。Mbio 在两个领域的 Dev 单元待陈明进交付正式 adapter 后补齐。尚未运行 v2 Test。
+- 官方 HF 底座与 Mscv 已取得两个领域四个 Dev 单元的**标签分类分数**。Mbio 在两个领域的 Dev 单元待陈明进交付正式 adapter 后补齐。尚未运行 v2 Test。
 - 独立的两篇 PDF 演示已完成引用点与被引证据定位，并用正式 Mscv 完成单条标签推理：输出 `ACCURATE`，与人工演示参考标签一致；原始模型输出只有 `label`，没有证据编号和理由，故完整解释字段仍待解决。此样例不计入正式 Dev/Test。详见 [PDF 演示记录](pdf_demo_sciciteval_scifact/README.md)。
 
 ## Dev 结果
 
-全部使用 v2 输入、`max_length=4096`、`max_new_tokens=512`、`enable_thinking=False`，不自动重试；无效输出计为错误。以下分数来自正式 HF 底座及独立 Mscv adapter，不能与历史 GGUF 预跑视为相同配置。
+全部使用 v2 输入、`max_length=4096`、`max_new_tokens=512`、`enable_thinking=False`，不自动重试；现有评测器将无法解析标签的输出计为错误。以下分数只评估标签分类，**不代表完整 JSON 响应符合提示词要求**。结果来自正式 HF 底座及独立 Mscv adapter，不能与历史 GGUF 预跑视为相同配置。
 
 | 数据集 | 模型 | 正确/总数 | Accuracy | Macro-F1 | 无效输出 | 预测 SHA-256 |
 |---|---|---:|---:|---:|---:|---|
@@ -23,6 +23,12 @@
 | Sarol Dev | Mscv | 199/316 | 0.6297468354 | 0.6269599260 | 0 | `cc0a7d7e4137351ef0478e42005ed8684c7547ae19c9bb60e494d547bc29dbf2` |
 
 同域比较：SciCiteVal 上 Mscv 比 M0 多答对 2 条，Macro-F1 高 0.0671957672；Sarol 上多答对 17 条，Macro-F1 高 0.0870489626。Sarol 的 Mscv 仍将 88 条 `ACCURATE` 误判为 `NOT_ACCURATE`，需要保留逐条预测做后续误差分析。SciCiteVal Dev 仅 54 条，其中 `IRRELEVANT` 4 条，不能仅凭这批数据推断泛化幅度。
+
+### 响应字段审计（2026-10-16）
+
+对四组 Dev 预测文件逐条解析 `raw_output` 并统计字段：M0 的 SciCiteVal 54/54、Sarol 316/316 含有 `label`、`evidence_ids`、`reason`、`confidence` 四字段；Mscv 的 SciCiteVal 0/54、Sarol 0/316 含有四字段，**370/370 条均仅有 `label`**。这一步只检查字段是否出现，尚未证明 M0 的字段值、证据编号与候选输入完全合规。独立的 [响应 schema 审计脚本](../../../code/ly/audit_route1_dev_output_schema_v1.py) 可进一步核查字段类型、证据编号范围、理由长度和置信度；审计不得修改原预测或既有标签分数。
+
+原因可在当前冻结训练代码中复核：assistant 目标被构造成 `{"label": ...}`，现有评测器也只用 `parse_label` 打分。因此 `invalid_count=0` 只说明标签可解析，不能解释为完整输出 schema 无效数为 0。**在响应方案及评测规则确认前，Mscv 不能按完整引用判定输出验收，也不应启动 Test。** 需要与路线一负责人确认是保持“标签分类”和“证据理由”分阶段交付，还是另建含证据与理由监督的数据/adapter 版本；不可把人工理由或输入证据编号回填成模型原始输出。
 
 两模型在同一领域内的输入和 gold 哈希一致：
 
@@ -44,6 +50,6 @@
 ## 待完成
 
 1. 获取陈明进从同一官方底座独立训练的 Mbio adapter，完成 Mbio × SciCiteVal/Sarol 两个 Dev 单元，凑齐 6 个 Dev 单元。
-2. 基于 Dev 选择两个正式 checkpoint，冻结输入哈希、模板、长度、精度、解码和解析规则；之后才启动 Test。
+2. 与路线一负责人确认完整响应 schema 的处理方案，核验四组现有 Dev 输出的字段值；待六个 Dev 单元完成后选择两个正式 checkpoint，并冻结输入哈希、模板、长度、精度、解码和解析规则，之后才启动 Test。
 3. 将 A100 上现有的训练日志、四组 Dev 原始预测与指标文件复制到交付目录，核对本记录的哈希；adapter 权重留在合适的模型存储位置，不直接提交到普通 Git 仓库。
 4. 两篇真实 PDF 的引用关系匹配、施引位置、被引证据定位与 Mscv 标签判定已经接通。需确认并实现模型输出 `evidence_ids` 和 `reason` 的方案，再验收完整解释闭环；此前 PointRend 与 DySample 的单文档索引 smoke 不能替代该闭环。
