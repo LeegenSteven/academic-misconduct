@@ -223,7 +223,10 @@ def main() -> None:
         save_total_limit=3,
         bf16=True,
         gradient_checkpointing=True,
-        gradient_checkpointing_kwargs={"use_reentrant": False},
+        # Qwen3.5's fallback attention path currently requires reentrant
+        # checkpointing during PEFT training; non-reentrant mode triggers a
+        # CUDA gather index assertion on the first forward step.
+        gradient_checkpointing_kwargs={"use_reentrant": True},
         report_to="none",
         seed=DEFAULT_LORA["seed"],
         dataloader_pin_memory=False,
