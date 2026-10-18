@@ -1,0 +1,65 @@
+{
+  "train": {
+    "count": 2141,
+    "token_p50": 687,
+    "token_p90": 846,
+    "token_p99": 1130,
+    "token_max": 3053,
+    "token_min": 371,
+    "over_4096": 0,
+    "over_2048": 3,
+    "labels": {
+      "ACCURATE": 1368,
+      "NOT_ACCURATE": 630,
+      "IRRELEVANT": 143
+    },
+    "missing_gold": 0,
+    "empty_evidence": 0,
+    "candidate_avg": 10.0,
+    "candidate_min": 10,
+    "candidate_max": 10,
+    "input_warnings": 0
+  },
+  "dev": {
+    "count": 316,
+    "token_p50": 715,
+    "token_p90": 849,
+    "token_p99": 1053,
+    "token_max": 1184,
+    "token_min": 380,
+    "over_4096": 0,
+    "over_2048": 0,
+    "labels": {
+      "ACCURATE": 191,
+      "NOT_ACCURATE": 101,
+      "IRRELEVANT": 24
+    },
+    "missing_gold": 0,
+    "empty_evidence": 0,
+    "candidate_avg": 10.0,
+    "candidate_min": 10,
+    "candidate_max": 10,
+    "input_warnings": 0
+  },
+  "test": {
+    "count": 606,
+    "token_p50": 687,
+    "token_p90": 844,
+    "token_p99": 1194,
+    "token_max": 1701,
+    "token_min": 452,
+    "over_4096": 0,
+    "over_2048": 0,
+    "labels": {
+      "NOT_ACCURATE": 170,
+      "ACCURATE": 386,
+      "IRRELEVANT": 50
+    },
+    "missing_gold": 0,
+    "empty_evidence": 0,
+    "candidate_avg": 10.0,
+    "candidate_min": 10,
+    "candidate_max": 10,
+    "input_warnings": 0
+  }
+}

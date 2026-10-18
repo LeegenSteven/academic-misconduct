@@ -1,0 +1,119 @@
+﻿C:\Users\Administrator\anaconda3\envs\arm4r_py39\python.exe C:\Users\Administrator\Documents\academic-misconduct\code\ly\verify_route1_data_v2.py --data-root C:\Users\Administrator\Documents\academic-misconduct\results\route1_qwen38_v2\2026-10-15
+{
+  "status": "passed_static_validation_no_model_run",
+  "datasets": {
+    "sciciteval": {
+      "train": {
+        "records": 713,
+        "unique_ids": 713,
+        "input_gold_order_aligned": true,
+        "label_distribution": {
+          "ACCURATE": 183,
+          "IRRELEVANT": 347,
+          "NOT_ACCURATE": 183
+        },
+        "candidate_count_distribution": {
+          "1": 713
+        },
+        "prompt_hashes_match": true,
+        "gold_or_tracking_field_in_model_payload": false
+      },
+      "dev": {
+        "records": 54,
+        "unique_ids": 54,
+        "input_gold_order_aligned": true,
+        "label_distribution": {
+          "ACCURATE": 25,
+          "IRRELEVANT": 4,
+          "NOT_ACCURATE": 25
+        },
+        "candidate_count_distribution": {
+          "1": 54
+        },
+        "prompt_hashes_match": true,
+        "gold_or_tracking_field_in_model_payload": false
+      },
+      "test": {
+        "records": 257,
+        "unique_ids": 257,
+        "input_gold_order_aligned": true,
+        "label_distribution": {
+          "ACCURATE": 89,
+          "IRRELEVANT": 79,
+          "NOT_ACCURATE": 89
+        },
+        "candidate_count_distribution": {
+          "1": 257
+        },
+        "prompt_hashes_match": true,
+        "gold_or_tracking_field_in_model_payload": false
+      },
+      "smoke32": {
+        "records": 32,
+        "unchanged_train_subset": true,
+        "all_three_labels_covered": true,
+        "not_a_formal_evaluation_split": true
+      }
+    },
+    "sarol": {
+      "train": {
+        "records": 2141,
+        "unique_ids": 2141,
+        "input_gold_order_aligned": true,
+        "label_distribution": {
+          "ACCURATE": 1368,
+          "IRRELEVANT": 143,
+          "NOT_ACCURATE": 630
+        },
+        "candidate_count_distribution": {
+          "10": 2141
+        },
+        "prompt_hashes_match": true,
+        "gold_or_tracking_field_in_model_payload": false
+      },
+      "dev": {
+        "records": 316,
+        "unique_ids": 316,
+        "input_gold_order_aligned": true,
+        "label_distribution": {
+          "ACCURATE": 191,
+          "IRRELEVANT": 24,
+          "NOT_ACCURATE": 101
+        },
+        "candidate_count_distribution": {
+          "10": 316
+        },
+        "prompt_hashes_match": true,
+        "gold_or_tracking_field_in_model_payload": false
+      },
+      "test": {
+        "records": 606,
+        "unique_ids": 606,
+        "input_gold_order_aligned": true,
+        "label_distribution": {
+          "ACCURATE": 386,
+          "IRRELEVANT": 50,
+          "NOT_ACCURATE": 170
+        },
+        "candidate_count_distribution": {
+          "10": 606
+        },
+        "prompt_hashes_match": true,
+        "gold_or_tracking_field_in_model_payload": false
+      },
+      "smoke32": {
+        "records": 32,
+        "unchanged_train_subset": true,
+        "all_three_labels_covered": true,
+        "not_a_formal_evaluation_split": true
+      }
+    }
+  },
+  "manifest_files_checked": 36,
+  "total_active_records": 4087,
+  "sciciteval_original_1034_rows_fully_accounted_for": true,
+  "quarantined_conflicts": 10,
+  "sarol_join_key_policy": "(dataset, split, claim_id); claim_id alone is not globally unique",
+  "no_model_inference_training_or_test_selection_performed": true
+}
+
