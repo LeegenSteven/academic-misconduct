@@ -145,8 +145,8 @@ def main() -> None:
     except Exception:
         pass
     meta_path = args.output_dir / "cited_pdf_demo.inference_metadata.json"
-    meta_path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n",
-                         encoding="utf-8", newline="\n")
+    with meta_path.open("w", encoding="utf-8", newline="\n") as fh:
+        fh.write(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n")
     print(f"\n[DONE] 预测: {pred_path}")
     print(f"[DONE] 元数据: {meta_path}（耗时 {elapsed}s）")
 
