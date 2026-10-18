@@ -1,0 +1,54 @@
+{
+  "manifest_version": "cited_pdf_retrieval_v1_2026-10-18",
+  "purpose": "被引全文(PMC JATS XML)证据检索端到端原型；接通真实两篇被引文献到 v2 模型输入",
+  "builder": "code/cmj/route1_cited_pdf_retrieval_pipeline_v1.py",
+  "builder_sha256": "1212f9dc2c3ae6730fd208138ae13d629a12a0802c66c242ace1378797597f7e",
+  "edge_pool": "data\\interim\\pmc_oa_candidate_pool_ly_v3_2026-10-05.json",
+  "edges": [
+    "PMC-OA-V3-01",
+    "PMC-OA-V3-08"
+  ],
+  "retrieval": {
+    "corpus": "被引文献 PMC JATS 全文：abstract + body 所有 sec 段落",
+    "top_k": 10,
+    "bm25_k1": 1.2,
+    "bm25_b": 0.75,
+    "consistency": "分词/BM25/平局规则/prompt渲染/sha256 全部复用 code/ly/build_sarol_inputs_v2.py",
+    "difference_from_frozen_v2": "冻结 Sarol v2 仅检索摘要句；本流程检索全文句并保留 section/段落/字符偏移"
+  },
+  "gold_policy": "真实边候选池未裁决(adjudicated_label=null)，不写 gold、不参与指标；模型 A100 推理后人工盲标裁决",
+  "system_prompt_sha256": "136f8af5e78e4c0e8f8bbaf80d0caab6f30302dd7de227c0e524d6e899a6e07c",
+  "edges_summary": [
+    {
+      "candidate_id": "PMC-OA-V3-01",
+      "citing_pmcid": "PMC12900525",
+      "cited_pmcid": "PMC10045528",
+      "cited_title": "Bioceramics in Endodontics: Updates and Future Perspectives",
+      "fulltext_sentences": 330,
+      "top1_evidence_id": "D01:S01",
+      "top1_section": "4.6. Root Defect Repair"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-08",
+      "citing_pmcid": "PMC13625197",
+      "cited_pmcid": "PMC9708575",
+      "cited_title": "The extracellular matrix and perineuronal nets in memory",
+      "fulltext_sentences": 259,
+      "top1_evidence_id": "D01:S01",
+      "top1_section": "Ageing"
+    }
+  ],
+  "outputs": {
+    "inputs": {
+      "path": "results\\cmj\\cited_pdf_retrieval_v1_2026-10-18\\cited_pdf_demo.inputs.jsonl",
+      "sha256": "aa8fe6ae3965f93ff3d490a0fd1c223dbe4c686ac2a24bdd026b19bb7ba2a19d",
+      "records": 2
+    },
+    "locators": {
+      "path": "results\\cmj\\cited_pdf_retrieval_v1_2026-10-18\\cited_pdf_demo.locators.jsonl",
+      "sha256": "f06aa2499923ab8b0cd82eba087ca28bbd3c6bdf9412e6874640cab80567e7db",
+      "records": 2
+    }
+  },
+  "model_inference": "需在 A100 用冻结 adapter 对 cited_pdf_demo.inputs.jsonl 推理；本地仅产出输入"
+}
