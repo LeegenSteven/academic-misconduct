@@ -1,0 +1,82 @@
+{
+  "total_records": 2141,
+  "min_length": 741,
+  "max_length": 9475,
+  "mean_length": 1340.7,
+  "median_length": 1267,
+  "p90": 1626,
+  "p95": 1825,
+  "p99": 2709,
+  "over_4096_count": 10,
+  "over_4096_records": [
+    {
+      "index": 237,
+      "claim_id": 237,
+      "length": 9295,
+      "label": "ACCURATE"
+    },
+    {
+      "index": 250,
+      "claim_id": 250,
+      "length": 9475,
+      "label": "NOT_ACCURATE"
+    },
+    {
+      "index": 256,
+      "claim_id": 256,
+      "length": 9435,
+      "label": "NOT_ACCURATE"
+    },
+    {
+      "index": 313,
+      "claim_id": 313,
+      "length": 5712,
+      "label": "NOT_ACCURATE"
+    },
+    {
+      "index": 344,
+      "claim_id": 344,
+      "length": 4257,
+      "label": "ACCURATE"
+    },
+    {
+      "index": 602,
+      "claim_id": 602,
+      "length": 4792,
+      "label": "ACCURATE"
+    },
+    {
+      "index": 747,
+      "claim_id": 747,
+      "length": 4948,
+      "label": "IRRELEVANT"
+    },
+    {
+      "index": 1338,
+      "claim_id": 1338,
+      "length": 4791,
+      "label": "ACCURATE"
+    },
+    {
+      "index": 1341,
+      "claim_id": 1341,
+      "length": 4111,
+      "label": "NOT_ACCURATE"
+    },
+    {
+      "index": 1344,
+      "claim_id": 1344,
+      "length": 4788,
+      "label": "NOT_ACCURATE"
+    }
+  ],
+  "over_5120_count": 4,
+  "label_distribution": {
+    "ACCURATE": 1368,
+    "NOT_ACCURATE": 630,
+    "IRRELEVANT": 143
+  },
+  "tokenizer": "Qwen3.8-27B official (trust_remote_code=True)",
+  "input_file": "C:\\Users\\Administrator\\Documents\\academic-misconduct\\results\\route1_qwen38_v2\\2026-10-15\\sarol\\train.inputs.jsonl",
+  "note": "长度估算基于system_prompt+user_prompt+candidate_evidence+assistant标签JSON的拼接文本，实际训练时用apply_chat_template可能略有差异"
+}
