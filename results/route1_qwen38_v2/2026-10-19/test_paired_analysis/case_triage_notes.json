@@ -1,0 +1,102 @@
+{
+  "sciciteval:test:124": {
+    "review_focus": "金标支持边界",
+    "source_check_note": "给定段落提到 Tesla Autopilot 的 OTA 更新及 CNN 模型传输量，未直接说明 Autopilot 使用 CNN 检测路上物体；冻结 gold 为 ACCURATE，需复核完整主张的支持范围。",
+    "requires_gold_adjudication": true
+  },
+  "sciciteval:test:608": {
+    "review_focus": "金标与给定段落可能冲突",
+    "source_check_note": "论断称 Streptomyces sp. LK3 提取物中的肽有抗疟原虫活性；给定段落也明确报告该肽的 anti-plasmodial 活性。冻结 gold 为 IRRELEVANT，需优先人工裁决。",
+    "requires_gold_adjudication": true
+  },
+  "sciciteval:test:19": {
+    "review_focus": "数量与方法边界",
+    "source_check_note": "论断称三种正则化；给定段落开头明确写 four regularizations。Mscv 将 M0 的 ACCURATE 改为 NOT_ACCURATE，符合冻结 gold 的关键数量差异。",
+    "requires_gold_adjudication": false
+  },
+  "sciciteval:test:34": {
+    "review_focus": "部分支持与推断扩展",
+    "source_check_note": "给定段落直接支持 zero-centered input；论断另称改善收敛、减少类别偏置等，所给片段未直接陈述。冻结 gold 为 ACCURATE，需核查这些扩展是否属核心主张。",
+    "requires_gold_adjudication": true
+  },
+  "sciciteval:test:797": {
+    "review_focus": "无关边界",
+    "source_check_note": "论断谈家长教育程度与自我药疗；候选段落谈 Streptomyces 抗疟活性。两个 adapter 将 M0 的 NOT_ACCURATE 改为 IRRELEVANT。",
+    "requires_gold_adjudication": false
+  },
+  "sciciteval:test:33": {
+    "review_focus": "术语借用与归属",
+    "source_check_note": "给定段落的 row-major 仅用于 256 张激活图在 16×16 网格中的排布；论断扩展为 RGB 图像在内存中的一般存储方式。两个 adapter 由 M0 的 NOT_ACCURATE 改判 ACCURATE。",
+    "requires_gold_adjudication": false
+  },
+  "sciciteval:test:73": {
+    "review_focus": "随机子集与预先固定信息",
+    "source_check_note": "给定段落写随机选择用户、物品邻居子集；论断写 pre-selected neighborhood information。Mbio 改判 ACCURATE，需核查是否忽略 stochastic 的关键含义。",
+    "requires_gold_adjudication": false
+  },
+  "sciciteval:test:14": {
+    "review_focus": "方法数字与组合",
+    "source_check_note": "给定段落明确报告随机搜索 300 个组合并选出四个互补组合；Mscv 将正确的 ACCURATE 改判 NOT_ACCURATE。",
+    "requires_gold_adjudication": false
+  },
+  "sciciteval:test:605": {
+    "review_focus": "明显无关",
+    "source_check_note": "论断谈自闭症、短链脂肪酸和菌群；给定段落谈 Streptomyces 抗疟活性。三模型均判 IRRELEVANT。",
+    "requires_gold_adjudication": false
+  },
+  "sciciteval:test:15": {
+    "review_focus": "数值错误",
+    "source_check_note": "论断写 500 个超参数组合，给定段落写 300 个；三模型均判 NOT_ACCURATE。",
+    "requires_gold_adjudication": false
+  },
+  "sarol:test:402": {
+    "review_focus": "M0 格式失败与非生物制剂范围",
+    "source_check_note": "M0 首次响应是 INVALID；候选 D02:S01 提及 mesalamine/sulfasalazine 风险，Mbio 判 ACCURATE。已标注 gold 证据的精确句未进入候选，需逐句核对 non-biologic therapies 的概括范围。",
+    "requires_gold_adjudication": false
+  },
+  "sarol:test:115": {
+    "review_focus": "主题相关但主张未出现",
+    "source_check_note": "候选涉及中和抗体、疫苗保护及 CD8+ T 细胞，但未见 scaffolded antigen presentation 的完整机制；Mscv 判 IRRELEVANT，M0/Mbio 判 NOT_ACCURATE，需复核类别边界。",
+    "requires_gold_adjudication": false
+  },
+  "sarol:test:61": {
+    "review_focus": "相关话题与缺失的处方行为",
+    "source_check_note": "候选讨论 ACE-I/ARB 与 ACE2/COVID-19 风险争议，未直接给出处方模式改变；Mbio 判 NOT_ACCURATE，M0/Mscv 判 IRRELEVANT。精确 gold 证据句未进入候选。",
+    "requires_gold_adjudication": false
+  },
+  "sarol:test:2": {
+    "review_focus": "多句组合支持与检索覆盖",
+    "source_check_note": "候选含肉碱、胆碱经菌群生成 TMAO、动脉粥样硬化及胆固醇转运的分散片段；需核对 foam-cell macrophage activity 是否也得到支持。精确 gold 证据句未进入候选，不等于完全无替代支持。",
+    "requires_gold_adjudication": false
+  },
+  "sarol:test:5": {
+    "review_focus": "宽泛论断与候选证据强度",
+    "source_check_note": "论断笼统称 microbiome 可促成动脉粥样硬化；候选含相关疾病负担与机制尚不明等分散信息。精确 gold 证据句未进入候选，两个 adapter 的 ACCURATE 是否有直接支持需人工核对。",
+    "requires_gold_adjudication": false
+  },
+  "sarol:test:51": {
+    "review_focus": "ACE2 证据强度夸大",
+    "source_check_note": "论断把接受 ACE-I/ARB 治疗的心血管患者 ACE2 表达增加写成已有证据；候选 D04:S01 指 ACE-I 相关数据很有限，D05:S01 指缺少支持病毒进入风险的数据。M0 判 NOT_ACCURATE，两个 adapter 判 ACCURATE。",
+    "requires_gold_adjudication": false
+  },
+  "sarol:test:16": {
+    "review_focus": "同领域但不同研究对象",
+    "source_check_note": "论断要求 961 例散发 AD 与 1,346 例对照的变异分型；候选是其他 AD GWAS 样本与位点信息，未见这两个样本数。Mbio 判 NOT_ACCURATE，M0/Mscv 判 IRRELEVANT。",
+    "requires_gold_adjudication": false
+  },
+  "sarol:test:153": {
+    "review_focus": "ICS 与抗病毒免疫的归因",
+    "source_check_note": "候选谈 ICS、ACE2/TMPRSS2 表达及感染风险，未直接证明 ICS 增加抗病毒免疫；Mscv 判 IRRELEVANT，M0/Mbio 判 NOT_ACCURATE，需复核相关但不支持与无关的边界。",
+    "requires_gold_adjudication": false
+  },
+  "sarol:test:31": {
+    "review_focus": "明显检索不匹配",
+    "source_check_note": "论断明确涉及 KCNQ1/KCNQ1OT1 的 SNP 位置；十条候选未见这些基因名。三模型均判 IRRELEVANT。",
+    "requires_gold_adjudication": false
+  },
+  "sarol:test:1": {
+    "review_focus": "金标与候选片段可能冲突",
+    "source_check_note": "论断称 Apoe 缺失小鼠的肉碱促粥样硬化由菌群依赖机制介导；候选 D04:S02/S03 分别讨论菌群依赖的下游代谢物及抗生素组未见斑块增加。冻结 gold 为 NOT_ACCURATE，需核对论文上下文与标注范围。",
+    "requires_gold_adjudication": true
+  }
+}

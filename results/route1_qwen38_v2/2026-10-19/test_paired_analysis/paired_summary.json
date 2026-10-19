@@ -1,0 +1,647 @@
+{
+  "scope": "frozen route1 v2 classification Test, paired by (dataset, claim_id)",
+  "max_length": 5120,
+  "max_new_tokens": 512,
+  "no_model_run": true,
+  "no_checkpoint_selection": true,
+  "datasets": {
+    "sciciteval": {
+      "records": 257,
+      "files": {
+        "inputs": "da705b96dff43c8077de9ed7c261048ba427795848126ad941f4c7cd9ff73301",
+        "gold": "98512eb476fe31da3f36dea716ea3333008234f2af9ac191afd10d48a854eabd",
+        "M0_predictions": "1dd4f71864b875fb4f623e8171943109b135518d075f74dd14f0f3d6f85e2680",
+        "M0_metrics": "f3ebff8a6296402e5176278f58d34353210affa227e1da43819a4c5deb0f8a8c",
+        "Mbio_predictions": "b0ac79e1eeb19af60d8258b2077f3072027094fd84fa57487684824c218f8911",
+        "Mbio_metrics": "205bb740941a779814951921685a478f351d2f84608dd3c4610517b20c898619",
+        "Mscv_predictions": "ec55c6f770b941441b753f21c9dfd4e2b4d8c069e38f0662691548ab3f2441b4",
+        "Mscv_metrics": "68479b04161e047db5e381129e50a85040bdbda1b351adb806e5c92c6f2a4137"
+      },
+      "model_metrics": {
+        "M0": {
+          "accuracy": 0.8287937743190662,
+          "macro_f1": 0.8302903370608178,
+          "correct": 213,
+          "invalid_count": 0
+        },
+        "Mbio": {
+          "accuracy": 0.7626459143968871,
+          "macro_f1": 0.745415535667894,
+          "correct": 196,
+          "invalid_count": 0
+        },
+        "Mscv": {
+          "accuracy": 0.867704280155642,
+          "macro_f1": 0.8723594714693977,
+          "correct": 223,
+          "invalid_count": 0
+        }
+      },
+      "comparisons": {
+        "Mbio": {
+          "adapter": "Mbio",
+          "baseline": "M0",
+          "records": 257,
+          "outcome_counts": {
+            "both_correct": 191,
+            "both_wrong": 39,
+            "repaired_error": 5,
+            "new_error": 22
+          },
+          "net_correct_change": -17,
+          "accuracy": {
+            "M0": 0.8287937743190662,
+            "Mbio": 0.7626459143968871,
+            "delta_percentage_points": -6.614785992217909
+          },
+          "macro_f1": {
+            "M0": 0.8302903370608178,
+            "Mbio": 0.745415535667894,
+            "delta": -0.0848748013929238
+          },
+          "gold_label_by_outcome": {
+            "ACCURATE": {
+              "both_correct": 84,
+              "repaired_error": 4,
+              "both_wrong": 1
+            },
+            "NOT_ACCURATE": {
+              "both_correct": 30,
+              "both_wrong": 37,
+              "new_error": 22
+            },
+            "IRRELEVANT": {
+              "both_correct": 77,
+              "both_wrong": 1,
+              "repaired_error": 1
+            }
+          },
+          "prediction_transition_matrix": {
+            "ACCURATE": {
+              "ACCURATE": 122
+            },
+            "NOT_ACCURATE": {
+              "NOT_ACCURATE": 31,
+              "ACCURATE": 26,
+              "IRRELEVANT": 1
+            },
+            "IRRELEVANT": {
+              "IRRELEVANT": 77
+            },
+            "INVALID": {}
+          },
+          "specific_new_errors": {
+            "gold_accurate_changed_to_other": 0,
+            "gold_nonaccurate_changed_to_accurate": 22
+          },
+          "example_ids_by_outcome": {
+            "both_correct": [
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+              "20",
+              "22",
+              "24",
+              "26",
+              "28",
+              "30",
+              "35",
+              "36",
+              "38",
+              "40",
+              "41",
+              "42",
+              "64",
+              "65",
+              "66"
+            ],
+            "both_wrong": [
+              "19",
+              "21",
+              "23",
+              "25",
+              "27",
+              "29",
+              "31",
+              "37",
+              "39",
+              "43",
+              "69",
+              "71",
+              "83",
+              "85",
+              "87",
+              "111",
+              "115",
+              "119",
+              "121",
+              "124"
+            ],
+            "repaired_error": [
+              "32",
+              "34",
+              "140",
+              "542",
+              "797"
+            ],
+            "new_error": [
+              "33",
+              "73",
+              "77",
+              "91",
+              "93",
+              "97",
+              "99",
+              "109",
+              "113",
+              "117",
+              "129",
+              "137",
+              "139",
+              "141",
+              "269",
+              "285",
+              "295",
+              "299",
+              "301",
+              "305"
+            ]
+          }
+        },
+        "Mscv": {
+          "adapter": "Mscv",
+          "baseline": "M0",
+          "records": 257,
+          "outcome_counts": {
+            "new_error": 9,
+            "both_correct": 204,
+            "repaired_error": 19,
+            "both_wrong": 25
+          },
+          "net_correct_change": 10,
+          "accuracy": {
+            "M0": 0.8287937743190662,
+            "Mscv": 0.867704280155642,
+            "delta_percentage_points": 3.891050583657585
+          },
+          "macro_f1": {
+            "M0": 0.8302903370608178,
+            "Mscv": 0.8723594714693977,
+            "delta": 0.042069134408579956
+          },
+          "gold_label_by_outcome": {
+            "ACCURATE": {
+              "new_error": 7,
+              "both_correct": 77,
+              "repaired_error": 1,
+              "both_wrong": 4
+            },
+            "NOT_ACCURATE": {
+              "both_correct": 50,
+              "repaired_error": 17,
+              "both_wrong": 20,
+              "new_error": 2
+            },
+            "IRRELEVANT": {
+              "both_correct": 77,
+              "both_wrong": 1,
+              "repaired_error": 1
+            }
+          },
+          "prediction_transition_matrix": {
+            "ACCURATE": {
+              "NOT_ACCURATE": 24,
+              "ACCURATE": 98
+            },
+            "NOT_ACCURATE": {
+              "NOT_ACCURATE": 54,
+              "ACCURATE": 3,
+              "IRRELEVANT": 1
+            },
+            "IRRELEVANT": {
+              "IRRELEVANT": 77
+            },
+            "INVALID": {}
+          },
+          "specific_new_errors": {
+            "gold_accurate_changed_to_other": 7,
+            "gold_nonaccurate_changed_to_accurate": 2
+          },
+          "example_ids_by_outcome": {
+            "new_error": [
+              "14",
+              "33",
+              "74",
+              "90",
+              "96",
+              "274",
+              "298",
+              "317",
+              "322"
+            ],
+            "both_correct": [
+              "15",
+              "16",
+              "17",
+              "18",
+              "20",
+              "22",
+              "24",
+              "26",
+              "28",
+              "30",
+              "35",
+              "36",
+              "38",
+              "40",
+              "41",
+              "42",
+              "64",
+              "65",
+              "66",
+              "67"
+            ],
+            "repaired_error": [
+              "19",
+              "25",
+              "32",
+              "39",
+              "43",
+              "71",
+              "83",
+              "87",
+              "111",
+              "133",
+              "273",
+              "297",
+              "321",
+              "323",
+              "327",
+              "329",
+              "543",
+              "549",
+              "797"
+            ],
+            "both_wrong": [
+              "21",
+              "23",
+              "27",
+              "29",
+              "31",
+              "34",
+              "37",
+              "69",
+              "85",
+              "115",
+              "119",
+              "121",
+              "124",
+              "127",
+              "140",
+              "275",
+              "281",
+              "283",
+              "293",
+              "325"
+            ]
+          }
+        }
+      }
+    },
+    "sarol": {
+      "records": 606,
+      "files": {
+        "inputs": "46b441cd7623ca827113ba5a52ae8a08d34cbbc4d5211b133e6af8595fc27391",
+        "gold": "696d6d9290c03e3ca79ff705aeeab52161932f3c2b229db87298427e900caeae",
+        "M0_predictions": "bdcabeff68aa28e9cabe76f7bbda771958dcf0cd5edf8b88dfcad13a7ca2408f",
+        "M0_metrics": "8502c0748b34743d6d43c2f95d6650d9af9a7a30f2732ef9d155aec7c00bdbbb",
+        "Mbio_predictions": "e61218ea91fd2cba670bfa44ae0bb5c7ccd32dd00da964751de89d7f80601e2d",
+        "Mbio_metrics": "17cff7417b5405765dd22198863ad35d60ad998c68afa792f9f0a77fd87c960b",
+        "Mscv_predictions": "a8508f0bad2646fc4e93440f5740e453a52a8b9ec46edc919971395e0cc179eb",
+        "Mscv_metrics": "f4db6660c79211d17af44050713b7c97946ca48cddb425f4d6c1a01796a73312"
+      },
+      "model_metrics": {
+        "M0": {
+          "accuracy": 0.4933993399339934,
+          "macro_f1": 0.5104299254076324,
+          "correct": 299,
+          "invalid_count": 1
+        },
+        "Mbio": {
+          "accuracy": 0.7161716171617162,
+          "macro_f1": 0.6453537351330311,
+          "correct": 434,
+          "invalid_count": 0
+        },
+        "Mscv": {
+          "accuracy": 0.566006600660066,
+          "macro_f1": 0.5727406785731693,
+          "correct": 343,
+          "invalid_count": 0
+        }
+      },
+      "comparisons": {
+        "Mbio": {
+          "adapter": "Mbio",
+          "baseline": "M0",
+          "records": 606,
+          "outcome_counts": {
+            "new_error": 51,
+            "both_wrong": 121,
+            "repaired_error": 186,
+            "both_correct": 248
+          },
+          "net_correct_change": 135,
+          "accuracy": {
+            "M0": 0.4933993399339934,
+            "Mbio": 0.7161716171617162,
+            "delta_percentage_points": 22.27722772277228
+          },
+          "macro_f1": {
+            "M0": 0.5104299254076324,
+            "Mbio": 0.6453537351330311,
+            "delta": 0.13492380972539864
+          },
+          "gold_label_by_outcome": {
+            "ACCURATE": {
+              "repaired_error": 177,
+              "both_correct": 137,
+              "both_wrong": 72
+            },
+            "NOT_ACCURATE": {
+              "new_error": 45,
+              "both_wrong": 29,
+              "both_correct": 87,
+              "repaired_error": 9
+            },
+            "IRRELEVANT": {
+              "new_error": 6,
+              "both_correct": 24,
+              "both_wrong": 20
+            }
+          },
+          "prediction_transition_matrix": {
+            "ACCURATE": {
+              "ACCURATE": 161
+            },
+            "NOT_ACCURATE": {
+              "ACCURATE": 222,
+              "NOT_ACCURATE": 164
+            },
+            "IRRELEVANT": {
+              "NOT_ACCURATE": 22,
+              "IRRELEVANT": 32,
+              "ACCURATE": 4
+            },
+            "INVALID": {
+              "ACCURATE": 1
+            }
+          },
+          "specific_new_errors": {
+            "gold_accurate_changed_to_other": 0,
+            "gold_nonaccurate_changed_to_accurate": 45
+          },
+          "example_ids_by_outcome": {
+            "new_error": [
+              "0",
+              "15",
+              "16",
+              "20",
+              "24",
+              "28",
+              "44",
+              "45",
+              "48",
+              "51",
+              "63",
+              "87",
+              "94",
+              "112",
+              "120",
+              "138",
+              "147",
+              "149",
+              "174",
+              "186"
+            ],
+            "both_wrong": [
+              "1",
+              "9",
+              "11",
+              "12",
+              "13",
+              "18",
+              "30",
+              "32",
+              "34",
+              "38",
+              "42",
+              "46",
+              "49",
+              "70",
+              "79",
+              "82",
+              "85",
+              "86",
+              "91",
+              "92"
+            ],
+            "repaired_error": [
+              "2",
+              "5",
+              "6",
+              "7",
+              "10",
+              "17",
+              "21",
+              "23",
+              "25",
+              "27",
+              "33",
+              "35",
+              "36",
+              "39",
+              "40",
+              "43",
+              "53",
+              "54",
+              "58",
+              "59"
+            ],
+            "both_correct": [
+              "3",
+              "4",
+              "8",
+              "14",
+              "19",
+              "22",
+              "26",
+              "29",
+              "31",
+              "37",
+              "41",
+              "47",
+              "50",
+              "52",
+              "55",
+              "56",
+              "57",
+              "60",
+              "67",
+              "69"
+            ]
+          }
+        },
+        "Mscv": {
+          "adapter": "Mscv",
+          "baseline": "M0",
+          "records": 606,
+          "outcome_counts": {
+            "both_correct": 285,
+            "both_wrong": 249,
+            "repaired_error": 58,
+            "new_error": 14
+          },
+          "net_correct_change": 44,
+          "accuracy": {
+            "M0": 0.4933993399339934,
+            "Mscv": 0.566006600660066,
+            "delta_percentage_points": 7.260726072607265
+          },
+          "macro_f1": {
+            "M0": 0.5104299254076324,
+            "Mscv": 0.5727406785731693,
+            "delta": 0.062310753165536914
+          },
+          "gold_label_by_outcome": {
+            "ACCURATE": {
+              "both_wrong": 197,
+              "both_correct": 132,
+              "repaired_error": 52,
+              "new_error": 5
+            },
+            "NOT_ACCURATE": {
+              "both_correct": 123,
+              "both_wrong": 33,
+              "repaired_error": 5,
+              "new_error": 9
+            },
+            "IRRELEVANT": {
+              "both_correct": 30,
+              "both_wrong": 19,
+              "repaired_error": 1
+            }
+          },
+          "prediction_transition_matrix": {
+            "ACCURATE": {
+              "ACCURATE": 155,
+              "NOT_ACCURATE": 6
+            },
+            "NOT_ACCURATE": {
+              "NOT_ACCURATE": 324,
+              "ACCURATE": 59,
+              "IRRELEVANT": 3
+            },
+            "IRRELEVANT": {
+              "IRRELEVANT": 50,
+              "NOT_ACCURATE": 8
+            },
+            "INVALID": {
+              "NOT_ACCURATE": 1
+            }
+          },
+          "specific_new_errors": {
+            "gold_accurate_changed_to_other": 5,
+            "gold_nonaccurate_changed_to_accurate": 7
+          },
+          "example_ids_by_outcome": {
+            "both_correct": [
+              "0",
+              "3",
+              "4",
+              "8",
+              "14",
+              "15",
+              "16",
+              "19",
+              "20",
+              "22",
+              "24",
+              "26",
+              "28",
+              "29",
+              "31",
+              "37",
+              "41",
+              "44",
+              "45",
+              "47"
+            ],
+            "both_wrong": [
+              "1",
+              "2",
+              "6",
+              "7",
+              "9",
+              "10",
+              "11",
+              "12",
+              "13",
+              "18",
+              "21",
+              "25",
+              "30",
+              "32",
+              "33",
+              "34",
+              "35",
+              "38",
+              "39",
+              "40"
+            ],
+            "repaired_error": [
+              "5",
+              "17",
+              "23",
+              "27",
+              "36",
+              "66",
+              "68",
+              "72",
+              "101",
+              "104",
+              "115",
+              "126",
+              "137",
+              "144",
+              "158",
+              "170",
+              "172",
+              "184",
+              "211",
+              "216"
+            ],
+            "new_error": [
+              "51",
+              "112",
+              "153",
+              "168",
+              "208",
+              "243",
+              "257",
+              "267",
+              "289",
+              "342",
+              "417",
+              "452",
+              "469",
+              "600"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
