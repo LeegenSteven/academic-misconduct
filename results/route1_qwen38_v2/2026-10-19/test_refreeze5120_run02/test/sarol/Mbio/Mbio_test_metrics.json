@@ -1,0 +1,80 @@
+{
+  "accuracy": 0.7161716171617162,
+  "macro_f1": 0.6453537351330311,
+  "per_class": {
+    "ACCURATE": {
+      "precision": 0.8092783505154639,
+      "recall": 0.8134715025906736,
+      "f1": 0.8113695090439277,
+      "support": 386,
+      "tp": 314,
+      "fp": 74,
+      "fn": 72,
+      "invalid_count": 0
+    },
+    "NOT_ACCURATE": {
+      "precision": 0.5161290322580645,
+      "recall": 0.5647058823529412,
+      "f1": 0.5393258426966292,
+      "support": 170,
+      "tp": 96,
+      "fp": 90,
+      "fn": 74,
+      "invalid_count": 0
+    },
+    "IRRELEVANT": {
+      "precision": 0.75,
+      "recall": 0.48,
+      "f1": 0.5853658536585366,
+      "support": 50,
+      "tp": 24,
+      "fp": 8,
+      "fn": 26,
+      "invalid_count": 0
+    }
+  },
+  "confusion_matrix": [
+    [
+      314,
+      67,
+      5
+    ],
+    [
+      71,
+      96,
+      3
+    ],
+    [
+      3,
+      23,
+      24
+    ]
+  ],
+  "invalid_by_gold": {
+    "ACCURATE": 0,
+    "NOT_ACCURATE": 0,
+    "IRRELEVANT": 0
+  },
+  "invalid_count": 0,
+  "total": 606,
+  "correct": 434,
+  "label_order": [
+    "ACCURATE",
+    "NOT_ACCURATE",
+    "IRRELEVANT"
+  ],
+  "invalid_policy": "count as false negative of gold class; included in total",
+  "model": "Mbio",
+  "split": "test",
+  "adapter": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_full_memopt_trial_20261017_gpu2/train/checkpoint-100",
+  "inference_time_seconds": 1182.5,
+  "max_new_tokens": 512,
+  "enable_thinking": false,
+  "retry_policy": "none; all first attempts retained, INVALID scored as errors",
+  "retry_count": 0,
+  "inputs_sha256": "46b441cd7623ca827113ba5a52ae8a08d34cbbc4d5211b133e6af8595fc27391",
+  "gold_sha256": "696d6d9290c03e3ca79ff705aeeab52161932f3c2b229db87298427e900caeae",
+  "prediction_sha256": "e61218ea91fd2cba670bfa44ae0bb5c7ccd32dd00da964751de89d7f80601e2d",
+  "max_length": 5120,
+  "truncation_policy": "fail on overlength"
+}

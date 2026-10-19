@@ -1,0 +1,80 @@
+{
+  "accuracy": 0.867704280155642,
+  "macro_f1": 0.8723594714693977,
+  "per_class": {
+    "ACCURATE": {
+      "precision": 0.7722772277227723,
+      "recall": 0.8764044943820225,
+      "f1": 0.8210526315789474,
+      "support": 89,
+      "tp": 78,
+      "fp": 23,
+      "fn": 11,
+      "invalid_count": 0
+    },
+    "NOT_ACCURATE": {
+      "precision": 0.8589743589743589,
+      "recall": 0.7528089887640449,
+      "f1": 0.8023952095808383,
+      "support": 89,
+      "tp": 67,
+      "fp": 11,
+      "fn": 22,
+      "invalid_count": 0
+    },
+    "IRRELEVANT": {
+      "precision": 1.0,
+      "recall": 0.9873417721518988,
+      "f1": 0.9936305732484076,
+      "support": 79,
+      "tp": 78,
+      "fp": 0,
+      "fn": 1,
+      "invalid_count": 0
+    }
+  },
+  "confusion_matrix": [
+    [
+      78,
+      11,
+      0
+    ],
+    [
+      22,
+      67,
+      0
+    ],
+    [
+      1,
+      0,
+      78
+    ]
+  ],
+  "invalid_by_gold": {
+    "ACCURATE": 0,
+    "NOT_ACCURATE": 0,
+    "IRRELEVANT": 0
+  },
+  "invalid_count": 0,
+  "total": 257,
+  "correct": 223,
+  "label_order": [
+    "ACCURATE",
+    "NOT_ACCURATE",
+    "IRRELEVANT"
+  ],
+  "invalid_policy": "count as false negative of gold class; included in total",
+  "model": "Mscv",
+  "split": "test",
+  "adapter": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_qwen38_v2_train_20261016_gpu3/train/Mscv/final_adapter",
+  "inference_time_seconds": 515.0,
+  "max_new_tokens": 512,
+  "enable_thinking": false,
+  "retry_policy": "none; all first attempts retained, INVALID scored as errors",
+  "retry_count": 0,
+  "inputs_sha256": "da705b96dff43c8077de9ed7c261048ba427795848126ad941f4c7cd9ff73301",
+  "gold_sha256": "98512eb476fe31da3f36dea716ea3333008234f2af9ac191afd10d48a854eabd",
+  "prediction_sha256": "ec55c6f770b941441b753f21c9dfd4e2b4d8c069e38f0662691548ab3f2441b4",
+  "max_length": 5120,
+  "truncation_policy": "fail on overlength"
+}

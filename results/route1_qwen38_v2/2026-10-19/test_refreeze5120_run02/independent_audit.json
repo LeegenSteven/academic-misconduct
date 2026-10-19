@@ -1,0 +1,257 @@
+{
+  "status": "passed_independent_six_unit_test_and_log_audit",
+  "scope": "Local copied run02 results; classification metrics only; no checkpoint reselection",
+  "freeze": "route1_qwen38_v2 Test, uniform max_length=5120, max_new_tokens=512",
+  "source_run_root": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_qwen38_v2_test_20261018_refreeze5120_run02",
+  "copied_result_root": ".",
+  "frozen_data_hashes": {
+    "sciciteval": {
+      "inputs_sha256": "da705b96dff43c8077de9ed7c261048ba427795848126ad941f4c7cd9ff73301",
+      "gold_sha256": "98512eb476fe31da3f36dea716ea3333008234f2af9ac191afd10d48a854eabd",
+      "records": 257
+    },
+    "sarol": {
+      "inputs_sha256": "46b441cd7623ca827113ba5a52ae8a08d34cbbc4d5211b133e6af8595fc27391",
+      "gold_sha256": "696d6d9290c03e3ca79ff705aeeab52161932f3c2b229db87298427e900caeae",
+      "records": 606
+    }
+  },
+  "files_checked": 12,
+  "total_predictions_checked": 2589,
+  "checks": [
+    "input and gold frozen hashes",
+    "six unit file inventory",
+    "prediction SHA against metrics",
+    "ID order and gold alignment",
+    "raw response label parsing",
+    "single attempt/no retry",
+    "token budget and configuration",
+    "confusion, invalid counts, Accuracy, Macro-F1 and per-class metrics",
+    "six matching log commands, completion records, output paths, and displayed metrics; no exception traceback"
+  ],
+  "run_log": {
+    "path": "run02.run.log",
+    "sha256": "0f32732e31b9fbad62370f8e2c72a7bd8abd3b0cdb24a968c34c59b36f78073b",
+    "bytes": 80322,
+    "completed_units": [
+      "sciciteval/M0",
+      "sciciteval/Mbio",
+      "sciciteval/Mscv",
+      "sarol/M0",
+      "sarol/Mbio",
+      "sarol/Mscv"
+    ],
+    "exception_tracebacks": 0
+  },
+  "units": {
+    "sciciteval": {
+      "M0": {
+        "status": "passed",
+        "records": 257,
+        "correct": 213,
+        "accuracy": 0.8287937743190662,
+        "macro_f1": 0.8302903370608178,
+        "invalid_count": 0,
+        "invalid_by_gold": {
+          "ACCURATE": 0,
+          "NOT_ACCURATE": 0,
+          "IRRELEVANT": 0
+        },
+        "confusion_matrix": [
+          [
+            84,
+            5,
+            0
+          ],
+          [
+            37,
+            52,
+            0
+          ],
+          [
+            1,
+            1,
+            77
+          ]
+        ],
+        "prediction_sha256": "1dd4f71864b875fb4f623e8171943109b135518d075f74dd14f0f3d6f85e2680",
+        "metrics_sha256": "f3ebff8a6296402e5176278f58d34353210affa227e1da43819a4c5deb0f8a8c",
+        "generation_at_token_limit_count": 0,
+        "inference_time_seconds_reported": 2717.0
+      },
+      "Mbio": {
+        "status": "passed",
+        "records": 257,
+        "correct": 196,
+        "accuracy": 0.7626459143968871,
+        "macro_f1": 0.745415535667894,
+        "invalid_count": 0,
+        "invalid_by_gold": {
+          "ACCURATE": 0,
+          "NOT_ACCURATE": 0,
+          "IRRELEVANT": 0
+        },
+        "confusion_matrix": [
+          [
+            88,
+            1,
+            0
+          ],
+          [
+            59,
+            30,
+            0
+          ],
+          [
+            1,
+            0,
+            78
+          ]
+        ],
+        "prediction_sha256": "b0ac79e1eeb19af60d8258b2077f3072027094fd84fa57487684824c218f8911",
+        "metrics_sha256": "205bb740941a779814951921685a478f351d2f84608dd3c4610517b20c898619",
+        "generation_at_token_limit_count": 0,
+        "inference_time_seconds_reported": 497.0
+      },
+      "Mscv": {
+        "status": "passed",
+        "records": 257,
+        "correct": 223,
+        "accuracy": 0.867704280155642,
+        "macro_f1": 0.8723594714693977,
+        "invalid_count": 0,
+        "invalid_by_gold": {
+          "ACCURATE": 0,
+          "NOT_ACCURATE": 0,
+          "IRRELEVANT": 0
+        },
+        "confusion_matrix": [
+          [
+            78,
+            11,
+            0
+          ],
+          [
+            22,
+            67,
+            0
+          ],
+          [
+            1,
+            0,
+            78
+          ]
+        ],
+        "prediction_sha256": "ec55c6f770b941441b753f21c9dfd4e2b4d8c069e38f0662691548ab3f2441b4",
+        "metrics_sha256": "68479b04161e047db5e381129e50a85040bdbda1b351adb806e5c92c6f2a4137",
+        "generation_at_token_limit_count": 0,
+        "inference_time_seconds_reported": 515.0
+      }
+    },
+    "sarol": {
+      "M0": {
+        "status": "passed",
+        "records": 606,
+        "correct": 299,
+        "accuracy": 0.4933993399339934,
+        "macro_f1": 0.5104299254076324,
+        "invalid_count": 1,
+        "invalid_by_gold": {
+          "ACCURATE": 1,
+          "NOT_ACCURATE": 0,
+          "IRRELEVANT": 0
+        },
+        "confusion_matrix": [
+          [
+            137,
+            234,
+            14
+          ],
+          [
+            24,
+            132,
+            14
+          ],
+          [
+            0,
+            20,
+            30
+          ]
+        ],
+        "prediction_sha256": "bdcabeff68aa28e9cabe76f7bbda771958dcf0cd5edf8b88dfcad13a7ca2408f",
+        "metrics_sha256": "8502c0748b34743d6d43c2f95d6650d9af9a7a30f2732ef9d155aec7c00bdbbb",
+        "generation_at_token_limit_count": 1,
+        "inference_time_seconds_reported": 7581.9
+      },
+      "Mbio": {
+        "status": "passed",
+        "records": 606,
+        "correct": 434,
+        "accuracy": 0.7161716171617162,
+        "macro_f1": 0.6453537351330311,
+        "invalid_count": 0,
+        "invalid_by_gold": {
+          "ACCURATE": 0,
+          "NOT_ACCURATE": 0,
+          "IRRELEVANT": 0
+        },
+        "confusion_matrix": [
+          [
+            314,
+            67,
+            5
+          ],
+          [
+            71,
+            96,
+            3
+          ],
+          [
+            3,
+            23,
+            24
+          ]
+        ],
+        "prediction_sha256": "e61218ea91fd2cba670bfa44ae0bb5c7ccd32dd00da964751de89d7f80601e2d",
+        "metrics_sha256": "17cff7417b5405765dd22198863ad35d60ad998c68afa792f9f0a77fd87c960b",
+        "generation_at_token_limit_count": 0,
+        "inference_time_seconds_reported": 1182.5
+      },
+      "Mscv": {
+        "status": "passed",
+        "records": 606,
+        "correct": 343,
+        "accuracy": 0.566006600660066,
+        "macro_f1": 0.5727406785731695,
+        "invalid_count": 0,
+        "invalid_by_gold": {
+          "ACCURATE": 0,
+          "NOT_ACCURATE": 0,
+          "IRRELEVANT": 0
+        },
+        "confusion_matrix": [
+          [
+            184,
+            192,
+            10
+          ],
+          [
+            30,
+            128,
+            12
+          ],
+          [
+            0,
+            19,
+            31
+          ]
+        ],
+        "prediction_sha256": "a8508f0bad2646fc4e93440f5740e453a52a8b9ec46edc919971395e0cc179eb",
+        "metrics_sha256": "f4db6660c79211d17af44050713b7c97946ca48cddb425f4d6c1a01796a73312",
+        "generation_at_token_limit_count": 0,
+        "inference_time_seconds_reported": 1218.7
+      }
+    }
+  },
+  "note": "The copied raw outputs and log are preserved unchanged. Test metrics are for reporting, not checkpoint selection."
+}

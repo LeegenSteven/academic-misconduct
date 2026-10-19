@@ -1,0 +1,80 @@
+{
+  "accuracy": 0.8287937743190662,
+  "macro_f1": 0.8302903370608178,
+  "per_class": {
+    "ACCURATE": {
+      "precision": 0.6885245901639344,
+      "recall": 0.9438202247191011,
+      "f1": 0.7962085308056872,
+      "support": 89,
+      "tp": 84,
+      "fp": 38,
+      "fn": 5,
+      "invalid_count": 0
+    },
+    "NOT_ACCURATE": {
+      "precision": 0.896551724137931,
+      "recall": 0.5842696629213483,
+      "f1": 0.7074829931972789,
+      "support": 89,
+      "tp": 52,
+      "fp": 6,
+      "fn": 37,
+      "invalid_count": 0
+    },
+    "IRRELEVANT": {
+      "precision": 1.0,
+      "recall": 0.9746835443037974,
+      "f1": 0.9871794871794872,
+      "support": 79,
+      "tp": 77,
+      "fp": 0,
+      "fn": 2,
+      "invalid_count": 0
+    }
+  },
+  "confusion_matrix": [
+    [
+      84,
+      5,
+      0
+    ],
+    [
+      37,
+      52,
+      0
+    ],
+    [
+      1,
+      1,
+      77
+    ]
+  ],
+  "invalid_by_gold": {
+    "ACCURATE": 0,
+    "NOT_ACCURATE": 0,
+    "IRRELEVANT": 0
+  },
+  "invalid_count": 0,
+  "total": 257,
+  "correct": 213,
+  "label_order": [
+    "ACCURATE",
+    "NOT_ACCURATE",
+    "IRRELEVANT"
+  ],
+  "invalid_policy": "count as false negative of gold class; included in total",
+  "model": "M0",
+  "split": "test",
+  "adapter": null,
+  "inference_time_seconds": 2717.0,
+  "max_new_tokens": 512,
+  "enable_thinking": false,
+  "retry_policy": "none; all first attempts retained, INVALID scored as errors",
+  "retry_count": 0,
+  "inputs_sha256": "da705b96dff43c8077de9ed7c261048ba427795848126ad941f4c7cd9ff73301",
+  "gold_sha256": "98512eb476fe31da3f36dea716ea3333008234f2af9ac191afd10d48a854eabd",
+  "prediction_sha256": "1dd4f71864b875fb4f623e8171943109b135518d075f74dd14f0f3d6f85e2680",
+  "max_length": 5120,
+  "truncation_policy": "fail on overlength"
+}

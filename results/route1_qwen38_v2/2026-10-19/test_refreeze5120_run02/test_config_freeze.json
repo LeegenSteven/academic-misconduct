@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-18",
+  "status": "classification_test_config_refrozen_pending_run02",
+  "revision_reason": "The original 4096 input-plus-generation guard stopped sarol/M0 at Test claim_id=19: 4238+512=4750. CPU tokenizer audit found this was the only overlength item among 863 Test inputs.",
+  "confirmation": {
+    "person": "陈明进",
+    "decision": "Confirm a uniform max_length of 5120 and a fresh complete six-unit Test run",
+    "source": "李云在当前 Codex 对话中答复‘确认采用 5120（推荐）’，转达对‘陈明进是否确认接受这一配置变更’的肯定答复",
+    "source_type": "user_relayed_confirmation",
+    "independent_signed_document_attached": false
+  },
+  "prior_freeze": {
+    "path": "路线一冻结核验_20261018/13_分类配置冻结与陈明进确认_20261018.json",
+    "sha256": "a7209f1f4e58747f17821b4ad09492bfcce1a7408a3fd1a0adf1ef4effa594d8"
+  },
+  "failure_and_proposal": {
+    "path": "路线一冻结核验_20261018/16_Test超长中止与配置修订提案_20261018.md",
+    "sha256": "24bb214fc9ef0fbc84a4cd5cc76b420b4924d080b3d6110a42bb697f60737afa"
+  },
+  "changed_parameter_only": {
+    "name": "max_length",
+    "old": 4096,
+    "new": 5120,
+    "semantics": "Total input plus maximum generation token budget guard; this value is not passed to model.generate"
+  },
+  "unchanged": {
+    "base_revision": "Qwen/Qwen3.8-27B@1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "Mscv_adapter": "final_adapter, adapter_model_sha256=5d9be2027cf3de78f4df6a89564dab9b3cf970c0d7b9917a4f965b8e88e8bf54",
+    "Mbio_adapter": "checkpoint-100, adapter_model_sha256=0f4019af9d0f510408f841797c1038bb19abfee8b6e5f24dc7f222501776bd09",
+    "max_new_tokens": 512,
+    "enable_thinking": false,
+    "do_sample": false,
+    "retry_policy": "none",
+    "overlength_policy": "fail; no truncation",
+    "test_inputs_and_gold": "Same 257 SciCiteVal and 606 Sarol records with hashes in prior freeze",
+    "evaluator_sha256": "c5a5862512911c37bad0e131d8f7342658c78443f8c1df3a5b0e4ea81eaa1d42",
+    "parser_sha256": "93e881ea4a9d8dc92c897a87862a185bd5527ee58f31567472e29a8ef7261776",
+    "runner_sha256": "e852d09e0845e18a93877afe6f5afb0dd556df134d584af0b1996e284a165be9"
+  },
+  "length_audit": {
+    "sciciteval_test_records": 257,
+    "sciciteval_over_4096": 0,
+    "sciciteval_max_total": 2890,
+    "sarol_test_records": 606,
+    "sarol_over_4096": 1,
+    "sarol_max_total": 4750,
+    "single_overlength_claim_id": "19",
+    "all_test_records_fit_5120": true,
+    "source": "User-pasted A100 CPU tokenizer scan with the same chat template and no model loading"
+  },
+  "dev_reuse_rationale": "All six Dev evaluation processes completed under the stricter 4096 guard. In the hashed evaluator max_length is only a pre-generation failure check, not a generate argument; increasing it to 5120 cannot change model outputs for records already within 4096. Checkpoints remain chosen solely from native-domain Dev.",
+  "test_data_access_disclosure": "This revision was triggered by Test input token lengths and the run01 error, not by any Test accuracy or model comparison. Do not use run01 Test scores to alter checkpoints.",
+  "run01": {
+    "output_root": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_qwen38_v2_test_20261018_frozen_run01",
+    "status": "failed_in_sarol_M0_after_three_sciciteval_subprocesses_completed",
+    "preserve_original_files": true,
+    "do_not_merge_with_run02": true
+  },
+  "run02": {
+    "output_root": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_qwen38_v2_test_20261018_refreeze5120_run02",
+    "units": ["sciciteval/M0", "sciciteval/Mbio", "sciciteval/Mscv", "sarol/M0", "sarol/Mbio", "sarol/Mscv"],
+    "full_recompute_required": true,
+    "executed_at_record_creation": false,
+    "prelaunch_checks": ["GPU availability", "output root and log unused", "six-command dry-run with max_length=5120"]
+  }
+}
