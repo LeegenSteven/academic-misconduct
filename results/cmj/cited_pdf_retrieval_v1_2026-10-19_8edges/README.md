@@ -7,16 +7,18 @@
 
 ## 引用边列表
 
-| 引用边 | 施引 PMCID | 被引 PMCID | 主题 | 人工盲标 |
+| 引用边 | 施引 PMCID | 被引 PMCID | 被引文献主题 | 人工盲标 |
 |---|---|---|---|---|
-| V3-02 | PMC13625197 | PMC9708575 | 根管封闭剂理化性质 | ACCURATE |
-| V3-03 | PMC12900525 | PMC10045528 | 黏附定义 | NOT_ACCURATE |
-| V3-04 | PMC13625197 | PMC9708575 | AH-Plus 粘结强度 | ACCURATE |
-| V3-05 | PMC12900525 | PMC10045528 | 丝氨酸八聚体手性 | NOT_ACCURATE |
-| V3-06 | PMC13625197 | PMC9708575 | 前生物化学有机单体 | ACCURATE |
-| V3-07 | PMC12900525 | PMC10045528 | 质谱手性分析 | ACCURATE |
-| V3-09 | PMC13625197 | PMC9708575 | HA-rich ECM 信号平台 | ACCURATE |
-| V3-10 | PMC12900525 | PMC10045528 | 胶质反应破坏突触稳态 | ACCURATE |
+| V3-02 | PMC12900525 | PMC10765876 | AH-Plus/Bio-C/ADseal 根管封闭剂理化性质 | ACCURATE |
+| V3-03 | PMC12900525 | PMC4868912 | 生物陶瓷根管封闭剂综述（黏附定义） | NOT_ACCURATE |
+| V3-04 | PMC12900525 | PMC4841349 | 根管干燥度对封闭剂粘结强度影响 | ACCURATE |
+| V3-05 | PMC13583542 | PMC13324970 | 丝氨酸八聚体与 α-羟基酸取代反应 | NOT_ACCURATE |
+| V3-06 | PMC13583542 | PMC8876357 | α/β 氨基酸和羟基酸的差异寡聚化 | ACCURATE |
+| V3-07 | PMC13583542 | PMC13193722 | D/L-2-羟基戊二酸发现手性依赖蛋白修饰 | ACCURATE |
+| V3-09 | PMC13625197 | PMC7504301 | 透明质酸及其受体在神经系统中的多样作用 | ACCURATE |
+| V3-10 | PMC13625197 | PMC10464498 | 生物制剂与衰老大脑：胶质炎症和神经毒性信号 | ACCURATE |
+
+> 注：PMCID 以 manifest.json 和 locators.jsonl 为准，本表已修正。
 
 ## 盲标分布
 
