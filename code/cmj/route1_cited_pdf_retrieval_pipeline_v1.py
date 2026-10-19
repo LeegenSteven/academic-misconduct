@@ -53,6 +53,14 @@ _ABBREVIATIONS = ["et al.", "e.g.", "i.e.", "vs.", "figs.", "fig.", "etc.",
                   "approx.", "inc.", "ltd.", "al."]
 
 
+def _repo_rel(path: Path) -> str:
+    """安全地把路径转为相对于 REPO_ROOT 的字符串；不在仓库内时回退绝对路径。"""
+    try:
+        return str(path.resolve().relative_to(REPO_ROOT))
+    except ValueError:
+        return str(path.resolve())
+
+
 def file_sha256(path: Path) -> str:
     h = hashlib.sha256()
     with path.open("rb") as fh:
@@ -317,7 +325,7 @@ def main() -> None:
         "purpose": "被引全文(PMC JATS XML)证据检索端到端原型；接通真实两篇被引文献到 v2 模型输入",
         "builder": "code/cmj/route1_cited_pdf_retrieval_pipeline_v1.py",
         "builder_sha256": file_sha256(Path(__file__)),
-        "edge_pool": str(args.pool.relative_to(REPO_ROOT)),
+        "edge_pool": _repo_rel(args.pool),
         "edges": args.edges,
         "retrieval": {
             "corpus": "被引文献 PMC JATS 全文：abstract + body 所有 sec 段落",
@@ -330,8 +338,8 @@ def main() -> None:
         "system_prompt_sha256": hashlib.sha256(SYSTEM_PROMPT.encode("utf-8")).hexdigest(),
         "edges_summary": edge_summaries,
         "outputs": {
-            "inputs": {"path": str(inputs_path.relative_to(REPO_ROOT)), "sha256": file_sha256(inputs_path), "records": len(inputs)},
-            "locators": {"path": str(locators_path.relative_to(REPO_ROOT)), "sha256": file_sha256(locators_path), "records": len(locators)},
+            "inputs": {"path": _repo_rel(inputs_path), "sha256": file_sha256(inputs_path), "records": len(inputs)},
+            "locators": {"path": _repo_rel(locators_path), "sha256": file_sha256(locators_path), "records": len(locators)},
         },
         "model_inference": "需在 A100 用冻结 adapter 对 cited_pdf_demo.inputs.jsonl 推理；本地仅产出输入",
     }

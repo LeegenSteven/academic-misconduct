@@ -1,0 +1,114 @@
+{
+  "manifest_version": "cited_pdf_retrieval_v1_2026-10-18",
+  "purpose": "被引全文(PMC JATS XML)证据检索端到端原型；接通真实两篇被引文献到 v2 模型输入",
+  "builder": "code/cmj/route1_cited_pdf_retrieval_pipeline_v1.py",
+  "builder_sha256": "3346f228a993e399ca228e2d8b5eb6e7babbbc4735419a13e33723ced9825349",
+  "edge_pool": "data\\interim\\pmc_oa_candidate_pool_ly_v3_2026-10-05.json",
+  "edges": [
+    "PMC-OA-V3-02",
+    "PMC-OA-V3-03",
+    "PMC-OA-V3-04",
+    "PMC-OA-V3-05",
+    "PMC-OA-V3-06",
+    "PMC-OA-V3-07",
+    "PMC-OA-V3-09",
+    "PMC-OA-V3-10"
+  ],
+  "retrieval": {
+    "corpus": "被引文献 PMC JATS 全文：abstract + body 所有 sec 段落",
+    "top_k": 10,
+    "bm25_k1": 1.2,
+    "bm25_b": 0.75,
+    "consistency": "分词/BM25/平局规则/prompt渲染/sha256 全部复用 code/ly/build_sarol_inputs_v2.py",
+    "difference_from_frozen_v2": "冻结 Sarol v2 仅检索摘要句；本流程检索全文句并保留 section/段落/字符偏移"
+  },
+  "gold_policy": "真实边候选池未裁决(adjudicated_label=null)，不写 gold、不参与指标；模型 A100 推理后人工盲标裁决",
+  "system_prompt_sha256": "136f8af5e78e4c0e8f8bbaf80d0caab6f30302dd7de227c0e524d6e899a6e07c",
+  "edges_summary": [
+    {
+      "candidate_id": "PMC-OA-V3-02",
+      "citing_pmcid": "PMC12900525",
+      "cited_pmcid": "PMC10765876",
+      "cited_title": "Physicochemical properties of AH plus bioceramic sealer, Bio-C Sealer, and ADseal root canal sealer",
+      "fulltext_sentences": 183,
+      "top1_evidence_id": "D01:S01",
+      "top1_section": "Background"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-03",
+      "citing_pmcid": "PMC12900525",
+      "cited_pmcid": "PMC4868912",
+      "cited_title": "Bioceramic-Based Root Canal Sealers: A Review",
+      "fulltext_sentences": 155,
+      "top1_evidence_id": "D01:S01",
+      "top1_section": "2.9. Adhesion"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-04",
+      "citing_pmcid": "PMC12900525",
+      "cited_pmcid": "PMC4841349",
+      "cited_title": "The Effect of Canal Dryness on Bond Strength of Bioceramic and Epoxy-resin Sealers after Irrigation with Sodium Hypochlorite or Chlorhexidine",
+      "fulltext_sentences": 108,
+      "top1_evidence_id": "D01:S01",
+      "top1_section": "Discussion"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-05",
+      "citing_pmcid": "PMC13583542",
+      "cited_pmcid": "PMC13324970",
+      "cited_title": "Serine Octamer Substitution Reactions With α‐Hydroxy Acids",
+      "fulltext_sentences": 100,
+      "top1_evidence_id": "D01:S01",
+      "top1_section": "Results and Discussion"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-06",
+      "citing_pmcid": "PMC13583542",
+      "cited_pmcid": "PMC8876357",
+      "cited_title": "Differential Oligomerization of Alpha versus Beta Amino Acids and Hydroxy Acids in Abiotic Proto-Peptide Synthesis Reactions",
+      "fulltext_sentences": 184,
+      "top1_evidence_id": "D01:S01",
+      "top1_section": "3.1. Alpha and Beta Amino and Hydroxy Acids Exhibit a Different Extent of Polymerization in Single-Step Dry-Down Reactions"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-07",
+      "citing_pmcid": "PMC13583542",
+      "cited_pmcid": "PMC13193722",
+      "cited_title": "Discovery of chirally dependent protein modifications by D- and L-2-hydroxyglutarates",
+      "fulltext_sentences": 257,
+      "top1_evidence_id": "D01:S01",
+      "top1_section": "Main"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-09",
+      "citing_pmcid": "PMC13625197",
+      "cited_pmcid": "PMC7504301",
+      "cited_title": "Diverse Roles for Hyaluronan and Hyaluronan Receptors in the Developing and Adult Nervous System",
+      "fulltext_sentences": 249,
+      "top1_evidence_id": "D01:S01",
+      "top1_section": "2.4. HA in Injury and Disease"
+    },
+    {
+      "candidate_id": "PMC-OA-V3-10",
+      "citing_pmcid": "PMC13625197",
+      "cited_pmcid": "PMC10464498",
+      "cited_title": "Biological agents and the aging brain: glial inflammation and neurotoxic signaling",
+      "fulltext_sentences": 339,
+      "top1_evidence_id": "D01:S01",
+      "top1_section": "6 Bacterial infections induce glial reactivity"
+    }
+  ],
+  "outputs": {
+    "inputs": {
+      "path": "results\\cmj\\cited_pdf_retrieval_v1_2026-10-19_8edges\\cited_pdf_demo.inputs.jsonl",
+      "sha256": "acf9ec74adfa5ba9efaacb6a2457af870dccecaa274861c626fa0380b1b82fad",
+      "records": 8
+    },
+    "locators": {
+      "path": "results\\cmj\\cited_pdf_retrieval_v1_2026-10-19_8edges\\cited_pdf_demo.locators.jsonl",
+      "sha256": "b2ae4dbef89477008645c5eb8f09ae9330ef0b68b833ae789c981c0d3d45656d",
+      "records": 8
+    }
+  },
+  "model_inference": "需在 A100 用冻结 adapter 对 cited_pdf_demo.inputs.jsonl 推理；本地仅产出输入"
+}
