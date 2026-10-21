@@ -170,7 +170,13 @@ def test_single_batch_loss(model, tokenizer, records, max_length):
 
 
 def test_gradient_accumulation(model, tokenizer, records, max_length, accum_steps=4):
-    """测试2: 梯度累积一致性（含最后不足一个周期）"""
+    """测试2: 梯度累积一致性（含最后不足一个周期）
+
+    正确模拟 transformers 5.8 Trainer 行为：
+    - num_items_in_batch = 整个累积周期的有效 token 总数
+    - 每个 microbatch loss = sum(token_losses) / num_items_in_batch
+    - 不再额外除以 accum_steps
+    """
     print(f"\n=== 测试2: 梯度累积一致性 (accum_steps={accum_steps}) ===")
     collator = AssistantOnlyCollator(tokenizer)
 
@@ -178,59 +184,90 @@ def test_gradient_accumulation(model, tokenizer, records, max_length, accum_step
     n_samples = accum_steps + 1
     test_records = records[:n_samples]
 
-    # 标准版：手动模拟梯度累积
-    model.zero_grad()
-    accumulated_grads_std = {}
-    losses_std = []
-    for i, record in enumerate(test_records):
+    # 预计算每个样本的监督 token 数和整个周期的 num_items_in_batch
+    sample_supervised_tokens = []
+    for record in test_records:
         dataset = Dataset.from_list([encode_assistant_record(record, tokenizer, max_length)])
         batch = collator([dataset[0]])
-        batch = {k: v.to(model.device) for k, v in batch.items()}
-        outputs = model(**batch)
-        loss = outputs.loss / accum_steps  # 模拟 Trainer 的 loss scaling
-        loss.backward()
-        losses_std.append(outputs.loss.item())
-        if (i + 1) % accum_steps == 0 or i == len(test_records) - 1:
-            # 累积周期结束（或最后不足一个周期），记录梯度
-            step_grads = get_trainable_gradients(model)
-            for name, g in step_grads.items():
-                accumulated_grads_std[name] = g.clone()
-            model.zero_grad()
-
-    # 优化版：同样模拟
-    model.zero_grad()
-    accumulated_grads_opt = {}
-    losses_opt = []
-    for i, record in enumerate(test_records):
-        dataset = Dataset.from_list([encode_assistant_record(record, tokenizer, max_length)])
-        batch = collator([dataset[0]])
-        batch = {k: v.to(model.device) for k, v in batch.items()}
         labels = batch["labels"]
-        positions = torch.nonzero(labels[0, 1:].ne(-100), as_tuple=False).flatten()
-        model_inputs = {k: v for k, v in batch.items() if k != "labels"}
-        outputs = model(**model_inputs, logits_to_keep=positions)
-        logits = outputs.logits
-        targets = labels[0].index_select(0, positions + 1)
-        loss = torch.nn.functional.cross_entropy(logits[0].float(), targets, reduction="mean")
-        loss_scaled = loss / accum_steps
-        loss_scaled.backward()
-        losses_opt.append(loss.item())
-        if (i + 1) % accum_steps == 0 or i == len(test_records) - 1:
-            step_grads = get_trainable_gradients(model)
-            for name, g in step_grads.items():
-                accumulated_grads_opt[name] = g.clone()
-            model.zero_grad()
+        supervised = labels[0, 1:].ne(-100).sum().item()
+        sample_supervised_tokens.append(supervised)
 
-    max_grad_diff, mismatched, total = compare_gradients(accumulated_grads_std, accumulated_grads_opt)
+    def run_standard(records_subset, total_tokens):
+        """标准版：sum / total_cycle_tokens，与 Trainer fixed_cross_entropy 一致"""
+        model.zero_grad()
+        losses = []
+        for i, record in enumerate(records_subset):
+            dataset = Dataset.from_list([encode_assistant_record(record, tokenizer, max_length)])
+            batch = collator([dataset[0]])
+            batch = {k: v.to(model.device) for k, v in batch.items()}
+            outputs = model(**batch)
+            # model 直接调用时 num_items_in_batch=None，loss 是 mean
+            # 需要手动转为 sum/total_tokens 以匹配 Trainer 行为
+            n_sup = sample_supervised_tokens[i]
+            loss_sum = outputs.loss * n_sup  # mean * count = sum
+            loss = loss_sum / total_tokens
+            loss.backward()
+            losses.append(loss.item())
+            if (i + 1) % accum_steps == 0 or i == len(records_subset) - 1:
+                step_grads = get_trainable_gradients(model)
+                model.zero_grad()
+        return losses, step_grads
+
+    def run_memopt(records_subset, total_tokens):
+        """优化版：sum / total_cycle_tokens（修复后与标准版一致）"""
+        model.zero_grad()
+        losses = []
+        for i, record in enumerate(records_subset):
+            dataset = Dataset.from_list([encode_assistant_record(record, tokenizer, max_length)])
+            batch = collator([dataset[0]])
+            batch = {k: v.to(model.device) for k, v in batch.items()}
+            labels = batch["labels"]
+            positions = torch.nonzero(labels[0, 1:].ne(-100), as_tuple=False).flatten()
+            model_inputs = {k: v for k, v in batch.items() if k != "labels"}
+            outputs = model(**model_inputs, logits_to_keep=positions)
+            logits = outputs.logits
+            targets = labels[0].index_select(0, positions + 1)
+            # sum reduction then divide by total cycle tokens
+            loss_sum = torch.nn.functional.cross_entropy(
+                logits[0].float(), targets, reduction="sum"
+            )
+            loss = loss_sum / total_tokens
+            loss.backward()
+            losses.append(loss.item())
+            if (i + 1) % accum_steps == 0 or i == len(records_subset) - 1:
+                step_grads = get_trainable_gradients(model)
+                model.zero_grad()
+        return losses, step_grads
+
+    # 完整周期（前 accum_steps 条）
+    cycle_tokens = sum(sample_supervised_tokens[:accum_steps])
+    losses_std, grads_std = run_standard(test_records[:accum_steps], cycle_tokens)
+    losses_opt, grads_opt = run_memopt(test_records[:accum_steps], cycle_tokens)
+
+    max_grad_diff, mismatched, total = compare_gradients(grads_std, grads_opt)
     loss_diffs = [abs(a - b) for a, b in zip(losses_std, losses_opt)]
 
-    print(f"  样本数: {n_samples} (完整周期: {n_samples // accum_steps}, 最后周期: {n_samples % accum_steps}条)")
+    print(f"  完整周期: {accum_steps}条, total_supervised_tokens={cycle_tokens}")
     print(f"  loss差异: max={max(loss_diffs):.2e}, mean={np.mean(loss_diffs):.2e}")
     print(f"  累积后梯度差异: max={max_grad_diff:.2e}, 不一致参数={mismatched}/{total}")
+
+    # 最后不足一个周期（剩余的 tail 样本）
+    if n_samples > accum_steps:
+        tail_records = test_records[accum_steps:]
+        tail_tokens = sum(sample_supervised_tokens[accum_steps:])
+        losses_std_tail, grads_std_tail = run_standard(tail_records, tail_tokens)
+        losses_opt_tail, grads_opt_tail = run_memopt(tail_records, tail_tokens)
+        max_grad_diff_tail, mismatched_tail, _ = compare_gradients(grads_std_tail, grads_opt_tail)
+        loss_diffs_tail = [abs(a - b) for a, b in zip(losses_std_tail, losses_opt_tail)]
+        print(f"  尾部周期: {len(tail_records)}条, total_supervised_tokens={tail_tokens}")
+        print(f"  尾部loss差异: max={max(loss_diffs_tail):.2e}")
+        print(f"  尾部梯度差异: max={max_grad_diff_tail:.2e}, 不一致参数={mismatched_tail}/{total}")
 
     return {
         'n_samples': n_samples,
         'accum_steps': accum_steps,
+        'cycle_tokens': cycle_tokens,
         'loss_diffs': loss_diffs,
         'max_grad_diff': max_grad_diff,
         'mismatched_params': mismatched,

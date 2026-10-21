@@ -86,8 +86,9 @@ class SupervisedLogitsTrainer(Trainer):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        # Match the original Qwen3.5 model's gradient-accumulation scaling.
-        self.model_accepts_loss_kwargs = False
+        # Accept num_items_in_batch so Trainer passes the total effective token
+        # count across the gradient-accumulation cycle, matching standard Trainer.
+        self.model_accepts_loss_kwargs = True
 
     def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
         labels = inputs["labels"]
@@ -102,7 +103,20 @@ class SupervisedLogitsTrainer(Trainer):
         if logits.shape[0] != 1 or logits.shape[1] != positions.numel():
             raise ValueError("Model did not honor logits_to_keep positions")
         targets = labels[0].index_select(0, positions + 1)
-        loss = torch.nn.functional.cross_entropy(logits[0].float(), targets, reduction="mean")
+        # Match transformers 5.8 fixed_cross_entropy: sum then divide by
+        # num_items_in_batch (total effective tokens in accumulation cycle) when
+        # provided; otherwise plain mean (matches standard no-accum path).
+        if num_items_in_batch is not None:
+            loss = torch.nn.functional.cross_entropy(
+                logits[0].float(), targets, reduction="sum"
+            )
+            if torch.is_tensor(num_items_in_batch):
+                num_items_in_batch = num_items_in_batch.to(loss.device)
+            loss = loss / num_items_in_batch
+        else:
+            loss = torch.nn.functional.cross_entropy(
+                logits[0].float(), targets, reduction="mean"
+            )
         return (loss, outputs) if return_outputs else loss
 
 
