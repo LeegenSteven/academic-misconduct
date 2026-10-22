@@ -1,0 +1,92 @@
+{
+  "version": "route1_pdf_first5_resource_v1_20261022",
+  "probe_policy": {
+    "version": "route1_pdf_memory_preflight_v1r2_20261022",
+    "control_manifest_sha256": "e0258a34e4ffa411d8fd2217d458379ffb183626433cc4a7fee1392f7da7fc08",
+    "server_release_sha256": "57ce1f04fe089ed4f59cff2923965573237883ef0e12cca2aaeed0ce5cf1c7d8",
+    "selected_case_ids": [
+      "r1pdf:c39ba37fc4698431f556d6b9",
+      "r1pdf:ecd1a395eb5f25610750d721",
+      "r1pdf:e1636ac35ca5131bfdf6fb44",
+      "r1pdf:cc2e2247d91afc3f3559aa23",
+      "r1pdf:df5053bbd503ea2762b3617d"
+    ],
+    "tokenizer_files_sha256": {
+      "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+      "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+      "config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+      "chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"
+    },
+    "generation_config_sha256": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+    "weight_index_sha256": "77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df",
+    "teacher_forced_steps": 512,
+    "resource_policy": {
+      "probe_min_free_mib": 30000,
+      "pytorch_headroom_mib": 2048
+    },
+    "formal_backend_guard_changed": false,
+    "formal_classification_or_explanation_run": false,
+    "limitations": [
+      "PyTorch allocator cap does not cover all external CUDA allocations.",
+      "Fixed-token cached forward stress is not an exact greedy-generation memory guarantee.",
+      "Sampled NVML peak can miss brief transients; PyTorch peaks include model loading."
+    ]
+  },
+  "original_contract_code_sha256": {
+    "route1_pdf_pipeline_v3.py": "80d17ad57db84c218ac3b0046432f12cbd915835003576ccf3fc5f6571faf055",
+    "route1_pdf_hf_backend_v3.py": "800e2f1db364ba955fdcbecf26740fb3e3ae2e585a04ea18670f09a72b108caf",
+    "run_route1_pdf_v3.py": "6674fc6e49bead010f4155cef897a00a4b0b26d78e7c626fcacae06fed81b1cb",
+    "prepare_pdf20_scope_inputs_20261020.py": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+    "build_sarol_inputs_v2.py": "2f4b32708646337b91064474d13b1769029038c5f72b8ec5059599329bc6e3af"
+  },
+  "memory_probe_package_sha256": "484f419b2966ab0dd91ab58afa63895759455235edbb0252c24cdac3aa31a2a3",
+  "memory_evidence_files": {
+    "classifier.run.log": "0906832295261ae45c450427f6c0ca43abbbb078f70f808d070ffb2ce9e18033",
+    "classifier/gpu_samples.jsonl": "e22bde6b792f1be2bed0d3ce4534c76e61eb8ebe8ae7091aaf3b0f247efeb8d6",
+    "classifier/input_snapshot.json": "b9688df0bacf12e2d98325d32c600d2e213bfd3b27450fd6d2ccc9dc7756cec3",
+    "classifier/loaded_model_metadata.json": "5f90219ed73f1c3b73d0c03bf2cb7c8066baed8b30bf1830a2d4920b0268085c",
+    "classifier/summary.json": "db70898d3e13745229c748183b6b0f1fff0824a53696a60506a79d848338864b",
+    "explainer.run.log": "5e22c1b91fb13eb8c7956df8167ba85bd65b2d7a1f948d14c39276985d67839b",
+    "explainer/gpu_samples.jsonl": "27251a4f94f8acabbda020396c8d91e1d14a38c9c65d12ea517be2fa3e114f01",
+    "explainer/input_snapshot.json": "b0c497eccd60428aec354d74b259d6fca6b18274d9785b438a2daee2c45a49c9",
+    "explainer/loaded_model_metadata.json": "9c9004e3535d6f36054fd3aac26acbaad97f6a2671316f1d282599e02f11054d",
+    "explainer/summary.json": "4d13ceaf14c0c8684469979c50371cb7809daad727f1f51df70026447641f924",
+    "run_request.json": "4a8b91e2a1c280460ea5406f0a30dc49c03fca5e068424674923fd93b0bfa8b5",
+    "summary.json": "bb5894bd83ac355c1ca99aebe9888543e197f6231a277efa2e5abaef84d0c831"
+  },
+  "longest_input_stage": {
+    "classifier": {
+      "input_sha256": "ca7f33acfc952e3593a63aa1b0af520e5dde4bfafa483e51633b683ea940e525",
+      "input_tokens": 2202,
+      "required_total": 2714,
+      "input_ids_sha256": "a4e6b0e9baf0b9687f64211cd1eabd1f7f17fca2f7b8ad2603da9794a22e9c09",
+      "within_budget": true,
+      "truncation": false
+    },
+    "explainer": {
+      "input_sha256": "d10e6dc73cf1305719b6122d718cad1e50b68ed726766fcb96d23dcfce1f1113",
+      "input_tokens": 2176,
+      "required_total": 2688,
+      "input_ids_sha256": "0291f509c2b5aca484d90e5ba2a3b209619bfd1fbb9e102dd5d4557145154340",
+      "within_budget": true,
+      "truncation": false
+    }
+  },
+  "frozen_settings": {
+    "max_length": 5120,
+    "max_new_tokens": 512,
+    "enable_thinking": false,
+    "do_sample": false,
+    "retry_policy": "none; keep all first attempts"
+  },
+  "resource_change": {
+    "previous_min_free_MiB": 35000,
+    "new_min_free_MiB": 30000,
+    "pytorch_headroom_MiB": 2048,
+    "applies_to": "Only first5 supplemental PDF execution",
+    "reason": "Both roles passed longest first5 input plus512 fixed-token cache steps",
+    "weight_input_prompt_decoding_changes": false,
+    "original_scope_release_unchanged": true,
+    "not_an_exact_greedy_generation_memory_guarantee": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PRESELECTED_DRAFT_PENDING_ACTUAL_SCOPE_ACK_NOT_A_RELEASE",
+  "selection_rule": "first five non-held points in the unchanged frozen manifest order; no model output used",
+  "fixed_denominator": 20,
+  "remaining_manifest_points": 15,
+  "pair_count": 5,
+  "runtime_plan_sha256": "39b7698258b3baee1d40d6940c56b16f3d03e45ab43c37166887a9f72e9ea678",
+  "selected_case_ids": [
+    "r1pdf:c39ba37fc4698431f556d6b9",
+    "r1pdf:ecd1a395eb5f25610750d721",
+    "r1pdf:e1636ac35ca5131bfdf6fb44",
+    "r1pdf:cc2e2247d91afc3f3559aa23",
+    "r1pdf:df5053bbd503ea2762b3617d"
+  ],
+  "new_model_predictions_inspected": false,
+  "confirmed": false,
+  "operator_or_reviewer_signature": null,
+  "held_points_retained": [
+    "r1pdf:48b208f007c2c6e700c04ff0",
+    "r1pdf:896e930269210ee1300d8037"
+  ],
+  "model_execution_allowed_by_this_file": false
+}

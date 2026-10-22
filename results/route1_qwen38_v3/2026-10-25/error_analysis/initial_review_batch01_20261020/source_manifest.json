@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-20",
+  "generated_at_utc": "2026-10-20T04:36:57.225455+00:00",
+  "sources": {
+    "results/route1_qwen38_v3/2026-10-25/error_analysis/miss45_review.csv": "19126506e78340f1ab49ca11b1650b5a9b60b7fddbf3d17492e784ab2be4841c",
+    "results/route1_qwen38_v3/2026-10-25/error_analysis/miss45_payload.jsonl": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+    "data/quality_v1/sarol/claims-test-model.jsonl": "cfafb28d0a176c0598a98ebfd348f184eb8011620af7497b350bd7e13af5605e",
+    "data/quality_v1/sarol/corpus.jsonl": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3",
+    "data/quality_v1/sarol/gold_mapping-test.csv": "9713e7a95a0416dc96ea16017e1d9d512911c85ec188a5a61b97317e0784ecab",
+    "results/route1_qwen38_v2/2026-10-15/sarol/test.inputs.jsonl": "46b441cd7623ca827113ba5a52ae8a08d34cbbc4d5211b133e6af8595fc27391",
+    "results/route1_qwen38_v2/2026-10-15/sarol/test.gold.jsonl": "696d6d9290c03e3ca79ff705aeeab52161932f3c2b229db87298427e900caeae"
+  },
+  "primary_paper": {
+    "title": "Assessing citation integrity in biomedical publications: corpus annotation and NLP models",
+    "doi": "10.1093/bioinformatics/btae420",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11231046/",
+    "retrieved_via": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC11231046/unicode",
+    "retrieved_file_sha256": "2e0879402df3c0414a9b640235e5f406c0d68624b405c2aad0246c001edd4c78",
+    "used_for": "ETIQUETTE含义、细分类映射及该类通常无明确证据段的标注规则；不用于替代本项目冻结prompt。"
+  },
+  "generator": {
+    "path": "tmp/route1_miss45_20261020/prepare_initial_batch01.py",
+    "sha256": "f9b5a468093f383832ddc61e78a5dcd3fb8392321d57b8ace7d7e8927c610b91"
+  }
+}

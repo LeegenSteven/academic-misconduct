@@ -1,0 +1,107 @@
+{
+  "source_manifest_files": 390,
+  "all_source_manifest_hashes_and_sizes_match": true,
+  "zip_sha256": "6710893640734d072a50e284676b20c79bdc168d75f9db7940c5a72d9f06be9c",
+  "zip_file_entries": 391,
+  "all_zip_members_identical_to_current_source": true,
+  "independent_parser": "pypdf",
+  "independent_parser_identity_results": {
+    "6eae057a9faf4f671c3101e0745ed704460c6d3dec77243dfd3a9f2d2ab68970": {
+      "pmcid": "PMC8371605",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 12
+    },
+    "4d90de4dbd94baa9a37937fe1725b82f955ef68c2029b71529e2d09a3e9a18c5": {
+      "pmcid": "PMC7333361",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 18
+    },
+    "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485": {
+      "pmcid": "PMC6324056",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 9
+    },
+    "99b511ddef548347f97e8c6a47891e3ce23b6d249e41ee7fb6685ef3de639e50": {
+      "pmcid": "PMC6129281",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 7
+    },
+    "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae": {
+      "pmcid": "PMC4103590",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 7
+    },
+    "36e867ec50be224e799297972defdbd421e8f5efe520561efdf5fa2fa19cd903": {
+      "pmcid": "PMC5374548",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 10
+    },
+    "1a8ff3e9322ce66224a2dd582930b4755e049fb5e39d3b17e06aacd879dae4c3": {
+      "pmcid": "PMC7092819",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 13
+    },
+    "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14": {
+      "pmcid": "PMC7159299",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 11
+    },
+    "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63": {
+      "pmcid": "PMC7159086",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 11
+    },
+    "1b9f4a28378fdb4bd1b47cd2c3c0d191f82735bf4c2ecf13ffb6ceefc6fd70fa": {
+      "pmcid": "PMC7270627",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 10
+    },
+    "973971a504490433db97e905e8cd9d632150f03bcc746ffebe1c29108d7c0736": {
+      "pmcid": "PMC7121484",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 9
+    },
+    "56625b669fdc087f5e861c9587e526375b507d65d8fc60b581ea0513955f2931": {
+      "pmcid": "PMC9825434",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 9
+    },
+    "44e211a76583c5a89452e7f404dfd3d46130e1540d0b26c1b427d30876e75a33": {
+      "pmcid": "PMC8111494",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 15
+    },
+    "346f8d35a7d8685fa9b535e31617b49a17a007778f411bd147668e4d39183740": {
+      "pmcid": "PMC11350039",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 27
+    },
+    "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a": {
+      "pmcid": "PMC5958625",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 54
+    },
+    "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34": {
+      "pmcid": "PMC9671808",
+      "doi_match": true,
+      "title_match": true,
+      "page_count": 23
+    }
+  },
+  "visual_review": "All 20 marker crops in marker_review_01..04.png inspected during this review; visual location review, not human semantic adjudication"
+}

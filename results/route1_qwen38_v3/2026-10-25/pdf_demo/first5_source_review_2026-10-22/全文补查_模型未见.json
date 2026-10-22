@@ -1,0 +1,18 @@
+{
+  "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+  "source_role": "designated_cited_PDF_fulltext_not_model_candidate",
+  "source_pmcid": "PMC7159086",
+  "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+  "pdf_page": 8,
+  "printed_page": "571",
+  "raw_extracted_passage": "The envelope spike (S) protein mediates receptor \nbinding and membrane fusion\n24 and is crucial for \ndetermining host tropism and transmission capacity. 25,26 \n",
+  "extraction_tool": "pypdf 6.10.0",
+  "exact_character_offsets_claimed": false,
+  "source_page_visual_checked_by_assistant": true,
+  "contains_envelop_word_in_frozen10": false,
+  "frozen_candidates_modified": false,
+  "model_saw_this_passage": false,
+  "added_to_original_model_response": false,
+  "scope_limit": "Supporting full-text discussion only; cannot change what the original model saw or repair its quotes.",
+  "warning": "Do not use Huang/PMC7159299 (another target reference) as this Lu/PMC7159086 case's evidence."
+}

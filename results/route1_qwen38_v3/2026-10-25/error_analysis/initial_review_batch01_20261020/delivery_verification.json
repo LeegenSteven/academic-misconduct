@@ -1,0 +1,10 @@
+{
+  "status": "passed_delivery_verification_human_review_pending",
+  "original_source_hashes_verified": 10,
+  "original_index_files_verified": 11,
+  "batch_files_verified": 7,
+  "review_rows": 5,
+  "tentative_NOT_ACCURATE": 3,
+  "labels_deferred": 2,
+  "reviewer_confirmation_added": false
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "route1_pdf_preparation_v2_20261020",
+  "python": "3.12.14",
+  "pymupdf": "1.28.2",
+  "scope_lock_sha256": "bbdca7b0fa1d6211d57ff77e0df6b0b7ce7c49aef9d50886f99c2cd7cf217c5b",
+  "scope_files": {
+    "case_manifest.jsonl": "2aa4b963062eb3c048e93b8a63a73857e20f00e82339da2156c6bfc983f9ad4b",
+    "pair_manifest.jsonl": "fcde8fb3cf1b3204b843c40ba424b86fb46331b6e525ce07e8e20bfdb76d4123",
+    "selection_policy_v2_before_new_inference.json": "fe5a49e0a697c432bfbf8809c94a6a834fea54dbcf94f1e72b69d424c000eb19",
+    "cited_retrieval_requests.jsonl": "cc0622969787cf5f3cce96a83829d5cfa34d16f5072ff0b336bb629bdaa198bc"
+  },
+  "source_root": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020",
+  "script_sha256": "0f49d1864a9008966d424de4a52c7f8136a28d05e3b95147abe4f36fce6c1e55",
+  "code_provenance": {
+    "repository_head": "00dff95323a2ca2be3534cc33de2807f7c945a53",
+    "entry_files_status": [
+      "?? code/ly/README_route1_pdf_v3.md",
+      "?? code/ly/run_route1_pdf_v3.py",
+      "?? code/ly/test_route1_pdf_v3.py"
+    ],
+    "note": "Repository HEAD is the base commit, not proof these new local files are committed; file hashes identify the actual implementation."
+  },
+  "frozen_prompt_source_sha256": "2f4b32708646337b91064474d13b1769029038c5f72b8ec5059599329bc6e3af",
+  "retrieval_return_sha256": null,
+  "physical_citation_points": 20,
+  "pdf_pairs": 10,
+  "unique_actual_pdfs_replayed": 16,
+  "citing_locator_replayed_points": 20,
+  "retrieval_status_counts": {
+    "awaiting_cited_retrieval": 20
+  },
+  "provisional_input_records": 0,
+  "inference_ready_records": 0,
+  "classification_run": false,
+  "explanation_run": false,
+  "gpu_used": false,
+  "engineering_accepted": 0,
+  "location_validity_denominator": 20,
+  "location_validity_numerator": null,
+  "location_validity_rate": null,
+  "explanation_semantic_passed": null,
+  "classification_accuracy": null,
+  "human_joint_signoff": false,
+  "note": "Technical PDF replay only. No semantic labels, model calls, formal validity rate or end-to-end acceptance.",
+  "generated_files_sha256": {
+    "cited_return_template.jsonl": "bb0a587903d7251a18c8ce1c0998b3d3537d769055eca53c49e8d07c37328e57",
+    "classification.provisional.inputs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "point_status.csv": "5266582da7ff20e5b69fa58b97df12835d1162b7e50615b46349e117c259d7d7",
+    "point_status.jsonl": "ad45f78b63ffb91b0986fd016e0b9b28bf935bb2597af68c477af43e56272cd9",
+    "逐条状态.txt": "43a3ef0a60a45ad632ba4b815024c563292dd69c4512adaf91651cfbbc6abe32"
+  }
+}

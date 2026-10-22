@@ -1,0 +1,14 @@
+{
+  "fixed_denominator": 20,
+  "attempted_classifier": 5,
+  "attempted_explainer": 5,
+  "engineering_success": 1,
+  "locator_human_valid": null,
+  "formal_location_rate": null,
+  "explanation_semantic_passed": null,
+  "classification_correct": null,
+  "classification_adjudicated_denominator": 0,
+  "classification_unadjudicated": 20,
+  "formal_end_to_end_accepted": 0,
+  "note": "Four outcomes remain separate; no human review is inferred from model/format/PDF checks."
+}

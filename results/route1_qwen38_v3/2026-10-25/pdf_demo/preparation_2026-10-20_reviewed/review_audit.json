@@ -1,0 +1,98 @@
+{
+  "review_date": "2026-10-20",
+  "status": "passed_current_CPU_preparation_review_only",
+  "test_count": 15,
+  "test_exit_code": 0,
+  "code_files_sha256": {
+    "code/ly/run_route1_pdf_v3.py": "6674fc6e49bead010f4155cef897a00a4b0b26d78e7c626fcacae06fed81b1cb",
+    "code/ly/test_route1_pdf_v3.py": "2bff42b5dea8c31b0352e14d2c36306290cfe8fa9c03e4d30867fd76b3871513",
+    "code/ly/README_route1_pdf_v3.md": "c27a6794da3a342b2cd33afbbfd7909646c3a60a519283102c3db96e2c28f3f8"
+  },
+  "test_log_sha256": "50561f6d37377aab5b9a1203ce3caa32f27b42ef79cb127b331bc3abc3dd1718",
+  "preparation_receipt_sha256": "437d468ac3491a401979124ea8edb3376faff311e0dac2aba4cc0f42251d30b9",
+  "all_20_existing_point_fields_unchanged_except_schema_version": true,
+  "new_outputs_match_receipt": true,
+  "old_outputs_and_archived_code_match_old_receipt": true,
+  "csv_jsonl_ids_and_missing_states_agree": true,
+  "previously_tracked_repository_files_unchanged": true,
+  "source_provenance_fields_preserved": true,
+  "multi_reference_group_count": 6,
+  "multi_reference_group_points": [
+    {
+      "case_id": "r1pdf:48b208f007c2c6e700c04ff0",
+      "source_pool_candidate_id": "PMC-OA-EXP-03",
+      "marker": [
+        "1"
+      ],
+      "group": [
+        "1–4"
+      ],
+      "note": "Review coverage of current reference within this multi-reference group before classification; no label assigned."
+    },
+    {
+      "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+      "source_pool_candidate_id": "PMC-OA-EXP-10",
+      "marker": [
+        "6"
+      ],
+      "group": [
+        "6,7"
+      ],
+      "note": "Review coverage of current reference within this multi-reference group before classification; no label assigned."
+    },
+    {
+      "case_id": "r1pdf:1dfa922c755ed870245927e3",
+      "source_pool_candidate_id": "newpair_002_R40_PMC9671808",
+      "marker": [
+        "40"
+      ],
+      "group": [
+        "38–40"
+      ],
+      "note": "Review coverage of current reference within this multi-reference group before classification; no label assigned."
+    },
+    {
+      "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+      "source_pool_candidate_id": "PMC-OA-EXP-07",
+      "marker": [
+        "1"
+      ],
+      "group": [
+        "1,12,13"
+      ],
+      "note": "Review coverage of current reference within this multi-reference group before classification; no label assigned."
+    },
+    {
+      "case_id": "r1pdf:0625d9ca3ef5bf2a22c6109b",
+      "source_pool_candidate_id": "PMC-OA-EXP-07",
+      "marker": [
+        "1"
+      ],
+      "group": [
+        "1,8,12"
+      ],
+      "note": "Review coverage of current reference within this multi-reference group before classification; no label assigned."
+    },
+    {
+      "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+      "source_pool_candidate_id": "PMC-OA-EXP-07",
+      "marker": [
+        "1"
+      ],
+      "group": [
+        "1,12"
+      ],
+      "note": "Review coverage of current reference within this multi-reference group before classification; no label assigned."
+    }
+  ],
+  "no_model_calls": true,
+  "confidence_and_scores_all_null": true,
+  "human_semantic_signoff": false,
+  "source_integrity_review_sha256": "76eb093de83df0394b1107c951902b8340307bec655492742ab77327924a2c6a",
+  "not_complete": [
+    "cited PDF evidence returns",
+    "target claim scope review",
+    "A100 classifier and independent explainer runs",
+    "both human judgments and adjudication"
+  ]
+}

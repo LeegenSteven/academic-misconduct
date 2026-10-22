@@ -1,0 +1,160 @@
+{
+  "status": "index_generated_human_attribution_pending",
+  "date": "2026-10-20",
+  "sarol": {
+    "n": 606,
+    "M0": {
+      "n": 606,
+      "correct": 299,
+      "invalid": 1,
+      "confusion_matrix": {
+        "ACCURATE": {
+          "ACCURATE": 137,
+          "NOT_ACCURATE": 234,
+          "IRRELEVANT": 14,
+          "INVALID": 1
+        },
+        "NOT_ACCURATE": {
+          "ACCURATE": 24,
+          "NOT_ACCURATE": 132,
+          "IRRELEVANT": 14,
+          "INVALID": 0
+        },
+        "IRRELEVANT": {
+          "ACCURATE": 0,
+          "NOT_ACCURATE": 20,
+          "IRRELEVANT": 30,
+          "INVALID": 0
+        }
+      },
+      "not_accurate_support": 170,
+      "not_accurate_true_positive": 132,
+      "not_accurate_to_accurate": 24
+    },
+    "Mbio": {
+      "n": 606,
+      "correct": 434,
+      "invalid": 0,
+      "confusion_matrix": {
+        "ACCURATE": {
+          "ACCURATE": 314,
+          "NOT_ACCURATE": 67,
+          "IRRELEVANT": 5,
+          "INVALID": 0
+        },
+        "NOT_ACCURATE": {
+          "ACCURATE": 71,
+          "NOT_ACCURATE": 96,
+          "IRRELEVANT": 3,
+          "INVALID": 0
+        },
+        "IRRELEVANT": {
+          "ACCURATE": 3,
+          "NOT_ACCURATE": 23,
+          "IRRELEVANT": 24,
+          "INVALID": 0
+        }
+      },
+      "not_accurate_support": 170,
+      "not_accurate_true_positive": 96,
+      "not_accurate_to_accurate": 71
+    },
+    "repaired": 186,
+    "new_errors": 51,
+    "net_correct_gain": 135,
+    "repairs_by_gold": {
+      "ACCURATE": 177,
+      "NOT_ACCURATE": 9
+    },
+    "new_errors_by_gold": {
+      "NOT_ACCURATE": 45,
+      "IRRELEVANT": 6
+    },
+    "miss45_ids": [
+      "0",
+      "15",
+      "20",
+      "24",
+      "28",
+      "44",
+      "48",
+      "51",
+      "63",
+      "87",
+      "94",
+      "112",
+      "120",
+      "138",
+      "147",
+      "149",
+      "186",
+      "190",
+      "196",
+      "197",
+      "217",
+      "233",
+      "235",
+      "236",
+      "242",
+      "243",
+      "250",
+      "257",
+      "278",
+      "307",
+      "342",
+      "379",
+      "391",
+      "466",
+      "469",
+      "480",
+      "484",
+      "490",
+      "491",
+      "502",
+      "506",
+      "525",
+      "544",
+      "580",
+      "600"
+    ],
+    "miss45_count": 45,
+    "recall_true_positive_drop": 36,
+    "not_accurate_repairs_ids": [
+      "36",
+      "61",
+      "126",
+      "247",
+      "320",
+      "374",
+      "385",
+      "407",
+      "527"
+    ],
+    "not_accurate_repairs_count": 9,
+    "not_accurate_to_accurate_net_increase": 47,
+    "extra_two_originally_irrelevant_ids": [
+      "322",
+      "354"
+    ]
+  },
+  "sciciteval_Mscv_vs_M0": {
+    "n": 257,
+    "repaired": 19,
+    "new_errors": 9,
+    "not_accurate_support": 89,
+    "M0_not_accurate_true_positive": 52,
+    "Mscv_not_accurate_true_positive": 67
+  },
+  "review20_overlap_case_ids": [
+    "sarol:test:51"
+  ],
+  "prior_label_review_reused": 1,
+  "new_cases_pending_two_reviews": 44,
+  "reason_code_reviews_pending": 45,
+  "gold_evidence_missing_in_selected": 10,
+  "diagnostic_gold_sentence_reference_occurrences": 76,
+  "gold_sentence_reference_occurrences_not_in_original_input": 55,
+  "gold_question_sidecar_status": "empty_initial_template; gold-question assessment still pending",
+  "model_inference_performed": false,
+  "frozen_test_metrics_or_gold_changed": false
+}

@@ -1,0 +1,8 @@
+{
+  "purpose": "Archive exact previous CPU-preparation code before review corrections; no model experiment",
+  "files_sha256": {
+    "code/ly/run_route1_pdf_v3.py": "6670b7df16427c222865ebf0eafcfb0eef7964b99858328cbc1adfbb24997186",
+    "code/ly/test_route1_pdf_v3.py": "ee5d5fd98a6b3834345d225fee628ac25b4217cb6a6541c0faef9cd7ec9b51c8",
+    "code/ly/README_route1_pdf_v3.md": "297330f5228c162ee493118983fa87b6ac9092b7a0ef65fc6cbdced3be1e4407"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "package": "rank-bm25",
+  "version": "0.2.2",
+  "wheel_archive_hashes": {
+    "sha256": "7bd4a95571adadfc271746fa146a4bcfd89c0cf731e49c3d1ad863290adbe8ae"
+  },
+  "source": "pip resolved pinned rank-bm25==0.2.2 from its cached wheel; installed only into workspace tmp",
+  "numpy_version": "2.3.5"
+}

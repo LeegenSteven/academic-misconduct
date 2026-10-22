@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-20",
+  "created_at_utc": "2026-10-20T06:34:30.295674+00:00",
+  "source_repo_commit": "00dff95323a2ca2be3534cc33de2807f7c945a53",
+  "source_files": {
+    "sarol_inputs": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sarol\\test.inputs.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-15/sarol/test.inputs.jsonl",
+      "sha256": "46b441cd7623ca827113ba5a52ae8a08d34cbbc4d5211b133e6af8595fc27391"
+    },
+    "sarol_gold": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sarol\\test.gold.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-15/sarol/test.gold.jsonl",
+      "sha256": "696d6d9290c03e3ca79ff705aeeab52161932f3c2b229db87298427e900caeae"
+    },
+    "sarol_M0": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sarol\\M0\\M0_test_predictions.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-19/test_refreeze5120_run02/test/sarol/M0/M0_test_predictions.jsonl",
+      "sha256": "bdcabeff68aa28e9cabe76f7bbda771958dcf0cd5edf8b88dfcad13a7ca2408f"
+    },
+    "sarol_Mbio": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sarol\\Mbio\\Mbio_test_predictions.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-19/test_refreeze5120_run02/test/sarol/Mbio/Mbio_test_predictions.jsonl",
+      "sha256": "e61218ea91fd2cba670bfa44ae0bb5c7ccd32dd00da964751de89d7f80601e2d"
+    },
+    "sarol_corpus": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\data\\quality_v1\\sarol\\corpus.jsonl",
+      "repo_relative_path": "data/quality_v1/sarol/corpus.jsonl",
+      "sha256": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3"
+    },
+    "sciciteval_gold": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sciciteval\\test.gold.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-15/sciciteval/test.gold.jsonl",
+      "sha256": "98512eb476fe31da3f36dea716ea3333008234f2af9ac191afd10d48a854eabd"
+    },
+    "sciciteval_M0": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sciciteval\\M0\\M0_test_predictions.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-19/test_refreeze5120_run02/test/sciciteval/M0/M0_test_predictions.jsonl",
+      "sha256": "1dd4f71864b875fb4f623e8171943109b135518d075f74dd14f0f3d6f85e2680"
+    },
+    "sciciteval_Mscv": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sciciteval\\Mscv\\Mscv_test_predictions.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-19/test_refreeze5120_run02/test/sciciteval/Mscv/Mscv_test_predictions.jsonl",
+      "sha256": "ec55c6f770b941441b753f21c9dfd4e2b4d8c069e38f0662691548ab3f2441b4"
+    },
+    "prior_paired_rows": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_paired_analysis\\paired_rows.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-19/test_paired_analysis/paired_rows.jsonl",
+      "sha256": "85febead82d19861114e914a37df5403d15e1d20fdcf94522aa804ff6e4218ed"
+    },
+    "review20": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\发给师兄_本周汇报_2026-10-19\\05_Test配对与案例复核\\20案例共同裁决完成_20261019\\20案例复核最终记录.jsonl",
+      "repo_relative_path": null,
+      "sha256": "c089b5fe84c744a3128895cf4f39fc4112b99e2c8c53eab45a4b10b0f3043ad5"
+    }
+  },
+  "payload_sha256": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+  "master_review_csv_sha256_before": "19126506e78340f1ab49ca11b1650b5a9b60b7fddbf3d17492e784ab2be4841c",
+  "raw_mapping_path": "data/quality_v1/sarol/gold_mapping-test.csv",
+  "raw_mapping_sha256": "9713e7a95a0416dc96ea16017e1d9d512911c85ec188a5a61b97317e0784ecab",
+  "original_annotation_archive": {
+    "path": "C:\\Users\\y\\Desktop\\学术引用不端\\成员1反馈 Data\\annotations.zip",
+    "sha256": "cf22dea33606f355c8d9684dd8d18234be559bf40a45968fd2829cdf66e5797e",
+    "git_blob_sha1": "f395fefd1ad713b7e4428d09f946c888bbca4a53",
+    "bytes": 10131804,
+    "upstream_commit": "e9823957bb263db9ae402351b76d88ff1a723712",
+    "upstream_path": "Data/annotations.zip",
+    "matches_fixed_upstream_blob": true,
+    "upstream_tree_api": "https://api.github.com/repos/ScienceNLP-Lab/Citation-Integrity/git/trees/e9823957bb263db9ae402351b76d88ff1a723712?recursive=1"
+  },
+  "generator": {
+    "local_path": "tmp/route1_miss45_20261020/prepare_context_and_full_initial_review.py",
+    "sha256": "886f37876fdf5c6c689ca7aa2906a3647be6d49941f67053a16e3a71c8942e14"
+  },
+  "scope": "Original annotations are evidence of source context and historical gold rationale, not fresh independent review. Extra source text is diagnostic only."
+}

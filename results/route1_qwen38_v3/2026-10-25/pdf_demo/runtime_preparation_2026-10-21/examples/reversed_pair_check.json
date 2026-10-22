@@ -1,0 +1,8 @@
+{
+  "status": "pair_not_in_registered_scope",
+  "citing_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+  "cited_pdf_sha256": "6eae057a9faf4f671c3101e0745ed704460c6d3dec77243dfd3a9f2d2ab68970",
+  "case_ids": [],
+  "model_run": false,
+  "note": "Registered PDF pairs only; unmatched PDFs need source/identity/citation registration, not a guessed label."
+}

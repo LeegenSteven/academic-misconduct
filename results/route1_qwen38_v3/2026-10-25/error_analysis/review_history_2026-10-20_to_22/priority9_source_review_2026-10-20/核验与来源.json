@@ -1,0 +1,32 @@
+{
+  "status": "priority9_review_materials_prepared_no_human_confirmation",
+  "date": "2026-10-20",
+  "records": 9,
+  "proposed_labels": {
+    "ACCURATE": 7,
+    "暂缓": 2
+  },
+  "proposal_comparison_to_chen": {
+    "same_as_chen": 4,
+    "pending_proposal": 2,
+    "different_from_chen": 3
+  },
+  "not_two_human_agreement": true,
+  "frozen_candidate_sentences_checked": 90,
+  "supplemental_sentences_checked_in_archive": 20,
+  "source_files_sha256": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\2026-10-20_45条漏检案例复核\\miss45_review_陈明进v4_20261020.csv": "d32c2cd86de37ff99fe9a4696587ba1e76609377962922b44579e783599460cd",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_review.csv": "19126506e78340f1ab49ca11b1650b5a9b60b7fddbf3d17492e784ab2be4841c",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_payload.jsonl": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\gold_questions_sidecar.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\data\\quality_v1\\sarol\\corpus.jsonl": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\data\\quality_v1\\sarol\\claims-test-model.jsonl": "cfafb28d0a176c0598a98ebfd348f184eb8011620af7497b350bd7e13af5605e",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\成员1反馈 Data\\annotations.zip": "cf22dea33606f355c8d9684dd8d18234be559bf40a45968fd2829cdf66e5797e"
+  },
+  "generator_sha256": "8abbfb8c9cfd75ff93c289b74f21e9c4310b8ca7dc20c3630c366d0ae89fc8d8",
+  "formal_csv_and_sidecar_unchanged": true,
+  "frozen_predictions_and_metrics_changed": false,
+  "new_human_labels_or_signatures_added": false,
+  "recheck_report": "二次仔细核对结果.json",
+  "current_proposal_scope": "conditional editorial suggestions; not accepted labels or gold corrections"
+}

@@ -1,0 +1,223 @@
+{
+  "status": "passed_CPU_BM25_replay_only",
+  "replay_started_at_utc": "2026-10-20T12:45:38.982642+00:00",
+  "replay_finished_at_utc": "2026-10-20T12:45:39.210478+00:00",
+  "reported_original_execution": {
+    "date": "2026-10-20",
+    "time_precision": "date",
+    "exact_time": null,
+    "stdout_stderr_log": "not saved, explicitly disclosed by producer"
+  },
+  "replay_wrapper_sha256": "bd5c00227300678a9799a52254de2906a2790c2178218505438466c65a72b6d5",
+  "received_script_sha256": "e9e7b5c6cacb275f07e85dbdbd8acf15527c1b3e321f2bb886745abb69112521",
+  "declared_script_sha256_matches_actual": true,
+  "execution_method": "AST: inspected imports + original retrieval constants/functions only; actual source file unmodified; injected local PDF_TEXT_DIR; did not execute original main or top-level mkdir",
+  "reported_original_environment": "arm4r_py39 / Python 3.9",
+  "replay_python": "3.12.14",
+  "rank_bm25_version": "0.2.2",
+  "rank_bm25_module_sha256": "2f28cc795415c01e9f3db5a8ed019774f9cba747b272c9c304271589b8081ac6",
+  "numpy_version": "2.3.5",
+  "source_scope_files_sha256": {
+    "case_manifest.jsonl": "2aa4b963062eb3c048e93b8a63a73857e20f00e82339da2156c6bfc983f9ad4b",
+    "pair_manifest.jsonl": "fcde8fb3cf1b3204b843c40ba424b86fb46331b6e525ce07e8e20bfdb76d4123",
+    "selection_policy_v2_before_new_inference.json": "fe5a49e0a697c432bfbf8809c94a6a834fea54dbcf94f1e72b69d424c000eb19",
+    "cited_retrieval_requests.jsonl": "cc0622969787cf5f3cce96a83829d5cfa34d16f5072ff0b336bb629bdaa198bc"
+  },
+  "incoming_files_sha256": {
+    "cited_evidence_results.jsonl": "516adb90cddefdf82bc76f74a7b13b2d13e34291f5a201f908df74ce5ec50ce2",
+    "cited_evidence_summary_top3.csv": "466ed8f43d4f47ac44298f2cb0e555772e7fdacb55ae1b2ae2e171d9e4cbbba7",
+    "retrieval_manifest.json": "06d43eb028b6d815ef6a657f84ad8cf02d6fbfba6265a91007bb00087dab5741",
+    "route1_pdf20_cited_retrieval_v1.py": "e9e7b5c6cacb275f07e85dbdbd8acf15527c1b3e321f2bb886745abb69112521",
+    "复现材料补充说明_陈明进_20261020.md": "80277785cea0b454859652156eeaed60afbf68958ba02b57c36905b63511d79f",
+    "被引端检索结果说明_陈明进_20261020.md": "f4638511b4883fb4059bfad1157319201ef31b7f1389386da25e3781d8cc5618"
+  },
+  "same_core_result_files_as_previous_audited_return": [
+    "cited_evidence_results.jsonl",
+    "cited_evidence_summary_top3.csv",
+    "retrieval_manifest.json"
+  ],
+  "previous_locator_audit_sha256": "6a0592ed2b4465d712a62ff188e61683f9a8f9b4b250cf008b0ad3a7964e3e7c",
+  "locator_proof_reuse": "200 candidates unchanged byte-for-byte; previous actual-PDF/offset/bbox replay remains applicable",
+  "checked_cited_pdf_and_cache_versions": 10,
+  "fixed_case_count": 20,
+  "all_record_fields_equal_cases": 20,
+  "candidate_order_and_score_matches": 200,
+  "comparisons": [
+    {
+      "case_id": "r1pdf:48b208f007c2c6e700c04ff0",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:ecd1a395eb5f25610750d721",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "low_confidence",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:e1636ac35ca5131bfdf6fb44",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:cc2e2247d91afc3f3559aa23",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:1dfa922c755ed870245927e3",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:976890f040d5c2cab2e50965",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:43c53ece80a7c35828d5246d",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:896e930269210ee1300d8037",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "low_confidence",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:0243ab815badba958177a9a8",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:0625d9ca3ef5bf2a22c6109b",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:826cdb765c276ba900010084",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+      "all_record_fields_equal": true,
+      "different_fields": [],
+      "candidate_order_and_six_decimal_scores_equal": true,
+      "status": "ok",
+      "candidates": 10
+    }
+  ],
+  "local_replay_log_sha256": "976b7975b2be3a5bd04e67aef9a7a6724d4bc5586a92aff8f8db4b9da8c76649",
+  "recomputed_results_sha256": "516adb90cddefdf82bc76f74a7b13b2d13e34291f5a201f908df74ce5ec50ce2",
+  "source_script_not_general_entry": "Original paths are author-local and mkdir runs on import; this replay wrapper avoids those writes. Use a portable controlled entry for future runs.",
+  "implementation_note": "Reference filtering is the actual regex/first-word heuristic, not a page-position filter; the function docstring mentions the latter but the code does not implement it.",
+  "not_resolved_by_this_replay": [
+    "Case 3 E02 text-layer prime/zero mismatch",
+    "20 target-claim scopes including Case 15 resource/self-report boundary",
+    "real tokenizer input budget",
+    "classifier and independent explainer A100 runs",
+    "both human reviews/adjudication"
+  ],
+  "v3_input_configuration_frozen": false,
+  "model_runs": 0,
+  "engineering_accepted": 0,
+  "formal_location_rate": null,
+  "human_semantic_acceptance": null
+}

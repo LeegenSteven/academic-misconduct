@@ -1,0 +1,21 @@
+{
+  "version": "route1_first5_cmj_reply_receipt_20261022",
+  "recorded_at_utc": "2026-10-22T06:20:43.257108+00:00",
+  "source_path": "D:\\缓存\\xwechat_files\\wxid_jho22qm3wuo322_070b\\temp\\RWTemp\\2026-10\\3fa490bdfcbe9cd7dfe4136c47bf27ad\\首批5点语义核对_陈明进_20261022.md",
+  "source_sha256": "6c9550314f1308bf0ca8128559dea3428d1dd1615d63e89960ebecbcbfb6768a",
+  "source_copied_verbatim": true,
+  "source_declared_reviewer": "陈明进",
+  "source_declared_review_date": "2026-10-22",
+  "source_declares_AI_assistance": true,
+  "joint_confirmation_inferred": false,
+  "formal_review_import_performed": false,
+  "comparison_report_sha256": "5738e1e7a9070e32ff99e5775a1f508f5c33911172e0135e6cf6b1b640160a2a",
+  "liyun_prior_ack_sha256": "15ffb330bf38739ebca711744eeac1a6511aa37b71fa5c8449b9b17dae9dd4be",
+  "original_policy_sha256": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+  "new_model_inference": false,
+  "new_accepted_parser_implemented": false,
+  "strict_engineering_success": 1,
+  "fence_only_supplemental_passed": 3,
+  "fixed_denominator": 20,
+  "formal_end_to_end_accepted": 0
+}

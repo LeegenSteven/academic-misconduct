@@ -1,0 +1,58 @@
+{
+  "status": "source_replay_pass_semantic_proposals_pending_human_adjudication",
+  "checked_at_utc": "2026-10-20T13:00:49.359669+00:00",
+  "checks": {
+    "frozen_record_snapshots": 9,
+    "citing_context_offsets": 10,
+    "citation_marker_offsets": 9,
+    "original_gold_evidence_offsets": 10,
+    "frozen_candidate_sentences": 90,
+    "supplemental_source_sentences": 20
+  },
+  "unchanged_source_files_verified": 24,
+  "proposed_labels": {
+    "ACCURATE": 7,
+    "暂缓": 2
+  },
+  "all_proposals_unconfirmed": true,
+  "joint_adjudication_performed": false,
+  "original_gold_predictions_and_metrics_preserved": true,
+  "semantic_conclusions_are_editorial_judgments_not_hash_check_results": true,
+  "corrections_and_clarifications": {
+    "112": "新增直接依据：被引讨论明确说明保护阈值可能是模型特异的，并依赖病毒株、剂量及受体动物等细节（corpus 29032:3，原候选未含）。这支持谨慎外推的背景，但未直接检验变异株或人群重症。保留ACCURATE倾向，不能用“没有反证”代替支持，也不能宣布原OVERSIMPLIFY标注已推翻。",
+    "138": "三种因子阳性的S特异CD8反应被分别测量，不等于证明同一细胞同时表达三者，也不等于三种因子阳性亚群各自的保护贡献已被分别验证。仅在将原句理解为这些测量所表征的CD8总体反应时保留ACCURATE倾向；更强的亚群或机制归属继续待裁决。",
+    "342": "can be限定可能获益，但不自动消除因果机制强度问题。原文的possibly/may仍须保留，原ETIQUETTE也不能仅凭一个药物实例自动视作解决。这里保留条件性的ACCURATE倾向，具体引用归属和机制是否被说得过强仍待双方裁决。",
+    "250": "施引段将美国研究与意大利研究并列比较，存在读者把它理解为美国限定样本的空间。没有only并不自动排除过度简化；美国参与者和亚组一致支持内容倾向，但地理描述分歧仍未解决。",
+    "233": "按引文位置和完整段落，当前目标主要支撑美国居家令期间心理健康挑战增加；this study的体重关联属于施引论文自身结果。补充美国亚组句只支持全文层面的疑点，不改变冻结候选对美国限定覆盖不足的事实。",
+    "490": "原标注将两句都选作citation_context；本次按other_cit/cit位置把前句用作IFN-I指代背景、把第二句视为当前目标承担的主张，这是有依据的范围解释，仍可共同裁决。小鼠模型建立句本身不单独证明IFN体内实验；两条重复摘要句也不计成独立研究。全文讨论中的多项动物研究才是补充依据，不把联合方案写成单药，也不要求实验结果全部阳性。"
+  },
+  "previous_zip_sha256": "a886c2d5eea256d652b1a1d58c8c14610390cbe58a01bd50b8f922a8718639d5",
+  "previous_zip_archive": "C:\\Users\\y\\Desktop\\学术引用不端\\tmp\\route1_miss45_20261020\\priority9_before_recheck.zip",
+  "immutable_source_files_sha256": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\field_dictionary.json": "ebc87e79fa77fb8ac11d3243e4f8b612b8bc68c6e7547d19076bb354d5945d01",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\gold_questions_sidecar.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\index_audit.json": "71e069af42706d9d43e4a2b576349a1fda68edf7280f20145ed56ab4c64f1e53",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_payload.jsonl": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_review.csv": "19126506e78340f1ab49ca11b1650b5a9b60b7fddbf3d17492e784ab2be4841c",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\paired_summary.json": "54c1068b8a53a860c5585f2a2da9d2872822c9cf6e6e2875821e2ec8fae210b0",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\paired_transitions.csv": "2aab8d0e77e0a3532f8c17b5a74cef925ef1b6cef28f47af3797abadac03d39b",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\prior_review\\review20_final.jsonl": "c089b5fe84c744a3128895cf4f39fc4112b99e2c8c53eab45a4b10b0f3043ad5",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\README.md": "04d6707e361a220447c652945b6b1368cc48be496c4bcba5c01eef42f6bbf434",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\review20_overlap.jsonl": "a15b2c94506d4233588069e54d7d2b95587f4a8d343803b5ad38a1cf869996f1",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\source_manifest.json": "f033c031e6418ba9f5439300502ac2efc8e4128472c4081c5017eda5a102405a",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sarol\\test.inputs.jsonl": "46b441cd7623ca827113ba5a52ae8a08d34cbbc4d5211b133e6af8595fc27391",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sarol\\test.gold.jsonl": "696d6d9290c03e3ca79ff705aeeab52161932f3c2b229db87298427e900caeae",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sarol\\M0\\M0_test_predictions.jsonl": "bdcabeff68aa28e9cabe76f7bbda771958dcf0cd5edf8b88dfcad13a7ca2408f",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sarol\\Mbio\\Mbio_test_predictions.jsonl": "e61218ea91fd2cba670bfa44ae0bb5c7ccd32dd00da964751de89d7f80601e2d",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\data\\quality_v1\\sarol\\corpus.jsonl": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sciciteval\\test.gold.jsonl": "98512eb476fe31da3f36dea716ea3333008234f2af9ac191afd10d48a854eabd",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sciciteval\\M0\\M0_test_predictions.jsonl": "1dd4f71864b875fb4f623e8171943109b135518d075f74dd14f0f3d6f85e2680",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sciciteval\\Mscv\\Mscv_test_predictions.jsonl": "ec55c6f770b941441b753f21c9dfd4e2b4d8c069e38f0662691548ab3f2441b4",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_paired_analysis\\paired_rows.jsonl": "85febead82d19861114e914a37df5403d15e1d20fdcf94522aa804ff6e4218ed",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\发给师兄_本周汇报_2026-10-19\\05_Test配对与案例复核\\20案例共同裁决完成_20261019\\20案例复核最终记录.jsonl": "c089b5fe84c744a3128895cf4f39fc4112b99e2c8c53eab45a4b10b0f3043ad5",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\2026-10-20_45条漏检案例复核\\miss45_review_陈明进v4_20261020.csv": "d32c2cd86de37ff99fe9a4696587ba1e76609377962922b44579e783599460cd",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\data\\quality_v1\\sarol\\claims-test-model.jsonl": "cfafb28d0a176c0598a98ebfd348f184eb8011620af7497b350bd7e13af5605e",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\成员1反馈 Data\\annotations.zip": "cf22dea33606f355c8d9684dd8d18234be559bf40a45968fd2829cdf66e5797e"
+  },
+  "recheck_script_sha256": "f567fb5b251df20a5b475e58d1c0151a131e001ef544310b147fde6e1e56b5f9"
+}

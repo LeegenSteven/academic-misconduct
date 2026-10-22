@@ -1,0 +1,28 @@
+{
+  "status": "all45_initial_suggestions_and_original_context_checked_human_review_pending",
+  "records": 45,
+  "unique_original_annotation_matches": 45,
+  "matching_uses_label": false,
+  "all_original_fine_labels_match_frozen_mapping": true,
+  "all_target_markers_replay_as_citation_tokens": true,
+  "original_selected_context_offset_mismatches": [],
+  "exact_joined_context_equals_claim": 37,
+  "original_frozen_candidate_texts_checked": 450,
+  "original_annotation_zip_matches_fixed_upstream_git_blob": true,
+  "label_suggestion_counts": {
+    "NOT_ACCURATE": 24,
+    "暂缓": 19,
+    "复用已确认NOT_ACCURATE": 1,
+    "ACCURATE": 1
+  },
+  "context_questions": 20,
+  "supplemental_source_reference_occurrences": 77,
+  "no_new_human_signatures": true,
+  "prior_confirmed_case51_preserved_verbatim": true,
+  "no_FMT_or_PIPE_cause_assigned_without_evidence": true,
+  "Mbio_raw_labels_parse_and_match_original_records": true,
+  "formal_master_csv_unchanged": true,
+  "formal_gold_question_sidecar_unchanged": true,
+  "model_run_performed": false,
+  "frozen_gold_or_metrics_changed": false
+}

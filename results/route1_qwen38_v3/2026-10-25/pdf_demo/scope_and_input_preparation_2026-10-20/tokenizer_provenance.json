@@ -1,0 +1,32 @@
+{
+  "repository": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "verified_official_file_hashes": {
+    "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+    "config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+    "chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"
+  },
+  "local_snapshot": "C:\\Users\\y\\Desktop\\学术引用不端\\tmp\\pdf20_official_tokenizer_snapshot_20261020",
+  "transformers": "5.8.0",
+  "tokenizers": "0.22.2",
+  "numpy": "2.5.4",
+  "python": "3.12.14",
+  "prior_A100_controls": [
+    {
+      "claim_id": "PMC-OA-V3-01",
+      "local_input_tokens": 692,
+      "prior_A100_input_tokens": 692,
+      "input_sha256": "4ca2353922fe4b93373b935f1997582967c38212b11000d206a2796f552ce404"
+    },
+    {
+      "claim_id": "PMC-OA-V3-08",
+      "local_input_tokens": 750,
+      "prior_A100_input_tokens": 750,
+      "input_sha256": "2cd3313c906aa05a7668459395f0ce681be6d1142c61a68c5ebd5e9fa87a7418"
+    }
+  ],
+  "control_inputs_sha256": "aa8fe6ae3965f93ff3d490a0fd1c223dbe4c686ac2a24bdd026b19bb7ba2a19d",
+  "control_predictions_sha256": "997f5a1b4579e0b6240f9b307a880684327ff8abc1fc3716378cf6fd633b6e14",
+  "token_hash_basis": "SHA-256 of compact JSON UTF-8 array of actual input token IDs, not character estimates"
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-20",
+  "status": "returned_review_structurally_complete_substantive_clarifications_pending",
+  "returned_rows": 45,
+  "unique_case_ids": 45,
+  "same_order_as_master": true,
+  "only_chen_columns_changed": true,
+  "changed_column_counts": {
+    "chen_label": 44,
+    "chen_evidence_ids": 45,
+    "chen_reason": 45,
+    "chen_review_date": 45,
+    "chen_prediction_seen": 45,
+    "chen_reason_codes": 38,
+    "chen_attribution_basis": 45,
+    "chen_sem_subtypes": 19
+  },
+  "chen_label_counts": {
+    "NOT_ACCURATE": 38,
+    "ACCURATE": 7
+  },
+  "chen_gold_difference_ids": [
+    "112",
+    "120",
+    "138",
+    "233",
+    "236",
+    "242",
+    "342"
+  ],
+  "all_listed_chen_evidence_ids_in_own_case": true,
+  "reason_reference_issues": [
+    {
+      "case_id": "sarol:test:233",
+      "field": "chen_reason",
+      "references_not_in_this_case": [
+        "D04:S03"
+      ]
+    }
+  ],
+  "chen_codes_missing_ids": [
+    "112",
+    "120",
+    "138",
+    "233",
+    "236",
+    "242",
+    "342"
+  ],
+  "all_returned_chen_reviews_mark_predictions_seen": true,
+  "li_label_filled_count": 1,
+  "resolved_label_filled_count": 1,
+  "existing_confirmed_case": "sarol:test:51",
+  "assistant_suggestion_comparison_counts": {
+    "same_as_initial_suggestion": 25,
+    "initial_suggestion_deferred": 19,
+    "differs_from_initial_suggestion": 1
+  },
+  "comparison_to_assistant_is_not_two_human_agreement": true,
+  "document_claims_not_independently_reproduced": [
+    "陈明进首轮45条全NOT_ACCURATE",
+    "DeepSeek首轮31一致与14分歧",
+    "DeepSeek盲审过程"
+  ],
+  "document_claim_limit": "仅收到陈明进终版CSV及说明，未收到首轮表或DeepSeek原始请求响应。可按回传说明记载，不能据此验证盲审，也不能把外部模型算作第二位人工复核者。",
+  "source_files_sha256": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\2026-10-20_45条漏检案例复核\\miss45_review_陈明进v2_20261020.csv": "3f75b92f9b57cea82daa5c80a3780a8275b62c3df9d15f7cfdf11eab544618b4",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\2026-10-20_45条漏检案例复核\\45条三方对比与分歧裁决_陈明进_20261020.md": "5464e4738a66b6a1177cdda903323f642868be41edfdab4fcedcb708bca75a06",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_review.csv": "19126506e78340f1ab49ca11b1650b5a9b60b7fddbf3d17492e784ab2be4841c",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_payload.jsonl": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\full_initial_review_20261020\\45条初审建议.jsonl": "ef2b677e11b6ee6a982aad2ea540d9ba250aadb394c25309bf82e5ff1ce2224e",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\full_initial_review_20261020\\45条原始施引上下文.jsonl": "97fe122dd0dc6d8fb019ef3e5b99119295910c8361f6019685e27a22d13f50ce",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\data\\quality_v1\\sarol\\corpus.jsonl": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\data\\quality_v1\\sarol\\claims-test-model.jsonl": "cfafb28d0a176c0598a98ebfd348f184eb8011620af7497b350bd7e13af5605e"
+  },
+  "actual_human_signatures_added": false,
+  "frozen_data_or_metrics_changed": false,
+  "source_review_files_modified": false,
+  "script_sha256": "9af6cc6d8caa2db365679b4f0440cdb33536a99b8f0fac80dced0cbe619eeb0d"
+}

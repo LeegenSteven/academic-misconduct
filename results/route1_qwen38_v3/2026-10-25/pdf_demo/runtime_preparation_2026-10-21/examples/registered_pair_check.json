@@ -1,0 +1,12 @@
+{
+  "status": "registered_pair_and_target_markers_replayed",
+  "citing_pdf_sha256": "6eae057a9faf4f671c3101e0745ed704460c6d3dec77243dfd3a9f2d2ab68970",
+  "cited_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+  "case_ids": [
+    "r1pdf:c39ba37fc4698431f556d6b9",
+    "r1pdf:976890f040d5c2cab2e50965",
+    "r1pdf:896e930269210ee1300d8037"
+  ],
+  "model_run": false,
+  "note": "Registered PDF pairs only; unmatched PDFs need source/identity/citation registration, not a guessed label."
+}

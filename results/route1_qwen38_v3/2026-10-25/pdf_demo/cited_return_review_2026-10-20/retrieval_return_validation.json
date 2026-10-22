@@ -1,0 +1,79 @@
+{
+  "audited_at_utc": "2026-10-20T10:29:43.044285+00:00",
+  "audit_script_sha256": "9c55e36a1bb211397f81ccaa674ec026cd41c7becb7a37460b05c2a505069e2c",
+  "pdf_gate_script_sha256": "6674fc6e49bead010f4155cef897a00a4b0b26d78e7c626fcacae06fed81b1cb",
+  "pymupdf_for_local_replay": "1.28.2",
+  "source_scope_lock_sha256": "bbdca7b0fa1d6211d57ff77e0df6b0b7ce7c49aef9d50886f99c2cd7cf217c5b",
+  "source_scope_files": {
+    "case_manifest.jsonl": "2aa4b963062eb3c048e93b8a63a73857e20f00e82339da2156c6bfc983f9ad4b",
+    "pair_manifest.jsonl": "fcde8fb3cf1b3204b843c40ba424b86fb46331b6e525ce07e8e20bfdb76d4123",
+    "selection_policy_v2_before_new_inference.json": "fe5a49e0a697c432bfbf8809c94a6a834fea54dbcf94f1e72b69d424c000eb19",
+    "cited_retrieval_requests.jsonl": "cc0622969787cf5f3cce96a83829d5cfa34d16f5072ff0b336bb629bdaa198bc"
+  },
+  "incoming_files_sha256": {
+    "cited_evidence_results.jsonl": "516adb90cddefdf82bc76f74a7b13b2d13e34291f5a201f908df74ce5ec50ce2",
+    "cited_evidence_summary_top3.csv": "466ed8f43d4f47ac44298f2cb0e555772e7fdacb55ae1b2ae2e171d9e4cbbba7",
+    "retrieval_manifest.json": "06d43eb028b6d815ef6a657f84ad8cf02d6fbfba6265a91007bb00087dab5741",
+    "被引端检索结果说明_陈明进_20261020.md": "3e0a9d3337d78ac34ad0050b6a67d0e39806bb69c19d2055745b804ad30dc22e"
+  },
+  "fixed_points_received": 20,
+  "fixed_points_missing": 0,
+  "pdf_pairs": 10,
+  "distinct_cited_pdfs": 10,
+  "candidates_received": 200,
+  "candidates_pdf_replay_passed": 200,
+  "candidate_locator_failures": [],
+  "csv_top3_rows_checked": 60,
+  "csv_query_is_truncated_preview_in_cases": [
+    "r1pdf:0243ab815badba958177a9a8",
+    "r1pdf:07b8a2180cd71a89f1c772cc",
+    "r1pdf:43dd5182e91a0ff7d0bec65d",
+    "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+    "r1pdf:8eec93b561ea2378e0da8197",
+    "r1pdf:976890f040d5c2cab2e50965",
+    "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+    "r1pdf:df5053bbd503ea2762b3617d"
+  ],
+  "csv_query_truncated_case_count": 8,
+  "csv_query_truncated_rows": 24,
+  "csv_query_warning": "The query column is truncated to 200 characters for eight cases. Preserve original CSV as received, use full JSONL query for any computation, never use this CSV as model input.",
+  "original_score_threshold_statuses": {
+    "ok": 18,
+    "low_confidence": 2
+  },
+  "actual_cited_paper_point_counts": {
+    "PMC7333361": 1,
+    "PMC6324056": 3,
+    "PMC4103590": 1,
+    "PMC5374548": 1,
+    "PMC7159299": 5,
+    "PMC7159086": 1,
+    "PMC7121484": 1,
+    "PMC8111494": 1,
+    "PMC5958625": 4,
+    "PMC9671808": 2
+  },
+  "report_issue": "Explanation markdown lists PMC7159299 as six points; actual result JSONL and original fixed case set both contain five. Do not add or replace points.",
+  "block_count_meaning": "total_blocks is the retained post-filter BM25 pool; retained + filtered_short + filtered_reference equals original cached block count in all 20 cases.",
+  "producer_provenance_missing": [
+    "Actual retrieval script and SHA-256",
+    "rank_bm25 package version and exact reference-filter code",
+    "Execution time has date only; no exact time/timezone supplied"
+  ],
+  "local_work_pending": [
+    "Review target citation/claim coverage before query freeze",
+    "Compute real tokenizer input lengths and freeze input/generation budget",
+    "Prepare classifier and independent explainer A100 runs",
+    "Both human reviews and adjudication"
+  ],
+  "no_retrieval_algorithm_or_score_recomputation_claimed": true,
+  "no_threshold_15_semantic_acceptance_claimed": true,
+  "classification_or_explanation_runs": 0,
+  "inference_ready_points": 0,
+  "engineering_accepted": 0,
+  "formal_location_denominator": 20,
+  "formal_location_numerator": null,
+  "formal_location_rate": null,
+  "human_semantic_acceptance": null,
+  "generated_join_file_sha256": "af8008211f0252b335d1d3bd803a3a1dca22f340e9465d89a4d2b04131627559"
+}

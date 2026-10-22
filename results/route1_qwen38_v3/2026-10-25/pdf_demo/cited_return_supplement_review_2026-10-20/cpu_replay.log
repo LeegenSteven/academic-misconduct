@@ -1,0 +1,22 @@
+CPU_REPLAY_STARTED 2026-10-20T12:45:38.982642+00:00; Python=3.12.14; rank_bm25=0.2.2; numpy=2.3.5
+Original main(), hard-coded path assignments, and output-directory creation NOT executed.
+[01/20] r1pdf:48b208f007c2c6e700c04ff0 equal=True candidates=10 status=ok
+[02/20] r1pdf:c39ba37fc4698431f556d6b9 equal=True candidates=10 status=ok
+[03/20] r1pdf:ecd1a395eb5f25610750d721 equal=True candidates=10 status=low_confidence
+[04/20] r1pdf:e1636ac35ca5131bfdf6fb44 equal=True candidates=10 status=ok
+[05/20] r1pdf:cc2e2247d91afc3f3559aa23 equal=True candidates=10 status=ok
+[06/20] r1pdf:df5053bbd503ea2762b3617d equal=True candidates=10 status=ok
+[07/20] r1pdf:43dd5182e91a0ff7d0bec65d equal=True candidates=10 status=ok
+[08/20] r1pdf:bf08cfaceb2c2e5fdd7aab42 equal=True candidates=10 status=ok
+[09/20] r1pdf:c20f0ec9e9d5958f62b304f8 equal=True candidates=10 status=ok
+[10/20] r1pdf:1dfa922c755ed870245927e3 equal=True candidates=10 status=ok
+[11/20] r1pdf:976890f040d5c2cab2e50965 equal=True candidates=10 status=ok
+[12/20] r1pdf:8eec93b561ea2378e0da8197 equal=True candidates=10 status=ok
+[13/20] r1pdf:43c53ece80a7c35828d5246d equal=True candidates=10 status=ok
+[14/20] r1pdf:fab3e8c6971477d942ccbcc4 equal=True candidates=10 status=ok
+[15/20] r1pdf:896e930269210ee1300d8037 equal=True candidates=10 status=low_confidence
+[16/20] r1pdf:8b6ea1cffce94cc72ba1c9cf equal=True candidates=10 status=ok
+[17/20] r1pdf:0243ab815badba958177a9a8 equal=True candidates=10 status=ok
+[18/20] r1pdf:0625d9ca3ef5bf2a22c6109b equal=True candidates=10 status=ok
+[19/20] r1pdf:826cdb765c276ba900010084 equal=True candidates=10 status=ok
+[20/20] r1pdf:07b8a2180cd71a89f1c772cc equal=True candidates=10 status=ok

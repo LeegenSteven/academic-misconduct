@@ -1,0 +1,172 @@
+{
+  "version": "route1_first5_assistant_source_review_v1_20261022",
+  "prepared_at_utc": "2026-10-22T03:30:42.399154+00:00",
+  "performed_by": "assistant",
+  "actual_human_reviews_submitted": 0,
+  "PDFs": {
+    "PMC8371605": {
+      "sha256": "6eae057a9faf4f671c3101e0745ed704460c6d3dec77243dfd3a9f2d2ab68970",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC8371605.1\\PMC8371605.1.pdf"
+    },
+    "PMC6324056": {
+      "sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC6324056.1\\PMC6324056.1.pdf"
+    },
+    "PMC6129281": {
+      "sha256": "99b511ddef548347f97e8c6a47891e3ce23b6d249e41ee7fb6685ef3de639e50",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC6129281.1\\PMC6129281.1.pdf"
+    },
+    "PMC4103590": {
+      "sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC4103590.1\\PMC4103590.1.pdf"
+    },
+    "PMC5374548": {
+      "sha256": "36e867ec50be224e799297972defdbd421e8f5efe520561efdf5fa2fa19cd903",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC5374548.1\\PMC5374548.1.pdf"
+    },
+    "PMC7092819": {
+      "sha256": "1a8ff3e9322ce66224a2dd582930b4755e049fb5e39d3b17e06aacd879dae4c3",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC7092819.1\\PMC7092819.1.pdf"
+    },
+    "PMC7159299": {
+      "sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC7159299.1\\PMC7159299.1.pdf"
+    },
+    "PMC7159086": {
+      "sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC7159086.1\\PMC7159086.1.pdf"
+    }
+  },
+  "visually_inspected_full_page_images": [
+    {
+      "pmcid": "PMC8371605",
+      "pdf_page": 1,
+      "image": "PMC8371605_p1.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC8371605",
+      "pdf_page": 7,
+      "image": "PMC8371605_p7.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC6324056",
+      "pdf_page": 1,
+      "image": "PMC6324056_p1.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC6129281",
+      "pdf_page": 1,
+      "image": "PMC6129281_p1.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC4103590",
+      "pdf_page": 3,
+      "image": "PMC4103590_p3.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC4103590",
+      "pdf_page": 4,
+      "image": "PMC4103590_p4.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC4103590",
+      "pdf_page": 6,
+      "image": "PMC4103590_p6.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC5374548",
+      "pdf_page": 1,
+      "image": "PMC5374548_p1.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC5374548",
+      "pdf_page": 2,
+      "image": "PMC5374548_p2.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC5374548",
+      "pdf_page": 8,
+      "image": "PMC5374548_p8.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC5374548",
+      "pdf_page": 10,
+      "image": "PMC5374548_p10.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC7092819",
+      "pdf_page": 2,
+      "image": "PMC7092819_p2.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC7159299",
+      "pdf_page": 2,
+      "image": "PMC7159299_p2.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC7159299",
+      "pdf_page": 5,
+      "image": "PMC7159299_p5.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC7159086",
+      "pdf_page": 2,
+      "image": "PMC7159086_p2.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC7159086",
+      "pdf_page": 8,
+      "image": "PMC7159086_p8.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC7159086",
+      "pdf_page": 9,
+      "image": "PMC7159086_p9.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC6129281",
+      "pdf_page": 7,
+      "image": "PMC6129281_references_p7.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC7092819",
+      "pdf_page": 12,
+      "image": "PMC7092819_references_p12.png",
+      "assistant_visually_inspected": true
+    },
+    {
+      "pmcid": "PMC4103590",
+      "pdf_page": 1,
+      "image": "PMC4103590_p1.png",
+      "assistant_visually_inspected": true
+    }
+  ],
+  "render_count": 20,
+  "new_model_run": false,
+  "human_forms_unchanged": true,
+  "original_run_unchanged": true,
+  "suggested_labels_count": 2,
+  "pending_labels_count": 3,
+  "original_strict_engineering_success": 1,
+  "supplemental_structure_quotes_passed": 3,
+  "fixed_denominator": 20,
+  "formal_end_to_end_accepted": 0
+}

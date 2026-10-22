@@ -1,0 +1,44 @@
+[
+  {
+    "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+    "evidence_id": "D01:S01",
+    "quote_unchanged": "making >144 000 experimentally-determined structures of proteins, DNA, and RNA, and their complexes with metal ions, drugs, and other small molecules freely available",
+    "whitespace_only_contiguous_match": true,
+    "scope": "read-only difference diagnosis; not a new accepted parser or location proof"
+  },
+  {
+    "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+    "evidence_id": "D01:S03",
+    "quote_unchanged": "The PDB Core Archive houses 3D atomic coordinates of more than 144 000 structural models of proteins, DNA/RNA, and their complexes with metals and small molecules",
+    "whitespace_only_contiguous_match": true,
+    "scope": "read-only difference diagnosis; not a new accepted parser or location proof"
+  },
+  {
+    "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+    "evidence_id": "D01:S07",
+    "quote_unchanged": "The PDB Core Archive houses 3D atomic coordinates of >144 000 structural models of proteins, DNA/RNA, and their complexes with metals and small molecules.",
+    "whitespace_only_contiguous_match": false,
+    "scope": "read-only difference diagnosis; not a new accepted parser or location proof"
+  },
+  {
+    "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+    "evidence_id": "D01:S02",
+    "quote_unchanged": "Viruses of the family Coronaviridae possess a single-strand, positive-sense RNA genome",
+    "whitespace_only_contiguous_match": true,
+    "scope": "read-only difference diagnosis; not a new accepted parser or location proof"
+  },
+  {
+    "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+    "evidence_id": "D01:S04",
+    "quote_unchanged": "a novel coronavirus (termed 2019-nCoV) has been identified",
+    "whitespace_only_contiguous_match": true,
+    "scope": "read-only difference diagnosis; not a new accepted parser or location proof"
+  },
+  {
+    "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+    "evidence_id": "D01:S10",
+    "quote_unchanged": "This evidence indicates that 2019-nCoV is a novel betacoronavirus from the subgenus Sarbecovirus",
+    "whitespace_only_contiguous_match": false,
+    "scope": "read-only difference diagnosis; not a new accepted parser or location proof"
+  }
+]

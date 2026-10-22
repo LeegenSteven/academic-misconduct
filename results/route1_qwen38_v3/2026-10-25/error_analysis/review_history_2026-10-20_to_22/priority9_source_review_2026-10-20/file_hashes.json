@@ -1,0 +1,21 @@
+{
+  "9条判断建议_待李云确认.jsonl": "277e4d43b044119f53a3a1b945aa67a67ceaafda699aa88976fd865e19d1480f",
+  "9条原输入与上下文.jsonl": "f12741568d4f0c1c0b67d64dbd2612793c1b22e6c290315b5cf8da3c1723b62b",
+  "9条引用范围核验.jsonl": "03cefb3140aa215093352033a698a528786a52c6455eae7d20d5fcfb5b9d8fb7",
+  "gold疑点旁路建议.jsonl": "d578939d9c93ca1bd5452f223edd03195ddf3f6d626589f61f2966c10b45d6bf",
+  "source_xml/PMC2886067.xml": "8948c01a428f537bf29e3b396d19e2696b194f288a7f253995c626ffc7bad310",
+  "source_xml/PMC7933614.xml": "07f63177eb4c68bb620c6986e6099ddaa6c91be27e0716cf1c6056b070146e10",
+  "source_xml/PMC8205852.xml": "b104a4a20705ec5b8c2155ab5d03b0338fa0faae9be6048567bafb4af0df9ad3",
+  "source_xml/PMC8297333.xml": "aeec50b5c12fca478f6ed3dbcce8f799189722da1fff96c0bd26511dc6b167cf",
+  "source_xml/PMC8402317.xml": "f2b2151f39921b25e04c25726ab5bd6ce0ec79eb948df6f194aceb0b6d227a3a",
+  "source_xml/PMC8497511.xml": "18ef33b11909c85f8afc9e33d04985515324af7ee78afe9caa9965830c4b318d",
+  "source_xml/PMC8556155.xml": "1a7d5b0e5ef5837c3e044f5b91cdec3aeb1df5ade1e9691168e76a19358adfeb",
+  "source_xml/PMC8619493.xml": "11a737f2fff7808d06125ce6585b7fd72935bf522676efc7d8cfc8cb1920cce0",
+  "source_xml/PMC8801912.xml": "c5c4bfa5a6c380f271e0dae4082846060bf7b0257afe5f710f3f51a21e7a0a82",
+  "二次仔细核对结果.json": "a192283652c60d69e8239ac08cc49fcd891df24df94e10bdb4d5f8e6ac62affc",
+  "先看这9条判断建议.md": "15cfeda12edc4c9abef51ccdb12793b63c1513ce9d49f7feb592163a44be2322",
+  "引用范围核验来源.json": "b76e0868262c4f18a1f92e13b8edfeadc3da9bf6255d4fab2726c3fe7b9950d3",
+  "引用范围进一步核验.md": "13c49f16b3ad0e84fdbdb4d013a9d93b0c5315f891e004c8f69930646247799b",
+  "核验与来源.json": "11f8db2a8b89a68ee75c2b5ca3bf09c40ac06a3737c04d32f41d32eb28f706fc",
+  "补充原句与可见性.jsonl": "676107d04eb107b04a39d84044f2e7252e276062a2dd511f59ca3888104bcae8"
+}

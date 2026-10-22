@@ -1,0 +1,21 @@
+{
+  "status": "PASS_CPU_retrieval_reproducibility_and_file_integrity_only",
+  "case_records_equal": 20,
+  "candidate_records_equal": 200,
+  "model_runs": 0,
+  "engineering_accepted": 0,
+  "formal_location_rate": null,
+  "known_prime_text_issue_still_unmodified": true,
+  "original_execution_time_precision": "date; exact original time not fabricated",
+  "files_sha256": {
+    "cpu_recomputed_results.jsonl": "516adb90cddefdf82bc76f74a7b13b2d13e34291f5a201f908df74ce5ec50ce2",
+    "cpu_replay.log": "976b7975b2be3a5bd04e67aef9a7a6724d4bc5586a92aff8f8db4b9da8c76649",
+    "cpu_replay_summary.json": "bf99ace5757ca7fd1850f3923546afbc2930f5a466f351706bffe7012dafbc2c",
+    "dependency_provenance.json": "1e537eb5f9ec6f6311454fd1a35a2f0d38c2642d0b61eefdc94a13424d946bf0",
+    "README.md": "11fbcf3cd3c6a528da6647fffba00c50f0825f716cb8665ae80974d950edca8a",
+    "supplement_files/route1_pdf20_cited_retrieval_v1.py": "e9e7b5c6cacb275f07e85dbdbd8acf15527c1b3e321f2bb886745abb69112521",
+    "supplement_files/复现材料补充说明_陈明进_20261020.md": "80277785cea0b454859652156eeaed60afbf68958ba02b57c36905b63511d79f",
+    "supplement_files/被引端检索结果说明_陈明进_20261020.md": "f4638511b4883fb4059bfad1157319201ef31b7f1389386da25e3781d8cc5618",
+    "给陈明进_补充材料已核对.txt": "c51bf524b41920a6c0c1d74e79adc7224ecf1a28a4af4a3d19dd2ccba6dcc5bd"
+  }
+}

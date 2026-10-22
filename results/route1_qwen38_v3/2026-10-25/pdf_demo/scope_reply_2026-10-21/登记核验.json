@@ -1,0 +1,39 @@
+{
+  "status": "TWO_CHEN_SCOPE_OPINIONS_RECORDED_NO_CLASSIFICATION_RELEASE",
+  "original_files_sha256": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\case_manifest.jsonl": "2aa4b963062eb3c048e93b8a63a73857e20f00e82339da2156c6bfc983f9ad4b",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\pair_manifest.jsonl": "fcde8fb3cf1b3204b843c40ba424b86fb46331b6e525ce07e8e20bfdb76d4123",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\scope_and_input_preparation_2026-10-20\\scope_review.jsonl": "b799ea5315e77456f1e5891ea5010ee677ddb62b43a049dbfb85538cb6d2bbd9",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\scope_and_input_preparation_2026-10-20\\classification.draft.inputs.jsonl": "d5eb5a853ffd7f6068092cc5314c5f1cb518d12cf2addbe418b0bdda06cdd980",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\scope_and_input_preparation_2026-10-20\\retrieval_v2_preparation.jsonl": "58d81a224174ae8c58e5035ce1c68aa84006026eb941fcdb8ec21b7b1f145872",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF迁移准备_20261021\\route1_pdf_cpu_check_20261021_attempt2\\runtime_plan.json": "39b7698258b3baee1d40d6940c56b16f3d03e45ab43c37166887a9f72e9ea678",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF迁移准备_20261021\\route1_pdf_cpu_check_20261021_attempt2\\scope_confirmation_template.json": "40784108c4ea9d921c17ae291ab0b87657c75c9c4c4ae0fc1c024930f12e6fe0"
+  },
+  "reply_sha256": "653a41388464cc724193630db2f7d020e0f8aa6154fdc969706ccb339f44b98e",
+  "recorded_opinions": 2,
+  "actual_reply_time_available": false,
+  "liyun_scope_acknowledgements_added": 0,
+  "new_classification_labels": 0,
+  "fixed_points": 20,
+  "held_classification_points": 2,
+  "other_prepared_points": 18,
+  "preselected_original_indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "preselected_pairs": 5,
+  "model_runs": 0,
+  "release_created": false,
+  "output_files_sha256": {
+    "处理说明.md": "3a3525da4cac84007c00b7cfee6fb8e03a379d66651207d1a3d6728e355bcaa1",
+    "范围处理意见_陈明进.jsonl": "4cf515771babad9af7e45262fa0f33a9bafaba6617f3e3f592ada584477b7d42",
+    "陈明进回复_用户转述原文.txt": "653a41388464cc724193630db2f7d020e0f8aa6154fdc969706ccb339f44b98e",
+    "首批5点范围_待李云确认.md": "fc37147168459b4f6dd494368500433e49021daed4bbd30bac4c6b07327c3c96",
+    "首批5点预选草稿.json": "32d74a93686acec078d0ed22922c5825bec8e224781bd553ef6305e9967ce577"
+  },
+  "progress_readme_sha256": "9a7f9444d7df430167acfc08c493e25bd672635cfa4a6f7e9085637918a5823e",
+  "prior_readme_snapshot_sha256": "39520edbd28d6769abfdd49a885f83fd536336abeb4283b9775af8006c439596"
+}

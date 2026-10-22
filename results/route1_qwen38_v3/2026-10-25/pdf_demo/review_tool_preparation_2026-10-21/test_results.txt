@@ -1,0 +1,19 @@
+test_16_of_20_uses_fixed_denominator_not_only_valid_points (__main__.ReviewTests.test_16_of_20_uses_fixed_denominator_not_only_valid_points) ... ok
+test_classification_error_can_have_engineering_and_semantic_success (__main__.ReviewTests.test_classification_error_can_have_engineering_and_semantic_success) ... ok
+test_cli_templates_and_merge_do_not_touch_originals (__main__.ReviewTests.test_cli_templates_and_merge_do_not_touch_originals) ... ok
+test_four_outcomes_do_not_infer_one_review_from_another (__main__.ReviewTests.test_four_outcomes_do_not_infer_one_review_from_another) ... ok
+test_invalid_explanation_cannot_be_human_overridden (__main__.ReviewTests.test_invalid_explanation_cannot_be_human_overridden) ... ok
+test_joint_adjudication_requires_both_acknowledgements (__main__.ReviewTests.test_joint_adjudication_requires_both_acknowledgements) ... ok
+test_missing_basis_naive_time_exposure_and_draft_filled_rejected (__main__.ReviewTests.test_missing_basis_naive_time_exposure_and_draft_filled_rejected) ... ok
+test_one_person_never_counts_as_two (__main__.ReviewTests.test_one_person_never_counts_as_two) ... ok
+test_partial_16_reviews_cannot_shrink_formal_denominator (__main__.ReviewTests.test_partial_16_reviews_cannot_shrink_formal_denominator) ... ok
+test_raw_tampering_token_drift_pair_and_duplicate_points_rejected (__main__.ReviewTests.test_raw_tampering_token_drift_pair_and_duplicate_points_rejected) ... ok
+test_semantic_disagreement_blocks_explanation_but_keeps_classification (__main__.ReviewTests.test_semantic_disagreement_blocks_explanation_but_keeps_classification) ... ok
+test_simulated_stage_cannot_be_counted_as_real_engineering (__main__.ReviewTests.test_simulated_stage_cannot_be_counted_as_real_engineering) ... ok
+test_unknown_duplicate_wrong_person_and_stale_reviews_rejected (__main__.ReviewTests.test_unknown_duplicate_wrong_person_and_stale_reviews_rejected) ... ok
+test_unsigned_templates_do_not_accept_or_display (__main__.ReviewTests.test_unsigned_templates_do_not_accept_or_display) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.714s
+
+OK

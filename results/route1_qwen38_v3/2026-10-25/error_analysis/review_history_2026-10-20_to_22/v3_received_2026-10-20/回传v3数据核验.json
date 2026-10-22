@@ -1,0 +1,58 @@
+{
+  "status": "v3_return_received_revisions_verified_joint_decisions_pending",
+  "date": "2026-10-20",
+  "records": 45,
+  "unique_ids": 45,
+  "same_order_and_frozen_fields": true,
+  "only_chen_fields_changed_against_original_master": true,
+  "chen_label_distribution": {
+    "NOT_ACCURATE": 40,
+    "ACCURATE": 5
+  },
+  "current_gold_difference_ids": [
+    "112",
+    "120",
+    "138",
+    "236",
+    "342"
+  ],
+  "label_changes_since_previous_return": [
+    "sarol:test:233",
+    "sarol:test:242"
+  ],
+  "reason_or_evidence_changed_ids": [
+    "sarol:test:233",
+    "sarol:test:242",
+    "sarol:test:480",
+    "sarol:test:490",
+    "sarol:test:502"
+  ],
+  "all_selected_evidence_ids_valid": true,
+  "case233_cross_case_id_withdrawn_not_new_invalid_selection": true,
+  "case242_weight_gain_vs_healthy_eating_distinction_added": true,
+  "case480_MERS_target_scope_corrected": true,
+  "case490_still_needs_combo_vs_single_agent_precision": true,
+  "case502_full_paragraph_antecedent_available": true,
+  "unchanged_stale_attribution_basis_ids": [
+    "20",
+    "112",
+    "120",
+    "138",
+    "236",
+    "342"
+  ],
+  "li_label_count_as_received": 1,
+  "resolved_label_count_as_received": 1,
+  "existing_reused_case": "sarol:test:51",
+  "actual_new_joint_resolutions_performed": false,
+  "source_sha256": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\2026-10-20_45条漏检案例复核\\miss45_review_陈明进终版v3_20261020.csv": "b3502987985a7d4bac5726b14304a215fd13673775efade39d903b9083c24050",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\2026-10-20_45条漏检案例复核\\45条三方对比与分歧裁决_陈明进_终版v3_20261020.md": "214f23eb8d61a6b997ca10d3a538493e82edfa07a0b4cb6e77754e3662de5f9b",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_review.csv": "19126506e78340f1ab49ca11b1650b5a9b60b7fddbf3d17492e784ab2be4841c",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\gold_questions_sidecar.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_payload.jsonl": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3"
+  },
+  "source_files_modified": false,
+  "new_human_signatures_added": false,
+  "frozen_gold_or_metrics_changed": false
+}

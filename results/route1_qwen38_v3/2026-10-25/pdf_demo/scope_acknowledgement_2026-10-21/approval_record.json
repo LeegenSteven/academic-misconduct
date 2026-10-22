@@ -1,0 +1,39 @@
+{
+  "status": "ACTUAL_USER_SCOPE_ACKNOWLEDGEMENT_RECORDED",
+  "reviewer": "李云",
+  "source": "human user message in current conversation",
+  "verbatim_message": "同意两点处理及首批5点范围",
+  "recorded_at_utc": "2026-10-21T10:28:29.292454+00:00",
+  "original_user_message_timestamp_available": false,
+  "time_basis": "System recording time of this explicit approval; not asserted to be the time the person originally inspected each PDF",
+  "runtime_plan_sha256": "39b7698258b3baee1d40d6940c56b16f3d03e45ab43c37166887a9f72e9ea678",
+  "scope_document_sha256": "813a8f3b0cf470b8547992ababc77ea3cad7c5ca556e4e9f82d201f66fd060db",
+  "scope_document": "首批5点范围_已确认.md",
+  "selected_case_ids": [
+    "r1pdf:c39ba37fc4698431f556d6b9",
+    "r1pdf:ecd1a395eb5f25610750d721",
+    "r1pdf:e1636ac35ca5131bfdf6fb44",
+    "r1pdf:cc2e2247d91afc3f3559aa23",
+    "r1pdf:df5053bbd503ea2762b3617d"
+  ],
+  "selected_original_indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "pair_count": 5,
+  "held_case_ids": [
+    "r1pdf:48b208f007c2c6e700c04ff0",
+    "r1pdf:896e930269210ee1300d8037"
+  ],
+  "held_treatment_accepted": true,
+  "held_points_enter_classification": false,
+  "fixed_denominator": 20,
+  "acknowledgement_is_not_semantic_gold_or_classification_result": true,
+  "new_classification_labels": 0,
+  "model_runs": 0,
+  "verbatim_file_sha256": "8fafdf8e7293591b8aa011dd45b03d71898db54e32ebe93e1bbe2076b3cd3efb",
+  "source_scope_document_sha256_at_confirmation": "fc37147168459b4f6dd494368500433e49021daed4bbd30bac4c6b07327c3c96"
+}

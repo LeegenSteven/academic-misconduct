@@ -1,0 +1,38 @@
+[
+  {
+    "source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\终版v3核对_20261020",
+    "repository_directory": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/v3_received_2026-10-20",
+    "files": 8,
+    "byte_identical": true
+  },
+  {
+    "source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\v4接收核对_20261020",
+    "repository_directory": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/v4_received_2026-10-20",
+    "files": 8,
+    "byte_identical": true
+  },
+  {
+    "source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\v5接收核对_20261021",
+    "repository_directory": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/v5_received_2026-10-21",
+    "files": 4,
+    "byte_identical": true
+  },
+  {
+    "source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\v6接收核对_20261022",
+    "repository_directory": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/v6_received_2026-10-22",
+    "files": 6,
+    "byte_identical": true
+  },
+  {
+    "source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\李云首批9条核对材料_20261020",
+    "repository_directory": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/priority9_source_review_2026-10-20",
+    "files": 20,
+    "byte_identical": true
+  },
+  {
+    "source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020",
+    "repository_directory": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20",
+    "files": 25,
+    "byte_identical": true
+  }
+]

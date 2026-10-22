@@ -1,0 +1,99 @@
+{
+  "review_date": "2026-10-20",
+  "status": "passed_current_CPU_preparation_review_only",
+  "test_execution_observed": {
+    "exit_code": 0,
+    "test_count": 14,
+    "runner": "code/ly/test_route1_pdf_v3.py",
+    "note": "Actual test output in this chat tool execution; new tests cover rank/score/pool/budget/timestamps and overlapping fragments. Not GPU or semantic tests."
+  },
+  "code_files_sha256": {
+    "code/ly/run_route1_pdf_v3.py": "0f49d1864a9008966d424de4a52c7f8136a28d05e3b95147abe4f36fce6c1e55",
+    "code/ly/test_route1_pdf_v3.py": "2ce7e85b1781dac709fe519b39ccc403a96a45040f14c5425b1a0a968ce04ff7",
+    "code/ly/README_route1_pdf_v3.md": "b6dd559d4523300097ab5732eecbc51d2a7fe9b687868e9230182d9c1b394aa6"
+  },
+  "preparation_receipt_sha256": "55f6a620c18651639e18a389d83bce46d91ee8a0c5f20e336ac5ef4f7caee7d9",
+  "new_outputs_match_receipt": true,
+  "old_outputs_and_archived_code_match_old_receipt": true,
+  "all_20_existing_point_fields_unchanged_except_schema_version": true,
+  "csv_jsonl_ids_and_missing_states_agree": true,
+  "multi_reference_group_count": 6,
+  "multi_reference_group_points": [
+    {
+      "case_id": "r1pdf:48b208f007c2c6e700c04ff0",
+      "source_pool_candidate_id": "PMC-OA-EXP-03",
+      "marker": [
+        "1"
+      ],
+      "group": [
+        "1–4"
+      ],
+      "note": "Multi-reference group: scope must be reviewed before classification; no label assigned."
+    },
+    {
+      "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+      "source_pool_candidate_id": "PMC-OA-EXP-10",
+      "marker": [
+        "6"
+      ],
+      "group": [
+        "6,7"
+      ],
+      "note": "Multi-reference group: scope must be reviewed before classification; no label assigned."
+    },
+    {
+      "case_id": "r1pdf:1dfa922c755ed870245927e3",
+      "source_pool_candidate_id": "newpair_002_R40_PMC9671808",
+      "marker": [
+        "40"
+      ],
+      "group": [
+        "38–40"
+      ],
+      "note": "Multi-reference group: scope must be reviewed before classification; no label assigned."
+    },
+    {
+      "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+      "source_pool_candidate_id": "PMC-OA-EXP-07",
+      "marker": [
+        "1"
+      ],
+      "group": [
+        "1,12,13"
+      ],
+      "note": "Multi-reference group: scope must be reviewed before classification; no label assigned."
+    },
+    {
+      "case_id": "r1pdf:0625d9ca3ef5bf2a22c6109b",
+      "source_pool_candidate_id": "PMC-OA-EXP-07",
+      "marker": [
+        "1"
+      ],
+      "group": [
+        "1,8,12"
+      ],
+      "note": "Multi-reference group: scope must be reviewed before classification; no label assigned."
+    },
+    {
+      "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+      "source_pool_candidate_id": "PMC-OA-EXP-07",
+      "marker": [
+        "1"
+      ],
+      "group": [
+        "1,12"
+      ],
+      "note": "Multi-reference group: scope must be reviewed before classification; no label assigned."
+    }
+  ],
+  "confidence_and_scores_all_null": true,
+  "no_model_calls": true,
+  "human_semantic_signoff": false,
+  "source_integrity_review_sha256": "76eb093de83df0394b1107c951902b8340307bec655492742ab77327924a2c6a",
+  "not_complete": [
+    "cited PDF evidence returns",
+    "target claim scope review",
+    "A100 classifier and independent explainer runs",
+    "both human judgments and adjudication"
+  ]
+}

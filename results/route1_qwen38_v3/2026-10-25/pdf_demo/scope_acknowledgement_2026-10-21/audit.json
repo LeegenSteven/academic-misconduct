@@ -1,0 +1,59 @@
+{
+  "status": "HUMAN_SCOPE_ACK_RECORDED_FIRST5_LOCAL_RELEASE_CHECK_PASS",
+  "registered_at_utc": "2026-10-21T10:28:29.292454+00:00",
+  "runtime_plan_sha256": "39b7698258b3baee1d40d6940c56b16f3d03e45ab43c37166887a9f72e9ea678",
+  "selected_case_ids": [
+    "r1pdf:c39ba37fc4698431f556d6b9",
+    "r1pdf:ecd1a395eb5f25610750d721",
+    "r1pdf:e1636ac35ca5131bfdf6fb44",
+    "r1pdf:cc2e2247d91afc3f3559aa23",
+    "r1pdf:df5053bbd503ea2762b3617d"
+  ],
+  "pair_count": 5,
+  "fixed_denominator": 20,
+  "held_points": [
+    "r1pdf:48b208f007c2c6e700c04ff0",
+    "r1pdf:896e930269210ee1300d8037"
+  ],
+  "approved_for_small_batch_scope": 5,
+  "remaining_points": 15,
+  "original_files_unchanged": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF迁移准备_20261021\\route1_pdf_cpu_check_20261021_attempt2\\runtime_plan.json": "39b7698258b3baee1d40d6940c56b16f3d03e45ab43c37166887a9f72e9ea678",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF迁移准备_20261021\\route1_pdf_cpu_check_20261021_attempt2\\scope_confirmation_template.json": "40784108c4ea9d921c17ae291ab0b87657c75c9c4c4ae0fc1c024930f12e6fe0",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\scope_reply_2026-10-21\\范围处理意见_陈明进.jsonl": "4cf515771babad9af7e45262fa0f33a9bafaba6617f3e3f592ada584477b7d42"
+  },
+  "original_runtime_code_unchanged": {
+    "route1_pdf_pipeline_v3.py": "80d17ad57db84c218ac3b0046432f12cbd915835003576ccf3fc5f6571faf055",
+    "route1_pdf_hf_backend_v3.py": "800e2f1db364ba955fdcbecf26740fb3e3ae2e585a04ea18670f09a72b108caf",
+    "run_route1_pdf_v3.py": "6674fc6e49bead010f4155cef897a00a4b0b26d78e7c626fcacae06fed81b1cb",
+    "prepare_pdf20_scope_inputs_20261020.py": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+    "build_sarol_inputs_v2.py": "2f4b32708646337b91064474d13b1769029038c5f72b8ec5059599329bc6e3af"
+  },
+  "cpu_module_torch_imported": false,
+  "actual_model_runs": 0,
+  "server_freeze_executed": false,
+  "local_release_check_passed": true,
+  "release_gate_negative_checks": 3,
+  "handoff_dir": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点执行_20261021\\route1_pdf_first5_20261021",
+  "control_manifest_sha256": "e0258a34e4ffa411d8fd2217d458379ffb183626433cc4a7fee1392f7da7fc08",
+  "handoff_files_sha256": {
+    "approval_record.json": "5a7a64102281e85771dd81c399b1bec4e3e6bd71e8d97dc521a5b39595a855b2",
+    "control.py": "2b2da1177a0057bf9dd446bead1c279024d782fb231e321b4fd5bc0ae7ff1409",
+    "control_manifest.json": "e0258a34e4ffa411d8fd2217d458379ffb183626433cc4a7fee1392f7da7fc08",
+    "README.txt": "ce7b4f6bc4960ff5d4dde67a683ec7d652b6bfbf9469666ec976f17c2f500a73",
+    "scope_confirmations.json": "eeaa31f7167d9bcf20b00a3ec7c0b91bb17844b65d19f6b3f8bb62fd9635b435",
+    "scope_dispositions.jsonl": "f5be8f49c04531b2d62f3b9c55cc9dc3f6bafde3219369482420ee8e3ece52af",
+    "李云确认_会话原文.txt": "8fafdf8e7293591b8aa011dd45b03d71898db54e32ebe93e1bbe2076b3cd3efb",
+    "陈明进回复_用户转述原文.txt": "653a41388464cc724193630db2f7d020e0f8aa6154fdc969706ccb339f44b98e",
+    "首批5点范围_已确认.md": "813a8f3b0cf470b8547992ababc77ea3cad7c5ca556e4e9f82d201f66fd060db"
+  },
+  "local_control_verification": {
+    "control_files_verified": 8,
+    "original_migrated_files_verified": 429,
+    "first5_release_gate_passed": true,
+    "synthetic_model_link_plan_count": 24,
+    "tampered_template_rejected": true,
+    "torch_imported": false,
+    "server_model_view_created": false
+  }
+}

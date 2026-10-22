@@ -1,0 +1,32 @@
+{
+  "patch_id": "trimmomatic_p03_prime_glyphs_v1",
+  "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+  "pdf_page": 3,
+  "block_number": 11,
+  "raw_text": "2.2.1 Sliding Window quality filtering\nThe Sliding Window uses\na relatively standard approach. This works by scanning from the\n50 end of the read, and removes the 30 end of the read when the\naverage quality of a group of bases drops below a specified\nthreshold. This prevents a single weak base causing the removal\nof subsequent high-quality data, while still ensuring that a con-\nsecutive series of poor-quality bases will trigger trimming.\n",
+  "raw_text_sha256": "2554affd2fb2c40edbe2f3623bb1924bf1c1688faf779ec17ccbb57bbb44c11f",
+  "model_text": "2.2.1 Sliding Window quality filtering\nThe Sliding Window uses\na relatively standard approach. This works by scanning from the\n5′ end of the read, and removes the 3′ end of the read when the\naverage quality of a group of bases drops below a specified\nthreshold. This prevents a single weak base causing the removal\nof subsequent high-quality data, while still ensuring that a con-\nsecutive series of poor-quality bases will trigger trimming.\n",
+  "model_text_sha256": "de6899b0f5e329a3c5ced7f6e674d89eed90cf9387036e593b3dea7fab816916",
+  "patches": [
+    {
+      "within_block_index": 128,
+      "pdf_page_char_index": 2962,
+      "before": "0",
+      "after": "′",
+      "raw_phrase": "50 end",
+      "visible_pdf_phrase": "5′ end"
+    },
+    {
+      "within_block_index": 164,
+      "pdf_page_char_index": 2998,
+      "before": "0",
+      "after": "′",
+      "raw_phrase": "30 end",
+      "visible_pdf_phrase": "3′ end"
+    }
+  ],
+  "visual_source_issue": "results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\cited_return_review_2026-10-20\\visual_text_issue_case03_E02.json",
+  "visual_source_image_sha256": "d3478fd5760f230571b1c37bc0aadaa0dc62c5c02fa06984ba896779898170aa",
+  "review_type": "assistant visually checked source normalization; not two-person adjudication",
+  "original_pdf_and_cache_edited": false
+}

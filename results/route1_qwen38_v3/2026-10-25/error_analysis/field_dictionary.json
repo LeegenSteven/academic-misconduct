@@ -1,0 +1,36 @@
+{
+  "case_id": "dataset:split:claim_id; join on the full case key",
+  "payload_line": "1-based line in miss45_payload.jsonl; never truncate the linked original text",
+  "gold": "unchanged label in frozen v2 test.gold.jsonl; not an adjudicated new gold",
+  "gold_evidence_missing": "original metadata; does not mean the classification label is absent",
+  "gold_reference_not_in_input_count": "reference occurrences; not a unique-case count or automatic RET diagnosis",
+  "review_mode": "non_blind_prediction_visible; reviewer-specific actual exposure fields remain to be filled",
+  "reason_codes": {
+    "allowed": [
+      "SEM",
+      "RET",
+      "CTX",
+      "ATT",
+      "FMT",
+      "PIPE",
+      "UNK"
+    ],
+    "separator": ";",
+    "initial": "blank pending actual review"
+  },
+  "sem_subtypes": {
+    "allowed": [
+      "否定",
+      "方向",
+      "数量",
+      "条件",
+      "对象",
+      "过度概括"
+    ],
+    "separator": ";"
+  },
+  "review20_reused": "only sarol:test:51; labels/reasons retained from prior confirmed record",
+  "resolved_label": "prior accepted label if reused; new-case judgments left blank",
+  "gold_question_status": "not_reviewed_for_this_week initially; concerns in a separate sidecar",
+  "boolean_encoding": "CSV true/false; JSON/JSONL native booleans"
+}

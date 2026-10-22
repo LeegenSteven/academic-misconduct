@@ -1,0 +1,23 @@
+{
+  "status": "pass_file_integrity_and_technical_reception_only",
+  "points": 20,
+  "candidates": 200,
+  "formal_location_rate": null,
+  "engineering_accepted": 0,
+  "model_runs": 0,
+  "known_visual_text_issue": "case 3 E02, primes 5′/3′ extracted as 50/30; no corrected input generated yet",
+  "source_scope_files_unchanged": true,
+  "incoming_originals_unchanged": true,
+  "files_sha256": {
+    "original_return/cited_evidence_results.jsonl": "516adb90cddefdf82bc76f74a7b13b2d13e34291f5a201f908df74ce5ec50ce2",
+    "original_return/cited_evidence_summary_top3.csv": "466ed8f43d4f47ac44298f2cb0e555772e7fdacb55ae1b2ae2e171d9e4cbbba7",
+    "original_return/retrieval_manifest.json": "06d43eb028b6d815ef6a657f84ad8cf02d6fbfba6265a91007bb00087dab5741",
+    "original_return/被引端检索结果说明_陈明进_20261020.md": "3e0a9d3337d78ac34ad0050b6a67d0e39806bb69c19d2055745b804ad30dc22e",
+    "qa/case03_E02_original_pdf_crop.png": "d3478fd5760f230571b1c37bc0aadaa0dc62c5c02fa06984ba896779898170aa",
+    "README.md": "e9d3ff3d843ba21bf07843317fb8e07a79c4b85203cd53324e14791dbfb941a7",
+    "received_cited_evidence.jsonl": "af8008211f0252b335d1d3bd803a3a1dca22f340e9465d89a4d2b04131627559",
+    "retrieval_return_validation.json": "6a0592ed2b4465d712a62ff188e61683f9a8f9b4b250cf008b0ad3a7964e3e7c",
+    "visual_text_issue_case03_E02.json": "53af4c8107abf0f340f77301922c24f87c800a6251df0184906182e0437f736a",
+    "给陈明进_回传核对说明.txt": "c497760792b500848868a900082f07bf86b5a4d0073e8ed7d6e9795dce0d2df4"
+  }
+}

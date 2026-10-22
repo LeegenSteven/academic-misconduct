@@ -1,0 +1,29 @@
+{
+  "status": "initial_notes_checked_human_review_pending",
+  "records": 5,
+  "case_ids": [
+    "sarol:test:0",
+    "sarol:test:15",
+    "sarol:test:20",
+    "sarol:test:24",
+    "sarol:test:28"
+  ],
+  "source_raw_labels_checked": 45,
+  "source_raw_label_distribution": {
+    "ETIQUETTE": 12,
+    "OVERSIMPLIFY": 18,
+    "MISQUOTE": 3,
+    "NOT_SUBSTANTIATE": 10,
+    "CONTRADICT": 2
+  },
+  "all_raw_to_project_mappings_match_frozen_gold": true,
+  "source_span_checks": 37,
+  "all_source_spans_match_corpus_and_original_retrieval_scope": true,
+  "candidate_evidence_ids_valid": true,
+  "original_source_files_unchanged": true,
+  "formal_human_review_columns_changed": false,
+  "human_signatures_added": false,
+  "final_cause_codes_assigned": false,
+  "new_model_inference": false,
+  "frozen_metrics_recomputed": false
+}

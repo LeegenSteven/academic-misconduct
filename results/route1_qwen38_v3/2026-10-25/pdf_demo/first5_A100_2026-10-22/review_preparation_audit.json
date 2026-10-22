@@ -1,0 +1,22 @@
+{
+  "kind": "unsigned_real_output_review_preparation",
+  "created_at_utc": "2026-10-22T02:25:13.982447+00:00",
+  "records_sha256": "495e96f319bc49d062460f14f9c23fccb62a18427c3ac0a0c1cab821a24fd2b5",
+  "runtime_plan_sha256": "39b7698258b3baee1d40d6940c56b16f3d03e45ab43c37166887a9f72e9ea678",
+  "actual_assembled_records": 20,
+  "first_batch_cases": [
+    "r1pdf:c39ba37fc4698431f556d6b9",
+    "r1pdf:ecd1a395eb5f25610750d721",
+    "r1pdf:e1636ac35ca5131bfdf6fb44",
+    "r1pdf:cc2e2247d91afc3f3559aa23",
+    "r1pdf:df5053bbd503ea2762b3617d"
+  ],
+  "review_rows_per_person": 20,
+  "submitted_reviews": 0,
+  "human_judgments_written": 0,
+  "human_review_time_generated": false,
+  "PDF_files_hash_verified": 8,
+  "original_run_files_unchanged": true,
+  "guide_sha256": "333411f179053c2515ee7d3bec2fac6a96b3a220c7519e2d71adc3129525ea33",
+  "scope_release_sha256": "57ce1f04fe089ed4f59cff2923965573237883ef0e12cca2aaeed0ce5cf1c7d8"
+}

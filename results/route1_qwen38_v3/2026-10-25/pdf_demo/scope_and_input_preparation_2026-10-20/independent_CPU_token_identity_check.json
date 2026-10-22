@@ -1,0 +1,162 @@
+{
+  "status": "passed_CPU_token_identity_only",
+  "checked_at_utc": "2026-10-20T13:13:06.824470+00:00",
+  "checker_sha256": "b5f553ba40357838cb1a1bbd004afe58fcca008b1cd6cd67262524cdbb048fc3",
+  "inputs_sha256": "d5eb5a853ffd7f6068092cc5314c5f1cb518d12cf2addbe418b0bdda06cdd980",
+  "budget_report_sha256": "8150e608a3e726a9ed7400e8bb3369070da3bae97eddd5d314e69fb45a78da78",
+  "official_tokenizer_files_sha256": {
+    "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+    "config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+    "chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"
+  },
+  "transformers": "5.8.0",
+  "rows": [
+    {
+      "case_id": "r1pdf:48b208f007c2c6e700c04ff0",
+      "input_tokens": 3075,
+      "input_ids_sha256": "058f860b5520ba9bb39849a5379858ecc65c01561097e9b00bd290acacd1616d",
+      "required_total": 3587,
+      "scope_hold": "group_modifier_boundary_needs_joint_confirmation"
+    },
+    {
+      "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+      "input_tokens": 2202,
+      "input_ids_sha256": "a4e6b0e9baf0b9687f64211cd1eabd1f7f17fca2f7b8ad2603da9794a22e9c09",
+      "required_total": 2714,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:ecd1a395eb5f25610750d721",
+      "input_tokens": 1082,
+      "input_ids_sha256": "c8a274805f9fda3c7e301cc95727012a8684be39c45f71d9774c00be3c31aec8",
+      "required_total": 1594,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:e1636ac35ca5131bfdf6fb44",
+      "input_tokens": 1901,
+      "input_ids_sha256": "dc6183fca495b2c7bc43f4283c9fb2a433753e6ce4deccd9ed874bf8db0bea26",
+      "required_total": 2413,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:cc2e2247d91afc3f3559aa23",
+      "input_tokens": 1662,
+      "input_ids_sha256": "778cd5bcd8008cacb14df459841058be90c0b6d514faed855e6fd1ed1895d171",
+      "required_total": 2174,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+      "input_tokens": 1745,
+      "input_ids_sha256": "df48fe5655effe5229f87ea30b2b834fa615c44503d198e8e75994dfd289e8f2",
+      "required_total": 2257,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+      "input_tokens": 2125,
+      "input_ids_sha256": "12633ccab0ad7f72362a4e089ee6e43f476718855a791e42f1809d0c1e851160",
+      "required_total": 2637,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+      "input_tokens": 2404,
+      "input_ids_sha256": "7f84bd52155704ab87bc6e57375761bff743e4461cb51d53455d5020249e2ac8",
+      "required_total": 2916,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+      "input_tokens": 2869,
+      "input_ids_sha256": "2a8961bfadab926ebc0b874ef0d9fe0a407b1f1ef9d1dbd100e712e127ec4f59",
+      "required_total": 3381,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:1dfa922c755ed870245927e3",
+      "input_tokens": 2535,
+      "input_ids_sha256": "27a246e6e5040f7d9c1d2f3deb1297c8068ba1ae077962145843dad0dedf11a9",
+      "required_total": 3047,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:976890f040d5c2cab2e50965",
+      "input_tokens": 4180,
+      "input_ids_sha256": "4a4f1edc4f3d50e9c28f0de2e5f33e7d6c468a094799863d951474e6cbcbce5c",
+      "required_total": 4692,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+      "input_tokens": 2559,
+      "input_ids_sha256": "a6d22d45361ff99c08989c53ee6d688356a037552cbc6333e8daaf1e086e570f",
+      "required_total": 3071,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:43c53ece80a7c35828d5246d",
+      "input_tokens": 2900,
+      "input_ids_sha256": "89f1ff4a6a7079033b875ea7ef739a07c808b6c4c18b34ecb249e3f3143c4d36",
+      "required_total": 3412,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+      "input_tokens": 2429,
+      "input_ids_sha256": "c35377fbafb2024b2a746ba6ab5c9fa4b76b3e5bf98b167545a16a5010b4bff6",
+      "required_total": 2941,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:896e930269210ee1300d8037",
+      "input_tokens": 2162,
+      "input_ids_sha256": "ee3bfdf212d91b45006d46ae931d4d7ba88dd38a38e9f61ed1c9a2de8a0e242b",
+      "required_total": 2674,
+      "scope_hold": "resource_reference_policy_needs_joint_confirmation"
+    },
+    {
+      "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+      "input_tokens": 2190,
+      "input_ids_sha256": "33fa573fb838b9c389cc8a72e52b335b944142c7004345fb5eedb1d946fad73b",
+      "required_total": 2702,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:0243ab815badba958177a9a8",
+      "input_tokens": 2922,
+      "input_ids_sha256": "accf8d4a7e6aa0d8565bf88cf028301e988429d08fb755bafedf4b2b193c820c",
+      "required_total": 3434,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:0625d9ca3ef5bf2a22c6109b",
+      "input_tokens": 3678,
+      "input_ids_sha256": "1e9825e0aa7d90d64c51b9bcd5b899b264f8ba7cb11bb111a652ba55260679d3",
+      "required_total": 4190,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:826cdb765c276ba900010084",
+      "input_tokens": 2864,
+      "input_ids_sha256": "33c97352b6d5282f3102a768afe92de97daa15bd2f417a3eda7ad0c9479830d4",
+      "required_total": 3376,
+      "scope_hold": null
+    },
+    {
+      "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+      "input_tokens": 2200,
+      "input_ids_sha256": "006334f92316746a4beb8e1e0a3d3c07c596ca1df3aa3a76657364252f8c0c0c",
+      "required_total": 2712,
+      "scope_hold": null
+    }
+  ],
+  "points": 20,
+  "scope_holds": 2,
+  "model_loaded": false,
+  "gpu_used": false,
+  "formal_input_release": false,
+  "note": "CPU parity is not scope signoff, a model result, semantic acceptance, or two-person adjudication."
+}

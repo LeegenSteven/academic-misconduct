@@ -1,0 +1,33 @@
+{
+  "status": "delivery_consistency_checks_passed_human_review_pending",
+  "review_cases": 45,
+  "question_records": 20,
+  "selected_candidate_id_occurrences_checked": 144,
+  "original_context_spans_replayed_exactly": 55,
+  "diagnostic_span_occurrences_checked": 77,
+  "initial_index_files_unchanged": 11,
+  "frozen_source_files_unchanged": 10,
+  "original_order_and_case_ids_match": true,
+  "reviewer_fields_not_filled_by_assistant": true,
+  "prior_review_preserved_verbatim": true,
+  "payload_copy_matches_original_hash": true,
+  "nonidentical_joined_context_case_ids": [
+    "sarol:test:20",
+    "sarol:test:48",
+    "sarol:test:63",
+    "sarol:test:190",
+    "sarol:test:484",
+    "sarol:test:490",
+    "sarol:test:544",
+    "sarol:test:580"
+  ],
+  "nonidentical_context_note": "Full frozen claim and all source-selected spans match the paragraph; a nonidentical joined text is not evidence of A100 truncation.",
+  "label_suggestion_counts": {
+    "NOT_ACCURATE": 24,
+    "deferred": 19,
+    "prior_confirmed_NOT_ACCURATE": 1,
+    "ACCURATE": 1
+  },
+  "validation_scope": "File, ID, source-text and provenance consistency; scientific judgments and cause hypotheses still require actual reviewer confirmation.",
+  "verifier_sha256": "70114fd2538698437de515fac733effdda2700d0fa26ce7be462c83ea29111dc"
+}

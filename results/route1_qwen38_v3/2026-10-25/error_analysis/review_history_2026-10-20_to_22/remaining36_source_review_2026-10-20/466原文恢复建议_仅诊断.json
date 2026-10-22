@@ -1,0 +1,12 @@
+{
+  "case_id": "sarol:test:466",
+  "status": "source_text_issue_diagnostic_reconstruction_not_used_for_inference",
+  "frozen_claim": "The comparison of findings between the present study and Voineagu et al. <|cit|>, have identified potential functional genomic abnormalities in autism, biological validation requires postmo",
+  "proposed_source_claim": "The comparison of findings between the present study and Voineagu et al. [20] demonstrates a consistent overlap involving several pathways including repair- and immune-related processes.",
+  "source_paragraph_xml": "<p>While large sample <italic toggle=\"yes\">in vivo</italic> studies, such as Pinto et al. <xref rid=\"pgen.1002592-Pinto1\" ref-type=\"bibr\">[26]</xref>, have identified potential functional genomic abnormalities in autism, biological validation requires postmortem studies, such as the present one and Voineagu et al. <xref rid=\"pgen.1002592-Voineagu1\" ref-type=\"bibr\">[20]</xref>. The comparison of findings between the present study and Voineagu et al. <xref rid=\"pgen.1002592-Voineagu1\" ref-type=\"bibr\">[20]</xref> demonstrates a consistent overlap involving several pathways including repair- and immune-related processes.</p>",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3310790/fullTextXML",
+  "source_sha256": "33af3dd4584eda4a48eabd24f52bdb211a32d54a28575273537ae1c8e6a39845",
+  "model_input_modified": false,
+  "runtime_truncation_proven": false,
+  "human_approved_new_input": false
+}

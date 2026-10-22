@@ -1,0 +1,45 @@
+{
+  "stage": "local_scope_correction_and_input_preparation_only",
+  "case_count": 20,
+  "script_sha256": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+  "recipe_sha256": "364c707e64ecb87931bcf41aebd7501b90461be87c44a4626b099da64bc2a441",
+  "recipe_version": "pdf20_assisted_scope_recipe_v2_20261020",
+  "physical_points_or_pairs_changed": false,
+  "assistant_boundary_checked": 18,
+  "scope_confirmation_holds": [
+    {
+      "case_id": "r1pdf:48b208f007c2c6e700c04ff0",
+      "reason": "group_modifier_boundary_needs_joint_confirmation"
+    },
+    {
+      "case_id": "r1pdf:896e930269210ee1300d8037",
+      "reason": "resource_reference_policy_needs_joint_confirmation"
+    }
+  ],
+  "query_changed_points": 9,
+  "correction_patch_count": 1,
+  "corrected_characters": 2,
+  "CPU_retrieval_preparation_cases": 20,
+  "candidates": 200,
+  "model_input_drafts": 20,
+  "all_ten_candidates_kept_per_point": true,
+  "within_5120_including_512_generation": 20,
+  "maximum_required_total": 4692,
+  "no_silent_truncation": true,
+  "formal_v3_input_release": false,
+  "model_runs": 0,
+  "human_labels_written": 0,
+  "joint_adjudications": 0,
+  "engineering_accepted": 0,
+  "formal_location_denominator": 20,
+  "formal_location_rate": null,
+  "generated_files_sha256": {
+    "classification.draft.inputs.jsonl": "d5eb5a853ffd7f6068092cc5314c5f1cb518d12cf2addbe418b0bdda06cdd980",
+    "input_budget_report.json": "8150e608a3e726a9ed7400e8bb3369070da3bae97eddd5d314e69fb45a78da78",
+    "preparation_policy_before_cpu_retrieval.json": "34aa85e421b66a86313e927a432a0385859b0d4a9b3acb9684a0d6e6c187041c",
+    "retrieval_v2_preparation.jsonl": "58d81a224174ae8c58e5035ce1c68aa84006026eb941fcdb8ec21b7b1f145872",
+    "scope_review.jsonl": "b799ea5315e77456f1e5891ea5010ee677ddb62b43a049dbfb85538cb6d2bbd9",
+    "text_layer_corrections.json": "1cbeb0c6eef02dc4e7b7861eb22e43a0188e278d2b635ef8ea3e99f75df2b547",
+    "tokenizer_provenance.json": "1b5d2e294059a3cb35f3a9e2ec1f311ee95bfead9cecffebfb7785bf0729a025"
+  }
+}

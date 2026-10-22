@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-20",
+  "review_type": "assistant_visual_source_review_not_independent_human_adjudication",
+  "case_id": "r1pdf:ecd1a395eb5f25610750d721",
+  "candidate_id_as_received": "E02",
+  "candidate_id_in_join": "D01:S02",
+  "cited_pmcid": "PMC4103590",
+  "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+  "pdf_fragments": [
+    {
+      "pdf_page": 3,
+      "char_start": 2834,
+      "char_end_exclusive": 3276,
+      "raw_text": "2.2.1 Sliding Window quality filtering\nThe Sliding Window uses\na relatively standard approach. This works by scanning from the\n50 end of the read, and removes the 30 end of the read when the\naverage quality of a group of bases drops below a specified\nthreshold. This prevents a single weak base causing the removal\nof subsequent high-quality data, while still ensuring that a con-\nsecutive series of poor-quality bases will trigger trimming.\n",
+      "raw_text_sha256": "2554affd2fb2c40edbe2f3623bb1924bf1c1688faf779ec17ccbb57bbb44c11f",
+      "printed_page": null,
+      "source_blocks": [
+        {
+          "block_number": 11,
+          "bbox": [
+            48.415,
+            638.577,
+            290.528,
+            713.451
+          ]
+        }
+      ],
+      "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+      "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+    }
+  ],
+  "issue_code": "PDF_TEXT_LAYER_PRIME_AS_ZERO",
+  "visual_pdf_forms": [
+    "5′ end",
+    "3′ end"
+  ],
+  "received_text_layer_forms": [
+    "50 end",
+    "30 end"
+  ],
+  "finding": "Confirmed in original PDF rendering: primes after 5 and 3 are rendered as digit zero by the text layer extraction. Coordinate/offset replay alone cannot certify visible text faithfulness.",
+  "model_use_status": "hold_this_candidate_pending_explicit_text_correction_and_review",
+  "raw_return_edited": false,
+  "corrected_model_input_created": false,
+  "retrieval_recomputed": false,
+  "scope_of_claim": "This is one confirmed issue; not a claim all other 199 candidates passed semantic/visual review.",
+  "required_next_step": "Keep raw text/hash/offsets; register a separate corrected model-text representation tied to this PDF crop and exact block; verify the direction against the PDF; version and hash any changed corpus/input and rerun affected prototype stages as applicable. Never globally replace 50 or 30.",
+  "review_image": "qa/case03_E02_original_pdf_crop.png",
+  "review_image_sha256": "d3478fd5760f230571b1c37bc0aadaa0dc62c5c02fa06984ba896779898170aa",
+  "label": null,
+  "human_joint_adjudication": false
+}

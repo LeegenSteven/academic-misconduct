@@ -1,0 +1,22 @@
+{
+  "fixed_points": 20,
+  "PDF_pairs": 10,
+  "candidates_replayed": 200,
+  "within_budget": {
+    "classifier": 20,
+    "explainer": 20
+  },
+  "maximum_total_tokens": {
+    "classifier": 4692,
+    "explainer": 4666
+  },
+  "scope_holds": [
+    "r1pdf:48b208f007c2c6e700c04ff0",
+    "r1pdf:896e930269210ee1300d8037"
+  ],
+  "released": 0,
+  "model_runs": 0,
+  "formal_location_rate": null,
+  "formal_classification_accuracy": null,
+  "note": "Actual PDF and tokenizer checks, not an A100 run, human signoff or semantic acceptance"
+}

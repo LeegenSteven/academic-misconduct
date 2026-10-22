@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-20",
+  "status": "chen_v4_received_personal_opinions_joint_review_pending",
+  "records": 45,
+  "unique_ids": 45,
+  "frozen_fields_and_order_unchanged": true,
+  "only_chen_fields_differ_from_formal_master": true,
+  "selected_evidence_ids_valid": true,
+  "chen_label_distribution": {
+    "NOT_ACCURATE": 40,
+    "ACCURATE": 5
+  },
+  "label_changes_since_v3": [],
+  "reason_or_attribution_changed_ids": [
+    "20",
+    "28",
+    "490",
+    "502"
+  ],
+  "502_remdesivir_antecedent_corrected": true,
+  "20_old_single_source_basis_corrected": true,
+  "490_in_vivo_combination_evidence_acknowledged": true,
+  "document_now_explicitly_personal_and_pending_joint_review": true,
+  "remaining_semantic_clarifications": [
+    "490: IFN-I treatment原句不限定单药；单药/联合用于描述证据范围，不可新增为判错条件",
+    "490: 候选句数不等于独立研究或实验数量，不能从2-3句推导numerous必不成立",
+    "490: SARS-CoV活性首句接other_cit，不能作为当前目标引文缺支持的主要反驳"
+  ],
+  "unchanged_old_attribution_basis_ids": [
+    "112",
+    "120",
+    "138",
+    "236",
+    "342"
+  ],
+  "priority_human_review_ids": [
+    "112",
+    "120",
+    "138",
+    "236",
+    "342",
+    "250",
+    "233",
+    "242",
+    "490"
+  ],
+  "priority_subset_not_all_remaining_unresolved_cases": true,
+  "li_label_filled_count": 1,
+  "resolved_label_filled_count": 1,
+  "previously_confirmed_reused_case": "sarol:test:51",
+  "human_review_fields_added": false,
+  "new_joint_resolution_performed": false,
+  "formal_gold_or_metrics_changed": false,
+  "source_sha256": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\2026-10-20_45条漏检案例复核\\miss45_review_陈明进v4_20261020.csv": "d32c2cd86de37ff99fe9a4696587ba1e76609377962922b44579e783599460cd",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\2026-10-20_45条漏检案例复核\\45条三方对比与分歧裁决_陈明进_v4_20261020.md": "b6142d410c6d0c30c35c7ba26866993419fa6ecba06fb1e330e7b967eff9f5f8",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\终版v3核对_20261020\\原始回传存档\\miss45_review_陈明进终版v3_20261020.csv": "b3502987985a7d4bac5726b14304a215fd13673775efade39d903b9083c24050",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_review.csv": "19126506e78340f1ab49ca11b1650b5a9b60b7fddbf3d17492e784ab2be4841c",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\gold_questions_sidecar.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_payload.jsonl": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3"
+  }
+}

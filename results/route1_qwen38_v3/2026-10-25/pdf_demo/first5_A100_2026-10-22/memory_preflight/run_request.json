@@ -1,0 +1,56 @@
+{
+  "version": "route1_pdf_memory_preflight_v1r2_20261022",
+  "started_at_utc": "2026-10-22T01:07:32.418144+00:00",
+  "package_sha256": "484f419b2966ab0dd91ab58afa63895759455235edbb0252c24cdac3aa31a2a3",
+  "gpu": "2",
+  "release_sha256": "57ce1f04fe089ed4f59cff2923965573237883ef0e12cca2aaeed0ce5cf1c7d8",
+  "role_order": [
+    "classifier",
+    "explainer"
+  ],
+  "longest_input_by_role": {
+    "classifier": "r1pdf:c39ba37fc4698431f556d6b9",
+    "explainer": "r1pdf:c39ba37fc4698431f556d6b9"
+  },
+  "policy": {
+    "version": "route1_pdf_memory_preflight_v1r2_20261022",
+    "control_manifest_sha256": "e0258a34e4ffa411d8fd2217d458379ffb183626433cc4a7fee1392f7da7fc08",
+    "server_release_sha256": "57ce1f04fe089ed4f59cff2923965573237883ef0e12cca2aaeed0ce5cf1c7d8",
+    "selected_case_ids": [
+      "r1pdf:c39ba37fc4698431f556d6b9",
+      "r1pdf:ecd1a395eb5f25610750d721",
+      "r1pdf:e1636ac35ca5131bfdf6fb44",
+      "r1pdf:cc2e2247d91afc3f3559aa23",
+      "r1pdf:df5053bbd503ea2762b3617d"
+    ],
+    "tokenizer_files_sha256": {
+      "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+      "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+      "config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+      "chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"
+    },
+    "generation_config_sha256": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+    "weight_index_sha256": "77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df",
+    "teacher_forced_steps": 512,
+    "resource_policy": {
+      "probe_min_free_mib": 30000,
+      "pytorch_headroom_mib": 2048
+    },
+    "formal_backend_guard_changed": false,
+    "formal_classification_or_explanation_run": false,
+    "limitations": [
+      "PyTorch allocator cap does not cover all external CUDA allocations.",
+      "Fixed-token cached forward stress is not an exact greedy-generation memory guarantee.",
+      "Sampled NVML peak can miss brief transients; PyTorch peaks include model loading."
+    ]
+  },
+  "CPU_preflight_runtime": {
+    "torch_imported": true,
+    "cuda_initialized": false,
+    "CUDA_VISIBLE_DEVICES": "",
+    "model_loaded": false,
+    "GPU_used": false
+  },
+  "formal_points_run": 0,
+  "classification_or_explanation_generation": false
+}

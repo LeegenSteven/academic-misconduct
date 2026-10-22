@@ -1,0 +1,27 @@
+{
+  "status": "LOCAL_REVIEW_IMPORT_TOOL_TESTED_NO_REAL_REVIEWS_IMPORTED",
+  "checked_at_utc": "2026-10-21T09:40:25.610435+00:00",
+  "tests_passed": 14,
+  "test_data": "synthetic in-memory or auto-cleaned temporary directories only",
+  "source_runtime_code_unchanged": {
+    "route1_pdf_pipeline_v3.py": "80d17ad57db84c218ac3b0046432f12cbd915835003576ccf3fc5f6571faf055",
+    "route1_pdf_hf_backend_v3.py": "800e2f1db364ba955fdcbecf26740fb3e3ae2e585a04ea18670f09a72b108caf",
+    "run_route1_pdf_v3.py": "6674fc6e49bead010f4155cef897a00a4b0b26d78e7c626fcacae06fed81b1cb",
+    "prepare_pdf20_scope_inputs_20261020.py": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+    "build_sarol_inputs_v2.py": "2f4b32708646337b91064474d13b1769029038c5f72b8ec5059599329bc6e3af"
+  },
+  "miss45_master_unchanged_sha256": "19126506e78340f1ab49ca11b1650b5a9b60b7fddbf3d17492e784ab2be4841c",
+  "prior_A100_CPU_receipts_unchanged": true,
+  "original_migration_pyz_unchanged": true,
+  "new_code_sha256": {
+    "route1_pdf_review_v3.py": "6453555c8e511d87c584c5b2432178a1ea728f04544cdc26f9c86b804fa3fa29",
+    "test_route1_pdf_review_v3.py": "0a99ca063d91f7b538e5d02f8e30f81fc8af5ac4567acf5da09f1a0b69baf4c1",
+    "README_route1_pdf_review_v3.md": "3baf938ff6873d45e18d48adc651cc9ecdd66448a905dddcade9c53d83a2185f"
+  },
+  "test_log_sha256": "6e3007b917b1c589730241e07f6713bdbd8dc9871c3fdab1cf092ff54cb9cebe",
+  "actual_human_reviews_written": 0,
+  "actual_model_runs": 0,
+  "actual_end_to_end_accepted": 0,
+  "uploaded_new_tool_to_A100": false,
+  "published_to_GitHub": false
+}

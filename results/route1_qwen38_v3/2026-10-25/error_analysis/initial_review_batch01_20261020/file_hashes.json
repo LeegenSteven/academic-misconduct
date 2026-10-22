@@ -1,0 +1,10 @@
+{
+  "batch_audit.json": "ca6393ec49fc93cfb2296bce3a7d5247c22a5bdd8d03286cbd32cb2cdf3fc5a9",
+  "delivery_verification.json": "8cde66827e4deedda0f76cf5b5d76285d152b0273befa59b987302012eacd9e3",
+  "first5_initial_review.jsonl": "97374a9f2eab7900a49f2bbaaca089e7c662779ce2af8cc329ecb6d4666e1634",
+  "gold_questions_proposed.jsonl": "19daa3b1e482ef96fb110c59e22ea012298aed2c1481bf0553c72494b804d597",
+  "raw_label_crosswalk.jsonl": "84a812767143a092f7100ffd9b64c221219b4577d016d8a935e3be549f5d2690",
+  "source_manifest.json": "fa94c88ee84654c549333b0f0c8e8a1ddbf47f5f768eca6da149842a10728153",
+  "source_span_checks.json": "6153934e04d8418d580bb9341696a9e31e585b9507df08391c404299eb02ac11",
+  "前5条初审核对.md": "675eb3c7de5b68c7523befb22b115f6089673e98dc2c16824e6bde38016a0a86"
+}

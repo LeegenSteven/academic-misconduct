@@ -1,0 +1,45 @@
+{
+  "created_before_new_retrieval_at_utc": "2026-10-20T13:10:48.758633+00:00",
+  "stage": "v3_input_preparation_draft_no_model_run",
+  "case_count": 20,
+  "source_scope_files_sha256": {
+    "case_manifest.jsonl": "2aa4b963062eb3c048e93b8a63a73857e20f00e82339da2156c6bfc983f9ad4b",
+    "pair_manifest.jsonl": "fcde8fb3cf1b3204b843c40ba424b86fb46331b6e525ce07e8e20bfdb76d4123",
+    "selection_policy_v2_before_new_inference.json": "fe5a49e0a697c432bfbf8809c94a6a834fea54dbcf94f1e72b69d424c000eb19",
+    "cited_retrieval_requests.jsonl": "cc0622969787cf5f3cce96a83829d5cfa34d16f5072ff0b336bb629bdaa198bc"
+  },
+  "recipe_sha256": "364c707e64ecb87931bcf41aebd7501b90461be87c44a4626b099da64bc2a441",
+  "retrieval": {
+    "engine": "rank_bm25.BM25Okapi",
+    "version": "0.2.2",
+    "k1": 1.2,
+    "b": 0.75,
+    "top_k": 10,
+    "filter": "unchanged received v1 filter",
+    "query": "source-mapped scope recipe",
+    "index_text": "raw source block except the separately logged two prime-glyph corrections"
+  },
+  "input_budget": {
+    "max_length": 5120,
+    "max_new_tokens": 512,
+    "truncation": false,
+    "all_ten_candidates_retained": true,
+    "overflow_policy": "hold, never silently drop a point or crop evidence"
+  },
+  "classifier": {
+    "name": "Mbio",
+    "checkpoint": "checkpoint-100",
+    "adapter_sha256": "0f4019af9d0f510408f841797c1038bb19abfee8b6e5f24dc7f222501776bd09",
+    "base_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "enable_thinking": false,
+    "do_sample": false
+  },
+  "prompt_version": "route1_pdf_scope_label_only_draft_v1_20261020",
+  "system_prompt_sha256": "7f93edda86f4191a07ff2c242d657aac18bd6284d38de9982d3fc6cf4d71b146",
+  "scope_holds": [
+    "r1pdf:48b208f007c2c6e700c04ff0",
+    "r1pdf:896e930269210ee1300d8037"
+  ],
+  "human_joint_signoff": false,
+  "GPU_or_model_execution": false
+}

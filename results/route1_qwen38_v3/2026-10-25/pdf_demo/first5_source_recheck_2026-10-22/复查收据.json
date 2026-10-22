@@ -1,0 +1,109 @@
+{
+  "version": "route1_first5_source_recheck_v2_20261022",
+  "checked_at_utc": "2026-10-22T04:08:04.687570+00:00",
+  "performed_by": "assistant",
+  "reviewed_original_explanations": 5,
+  "reviewed_frozen_candidates": 50,
+  "PDF_hashes_checked": 8,
+  "prior_image_manifest_checked": 20,
+  "key_page_images_reinspected_this_recheck": 5,
+  "original_strict_engineering_success": 1,
+  "supplemental_structure_and_quotes_passed": 3,
+  "formal_human_reviews_submitted": 0,
+  "formal_end_to_end_accepted": 0,
+  "classification_proposals": {
+    "ACCURATE": 1,
+    "ACCURATE_conditional": 1,
+    "pending": 3
+  },
+  "source_files": {
+    "classifier.run.log": "48b7fd0563403fa7ac1016214f590cd877bb2799dfc6525a88aceb8c4a847bce",
+    "execution_request.json": "d887a9fe37028d24571667dc583750abe1d84cc9cf6a4e638c0fa30754f7acac",
+    "execution_summary.json": "54df73f1c2580e6b320ff158221375281b8dd72bf3b868a8fe768c4932a7e27e",
+    "explainer.run.log": "4195868deb16bc81fb41b991dedb3767ef0259594bebd12183cc46c55e950a6a",
+    "assembled/records.csv": "9949b3483b37edfc6ad41095839c8a4198e4f299ccfd0bf751a8e3f8dde5527e",
+    "assembled/records.jsonl": "495e96f319bc49d062460f14f9c23fccb62a18427c3ac0a0c1cab821a24fd2b5",
+    "assembled/summary.json": "fdb69b5842b35947e2dadcbd5f9f916f6e14e32c7d975e4788f1274fec2f8caa",
+    "classifier/exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "classifier/responses.jsonl": "56fb1aa0b816e0741ecf07607d73005d23ed56bd4fa7a94896a02d2141bfa84f",
+    "classifier/run.log": "ae0b1827e98a2f0e9965bbbf4909490e4c33bcc86e501cca0e777f278b20f9e7",
+    "classifier/run_metadata.json": "a2c06607edc8e661bc847b4bf0c1a4162ad6ff53bb0b02735247778bdad5ec74",
+    "explainer/exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "explainer/responses.jsonl": "97dbf80644bb691dcc9146830f733eb39484ca0bf3dbf3058fbc456290285c3f",
+    "explainer/run.log": "65b8cd1d127cbe179d82cdde38eb1e6bae78c3194d3a12f1b8c0e50c3275cb79",
+    "explainer/run_metadata.json": "53ef5d679e1c33b725cbb433fb8d2a29b8c1b27f1147864f4218736ab1f8bb4b"
+  },
+  "unsigned_review_files": {
+    "provenance.json": "dbf71d97d7fc4828793199df7939949d8a4e1b14e1517e1f87c4ef602784d6b2",
+    "review_chenmingjin.jsonl": "52239b96b5d9bed119dedf47392bdd55c0ba96a27ff69bf6d4bb8514a6f1a5fe",
+    "review_liyun.jsonl": "16f1a7aad6835819e05318a417c9960d7e367cc2b7d1f8f22f1e416bc08624a8"
+  },
+  "previous_proposal_files": {
+    "5点原文核对建议_待李云确认.md": "000c0bf4e6fbb206d0c8afd5cfeb3a644ae6b0d5b05387d71b3381736d7763d0",
+    "全文补查_模型未见.json": "b297d8a222dd7e2d304e5d69f52caf9d4dc0db0ea09632e7fb8ae5a57d9f8105",
+    "本目录_SHA256.json": "172fbb56877d1e98e48fae17656c7cfae460554df00273ba57c9dc91e7d36f3d",
+    "来源与核对收据.json": "bb1e9a9abb4a814a77943a213f6d6496cb7073d2d19ec4530efd5e9c9853d5d8",
+    "逐点核对建议_非人工签核.jsonl": "33656d2c94b6358b440a645c3029b2cf6aa038b42d0022a2c8693839ca96b81e",
+    "页面核对图/PMC4103590_p1.png": "6de4f66f9759c50f98140dc1ac1f1bea5b7c219353f22c72e9d0c07faef5bd9a",
+    "页面核对图/PMC4103590_p3.png": "ce420b0dea0b75c9dcebca54876f1017bd82741eac9dfb6f7c1fea4830d2949e",
+    "页面核对图/PMC4103590_p4.png": "773231aed0c2e7430addc1d217ab85c3eb911ef412e2c3d56554d39f1d2f2739",
+    "页面核对图/PMC4103590_p6.png": "c618ce577081026b060e85275909feec91dad77ff2ff4839c8cd568600465cee",
+    "页面核对图/PMC5374548_p1.png": "b92f38f7b73242cd0ca0733f9e0970f72d78ad212a4fe1b2ef16aaa2f581dd29",
+    "页面核对图/PMC5374548_p10.png": "1131a849048474c228b420a0c985f07c6a645bb11b208d0d1ca4c73201987d91",
+    "页面核对图/PMC5374548_p2.png": "9a153570f3231c060dcbc19bbf553005fc7abd2184d5f6c0ac01244046b34c18",
+    "页面核对图/PMC5374548_p8.png": "c8b7581ad565f96f88d59b7606c67366a55cc0680d276a3510fd0c89ddbd573b",
+    "页面核对图/PMC6129281_p1.png": "4b6bb212b5d3d0d27ed9fbdee7908e936cd6791f12cf5ba6cba491b79257afa6",
+    "页面核对图/PMC6129281_references_p7.png": "8cb4d95112326b375d05b112ed024c506618c297571a741804915044a0bf596d",
+    "页面核对图/PMC6324056_p1.png": "ca3888d778c54051dddb8def0847f75159657f334304fe9fa7a1b37593e46861",
+    "页面核对图/PMC7092819_p2.png": "bc26236c712743d59157ccfd89db1ff0b0f0a610589510b310f96ff0dcde39c5",
+    "页面核对图/PMC7092819_references_p12.png": "a1b1641eb68819b56e25b4d7246a02d1e44350ac8bc06e8a141e88e5ba02f425",
+    "页面核对图/PMC7159086_p2.png": "f9b2dfaf6a1f51c681568161ff8e4ef0661ffb530dd02fee3752dfb242b2898d",
+    "页面核对图/PMC7159086_p8.png": "d77cb8b599c15ae2468a84d60ce16d546c3541c363bd158d45d39c6ff6b1df2f",
+    "页面核对图/PMC7159086_p9.png": "c2e433e864c91fab97fffc6a0af6703d8f4a79cf5c9218e5fedadeeffebbdfda",
+    "页面核对图/PMC7159299_p2.png": "3f7f68b37ff68cfea600db0fcbd83dcd85db9e0d481df5badb8b4600291c51a7",
+    "页面核对图/PMC7159299_p5.png": "ec76695377454fcd264f44dcf629c0d095e4997bd8666c855120124040720a56",
+    "页面核对图/PMC8371605_p1.png": "dd1a6eaa2373f7ec0bd5648d2a1f439bf3ef6a9d63e6fcde66ce5c1416f063ca",
+    "页面核对图/PMC8371605_p7.png": "77b27c7aeb14f52f6f995515636a4b585eb36e19718c08710d96a464010bcbe3"
+  },
+  "prior_report_sha256": "000c0bf4e6fbb206d0c8afd5cfeb3a644ae6b0d5b05387d71b3381736d7763d0",
+  "frozen_classification_policy_sha256": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+  "source_PDFs": {
+    "PMC8371605": {
+      "sha256": "6eae057a9faf4f671c3101e0745ed704460c6d3dec77243dfd3a9f2d2ab68970",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC8371605.1\\PMC8371605.1.pdf"
+    },
+    "PMC6324056": {
+      "sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC6324056.1\\PMC6324056.1.pdf"
+    },
+    "PMC6129281": {
+      "sha256": "99b511ddef548347f97e8c6a47891e3ce23b6d249e41ee7fb6685ef3de639e50",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC6129281.1\\PMC6129281.1.pdf"
+    },
+    "PMC4103590": {
+      "sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC4103590.1\\PMC4103590.1.pdf"
+    },
+    "PMC5374548": {
+      "sha256": "36e867ec50be224e799297972defdbd421e8f5efe520561efdf5fa2fa19cd903",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC5374548.1\\PMC5374548.1.pdf"
+    },
+    "PMC7092819": {
+      "sha256": "1a8ff3e9322ce66224a2dd582930b4755e049fb5e39d3b17e06aacd879dae4c3",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC7092819.1\\PMC7092819.1.pdf"
+    },
+    "PMC7159299": {
+      "sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC7159299.1\\PMC7159299.1.pdf"
+    },
+    "PMC7159086": {
+      "sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC7159086.1\\PMC7159086.1.pdf"
+    }
+  },
+  "new_inference": false,
+  "formal_labels_written": false,
+  "source_outputs_unchanged": true,
+  "human_forms_unchanged": true,
+  "previous_report_unchanged": true
+}

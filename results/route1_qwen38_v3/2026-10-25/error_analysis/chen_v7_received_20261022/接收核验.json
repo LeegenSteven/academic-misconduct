@@ -1,0 +1,71 @@
+{
+  "version": "miss45_chen_v7_received_audit_20261022",
+  "checked_at_utc": "2026-10-22T06:35:13.099672+00:00",
+  "status": "STRUCTURAL_PASS_490_REASON_AND_MARKDOWN_COUNT_STILL_NEED_CORRECTION",
+  "rows": 45,
+  "unique_case_ids": 45,
+  "frozen_metadata_fields_per_row": 18,
+  "frozen_metadata_equal": true,
+  "all_selected_evidence_ids_exist_in_own_case": true,
+  "changes_from_v6": [
+    "0",
+    "15",
+    "20",
+    "24",
+    "28",
+    "44",
+    "63",
+    "94",
+    "112",
+    "217",
+    "243",
+    "469",
+    "480",
+    "490",
+    "502"
+  ],
+  "changed_row_count": 15,
+  "label_changes": 0,
+  "label_distribution": {
+    "NOT_ACCURATE": 41,
+    "ACCURATE": 4
+  },
+  "accurate_ids": [
+    "138",
+    "236",
+    "342",
+    "490"
+  ],
+  "explicit_pending_ids": [
+    "235",
+    "466",
+    "490",
+    "580"
+  ],
+  "additional_250_dispute_retained": true,
+  "markdown_remaining_stated": 37,
+  "markdown_remaining_actual": 38,
+  "li_label_blank": 44,
+  "prior_joint_case_reused": "51",
+  "new_joint_adjudications": 0,
+  "502_cross_case_misreference_fixed": true,
+  "112_evidence_ids_added": true,
+  "source_files_sha256": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\miss45_review_陈明进v7_20261022.csv": "a63d6c9489c8fe6add0e704bd1b778498137bdac0f4e566aa0f3f99a27ea98c0",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条三方对比与分歧裁决_陈明进_v7_20261022.md": "736c4d838e74c94417ac148c6c36fa04a2c4b600cf5401caef9d02efd28502eb",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\新建文件夹\\miss45_review_陈明进v6_20261021.csv": "637befa33ca6c9226f64291411877a1d5533c9c32c0aeb67e5cc6d118b5c5de8",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_review.csv": "19126506e78340f1ab49ca11b1650b5a9b60b7fddbf3d17492e784ab2be4841c",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_payload.jsonl": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\gold_questions_sidecar.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\李云首批9条核对材料_20261020\\9条引用范围核验.jsonl": "03cefb3140aa215093352033a698a528786a52c6455eae7d20d5fcfb5b9d8fb7",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\李云首批9条核对材料_20261020\\source_xml\\PMC7933614.xml": "07f63177eb4c68bb620c6986e6099ddaa6c91be27e0716cf1c6056b070146e10",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\36条全文补核证据.jsonl": "4eb96a3a68a445eabb85647d3bf4c2e33de5677b6273eaf7ebf08a8c2cb6f5bc"
+  },
+  "annotations_reference_member": "annotations/Test/references/035_PMC6954302.txt",
+  "annotations_reference_sha256": "384c2448a17ec86e56f5f8a2f486082c6b388d83bb3417b73f8914caaec7a01c",
+  "original_CSVs_modified": false,
+  "formal_master_modified": false,
+  "gold_predictions_metrics_modified": false,
+  "new_model_run": false,
+  "GitHub_pushed": false
+}

@@ -1,0 +1,141 @@
+{
+  "version": "route1_pdf_pipeline_v3_20261021",
+  "stage": "classifier",
+  "started_at_utc": "2026-10-22T01:39:37.584247+00:00",
+  "status": "finished",
+  "release_sha256": "57ce1f04fe089ed4f59cff2923965573237883ef0e12cca2aaeed0ce5cf1c7d8",
+  "selected_case_ids": [
+    "r1pdf:c39ba37fc4698431f556d6b9",
+    "r1pdf:ecd1a395eb5f25610750d721",
+    "r1pdf:e1636ac35ca5131bfdf6fb44",
+    "r1pdf:cc2e2247d91afc3f3559aa23",
+    "r1pdf:df5053bbd503ea2762b3617d"
+  ],
+  "fixed_denominator": 20,
+  "code_sha256": {
+    "route1_pdf_pipeline_v3.py": "80d17ad57db84c218ac3b0046432f12cbd915835003576ccf3fc5f6571faf055",
+    "route1_pdf_hf_backend_v3.py": "800e2f1db364ba955fdcbecf26740fb3e3ae2e585a04ea18670f09a72b108caf",
+    "run_route1_pdf_v3.py": "6674fc6e49bead010f4155cef897a00a4b0b26d78e7c626fcacae06fed81b1cb",
+    "prepare_pdf20_scope_inputs_20261020.py": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+    "build_sarol_inputs_v2.py": "2f4b32708646337b91064474d13b1769029038c5f72b8ec5059599329bc6e3af"
+  },
+  "code_repository": {
+    "repository_head": null,
+    "entry_files_status": null,
+    "note": "Repository HEAD is the base commit, not proof these new local files are committed; file hashes identify the actual implementation."
+  },
+  "settings": {
+    "max_length": 5120,
+    "max_new_tokens": 512,
+    "enable_thinking": false,
+    "do_sample": false,
+    "retry_policy": "none; keep all first attempts"
+  },
+  "actual_model": {
+    "role": "classifier",
+    "base": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "model_path": "/home/admire/route1_pdf_model_view_20261021",
+    "base_files_sha256": {
+      "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+      "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+      "config.json": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+      "chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"
+    },
+    "official_sums_sha256": "3ebc83ee545cc54cb2558d805802d4a4e9da42c316d1b248846debee545b99c9",
+    "shards_sha256": {
+      "model-00001-of-00018.safetensors": "ba0ce20aae489ad196733da5064bcdf159a1fe84f53336648196e1ebb7751b1c",
+      "model-00002-of-00018.safetensors": "06a148c01bfbe3faa14a5f184a7ff29a706f7ae1c8b2705d2058e26d17a001fb",
+      "model-00003-of-00018.safetensors": "2e1bf62cbcd406eaa64b60d10353e1f0ef4039d0976e56f05cabe953454f9968",
+      "model-00004-of-00018.safetensors": "511e34063187882659753c4d93f3859f93c019fd438d8813071921c81d9a3f1a",
+      "model-00005-of-00018.safetensors": "635cb53446dc74f219740fc59e18b774f877b803b9722e289ca62575a6efa701",
+      "model-00006-of-00018.safetensors": "0bc5214fac607f0e6cc92eec3789d4b8559410ef9fce66621ba8158e8410dae0",
+      "model-00007-of-00018.safetensors": "80b0c49033e9a0d5762562aa12f4acdb7f54da586f3d0110f28c48d91cf07892",
+      "model-00008-of-00018.safetensors": "7192c5b66185d3592927daabee1cc19e6f6e0ce75988ee20e824b624765fda79",
+      "model-00009-of-00018.safetensors": "af3c48cc37af44f3db6ae0579baf019180d48d9c527caa0a1f03ff85813a56d8",
+      "model-00010-of-00018.safetensors": "163490a76f3bea3a40855b7efc04ce6d27afaf1a34f0bbde495b9491f76457c9",
+      "model-00011-of-00018.safetensors": "5f3ae1b948aeee39da77aec558e8236cd65fe4d7cb7686a76bb007acc563c6d8",
+      "model-00012-of-00018.safetensors": "a3de1c7114677a8f5ac5c4892c90e8238ea5c1e2038c80e757dfc87c3902ca55",
+      "model-00013-of-00018.safetensors": "06ab79a41f74c9c5cb734816feb0c7fc364104b227165ee7391231e1155aa02a",
+      "model-00014-of-00018.safetensors": "4138ed94603065ba884bbcadedb04d7718bb40117e85e6f5c6fc5b9c05b7a85b",
+      "model-00015-of-00018.safetensors": "69224e27b9de4e7dbf6fc936c6eaae08447bda3b80a6c31a871ab451173afd22",
+      "model-00016-of-00018.safetensors": "73cb9a1089fb6155cb648609478d6633be8a5c7d9ca5a05bc8925ce8a553cefe",
+      "model-00017-of-00018.safetensors": "beb51f01056142ac4984bd800507b0dd0fd18de57f8e9ef6ea41d1a3598983a8",
+      "model-00018-of-00018.safetensors": "1d3479509e21494658f9b64d317f5ea8e55c4025d28c702d6c4d0b356ce8ea06"
+    },
+    "weight_index_sha256": "77042094076611b69791a610065f28b7013b8c621795fa86ddccc8bac7d1b9df",
+    "adapter_path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_full_memopt_trial_20261017_gpu2/train/checkpoint-100",
+    "adapter_sha256": "0f4019af9d0f510408f841797c1038bb19abfee8b6e5f24dc7f222501776bd09",
+    "adapter_config_sha256": "b425bcd6ba101d02dcb1dd8d9f892b315bd082a7b6feeba938b43bc58aedc2f8",
+    "adapter_loaded": true,
+    "model_class": "PeftModelForCausalLM",
+    "parameter_tensor_placement": {
+      "cuda:0": 1363
+    },
+    "physical_gpu": "2",
+    "gpu_name": "NVIDIA A100-PCIE-40GB",
+    "gpu_inventory": "0, GPU-0795e85d-94b0-5265-079b-b23f0feb0757, NVIDIA A100-PCIE-40GB, 13221 MiB, 27220 MiB, 0 %\n1, GPU-b5876922-c3d8-d6c1-2c84-51ed09183d38, NVIDIA A100-PCIE-40GB, 18555 MiB, 21886 MiB, 0 %\n2, GPU-ad785776-f83b-2516-d23b-228692d20358, NVIDIA A100-PCIE-40GB, 31334 MiB, 9107 MiB, 87 %\n3, GPU-6599eb78-665c-b598-3c7b-096809119c8f, NVIDIA A100-PCIE-40GB, 25939 MiB, 14502 MiB, 0 %\n",
+    "gpu_free_before_load_bytes": 34177744896,
+    "gpu_total_bytes": 42404806656,
+    "gpu_allocated_after_load_bytes": 19185003520,
+    "gpu_loaded": true,
+    "weights_verified": true,
+    "simulation": false,
+    "quantization": {
+      "quant_method": "bitsandbytes",
+      "_load_in_8bit": false,
+      "_load_in_4bit": true,
+      "llm_int8_threshold": 6.0,
+      "llm_int8_skip_modules": null,
+      "llm_int8_enable_fp32_cpu_offload": false,
+      "llm_int8_has_fp16_weight": false,
+      "bnb_4bit_quant_type": "nf4",
+      "bnb_4bit_use_double_quant": false,
+      "bnb_4bit_compute_dtype": "bfloat16",
+      "bnb_4bit_quant_storage": "uint8",
+      "load_in_4bit": true,
+      "load_in_8bit": false
+    },
+    "operator": "李云",
+    "python": "3.13.12",
+    "versions": {
+      "torch": "2.11.0",
+      "transformers": "5.8.0",
+      "peft": "0.21.2",
+      "accelerate": "1.14.0",
+      "bitsandbytes": "0.50.2"
+    },
+    "CUDA_VISIBLE_DEVICES": "2",
+    "enable_thinking": false,
+    "do_sample": false,
+    "execution_revision": "route1_pdf_first5_resource_v1_20261022",
+    "actual_backend_source_sha256": "a2a91f0940e788c4b657dba8768950d434858a1de057d0861ecaccd7a104eada",
+    "actual_backend_module": "/home/admire/route1_pdf_first5_resource_v1_20261022.pyz/resource_backend.py",
+    "reference_backend_source_sha256": "800e2f1db364ba955fdcbecf26740fb3e3ae2e585a04ea18670f09a72b108caf",
+    "contract_code_hashes_describe_original_reference_and_validation_code": true,
+    "execution_release_sha256": "7fbbfe1e363367d3bb9cd97124b44716d25432fa97e96d7629be932b8d1a4a04",
+    "resource_policy": {
+      "execution_revision": "route1_pdf_first5_resource_v1_20261022",
+      "min_free_MiB": 30000,
+      "headroom_MiB": 2048,
+      "pytorch_allocator_budget_bytes": 32030261248,
+      "pytorch_allocator_fraction": 0.7553450604748349,
+      "external_CUDA_allocations_not_fully_capped": true,
+      "memory_preflight_not_exact_generation_guarantee": true
+    },
+    "evidence_source": "A100 two-role memory preflight; raw files SHA256 pinned in supplemental execution release"
+  },
+  "retry_policy": "none",
+  "source_validation": "actual_PDF_replayed",
+  "simulation": false,
+  "finished_at_utc": "2026-10-22T01:43:15.011128+00:00",
+  "exit_code": 0,
+  "files_sha256": {
+    "responses.jsonl": "56fb1aa0b816e0741ecf07607d73005d23ed56bd4fa7a94896a02d2141bfa84f",
+    "run.log": "ae0b1827e98a2f0e9965bbbf4909490e4c33bcc86e501cca0e777f278b20f9e7"
+  },
+  "execution_revision": "route1_pdf_first5_resource_v1_20261022",
+  "execution_release_sha256": "7fbbfe1e363367d3bb9cd97124b44716d25432fa97e96d7629be932b8d1a4a04",
+  "actual_backend_source_sha256": "a2a91f0940e788c4b657dba8768950d434858a1de057d0861ecaccd7a104eada",
+  "code_sha256_describes_original_contract_and_reference_backend": true
+}

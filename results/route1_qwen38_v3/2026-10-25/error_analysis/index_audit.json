@@ -1,0 +1,16 @@
+{
+  "status": "passed_index_and_csv_roundtrip_checks",
+  "date": "2026-10-20",
+  "selected_unique_cases": 45,
+  "paired_rows": 606,
+  "payload_records": 45,
+  "source_files_unchanged": true,
+  "all_case_ids_and_source_records_align": true,
+  "copied_previous_label_review": 1,
+  "new_label_review_pending": 44,
+  "reason_code_review_pending": 45,
+  "gold_reference_spans_in_original_corpus_verified": true,
+  "outside_input_spans_explicitly_marked": true,
+  "actual_gold_evidence_missing_preserved": 10,
+  "model_inference_performed": false
+}

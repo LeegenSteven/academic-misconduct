@@ -1,0 +1,37 @@
+{
+  "status": "PASS_local_preparation_integrity_only",
+  "created_at_utc": "2026-10-20T13:25:09.125510+00:00",
+  "fixed_points": 20,
+  "evidence_candidates": 200,
+  "scope_holds": 2,
+  "formal_v3_input_release": false,
+  "model_runs": 0,
+  "human_labels_written": 0,
+  "formal_location_rate": null,
+  "files_sha256": {
+    "20点范围与输入逐条查看.md": "972d922d6d70bd02cf8dbce8f73fd69660a8c8a0c3fe9e3355051f673998a499",
+    "classification.draft.inputs.jsonl": "d5eb5a853ffd7f6068092cc5314c5f1cb518d12cf2addbe418b0bdda06cdd980",
+    "final_preparation_audit.json": "55d7f69dceacfd36f11a2819bb1c9a2816e75c1dcb0d31d2564d8811f25fb0aa",
+    "independent_CPU_token_identity_check.json": "bb9e125b6065f77b824b95020a0c48f4323febb9f493b05a9081cbc5f7ba3852",
+    "input_budget_report.json": "8150e608a3e726a9ed7400e8bb3369070da3bae97eddd5d314e69fb45a78da78",
+    "preparation_policy_before_cpu_retrieval.json": "34aa85e421b66a86313e927a432a0385859b0d4a9b3acb9684a0d6e6c187041c",
+    "preparation_summary.json": "29627612d94d39d58b9874c9cf2e9b3051140636bf6e54633eda2939153b0a50",
+    "README.md": "d05742ce966eef1d745c3850ff63fe21905ad3bfa64f592dcff9e24c7f711b88",
+    "retrieval_v2_preparation.jsonl": "58d81a224174ae8c58e5035ce1c68aa84006026eb941fcdb8ec21b7b1f145872",
+    "scope_review.jsonl": "b799ea5315e77456f1e5891ea5010ee677ddb62b43a049dbfb85538cb6d2bbd9",
+    "text_layer_corrections.json": "1cbeb0c6eef02dc4e7b7861eb22e43a0188e278d2b635ef8ea3e99f75df2b547",
+    "tokenizer_provenance.json": "1b5d2e294059a3cb35f3a9e2ec1f311ee95bfead9cecffebfb7785bf0729a025",
+    "给陈明进_只确认两处引用范围.txt": "30d348374f41e56c24a8677fdfc2ef9db0f9485ff2d93d5bd8c4fa1c77b9f0f8"
+  },
+  "code_files_sha256": {
+    "code/ly/audit_pdf20_preparation_20261020.py": "1cb874502d199dc8183e218035082f6586136c99cda6bdf1e990aee582272524",
+    "code/ly/check_pdf20_draft_token_ids_20261020.py": "b5f553ba40357838cb1a1bbd004afe58fcca008b1cd6cd67262524cdbb048fc3",
+    "code/ly/prepare_pdf20_scope_inputs_20261020.py": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+    "code/ly/pdf20_scope_recipe_20261020.json": "364c707e64ecb87931bcf41aebd7501b90461be87c44a4626b099da64bc2a441"
+  },
+  "progress_index": {
+    "path": "../README.md",
+    "sha256": "e25ca748c62d430ab08901ab123eee906cbd036a0a0c495346aaac35fcd16430"
+  },
+  "note": "No GitHub upload. Source package and Chen return unchanged. Token and PDF checks do not constitute human semantic acceptance."
+}

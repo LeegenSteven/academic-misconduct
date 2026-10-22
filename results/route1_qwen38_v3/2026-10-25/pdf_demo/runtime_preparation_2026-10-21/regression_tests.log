@@ -1,0 +1,20 @@
+test_caught_runtime_failure_keeps_partial_and_unattempted_records (__main__.PipelineTests.test_caught_runtime_failure_keeps_partial_and_unattempted_records) ... ok
+test_classifier_failure_is_not_irrelevant_and_no_explanation_repair (__main__.PipelineTests.test_classifier_failure_is_not_irrelevant_and_no_explanation_repair) ... ok
+test_confirmation_is_bound_to_plan_and_scope (__main__.PipelineTests.test_confirmation_is_bound_to_plan_and_scope) ... ok
+test_fixed_20_pdf_points_and_no_torch_import (__main__.PipelineTests.test_fixed_20_pdf_points_and_no_torch_import) ... ok
+test_fluent_reason_with_valid_quote_stays_pending (__main__.PipelineTests.test_fluent_reason_with_valid_quote_stays_pending) ... ok
+test_missing_explanation_does_not_erase_classifier (__main__.PipelineTests.test_missing_explanation_does_not_erase_classifier) ... ok
+test_out_of_range_and_changed_quote_rejected (__main__.PipelineTests.test_out_of_range_and_changed_quote_rejected) ... ok
+test_output_overwrite_and_foreign_actual_adapter_rejected (__main__.PipelineTests.test_output_overwrite_and_foreign_actual_adapter_rejected) ... ok
+test_pending_confirmations_and_drafts_never_load_backend (__main__.PipelineTests.test_pending_confirmations_and_drafts_never_load_backend) ... ok
+test_prime_glyph_quote_maps_to_unchanged_pdf_text (__main__.PipelineTests.test_prime_glyph_quote_maps_to_unchanged_pdf_text) ... ok
+test_raw_response_tampering_is_rejected (__main__.PipelineTests.test_raw_response_tampering_is_rejected) ... ok
+test_simulated_success_has_fixed_denominator_but_no_real_acceptance (__main__.PipelineTests.test_simulated_success_has_fixed_denominator_but_no_real_acceptance) ... ok
+test_two_pdf_pair_mapping_and_reversed_direction (__main__.PipelineTests.test_two_pdf_pair_mapping_and_reversed_direction) ... ok
+test_unknown_or_duplicate_released_id_rejected (__main__.PipelineTests.test_unknown_or_duplicate_released_id_rejected) ... ok
+test_unresolved_scope_hold_and_reduced_denominator_rejected (__main__.PipelineTests.test_unresolved_scope_hold_and_reduced_denominator_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 16.219s
+
+OK

@@ -1,0 +1,19 @@
+{
+  "version": "route1_pdf_review_v3_20261021",
+  "inputs": {
+    "runtime_plan": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF迁移准备_20261021\\route1_pdf_cpu_check_20261021_attempt2\\runtime_plan.json",
+      "sha256": "39b7698258b3baee1d40d6940c56b16f3d03e45ab43c37166887a9f72e9ea678"
+    },
+    "records": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\assembled\\records.jsonl",
+      "sha256": "495e96f319bc49d062460f14f9c23fccb62a18427c3ac0a0c1cab821a24fd2b5"
+    }
+  },
+  "code_sha256": "6453555c8e511d87c584c5b2432178a1ea728f04544cdc26f9c86b804fa3fa29",
+  "runtime_plan_sha256": "39b7698258b3baee1d40d6940c56b16f3d03e45ab43c37166887a9f72e9ea678",
+  "outputs_sha256": {
+    "review_chenmingjin.jsonl": "52239b96b5d9bed119dedf47392bdd55c0ba96a27ff69bf6d4bb8514a6f1a5fe",
+    "review_liyun.jsonl": "16f1a7aad6835819e05318a417c9960d7e367cc2b7d1f8f22f1e416bc08624a8"
+  }
+}

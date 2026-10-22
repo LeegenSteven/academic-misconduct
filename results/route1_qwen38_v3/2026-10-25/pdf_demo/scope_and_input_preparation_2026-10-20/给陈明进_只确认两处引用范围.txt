@@ -1,0 +1,13 @@
+师兄，20 点检索回传和补充脚本已核对，原结果在本地 CPU 复算一致。我这边继续整理了施引范围、两处 5′/3′ 转写修订和输入预算，目前还没有运行本批分类或解释模型。只剩下面两处范围/口径需要共同确认，不是请你重新盲标全部 20 点，也没有预先指定标签。
+
+1. 第 1 点：r1pdf:48b208f007c2c6e700c04ff0
+施引：PMC8371605，PDF 第 1 页；被引：PMC7333361，参考文献 CR1，位于 1–4 引用组。
+原句：Through an enormous experimental effort1–4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7.
+问题：CR1 的标记在“enormous experimental effort”后；约 100,000 个结构和 billions 序列分别另有 CR5、CR6/7。请确认：本点应以实验方法/实验努力这一背景主张为范围吗？若该修饰语不足以独立三分类，请明确记录为范围待核或非可判定主张，不把后面其他引用对应的数量主张归给 CR1。若你认为应保留更完整的主张，请直接写出对应原文范围和理由。
+
+2. 第 15 点：r1pdf:896e930269210ee1300d8037
+施引：PMC8371605；被引：PMC6324056，参考文献 CR5。
+原句：Our models were trained on a copy of the PDB5 downloaded on 28 August 2019.
+问题：这里 CR5 紧随 PDB 资源名。请确认：是否按资源引用核查 PDB 的身份/用途，训练行为和下载日期作为施引作者自述保留？如果这种资源引用不适用于本批三分类，请写明处理口径并保留该点待核，不能因为 PDB 论文未记载本研究的训练日期就直接判错或无关。
+
+你已有原 PDF 来源包，直接回复“第 1 点范围/处理方式及理由；第 15 点范围/处理方式及理由”即可。两点在固定 20 点中继续留存，不因待核而删掉或换成更容易的点。收到回复后我再留痕确认并更新受影响输入；本轮范围建议不计作正式独立人工一致率或最终语义裁决。

@@ -1,0 +1,17 @@
+test_all_20_and_missing_states_remain_unknown (__main__.ContractTests.test_all_20_and_missing_states_remain_unknown) ... ok
+test_cross_document_or_wrong_pair_rejected (__main__.ContractTests.test_cross_document_or_wrong_pair_rejected) ... ok
+test_duplicate_candidate_or_duplicate_span_rejected (__main__.ContractTests.test_duplicate_candidate_or_duplicate_span_rejected) ... ok
+test_marker_is_inside_its_context_and_target (__main__.ContractTests.test_marker_is_inside_its_context_and_target) ... ok
+test_missing_and_unavailable_do_not_become_irrelevant (__main__.ContractTests.test_missing_and_unavailable_do_not_become_irrelevant) ... ok
+test_no_xml_only_evidence_and_no_text_rewrite (__main__.ContractTests.test_no_xml_only_evidence_and_no_text_rewrite) ... ok
+test_offsets_quote_page_hash_and_bounding_box_rejected (__main__.ContractTests.test_offsets_quote_page_hash_and_bounding_box_rejected) ... ok
+test_partial_return_retains_full_denominator_and_draft_only (__main__.ContractTests.test_partial_return_retains_full_denominator_and_draft_only) ... ok
+test_positive_locator_is_technical_only (__main__.ContractTests.test_positive_locator_is_technical_only) ... ok
+test_source_hash_and_path_escape_rejected (__main__.ContractTests.test_source_hash_and_path_escape_rejected) ... ok
+test_unfixed_retrieval_config_rejected (__main__.ContractTests.test_unfixed_retrieval_config_rejected) ... ok
+test_unknown_or_duplicate_case_rejected (__main__.ContractTests.test_unknown_or_duplicate_case_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.424s
+
+OK

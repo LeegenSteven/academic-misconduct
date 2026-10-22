@@ -1,0 +1,62 @@
+{
+  "status": "PASS_local_CPU_runtime_preparation_only",
+  "checked_at_utc": "2026-10-21T04:02:45.726196+00:00",
+  "fixed_points": 20,
+  "PDF_pairs": 10,
+  "candidate_records": 200,
+  "regression_tests_passed": 15,
+  "classifier_budget_passed": 20,
+  "explainer_budget_passed": 20,
+  "maximum_total_tokens": {
+    "classifier": 4692,
+    "explainer": 4666
+  },
+  "scope_holds": [
+    "r1pdf:48b208f007c2c6e700c04ff0",
+    "r1pdf:896e930269210ee1300d8037"
+  ],
+  "scope_confirmation_rows_still_unsigned": 20,
+  "released_for_model_execution": 0,
+  "new_model_runs": 0,
+  "GPU_used": false,
+  "formal_engineering_accepted": 0,
+  "formal_location_rate": null,
+  "human_labels_written": 0,
+  "joint_adjudications": 0,
+  "original_source_files_unchanged": 390,
+  "Chen_return_files_unchanged": 6,
+  "previous_preparation_files_unchanged": true,
+  "previous_progress_index_archived_and_hash_matched": true,
+  "tracked_v2_changes": [],
+  "CLI_help_check": true,
+  "document_links_checked": 27,
+  "code_sha256": {
+    "route1_pdf_pipeline_v3.py": "80d17ad57db84c218ac3b0046432f12cbd915835003576ccf3fc5f6571faf055",
+    "route1_pdf_hf_backend_v3.py": "800e2f1db364ba955fdcbecf26740fb3e3ae2e585a04ea18670f09a72b108caf",
+    "run_route1_pdf_v3.py": "6674fc6e49bead010f4155cef897a00a4b0b26d78e7c626fcacae06fed81b1cb",
+    "prepare_pdf20_scope_inputs_20261020.py": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+    "build_sarol_inputs_v2.py": "2f4b32708646337b91064474d13b1769029038c5f72b8ec5059599329bc6e3af",
+    "test_route1_pdf_pipeline_v3.py": "8025cd07ea54a12a4ec5494eadb7f0c6d683a64eb8b52acd41fbf5969203ceb7",
+    "README_route1_pdf_pipeline_v3.md": "4f59d799ef8214f0a9f123485881a8d52520ff4bc26e5a33b384c42457a6f564"
+  },
+  "progress_index_sha256": "ad22811907f262e97eaca3d7119c8a628c1dea8483960b3379bd204c786bbf05",
+  "files_sha256": {
+    "CPU_check_summary.json": "9286ad2716cc6040565ee2e49f5f6707d903499de7fc0a3f17429f0c7df9dfe0",
+    "examples/pending_scope_freeze_check.json": "61e86fdd0831020ab07eba3d444073eaf71fc1b099f2f111dfc96c089e7819b7",
+    "examples/registered_pair_check.json": "6c369f2d1a3bf28fbde544b508e50e7cbf62950ec73e05fe0ec00da10a767979",
+    "examples/reversed_pair_check.json": "e6e721194d21605480ef29b3a704f80a4f5a8a3e664426fa64e3986780543736",
+    "explanation.draft.inputs.jsonl": "9bb78a0221ef37e6e4b3f31019d3ae8f15ac04ff1c89b477154680645b896189",
+    "local_CPU_preparation.log": "f17d769a465733a80749df45c77eaff96692e95afa0e5405b76076de88a31d05",
+    "README.md": "8cd1102605da7578b071ba1619a093f2a88bef5eb820cde09ffb23dedecf7a8d",
+    "regression_tests.log": "2c4dbdcb98d18644f9c7c170dd4cb3cee7eb05afc46dcf108566dd1e211726fe",
+    "runtime_plan.json": "2bfe43cbcdc382e229b177424a9dcb17a8fce7a0b1a92632ddc1d83c927cd84a",
+    "scope_confirmation_template.json": "eed62c035c564d8c9f3239854f24f17f7f144237cc1a672289cdf84dd4da5e8a"
+  },
+  "remaining": [
+    "Two scope questions awaiting actual human confirmation; remaining scope acknowledgements are not fabricated",
+    "A100 backend loading and inference have not been tested this round",
+    "Human semantic review, adjudication, review import and display unlock remain unfinished",
+    "No GitHub/server upload performed"
+  ],
+  "test_scope": "Real PDF and tokenizer CPU checks plus explicitly simulated temporary model-response regressions; simulated success is not an actual model run."
+}

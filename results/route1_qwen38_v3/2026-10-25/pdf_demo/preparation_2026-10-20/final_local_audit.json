@@ -1,0 +1,11 @@
+{
+  "status": "passed_source_and_output_integrity_only",
+  "test_exit_code": 0,
+  "test_count": 12,
+  "test_script_sha256": "ee5d5fd98a6b3834345d225fee628ac25b4217cb6a6541c0faef9cd7ec9b51c8",
+  "test_log_sha256": "9e106554460e70c048cea62fe61fba8f3ed14b77ce3bcc1ecd1c219020142852",
+  "preparation_receipt_sha256": "4c7f64ea8e40b3e400af024c263556f28db591a67252ec741b08ead1290999ef",
+  "source_scope_files_unchanged": true,
+  "no_classification_or_explanation_model_run": true,
+  "no_formal_location_or_semantic_acceptance": true
+}

@@ -1,0 +1,9 @@
+{
+  "status": "expected_gate_blocked",
+  "error": "Scope not confirmed: r1pdf:48b208f007c2c6e700c04ff0",
+  "pending_scope_confirmation_rows": 20,
+  "original_scope_holds": 2,
+  "model_loaded": false,
+  "GPU_used": false,
+  "formal_release_created": false
+}

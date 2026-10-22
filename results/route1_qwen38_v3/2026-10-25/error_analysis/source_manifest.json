@@ -1,0 +1,71 @@
+{
+  "generation_date": "2026-10-20",
+  "source_repo_commit": "00dff95323a2ca2be3534cc33de2807f7c945a53",
+  "generator_commit": null,
+  "generator_file_sha256": "2dc41fa22544a5c9cf848068e1ffe0be70b3cfb3ec5ccf108d9666c68ada62fb",
+  "source_files": {
+    "sarol_inputs": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sarol\\test.inputs.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-15/sarol/test.inputs.jsonl",
+      "sha256": "46b441cd7623ca827113ba5a52ae8a08d34cbbc4d5211b133e6af8595fc27391"
+    },
+    "sarol_gold": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sarol\\test.gold.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-15/sarol/test.gold.jsonl",
+      "sha256": "696d6d9290c03e3ca79ff705aeeab52161932f3c2b229db87298427e900caeae"
+    },
+    "sarol_M0": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sarol\\M0\\M0_test_predictions.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-19/test_refreeze5120_run02/test/sarol/M0/M0_test_predictions.jsonl",
+      "sha256": "bdcabeff68aa28e9cabe76f7bbda771958dcf0cd5edf8b88dfcad13a7ca2408f"
+    },
+    "sarol_Mbio": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sarol\\Mbio\\Mbio_test_predictions.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-19/test_refreeze5120_run02/test/sarol/Mbio/Mbio_test_predictions.jsonl",
+      "sha256": "e61218ea91fd2cba670bfa44ae0bb5c7ccd32dd00da964751de89d7f80601e2d"
+    },
+    "sarol_corpus": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\data\\quality_v1\\sarol\\corpus.jsonl",
+      "repo_relative_path": "data/quality_v1/sarol/corpus.jsonl",
+      "sha256": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3"
+    },
+    "sciciteval_gold": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sciciteval\\test.gold.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-15/sciciteval/test.gold.jsonl",
+      "sha256": "98512eb476fe31da3f36dea716ea3333008234f2af9ac191afd10d48a854eabd"
+    },
+    "sciciteval_M0": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sciciteval\\M0\\M0_test_predictions.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-19/test_refreeze5120_run02/test/sciciteval/M0/M0_test_predictions.jsonl",
+      "sha256": "1dd4f71864b875fb4f623e8171943109b135518d075f74dd14f0f3d6f85e2680"
+    },
+    "sciciteval_Mscv": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sciciteval\\Mscv\\Mscv_test_predictions.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-19/test_refreeze5120_run02/test/sciciteval/Mscv/Mscv_test_predictions.jsonl",
+      "sha256": "ec55c6f770b941441b753f21c9dfd4e2b4d8c069e38f0662691548ab3f2441b4"
+    },
+    "prior_paired_rows": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_paired_analysis\\paired_rows.jsonl",
+      "repo_relative_path": "results/route1_qwen38_v2/2026-10-19/test_paired_analysis/paired_rows.jsonl",
+      "sha256": "85febead82d19861114e914a37df5403d15e1d20fdcf94522aa804ff6e4218ed"
+    },
+    "review20": {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\发给师兄_本周汇报_2026-10-19\\05_Test配对与案例复核\\20案例共同裁决完成_20261019\\20案例复核最终记录.jsonl",
+      "repo_relative_path": null,
+      "sha256": "c089b5fe84c744a3128895cf4f39fc4112b99e2c8c53eab45a4b10b0f3043ad5"
+    }
+  },
+  "separate_A100_download_hash_checks": {
+    "M0": "bdcabeff68aa28e9cabe76f7bbda771958dcf0cd5edf8b88dfcad13a7ca2408f",
+    "Mbio": "e61218ea91fd2cba670bfa44ae0bb5c7ccd32dd00da964751de89d7f80601e2d"
+  },
+  "review20_archived_copy": "prior_review/review20_final.jsonl",
+  "review20_archived_sha256": "c089b5fe84c744a3128895cf4f39fc4112b99e2c8c53eab45a4b10b0f3043ad5",
+  "join_key": [
+    "dataset",
+    "split",
+    "claim_id"
+  ],
+  "order": "unchanged frozen Sarol Test input/gold order; line numbers 1-based",
+  "new_human_fields": "blank except verbatim reuse of the single overlapping case"
+}

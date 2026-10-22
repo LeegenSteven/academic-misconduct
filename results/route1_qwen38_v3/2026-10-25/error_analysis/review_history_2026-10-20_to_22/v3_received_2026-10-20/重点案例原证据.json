@@ -1,0 +1,392 @@
+{
+  "233": {
+    "case_id": "sarol:test:233",
+    "frozen_claim": "Self-reported mental health challenges, which reportedly increased during shelter-in-place orders in the U.S. [<|cit|>], were associated with weight gain in this study",
+    "original_paragraph": "Weight gain has been widely reported during COVID-19 shelter-in-place orders [<|other_cit|>]. In addition to the relationship identified above between increased snacking and weight gain, additional factors that were significantly and positively associated with weight gain were sedentary activity and a positive change in UPF consumption. As previously discussed, the relationship between UPF and weight gain is well documented [<|other_cit|>]. More than two thirds of the participants reported increasing their sedentary behavior during shelter-in-place, a finding replicated in the U.S. [20,<|other_cit|>], France [<|other_cit|>], and within an international sample [<|other_cit|>]. Moreover, out of these studies, the two that analyzed the relationship between sedentary activity and weight gain found that greater increases in sedentary activity were associated with weight gain [20,<|other_cit|>]. Self-reported mental health challenges, which reportedly increased during shelter-in-place orders in the U.S. [<|cit|>], were associated with weight gain in this study, a finding echoed in a prior study [<|other_cit|>]. \n\n\n",
+    "original_annotation_member": "annotations/Test/citations/032_PMC7675243/PMC8619493_9.json",
+    "candidate_evidence": [
+      {
+        "evidence_id": "D01:S01",
+        "doc_id": 32022,
+        "sentence_id": 3,
+        "source_doc_rank": 23,
+        "text": "Stress has been associated with sleep disruption, consumption of highly palatable foods, and increased snacking, often resulting in weight gain (3)."
+      },
+      {
+        "evidence_id": "D02:S01",
+        "doc_id": 32070,
+        "sentence_id": 4,
+        "source_doc_rank": 71,
+        "text": "With increased cases of weight gain and significant declines to mental health, COVID‐19 may impact clinical practice for years to come."
+      },
+      {
+        "evidence_id": "D03:S01",
+        "doc_id": 32060,
+        "sentence_id": 0,
+        "source_doc_rank": 61,
+        "text": "During the stay‐at‐home orders, 27.3% of the sample reported weight gain, and weight gain was more prevalent with obesity compared with overweight and normal weight (33.4% vs. 20.5% and 24.7%, respectively, P < 0.001)."
+      },
+      {
+        "evidence_id": "D04:S01",
+        "doc_id": 32015,
+        "sentence_id": 1,
+        "source_doc_rank": 16,
+        "text": "Reports from people with obesity show that they are differentially affected, showing both the greatest improvements to unhealthful dietary behaviors as well as the sharpest declines in mental health and the highest incidence of weight gain as a result of stay‐at‐home orders."
+      },
+      {
+        "evidence_id": "D05:S01",
+        "doc_id": 32023,
+        "sentence_id": 0,
+        "source_doc_rank": 24,
+        "text": "To assess the widespread impacts of the COVID‐19 pandemic on health behaviors, the aim of this study was to quantify changes in habitual dietary behaviors, physical activity, sleep, sedentary behaviors, and mental health before and during the initial peak of the COVID‐19 pandemic."
+      },
+      {
+        "evidence_id": "D06:S01",
+        "doc_id": 32065,
+        "sentence_id": 2,
+        "source_doc_rank": 66,
+        "text": "Declines in healthful eating behaviors were coincident with reductions in physical activity, and these negative behaviors were characteristic of individuals reporting weight gain in response to the pandemic outbreak."
+      },
+      {
+        "evidence_id": "D07:S01",
+        "doc_id": 32004,
+        "sentence_id": 4,
+        "source_doc_rank": 5,
+        "text": "Weight gain was reported in 27.5% of the total sample compared with 33.4% in participants with obesity."
+      },
+      {
+        "evidence_id": "D06:S02",
+        "doc_id": 32065,
+        "sentence_id": 0,
+        "source_doc_rank": 66,
+        "text": "This study is the first to survey thousands of people across the globe on lifestyle behavior changes in response to stay‐at‐home orders."
+      },
+      {
+        "evidence_id": "D08:S01",
+        "doc_id": 32038,
+        "sentence_id": 6,
+        "source_doc_rank": 39,
+        "text": "Responses for pre‐COVID 19 behaviors as well as behaviors during the stay‐at‐home orders for diet, sedentary behaviors, physical activity, mental health, and sleep are presented in Table 1."
+      },
+      {
+        "evidence_id": "D09:S01",
+        "doc_id": 32013,
+        "sentence_id": 0,
+        "source_doc_rank": 14,
+        "text": "Stay‐at‐home orders have resulted in overall changes to dietary behavior, increases in sedentary behavior alongside decreases in physical activity, and declines in mental health."
+      }
+    ]
+  },
+  "242": {
+    "case_id": "sarol:test:242",
+    "frozen_claim": "This increase was more pronounced among obese responders although one-quarter of the sample reported weight gain [<|cit|>].",
+    "original_paragraph": "Widespread restaurant closures and increased time at home provided the challenge and the opportunity for many people to purchase, prepare and consume foods at home. This has previously been shown to increase consumption of nutrient-dense foods as well as to decrease consumption of salt, sugar, fat and calories [<|other_cit|>]. An internet survey comprised of a majority of U.S. respondents of normal- and over-weight adults revealed an overall increase in healthy eating due to less eating out and more cooking at home [52]. This increase was more pronounced among obese responders although one-quarter of the sample reported weight gain [<|cit|>]. Two marketing surveys reported that almost a third of those surveyed planned to continue to cook at home once stay at home orders are lifted, especially among younger demographics [<|other_cit|>]. In addition, an analysis of internet searches demonstrated an explosion of cooking-related searches [<|other_cit|>] and a trend towards planting “pandemic gardens” [<|other_cit|>]. Thus, there is the potential for this shift to have a positive impact on health [<|other_cit|>]. and breast cancer risk through a reduction in obesity and increase in healthy eating [<|other_cit|>].\n\n\n",
+    "original_annotation_member": "annotations/Test/citations/032_PMC7675243/PMC8297333_2.json",
+    "candidate_evidence": [
+      {
+        "evidence_id": "D01:S01",
+        "doc_id": 32060,
+        "sentence_id": 0,
+        "source_doc_rank": 61,
+        "text": "During the stay‐at‐home orders, 27.3% of the sample reported weight gain, and weight gain was more prevalent with obesity compared with overweight and normal weight (33.4% vs. 20.5% and 24.7%, respectively, P < 0.001)."
+      },
+      {
+        "evidence_id": "D02:S01",
+        "doc_id": 32004,
+        "sentence_id": 4,
+        "source_doc_rank": 5,
+        "text": "Weight gain was reported in 27.5% of the total sample compared with 33.4% in participants with obesity."
+      },
+      {
+        "evidence_id": "D03:S01",
+        "doc_id": 32070,
+        "sentence_id": 3,
+        "source_doc_rank": 71,
+        "text": "Among those who gained weight, COVID‐19 symptoms could be more severe should they contract the disease, resulting in worse outcomes."
+      },
+      {
+        "evidence_id": "D04:S01",
+        "doc_id": 32044,
+        "sentence_id": 6,
+        "source_doc_rank": 45,
+        "text": "An increase in healthy snacking was reported by 25.8% of participants, whereas 43.5% reported an increase in unhealthy snacking."
+      },
+      {
+        "evidence_id": "D01:S02",
+        "doc_id": 32060,
+        "sentence_id": 2,
+        "source_doc_rank": 61,
+        "text": "Respondents who reported weight gain had little change in eating behaviors but demonstrated the largest declines in physical activity."
+      },
+      {
+        "evidence_id": "D05:S01",
+        "doc_id": 32022,
+        "sentence_id": 4,
+        "source_doc_rank": 23,
+        "text": "Nonscientific reports have begun to illustrate the impacts of weight gain throughout the pandemic."
+      },
+      {
+        "evidence_id": "D06:S01",
+        "doc_id": 32065,
+        "sentence_id": 1,
+        "source_doc_rank": 66,
+        "text": "Although the current survey does not capture diet composition per se, individuals reported a combination of positive and negative changes in eating behaviors."
+      },
+      {
+        "evidence_id": "D07:S01",
+        "doc_id": 32066,
+        "sentence_id": 1,
+        "source_doc_rank": 67,
+        "text": "This finding is confirmed by a report from Hunter Food and Beverage Communications, who surveyed 1,005 individuals living in the US and showed that 54% of individuals reported cooking more frequently since the start of the pandemic (10)."
+      },
+      {
+        "evidence_id": "D01:S03",
+        "doc_id": 32060,
+        "sentence_id": 1,
+        "source_doc_rank": 61,
+        "text": "By contrast, 17.3% of participants reported losing weight, which was consistent across BMI groups (obesity: 18.0%; overweight: 18.0%; normal weight: 17.8%)."
+      },
+      {
+        "evidence_id": "D08:S01",
+        "doc_id": 32027,
+        "sentence_id": 2,
+        "source_doc_rank": 28,
+        "text": "BMI for each participant was calculated from self‐reported height and weight."
+      }
+    ]
+  },
+  "480": {
+    "case_id": "sarol:test:480",
+    "frozen_claim": "In mouse models of human disease, remdesivir is very effective at treating lethal SARS-CoV2 infection (<|other_cit|>) and MERS-CoV infection than combination lopinavir, ritonavir, and IFN-β (<|cit|>)",
+    "original_paragraph": "With increased access to global travel and frequent human-to-human interaction, it is crucial to develop and utilize strategies to understand the risk potential of emerging viruses to One Health globally. In this study, we used metagenomics, bioinformatics, synthetic genome design, and reverse genetics to recover recombinant wild-type and derivative SADS-CoVs from in silico sequence databases. Using this model, we studied virus genome organization and expression patterns in infected cells and evaluated the capacity of human serum and small-molecule inhibitors to impede SADS-CoV growth in vivo. The molecular clone and work described herein expands upon a recently published swine enteric alphacoronavirus molecular clone (<|other_cit|>) by: 1) Generating mutants that demonstrated a nonessential role for ORF3 is virus growth in vitro; 2) the development of indicator viruses, which revealed new insights into the broad host range; 3) studying cross-group 1b neutralization; and 4) identifying SADS-CoV susceptibility to a broad-spectrum nucleoside chain terminator, remdesivir, which has been used to treat lethal Ebola infections with some success (<|other_cit|>). Additionally, remdesivir is effective at reducing SARS-CoV-2 infection and has been cleared for emergency use in treating COVID-19 patients (<|other_cit|>). Previous studies in our laboratory and others have shown that remdesivir was broadly active against alpha-, beta-, and gammacoronaviruses both in vitro and in vivo (<|other_cit|>). As SADS-CoV is highly susceptible to remdesivir treatment in vitro, these findings support its potential use in the event of possible future SADS-CoV or related HKU2 disease outbreaks. In mouse models of human disease, remdesivir is very effective at treating lethal SARS-CoV2 infection (<|other_cit|>) and MERS-CoV infection than combination lopinavir, ritonavir, and IFN-β (<|cit|>) and MERS-CoV infection than combination lopinavir, ritonavir, and IFN-β (68). In contrast to other reports, SADS-CoV replication in wild-type mice was minimal at best. We noted little evidence of significant or reproducible replication across animals or tissues at day 2, indicating the need for a proper small-animal model for use in in vivo antiviral or vaccine testing (SI Appendix, Fig. S5). Our inability to enhance SADS-CoV growth in immunodeficient IFNR−/− mice provide further evidence that the mouse is not a suitable model for SADS-CoV pathogenesis, vaccine, or therapeutic studies, revealing a vulnerability in global preparedness.\n\n\n",
+    "original_annotation_member": "annotations/Test/citations/035_PMC6954302/PMC7604506_1.json",
+    "candidate_evidence": [
+      {
+        "evidence_id": "D01:S01",
+        "doc_id": 35000,
+        "sentence_id": 0,
+        "source_doc_rank": 1,
+        "text": "Comparative therapeutic efficacy of remdesivir and combination lopinavir, ritonavir, and interferon beta against MERS-CoV"
+      },
+      {
+        "evidence_id": "D02:S01",
+        "doc_id": 35001,
+        "sentence_id": 1,
+        "source_doc_rank": 2,
+        "text": "There are no approved treatments for MERS-CoV infection although a combination of lopinavir, ritonavir and interferon beta (LPV/RTV-IFNb) is currently being evaluated in humans in the Kingdom of Saudi Arabia."
+      },
+      {
+        "evidence_id": "D03:S01",
+        "doc_id": 35047,
+        "sentence_id": 6,
+        "source_doc_rank": 48,
+        "text": "Although recent meta-analysis and modeling has suggested that interferon treatment does not improve clinical outcomes in MERS-CoV patients4, the MIRACLE trial in the KSA is aimed at conclusively determining if a fixed dose combination of LPV/RTV-IFNb is effective at treating MERS-CoV infections14."
+      },
+      {
+        "evidence_id": "D04:S01",
+        "doc_id": 35015,
+        "sentence_id": 1,
+        "source_doc_rank": 16,
+        "text": "MERS-CoV infection of standard laboratory mice is prevented due to differences in human and mouse dipeptidyl peptidase 4 (DPP4), the entry receptor for MERS-CoV."
+      },
+      {
+        "evidence_id": "D05:S01",
+        "doc_id": 35060,
+        "sentence_id": 0,
+        "source_doc_rank": 61,
+        "text": "Remdesivir (RDV), lopinavir (LPV), and ritonavir (RTV) were solubilized in 100% DMSO and provided by Gilead Sciences, Inc."
+      },
+      {
+        "evidence_id": "D06:S01",
+        "doc_id": 35054,
+        "sentence_id": 11,
+        "source_doc_rank": 55,
+        "text": "Exclusion criteria for in vivo studies were as follows: If a given mouse unexpectedly did not lose weight after infection and their virus lung titers were more than 2 log10 lower than the mean of the group, this indicated that infection was inefficient, and all data related to that mouse were censored."
+      },
+      {
+        "evidence_id": "D02:S02",
+        "doc_id": 35001,
+        "sentence_id": 0,
+        "source_doc_rank": 2,
+        "text": "Middle East respiratory syndrome coronavirus (MERS-CoV) is the causative agent of a severe respiratory disease associated with more than 2468 human infections and over 851 deaths in 27 countries since 2012."
+      },
+      {
+        "evidence_id": "D07:S01",
+        "doc_id": 35051,
+        "sentence_id": 12,
+        "source_doc_rank": 52,
+        "text": "Since disease resulting from both SARS- and MERS-CoV infection is driven by both virus and host immune response factors, depending on the stage of the disease progression, early initiation of antiviral therapy, and/or holistic combination therapies will likely be needed to diminish virus replication, immunopathology, and/or promote repair and restoration of pulmonary homeostasis."
+      },
+      {
+        "evidence_id": "D08:S01",
+        "doc_id": 35049,
+        "sentence_id": 5,
+        "source_doc_rank": 50,
+        "text": "In mice where hDPP4 is delivered to lung tissue by adenoviral transduction, intranasal IFNb given before or after MERS-CoV infection reduced lung titers although the peak lung titers in this model are approximately two orders of magnitude lower than the current transgenic models, and thus may be more easily treated38–40."
+      },
+      {
+        "evidence_id": "D09:S01",
+        "doc_id": 35068,
+        "sentence_id": 0,
+        "source_doc_rank": 69,
+        "text": "MERS-CoV binds the human receptor dipeptidyl peptidase 4 (DPP4) to gain entry into cells, and two residues (288 and 330) in the binding interface of the mouse ortholog prevent infection of mice."
+      }
+    ]
+  },
+  "490": {
+    "case_id": "sarol:test:490",
+    "frozen_claim": "It has been noted in the previously published literature that IFN-I treatment has activity against MERS-CoV and SARS-CoV.[<|other_cit|>] It has been investigated in numerous experiments both in vitro and in vivo.[<|cit|>]",
+    "original_paragraph": "It has been noted in the previously published literature that IFN-I treatment has activity against MERS-CoV and SARS-CoV.[<|other_cit|>] It has been investigated in numerous experiments both in vitro and in vivo.[<|cit|>] It has been investigated in numerous experiments both in vitro and in vivo.[14]\n\n\n",
+    "original_annotation_member": "annotations/Test/citations/035_PMC6954302/PMC7933614_2.json",
+    "candidate_evidence": [
+      {
+        "evidence_id": "D01:S01",
+        "doc_id": 35004,
+        "sentence_id": 4,
+        "source_doc_rank": 5,
+        "text": "Although the antiviral activity of LPV against MERS-CoV has been reported in Vero cells (concentration causing a 50% reduction in replication (EC50) = 8 µM), other studies report complete inactivity similar to that of RTV8,9."
+      },
+      {
+        "evidence_id": "D02:S01",
+        "doc_id": 35051,
+        "sentence_id": 1,
+        "source_doc_rank": 52,
+        "text": "RDV has demonstrated in vivo efficacy against EBOV in nonhuman primates which has led to its inclusion in clinical studies evaluating the effects of RDV treatment in acute Ebola virus disease (EVD) as well as in EVD survivors with prolonged viral shedding47,48."
+      },
+      {
+        "evidence_id": "D01:S02",
+        "doc_id": 35004,
+        "sentence_id": 2,
+        "source_doc_rank": 5,
+        "text": "Multiple U.S. Food and Drug Administration (FDA) approved therapies have been evaluated for antiviral activity against MERS-CoV in vitro including lopinavir (LPV), ritonavir (RTV), and interferon beta (IFNb)."
+      },
+      {
+        "evidence_id": "D03:S01",
+        "doc_id": 35005,
+        "sentence_id": 5,
+        "source_doc_rank": 6,
+        "text": "Here, we show that RDV provides superior antiviral activity against MERS-CoV in vitro and in vivo as compared with LPV/RTV-IFNb."
+      },
+      {
+        "evidence_id": "D04:S01",
+        "doc_id": 35047,
+        "sentence_id": 7,
+        "source_doc_rank": 48,
+        "text": "Here, we show that RDV provides superior antiviral activity against MERS-CoV in vitro and in vivo as compared with LPV/RTV-IFNb."
+      },
+      {
+        "evidence_id": "D03:S02",
+        "doc_id": 35005,
+        "sentence_id": 4,
+        "source_doc_rank": 6,
+        "text": "Since similar studies had not been performed with MERS-CoV, we generated a transgenic mouse with a humanized MERS-CoV receptor (dipeptidyl peptidase 4, hDPP4) and deleted for carboxylesterase 1c (Ces1c) to improve the pharmacokinetics of nucleotide prodrugs such that it better approximates the drug exposure profile in humans22."
+      },
+      {
+        "evidence_id": "D04:S02",
+        "doc_id": 35047,
+        "sentence_id": 6,
+        "source_doc_rank": 48,
+        "text": "Although recent meta-analysis and modeling has suggested that interferon treatment does not improve clinical outcomes in MERS-CoV patients4, the MIRACLE trial in the KSA is aimed at conclusively determining if a fixed dose combination of LPV/RTV-IFNb is effective at treating MERS-CoV infections14."
+      },
+      {
+        "evidence_id": "D05:S01",
+        "doc_id": 35003,
+        "sentence_id": 4,
+        "source_doc_rank": 4,
+        "text": "Similar to severe acute respiratory syndrome CoV (SARS-CoV), MERS-CoV has spread to over 27 countries via air travel of infected people5."
+      },
+      {
+        "evidence_id": "D06:S01",
+        "doc_id": 35058,
+        "sentence_id": 7,
+        "source_doc_rank": 59,
+        "text": "MERS M35C4 has 12 amino acid coding changes as well as a single-nucleotide change in the 5ʹ UTR and a large deletion in ORF4b/ORF5."
+      },
+      {
+        "evidence_id": "D07:S01",
+        "doc_id": 35008,
+        "sentence_id": 8,
+        "source_doc_rank": 9,
+        "text": "Together, these data demonstrate that RDV and IFNb have superior in vitro antiviral activity compared with LPV and RTV, and that RTV does not significantly enhance the antiviral activity of LPV in vitro."
+      }
+    ]
+  },
+  "502": {
+    "case_id": "sarol:test:502",
+    "frozen_claim": "The antiviral efficacy was further confirmed in MERS-CoV infection mouse and rhesus macaque models (<|multi_cit|>).",
+    "original_paragraph": "Currently, there are few antivirals and no vaccines available for SARS-CoV-2. Hence, it is imperative to identify drug targets that could lead to effective antivirals. Guided by research of similar coronaviruses, SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV), several viral proteins have been prioritized as SARS-CoV-2 antiviral drug targets: the spike protein, the RNA-dependent RNA polymerase (RdRp), the main protease (Mpro), and the papain-like protease (PLpro) (<|other_cit|>). The SARS-CoV-2 RdRp inhibitor remdesivir was granted emergency use authorization from the U.S. Food and Drug Administration on 1 May 2020. Remdesivir has broad-spectrum antiviral activity against SARS-CoV, SARS-CoV-2, and MERS-CoV in cell culture (<|other_cit|>). The antiviral efficacy was further confirmed in MERS-CoV infection mouse and rhesus macaque models (<|multi_cit|>). Additional RdRp inhibitors under investigation for SARS-CoV-2 include EIDD-2801, favipiravir (T-705), ribavirin, and galidesivir (<|other_cit|>). The fusion inhibitor EK1C4, which was designed on the basis of the H2 peptide in the S2 domain of the HCoV-OC43 spike protein, showed promising broad-spectrum antiviral activity against SARS-CoV-2, SARS-CoV, and MERS-CoV, as well as human coronaviruses HCoV-229E, HCoV-NL63, and HCoV-OC43 (<|other_cit|>). Meanwhile, Mpro has been extensively explored as a drug target for not only SARS-CoV-2 but also SARS-CoV and MERS-CoV, as well as enteroviruses, rhinoviruses, and noroviruses (<|other_cit|>). Mpro is a viral-encoded cysteine protease that has a unique substrate preference for a glutamine residue at the P1 site, which was recently confirmed by substrate profiling for SARS-CoV-2 (<|other_cit|>). Consequently, most of the designed Mpro inhibitors contain either 2-pyrrolidone or 2-piperidinone at the P1 site as a mimetic of the glutamine residue in the substrate (<|other_cit|>). Examples include compounds  ,  ,  ,  , and our recently identified   (<|other_cit|>)—all of which have potent enzymatic inhibition in biochemical assay and antiviral activity in cell culture. Their mechanism of action and mode of inhibition were revealed by the drug-bound x-ray crystal structures (<|other_cit|>).\n\n\n",
+    "original_annotation_member": "annotations/Test/citations/035_PMC6954302/PMC7725459_1.json",
+    "candidate_evidence": [
+      {
+        "evidence_id": "D01:S01",
+        "doc_id": 35049,
+        "sentence_id": 8,
+        "source_doc_rank": 50,
+        "text": "Nevertheless, the studies noted above demonstrate that type I interferon can exert an antiviral effect on MERS-CoV in vivo when given subcutaneously (IFN alpha, rhesus macaque) and intranasally (IFNb, adenovirus hDPP4 model)37–39."
+      },
+      {
+        "evidence_id": "D02:S01",
+        "doc_id": 35027,
+        "sentence_id": 1,
+        "source_doc_rank": 28,
+        "text": "To determine if prophylactic LPV/RTV-IFNb improved outcomes following MERS-CoV infection, we first confirmed that subcutaneous human equivalent doses (H.E.D.) of IFNb exerted a biological effect in mice."
+      },
+      {
+        "evidence_id": "D03:S01",
+        "doc_id": 35015,
+        "sentence_id": 1,
+        "source_doc_rank": 16,
+        "text": "MERS-CoV infection of standard laboratory mice is prevented due to differences in human and mouse dipeptidyl peptidase 4 (DPP4), the entry receptor for MERS-CoV."
+      },
+      {
+        "evidence_id": "D04:S01",
+        "doc_id": 35047,
+        "sentence_id": 10,
+        "source_doc_rank": 48,
+        "text": "Efficacy testing of antiviral regimens in humans like those in the MIRACLE trial are essential to progress antiviral development and prioritize therapies most likely to improve clinical outcomes in MERS-CoV patients."
+      },
+      {
+        "evidence_id": "D05:S01",
+        "doc_id": 35082,
+        "sentence_id": 0,
+        "source_doc_rank": 83,
+        "text": "The first tool is a Lung Injury Scoring System that was created by the American Thoracic Society in order to help quantitate histological features of ALI observed in mouse models and increase their translation to the human condition26."
+      },
+      {
+        "evidence_id": "D06:S01",
+        "doc_id": 35068,
+        "sentence_id": 0,
+        "source_doc_rank": 69,
+        "text": "MERS-CoV binds the human receptor dipeptidyl peptidase 4 (DPP4) to gain entry into cells, and two residues (288 and 330) in the binding interface of the mouse ortholog prevent infection of mice."
+      },
+      {
+        "evidence_id": "D07:S01",
+        "doc_id": 35048,
+        "sentence_id": 0,
+        "source_doc_rank": 49,
+        "text": "Differences in protein identity and concentration complicate the translation of in vitro antiviral activity to in vivo therapeutic efficacy."
+      },
+      {
+        "evidence_id": "D08:S01",
+        "doc_id": 35054,
+        "sentence_id": 11,
+        "source_doc_rank": 55,
+        "text": "Exclusion criteria for in vivo studies were as follows: If a given mouse unexpectedly did not lose weight after infection and their virus lung titers were more than 2 log10 lower than the mean of the group, this indicated that infection was inefficient, and all data related to that mouse were censored."
+      },
+      {
+        "evidence_id": "D08:S02",
+        "doc_id": 35054,
+        "sentence_id": 5,
+        "source_doc_rank": 55,
+        "text": "Third, we assessed the therapeutic efficacy of the above treatment regimens in a mouse model of MERS-CoV pathogenesis, but did not include an IFNb, only arm and these studies were performed twice."
+      },
+      {
+        "evidence_id": "D08:S03",
+        "doc_id": 35054,
+        "sentence_id": 1,
+        "source_doc_rank": 55,
+        "text": "First, we assessed antiviral efficacy and cytoxicity in the Calu-3 human lung cell line as compared with the appropriate vehicle control."
+      }
+    ]
+  }
+}

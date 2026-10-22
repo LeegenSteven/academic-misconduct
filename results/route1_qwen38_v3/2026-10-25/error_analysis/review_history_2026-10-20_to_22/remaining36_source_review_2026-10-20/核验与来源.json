@@ -1,0 +1,57 @@
+{
+  "status": "remaining36_advisory_review_materials_complete_human_adjudication_pending",
+  "generated_at_utc": "2026-10-20T13:28:25.903233+00:00",
+  "counts": {
+    "暂缓": 21,
+    "prior_confirmed_reuse": 1,
+    "NOT_ACCURATE": 14
+  },
+  "combined45_proposal_counts": {
+    "暂缓": 23,
+    "NOT_ACCURATE": 15,
+    "ACCURATE": 7
+  },
+  "counts_are_not_human_agreement_or_new_gold": true,
+  "checks": {
+    "citing_context_offsets": 45,
+    "marker_offsets": 36,
+    "original_annotation_evidence_offsets": 40,
+    "frozen_candidate_sentences": 360,
+    "supplemental_source_sentences": 68,
+    "cases": 36
+  },
+  "source_xml_cases": 17,
+  "source_xml_unique_articles": 16,
+  "no_duplicate_or_missing_cases_in_45_index": true,
+  "new_human_reviews_or_joint_adjudications_added": false,
+  "first9_response_received_or_adopted": false,
+  "frozen_model_runs_performed": false,
+  "formal_sources_sha256": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\field_dictionary.json": "ebc87e79fa77fb8ac11d3243e4f8b612b8bc68c6e7547d19076bb354d5945d01",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\gold_questions_sidecar.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\index_audit.json": "71e069af42706d9d43e4a2b576349a1fda68edf7280f20145ed56ab4c64f1e53",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_payload.jsonl": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_review.csv": "19126506e78340f1ab49ca11b1650b5a9b60b7fddbf3d17492e784ab2be4841c",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\paired_summary.json": "54c1068b8a53a860c5585f2a2da9d2872822c9cf6e6e2875821e2ec8fae210b0",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\paired_transitions.csv": "2aab8d0e77e0a3532f8c17b5a74cef925ef1b6cef28f47af3797abadac03d39b",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\prior_review\\review20_final.jsonl": "c089b5fe84c744a3128895cf4f39fc4112b99e2c8c53eab45a4b10b0f3043ad5",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\README.md": "04d6707e361a220447c652945b6b1368cc48be496c4bcba5c01eef42f6bbf434",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\review20_overlap.jsonl": "a15b2c94506d4233588069e54d7d2b95587f4a8d343803b5ad38a1cf869996f1",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\source_manifest.json": "f033c031e6418ba9f5439300502ac2efc8e4128472c4081c5017eda5a102405a",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sarol\\test.inputs.jsonl": "46b441cd7623ca827113ba5a52ae8a08d34cbbc4d5211b133e6af8595fc27391",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sarol\\test.gold.jsonl": "696d6d9290c03e3ca79ff705aeeab52161932f3c2b229db87298427e900caeae",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sarol\\M0\\M0_test_predictions.jsonl": "bdcabeff68aa28e9cabe76f7bbda771958dcf0cd5edf8b88dfcad13a7ca2408f",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sarol\\Mbio\\Mbio_test_predictions.jsonl": "e61218ea91fd2cba670bfa44ae0bb5c7ccd32dd00da964751de89d7f80601e2d",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\data\\quality_v1\\sarol\\corpus.jsonl": "0d60d3addf7b450d7291fd1c68d27ab6e5b8b38c177f374ae2cce5bb1a2885d3",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-15\\sciciteval\\test.gold.jsonl": "98512eb476fe31da3f36dea716ea3333008234f2af9ac191afd10d48a854eabd",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sciciteval\\M0\\M0_test_predictions.jsonl": "1dd4f71864b875fb4f623e8171943109b135518d075f74dd14f0f3d6f85e2680",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_refreeze5120_run02\\test\\sciciteval\\Mscv\\Mscv_test_predictions.jsonl": "ec55c6f770b941441b753f21c9dfd4e2b4d8c069e38f0662691548ab3f2441b4",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v2\\2026-10-19\\test_paired_analysis\\paired_rows.jsonl": "85febead82d19861114e914a37df5403d15e1d20fdcf94522aa804ff6e4218ed",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\发给师兄_本周汇报_2026-10-19\\05_Test配对与案例复核\\20案例共同裁决完成_20261019\\20案例复核最终记录.jsonl": "c089b5fe84c744a3128895cf4f39fc4112b99e2c8c53eab45a4b10b0f3043ad5",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\2026-10-20_45条漏检案例复核\\miss45_review_陈明进v4_20261020.csv": "d32c2cd86de37ff99fe9a4696587ba1e76609377962922b44579e783599460cd",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\data\\quality_v1\\sarol\\claims-test-model.jsonl": "cfafb28d0a176c0598a98ebfd348f184eb8011620af7497b350bd7e13af5605e",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\成员1反馈 Data\\annotations.zip": "cf22dea33606f355c8d9684dd8d18234be559bf40a45968fd2829cdf66e5797e"
+  },
+  "generator_sha256": "bd5a48cf1f9d8d75b2094f085b382813e6b01bf9f364aa65c8ec5055ff900e11",
+  "note": "First9 sent by user; no new reply is assumed. All semantic judgments are editorial proposals."
+}

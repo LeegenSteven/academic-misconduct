@@ -1,0 +1,27 @@
+{
+  "version": "route1_first5_recheck_ack_20261022",
+  "confirmed_by": "李云",
+  "user_reply_verbatim": "同意",
+  "recorded_at_utc": "2026-10-22T06:11:27.829308+00:00",
+  "confirmation_source": "本会话：用户在5点复查结论交付后回复同意",
+  "confirmed_report_path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\PDF首批5点_复查结果_20261022\\先看这里_5点复查结论.md",
+  "confirmed_report_sha256": "5738e1e7a9070e32ff99e5775a1f508f5c33911172e0135e6cf6b1b640160a2a",
+  "confirmed_findings_sha256": "2194ff450a5ea6574bd07c17f51150526e15c0e9ec1d1452d45fe2a6d7f57233",
+  "scope": "认可该版复查结论，包括有条件建议、待核项和原工程结果；不推定另行逐页独立检查或双人裁决。",
+  "AfterQC_label_suggestion_accepted": "ACCURATE",
+  "Trimmomatic_label_suggestion_accepted": "ACCURATE_conditional",
+  "unresolved_classification_topics": [
+    "PDB结构数量",
+    "武汉早期病例",
+    "新型RNA冠状病毒"
+  ],
+  "Trimmomatic_popular_materiality_resolved": false,
+  "formal_review_merge_performed": false,
+  "independent_blind_review_claimed": false,
+  "ChenMingjin_opinion_received": false,
+  "new_model_inference": false,
+  "original_engineering_success": 1,
+  "supplemental_structure_and_quotes_passed": 3,
+  "formal_end_to_end_accepted": 0,
+  "fixed_denominator": 20
+}

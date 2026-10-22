@@ -1,0 +1,27 @@
+{
+  "version": "pdf20_assisted_scope_recipe_v2_20261020",
+  "review_type": "assistant source-boundary preparation; not independent human labels or joint adjudication",
+  "basis": "Citing PDF wording, syntax and the fixed physical reference marker. Preserve all numerical/directional/conditional content belonging to that marker. No new model predictions exist.",
+  "rows": [
+    {"case_id":"r1pdf:48b208f007c2c6e700c04ff0","primary":[{"start":"Through an enormous experimental effort","end":"effort1–4"}],"context":[{"old_query":true}],"keep_original_query":true,"hold":"group_modifier_boundary_needs_joint_confirmation","reason":"当前 CR1 位于实验努力的修饰语后，100,000 由后面的 CR5 标记，billions 由 CR6/7 标记。已分离这些位置，但该修饰语能否独立作为三分类主张仍需共同确认，不能替它强填完整断言。"},
+    {"case_id":"r1pdf:c39ba37fc4698431f556d6b9","primary":[{"start":"the structures of around 100,000","end":"have been determined5"}],"context":[],"reason":"CR5 对应约 100,000 个独特蛋白结构已被测定的分句；保留 around、100,000、unique，不将 CR1–4 的方法背景及 CR6/7 的 billions 序列数并入本点。"},
+    {"case_id":"r1pdf:ecd1a395eb5f25610750d721","primary":[{"old_query":true}],"context":[],"reason":"保留 Trimmomatic 可用 sliding window 做质量剪切的完整主张。被引 E02 的 5′/3′ 另用逐字修订记录处理，不通过删改施引主张消除问题。"},
+    {"case_id":"r1pdf:e1636ac35ca5131bfdf6fb44","primary":[{"old_query":true}],"context":[],"reason":"保留 AfterQC 集成 quality control、adapter trimming、data filtering 等功能的整句，不混入后续 Python 性能评价。"},
+    {"case_id":"r1pdf:cc2e2247d91afc3f3559aa23","primary":[{"old_query":true}],"context":[],"reason":"保留 early December 2019、unknown origin、Wuhan/Hubei 等限定。提取文本的 I n 排版空格原样留存，不据此改变日期或地点。"},
+    {"case_id":"r1pdf:df5053bbd503ea2762b3617d","primary":[{"start":"The pathogen has been identified","end":"betacoronavirus2"}],"context":[],"reason":"当前 r2 位于 novel enveloped RNA betacoronavirus 后。后续命名及由 r3 标记的 SARS-CoV 相似性不强加给 r2；当前分句的 novel、enveloped、RNA、betacoronavirus 均保留。"},
+    {"case_id":"r1pdf:43dd5182e91a0ff7d0bec65d","primary":[{"old_query":true}],"context":[],"reason":"r4 位于完整复句之后。保留 likely、zoonotic、海鲜市场兼售野生动物，以及 efficient person-to-person transmission；不因证据难找删去前半句。"},
+    {"case_id":"r1pdf:bf08cfaceb2c2e5fdd7aab42","primary":[{"start":"systematic co-fractionation","end":"proteomes (6,7)"}],"context":[{"start":"A dense network of functional connections","end":"among proteins"},{"start":"Recent developments have further improved","end":"through techniques such as"}],"reason":"当前 B6 属于 co-fractionation 方法分项，保留 systematic 及 proteomes。蛋白功能连接和 unravel connectivity 作指代上下文；不把 genetic screens、cross-linking 或 AlphaFold 分项归给 B6。"},
+    {"case_id":"r1pdf:c20f0ec9e9d5958f62b304f8","primary":[{"old_query":true}],"context":[{"start":"The 2018 framework also called","end":"beyond AT(N) as appropriate."}],"reason":"保留 2018、ATX(N)、X 超出 A/T/(N) 的定义，并加入 This 的直接前文。后面的本次更新新增 I/V/S 是作者当前工作，不要求 2018 文献复述。"},
+    {"case_id":"r1pdf:1dfa922c755ed870245927e3","primary":[{"start":"First, this combination is rare.","end":"rare.38–40"}],"context":[{"start":"A−T2+ biomarker profile","end":"biomarker profile"}],"reason":"当前 r40 在 rare.38–40 组内，需保留 rare 并用 A−T2+ 解消 this combination；测量波动的 Second 分句由 r41 标记，不并入本点。AD 诊断结论仍是上下文，不偷换成被引 r40 必须证明的另一主张。"},
+    {"case_id":"r1pdf:976890f040d5c2cab2e50965","primary":[{"start":"This bioinformatics approach has benefited","end":"Protein Data Bank (PDB)5"}],"context":[],"reason":"保留 bioinformatics approach 受益于实验结构持续增长的主张，截止当前 PDB5 标记；不把后续基因组测序增长和深度学习并列项归给 PDB 文献。"},
+    {"case_id":"r1pdf:8eec93b561ea2378e0da8197","primary":[{"start":"In recent studies, the severity","end":"SARSCoV.1,12,13"}],"context":[],"reason":"当前 r1 在病例严重程度类似 SARS-CoV 的句末。保留 some cases、severity 和 mimic 比较，不并入前句 81,109 例全球统计或后句本研究目的。"},
+    {"case_id":"r1pdf:43c53ece80a7c35828d5246d","primary":[{"old_query":true}],"context":[],"reason":"保留 informal staging 及 A+T−N− 到 A+T+N− 到 A+T+N+ 的完整方向；不改正负号、不把后续当前修订建议归入 2018 文献。"},
+    {"case_id":"r1pdf:fab3e8c6971477d942ccbcc4","primary":[{"old_query":true}],"context":[],"reason":"保留 multi-cohort meta-analysis、相似 PET staging 和 40-fold hazard-ratio range，不能将 meta-analysis 弱化成 study 或删除 40-fold 来迎合证据。"},
+    {"case_id":"r1pdf:896e930269210ee1300d8037","primary":[{"start":"PDB5","end":"PDB5"}],"context":[{"old_query":true}],"keep_original_query":true,"hold":"resource_reference_policy_needs_joint_confirmation","reason":"当前标记紧随 PDB 资源名，训练行为及 28 August 2019 是施引作者自述。先提出资源引用范围，是否作为资源型三分类实例须共同确认；不因为被引文献未报告本研究训练日期就判错或无关。"},
+    {"case_id":"r1pdf:8b6ea1cffce94cc72ba1c9cf","primary":[{"old_query":true}],"context":[],"reason":"保留阳性判定、sequencing 或 RT-PCR 的逻辑，以及 nasal AND pharyngeal swab specimens 条件。不能仅留下 RT-PCR 名称以回避样本来源差异。"},
+    {"case_id":"r1pdf:0243ab815badba958177a9a8","primary":[{"start":"In the 2018 research framework,7","end":"six-stage numeric clinical staging scheme"}],"context":[],"reason":"保留 2018 与 six-stage numeric clinical staging 的回引主张；当前修订 largely unchanged 和读者说明属于当前作者的更新关系，不要求旧框架报告当前修订。"},
+    {"case_id":"r1pdf:0625d9ca3ef5bf2a22c6109b","primary":[{"old_query":true}],"context":[],"reason":"保留近期研究与 clinical characteristics mimic SARS-CoV 的整句比较；不并入后续发热/胃肠症状差异或别处标记的病死率。"},
+    {"case_id":"r1pdf:826cdb765c276ba900010084","primary":[{"old_query":true}],"context":[],"reason":"保留 2018 框架中 (N) 与 A/T 的特异性对比。后句当前取消括号的决定不属于旧文献需支持的主张。"},
+    {"case_id":"r1pdf:07b8a2180cd71a89f1c772cc","primary":[{"start":"Lymphocytopenia was common","end":"reports.1,12"}],"context":[],"reason":"当前物理 r1 是淋巴细胞减少句后的第一处 r1,12，保留 common 和 in some cases severe；后句 1.4% 病死率旁是另一物理引用点，不能合并到本点或重复计数。"}
+  ]
+}

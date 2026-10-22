@@ -1,0 +1,19 @@
+{
+  "updated_at_utc": "2026-10-22T02:25:14.112595+00:00",
+  "actual_run_date": "2026-10-22",
+  "archive_deadline_directory": "2026-10-25",
+  "first_batch_points": 5,
+  "fixed_denominator": 20,
+  "strict_engineering_success": 1,
+  "supplemental_structure_and_quote_passes": 3,
+  "human_semantic_accepted": 0,
+  "formal_end_to_end_accepted": 0,
+  "submitted_reviews": 0,
+  "held_points": 2,
+  "unreleased_nonheld_points": 13,
+  "remaining_points_not_run": 15,
+  "scope_release_sha256": "57ce1f04fe089ed4f59cff2923965573237883ef0e12cca2aaeed0ce5cf1c7d8",
+  "execution_release_sha256": "7fbbfe1e363367d3bb9cd97124b44716d25432fa97e96d7629be932b8d1a4a04",
+  "GitHub_published_this_turn": false,
+  "original_Test_or_gold_modified": false
+}

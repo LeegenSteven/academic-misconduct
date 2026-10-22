@@ -1,0 +1,10 @@
+{
+  "version": "route1_pdf_first5_resource_v1_20261022",
+  "files": {
+    "__main__.py": "03e6ad46592af112b01f0cce1a11121282efd0ec75279245f0b6f025548e1837",
+    "probe_contract.py": "2f2c5cc8155a075b65ea20d3cea56a48d1da13ea0d7b05c333b7db1d01b7e2b7",
+    "resource_backend.py": "a2a91f0940e788c4b657dba8768950d434858a1de057d0861ecaccd7a104eada",
+    "policy.json": "76f3e08b7c19899337707ab5b432b554adc871e90c0a3065a340c14572a504e6",
+    "README.txt": "33f03020b49a6855443702259442725819c229f136927fc536694c9d8a854fab"
+  }
+}

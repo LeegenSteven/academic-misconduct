@@ -1,0 +1,68 @@
+{
+  "status": "V6_STRUCTURAL_CHECK_PASS_REASON_CORRECTIONS_STILL_NEEDED_JOINT_REVIEW_INCOMPLETE",
+  "checked_at_utc": "2026-10-22T00:37:23.598154+00:00",
+  "audit_client_date": "2026-10-22",
+  "received_version_date": "2026-10-21",
+  "rows": 45,
+  "unique_case_ids": 45,
+  "immutable_metadata_fields_per_row": 18,
+  "frozen_metadata_unchanged": true,
+  "selected_evidence_ids_exist": true,
+  "selected_ids_existing_does_not_certify_correct_meaning": true,
+  "chen_label_distribution": {
+    "NOT_ACCURATE": 41,
+    "ACCURATE": 4
+  },
+  "chen_accurate_ids": [
+    "138",
+    "236",
+    "342",
+    "490"
+  ],
+  "temporary_NOT_ids": [
+    "235",
+    "466",
+    "580"
+  ],
+  "changed_ids": [
+    "48",
+    "186",
+    "235",
+    "257",
+    "466",
+    "490",
+    "502",
+    "544",
+    "580",
+    "600"
+  ],
+  "changed_labels": {
+    "490": {
+      "v5": "NOT_ACCURATE",
+      "v6": "ACCURATE"
+    }
+  },
+  "li_new_review_fields_missing": 44,
+  "new_joint_decisions": 0,
+  "prior_confirmed_case_reused": "51",
+  "502_cross_case_meaning_mismatch_ids": [
+    "D03:S01",
+    "D04:S01"
+  ],
+  "original_source_files_sha256": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\2026-10-20_45条漏检案例复核\\miss45_review_陈明进v5_20261021.csv": "5b2e1e0bc528da8b1210fbe8bbf739124eb406f72c727332087ffcdde456bf18",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\新建文件夹\\miss45_review_陈明进v6_20261021.csv": "637befa33ca6c9226f64291411877a1d5533c9c32c0aeb67e5cc6d118b5c5de8",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\新建文件夹\\45条三方对比与分歧裁决_陈明进_v6_20261021.md": "f6a82e634bcbffe9f4e52b7d8110c89842e22a160e944ae359b82f037768af2a",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_review.csv": "19126506e78340f1ab49ca11b1650b5a9b60b7fddbf3d17492e784ab2be4841c",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_payload.jsonl": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\gold_questions_sidecar.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\李云首批9条核对材料_20261020\\补充原句与可见性.jsonl": "676107d04eb107b04a39d84044f2e7252e276062a2dd511f59ca3888104bcae8",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\36条全文补核证据.jsonl": "4eb96a3a68a445eabb85647d3bf4c2e33de5677b6273eaf7ebf08a8c2cb6f5bc"
+  },
+  "original_reference_member": "annotations/Test/references/035_PMC6954302.txt",
+  "original_reference_member_sha256": "384c2448a17ec86e56f5f8a2f486082c6b388d83bb3417b73f8914caaec7a01c",
+  "original_CSVs_modified": false,
+  "formal_master_modified": false,
+  "gold_predictions_metrics_modified": false,
+  "model_pipeline_error_diagnosed_from_human_misreference": false
+}

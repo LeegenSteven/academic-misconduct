@@ -22,3 +22,24 @@ data/quality_v1/** -text
 /results/route1_qwen38_v1/2026-10-13/sciciteval_dev_gold_2026-10-13.jsonl -text
 /results/route1_qwen38_v1/2026-10-13/sciciteval_dev_m0_prompts_2026-10-13.jsonl -text
 /results/route1_qwen38_v1/2026-10-13/sciciteval_group_split_provisional_2026-10-13.csv -text
+
+# Preserve Route1 v3 evidence, logs and code hashes byte-for-byte.
+/results/route1_qwen38_v3/** -text
+/code/ly/README_route1_pdf_pipeline_v3.md -text
+/code/ly/README_route1_pdf_review_v3.md -text
+/code/ly/README_route1_pdf_v3.md -text
+/code/ly/audit_pdf20_preparation_20261020.py -text
+/code/ly/audit_route1_cited_return_20261020.py -text
+/code/ly/build_route1_miss45_index_v3.py -text
+/code/ly/check_pdf20_draft_token_ids_20261020.py -text
+/code/ly/pdf20_scope_recipe_20261020.json -text
+/code/ly/prepare_pdf20_scope_inputs_20261020.py -text
+/code/ly/replay_cmj_pdf20_retrieval_20261020.py -text
+/code/ly/route1_pdf_hf_backend_v3.py -text
+/code/ly/route1_pdf_pipeline_v3.py -text
+/code/ly/route1_pdf_review_v3.py -text
+/code/ly/run_route1_pdf_v3.py -text
+/code/ly/test_route1_pdf_pipeline_v3.py -text
+/code/ly/test_route1_pdf_review_v3.py -text
+/code/ly/test_route1_pdf_v3.py -text
+/code/ly/write_route1_miss45_tables_v3.mjs -text

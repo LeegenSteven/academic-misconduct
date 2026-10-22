@@ -1,0 +1,69 @@
+{
+  "status": "nine_original_citation_identities_verified_semantic_review_pending",
+  "checked_at_utc": "2026-10-20T13:11:40.394573+00:00",
+  "original_citing_articles_checked": 9,
+  "target_reference_dois_verified": 9,
+  "target_claim_texts_matched": 9,
+  "all_human_confirmation_and_joint_resolution_fields_unfilled": true,
+  "frozen_files_sha256_verified": 24,
+  "no_model_run": true,
+  "all_formal_data_unchanged": true,
+  "previous_zip_sha256": "fa7b936f8fe9138591e3e6eafe12d391556495fea85c39f9e264437330dafa5d",
+  "script_sha256": "e147147a94005871f14bf45b944f9254b77c0dcc303f565be473bbda2f31dc3c",
+  "sources": [
+    {
+      "case_id": "sarol:test:112",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8556155/fullTextXML",
+      "source_file": "source_xml/PMC8556155.xml",
+      "source_sha256": "1a7d5b0e5ef5837c3e044f5b91cdec3aeb1df5ade1e9691168e76a19358adfeb"
+    },
+    {
+      "case_id": "sarol:test:120",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8205852/fullTextXML",
+      "source_file": "source_xml/PMC8205852.xml",
+      "source_sha256": "b104a4a20705ec5b8c2155ab5d03b0338fa0faae9be6048567bafb4af0df9ad3"
+    },
+    {
+      "case_id": "sarol:test:138",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8402317/fullTextXML",
+      "source_file": "source_xml/PMC8402317.xml",
+      "source_sha256": "f2b2151f39921b25e04c25726ab5bd6ce0ec79eb948df6f194aceb0b6d227a3a"
+    },
+    {
+      "case_id": "sarol:test:236",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8801912/fullTextXML",
+      "source_file": "source_xml/PMC8801912.xml",
+      "source_sha256": "c5c4bfa5a6c380f271e0dae4082846060bf7b0257afe5f710f3f51a21e7a0a82"
+    },
+    {
+      "case_id": "sarol:test:342",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2886067/fullTextXML",
+      "source_file": "source_xml/PMC2886067.xml",
+      "source_sha256": "8948c01a428f537bf29e3b396d19e2696b194f288a7f253995c626ffc7bad310"
+    },
+    {
+      "case_id": "sarol:test:250",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8497511/fullTextXML",
+      "source_file": "source_xml/PMC8497511.xml",
+      "source_sha256": "18ef33b11909c85f8afc9e33d04985515324af7ee78afe9caa9965830c4b318d"
+    },
+    {
+      "case_id": "sarol:test:233",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8619493/fullTextXML",
+      "source_file": "source_xml/PMC8619493.xml",
+      "source_sha256": "11a737f2fff7808d06125ce6585b7fd72935bf522676efc7d8cfc8cb1920cce0"
+    },
+    {
+      "case_id": "sarol:test:242",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8297333/fullTextXML",
+      "source_file": "source_xml/PMC8297333.xml",
+      "source_sha256": "aeec50b5c12fca478f6ed3dbcce8f799189722da1fff96c0bd26511dc6b167cf"
+    },
+    {
+      "case_id": "sarol:test:490",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7933614/fullTextXML",
+      "source_file": "source_xml/PMC7933614.xml",
+      "source_sha256": "07f63177eb4c68bb620c6986e6099ddaa6c91be27e0716cf1c6056b070146e10"
+    }
+  ]
+}

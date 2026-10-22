@@ -1,0 +1,26 @@
+{
+  "status": "FIRST5_MODEL_STAGES_FINISHED_HUMAN_REVIEW_PENDING",
+  "stage_exit_codes": {
+    "classifier": 0,
+    "explainer": 0
+  },
+  "assembly": {
+    "fixed_denominator": 20,
+    "attempted_classifier": 5,
+    "attempted_explainer": 5,
+    "engineering_success": 1,
+    "locator_human_valid": null,
+    "formal_location_rate": null,
+    "explanation_semantic_passed": null,
+    "classification_correct": null,
+    "classification_adjudicated_denominator": 0,
+    "classification_unadjudicated": 20,
+    "formal_end_to_end_accepted": 0,
+    "note": "Four outcomes remain separate; no human review is inferred from model/format/PDF checks."
+  },
+  "finished_at_utc": "2026-10-22T01:51:10.938578+00:00",
+  "execution_release_sha256": "7fbbfe1e363367d3bb9cd97124b44716d25432fa97e96d7629be932b8d1a4a04",
+  "actual_backend_source_sha256": "a2a91f0940e788c4b657dba8768950d434858a1de057d0861ecaccd7a104eada",
+  "no_unreviewed_reason_for_display": true,
+  "formal_end_to_end_accepted": 0
+}
