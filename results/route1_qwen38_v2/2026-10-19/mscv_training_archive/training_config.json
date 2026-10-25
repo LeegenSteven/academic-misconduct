@@ -1,0 +1,47 @@
+{
+  "task": "SciCiteVal",
+  "status": "trained",
+  "base_model_path": "/home/admire/models/Qwen3.8-27B",
+  "base_model_config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+  "input_sha256": "4f7357e0022a2e557cb9912f7612699a496d02753451a06b14e2e004f8d3622b",
+  "gold_path": "/home/admire/academic-misconduct-route1/results/route1_qwen38_v2/2026-10-15/sciciteval/train.gold.jsonl",
+  "gold_sha256": "5a80ff6c6cf813c8256827c63da5ee3c277607afa48f243a9b6743ec4d7be83a",
+  "train_samples": 713,
+  "label_distribution": {
+    "ACCURATE": 183,
+    "NOT_ACCURATE": 183,
+    "IRRELEVANT": 347
+  },
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "learning_rate": 0.0001,
+    "micro_batch": 1,
+    "grad_accum": 16,
+    "epochs": 1,
+    "seed": 42
+  },
+  "max_length": 4096,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "supervision": "assistant JSON label and turn end only; supplied masks preserved during padding",
+  "enable_thinking": false,
+  "truncation_policy": "fail on overlength; do not silently discard evidence or assistant targets",
+  "training_time_minutes": 49.31,
+  "train_result": {
+    "train_runtime": 2958.1098,
+    "train_samples_per_second": 0.241,
+    "train_steps_per_second": 0.015,
+    "total_flos": 6.056090524113408e+16,
+    "train_loss": 0.1862243064575725,
+    "epoch": 1.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "updated_date": "2026-10-25",
+  "model": "Mscv",
+  "training_date": "2026-10-16",
+  "status": "archived_existing_mscv_training_artifacts",
+  "scope": "Existing SciCiteVal Train713 adapter and frozen classification results; no new model run",
+  "base": {
+    "repo_id": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "a100_path": "/home/admire/models/Qwen3.8-27B",
+    "config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+    "weight_reference_workspace_path": "路线一冻结核验_20261018/11_陈明进复核材料_20261018/official_reference/18_shards_expected_sha256.txt",
+    "weight_reference_sha256": "3ebc83ee545cc54cb2558d805802d4a4e9da42c316d1b248846debee545b99c9",
+    "provenance": "Historical frozen official reference; no new network or A100 verification this turn"
+  },
+  "training_config": {
+    "task": "SciCiteVal",
+    "status": "trained",
+    "base_model_path": "/home/admire/models/Qwen3.8-27B",
+    "base_model_config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+    "input_sha256": "4f7357e0022a2e557cb9912f7612699a496d02753451a06b14e2e004f8d3622b",
+    "gold_path": "/home/admire/academic-misconduct-route1/results/route1_qwen38_v2/2026-10-15/sciciteval/train.gold.jsonl",
+    "gold_sha256": "5a80ff6c6cf813c8256827c63da5ee3c277607afa48f243a9b6743ec4d7be83a",
+    "train_samples": 713,
+    "label_distribution": {
+      "ACCURATE": 183,
+      "NOT_ACCURATE": 183,
+      "IRRELEVANT": 347
+    },
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "learning_rate": 0.0001,
+      "micro_batch": 1,
+      "grad_accum": 16,
+      "epochs": 1,
+      "seed": 42
+    },
+    "max_length": 4096,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "supervision": "assistant JSON label and turn end only; supplied masks preserved during padding",
+    "enable_thinking": false,
+    "truncation_policy": "fail on overlength; do not silently discard evidence or assistant targets",
+    "training_time_minutes": 49.31,
+    "train_result": {
+      "train_runtime": 2958.1098,
+      "train_samples_per_second": 0.241,
+      "train_steps_per_second": 0.015,
+      "total_flos": 6.056090524113408e+16,
+      "train_loss": 0.1862243064575725,
+      "epoch": 1.0
+    }
+  },
+  "training_code_binding": {
+    "entry": {
+      "path": "code/ly/route1_qwen38_train_sciciteval_v1.py",
+      "sha256": "606f70300d8039d6dd84e9cfa565b39616b3368df5d2e4c13058ad783e8ac0fa",
+      "bytes": 9950
+    },
+    "shared_dependency": {
+      "path": "code/shared/route1_qwen38/data_contract.py",
+      "sha256": "93e881ea4a9d8dc92c897a87862a185bd5527ee58f31567472e29a8ef7261776",
+      "bytes": 9412
+    },
+    "evidence": "Original log entry command plus 2026-10-18 frozen code snapshot with identical SHA-256",
+    "runtime_environment_source": "Historical freeze observed_environment_reference; not a new pip freeze",
+    "environment": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.8.0",
+      "peft": "0.21.2",
+      "bitsandbytes": "0.50.2",
+      "accelerate": "1.14.0"
+    }
+  },
+  "adapter": {
+    "workspace_directory": "_A100_Mscv归档_20261019/final_adapter",
+    "a100_directory": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_qwen38_v2_train_20261016_gpu3/train/Mscv/final_adapter",
+    "access": "Local workspace is present and hashed; A100 access requires the existing authorized account; current remote reachability not tested",
+    "public_download_url": null,
+    "weights_in_normal_git": false,
+    "files": [
+      {
+        "filename": "adapter_config.json",
+        "workspace_path": "_A100_Mscv归档_20261019/final_adapter/adapter_config.json",
+        "sha256": "bbc4d950e74884df8b07f82b2ecf588f936b9a7a46284724f22130b1773637a1",
+        "bytes": 1187
+      },
+      {
+        "filename": "adapter_model.safetensors",
+        "workspace_path": "_A100_Mscv归档_20261019/final_adapter/adapter_model.safetensors",
+        "sha256": "5d9be2027cf3de78f4df6a89564dab9b3cf970c0d7b9917a4f965b8e88e8bf54",
+        "bytes": 318835672
+      },
+      {
+        "filename": "chat_template.jinja",
+        "workspace_path": "_A100_Mscv归档_20261019/final_adapter/chat_template.jinja",
+        "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+        "bytes": 8952
+      },
+      {
+        "filename": "README.md",
+        "workspace_path": "_A100_Mscv归档_20261019/final_adapter/README.md",
+        "sha256": "2f9f1b2b623f204b0d407146b3318ec6d207c616cb4a10c17ff5610415f03b16",
+        "bytes": 5216
+      },
+      {
+        "filename": "tokenizer.json",
+        "workspace_path": "_A100_Mscv归档_20261019/final_adapter/tokenizer.json",
+        "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+        "bytes": 19989325
+      },
+      {
+        "filename": "tokenizer_config.json",
+        "workspace_path": "_A100_Mscv归档_20261019/final_adapter/tokenizer_config.json",
+        "sha256": "bee8eba30f0eb4af73c0fe2cd06d0f89b657d7819941c438157ec42f7c80ea87",
+        "bytes": 1123
+      }
+    ],
+    "revision_binding": "adapter_config revision is null; base binding comes from the external frozen reference and config hash"
+  },
+  "archived_originals": [
+    {
+      "archived": {
+        "path": "results/route1_qwen38_v2/2026-10-19/mscv_training_archive/training_config.json",
+        "sha256": "011bdfc438071198b513eae738890549b8c7f98b044b4cf592a256289f838a54",
+        "bytes": 1437
+      },
+      "original_workspace_path": "路线一冻结核验_20261018/09_Mscv训练与adapter配置/training_config.json",
+      "original_sha256": "011bdfc438071198b513eae738890549b8c7f98b044b4cf592a256289f838a54",
+      "copy_policy": "byte-for-byte; no log normalization"
+    },
+    {
+      "archived": {
+        "path": "results/route1_qwen38_v2/2026-10-19/mscv_training_archive/adapter_config.json",
+        "sha256": "bbc4d950e74884df8b07f82b2ecf588f936b9a7a46284724f22130b1773637a1",
+        "bytes": 1187
+      },
+      "original_workspace_path": "_A100_Mscv归档_20261019/final_adapter/adapter_config.json",
+      "original_sha256": "bbc4d950e74884df8b07f82b2ecf588f936b9a7a46284724f22130b1773637a1",
+      "copy_policy": "byte-for-byte; no log normalization"
+    },
+    {
+      "archived": {
+        "path": "results/route1_qwen38_v2/2026-10-19/mscv_training_archive/train.original.run.log",
+        "sha256": "81bd45923a84de3954ed80c0b58e87a9614ab2928e10878ba05edd1c53d4d863",
+        "bytes": 14968
+      },
+      "original_workspace_path": "_A100_Mscv归档_20261019/route1_qwen38_v2_train_20261016_gpu3.run.log",
+      "original_sha256": "81bd45923a84de3954ed80c0b58e87a9614ab2928e10878ba05edd1c53d4d863",
+      "copy_policy": "byte-for-byte; no log normalization"
+    }
+  ],
+  "repository_files": [
+    {
+      "path": "code/ly/route1_qwen38_train_sciciteval_v1.py",
+      "sha256": "606f70300d8039d6dd84e9cfa565b39616b3368df5d2e4c13058ad783e8ac0fa",
+      "bytes": 9950
+    },
+    {
+      "path": "code/shared/route1_qwen38/data_contract.py",
+      "sha256": "93e881ea4a9d8dc92c897a87862a185bd5527ee58f31567472e29a8ef7261776",
+      "bytes": 9412
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/train.inputs.jsonl",
+      "sha256": "4f7357e0022a2e557cb9912f7612699a496d02753451a06b14e2e004f8d3622b",
+      "bytes": 2615471
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-15/sciciteval/train.gold.jsonl",
+      "sha256": "5a80ff6c6cf813c8256827c63da5ee3c277607afa48f243a9b6743ec4d7be83a",
+      "bytes": 27065
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-19/mscv_training_archive/training_config.json",
+      "sha256": "011bdfc438071198b513eae738890549b8c7f98b044b4cf592a256289f838a54",
+      "bytes": 1437
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-19/mscv_training_archive/adapter_config.json",
+      "sha256": "bbc4d950e74884df8b07f82b2ecf588f936b9a7a46284724f22130b1773637a1",
+      "bytes": 1187
+    },
+    {
+      "path": "results/route1_qwen38_v2/2026-10-19/mscv_training_archive/train.original.run.log",
+      "sha256": "81bd45923a84de3954ed80c0b58e87a9614ab2928e10878ba05edd1c53d4d863",
+      "bytes": 14968
+    }
+  ],
+  "selection_reference": {
+    "workspace_path": "路线一冻结核验_20261018/07_六个Dev独立复核_20261018.json",
+    "sha256": "7011d936458853f8aea38da9f89138914612410e7e892879ac1cf26af244981f",
+    "policy": "Native-domain Dev; no Test checkpoint reselection"
+  },
+  "checks": {
+    "training_entry_hash_matches_frozen_snapshot": true,
+    "shared_dependency_hash_matches_frozen_snapshot": true,
+    "train_input_gold_hashes_match_training_config": true,
+    "original_training_log_and_config_match_prior_hashes": true,
+    "actual_local_adapter_weight_hash_matches_selected_test_adapter": true,
+    "original_small_files_copied_byte_exact": true
+  },
+  "limitations": [
+    "Public/shared hosting of adapter weights has not been established by this local operation.",
+    "Classification archive does not certify evidence explanations, PDF acceptance, or Mbio implementation equivalence."
+  ],
+  "publication_scope": {
+    "repository": "https://github.com/LeegenSteven/academic-misconduct",
+    "small_originals_and_manifest": "Repository archive; relative paths refer to tracked delivery files",
+    "adapter_weights": "Existing authorized local/A100 copies; path and SHA-256 only; no public weight URL"
+  }
+}
