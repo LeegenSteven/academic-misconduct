@@ -1,0 +1,70 @@
+{
+  "case_id": "sarol:test:250",
+  "reviewer": "李云",
+  "confirmed_label": "ACCURATE",
+  "evidence_ids": [
+    "D03:S01",
+    "D04:S03",
+    "D01:S01"
+  ],
+  "reason": "候选直接报告早餐跳过减少，并称全样本结论与美国亚组未见差异；核心趋势有支持。“美国研究”需保留多国样本限制，不解释为纯美国样本、逐项数值相同或统计等效。",
+  "accepted_interpretation": "核心为早餐行为方向性变化，未断言纯美国样本；按实质结论支持来理解，地域描述简略但未据此判定重要歪曲。",
+  "retained_limits": [
+    "D04:S03是总体层面的亚组结论说明，未提供美国早餐项的独立估计、区间或检验结果",
+    "未见差异不等于统计等效、所有比例逐项相同或每个结局均独立显著",
+    "研究实际包含多国参与者，不能改称只有美国参与者或对美国全国有代表性",
+    "没有only不足以单独证明地域表述无误，仍须考虑与意大利并列的语境",
+    "235涉及具体比例，不能将其判断自动套到250，也不能互换原候选",
+    "作者身份已由外部于模型输入的存档来源核对，不能声称模型看到了姓名或文献表"
+  ],
+  "retained_disagreement": "陈明进认为同段美国/意大利并列，使研究地域简化构成重要错误。本建议更重视直接支持的方向性结论与原候选的美国亚组说明；仍需共同裁决。",
+  "accepted_proposal_snapshot": {
+    "case_id": "sarol:test:250",
+    "prepared_by": "assistant",
+    "prepared_at_utc": "2026-10-22T13:52:25.515817+00:00",
+    "proposal": "ACCURATE",
+    "proposal_status": "qualified_core_result_interpretation_pending_Li_confirmation",
+    "evidence_ids": [
+      "D03:S01",
+      "D04:S03",
+      "D01:S01"
+    ],
+    "proposed_reason": "候选直接报告早餐跳过减少，并称全样本结论与美国亚组未见差异；核心趋势有支持。“美国研究”需保留多国样本限制，不解释为纯美国样本、逐项数值相同或统计等效。",
+    "accepted_reading_if_confirmed": "核心为早餐行为方向性变化，未断言纯美国样本；按实质结论支持来理解，地域描述简略但未据此判定重要歪曲。",
+    "limits": [
+      "D04:S03是总体层面的亚组结论说明，未提供美国早餐项的独立估计、区间或检验结果",
+      "未见差异不等于统计等效、所有比例逐项相同或每个结局均独立显著",
+      "研究实际包含多国参与者，不能改称只有美国参与者或对美国全国有代表性",
+      "没有only不足以单独证明地域表述无误，仍须考虑与意大利并列的语境",
+      "235涉及具体比例，不能将其判断自动套到250，也不能互换原候选",
+      "作者身份已由外部于模型输入的存档来源核对，不能声称模型看到了姓名或文献表"
+    ],
+    "key_disagreement": "陈明进认为同段美国/意大利并列，使研究地域简化构成重要错误。本建议更重视直接支持的方向性结论与原候选的美国亚组说明；仍需共同裁决。",
+    "US_breakfast_endpoint_separate_statistics_provided": false,
+    "no_difference_treated_as_statistical_equivalence": false,
+    "chen_current_label": "NOT_ACCURATE",
+    "differs_from_chen_label": true,
+    "Li_label_written": false,
+    "Li_confirmed": false,
+    "joint_adjudication": false,
+    "frozen_gold_unchanged": "NOT_ACCURATE"
+  },
+  "confirmation_source": "本会话，在第250条限定性ACCURATE个人意见交付后，李云回复“认可”",
+  "recorded_at_utc": "2026-10-22T13:56:29.868939+00:00",
+  "confirmation_client_date": "2026-10-22",
+  "proposal_sha256": "65f5d3d24d8bbe5a36d670af4ae6c54965552277d57e59c0fadaaac4fefb97b1",
+  "report_sha256": "0e6be01bbe1c04340a61c7a47690ccad185d9dacae1a417d0f4c90ec59af4484",
+  "frozen_input_sha256": "2357f5f030924112099c0df939d0f05104e87eb9f93027a978b72391aa1a4179",
+  "frozen_payload_sha256": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+  "chen_label_at_confirmation": "NOT_ACCURATE",
+  "chen_snapshot_sha256": "cf61330b8ff6908691abc3cd85db38e5dfb1dfe88af819dbef01c07eb8ba2f61",
+  "chen_opinion_source_csv_sha256": "f022707e8f56c300512860c8f8184682ff8ce5f94703c2cdf6e7033943d5e4fd",
+  "disagreement_open": true,
+  "joint_adjudication_status": "pending",
+  "formal_joint_adjudication_imported": false,
+  "independent_blind_review_claimed": false,
+  "actual_separate_page_inspection_by_user_inferred": false,
+  "prediction_seen_declaration": null,
+  "received_CSV_modified": false,
+  "frozen_gold_preserved": "NOT_ACCURATE"
+}

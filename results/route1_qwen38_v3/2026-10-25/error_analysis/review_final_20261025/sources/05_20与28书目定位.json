@@ -1,0 +1,126 @@
+{
+  "case20_five_discovery_references": [
+    {
+      "case_ids": [
+        "sarol:test:20"
+      ],
+      "source_file": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC3554198.xml",
+      "source_sha256": "ae4abda5a02997b5c101a325eff8e5bffc4e23c0527ea6316f8c25637497c241",
+      "PMCID": "PMC3554198",
+      "xpath": "/article/back/ref-list/ref[8]",
+      "ref_id": "DDS476C8",
+      "first_author": "Harold",
+      "year_in_citing_bibliography": "2009",
+      "title": "Genome-wide association study identifies variants at CLU and PICALM associated with Alzheimer's disease",
+      "DOI": "10.1038/ng.440",
+      "ref_element_text_sha256": "e6b0fa866c55216f424a6f30a574213a243cde922188e658a4510aa14a7f05ec"
+    },
+    {
+      "case_ids": [
+        "sarol:test:20"
+      ],
+      "source_file": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC3554198.xml",
+      "source_sha256": "ae4abda5a02997b5c101a325eff8e5bffc4e23c0527ea6316f8c25637497c241",
+      "PMCID": "PMC3554198",
+      "xpath": "/article/back/ref-list/ref[9]",
+      "ref_id": "DDS476C9",
+      "first_author": "Lambert",
+      "year_in_citing_bibliography": "2009",
+      "title": "Genome-wide association study identifies variants at CLU and CR1 associated with Alzheimer's disease",
+      "DOI": "10.1038/ng.439",
+      "ref_element_text_sha256": "4faf57a49296cfa43dbf6c78d6b486b39e99fadaebaacee4367e0b8f288ff26c"
+    },
+    {
+      "case_ids": [
+        "sarol:test:20"
+      ],
+      "source_file": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC3554198.xml",
+      "source_sha256": "ae4abda5a02997b5c101a325eff8e5bffc4e23c0527ea6316f8c25637497c241",
+      "PMCID": "PMC3554198",
+      "xpath": "/article/back/ref-list/ref[10]",
+      "ref_id": "DDS476C10",
+      "first_author": "Seshadri",
+      "year_in_citing_bibliography": "2010",
+      "title": "Genome-wide analysis of genetic loci associated with Alzheimer disease",
+      "DOI": "10.1001/jama.2010.574",
+      "ref_element_text_sha256": "e97be05b900c7e6c326d2a66fc94cb54c7f5a4cab43a59369b0b9644cc6b60d5"
+    },
+    {
+      "case_ids": [
+        "sarol:test:20"
+      ],
+      "source_file": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC3554198.xml",
+      "source_sha256": "ae4abda5a02997b5c101a325eff8e5bffc4e23c0527ea6316f8c25637497c241",
+      "PMCID": "PMC3554198",
+      "xpath": "/article/back/ref-list/ref[7]",
+      "ref_id": "DDS476C7",
+      "first_author": "Hollingworth",
+      "year_in_citing_bibliography": "2011",
+      "title": "Common variants at ABCA7, MS4A6A/MS4A4E, EPHA1, CD33 and CD2AP are associated with Alzheimer's disease",
+      "DOI": "10.1038/ng.803",
+      "ref_element_text_sha256": "8b555f586ec8b6a67bdaf7fd4db46847006b4dabcb53bb5a4faca1640890e276"
+    },
+    {
+      "case_ids": [
+        "sarol:test:20"
+      ],
+      "source_file": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC3554198.xml",
+      "source_sha256": "ae4abda5a02997b5c101a325eff8e5bffc4e23c0527ea6316f8c25637497c241",
+      "PMCID": "PMC3554198",
+      "xpath": "/article/back/ref-list/ref[6]",
+      "ref_id": "DDS476C6",
+      "first_author": "Naj",
+      "year_in_citing_bibliography": "2011",
+      "title": "Common variants at MS4A4/MS4A6E, CD2AP, CD33 and EPHA1 are associated with late-onset Alzheimer's disease",
+      "DOI": "10.1038/ng.801",
+      "ref_element_text_sha256": "685c72ddf5477fc24b3926ce92809c377596a6e1d43836e33986bf00603f41d4"
+    }
+  ],
+  "case20_citing_publication_dates": [
+    {
+      "pub_type": "ppub",
+      "year": "2013",
+      "month": "2",
+      "day": "15",
+      "xpath": "/article/front/article-meta/pub-date[1]"
+    },
+    {
+      "pub_type": "epub",
+      "year": "2012",
+      "month": "11",
+      "day": "11",
+      "xpath": "/article/front/article-meta/pub-date[2]"
+    }
+  ],
+  "time_scope": "2009—2011发现、施引2012电子发表；不声称精确逐日三年窗口。",
+  "case28_two_Hollingworth_references": [
+    {
+      "case_ids": [
+        "sarol:test:28"
+      ],
+      "source_file": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC3330267.xml",
+      "source_sha256": "3ad140a3f5888fcfb30635a34930e4628c19a7c56eacbb4df2fe6c3a16475f7e",
+      "PMCID": "PMC3330267",
+      "xpath": "/article/body/sec[14]/sec/ref-list/ref[94]",
+      "ref_id": "B94",
+      "year_label_in_citing_bibliography": "2011a",
+      "title": "Alzheimer’s disease genetics: current knowledge and future challenges.",
+      "role": "review",
+      "ref_element_text_sha256": "ba97855e12d9e29497c5481fdba774da301fa9120e19c1b55ee6a8c2bd24f538"
+    },
+    {
+      "case_ids": [
+        "sarol:test:28"
+      ],
+      "source_file": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC3330267.xml",
+      "source_sha256": "3ad140a3f5888fcfb30635a34930e4628c19a7c56eacbb4df2fe6c3a16475f7e",
+      "PMCID": "PMC3330267",
+      "xpath": "/article/body/sec[14]/sec/ref-list/ref[95]",
+      "ref_id": "B95",
+      "year_label_in_citing_bibliography": "2011b",
+      "title": "Common variants at ABCA7, MS4A6A/MS4A4E, EPHA1, CD33 and CD2AP are associated with Alzheimer’s disease.",
+      "role": "discovery_study",
+      "ref_element_text_sha256": "3a96c0f7822fb74a2cd22f214ac410ffaaf4e3ec03119743d1b5a217f1aa5208"
+    }
+  ]
+}

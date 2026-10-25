@@ -1,0 +1,71 @@
+{
+  "case_id": "sarol:test:342",
+  "reviewer": "李云",
+  "confirmed_label": "ACCURATE",
+  "evidence_ids": [
+    "D02:S01",
+    "D03:S01",
+    "D02:S02",
+    "D02:S03",
+    "D04:S02"
+  ],
+  "reason": "候选支持雷帕霉素在PDAPP小鼠中伴随自噬增加、Aβ降低和认知改善，提示可能有益；限于该模型，自噬的中介作用仍为可能解释，不视为普遍疗效或已确证的机制。",
+  "accepted_interpretation": "在原段落的条件性语境中，将can be解读为有研究提示可能获益；不解读为自噬中介因果已获证实。",
+  "retained_limits": [
+    "PDAPP转基因小鼠与长期雷帕霉素处理的研究条件",
+    "自噬增加是观察结果；其是否促成Aβ降低和认知改善仍带suggest/possibly/may",
+    "Aβ含量和认知结局不等同于直接测量所有Aβ介导毒性",
+    "非转基因组未激活自噬、未降低内源Aβ，不能推广到所有条件",
+    "不推断所有药物有效或人类临床疗效",
+    "多篇文献引用组存在不等于本条10个候选提供了多项独立研究"
+  ],
+  "accepted_proposal_snapshot": {
+    "case_id": "sarol:test:342",
+    "prepared_by": "assistant",
+    "prepared_at_utc": "2026-10-22T13:38:31.719566+00:00",
+    "proposal": "ACCURATE",
+    "proposal_status": "qualified_interpretation_pending_Li_confirmation",
+    "evidence_ids": [
+      "D02:S01",
+      "D03:S01",
+      "D02:S02",
+      "D02:S03",
+      "D04:S02"
+    ],
+    "proposed_reason": "候选支持雷帕霉素在PDAPP小鼠中伴随自噬增加、Aβ降低和认知改善，提示可能有益；限于该模型，自噬的中介作用仍为可能解释，不视为普遍疗效或已确证的机制。",
+    "accepted_reading_if_confirmed": "在原段落的条件性语境中，将can be解读为有研究提示可能获益；不解读为自噬中介因果已获证实。",
+    "limits": [
+      "PDAPP转基因小鼠与长期雷帕霉素处理的研究条件",
+      "自噬增加是观察结果；其是否促成Aβ降低和认知改善仍带suggest/possibly/may",
+      "Aβ含量和认知结局不等同于直接测量所有Aβ介导毒性",
+      "非转基因组未激活自噬、未降低内源Aβ，不能推广到所有条件",
+      "不推断所有药物有效或人类临床疗效",
+      "多篇文献引用组存在不等于本条10个候选提供了多项独立研究"
+    ],
+    "key_disagreement": "若将原句读成已确定自噬刺激导致毒性降低，则候选的可能机制不足以直接支持该因果强度；can be并不会自动消除这一边界。",
+    "mechanistic_causality_established_by_candidates": false,
+    "direct_cytotoxicity_endpoint_established_by_candidates": false,
+    "chen_reason_requires_qualifier": "“通过刺激自噬降低Aβ”宜保留“可能部分通过”的限定。",
+    "chen_stale_attribution_basis": "候选仅支持雷帕霉素，不能推广到广义药物刺激自噬",
+    "Li_label_written": false,
+    "Li_confirmed": false,
+    "joint_adjudication": false,
+    "frozen_gold_unchanged": "NOT_ACCURATE"
+  },
+  "confirmation_source": "本会话，在第342条限定性核对结论交付后，李云回复“认可，继续”",
+  "recorded_at_utc": "2026-10-22T13:46:58.051246+00:00",
+  "confirmation_client_date": "2026-10-22",
+  "report_sha256": "a09b6162b7863f517d98876c21b8dd9b1a6f5352d724af0ef92fc07cf4fa63cf",
+  "proposal_sha256": "9d51a223735fda2d0f759bcb7fbe5d68154dd224b0f82cf347e69d13169e7728",
+  "frozen_payload_sha256": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+  "frozen_input_sha256": "bbdc071b3d6ca3c2208479e41ae0522c1a0fbc9aafdd49a67d9af65f39b3949e",
+  "chen_label_at_confirmation": "ACCURATE",
+  "chen_opinion_source_csv_sha256": "f022707e8f56c300512860c8f8184682ff8ce5f94703c2cdf6e7033943d5e4fd",
+  "two_named_label_opinions_same_direction": true,
+  "formal_joint_adjudication_imported": false,
+  "independent_blind_review_claimed": false,
+  "actual_separate_page_inspection_by_user_inferred": false,
+  "prediction_seen_declaration": null,
+  "received_CSV_modified": false,
+  "frozen_gold_preserved": "NOT_ACCURATE"
+}

@@ -1,0 +1,15 @@
+师兄，4组共同裁决事项已核对，回复如下：
+
+1. 235地域范围：同意维持NOT_ACCURATE，去掉待核。27.5%为Flanagan全样本（多国）数值，claim归为美国结果但无美国亚组27.5%直接支持，具体数值的地域归属错误构成重要范围简化。与250不同：250是方向性结论且有美国亚组方向一致支持，235是具体数值归属错误。resolved_label=NOT_ACCURATE，review_status=resolved。
+
+2. 466恢复引用范围：同意暂缓三分类，范围确认为"The comparison of findings between..."对应的第二句，即本研究与Voineagu研究的若干通路重叠（修复和免疫相关过程）。原候选D01/D02支持自闭症转录与功能通路异常。不围绕截断的postmo片段判错，不把异常归因于A100。范围确认后再议标签。
+
+3. 490指代与全文/候选边界：范围确认——It承接IFN-I treatment（含IFN-I单用及含IFN-I方案，不扩成所有抗MERS治疗），ref14承担第二句"numerous experiments in vitro and in vivo"，首句双病毒活性另有ref20。全文方法部分有IFNb体外试验、多次动物预防/治疗研究支持numerous定性概括，但动物治疗研究无IFNb单药组、结果不全部阳性。原10候选不能可靠合计独立实验数，D03/D04重复不计。标签待双方统一口径：按被引全文判断引用忠实性可给限定性ACCURATE，按原候选覆盖则numerous支持不足。全文复核意见不直接修改冻结标签或成绩。chen_attribution_basis已同步修正（去掉4项计数）。
+
+4. 580 diet引用与人群省略：我改为限定性ACCURATE，待你确认。目标5只承担diet从句，原候选D02/D04/D07直接支持肥胖儿童/青少年饮食行为及餐次变化。"in children ... have been reported"是报告性表述，未给总体比例，核心有支持。被引为意大利41名肥胖儿童小样本、家长报告，施引语境为奥地利一般小学生BMI讨论，省略obesity限定可能造成外推印象，但不改变报告性核心。保留样本及家长报告限制。
+
+另外同步了236和342的chen_attribution_basis：
+- 236：改为"候选为验证问卷+自编题混合，claim未排除自编题；may推断保留限制"
+- 342：改为"雷帕霉素作为药物实例支持can be beneficial可能性主张；保留PDAPP小鼠模型限制，不推广到所有药物，也不视为已证实自噬中介机制"
+
+v7已更新：最终分布6条ACCURATE/39条NOT_ACCURATE（580由NA改限定性ACC）。235和250已resolved，466/490/580继续待核。原gold、模型输入、原预测和Test成绩均不变。更新包附后。

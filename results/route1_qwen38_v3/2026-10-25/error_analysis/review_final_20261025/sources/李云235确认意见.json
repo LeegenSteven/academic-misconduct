@@ -1,0 +1,68 @@
+{
+  "case_id": "sarol:test:235",
+  "reviewer": "李云",
+  "confirmed_label": "NOT_ACCURATE",
+  "evidence_ids": [
+    "D05:S01",
+    "D02:S01",
+    "D01:S01"
+  ],
+  "reason": "Flanagan的27.5%有总样本证据，22%属另一引用；但原句按地区归为美国结果，候选涉及多国招募，未给美国亚组27.5%的支持，存在重要的样本地域范围简化。",
+  "accepted_interpretation": "按原段落的地域比较语境，将In the United States读作结果的地区归属；该读法下倾向NOT_ACCURATE。",
+  "retained_limits": [
+    "22%不由当前Flanagan引用承担，不能据其缺席判当前引用数字错误",
+    "原候选同时出现27.5%和27.3%，保留原文差异，不代作者判断排版或计算原因",
+    "跨国广告投放本身不等于实际跨国样本，实际居住地来自全文补核",
+    "存档全文表3的US行显示增重24.4%；未作为原候选证据，也未用来改gold或重算成绩",
+    "未报告差异不等于两个群体每个比例完全相同",
+    "250具有不同的原候选和结局，不据235建议自动替250裁决"
+  ],
+  "retained_interpretive_disagreement": "若仅把In the United States读成研究地点或团队背景，而非样本/结果地域，则数值本身有支持；地域表述的重要性仍可共同裁决。",
+  "accepted_proposal_snapshot": {
+    "case_id": "sarol:test:235",
+    "prepared_by": "assistant",
+    "prepared_at_utc": "2026-10-22T13:46:58.110605+00:00",
+    "proposal": "NOT_ACCURATE",
+    "proposal_status": "geographic_scope_interpretation_pending_Li_confirmation",
+    "evidence_ids": [
+      "D05:S01",
+      "D02:S01",
+      "D01:S01"
+    ],
+    "proposed_reason": "Flanagan的27.5%有总样本证据，22%属另一引用；但原句按地区归为美国结果，候选涉及多国招募，未给美国亚组27.5%的支持，存在重要的样本地域范围简化。",
+    "accepted_reading_if_confirmed": "按原段落的地域比较语境，将In the United States读作结果的地区归属；该读法下倾向NOT_ACCURATE。",
+    "key_disagreement": "若仅把In the United States读成研究地点或团队背景，而非样本/结果地域，则数值本身有支持；地域表述的重要性仍可共同裁决。",
+    "limits": [
+      "22%不由当前Flanagan引用承担，不能据其缺席判当前引用数字错误",
+      "原候选同时出现27.5%和27.3%，保留原文差异，不代作者判断排版或计算原因",
+      "跨国广告投放本身不等于实际跨国样本，实际居住地来自全文补核",
+      "存档全文表3的US行显示增重24.4%；未作为原候选证据，也未用来改gold或重算成绩",
+      "未报告差异不等于两个群体每个比例完全相同",
+      "250具有不同的原候选和结局，不据235建议自动替250裁决"
+    ],
+    "diagnostic_fulltext_US_weight_gain_percent": 24.4,
+    "diagnostic_US_percent_in_original_model_input": false,
+    "fresh_original_table_layout_verified": false,
+    "Li_label_written": false,
+    "Li_confirmed": false,
+    "joint_adjudication": false,
+    "frozen_gold_unchanged": "NOT_ACCURATE"
+  },
+  "confirmation_source": "本会话，在第235条地域范围核对结论交付后，李云回复“认可，继续下一步”",
+  "recorded_at_utc": "2026-10-22T13:52:25.449842+00:00",
+  "confirmation_client_date": "2026-10-22",
+  "report_sha256": "4a82a4f9c403f6744a69eee4c9c316a14c13d75cfd6c6bc3144f87b50f8739a9",
+  "proposal_sha256": "eb92af870aafd233be8737f3a9ce13283ff913430c57192204a77b67817fb40b",
+  "frozen_payload_sha256": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+  "frozen_input_sha256": "7205f37960b4e3dc9b39a35891d5f96ab2c11e6419b31671ecde2ab3e8b55ed1",
+  "chen_label_at_confirmation": "NOT_ACCURATE",
+  "chen_label_still_marked_pending": true,
+  "chen_opinion_source_csv_sha256": "f022707e8f56c300512860c8f8184682ff8ce5f94703c2cdf6e7033943d5e4fd",
+  "two_named_label_values_same_direction": true,
+  "formal_joint_adjudication_imported": false,
+  "independent_blind_review_claimed": false,
+  "actual_separate_page_inspection_by_user_inferred": false,
+  "prediction_seen_declaration": null,
+  "received_CSV_modified": false,
+  "frozen_gold_preserved": "NOT_ACCURATE"
+}

@@ -1,0 +1,427 @@
+{
+  "date": "2026-10-25",
+  "actual_author_revision": "陈明进修订回复已由用户回传",
+  "old_raw_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+  "old_source_sha256": "3aa07014b4bdd3217d05b2870b86e510db950d7f3579eaf331bd7f6354906e25",
+  "new_raw_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md",
+  "new_source_sha256": "202cc50b102163df613632d101a8cf9f74defab4169e39aa9acff17c502a2801",
+  "exact_change": "Only the 10 listed section-3 case_id prefixes changed from sciciteval:test:* to sarol:test:*; every other text line is unchanged.",
+  "source_id_corrections": [
+    {
+      "old": "sciciteval:test:1",
+      "new": "sarol:test:1"
+    },
+    {
+      "old": "sciciteval:test:2",
+      "new": "sarol:test:2"
+    },
+    {
+      "old": "sciciteval:test:5",
+      "new": "sarol:test:5"
+    },
+    {
+      "old": "sciciteval:test:16",
+      "new": "sarol:test:16"
+    },
+    {
+      "old": "sciciteval:test:31",
+      "new": "sarol:test:31"
+    },
+    {
+      "old": "sciciteval:test:51",
+      "new": "sarol:test:51"
+    },
+    {
+      "old": "sciciteval:test:61",
+      "new": "sarol:test:61"
+    },
+    {
+      "old": "sciciteval:test:115",
+      "new": "sarol:test:115"
+    },
+    {
+      "old": "sciciteval:test:153",
+      "new": "sarol:test:153"
+    },
+    {
+      "old": "sciciteval:test:402",
+      "new": "sarol:test:402"
+    }
+  ],
+  "all20_corrected_case_ids_match_existing_primary_keys": true,
+  "all20_codes_SEM_subtypes_and_reasons_unchanged": true,
+  "corrected20_table": [
+    {
+      "case_id": "sarol:test:1",
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。既有ACCURATE，错因未定。"
+    },
+    {
+      "case_id": "sarol:test:2",
+      "codes": "CTX;SEM",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。小鼠泡沫细胞完整限定未支持。"
+    },
+    {
+      "case_id": "sarol:test:5",
+      "codes": "CTX;SEM",
+      "SEM_subtypes": "条件",
+      "basis": "认可。暴露/对照条件未交代。"
+    },
+    {
+      "case_id": "sciciteval:test:14",
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。既有ACCURATE，错因未定。"
+    },
+    {
+      "case_id": "sciciteval:test:15",
+      "codes": "SEM",
+      "SEM_subtypes": "数量",
+      "basis": "认可。500 vs 300直接矛盾。"
+    },
+    {
+      "case_id": "sarol:test:16",
+      "codes": "ATT;CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。补查定位到另一篇稀有变异论文，归属不符。"
+    },
+    {
+      "case_id": "sciciteval:test:19",
+      "codes": "SEM",
+      "SEM_subtypes": "数量",
+      "basis": "认可。四类正则化写成三类。"
+    },
+    {
+      "case_id": "sarol:test:31",
+      "codes": "CTX;ATT",
+      "SEM_subtypes": "",
+      "basis": "认可。未与KCNQ1/KCNQ1OT1位点建立实质联系。"
+    },
+    {
+      "case_id": "sciciteval:test:33",
+      "codes": "SEM",
+      "SEM_subtypes": "对象",
+      "basis": "认可。可视化网格≠内存row-major/column-major存储。"
+    },
+    {
+      "case_id": "sciciteval:test:34",
+      "codes": "SEM",
+      "SEM_subtypes": "过度概括",
+      "basis": "认可。输入预处理作用扩展过度。"
+    },
+    {
+      "case_id": "sarol:test:51",
+      "codes": "CTX;SEM",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。与45条主表51重合，登记一次。"
+    },
+    {
+      "case_id": "sarol:test:61",
+      "codes": "SEM;CTX",
+      "SEM_subtypes": "条件",
+      "basis": "认可。老年居民处方模式无数据/陈述。"
+    },
+    {
+      "case_id": "sciciteval:test:73",
+      "codes": "SEM",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。预选邻域解释遗漏随机采样机制。"
+    },
+    {
+      "case_id": "sarol:test:115",
+      "codes": "SEM;CTX",
+      "SEM_subtypes": "条件;过度概括",
+      "basis": "认可。scaffolded抗原呈现未证实T细胞反应因果链。"
+    },
+    {
+      "case_id": "sciciteval:test:124",
+      "codes": "CTX;SEM",
+      "SEM_subtypes": "过度概括",
+      "basis": "认可。Autopilot CNN检测道路物体完整主张未直接支持。"
+    },
+    {
+      "case_id": "sarol:test:153",
+      "codes": "SEM",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。ICS抗病毒免疫机制不能直接等同。"
+    },
+    {
+      "case_id": "sarol:test:402",
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。既有ACCURATE，错因未定。"
+    },
+    {
+      "case_id": "sciciteval:test:605",
+      "codes": "CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。研究对象及关联均不同。"
+    },
+    {
+      "case_id": "sciciteval:test:608",
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。既有ACCURATE，错因未定。"
+    },
+    {
+      "case_id": "sciciteval:test:797",
+      "codes": "CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。塞尔维亚自我药疗关联无实质主题联系。"
+    }
+  ],
+  "prefix_correction_pending": false,
+  "new_label_or_reason_decisions_added": 0,
+  "actual_Li_reason_confirmation_preserved": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云本轮原因码确认_20261025.json",
+  "scope_label_counts_unchanged": {
+    "agreed": 35,
+    "pending": 9,
+    "original466_hold": 1
+  },
+  "all_originals_frozen_inputs_predictions_and_Test_scores_preserved": true,
+  "cell_changes": [
+    {
+      "case_id": "sciciteval:test:124",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sciciteval:test:608",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sciciteval:test:19",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sciciteval:test:34",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sciciteval:test:797",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sciciteval:test:33",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sciciteval:test:73",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sciciteval:test:14",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sciciteval:test:605",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sciciteval:test:15",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sarol:test:402",
+      "field": "reason_code_status",
+      "before": "双方已认可对应原因内容；来文ID前缀待陈明进更正，显式映射保留",
+      "after": "双方已确认本轮原因码；陈明进修订回文ID与主键一致，前缀事项已收口"
+    },
+    {
+      "case_id": "sarol:test:402",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sarol:test:402",
+      "field": "chen_reason_source_case_id",
+      "before": "sciciteval:test:402",
+      "after": "sarol:test:402"
+    },
+    {
+      "case_id": "sarol:test:115",
+      "field": "reason_code_status",
+      "before": "双方已认可对应原因内容；来文ID前缀待陈明进更正，显式映射保留",
+      "after": "双方已确认本轮原因码；陈明进修订回文ID与主键一致，前缀事项已收口"
+    },
+    {
+      "case_id": "sarol:test:115",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sarol:test:115",
+      "field": "chen_reason_source_case_id",
+      "before": "sciciteval:test:115",
+      "after": "sarol:test:115"
+    },
+    {
+      "case_id": "sarol:test:61",
+      "field": "reason_code_status",
+      "before": "双方已认可对应原因内容；来文ID前缀待陈明进更正，显式映射保留",
+      "after": "双方已确认本轮原因码；陈明进修订回文ID与主键一致，前缀事项已收口"
+    },
+    {
+      "case_id": "sarol:test:61",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sarol:test:61",
+      "field": "chen_reason_source_case_id",
+      "before": "sciciteval:test:61",
+      "after": "sarol:test:61"
+    },
+    {
+      "case_id": "sarol:test:2",
+      "field": "reason_code_status",
+      "before": "双方已认可对应原因内容；来文ID前缀待陈明进更正，显式映射保留",
+      "after": "双方已确认本轮原因码；陈明进修订回文ID与主键一致，前缀事项已收口"
+    },
+    {
+      "case_id": "sarol:test:2",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sarol:test:2",
+      "field": "chen_reason_source_case_id",
+      "before": "sciciteval:test:2",
+      "after": "sarol:test:2"
+    },
+    {
+      "case_id": "sarol:test:5",
+      "field": "reason_code_status",
+      "before": "双方已认可对应原因内容；来文ID前缀待陈明进更正，显式映射保留",
+      "after": "双方已确认本轮原因码；陈明进修订回文ID与主键一致，前缀事项已收口"
+    },
+    {
+      "case_id": "sarol:test:5",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sarol:test:5",
+      "field": "chen_reason_source_case_id",
+      "before": "sciciteval:test:5",
+      "after": "sarol:test:5"
+    },
+    {
+      "case_id": "sarol:test:51",
+      "field": "reason_code_status",
+      "before": "双方已认可对应原因内容；来文ID前缀待陈明进更正，显式映射保留",
+      "after": "双方已确认本轮原因码；陈明进修订回文ID与主键一致，前缀事项已收口"
+    },
+    {
+      "case_id": "sarol:test:51",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sarol:test:51",
+      "field": "chen_reason_source_case_id",
+      "before": "sciciteval:test:51",
+      "after": "sarol:test:51"
+    },
+    {
+      "case_id": "sarol:test:16",
+      "field": "reason_code_status",
+      "before": "双方已认可对应原因内容；来文ID前缀待陈明进更正，显式映射保留",
+      "after": "双方已确认本轮原因码；陈明进修订回文ID与主键一致，前缀事项已收口"
+    },
+    {
+      "case_id": "sarol:test:16",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sarol:test:16",
+      "field": "chen_reason_source_case_id",
+      "before": "sciciteval:test:16",
+      "after": "sarol:test:16"
+    },
+    {
+      "case_id": "sarol:test:153",
+      "field": "reason_code_status",
+      "before": "双方已认可对应原因内容；来文ID前缀待陈明进更正，显式映射保留",
+      "after": "双方已确认本轮原因码；陈明进修订回文ID与主键一致，前缀事项已收口"
+    },
+    {
+      "case_id": "sarol:test:153",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sarol:test:153",
+      "field": "chen_reason_source_case_id",
+      "before": "sciciteval:test:153",
+      "after": "sarol:test:153"
+    },
+    {
+      "case_id": "sarol:test:31",
+      "field": "reason_code_status",
+      "before": "双方已认可对应原因内容；来文ID前缀待陈明进更正，显式映射保留",
+      "after": "双方已确认本轮原因码；陈明进修订回文ID与主键一致，前缀事项已收口"
+    },
+    {
+      "case_id": "sarol:test:31",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sarol:test:31",
+      "field": "chen_reason_source_case_id",
+      "before": "sciciteval:test:31",
+      "after": "sarol:test:31"
+    },
+    {
+      "case_id": "sarol:test:1",
+      "field": "reason_code_status",
+      "before": "双方已认可对应原因内容；来文ID前缀待陈明进更正，显式映射保留",
+      "after": "双方已确认本轮原因码；陈明进修订回文ID与主键一致，前缀事项已收口"
+    },
+    {
+      "case_id": "sarol:test:1",
+      "field": "chen_reason_confirmation_source",
+      "before": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "after": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md"
+    },
+    {
+      "case_id": "sarol:test:1",
+      "field": "chen_reason_source_case_id",
+      "before": "sciciteval:test:1",
+      "after": "sarol:test:1"
+    }
+  ],
+  "historical_receipt_note": "Earlier Chen-only and Li confirmation receipts remain unchanged as snapshots from before the corrected reply."
+}

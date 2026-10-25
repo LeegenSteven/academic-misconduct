@@ -1,0 +1,47 @@
+{
+  "source_type": "direct_user_reply_to_async_question_in_current_chat",
+  "question_item_id": "[\"request_user_input_async\",\"call_585d88045c504ee393c5737ad8090a8b\",0]",
+  "question_verbatim": "请核对这三条建议（只是对原文引用的复核，不改原gold或Test成绩）：466恢复后的第二句，有施引论文Results明确报告修复/免疫重叠，建议限定性ACCURATE；490仅就目标14所接“已开展多项体内外研究”按全文建议限定性ACCURATE；580仅就diet所接“儿童中已有饮食变化报告”建议限定性ACCURATE，保留41名肥胖儿童/青少年及家长报告限制。你是否认可？466即使获你认可，仍需陈明进确认这次新增的标签建议。详细材料已保存为“04_待核三条_证据与建议.md”。",
+  "answer_verbatim": "认可三条限定建议",
+  "reviewer": "李云",
+  "recorded_client_date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T12:54:57.285142+00:00",
+  "confirmed_items": {
+    "466": {
+      "label": "ACCURATE",
+      "review_object": "restored_second_sentence_diagnostic_only",
+      "scope": "恢复后第二句：本研究与Voineagu研究结果在修复及免疫相关通路上的重叠。",
+      "limits": [
+        "原冻结claim残缺，仍保留原始输入及其暂缓状态。",
+        "支持来自施引作者结果部分报告的跨研究比较及被引研究的相关通路结果。",
+        "未独立重做25探针匹配或富集计算。",
+        "这是李云的新个人意见，陈明进此前只同意恢复范围和暂缓，并未确认该新标签。"
+      ]
+    },
+    "490": {
+      "label": "ACCURATE",
+      "review_object": "target14_second_sentence_fulltext_source_faithfulness",
+      "scope": "目标14所接IFN-I治疗已开展多项体内外研究这一第二句概括；It不扩为所有抗MERS治疗。",
+      "limits": [
+        "全文忠实性意见，不是冻结10候选下的新评测结果。",
+        "研究已开展不等于有效；不要求单药或全部阳性。",
+        "D03/D04重复，不能合计为4项独立实验。",
+        "不裁决首句另一目标20对双病毒活性表述的支持。"
+      ]
+    },
+    "580": {
+      "label": "ACCURATE",
+      "review_object": "target5_diet_report_clause_source_faithfulness",
+      "scope": "目标5紧接diet，支持儿童中已有饮食变化报告的分句。",
+      "limits": [
+        "保留意大利41名肥胖儿童/青少年及家长报告、小样本条件。",
+        "不将报告性主张扩大为所有儿童或一般儿童总体比例。",
+        "不要求本目标独自证明心理健康、奥地利儿童BMI实测或饮食因果。",
+        "未把冻结长claim暗中改短或更换gold。"
+      ]
+    }
+  },
+  "formal_independent_blind_review": false,
+  "user_separately_read_all_fulltexts_inferred": false,
+  "scope_of_confirmation": "Only the three explicitly described qualified review objects; no approval for gold replacement, Test regrading, model rerun or automatic closure of the other 42 cases."
+}

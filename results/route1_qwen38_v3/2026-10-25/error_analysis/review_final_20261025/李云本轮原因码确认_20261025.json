@@ -1,0 +1,481 @@
+{
+  "confirmation_date": "2026-10-25",
+  "person": "李云",
+  "actual_user_message": "全部认可",
+  "preceding_context": "用户询问本轮原因码是否需要发送；助手说明由李云本人判断，并明确233新增CTX、120/190的UNK为评分范围差异，原因确认不改变9条未决标签或466原claim暂缓。",
+  "confirmed_scope": "本轮陈明进45条及原20例原因意见，按既有显式ID对应登记；共65个表内行、64个不同案例。",
+  "confirmed_opinions": {
+    "sarol:test:0": {
+      "codes": "CTX;ATT",
+      "SEM_subtypes": "",
+      "basis": "认可。原候选缺FMO3特异句=CTX；组内Bennett承担=ATT，方向一致。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:0"
+    },
+    "sarol:test:15": {
+      "codes": "CTX;ATT",
+      "SEM_subtypes": "",
+      "basis": "认可。MS4A6A/MS4A4E未精确覆盖=CTX；Hollingworth分工=ATT。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:15"
+    },
+    "sarol:test:20": {
+      "codes": "ATT;CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。跨论文/跨年份总结=ATT；原候选未给时间戳、时间限定由组内引文出版日期承担=CTX。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:20"
+    },
+    "sarol:test:24": {
+      "codes": "CTX;ATT",
+      "SEM_subtypes": "",
+      "basis": "认可。多数据集指多阶段/多队列综合=CTX；MS4A6A由Hollingworth=ATT。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:24"
+    },
+    "sarol:test:28": {
+      "codes": "ATT;CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。五篇研究分工=ATT；原候选未完整覆盖五篇合并总结=CTX。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:28"
+    },
+    "sarol:test:44": {
+      "codes": "CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。65=55+8+2全文口径，非候选直接陈述=CTX；77 transcripts为不同口径不构成反证。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:44"
+    },
+    "sarol:test:48": {
+      "codes": "ATT;UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。范围未统一前维持ATT;UNK，不擅自定断言强度。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:48"
+    },
+    "sarol:test:51": {
+      "codes": "CTX;SEM",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。与20条补充表51重合，按同一case_id登记一次；共同理由写“候选缺接受ACE-I/ARB心血管患者的人体表达证据”=CTX，病毒进入≠表达变化=SEM对象/条件，不写“模型语义错误”本身。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:51"
+    },
+    "sarol:test:63": {
+      "codes": "ATT;UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。例证≠“多数文献”分母，维持ATT;UNK。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:63"
+    },
+    "sarol:test:87": {
+      "codes": "ATT;UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。may猜测与既有背景职责未统一，维持ATT;UNK。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:87"
+    },
+    "sarol:test:94": {
+      "codes": "ATT;CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。likely为施引作者新解释=ATT；原候选未直接支持解释部分=CTX。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:94"
+    },
+    "sarol:test:112": {
+      "codes": "CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。variants为施引具体场景、候选未直接测试=CTX；弱背景“保护阈值待确定”在候选范围内成立。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:112"
+    },
+    "sarol:test:120": {
+      "codes": "ATT;UNK",
+      "SEM_subtypes": "",
+      "basis": "认可（保留ATT;UNK）。ATT=目标14仅承担保护背景、不承担人类长期免疫直接证据；确认限定ACCURATE后，UNK理由改为“评分范围差异”（冻结gold与限定复核差异），不写“模型错因未定”，不升格SEM。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:120"
+    },
+    "sarol:test:138": {
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。双方原意见均澄清无需逐个细胞因子独立因果证据；原候选已支持整体CD8反应，不能把限定复核中的“不逐因子独立”当作模型SEM错分。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:138"
+    },
+    "sarol:test:147": {
+      "codes": "SEM;CTX",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。限定为COVID检测阳性患者=SEM条件；来源未支持的人群条件=CTX。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:147"
+    },
+    "sarol:test:149": {
+      "codes": "SEM",
+      "SEM_subtypes": "条件;过度概括",
+      "basis": "认可。表达观察≠直接检验COVID严重程度关系。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:149"
+    },
+    "sarol:test:186": {
+      "codes": "ATT",
+      "SEM_subtypes": "",
+      "basis": "认可。SUD亚类例证、claim无all，不推广所有精神障碍。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:186"
+    },
+    "sarol:test:190": {
+      "codes": "ATT;UNK",
+      "SEM_subtypes": "",
+      "basis": "认可（保留ATT;UNK）。ATT=目标1为SUD研究、只承担may风险分句、不承担PWID因果重症估计；确认限定ACCURATE后，UNK理由改为“评分范围差异”，不写“模型错因未定”，不升格SEM。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:190"
+    },
+    "sarol:test:196": {
+      "codes": "SEM;ATT",
+      "SEM_subtypes": "对象",
+      "basis": "认可。SUD总体结局≠PWID特定人群端点。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:196"
+    },
+    "sarol:test:197": {
+      "codes": "SEM;ATT;UNK",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。感染/重症风险及群体区分未统一前维持三码。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:197"
+    },
+    "sarol:test:217": {
+      "codes": "SEM;UNK",
+      "SEM_subtypes": "数量",
+      "basis": "认可。small端点与幅度含义未定；仅有限检索未命中small/modest/slight，不强判。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:217"
+    },
+    "sarol:test:233": {
+      "codes": "ATT;CTX",
+      "SEM_subtypes": "",
+      "basis": "认可（建议并行补CTX）。ATT主码正确；原候选无D04:S03（美国亚组与全样本无差异）属输入覆盖缺口，可并行登记CTX以记录该缺口。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:233"
+    },
+    "sarol:test:235": {
+      "codes": "SEM;ATT",
+      "SEM_subtypes": "数量;对象",
+      "basis": "认可。27.5%为多国全样本数值，原句归为美国结果，是数值地域归属问题：SEM子类“数量;对象”合适，代码保留。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:235"
+    },
+    "sarol:test:236": {
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。原候选明确使用验证工具、claim保留may（弱推断，不要求证明内部效度一定提升）；收紧UNK正确，依据保留may限定。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:236"
+    },
+    "sarol:test:242": {
+      "codes": "CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。one-quarter近似已获本案认可，不再列为SEM；保留CTX（原候选缺肥胖组饮食改善比较句）正确。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:242"
+    },
+    "sarol:test:243": {
+      "codes": "ATT;UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。“主要在美国以外”缺文献范围/分母，维持ATT;UNK。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:243"
+    },
+    "sarol:test:250": {
+      "codes": "ATT;CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。早餐方向性结果与地域限定分开：早餐跳过减少有支持=ATT（地域归属），问题在于“a study conducted in the United States”与多国样本不符=CTX（多国样本限定缺失）。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:250"
+    },
+    "sarol:test:257": {
+      "codes": "CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。全文有REAP-s约+0.81但未进原候选；美国参与者饮食质量改善有全文定位，原候选缺总体分数正向变化=CTX（候选覆盖不足）。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:257"
+    },
+    "sarol:test:278": {
+      "codes": "SEM;UNK",
+      "SEM_subtypes": "对象;方向",
+      "basis": "认可。immunity读法未统一，不擅自固定。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:278"
+    },
+    "sarol:test:307": {
+      "codes": "SEM;ATT",
+      "SEM_subtypes": "方向",
+      "basis": "认可。来源论证方向与施引句方向被调换=SEM方向；归属=ATT。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:307"
+    },
+    "sarol:test:342": {
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。claim为can be可能性主张，雷帕霉素作为药物实例支持该可能性；不能把“不外推人体或所有药物”的限制本身当作模型SEM错误。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:342"
+    },
+    "sarol:test:379": {
+      "codes": "SEM",
+      "SEM_subtypes": "条件;过度概括",
+      "basis": "认可。预测/担忧≠已观察到上升趋势。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:379"
+    },
+    "sarol:test:391": {
+      "codes": "SEM;CTX",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。IBD内部药物组比较≠一般公众对照。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:391"
+    },
+    "sarol:test:466": {
+      "codes": "CTX;UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。冻结claim残缺；无日志不宣称PIPE截断；恢复句另作诊断，原claim暂缓。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:466"
+    },
+    "sarol:test:469": {
+      "codes": "CTX;ATT;UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。方法未完整对照，不凭片段缺失/置换次数判错；维持待核。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:469"
+    },
+    "sarol:test:480": {
+      "codes": "ATT;CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。目标仅承担MERS小鼠比较分句；原候选只有标题无结果数据=CTX。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:480"
+    },
+    "sarol:test:484": {
+      "codes": "SEM",
+      "SEM_subtypes": "方向",
+      "basis": "认可。LPV半衰期变化方向被颠倒。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:484"
+    },
+    "sarol:test:490": {
+      "codes": "ATT;CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。候选重复不虚增独立实验数量=ATT；关联缺口=CTX。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:490"
+    },
+    "sarol:test:491": {
+      "codes": "SEM",
+      "SEM_subtypes": "对象",
+      "basis": "认可。体外比较药物名称与来源不符。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:491"
+    },
+    "sarol:test:502": {
+      "codes": "ATT;CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。目标7小鼠与引用6恒河猴分属=ATT；原候选无RDV两种模型证据=CTX。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:502"
+    },
+    "sarol:test:506": {
+      "codes": "SEM;ATT;UNK",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。一般机制与DC具体条件职责未定，维持待核。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:506"
+    },
+    "sarol:test:525": {
+      "codes": "SEM",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。核酸来源与整合阶段不同，不能据主题判支持。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:525"
+    },
+    "sarol:test:544": {
+      "codes": "SEM;ATT",
+      "SEM_subtypes": "条件;过度概括",
+      "basis": "认可。相关≠已发生依从性下降。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:544"
+    },
+    "sarol:test:580": {
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。目标标记紧接diet、只承担该子句，不承担mental health或BMI因果；原候选支持肥胖儿童/青少年饮食变化，“in children”省略obesity为外推问题；收紧UNK正确，依据写清“目标只接diet子句”。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:580"
+    },
+    "sarol:test:600": {
+      "codes": "CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。体育/屏幕行为可定位但新增摘录≠原模型已见，CTX正确。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:600"
+    },
+    "sciciteval:test:124": {
+      "codes": "CTX;SEM",
+      "SEM_subtypes": "过度概括",
+      "basis": "认可。Autopilot CNN检测道路物体完整主张未直接支持。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sciciteval:test:124"
+    },
+    "sciciteval:test:608": {
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。既有ACCURATE，错因未定。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sciciteval:test:608"
+    },
+    "sciciteval:test:19": {
+      "codes": "SEM",
+      "SEM_subtypes": "数量",
+      "basis": "认可。四类正则化写成三类。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sciciteval:test:19"
+    },
+    "sciciteval:test:34": {
+      "codes": "SEM",
+      "SEM_subtypes": "过度概括",
+      "basis": "认可。输入预处理作用扩展过度。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sciciteval:test:34"
+    },
+    "sciciteval:test:797": {
+      "codes": "CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。塞尔维亚自我药疗关联无实质主题联系。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sciciteval:test:797"
+    },
+    "sciciteval:test:33": {
+      "codes": "SEM",
+      "SEM_subtypes": "对象",
+      "basis": "认可。可视化网格≠内存row-major/column-major存储。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sciciteval:test:33"
+    },
+    "sciciteval:test:73": {
+      "codes": "SEM",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。预选邻域解释遗漏随机采样机制。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sciciteval:test:73"
+    },
+    "sciciteval:test:14": {
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。既有ACCURATE，错因未定。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sciciteval:test:14"
+    },
+    "sciciteval:test:605": {
+      "codes": "CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。研究对象及关联均不同。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sciciteval:test:605"
+    },
+    "sciciteval:test:15": {
+      "codes": "SEM",
+      "SEM_subtypes": "数量",
+      "basis": "认可。500 vs 300直接矛盾。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sciciteval:test:15"
+    },
+    "sarol:test:402": {
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。既有ACCURATE，错因未定。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:402"
+    },
+    "sarol:test:115": {
+      "codes": "SEM;CTX",
+      "SEM_subtypes": "条件;过度概括",
+      "basis": "认可。scaffolded抗原呈现未证实T细胞反应因果链。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:115"
+    },
+    "sarol:test:61": {
+      "codes": "SEM;CTX",
+      "SEM_subtypes": "条件",
+      "basis": "认可。老年居民处方模式无数据/陈述。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:61"
+    },
+    "sarol:test:2": {
+      "codes": "CTX;SEM",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。小鼠泡沫细胞完整限定未支持。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:2"
+    },
+    "sarol:test:5": {
+      "codes": "CTX;SEM",
+      "SEM_subtypes": "条件",
+      "basis": "认可。暴露/对照条件未交代。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:5"
+    },
+    "sarol:test:16": {
+      "codes": "ATT;CTX",
+      "SEM_subtypes": "",
+      "basis": "认可。补查定位到另一篇稀有变异论文，归属不符。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:16"
+    },
+    "sarol:test:153": {
+      "codes": "SEM",
+      "SEM_subtypes": "对象;条件",
+      "basis": "认可。ICS抗病毒免疫机制不能直接等同。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:153"
+    },
+    "sarol:test:31": {
+      "codes": "CTX;ATT",
+      "SEM_subtypes": "",
+      "basis": "认可。未与KCNQ1/KCNQ1OT1位点建立实质联系。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:31"
+    },
+    "sarol:test:1": {
+      "codes": "UNK",
+      "SEM_subtypes": "",
+      "basis": "认可。既有ACCURATE，错因未定。",
+      "Chen_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md",
+      "canonical_case_id": "sarol:test:1"
+    }
+  },
+  "specific_confirmations": {
+    "sarol:test:233": "ATT;CTX：接受新增CTX记录原模型候选缺少美国亚组支持句。",
+    "sarol:test:120": "ATT;UNK：UNK解释为冻结gold与限定来源复核的评分范围差异，不写模型错因未定。",
+    "sarol:test:190": "ATT;UNK：UNK解释为冻结gold与限定来源复核的评分范围差异，不写模型错因未定。"
+  },
+  "does_not_confirm_pending_labels": true,
+  "pending_label_case_ids": [
+    48,
+    63,
+    87,
+    197,
+    217,
+    243,
+    278,
+    469,
+    506
+  ],
+  "original466_hold_preserved": true,
+  "does_not_change_gold_inputs_predictions_or_scores": true,
+  "not_a_new_independent_blind_review": true,
+  "source_prefix_correction_by_Chen_still_pending": true,
+  "source_prefix_error_count": 10,
+  "does_not_establish_internal_causal_model_mechanism": true,
+  "prior_Chen_registration_preserved": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\陈明进集中确认登记_20261025.json"
+}

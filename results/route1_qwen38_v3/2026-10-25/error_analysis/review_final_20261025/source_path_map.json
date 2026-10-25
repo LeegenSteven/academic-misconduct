@@ -1,0 +1,322 @@
+{
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025(1).md": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/45条集中确认回复_20261025(1).md",
+    "sha256": "202cc50b102163df613632d101a8cf9f74defab4169e39aa9acff17c502a2801",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\45条集中确认回复_20261025.md": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/45条集中确认回复_20261025.md",
+    "sha256": "3aa07014b4bdd3217d05b2870b86e510db950d7f3579eaf331bd7f6354906e25",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\gold疑点旁表_仅诊断.jsonl": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/gold疑点旁表_仅诊断.jsonl",
+    "sha256": "202def45f95e6ac92809a88ac2e5d511a5d62c2e99818816a719d1183d75f741",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\miss45_review_归并版.csv": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/miss45_review_归并版.csv",
+    "sha256": "d9b6026046ac15df9330aba122443a3822863a027b54f90cf9ce98eb3b3b79e0",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\paired_transitions.csv": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/paired_transitions.csv",
+    "sha256": "2aab8d0e77e0a3532f8c17b5a74cef925ef1b6cef28f47af3797abadac03d39b",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\README.md": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/交付README_本机归档前.md",
+    "sha256": "20a103eec163d8b442db156d72a8547120ca0e7e840a5297394b44b9ed22f992",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\一页分析.md": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/一页分析.md",
+    "sha256": "94333cc01e2d2ffaef7cb08a20166193dd7832e7aafbf983cfb4771fad0ec98b",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\交付核验.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/交付核验.json",
+    "sha256": "227fe43e644790322e9aa75910f1921c16b8263ee8b6242aaedda2354ee3cfa9",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条_集中处置建议.md": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/剩余10条_集中处置建议.md",
+    "sha256": "4f97029f6ca3b7179e9ced3bd1ec8c6b8a5d577d022dc2e30573a8a0ab481508",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条双方共同处置登记_20261025.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/剩余10条双方共同处置登记_20261025.json",
+    "sha256": "2bab044cf8f2fd7898227974892010227a7136a45b92cb5eb6fd027ad6b93826",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条处置依据_20261025.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/剩余10条处置依据_20261025.json",
+    "sha256": "a45ab5a116b0a2feb19dd985b16440cffbff1696fe14b0cf46e2096f5ecb793e",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/剩余10条确认回复_20261025.md",
+    "sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\已有20条复核及归因补充.csv": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/已有20条复核及归因补充.csv",
+    "sha256": "2b3d282a01fe323b424f5c3eb88d57e93cb0cbb7457b95f0fd2d850da6c51cfb",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\归因与未决项_共同确认单.md": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/归因与未决项_共同确认单.md",
+    "sha256": "f97decb84ce62d7b59b424cc178af406ccda4b858e8589894a2af2ec791d9307",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云120与190限定意见确认_20261024.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/李云120与190限定意见确认_20261024.json",
+    "sha256": "15196a7b25c61265e85719ef6c9dae283f37b1bd5c662890cee48356898fac3c",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/李云剩余10条处置确认_20261025.json",
+    "sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云本轮原因码确认_20261025.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/李云本轮原因码确认_20261025.json",
+    "sha256": "90dc962c6a34247afbc6981d4de3c5d3b8480c1edfe2c8f19b7757c5d9550848",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\证据与归因依据.jsonl": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/证据与归因依据.jsonl",
+    "sha256": "db1a7dd068cbcce9cfb05786d5ef9a717042c2d4daa5f4c0a0b94987e8ce76f8",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\陈明进ID前缀更正登记_20261025.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/陈明进ID前缀更正登记_20261025.json",
+    "sha256": "4fa5d3f9d3f86d5c4521adb44df123a941b0e6380325191dfd00caa4944490ea",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\陈明进集中确认登记_20261025.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/陈明进集中确认登记_20261025.json",
+    "sha256": "d19bb148ff27906edb704a407e62c4cdc11bd785f0976eef030c2efb56b32bf4",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\25条认可登记与15条共同确认_20261024\\01_李云25条认可原文与范围.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/01_李云25条认可原文与范围.json",
+    "sha256": "8c1ff56d3802eab75a91115b228cea80a017384bdf334fa224897133836a9b1f",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条全量初审_20261020\\45条原始施引上下文.jsonl": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/full_initial_review_20261020/45条原始施引上下文.jsonl",
+    "sha256": "97fe122dd0dc6d8fb019ef3e5b99119295910c8361f6019685e27a22d13f50ce",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\miss45_review_陈明进v7_20261022.csv": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/miss45_review_陈明进v7_20261022.csv",
+    "sha256": "f022707e8f56c300512860c8f8184682ff8ce5f94703c2cdf6e7033943d5e4fd",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\36条全文补核证据.jsonl": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20/36条全文补核证据.jsonl",
+    "sha256": "4eb96a3a68a445eabb85647d3bf4c2e33de5677b6273eaf7ebf08a8c2cb6f5bc",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC2995166.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20/source_xml/PMC2995166.xml",
+    "sha256": "9fc21b7d160755d33e5f93d12dcce14357ecd37c347f6f8e4cc5e9185cece4fc",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC3297570.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20/source_xml/PMC3297570.xml",
+    "sha256": "7808342a91e4b7f6e36fb78ef38b689a8dbaf5dc0fff8ed6bc21b3d7082f2c5a",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC3310790.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20/source_xml/PMC3310790.xml",
+    "sha256": "33af3dd4584eda4a48eabd24f52bdb211a32d54a28575273537ae1c8e6a39845",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC3330267.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20/source_xml/PMC3330267.xml",
+    "sha256": "3ad140a3f5888fcfb30635a34930e4628c19a7c56eacbb4df2fe6c3a16475f7e",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC3554198.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20/source_xml/PMC3554198.xml",
+    "sha256": "ae4abda5a02997b5c101a325eff8e5bffc4e23c0527ea6316f8c25637497c241",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC4030114.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20/source_xml/PMC4030114.xml",
+    "sha256": "189ba463c9455e8a5e22f2acfef71b213711567914caa7c5290b0f187d506b35",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC7851407.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20/source_xml/PMC7851407.xml",
+    "sha256": "097365749d95d5eda09a50a1424b0eefae2e612f5d7cc8128154b87921393e48",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC8619493.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/priority9_source_review_2026-10-20/source_xml/PMC8619493.xml",
+    "sha256": "11a737f2fff7808d06125ce6585b7fd72935bf522676efc7d8cfc8cb1920cce0",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC8811224.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20/source_xml/PMC8811224.xml",
+    "sha256": "31eb49eb7cbf4564b0e80128959d014182ec306567be81d74eb01af862135301",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC8923118.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20/source_xml/PMC8923118.xml",
+    "sha256": "5da016ed5ef2b4bc511834aa8301d196795229b90a8e5c779eb1ce918d034150",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\其余36条核验_20261020\\source_xml\\PMC9042668.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/remaining36_source_review_2026-10-20/source_xml/PMC9042668.xml",
+    "sha256": "2a7049b4c282ac50b3606b28d6a2ef3f24461db5304b4445ae20c04d0e384ce5",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\实质核查_剩余条目_20261023\\04_新增证据定位_20261024.jsonl": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/04_新增证据定位_20261024.jsonl",
+    "sha256": "e0f0ee98868cdf0f57941baa8f46dc9c24c9b3a2dca7ac89376fc8a20ea1b668",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\实质核查_剩余条目_20261023\\新增原文XML\\PMC3050809.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/PMC3050809.xml",
+    "sha256": "e6bde316a9576256b8183263e2aabf7827fe674f1d9e1754e659e61670f1f99a",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\实质核查_剩余条目_20261023\\新增原文XML\\PMC3084173.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/PMC3084173.xml",
+    "sha256": "72d176320f3aa9039581e6874e6f8703e28623fdc76578f6f9485c3e22b8a38d",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\实质核查_剩余条目_20261023\\新增原文XML\\PMC3090745.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/PMC3090745.xml",
+    "sha256": "2e2e9512108c5dd318a190fce468b954af57433bdda49bdb5cefc202a59bac46",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\实质核查_剩余条目_20261023\\新增原文XML\\PMC3442244.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/PMC3442244.xml",
+    "sha256": "1601a748aaa27bc8a0cb7b103e00ceb7832f588156569754cd86d1161de319c8",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\实质核查_剩余条目_20261023\\新增原文XML\\PMC4391288.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/PMC4391288.xml",
+    "sha256": "f8d845b16eda9103e5e361b7d0ae69221367a770f6c0ed7fb6915e7e11494be2",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\待核11条_继续补证_20261024\\05_原文与引用组定位.jsonl": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/05_原文与引用组定位.jsonl",
+    "sha256": "02822dc7a0c177aa37e26ba3ca2c2ae7112381e750c1e21032868bdb6deab7ca",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\待核11条_继续补证_20261024\\来源缓存\\PMC4466270.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/PMC4466270.xml",
+    "sha256": "26479514c7afd0c4234ef0872f4fa7c806d458ca8c25bc31c7e232dd26d070cc",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\待核11条_继续补证_20261024\\来源缓存\\PMC7121452_EPMC_20261025.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/PMC7121452_EPMC_20261025.xml",
+    "sha256": "521d4debbb94297a6c264a0db30249e67eb137c8031621c4f39523337db70578",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\待核11条_继续补证_20261024\\来源缓存\\PMC8005136.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/PMC8005136.xml",
+    "sha256": "4fdb2407c34435e76d772686028da5dd4d91bb3cb4f47f058cff8bc99982fd23",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\待核11条_继续补证_20261024\\来源缓存\\PMC8608290_PLOS_20261025.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/PMC8608290_PLOS_20261025.xml",
+    "sha256": "6092b8d98f204103ffe7ab8843c7692a13d91fe3b90db6c6f29ff6e778b04dbc",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\待核11条_继续补证_20261024\\来源缓存\\PMC9109707.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/PMC9109707.xml",
+    "sha256": "9a5df7c92a4327885438268fd69862d9251856b00a02967541d55f2f73816f0a",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\待核11条_继续补证_20261024\\来源缓存\\PMC9485825.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/PMC9485825.xml",
+    "sha256": "669f6287b5468345c3f57765613abb500767269ef4f0a9d498ba5f98cd9fbd24",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\李云首批9条核对材料_20261020\\source_xml\\PMC8205852.xml": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_history_2026-10-20_to_22/priority9_source_review_2026-10-20/source_xml/PMC8205852.xml",
+    "sha256": "b104a4a20705ec5b8c2155ab5d03b0338fa0faae9be6048567bafb4af0df9ad3",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\阶段复核汇总_待共同裁决_20261023_v2\\逐条核对材料\\逐条复核_138_李云确认_20261022\\李云138确认意见.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/李云138确认意见.json",
+    "sha256": "d10bb00cf9e24e01d765e691eda396cc28a542e8d31226b5415b4d984791502f",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\阶段复核汇总_待共同裁决_20261023_v2\\逐条核对材料\\逐条复核_235_李云确认_20261022\\李云235确认意见.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/李云235确认意见.json",
+    "sha256": "e11bc88e540f88bdb0496de0c24cf8438c2f86ff8de211dd4e45bf65988cc6f5",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\阶段复核汇总_待共同裁决_20261023_v2\\逐条核对材料\\逐条复核_236_李云确认_20261022\\李云236确认意见.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/李云236确认意见.json",
+    "sha256": "b4c0ef2473a447df2b5bd635057b38b1293513732f999934a805ebe1acc61878",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\阶段复核汇总_待共同裁决_20261023_v2\\逐条核对材料\\逐条复核_250_李云确认_20261022\\李云250确认意见.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/李云250确认意见.json",
+    "sha256": "e2549d02eff2e6eb9df1650e67808c1bcff87ba20965dc24673459922560cc08",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\阶段复核汇总_待共同裁决_20261023_v2\\逐条核对材料\\逐条复核_342_李云确认_20261022\\李云342确认意见.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/李云342确认意见.json",
+    "sha256": "e7d3a5d88f117b81e1b644b9dfbc71cc153fde08558d8cba6ea32625a03e8ce4",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\阶段复核汇总_待共同裁决_20261023_v2\\陈明进v7_原始回传快照_未改.csv": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/miss45_review_陈明进v7_20261022.csv",
+    "sha256": "f022707e8f56c300512860c8f8184682ff8ce5f94703c2cdf6e7033943d5e4fd",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\阶段复核汇总_待共同裁决_20261023_v3\\来源快照\\李云三条限定意见确认_20261023.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/李云三条限定意见确认_20261023.json",
+    "sha256": "84e3f78e744bcfe431c770f05b6d028bdbd48acb8595cf1e87ed75ada1169c3a",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\阶段复核汇总_待共同裁决_20261023_v3\\来源快照\\陈明进_4组共同裁决回复_20261023_原样.txt": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/陈明进_4组共同裁决回复_20261023_原样.txt",
+    "sha256": "b3a5db6a11afa9b36a576addb0a790db410448a7d26bb68a9cfdc9bb634e6bcd",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\陈明进回复归并与补证_20261024\\04_新增逐字摘录定位.jsonl": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/04_新增逐字摘录定位.jsonl",
+    "sha256": "1a92cd281011d866f5e659d158b94667a6680817a41ab1e8c034d40cb96b5d9a",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\陈明进回复归并与补证_20261024\\05_20与28书目定位.json": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/05_20与28书目定位.json",
+    "sha256": "58457f1265ed62e10d7337a1f5ca89bc3d6a012625e8519aea4da0516f6e26d2",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\陈明进回复归并与补证_20261024\\10_45条签核后状态.jsonl": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/10_45条签核后状态.jsonl",
+    "sha256": "e4e99f53072aca3e2dc6d4fd9c36e82db95f754839d94efb7d310b18e2c545ff",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\陈明进回复归并与补证_20261024\\原始回传_未改\\15条签核回复_陈明进_20261024.md": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/review_final_20261025/sources/15条签核回复_陈明进_20261024.md",
+    "sha256": "d6293b554fed7a5e903cec6b8950a513985625c7d5010f3c66ed073762559537",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\miss45_payload.jsonl": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/miss45_payload.jsonl",
+    "sha256": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\error_analysis\\prior_review\\review20_final.jsonl": {
+    "repository_path": "results/route1_qwen38_v3/2026-10-25/error_analysis/prior_review/review20_final.jsonl",
+    "sha256": "c089b5fe84c744a3128895cf4f39fc4112b99e2c8c53eab45a4b10b0f3043ad5",
+    "availability": "archived_byte_exact"
+  },
+  "C:\\Users\\y\\Desktop\\学术引用不端\\成员1反馈 Data\\annotations.zip": {
+    "sha256": "cf22dea33606f355c8d9684dd8d18234be559bf40a45968fd2829cdf66e5797e",
+    "availability": "local_original_archive_not_uploaded",
+    "note": "原始annotations.zip保留本机；本仓库已提供逐条上下文、引用标记、成员哈希与模型原输入。"
+  }
+}

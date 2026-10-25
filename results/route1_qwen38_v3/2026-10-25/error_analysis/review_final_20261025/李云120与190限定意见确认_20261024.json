@@ -1,0 +1,30 @@
+{
+  "client_date": "2026-10-24",
+  "person": "李云",
+  "source_type": "direct_user_reply_to_assistant_question",
+  "question_tool_call_id": "call_d6b363480b354dffbb81de362a0f805d",
+  "question_as_presented": "请确认是否把这两条登记为你（李云）侧的限定意见：120为ACCURATE——同组引文支持“T细胞可能参与康复及较长时标免疫”，不外推永久保护或人类因果干预；190为ACCURATE——仅支持“PWID可能因共病面临较严重COVID”的风险分句，不涵盖前一句37.5%比例。两条完整依据见《45条交付版_20261024/归因与未决项_共同确认单.md》。目前两条仍是助手建议；你的确认不会被记成陈明进已同意，也不改原gold或Test成绩。",
+  "answer_as_received": "认可两条限定建议",
+  "confirmed_cases": [
+    {
+      "case_id": "sarol:test:120",
+      "Li_confirmed_label": "ACCURATE",
+      "scope": "同组12/14/23引文支持T细胞可能参与康复及较长时标免疫的谨慎推断；当前目标14承担保护背景职责。",
+      "limits": "不外推永久保护、人类因果干预，或当前目标14自身已完成人群长期免疫研究。",
+      "evidence_keys": ["C120-clause", "C120-ref12", "C120-ref14", "C120-ref23"]
+    },
+    {
+      "case_id": "sarol:test:190",
+      "Li_confirmed_label": "ACCURATE",
+      "scope": "仅同组1/3—5引文所接PWID可能因共病面临较严重COVID这一带may的风险分句。",
+      "limits": "不涵盖前一句37.5%比例，不等同SUD与PWID，也不声称已估计PWID独立因果重症风险。",
+      "evidence_keys": ["C190-clause", "C190-ref1", "C190-ref3", "C190-ref4", "C190-ref5"]
+    }
+  ],
+  "confirmation_is_acceptance_of_presented_assistant_proposals": true,
+  "independent_blind_annotation": false,
+  "new_Chen_confirmation_received": false,
+  "new_joint_labels_adopted": 0,
+  "reason_code_signatures_inferred_from_this_answer": false,
+  "frozen_gold_or_input_or_predictions_or_Test_scores_changed": false
+}

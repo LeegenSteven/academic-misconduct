@@ -1,0 +1,56 @@
+{
+  "case_id": "sarol:test:236",
+  "reviewer": "李云",
+  "confirmed_label": "ACCURATE",
+  "evidence_ids": [
+    "D03:S01",
+    "D04:S02",
+    "D04:S01"
+  ],
+  "reason": "原候选明确使用过经验证问卷，同时混用自编题；原句未称仅用验证工具。效度可能改善是施引作者的谨慎推断，不是已证实提高；保留问卷修改、自报及回顾性限制。",
+  "accepted_interpretation": "使用过验证问卷；may保留为谨慎方法学推断，不解读成仅使用验证工具。",
+  "retained_limits": [
+    "不证明修改或混合后的整套问卷已经重新验证",
+    "不证明内部效度已经实测提高",
+    "保留自报、回顾性、问卷修改和混用自编题的限制",
+    "may不能自动为任何缺乏根据的推断提供支持"
+  ],
+  "accepted_proposal_snapshot": {
+    "case_id": "sarol:test:236",
+    "prepared_by": "assistant",
+    "prepared_at_utc": "2026-10-22T13:28:10.547120+00:00",
+    "proposal": "ACCURATE",
+    "proposal_status": "qualified_interpretation_pending_Li_confirmation",
+    "evidence_ids": [
+      "D03:S01",
+      "D04:S02",
+      "D04:S01"
+    ],
+    "proposed_reason": "原候选明确使用过经验证问卷，同时混用自编题；原句未称仅用验证工具。效度可能改善是施引作者的谨慎推断，不是已证实提高；保留问卷修改、自报及回顾性限制。",
+    "empirical_internal_validity_improvement_demonstrated": false,
+    "entire_modified_instrument_revalidated_demonstrated": false,
+    "may_automatically_justifies_any_claim": false,
+    "potential_disagreement": "若将a validated instrument理解为整套最终问卷已验证，或认为内部效度推断属于重要未获支持，不能仅凭may消除该异议。",
+    "chen_stale_attribution_basis": "候选为验证工具+自编题混合，claim简化为仅用验证工具",
+    "Li_label_written": false,
+    "Li_confirmed": false,
+    "joint_adjudication": false,
+    "frozen_gold_unchanged": "NOT_ACCURATE"
+  },
+  "confirmation_source": "本会话，236限定性核对建议交付后，李云回复“认可，继续”",
+  "recorded_at_utc": "2026-10-22T13:38:31.637833+00:00",
+  "confirmation_client_date": "2026-10-22",
+  "report_sha256": "4fbdf36ee8421ea3b82a6ed70b51677b270a5047d4522f62e7d8fb43e631420e",
+  "proposal_sha256": "5373c40c1b511b87ddd52622bbc638a15a3083033860321bb87605b03d790b00",
+  "frozen_payload_sha256": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+  "frozen_input_sha256": "51abc100c52e66fae0b5e10c3398a7dd6fc6ab790d3dc2de0ba42e841b699904",
+  "chen_label_at_confirmation": "ACCURATE",
+  "chen_opinion_source_csv_sha256": "f022707e8f56c300512860c8f8184682ff8ce5f94703c2cdf6e7033943d5e4fd",
+  "two_named_label_opinions_same_direction": true,
+  "formal_joint_adjudication_imported": false,
+  "independent_blind_review_claimed": false,
+  "actual_separate_page_inspection_by_user_inferred": false,
+  "prediction_seen_declaration": null,
+  "received_CSV_modified": false,
+  "frozen_gold_preserved": "NOT_ACCURATE"
+}

@@ -1,0 +1,425 @@
+{
+  "client_date": "2026-10-25",
+  "scope": "Fixed Sarol Test 45 source-review cases; close only remaining10 actual joint decisions",
+  "source_reply_original_path": "D:\\缓存\\xwechat_files\\wxid_jho22qm3wuo322_070b\\temp\\RWTemp\\2026-10\\3fa490bdfcbe9cd7dfe4136c47bf27ad\\剩余10条确认回复_20261025.md",
+  "source_reply_archived_path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md",
+  "source_reply_sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+  "Li_actual_confirmation_path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json",
+  "Li_actual_confirmation_sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+  "proposal_evidence_snapshot_path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条处置依据_20261025.json",
+  "proposal_evidence_snapshot_sha256": "a45ab5a116b0a2feb19dd985b16440cffbff1696fe14b0cf46e2096f5ecb793e",
+  "same_10_ids_labels_dispositions_and_evidence_keys_checked": true,
+  "joint_decisions": [
+    {
+      "case_id": "sarol:test:48",
+      "claim_id": 48,
+      "joint_label": "ACCURATE",
+      "joint_disposition": "SCOPED_LABEL",
+      "joint_scope": "原末句“RAS阻断剂用于COVID-19成为研究/探索热点”，保留热点含义，不解释成临床疗效已证实。",
+      "joint_reason_summary": "R48-context保留\"hot spot to apply RAS blockers to treat COVID-19\"措辞；R48-group-NEJM确认新增综述确为原标记同组B200（DOI一致），不是随意引入组外论文；R48-new-co-cited-trials明确\"Clinical trials are under way to test the safety and efficacy of RAAS modulators\"，支持研究受到关注；R48-target中Danser目标提供潜在保护/风险争论背景，不证明人体疗效。 共同认可限制：不声称临床疗效已证实、广泛常规应用或已量化热点；原模型未看到本轮新增同组全文，本认可仅用于引用忠实性复核。",
+      "Li_limits": "只建议研究关注口径的ACCURATE；不声称已证明临床获益、广泛常规应用或统计量化热点。原模型未看到本轮新增同组全文。",
+      "Chen_limits": "不声称临床疗效已证实、广泛常规应用或已量化热点；原模型未看到本轮新增同组全文，本认可仅用于引用忠实性复核。",
+      "evidence_keys": [
+        "R48-context",
+        "R48-group-NEJM",
+        "R48-target",
+        "R48-new-co-cited-trials"
+      ],
+      "Li_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json",
+      "Li_confirmation_sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+      "Chen_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md",
+      "Chen_confirmation_sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+      "Chen_section": {
+        "scope": "原末句\"RAS阻断剂用于COVID-19成为研究/探索热点\"，仅按研究关注/探索性治疗口径。",
+        "basis": "R48-context保留\"hot spot to apply RAS blockers to treat COVID-19\"措辞；R48-group-NEJM确认新增综述确为原标记同组B200（DOI一致），不是随意引入组外论文；R48-new-co-cited-trials明确\"Clinical trials are under way to test the safety and efficacy of RAAS modulators\"，支持研究受到关注；R48-target中Danser目标提供潜在保护/风险争论背景，不证明人体疗效。",
+        "limits": "不声称临床疗效已证实、广泛常规应用或已量化热点；原模型未看到本轮新增同组全文，本认可仅用于引用忠实性复核。",
+        "evidence_keys": [
+          "R48-context",
+          "R48-group-NEJM",
+          "R48-target",
+          "R48-new-co-cited-trials"
+        ],
+        "heading": "认可限定ACCURATE",
+        "source_heading_line": 17,
+        "source_section_verbatim": "### 48 — 认可限定ACCURATE\n\n**范围：** 原末句\"RAS阻断剂用于COVID-19成为研究/探索热点\"，仅按研究关注/探索性治疗口径。\n\n**依据：** R48-context保留\"hot spot to apply RAS blockers to treat COVID-19\"措辞；R48-group-NEJM确认新增综述确为原标记同组B200（DOI一致），不是随意引入组外论文；R48-new-co-cited-trials明确\"Clinical trials are under way to test the safety and efficacy of RAAS modulators\"，支持研究受到关注；R48-target中Danser目标提供潜在保护/风险争论背景，不证明人体疗效。\n\n**限制：** 不声称临床疗效已证实、广泛常规应用或已量化热点；原模型未看到本轮新增同组全文，本认可仅用于引用忠实性复核。\n\n**证据定位：** R48-context、R48-group-NEJM、R48-target、R48-new-co-cited-trials。",
+        "Chen_confirmed_label": "ACCURATE",
+        "Chen_confirmed_disposition": "SCOPED_LABEL"
+      },
+      "former_current_Chen_label": "NOT_ACCURATE",
+      "frozen_input_sha256": "72af0bbd9222beff9411da8635872ed5f6ee0a53d9689ba287ccd999c420a185",
+      "independent_blind_annotation": false,
+      "frozen_results_changed": false
+    },
+    {
+      "case_id": "sarol:test:63",
+      "claim_id": 63,
+      "joint_label": "NOT_ACCURATE",
+      "joint_disposition": "SCOPED_LABEL",
+      "joint_scope": "保留“此前数月相关文献中most为综述/观点”的整项数量概括。",
+      "joint_reason_summary": "R63-context保留most；R63-commentary只能证明目标本身是commentary并讨论证据缺口；R63-ref28-year显示引文组含2005条目，不能按三篇引文推算\"此前数月\"全领域分母。 共同认可限制：判断的是引用支持不足，不是断言现实中多数文献一定非综述；不把三篇引文比例当全领域分母。",
+      "Li_limits": "判断的是引用支持不足，不是断言现实中多数文献一定并非综述。不把三篇引文的比例当全领域分母。",
+      "Chen_limits": "判断的是引用支持不足，不是断言现实中多数文献一定非综述；不把三篇引文比例当全领域分母。",
+      "evidence_keys": [
+        "R63-context",
+        "R63-commentary",
+        "R63-ref28-year"
+      ],
+      "Li_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json",
+      "Li_confirmation_sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+      "Chen_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md",
+      "Chen_confirmation_sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+      "Chen_section": {
+        "scope": "保留\"most of them are review or opinion articles\"的整项数量概括。",
+        "basis": "R63-context保留most；R63-commentary只能证明目标本身是commentary并讨论证据缺口；R63-ref28-year显示引文组含2005条目，不能按三篇引文推算\"此前数月\"全领域分母。",
+        "limits": "判断的是引用支持不足，不是断言现实中多数文献一定非综述；不把三篇引文比例当全领域分母。",
+        "evidence_keys": [
+          "R63-context",
+          "R63-commentary",
+          "R63-ref28-year"
+        ],
+        "heading": "认可NOT_ACCURATE",
+        "source_heading_line": 27,
+        "source_section_verbatim": "### 63 — 认可NOT_ACCURATE\n\n**范围：** 保留\"most of them are review or opinion articles\"的整项数量概括。\n\n**依据：** R63-context保留most；R63-commentary只能证明目标本身是commentary并讨论证据缺口；R63-ref28-year显示引文组含2005条目，不能按三篇引文推算\"此前数月\"全领域分母。\n\n**限制：** 判断的是引用支持不足，不是断言现实中多数文献一定非综述；不把三篇引文比例当全领域分母。\n\n**证据定位：** R63-context、R63-commentary、R63-ref28-year。",
+        "Chen_confirmed_label": "NOT_ACCURATE",
+        "Chen_confirmed_disposition": "SCOPED_LABEL"
+      },
+      "former_current_Chen_label": "NOT_ACCURATE",
+      "frozen_input_sha256": "ef1cf616df0c48d45f5be06d21d0184bbda25d83799112e0be1bbdf113a79373",
+      "independent_blind_annotation": false,
+      "frozen_results_changed": false
+    },
+    {
+      "case_id": "sarol:test:87",
+      "claim_id": 87,
+      "joint_label": "ACCURATE",
+      "joint_disposition": "SCOPED_LABEL",
+      "joint_scope": "原施引段明确归于作者自己的“it is tempting to speculate/may”推测；目标17承担理论背景，不承担已实证的果蝇结论。",
+      "joint_reason_summary": "R87-author-hypothesis明确\"it is tempting to speculate\"；R87-observation-citation显示mfn观察接18/19；R87-background提供\"清除与新生平衡\"的理论背景。 共同认可限制：不声称目标17有果蝇直接实验，也不验证该假说真伪；若要求孤立冻结claim由候选直接验证假说，则属另一评分对象，不据此改Test。",
+      "Li_limits": "只是推测性背景引用的限定ACCURATE；未验证假说真伪，不声称17有果蝇直接实验。若要求孤立冻结claim的候选证据直接验证该假说，则是另一评分对象，不据此改本轮Test。",
+      "Chen_limits": "不声称目标17有果蝇直接实验，也不验证该假说真伪；若要求孤立冻结claim由候选直接验证假说，则属另一评分对象，不据此改Test。",
+      "evidence_keys": [
+        "R87-author-hypothesis",
+        "R87-observation-citation",
+        "R87-background"
+      ],
+      "Li_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json",
+      "Li_confirmation_sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+      "Chen_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md",
+      "Chen_confirmation_sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+      "Chen_section": {
+        "scope": "原施引段明确归为作者自己的\"it is tempting to speculate/may\"推测；目标17仅承担理论背景，不承担已实证的果蝇结论。",
+        "basis": "R87-author-hypothesis明确\"it is tempting to speculate\"；R87-observation-citation显示mfn观察接18/19；R87-background提供\"清除与新生平衡\"的理论背景。",
+        "limits": "不声称目标17有果蝇直接实验，也不验证该假说真伪；若要求孤立冻结claim由候选直接验证假说，则属另一评分对象，不据此改Test。",
+        "evidence_keys": [
+          "R87-author-hypothesis",
+          "R87-observation-citation",
+          "R87-background"
+        ],
+        "heading": "认可限定ACCURATE",
+        "source_heading_line": 37,
+        "source_section_verbatim": "### 87 — 认可限定ACCURATE\n\n**范围：** 原施引段明确归为作者自己的\"it is tempting to speculate/may\"推测；目标17仅承担理论背景，不承担已实证的果蝇结论。\n\n**依据：** R87-author-hypothesis明确\"it is tempting to speculate\"；R87-observation-citation显示mfn观察接18/19；R87-background提供\"清除与新生平衡\"的理论背景。\n\n**限制：** 不声称目标17有果蝇直接实验，也不验证该假说真伪；若要求孤立冻结claim由候选直接验证假说，则属另一评分对象，不据此改Test。\n\n**证据定位：** R87-author-hypothesis、R87-observation-citation、R87-background。",
+        "Chen_confirmed_label": "ACCURATE",
+        "Chen_confirmed_disposition": "SCOPED_LABEL"
+      },
+      "former_current_Chen_label": "NOT_ACCURATE",
+      "frozen_input_sha256": "4a512515055d9491d8338e1769f9aa4a7cce8c4e1fc326264b301badd5bd1d05",
+      "independent_blind_annotation": false,
+      "frozen_results_changed": false
+    },
+    {
+      "case_id": "sarol:test:197",
+      "claim_id": 197,
+      "joint_label": "NOT_ACCURATE",
+      "joint_disposition": "SCOPED_LABEL",
+      "joint_scope": "PWID的SARS-CoV-2感染和重症两项结局，保留完整人群与双终点。",
+      "joint_reason_summary": "R197-claim保留双终点；R197-SUD-population是SUD总体，不能自动当PWID特异重症估计；R197-new-PWID-endpoint显示同组ref18研究PWID感染/血清阳性，未报告PWID特异重症比较；R197-ref20仍是SUD机构介绍。 共同认可限制：不声称SUD关联无效、不自动判因果、不声称PWID实际没有风险；仅记录重症/人群外推缺口。",
+      "Li_limits": "不声称SUD关联因未控制全部共病就无效，不把关联自动判为因果，也不声称PWID实际没有风险。",
+      "Chen_limits": "不声称SUD关联无效、不自动判因果、不声称PWID实际没有风险；仅记录重症/人群外推缺口。",
+      "evidence_keys": [
+        "R197-claim",
+        "R197-SUD-population",
+        "R197-new-PWID-endpoint",
+        "R197-ref20"
+      ],
+      "Li_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json",
+      "Li_confirmation_sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+      "Chen_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md",
+      "Chen_confirmation_sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+      "Chen_section": {
+        "scope": "保留PWID的SARS-CoV-2感染和重症两项结局。",
+        "basis": "R197-claim保留双终点；R197-SUD-population是SUD总体，不能自动当PWID特异重症估计；R197-new-PWID-endpoint显示同组ref18研究PWID感染/血清阳性，未报告PWID特异重症比较；R197-ref20仍是SUD机构介绍。",
+        "limits": "不声称SUD关联无效、不自动判因果、不声称PWID实际没有风险；仅记录重症/人群外推缺口。",
+        "evidence_keys": [
+          "R197-claim",
+          "R197-SUD-population",
+          "R197-new-PWID-endpoint",
+          "R197-ref20"
+        ],
+        "heading": "认可NOT_ACCURATE",
+        "source_heading_line": 47,
+        "source_section_verbatim": "### 197 — 认可NOT_ACCURATE\n\n**范围：** 保留PWID的SARS-CoV-2感染和重症两项结局。\n\n**依据：** R197-claim保留双终点；R197-SUD-population是SUD总体，不能自动当PWID特异重症估计；R197-new-PWID-endpoint显示同组ref18研究PWID感染/血清阳性，未报告PWID特异重症比较；R197-ref20仍是SUD机构介绍。\n\n**限制：** 不声称SUD关联无效、不自动判因果、不声称PWID实际没有风险；仅记录重症/人群外推缺口。\n\n**证据定位：** R197-claim、R197-SUD-population、R197-new-PWID-endpoint、R197-ref20。",
+        "Chen_confirmed_label": "NOT_ACCURATE",
+        "Chen_confirmed_disposition": "SCOPED_LABEL"
+      },
+      "former_current_Chen_label": "NOT_ACCURATE",
+      "frozen_input_sha256": "11cb618efe97f9ad17f1b07e37854c4edc0442af14c78c5d180fa6563428b803",
+      "independent_blind_annotation": false,
+      "frozen_results_changed": false
+    },
+    {
+      "case_id": "sarol:test:217",
+      "claim_id": 217,
+      "joint_label": null,
+      "joint_disposition": "UNDETERMINABLE_MAGNITUDE",
+      "joint_scope": "保留small的幅度含义；原句未指定总体评分、单项行为或受影响人数比例。",
+      "joint_reason_summary": "R217-small保留small为实质限定；R217-change显示REAP-s 0.81、P<0.001，但显著性不等于幅度大；R217-table可回放18.3→19.1，但未定义small判据。 共同认可限制：不是IRRELEVANT；不以新设阈值凑标签；不删除冻结Test分母。本轮正式单列\"幅度口径不明确，无法可靠三分类\"。",
+      "Li_limits": "不是IRRELEVANT，不以新设阈值凑标签，不把该条从冻结Test分母删除。",
+      "Chen_limits": "不是IRRELEVANT；不以新设阈值凑标签；不删除冻结Test分母。本轮正式单列\"幅度口径不明确，无法可靠三分类\"。",
+      "evidence_keys": [
+        "R217-small",
+        "R217-change",
+        "R217-table"
+      ],
+      "Li_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json",
+      "Li_confirmation_sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+      "Chen_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md",
+      "Chen_confirmation_sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+      "Chen_section": {
+        "scope": "保留small的幅度含义；原句未指定总体评分、单项行为或受影响人数比例。",
+        "basis": "R217-small保留small为实质限定；R217-change显示REAP-s 0.81、P<0.001，但显著性不等于幅度大；R217-table可回放18.3→19.1，但未定义small判据。",
+        "limits": "不是IRRELEVANT；不以新设阈值凑标签；不删除冻结Test分母。本轮正式单列\"幅度口径不明确，无法可靠三分类\"。",
+        "evidence_keys": [
+          "R217-small",
+          "R217-change",
+          "R217-table"
+        ],
+        "heading": "认可不作三分类（幅度口径不明确）",
+        "source_heading_line": 57,
+        "source_section_verbatim": "### 217 — 认可不作三分类（幅度口径不明确）\n\n**范围：** 保留small的幅度含义；原句未指定总体评分、单项行为或受影响人数比例。\n\n**依据：** R217-small保留small为实质限定；R217-change显示REAP-s 0.81、P<0.001，但显著性不等于幅度大；R217-table可回放18.3→19.1，但未定义small判据。\n\n**限制：** 不是IRRELEVANT；不以新设阈值凑标签；不删除冻结Test分母。本轮正式单列\"幅度口径不明确，无法可靠三分类\"。\n\n**证据定位：** R217-small、R217-change、R217-table。",
+        "Chen_confirmed_label": null,
+        "Chen_confirmed_disposition": "UNDETERMINABLE_MAGNITUDE"
+      },
+      "former_current_Chen_label": "NOT_ACCURATE",
+      "frozen_input_sha256": "96a71bbab96795f9c792dd86f94396c134181259e8b314f71a4ecd7018eba8c7",
+      "independent_blind_annotation": false,
+      "frozen_results_changed": false
+    },
+    {
+      "case_id": "sarol:test:243",
+      "claim_id": 243,
+      "joint_label": "NOT_ACCURATE",
+      "joint_disposition": "SCOPED_LABEL",
+      "joint_scope": "保留“Much研究在美国外、美国研究更少”的整句领域数量比较。",
+      "joint_reason_summary": "R243-comparative保留Much及smaller；R243-sample-country只是单项调查的参与者地域分布（US 4,890、UK 1,839、Australia 497、Canada 154），不能证明领域研究篇数关系。 共同认可限制：不缩成\"存在美国研究\"后判对；不以参与者国别比例替代文章篇数；不声称现实领域比例已被证伪。",
+      "Li_limits": "不把本案缩成“存在美国研究”后判对，不以参与者国别比例替代文章篇数；不声称现实中的领域比例已被证伪。与63使用同一保留数量限定的规则。",
+      "Chen_limits": "不缩成\"存在美国研究\"后判对；不以参与者国别比例替代文章篇数；不声称现实领域比例已被证伪。",
+      "evidence_keys": [
+        "R243-comparative",
+        "R243-sample-country"
+      ],
+      "Li_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json",
+      "Li_confirmation_sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+      "Chen_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md",
+      "Chen_confirmation_sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+      "Chen_section": {
+        "scope": "保留\"Much研究在美国外、美国研究更少\"的整句领域数量比较。",
+        "basis": "R243-comparative保留Much及smaller；R243-sample-country只是单项调查的参与者地域分布（US 4,890、UK 1,839、Australia 497、Canada 154），不能证明领域研究篇数关系。",
+        "limits": "不缩成\"存在美国研究\"后判对；不以参与者国别比例替代文章篇数；不声称现实领域比例已被证伪。",
+        "evidence_keys": [
+          "R243-comparative",
+          "R243-sample-country"
+        ],
+        "heading": "认可NOT_ACCURATE",
+        "source_heading_line": 67,
+        "source_section_verbatim": "### 243 — 认可NOT_ACCURATE\n\n**范围：** 保留\"Much研究在美国外、美国研究更少\"的整句领域数量比较。\n\n**依据：** R243-comparative保留Much及smaller；R243-sample-country只是单项调查的参与者地域分布（US 4,890、UK 1,839、Australia 497、Canada 154），不能证明领域研究篇数关系。\n\n**限制：** 不缩成\"存在美国研究\"后判对；不以参与者国别比例替代文章篇数；不声称现实领域比例已被证伪。\n\n**证据定位：** R243-comparative、R243-sample-country。",
+        "Chen_confirmed_label": "NOT_ACCURATE",
+        "Chen_confirmed_disposition": "SCOPED_LABEL"
+      },
+      "former_current_Chen_label": "NOT_ACCURATE",
+      "frozen_input_sha256": "8cedf2fd6168201530e04fe286ca6b19d377dedb57d5d91adee846fc6bc5c853",
+      "independent_blind_annotation": false,
+      "frozen_results_changed": false
+    },
+    {
+      "case_id": "sarol:test:278",
+      "claim_id": 278,
+      "joint_label": "ACCURATE",
+      "joint_disposition": "SCOPED_LABEL",
+      "joint_scope": "按原段抗体反应语境理解immunity为免疫反应读数，结合老年感染易感背景；不解释为总体保护增强。",
+      "joint_reason_summary": "R278-context-antibody\"Antibody responses to SARS-CoV-2 antigens increased with age\"；R278-limit\"despite high antibody levels in such groups\"区分高抗体与保护充分；R278-antibody支持年龄与抗体反应强度；R278-susceptibility另述老年易感。 共同认可限制：不声称老年人总体免疫功能、保护效力或临床结局更好；共同理由须写清\"immunity=抗体反应读数\"，避免被读成总体保护增强。",
+      "Li_limits": "不声称老年人总体免疫功能、保护效力或临床结局更好；不同意该语境读法者须明确提出，而不是混用两种读法。",
+      "Chen_limits": "不声称老年人总体免疫功能、保护效力或临床结局更好；共同理由须写清\"immunity=抗体反应读数\"，避免被读成总体保护增强。",
+      "evidence_keys": [
+        "R278-context-antibody",
+        "R278-limit",
+        "R278-antibody",
+        "R278-susceptibility"
+      ],
+      "Li_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json",
+      "Li_confirmation_sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+      "Chen_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md",
+      "Chen_confirmation_sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+      "Chen_section": {
+        "scope": "按原段抗体反应语境，将immunity理解为免疫反应读数；结合老年感染易感背景；不解释为总体保护增强。",
+        "basis": "R278-context-antibody\"Antibody responses to SARS-CoV-2 antigens increased with age\"；R278-limit\"despite high antibody levels in such groups\"区分高抗体与保护充分；R278-antibody支持年龄与抗体反应强度；R278-susceptibility另述老年易感。",
+        "limits": "不声称老年人总体免疫功能、保护效力或临床结局更好；共同理由须写清\"immunity=抗体反应读数\"，避免被读成总体保护增强。",
+        "evidence_keys": [
+          "R278-context-antibody",
+          "R278-limit",
+          "R278-antibody",
+          "R278-susceptibility"
+        ],
+        "heading": "认可限定ACCURATE（按抗体反应语境）",
+        "source_heading_line": 77,
+        "source_section_verbatim": "### 278 — 认可限定ACCURATE（按抗体反应语境）\n\n**范围：** 按原段抗体反应语境，将immunity理解为免疫反应读数；结合老年感染易感背景；不解释为总体保护增强。\n\n**依据：** R278-context-antibody\"Antibody responses to SARS-CoV-2 antigens increased with age\"；R278-limit\"despite high antibody levels in such groups\"区分高抗体与保护充分；R278-antibody支持年龄与抗体反应强度；R278-susceptibility另述老年易感。\n\n**限制：** 不声称老年人总体免疫功能、保护效力或临床结局更好；共同理由须写清\"immunity=抗体反应读数\"，避免被读成总体保护增强。\n\n**证据定位：** R278-context-antibody、R278-limit、R278-antibody、R278-susceptibility。",
+        "Chen_confirmed_label": "ACCURATE",
+        "Chen_confirmed_disposition": "SCOPED_LABEL"
+      },
+      "former_current_Chen_label": "NOT_ACCURATE",
+      "frozen_input_sha256": "e7bd5d0ab1bf9a13fdc573b276e518bdc2eddb5e371df9d42755c9eb1cfa923b",
+      "independent_blind_annotation": false,
+      "frozen_results_changed": false
+    },
+    {
+      "case_id": "sarol:test:466",
+      "claim_id": 466,
+      "joint_label": null,
+      "joint_disposition": "NON_ADJUDICABLE_FROZEN_CLAIM",
+      "joint_scope": "仅处置原冻结的重复拼接、末尾requires postmo残缺记录；恢复句不再重签。",
+      "joint_reason_summary": "R466-damaged-frozen显示原冻结文本可复现地残缺；R466-restored为恢复句，已有双方限定认可，仅在诊断栏报告。 共同认可限制：不推定模型或处理步骤造成PIPE；不重写原输入、不替换gold、不删除冻结606分母、不把恢复句当新增合格样本。",
+      "Li_limits": "不推定模型或某个处理步骤造成PIPE；不重写原输入，不替换gold，不删除冻结606分母，不把恢复句当新增合格样本。",
+      "Chen_limits": "不推定模型或处理步骤造成PIPE；不重写原输入、不替换gold、不删除冻结606分母、不把恢复句当新增合格样本。",
+      "evidence_keys": [
+        "R466-damaged-frozen",
+        "R466-restored"
+      ],
+      "Li_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json",
+      "Li_confirmation_sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+      "Chen_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md",
+      "Chen_confirmation_sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+      "Chen_section": {
+        "scope": "仅处置原冻结的重复拼接、末尾\"requires postmo\"残缺记录；恢复句不再重签。",
+        "basis": "R466-damaged-frozen显示原冻结文本可复现地残缺；R466-restored为恢复句，已有双方限定认可，仅在诊断栏报告。",
+        "limits": "不推定模型或处理步骤造成PIPE；不重写原输入、不替换gold、不删除冻结606分母、不把恢复句当新增合格样本。",
+        "evidence_keys": [
+          "R466-damaged-frozen",
+          "R466-restored"
+        ],
+        "heading": "认可原冻结claim不作三分类",
+        "source_heading_line": 87,
+        "source_section_verbatim": "### 466 — 认可原冻结claim不作三分类\n\n**范围：** 仅处置原冻结的重复拼接、末尾\"requires postmo\"残缺记录；恢复句不再重签。\n\n**依据：** R466-damaged-frozen显示原冻结文本可复现地残缺；R466-restored为恢复句，已有双方限定认可，仅在诊断栏报告。\n\n**限制：** 不推定模型或处理步骤造成PIPE；不重写原输入、不替换gold、不删除冻结606分母、不把恢复句当新增合格样本。\n\n**证据定位：** R466-damaged-frozen、R466-restored。",
+        "Chen_confirmed_label": null,
+        "Chen_confirmed_disposition": "NON_ADJUDICABLE_FROZEN_CLAIM"
+      },
+      "former_current_Chen_label": null,
+      "frozen_input_sha256": "9e51cf7292c59010e45ff828260b79f8b0d2ff675e7a38d9d2d5d5af4f479322",
+      "independent_blind_annotation": false,
+      "frozen_results_changed": false
+    },
+    {
+      "case_id": "sarol:test:469",
+      "claim_id": 469,
+      "joint_label": "ACCURATE",
+      "joint_disposition": "SCOPED_LABEL",
+      "joint_scope": "目标20承担“以此前描述的方式进行GWAS集合富集”的方法应用谱系；不是声称全部参数与目标完全相同。",
+      "joint_reason_summary": "R469-citation-role\"The analysis incorporated a previously published method [71], in a manner previously described [20]\"；R469-figure4明示同一AGRE发现队列的GWAS集合富集；R469-permutation显示置换分布。 共同认可限制：完整补充方法仍未取得，未核实所有实现参数；10000与后文停止规则不同本身不构成引用失实，也不能称实现已完全复现。",
+      "Li_limits": "完整补充方法仍未取得，未核实所有实现参数；10000与后文停止规则不同本身不构成引用失实，也不能称实现已完全复现。",
+      "Chen_limits": "完整补充方法仍未取得，未核实所有实现参数；10000与后文停止规则不同本身不构成引用失实，也不能称实现已完全复现。",
+      "evidence_keys": [
+        "R469-citation-role",
+        "R469-figure4",
+        "R469-permutation"
+      ],
+      "Li_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json",
+      "Li_confirmation_sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+      "Chen_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md",
+      "Chen_confirmation_sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+      "Chen_section": {
+        "scope": "目标20承担\"以此前描述的方式进行GWAS集合富集\"的方法应用谱系；不是声称全部参数与目标完全相同。",
+        "basis": "R469-citation-role\"The analysis incorporated a previously published method [71], in a manner previously described [20]\"；R469-figure4明示同一AGRE发现队列的GWAS集合富集；R469-permutation显示置换分布。",
+        "limits": "完整补充方法仍未取得，未核实所有实现参数；10000与后文停止规则不同本身不构成引用失实，也不能称实现已完全复现。",
+        "evidence_keys": [
+          "R469-citation-role",
+          "R469-figure4",
+          "R469-permutation"
+        ],
+        "heading": "认可限定ACCURATE（方法应用谱系）",
+        "source_heading_line": 97,
+        "source_section_verbatim": "### 469 — 认可限定ACCURATE（方法应用谱系）\n\n**范围：** 目标20承担\"以此前描述的方式进行GWAS集合富集\"的方法应用谱系；不是声称全部参数与目标完全相同。\n\n**依据：** R469-citation-role\"The analysis incorporated a previously published method [71], in a manner previously described [20]\"；R469-figure4明示同一AGRE发现队列的GWAS集合富集；R469-permutation显示置换分布。\n\n**限制：** 完整补充方法仍未取得，未核实所有实现参数；10000与后文停止规则不同本身不构成引用失实，也不能称实现已完全复现。\n\n**证据定位：** R469-citation-role、R469-figure4、R469-permutation。",
+        "Chen_confirmed_label": "ACCURATE",
+        "Chen_confirmed_disposition": "SCOPED_LABEL"
+      },
+      "former_current_Chen_label": "NOT_ACCURATE",
+      "frozen_input_sha256": "fced3743bfcac13938f8571cf04e7511047f65497f9a8b1896fb1b4b275b3a65",
+      "independent_blind_annotation": false,
+      "frozen_results_changed": false
+    },
+    {
+      "case_id": "sarol:test:506",
+      "claim_id": 506,
+      "joint_label": "NOT_ACCURATE",
+      "joint_disposition": "SCOPED_LABEL",
+      "joint_scope": "保留原句指定的DC细胞条件；仅评来源对象和引用职责。",
+      "joint_reason_summary": "R506-context-object保留\"in DCs\"；R506-cell-types显示原研究细胞为\"human CD4+ T cells and macrophages\"；R506-explicit-limit明确\"We did not examine whether TREX1 affects IFN production by pDCs\"；R506-ref29为一般自身免疫书目身份，不能补成DC条件。 共同认可限制：不声称该细胞条件下作用相反或绝无该效应；只记录对象与证据层次，不导出实验操作。",
+      "Li_limits": "不声称该细胞条件下作用相反或绝无该效应；只记录对象与证据层次，不导出实验操作。",
+      "Chen_limits": "不声称该细胞条件下作用相反或绝无该效应；只记录对象与证据层次，不导出实验操作。",
+      "evidence_keys": [
+        "R506-context-object",
+        "R506-cell-types",
+        "R506-explicit-limit",
+        "R506-ref29"
+      ],
+      "Li_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\李云剩余10条处置确认_20261025.json",
+      "Li_confirmation_sha256": "2594417aff5d1b3d376696175214ef6458e07408bec36109f5d6e182d5572005",
+      "Chen_confirmation_source": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\45条\\45条交付版_20261024\\剩余10条确认回复_20261025.md",
+      "Chen_confirmation_sha256": "25abdb3fb722b99b28aebd15b781d8d79910f676b5d5a7e9f90b44cbd1f62e1e",
+      "Chen_section": {
+        "scope": "保留原句指定的DC细胞条件；仅评来源对象和引用职责。",
+        "basis": "R506-context-object保留\"in DCs\"；R506-cell-types显示原研究细胞为\"human CD4+ T cells and macrophages\"；R506-explicit-limit明确\"We did not examine whether TREX1 affects IFN production by pDCs\"；R506-ref29为一般自身免疫书目身份，不能补成DC条件。",
+        "limits": "不声称该细胞条件下作用相反或绝无该效应；只记录对象与证据层次，不导出实验操作。",
+        "evidence_keys": [
+          "R506-context-object",
+          "R506-cell-types",
+          "R506-explicit-limit",
+          "R506-ref29"
+        ],
+        "heading": "认可NOT_ACCURATE",
+        "source_heading_line": 107,
+        "source_section_verbatim": "### 506 — 认可NOT_ACCURATE\n\n**范围：** 保留原句指定的DC细胞条件；仅评来源对象和引用职责。\n\n**依据：** R506-context-object保留\"in DCs\"；R506-cell-types显示原研究细胞为\"human CD4+ T cells and macrophages\"；R506-explicit-limit明确\"We did not examine whether TREX1 affects IFN production by pDCs\"；R506-ref29为一般自身免疫书目身份，不能补成DC条件。\n\n**限制：** 不声称该细胞条件下作用相反或绝无该效应；只记录对象与证据层次，不导出实验操作。\n\n**证据定位：** R506-context-object、R506-cell-types、R506-explicit-limit、R506-ref29。",
+        "Chen_confirmed_label": "NOT_ACCURATE",
+        "Chen_confirmed_disposition": "SCOPED_LABEL"
+      },
+      "former_current_Chen_label": "NOT_ACCURATE",
+      "frozen_input_sha256": "2b73a63cbb69007862c79af69e17734fe42d154cdcea1af72af2a5cc9b7f6df9",
+      "independent_blind_annotation": false,
+      "frozen_results_changed": false
+    }
+  ],
+  "this_reply_counts": {
+    "ACCURATE": 4,
+    "NOT_ACCURATE": 4,
+    "no_three_class": 2
+  },
+  "current_total": {
+    "records": 45,
+    "scoped_labels": 43,
+    "ACCURATE": 27,
+    "NOT_ACCURATE": 16,
+    "IRRELEVANT": 0,
+    "joint_no_three_class": 2,
+    "no_three_class_case_ids": [
+      217,
+      466
+    ],
+    "pending": 0
+  },
+  "prior35_and_restored466_agreements_preserved": true,
+  "reason_code_confirmation_not_reopened": true,
+  "prior20_original_judgments_unchanged": true,
+  "both_reviewers_actual_opinions_received": true,
+  "classification_labels_for217_and466": null,
+  "original_gold_inputs_predictions_Test_denominator_scores_changed": false,
+  "independent_blind_agreement_calculated": false,
+  "external_message_sent": false,
+  "github_pushed": false
+}

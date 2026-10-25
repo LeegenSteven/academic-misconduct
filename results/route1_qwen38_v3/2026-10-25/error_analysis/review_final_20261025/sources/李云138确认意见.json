@@ -1,0 +1,35 @@
+{
+  "case_id": "sarol:test:138",
+  "reviewer": "李云",
+  "confirmed_label": "ACCURATE",
+  "evidence_ids": [
+    "D01:S01",
+    "D03:S02",
+    "D06:S01",
+    "D07:S01"
+  ],
+  "reason": "原候选记录三类细胞因子相关的S特异性CD8反应，并支持康复恒河猴在抗体衰减条件下CD8细胞免疫参与再挑战保护；按整体反应解读，不推断各因子或亚群独立因果作用。",
+  "accepted_interpretation": "原段落的整体CD8反应参与保护；不推断三种因子或亚群各自独立保护。",
+  "retained_limits": [
+    "三种细胞因子分别的独立保护机制未获证明",
+    "不宣称三因子均由同一三阳性细胞亚群表达并单独保护",
+    "不推广到任意抗体水平、未感染动物或人群",
+    "候选数据suggest/can的贡献作用不等于绝对防止再次感染"
+  ],
+  "confirmation_source": "本会话，在138核对结论交付后回复“认可，继续下一步”",
+  "recorded_at_utc": "2026-10-22T13:28:10.421505+00:00",
+  "confirmation_client_date": "2026-10-22",
+  "report_sha256": "b5e34cc1efacc177a57d3da84f9338427fdf8cae0fb6cf9eba1c44e4345dbb28",
+  "proposal_sha256": "ab2af0cfd5cf51fa899f97d3be128787abf1e38e37b67f62c81f42ddca430ec3",
+  "frozen_payload_sha256": "6150610bf83d12aa58f0cd39f146ed26d15327a07cfd6af6466712a9623986d3",
+  "frozen_input_sha256": "1d58917c5ca813c612becbb52d5fdb1c8a1b016bdbdc81fd12d631c9e3dd6eb1",
+  "chen_label_at_confirmation": "ACCURATE",
+  "chen_opinion_source_csv_sha256": "f022707e8f56c300512860c8f8184682ff8ce5f94703c2cdf6e7033943d5e4fd",
+  "two_named_label_opinions_same_direction": true,
+  "formal_joint_adjudication_imported": false,
+  "independent_blind_review_claimed": false,
+  "actual_separate_page_inspection_by_user_inferred": false,
+  "prediction_seen_declaration": null,
+  "received_CSV_modified": false,
+  "frozen_gold_preserved": "NOT_ACCURATE"
+}
