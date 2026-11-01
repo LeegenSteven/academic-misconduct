@@ -1,0 +1,151 @@
+[配置] 模型: /home/admire/models/Qwen3.8-27B
+[配置] Adapter: /home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134
+[配置] Split: test
+[配置] 输出: /home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/test/sarol/Mbio_corrected_ckpt134; enable_thinking=False; retry_policy=none
+
+[1/3] 加载tokenizer...
+[2/3] 加载模型...
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<13:29,  1.05it/s]Loading weights:   0%|          | 2/851 [00:01<12:49,  1.10it/s]Loading weights:   1%|          | 10/851 [00:01<01:49,  7.69it/s]Loading weights:   2%|▏         | 14/851 [00:02<01:19, 10.52it/s]Loading weights:   3%|▎         | 23/851 [00:02<00:41, 19.99it/s]Loading weights:   3%|▎         | 28/851 [00:02<00:39, 21.10it/s]Loading weights:   4%|▍         | 32/851 [00:02<00:34, 23.92it/s]Loading weights:   4%|▍         | 38/851 [00:02<00:26, 30.30it/s]Loading weights:   5%|▌         | 43/851 [00:02<00:35, 22.92it/s]Loading weights:   6%|▌         | 47/851 [00:03<00:32, 24.48it/s]Loading weights:   6%|▌         | 52/851 [00:03<00:27, 28.99it/s]Loading weights:   7%|▋         | 60/851 [00:03<00:34, 22.92it/s]Loading weights:   8%|▊         | 66/851 [00:03<00:30, 26.13it/s]Loading weights:   8%|▊         | 70/851 [00:03<00:28, 27.00it/s]Loading weights:   9%|▉         | 80/851 [00:04<00:21, 36.25it/s]Loading weights:  10%|▉         | 85/851 [00:04<00:21, 36.42it/s]Loading weights:  11%|█         | 94/851 [00:04<00:17, 42.72it/s]Loading weights:  12%|█▏        | 99/851 [00:04<00:20, 37.10it/s]Loading weights:  12%|█▏        | 103/851 [00:04<00:21, 35.49it/s]Loading weights:  13%|█▎        | 114/851 [00:04<00:14, 50.98it/s]Loading weights:  14%|█▍        | 120/851 [00:05<00:17, 40.64it/s]Loading weights:  15%|█▍        | 125/851 [00:05<00:17, 42.07it/s]Loading weights:  15%|█▌        | 130/851 [00:05<00:16, 43.76it/s]Loading weights:  16%|█▌        | 135/851 [00:05<00:25, 27.82it/s]Loading weights:  17%|█▋        | 146/851 [00:05<00:16, 42.04it/s]Loading weights:  18%|█▊        | 152/851 [00:06<00:20, 33.51it/s]Loading weights:  18%|█▊        | 157/851 [00:06<00:19, 35.34it/s]Loading weights:  20%|█▉        | 167/851 [00:06<00:18, 36.99it/s]Loading weights:  20%|██        | 172/851 [00:06<00:18, 37.01it/s]Loading weights:  21%|██        | 177/851 [00:06<00:17, 38.09it/s]Loading weights:  22%|██▏       | 186/851 [00:06<00:15, 43.72it/s]Loading weights:  22%|██▏       | 191/851 [00:06<00:15, 41.63it/s]Loading weights:  24%|██▎       | 200/851 [00:07<00:14, 45.66it/s]Loading weights:  24%|██▍       | 205/851 [00:07<00:16, 38.51it/s]Loading weights:  25%|██▍       | 210/851 [00:07<00:16, 37.87it/s]Loading weights:  26%|██▌       | 219/851 [00:07<00:12, 48.68it/s]Loading weights:  26%|██▋       | 225/851 [00:07<00:16, 38.54it/s]Loading weights:  27%|██▋       | 230/851 [00:07<00:18, 33.10it/s]Loading weights:  27%|██▋       | 234/851 [00:08<00:26, 23.08it/s]Loading weights:  28%|██▊       | 239/851 [00:08<00:24, 25.17it/s]Loading weights:  29%|██▊       | 243/851 [00:08<00:23, 25.90it/s]Loading weights:  30%|██▉       | 253/851 [00:08<00:16, 35.22it/s]Loading weights:  30%|███       | 257/851 [00:08<00:17, 33.76it/s]Loading weights:  31%|███       | 261/851 [00:09<00:21, 27.92it/s]Loading weights:  32%|███▏      | 271/851 [00:09<00:14, 41.29it/s]Loading weights:  33%|███▎      | 278/851 [00:09<00:13, 41.45it/s]Loading weights:  33%|███▎      | 283/851 [00:09<00:14, 39.42it/s]Loading weights:  34%|███▍      | 291/851 [00:09<00:11, 47.23it/s]Loading weights:  35%|███▍      | 297/851 [00:09<00:13, 39.64it/s]Loading weights:  35%|███▌      | 302/851 [00:10<00:17, 31.63it/s]Loading weights:  36%|███▌      | 306/851 [00:10<00:19, 28.65it/s]Loading weights:  36%|███▋      | 310/851 [00:10<00:19, 27.42it/s]Loading weights:  37%|███▋      | 314/851 [00:10<00:21, 25.40it/s]Loading weights:  38%|███▊      | 320/851 [00:10<00:16, 31.71it/s]Loading weights:  39%|███▉      | 331/851 [00:10<00:11, 44.19it/s]Loading weights:  39%|███▉      | 336/851 [00:11<00:12, 42.89it/s]Loading weights:  41%|████      | 345/851 [00:11<00:10, 48.07it/s]Loading weights:  41%|████      | 351/851 [00:11<00:10, 47.60it/s]Loading weights:  42%|████▏     | 359/851 [00:11<00:09, 50.29it/s]Loading weights:  43%|████▎     | 365/851 [00:11<00:12, 39.83it/s]Loading weights:  44%|████▎     | 372/851 [00:11<00:11, 42.58it/s]Loading weights:  45%|████▌     | 383/851 [00:11<00:08, 55.28it/s]Loading weights:  46%|████▌     | 390/851 [00:12<00:09, 47.83it/s]Loading weights:  47%|████▋     | 397/851 [00:12<00:08, 51.69it/s]Loading weights:  47%|████▋     | 403/851 [00:12<00:12, 36.33it/s]Loading weights:  48%|████▊     | 409/851 [00:12<00:11, 40.04it/s]Loading weights:  49%|████▊     | 414/851 [00:12<00:14, 30.76it/s]Loading weights:  49%|████▉     | 418/851 [00:13<00:14, 30.34it/s]Loading weights:  50%|████▉     | 423/851 [00:13<00:13, 32.54it/s]Loading weights:  50%|█████     | 427/851 [00:13<00:17, 23.96it/s]Loading weights:  51%|█████▏    | 437/851 [00:13<00:12, 33.36it/s]Loading weights:  52%|█████▏    | 441/851 [00:13<00:12, 32.26it/s]Loading weights:  53%|█████▎    | 451/851 [00:14<00:09, 40.51it/s]Loading weights:  54%|█████▎    | 456/851 [00:14<00:10, 39.48it/s]Loading weights:  55%|█████▍    | 465/851 [00:14<00:08, 44.59it/s]Loading weights:  55%|█████▌    | 470/851 [00:14<00:10, 37.49it/s]Loading weights:  56%|█████▌    | 474/851 [00:14<00:10, 35.24it/s]Loading weights:  57%|█████▋    | 484/851 [00:15<00:16, 21.68it/s]Loading weights:  57%|█████▋    | 489/851 [00:15<00:14, 24.91it/s]Loading weights:  58%|█████▊    | 493/851 [00:15<00:15, 23.09it/s]Loading weights:  59%|█████▉    | 503/851 [00:15<00:10, 33.82it/s]Loading weights:  60%|█████▉    | 508/851 [00:16<00:11, 30.66it/s]Loading weights:  61%|██████    | 518/851 [00:16<00:08, 37.72it/s]Loading weights:  61%|██████▏   | 523/851 [00:16<00:10, 32.25it/s]Loading weights:  62%|██████▏   | 527/851 [00:16<00:10, 31.07it/s]Loading weights:  63%|██████▎   | 538/851 [00:16<00:06, 45.28it/s]Loading weights:  64%|██████▍   | 544/851 [00:16<00:07, 38.48it/s]Loading weights:  65%|██████▍   | 553/851 [00:17<00:06, 46.08it/s]Loading weights:  66%|██████▌   | 559/851 [00:17<00:07, 37.45it/s]Loading weights:  67%|██████▋   | 568/851 [00:17<00:06, 46.60it/s]Loading weights:  67%|██████▋   | 574/851 [00:17<00:08, 32.72it/s]Loading weights:  68%|██████▊   | 579/851 [00:17<00:09, 27.89it/s]Loading weights:  69%|██████▉   | 589/851 [00:18<00:06, 39.04it/s]Loading weights:  70%|██████▉   | 595/851 [00:18<00:06, 37.43it/s]Loading weights:  71%|███████   | 600/851 [00:18<00:07, 33.99it/s]Loading weights:  72%|███████▏  | 610/851 [00:18<00:05, 41.43it/s]Loading weights:  72%|███████▏  | 615/851 [00:18<00:05, 39.96it/s]Loading weights:  73%|███████▎  | 624/851 [00:18<00:05, 44.79it/s]Loading weights:  74%|███████▍  | 629/851 [00:19<00:05, 38.16it/s]Loading weights:  75%|███████▍  | 634/851 [00:19<00:05, 37.38it/s]Loading weights:  76%|███████▌  | 645/851 [00:19<00:04, 48.37it/s]Loading weights:  76%|███████▋  | 651/851 [00:19<00:05, 38.45it/s]Loading weights:  77%|███████▋  | 657/851 [00:20<00:09, 21.38it/s]Loading weights:  78%|███████▊  | 663/851 [00:20<00:07, 23.94it/s]Loading weights:  78%|███████▊  | 667/851 [00:20<00:07, 24.19it/s]Loading weights:  80%|███████▉  | 677/851 [00:20<00:05, 32.77it/s]Loading weights:  80%|████████  | 682/851 [00:20<00:05, 31.10it/s]Loading weights:  81%|████████  | 686/851 [00:21<00:05, 30.70it/s]Loading weights:  82%|████████▏ | 698/851 [00:21<00:03, 45.38it/s]Loading weights:  83%|████████▎ | 704/851 [00:21<00:03, 38.07it/s]Loading weights:  84%|████████▍ | 715/851 [00:21<00:02, 50.75it/s]Loading weights:  85%|████████▍ | 722/851 [00:21<00:02, 45.59it/s]Loading weights:  86%|████████▌ | 730/851 [00:21<00:02, 46.49it/s]Loading weights:  86%|████████▋ | 736/851 [00:22<00:03, 33.61it/s]Loading weights:  87%|████████▋ | 741/851 [00:23<00:06, 16.48it/s]Loading weights:  88%|████████▊ | 751/851 [00:23<00:04, 20.34it/s]Loading weights:  89%|████████▊ | 755/851 [00:23<00:04, 22.08it/s]Loading weights:  89%|████████▉ | 759/851 [00:23<00:03, 23.56it/s]Loading weights:  90%|█████████ | 769/851 [00:23<00:02, 32.74it/s]Loading weights:  91%|█████████ | 774/851 [00:23<00:02, 33.39it/s]Loading weights:  92%|█████████▏| 783/851 [00:24<00:01, 39.86it/s]Loading weights:  93%|█████████▎| 788/851 [00:24<00:01, 36.31it/s]Loading weights:  93%|█████████▎| 793/851 [00:24<00:01, 36.92it/s]Loading weights:  94%|█████████▍| 804/851 [00:25<00:02, 21.91it/s]Loading weights:  95%|█████████▍| 808/851 [00:25<00:02, 17.84it/s]Loading weights:  95%|█████████▌| 811/851 [00:25<00:02, 16.21it/s]Loading weights:  97%|█████████▋| 822/851 [00:25<00:01, 25.05it/s]Loading weights:  97%|█████████▋| 826/851 [00:26<00:00, 26.03it/s]Loading weights:  98%|█████████▊| 836/851 [00:26<00:00, 34.70it/s]Loading weights:  99%|█████████▉| 841/851 [00:26<00:00, 32.09it/s]Loading weights:  99%|█████████▉| 845/851 [00:26<00:00, 31.75it/s]Loading weights: 100%|██████████| 851/851 [00:26<00:00, 31.90it/s]
+  加载adapter: /home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134
+[3/3] 加载数据...
+  样本数: 606
+
+开始推理（606条）...
+  [10/606] 29s, 最近预测: NOT_ACCURATE (gold: ACCURATE)
+  [20/606] 59s, 最近预测: ACCURATE (gold: ACCURATE)
+  [30/606] 85s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [40/606] 116s, 最近预测: NOT_ACCURATE (gold: ACCURATE)
+  [50/606] 147s, 最近预测: NOT_ACCURATE (gold: ACCURATE)
+  [60/606] 176s, 最近预测: ACCURATE (gold: ACCURATE)
+  [70/606] 206s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [80/606] 236s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [90/606] 266s, 最近预测: ACCURATE (gold: ACCURATE)
+  [100/606] 295s, 最近预测: ACCURATE (gold: ACCURATE)
+  [110/606] 321s, 最近预测: ACCURATE (gold: ACCURATE)
+  [120/606] 345s, 最近预测: NOT_ACCURATE (gold: ACCURATE)
+  [130/606] 372s, 最近预测: ACCURATE (gold: ACCURATE)
+  [140/606] 398s, 最近预测: ACCURATE (gold: ACCURATE)
+  [150/606] 427s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [160/606] 457s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [170/606] 488s, 最近预测: ACCURATE (gold: ACCURATE)
+  [180/606] 518s, 最近预测: IRRELEVANT (gold: NOT_ACCURATE)
+  [190/606] 549s, 最近预测: IRRELEVANT (gold: IRRELEVANT)
+  [200/606] 580s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [210/606] 609s, 最近预测: ACCURATE (gold: IRRELEVANT)
+  [220/606] 637s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [230/606] 663s, 最近预测: ACCURATE (gold: ACCURATE)
+  [240/606] 688s, 最近预测: ACCURATE (gold: ACCURATE)
+  [250/606] 712s, 最近预测: NOT_ACCURATE (gold: ACCURATE)
+  [260/606] 741s, 最近预测: ACCURATE (gold: ACCURATE)
+  [270/606] 770s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [280/606] 799s, 最近预测: ACCURATE (gold: ACCURATE)
+  [290/606] 829s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [300/606] 859s, 最近预测: ACCURATE (gold: ACCURATE)
+  [310/606] 888s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [320/606] 918s, 最近预测: ACCURATE (gold: ACCURATE)
+  [330/606] 945s, 最近预测: ACCURATE (gold: ACCURATE)
+  [340/606] 972s, 最近预测: ACCURATE (gold: ACCURATE)
+  [350/606] 1000s, 最近预测: ACCURATE (gold: ACCURATE)
+  [360/606] 1029s, 最近预测: ACCURATE (gold: ACCURATE)
+  [370/606] 1057s, 最近预测: ACCURATE (gold: ACCURATE)
+  [380/606] 1084s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [390/606] 1114s, 最近预测: ACCURATE (gold: ACCURATE)
+  [400/606] 1145s, 最近预测: NOT_ACCURATE (gold: ACCURATE)
+  [410/606] 1176s, 最近预测: ACCURATE (gold: ACCURATE)
+  [420/606] 1204s, 最近预测: ACCURATE (gold: ACCURATE)
+  [430/606] 1232s, 最近预测: ACCURATE (gold: ACCURATE)
+  [440/606] 1259s, 最近预测: ACCURATE (gold: ACCURATE)
+  [450/606] 1286s, 最近预测: ACCURATE (gold: ACCURATE)
+  [460/606] 1316s, 最近预测: ACCURATE (gold: ACCURATE)
+  [470/606] 1345s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [480/606] 1375s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [490/606] 1406s, 最近预测: IRRELEVANT (gold: IRRELEVANT)
+  [500/606] 1435s, 最近预测: NOT_ACCURATE (gold: IRRELEVANT)
+  [510/606] 1461s, 最近预测: ACCURATE (gold: ACCURATE)
+  [520/606] 1485s, 最近预测: ACCURATE (gold: ACCURATE)
+  [530/606] 1510s, 最近预测: ACCURATE (gold: ACCURATE)
+  [540/606] 1541s, 最近预测: ACCURATE (gold: ACCURATE)
+  [550/606] 1570s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [560/606] 1600s, 最近预测: ACCURATE (gold: ACCURATE)
+  [570/606] 1631s, 最近预测: ACCURATE (gold: ACCURATE)
+  [580/606] 1662s, 最近预测: ACCURATE (gold: ACCURATE)
+  [590/606] 1691s, 最近预测: ACCURATE (gold: ACCURATE)
+  [600/606] 1722s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+
+推理完成，耗时: 1738s (29.0min)
+
+=== 指标 ===
+Accuracy: 0.7244224422442245 (439/606)
+Macro-F1: 0.6487155317532668
+无效输出: 0
+  ACCURATE: P=0.7863849765258216, R=0.8678756476683938, F1=0.8251231527093597 (support=386)
+  NOT_ACCURATE: P=0.5488721804511278, R=0.4294117647058823, F1=0.48184818481848185 (support=170)
+  IRRELEVANT: P=0.6595744680851063, R=0.62, F1=0.6391752577319587 (support=50)
+
+混淆矩阵 (行=gold, 列=pred):
+                    ACCURATE  NOT_ACCURATE   IRRELEVANT
+         ACCURATE        335            44            7
+     NOT_ACCURATE         88            73            9
+       IRRELEVANT          3            16           31
+
+预测文件: /home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/test/sarol/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_predictions.jsonl
+指标文件: /home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/test/sarol/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_metrics.json
+[配置] 模型: /home/admire/models/Qwen3.8-27B
+[配置] Adapter: /home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134
+[配置] Split: test
+[配置] 输出: /home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/test/sciciteval/Mbio_corrected_ckpt134; enable_thinking=False; retry_policy=none
+
+[1/3] 加载tokenizer...
+[2/3] 加载模型...
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<12:36,  1.12it/s]Loading weights:   0%|          | 2/851 [00:01<12:16,  1.15it/s]Loading weights:   1%|▏         | 12/851 [00:01<01:26,  9.71it/s]Loading weights:   2%|▏         | 16/851 [00:02<01:10, 11.78it/s]Loading weights:   3%|▎         | 27/851 [00:02<00:36, 22.67it/s]Loading weights:   4%|▍         | 32/851 [00:02<00:31, 25.62it/s]Loading weights:   5%|▍         | 41/851 [00:02<00:24, 33.56it/s]Loading weights:   5%|▌         | 46/851 [00:02<00:25, 31.49it/s]Loading weights:   6%|▌         | 51/851 [00:02<00:24, 32.98it/s]Loading weights:   7%|▋         | 60/851 [00:03<00:35, 22.22it/s]Loading weights:   8%|▊         | 66/851 [00:03<00:30, 25.43it/s]Loading weights:   8%|▊         | 70/851 [00:03<00:29, 26.55it/s]Loading weights:   9%|▉         | 80/851 [00:03<00:21, 35.84it/s]Loading weights:  10%|▉         | 85/851 [00:03<00:20, 36.67it/s]Loading weights:  11%|█         | 94/851 [00:04<00:17, 43.38it/s]Loading weights:  12%|█▏        | 99/851 [00:04<00:19, 38.10it/s]Loading weights:  12%|█▏        | 104/851 [00:04<00:19, 38.21it/s]Loading weights:  14%|█▎        | 115/851 [00:04<00:14, 51.91it/s]Loading weights:  14%|█▍        | 121/851 [00:04<00:18, 40.55it/s]Loading weights:  16%|█▌        | 133/851 [00:04<00:14, 50.67it/s]Loading weights:  16%|█▋        | 139/851 [00:05<00:14, 49.17it/s]Loading weights:  17%|█▋        | 147/851 [00:05<00:13, 51.93it/s]Loading weights:  18%|█▊        | 153/851 [00:05<00:16, 41.64it/s]Loading weights:  19%|█▉        | 160/851 [00:05<00:15, 45.06it/s]Loading weights:  20%|█▉        | 167/851 [00:05<00:14, 45.92it/s]Loading weights:  20%|██        | 172/851 [00:05<00:15, 43.82it/s]Loading weights:  21%|██        | 177/851 [00:05<00:15, 43.52it/s]Loading weights:  22%|██▏       | 186/851 [00:06<00:13, 48.69it/s]Loading weights:  22%|██▏       | 191/851 [00:06<00:14, 46.01it/s]Loading weights:  24%|██▎       | 200/851 [00:06<00:12, 50.33it/s]Loading weights:  24%|██▍       | 206/851 [00:06<00:16, 38.59it/s]Loading weights:  25%|██▌       | 213/851 [00:06<00:15, 41.56it/s]Loading weights:  26%|██▋       | 225/851 [00:06<00:12, 51.79it/s]Loading weights:  27%|██▋       | 231/851 [00:07<00:12, 50.52it/s]Loading weights:  28%|██▊       | 239/851 [00:07<00:11, 51.64it/s]Loading weights:  29%|██▉       | 245/851 [00:07<00:11, 50.57it/s]Loading weights:  30%|██▉       | 253/851 [00:07<00:11, 52.22it/s]Loading weights:  30%|███       | 259/851 [00:07<00:14, 40.82it/s]Loading weights:  31%|███▏      | 266/851 [00:07<00:13, 43.43it/s]Loading weights:  33%|███▎      | 278/851 [00:07<00:10, 54.70it/s]Loading weights:  33%|███▎      | 284/851 [00:08<00:10, 53.89it/s]Loading weights:  34%|███▍      | 292/851 [00:08<00:10, 54.61it/s]Loading weights:  35%|███▌      | 298/851 [00:08<00:10, 53.15it/s]Loading weights:  36%|███▌      | 306/851 [00:08<00:09, 55.01it/s]Loading weights:  37%|███▋      | 312/851 [00:08<00:12, 43.06it/s]Loading weights:  37%|███▋      | 319/851 [00:08<00:11, 46.57it/s]Loading weights:  39%|███▉      | 331/851 [00:08<00:09, 57.61it/s]Loading weights:  40%|███▉      | 338/851 [00:09<00:08, 58.16it/s]Loading weights:  41%|████      | 345/851 [00:09<00:09, 56.01it/s]Loading weights:  41%|████      | 351/851 [00:09<00:09, 54.75it/s]Loading weights:  42%|████▏     | 359/851 [00:09<00:08, 56.58it/s]Loading weights:  43%|████▎     | 365/851 [00:09<00:10, 44.32it/s]Loading weights:  44%|████▎     | 372/851 [00:09<00:10, 47.47it/s]Loading weights:  45%|████▌     | 384/851 [00:09<00:08, 57.50it/s]Loading weights:  46%|████▌     | 390/851 [00:10<00:08, 55.42it/s]Loading weights:  47%|████▋     | 398/851 [00:10<00:08, 55.12it/s]Loading weights:  47%|████▋     | 404/851 [00:10<00:08, 53.07it/s]Loading weights:  48%|████▊     | 412/851 [00:10<00:08, 53.81it/s]Loading weights:  49%|████▉     | 418/851 [00:10<00:10, 40.96it/s]Loading weights:  50%|████▉     | 425/851 [00:10<00:09, 43.58it/s]Loading weights:  51%|█████▏    | 437/851 [00:11<00:07, 53.34it/s]Loading weights:  52%|█████▏    | 443/851 [00:11<00:07, 51.87it/s]Loading weights:  53%|█████▎    | 451/851 [00:11<00:07, 52.53it/s]Loading weights:  54%|█████▎    | 457/851 [00:11<00:07, 51.30it/s]Loading weights:  55%|█████▍    | 465/851 [00:11<00:07, 51.98it/s]Loading weights:  55%|█████▌    | 471/851 [00:11<00:09, 39.66it/s]Loading weights:  56%|█████▌    | 478/851 [00:12<00:08, 42.77it/s]Loading weights:  57%|█████▋    | 484/851 [00:12<00:12, 30.01it/s]Loading weights:  58%|█████▊    | 490/851 [00:12<00:11, 31.75it/s]Loading weights:  58%|█████▊    | 494/851 [00:12<00:11, 31.48it/s]Loading weights:  59%|█████▉    | 504/851 [00:12<00:08, 40.64it/s]Loading weights:  60%|█████▉    | 509/851 [00:12<00:08, 40.33it/s]Loading weights:  61%|██████    | 518/851 [00:13<00:07, 46.29it/s]Loading weights:  61%|██████▏   | 523/851 [00:13<00:08, 39.74it/s]Loading weights:  62%|██████▏   | 528/851 [00:13<00:08, 39.43it/s]Loading weights:  63%|██████▎   | 539/851 [00:13<00:05, 53.46it/s]Loading weights:  64%|██████▍   | 545/851 [00:13<00:07, 42.21it/s]Loading weights:  65%|██████▌   | 557/851 [00:13<00:05, 52.92it/s]Loading weights:  66%|██████▌   | 563/851 [00:14<00:05, 51.73it/s]Loading weights:  67%|██████▋   | 571/851 [00:14<00:05, 53.87it/s]Loading weights:  68%|██████▊   | 577/851 [00:14<00:06, 42.38it/s]Loading weights:  69%|██████▊   | 584/851 [00:14<00:05, 44.87it/s]Loading weights:  70%|██████▉   | 592/851 [00:14<00:04, 51.90it/s]Loading weights:  70%|███████   | 598/851 [00:14<00:06, 41.56it/s]Loading weights:  72%|███████▏  | 610/851 [00:14<00:04, 52.37it/s]Loading weights:  72%|███████▏  | 616/851 [00:15<00:04, 51.20it/s]Loading weights:  73%|███████▎  | 624/851 [00:15<00:04, 52.19it/s]Loading weights:  74%|███████▍  | 630/851 [00:15<00:05, 40.49it/s]Loading weights:  75%|███████▍  | 637/851 [00:15<00:04, 43.18it/s]Loading weights:  76%|███████▋  | 649/851 [00:15<00:03, 52.94it/s]Loading weights:  77%|███████▋  | 655/851 [00:15<00:03, 51.50it/s]Loading weights:  78%|███████▊  | 663/851 [00:16<00:03, 51.99it/s]Loading weights:  79%|███████▊  | 669/851 [00:16<00:03, 50.68it/s]Loading weights:  80%|███████▉  | 677/851 [00:16<00:03, 51.52it/s]Loading weights:  80%|████████  | 683/851 [00:16<00:04, 40.92it/s]Loading weights:  81%|████████  | 690/851 [00:16<00:03, 44.41it/s]Loading weights:  82%|████████▏ | 702/851 [00:16<00:02, 55.58it/s]Loading weights:  83%|████████▎ | 708/851 [00:16<00:02, 54.78it/s]Loading weights:  84%|████████▍ | 716/851 [00:17<00:02, 55.52it/s]Loading weights:  85%|████████▍ | 722/851 [00:17<00:02, 54.48it/s]Loading weights:  86%|████████▌ | 730/851 [00:17<00:02, 55.54it/s]Loading weights:  86%|████████▋ | 736/851 [00:17<00:02, 43.49it/s]Loading weights:  87%|████████▋ | 743/851 [00:17<00:02, 46.91it/s]Loading weights:  89%|████████▊ | 755/851 [00:17<00:01, 57.69it/s]Loading weights:  90%|████████▉ | 762/851 [00:17<00:01, 58.06it/s]Loading weights:  90%|█████████ | 769/851 [00:18<00:01, 56.42it/s]Loading weights:  91%|█████████ | 775/851 [00:18<00:01, 54.91it/s]Loading weights:  92%|█████████▏| 783/851 [00:19<00:03, 21.03it/s]Loading weights:  93%|█████████▎| 788/851 [00:19<00:03, 20.78it/s]Loading weights:  93%|█████████▎| 792/851 [00:19<00:02, 22.70it/s]Loading weights:  94%|█████████▍| 804/851 [00:19<00:01, 35.77it/s]Loading weights:  95%|█████████▌| 810/851 [00:19<00:01, 32.98it/s]Loading weights:  97%|█████████▋| 822/851 [00:19<00:00, 43.93it/s]Loading weights:  97%|█████████▋| 828/851 [00:20<00:00, 45.13it/s]Loading weights:  98%|█████████▊| 836/851 [00:20<00:00, 48.24it/s]Loading weights:  99%|█████████▉| 842/851 [00:20<00:00, 23.96it/s]Loading weights: 100%|█████████▉| 847/851 [00:21<00:00, 17.59it/s]Loading weights: 100%|██████████| 851/851 [00:21<00:00, 39.69it/s]
+  加载adapter: /home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134
+[3/3] 加载数据...
+  样本数: 257
+
+开始推理（257条）...
+  [10/257] 26s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [20/257] 48s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [30/257] 68s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [40/257] 89s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [50/257] 115s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [60/257] 143s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [70/257] 170s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [80/257] 199s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [90/257] 227s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [100/257] 255s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [110/257] 283s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [120/257] 311s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [130/257] 334s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [140/257] 359s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [150/257] 383s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [160/257] 407s, 最近预测: ACCURATE (gold: NOT_ACCURATE)
+  [170/257] 432s, 最近预测: NOT_ACCURATE (gold: NOT_ACCURATE)
+  [180/257] 457s, 最近预测: IRRELEVANT (gold: IRRELEVANT)
+  [190/257] 485s, 最近预测: IRRELEVANT (gold: IRRELEVANT)
+  [200/257] 515s, 最近预测: IRRELEVANT (gold: IRRELEVANT)
+  [210/257] 546s, 最近预测: IRRELEVANT (gold: IRRELEVANT)
+  [220/257] 576s, 最近预测: IRRELEVANT (gold: IRRELEVANT)
+  [230/257] 605s, 最近预测: IRRELEVANT (gold: IRRELEVANT)
+  [240/257] 632s, 最近预测: IRRELEVANT (gold: IRRELEVANT)
+  [250/257] 658s, 最近预测: IRRELEVANT (gold: IRRELEVANT)
+
+推理完成，耗时: 676s (11.3min)
+
+=== 指标 ===
+Accuracy: 0.7470817120622568 (192/257)
+Macro-F1: 0.7240656305829695
+无效输出: 0
+  ACCURATE: P=0.5789473684210527, R=0.9887640449438202, F1=0.7302904564315352 (support=89)
+  NOT_ACCURATE: P=0.9629629629629629, R=0.29213483146067415, F1=0.4482758620689655 (support=89)
+  IRRELEVANT: P=1.0, R=0.9873417721518988, F1=0.9936305732484076 (support=79)
+
+混淆矩阵 (行=gold, 列=pred):
+                    ACCURATE  NOT_ACCURATE   IRRELEVANT
+         ACCURATE         88             1            0
+     NOT_ACCURATE         63            26            0
+       IRRELEVANT          1             0           78
+
+预测文件: /home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/test/sciciteval/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_predictions.jsonl
+指标文件: /home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/test/sciciteval/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_metrics.json

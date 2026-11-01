@@ -1,0 +1,224 @@
+{
+  "status": "LOCALLY_VERIFIED_CORRECTED_MBIO_RUN_PUBLISHED_WITH_WEIGHT_HASHES",
+  "run_id": "cmj_sarol_mbio_corrected_20261031",
+  "selected_checkpoint": "checkpoint-134",
+  "selection_rule": "Sarol Dev Macro-F1 only",
+  "archive_sha256": "75928854a840efd11d59a21bedc2706f7d9a489f27ee838f21d6b303d1f295cb",
+  "archive_bytes": 299580520,
+  "original_a100_archive": "/home/admire/mbio_corrected_ckpt134_handoff_20261101.tar.gz",
+  "source_run_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031",
+  "archive_validation_receipt": "../a100_archive_validation_20261101.json",
+  "archive_validation_receipt_sha256": "e9ac0e75032f00962d9e5e10169b84467080114cd392b15048d956dcb0427bd6",
+  "payload": {
+    "run/train.log": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031.train.log",
+      "bytes": 25028,
+      "sha256": "012f81887edad533df82fe1b17e487cbfdddc21ca17aadea90e280ea08fad004",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "run/dev_selection.run.log": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031.dev_selection.run.log",
+      "bytes": 26678,
+      "sha256": "99fb8734062c39606164b239bc236769b4e9cfc3d64c27940137e3e29d8b88a8",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "run/test.run.log": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031.test.run.log",
+      "bytes": 28646,
+      "sha256": "54fb1d69c1003dae02636ef73f5b01a8b12d96885dac89f08c67f7927683f79b",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "train/training_config.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/training_config.json",
+      "bytes": 1196,
+      "sha256": "24d8251ae7a896079c69962b3b7b335fb7856fc743a8353f6fdb876068de9584",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "train/checkpoint-134/adapter_config.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134/adapter_config.json",
+      "bytes": 1187,
+      "sha256": "d5951f1c125680cc73a0031b5c20ffbfe7ce050eb2cf81fd1fd327adf5e68944",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "train/checkpoint-134/adapter_model.safetensors": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134/adapter_model.safetensors",
+      "bytes": 318835672,
+      "sha256": "cabbde8d1027a2c7dcd61e7404c5028b7108ce6879252357f3e52b8281407f25",
+      "published_in_git": false,
+      "retrieval": "original A100/local archive; exact SHA256 retained"
+    },
+    "train/checkpoint-134/chat_template.jinja": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134/chat_template.jinja",
+      "bytes": 8952,
+      "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "train/checkpoint-134/tokenizer_config.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134/tokenizer_config.json",
+      "bytes": 1123,
+      "sha256": "bee8eba30f0eb4af73c0fe2cd06d0f89b657d7819941c438157ec42f7c80ea87",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "train/checkpoint-134/tokenizer.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134/tokenizer.json",
+      "bytes": 19989325,
+      "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+      "published_in_git": false,
+      "retrieval": "original A100/local archive; exact SHA256 retained"
+    },
+    "train/checkpoint-134/README.md": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134/README.md",
+      "bytes": 5216,
+      "sha256": "2f9f1b2b623f204b0d407146b3318ec6d207c616cb4a10c17ff5610415f03b16",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "train/checkpoint-134/trainer_state.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134/trainer_state.json",
+      "bytes": 5594,
+      "sha256": "9bc65fac92eee9f20d2ca4bf68083ec53a8dbffc0f95a8436fbbf71bcf953d9a",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "train/checkpoint-134/training_args.bin": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134/training_args.bin",
+      "bytes": 5393,
+      "sha256": "23a2f966e4b7be8db5a0f4e88a76b8e93fdb98c21a9f8a5ac97394790c65e18b",
+      "published_in_git": false,
+      "retrieval": "original A100/local archive; exact SHA256 retained"
+    },
+    "train/checkpoint-100/adapter_config.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-100/adapter_config.json",
+      "bytes": 1187,
+      "sha256": "d5951f1c125680cc73a0031b5c20ffbfe7ce050eb2cf81fd1fd327adf5e68944",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "train/checkpoint-100/trainer_state.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-100/trainer_state.json",
+      "bytes": 4486,
+      "sha256": "4f58141498fd324bf9cb0935fed314edeb414a65562e95b44c0eabe9697b61f8",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "dev_selection/checkpoint-100/Mbio_corrected_ckpt100_dev_metrics.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/dev_selection/checkpoint-100/Mbio_corrected_ckpt100_dev_metrics.json",
+      "bytes": 1915,
+      "sha256": "4fdc5a2899766b3abf151cccc7790916c65b0b5c47d09def5bac88718388a3d7",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "dev_selection/checkpoint-100/Mbio_corrected_ckpt100_dev_predictions.jsonl": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/dev_selection/checkpoint-100/Mbio_corrected_ckpt100_dev_predictions.jsonl",
+      "bytes": 75960,
+      "sha256": "5918c9042c5ff7760fe6f39c5155488500df08ba7c4aaa2109d9f2bfff53b127",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "dev_selection/checkpoint-134/Mbio_corrected_ckpt134_dev_metrics.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/dev_selection/checkpoint-134/Mbio_corrected_ckpt134_dev_metrics.json",
+      "bytes": 1948,
+      "sha256": "7e970fe5ab93dfbd625fec10814e74a9a6aaf4dfec0f2d90d4a9c7ec64bda75e",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "dev_selection/checkpoint-134/Mbio_corrected_ckpt134_dev_predictions.jsonl": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/dev_selection/checkpoint-134/Mbio_corrected_ckpt134_dev_predictions.jsonl",
+      "bytes": 75703,
+      "sha256": "cad9c96c4355e1c174934a7440f0c7f44bbf3129caa73312f3da6a455e0336ff",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "test/sarol/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_metrics.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/test/sarol/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_metrics.json",
+      "bytes": 1936,
+      "sha256": "bc2a6a917de71b9202d452f5154cd2b102e699e8bfa6e602d89c6469dbe50bf0",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "test/sarol/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_predictions.jsonl": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/test/sarol/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_predictions.jsonl",
+      "bytes": 145160,
+      "sha256": "0416472fece95f94ebe6a86047d38fdafffd6376adfbf2918c2b6f22054b84b6",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "test/sciciteval/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_metrics.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/test/sciciteval/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_metrics.json",
+      "bytes": 1924,
+      "sha256": "587a1be67b11e5f6027bf241b43c45f3d43c8a36ae72b3e17959fb3eb8508009",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "test/sciciteval/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_predictions.jsonl": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/test/sciciteval/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_predictions.jsonl",
+      "bytes": 61781,
+      "sha256": "1c404f5a6cdc007d351cc70dad0c6427061bb78e9e0f5c5fefa24e4bb38677d2",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "source/code/cmj/route1_qwen38_train_sarol_memopt_v1.py": {
+      "path_on_a100": "/home/admire/academic-misconduct-route1/code/cmj/route1_qwen38_train_sarol_memopt_v1.py",
+      "bytes": 12497,
+      "sha256": "9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "source/code/cmj/route1_qwen38_eval_v1.py": {
+      "path_on_a100": "/home/admire/academic-misconduct-route1/code/cmj/route1_qwen38_eval_v1.py",
+      "bytes": 9211,
+      "sha256": "c5a5862512911c37bad0e131d8f7342658c78443f8c1df3a5b0e4ea81eaa1d42",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    },
+    "source/code/shared/route1_qwen38/data_contract.py": {
+      "path_on_a100": "/home/admire/academic-misconduct-route1/code/shared/route1_qwen38/data_contract.py",
+      "bytes": 9412,
+      "sha256": "93e881ea4a9d8dc92c897a87862a185bd5527ee58f31567472e29a8ef7261776",
+      "published_in_git": true,
+      "retrieval": "this directory"
+    }
+  },
+  "hash_only_a100_sources": {
+    "train/checkpoint-100/adapter_config.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-100/adapter_config.json",
+      "bytes": 1187,
+      "sha256": "d5951f1c125680cc73a0031b5c20ffbfe7ce050eb2cf81fd1fd327adf5e68944"
+    },
+    "train/checkpoint-100/adapter_model.safetensors": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-100/adapter_model.safetensors",
+      "bytes": 318835672,
+      "sha256": "ab2bf2fccbda02d562ddfb0e8584aff8775417077a6b9569fdd0ce15cc01d9d7"
+    },
+    "train/final_adapter/adapter_config.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/final_adapter/adapter_config.json",
+      "bytes": 1187,
+      "sha256": "d5951f1c125680cc73a0031b5c20ffbfe7ce050eb2cf81fd1fd327adf5e68944"
+    },
+    "train/final_adapter/adapter_model.safetensors": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/final_adapter/adapter_model.safetensors",
+      "bytes": 318835672,
+      "sha256": "cabbde8d1027a2c7dcd61e7404c5028b7108ce6879252357f3e52b8281407f25"
+    }
+  },
+  "runtime_at_archiving_not_training": {
+    "python": "3.13.12",
+    "packages": {
+      "torch": "2.11.0",
+      "transformers": "5.8.0",
+      "peft": "0.21.2",
+      "accelerate": "1.14.0",
+      "bitsandbytes": "0.50.2",
+      "datasets": "5.0.0"
+    }
+  },
+  "no_new_model_run_for_publication": true,
+  "joint_signoff": false
+}

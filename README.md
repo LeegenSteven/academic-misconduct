@@ -1,5 +1,7 @@
 # academic-misconduct
 
+> 2026-11-01：已归档[纠正Mbio训练、Dev选点及两套Test](results/route1_qwen38_v3/2026-10-25/mbio_reproduction/README.md)，原始日志/预测/指标与身份哈希可复核，新旧结果分列。
+
 学术不端相关研究的代码与数据仓库。
 
 

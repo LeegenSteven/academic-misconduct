@@ -1,0 +1,114 @@
+{
+  "status": "LOCAL_A100_ARCHIVE_AND_FROZEN_DATA_VERIFICATION_PASS",
+  "verification_date": "2026-11-01",
+  "archive": "C:\\Users\\y\\Desktop\\学术引用不端\\10.26-10.31\\A100_Mbio纠正归档_20261101\\mbio_corrected_ckpt134_handoff_20261101.tar.gz",
+  "archive_bytes": 299580520,
+  "archive_sha256_local": "75928854a840efd11d59a21bedc2706f7d9a489f27ee838f21d6b303d1f295cb",
+  "archive_sha256_server_user_reported": "75928854a840efd11d59a21bedc2706f7d9a489f27ee838f21d6b303d1f295cb",
+  "server_checksum_source": "User pasted SSH cat output: 75928854a840efd11d59a21bedc2706f7d9a489f27ee838f21d6b303d1f295cb  mbio_corrected_ckpt134_handoff_20261101.tar.gz",
+  "local_sidecar_provenance": "Created locally from the exact user-reported server checksum line; SCP sidecar transfer failed, no successful SCP sidecar claimed.",
+  "payload_files_checked": 25,
+  "all_payload_sizes_and_sha256_match": true,
+  "training_config_and_train_inputs_gold_match": true,
+  "train_samples": 2141,
+  "training_global_step": 134,
+  "source_code_sha256": {
+    "source/code/cmj/route1_qwen38_train_sarol_memopt_v1.py": "9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba",
+    "source/code/cmj/route1_qwen38_eval_v1.py": "c5a5862512911c37bad0e131d8f7342658c78443f8c1df3a5b0e4ea81eaa1d42",
+    "source/code/shared/route1_qwen38/data_contract.py": "93e881ea4a9d8dc92c897a87862a185bd5527ee58f31567472e29a8ef7261776"
+  },
+  "training_and_dev_test_logs_present_and_completion_observed": true,
+  "standalone_process_exit_code_files_not_in_archive": true,
+  "selected_checkpoint": "checkpoint-134",
+  "selection_uses_sarol_dev_macro_f1_only": true,
+  "selected_adapter_identity": {
+    "adapter_config.json": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134/adapter_config.json",
+      "bytes": 1187,
+      "sha256": "d5951f1c125680cc73a0031b5c20ffbfe7ce050eb2cf81fd1fd327adf5e68944"
+    },
+    "adapter_model.safetensors": {
+      "path_on_a100": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134/adapter_model.safetensors",
+      "bytes": 318835672,
+      "sha256": "cabbde8d1027a2c7dcd61e7404c5028b7108ce6879252357f3e52b8281407f25"
+    }
+  },
+  "final_adapter_weight_hash_agrees_with_a100_manifest_and_prior_report": true,
+  "final_adapter_raw_weight_not_duplicated_locally": true,
+  "metrics_checks": {
+    "dev_selection/checkpoint-100/Mbio_corrected_ckpt100_dev_metrics.json": {
+      "records": 316,
+      "correct": 218,
+      "accuracy": 0.689873417721519,
+      "macro_f1": 0.5665071770334928,
+      "invalid_count": 0,
+      "ids_and_order_match_frozen_inputs": true,
+      "labels_match_frozen_gold": true,
+      "raw_output_reparsed_with_archived_parser": true,
+      "all_scoring_fields_recomputed": true,
+      "generation_at_token_limit_count": 0,
+      "metrics_sha256": "4fdc5a2899766b3abf151cccc7790916c65b0b5c47d09def5bac88718388a3d7",
+      "predictions_sha256": "5918c9042c5ff7760fe6f39c5155488500df08ba7c4aaa2109d9f2bfff53b127"
+    },
+    "dev_selection/checkpoint-134/Mbio_corrected_ckpt134_dev_metrics.json": {
+      "records": 316,
+      "correct": 222,
+      "accuracy": 0.7025316455696202,
+      "macro_f1": 0.5969663576701484,
+      "invalid_count": 0,
+      "ids_and_order_match_frozen_inputs": true,
+      "labels_match_frozen_gold": true,
+      "raw_output_reparsed_with_archived_parser": true,
+      "all_scoring_fields_recomputed": true,
+      "generation_at_token_limit_count": 0,
+      "metrics_sha256": "7e970fe5ab93dfbd625fec10814e74a9a6aaf4dfec0f2d90d4a9c7ec64bda75e",
+      "predictions_sha256": "cad9c96c4355e1c174934a7440f0c7f44bbf3129caa73312f3da6a455e0336ff"
+    },
+    "test/sarol/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_metrics.json": {
+      "records": 606,
+      "correct": 439,
+      "accuracy": 0.7244224422442245,
+      "macro_f1": 0.6487155317532668,
+      "invalid_count": 0,
+      "ids_and_order_match_frozen_inputs": true,
+      "labels_match_frozen_gold": true,
+      "raw_output_reparsed_with_archived_parser": true,
+      "all_scoring_fields_recomputed": true,
+      "generation_at_token_limit_count": 0,
+      "metrics_sha256": "bc2a6a917de71b9202d452f5154cd2b102e699e8bfa6e602d89c6469dbe50bf0",
+      "predictions_sha256": "0416472fece95f94ebe6a86047d38fdafffd6376adfbf2918c2b6f22054b84b6"
+    },
+    "test/sciciteval/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_metrics.json": {
+      "records": 257,
+      "correct": 192,
+      "accuracy": 0.7470817120622568,
+      "macro_f1": 0.7240656305829695,
+      "invalid_count": 0,
+      "ids_and_order_match_frozen_inputs": true,
+      "labels_match_frozen_gold": true,
+      "raw_output_reparsed_with_archived_parser": true,
+      "all_scoring_fields_recomputed": true,
+      "generation_at_token_limit_count": 0,
+      "metrics_sha256": "587a1be67b11e5f6027bf241b43c45f3d43c8a36ae72b3e17959fb3eb8508009",
+      "predictions_sha256": "1c404f5a6cdc007d351cc70dad0c6427061bb78e9e0f5c5fefa24e4bb38677d2"
+    }
+  },
+  "old_new_test_transitions": {
+    "sarol": {
+      "repaired_vs_old_mbio": 32,
+      "new_errors_vs_old_mbio": 27,
+      "net_correct_change": 5,
+      "reference": "original Mbio checkpoint-100, not M0"
+    },
+    "sciciteval": {
+      "repaired_vs_old_mbio": 0,
+      "new_errors_vs_old_mbio": 4,
+      "net_correct_change": -4,
+      "reference": "original Mbio checkpoint-100, not M0"
+    }
+  },
+  "train_config_description_note": "Original loss_implementation description retained verbatim; exact implementation identity is the frozen 9a47... script, with window supervised-token sum/N. No new numerical-equivalence claim.",
+  "model_loaded": false,
+  "inference_performed": false,
+  "new_human_signoff": false
+}

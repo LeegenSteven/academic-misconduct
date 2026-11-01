@@ -1,0 +1,36 @@
+{
+  "model_path": "/home/admire/models/Qwen3.8-27B",
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "learning_rate": 0.0001,
+  "micro_batch": 1,
+  "grad_accum": 16,
+  "epochs": 1,
+  "max_length": 5120,
+  "seed": 42,
+  "train_samples": 2141,
+  "label_distribution": {
+    "ACCURATE": 1368,
+    "NOT_ACCURATE": 630,
+    "IRRELEVANT": 143
+  },
+  "training_time_minutes": 221.8,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "supervision": "only assistant label JSON {\"label\":\"...\"}",
+  "loss_implementation": "experimental supervised-position logits; causal next-token mean cross-entropy",
+  "enable_thinking": false,
+  "truncation_policy": "fail on overlength; no silent truncation",
+  "input_path": "/home/admire/academic-misconduct-route1/results/route1_qwen38_v2/2026-10-15/sarol/train.inputs.jsonl",
+  "gold_path": "/home/admire/academic-misconduct-route1/results/route1_qwen38_v2/2026-10-15/sarol/train.gold.jsonl",
+  "input_sha256": "712338b41e7f1b56b8a4cb8a75018a57bab89706ed0b6d9f4a2e7dc8bd0d0180",
+  "gold_sha256": "f245b94aafc67934b43c760a1d6c68b0f1042d7561f493280c77d49467c1fad8"
+}
