@@ -1,0 +1,69 @@
+5148
+JACK ET AL.
+BOX 2: The diagnosis of Alzheimer’s disease, Core 1 and Core 2 Alzheimer’s disease biomarkers
+Phosphorylatedmid-regiontauvariants(p-tau217,181,and231)becomeabnormalaroundthesametimeasamyloidpositronemission
+tomography (PET) and well before tau PET. In contrast, other tau fragments (e.g., microtubule-binding region [MTBR]-tau243) become
+abnormal later, closer to onset of tau PET. Our solution is to split the T category: T1 are early changing phosphorylated mid-region tau
+fragments (p-tau 217, 181, and 231). T2 are later-changing biofluid tau fragments (e.g., MTBR-tau243) along with tau PET. We then group
+core biomarkers into Core 1, which are A, T1, and hybrid combinations, versus Core 2, which are tau PET and T2 biofluids.
+The diagnosis of Alzheimer’s disease (AD) can be established by abnormality on specific Core 1 biomarkers (see Table 2); however, not
+all available Core 1 biomarker tests have sufficient accuracy to be suitable for diagnosis. Currently, we regard the following to be diag-
+nostic of AD: amyloid PET, cerebrospinal fluid (CSF) Aβ 42/40, CSF p-tau 181/Aβ 42, CSF t-tau/Aβ 42, “accurate” plasma assays (defined
+below), or combinations of these. In most situations different Core 1 biomarkers should be interchangeable for the detection of AD neu-
+ropathologic change (ADNPC) and, hence, for the diagnosis of AD. Because nearly all symptomatic individuals and the vast majority of
+asymptomatic individuals with abnormal amyloid PET will have intermediate/high AD neuropathologic change, the Core 1 category rep-
+resents ADNPC more generally (i.e., both plaques and tangles). Core 1 biomarkers define the initial stage of AD that is detectable in vivo
+and can be used diagnostically for (1) early detection of AD in people without symptoms and (2) confirmation that AD is an underlying
+pathology in someone with symptoms.
+Core 2 biomarkers do not detect the initial presence of disease and thus may not rule out AD pathology; however, because amyloidosis
+is nearly always a prerequisite for neocortical AD tauopathy, Core 2 biomarkers are highly associated with Aβ pathology and, therefore,
+may be sufficient to confirm (rule in) AD pathology (although rare exceptions exist). When combined with Core 1 biomarkers, Core 2
+biomarkers can be used to stage biological disease severity and (1) provide information on the likelihood that symptoms are associated
+with AD, (2) inform on the likely rate of progression in symptomatic individuals, and (3) inform on the risk of short-term progression in
+people without symptoms.
+Only biomarkers that have been proven to be accurate with respect to an accepted reference standard should be used for clinical diag-
+nostic purposes, and the same criteria apply to PET, CSF, or blood-based biomarkers. We recommend, as a minimum requirement, an
+accuracy of 90% for the identification of moderate/frequent neuritic plaques at autopsy (or an approved surrogate, which, at this point,
+would be amyloid PET or CSF) in the intended-use population. For blood-based biomarker assays, this translates to an accuracy equiva-
+lent to that of approved CSF assays. We focus on accuracy (true positive + true negative)/(true positive + true negative + false positive +
+false negative) as a concise metric because it is equally important that a test used clinically is correct when the test result is positive and
+is correct when it is negative. The specification of accurate “in the intended-use population” addresses positive and negative predictive
+values, which depend on the prior probability of AD in the population of interest.
+amyloid PET define the initially detectable stage of AD. An analogy
+can be drawn with slowly progressive cancer that can be detected by
+biomarker testing before symptoms arise. Although symptoms may
+not appear for years, the disease nonetheless exists at this initially
+detectable stage and will eventually produce symptoms if the indi-
+vidual lives long enough. Although many individuals die with ADNPC
+without experiencing symptoms, this can be attributed to the expo-
+nential rise in all-cause mortality rates with older age.52,53 Mortality
+from unrelated diseases prior to symptom onset from AD should not be
+interpreted to indicate that ADNPC is benign. Individuals with Down
+syndrome (DS; trisomy 21) overexpress the amyloid precursor pro-
+tein and Aβ. Virtually all individuals with DS have sufficient ADNPC
+to meet neuropathological criteria for a diagnosis of AD by their mid-
+40s.54 Age at onset and mortality in DS are compatible with full genetic
+penetrance as in autosomal dominant AD (ADAD).55 One study esti-
+mated lifetime risk of dementia to be 95%,56 with the average age
+of onset of clinical symptoms in the mid-50s,54 when mortality rates
+from unrelated disorders are far lower than in older age. Remaining
+life expectancy is an important consideration in clinical management,
+but mortality from unrelated causes should not be a criterion used
+to define what is and what is not a disease. The biological definition
+of AD is consistent with the distinction between a disease and an ill-
+ness. A disease is a pathogenic condition, while the term illness denotes
+signs and symptoms that result from the disease. Importantly, defin-
+ing a disease by its biology rather than by a syndromic description has
+been status quo for years in other areas of medicine (e.g., oncology)
+and is becoming a unifying concept common to all neurodegenerative
+diseases, as exemplified by recent efforts in Parkinson’s disease,57,58
+Huntington’s disease,59 and amyotrophic lateral sclerosis.60
+In the 2018 research framework, an A+T+ biomarker profile was
+required for a designation of AD based on the AT(N) biomarker classifi-
+cation scheme. However, with evolved understanding, the T category
+has been split into T1 and T2 in these revised criteria, and we now
+define AD as an abnormality on Core 1 biomarkers (Table 2). This
+definition effectively anchors the onset of AD in vivo to the onset
+of abnormal amyloid PET (Figure 1). However, an often overlooked
+but important fact is that amyloid PET is not sensitive to low levels
+of ADNPC. The US Food and Drug Administration (FDA)–approved

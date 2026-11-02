@@ -1,0 +1,71 @@
+{
+  "record_type": "route1_pdf_two_supplement_joint_component_conclusion",
+  "recorded_date": "2026-11-01",
+  "registrar": "李云",
+  "scope": "仅固定20点新版清单中的A/B两条替补点；登记双方实际个人意见的共同分项结论，不替代固定20点整体联合验收。",
+  "basis": {
+    "liyun_personal_opinion_path": "pdf_demo/李云两补充点个人意见确认_20261101.json",
+    "liyun_personal_opinion_sha256": "68f55a8b33df84dd90ffc1a5e8f9218979e1b2eea680f357ec16c960b4373406",
+    "chen_personal_opinion_path": "pdf_demo/peer_replies_20261101/发给李云_两补充点合议意见_20261101.md",
+    "chen_personal_opinion_sha256": "0aa7e0014359b11c32902952dd57c2a8e395db5adfd0fd5fc7d9f2225a07f08d",
+    "actual_opinions_reconciled": true,
+    "source_reply_boundary": "陈明进原文件明确为个人分项意见、非共同签核；本登记依据双方实际意见归并形成共同分项结论。"
+  },
+  "points": [
+    {
+      "replacement_point": "A",
+      "replaces_historical_point": 1,
+      "case_id": "r1pdf:7cec9c89372bb76396f53fdb",
+      "joint_classification": "ACCURATE",
+      "classification_scope": "原PDF＋施引上下文；限于fluid biomarker N类别的组成变化主张。",
+      "joint_original_reason": "NOT_PASSED",
+      "joint_locator": "PASS_WHITESPACE_DIAGNOSTIC_ONLY",
+      "strict_engineering": "FAIL",
+      "boundaries": [
+        "不把非特异性单独推导为排除或重分类。",
+        "不把完整旧表、2024新表及未输入模型的上下文改写为冻结输入已覆盖。"
+      ]
+    },
+    {
+      "replacement_point": "B",
+      "replaces_historical_point": 15,
+      "case_id": "r1pdf:7f30025df2b6e4c93f2addd5",
+      "joint_classification": "ACCURATE",
+      "classification_scope": "原PDF＋施引上下文；限于被引队列数据事实与施引描述性比较基准。",
+      "joint_original_reason": "PASSED_WITH_LIMITED_SCOPE",
+      "joint_locator": "PASS_WHITESPACE_DIAGNOSTIC_ONLY",
+      "strict_engineering": "FAIL",
+      "boundaries": [
+        "不把reference12内容归给reference1。",
+        "不扩展为样本量、纳入标准、全国统计或因果风险结论。"
+      ]
+    }
+  ],
+  "joint_component_conclusion_status": "REGISTERED",
+  "strict_engineering_success": 0,
+  "strict_engineering_denominator": 2,
+  "whitespace_diagnostic_excerpts": 3,
+  "formal_location_rate": null,
+  "formal_explanation_rate": null,
+  "formal_classification_rate_for_fixed20": null,
+  "formal_fixed20_end_to_end_acceptance": false,
+  "historical_held_points_preserved": [
+    1,
+    15
+  ],
+  "remaining_fixed20_unresolved_scope": [
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    20
+  ],
+  "model_run": false,
+  "original_inputs_and_responses_changed": false,
+  "next_action": "保留A/B共同分项结论；继续按固定20点总表处理未定10点及原13/14等未决项，不重跑同一模型。"
+}

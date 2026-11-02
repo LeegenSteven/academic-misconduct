@@ -1,0 +1,137 @@
+et al, 2019). All features, with the exception of WMM features, were
+downloaded from the original publications (see Materials and Meth-
+ods for a complete list). The set of CORUM complexes were split
+into two equal proportion non-overlapping test and train subsets.
+We then derived sets of co-complex interactions from these test and
+train complex subsets. The classifier was parameterized using 5×
+cross-validation on the train co-complex interactions and applied to
+17.5 million pairs of proteins scoring each one for their ability to
+interact based on the input data (see Materials and Methods). The
+full list of scored pairs and the complete feature matrix can be found
+in the Data availability section.
+To evaluate the performance of our SVM classifier, we examined
+the confidence scores of 8,337 co-complex interactions in our
+leave-out test set using a Precision-Recall framework (Fig 2A).
+Precision-Recall frameworks are the preferred method of evaluating
+imbalanced binary classification problems such as protein interac-
+tion identification (Davis & Goadrich, 2006; Saito & Rehmsmeier,
+2015). We see that hu.MAP 2.0 outperforms our previous complex
+map, hu.MAP 1.0, as well as all other datasets including Bioplex 2,
+Wan et al and Hein et al, demonstrating the power of data integra-
+tion. For example, a direct comparison of hu.MAP 2.0 to hu.MAP
+1.0 at a fixed precision of 0.5 results in an increase of 67% recall
+relative to hu.MAP 1.0. We also evaluated the increase in total high
+confidence
+(precision = 0.9)
+protein
+interactions
+identified
+by
+hu.MAP 2.0 and saw an increase of > 1,880 high confidence interac-
+tions over hu.MAP 1.0. Additionally, we see a drop in performance
+when we remove the WMM features from hu.MAP 2.0 further show-
+ing how important the WMM features are to performance improve-
+ments. Finally, we compare hu.MAP 2.0 to the HuRi dataset which
+encompasses a 17,500 × 17,500 all-by-all yeast 2-hybrid screen
+(Luck et al, 2020). Yeast 2-hybrid aims to capture only direct
+protein-protein interactions and has previously shown good perfor-
+mance on benchmarks of binary interactors (Luck et al, 2020). Here
+we see HuRi underperforms all other networks when evaluated on
+co-complex interactions likely due to its inability to identify indirect
+physical interactions.
+Recently, a co-regulation map based on protein expression was
+shown to capture relationships among proteins that do not necessar-
+ily interact or co-localize (Kustatscher et al, 2019). This dataset
+therefore provides an independent test of the quality of our protein
+interactions. When we compared the hu.MAP 2.0 interactions to the
+most co-expressing pairs in Kustatcher et al, we see a highly signifi-
+cant overlap (P-value < 10E−10, hypergeometric test) indicating a
+high degree of consistency between the orthogonal datasets.
+hu.MAP 2.0 complex map
+Once we confirmed our protein interaction network was of high
+quality, we then clustered this network using a parameterized two-
+stage clustering algorithm to identify highly connected proteins
+which represent protein complexes. Briefly, the algorithm first filters
+the network based on the confidence score from the SVM classifier
+and then uses the ClusterOne algorithm (Nepusz et al, 2012) to clus-
+ter the thresholded network. ClusterOne often produces large clus-
+ters containing proteins from multiple complexes. To remedy this,
+each resulting cluster is further clustered using the MCL algorithm
+(Enright et al, 2002) (Fig 2B). There are several parameters for each
+algorithm
+that
+require
+optimization
+in
+addition
+to
+an
+SVM
+confidence score threshold of the input network. We therefore take
+an agnostic approach and optimize these parameters by generating
+clusterings for over 1,700 parameter combinations. Each parameter
+combination is evaluated using the k-clique precision-recall perfor-
+mance measure (Drew et al, 2017) comparing the resulting clusters
+from the specific parameter combination with the CORUM-based set
+of training complexes (Fig 2C). The resulting clusterings vary
+substantially with regards to their performance but ultimately show
+a familiar pattern of a trade-off between precision and recall. We
+therefore selected five clusterings that balance the precision-recall
+trade-off. For example, clustering 1 (green) is a set of clusters with
+“extremely high” precision but low recall while clustering 5 (gray)
+is a set of clusters with “medium” precision yet higher recall (Figs
+1A and 2C). This allows us to rank our confidence of a protein
+complex based on its appearance in one of the five clusterings. We
+then combined all five selected clusterings into a union set while
+preserving their precision rank (Dataset EV1).
+To evaluate the union of clusterings that represent our final
+hu.MAP complexes, we again use the k-clique precision-recall
+performance measure but now calculated on the leave-out set of
+test complexes. As shown in Fig 2D, our hu.MAP 2.0 complexes
+balance both precision and recall. Additionally, we see a consistent
+trend of k-clique precision and recall values for our individual clus-
+terings between both the train (Fig 2C) and test sets (Fig 2D). This
+suggests the confidence ranking given to each complex is robust.
+We also observe our final set of complexes outperforms our previ-
+ous hu.MAP 1.0 complexes and other previous state-of-the-art
+complex maps. Taken together, this points to hu.MAP 2.0 complexes
+as being highly accurate and spanning a large portion of all human
+protein assemblies.
+Identification of multifunctional promiscuous proteins
+Now that we have established hu.MAP 2.0 as a highly accurate
+resource of human protein complexes, we can ask questions about
+protein assemblies in a systematic way. Specifically, one systematic
+question we can ask is how prevalent are promiscuous proteins in
+stable protein assemblies? That is, how often do we see proteins
+participating
+in
+multiple
+different
+complexes
+and
+presumably
+performing orthogonal functions (sometimes termed “moonlighting”
+(Chapple et al, 2015; Jeffery, 2015)). We therefore created a non-
+redundant set of complexes (see Materials and Methods) and
+surprisingly identified 253 proteins that participate in multiple
+complexes (Dataset EV2). This is a 53% increase over the same
+analysis if done on hu.MAP 1.0.
+The majority of promiscuous proteins appear only in two
+complexes and the largest number of complexes a protein partici-
+pates in is four, suggesting these are not just “sticky” interactions
+but rather proteins participating in multiple specific complexes. The
+253 proteins constituted nearly 7.5% of proteins in the non-redundant
+set of complexes. This compares to 106 moonlighting human
+proteins identified in the MoonProt database (Mani et al, 2015).
+Additionally, when we compare expression levels from the Human
+Protein Atlas (Uhlen et al, 2015) across tissues of promiscuous
+proteins versus non-promiscuous proteins, we see the bulk of the
+distributions substantially overlaps, suggesting the promiscuous
+proteins do not appear in a greater number of complexes due to
+higher expression levels (Fig EV1).
+4 of 16
+Molecular Systems Biology
+17: e10016 | 2021
+ª 2021 The Authors
+Molecular Systems Biology
+Kevin Drew et al

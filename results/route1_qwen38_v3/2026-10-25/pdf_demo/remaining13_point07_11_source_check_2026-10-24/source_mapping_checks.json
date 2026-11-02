@@ -1,0 +1,81 @@
+[
+  {
+    "point_number": 7,
+    "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+    "evidence_id": "D01:S01",
+    "source_pdf_sha256": "973971a504490433db97e905e8cd9d632150f03bcc746ffebe1c29108d7c0736",
+    "source_pdf_path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC7121484.1\\PMC7121484.1.pdf",
+    "pdf_page": 5,
+    "candidate_char_start": 1623,
+    "candidate_char_end_exclusive": 2236,
+    "source_fragment_sha256": "e3a33edf965cafef323d619e4b2c6f454f36441e0fe6b4ab41ec9c9c32c48f19",
+    "joins": [
+      {
+        "page_char_start": 1810,
+        "page_char_end_exclusive": 1812,
+        "raw": "-\n",
+        "context": "nked to the Huanan Sea-\nfood Wholesale Market ",
+        "source_line_end_word": "Sea-\nfood",
+        "layout_join_proposal": "Seafood",
+        "original_page_image_supports_line_end_join": true,
+        "scope_limit": "Only this exact PDF SHA, page and Unicode half-open character interval",
+        "human_confirmed": null
+      },
+      {
+        "page_char_start": 1904,
+        "page_char_end_exclusive": 1906,
+        "raw": "-\n",
+        "context": "gh zoonotic or environ-\nmental exposures, it i",
+        "source_line_end_word": "environ-\nmental",
+        "layout_join_proposal": "environmental",
+        "original_page_image_supports_line_end_join": true,
+        "scope_limit": "Only this exact PDF SHA, page and Unicode half-open character interval",
+        "human_confirmed": null
+      }
+    ],
+    "image": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\remaining13_point07_11_source_check_2026-10-24\\images\\point07_cited_page05.png",
+    "visual_review_completed": true,
+    "human_acceptance": false,
+    "visual_review_kind": "Original PDF block image inspection in this session; not a human classification or acceptance signature",
+    "image_sha256": "f1e4c3dfca84486741325322677fb9d5a7f7e86114d6c1f866ac95cb3f642abb",
+    "production_parser_changed": false,
+    "model_output_rewritten": false,
+    "reviewer": null,
+    "human_reviewed_at": null,
+    "semantic_accepted": false
+  },
+  {
+    "point_number": 11,
+    "case_id": "r1pdf:976890f040d5c2cab2e50965",
+    "evidence_id": "D01:S04",
+    "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+    "source_pdf_path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC6324056.1\\PMC6324056.1.pdf",
+    "pdf_page": 1,
+    "candidate_char_start": 3828,
+    "candidate_char_end_exclusive": 4385,
+    "source_fragment_sha256": "ea935cc98fdb6b5b449d80e7e38ded2ed4f5f0122c55794ba3b51f7e24d69eb4",
+    "joins": [
+      {
+        "page_char_start": 3935,
+        "page_char_end_exclusive": 3937,
+        "raw": "-\n",
+        "context": " structures plus exper-\nimental data/metadata ",
+        "source_line_end_word": "exper-\nimental",
+        "layout_join_proposal": "experimental",
+        "original_page_image_supports_line_end_join": true,
+        "scope_limit": "Only this exact PDF SHA, page and Unicode half-open character interval",
+        "human_confirmed": null
+      }
+    ],
+    "image": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\remaining13_point07_11_source_check_2026-10-24\\images\\point11_cited_page01.png",
+    "visual_review_completed": true,
+    "human_acceptance": false,
+    "visual_review_kind": "Original PDF block image inspection in this session; not a human classification or acceptance signature",
+    "image_sha256": "82720840c0f0dd0fb14cb46c7351facb318695322870317af3e0d88a726d5181",
+    "production_parser_changed": false,
+    "model_output_rewritten": false,
+    "reviewer": null,
+    "human_reviewed_at": null,
+    "semantic_accepted": false
+  }
+]

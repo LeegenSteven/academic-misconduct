@@ -1,0 +1,122 @@
+Giurgiu M, Reinhard J, Brauner B, Dunger-Kaltenbach I, Fobo G,
+Frishman G, Montrone C, Ruepp A (2019) CORUM: the comprehensive
+resource of mammalian protein complexes-2019. Nucleic Acids Res 47:
+D559–D563
+Goh K-I, Cusick ME, Valle D, Childs B, Vidal M, Barabasi A-L (2007) The
+human disease network. Proc Natl Acad Sci USA 104: 8685–8690
+Gupta G, Coyaud E, Gonçalves J, Mojarad B, Liu Yi, Wu Q, Gheiratmand L,
+Comartin D, Tkach J, Cheung S et al (2015) A Dynamic protein interaction
+landscape of the human centrosome-cilium interface. Cell 163:
+1484–1499
+Guruharsha Kg, Rual J-F, Zhai Bo, Mintseris J, Vaidya P, Vaidya N, Beekman C,
+Wong C, Rhee D, Cenaj O et al (2011) A protein complex network of
+Drosophila melanogaster. Cell 147: 690–703
+Hart GT, Ramani AK, Marcotte EM (2006) How complete are current yeast
+and human protein-interaction networks? Genome Biol 7: 120
+Hart GT, Lee I, Marcotte EM (2007) A high-accuracy consensus map of yeast
+protein complexes reveals modular nature of gene essentiality. BMC
+Bioinformatics 8: 236
+Hartwell LH, Hopfield JJ, Leibler S, Murray AW (1999) From molecular to
+modular cell biology. Nature 402: C47–C52
+Havugimana P, Hart G, Nepusz T, Yang H, Turinsky A, Li Z, Wang P, Boutz D,
+Fong V, Phanse S et al (2012) A census of human soluble protein
+complexes. Cell 150: 1068–1081
+Hein M, Hubner N, Poser I, Cox J, Nagaraj N, Toyoda Y, Gak I, Weisswange I,
+Mansfeld J, Buchholz F et al (2015) A human interactome in three
+quantitative dimensions organized by stoichiometries and abundances.
+Cell 163: 712–723
+Ho Y, Gruhler A, Heilbut A, Bader GD, Moore L, Adams S-L, Millar A, Taylor P,
+Bennett K, Boutilier K et al (2002) Systematic identification of protein
+complexes in Saccharomyces cerevisiae by mass spectrometry. Nature 415:
+180–183
+Huttlin EL, Ting L, Bruckner RJ, Gebreab F, Gygi MP, Szpyt J, Tam S, Zarraga
+G, Colby G, Baltier K et al (2015) The BioPlex network: a systematic
+exploration of the human interactome. Cell 162: 425–440
+Huttlin EL, Bruckner RJ, Paulo JA, Cannon JR, Ting L, Baltier K, Colby G,
+Gebreab F, Gygi MP, Parzen H et al (2017) Architecture of the human
+interactome defines protein communities and disease networks. Nature
+545: 505–509
+Jeffery CJ (2015) Why study moonlighting proteins? Front Genet 6: 211
+Kanehisa M, Goto S, Sato Y, Kawashima M, Furumichi M, Tanabe M (2014)
+Data, information, knowledge and principle: back to metabolism in KEGG.
+Nucleic Acids Res 42: D199–D205
+Kirkwood KJ, Ahmad Y, Larance M, Lamond AI (2013) Characterisation of native
+protein complexes and protein isoform variation using size-fractionation
+based quantitative proteomics. Mol Cell Proteomics 12: 3851–3873
+Köhler S, Doelken SC, Mungall CJ, Bauer S, Firth HV, Bailleul-Forestier I, Black
+GCM, Brown DL, Brudno M, Campbell J et al (2014) The Human
+Phenotype Ontology project: linking molecular biology and disease
+through phenotype data. Nucleic Acids Res 42: D966–D974
+Kristensen AR, Gsponer J, Foster LJ (2012) A high-throughput approach for
+measuring temporal changes in the interactome. Nat Methods 9:
+907–909
+Kustatscher G, Grabowski P, Schrader TA, Passmore JB, Schrader M, Rappsilber
+J (2019) Co-regulation map of the human proteome enables identification
+of protein functions. Nat Biotechnol 37: 1361–1371
+Kwon T, Choi H, Vogel C, Nesvizhskii AI, Marcotte EM (2011) MSblender: a
+probabilistic approach for integrating peptide identifications from multiple
+database search engines. J Proteome Res 10: 2949–2958
+Lee I, Blom UM, Wang PI, Shim JE, Marcotte EM (2011) Prioritizing candidate
+disease genes by network-based boosting of genome-wide association
+data. Genome Res 21: 1109–1121
+Lex A, Gehlenborg N, Strobelt H, Vuillemot R, Pfister H (2014) UpSet:
+visualization of intersecting sets. IEEE Trans Vis Comput Graph 20:
+1983–1992
+Liebeskind BJ, McWhite CD, Marcotte EM (2016) Towards consensus gene
+ages. Genome Biol Evol 8: 1812–1823
+Luck K, Kim D-K, Lambourne L, Spirohn K, Begg BE, Bian W, Brignall R,
+Cafarelli T, Campos-Laborie FJ, Charloteaux B et al (2020) A
+reference map of the human binary protein interactome. Nature 580:
+402–408
+Mallam AL, Sae-Lee W, Schaub JM, Tu F, Battenhouse A, Jang YJ, Kim J,
+Wallingford JB, Finkelstein IJ, Marcotte EM et al (2019) Systematic
+discovery of endogenous human ribonucleoprotein complexes. Cell Rep 29:
+1351–1368.e5
+Malovannaya A, Lanz R, Jung S, Bulynko Y, Le N, Chan D, Ding C, Shi Yi, Yucer
+N, Krenciute G et al (2011) Analysis of the human endogenous coregulator
+complexome. Cell 145: 787–799
+Mani M, Chen C, Amblee V, Liu H, Mathur T, Zwicke G, Zabad S, Patel B,
+Thakkar J, Jeffery CJ (2015) MoonProt: a database for proteins that are
+known to moonlight. Nucleic Acids Res 43: D277–D282
+Mi H, Muruganujan A, Ebert D, Huang X, Thomas PD (2019) PANTHER version
+14: more genomes, a new PANTHER GO-slim and improvements in
+enrichment analysis tools. Nucleic Acids Res 47: D419–D426
+Nepusz T, Yu H, Paccanaro A (2012) Detecting overlapping protein complexes
+in protein-protein interaction networks. Nat Methods 9: 471–472
+Newman MEJ (2004) Fast algorithm for detecting community structure in
+networks. Phys Rev E 69: 066133
+Perez-Riverol Y, Csordas A, Bai J, Bernal-Llinares M, Hewapathirana S, Kundu
+DJ, Inuganti A, Griss J, Mayer G, Eisenacher M et al (2019) The PRIDE
+database and related tools and resources in 2019: improving support for
+quantification data. Nucleic Acids Res 47: D442–D450
+Reijns MAM, Jackson AP (2014) Ribonuclease H2 in health and disease.
+Biochem Soc Trans 42: 717–725
+Reimand J, Arak T, Adler P, Kolberg L, Reisberg S, Peterson H, Vilo J (2016) g:
+Profiler-a web server for functional interpretation of gene lists (2016
+update). Nucleic Acids Res 44: W83–W89
+Saeed R, Deane CM (2006) Protein protein interactions, evolutionary rate,
+abundance and age. BMC Bioinformatics 7: 128
+Saito T, Rehmsmeier M (2015) The precision-recall plot is more informative
+than the ROC plot when evaluating binary classifiers on imbalanced
+datasets. PLoS One 10: e0118432
+Sonnhammer ELL, Östlund G (2015) InParanoid 8: orthology analysis between
+273 proteomes, mostly eukaryotic. Nucleic Acids Res 43: D234–239
+Stoeger T, Gerlach M, Morimoto RI, Amaral LAN (2018) Large-scale
+investigation of the reasons why potentially important genes are ignored.
+PLOS Biol 16: e2006643
+The UniProt Consortium (2017) UniProt: the universal protein knowledgebase.
+Nucleic Acids Res 45: D158–D169
+Treiber T, Treiber N, Plessmann U, Harlander S, Daiß J-L, Eichner N,
+Lehmann G, Schall K, Urlaub H, Meister G (2017) A compendium of
+RNA-binding proteins that regulate microRNA biogenesis. Mol Cell 66:
+270–284.e13
+Uhlen M, Fagerberg L, Hallstrom Bm, Lindskog C, Oksvold P,
+Mardinoglu A, Sivertsson A, Kampf C, Sjostedt E, Asplund A et al (2015)
+Proteomics. Tissue-based map of the human proteome. Science 347:
+1260419
+ª 2021 The Authors
+Molecular Systems Biology
+17: e10016 | 2021
+15 of 16
+Kevin Drew et al
+Molecular Systems Biology

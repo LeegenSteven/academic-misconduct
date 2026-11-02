@@ -1,0 +1,23 @@
+{
+  "version": "r2_point14_quantities_in_primary_scope",
+  "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+  "reason": "将Specifically句的风险比、痴呆终点与参考组并入核查范围，避免仅作指代背景时被忽略；保留所有原数值。",
+  "before_primary": [
+    "For example, a large multi-cohort meta-analysis40 using a PET-based staging scheme very similar to what we describe, found a 40-fold range in hazard ratios (HRs) based on PET stages"
+  ],
+  "before_context": [
+    "Specifically, relative to the A−T2−reference group, the HR for progression from cognitively unimpaired to dementia was 1.5 for A+T2−individuals (stage A in our scheme), HR 5.6 for A+ individuals with tau PET uptake confined to the medial temporal lobe (stage B in our scheme), and HR 39.9 for A+ individuals with neocortical tau PET uptake (stages C and D in our scheme)."
+  ],
+  "after_primary": [
+    "For example, a large multi-cohort meta-analysis40 using a PET-based staging scheme very similar to what we describe, found a 40-fold range in hazard ratios (HRs) based on PET stages",
+    "Specifically, relative to the A−T2−reference group, the HR for progression from cognitively unimpaired to dementia was 1.5 for A+T2−individuals (stage A in our scheme), HR 5.6 for A+ individuals with tau PET uptake confined to the medial temporal lobe (stage B in our scheme), and HR 39.9 for A+ individuals with neocortical tau PET uptake (stages C and D in our scheme)."
+  ],
+  "after_context": [],
+  "same_source_fragments": true,
+  "same_BM25_term_multiset_and_candidates_and_scores": true,
+  "changed_stage_fingerprints": 2,
+  "other_points_changed": 0,
+  "human_label": null,
+  "model_run": false,
+  "parent_summary_sha256": "2d0ce10fd8e74196f1fb07b71c799b63c65252b039d6ce66dd65d1fb019920c8"
+}

@@ -1,0 +1,122 @@
+Articles
+1054	
+www.thelancet.com   Vol 395   March 28, 2020
+Clinical course and risk factors for mortality of adult 
+inpatients with COVID-19 in Wuhan, China: a retrospective 
+cohort study
+Fei Zhou*, Ting Yu*, Ronghui Du*, Guohui Fan*, Ying Liu*, Zhibo Liu*, Jie Xiang*, Yeming Wang, Bin Song, Xiaoying Gu, Lulu Guan, Yuan Wei, 
+Hui Li, Xudong Wu, Jiuyang Xu, Shengjin Tu, Yi Zhang, Hua Chen, Bin Cao
+Summary
+Background Since December, 2019, Wuhan, China, has experienced an outbreak of coronavirus disease 2019 
+(COVID-19), caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Epidemiological and 
+clinical characteristics of patients with COVID-19 have been reported but risk factors for mortality and a detailed 
+clinical course of illness, including viral shedding, have not been well described.
+Methods In this retrospective, multicentre cohort study, we included all adult inpatients (≥18 years old) with laboratory-
+confirmed COVID-19 from Jinyintan Hospital and Wuhan Pulmonary Hospital (Wuhan, China) who had been 
+discharged or had died by Jan 31, 2020. Demographic, clinical, treatment, and laboratory data, including serial 
+samples for viral RNA detection, were extracted from electronic medical records and compared between survivors 
+and non-survivors. We used univariable and multivariable logistic regression methods to explore the risk factors 
+associated with in-hospital death.
+Findings 191 patients (135 from Jinyintan Hospital and 56 from Wuhan Pulmonary Hospital) were included in this 
+study, of whom 137 were discharged and 54 died in hospital. 91 (48%) patients had a comorbidity, with hypertension 
+being the most common (58 [30%] patients), followed by diabetes (36 [19%] patients) and coronary heart disease 
+(15 [8%] patients). Multivariable regression showed increasing odds of in-hospital death associated with older age 
+(odds ratio 1·10, 95% CI 1·03–1·17, per year increase; p=0·0043), higher Sequential Organ Failure Assessment (SOFA) 
+score (5·65, 2·61–12·23; p<0·0001), and d-dimer greater than 1 µg/mL (18·42, 2·64–128·55; p=0·0033) on admission. 
+Median duration of viral shedding was 20·0 days (IQR 17·0–24·0) in survivors, but SARS-CoV-2 was detectable until 
+death in non-survivors. The longest observed duration of viral shedding in survivors was 37 days.
+Interpretation The potential risk factors of older age, high SOFA score, and d-dimer greater than 1 µg/mL could help 
+clinicians to identify patients with poor prognosis at an early stage. Prolonged viral shedding provides the rationale 
+for a strategy of isolation of infected patients and optimal antiviral interventions in the future.
+Funding Chinese Academy of Medical Sciences Innovation Fund for Medical Sciences; National Science Grant for 
+Distinguished Young Scholars; National Key Research and Development Program of China; The Beijing Science and 
+Technology Project; and Major Projects of National Science and Technology on New Drug Creation and Development.
+Copyright © 2020 Elsevier Ltd. All rights reserved.
+Introduction
+In December, 2019, Wuhan city, the capital of Hubei 
+province in China, became the centre of an outbreak of 
+pneumonia of unknown cause. By Jan 7, 2020, Chinese 
+scientists had isolated a novel coronavirus, severe acute 
+respiratory syndrome coronavirus 2 (SARS-CoV-2; previ­
+ously known as 2019-nCoV), from these patients with 
+virus-infected pneumonia,1,2 which was later designated 
+coronavirus disease 2019 (COVID-19) in February, 2020, 
+by WHO.3
+Although the outbreak is likely to have started from a 
+zoonotic transmission event associated with a large 
+seafood market that also traded in live wild animals, it 
+soon became clear that efficient person-to-person trans­
+mission was also occurring.4 The clinical spectrum of 
+SARS-CoV-2 infection appears to be wide, encompassing 
+asymptomatic infection, mild upper respiratory tract 
+illness, and severe viral pneumonia with respiratory 
+failure and even death, with many patients being 
+hospitalised with pneumonia in Wuhan.5–7 Although some 
+case series have been published, many patients in these 
+series remained hospitalised at time of publication. To our 
+knowledge, no previous studies have been done among 
+patients with definite outcomes. The estimation of risk 
+factors for severe disease and death in these earlier case 
+series are therefore not very robust. Additionally, details of 
+the clinical and virological course of illness have not yet 
+been well described.
+Here, we present details of all patients admitted 
+to the two designated hospitals in Wuhan—Jinyintan 
+Hospital and Wuhan Pulmonary Hospital—with labo­
+ratory-confirmed COVID-19 and a definite clinical 
+Lancet 2020; 395: 1054–62
+Published Online 
+March 9, 2020 
+https://doi.org/10.1016/ 
+S0140-6736(20)30566-3
+See Comment page 1014
+This online publication has been 
+corrected. The corrected version 
+first appeared at thelancet.com 
+on March 12, 2020
+*Contributed equally
+Department of Pulmonary and 
+Critical Care Medicine, Center of 
+Respiratory Medicine, National 
+Clinical Research Center for 
+Respiratory Diseases, Institute 
+of Respiratory Medicine, 
+Chinese Academy of Medical 
+Sciences, Peking Union Medical 
+College, Beijing, China 
+(F Zhou MD, G Fan MS, Z Liu MD, 
+Y Wang MD, X Gu PhD, H Li MD, 
+Y Zhang MD, Prof B Cao MD); 
+Department of Tuberculosis and 
+Respiratory Disease (T Yu MD, 
+Y Liu MD, B Song MS, Y Wei MS, 
+S Tu MD, Prof H Chen MD) and 
+Department of Clinical 
+Laboratory (J Xiang MS), and 
+GCP Center (X Wu MS), Jinyintan 
+Hospital, Wuhan, China; 
+Department of Pulmonary and 
+Critical Care Medicine, Wuhan 
+Pulmonary Hospital, Wuhan, 
+China (R Du MD, L Guan MD); 
+Department of Pulmonary and 
+Critical Care Medicine 
+(Prof B Cao) and Institute of 
+Clinical Medical Sciences (G Fan, 
+X Gu), China-Japan Friendship 
+Hospital, Beijing, China; 
+Department of Respiratory 
+Medicine, Capital Medical 
+University, Beijing, China 
+(Y Wang, Prof B Cao); and 
+Tsinghua University School of 
+Medicine, Beijing, China 
+(J Xu MD, Prof B Cao)
+Correspondence to: 
+Prof Bin Cao, Department of 
+Pulmonary and Critical Care 
+Medicine, China-Japan 
+Friendship Hospital, Beijing 
+100029, China 
+caobin_ben@163.com
+or

@@ -1,0 +1,123 @@
+The process is complete when the overlapping region no longer
+reaches into the adapters (D).
+The main advantage of palindrome mode is the longer align-
+ment length, which ensures that the adapters can be reliably de-
+tected, even in the presence of read errors or where only a small
+number of adapter bases are present. If required, palindrome
+mode can be used to remove even a single adapter base, while
+retaining a low false-positive rate. We are aware of one other
+tool, AdapterRemoval (Lindgreen, 2012), which independently
+developed a similar approach.
+Note, however, because palindrome is limited to the detection
+of adapter read-through, a comprehensive strategy requires the
+combination of both simple and palindrome modes.
+2.1.3 Alignment detection and scoring
+The algorithmic ap-
+proach used for technical sequence alignments is somewhat un-
+usual, avoiding the precalculated indexes often used in NGS
+alignments (Li and Homer, 2010).
+Initial sequence comparisons are done using a 16-base frag-
+ment from each sequence. The 16 bases are converted to the 64-
+bit integer, known as the seed, using a 4-bit code for each base:
+A ¼ 0001, T ¼ 0010, C ¼ 0100 and T ¼ 1000. These seeds are then
+compared using a bitwise-XOR, which determines which bits
+differ between the two seeds. This will result in a 0000 code for
+each matching base, and a code with two 1 s for each mismatch,
+e.g. 0011 for an A-T mismatch, as XOR(0001,0010)¼ 0011. The
+‘1’s within this result are then counted using the ‘popcount’ op-
+eration, and this count will be exactly twice the number of dif-
+fering bases for the 16-base fragments.
+If the seeds are within the user-specified distance, the full align-
+ment scoring algorithm is used. Matching bases are scored as
+log10 4, which is 0.602, while mismatches are penalized depend-
+ing on their quality score, by Q=10, which can thus vary from 0
+to 4. This results in a higher penalty for bases that are believed to
+be highly accurate.
+‘Simple’ mode aligns each read against each technical se-
+quence, using local alignment. This is implemented by finding
+the highest scoring region within the alignment, and thus may
+omit divergent regions on the ends.
+‘Palindrome’ mode aligns the forward and reverse reads, com-
+bined with their adapter sequences. It uses global alignment,
+which is the total alignment score of the overlapping region.
+2.2
+Quality filtering
+Trimmomatic offers two main quality filtering alternatives. Both
+approaches exploit the Illumina quality score of each base pos-
+ition to determine where the read should be cut, resulting in the
+retention of the 50 portion, while the sequence on the 30 of the cut
+point is discarded. This fits well with typical Illumina data, which
+generally have poorer quality toward the 30 end. These two
+approaches are described in the following sections.
+2.2.1 Sliding Window quality filtering
+The Sliding Window uses
+a relatively standard approach. This works by scanning from the
+50 end of the read, and removes the 30 end of the read when the
+average quality of a group of bases drops below a specified
+threshold. This prevents a single weak base causing the removal
+of subsequent high-quality data, while still ensuring that a con-
+secutive series of poor-quality bases will trigger trimming.
+2.2.2 Maximum Information quality filtering
+A novel alternative
+approach was motivated by the realization that, for many appli-
+cations, the incremental value of retaining additional bases in a
+read is related to the read length. Intuitively, it is clear that short
+reads are almost worthless because they occur multiple times
+within the target sequence and thus they give only ambiguous
+information. Even at the risk of introducing errors, it is worth-
+while to retain additional low-quality bases early in a read, so that
+the trimmed read is sufficiently long to be informative.
+However, beyond a certain read length, retaining additional
+bases is less beneficial, and may even be detrimental. Reads of
+moderate length are likely to be already informative and, de-
+pending on the task at hand, can be almost as valuable as full-
+length reads. Therefore, the smaller potential benefit of retaining
+additional bases must be balanced against the increasing risk of
+retaining errors, which could cause the existing read value to be
+lost.
+As such, it is worthwhile for the trimming process to become
+increasingly strict as it progresses through the read, rather than
+to apply a fixed quality threshold. To the best of our knowledge,
+this approach has not been applied in any existing tools.
+The ‘Maximum Information’ quality filtering approach imple-
+ments this adaptive approach. It uses a combination of three
+factors to determine how much of each read should be retained.
+The first factor models the ‘length threshold’ concept, whereby
+a read must be of at least a minimal length to be useful for the
+downstream application. As described above, very short reads
+have little value, as they are too ambiguous to be informative.
+On the other hand, most long reads can be mapped to few loca-
+tions in the target sequence. If they cannot be uniquely mapped,
+because of them originating in a repetitive region, it is unlikely
+that a small number of additional bases will resolve this. For reads
+between these extremes, the marginal benefit of a small number of
+additional bases is considerable, as these extra bases may make the
+difference between an ambiguous and an informative read.
+A logistic curve was chosen to implement this scoring behav-
+ior, as it gives a relatively flat score for extreme values, while
+providing a steep transition around the user-specified threshold
+point. Given a target length t, the putative trimming to length l
+would give a length threshold score:
+ScoreLTðlÞ ¼
+1
+1 þ etl
+ð
+Þ
+The second factor models ‘coverage’, and provides a linear
+score based on retained sequence length:
+ScoreCovðlÞ ¼ l
+This reflects that, given reasonably high-accuracy bases, a
+longer read contains more information that is useful for most
+applications.
+The final factor models the ‘error rate’, and uses the error
+probabilities from the read quality scores to determine the accu-
+mulated likelihood of errors over the read. To calculate this
+score, we simply take the product of the probabilities that each
+base is correct, giving:
+ScoreErrðlÞ ¼
+Y
+l
+i¼1
+Pcorr½i
+2116
+A.M.Bolger et al.

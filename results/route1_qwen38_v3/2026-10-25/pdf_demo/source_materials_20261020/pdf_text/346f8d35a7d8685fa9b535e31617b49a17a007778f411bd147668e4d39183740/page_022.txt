@@ -1,0 +1,132 @@
+5164
+JACK ET AL.
+assessment of Alzheimer disease neuropathologic changes. JAMA
+Neurol. 2020;77:829-839.
+16. Villemagne VL, Lopresti BJ, Dore V, et al. What is T+? A gordian knot
+of tracers, thresholds, and topographies. J Nucl Med. 2021;62:614-
+619.
+17. Palmqvist S, Mattsson N, Hansson O. Cerebrospinal fluid analysis
+detects cerebral amyloid-beta accumulation earlier than positron
+emission tomography. Brain. 2016;139:1226-1236.
+18. Fagan AM, Mintun MA, Mach RH, et al. Inverse relation between
+in vivo amyloid imaging load and cerebrospinal fluid Abeta42 in
+humans. Ann Neurol. 2006;59:512-519.
+19. Schindler SE, Gray JD, Gordon BA, et al. Cerebrospinal fluid biomark-
+ers measured by Elecsys assays compared to amyloid imaging.
+Alzheimers Dement. 2018;14:1460-1469.
+20. Landau SM, Lu M, Joshi AD, et al. Comparing positron emission
+tomography imaging and cerebrospinal fluid measurements of beta-
+amyloid. Ann Neurol. 2013;74:826-836.
+21. Barthelemy NR, Li Y, Joseph-Mathurin N, et al. A soluble phospho-
+rylated tau signature links tau, amyloid and the evolution of stages
+of dominantly inherited Alzheimer’s disease. Nat Med. 2020;26:398-
+407.
+22. Janelidze S, Berron D, Smith R, et al. Associations of Plasma Phospho-
+Tau217 levels with tau positron emission tomography in early
+Alzheimer disease. JAMA Neurol. 2021;78:149-156.
+23. Mattsson-Carlgren N, Andersson E, Janelidze S, et al. Aβ deposi-
+tion is associated with increases in soluble and phosphorylated tau
+that precede a positive Tau PET in Alzheimer’s disease. Sci Adv.
+2020;6:eaaz2387.
+24. Therriault J, Vermeiren M, Servaes S, et al. Association of phospho-
+rylated tau biomarkers with amyloid positron emission tomography
+vs tau positron emission tomography. JAMA Neurol. 2023;80:188-
+199.
+25. Sato C, Barthelemy NR, Mawuenyega KG, et al. Tau kinetics in neu-
+rons and the human central nervous system. Neuron. 2018;98:861-
+864.
+26. Mattsson-Carlgren N, Janelidze S, Bateman RJ, et al. Soluble P-
+tau217 reflects amyloid and tau pathology and mediates the associa-
+tion of amyloid with tau. EMBO Mol Med. 2021;13:e14022.
+27. Pichet Binette A, Franzmeier N, Spotorno N, et al. Amyloid-
+associated increases in soluble tau relate to tau aggregation rates
+and cognitive decline in early Alzheimer’s disease. Nat Commun.
+2022;13:6635.
+28. Horie K, Barthelemy NR, Spina S, et al. CSF tau microtubule-binding
+region identifies pathological changes in primary tauopathies. Nat
+Med. 2022;28:2547-2554.
+29. Salvado G, Horie K, Barthelemy NR, et al. Novel CSF tau biomark-
+ers can be used for disease staging of sporadic Alzheimer’s disease.
+medRxiv. 2023. Online Ahead of Print.
+30. Salvado G, Ossenkoppele R, Ashton NJ, et al. Specific associations
+between plasma biomarkers and postmortem amyloid plaque and tau
+tangle loads. EMBO Mol Med. 2023;15:e17123.
+31. TeunissenCE,VerberkIMW,ThijssenEH,etal.Blood-basedbiomark-
+ers for Alzheimer’s disease: towards clinical implementation. Lancet
+Neurol. 2022;21:66-77.
+32. Hansson O. Biomarkers for neurodegenerative diseases. Nat Med.
+2021;27:954-963.
+33. Hansson O, Blennow K, Zetterberg H, Dage J. Blood biomarkers
+for Alzheimer’s disease in clinical practice and trials. Nat Aging.
+2023;3:506-519.
+34. Schindler S, Galasko D, Pereira A, et al. I use in symptomatic patients:
+recommendations from the Global CEO Initiative on Alzheimer’s
+Disease. Nature Rev Neurol. 2024.
+35. Jack CR Jr., Wiste HJ, Botha H, et al. The bivariate distribution of
+amyloid-beta and tau: relationship with established neurocognitive
+clinical syndromes. Brain. 2019;142:3230-3242.
+36. Costoya-Sanchez A, Moscoso A, Silva-Rodriguez J, et al. Increased
+medial temporal tau positron emission tomography uptake in the
+absence of amyloid-beta positivity. JAMA Neurol. 2023;80:1051-
+1061.
+37. Jack CR Jr., Knopman DS, Chetelat G, et al. Suspected non-Alzheimer
+disease pathophysiology – concept and controversy. Nat Rev Neurol.
+2016;12:117-124.
+38. Erickson P, Simren J, Brum WS, et al. Prevalence and clinical impli-
+cations of a β-amyloid-negative, tau-positive cerebrospinal fluid
+biomarker profile in Alzheimer disease. JAMA Neurol. 2023;80:969-
+979.
+39. Jack CR Jr., Wiste HJ, Weigand SD, et al. Age-specific population
+frequencies of cerebral beta-amyloidosis and neurodegeneration
+among people with normal cognitive function aged 50-89 years: a
+cross-sectional study. The Lancet Neurology. 2014;13:997-1005.
+40. Ossenkoppele R, Pichet Binette A, Groot C, et al. Amyloid and tau
+PET-positive cognitively unimpaired individuals are at high risk for
+future cognitive decline. Nat Med. 2022;28:2381-2387.
+41. Landau SM, Mormino EC. Tau pathology without Aβ-A limited PART
+of clinical progression. JAMA Neurol. 2023;80:1025-1027.
+42. Crary JF, Trojanowski JQ, Schneider JA, et al. Primary age-related
+tauopathy (PART): a common pathology associated with human
+aging. Acta Neuropathol. 2014;128:755-766.
+43. Mintun MA, Larossa GN, Sheline YI, et al. [11C]PIB in a non-
+demented population: potential antecedent marker of Alzheimer
+disease. Neurology. 2006;67:446-452.
+44. Aizenstein HJ, Nebes RD, Saxton JA, et al. Frequent amyloid deposi-
+tion without significant cognitive impairment among the elderly. Arch
+Neurol. 2008;65:1509-1517.
+45. Jack CR Jr., Lowe VJ, Senjem ML, et al. 11C PiB and structural MRI
+provide complementary information in imaging of Alzheimer’s dis-
+ease and amnestic mild cognitive impairment. Brain. 2008;131:665-
+680.
+46. Bateman RJ, Xiong C, Benzinger TL, et al. Clinical and biomarker
+changes in dominantly inherited Alzheimer’s disease. New Engl J Med.
+2012;367:795-804.
+47. Benzinger TL, Blazey T, Jack CR Jr., et al. Regional variability of imag-
+ing biomarkers in autosomal dominant Alzheimer’s disease. Proc Natl
+Acad Sci U S A. 2013;110:E4502-4509.
+48. Li Y, Yen D, Hendrix RD, et al. Timing of biomarker changes in spo-
+radic Alzheimer’s disease in estimated years from symptom onset.
+Ann Neurol. 2024;95:951-965.
+49. Guo T, Korman D, Baker SL, Landau SM, Jagust WJ, Alzheimer’s
+Disease Neuroimaging I. Longitudinal cognitive and biomarker mea-
+surements support a unidirectional pathway in Alzheimer’s disease
+pathophysiology. Biol Psychiatry. 2021;89:786-794.
+50. Jia J, Ning Y, Chen M, et al. Biomarker changes during 20 years
+preceding Alzheimer’s disease. N Engl J Med. 2024;390:712-722.
+51. Jack CR Jr., Lowe VJ, Weigand SD, et al. Serial PIB and MRI in nor-
+mal, mild cognitive impairment and Alzheimer’s disease: implications
+for sequence of pathological events in Alzheimer’s disease. Brain.
+2009;132:1355-1365.
+52. Brookmeyer R, Evans DA, Hebert L, et al. National estimates of the
+prevalence of Alzheimer’s disease in the United States. Alzheimers
+Dement. 2011;7:61-73.
+53. Jack CR Jr., Therneau TM, Lundt ES, et al. Long-term associations
+between amyloid positron emission tomography, sex, apolipopro-
+tein E and incident dementia and mortality among individuals
+without dementia: hazard ratios and absolute risk. Brain Commun.
+2022;4:fcac017.
+54. Lott IT, Head E. Dementia in Down syndrome: unique insights for
+Alzheimer disease research. Nat Rev Neurol. 2019;15:135-147.
+55. Iulita MF, Garzon Chavez D, Klitgaard Christensen M, et al. Associ-
+ation of Alzheimer disease with life expectancy in people with down
+syndrome. JAMA Netw Open. 2022;5:e2212910.

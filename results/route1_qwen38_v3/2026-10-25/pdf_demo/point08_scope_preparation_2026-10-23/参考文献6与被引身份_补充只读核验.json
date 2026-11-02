@@ -1,0 +1,120 @@
+{
+  "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+  "reference_number": 6,
+  "target_reference_id": "B6",
+  "reference_fragment": {
+    "pdf_page": 7,
+    "char_start": 5396,
+    "char_end_exclusive": 5603,
+    "raw_text": "6. Drew,K., Wallingford,J.B. and Marcotte,E.M. (2021) hu.MAP 2.0:\nintegration of over 15, 000 proteomic experiments builds a global\ncompendium of human multiprotein assemblies. Mol. Syst. Biol., 17,\ne10016.\n",
+    "raw_text_sha256": "7166cb0dbcae291ead62fe3072aaa43dec7ac0be32c761a0b83ea6d9f3e863e9",
+    "source_blocks": [
+      {
+        "block_number": 16,
+        "bbox": [
+          313.204,
+          467.884,
+          554.063,
+          735.941
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_title_fragment": {
+    "pdf_page": 1,
+    "char_start": 8,
+    "char_end_exclusive": 128,
+    "raw_text": "hu.MAP 2.0: integration of over 15,000 proteomic\nexperiments builds a global compendium of human\nmultiprotein assemblies",
+    "raw_text_sha256": "38efe6db3f725ca7accfa900178b6d2b06a46a58d963f81e619bfb8775db4544",
+    "source_blocks": [
+      {
+        "block_number": 2,
+        "bbox": [
+          42.52,
+          103.615,
+          550.072,
+          183.884
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_doi_fragment": {
+    "pdf_page": 1,
+    "char_start": 1530,
+    "char_end_exclusive": 1556,
+    "raw_text": "DOI 10.15252/msb.202010016",
+    "raw_text_sha256": "517e8cd879ef470f5dc84d2b04f12c268f2d15efb1b6b0f471e56bac3d85d882",
+    "source_blocks": [
+      {
+        "block_number": 10,
+        "bbox": [
+          42.52,
+          530.734,
+          282.777,
+          538.389
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "matching_fields": [
+    "title",
+    "authors",
+    "2021",
+    "Mol Syst Biol",
+    "17:e10016"
+  ],
+  "title_comparison": "whitespace-compacted and case-insensitive for bibliographic identity only",
+  "doi_in_citing_reference_entry": false,
+  "doi_in_cited_title_page": "10.15252/msb.202010016",
+  "added_to_model_candidates": false,
+  "cited_doi_and_journal_preview_fragment": {
+    "pdf_page": 1,
+    "char_start": 1530,
+    "char_end_exclusive": 1665,
+    "raw_text": "DOI 10.15252/msb.202010016 | Received 23 September 2020 | Revised 8 April\n2021 | Accepted 9 April 2021\nMol Syst Biol. (2021) 17: e10016",
+    "raw_text_sha256": "3ccc3d02ddef7b880c493df9cefec6efddf1ef9c5342bc589c85b52aa951677b",
+    "source_blocks": [
+      {
+        "block_number": 10,
+        "bbox": [
+          42.52,
+          530.734,
+          282.777,
+          538.389
+        ]
+      },
+      {
+        "block_number": 11,
+        "bbox": [
+          42.52,
+          542.072,
+          130.891,
+          549.722
+        ]
+      },
+      {
+        "block_number": 12,
+        "bbox": [
+          42.52,
+          553.411,
+          153.014,
+          561.066
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_title_page_authors_read": [
+    "Kevin Drew",
+    "John B Wallingford",
+    "Edward M Marcotte"
+  ],
+  "cited_journal_line_read": "Mol Syst Biol. (2021) 17: e10016"
+}

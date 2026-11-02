@@ -1,0 +1,27 @@
+{
+  "recorded_client_date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T06:59:46.329851+00:00",
+  "test_command": "python -m unittest -v test_pdf_quote_mapping_trial_v1",
+  "working_directory": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\code\\ly",
+  "tests_run": 21,
+  "tests_passed": 21,
+  "tests_failed": 0,
+  "test_source_sha256": "95c83ac1da14c50dbeee84fdcaa5d0e94b6500c1945cf1d896709d1bf1dbd272",
+  "mapper_sha256": "238b8f70418acf9809e34bdea132f4fba5863cd5227e4d85732c425b86c0bec0",
+  "verified_boundaries": [
+    "changed numbers rejected",
+    "internal negation deletion rejected",
+    "changed words rejected",
+    "minus sign retained",
+    "numeric line-hyphen not joined",
+    "inline lexical hyphen not deleted",
+    "repeated and overlapping matches ambiguous",
+    "citation numbers not removed",
+    "case not folded",
+    "only complete outer json fence unwrapped",
+    "line-end ASCII hyphen deletion requires review"
+  ],
+  "test_result_source": "本会话实际unittest工具返回，21项通过；此处为记录，不冒充独立第三方测试。",
+  "GPU_used": false,
+  "new_model_run": false
+}

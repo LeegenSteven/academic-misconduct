@@ -1,0 +1,958 @@
+{
+  "version": "route1_pdf_Li_individual_scheme_confirmation_20261025",
+  "reviewer": "李云",
+  "confirmation_date": "2026-10-25",
+  "exact_confirmation_time": null,
+  "recorded_at_utc": "2026-10-25T02:44:04.636172+00:00",
+  "source_kind": "User explicit reply to immediately preceding disclosed scheme in this conversation",
+  "original_user_reply": "认可",
+  "preceding_scheme_normalized_transcription": "下一步先集中确认你的个人意见。按项目规则，这一步需要你明确认可，才能登记为李云意见。\n8、9、17、18、19：ACCURATE。\n13：保留“倾向NOT_ACCURATE”，原理由需修订。\n10：全文补证下有条件支持ACCURATE，限该tau PET研究范围。\n12：全文补证下有条件支持ACCURATE，限部分病例的定性重症相似。\n7、11、14、16、20：继续待核，不强行填标签。\n分类认可不等于原解释通过；全文补证也不改变原冻结运行结果。",
+  "transcription_is_normalized_not_verbatim_full_message": true,
+  "confirmation_mode": "Acknowledgement of disclosed assisted proposals; no independent blind review or personal PDF re-reading claimed.",
+  "items": [
+    {
+      "point_number": 7,
+      "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+      "status": "confirmed_continue_pending",
+      "confirmed_frozen_candidate_label": null,
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": null,
+      "conditions": null,
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "559786367f6f363da3acc80e73461767abc0e078908bc0a551caf42a1311fd28",
+      "current_explainer_input_sha256": "ce9aafeddc0ecf5d5e4f7085911fd9368edb4c8bd4a3e1686232ffd0d7db0097",
+      "current_response_sha256": "e9488699df083b96ec983818e07248fefb56d81618ed83f9f07ba95d67ae3664",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": null,
+        "suggestion_strength": "unresolved_no_forced_label",
+        "reason_recommendation": "待核",
+        "basis": "原理由的缺口说明可保留；摘录未完整覆盖活体野生动物和efficient，不能据部分支持通过全句。",
+        "current_raw_output_sha256": "e9488699df083b96ec983818e07248fefb56d81618ed83f9f07ba95d67ae3664",
+        "current_explainer_input_sha256": "ce9aafeddc0ecf5d5e4f7085911fd9368edb4c8bd4a3e1686232ffd0d7db0097",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S01",
+            "source_pdf_sha256": "973971a504490433db97e905e8cd9d632150f03bcc746ffebe1c29108d7c0736",
+            "pdf_pages": [
+              5
+            ],
+            "candidate_model_text_sha256": "e3a33edf965cafef323d619e4b2c6f454f36441e0fe6b4ab41ec9c9c32c48f19"
+          },
+          {
+            "evidence_id": "D01:S03",
+            "source_pdf_sha256": "973971a504490433db97e905e8cd9d632150f03bcc746ffebe1c29108d7c0736",
+            "pdf_pages": [
+              2
+            ],
+            "candidate_model_text_sha256": "ee4160c63bec78276eb176c1d4cd3fce7b2aea57cbd964fe915798b31136b873"
+          },
+          {
+            "evidence_id": "D01:S06",
+            "source_pdf_sha256": "973971a504490433db97e905e8cd9d632150f03bcc746ffebe1c29108d7c0736",
+            "pdf_pages": [
+              3
+            ],
+            "candidate_model_text_sha256": "fb50add39a7cb68f6f971a94fb054cb0f3b852f9d09d7452b154511d1a139225"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": null,
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 8,
+      "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+      "status": "confirmed_current_candidate_label",
+      "confirmed_frozen_candidate_label": "ACCURATE",
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": null,
+      "conditions": null,
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "23b738f0c5b23c9e0e3b00b86f4d9fb3778a58e8750e96cfcd0973195024ef03",
+      "current_explainer_input_sha256": "2f74a1d84f6467c7fad918e71164b614c69d4737d7d37930999204d32a2b17c3",
+      "current_response_sha256": "88df51de0545564961e6180bd8e79a4812be262a684462a58fb76a246c9600df",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": "ACCURATE",
+        "suggestion_strength": "supported_with_stated_limits",
+        "reason_recommendation": "核心解释可支持",
+        "basis": "共分级被列为识别复合物的补充途径，支持技术进展的定性表述；不要求原句未承诺的任意精度或全网覆盖。",
+        "current_raw_output_sha256": "88df51de0545564961e6180bd8e79a4812be262a684462a58fb76a246c9600df",
+        "current_explainer_input_sha256": "2f74a1d84f6467c7fad918e71164b614c69d4737d7d37930999204d32a2b17c3",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S02",
+            "source_pdf_sha256": "44e211a76583c5a89452e7f404dfd3d46130e1540d0b26c1b427d30876e75a33",
+            "pdf_pages": [
+              1
+            ],
+            "candidate_model_text_sha256": "d889ec75759346a5355685eb81390443feda3440442cbfc5667eddddc0a336cb"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": null,
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 9,
+      "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+      "status": "confirmed_current_candidate_label",
+      "confirmed_frozen_candidate_label": "ACCURATE",
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": null,
+      "conditions": null,
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "aea5ae624db6f396a45f4f95e1e43a381ada6edb69abb10377749c78afb0c9fc",
+      "current_explainer_input_sha256": "837773864546111dc8bd6cafbc0d0c98cc354bab8adbe1a0238064204477a1e1",
+      "current_response_sha256": "579825969c77c8aadd25875481ece53c38f531ab9d59bb54a386cc0de2a4678a",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": "ACCURATE",
+        "suggestion_strength": "supported_with_stated_limits",
+        "reason_recommendation": "核心解释可支持；年份另列",
+        "basis": "ATX(N)及未来新类别含义直接对应；2018年身份复用既有首页核对，不向模型输入补写元数据。",
+        "current_raw_output_sha256": "579825969c77c8aadd25875481ece53c38f531ab9d59bb54a386cc0de2a4678a",
+        "current_explainer_input_sha256": "837773864546111dc8bd6cafbc0d0c98cc354bab8adbe1a0238064204477a1e1",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S01",
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "pdf_pages": [
+              39
+            ],
+            "candidate_model_text_sha256": "026ca3ac3f6bf01eb755ce24e66817fd109d18634c605687c5a2b5ad6c04d6f1"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": null,
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 10,
+      "case_id": "r1pdf:1dfa922c755ed870245927e3",
+      "status": "confirmed_supplemental_fulltext_conditional_opinion",
+      "confirmed_frozen_candidate_label": null,
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": "ACCURATE",
+      "conditions": "仅限该tau PET研究范围；全文补证与原冻结候选结果分报。",
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "040b7f1cd7edb051aeac419834c6f1ac6c366aaac3dceebd216976097d8bf8c2",
+      "current_explainer_input_sha256": "191d8032203d351268ed39f319f17b041f22a5c27863323f19eb1e61ad0df839",
+      "current_response_sha256": "09dfaee5dcce1a787b208274c8e49a8bf526e70e190e659922d28de15d1e277e",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": null,
+        "suggestion_strength": "unresolved_no_forced_label",
+        "reason_recommendation": "无完整解释，保持证据不足",
+        "basis": "其他条件下的稀少性或脱离列头的数字不能代证目标组合；不因证据不足填IRRELEVANT。",
+        "current_raw_output_sha256": "09dfaee5dcce1a787b208274c8e49a8bf526e70e190e659922d28de15d1e277e",
+        "current_explainer_input_sha256": "191d8032203d351268ed39f319f17b041f22a5c27863323f19eb1e61ad0df839",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S03",
+            "source_pdf_sha256": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34",
+            "pdf_pages": [
+              2
+            ],
+            "candidate_model_text_sha256": "c1e1252c33f611bdbfb42d8f6729eb1c4c1a20bd2997c8f6df01fef6d36b603d"
+          },
+          {
+            "evidence_id": "D01:S05",
+            "source_pdf_sha256": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34",
+            "pdf_pages": [
+              2
+            ],
+            "candidate_model_text_sha256": "0057ee006150fc8ec4c3f87e7574a50c5baaedc1f1d0892bf1b2f51cfd045dda"
+          },
+          {
+            "evidence_id": "D01:S06",
+            "source_pdf_sha256": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34",
+            "pdf_pages": [
+              3
+            ],
+            "candidate_model_text_sha256": "6f83a80b6e8b03ace9695ad7abfe9db6fc9b687cceff0714b06bc397ea20e741"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": {
+        "fulltext_advice_label": "ACCURATE",
+        "fulltext_advice": "可提出有条件ACCURATE建议：tau PET分支、该研究人群",
+        "finding": "全文报告1325名基线认知未受损参与者，A−T+组34人，约2.6%；Methods直接称该组比其他组小。施引论文Table 1把tau PET列入T2影像分支。",
+        "remaining_question": "确认仅以tau PET研究支持定性“稀少”；不能把34/1325当作普通人群患病率，不能据此覆盖所有T2体液指标或新增数值标签规则。",
+        "evidence": [
+          {
+            "source_pdf": {
+              "path_relative_to_workspace": "10.19-11.2/路线一PDF独立清单_20261020/sources/PMC9671808.1/PMC9671808.1.pdf",
+              "file_sha256": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34"
+            },
+            "pdf_page": 2,
+            "char_start": 1230,
+            "char_end_exclusive": 1298,
+            "raw_text": "We included 1,325 cognitively unimpaired participants from 7 cohorts",
+            "raw_text_sha256": "dcf1466ccd4ca745ccb9e2a3f89b926f1955f1c93c0299eb6ee0b8086d871655",
+            "offset_basis": "PyMuPDF 1.28.2 page.get_text(text, sort=False); Unicode code points, zero-based half-open",
+            "not_added_to_frozen_input": true
+          },
+          {
+            "source_pdf": {
+              "path_relative_to_workspace": "10.19-11.2/路线一PDF独立清单_20261020/sources/PMC9671808.1/PMC9671808.1.pdf",
+              "file_sha256": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34"
+            },
+            "pdf_page": 8,
+            "char_start": 4299,
+            "char_end_exclusive": 4458,
+            "raw_text": "The A−T+ group was considerably \nsmaller than the other groups (n = 34; Extended Data Table 1), hence \ntheir results are only reported in Extended Data Fig. 1.",
+            "raw_text_sha256": "bd98c0c14251e1e76ec53e037376a7b6d9bc49171bad7cde04a0261b502c6f80",
+            "offset_basis": "PyMuPDF 1.28.2 page.get_text(text, sort=False); Unicode code points, zero-based half-open",
+            "not_added_to_frozen_input": true
+          },
+          {
+            "source_pdf": {
+              "path_relative_to_workspace": "10.19-11.2/路线一PDF独立清单_20261020/sources/PMC11350039.1/PMC11350039.1.pdf",
+              "file_sha256": "346f8d35a7d8685fa9b535e31617b49a17a007778f411bd147668e4d39183740"
+            },
+            "pdf_page": 4,
+            "char_start": 270,
+            "char_end_exclusive": 410,
+            "raw_text": "T2 (AD tau\nproteinopathy)\nMTBR-tau243, other\nphosphorylated tau\nforms (e.g., p-tau205),\nnon-phosphorylated\nmid-region tau\nfragmentsa\nTau PET",
+            "raw_text_sha256": "8d3389f114b2bd5c516fb2cfd29f156c052625ada1369582c3e2d8cfe6ae717f",
+            "offset_basis": "PyMuPDF 1.28.2 page.get_text(text, sort=False); Unicode code points, zero-based half-open",
+            "not_added_to_frozen_input": true
+          }
+        ],
+        "candidate_outcome_unchanged": true,
+        "visual_confirmation": {
+          "pdf_page": 14,
+          "table": "Extended Data Table 1",
+          "observed_group": "A−T+",
+          "N": 34,
+          "denominator_from_text": 1325,
+          "computed_percentage": 2.5660377358490565
+        },
+        "version": "route1_pdf_seven_fulltext_diagnostic_20261025",
+        "case_id": "r1pdf:1dfa922c755ed870245927e3",
+        "point_number": 10,
+        "review_date": "2026-10-25",
+        "is_human_review": false,
+        "scope": "Supplemental full-paper diagnostic; not the unchanged frozen-candidate outcome or a model rerun.",
+        "source_pdf": {
+          "path_relative_to_workspace": "10.19-11.2/路线一PDF独立清单_20261020/sources/PMC9671808.1/PMC9671808.1.pdf",
+          "file_sha256": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34"
+        },
+        "current_response_sha256": "09dfaee5dcce1a787b208274c8e49a8bf526e70e190e659922d28de15d1e277e",
+        "human_label": null,
+        "joint_signoff": false,
+        "formal_end_to_end_accepted": false
+      },
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 11,
+      "case_id": "r1pdf:976890f040d5c2cab2e50965",
+      "status": "confirmed_continue_pending",
+      "confirmed_frozen_candidate_label": null,
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": null,
+      "conditions": null,
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "8d1be494518f5ae4f24f963eb24c7405b320f191a53e5fb524ea443928d8aa26",
+      "current_explainer_input_sha256": "b397b79beb5333f6b85d6d14b25dce0f90a2d48b04f33042042764ca239f0d18",
+      "current_response_sha256": "3daa0c6b79c54a468bc319aaba29e294d82b881047b5cd28503cc222365e7783",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": null,
+        "suggestion_strength": "unresolved_no_forced_label",
+        "reason_recommendation": "原理由的限制说明部分可保留",
+        "basis": "档案增长获支持，特定方法获益未被直接建立；原目标未声称2017年新增全为蛋白质，不能另加这项判错条件。",
+        "current_raw_output_sha256": "3daa0c6b79c54a468bc319aaba29e294d82b881047b5cd28503cc222365e7783",
+        "current_explainer_input_sha256": "b397b79beb5333f6b85d6d14b25dce0f90a2d48b04f33042042764ca239f0d18",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S02",
+            "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+            "pdf_pages": [
+              1
+            ],
+            "candidate_model_text_sha256": "49ad0e47ab6997b3c06c30b99d3bd8cc9b93c7901e0110eed9b0b2e36f1a0f78"
+          },
+          {
+            "evidence_id": "D01:S04",
+            "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+            "pdf_pages": [
+              1
+            ],
+            "candidate_model_text_sha256": "ea935cc98fdb6b5b449d80e7e38ded2ed4f5f0122c55794ba3b51f7e24d69eb4"
+          },
+          {
+            "evidence_id": "D01:S07",
+            "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+            "pdf_pages": [
+              1
+            ],
+            "candidate_model_text_sha256": "f235f4bdf044c93918691a026eab6c120113ee8066f6cfe233e4eee8191a0525"
+          },
+          {
+            "evidence_id": "D01:S09",
+            "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+            "pdf_pages": [
+              3
+            ],
+            "candidate_model_text_sha256": "e8bd3ff8d6fac2bbcfc0352a2d52d382a9221f7f753ad8a76d11081079a86889"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": null,
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 12,
+      "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+      "status": "confirmed_supplemental_fulltext_conditional_opinion",
+      "confirmed_frozen_candidate_label": null,
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": "ACCURATE",
+      "conditions": "仅限部分病例的定性重症相似；不扩为严重程度统计等效，全文补证与原冻结结果分报。",
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "bc85e3ddc3d7112f706bab1243d7ce69fc1c12e825a873f9beb6293ade3128e8",
+      "current_explainer_input_sha256": "acbcc41c4ba47a664bf978cd23e44aff01b82db0370668d079e62f18601767e0",
+      "current_response_sha256": "9c4c5ab45f9590468b5b01e57575b13637a53ac0e67598909a00ba5018d0bcb4",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": null,
+        "suggestion_strength": "unresolved_no_forced_label",
+        "reason_recommendation": "原解释暂不接受",
+        "basis": "临床表现近似与存在致命病例，不能直接替代严重程度比较；也不要求原句未提出的量化等效或所有病例相同。",
+        "current_raw_output_sha256": "9c4c5ab45f9590468b5b01e57575b13637a53ac0e67598909a00ba5018d0bcb4",
+        "current_explainer_input_sha256": "acbcc41c4ba47a664bf978cd23e44aff01b82db0370668d079e62f18601767e0",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S02",
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "pdf_pages": [
+              8
+            ],
+            "candidate_model_text_sha256": "b8f7b54702367eb484aa4679ca0522e53795743de40aafa753240c0c6f619a76"
+          },
+          {
+            "evidence_id": "D01:S09",
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "pdf_pages": [
+              3
+            ],
+            "candidate_model_text_sha256": "5459e6e03e0699fda882dae32b28d468064fb293e0527c751042835da02691e1"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": {
+        "fulltext_advice_label": "ACCURATE",
+        "fulltext_advice": "可提出有条件ACCURATE建议：部分病例的定性重症相似",
+        "finding": "摘要Interpretation直接描述类似SARS的严重呼吸系统疾病，并提及ICU和高死亡率；支持力度强于仅比较临床表现的原摘录。",
+        "remaining_question": "确认some cases、mimic按定性描述理解；不能扩展成两病严重程度统计等效或所有患者相同。原理由只靠临床表现相似推出严重程度，仍需另列修订建议。",
+        "evidence": [
+          {
+            "source_pdf": {
+              "path_relative_to_workspace": "10.19-11.2/路线一PDF独立清单_20261020/sources/PMC7159299.1/PMC7159299.1.pdf",
+              "file_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14"
+            },
+            "pdf_page": 2,
+            "char_start": 2806,
+            "char_end_exclusive": 3006,
+            "raw_text": "Interpretation The 2019-nCoV infection caused clusters of severe respiratory illness similar to severe acute respiratory \nsyndrome coronavirus and was associated with ICU admission and high mortality.",
+            "raw_text_sha256": "bb62034f407cd923c06e776b87728f008be4529734cca0e645e9a4d4f52e770d",
+            "offset_basis": "PyMuPDF 1.28.2 page.get_text(text, sort=False); Unicode code points, zero-based half-open",
+            "not_added_to_frozen_input": true
+          }
+        ],
+        "candidate_outcome_unchanged": true,
+        "existing_other_case_candidate": {
+          "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+          "evidence_id": "D01:S07",
+          "note": "This sentence was a frozen candidate for point20, not for point12; never transferred silently."
+        },
+        "version": "route1_pdf_seven_fulltext_diagnostic_20261025",
+        "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+        "point_number": 12,
+        "review_date": "2026-10-25",
+        "is_human_review": false,
+        "scope": "Supplemental full-paper diagnostic; not the unchanged frozen-candidate outcome or a model rerun.",
+        "source_pdf": {
+          "path_relative_to_workspace": "10.19-11.2/路线一PDF独立清单_20261020/sources/PMC7159299.1/PMC7159299.1.pdf",
+          "file_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14"
+        },
+        "current_response_sha256": "9c4c5ab45f9590468b5b01e57575b13637a53ac0e67598909a00ba5018d0bcb4",
+        "human_label": null,
+        "joint_signoff": false,
+        "formal_end_to_end_accepted": false
+      },
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 13,
+      "case_id": "r1pdf:43c53ece80a7c35828d5246d",
+      "status": "confirmed_tentative_direction_not_final_label",
+      "confirmed_frozen_candidate_label": null,
+      "confirmed_tentative_direction": "NOT_ACCURATE",
+      "confirmed_supplemental_fulltext_label": null,
+      "conditions": null,
+      "reason_disposition": "原理由需修订",
+      "classifier_input_sha256": "58c15108ffc4f9fa8e286ca3a083329056103da953c7d139f4f86e50967a92d4",
+      "current_explainer_input_sha256": "d4650b52a0e0602538dc3ac3d88f51e2f53fec25e713bf82ab536a676032bfbe",
+      "current_response_sha256": "811e6092defaaae33544e22781e92bc5bb2fb7fc42746af06b03d896c35a16cc",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": "NOT_ACCURATE",
+        "suggestion_strength": "tentative_within_current_candidates",
+        "reason_recommendation": "原解释需修订建议",
+        "basis": "S06把字母profile与数字临床stage组合描述，不等于证明目标指定的三组合预期进展顺序；原理由将两者混用。",
+        "current_raw_output_sha256": "811e6092defaaae33544e22781e92bc5bb2fb7fc42746af06b03d896c35a16cc",
+        "current_explainer_input_sha256": "d4650b52a0e0602538dc3ac3d88f51e2f53fec25e713bf82ab536a676032bfbe",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S04",
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "pdf_pages": [
+              16
+            ],
+            "candidate_model_text_sha256": "100b0abcf3780e11e0c0ac2a66bac8fd33970a6e6eee024e7b95074b27512fac"
+          },
+          {
+            "evidence_id": "D01:S06",
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "pdf_pages": [
+              17
+            ],
+            "candidate_model_text_sha256": "05a828c1d9a0064a82498d12479f3f298a22bf0d9eb93cbcf2d3770327e226c3"
+          },
+          {
+            "evidence_id": "D01:S07",
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "pdf_pages": [
+              8
+            ],
+            "candidate_model_text_sha256": "5153925d6cb819ead46aa73053426315e757b8a8a59bbf8e0134b0baa60b527d"
+          },
+          {
+            "evidence_id": "D01:S09",
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "pdf_pages": [
+              16
+            ],
+            "candidate_model_text_sha256": "c58742b7b32b90e37f00967922c0ef98131380626af6e9030a02129a755c114e"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": null,
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 14,
+      "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+      "status": "confirmed_continue_pending",
+      "confirmed_frozen_candidate_label": null,
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": null,
+      "conditions": null,
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "91dad745ecba71f110a142a746f5b77973be840d3640caba347567960e4fcb56",
+      "current_explainer_input_sha256": "50f8565b35b99f76d22fc9db3a4b7b98065b3b2bd20acafd2c265a0e15f13aff",
+      "current_response_sha256": "09dfaee5dcce1a787b208274c8e49a8bf526e70e190e659922d28de15d1e277e",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": null,
+        "suggestion_strength": "unresolved_no_forced_label",
+        "reason_recommendation": "无完整解释，保持证据不足",
+        "basis": "候选未完整呈现目标的HR、参照组和终点；其他组或其他终点HR不构成直接的数值反证。",
+        "current_raw_output_sha256": "09dfaee5dcce1a787b208274c8e49a8bf526e70e190e659922d28de15d1e277e",
+        "current_explainer_input_sha256": "50f8565b35b99f76d22fc9db3a4b7b98065b3b2bd20acafd2c265a0e15f13aff",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S04",
+            "source_pdf_sha256": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34",
+            "pdf_pages": [
+              2
+            ],
+            "candidate_model_text_sha256": "9fe7d2bcadcae09da847faad087225d128374a46d68adf9c53dc08cb9959bcd0"
+          },
+          {
+            "evidence_id": "D01:S06",
+            "source_pdf_sha256": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34",
+            "pdf_pages": [
+              5
+            ],
+            "candidate_model_text_sha256": "a07e1ab6b517d8779214d3e9b6bb1ad3f776cad95ac2037b19d0426102748c3f"
+          },
+          {
+            "evidence_id": "D01:S07",
+            "source_pdf_sha256": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34",
+            "pdf_pages": [
+              3
+            ],
+            "candidate_model_text_sha256": "cf03b3752cfa797ea0afc2cef8d924fba6fe0a951735697f71faab4bee82fc69"
+          },
+          {
+            "evidence_id": "D01:S10",
+            "source_pdf_sha256": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34",
+            "pdf_pages": [
+              8
+            ],
+            "candidate_model_text_sha256": "1a8a89224d42dde0dc627ade4ed70093906a1e97572f241b1bf2af242244cc7a"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": null,
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 16,
+      "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+      "status": "confirmed_continue_pending",
+      "confirmed_frozen_candidate_label": null,
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": null,
+      "conditions": null,
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "5190b52460fb0c094062dabac8876042f6b075cc784c5e3d6b8187209448f8c1",
+      "current_explainer_input_sha256": "0679d723ad7afd78c955bf67f6f6edeb658d183f52cdff23b7f060a3181b2f24",
+      "current_response_sha256": "f451a04318b249851845f664e11fa947327a0d06c73e966c3a0ff99f7148355a",
+      "generation_version": "route1_pdf_point16_compact_v2_20261024",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": null,
+        "suggestion_strength": "unresolved_no_forced_label",
+        "reason_recommendation": "新v2完整，原理由仍需澄清",
+        "basis": "检测概述与完整目标分开。nasal and pharyngeal不宜直接合并成nasopharyngeal，也不追加only条件；同段不同检测项目及作者自述归属仍待核。",
+        "current_raw_output_sha256": "f451a04318b249851845f664e11fa947327a0d06c73e966c3a0ff99f7148355a",
+        "current_explainer_input_sha256": "0679d723ad7afd78c955bf67f6f6edeb658d183f52cdff23b7f060a3181b2f24",
+        "generation_version": "route1_pdf_point16_compact_v2_20261024",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S02",
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "pdf_pages": [
+              3
+            ],
+            "candidate_model_text_sha256": "5f8d286dda04fe1fc0e583b24e8a6e7da1078feefdd1b4d55ca2152b0f3be7d5"
+          },
+          {
+            "evidence_id": "D01:S03",
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "pdf_pages": [
+              2
+            ],
+            "candidate_model_text_sha256": "4b634161d35a264398e50e0c2c83fa080615341c7be3d34bb51391cf325661f0"
+          },
+          {
+            "evidence_id": "D01:S08",
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "pdf_pages": [
+              9
+            ],
+            "candidate_model_text_sha256": "f7c9cde54bbd655cd0c3c7e075d91c5922ebc6814abbcd43a630a466f9566633"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": null,
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 17,
+      "case_id": "r1pdf:0243ab815badba958177a9a8",
+      "status": "confirmed_current_candidate_label",
+      "confirmed_frozen_candidate_label": "ACCURATE",
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": null,
+      "conditions": null,
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "bbff6ce9a5f1e44e01419b6f9f8962e4064b527f20b7ff35535f0afa9a204269",
+      "current_explainer_input_sha256": "f24bfa318806ad42aed6126d630a296c7ebc439c29792995a07ccd5a69b7fa55",
+      "current_response_sha256": "e4ad444006abd833755ccf1b81f5eacb1d23090e1b978f827e9b3baf03a4ed11",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": "ACCURATE",
+        "suggestion_strength": "supported_with_stated_limits",
+        "reason_recommendation": "核心解释可支持",
+        "basis": "六阶段数值临床方案有直接文字，适用范围保留；不外推为临床验证结果。",
+        "current_raw_output_sha256": "e4ad444006abd833755ccf1b81f5eacb1d23090e1b978f827e9b3baf03a4ed11",
+        "current_explainer_input_sha256": "f24bfa318806ad42aed6126d630a296c7ebc439c29792995a07ccd5a69b7fa55",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S05",
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "pdf_pages": [
+              2
+            ],
+            "candidate_model_text_sha256": "8b677496c18e5192c665a44d23600c8c01e36f857a9bdb56f81edca09a61f85e"
+          },
+          {
+            "evidence_id": "D01:S06",
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "pdf_pages": [
+              40
+            ],
+            "candidate_model_text_sha256": "5f433de3b8a5880ca8e6c0edee47d5c224d6696c377e3f1828576324e5c69a1a"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": null,
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 18,
+      "case_id": "r1pdf:0625d9ca3ef5bf2a22c6109b",
+      "status": "confirmed_current_candidate_label",
+      "confirmed_frozen_candidate_label": "ACCURATE",
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": null,
+      "conditions": null,
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "1f32116d41012dab5d1288a44b9f0084b8a1ecb8fda6e68dcc576cd4b534f9a2",
+      "current_explainer_input_sha256": "1a2fa66840a8cc2a2c178998e959aa3fc33a8c4927dad902e9a6bcca53c27f24",
+      "current_response_sha256": "b88e3b2c8e7054b8a8598965b4ceb1361d94eb23aafb9cbdcadcf0183f29e568",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": "ACCURATE",
+        "suggestion_strength": "supported_with_stated_limits",
+        "reason_recommendation": "原解释需修订建议",
+        "basis": "定性相似有支持；mimic不宜强化为完全一致，来源同时提及另一疾病不构成反证。",
+        "current_raw_output_sha256": "b88e3b2c8e7054b8a8598965b4ceb1361d94eb23aafb9cbdcadcf0183f29e568",
+        "current_explainer_input_sha256": "1a2fa66840a8cc2a2c178998e959aa3fc33a8c4927dad902e9a6bcca53c27f24",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S04",
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "pdf_pages": [
+              8
+            ],
+            "candidate_model_text_sha256": "b8f7b54702367eb484aa4679ca0522e53795743de40aafa753240c0c6f619a76"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": null,
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 19,
+      "case_id": "r1pdf:826cdb765c276ba900010084",
+      "status": "confirmed_current_candidate_label",
+      "confirmed_frozen_candidate_label": "ACCURATE",
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": null,
+      "conditions": null,
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "ce7cc0c8fac2ebc72e4524339039b29c2deec02d1a16015724f4609798a826c8",
+      "current_explainer_input_sha256": "70499ae231a78277dd0955c6c31299e437c033b39c4194ad4f7f23c8bbe3b321",
+      "current_response_sha256": "efa022a2b065c7812344b6112965f36291d8f75f2602db282cc1a53feb86b5f4",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": "ACCURATE",
+        "suggestion_strength": "supported_with_stated_limits",
+        "reason_recommendation": "核心解释可支持；年份另列",
+        "basis": "(N)非特异性及括号理由直接对应；来源身份和年份单列，不作为正文不支持的依据。",
+        "current_raw_output_sha256": "efa022a2b065c7812344b6112965f36291d8f75f2602db282cc1a53feb86b5f4",
+        "current_explainer_input_sha256": "70499ae231a78277dd0955c6c31299e437c033b39c4194ad4f7f23c8bbe3b321",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S01",
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "pdf_pages": [
+              38
+            ],
+            "candidate_model_text_sha256": "56c2dcb78848d25f0335286d085a9e10795398344322021c9361b1c59374399e"
+          },
+          {
+            "evidence_id": "D01:S05",
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "pdf_pages": [
+              11
+            ],
+            "candidate_model_text_sha256": "86b46407b20be6d4af956b6f454e4d68ae30fca479e15fbcffc34583b0d69db4"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": null,
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    },
+    {
+      "point_number": 20,
+      "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+      "status": "confirmed_continue_pending",
+      "confirmed_frozen_candidate_label": null,
+      "confirmed_tentative_direction": null,
+      "confirmed_supplemental_fulltext_label": null,
+      "conditions": null,
+      "reason_disposition": "本次分类认可不构成原解释语义通过",
+      "classifier_input_sha256": "fe108c822841f098c06e70bd2b1ac46c5456918bbcbb3f3405ea18df3de10c68",
+      "current_explainer_input_sha256": "4ba25d2a872a849b960ac4cb5b6819581052423b0a63e5b7437af48ccadbb96d",
+      "current_response_sha256": "a6e31c4f659059a58d881ba190d954e1b078742a51c7a2b9342fbf2ca8129f79",
+      "generation_version": "remaining13_r2_original_512_generation",
+      "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+      "approved_advice_snapshot": {
+        "version": "route1_pdf13_current_readthrough_20261024",
+        "is_human_review": false,
+        "status": "recommendation_pending_Li_confirmation",
+        "suggested_label": null,
+        "suggestion_strength": "unresolved_no_forced_label",
+        "reason_recommendation": "保留频率判断，原理由另有问题",
+        "basis": "频率支持常见，不能直接推出严重程度；一篇文献不负责同时证明另一篇报告，完整目标继续待核。",
+        "current_raw_output_sha256": "a6e31c4f659059a58d881ba190d954e1b078742a51c7a2b9342fbf2ca8129f79",
+        "current_explainer_input_sha256": "4ba25d2a872a849b960ac4cb5b6819581052423b0a63e5b7437af48ccadbb96d",
+        "generation_version": "remaining13_r2_original_512_generation",
+        "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+        "peer_advice_source": {
+          "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json",
+          "file_sha256": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5"
+        },
+        "evidence_references": [
+          {
+            "evidence_id": "D01:S04",
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "pdf_pages": [
+              9
+            ],
+            "candidate_model_text_sha256": "f7c9cde54bbd655cd0c3c7e075d91c5922ebc6814abbcd43a630a466f9566633"
+          },
+          {
+            "evidence_id": "D01:S06",
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "pdf_pages": [
+              2
+            ],
+            "candidate_model_text_sha256": "27b4b4f7ebbb9207dd01a5bc8651e78f5fe246847837cd4719f55b98ce89c51d"
+          },
+          {
+            "evidence_id": "D01:S07",
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "pdf_pages": [
+              2
+            ],
+            "candidate_model_text_sha256": "0cc9433a9eeea156f952b9b3509928fa968106b236edc67da95e62cee47f5881"
+          }
+        ],
+        "scope": "Frozen target, candidate support, unchanged model reason and actual peer reply; not exhaustive full-paper adjudication.",
+        "human_label": null,
+        "human_semantic_acceptance": null,
+        "formal_end_to_end_accepted": false
+      },
+      "supplemental_evidence_snapshot": null,
+      "human_semantic_acceptance": null,
+      "joint_signoff": false,
+      "formal_end_to_end_accepted": false
+    }
+  ],
+  "counts": {
+    "personal_dispositions_acknowledged": 13,
+    "definite_frozen_candidate_labels": 5,
+    "tentative_directions_not_final_labels": 1,
+    "conditional_fulltext_opinions": 2,
+    "continue_pending": 5
+  },
+  "protected_files_sha256": {
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/point16_compact_v2_a100_verified_2026-10-24/current_13_versioned_records.jsonl": "7901c4a8b39e4e54772b46582046f9ca35fd378aa96f981de9a533f2146f29d2",
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/13点个人意见建议_待李云确认_20261024.jsonl": "87904ca5472f4a4b5ab09d9d5529acf9e9f9e6485dd6a5dfe9245a9e88d3aec9",
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/13点个人意见建议_待李云确认_20261024.md": "8c2e89245b02d8d5e1fe702b65bf8253321c32f3f51dd2009f3f9e8aea1e8b86",
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/13点建议核对收据_20261024.json": "7c0d28f04228c10b597fa71a5dd48e8ea7e1bccc33ce6499a46230f6f9dac871",
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/first5_joint_decision_2026-10-23/首批5点意见对照_20261024.jsonl": "4e93e236b50a9df6d77ae18319bfcb0aa683d64e398626095b4eef56e1a6993f",
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/first5_A100_2026-10-22/raw_A100/assembled/records.jsonl": "495e96f319bc49d062460f14f9c23fccb62a18427c3ac0a0c1cab821a24fd2b5",
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/remaining13_a100_audit_2026-10-24/strict_assembled/records.jsonl": "fd3316daf02344f0c02d3f98c222340402deb24ae2df60706f6504d26b10ae19",
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/named_peer_opinions.json": "c0ed5d85569c20be27c659bdd1e0340a612a785873052dc2d0f4c0d47aea80e5",
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/剩余13点统一复核回复_陈明进_定稿_20261024.md": "685ba5328c8705abcf6a01c5f7a22ad77109957886327a92be7d4eefcf8f7d16",
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/首批5点汇总确认回复_陈明进_20261024.md": "f5df96f71a04e001edde90d75487f840dec06323ed60c81f78d6ddf65460b62b"
+  },
+  "new_joint_signoffs": 0,
+  "new_formal_acceptance": 0,
+  "raw_responses_changed": false,
+  "frozen_inputs_changed": false,
+  "model_run_performed": false,
+  "message_to_peer_sent": false
+}

@@ -1,0 +1,9 @@
+{
+  "version": "route1_pdf_remaining13_resource_trial_20261024",
+  "files": {
+    "__main__.py": "166f9c1db0f2553b62e0d51d12e8f95bb016a810384954cf1759fda20c685182",
+    "resource_policy.json": "505a15e6bf97b695d3ebdacd5f69d125a5a773efaac826a4ddd7e258aea129bb",
+    "expected_code_hashes.json": "0895be7bb0799c48f749a96c8bce625efc4386c46ec3a3124cbdfe16d6e03d1c",
+    "README.md": "7e3cebf54b2cdcddf2c47f382c232a7ecd657d3e0f3e3e6d70b6edebc0e0fa17"
+  }
+}

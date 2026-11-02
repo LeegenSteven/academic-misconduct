@@ -1,0 +1,63 @@
+The new engl and jour nal of medicine
+n engl j med﻿  nejm.org﻿
+1
+The authors’ full names, academic de-
+grees, and affiliations are listed in the 
+Appendix. Address reprint requests to 
+Dr. Zhong at the State Key Laboratory of 
+Respiratory Disease, National Clinical 
+Research Center for Respiratory Disease, 
+Guangzhou Institute of Respiratory Health, 
+First Affiliated Hospital of Guangzhou 
+Medical University, 151 Yanjiang Rd., 
+Guangzhou, Guangdong, China, or at 
+­nanshan@​­vip​.­163​.­com.
+*A list of investigators in the China Medi-
+cal Treatment Expert Group for Covid-19 
+study is provided in the Supplementary 
+Appendix, available at NEJM.org.
+Drs. Guan, Ni, Yu Hu, W. Liang, Ou, He, 
+L. Liu, Shan, Lei, Hui, Du, L. Li, Zeng, and 
+Yuen contributed equally to this article.
+This article was published on February 28, 
+2020, and last updated on March 6, 2020, 
+at NEJM.org.
+DOI: 10.1056/NEJMoa2002032
+Copyright © 2020 Massachusetts Medical Society.
+BACKGROUND
+Since December 2019, when coronavirus disease 2019 (Covid-19) emerged in Wuhan 
+city and rapidly spread throughout China, data have been needed on the clinical 
+characteristics of the affected patients.
+METHODS
+We extracted data regarding 1099 patients with laboratory-confirmed Covid-19 from 
+552 hospitals in 30 provinces, autonomous regions, and municipalities in mainland 
+China through January 29, 2020. The primary composite end point was admission 
+to an intensive care unit (ICU), the use of mechanical ventilation, or death.
+RESULTS
+The median age of the patients was 47 years; 41.9% of the patients were female. 
+The primary composite end point occurred in 67 patients (6.1%), including 5.0% 
+who were admitted to the ICU, 2.3% who underwent invasive mechanical ventila-
+tion, and 1.4% who died. Only 1.9% of the patients had a history of direct contact 
+with wildlife. Among nonresidents of Wuhan, 72.3% had contact with residents of 
+Wuhan, including 31.3% who had visited the city. The most common symptoms 
+were fever (43.8% on admission and 88.7% during hospitalization) and cough 
+(67.8%). Diarrhea was uncommon (3.8%). The median incubation period was 4 days 
+(interquartile range, 2 to 7). On admission, ground-glass opacity was the most 
+common radiologic finding on chest computed tomography (CT) (56.4%). No radio-
+graphic or CT abnormality was found in 157 of 877 patients (17.9%) with nonsevere 
+disease and in 5 of 173 patients (2.9%) with severe disease. Lymphocytopenia was 
+present in 83.2% of the patients on admission.
+CONCLUSIONS
+During the first 2 months of the current outbreak, Covid-19 spread rapidly 
+throughout China and caused varying degrees of illness. Patients often presented 
+without fever, and many did not have abnormal radiologic findings. (Funded by 
+the National Health Commission of China and others.)
+ABSTR ACT
+Clinical Characteristics of Coronavirus 
+Disease 2019 in China
+W. Guan, Z. Ni, Yu Hu, W. Liang, C. Ou, J. He, L. Liu, H. Shan, C. Lei, D.S.C. Hui, 
+B. Du, L. Li, G. Zeng, K.-Y. Yuen, R. Chen, C. Tang, T. Wang, P. Chen, J. Xiang, 
+S. Li, Jin-lin Wang, Z. Liang, Y. Peng, L. Wei, Y. Liu, Ya-hua Hu, P. Peng, 
+Jian-ming Wang, J. Liu, Z. Chen, G. Li, Z. Zheng, S. Qiu, J. Luo, C. Ye, S. Zhu,  
+and N. Zhong, for the China Medical Treatment Expert Group for Covid-19*​
+Original Article

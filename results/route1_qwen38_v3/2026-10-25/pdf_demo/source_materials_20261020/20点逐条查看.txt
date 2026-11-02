@@ -1,0 +1,384 @@
+﻿路线一20点逐条查看
+整理日期：2026-10-20
+来源和施引位置准备稿；模型未运行，人工标签未填写。目标句为自动建议，须核对，原始整段保留。
+
+第01点  r1pdf:48b208f007c2c6e700c04ff0
+论文对：r1pair:b25a93a76ea44369179e
+施引：Highly accurate protein structure prediction with AlphaFold
+施引DOI：10.1038/s41586-021-03819-2
+施引PDF：sources/PMC8371605.1/PMC8371605.1.pdf
+被引：Advances in methods for atomic resolution macromolecular structure determination
+被引DOI：10.12688/f1000research.25097.1
+被引PDF：sources/PMC7333361.1/PMC7333361.1.pdf
+目标参考文献：CR1；该参考文献在本篇的第1次引用
+原始引用组：1–4
+本次目标标记：1
+标记位置：[{"pdf_page": 1, "char_start": 938, "char_end_exclusive": 939}]
+待复核的目标句建议：
+Through an enormous experimental effort1–4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7
+完整施引段落（已标出本次目标）：
+Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort[[TARGET_REFERENCE]]1[[/TARGET_REFERENCE]]–4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’8—has been an important open research problem for more than 50 years9. Despite recent progress10–14, existing methods fall far short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14)15, demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第02点  r1pdf:c39ba37fc4698431f556d6b9
+论文对：r1pair:dfc4fa2f6288240b4e04
+施引：Highly accurate protein structure prediction with AlphaFold
+施引DOI：10.1038/s41586-021-03819-2
+施引PDF：sources/PMC8371605.1/PMC8371605.1.pdf
+被引：Protein Data Bank: the single global archive for 3D macromolecular structure data
+被引DOI：10.1093/nar/gky949
+被引PDF：sources/PMC6324056.1/PMC6324056.1.pdf
+目标参考文献：CR5；该参考文献在本篇的第1次引用
+原始引用组：5
+本次目标标记：5
+标记位置：[{"pdf_page": 1, "char_start": 1012, "char_end_exclusive": 1013}]
+待复核的目标句建议：
+Through an enormous experimental effort1–4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7
+完整施引段落（已标出本次目标）：
+Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort1–4, the structures of around 100,000 unique proteins have been determined[[TARGET_REFERENCE]]5[[/TARGET_REFERENCE]], but this represents a small fraction of the billions of known protein sequences6,7. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’8—has been an important open research problem for more than 50 years9. Despite recent progress10–14, existing methods fall far short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14)15, demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第03点  r1pdf:ecd1a395eb5f25610750d721
+论文对：r1pair:5aa02bcf44b678f7de9e
+施引：fastp: an ultra-fast all-in-one FASTQ preprocessor
+施引DOI：10.1093/bioinformatics/bty560
+施引PDF：sources/PMC6129281.1/PMC6129281.1.pdf
+被引：Trimmomatic: a flexible trimmer for Illumina sequence data
+被引DOI：10.1093/bioinformatics/btu170
+被引PDF：sources/PMC4103590.1/PMC4103590.1.pdf
+目标参考文献：bty560-B3；该参考文献在本篇的第1次引用
+原始引用组：Bolger et al., 2014
+本次目标标记：Bolger et al., 2014
+标记位置：[{"pdf_page": 1, "char_start": 3225, "char_end_exclusive": 3244}]
+待复核的目标句建议：
+Trimmomatic (Bolger et al., 2014), another popular trimming adapter tool, can perform quality pruning using algorithms such as sliding window cutting
+完整施引段落（已标出本次目标）：
+Quality control and preprocessing of FASTQ data could be considered resolved given the availability of several relevant tools. For instance, FASTQC (Andrews, 2010) is a Java-based quality control tool providing per-base and per-read quality profiling features. Cutadapt (Martin, 2011) is a commonly used adapter trimmer, which also provides some read-filtering features. Trimmomatic ([[TARGET_REFERENCE]]Bolger et al., 2014[[/TARGET_REFERENCE]]), another popular trimming adapter tool, can perform quality pruning using algorithms such as sliding window cutting. SOAPnuke (Chen et al., 2018) is a recently published tool for adapter trimming and read filtering with the implementation of MapReduce on Hadoop systems
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第04点  r1pdf:e1636ac35ca5131bfdf6fb44
+论文对：r1pair:4c9b0705a85be2e61b91
+施引：fastp: an ultra-fast all-in-one FASTQ preprocessor
+施引DOI：10.1093/bioinformatics/bty560
+施引PDF：sources/PMC6129281.1/PMC6129281.1.pdf
+被引：AfterQC: automatic filtering, trimming, error removing and quality control for fastq data
+被引DOI：10.1186/s12859-017-1469-3
+被引PDF：sources/PMC5374548.1/PMC5374548.1.pdf
+目标参考文献：bty560-B5；该参考文献在本篇的第1次引用
+原始引用组：Chen et al., 2017
+本次目标标记：Chen et al., 2017
+标记位置：[{"pdf_page": 1, "char_start": 4014, "char_end_exclusive": 4031}]
+待复核的目标句建议：
+The authors developed AfterQC (Chen et al., 2017) to integrate quality control, adapter trimming, data filtering and other useful functions into one tool
+完整施引段落（已标出本次目标）：
+In the past, multiple tools were employed for FASTQ data quality control and preprocessing. A typical combination was the use of FASTQC for quality control, Cutadapt for adapter trimming and Trimmomatic for read pruning and filtering. The requirement to read and load data multiple times made preprocessing slow and I/O inefficient. Yet the tools must be used in combination because no single tool currently exists that can effectively address all these problems. The authors developed AfterQC ([[TARGET_REFERENCE]]Chen et al., 2017[[/TARGET_REFERENCE]]) to integrate quality control, adapter trimming, data filtering and other useful functions into one tool. AfterQC is a convenient tool that can perform all necessary operations and output HTMLbased reports with a single scan of FASTQ files. It also provides a novel algorithm to correct bases by searching for overlapping paired-end reads. However, because AfterQC was developed in Python, it is relatively slow and overly time-consuming when processing large FASTQ files
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第05点  r1pdf:cc2e2247d91afc3f3559aa23
+论文对：r1pair:f1839724111f75fec4aa
+施引：Clinical Characteristics of Coronavirus Disease 2019 in China
+施引DOI：10.1056/NEJMoa2002032
+施引PDF：sources/PMC7092819.1/PMC7092819.1.pdf
+被引：Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China
+被引DOI：10.1016/S0140-6736(20)30183-5
+被引PDF：sources/PMC7159299.1/PMC7159299.1.pdf
+目标参考文献：r1；该参考文献在本篇的第1次引用
+原始引用组：1
+本次目标标记：1
+标记位置：[{"pdf_page": 2, "char_start": 200, "char_end_exclusive": 201}]
+待复核的目标句建议：
+I n early December 2019, the first pneumonia cases of unknown origin were identified in Wuhan, the capital city of Hubei province.1
+完整施引段落（已标出本次目标）：
+I n early December 2019, the first pneumonia cases of unknown origin were identified in Wuhan, the capital city of Hubei province.[[TARGET_REFERENCE]]1[[/TARGET_REFERENCE]] The pathogen has been identified as a novel enveloped RNA betacoronavirus2 that has currently been named severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which has a phylogenetic similarity to SARS-CoV.3 Patients with the infection have been documented both in hospitals and in family settings.4-8
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第06点  r1pdf:df5053bbd503ea2762b3617d
+论文对：r1pair:c94aeb805e9261b355bc
+施引：Clinical Characteristics of Coronavirus Disease 2019 in China
+施引DOI：10.1056/NEJMoa2002032
+施引PDF：sources/PMC7092819.1/PMC7092819.1.pdf
+被引：Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding
+被引DOI：10.1016/S0140-6736(20)30251-8
+被引PDF：sources/PMC7159086.1/PMC7159086.1.pdf
+目标参考文献：r2；该参考文献在本篇的第1次引用
+原始引用组：2
+本次目标标记：2
+标记位置：[{"pdf_page": 2, "char_start": 276, "char_end_exclusive": 277}]
+待复核的目标句建议：
+The pathogen has been identified as a novel enveloped RNA betacoronavirus2 that has currently been named severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which has a phylogenetic similarity to SARS-CoV.3
+完整施引段落（已标出本次目标）：
+I n early December 2019, the first pneumonia cases of unknown origin were identified in Wuhan, the capital city of Hubei province.1 The pathogen has been identified as a novel enveloped RNA betacoronavirus[[TARGET_REFERENCE]]2[[/TARGET_REFERENCE]] that has currently been named severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which has a phylogenetic similarity to SARS-CoV.3 Patients with the infection have been documented both in hospitals and in family settings.4-8
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第07点  r1pdf:43dd5182e91a0ff7d0bec65d
+论文对：r1pair:bef264fa326803da7f93
+施引：Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study
+施引DOI：10.1016/S0140-6736(20)30566-3
+施引PDF：sources/PMC7270627.1/PMC7270627.1.pdf
+被引：Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia
+被引DOI：10.1056/NEJMoa2001316
+被引PDF：sources/PMC7121484.1/PMC7121484.1.pdf
+目标参考文献：bib4；该参考文献在本篇的第1次引用
+原始引用组：4
+本次目标标记：4
+标记位置：[{"pdf_page": 2, "char_start": 3760, "char_end_exclusive": 3761}]
+待复核的目标句建议：
+Although the outbreak is likely to have started from a zoonotic transmission event associated with a large seafood market that also traded in live wild animals, it soon became clear that efficient person-to-person trans mission was also occurring.4
+完整施引段落（已标出本次目标）：
+Although the outbreak is likely to have started from a zoonotic transmission event associated with a large seafood market that also traded in live wild animals, it soon became clear that efficient person-to-person trans mission was also occurring.[[TARGET_REFERENCE]]4[[/TARGET_REFERENCE]] The clinical spectrum of SARS-CoV-2 infection appears to be wide, encompassing asymptomatic infection, mild upper respiratory tract illness, and severe viral pneumonia with respiratory failure and even death, with many patients being hospitalised with pneumonia in Wuhan.5–7 Although some case series have been published, many patients in these series remained hospitalised at time of publication. To our knowledge, no previous studies have been done among patients with definite outcomes. The estimation of risk factors for severe disease and death in these earlier case series are therefore not very robust. Additionally, details of the clinical and virological course of illness have not yet been well described
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第08点  r1pdf:bf08cfaceb2c2e5fdd7aab42
+论文对：r1pair:13c0bbb52b3e01603b5c
+施引：The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any sequenced genome of interest
+施引DOI：10.1093/nar/gkac1000
+施引PDF：sources/PMC9825434.1/PMC9825434.1.pdf
+被引：hu.MAP 2.0: integration of over 15,000 proteomic experiments builds a global compendium of human multiprotein assemblies
+被引DOI：10.15252/msb.202010016
+被引PDF：sources/PMC8111494.1/PMC8111494.1.pdf
+目标参考文献：B6；该参考文献在本篇的第1次引用
+原始引用组：6,7
+本次目标标记：6
+标记位置：[{"pdf_page": 1, "char_start": 3545, "char_end_exclusive": 3546}]
+待复核的目标句建议：
+Recent developments have further improved our ability to unravel this connectivity, through techniques such as high-throughput genetic screens (3–5), systematic co-fractionation of proteomes (6,7), in-vivo proteome-wide cross-linking of proteins (8–10), and deep learning-based computational prediction frameworks such as AlphaFold (11,12
+完整施引段落（已标出本次目标）：
+A dense network of functional connections among proteins has evolved to support cellular life, forming a multitude of pathways, protein complexes and cellular structures (1,2). Recent developments have further improved our ability to unravel this connectivity, through techniques such as high-throughput genetic screens (3–5), systematic co-fractionation of proteomes ([[TARGET_REFERENCE]]6[[/TARGET_REFERENCE]],7), in-vivo proteome-wide cross-linking of proteins (8–10), and deep learning-based computational prediction frameworks such as AlphaFold (11,12). These efforts complement earlier results based on focused, small-scale laboratory studies, yeast two-hybrid screens, affinity purifications, co-crystallization and computational prediction algorithms (reviewed in (13)). Together, the many approaches have begun to reveal a large part of the interaction landscape of cellular proteins, but they each have strengths and weaknesses, including potential biases, false negatives and noise. Furthermore, the resulting interaction data is scattered over a number of online resources, and available in varying namespaces and data-formats as well as varying levels of detail
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第09点  r1pdf:c20f0ec9e9d5958f62b304f8
+论文对：r1pair:19982b1ec3dcc60b13fe
+施引：Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup
+施引DOI：10.1002/alz.13859
+施引PDF：sources/PMC11350039.1/PMC11350039.1.pdf
+被引：NIA-AA Research Framework: Toward a biological definition of Alzheimer’s disease
+被引DOI：10.1016/j.jalz.2018.02.018
+被引PDF：sources/PMC5958625.1/PMC5958625.1.pdf
+目标参考文献：alz13859-bib-0007；该参考文献在本篇的第2次引用
+原始引用组：7
+本次目标标记：7
+标记位置：[{"pdf_page": 3, "char_start": 4806, "char_end_exclusive": 4807}]
+待复核的目标句建议：
+This was denoted in the 2018 document as ATX(N), where X indicated a new biomarker category beyond A, T, or (N).7
+完整施引段落（已标出本次目标）：
+The 2018 framework recognized the need to modify the AT(N) biomarker classification scheme to incorporate newly developed biomarkers within an existing AT(N) category; and, we have included recently developed BBM of A, T, and (N) in this update. The 2018 framework also called for incorporating new biomarker categories beyond AT(N) as appropriate. This was denoted in the 2018 document as ATX(N), where X indicated a new biomarker category beyond A, T, or (N).[[TARGET_REFERENCE]]7[[/TARGET_REFERENCE]] Accordingly, Tables 1 and 2 include three new biomarker categories: inflammatory/immune mechanisms (I), vascular brain injury (V), and alpha-synucleinopathy (S). V and S biomarkers are relevant to this document on AD diagnosis and staging because AD most often occurs with copathologies in older adults
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第10点  r1pdf:1dfa922c755ed870245927e3
+论文对：r1pair:dd4e358b7151dc90c83a
+施引：Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup
+施引DOI：10.1002/alz.13859
+施引PDF：sources/PMC11350039.1/PMC11350039.1.pdf
+被引：Amyloid and tau PET-positive cognitively unimpaired individuals are at high risk for future cognitive decline
+被引DOI：10.1038/s41591-022-02049-x
+被引PDF：sources/PMC9671808.1/PMC9671808.1.pdf
+目标参考文献：alz13859-bib-0040；该参考文献在本篇的第1次引用
+原始引用组：38–40
+本次目标标记：40
+标记位置：[{"pdf_page": 5, "char_start": 3225, "char_end_exclusive": 3227}]
+待复核的目标句建议：
+First, this combination is rare.38–40 Second, when it does occur, it is often due to quantitative values close to cutpoints that may fall on one side versus the other owing to measurement variation.41
+完整施引段落（已标出本次目标）：
+Core 2 biomarkers have many uses (Table 2, Box 2) but most often would not be used as standalone diagnostic tests for AD. Caution should be used in interpreting an abnormal Core 2 result in the presence of a normal Core 1 result, because, as discussed in Section 4.3, abnormal amyloid PET (or a biofluid surrogate) is nearly always a prerequisite for neocortical AD tauopathy.35 The A−T2+ biomarker profile36 is not consistent with a diagnosis of AD.37 First, this combination is rare.38–[[TARGET_REFERENCE]]40[[/TARGET_REFERENCE]] Second, when it does occur, it is often due to quantitative values close to cutpoints that may fall on one side versus the other owing to measurement variation.41 As discussed later, biomarkershave sensitivitylimitsand a normal Abiomarker resultdoes not mean that the brain is devoid of plaques, but rather that if plaques are present, the burden does not rise to the detection threshold. Third, from a neuropathologic perspective, A−T2+ corresponds to primary age-related tauopathy, which is not considered to represent AD.5,42
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第11点  r1pdf:976890f040d5c2cab2e50965
+论文对：r1pair:dfc4fa2f6288240b4e04
+施引：Highly accurate protein structure prediction with AlphaFold
+施引DOI：10.1038/s41586-021-03819-2
+施引PDF：sources/PMC8371605.1/PMC8371605.1.pdf
+被引：Protein Data Bank: the single global archive for 3D macromolecular structure data
+被引DOI：10.1093/nar/gky949
+被引PDF：sources/PMC6324056.1/PMC6324056.1.pdf
+目标参考文献：CR5；该参考文献在本篇的第2次引用
+原始引用组：5
+本次目标标记：5
+标记位置：[{"pdf_page": 1, "char_start": 3673, "char_end_exclusive": 3674}]
+待复核的目标句建议：
+This bioinformatics approach has benefited greatly from the steady growth of experimental protein structures deposited in the Protein Data Bank (PDB)5, the explosion of genomic sequencing and the rapid development of deep learning techniques to interpret these correlations
+完整施引段落（已标出本次目标）：
+The development of computational methods to predict three-dimensional (3D) protein structures from the protein sequence has proceeded along two complementary paths that focus on either the physical interactions or the evolutionary history. The physical interaction programme heavily integrates our understanding of molecular driving forces into either thermodynamic or kinetic simulation of protein physics16 or statistical approximations thereof17. Although theoretically very appealing, this approach has proved highly challenging for even moderate-sized proteins due to the computational intractability of molecular simulation, the context dependence of protein stability and the difficulty of producing sufficiently accurate models of protein physics. The evolutionary programme has provided an alternative in recent years, in which the constraints on protein structure are derived from bioinformatics analysis of the evolutionary history of proteins, homology to solved structures18,19 and pairwise evolutionary correlations20–24. This bioinformatics approach has benefited greatly from the steady growth of experimental protein structures deposited in the Protein Data Bank (PDB)[[TARGET_REFERENCE]]5[[/TARGET_REFERENCE]], the explosion of genomic sequencing and the rapid development of deep learning techniques to interpret these correlations. Despite these advances, contemporary physical and evolutionary-history-based approaches produce predictions that are far short of experimental accuracy in the majority of cases in which a close homologue has not been solved experimentally and this has limited their utility for many biological applications
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第12点  r1pdf:8eec93b561ea2378e0da8197
+论文对：r1pair:f1839724111f75fec4aa
+施引：Clinical Characteristics of Coronavirus Disease 2019 in China
+施引DOI：10.1056/NEJMoa2002032
+施引PDF：sources/PMC7092819.1/PMC7092819.1.pdf
+被引：Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China
+被引DOI：10.1016/S0140-6736(20)30183-5
+被引PDF：sources/PMC7159299.1/PMC7159299.1.pdf
+目标参考文献：r1；该参考文献在本篇的第2次引用
+原始引用组：1,12,13
+本次目标标记：1
+标记位置：[{"pdf_page": 2, "char_start": 869, "char_end_exclusive": 870}]
+待复核的目标句建议：
+As of February 25, 2020, a total of 81,109 laboratory-confirmed cases had been documented globally.5,6,9-11 In recent studies, the severity of some cases of Covid-19 mimicked that of SARSCoV.1,12,13 Given the rapid spread of Covid-19, we determined that an updated analysis of cases throughout mainland China might help identify the defining clinical characteristics and severity of the disease
+完整施引段落（已标出本次目标）：
+The World Health Organization (WHO) has recently declared coronavirus disease 2019 (Covid-19) a public health emergency of international concern.9 As of February 25, 2020, a total of 81,109 laboratory-confirmed cases had been documented globally.5,6,9-11 In recent studies, the severity of some cases of Covid-19 mimicked that of SARSCoV.[[TARGET_REFERENCE]]1[[/TARGET_REFERENCE]],12,13 Given the rapid spread of Covid-19, we determined that an updated analysis of cases throughout mainland China might help identify the defining clinical characteristics and severity of the disease. Here, we describe the results of our analysis of the clinical characteristics of Covid-19 in a selected cohort of patients throughout China
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第13点  r1pdf:43c53ece80a7c35828d5246d
+论文对：r1pair:19982b1ec3dcc60b13fe
+施引：Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup
+施引DOI：10.1002/alz.13859
+施引PDF：sources/PMC11350039.1/PMC11350039.1.pdf
+被引：NIA-AA Research Framework: Toward a biological definition of Alzheimer’s disease
+被引DOI：10.1016/j.jalz.2018.02.018
+被引PDF：sources/PMC5958625.1/PMC5958625.1.pdf
+目标参考文献：alz13859-bib-0007；该参考文献在本篇的第3次引用
+原始引用组：7
+本次目标标记：7
+标记位置：[{"pdf_page": 11, "char_start": 1008, "char_end_exclusive": 1009}]
+待复核的目标句建议：
+In the 2018 framework, the “plus/minus” combinations of AT(N) were used as an informal staging scheme; individuals in the AD continuum were expected to progress from A+T−N−to A+T+N−to A+T+N+.7
+完整施引段落（已标出本次目标）：
+In the 2018 framework, the “plus/minus” combinations of AT(N) were used as an informal staging scheme; individuals in the AD continuum were expected to progress from A+T−N−to A+T+N−to A+T+N+.[[TARGET_REFERENCE]]7[[/TARGET_REFERENCE]] However, in 2018 we used the term biomarker profile rather than staging to avoid confusion with clinical staging. In the current update, however, we recommend an explicit scheme for staging the biological severity of AD that is distinct from staging the severity of clinical impairment, and then integrate these two staging axes
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第14点  r1pdf:fab3e8c6971477d942ccbcc4
+论文对：r1pair:dd4e358b7151dc90c83a
+施引：Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup
+施引DOI：10.1002/alz.13859
+施引PDF：sources/PMC11350039.1/PMC11350039.1.pdf
+被引：Amyloid and tau PET-positive cognitively unimpaired individuals are at high risk for future cognitive decline
+被引DOI：10.1038/s41591-022-02049-x
+被引PDF：sources/PMC9671808.1/PMC9671808.1.pdf
+目标参考文献：alz13859-bib-0040；该参考文献在本篇的第4次引用
+原始引用组：40
+本次目标标记：40
+标记位置：[{"pdf_page": 14, "char_start": 3472, "char_end_exclusive": 3474}]
+待复核的目标句建议：
+For example, a large multi-cohort meta-analysis40 using a PET-based staging scheme very similar to what we describe, found a 40-fold range in hazard ratios (HRs) based on PET stages
+完整施引段落（已标出本次目标）：
+PET is less sensitive than neuropathologic examination (Box 3), and PET-based staging is not equivalent to autopsy-based staging. However, PET-based staging clearly has prognostic value.145 For example, a large multi-cohort meta-analysis[[TARGET_REFERENCE]]40[[/TARGET_REFERENCE]] using a PET-based staging scheme very similar to what we describe, found a 40-fold range in hazard ratios (HRs) based on PET stages. Specifically, relative to the A−T2−reference group, the HR for progression from cognitively unimpaired to dementia was 1.5 for A+T2−individuals (stage A in our scheme), HR 5.6 for A+ individuals with tau PET uptake confined to the medial temporal lobe (stage B in our scheme), and HR 39.9 for A+ individuals with neocortical tau PET uptake (stages C and D in our scheme
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第15点  r1pdf:896e930269210ee1300d8037
+论文对：r1pair:dfc4fa2f6288240b4e04
+施引：Highly accurate protein structure prediction with AlphaFold
+施引DOI：10.1038/s41586-021-03819-2
+施引PDF：sources/PMC8371605.1/PMC8371605.1.pdf
+被引：Protein Data Bank: the single global archive for 3D macromolecular structure data
+被引DOI：10.1093/nar/gky949
+被引PDF：sources/PMC6324056.1/PMC6324056.1.pdf
+目标参考文献：CR5；该参考文献在本篇的第3次引用
+原始引用组：5
+本次目标标记：5
+标记位置：[{"pdf_page": 8, "char_start": 4172, "char_end_exclusive": 4173}]
+待复核的目标句建议：
+Our models were trained on a copy of the PDB5 downloaded on 28 August 2019
+完整施引段落（已标出本次目标）：
+The following versions of public datasets were used in this study. Our models were trained on a copy of the PDB[[TARGET_REFERENCE]]5[[/TARGET_REFERENCE]] downloaded on 28 August 2019. For finding template structures at prediction time, we used a copy of the PDB downloaded on 14 May 2020, and the PDB7066 clustering database downloaded on 13 May 2020. For MSA lookup at both training and prediction time, we used Uniref9067 v.2020_01, BFD, Uniclust3036 v.2018_08 and MGnify6 v.2018_12. For sequence distillation, we used Uniclust3036 v.2018_08 to construct a distillation structure dataset. Full details are provided in Supplementary Methods 1.2
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第16点  r1pdf:8b6ea1cffce94cc72ba1c9cf
+论文对：r1pair:f1839724111f75fec4aa
+施引：Clinical Characteristics of Coronavirus Disease 2019 in China
+施引DOI：10.1056/NEJMoa2002032
+施引PDF：sources/PMC7092819.1/PMC7092819.1.pdf
+被引：Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China
+被引DOI：10.1016/S0140-6736(20)30183-5
+被引PDF：sources/PMC7159299.1/PMC7159299.1.pdf
+目标参考文献：r1；该参考文献在本篇的第3次引用
+原始引用组：1
+本次目标标记：1
+标记位置：[{"pdf_page": 2, "char_start": 2360, "char_end_exclusive": 2361}]
+待复核的目标句建议：
+A confirmed case of Covid-19 was defined as a positive result on highthroughput sequencing or real-time reverse-transcriptase–polymerase-chain-reaction (RT-PCR) assay of nasal and pharyngeal swab specimens.1
+完整施引段落（已标出本次目标）：
+We obtained the medical records and compiled data for hospitalized patients and outpatients with laboratory-confirmed Covid-19, as reported to the National Health Commission between December 11, 2019, and January 29, 2020; the data cutoff for the study was January 31, 2020. Covid-19 was diagnosed on the basis of the WHO interim guidance.14 A confirmed case of Covid-19 was defined as a positive result on highthroughput sequencing or real-time reverse-transcriptase–polymerase-chain-reaction (RT-PCR) assay of nasal and pharyngeal swab specimens.[[TARGET_REFERENCE]]1[[/TARGET_REFERENCE]] Only laboratory-confirmed cases were included in the analysis
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第17点  r1pdf:0243ab815badba958177a9a8
+论文对：r1pair:19982b1ec3dcc60b13fe
+施引：Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup
+施引DOI：10.1002/alz.13859
+施引PDF：sources/PMC11350039.1/PMC11350039.1.pdf
+被引：NIA-AA Research Framework: Toward a biological definition of Alzheimer’s disease
+被引DOI：10.1016/j.jalz.2018.02.018
+被引PDF：sources/PMC5958625.1/PMC5958625.1.pdf
+目标参考文献：alz13859-bib-0007；该参考文献在本篇的第4次引用
+原始引用组：7
+本次目标标记：7
+标记位置：[{"pdf_page": 14, "char_start": 5260, "char_end_exclusive": 5261}]
+待复核的目标句建议：
+In the 2018 research framework,7 we described a six-stage numeric clinical staging scheme that is brought forward largely unchanged into this revision, and readers are referred to the earlier document for additional details
+完整施引段落（已标出本次目标）：
+In the 2018 research framework,[[TARGET_REFERENCE]]7[[/TARGET_REFERENCE]] we described a six-stage numeric clinical staging scheme that is brought forward largely unchanged into this revision, and readers are referred to the earlier document for additional details. Clinical staging of AD applies only to individuals who are in the AD pathophysiologic continuum. The six clinically defined stages are as follows (Table 6): (1) biomarker evidence of AD in asymptomatic individuals; (2) transitional decline, which denotes the earliest detectable clinical symptoms that might be due to AD in individuals who are cognitively unimpaired; (3) objective cognitive impairment of insufficient severity to result in significant functional loss i.e., inefficient activities of daily living but still independent); 4 to 6, loss of independence with progressively worse functional loss
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第18点  r1pdf:0625d9ca3ef5bf2a22c6109b
+论文对：r1pair:f1839724111f75fec4aa
+施引：Clinical Characteristics of Coronavirus Disease 2019 in China
+施引DOI：10.1056/NEJMoa2002032
+施引PDF：sources/PMC7092819.1/PMC7092819.1.pdf
+被引：Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China
+被引DOI：10.1016/S0140-6736(20)30183-5
+被引PDF：sources/PMC7159299.1/PMC7159299.1.pdf
+目标参考文献：r1；该参考文献在本篇的第4次引用
+原始引用组：1,8,12
+本次目标标记：1
+标记位置：[{"pdf_page": 5, "char_start": 4217, "char_end_exclusive": 4218}]
+待复核的目标句建议：
+In concert with recent studies,1,8,12 we found that the clinical characteristics of Covid-19 mimic those of SARS-CoV
+完整施引段落（已标出本次目标）：
+In concert with recent studies,[[TARGET_REFERENCE]]1[[/TARGET_REFERENCE]],8,12 we found that the clinical characteristics of Covid-19 mimic those of SARS-CoV. Fever and cough were the dominant symptoms and gastrointestinal symptoms were uncommon, which suggests a difference in viral tropism as compared with SARS-CoV, MERS-CoV, and seasonal influenza.22,23 The absence of fever in Covid-19 is more frequent than in SARS-CoV (1%) and MERS-CoV infection 2%),20 so afebrile patients may be missed if the surveillance case definition focuses on fever detection.14 Lymphocytopenia was common and, in some cases, severe, a finding that was consistent with the results of two recent reports.1,12 We found a lower case fatality rate (1.4%) than the rate that was recently reportedly,1,12 probably because of the difference in sample sizes and case inclusion criteria. Our findings were more similar to the national official statistics, which showed a rate of death of 3.2% among 51,857 cases of Covid-19 as of February 16, 2020.11,24 Since patients who were mildly ill and who did not seek medical attention were not included in our study, the case fatality rate in a real-world scenario might be even lower. Early isolation, early diagnosis, and early management might have collectively contributed to the reduction in mortality in Guangdong
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第19点  r1pdf:826cdb765c276ba900010084
+论文对：r1pair:19982b1ec3dcc60b13fe
+施引：Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup
+施引DOI：10.1002/alz.13859
+施引PDF：sources/PMC11350039.1/PMC11350039.1.pdf
+被引：NIA-AA Research Framework: Toward a biological definition of Alzheimer’s disease
+被引DOI：10.1016/j.jalz.2018.02.018
+被引PDF：sources/PMC5958625.1/PMC5958625.1.pdf
+目标参考文献：alz13859-bib-0007；该参考文献在本篇的第5次引用
+原始引用组：7
+本次目标标记：7
+标记位置：[{"pdf_page": 16, "char_start": 4452, "char_end_exclusive": 4453}]
+待复核的目标句建议：
+In the 2018 research framework, we placed (N) in parentheses to emphasize that, in contrast to A and T, (N) biomarkers were not specific for AD.7
+完整施引段落（已标出本次目标）：
+In the 2018 research framework, we placed (N) in parentheses to emphasize that, in contrast to A and T, (N) biomarkers were not specific for AD.[[TARGET_REFERENCE]]7[[/TARGET_REFERENCE]] We no longer use this parentheses notation because it should be clear that N biomarkers do not belong in the same category as core biomarkers. While neurodegeneration and neuronal injury are obviously important steps in AD pathogenesis, abnormalities in N biomarkers occur in many other conditions, including non-AD neurodegenerative diseases, traumatic brain injury, ischemic injury, and others (Figure 1
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+
+第20点  r1pdf:07b8a2180cd71a89f1c772cc
+论文对：r1pair:f1839724111f75fec4aa
+施引：Clinical Characteristics of Coronavirus Disease 2019 in China
+施引DOI：10.1056/NEJMoa2002032
+施引PDF：sources/PMC7092819.1/PMC7092819.1.pdf
+被引：Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China
+被引DOI：10.1016/S0140-6736(20)30183-5
+被引PDF：sources/PMC7159299.1/PMC7159299.1.pdf
+目标参考文献：r1；该参考文献在本篇的第5次引用
+原始引用组：1,12
+本次目标标记：1
+标记位置：[{"pdf_page": 11, "char_start": 319, "char_end_exclusive": 320}]
+待复核的目标句建议：
+Lymphocytopenia was common and, in some cases, severe, a finding that was consistent with the results of two recent reports.1,12 We found a lower case fatality rate (1.4%) than the rate that was recently reportedly,1,12 probably because of the difference in sample sizes and case inclusion criteria
+完整施引段落（已标出本次目标）：
+In concert with recent studies,1,8,12 we found that the clinical characteristics of Covid-19 mimic those of SARS-CoV. Fever and cough were the dominant symptoms and gastrointestinal symptoms were uncommon, which suggests a difference in viral tropism as compared with SARS-CoV, MERS-CoV, and seasonal influenza.22,23 The absence of fever in Covid-19 is more frequent than in SARS-CoV (1%) and MERS-CoV infection 2%),20 so afebrile patients may be missed if the surveillance case definition focuses on fever detection.14 Lymphocytopenia was common and, in some cases, severe, a finding that was consistent with the results of two recent reports.[[TARGET_REFERENCE]]1[[/TARGET_REFERENCE]],12 We found a lower case fatality rate (1.4%) than the rate that was recently reportedly,1,12 probably because of the difference in sample sizes and case inclusion criteria. Our findings were more similar to the national official statistics, which showed a rate of death of 3.2% among 51,857 cases of Covid-19 as of February 16, 2020.11,24 Since patients who were mildly ill and who did not seek medical attention were not included in our study, the case fatality rate in a real-world scenario might be even lower. Early isolation, early diagnosis, and early management might have collectively contributed to the reduction in mortality in Guangdong
+计划分类器：Mbio checkpoint-100；实际运行：未运行。
+两人判断/最终裁决：留空；证据检索：待进行；端到端验收：未完成。
+

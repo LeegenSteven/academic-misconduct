@@ -1,0 +1,56 @@
+The Author(s) BMC Bioinformatics 2017, 18(Suppl 3):80
+Page 94 of 175
+Fig. 3 The output images of AfterQC deBubble. a is a sub-image of a lane of NextSeq 500 sequencer, from which we can find 1 bubble detected.
+b shows enlarged details of the bubble. c shows a sub-image of a tile of HiSeq 3000 with similar resolution of (b), which has much fewer polyX reads
+or ending of the reads may have significant statistical
+biases. For example, library preparation bias or sequenc-
+ing bias can cause GC percentage higher than 70% at
+some beginning or ending cycles, and these cycles should
+be considered as abnormal cycles, and surely should be
+removed by some methods.
+There are two strategies for trimming, namely local
+strategy and global strategy. Some tools, like Trimmo-
+matic [6], apply local strategy, which perform trimming
+read by read. However local trimming has two drawbacks.
+The first drawback is that local trimming only uses the
+quality information for trimming, but cannot utilise the
+global statistical information to discover the abnormal
+cycles. The second drawback is local trimming results in
+unaligned trimming, which means duplicated reads may
+be trimmed differently, and consequently lead to failure
+of de-duplication tools like Picard [10]. Most of these de-
+duplication tools detect duplications only by clustering
+reads with same mapping positions.
+In contrast, AfterQC implements global trimming strat-
+egy, which means trimming all the reads identically. An
+algorithm is used to determine how many cycles to trim
+in the front and tail. The algorithm is based on such find-
+ing: the mean per-cycle base ratio curve is usually flat
+in the intermediate cycles, but may be fluctuant in the
+first and last several cycles. Also the intermediate cycles
+usually have higher mean quality score than the first and
+last cycles. Before trimming happens, AfterQC will do
+pre-filtering quality control to calculate the base content
+and quality curves. Our algorithm initialises the central
+cycle as a good cycle, and then expands the good region
+by scanning the base content and quality curves cycle by
+cycle, until it meets the front or end, or meet a cycle con-
+sidered as abnormal. Then the cycles in the good region
+will be kept, and the rest cycles in the front and tail will
+be trimmed. Currently a cycle will be marked as abnormal
+if it meets at least one of following criteria: 1), too high
+or too low of mean base content percentages (i.e higher
+than 40%, or lower than 15%); 2), too significant change
+of mean base content percentages (i.e, ±10% change com-
+paring to neighbour cycle); 3), too high or too low of
+mean GC percentages (i.e higher than 70%, or lower than
+30%); 4), too low of mean quality (i.e. less then Q20).
+Figure 4 gives an example how automatic trimming works.
+According to our experiments, AfterQC only trims very
+few cycles for data with good sequencing quality (i.e. 1
+base in front, and 1 base in tail), so normally it will not
+significantly affect the data utilisation rate. However, for
+some extreme cases, the sequencing quality is quite low,
+and the mean base content percentage or quality curves
+can be totally chaotic. To not trim too many data for such
+cases, AfterQC limits the trimming cycles both in front

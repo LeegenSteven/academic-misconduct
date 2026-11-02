@@ -1,0 +1,249 @@
+Articles
+www.thelancet.com   Vol 395   March 28, 2020	
+1057
+troponin I, creatine kinase, d-dimer, serum ferritin, and 
+IL-6, might be unavailable in emergency circumstances. 
+Therefore, we chose lymphocyte count, d-dimer, SOFA 
+score, coronary heart disease, and age as the five variables 
+for our multivariable logistic regression model.
+We excluded variables from the univariable analysis if 
+their between-group differences were not significant, if 
+their accuracy was unconfirmed (eg, exposure, which 
+was self-reported), if the number of events was too small 
+to calculate odds ratios, and if they had colinearity with 
+the SOFA score.
+We compared patient characteristics between the 
+two hospitals and used a generalised linear model to 
+adjust for possible differences in patients’ characteristics 
+and treatment between the two study centres.
+A two-sided α of less than 0·05 was considered statis­
+tically significant. Statistical analyses were done using 
+the SAS software (version 9.4), unless otherwise 
+indicated.
+Role of the funding source
+The funder of the study had no role in study design, data 
+collection, data analysis, data interpretation, or writing 
+of the report. The corresponding authors (BC and HC) 
+had full access to all the data in the study and had final 
+responsibility for the decision to submit for publication.
+Results
+813 adult patients were hospitalised in Jinyintan Hospital 
+or Wuhan Pulmonary Hospital with COVID-19 before 
+Jan 31, 2020. After excluding 613 patients that were 
+still hospitalised or not confirmed by SARS-CoV-2 RNA 
+detection as of Jan 31, 2020, and nine inpatients without 
+available key information in their medical records, we 
+included 191 inpatients (135 from Jinyintan Hospital 
+and 56 from Wuhan Pulmonary Hospital) in the final 
+analysis. 54 patients died during hospitalisation and 
+137 were discharged. The median age of the 191 patients 
+was 56·0 years (IQR 46·0–67·0), ranging from 18 years 
+to 87 years, and most patients were male (table 1). 
+Co­morbidities were present in nearly half of patients, 
+with hypertension being the most common comorbidity, 
+followed by diabetes and coronary heart disease (table 1). 
+The most common symptoms on admission were 
+fever and cough, followed by sputum production and 
+fatigue (table 1). Lymphocytopenia occurred in 77 (40%) 
+patients. 181 (95%) patients received antibiotics and 
+41 (21%) received antivirals (lopinavir/ritonavir; table 2). 
+Systematic corticosteroid and intravenous immuno­
+globulin use differed significantly between non-survivors 
+and survivors (table 2). The comparison of charac­
+teristics, treatment, and outcomes of patients from the 
+two hospitals are shown in the appendix (pp 2–4).
+The median time from illness onset (ie, before admission) 
+to discharge was 22·0 days (IQR 18·0–25·0), whereas the 
+median time to death was 18·5 days (15·0–22·0; table 2). 
+32 patients required invasive mechanical ventilation, of 
+whom 31 (97%) died. The median time from illness onset to 
+invasive mechanical ventilation was 14·5 days (12·0–19·0). 
+Extracorporeal membrane oxygenation was used in three 
+patients, none of whom survived. Sepsis was the most 
+frequently observed complication, followed by respiratory 
+failure, ARDS, heart failure, and septic shock (table 2). Half 
+of non-survivors experienced a secondary infection, and 
+ventilator-associated pneumonia occurred in ten (31%) of 
+32 patients requiring invasive mechanical ventilation. The 
+frequency of complications were higher in non-survivors 
+than survivors (table 2).
+Total 
+(n=191)
+Non-survivor 
+(n=54)
+Survivor 
+(n=137)
+p value
+(Continued from previous page)
+Anaemia
+29 (15%)
+14 (26%)
+15 (11%)
+0·0094
+Platelet count, × 10⁹ per L
+206·0 
+(155·0–262·0)
+165·5 
+(107·0–229·0)
+220·0 
+(168·0–271·0)
+<0·0001
+<100
+13 (7%)
+11 (20%)
+2 (1%)
+<0·0001
+Albumin, g/L
+32·3 (29·1–35·8)
+29·1 (26·5–31·3)
+33·6 (30·6–36·4)
+<0·0001
+ALT, U/L
+30·0 (17·0–46·0)
+40·0 (24·0–51·0)
+27·0 (15·0–40·0)
+0·0050
+>40
+59/189 (31%)
+26 (48%)
+33/135 (24%)
+0·0015
+Creatinine >133 μmol/L
+8/186 (4%)
+5 (9%)
+3/132 (2%)
+0·045
+Lactate dehydrogenase, U/L
+300·0 
+(234·0–407·0)
+521·0 
+(363·0–669·0)
+253·5 
+(219·0–318·0)
+<0·0001
+>245
+123/184 (67%)
+53 (98%)
+70/130(54%)
+<0·0001
+Creatine kinase, U/L
+21·5 (13·0–72·4)
+39·0 (19·5–151·0)
+18·0 (12·5–52·1)
+0·0010
+>185
+22/168 (13%)
+11/52 (21%)
+11/116 (9%)
+0·038
+High-sensitivity cardiac 
+troponin I, pg/mL
+4·1 (2·0–14·1)
+22·2 (5·6–83·1)
+3·0 (1·1–5·5)
+<0·0001
+>28
+24/145 (17%)
+23/50 (46%)
+1/95 (1%)
+<0·0001
+Prothrombin time, s
+11·6 (10·6–13·0)
+12·1 (11·2–13·7)
+11·4 (10·4–12·6)
+0·0004
+<16
+171/182 (94%)
+47 (87%)
+124/128 (97%)
+0·016*
+≥16
+11/182 (6%)
+7 (13%)
+4/128 (3%)
+··
+D-dimer, μg/mL
+0·8 (0·4–3·2)
+5·2 (1·5–21·1)
+0·6 (0·3–1·0)
+<0·0001
+≤0·5
+55/172 (32%)
+4 (7%)
+51/118 (43%)
+<0·0001*
+>0·5 to ≤1
+45/172 (26%)
+6 (11%)
+39/118 (33%)
+··
+>1
+72/172 (42%)
+44 (81%)
+28/118 (24%)
+··
+Serum ferritin, μg/L
+722·0 
+(377·2–1435·3)
+1435·3 
+(728·9–2000·0)
+503·2 
+(264·0–921·5)
+<0·0001
+>300
+102/128 (80%)
+44/46 (96%)
+58/82 (71%)
+0·0008
+IL-6, pg/mL
+7·4 (5·3–10·8)
+11·0 (7·5–14·4)
+6·3 (5·0–7·9)
+<0·0001
+Procalcitonin, ng/mL
+0·1 (0·1–0·1)
+0·1 (0·1–0·5)
+0·1 (0·1–0·1)
+<0·0001
+<0·1
+114/164 (70%)
+19/51 (37%)
+95/113 (84%)
+<0·0001*
+≥0·1 to <0·25
+30/164 (18%)
+16/51 (31%)
+14/113 (12%)
+··
+≥0·25 to <0·5
+6/164 (4%)
+3/51 (6%)
+3/113 (3%)
+··
+≥0·5
+14/164 (9%)
+13/51 (25%)
+1/113 (1%)
+··
+Imaging features
+Consolidation
+112 (59%)
+40 (74%)
+72 (53%)
+0·0065
+Ground-glass opacity
+136 (71%)
+44 (81%)
+92 (67%)
+0·049
+Bilateral pulmonary 
+infiltration
+143 (75%)
+45 (83%)
+98 (72%)
+0·090
+Data are median (IQR), n (%), or n/N (%). p values were calculated by Mann-Whitney U test, χ² test, or Fisher’s exact 
+test, as appropriate. SOFA=Sequential Organ Failure Assessment. qSOFA=Quick SOFA. ALT=alanine aminotransferase. 
+IL-6=interleukin-6. *χ² test comparing all subcategories.
+Table 1: Demographic, clinical, laboratory, and radiographic findings of patients on admission
+See Online for appendix

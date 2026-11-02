@@ -1,0 +1,163 @@
+Articles
+1062	
+www.thelancet.com   Vol 395   March 28, 2020
+Declaration of interests
+We declare no competing interests.
+Acknowledgments
+This study received the following funding: Chinese Academy of Medical 
+Sciences Innovation Fund for Medical Sciences (CIFMS 
+2018-I2M-1–003); National Science Grant for Distinguished Young 
+Scholars (81425001/H0104); National Key Research and Development 
+Program of China (2018YFC1200100, 2018YFC1200102); The Beijing 
+Science and Technology Project (Z19110700660000); Major Projects of 
+National Science and Technology on New Drug Creation and 
+Development (2020ZX09201001). We acknowledge all health-care 
+workers involved in the diagnosis and treatment of patients in Wuhan; 
+and we thank Chen Wang (Peking Union Medical College, Beijing, 
+China), Peter W Horby (University of Oxford, Oxford, UK), and 
+Frederick G Hayden (University of Virginia School of Medicine, 
+Charlottesville, VA, USA) for guidance in study design and 
+interpretation of results, and review of the manuscript.
+References
+1	
+Phelan AL, Katz R, Gostin LO. The novel coronavirus originating in 
+Wuhan, China: challenges for global health governance. JAMA 
+2020; published online Jan 30. DOI:10.1001/jama.2020.1097.
+2	
+Gorbalenya AE, Baker SC, Baric RS, et al. Severe acute respiratory 
+syndrome-related coronavirus: the species and its viruses—a 
+statement of the Coronavirus Study Group. bioRxiv 2020; published 
+online Feb 11. DOI:10.1101/2020.02.07.937862 (preprint).
+3	
+Chan JWM, Ng CK, Chan YH, et al. Short term outcome and risk 
+factors for adverse clinical outcomes in adults with severe acute 
+respiratory syndrome (SARS). Thorax 2003; 58: 686–89.
+4	
+Li Q, Guan X, Wu P, et al. Early transmission dynamics in Wuhan, 
+China, of novel coronavirus-infected pneumonia. N Engl J Med 
+2020; published online Jan 29. DOI:10.1056/NEJMoa2001316.
+5	
+Huang C, Wang Y, Li X, et al. Clinical features of patients infected 
+with 2019 novel coronavirus in Wuhan, China. Lancet 2020; 
+395: 497–506.
+6	
+Wang D, Hu B, Hu C, et al. Clinical characteristics of 
+138 hospitalized patients with 2019 novel coronavirus-infected 
+pneumonia in Wuhan, China. JAMA 2020; published online Feb 7. 
+DOI:10.1001/jama.2020.1585.
+7	
+Chen N, Zhou M, Dong X, et al. Epidemiological and clinical 
+characteristics of 99 cases of 2019 novel coronavirus pneumonia in 
+Wuhan, China: a descriptive study. Lancet 2020; 395: 507–13.
+8	
+Kalil AC, Metersky ML, Klompas M, et al. Management of adults with 
+hospital-acquired and ventilator-associated pneumonia: 2016 clinical 
+practice guidelines by the Infectious Diseases Society of America and 
+the American Thoracic Society. Clin Infect Dis 2016; 63: e61–111.
+9	
+Khwaja A. KDIGO clinical practice guidelines for acute kidney 
+injury. Nephron Clin Pract 2012; 120: c179–84.
+10	
+Ranieri VM, Rubenfeld GD, Thompson BT, et al. Acute respiratory 
+distress syndrome: the Berlin Definition. JAMA 2012; 307: 2526–33.
+11	
+National Health Commission of the People’s Republic of China. 
+Chinese management guideline for COVID-19 (version 6.0). 
+Feb 19, 2020. http://www.nhc.gov.cn/yzygj/s7653p/202002/8334a832
+6dd94d329df351d7da8aefc2/files/b218cfeb1bc54639af227f922bf6b817.
+pdf (accessed Feb 19, 2020; in Chinese).
+12	
+Yang X, Yu Y, Xu J, et al. Clinical course and outcomes of critically 
+ill patients with SARS-CoV-2 pneumonia in Wuhan, China: 
+a single-centered, retrospective, observational study. 
+Lancet Respir Med 2020; published online Feb 24. https://doi.org/ 
+10.1016/S2213-2600(20)30079-5.
+13	
+Arabi YM, Balkhy HH, Hayden FG, et al. Middle East respiratory 
+syndrome. N Engl J Med 2017; 376: 584–94.
+14	
+Choi KW, Chau TN, Tsang O, et al. Outcomes and prognostic 
+factors in 267 patients with severe acute respiratory syndrome in 
+Hong Kong. Ann Intern Med 2003; 139: 715–23.
+15	
+Hong K-H, Choi J-P, Hong S-H, et al. Predictors of mortality in 
+Middle East respiratory syndrome (MERS). Thorax 2018; 
+73: 286–89.
+16	
+Smits SL, de Lang A, van den Brand JMA, et al. Exacerbated innate 
+host response to SARS-CoV in aged non-human primates. 
+PLoS Pathog 2010; 6: e1000756-e.
+17	
+Opal SM, Girard TD, Ely EW. The immunopathogenesis of sepsis 
+in elderly patients. Clin Infect Dis 2005; 41 (suppl 7): S504–12.
+18	
+Singer M, Deutschman CS, Seymour CW, et al. The Third 
+International Consensus Definitions for Sepsis and Septic Shock 
+(Sepsis-3). JAMA 2016; 315: 801–10.
+19	
+Ferreira FL, Bota DP, Bross A, Mélot C, Vincent JL. Serial evaluation 
+of the SOFA score to predict outcome in critically ill patients. JAMA 
+2001; 286: 1754–58.
+20	 Zhou F, Wang Y, Liu Y, et al. Disease severity and clinical outcomes 
+of community-acquired pneumonia caused by non-influenza 
+respiratory viruses in adults: a multicentre prospective registry 
+study from the CAP-China Network. Eur Respir J 2019; 54: 1802406.
+21	
+Marrie TJ, Shariatzadeh MR. Community-acquired pneumonia 
+requiring admission to an intensive care unit: a descriptive study. 
+Medicine (Baltimore) 2007; 86: 103–11.
+22	 Corrales-Medina VF, Musher DM, Shachkina S, Chirinos JA. 
+Acute pneumonia and the cardiovascular system. Lancet 2013; 
+381: 496–505.
+23	 Udell JA, Zawi R, Bhatt DL, et al. Association between influenza 
+vaccination and cardiovascular outcomes in high-risk patients: 
+a meta-analysis. JAMA 2013; 310: 1711–20.
+24	
+Blackburn R, Zhao H, Pebody R, Hayward A, Warren-Gash C. 
+Laboratory-confirmed respiratory infections as predictors of hospital 
+admission for myocardial infarction and stroke: time-series analysis 
+of English data for 2004–2015. Clin Infect Dis 2018; 67: 8–17.
+25	 Milbrandt EB, Reade MC, Lee M, et al. Prevalence and significance 
+of coagulation abnormalities in community-acquired pneumonia. 
+Mol Med 2009; 15: 438–45.
+26	 Rodelo JR, De la Rosa G, Valencia ML, et al. D-dimer is a significant 
+prognostic factor in patients with suspected infection and sepsis. 
+Am J Emerg Med 2012; 30: 1991–99.
+27	
+Smeeth L, Thomas SL, Hall AJ, Hubbard R, Farrington P, 
+Vallance P. Risk of myocardial infarction and stroke after acute 
+infection or vaccination. N Engl J Med 2004; 351: 2611–18.
+28	 Corrales-Medina VF, Musher DM, Wells GA, Chirinos JA, Chen L, 
+Fine MJ. Cardiac complications in patients with community-
+acquired pneumonia: incidence, timing, risk factors, and association 
+with short-term mortality. Circulation 2012; 125: 773–81.
+29	 Davidson JA, Warren-Gash C. Cardiovascular complications of 
+acute respiratory infections: current research and future directions. 
+Expert Rev Anti Infect Ther 2019; 17: 939–42.
+30	 Gallagher PE, Ferrario CM, Tallant EA. Regulation of ACE2 in 
+cardiac myocytes and fibroblasts. Am J Physiol Heart Circ Physiol 
+2008; 295: H2373–79.
+31	
+Mendoza-Torres E, Oyarzún A, Mondaca-Ruff D, et al. ACE2 and 
+vasoactive peptides: novel players in cardiovascular/renal remodeling 
+and hypertension. Ther Adv Cardiovasc Dis 2015; 9: 217–37.
+32	 Xu Z, Shi L, Wang Y, et al. Pathological findings of COVID-19 
+associated with acute respiratory distress syndrome. Lancet Respir Med 
+2020; published online Feb 18. https://doi.org/10.1016/
+S2213-2600(20)30076-X.
+33	 Xu D, Zhang Z, Jin L, et al. Persistent shedding of viable SARS-CoV 
+in urine and stool of SARS patients during the convalescent phase. 
+Eur J Clin Microbiol Infect Dis 2005; 24: 165–71.
+34	
+Corman VM, Albarrak AM, Omrani AS, et al. Viral shedding and 
+antibody response in 37 patients with Middle East Respiratory 
+Syndrome coronavirus infection. Clin Infect Dis 2016; 62: 477–83.
+35	 Oh MD, Park WB, Choe PG, et al. Viral load kinetics of MERS 
+coronavirus infection. N Engl J Med 2016; 375: 1303–05.
+36	 Wang Y, Guo Q, Yan Z, et al. Factors associated with prolonged viral 
+shedding in patients with avian influenza A(H7N9) virus infection. 
+J Infect Dis 2018; 217: 1708–17.
+37	
+Zou L, Ruan F, Huang M, et al. SARS-CoV-2 viral load in upper 
+respiratory specimens of infected patients. N Engl J Med 2020; 
+published online Feb 19. DOI:10.1056/NEJMc2001737.

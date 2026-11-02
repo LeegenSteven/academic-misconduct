@@ -1,0 +1,129 @@
+n engl j med﻿  nejm.org﻿
+8
+The new engl and jour nal of medicine
+Table 2. Radiographic and Laboratory Findings.*
+Variable
+All Patients 
+(N = 1099)
+Disease Severity
+Presence of Composite Primary End Point
+Nonsevere 
+(N = 926)
+Severe 
+(N = 173)
+Yes 
+(N = 67)
+No 
+(N = 1032)
+Radiologic findings
+Abnormalities on chest radiograph — no./total no. (%)
+162/274 (59.1)
+116/214 (54.2)
+46/60 (76.7)
+30/39 (76.9)
+132/235 (56.2)
+Ground-glass opacity
+55/274 (20.1)
+37/214 (17.3)
+18/60 (30.0)
+9/39 (23.1)
+46/235 (19.6)
+Local patchy shadowing
+77/274 (28.1)
+56/214 (26.2)
+21/60 (35.0)
+13/39 (33.3)
+64/235 (27.2)
+Bilateral patchy shadowing
+100/274 (36.5)
+65/214 (30.4)
+35/60 (58.3)
+27/39 (69.2)
+73/235 (31.1)
+Interstitial abnormalities
+12/274 (4.4)
+7/214 (3.3)
+5/60 (8.3)
+6/39 (15.4)
+6/235 (2.6)
+Abnormalities on chest CT — no./total no. (%)
+840/975 (86.2)
+682/808 (84.4)
+158/167 (94.6)
+50/57 (87.7)
+790/918 (86.1)
+Ground-glass opacity
+550/975 (56.4)
+449/808 (55.6)
+101/167 (60.5)
+30/57 (52.6)
+520/918 (56.6)
+Local patchy shadowing
+409/975 (41.9)
+317/808 (39.2)
+92/167 (55.1)
+22/57 (38.6)
+387/918 (42.2)
+Bilateral patchy shadowing
+505/975 (51.8)
+368/808 (45.5)
+137/167 (82.0)
+40/57 (70.2)
+465/918 (50.7)
+Interstitial abnormalities
+143/975 (14.7)
+99/808 (12.3)
+44/167 (26.3)
+15/57 (26.3)
+128/918 (13.9)
+Laboratory findings
+Median Pao2:Fio2 ratio (IQR)†
+3.9 (2.9–4.7)
+3.9 (2.9–4.5)
+4.0 (2.8–5.2)
+2.9 (2.2–5.4)
+4.0 (3.1–4.6)
+White-cell count
+Median (IQR) — per mm3
+4700 
+(3500– 6000)
+4900 
+(3800–6000)
+3700 
+(3000–6200)
+6100 
+(4900– 11,100)
+4700 
+(3500– 5900)
+Distribution — no./total no. (%)
+>10,000 per mm3
+58/978 (5.9)
+39/811 (4.8)
+19/167 (11.4)
+15/58 (25.9)
+43/920 (4.7)
+<4000 per mm3
+330/978 (33.7)
+228/811 (28.1)
+102/167 (61.1)
+8/58 (13.8)
+322/920 (35.0)
+Lymphocyte count
+Median (IQR) — per mm3
+1000 
+(700–1300)
+1000 
+(800–1400)
+800 
+(600–1000)
+700 
+(600–900)
+1000 
+(700–1300)
+Distribution — no./total no. (%)
+<1500 per mm3
+731/879 (83.2)
+584/726 (80.4)
+147/153 (96.1)
+50/54 (92.6)
+681/825 (82.5)

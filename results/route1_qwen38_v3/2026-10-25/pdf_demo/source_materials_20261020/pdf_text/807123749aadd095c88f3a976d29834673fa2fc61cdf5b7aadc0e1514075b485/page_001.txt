@@ -1,0 +1,106 @@
+D520–D528
+Nucleic Acids Research, 2019, Vol. 47, Database issue
+Published online 24 October 2018
+doi: 10.1093/nar/gky949
+Protein Data Bank: the single global archive for 3D
+macromolecular structure data
+wwPDB consortium
+Received September 14, 2018; Revised September 28, 2018; Editorial Decision October 01, 2018; Accepted October 05, 2018
+ABSTRACT
+The
+Protein
+Data
+Bank
+(PDB)
+is
+the
+single
+global archive of experimentally determined three-
+dimensional (3D) structure data of biological macro-
+molecules. Since 2003, the PDB has been man-
+aged by the Worldwide Protein Data Bank (wwPDB;
+wwpdb.org), an international consortium that col-
+laboratively oversees deposition, validation, biocu-
+ration, and open access dissemination of 3D macro-
+molecular structure data. The PDB Core Archive
+houses 3D atomic coordinates of more than 144 000
+structural models of proteins, DNA/RNA, and their
+complexes with metals and small molecules and re-
+lated experimental data and metadata. Structure and
+experimental data/metadata are also stored in the
+PDB Core Archive using the readily extensible ww-
+PDB PDBx/mmCIF master data format, which will
+continue to evolve as data/metadata from new ex-
+perimental techniques and structure determination
+methods are incorporated by the wwPDB. Impacts
+of the recently developed universal wwPDB OneDep
+deposition/validation/biocuration system and vari-
+ous methods-speciﬁc wwPDB Validation Task Forces
+on improving the quality of structures and data
+housed in the PDB Core Archive are described to-
+gether with current challenges and future plans.
+INTRODUCTION
+The Protein Data Bank (PDB, pdb.org) was established
+in 1971 as the first open-access, molecular data resource
+in biology (1). More than 47 years later, the PDB con-
+tinues to serve as the single global repository for atomic-
+level, 3D structure data, making >144 000 experimentally-
+determined structures of proteins, DNA, and RNA, and
+their complexes with metal ions, drugs, and other small
+molecules freely available without restrictions on use. Since
+2003, the PDB has been managed jointly by the World-
+wide Protein Data Bank (wwPDB) consortium (2), in-
+cluding the US Research Collaboratory for Structural
+Bioinformatics Protein Data Bank (RCSB PDB;
+rcsb.
+org) (3), the Protein Data Bank in Europe (PDBe; pdbe.
+org) (4), Protein Data Bank Japan (PDBj; pdbj.org)
+(5) and BioMagResBank (BMRB; www.bmrb.wisc.edu)
+(6). The wwPDB partners are committed to ensuring ad-
+herence to the FAIR Principles of Findability-Accessibility-
+Interoperability-Reusability (7).
+Today, the PDB is universally regarded as a core data
+resource essential for understanding the functional roles
+that macromolecules play in biology and medicine. Pub-
+lication of new macromolecular structures in most sci-
+entific journals is contingent on mandatory deposition
+to the PDB of the 3D atomic coordinates comprising
+the structural model plus experimental data used to de-
+rive the structures and associated metadata. Many gov-
+ernmental and non-governmental research funders also
+require PDB deposition of unpublished macromolecular
+structure data. All of these 3D structural data are stored
+in one of two wwPDB Core Archives. The PDB Core
+Archive houses 3D atomic coordinates of >144 000 struc-
+tural models of proteins, DNA/RNA, and their com-
+plexes with metals and small molecules. The PDB Core
+Archive also houses related experimental data/metadata
+from Macromolecular Crystallography (MX). The BioMa-
+gResBank (BMRB; www.bmrb.wisc.edu) Core Archive
+houses related experimental data/metadata from Nuclear
+Magnetic Resonance spectroscopy (NMR). The wwPDB
+partners work closely with the Electron Microscopy Data
+Bank (EMDB; emdb-empiar.org), which houses related ex-
+perimental data/metadata from 3D Electron Microscopy
+(3DEM) and Electron Tomography (ET).
+The PDB Core Archive has seen steady growth since
+its inception, with over 11,000 new structures plus exper-
+imental data/metadata released in 2017 (Figure 1A). In
+aggregate, most of the 3D structures (89.5%) in the PDB
+Core Archive were determined using macromolecular crys-
+tallography (MX), with the remainder determined by NMR
+(8.5%), 3DEM (1.6%), and other techniques (0.4%). These
+overall metrics mask recent trends, which show that in 2016
+3DEM overtook NMR as the second most popular tech-
+nique for determining atomic level structures (Figure 1B).
+While the PDB Core Archive has grown enormously in
+scale and scope over the past 47 years and its management
+has evolved concurrently, adherence to the principle of open
+access and commitment to community engagement (1) con-
+tinue to this day.
+The Vision of the wwPDB is to:
+• Sustain freely accessible, interoperating Core Archives
+of structure data and metadata for biological macro-
+C⃝The Author(s) 2018. Published by Oxford University Press on behalf of Nucleic Acids Research.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which
+permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.

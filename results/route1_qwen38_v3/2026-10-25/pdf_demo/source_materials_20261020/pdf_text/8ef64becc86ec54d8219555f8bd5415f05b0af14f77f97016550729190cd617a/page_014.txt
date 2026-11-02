@@ -1,0 +1,49 @@
+was implicit rather than explicit. Three different documents were published describing 
+preclinical AD, MCI, and dementia; however, these categories have at times been interpreted 
+to indicate three distinct entities. In the research framework, we avoid the notion of separate 
+entities and instead refer to the “cognitive continuum”.
+One of the specifications of the NIA-AA research framework was that it be applicable in two 
+distinct research contexts—interventional trials and observational research. In many if not 
+most modern AD interventional trials, individuals are selected for inclusion with the aid of 
+biomarkers. The studies are concerned only with a defined portion of the population—those 
+in the Alzheimer’s continuum. For observational research, on the other hand, the research 
+questions often require that all members of a recruited sample are included (those with non-
+AD pathologic changes, normal AD biomarkers, and those in the Alzheimer’s continuum). 
+In these studies, research questions often hinge on the presence of heterogeneity within the 
+cohort, which is substantially screened out of AD trial cohorts. We therefore outline two 
+types of categorical clinical staging schemes. The first is syndromal categorical cognitive 
+staging that uses traditional syndromal categories and is applicable to all members of a 
+recruited cohort (i.e., includes all biomarker profiles). The second is a numeric clinical 
+staging scheme that is applicable only to those in the Alzheimer’s continuum, which the 
+committee felt might be particularly useful in clinical trials.
+The committee also recognized that cognitive staging has to function both when prior 
+longitudinal clinical or cognitive testing evaluations are available for participants and when 
+prior information is unavailable and the participant is being evaluated for the first time.
+10.1. Syndromal categorical cognitive staging
+The syndromal cognitive staging scheme divides the cognitive continuum into three 
+traditional categories—CU, MCI, and dementia, with dementia further subdivided into mild, 
+moderate, and severe stages (Table 3). This three-category division serves as the basis for 
+cognitive categorization in many large ongoing studies [53,176–178]. Numerous researchers 
+feel that it has been and continues to be effective for clinical research and that abandoning it 
+would unnecessarily disrupt ongoing studies. Dividing the cognitive continuum into these 
+three syndromal categories also has been adopted by many medical practitioners [179]. It 
+has also been codified for clinical practice in the Diagnostic and Statistical Manual of 
+Mental Disorders, Fifth Edition, criteria [180] by the terms “mild neurocognitive disorder” 
+(essentially MCI) and “major neurocognitive disorder” (essentially dementia).
+Although the definitions of CU, MCI, and dementia (Table 3) are largely the same as in the 
+2011 NIA-AA guidelines, there are differences (Text Box 4). For example, the 2011 
+guidelines included only those CU individuals who had an abnormal amyloid biomarker 
+study (i.e., preclinical AD). In contrast, in the NIA-AA research framework, the definition of 
+CU is independent from biomarker findings. In the 2011 guideline for MCI, the diagnosis 
+was based on clinical judgment when all available information about the patient was 
+considered. In the NIA-AA research framework, the diagnosis can be based on clinical 
+judgment or on cognitive test performance alone. In the 2011 guidelines, an amnestic 
+multidomain dementia was labeled “probable or possible AD by clinical criteria” without 
+requiring biomarker documentation of AD. In the NIA-AA research framework, the labels 
+Jack et al.
+Page 14
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

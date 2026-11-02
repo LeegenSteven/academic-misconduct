@@ -1,0 +1,61 @@
+Articles
+www.thelancet.com   Vol 395   February 15, 2020	
+503
+before and after their exposure to 2019-nCoV for iden­
+tification of asymp­tomatic infections.
+Similarities of clinical features between 2019-nCoV and 
+previous betacoronavirus infections have been noted. In 
+this cohort, most patients presented with fever, dry 
+cough, dyspnoea, and bilateral ground-glass opacities on 
+chest CT scans. These features of 2019-nCoV infection 
+bear some resemblance to SARS-CoV and MERS-CoV 
+infections.20,21 However, few patients with 2019-nCoV 
+infection had prominent upper respiratory tract signs 
+and symptoms (eg, rhinorrhoea, sneezing, or sore 
+throat), indicating that the target cells might be located in 
+the lower airway. Furthermore, 2019-nCoV patients rarely 
+developed intestinal signs and symptoms (eg, diarrhoea), 
+whereas about 20–25% of patients with MERS-CoV or 
+SARS-CoV infection had diarrhoea.21 Faecal and urine 
+samples should be tested to exclude a potential alternative 
+route of transmission that is unknown at this stage.
+The pathophysiology of unusually high pathogenicity 
+for SARS-CoV or MERS-CoV has not been completely 
+understood. Early studies have shown that increased 
+amounts of proinflammatory cytokines in serum (eg, 
+IL1B, IL6, IL12, IFNγ, IP10, and MCP1) were associated 
+with pulmonary inflammation and extensive lung 
+damage in SARS patients.22 MERS-CoV infection was 
+also reported to induce increased concentrations of 
+proinflammatory cytokines (IFNγ, TNFα, IL15, and 
+IL17).23 We noted that patients infected with 2019-nCoV 
+also had high amounts of IL1B, IFNγ, IP10, and MCP1, 
+probably leading to activated T-helper-1 (Th1) cell re­
+sponses. Moreover, patients requiring ICU admission 
+had higher concentrations of GCSF, IP10, MCP1, MIP1A, 
+and TNFα than did those not requiring ICU admission, 
+suggesting that the cytokine storm was associated with 
+disease severity. However, 2019-nCoV infection also 
+initiated increased secretion of T-helper-2 (Th2) cytokines 
+(eg, IL4 and IL10) that suppress inflammation, which 
+differs from SARS-CoV infection.22 Further studies are 
+necessary to characterise the Th1 and Th2 responses in 
+2019-nCoV infection and to elucidate the pathogenesis. 
+Autopsy or biopsy studies would be the key to understand 
+the disease.
+In view of the high amount of cytokines induced by 
+SARS-CoV,22,24 MERS-CoV,25,26 and 2019-nCoV infections, 
+corticosteroids were used frequently for treatment of 
+patients with severe illness, for possible benefit by 
+reducing inflammatory-induced lung injury. However, 
+current evidence in patients with SARS and MERS 
+Figure 3: Chest CT images
+(A) Transverse chest CT images from a 40-year-old man showing bilateral 
+multiple lobular and subsegmental areas of consolidation on day 15 after 
+symptom onset. Transverse chest CT images from a 53-year-old woman 
+showing bilateral ground-glass opacity and subsegmental areas of consolidation 
+on day 8 after symptom onset (B), and bilateral ground-glass opacity on day 12 
+after symptom onset (C).
+A
+B
+C

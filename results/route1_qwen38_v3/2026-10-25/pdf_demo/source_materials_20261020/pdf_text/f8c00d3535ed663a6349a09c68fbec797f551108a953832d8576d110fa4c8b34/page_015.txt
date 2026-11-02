@@ -1,0 +1,7 @@
+Nature Medicine 
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+Extended Data Table 2 | Characterization of stable individuals versus progressors in A−TMTL+ and A−TNEO-T+ groups. 
+Progressors indicates individuals who progressed from cognitively normal to MCI. P values were derived from a Wilcoxon 
+test for continuous variables and Fisher test for proportions, appropriate for small sample sizes. P values from two-sided 
+statistical tests were reported

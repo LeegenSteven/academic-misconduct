@@ -1,0 +1,203 @@
+Articles
+504	
+www.thelancet.com   Vol 395   February 15, 2020
+suggests that receiving corticosteroids did not have an 
+effect on mortality, but rather delayed viral clearance.27–29 
+Therefore, corticosteroids should not be routinely given 
+systemically, according to WHO interim guidance.30 
+Among our cohort of 41 laboratory-confirmed patients 
+with 2019-nCoV infection, corticosteroids were given to 
+very few non-ICU cases, and low-to-moderate dose of 
+corticosteroids were given to less than half of severely 
+ill patients with ARDS. Further evidence is urgently 
+needed to assess whether systematic corticosteroid 
+treatment is beneficial or harmful for patients infected 
+with 2019-nCoV.
+No antiviral treatment for coronavirus infection has been 
+proven to be effective. In a historical control study,31 the 
+combination of lopinavir and ritonavir among SARS-CoV 
+patients was associated with substantial clinical benefit 
+(fewer adverse clinical outcomes). Arabi and colleagues 
+initiated a placebo-controlled trial of interferon beta-1b, 
+lopinavir, and ritonavir among patients with MERS 
+infection in Saudi Arabia.32 Preclinical evidence showed 
+the potent efficacy of remdesivir (a broad-spectrum 
+antiviral nucleotide prodrug) to treat MERS-CoV and 
+SARS-CoV infections.33,34 As 2019-nCoV is an emerging 
+virus, an effective treatment has not been developed for 
+disease resulting from this virus. Since the combination 
+of lopinavir and ritonavir was already available in the 
+designated hospital, a randomised controlled trial has 
+been initiated quickly to assess the efficacy and safety of 
+combined use of lopinavir and ritonavir in patients 
+hospitalised with 2019-nCoV infection.
+Our study has some limitations. First, for most of the 
+41 patients, the diagnosis was confirmed with lower 
+respiratory tract specimens and no paired nasopharyngeal 
+swabs were obtained to investigate the difference in the 
+viral RNA detection rate between upper and lower 
+respiratory tract specimens. Serological detection was not 
+done to look for 2019-nCoV antibody rises in 18 patients 
+with undetectable viral RNA. Second, with the limited 
+number of cases, it is difficult to assess host risk factors 
+for disease severity and mortality with multivariable-
+adjusted methods. This is a modest-sized case series of 
+patients admitted to hospital; collection of standardised 
+data for a larger cohort would help to further define the 
+clinical presentation, natural history, and risk factors. 
+Further studies in outpatient, primary care, or community 
+settings are needed to get a full picture of the spectrum of 
+clinical severity. At the same time, finding of statistical 
+tests and p values should be interpreted with caution, 
+and non-significant p values do not necessarily rule out 
+difference between ICU and non-ICU patients. Third, 
+since the causative pathogen has just been identified, 
+kinetics of viral load and antibody titres were not available. 
+Finally, the potential exposure bias in our study might 
+account for why no paediatric or adolescent patients were 
+reported in this cohort. More effort should be made to 
+answer these questions in future studies.
+Both SARS-CoV and MERS-CoV were believed to 
+originate in bats, and these infections were transmitted 
+directly to humans from market civets and dromedary 
+camels, respectively.35 Extensive research on SARS-CoV 
+and MERS-CoV has driven the discovery of many 
+SARS-like and MERS-like coronaviruses in bats. In 2013, 
+Ge and colleagues36 reported the whole genome sequence 
+of a SARS-like coronavirus in bats with that ability to use 
+human ACE2 as a receptor, thus having replication 
+potentials in human cells.37 2019-nCoV still needs to be 
+studied deeply in case it becomes a global health threat. 
+Reliable quick pathogen tests and feasible differential 
+diagnosis based on clinical description are crucial for 
+clinicians in their first contact with suspected patients. 
+Because of the pandemic potential of 2019-nCoV, careful 
+surveillance is essential to monitor its future host 
+adaption, viral evolution, infectivity, transmissibility, and 
+pathogenicity.
+Contributors
+BC and JW had the idea for and designed the study and had full access 
+to all data in the study and take responsibility for the integrity of the 
+All patients (n=41)
+ICU care (n=13)
+No ICU care (n=28)
+p value
+Duration from illness onset 
+to first admission
+7·0 (4·0–8·0)
+7·0 (4·0–8·0)
+7·0 (4·0–8·5)
+0·87
+Complications
+Acute respiratory distress 
+syndrome
+12 (29%)
+11 (85%)
+1 (4%)
+<0·0001
+RNAaemia
+6 (15%)
+2 (15%)
+4 (14%)
+0·93
+Cycle threshold of 
+RNAaemia
+35·1 (34·7–35·1)
+35·1 (35·1–35·1)
+34·8 (34·1–35·4)
+0·35
+Acute cardiac injury*
+5 (12%)
+4 (31%)
+1 (4%)
+0·017
+Acute kidney injury
+3 (7%)
+3 (23%)
+0
+0·027
+Secondary infection
+4 (10%)
+4 (31%)
+0
+0·0014
+Shock
+3 (7%)
+3 (23%)
+0
+0·027
+Treatment
+Antiviral therapy
+38 (93%)
+12 (92%)
+26 (93%)
+0·46
+Antibiotic therapy
+41 (100%)
+13 (100%)
+28 (100%)
+NA
+Use of corticosteroid
+9 (22%)
+6 (46%)
+3 (11%)
+0·013
+Continuous renal 
+replacement therapy
+3 (7%)
+3 (23%)
+0
+0·027
+Oxygen support
+··
+··
+··
+<0·0001
+Nasal cannula
+27 (66%)
+1 (8%)
+26 (93%)
+··
+Non-invasive ventilation or 
+high-flow nasal cannula
+10 (24%)
+8 (62%)
+2 (7%)
+··
+Invasive mechanical 
+ventilation
+2 (5%)
+2 (15%)
+0
+··
+Invasive mechanical 
+ventilation and ECMO
+2 (5%)
+2 (15%)
+0
+··
+Prognosis
+··
+··
+··
+0·014
+Hospitalisation
+7 (17%)
+1 (8%)
+6 (21%)
+··
+Discharge
+28 (68%)
+7 (54%)
+21 (75%)
+··
+Death
+6 (15%)
+5 (38%)
+1 (4%)
+··
+Data are median (IQR) or n (%). p values are comparing ICU care and no ICU care. 2019-nCoV=2019 novel coronavirus. 
+ICU=intensive care unit. NA=not applicable. ECMO=extracorporeal membrane oxygenation. *Defined as blood levels of 
+hypersensitive troponin I above the 99th percentile upper reference limit (>28 pg/mL) or new abnormalities shown on 
+electrocardiography and echocardiography. 
+Table 3: Treatments and outcomes of patients infected with 2019-nCoV

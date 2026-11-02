@@ -1,0 +1,206 @@
+{
+  "version": "route1_pdf_remaining13_runtime_20261024",
+  "runtime_plan_sha256": "8a37b0436fd44ca7c4eccb53722addd2580e03d3e1fa39bcb3bdce27919e78c7",
+  "rows": [
+    {
+      "case_id": "r1pdf:48b208f007c2c6e700c04ff0",
+      "scope_sha256": "50fea147743be2e7df4a7017562307bca2e1051e0873369ab01f7e18423c8738",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+      "scope_sha256": "b0b18e200b3c5598d89e29ad8ae4adbe3216a278643e80a42db1b4df6b0ceef0",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:ecd1a395eb5f25610750d721",
+      "scope_sha256": "4b66f8b79c3f343f112ad0a9f725bb9775dcd7b6711a3bc5206438e7c095db24",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:e1636ac35ca5131bfdf6fb44",
+      "scope_sha256": "bc00693ba5e9df1d667b021ba53956886442134a9c2e1925184dcdb9e171adfc",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:cc2e2247d91afc3f3559aa23",
+      "scope_sha256": "5905de7b26297efb69e8b291f35b4511dbe7fd652e0b8b279152a8157113ca0c",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+      "scope_sha256": "9f24692233a28ea9251111e59cc3955b3b10fa9467498690554f7fbef83c18df",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+      "scope_sha256": "2441e3f0c60fe64bb2f033fde4f88a3c49931f491d56ef9db69aaf72a00a1165",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+      "scope_sha256": "bfb95726c39170abccc3f7d7232e9849a43e0592d858047bb2f9e8170e251495",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+      "scope_sha256": "b65ab47859767dd0901d973316ea4304260776e774ac365c63636a823cdf50f4",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:1dfa922c755ed870245927e3",
+      "scope_sha256": "6a258c03e3f7cd8aa040546d9543ad12a40a5b99e981a21c34c283c47675f75a",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:976890f040d5c2cab2e50965",
+      "scope_sha256": "3935bfa298c0a8eca7e0eda6864cd4f898cf70a016742c6954e01026e9d5f71f",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+      "scope_sha256": "2bbaf76fc6b794214296cfd1cafb8a54ad52c42fe3751d6e235be1d4268b2bc8",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:43c53ece80a7c35828d5246d",
+      "scope_sha256": "4b80a5b7a73dcb1512c2259e0117c540f83a45333743710b0975079c3c1ff477",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+      "scope_sha256": "7dc5ca1d821e4e2bccea6552b23bff0b61066717399888d02cd9f9559501c2d0",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:896e930269210ee1300d8037",
+      "scope_sha256": "fa3460e852439a5e54685409db125fdbcb011a7e07242957c5130a6a6cdd6331",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+      "scope_sha256": "af5751ce45370659dc517056ad051a923a65060969d90273ac0ed888ad129c60",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:0243ab815badba958177a9a8",
+      "scope_sha256": "d9d991a33d99bebafb3c525437840ca028c20a86680c45f18bdc982d19ceb68d",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:0625d9ca3ef5bf2a22c6109b",
+      "scope_sha256": "2a909a2f50b2fe1c30c339097dfb38a904454a2f6bf2d54838011717ea19e2e7",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:826cdb765c276ba900010084",
+      "scope_sha256": "eb635af7eaea07ae76b7209d4d08e338b14210d8ec70a4e37c4b33a93335332a",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    },
+    {
+      "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+      "scope_sha256": "feb92a2a18b2132743e2f9d06d3388f52b4ad070312e66fcf58e4655ca893dad",
+      "confirmed": false,
+      "reviewer": null,
+      "reviewed_at": null,
+      "review_source": null,
+      "hold_resolution": null,
+      "note": "Actual scope confirmation required; not a label or acceptance signature"
+    }
+  ]
+}

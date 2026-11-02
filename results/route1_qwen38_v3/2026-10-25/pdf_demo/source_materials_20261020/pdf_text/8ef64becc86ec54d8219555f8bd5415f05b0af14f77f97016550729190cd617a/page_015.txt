@@ -1,0 +1,47 @@
+CU, MCI, and dementia denote only severity of cognitive impairment and are not used to 
+infer its etiology.
+10.2. Nomenclature
+Every research participant has both a biomarker profile and a cognitive stage. Many 
+researchers prefer to retain traditional descriptive terms from 2011 that combined these two 
+sources of information. In Table 4, we illustrate descriptive terminology combining a 
+biomarker profile and a cognitive stage, which retains nomenclature from 2011 but does 
+depart from 2011 naming in some ways (Text Box 4). For example, in the research 
+framework, the label “Alzheimer’s disease with MCI” is used rather than “MCI due to 
+Alzheimer’s disease (2011)”. By this, we indicate that although the person has an AD 
+biomarker profile, we cannot know if the cognitive deficit is attributable to AD alone or to 
+other potential comorbidities in addition. In Table 4, we further recognize contributions of 
+comorbidities for individuals with an A+T−N+ biomarker profile with the descriptive phrase 
+“Alzheimer’s and concomitant suspected non-Alzheimer’s pathologic change”. By this, we 
+imply that in an A+T−(N)+ MCI individual, both Alzheimer’s and non-Alzheimer’s 
+pathologic change may be contributing to the individual’s impairment (Fig. 3). In addition to 
+carrying forward the NIA-AA 2011 terminology, we also incorporate the term “prodromal 
+AD” from the IWG, which many investigators find useful (Table 4). Fig. 4 is a Venn diagram 
+illustrating a simplified schema of Table 4.
+Table 4 illustrates the principle that biomarker profile and cognitive staging represent 
+independent sources of information. For a given cognitive stage (i.e., a given column in 
+Table 4), different biomarker profiles will be present in the population. Likewise, different 
+cognitive stages may be present in the population among people with the same biomarker 
+profile (i.e., along a given row in Table 4). Many effects can blur the relationship between 
+neuropathologic severity and cognitive symptoms at the individual level. These include 
+protective factors, such as cognitive reserve [181–183], and risk factors, such as comorbid 
+pathologic processes [184–186].
+Table 5 illustrates the principle that a greater number of abnormal AT(N) groups (i.e., more 
+severe pathologic stage) indicate a greater risk of short-term cognitive decline, and the 
+cognitive stage provides additional independent information about the risk of future 
+cognitive decline.
+10.3. Alternative naming, avoiding the term “Alzheimer’s disease ”
+While many investigators prefer the descriptive terms in the cells of Table 4, others indicated 
+a preference to avoid terms that have any reference to AD because of historic controversies 
+associated with these terms. The NIA-AA research framework provides an alternative to 
+descriptive names in the cells of Table 4, which is to simply combine AT(N) biomarker 
+profile and cognitive stage without using descriptive phrases (Text Box 5). That is, combine 
+the row and column names from Table 4 without the descriptive phrases in the cells of the 
+table; for example, “A+T+(N) + dementia” instead of “Alzheimer’s disease with dementia”. 
+Some groups may prefer this “row and column” naming approach. Similarly, some 
+Jack et al.
+Page 15
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

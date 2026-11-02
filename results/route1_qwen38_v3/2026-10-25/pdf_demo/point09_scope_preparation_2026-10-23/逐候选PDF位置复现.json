@@ -1,0 +1,276 @@
+{
+  "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+  "candidate_count": 10,
+  "checks": [
+    {
+      "evidence_id": "D01:S01",
+      "pdf_fragments": [
+        {
+          "pdf_page": 39,
+          "char_start": 259,
+          "char_end_exclusive": 901,
+          "raw_text": "The AT(N) system is also designed to incorporate new biomarkers in categories beyond \nAT(N). The notation ATX(N) might be useful when conceptualizing the incorporation of \nnew biomarker groups, where X represents an array of biomarkers that may become \navailable in the future. For example, when a measure that incorporates and appropriately \nweights the many sources of information about cerebrovascular disease has been \ndeveloped and standardized, AT(N) will be expanded to ATV(N). When biomarkers for \nboth V and synuclein have been developed, AT(N) will be expanded to ATVS(N), and so \non for biomarkers of inflammation (I), TDP43, etc.\n",
+          "raw_text_sha256": "026ca3ac3f6bf01eb755ce24e66817fd109d18634c605687c5a2b5ad6c04d6f1",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 3,
+              "bbox": [
+                150.0,
+                135.92,
+                507.64,
+                245.08
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S02",
+      "pdf_fragments": [
+        {
+          "pdf_page": 2,
+          "char_start": 0,
+          "char_end_exclusive": 3045,
+          "raw_text": "Alzheimer’s Association Research Framework, Alzheimer’s disease (AD) is defined by its \nunderlying pathologic processes that can be documented by postmortem examination or in vivo by \nbiomarkers. The diagnosis is not based on the clinical consequences of the disease (i.e., symptoms/\nsigns) in this research framework, which shifts the definition of AD in living people from a \nsyndromal to a biological construct. The research framework focuses on the diagnosis of AD with \nbiomarkers in living persons. Biomarkers are grouped into those of β amyloid deposition, \npathologic tau, and neurodegeneration [AT(N)]. This ATN classification system groups different \nbiomarkers (imaging and biofluids) by the pathologic process each measures. The AT(N) system is \nflexible in that new biomarkers can be added to the three existing AT(N) groups, and new \nbiomarker groups beyond AT(N) can be added when they become available. We focus on AD as a \ncontinuum, and cognitive staging may be accomplished using continuous measures. However, we \nalso outline two different categorical cognitive schemes for staging the severity of cognitive \nimpairment: a scheme using three traditional syndromal categories and a six-stage numeric \nscheme. It is important to stress that this framework seeks to create a common language with \nwhich investigators can generate and test hypotheses about the interactions among different \npathologic processes (denoted by biomarkers) and cognitive symptoms. We appreciate the concern \nthat this biomarker-based research framework has the potential to be misused. Therefore, we \nemphasize, first, it is premature and inappropriate to use this research framework in general \nmedical practice. Second, this research framework should not be used to restrict alternative \napproaches to hypothesis testing that do not use biomarkers. There will be situations where \nbiomarkers are not available or requiring them would be counterproductive to the specific research \ngoals (discussed in more detail later in the document). Thus, biomarker-based research should not \nbe considered a template for all research into age-related cognitive impairment and dementia; \nrather, it should be applied when it is fit for the purpose of the specific research goals of a study. \nImportantly, this framework should be examined in diverse populations. Although it is possible \nthat β-amyloid plaques and neurofibrillary tau deposits are not causal in AD pathogenesis, it is \nthese abnormal protein deposits that define AD as a unique neurodegenerative disease among \ndifferent disorders that can lead to dementia. We envision that defining AD as a biological \nconstruct will enable a more accurate characterization and understanding of the sequence of events \nthat lead to cognitive impairment that is associated with AD, as well as the multifactorial etiology \nof dementia. This approach also will enable a more precise approach to interventional trials where \nspecific pathways can be targeted in the disease process and in the appropriate people.\n",
+          "raw_text_sha256": "8b677496c18e5192c665a44d23600c8c01e36f857a9bdb56f81edca09a61f85e",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 1,
+              "bbox": [
+                108.0,
+                61.42,
+                505.89,
+                506.765
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S03",
+      "pdf_fragments": [
+        {
+          "pdf_page": 40,
+          "char_start": 95,
+          "char_end_exclusive": 1859,
+          "raw_text": "The NIA-A A research framework builds on but implements a number of changes from \nthe 2011 NIA-A A guidelines. In this research framework, the term “Alzheimer disease \n(AD)” refers to pathologic processes and therefore in living persons is defined by \nbiomarkers. In the 2011 NIA-AA guidelines, an individual with a classic dementia \nsyndrome and in whom biomarkers were not available (or were conflicting) was labeled \npossible or probable AD. In contrast, in this research framework, such an individual is \nlabeled Alzheimer’s clinical syndrome, which describes a syndrome not a probabilistic \npathologic diagnosis. In this research framework, AD is defined as a continuous process \nin both cognitive and biomarker domains rather than as three separate clinical entities in \nthe 2011 guidelines. Use of biomarkers is harmonized across the disease continuum in \nthis research framework, which was not the case in 2011. Biomarkers are grouped into \nthose of Aβ, pathologic tau, and neurodegeneration or neuronal injury, unlike 2011 where \ntau and neurodegeneration/neuronal injury biomarkers were placed into the same \ncategory. Unlike 2011, biomarker staging includes all members of the population, that is, \nindividuals in the Alzheimer’s continuum, with non-AD pathologic changes, and with \nnormal biomarker profiles. The research framework outlines two different systems for \nstaging the severity of cognitive symptoms. A syndromal categorical scheme largely \npreserves the three clinical categories from 2011: cognitively unimpaired, mild cognitive \nimpairment, and dementia. This is applicable to all members of the population regardless \nof biomarker profile. A numeric clinical staging scheme is defined only for individuals in \nthe Alzheimer’s continuum.\n",
+          "raw_text_sha256": "5f433de3b8a5880ca8e6c0edee47d5c224d6696c377e3f1828576324e5c69a1a",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 3,
+              "bbox": [
+                150.0,
+                101.92,
+                511.29,
+                393.265
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S04",
+      "pdf_fragments": [
+        {
+          "pdf_page": 9,
+          "char_start": 2826,
+          "char_end_exclusive": 3310,
+          "raw_text": "The AT(N) system moves AD research in the direction of personalized medicine by coding \npathologic change in three categories for each research participant and allows for future \nflexibility by adding other biomarkers as they are discovered and validated. This level of \ngranularity in biomarker classification, combined with genetic and clinical information, will \npresumably be useful in tailoring treatment to the individual when appropriate specific \ntreatments become available.\n",
+          "raw_text_sha256": "5097065ee82de291702306ad112d385681e42e9002ea07b8739475f349547911",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 6,
+              "bbox": [
+                150.0,
+                593.42,
+                520.49,
+                674.58
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S05",
+      "pdf_fragments": [
+        {
+          "pdf_page": 21,
+          "char_start": 1765,
+          "char_end_exclusive": 2772,
+          "raw_text": "An issue related to research without biomarkers is that many studies will ascertain some but \nnot all biomarker groups in study participants. Because tau PET is relatively new, \nincomplete biomarker information will occur in studies that use imaging for amyloid and \nneurodegenerative biomarker characterization but lack tau PET. A missing biomarker group \nis denoted *; missing T would therefore be T* (Table 2). Participants in these studies may be \ncategorized on the basis of information that is available, that is, A+T* places the participant \nin the “Alzheimer’s continuum,” and A−T*(N)+ is suspected non-AD pathologic change \n(Table 2). Another common situation will be studies with MRI but without either PET or \nCSF molecular biomarkers for amyloid and tau. In this situation, while MRI cannot be used \nas a biomarker of the Alzheimer’s continuum, it is useful as a measure of cerebrovascular \ndisease and of nonspecific neurodegeneration, which in turn is a predictor of future clinical \ndecline.\n",
+          "raw_text_sha256": "593e3de25eda99848099a873c483733205e2f93175bdb1866bf1ea316786edb0",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 2,
+              "bbox": [
+                150.0,
+                351.42,
+                523.35,
+                516.58
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S06",
+      "pdf_fragments": [
+        {
+          "pdf_page": 45,
+          "char_start": 0,
+          "char_end_exclusive": 528,
+          "raw_text": "Fig. 4. \nDescriptive nomenclature Venn diagram. As an adjunct to Table 4, we illustrate how AT(N) \nbiomarker grouping and cognitive status interact for classification of research participants in \nthis Venn diagram. For simplicity, MCI and dementia are combined into a single (cognitively \nimpaired) category and the A−T−(N)− groups are not shown. Also “Alzheimer’s and \nconcomitant non-Alzheimer’s pathologic change” [A+T−(N)+] in cognitively impaired is \nnot shown in this figure. Abbreviation: MCI, mild cognitive impairment.\n",
+          "raw_text_sha256": "6de9e5b748f3e4ad853881ab883ad4dc7e844e7876cfdd8eeaf3f32e65a15b73",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 1,
+              "bbox": [
+                149.999,
+                332.225,
+                524.329,
+                424.82
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S07",
+      "pdf_fragments": [
+        {
+          "pdf_page": 8,
+          "char_start": 1585,
+          "char_end_exclusive": 2116,
+          "raw_text": "In many research studies, it will be most appropriate to treat biomarkers of amyloid, \npathologic tau, and neurodegeneration/neuronal injury as continuous measures without using \nnormal/abnormal cut points. However, biomarkers used in medicine often use a cut point \ndenoting normal versus abnormal values to support management decisions for an individual \npatient. The need for discrete categorization of biomarker continua is also obvious for AD \nclinical trials, where explicit cut points serve as inclusion/exclusion criteria.\n",
+          "raw_text_sha256": "021324005a5e77d9c3145a4f2f9a26cc873c6742c1cde3a439e0fc4e06fc8b6b",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 5,
+              "bbox": [
+                150.004,
+                385.428,
+                523.974,
+                466.588
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S08",
+      "pdf_fragments": [
+        {
+          "pdf_page": 19,
+          "char_start": 0,
+          "char_end_exclusive": 983,
+          "raw_text": "tau as a nonspecific marker of neuronal injury, while the IWG 2014 treats the combination \nof elevated T-tau and low Aβ42 as a biomarker signature that is specific for AD. In addition, \ntau PET was not available in 2014 and thus was not included in the 2014 IWG criteria. In \naddition to an AD biomarker signature, cognitive symptoms (specifically either a typical or a \nknown atypical AD phenotype) were also required to diagnose AD in IWG 2014. \nIndividuals with symptoms that fell short of dementia were labeled prodromal AD. CU \nindividuals with an abnormal amyloid PET study or a CSF study demonstrating both \nabnormal Aβ and tau were labeled “asymptomatic at risk for AD”. The most significant \ndifference between the 2014 IWG criteria and the NIA-AA research framework is that, with \nthe exception of genetically determined AD, the 2014 IWG diagnosis of AD in living \npersons required both biomarker and clinical findings and therefore was not purely a \nbiological construct.\n",
+          "raw_text_sha256": "73ac1c321432ccfd5115911b431931d3388531ded8bce6e938fc7fa370f9e09f",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 1,
+              "bbox": [
+                150.0,
+                61.42,
+                523.972,
+                226.58
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S09",
+      "pdf_fragments": [
+        {
+          "pdf_page": 3,
+          "char_start": 2344,
+          "char_end_exclusive": 3286,
+          "raw_text": "In 2011, the National Institute on Aging and Alzheimer’s Association (NIA-AA) created \nseparate sets of diagnostic guidelines for the symptomatic or “clinical” stages of AD, that is, \nMCI and dementia [2,3]. Recommendations were also created for a stage of AD in \nindividuals without overt symptoms, called “preclinical AD” [4]. The criteria for the \nsymptomatic stages were intended, in part, to aid routine clinical diagnostic decision-making \nand to provide researchers a common framework to define these clinical stages [2,3,5]. The \nrecommendations for preclinical AD were not designed for routine clinical care but rather to \nprovide researchers a common language to identify and stage research participants who were \nnot cognitively impaired but had abnormal AD biomarkers [4,5]. The framework described \nin this document also has this latter intention—to provide researchers a common language \nwith which to communicate observations.\n",
+          "raw_text_sha256": "22b7ef7e17d2e4da07d966f3e72d4f77865b9aeee75e24b07a7b656f63ee0fb8",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 5,
+              "bbox": [
+                150.004,
+                495.424,
+                523.914,
+                646.584
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S10",
+      "pdf_fragments": [
+        {
+          "pdf_page": 19,
+          "char_start": 983,
+          "char_end_exclusive": 2363,
+          "raw_text": "In an article on preclinical AD (published in 2016 [15] that may be considered part of the \nIWG series), the diagnosis of AD was extended to include asymptomatic individuals with \nbiomarker evidence of both Aβ and tau. In contrast to IWG 2014, symptoms were no longer \nrequired to reach a diagnosis of AD. Some differences with the NIA-AA research \nframework remain, however. Preclinical AD in IWG 2016 [15] defines a CU individual with \nan abnormal Aβ biomarker and normal tau (A+T−) as “at risk for AD, asymptomatic A+” \nand one with A−T+ as “at risk for AD, asymptomatic T+”. We label the former Alzheimer’s \npathologic change and the latter suspected non-Alzheimer’s pathologic change (in keeping \nwith the NIA-AA pathologic definition of primary age-related tauopathy as not AD \n[105,106]). Importantly, the NIA-AA research framework uses “at risk” in a much different \nconnotation, referring to asymptomatic individuals with biomarker evidence of AD as \nhaving AD but being “at risk” of subsequent cognitive decline (as opposed to “at risk” for \nAD). While differences remain, IWG 2016 and the NIA research framework are aligned on \nthe key issue that the combination of an abnormal Aβ and tau biomarker constitutes AD \nregardless of cognitive symptoms, and thus AD is a biologically defined entity throughout its \ncontinuum. This is an important step toward harmonization.\n",
+          "raw_text_sha256": "0cb90fca854c250047b03e0ac1079f5cfdb2cac0f49a4d62bfd82375786d800c",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 2,
+              "bbox": [
+                150.002,
+                239.42,
+                524.462,
+                460.58
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+Figure 4. A survey of biomolecular structures determined by electron diffraction from three-dimensional crystals. An aggregate 
+analysis of Protein Data Bank (PDB) depositions shows the breakdown of novel versus known structures and the distribution of structures 
+according to their reported resolution (in Å). Cartoon diagrams of several representative structures are shown; below each structure are 
+properties (molecular weight and resolution) as well as identifiers (date associated with deposition release and PDB code). This figure is an 
+original image created by the authors for this publication.
+been described, and the approach has proven useful for stud-
+ies of radiation-sensitive samples, such as metalloproteins176–179. 
+Furthermore, because serial crystallography enables efficient 
+measurements from small crystals, the technique has produced 
+crystal structures of challenging targets for which large crystals 
+could not be obtained, including proteins such as GPCR–arrestin 
+complexes180 and RNA polymerase181. Some proteins naturally 
+form small crystals within cells, as exemplified by early struc-
+tures of virus polyhedra182,183; serial X-ray methods have proven 
+useful in structure determination for multiple types of such in vivo 
+protein crystals184–186. Measurement of very small crystals with 
+highly coherent X-rays can also produce signal between Bragg 
+peaks. Solving the phase problem from an oversampled molecu-
+lar Fourier transform represents an additional frontier in the 
+field187–191. Finally, because serial crystallography allows the 
+rapid measurement of many crystalline specimens, it is possible 
+to exploit clustering methods that allow grouping of similar 
+measurements, potentially leading to additional structural insight 
+through the comparison of crystal polymorphs192,193.
+The advent of serial crystallography using femtosecond XFEL 
+pulses has led to a renaissance in time-resolved structural stud-
+ies of macromolecules194. Traditional high-resolution structural 
+techniques are ensemble measurements, which yield information 
+only about conformational states of molecules that are signifi-
+cantly populated at equilibrium. This limitation makes it challeng-
+ing to study macromolecular dynamics, because protein motions 
+can involve the formation of transient, high-energy configura-
+tions, on timescales shorter than traditional X-ray measurement. 
+Although challenging to study, dynamics are vital for function. 
+Dynamics play fundamental roles in enzyme catalysis125,195–198, 
+protein–protein interactions199, allosteric signaling115, and protein 
+evolution127,200. Dynamics also have important practical impli-
+cations, as they can result in the formation of cryptic binding 
+sites that are actionable for drug discovery201–203.
+In the late 1980s and early 1990s, several groups demonstrated 
+the first successful time-resolved macromolecular X-ray crys-
+tallography (and solution scattering) experiments, essentially 
+bringing together elements of ultrafast pump-probe spectroscopy 
+and X-ray structural analysis to observe molecular motions204. 
+In these experiments, a rapid perturbation was applied to the 
+crystallized proteins to synchronize conformational changes205, 
+and then one of two methods was used to observe the resulting 
+dynamics in a time-dependent manner. In one form of the experi-
+ment, the initial perturbation was followed by freeze-trapping 
+Page 8 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

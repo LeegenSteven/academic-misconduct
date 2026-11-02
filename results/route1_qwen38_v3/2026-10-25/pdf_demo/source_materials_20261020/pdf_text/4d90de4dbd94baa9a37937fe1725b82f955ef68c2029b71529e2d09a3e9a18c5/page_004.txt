@@ -1,0 +1,49 @@
+Figure 1. Deposition of atomic or near-atomic-resolution structures in the Protein Data Bank according to different experimental 
+methods. (A) The number of structures deposited annually is shown between 2010 and the end of 2019, based on X-ray diffraction, cryo-
+electron microscopy (EM), and NMR methods. A sub-4 Å resolution criterion was imposed (for X-ray and EM). The inset shows the depositions 
+since 2015 on a logarithmic scale. (B) The same set of structures are broken down by resolution. Those based on EM do not include those 
+determined by electron diffraction methods (see Figure 4). This figure is an original image created by the authors for this publication.
+too numerous to list here. Other categories of macromolecules 
+are coming under increasing attention. Methods for analyzing 
+filamentous assemblies, developed over the years in studies of 
+filamentous viruses25–27 and microtubules28,29, are being applied 
+to an increasing variety of systems30–34. Of particular interest 
+in medicine, amyloid proteins and polypeptides, which assemble 
+in ways that tend to be incommensurate with three-dimensional 
+crystal formation, have been analyzed recently by cryo-EM, 
+with numerous studies reaching near-atomic resolution35–42.
+Membrane proteins, which have been categorically difficult 
+to crystallize and analyze by crystallography, have been chal-
+lenging to study by cryo-EM as well. Nanodiscs—lipid bilayer 
+disks bound by encircling protein molecules43—are provid-
+ing new and fruitful routes to analyzing membrane proteins by 
+cryo-EM44–47. To date, roughly 70 membrane protein complexes 
+have been determined by cryo-EM in nanodiscs.
+Proteins (and nucleic acid molecules) with molecular weights 
+below about 100 kDa are especially challenging targets48,49. In a 
+few favorable cases, near-atomic resolution has been possible 
+for protein or enzyme assemblies in the 40–70 kDa range50–53, 
+but smaller proteins remain below practical (and perhaps theo-
+retical) limits. Over the years, various ideas have been explored 
+for using larger known structures—e.g. viral capsids, ribosomes, 
+DNA arrays, and antibody fragments—as ‘scaffolds’ for attach-
+ing smaller ‘cargo’ proteins to make them amenable to cryo-EM 
+imaging54–58. Problems, especially attachment flexibility between 
+the scaffold and cargo, hindered much prior work. Recent advances 
+have been made by adapting an alpha helical fusion approach, 
+developed earlier in the area of protein design59,60, to achieve 
+more rigid connections between components61–63. The use of a 
+modular adaptor system based on DARPins, as introduced by 
+Liu et al.62, has allowed the display and cryo-EM visualization 
+of cargo proteins bound non-covalently to scaffolds built from 
+symmetric protein assemblies63,64. Specific loop sequence muta-
+tions in the DARPin (or other adaptor protein) required to bind 
+a given cargo protein can be identified experimentally based on 
+separate laboratory evolution studies (see 65 for a recent review 
+of DAPRin applications). Sub-4 Å resolution has been achieved 
+by a scaffolding system of this type57. An important advance in 
+visualizing RNA molecules in the 40 kDa range has also been 
+demonstrated recently using a Volta phase plate to enhance 
+image contrast, resulting in sub-4 Å resolution66.
+Page 4 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

@@ -1,0 +1,106 @@
+5150
+JACK ET AL.
+amyloid PET tracers cannot reliably detect sparse neuritic plaques but
+can detect Consortium to Establish a Registry for Alzheimer’s Dis-
+ease (CERAD) moderate/frequent neuritic plaque density with high
+reliability.9–11,61–62 In the experience of most neuropathologists, the
+vast majority of cases with moderate/frequent neuritic plaque bur-
+den will also have Braak III to VI neurofibrillary tangle (NFT) scores
+and thus will meet criteria for intermediate/high ADNPC.5 Extending
+this logic to PET leads to the conclusion that an abnormal amyloid
+PET study should nearly always indicate intermediate/high ADNPC.
+However, to assess this supposition more rigorously, we examined
+the December 2023 data freeze of the National Alzheimer’s Coor-
+dinating Center (NACC) autopsy database for participants who had
+CERAD moderate/frequent neuritic plaque density scores and had
+been assigned both a Braak NFT stage and Clinical Dementia Rat-
+ing (CDR). Four thousand eight hundred eighty-nine individuals met
+these criteria. Of these, 4637 were symptomatic (i.e., CDR > 0) and
+4390/4637 (95%) were Braak NFT stage III to VI and therefore had a
+neuropathologic diagnosis of intermediate/high ADNPC. Thus, among
+symptomatic individuals, knowing only that someone has moder-
+ate/frequent plaques (i.e., an abnormal amyloid PET study) means that
+that individual will nearly always (95% of the time) qualify for a patho-
+logic diagnosis of intermediate-to-high ADNPC. Diagnosing AD by
+abnormal amyloid PET (or biofluid Core 1 biomarkers validated against
+amyloid PET) in symptomatic individuals is therefore not a deviation
+from the accepted criteria for AD5 because this will nearly always indi-
+cate intermediate/high ADNPC. Abnormal Core 1 biomarkers should
+be regarded as indicators of ADNPC generally (both plaques and tan-
+gles), even though the assays themselves may be specific measures of
+Aβ (A) or tau (T1) pathophysiology.
+To address diagnosing AD by biomarkers in cognitively unimpaired
+individuals, we examined the Arizona Study of Aging and Neurodegen-
+erative Disorders and Brain and Body Donation Program63 database
+and found 123 individuals who were cognitively unimpaired at death
+and had moderate/frequent CERAD neuritic plaque scores. One hun-
+dred seven (87%) of these were also Braak III to VI and thus met
+criteria for intermediate/high ADNPC. The December 2023 NACC
+data freeze mentioned above contained 252 asymptomatic (CDR 0)
+individuals with moderate/frequent neuritic plaques and who also had
+been assigned a Braak NFT stage; 186/252 (74%) were Braak III to
+VI, while 226/252 (91%) were Braak II to VI. Thus, we can conclude
+that while most (74%−87%) asymptomatic individuals with an abnor-
+mal amyloid PET scan (i.e., moderate/frequent neuritic plaques) will
+meet criteria for intermediate/high ADNPC at that time, a proportion
+will not. But nearly all (91%) will either meet criteria at that time or
+show evidence of progression of NFT pathology beyond the entorhinal
+cortex (i.e., Braak II–VI).
+The issue of future progression in turn raises the question, among
+cognitively unimpaired persons who do meet current neuritic plaque
+criteria (i.e., abnormal amyloid PET) but may not meet Braak NFT stage
+criteria for intermediate/high ADNPC, is it likely that they would have
+had they lived longer? To address this, we queried the Mayo Clinic
+Study on Aging64 and Alzheimer’s Disease Research Center database
+for individuals who: (1) had a positive ante mortem amyloid PET scan
+(defined as Centiloid ≥25) while cognitively unimpaired, (2) later
+progressed to dementia or MCI, (3) had an autopsy. Of the 34 indi-
+viduals who did meet these restrictive criteria, 32 (94%) received a
+neuropathological diagnosis of intermediate/high likelihood ADNPC.
+Based on this evidence, we believe the following statement is accu-
+rate: Most cognitively unimpaired persons with an abnormal amyloid
+PET scan should presently meet neuropathologic pathologic criteria
+for intermediate/high ADNPC, and those that do not will very likely do
+so in the future if they live long enough.
+3.2
+Anchoring Core 1 biomarkers for AD
+diagnosis to reference standards
+The amyloid PET visual reading method on which regulatory approval
+of florbetapir was based is highly accurate (sensitivity 96%, speci-
+ficity 100%) at discriminating CERAD none/sparse versus moder-
+ate/frequent neuritic plaques in individuals who had an autopsy
+within 1 year of the PET scan.11 Visual reads of other approved
+PET tracers demonstrated similar sensitivity/specificity with respect
+to a neuropathologic reference standard.61,62 Quantification of amy-
+loid PET is also accurate at distinguishing intermediate/high ADNPC
+from none/low ADNPC.10 Regulatory approval of CSF assays (Table
+S1) was anchored to positive/negative visual reads of amyloid PET:
+sensitivity/specificity (or positive percent agreement/negative percent
+agreement) of approved CSF assays were 88%/93% and 85%/94%
+against this reference standard for a single cutpoint (this becomes
+more complicated for two cutpoints).65–67 Although autopsy was not
+the standard used for regulatory approval, CSF assays do distin-
+guish between intermediate/high and none/low ADNPC with high
+accuracy.68
+Currently, no BBMs have received regulatory approval for any
+intended use, although this is expected to change soon. Diagnostic
+accuracy varies substantially among various plasma p-tau and Aβ42/40
+assays.69–71 Accuracy estimates with respect to an amyloid PET or CSF
+reference standard using a single preselected cutpoint or area under
+the receiver operating curve (i.e., accuracy over all cutpoints) range
+from 0.6 (60%) to > 0.9 (90%).69,72–75 Thus, some plasma assays, par-
+ticularly some p-tau217 assays alone or in combination, have accuracy
+that is equivalent to that of approved CSF assays.69,74,76,77 Accuracy
+must be defined in the intended-use population. Thus, our definition
+of Core 1 plasma tests that suffice as standalone diagnostic tests for
+AD is those with a minimum accuracy of 90% to detect abnormal amy-
+loid PET in the intended-use population, or, more simply, plasma tests
+whose diagnostic performance is equivalent to that of approved CSF
+assays (Box 2). Our position is that BBM that achieve this diagnostic
+performance benchmark should be considered on equal footing with
+established PET and CSF biomarkers for diagnosis of AD.
+To date, clinical symptoms have not been used as the reference stan-
+dard for regulatory approval of AD biomarkers. Our position is that AD
+is defined by its biology and therefore a biomarker that can accurately
+detect ADNPC or a validated surrogate is sufficient to establish the
+diagnosis of the disease.

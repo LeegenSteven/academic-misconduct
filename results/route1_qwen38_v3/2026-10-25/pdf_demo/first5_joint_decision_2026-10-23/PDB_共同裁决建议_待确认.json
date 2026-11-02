@@ -1,0 +1,33 @@
+{
+  "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+  "fixed20_point_number": 2,
+  "first5_point_number": 1,
+  "status": "ASSISTANT_PROPOSAL_AWAITING_LI_CONFIRMATION_AND_JOINT_ADJUDICATION",
+  "evaluation_scope": "Only the frozen ten candidates and the existing citation-support contract; not a live PDB inventory or a claim that the scientific number is false.",
+  "proposed_human_label": "NOT_ACCURATE",
+  "proposal_basis": "重要数量主张未获冻结候选直接支持；不采用数值大小矛盾或数量级差异的论证。",
+  "proposed_human_reason": "目标主张的实质内容是约100,000个独特蛋白质的结构已经测定。候选给出的是包含蛋白质、DNA/RNA及其复合物的PDB结构模型总数，未给出独特蛋白质计数或两种计数口径的对应关系。因此按本批“重要内容未获支持”的引用核查口径，建议NOT_ACCURATE；不能据144,000大于100,000认定该事实数值错误。",
+  "frozen_rule_source": {
+    "path": "code/ly/prepare_pdf20_scope_inputs_20261020.py",
+    "sha256": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+    "system_prompt": "你是学术引文核验助手。只依据给出的候选证据核查当前目标引用，不使用外部知识。\n只判断目标引用覆盖的原文片段；必要上下文仅用于解消指代，不是额外核查主张。同句其他文献对应的分句不能转嫁给当前目标文献。不能删掉目标主张中的数字、比较方向、对象或条件。\n标签定义：\nACCURATE：候选证据直接支持目标主张的实质内容，且没有重要歪曲。\nNOT_ACCURATE：候选证据与目标主张矛盾，或主张存在重要的未获支持、错误转述、过度简化或归属错误。\nIRRELEVANT：候选证据与目标主张没有实质关联，无法用于支持或反驳。\n正常判定只输出一个含 label 的 JSON 对象，label 为上述三类之一，不输出理由、置信度或额外字段。若候选证据不足以判定，不把证据不足直接改成 IRRELEVANT，输出{\"failure_status\":\"insufficient_evidence\"}。失败状态不是第四类标签。"
+  },
+  "boundary_with_insufficient_evidence": "冻结文字同时保留重要未获支持与证据不足两种处理。本建议把本句核心数量/统计对象未获支持归入前者；这一区分须由双方就本点确认，不推出所有缺项都判NOT_ACCURATE。若本点仍无法界定，继续待核并保留insufficient_evidence备选。",
+  "alternative_failure_status_considered": "insufficient_evidence",
+  "alternative_is_not_a_fourth_label": true,
+  "Chen_personal_proposal_as_received": "NOT_ACCURATE",
+  "Chen_proposal_source": "首批5点语义核对_陈明进_v2_20261022.md",
+  "Li_confirmed_label": null,
+  "Li_confirmation_time": null,
+  "joint_confirmed_label": null,
+  "joint_confirmation_time": null,
+  "original_model_label_unchanged": "NOT_ACCURATE",
+  "original_classifier_input_sha256": "ca7f33acfc952e3593a63aa1b0af520e5dde4bfafa483e51633b683ea940e525",
+  "original_explainer_input_sha256": "d10e6dc73cf1305719b6122d718cad1e50b68ed726766fcb96d23dcfce1f1113",
+  "original_model_reason_assessment_proposed": "数量口径不同不能推出数量级矛盾；原解释不建议直接作为语义合格理由展示。",
+  "human_reason_written_back_to_model_output": false,
+  "classification_correct_marked": null,
+  "new_formal_acceptance": false,
+  "new_scope_release": false,
+  "new_model_run": false
+}

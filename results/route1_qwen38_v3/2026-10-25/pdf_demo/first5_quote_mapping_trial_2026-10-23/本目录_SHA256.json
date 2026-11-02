@@ -1,0 +1,22 @@
+{
+  "pdf_quote_mapping_trial_policy_20261023.json": "b09484d7668b26d29048e33943c92ffb82959a1054fcce37a5ec0aaf87ca9c91",
+  "先看这里_离线诊断结论.md": "5b104d43c5179940ed23918d6ec84b05179d158655e0a0a3742bf38002570f5c",
+  "原始运行文件_SHA256.json": "e80a581d9240e71b31a318cab2b7af332cc5fc405cb6504f6e877826abea3dc4",
+  "反例与边界检查记录.json": "df71537de96a531fac439da5510eda565ae6fad89e3d8d7c3cb684548eb23fc5",
+  "归档收据.json": "93df647cb819c30e80b55f03676d0cac9196a5780557450a8fbff9d04a2c5fcb",
+  "断词复核项_未签核.json": "7decc222b7a0415d149c8e96b873aa7287bb2463ce93107512c53c03c0575654",
+  "来源PDF_SHA256.json": "f901d098663af36c29491f2921d92eda6bdfaf31e4e718785cd1163bedba207a",
+  "绑定输入快照_50候选及5原响应.jsonl": "368f6098a0a15afcd9de9cbc631cb5da7a256fd35a1df22dc2926c055addfe5a",
+  "给陈明进的说明.txt": "5571a7c81faf234e0baec2e545d376a34cde8755e2160a818851f85cb658b910",
+  "诊断摘要.json": "96f062b6548ec6e3e10e41601a95eaa3000d701f23659842cdc471e55c191bb9",
+  "运行入口与范围.txt": "a5e8b54a20cdd1ffd5f71072934ba487c6c3f22da972e24239c95e0d089a4494",
+  "逐条摘录映射_非验收.jsonl": "fb0923153196d62be6c20fcb8e36cb4c184c3091cc349ad02709114fb11dc7ed",
+  "逐点诊断_非验收.jsonl": "77b336c23bc4a9e4e3846fe3d38f226029b44cd07a58dbfbeef41768f88ed038",
+  "页面查看记录_非人工签核.json": "4c02361251de014cbbfd9520866da32713668531de5372933d9c9d6c7a6e1917",
+  "software/diagnose_pdf_quote_mapping_trial_v1.py": "33b212ca4b4da9c87d9bbb2d803209ff746f0e447d58033d282600e0014504c3",
+  "software/pdf_quote_mapping_trial_policy_20261023.json": "b09484d7668b26d29048e33943c92ffb82959a1054fcce37a5ec0aaf87ca9c91",
+  "software/pdf_quote_mapping_trial_v1.py": "238b8f70418acf9809e34bdea132f4fba5863cd5227e4d85732c425b86c0bec0",
+  "software/test_pdf_quote_mapping_trial_v1.py": "95c83ac1da14c50dbeee84fdcaa5d0e94b6500c1945cf1d896709d1bf1dbd272",
+  "页面核对图/PDB_S07_source_block.png": "9529af834252325045de8786f721eb7f08a47f03a6e1aa3a7fa6680c49ebd4fd",
+  "页面核对图/RNA_S10_source_block.png": "9b913c282603b0ed3d5b890b6b077476db3e1c642f7045c42fd60d492303cdcd"
+}

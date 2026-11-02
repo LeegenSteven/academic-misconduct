@@ -1,0 +1,10 @@
+这是独立CPU离线诊断试验，未修改已冻结解析器。software目录保存本次实际代码、规则和21项边界检查。
+输入快照按原字节复制；原15项运行文件及8份PDF由哈希绑定。重现需要本地原运行目录及PDF，绝对来源路径见诊断收据和原始记录；本包不是A100模型执行包。
+
+运行入口：software/diagnose_pdf_quote_mapping_trial_v1.py
+参数：--run-root 原A100首批结果目录 --snapshot 绑定输入快照 --policy software/pdf_quote_mapping_trial_policy_20261023.json --repo-root 原仓库目录 --pymupdf-dir 独立PyMuPDF1.28.2目录 --output-dir 新目录
+检查入口：在software目录执行 python -m unittest -v test_pdf_quote_mapping_trial_v1
+
+match_quote优先保留逐字唯一匹配；规范化匹配不删除词边界、数字、普通词内连字符或引用标记。删除ASCII行末连字符只记为需复核假设。已冻结Trimmomatic 5′/3′等长补丁的原PDF字形和差异另存，不改原PDF。
+
+图中矩形范围是原证据区块的裁剪，非精确句子框；机器字符回放、助手看图、实际人工签核和语义验收分别记录。未代填人工签名或日期，没有模型新推理或GPU使用。

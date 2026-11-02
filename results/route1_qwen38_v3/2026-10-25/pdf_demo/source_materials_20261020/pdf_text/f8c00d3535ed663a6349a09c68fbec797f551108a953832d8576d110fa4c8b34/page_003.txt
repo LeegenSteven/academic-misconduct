@@ -1,0 +1,292 @@
+Nature Medicine | Volume 28 | November 2022 | 2381–2387
+2383
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+the other groups (n = 34; Extended Data Table 1), hence their results 
+are only reported in Extended Data Fig. 1.
+Clinical progression to MCI
+During the clinical follow-up, 26 out of 781 (3.3%) of A−T−, 26 out of 292 
+(8.9%) of A+T−, 25 out of 51 (49.0%) of A+TMTL
++ and 32 out of 60 (53.3%) of 
+A+TNEO-T
++ participants progressed to MCI or dementia. Among A+TNEO-T
++ 
+individuals, the progressors (27.8 ± 1.5) had worse baseline MMSE 
+scores compared to stable individuals (28.6 ± 1.0, P = 0.02; Extended 
+Data Table 2) and tended to have higher tau PET retention at baseline 
+(Supplementary Fig. 1), suggesting that progressors were already in 
+a slightly more advanced disease stage at the start of this study. Cox 
+proportional-hazards models, adjusted for age, sex, education and 
+cohort, showed an increased risk for future progression to MCI in the 
+A+TNEO-T
++ (HR = 19.2, 95% CI = 10.9–33.7, P < 0.001), A+TMTL
++ (HR = 14.6, 95% 
+CI = 8.1–26.4, P < 0.001) and A+T− (HR = 2.4, 95% CI = 1.4–4.3, P = 0.002) 
+groups compared to the A−T− (reference) group (Fig. 2a,b). Both A+TMTL
++ 
+(HR = 6.0, 95% CI = 3.4–10.6, P < 0.001) and A+TNEO-T
++ (HR = 7.9, 95% 
+CI = 4.7–13.5, P < 0.001) groups also showed faster clinical progression 
+to MCI than the A+T− group (Fig. 2c). Pairwise log-rank tests showed that 
+the A+TMTL
++ and A+TNEO-T
++ groups did not differ from each other (P = 0.19). 
+Fifty percent of the A+TNEO-T
++ and A+TMTL
++ groups had progressed to MCI 
+after 42.8 and 43.6 months, respectively.
+Clinical progression to all-cause dementia
+During clinical follow-up, 21 participants progressed to all-cause demen-
+tia: 4 out of 781 (0.5%) in A−T−, 3 out of 292 (1.0%) in A+T−, 2 out of 51 (3.9%) 
+in A+TMTL
++ and 12 out of 60 (20%) in A+TNEO-T
++. Of those, 14 progressed to 
+clinically defined AD-type dementia and 7 to non-AD dementias (see 
+Extended Data Table 3 for dementia type). Cox proportional-hazards 
+models, adjusted for age, sex, education and cohort, demonstrated 
+an increased risk for future progression to all-cause dementia in the 
++++ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++ ++ + ++++++++++++++++++++++++ +++++++++++++++++++++++++++++++++++++++++++++++++++++++ +++++++++++++++++++++++++
++
++
++
++ +++
++++++
++
+++
++++
++++
++
++ +
++
+++ +++++
+++
++ ++++
++ +
++++
+++
+++
++
++
+0
+0.25
+0.50
+0.75
+1.00
+0
+12
+24
+36
+48
+60
+72
+Time (months)
+Survival probability
+781
+776
+595
+462
+326
+233
+52
+292
+286
+224
+161
+93
+65
+8
+51
+47
+39
+18
+9
+7
+3
+60
+55
+29
+18
+8
+5
+1
+0
+12
+24
+36
+48
+60
+72
++++ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++ ++ + +++++++++++++++++++++++ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++
++
++
++ ++++ +++++++++++++++++++++++ +
++ +++++
++
+++ +++++++++++ ++++++
++ +
++++++++++
++ ++++
++
+0
+0.25
+0.50
+0.75
+1.00
+0
+12
+24
+36
+48
+60
+72
+Time (months)
+781
+777
+603
+471
+333
+236
+53
+292
+287
+226
+171
+99
+70
+9
+51
+50
+46
+27
+12
+9
+4
+60
+59
+40
+26
+12
+6
+1
+0
+12
+24
+36
+48
+60
+72
+Progression to MCI
+Progression to all-cause dementia
+a
+d
+b
+e
+1
+2
+5
+10
+20
+1
+2
+5
+10
+20
+50
+100
+HR (95% CI)
+Progression to MCI
+Progression to all-cause dementia
+HR (95% CI)
+2.4**(1.4–4.3)
+14.6**(8.1–26.4)
+19.2**(10.9–33.7)
+Reference
+1.6 (0.5–5.4)
+6.2*(1.4–26.8)
+41.3**(16.7–101.9)
+Reference
+A–T–
+A+T–
+A+TMTL
++
+A+TNEO–T
++
+A–T–
+A+T–
+A+TMTL
++
+A+TNEO–T
++
+A–T–
+A+T–
+A+TMTL
++
+A+TNEO–T
++
+A–T–
+A+T–
+A+TMTL
++
+A+TNEO–T
++
+A+T–
+A+TMTL
++
+A+TNEO–T
++
+A+T–
+A+TMTL
++
+A+TNEO–T
++
+A+TMTL
++
+A+TNEO–T
++
+A–T–
+A+T–
+c
+f
+2
+5
+10
+20
+HR (95% CI)
+Progression to MCI
+Progression to all-cause dementia
+HR (95% CI)
+Reference
+Reference
+6.0** (3.4–10.6)
+7.9** (4.7–13.5)
+1
+3.8 (0.9–16.2)
+26.7** (10.4–68.1)
+1
+2
+5
+10
+20
+50
+100
+Fig. 2 | Progression to MCI or all-cause dementia in the different AT 
+biomarker profiles. a,d, Survival curves for progression to MCI (a) or all-cause 
+dementia (d) in the different AT biomarker profiles (A−T+: n = 292; A+TMTL
++: 
+n = 51; A+TNEO-T
++: n = 60) with the A−T− group (n = 781) as the reference, including 
+a table of total number of participants available at each time point. The dashed 
+line in a indicates the time point at which 50% of a group had progressed to 
+MCI. b,e, Forest plots showing the HRs and 95% CIs derived from the survival 
+analyses shown in a (b) and d(e), from Cox regression models including age, sex, 
+education and cohort as covariates. c,f, Forest plots showing the HRs and 95% CIs 
+derived from Cox regression models including age, sex, education and cohort 
+as covariates but now using the A+T− group as the reference with the outcome 
+being progression to MCI (c) and progression to all-cause dementia (f). Statistics 
+from two-sided tests without adjustment for multiple comparisons are reported. 
+*P < 0.01, **P < 0.001.

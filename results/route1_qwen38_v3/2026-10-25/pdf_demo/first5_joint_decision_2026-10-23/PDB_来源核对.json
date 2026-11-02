@@ -1,0 +1,387 @@
+{
+  "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+  "scope_as_frozen": {
+    "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+    "pair_id": "r1pair:dfc4fa2f6288240b4e04",
+    "dedup_key": "c39ba37fc4698431f556d6b91c9f19f3e101d0c0300b5fce80acd517fdd96e54",
+    "source_pool_candidate_id": "PMC-OA-EXP-04",
+    "target_reference_id": "CR5",
+    "original_full_context_marked": "Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort1–4, the structures of around 100,000 unique proteins have been determined[[TARGET_REFERENCE]]5[[/TARGET_REFERENCE]], but this represents a small fraction of the billions of known protein sequences6,7. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’8—has been an important open research problem for more than 50 years9. Despite recent progress10–14, existing methods fall far short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14)15, demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm",
+    "old_scope_query": "Through an enormous experimental effort1–4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7",
+    "primary_scope_pieces": [
+      {
+        "text": "the structures of around 100,000 unique proteins have been determined5",
+        "normalized_context_start": 172,
+        "normalized_context_end_exclusive": 242,
+        "source_pdf_fragments": [
+          {
+            "pdf_page": 1,
+            "printed_page": null,
+            "char_start": 943,
+            "char_end_exclusive": 1013,
+            "raw_text": "the structures of around 100,000 unique proteins have been determined5",
+            "raw_text_sha256": "32911ee86985a8d6e1a17da48812493f09829386d8f2c572bfa8af449223f958",
+            "source_blocks": [
+              {
+                "block_number": 4,
+                "bbox": [
+                  217.32,
+                  251.126,
+                  562.884,
+                  509.216
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ]
+      }
+    ],
+    "context_only_pieces": [],
+    "prepared_query": "the structures of around 100,000 unique proteins have been determined5",
+    "query_changed": true,
+    "boundary_reason": "CR5 对应约 100,000 个独特蛋白结构已被测定的分句；保留 around、100,000、unique，不将 CR1–4 的方法背景及 CR6/7 的 billions 序列数并入本点。",
+    "scope_status": "assistant_source_boundary_checked",
+    "reviewer_signoff": {
+      "李云": null,
+      "陈明进": null
+    },
+    "exposure": {
+      "prior_retrieval_known": true,
+      "new_model_predictions_seen": false,
+      "independent_blind_claimed": false
+    },
+    "label": null,
+    "joint_adjudication": null
+  },
+  "original_records_path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\assembled\\records.jsonl",
+  "original_records_sha256": "495e96f319bc49d062460f14f9c23fccb62a18427c3ac0a0c1cab821a24fd2b5",
+  "citing_pdf": {
+    "pmcid": "PMC8371605",
+    "relative_path": "sources/PMC8371605.1/PMC8371605.1.pdf",
+    "sha256": "6eae057a9faf4f671c3101e0745ed704460c6d3dec77243dfd3a9f2d2ab68970"
+  },
+  "cited_pdf": {
+    "pmcid": "PMC6324056",
+    "relative_path": "sources/PMC6324056.1/PMC6324056.1.pdf",
+    "sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485"
+  },
+  "candidate_checks": [
+    {
+      "evidence_id": "D01:S01",
+      "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "raw_text_sha256": "31f3579f1daf80de835eb4b647c21f811416440302af0a436f7d9585bdee4ba9",
+      "locations": [
+        {
+          "pdf_page": 1,
+          "char_start": 1591,
+          "char_end_exclusive": 2407,
+          "source_blocks": [
+            {
+              "block_number": 8,
+              "bbox": [
+                42.224,
+                537.088,
+                289.308,
+                700.472
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_100000_mention": false,
+      "literal_unique_proteins_mention": false
+    },
+    {
+      "evidence_id": "D01:S02",
+      "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "raw_text_sha256": "1fec8350165ba294465b7fb89ad760d60fa9fc4c1ec5c0491d911fb80bbfc25a",
+      "locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 277,
+          "char_end_exclusive": 657,
+          "source_blocks": [
+            {
+              "block_number": 4,
+              "bbox": [
+                42.225,
+                142.76,
+                289.313,
+                218.476
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_100000_mention": false,
+      "literal_unique_proteins_mention": false
+    },
+    {
+      "evidence_id": "D01:S03",
+      "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "raw_text_sha256": "49ad0e47ab6997b3c06c30b99d3bd8cc9b93c7901e0110eed9b0b2e36f1a0f78",
+      "locations": [
+        {
+          "pdf_page": 1,
+          "char_start": 349,
+          "char_end_exclusive": 1578,
+          "source_blocks": [
+            {
+              "block_number": 6,
+              "bbox": [
+                42.224,
+                204.072,
+                289.311,
+                500.967
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_100000_mention": false,
+      "literal_unique_proteins_mention": false
+    },
+    {
+      "evidence_id": "D01:S04",
+      "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "raw_text_sha256": "65bb2e0f6bb7787b16039dce08c66a5145e3e5d8498face00edb07466edcaa7a",
+      "locations": [
+        {
+          "pdf_page": 5,
+          "char_start": 5865,
+          "char_end_exclusive": 6300,
+          "source_blocks": [
+            {
+              "block_number": 16,
+              "bbox": [
+                309.228,
+                649.662,
+                556.309,
+                736.331
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_100000_mention": false,
+      "literal_unique_proteins_mention": false
+    },
+    {
+      "evidence_id": "D01:S05",
+      "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "raw_text_sha256": "c4a17b83d6c6c0a33e4d6f159daba6b6829bdd058864f5ee9f167bb489adb6d5",
+      "locations": [
+        {
+          "pdf_page": 4,
+          "char_start": 4166,
+          "char_end_exclusive": 4844,
+          "source_blocks": [
+            {
+              "block_number": 13,
+              "bbox": [
+                322.591,
+                474.317,
+                569.673,
+                604.824
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_100000_mention": false,
+      "literal_unique_proteins_mention": false
+    },
+    {
+      "evidence_id": "D01:S06",
+      "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "raw_text_sha256": "b0049bd583f983f02269ef6b1e5e11d0bcdf412e8e43b5cd17caf1a57f0d7819",
+      "locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 5024,
+          "char_end_exclusive": 6069,
+          "source_blocks": [
+            {
+              "block_number": 16,
+              "bbox": [
+                309.228,
+                540.071,
+                556.317,
+                736.331
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_100000_mention": false,
+      "literal_unique_proteins_mention": false
+    },
+    {
+      "evidence_id": "D01:S07",
+      "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "raw_text_sha256": "f235f4bdf044c93918691a026eab6c120113ee8066f6cfe233e4eee8191a0525",
+      "locations": [
+        {
+          "pdf_page": 1,
+          "char_start": 2556,
+          "char_end_exclusive": 3828,
+          "source_blocks": [
+            {
+              "block_number": 10,
+              "bbox": [
+                309.229,
+                219.468,
+                556.321,
+                481.482
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_100000_mention": false,
+      "literal_unique_proteins_mention": false
+    },
+    {
+      "evidence_id": "D01:S08",
+      "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "raw_text_sha256": "317356658eadcc51a38994c852bbb153b419616bbac96531fa8cbc8f6c1905a1",
+      "locations": [
+        {
+          "pdf_page": 8,
+          "char_start": 59,
+          "char_end_exclusive": 636,
+          "source_blocks": [
+            {
+              "block_number": 2,
+              "bbox": [
+                55.6,
+                68.771,
+                302.685,
+                188.325
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_100000_mention": false,
+      "literal_unique_proteins_mention": false
+    },
+    {
+      "evidence_id": "D01:S09",
+      "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "raw_text_sha256": "d7b3f16468fbb713ff793bd0ee12ec068228dd8a147f4195f15bf216ef4ab144",
+      "locations": [
+        {
+          "pdf_page": 5,
+          "char_start": 1700,
+          "char_end_exclusive": 2175,
+          "source_blocks": [
+            {
+              "block_number": 6,
+              "bbox": [
+                42.224,
+                430.477,
+                289.306,
+                528.116
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_100000_mention": false,
+      "literal_unique_proteins_mention": false
+    },
+    {
+      "evidence_id": "D01:S10",
+      "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      "raw_text_sha256": "bc3665996f364e27bb10b50dab5baeeb5d1711dbef51c2fba60f08511de783e8",
+      "locations": [
+        {
+          "pdf_page": 6,
+          "char_start": 1480,
+          "char_end_exclusive": 2140,
+          "source_blocks": [
+            {
+              "block_number": 6,
+              "bbox": [
+                55.598,
+                540.295,
+                302.688,
+                670.811
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_100000_mention": false,
+      "literal_unique_proteins_mention": false
+    }
+  ],
+  "scope_of_absence_check": "Literal search is only a locator aid. Semantic review read all ten frozen candidates; no assertion is made that the full paper or PDB archive lacks such a number.",
+  "unit_checks": {
+    "S01_S03_S07": "All structural models, including proteins, DNA/RNA and complexes; not a count of unique proteins.",
+    "S06_99999": "Legacy file-format atom limit; not a count of proteins or structures.",
+    "S09_unique": "Users measured by unique IP addresses; not unique proteins."
+  },
+  "S07_occurrence_specific_line_joins": [
+    {
+      "word_after_join": "structural",
+      "evidence_id": "D01:S07",
+      "pdf_page": 1,
+      "source_pdf_char_start": 3262,
+      "source_pdf_char_end_exclusive": 3264,
+      "raw_removed": "-\n",
+      "replacement": "",
+      "assistant_visual_observation": "Source page viewed; this occurrence is a printed word split across a line.",
+      "human_confirmed": false,
+      "production_rule_adopted": false
+    },
+    {
+      "word_after_join": "complexes",
+      "evidence_id": "D01:S07",
+      "pdf_page": 1,
+      "source_pdf_char_start": 3312,
+      "source_pdf_char_end_exclusive": 3314,
+      "raw_removed": "-\n",
+      "replacement": "",
+      "assistant_visual_observation": "Source page viewed; this occurrence is a printed word split across a line.",
+      "human_confirmed": false,
+      "production_rule_adopted": false
+    }
+  ],
+  "new_human_signature": null,
+  "frozen_candidate_or_scope_changed": false,
+  "model_loaded": false
+}

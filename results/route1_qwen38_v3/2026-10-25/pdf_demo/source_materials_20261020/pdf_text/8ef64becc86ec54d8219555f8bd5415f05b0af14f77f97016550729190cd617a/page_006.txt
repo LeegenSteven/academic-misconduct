@@ -1,0 +1,49 @@
+similar proportion has normal amyloid PET or CSF Aβ42 studies [53–62]. Thus, the 
+multidomain amnestic dementia phenotype is not specific; it can be the product of other 
+diseases as well as AD [51]. Nonamnestic clinical presentations, that is, language, 
+visuospatial, and executive disorders, may also be due to AD [63–66]. In addition, AD 
+neuropathologic changes are often present without signs or symptoms, especially in older 
+persons. Thirty to forty percent of cognitively unimpaired (CU) elderly persons have AD 
+neuropathologic changes at autopsy [67–69], and a similar proportion has abnormal amyloid 
+biomarkers [33,53–55,60,70–73]. The fact that an amnestic multidomain dementia is neither 
+sensitive nor specific for AD neuropathologic change suggests that cognitive symptoms are 
+not an ideal way to define AD.
+The traditional approach to incorporating biomarkers into models of AD began with 
+patients’ clinical symptoms, which appear relatively late in the disease, and worked 
+backward to relate symptoms to biomarker findings. The committee recommends a different 
+approach where the neuropathologic changes detected by biomarkers define the disease. 
+Defining AD by biomarkers indicative of neuropathologic change independent from clinical 
+symptoms represents a profound shift in thinking. For many years, AD was conceived as a 
+clinical-pathological construct [1]; it was assumed that if an individual had typical amnestic 
+multidomain symptoms, they would have AD neuropathologic changes at autopsy and if 
+symptoms were absent, they would not have AD at autopsy. Symptoms/signs defined the 
+presence of the disease in living persons, and therefore, the concepts of symptoms and 
+disease became interchangeable. AD later became a clinical-biomarker construct with the 
+International Work Group (IWG) [64,74,75] and 2011 NIA-AA guidelines where 
+biomarkers were used to support a diagnosis of AD in symptomatic individuals, but the 
+definition of AD was not divorced from clinical symptoms (with the exceptions of the 2011 
+NIA-AA recommendations on preclinical AD and IWG criteria in autosomal dominant 
+mutation carriers, and NIA-AA neuropathologic guidelines).
+5. AD biomarkers
+Various imaging and CSF biomarkers are widely used in AD and brain aging research, and 
+an organized approach is needed for a generalizable research framework. The committee 
+addressed this by following the recommendations from a recent position paper that outlined 
+an unbiased descriptive classification scheme for biomarkers used in AD and brain aging 
+research [16]. The scheme [which is labeled AT(N)] recognizes three general groups of 
+biomarkers based on the nature of the pathologic process that each measures (Table 1) [16]. 
+See section 9.4 for explanation of (N) notation. Biomarkers of Aβ plaques (labeled “A”) are 
+cortical amyloid PET ligand binding [76,77] or low CSF Aβ42 [78–80]. Biomarkers of 
+fibrillar tau (labeled “T”) are elevated CSF phosphorylated tau (P-tau) and cortical tau PET 
+ligand binding [79,81–83]. Biomarkers of neurodegeneration or neuronal injury [labeled 
+“(N)”] are CSF T-tau [84], FDG PET hypometabolism, and atrophy on MRI [85–91].
+A limitation of the 2011 NIA-AA recommendations was that biomarkers were grouped into 
+just two categories— amyloid and tau-related neurodegeneration. Tauopathy and 
+neurodegeneration were placed into the same biomarker category. In persons with only AD, 
+it is reasonable to assume that neurodegeneration is closely associated with pathologic tau. 
+Jack et al.
+Page 6
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

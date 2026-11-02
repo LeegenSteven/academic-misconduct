@@ -1,0 +1,274 @@
+Articles
+www.thelancet.com   Vol 395   March 28, 2020	
+1061
+been documented in fatal cases of COVID-19, although 
+viral detection studies were not reported.32
+The level and duration of infectious virus replication are 
+important factors in assessing the risk of trans­mission and 
+guiding decisions regarding isolation of patients. Because 
+coronavirus RNA detection is more sensitive than virus 
+isolation, most studies have used qualitative or quantitative 
+viral RNA tests as a potential marker for infectious 
+coronavirus. For SARS-CoV, viral RNA was detected in 
+respiratory specimens from about a third of patients as long 
+as 4 weeks after disease onset.33 Similarly, the dura­tion of 
+MERS-CoV RNA detection in lower respiratory specimans 
+persisted for at least 3 weeks,34,35 whereas the duration of 
+SARS-CoV-2 RNA detection has not been well charac­
+terised. In the current study, we found that the detectable 
+SARS-CoV-2 RNA persisted for a median of 20 days in 
+survivors and that it was sustained until death in non-
+survivors. This has important implications for both patient 
+isolation decision making and guidance around the length 
+of antiviral treatment. In severe influenza virus infection, 
+prolonged viral shedding was associated with fatal out­
+come and delayed antiviral treatment was an independent 
+risk factor for prolonged virus detection.36 Similarly, 
+effective antiviral treatment might improve outcomes in 
+COVID-19, although we did not observe shortening of 
+viral shedding duration after lopinavir/ritonavir treatment 
+in the cur­rent study. Ran­domised clinical trials for 
+lopinavir/ritonavir (ChiCTR2000029308) and intravenous 
+remdesivir (NCT04257656, NCT04252664) in treatment of 
+COVID-19 are currently in progress.
+Our study has some limitations. First, due to the 
+retrospective study design, not all laboratory tests were 
+done in all patients, including lactate dehydrogenase, 
+IL-6, and serum ferritin. Therefore, their role might be 
+underestimated in predicting in-hospital death. Second, 
+patients were sometimes transferred late in their illness 
+to the two included hospitals. Lack of effective antivirals, 
+inadequate adherence to standard supportive therapy, 
+and high-dose corticosteroid use might have also 
+contributed to the poor clinical outcomes in some 
+patients. Third, the estimated duration of viral shedding 
+is limited by the frequency of respiratory specimen 
+collection, lack of quantitative viral RNA detection, and 
+relatively low positive rate of SARS-CoV-2 RNA detection 
+in throat-swabs.37 Fourth, by excluding patients still in 
+hospital as of Jan 31, 2020, and thus relatively more 
+severe disease at an earlier stage, the case fatality ratio 
+in our study cannot reflect the true mortality of 
+COVID-19. Last but not least, interpretation of our 
+findings might be limited by the sample size. However, 
+by including all adult patients in the two designated 
+hospitals for COVID-19, we believe our study population 
+is representative of cases diagnosed and treated in 
+Wuhan.
+To the best of our knowledge, this is the largest retro­
+spective cohort study among patients with COVID-19 
+who have experienced a definite outcome. We found that 
+older age, higher SOFA score, and elevated d-dimer at 
+admission were risk factors for death of adult patients 
+with COVID-19. The prolonged viral shedding provides 
+the rationale for testing novel coronavirus antiviral inter­
+ventions in efforts to improve outcomes.
+Contributors
+BC and HC had the idea for and designed the study and had full access to 
+all of the data in the study and take responsibility for the integrity of the 
+data and the accuracy of the data analysis. BC, FZ, GF, ZL, JXi, and YL 
+drafted the paper. BC, FZ, RD, GF, ZL, XG, HL, and YWa did the analysis, 
+and all authors critically revised the manuscript for important intellectual 
+content and gave final approval for the version to be published. FZ, RD, 
+GF, ZL, YL, BS, LG, YWe, XW, JXu, ST, and YZ collected the data. 
+All authors agree to be accountable for all aspects of the work in ensuring 
+that questions related to the accuracy or integrity of any part of the work 
+are appropriately investigated and resolved.
+Figure 2: Temporal changes in laboratory markers from illness onset in patients hospitalised with COVID-19
+Figure shows temporal changes in d-dimer (A), lymphocytes (B), IL-6 (C), serum ferritin (D), high-sensitivity 
+cardiac troponin I (E), and lactate dehydrogenase (F). Differences between survivors and non-survivors were 
+significant for all timepoints shown, except for day 4 after illness onset for d-dimer, IL-6, and high-sensitivity 
+cardiac troponin I. For serum ferritin (D), the median values after day 16 exceeded the upper limit of detection, 
+as indicated by the dashed line. COVID-19=coronavirus disease 2019. IL-6=interleukin-6.
+4
+7
+10
+13
+16
+ 19
+22
+4
+7
+10
+13
+16
+ 19
+25
+22
+0
+High-sensitivity cardiac troponin I (pg/mL)
+Days from illness onset
+0
+50
+200
+150
+250
+100
+300
+150
+350
+200
+400
+250
+450
+300
+500
+550
+350
+600
+E
+F
+Lactate dehydrogenase (U/L)
+4
+7
+10
+13
+16
+ 19
+4
+7
+10
+13
+16
+ 19
+0
+IL-6 (pg/mL)
+0
+6
+500
+12
+1000
+18
+24
+1500
+30
+2000
+2500
+C
+D
+Serum ferritin (µg/L)
+Days from illness onset
+4
+7
+10
+13
+16
+ 19
+22
+4
+7
+10
+13
+16
+ 19
+22
+25
+0
+D-dimer (µg/mL)
+0·0
+6
+0·4
+0·2
+0·6
+12
+0·8
+18
+1·0
+24
+1·2
+30
+1·4
+36
+1·6
+42
+1·8
+48
+2·0
+A
+B
+Lymphocyte count (×109 per L)
+2·5
+5·5
+6·8
+6·6
+6·1
+7·0
+6·3
+236
+332
+323
+243
+390
+302
+397
+388
+198
+590
+200
+301
+413
+528
+217
+240
+8·8
+9·5
+1·5
+0·5
+2·6
+14·4
+16·7
+0·6
+0·7
+1·0
+0·5
+0·60
+0·67
+0·52
+0·54
+0·49
+0·54 0·42
+0·44
+1·08
+0·91
+0·97
+1·18
+1·20
+1·41
+1·42
+1·43
+42·2
+35·6
+23·8
+0·6
+0·3
+12·0
+10·7
+11·7
+17·2
+26·4
+1025
+1646
+1645
+1698
+2000
+2000
+432
+635
+447
+546
+531
+393
+22·0
+55·7
+57·6
+134·5
+290·6
+24·7
+4·1
+4·4
+2·5
+2·5
+3·8
+3·3
+Survivors
+Non-survivors

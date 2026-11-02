@@ -1,0 +1,49 @@
+tau as a nonspecific marker of neuronal injury, while the IWG 2014 treats the combination 
+of elevated T-tau and low Aβ42 as a biomarker signature that is specific for AD. In addition, 
+tau PET was not available in 2014 and thus was not included in the 2014 IWG criteria. In 
+addition to an AD biomarker signature, cognitive symptoms (specifically either a typical or a 
+known atypical AD phenotype) were also required to diagnose AD in IWG 2014. 
+Individuals with symptoms that fell short of dementia were labeled prodromal AD. CU 
+individuals with an abnormal amyloid PET study or a CSF study demonstrating both 
+abnormal Aβ and tau were labeled “asymptomatic at risk for AD”. The most significant 
+difference between the 2014 IWG criteria and the NIA-AA research framework is that, with 
+the exception of genetically determined AD, the 2014 IWG diagnosis of AD in living 
+persons required both biomarker and clinical findings and therefore was not purely a 
+biological construct.
+In an article on preclinical AD (published in 2016 [15] that may be considered part of the 
+IWG series), the diagnosis of AD was extended to include asymptomatic individuals with 
+biomarker evidence of both Aβ and tau. In contrast to IWG 2014, symptoms were no longer 
+required to reach a diagnosis of AD. Some differences with the NIA-AA research 
+framework remain, however. Preclinical AD in IWG 2016 [15] defines a CU individual with 
+an abnormal Aβ biomarker and normal tau (A+T−) as “at risk for AD, asymptomatic A+” 
+and one with A−T+ as “at risk for AD, asymptomatic T+”. We label the former Alzheimer’s 
+pathologic change and the latter suspected non-Alzheimer’s pathologic change (in keeping 
+with the NIA-AA pathologic definition of primary age-related tauopathy as not AD 
+[105,106]). Importantly, the NIA-AA research framework uses “at risk” in a much different 
+connotation, referring to asymptomatic individuals with biomarker evidence of AD as 
+having AD but being “at risk” of subsequent cognitive decline (as opposed to “at risk” for 
+AD). While differences remain, IWG 2016 and the NIA research framework are aligned on 
+the key issue that the combination of an abnormal Aβ and tau biomarker constitutes AD 
+regardless of cognitive symptoms, and thus AD is a biologically defined entity throughout its 
+continuum. This is an important step toward harmonization.
+14. Clinical research without biomarkers or with incomplete biomarker 
+information
+While the main thesis of this research framework focuses on a biological definition of AD, 
+we stress that for some types of studies, incorporation of biomarkers is not necessary. PET 
+and CSF biomarkers can be difficult to acquire in some types of studies and in some 
+geographic locations PET may not be possible. This is particularly true for large population- 
+and community-based cohort studies. Such studies typically seek to identify risk factors for 
+cognitive or other clinically determined outcomes. For these studies, high participant 
+engagement is essential for internal validity and many rely on home visits to achieve both 
+high participation and high follow-up rates. Such studies would have more limited 
+participation and greater expense if PET or CSF biomarkers were required. Thus, research 
+without biomarkers remains a significant enterprise and will continue to find risk factors for 
+clinically defined syndromes or for resilience indices. The extent to which these risk factors 
+are associated with AD will require complementary studies with imaging or biofluid 
+Jack et al.
+Page 19
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

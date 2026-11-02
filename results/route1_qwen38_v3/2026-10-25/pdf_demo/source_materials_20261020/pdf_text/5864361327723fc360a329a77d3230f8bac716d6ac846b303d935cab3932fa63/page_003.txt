@@ -1,0 +1,163 @@
+Articles
+566	
+www.thelancet.com   Vol 395   February 22, 2020
+for 2494 laboratory-confirmed cases of infection and 
+858 fatalities since September, 2012, including 38 deaths 
+following a single introduction into South Korea.8,9
+In late December, 2019, several patients with viral 
+pneumonia were found to be epidemiologically associ­
+ated with the Huanan seafood market in Wuhan, in the 
+Hubei province of China, where a number of non-aquatic 
+animals such as birds and rabbits were also on sale 
+before the outbreak. A novel, human-infecting corona­
+virus,10,11 provisionally named 2019 novel corona­virus 
+(2019-nCoV), was identified with use of next-generation 
+sequencing. As of Jan 28, 2020, China has reported more 
+than 5900 confirmed and more than 9000 suspected 
+cases of 2019-nCoV infection across 33 Chinese prov­
+inces or municipalities, with 106 fatalities. In addition, 
+2019-nCoV has now been reported in Thailand, Japan, 
+South Korea, Malaysia, Singapore, and the USA. Infec­
+tions in medical workers and family clusters were also 
+reported and human-to-human transmission has been 
+confirmed.12 Most of the infected patients had a high 
+fever and some had dyspnoea, with chest radiographs 
+revealing invasive lesions in both lungs.12,13
+We report the epidemiological data of nine inpatients, 
+from at least three hospitals in Wuhan, who were 
+diagnosed with viral pneumonia of unidentified cause. 
+Using next-generation sequencing of bronchoalveolar 
+lavage fluid samples and cultured isolates from these 
+patients, 2019-nCoV was found. We describe the genomic 
+characterisation of ten genomes of this novel virus, 
+providing important information on the origins and cell 
+receptor binding of the virus.
+Methods
+Patients and samples
+Nine patients with viral pneumonia and negative for 
+common respiratory pathogens, who presented to at least 
+three hospitals in Wuhan, were included in this study. 
+Eight of the patients had visited the Huanan seafood 
+market before the onset of illness, and one patient 
+(WH04) did not visit the market but stayed in a hotel near 
+the market between Dec 23 and Dec 27, 2019 (table). 
+Five of the patients (WH19001, WH19002, WH19004, 
+WH19008, and YS8011) had samples collected by the 
+Chinese Center for Disease Control and Prevention 
+(CDC) which were tested for 18 viruses and four bac­
+teria using the RespiFinderSmart22 Kit (PathoFinder, 
+Maastricht, Netherlands) on the LightCycler 480 Real-
+Time PCR system (Roche, Rotkreuz, Switzerland). 
+Presence of SARS-CoV and MERS-CoV was tested using 
+a previously reported method.14 All five CDC samples 
+were negative for all common respiratory pathogens 
+screened for. Four of the patients (WH01, WH02, WH03, 
+and WH04) had samples collected by BGI (Beijing, 
+China), and were tested for five viruses and one bacterium 
+using the RespiPathogen 6 Kit (Jiangsu Macro & Micro 
+Test, Nantong, China) on the Applied Biosystems ABI 
+7500 Real-Time PCR system (ThermoFisher Scientific, 
+Foster City, CA, USA). All four samples were negative for 
+the targeted respiratory pathogens.
+Virus isolation
+Special-pathogen-free human airway epithelial (HAE) 
+cells were used for virus isolation. Briefly, bronchoalveolar 
+lavage fluids or throat swabs from the patients were 
+inoculated into the HAE cells through the apical surfaces. 
+HAE cells were maintained in an air–liquid interface 
+incubated at 37°C. The cells were monitored daily for 
+cytopathic effects by light microscopy and the cell 
+supernatants were collected for use in quantitative 
+RT-PCR assays. After three passages, apical samples 
+were collected for sequencing.
+BGI sequencing strategy
+All collected samples were sent to BGI for sequencing. 
+140 μL bronchoalveolar lavage fluid samples (WH01 to 
+WH04) were reserved for RNA extraction using the 
+QIAamp Viral RNA Mini Kit (52904; Qiagen, Heiden, 
+Germany), according to the manufacturer’s recom­
+mendations. A probe-captured technique was used to 
+remove human nucleic acid. The remaining RNA was 
+and Early-warning (CASCIRE), 
+CAS-TWAS Center of Excellence 
+for Emerging Infectious 
+Diseases (CEEID), Chinese 
+Academy of Sciences, Beijing, 
+China (Prof Y Bi, L Wang, 
+Prof G F Gao); Central Theater, 
+People’s Liberation Army 
+General Hospital, Wuhan, China 
+(Prof Z Hu MD); Key Laboratory 
+of Laboratory Medicine, 
+Ministry of Education, 
+and Zhejiang Provincial Key 
+Laboratory of Medical Genetics, 
+Institute of Medical Virology, 
+School of Laboratory Medicine 
+and Life Sciences, Wenzhou 
+Medical University, Wenzhou, 
+China (J Chen MSc, Prof W Tan); 
+Marie Bashir Institute for 
+Infectious Diseases and 
+Biosecurity, School of Life and 
+Environmental Sciences and 
+School of Medical Sciences, 
+University of Sydney, Sydney, 
+NSW, Australia 
+(Prof E C Holmes PhD); The First 
+Affiliated Hospital of 
+Shandong First Medical 
+University (Shandong 
+Provincial Qianfoshan 
+Hospital), Jinan, China 
+(Prof W Shi); and Center for 
+Biosafety Mega-Science, 
+Chinese Academy of Sciences, 
+Beijing, China (Prof W Tan)
+Correspondence to: 
+Prof Wenjie Tan, 
+NHC Key Laboratory of Biosafety, 
+National Institute for Viral 
+Disease Control and Prevention, 
+Chinese Center for Disease 
+Control and Prevention, 
+Beijing 102206, China 
+tanwj@ivdc.chinacdc.cn
+or
+Prof Weifeng Shi, 
+Key Laboratory of Etiology and 
+Epidemiology of Emerging 
+Infectious Diseases in 
+Universities of Shandong, 
+Shandong First Medical 
+University and Shandong 
+Academy of Medical Sciences, 
+Taian 271000, China 
+wfshi@sdfmu.edu.cn
+Research in context
+Evidence before this study
+The causal agent of an outbreak of severe pneumonia in 
+Wuhan, China, is a novel coronavirus, provisionally named 
+2019 novel coronavirus (2019-nCoV). The first cases were 
+reported in December, 2019.
+Added value of this study
+We have described the genomic characteristics of 2019-nCoV 
+and similarities and differences to other coronaviruses, 
+including the virus that caused the severe acute respiratory 
+syndrome epidemic of 2002–03. Genome sequences of 
+2019-nCoV sampled from nine patients who were among the 
+early cases of this severe infection are almost genetically 
+identical, which suggests very recent emergence of this virus in 
+humans and that the outbreak was detected relatively rapidly. 
+2019-nCoV is most closely related to other betacoronaviruses 
+of bat origin, indicating that these animals are the likely 
+reservoir hosts for this emerging viral pathogen.
+Implications of all the available evidence
+By documenting the presence of 2019-nCoV in a sample of 
+patients, our study extends previous evidence that this virus 
+has led to the novel pneumonia that has caused severe disease 
+in Wuhan and other geographical localities. Currently available 
+data suggest that 2019-nCoV infected the human population 
+from a bat reservoir, although it remains unclear if a currently 
+unknown animal species acted as an intermediate host 
+between bats and humans.

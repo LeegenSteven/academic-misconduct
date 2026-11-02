@@ -1,0 +1,98 @@
+n engl j med 382;13  nejm.org  March 26, 2020
+1206
+The new engl and jour nal of medicine
+further studies to provide more information on 
+this distribution. When more data become avail-
+able on epidemiologic characteristics of NCIP, a 
+detailed comparison with the corresponding 
+characteristics of SARS and MERS, as well as the 
+four coronaviruses endemic in humans, would 
+be informative.
+Our study suffers from the usual limitations 
+of initial investigations of infections with an 
+emerging novel pathogen, particularly during the 
+earliest phase, when little is known about any 
+aspect of the outbreak and there is a lack of di-
+agnostic reagents. To increase the sensitivity for 
+early detection and diagnosis, epidemiology his-
+tory was considered in the case identification 
+and has been continually modified once more 
+information has become available. Confirmed 
+cases could more easily be identified after the 
+PCR diagnostic reagents were made available to 
+Wuhan on January 11, which helped us shorten 
+the time for case confirmation. Furthermore, the 
+initial focus of case detection was on patients 
+with pneumonia, but we now understand that 
+some patients can present with gastrointestinal 
+symptoms, and an asymptomatic infection in a 
+child has also been reported.17 Early infections 
+with atypical presentations may have been missed, 
+and it is likely that infections of mild clinical 
+severity have been under-ascertained among the 
+confirmed cases.18 We did not have detailed in-
+formation on disease severity for inclusion in this 
+analysis.
+In conclusion, we found that cases of NCIP 
+have been doubling in size approximately every 
+7.4 days in Wuhan at this stage. Human-to-human 
+transmission among close contacts has occurred 
+since the middle of December and spread out 
+gradually within a month after that. Urgent next 
+steps include identifying the most effective con-
+trol measures to reduce transmission in the com-
+munity. The working case definitions may need 
+to be refined as more is learned about the epide-
+miologic characteristics and outbreak dynamics. 
+The characteristics of cases should continue to 
+be monitored to identify any changes in epide-
+miology — for example, increases in infections 
+among persons in younger age groups or health 
+care workers. Future studies could include fore-
+casts of the epidemic dynamics and special stud-
+ies of person-to-person transmission in house-
+holds or other locations, and serosurveys to 
+determine the incidence of the subclinical infec-
+tions would be valuable.14 These initial inferences 
+have been made on a “line list” that includes 
+detailed individual information on each con-
+firmed case, but there may soon be too many 
+cases to sustain this approach to surveillance, 
+and other approaches may be required.19
+The views expressed in this article are those of the authors 
+and do not represent the official policy of the China CDC. All 
+the authors have declared no relationships or activities that 
+could appear to have influenced this work.
+Supported by the Ministry of Science and Technology of China, 
+the National Science and Technology Major Projects of China 
+(2018ZX10201-002-008-002, 2018ZX10101002-003), the China–U.S. 
+Collaborative Program on Emerging and Re-emerging Infec-
+tious Disease, and National Mega-Projects for Infectious Disease 
+(2018ZX10201002-008-002), the National Natural Science Foun-
+dation (71934002), the National Institute of Allergy and Infec-
+tious Diseases (Centers of Excellence for Influenza Research and 
+Surveillance [CEIRS] contract number HHSN272201400006C), 
+and the Health and Medical Research Fund (Hong Kong). None 
+of the funders had any role in the study design and the collec-
+tion, analysis, and interpretation of data or in the writing of the 
+article and the decision to submit it for publication. The research-
+ers confirm their independence from funders and sponsors.
+We thank Wuhan CDC, Huanggang CDC, and other prefec-
+ture CDCs and medical institutions in Wuhan for assistance 
+with field investigation administration and data collection and 
+the National Institute for Viral Disease Control and Prevention, 
+China CDC, for assistance with laboratory testing.
+Appendix
+The authors’ affiliations are as follows: the Chinese Center for Disease Control and Prevention, Beijing (Q.L., X.W., L.Z., R.R., N.X., 
+C.L., D.L., J.Z., W.T., L.J., Q.W., R.W., Y.Z., G. Shi, G.F.G., Z.F.), the Hubei Provincial Center for Disease Control and Prevention, 
+Wuhan, Hubei (X.G., Y.T., X.X., Y.W., Q.C., M.L., C.C., R.Y., S.Z., Y. Luo, B.Y.), the World Health Organization Collaborating Centre 
+for Infectious Disease Epidemiology and Control, School of Public Health, University of Hong Kong, Hong Kong (P.W., K.S.M.L., 
+E.H.Y.L., J.Y.W., T.T.Y.L., J.T.W., B.J.C., G.M.L.), the Chinese Field Epidemiology Training Program, Chinese Center for Disease Con-
+trol and Prevention, Beijing (T.L., R.Y., S.Z., H. Liu, Y. Liu, G. Shao, H. Li, Z.T.), the Jingzhou Center for Disease Control and Preven-
+tion, Jingzhou, Hubei (T.L.), the Chengdu Center for Disease Control and Prevention, Chengdu, Sichuan (H. Liu); the Hunan Provincial 
+Center for Disease Control and Prevention, Changsha, Hunan (Y. Liu), the Anyang Municipal Center for Disease Control and Prevention, 
+Anyang, Henan (G. Shao), the Panjin Center for Disease Control and Prevention, Panjin, Liaoning (H. Li), the Guizhou Center for Dis-
+ease Control and Prevention, Guiyang, Guizhou (Z.T.), the Jiading District Center for Disease Control and Prevention, Shanghai (Y.Y.), 
+the Nanchang Center for Disease Control and Prevention, Nanchang, Jiangxi (Z.D.), the Inner Mongolia Comprehensive Center for 
+Disease Control and Prevention, Hohhot, Inner Mongolia (B.L.), and the Baoshan District Center for Disease Control and Prevention, 
+Shanghai (Z.M.) — all in China.

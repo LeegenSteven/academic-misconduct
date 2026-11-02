@@ -1,0 +1,186 @@
+Nature  |  Vol 596  |  26 August 2021  |  589
+prediction algorithm, coupled with existing large and well-curated 
+structure and sequence databases assembled by the experimental 
+community, we hope to accelerate the advancement of structural 
+bioinformatics that can keep pace with the genomics revolution. We 
+hope that AlphaFold—and computational approaches that apply its 
+techniques for other biophysical problems—will become essential 
+tools of modern biology.
+Online content
+Any methods, additional references, Nature Research reporting sum-
+maries, source data, extended data, supplementary information, 
+acknowledgements, peer review information; details of author con-
+tributions and competing interests; and statements of data and code 
+availability are available at https://doi.org/10.1038/s41586-021-03819-2.
+1.	
+Thompson, M. C., Yeates, T. O. & Rodriguez, J. A. Advances in methods for atomic 
+resolution macromolecular structure determination. F1000Res. 9, 667 (2020).
+2.	
+Bai, X.-C., McMullan, G. & Scheres, S. H. W. How cryo-EM is revolutionizing structural 
+biology. Trends Biochem. Sci. 40, 49–57 (2015).
+3.	
+Jaskolski, M., Dauter, Z. & Wlodawer, A. A brief history of macromolecular crystallography, 
+illustrated by a family tree and its Nobel fruits. FEBS J. 281, 3985–4009 (2014).
+4.	
+Wüthrich, K. The way to NMR structures of proteins. Nat. Struct. Biol. 8, 923–925 (2001).
+5.	
+wwPDB Consortium. Protein Data Bank: the single global archive for 3D macromolecular 
+structure data. Nucleic Acids Res. 47, D520–D528 (2018).
+6.	
+Mitchell, A. L. et al. MGnify: the microbiome analysis resource in 2020. Nucleic Acids Res. 
+48, D570–D578 (2020).
+7.	
+Steinegger, M., Mirdita, M. & Söding, J. Protein-level assembly increases protein sequence 
+recovery from metagenomic samples manyfold. Nat. Methods 16, 603–606 (2019).
+8.	
+Dill, K. A., Ozkan, S. B., Shell, M. S. & Weikl, T. R. The protein folding problem. Annu. Rev. 
+Biophys. 37, 289–316 (2008).
+9.	
+Anfinsen, C. B. Principles that govern the folding of protein chains. Science 181, 223–230 
+(1973).
+10.	
+Senior, A. W. et al. Improved protein structure prediction using potentials from deep 
+learning. Nature 577, 706–710 (2020).
+11.	
+Wang, S., Sun, S., Li, Z., Zhang, R. & Xu, J. Accurate de novo prediction of protein contact 
+map by ultra-deep learning model. PLOS Comput. Biol. 13, e1005324 (2017).
+12.	
+Zheng, W. et al. Deep-learning contact-map guided protein structure prediction in 
+CASP13. Proteins 87, 1149–1164 (2019).
+13.	
+Abriata, L. A., Tamò, G. E. & Dal Peraro, M. A further leap of improvement in tertiary 
+structure prediction in CASP13 prompts new routes for future assessments. Proteins 87, 
+1100–1112 (2019).
+14.	
+Pearce, R. & Zhang, Y. Deep learning techniques have significantly impacted protein 
+structure prediction and protein design. Curr. Opin. Struct. Biol. 68, 194–207 (2021).
+15.	
+Moult, J., Fidelis, K., Kryshtafovych, A., Schwede, T. & Topf, M. Critical assessment of 
+techniques for protein structure prediction, fourteenth round. CASP 14 Abstract Book 
+https://www.predictioncenter.org/casp14/doc/CASP14_Abstracts.pdf (2020).
+16.	
+Brini, E., Simmerling, C. & Dill, K. Protein storytelling through physics. Science 370, 
+eaaz3041 (2020).
+17.	
+Sippl, M. J. Calculation of conformational ensembles from potentials of mean force.  
+An approach to the knowledge-based prediction of local structures in globular proteins. 
+J. Mol. Biol. 213, 859–883 (1990).
+18.	
+Šali, A. & Blundell, T. L. Comparative protein modelling by satisfaction of spatial 
+restraints. J. Mol. Biol. 234, 779–815 (1993).
+19.	
+Roy, A., Kucukural, A. & Zhang, Y. I-TASSER: a unified platform for automated protein 
+structure and function prediction. Nat. Protocols 5, 725–738 (2010).
+20.	 Altschuh, D., Lesk, A. M., Bloomer, A. C. & Klug, A. Correlation of co-ordinated amino acid 
+substitutions with function in viruses related to tobacco mosaic virus. J. Mol. Biol. 193, 
+693–707 (1987).
+21.	
+Shindyalov, I. N., Kolchanov, N. A. & Sander, C. Can three-dimensional contacts in protein 
+structures be predicted by analysis of correlated mutations? Protein Eng. 7, 349–358 (1994).
+22.	 Weigt, M., White, R. A., Szurmant, H., Hoch, J. A. & Hwa, T. Identification of direct residue 
+contacts in protein–protein interaction by message passing. Proc. Natl Acad. Sci. USA 
+106, 67–72 (2009).
+23.	 Marks, D. S. et al. Protein 3D structure computed from evolutionary sequence variation. 
+PLoS ONE 6, e28766 (2011).
+24.	 Jones, D. T., Buchan, D. W. A., Cozzetto, D. & Pontil, M. PSICOV: precise structural contact 
+prediction using sparse inverse covariance estimation on large multiple sequence 
+alignments. Bioinformatics 28, 184–190 (2012).
+25.	 Moult, J., Pedersen, J. T., Judson, R. & Fidelis, K. A large-scale experiment to assess protein 
+structure prediction methods. Proteins 23, ii–iv (1995).
+26.	 Kryshtafovych, A., Schwede, T., Topf, M., Fidelis, K. & Moult, J. Critical assessment of 
+methods of protein structure prediction (CASP)-round XIII. Proteins 87, 1011–1020 (2019).
+27.	
+Zhang, Y. & Skolnick, J. Scoring function for automated assessment of protein structure 
+template quality. Proteins 57, 702–710 (2004).
+28.	 Tu, Z. & Bai, X. Auto-context and its application to high-level vision tasks and 3D brain 
+image segmentation. IEEE Trans. Pattern Anal. Mach. Intell. 32, 1744–1757 (2010).
+29.	 Carreira, J., Agrawal, P., Fragkiadaki, K. & Malik, J. Human pose estimation with iterative 
+error feedback. In Proc. IEEE Conference on Computer Vision and Pattern Recognition 
+4733–4742 (2016).
+30.	 Mirabello, C. & Wallner, B. rawMSA: end-to-end deep learning using raw multiple 
+sequence alignments. PLoS ONE 14, e0220182 (2019).
+31.	
+Huang, Z. et al. CCNet: criss-cross attention for semantic segmentation. In Proc. IEEE/CVF 
+International Conference on Computer Vision 603–612 (2019).
+32.	 Hornak, V. et al. Comparison of multiple Amber force fields and development of 
+improved protein backbone parameters. Proteins 65, 712–725 (2006).
+33.	 Zemla, A. LGA: a method for finding 3D similarities in protein structures. Nucleic Acids 
+Res. 31, 3370–3374 (2003).
+34.	 Mariani, V., Biasini, M., Barbato, A. & Schwede, T. lDDT: a local superposition-free score for 
+comparing protein structures and models using distance difference tests. Bioinformatics 
+29, 2722–2728 (2013).
+35.	 Xie, Q., Luong, M.-T., Hovy, E. & Le, Q. V. Self-training with noisy student improves 
+imagenet classification. In Proc. IEEE/CVF Conference on Computer Vision and Pattern 
+Recognition 10687–10698 (2020).
+36.	 Mirdita, M. et al. Uniclust databases of clustered and deeply annotated protein 
+sequences and alignments. Nucleic Acids Res. 45, D170–D176 (2017).
+37.	
+Devlin, J., Chang, M.-W., Lee, K. & Toutanova, K. BERT: pre-training of deep bidirectional 
+transformers for language understanding. In Proc. 2019 Conference of the North 
+American Chapter of the Association for Computational Linguistics: Human Language 
+Technologies 1, 4171–4186 (2019).
+38.	 Rao, R. et al. MSA transformer. In Proc. 38th International Conference on Machine 
+Learning PMLR 139, 8844–8856 (2021).
+39.	 Tunyasuvunakool, K. et al. Highly accurate protein structure prediction for the human 
+proteome. Nature https://doi.org/10.1038/s41586-021-03828-1 (2021).
+40.	 Kuhlman, B. & Bradley, P. Advances in protein structure prediction and design. Nat. Rev. 
+Mol. Cell Biol. 20, 681–697 (2019).
+41.	
+Marks, D. S., Hopf, T. A. & Sander, C. Protein structure prediction from sequence variation. 
+Nat. Biotechnol. 30, 1072–1080 (2012).
+42.	 Qian, N. & Sejnowski, T. J. Predicting the secondary structure of globular proteins using 
+neural network models. J. Mol. Biol. 202, 865–884 (1988).
+43.	 Fariselli, P., Olmea, O., Valencia, A. & Casadio, R. Prediction of contact maps with neural 
+networks and correlated mutations. Protein Eng. 14, 835–843 (2001).
+44.	 Yang, J. et al. Improved protein structure prediction using predicted interresidue 
+orientations. Proc. Natl Acad. Sci. USA 117, 1496–1503 (2020).
+45.	 Li, Y. et al. Deducing high-accuracy protein contact-maps from a triplet of coevolutionary 
+matrices through deep residual convolutional networks. PLOS Comput. Biol. 17, 
+e1008865 (2021).
+46.	 He, K., Zhang, X., Ren, S. & Sun, J. Deep residual learning for image recognition. In  
+Proc. IEEE Conference on Computer Vision and Pattern Recognition 770–778 (2016).
+47.	
+AlQuraishi, M. End-to-end differentiable learning of protein structure. Cell Syst. 8,  
+292–301 (2019).
+48.	 Senior, A. W. et al. Protein structure prediction using multiple deep neural networks in the 
+13th Critical Assessment of Protein Structure Prediction (CASP13). Proteins 87, 1141–1148 
+(2019).
+49.	 Ingraham, J., Riesselman, A. J., Sander, C. & Marks, D. S. Learning protein structure with a 
+differentiable simulator. in Proc. International Conference on Learning Representations 
+(2019).
+50.	 Li, J. Universal transforming geometric network. Preprint at https://arxiv.org/
+abs/1908.00723 (2019).
+51.	
+Xu, J., McPartlon, M. & Li, J. Improved protein structure prediction by deep learning 
+irrespective of co-evolution information. Nat. Mach. Intell. 3, 601–609 (2021).
+52.	 Vaswani, A. et al. Attention is all you need. In Advances in Neural Information Processing 
+Systems 5998–6008 (2017).
+53.	 Wang, H. et al. Axial-deeplab: stand-alone axial-attention for panoptic segmentation. in 
+European Conference on Computer Vision 108–126 (Springer, 2020).
+54.	 Alley, E. C., Khimulya, G., Biswas, S., AlQuraishi, M. & Church, G. M. Unified rational 
+protein engineering with sequence-based deep representation learning. Nat. Methods 16, 
+1315–1322 (2019).
+55.	 Heinzinger, M. et al. Modeling aspects of the language of life through transfer-learning 
+protein sequences. BMC Bioinformatics 20, 723 (2019).
+56.	 Rives, A. et al. Biological structure and function emerge from scaling unsupervised 
+learning to 250 million protein sequences. Proc. Natl Acad. Sci. USA 118, e2016239118 
+(2021).
+57.	
+Pereira, J. et al. High-accuracy protein structure prediction in CASP14. Proteins https://doi.
+org/10.1002/prot.26171 (2021).
+58.	 Gupta, M. et al. CryoEM and AI reveal a structure of SARS-CoV-2 Nsp2, a multifunctional 
+protein involved in key host processes. Preprint at https://doi.org/10.1101/2021.05.10. 
+443524 (2021).
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in 
+published maps and institutional affiliations.
+Open Access This article is licensed under a Creative Commons Attribution 
+4.0 International License, which permits use, sharing, adaptation, distribution 
+and reproduction in any medium or format, as long as you give appropriate 
+credit to the original author(s) and the source, provide a link to the Creative Commons license, 
+and indicate if changes were made. The images or other third party material in this article are 
+included in the article’s Creative Commons license, unless indicated otherwise in a credit line 
+to the material. If material is not included in the article’s Creative Commons license and your 
+intended use is not permitted by statutory regulation or exceeds the permitted use, you will 
+need to obtain permission directly from the copyright holder. To view a copy of this license, 
+visit http://creativecommons.org/licenses/by/4.0/.
+© The Author(s) 2021

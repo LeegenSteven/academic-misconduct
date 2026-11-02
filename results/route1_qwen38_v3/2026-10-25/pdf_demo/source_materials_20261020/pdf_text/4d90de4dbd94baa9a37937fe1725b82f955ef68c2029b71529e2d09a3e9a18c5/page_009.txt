@@ -1,0 +1,110 @@
+of the excited states by rapid cryocooling at defined time delays, 
+followed by X-ray structure determination using traditional 
+methods206–209,209. Because protein dynamics are dependent on 
+external perturbations, but also highly temperature-dependent, 
+the freeze-trapping method was determined to be of limited 
+utility owing to challenges in data interpretation. It was soon 
+replaced by methods that could utilize the pulsed nature of the 
+synchrotron beam (approximately 100 ps pulse duration) to act 
+as a high-speed camera, capable of capturing structural snapshots 
+of the motions in real time210. By varying the time delay between 
+the perturbation and X-ray pulses, researchers could capture 
+molecules in various stages of conformational transitions211–214. 
+Time-resolved crystallography (and X-ray solution scattering) 
+proved to be an extremely powerful tool for studying macro-
+molecular dynamics215–217, but the need to synchronize confor-
+mational changes in a significant fraction of the crystallized 
+molecules still posed a substantial technical challenge, and time-
+resolved measurements were relegated to a handful of systems 
+with well-characterized photoactivity, such as myoglobin and 
+photoactive yellow protein, where it was straightforward to 
+initiate conformational changes using a pulsed laser.
+The use of serial crystallography for time-resolved studies has 
+facilitated a series of recent technological developments and 
+experimental achievements194. Studies have revealed the sub- 
+picosecond chromophore gymnastics that result in photoactivation 
+of photoreceptors and fluorescent proteins218–222. The long-sought 
+mechanism of photosynthetic water splitting by photosystem II 
+has been revealed using ultrafast time-resolved crystallography 
+paired with simultaneous X-ray spectroscopy223–225. Covalently 
+bound enzyme–substrate reaction intermediates, which had been 
+theorized but never observed, have been identified226,227. Addition-
+ally, a substantial effort has been made to expand time-resolved 
+measurements to systems that do not have any photoactivity, 
+making these experiments amenable to essentially any protein 
+of interest. New perturbation methods that have been success-
+fully utilized include temperature-jump228, rapid mixing226,227, 
+ligand or substrate photocaging229, and rapid application of 
+electric fields230. Finally, it is worth noting that the success of 
+time-resolved crystallography has inspired the more recent 
+development of time-resolved cryo-EM231. In such an experi-
+ment, molecules are mixed as they are sprayed onto a cryo-EM 
+sample grid, and a time delay is introduced between the mixing 
+and vitrification processes232–234. The time-resolution of these 
+experiments is limited to tens of milliseconds by the time 
+required to vitrify the sample, but they have been successfully 
+applied to study relatively slow motions of large complexes, 
+such as ribosomes during protein translation235. Although limited 
+in their temporal resolution, these experiments offer the oppor-
+tunity to study large-amplitude motions that are incompatible 
+with a crystal lattice.
+The resurgence of electron diffraction
+For the past half century, the use of electron diffraction remained 
+limited, often applied to unique samples or used as a comple-
+ment to X-ray studies for macromolecular analysis. Common 
+approaches to electron diffraction relied on the electron 
+microscope, often configured to sample from the back focal plane 
+of its objective lens. Use of the electron microscope as a tool for 
+three-dimensional characterization of macromolecules dates to 
+the mid-twentieth century when Klug and colleagues pioneered 
+molecular electron microscopy at the MRC Laboratory of 
+Molecular Biology in Cambridge236,237. In contrast to single mol-
+ecules or small molecular assemblies, extended two-dimensional 
+molecular crystals are ideally suited for diffraction. Transla-
+tional invariance in the transforms of two-dimensional crystals 
+facilitates the measurement of high-resolution diffraction. This 
+was exploited by Henderson and Unwin to characterize crystals 
+of bacteriorhodopsin (bR)238. In fact, their use of electron 
+diffraction necessitated thin crystals of bR to avoid extensive 
+multiple scattering and absorption artifacts239. The potent inter-
+action of the electron beam with the single layer of molecules in 
+two-dimensional bR crystals was sufficient to yield an initial 
+molecular resolution structure of the protein and later several 
+atomic models240,241. Two-dimensional electron crystallography has 
+since produced a number of important high-resolution structures, 
+including the plant light-harvesting complex242 and aquaporin243–245. 
+At 1.9 Å, the structure of the water pore protein, aquaporin-0, was 
+the highest resolution structure determined by two-dimensional 
+electron crystallography246. The small quantity of high-resolution 
+structures determined by electron crystallography may be because 
+of its unique sample demands. For two-dimensional crystals, 
+missing wedge effects impact resolution in the direction 
+normal to the molecular layer, while crystal bending and in-plane 
+defects may limit resolution along the layer247. Despite these 
+limitations, electron microscopes offer an immediate benefit 
+for structure determination, since phases can be obtained by 
+direct imaging of two-dimensional crystals248.
+In the early 1970s, electron microscopy of protein nanocrystals 
+in liquid-filled cells demonstrated the power of using electron 
+beams for three-dimensional crystallography249. By mitigating 
+radiation damage, cryogenic cooling of samples further facili-
+tated the extraction of high-resolution information from three-
+dimensional crystals by electron diffraction250. Beam attenuation 
+measurements in these early studies demonstrated that crystals 
+of the protein catalase—a few hundred nanometers thick—could 
+be investigated under the electron microscope251. Despite these 
+early efforts, electron diffraction of three-dimensional macromo-
+lecular crystals was impacted by many of the same challenges 
+that affected two-dimensional electron crystallography. Multiple 
+scattering and absorption effects presented added concerns252,253. 
+These limitations would ultimately delay the widespread applica-
+tion of electron diffraction to three-dimensional macromolecular 
+crystals. In contrast, three-dimensional electron crystallography 
+of small molecules and materials continued to progress, ultimately 
+yielding structures of various inorganic and organic structures 
+before those of macromolecules could be determined254–256.
+Electron diffraction is now widely used for the study of three-
+dimensional inorganic and organic crystals257. Its application 
+to three-dimensional protein crystals re-emerged recently in 
+Page 9 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

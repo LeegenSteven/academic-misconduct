@@ -1,0 +1,2582 @@
+{
+  "status": "CORRECTED_MBIO_TECHNICAL_JOINT_CONCLUSION_REGISTERED",
+  "owner": "陈明进",
+  "liyun_role": "A100纠正Mbio训练、Dev选点、两个Test执行与材料归档；陈明进负责实现核查与复核",
+  "source_summary_path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\19daipao\\发给陈明进_CPU等价性修复实测_20261020\\01_A100原始结果\\cpu_fp32_7ixmnxxv\\summary.json",
+  "source_summary_sha256": "baa87ef2a159c94851b9623b3a2ee2fa1b0703c880ef914c2229ae7352104767",
+  "reported_CPU_status": "CPU_FP32_ACTUAL_QWEN_LORA_TRAINER_PASS_NOT_27B_EQUIVALENCE",
+  "actual_candidate_trainer_sha256": "9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba",
+  "reported_cases": {
+    "single_micro": {
+      "passed": true,
+      "count": 3,
+      "accumulation": 1,
+      "padded": false,
+      "expected_negative": false,
+      "artifact": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_equivalence_cpu_fix_20261020/cpu_fp32_7ixmnxxv/single_micro/case_result.json"
+    },
+    "accum4_tail": {
+      "passed": true,
+      "count": 5,
+      "accumulation": 4,
+      "padded": false,
+      "expected_negative": false,
+      "artifact": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_equivalence_cpu_fix_20261020/cpu_fp32_7ixmnxxv/accum4_tail/case_result.json"
+    },
+    "padded_accum4_tail": {
+      "passed": true,
+      "count": 5,
+      "accumulation": 4,
+      "padded": true,
+      "expected_negative": false,
+      "artifact": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_equivalence_cpu_fix_20261020/cpu_fp32_7ixmnxxv/padded_accum4_tail/case_result.json"
+    },
+    "production_accum16_tail13": {
+      "passed": true,
+      "count": 29,
+      "accumulation": 16,
+      "padded": false,
+      "expected_negative": false,
+      "artifact": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_equivalence_cpu_fix_20261020/cpu_fp32_7ixmnxxv/production_accum16_tail13/case_result.json"
+    },
+    "eos_as_pad_accum4_tail": {
+      "passed": true,
+      "count": 5,
+      "accumulation": 4,
+      "padded": true,
+      "expected_negative": false,
+      "artifact": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_equivalence_cpu_fix_20261020/cpu_fp32_7ixmnxxv/eos_as_pad_accum4_tail/case_result.json"
+    },
+    "negative_original_normalization": {
+      "passed": true,
+      "count": 5,
+      "accumulation": 4,
+      "padded": true,
+      "expected_negative": true,
+      "artifact": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_equivalence_cpu_fix_20261020/cpu_fp32_7ixmnxxv/negative_original_normalization/case_result.json"
+    }
+  },
+  "local_evidence_files": [
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\19daipao\\发给陈明进_CPU等价性修复实测_20261020\\01_A100原始结果\\cpu_fp32_7ixmnxxv\\summary.json",
+      "sha256": "baa87ef2a159c94851b9623b3a2ee2fa1b0703c880ef914c2229ae7352104767"
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\19daipao\\发给陈明进_CPU等价性修复实测_20261020\\01_A100原始结果\\cpu_fp32_7ixmnxxv\\run_request.json",
+      "sha256": "6b1fefcde2e1faabcec0a9f0040431c1ce69ea3839acd3222ec0829e614b77e5"
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\19daipao\\发给陈明进_CPU等价性修复实测_20261020\\01_A100原始结果\\cpu_fp32_7ixmnxxv\\actual_trainer_sources.txt",
+      "sha256": "1800516e5d05a59c8c269b5259c54482618f349f6ca197678c7f6c1f2cf8c5f7"
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\19daipao\\发给陈明进_CPU等价性修复实测_20261020\\01_A100原始结果\\cpu_fp32_7ixmnxxv\\single_micro\\case_result.json",
+      "sha256": "af306497983cb843caafa1a96b2cec4c58c6030e7fc2c1c18c30e14da30b3d20"
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\19daipao\\发给陈明进_CPU等价性修复实测_20261020\\01_A100原始结果\\cpu_fp32_7ixmnxxv\\accum4_tail\\case_result.json",
+      "sha256": "f6ff74793e868b64389c30e583a7da56b2f92abacd0b6ca2608050ba321aa169"
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\19daipao\\发给陈明进_CPU等价性修复实测_20261020\\01_A100原始结果\\cpu_fp32_7ixmnxxv\\padded_accum4_tail\\case_result.json",
+      "sha256": "12f3b00b8e306caf379e6246bafcce9e576fd9b91e9ce495b8764bcea54cfdee"
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\19daipao\\发给陈明进_CPU等价性修复实测_20261020\\01_A100原始结果\\cpu_fp32_7ixmnxxv\\production_accum16_tail13\\case_result.json",
+      "sha256": "637f6f61f254cae7920b81443e7b5ef3b624cd301d1846159ae7623486df385e"
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\19daipao\\发给陈明进_CPU等价性修复实测_20261020\\01_A100原始结果\\cpu_fp32_7ixmnxxv\\eos_as_pad_accum4_tail\\case_result.json",
+      "sha256": "b6ffd166b1ef056bc379197a0db1c26745ac9817b98f5f2ebe8186d142552c23"
+    },
+    {
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\19daipao\\发给陈明进_CPU等价性修复实测_20261020\\01_A100原始结果\\cpu_fp32_7ixmnxxv\\negative_original_normalization\\case_result.json",
+      "sha256": "82042c468f76fab6fa1e33dd8de79814c43a96331b5692757ae6de8ed7644fa9"
+    }
+  ],
+  "scope_limit": "已收到的修复候选CPU结果，不等同原27B/NF4训练逐位等价，也不自动证明原训练实现核验完成。",
+  "latest_received_gpu_request": {
+    "request_date": "2026-10-24",
+    "local_review_date": "2026-10-26",
+    "requester_as_stated_in_readme": "陈明进",
+    "directory": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\gpu等价验证",
+    "readme": "00_先看这里.md",
+    "status": "V3A_FP32_REVIEW_FEEDBACK_SENT_ORIGINAL_MBIO_REVIEW_PENDING",
+    "file_manifest_sha256": "9701cc360b5159b2db97b7a0774205993002bcbaa11c3997740bb4bcddbcee42",
+    "listed_files": 10,
+    "hash_matches": 10,
+    "candidate_trainer_matches_previous_cpu_candidate": true,
+    "candidate_trainer_sha256": "9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba",
+    "inputs_checked": {
+      "equivalence_train": {
+        "input_rows": 2141,
+        "gold_rows": 2141,
+        "unique_input_ids": 2141,
+        "unique_gold_ids": 2141,
+        "id_set_difference": 0
+      },
+      "save_reload_smoke": {
+        "input_rows": 32,
+        "gold_rows": 32,
+        "unique_input_ids": 32,
+        "unique_gold_ids": 32,
+        "id_set_difference": 0
+      }
+    },
+    "requested_work": [
+      "真实27B/NF4环境下验证修复候选的loss及梯度",
+      "32条smoke训练保存独立的新final_adapter",
+      "另起进程重载新adapter并完成32条Train推理；只验证保存重载链路，不当作泛化成绩"
+    ],
+    "static_findings": [
+      {
+        "code": "SHARED_DEPENDENCY_NOT_BUNDLED",
+        "source": "三份执行脚本的shared.route1_qwen38.data_contract导入",
+        "finding": "包内没有shared目录，脚本相对搜索路径按当前目录结构也无法找到该依赖。可复用已核验原件，但A100须明确PYTHONPATH或完整仓库位置并核对哈希。",
+        "existing_dependency": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\code\\shared\\route1_qwen38\\data_contract.py",
+        "dependency_sha256": "93e881ea4a9d8dc92c897a87862a185bd5527ee58f31567472e29a8ef7261776"
+      },
+      {
+        "code": "GPU_TEST_BYPASSES_ACTUAL_TRAINER",
+        "source": "run_gpu_equivalence_a100.py:47,129-284",
+        "finding": "导入SupervisedLogitsTrainer但未调用；两侧手工forward/backward，没有原生Trainer.training_step、外层累积或optimizer.step，因此不能覆盖修复候选实际训练与更新后参数的GPU等价性。"
+      },
+      {
+        "code": "TAIL_INDEX_AND_REPORT_COVERAGE",
+        "source": "run_gpu_equivalence_a100.py:217,267-283,370",
+        "finding": "尾批run_standard从子集i=0重新索引，却使用完整样本的sample_supervised_tokens[i]；监督token数变化时会取错分母换算计数。默认前5条均为ACCURATE，不覆盖变长目标。尾批差值仅打印，未写入返回JSON或summary判定。"
+      },
+      {
+        "code": "NO_REAL_PADDING_COVERAGE",
+        "source": "run_gpu_equivalence_a100.py:297-322",
+        "finding": "每次只collate一个样本，现有collator不会额外补齐；labels==-100还包含prompt屏蔽，不能作为padding数。测试仅返回completed，没有保存各样本数值或判定。"
+      },
+      {
+        "code": "COMPARISON_CONTROLS_AND_TOLERANCES",
+        "source": "run_gpu_equivalence_a100.py:51,107-126,366-388",
+        "finding": "未显式控制两侧dropout模式或逐步RNG一致性；compare_gradients默认atol=1e-5与所列CPU梯度atol=1e-6不同。协议B只输出说明，没有实际按协议计算张量通过状态。不能仅凭约1e-3差异就归因量化噪声或放行，须先固定比较条件与容差并保留失败。"
+      },
+      {
+        "code": "SAVE_RELOAD_EXECUTION_CONFIGURATION",
+        "source": "02_保存与重载验证两份脚本及00_先看这里.md",
+        "finding": "训练显式use_double_quant=True，重载未显式设置同项；等价脚本默认max_length=5120，smoke训练与重载默认4096。正式执行前需核对选定输入长度与量化配置，指定GPU，并为每次尝试建立独立输出目录以免训练保存覆盖旧产物。"
+      }
+    ],
+    "review_scope": "原包复核结论保留；用户随后授权准备修订执行方案。未加载模型、未运行GPU验证、未改动来文原件或代签验收。",
+    "execution_revision": {
+      "prepared_date": "2026-10-25",
+      "directory": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\gpu等价验证\\执行修订_v2",
+      "package": "route1_gpu_validation_v2_20261025.pyz",
+      "package_sha256": "04ade75f28e27f52376fd86a151b45c9966ab308be73e77072d99a2e2c88e3c5",
+      "package_bytes": 1661866,
+      "bundled_files": 16,
+      "source_request_preserved": true,
+      "candidate_trainer_original_bytes_preserved": true,
+      "changes": [
+        "打包原共享data_contract和完整输入，修复相对依赖问题",
+        "验证调用真实Trainer.train、training_step、修复候选compute_loss和optimizer更新流程",
+        "五个场景含三标签、变长目标、4步尾批、真实padding、16+13尾批、EOS/pad共ID；尾批数值与更新后参数均进入JSON",
+        "数值测试dropout=0、LoRA A/B固定非零初值；真实32条冒烟保留原训练dropout=0.05",
+        "两套原容差固定在运行前分别实算；差异超限记录失败，无量化噪声自动放行",
+        "修订重载脚本仅显式加入double_quant=True；训练和重载统一5120预算、reasoning off",
+        "数值场景选取29条完整短Train样本用于覆盖；不是用短样本替代32条保存重载任务，也不代表全量Train等价",
+        "每次运行新建独立目录，GPU索引显式选择；预检、GPU等价、保存重载分阶段执行"
+      ],
+      "local_checks": {
+        "scope": "标准库打包、源码哈希、语法、输入ID与控制逻辑检查；未在本机运行Torch Trainer或GPU模型",
+        "passed": true,
+        "negative_cases_rejected": [
+          "missing_full_accumulation_cycle",
+          "wrong_tail_token_denominator",
+          "prompt_mask_mistaken_for_real_padding",
+          "lost_eos_supervision",
+          "mismatched_gold",
+          "tampered_source",
+          "unlisted_member",
+          "unsafe_path"
+        ]
+      },
+      "a100_preflight_received": true,
+      "a100_preflight_evidence": {
+        "path": "C:\\Users\\y\\.codex\\attachments\\d91b082c-74ea-40d1-ba89-49f807e65fdd\\已粘贴的文本.txt",
+        "sha256": "5dbd81a20c5c47838aa7a79c2a6f3596b0850d51a41f727fb10952073d28bc44",
+        "status": "PREFLIGHT_PASS_NO_GPU_MODEL_RUN",
+        "train_max_tokens": 4924,
+        "smoke_max_inference_input_tokens": 4913,
+        "max_new_tokens": 64,
+        "cuda_initialized": false,
+        "weights_loaded": false,
+        "training_performed": false,
+        "gpu2_reported_free_mib": 32892,
+        "model_shard_count": 18,
+        "model_shard_contents_rehashed": false
+      },
+      "memory_gate_override": {
+        "authorized_by": "用户明确要求不用管35000MiB门槛，直接开始，有问题再说",
+        "derivative_name": "route1_gpu_validation_v2a_nogate_20261025.pyz",
+        "change": "仅删除启动器和worker两处free_mib>=35000拦截，保留资源记录、输入身份和两套数值容差；遇OOM记录失败",
+        "physical_gpu": 2,
+        "launch_confirmed": true,
+        "a100_derived_package_sha256": "ebf7c6dfe4e656397f424bfca86a1a2dedc4f06dac6dcb8155e0745327e868bf",
+        "launch_pid": 2755019,
+        "launch_utc": "2026-10-25T02:54:30Z",
+        "run_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/equivalence_runs/equivalence_20261025T025430Z_dende0qg",
+        "evidence_scope": "已收到启动输出及后续日志尾部、exit_code和run_metadata；实际进入GPU训练比较并结束。完整equivalence_results及各场景数值文件尚未下载。"
+      },
+      "equivalence_terminal_result": {
+        "status": "EQUIVALENCE_NOT_ESTABLISHED",
+        "exit_code": 1,
+        "started_utc": "2026-10-25T10:54:30.670316+08:00",
+        "finished_utc": "2026-10-25T11:15:25.92302+08:00",
+        "observed_gpu_before_free_mib": 33080,
+        "actual_model_training_comparison_observed": true,
+        "log_tail_covers": [
+          "production_accum16_tail13 fixed microsteps 15-29",
+          "eos_as_pad_accum4_tail1 standard and fixed microsteps 1-5"
+        ],
+        "last_eos_pad_micro_loss_standard": 0.46344733,
+        "last_eos_pad_micro_loss_fixed": 0.47384697,
+        "scope_note": "末条loss处于已有optimizer更新后的轨迹；仅凭日志差异不判断首次分歧或具体根因，等逐场景报告定位。",
+        "evidence_path": "C:\\Users\\y\\.codex\\attachments\\a50f005c-e1c4-4234-a1f9-ea4153123cb8\\已粘贴的文本.txt",
+        "evidence_sha256": "105e1639ab2b51b48b350a28ffb6f9c36302929d58b6c633eb503f3cc2a63ac4",
+        "full_case_numeric_reports_downloaded": true
+      },
+      "gpu_numerical_result_received": true,
+      "gpu_case_summary_received": {
+        "source": "用户回传现有equivalence_results.json的逐场景摘要；完整原始报告尚未下载",
+        "all_five_failed_A_and_B": true,
+        "first_failed_B_micro_all_cases": 1,
+        "reported_branch_exceptions": {},
+        "cases": {
+          "single_micro": {
+            "max_raw_loss_diff": 0.21365481615066528,
+            "max_gradient_diff": 9.546875,
+            "max_parameter_diff": 0.0008669865783303976
+          },
+          "accum4_tail1": {
+            "max_raw_loss_diff": 0.01143231987953186,
+            "max_gradient_diff": 0.234375,
+            "max_parameter_diff": 0.0003987336531281471
+          },
+          "padded_accum4_tail1": {
+            "max_raw_loss_diff": 0.009043395519256592,
+            "max_gradient_diff": 0.16455078125,
+            "max_parameter_diff": 0.00039717555046081543
+          },
+          "production_accum16_tail13": {
+            "max_raw_loss_diff": 0.0016321372240781784,
+            "max_gradient_diff": 0.13200950622558594,
+            "max_parameter_diff": 0.00039688311517238617
+          },
+          "eos_as_pad_accum4_tail1": {
+            "max_raw_loss_diff": 0.01039963960647583,
+            "max_gradient_diff": 0.0859375,
+            "max_parameter_diff": 0.0003973729908466339
+          }
+        },
+        "interpretation": "全场景最大值含多次micro和optimizer更新后的轨迹，不能等同首步差异；各场景从首个micro即未满足B，需检查该步执行条件、loss及梯度相对参照规模，尚未归因量化噪声或训练算法错误。"
+      },
+      "first_micro_diagnostic_received": {
+        "source": "用户本聊天回传五组首个micro事件摘要；完整原始报告尚未下载",
+        "execution_condition_differences_all_cases": {},
+        "loss_finite_all_cases": true,
+        "loss_max_abs_all_cases": 0.0,
+        "loss_passed_A_and_B_all_cases": true,
+        "gradient_names_match_all_cases": true,
+        "gradient_failed_A_and_B_all_cases": true,
+        "cases": {
+          "single_micro": {
+            "standard_loss": 1.6648108959197998,
+            "fixed_loss": 1.6648108959197998,
+            "gradient_max_abs": 0.0859375,
+            "worst_tensor": "base_model.model.model.layers.3.self_attn.v_proj.lora_A.default.weight"
+          },
+          "accum4_tail1": {
+            "standard_loss": 0.44994890689849854,
+            "fixed_loss": 0.44994890689849854,
+            "gradient_max_abs": 0.0205078125,
+            "worst_tensor": "base_model.model.model.layers.27.self_attn.v_proj.lora_A.default.weight"
+          },
+          "padded_accum4_tail1": {
+            "standard_loss": 0.4571959972381592,
+            "fixed_loss": 0.4571959972381592,
+            "gradient_max_abs": 0.0302734375,
+            "worst_tensor": "base_model.model.model.layers.7.self_attn.v_proj.lora_A.default.weight"
+          },
+          "production_accum16_tail13": {
+            "standard_loss": 0.11402814835309982,
+            "fixed_loss": 0.11402814835309982,
+            "gradient_max_abs": 0.0068359375,
+            "worst_tensor": "base_model.model.model.layers.7.self_attn.v_proj.lora_A.default.weight"
+          },
+          "eos_as_pad_accum4_tail1": {
+            "standard_loss": 0.4571959972381592,
+            "fixed_loss": 0.4571959972381592,
+            "gradient_max_abs": 0.025390625,
+            "worst_tensor": "base_model.model.model.layers.27.self_attn.v_proj.lora_A.default.weight"
+          }
+        },
+        "interpretation": "记录的首步输入与分母等执行条件一致，前向标量loss完全一致；最早观察到的分歧在反向梯度。loss一致不等于梯度等价，不能据此归因为BF16噪声或确定训练数学错误。固定容差不变，GPU等价性失败结论保留。"
+      },
+      "save_reload_result_received": true,
+      "save_reload_launch_confirmed": true,
+      "save_reload_launch": {
+        "source": "用户回传启动器LAUNCHED输出；尚未收到训练日志、退出码或完成元数据",
+        "stage": "save_reload",
+        "launcher_worker_pid": 2766802,
+        "requested_physical_gpu": 2,
+        "run_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/save_reload_runs/save_reload_20261025T032908Z_3luferma",
+        "run_directory_timestamp_utc": "2026-10-25T03:29:08Z",
+        "status": "LAUNCH_RECEIVED_EXECUTION_AND_COMPLETION_PENDING"
+      },
+      "save_reload_terminal_result": {
+        "source": "用户回传run.log和train.log尾部、exit_code.txt、run_metadata.json、save_reload_results.json",
+        "status": "FAILED",
+        "exit_code": 1,
+        "started_utc": "2026-10-25T11:29:09.261998+08:00",
+        "finished_utc": "2026-10-25T11:31:36.131295+08:00",
+        "package_sha256": "ebf7c6dfe4e656397f424bfca86a1a2dedc4f06dac6dcb8155e0745327e868bf",
+        "physical_gpu": 2,
+        "gpu_uuid": "GPU-ad785776-f83b-2516-d23b-228692d20358",
+        "gpu_before_free_mib": 32960,
+        "train_pid": 2766827,
+        "train_completed": false,
+        "reload_started": false,
+        "reload_completed": false,
+        "new_adapter_successfully_saved_confirmed": false,
+        "underlying_error_type": "torch.OutOfMemoryError",
+        "failure_site": "transformers.models.qwen3_5.modeling_qwen3_5.forward -> lm_head -> torch.nn.functional.linear",
+        "requested_allocation_gib": 2.37,
+        "reported_free_at_failure_gib": 1.13,
+        "reported_training_process_memory_gib": 31.17,
+        "reported_pytorch_allocated_gib": 28.09,
+        "reported_pytorch_reserved_unallocated_gib": 2.53,
+        "other_processes_reported_at_failure": [
+          {
+            "pid": 4167772,
+            "memory_mib": 416.0
+          },
+          {
+            "pid": 2605541,
+            "memory_gib": 6.73
+          }
+        ],
+        "observed_training_progress": "0/2 optimizer updates in returned log tail",
+        "stale_child_result_status": "RUNNING",
+        "status_interpretation": "save_reload_results.json保留中断前RUNNING且未写入train退出码；外层exit_code=1和最终run_metadata.status=FAILED确定本次已失败，不表示仍在运行。CUDA错误中的GPU0为被选GPU在子进程内的逻辑编号，物理GPU2由元数据记录。",
+        "diagnostic_limit": "显存不足已由异常确认；后续完整调用栈已证实修复候选compute_loss及logits_to_keep路径被实际调用。尚无张量级内存profile，不推定碎片化为唯一原因或2.37GiB分配的具体张量，也不据此停止既有进程。保留32条、5120预算和原训练候选。",
+        "evidence_path": "C:\\Users\\y\\.codex\\attachments\\8c6a1041-a0b0-4369-8792-e12be6dfb499\\已粘贴的文本.txt",
+        "evidence_sha256": "2b7abce08cb139b31cfc0335f85503eea0477e635a7af5ee24c2537ec10d638e",
+        "full_train_log_downloaded": true,
+        "complete_traceback_received": {
+          "source": "用户后续回传train.log最后100行，包含配置、加载、完整异常调用栈和GPU显存查询；不是完整日志文件下载",
+          "candidate_compute_loss_called": true,
+          "candidate_forward_uses_logits_to_keep_positions": true,
+          "train_samples": 32,
+          "train_label_counts": {
+            "ACCURATE": 23,
+            "NOT_ACCURATE": 7,
+            "IRRELEVANT": 2
+          },
+          "reported_trainable_parameters": 79691776,
+          "reported_total_parameters": 26975690240,
+          "reported_trainable_percent": 0.2954,
+          "runtime_notice": "linear-attention fast path依赖缺失，回退torch实现；本轮不自动安装或变更库版本",
+          "evidence_path": "C:\\Users\\y\\.codex\\attachments\\3dc7ac96-2024-460d-84e3-fcc9964a3382\\已粘贴的文本.txt",
+          "evidence_sha256": "2f8ba384004a19ff2ba6fbd00c3f8bdc1cb0bc71131c14d1f86bef5116fcbe38"
+        }
+      },
+      "allocator_retry_plan": {
+        "status": "SAVE_RELOAD_EXECUTED_WITH_INVALID_LABELS",
+        "physical_gpu": 2,
+        "package": "route1_gpu_validation_v2a_nogate_20261025.pyz",
+        "package_sha256": "ebf7c6dfe4e656397f424bfca86a1a2dedc4f06dac6dcb8155e0745327e868bf",
+        "environment_change": {
+          "PYTORCH_ALLOC_CONF": "backend:native,expandable_segments:True"
+        },
+        "source_code_changed": false,
+        "model_inputs_and_hyperparameters_changed": false,
+        "new_stage": "save_reload",
+        "rationale": "上次OOM时预留未用约2.53GiB，优先仅调整allocator尝试减少碎片；不能据此认定碎片是唯一原因或保证能容纳训练峰值。GPU2为用户最新回传中空闲最多的卡（33166MiB）。",
+        "scope": "仅重新尝试未完成的32条训练保存与独立重载，不重跑五组等价性、不改27B或量化精度、不截断输入、不停止其他进程。沿用启动器新建独立运行目录，保留旧失败和冻结Test/checkpoint。",
+        "reference": "https://docs.pytorch.org/docs/2.11/notes/cuda.html#optimizing-memory-usage-with-pytorch-alloc-conf",
+        "failure_policy": "若再次OOM，保留新日志并基于新的分配/占用证据选择下一方案，不自动同参数反复重启。仍以exit_code和最终run_metadata判断终态，不采信旧版子结果残留RUNNING。",
+        "launch_received": {
+          "source": "用户按allocator调整命令回传LAUNCHED stage=save_reload、PID及run_dir；尚未收到本次日志或终态",
+          "stage": "save_reload",
+          "launcher_worker_pid": 2773579,
+          "run_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/save_reload_runs/save_reload_20261025T034826Z_1u14x8wz",
+          "run_directory_timestamp_utc": "2026-10-25T03:48:26Z",
+          "allocator_effectiveness_verified_from_runtime": false,
+          "terminal_result_received": true
+        },
+        "terminal_result": {
+          "source": "用户回传本次run/train/reload日志尾部、exit_code.txt、run_metadata.json和save_reload_results.json；两次粘贴内容哈希相同，作为同一回传处理",
+          "status": "SAVE_RELOAD_EXECUTED_WITH_INVALID_LABELS",
+          "exit_code": 1,
+          "started_utc": "2026-10-25T11:48:27.182616+08:00",
+          "finished_utc": "2026-10-25T12:04:08.816979+08:00",
+          "gpu_before_free_mib": 32974,
+          "train_pid": 2773588,
+          "train_exit_code": 0,
+          "train_completed": true,
+          "train_samples": 32,
+          "optimizer_updates_reported": 2,
+          "reported_train_runtime_seconds": 286.9,
+          "reported_train_loss_rounded": 2.87,
+          "adapter_saved": true,
+          "adapter_relative_path": "train/final_adapter",
+          "saved_adapter_sha256": "69063d703ae506457eb7eee45cf63be1b03f9d24c27b3b17b56a9078654d8f5b",
+          "reload_pid": 2775314,
+          "reload_exit_code": 0,
+          "reload_completed": true,
+          "reported_reload_runtime_seconds_rounded": 578,
+          "prediction_rows": 32,
+          "prediction_ids_verified_by_bundle": true,
+          "predictions_relative_path": "reload_eval/repair_smoke32_v2_train_predictions.jsonl",
+          "metrics_relative_path": "reload_eval/repair_smoke32_v2_train_metrics.json",
+          "predictions_sha256": "962ed973d20dbc674a113f965011d59b0f7fa2997b6c31b67c147575cbf6923f",
+          "saved_adapter_unchanged_after_reload_verified_by_bundle": true,
+          "invalid_predictions": 32,
+          "all_labels_valid": false,
+          "reported_accuracy": 0.0,
+          "reported_macro_f1": 0.0,
+          "raw_output_audit_received": true,
+          "interpretation": "本次已越过上次OOM，训练保存和独立进程重载推理均完成，但全部32条严格解析为INVALID，故外层退出1且完整验收未通过。后续统计32条均用满64个生成token；前三条原文均在reason中途被截断，未闭合JSON，确认生成预算不足这一问题。其余29条尚未逐条读取原文，不预判所有无效仅有同一原因。零分不能解释为32条均有合法分类但语义全错；不从半截JSON抽取标签来改分。不重训、不放宽解析、不覆盖原结果；GPU等价性失败结论不变。",
+          "allocator_effect_note": "按仅改变allocator的交接命令启动的本次未再OOM；尚无allocator配置运行时快照或峰值profile，不将该结果等同证实碎片为唯一原因。",
+          "evidence_path": "C:\\Users\\y\\.codex\\attachments\\9eafff70-10f6-470c-bd85-1417f3035d20\\已粘贴的文本.txt",
+          "duplicate_evidence_path": "C:\\Users\\y\\.codex\\attachments\\b65cfab5-06a8-4fcc-92ff-2cfb1c331b2d\\已粘贴的文本.txt",
+          "evidence_sha256": "7a8f4db4f98ea5642d72afae0a713a7f68570389d1f5d895f0e986a4ca589c0d",
+          "full_artifacts_downloaded": true,
+          "raw_output_audit": {
+            "source": "用户本聊天回传CPU读取结果及前三条raw_output；不是本机已下载完整预测文件",
+            "rows": 32,
+            "output_token_counts": {
+              "64": 32
+            },
+            "generation_at_token_limit_count": 32,
+            "raw_samples_seen": [
+              "0",
+              "1",
+              "2"
+            ],
+            "all_three_seen_samples_are_incomplete_json": true,
+            "truncation_location": "均输出label和evidence_ids后，在中文reason字符串中途结束",
+            "partial_labels_seen_not_accepted_as_predictions": {
+              "0": "NOT_ACCURATE",
+              "1": "ACCURATE",
+              "2": "ACCURATE"
+            },
+            "original_strict_INVALID_and_metrics_preserved": true,
+            "prompt_target_scope_note": "已读原输入：system_prompt要求evidence_ids、reason、confidence等完整JSON；现有训练监督是仅含label的JSON，二者输出范围不一致，需随代码审阅说明。本次不改提示词或训练监督，只先解决已证实的64-token截断。"
+          }
+        }
+      },
+      "output_budget_probe_plan": {
+        "status": "SINGLE_RECORD_STRICT_PARSE_PASS_CLASSIFICATION_INCORRECT",
+        "purpose": "验证增加生成预算后原始响应能否闭合JSON并通过原有严格解析，仅1条Train重载试验，不是重新训练或正式评测",
+        "reuse_adapter_from_run": "save_reload_20261025T034826Z_1u14x8wz",
+        "adapter_sha256": "69063d703ae506457eb7eee45cf63be1b03f9d24c27b3b17b56a9078654d8f5b",
+        "physical_gpu": 2,
+        "max_samples": 1,
+        "max_new_tokens_previous": 64,
+        "max_new_tokens_probe": 512,
+        "total_budget_previous": 5120,
+        "total_budget_probe": 5632,
+        "previously_verified_max_prompt_tokens_for_smoke32": 4913,
+        "max_prompt_plus_probe_generation": 5425,
+        "within_probe_total_budget": true,
+        "training_model_quantization_prompt_and_parser_unchanged": true,
+        "enable_thinking": false,
+        "source_code_changed": false,
+        "model_name_for_new_output": "repair_smoke32_probe512",
+        "output_directory_template": "原run_dir/reload_probe512_XXXXXX，使用mktemp独立新建",
+        "scope_limit": "只改变本次重载推理生成预算和相应总预算，保留完整原输入，不修改训练max_length或冻结Test配置。原32条INVALID及退出1保持原样；新结果单独留痕。单条格式验证已通过，完整32条尚待执行。",
+        "result_received": {
+          "source": "用户本聊天回传完整单条重载日志和预测原文；尚未下载完整产物",
+          "run_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/save_reload_runs/save_reload_20261025T034826Z_1u14x8wz/reload_probe512_O32s93",
+          "claim_id": "0",
+          "input_tokens": 821,
+          "output_tokens": 97,
+          "generation_at_token_limit": false,
+          "invalid_count": 0,
+          "invalid_reason": null,
+          "pred": "NOT_ACCURATE",
+          "gold": "ACCURATE",
+          "complete_json_observed": true,
+          "observed_json_keys": [
+            "label",
+            "evidence_ids",
+            "reason",
+            "confidence"
+          ],
+          "reported_accuracy": 0.0,
+          "reported_macro_f1": 0.0,
+          "reported_inference_seconds_rounded": 26,
+          "interpretation": "该条在97 token正常结束并输出完整JSON，按未修改的严格parser得到合法标签，证明本条预算截断问题已解除。分类与gold不一致，不能标记分类正确；仅验证格式及重载可执行，不代表32条整体通过或泛化成绩。"
+        }
+      },
+      "full32_reload512_plan": {
+        "status": "COMPLETED_32_VALID_PREDICTIONS_FINAL_CPU_CHECK_PASS",
+        "action": "同一已保存adapter独立进程重载32条Train，不重新训练",
+        "physical_gpu": 2,
+        "environment": {
+          "PYTORCH_ALLOC_CONF": "backend:native,expandable_segments:True"
+        },
+        "max_samples": 32,
+        "max_new_tokens": 512,
+        "max_length": 5632,
+        "enable_thinking": false,
+        "do_sample": false,
+        "parser_unchanged": true,
+        "model_name": "repair_smoke32_reload512",
+        "output_directory_template": "save_reload_20261025T034826Z_1u14x8wz/reload_full512_XXXXXX，mktemp独立新建",
+        "predictions_filename": "repair_smoke32_reload512_train_predictions.jsonl",
+        "metrics_filename": "repair_smoke32_reload512_train_metrics.json",
+        "completion_checks": [
+          "32条唯一ID与原smoke输入对齐",
+          "使用原严格解析统计INVALID及生成上限命中",
+          "预测和指标哈希一致",
+          "复核同一adapter哈希未改变",
+          "保存完整推理日志并区分链路/格式与分类正确性"
+        ],
+        "scope_limit": "属于生成预算调整后的独立重载尝试。旧64-token失败与单条probe均保留，不追改结果，不碰冻结Test或旧checkpoint。不能因此更改五组GPU等价性失败结论。",
+        "launch_received": {
+          "source": "用户回传后台任务号、pid=2786902及run_dir；本次尚未收到运行日志或结果",
+          "pid": 2786902,
+          "run_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/save_reload_runs/save_reload_20261025T034826Z_1u14x8wz/reload_full512_wfmF7w",
+          "terminal_result_received": true
+        },
+        "result_received": {
+          "source": "用户本聊天回传shell Done、ps无该PID、wc=32、run.log尾部与完整metrics JSON；完整磁盘文件尚未下载",
+          "reported_shell_job_status": "Done",
+          "exit_code_file_received": false,
+          "prediction_rows_reported_by_wc": 32,
+          "metrics_total": 32,
+          "correct": 17,
+          "invalid_count": 0,
+          "accuracy": 0.53125,
+          "macro_f1": 0.5706417624521073,
+          "inference_time_seconds": 894.3,
+          "label_order": [
+            "ACCURATE",
+            "NOT_ACCURATE",
+            "IRRELEVANT"
+          ],
+          "confusion_matrix": [
+            [
+              9,
+              14,
+              0
+            ],
+            [
+              0,
+              7,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "gold_counts": {
+            "ACCURATE": 23,
+            "NOT_ACCURATE": 7,
+            "IRRELEVANT": 2
+          },
+          "predicted_counts": {
+            "ACCURATE": 9,
+            "NOT_ACCURATE": 22,
+            "IRRELEVANT": 1
+          },
+          "per_class_f1": {
+            "ACCURATE": 0.5625,
+            "NOT_ACCURATE": 0.4827586206896552,
+            "IRRELEVANT": 0.6666666666666666
+          },
+          "inputs_sha256": "3675d36859434e4d37bf7c96a626aa3e25fa3a6bb334f570adcbfd19e5dc9bf1",
+          "gold_sha256": "4ba3335edede70d3de0cf2e55b8fb1ffc322e08b21e57d59dd91cde6320299ca",
+          "prediction_sha256": "af388ccb0266a946778caacdeb5b0aba5f43c678f625cc24d8accc5647dc384c",
+          "max_new_tokens": 512,
+          "max_length": 5632,
+          "enable_thinking": false,
+          "reported_retry_count_within_this_run": 0,
+          "retry_scope_note": "本512-token新运行内部无逐条重试；此前64-token失败及单条probe均保留，不能把metrics中的retry_count=0解释为整个实验从未重试。",
+          "local_targeted_checks": {
+            "reported_confusion_sums_to_32": true,
+            "reported_confusion_diagonal_sums_to_17": true,
+            "accuracy_and_macro_f1_recomputed_from_reported_confusion_match": true,
+            "inputs_and_gold_hashes_match_original_local_smoke32_files": true,
+            "remote_prediction_id_and_disk_hash_audit_received": true,
+            "remote_adapter_unchanged_after_full32_audit_received": true
+          },
+          "generation_at_token_limit_count": 0,
+          "interpretation": "32条推理完成、INVALID=0且均未触及512-token上限；用户已回传最终CPU核验PASS，ID对齐、原文严格解析、指标复算和输入/gold/预测哈希一致，adapter保持原保存哈希。本轮训练保存和独立进程重载有效输出已完成；17/32仅为Train冒烟成绩，不是Dev/Test或泛化成绩，不宣称正式模型达标。旧失败保留，GPU等价性五组A/B未通过结论不变。",
+          "full_artifacts_downloaded": true,
+          "final_cpu_check": {
+            "source": "用户本聊天回传所交接纯CPU收尾脚本stdout，非本机模型重跑",
+            "status": "PASS",
+            "rows": 32,
+            "invalid_count": 0,
+            "generation_at_token_limit_count": 0,
+            "prediction_sha256": "af388ccb0266a946778caacdeb5b0aba5f43c678f625cc24d8accc5647dc384c",
+            "adapter_sha256": "69063d703ae506457eb7eee45cf63be1b03f9d24c27b3b17b56a9078654d8f5b",
+            "checks_passed": [
+              "32条唯一ID与input/gold对齐",
+              "gold逐条一致",
+              "原raw_output按原严格parser复核且无INVALID",
+              "完整分类指标复算一致",
+              "512/5632/reasoning off配置一致",
+              "input/gold/prediction磁盘哈希与指标一致",
+              "adapter与原保存哈希一致"
+            ],
+            "human_joint_acceptance": false
+          }
+        }
+      },
+      "handoff_collection": {
+        "status": "ACTUAL_ARCHIVE_DOWNLOADED_AND_LOCAL_AUDIT_PASS_NOT_SENT_OR_PUBLISHED",
+        "script_path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\gpu等价验证\\执行修订_v2\\collect_gpu_validation_v2_20261025.py",
+        "script_sha256": "e8a95e7c7174dc7deb5815dde4b395abb9610d0e63098a059c8d322f96b5e0de",
+        "script_bytes": 8729,
+        "archive_name": "cmj_gpu_validation_v2_20261025_handoff.zip",
+        "included": [
+          "原v2/v2a执行包及本次collector源码",
+          "五组等价性全部JSON/日志和运行源码记录",
+          "首轮OOM失败日志与元数据",
+          "新adapter完整目录、训练配置与日志",
+          "原64-token失败、512-token单条probe及最终32条预测/指标/日志",
+          "一份去重的解包源码及冻结输入",
+          "逐文件SHA256清单及区分三项结论的归档摘要"
+        ],
+        "excluded_but_retained_on_a100": [
+          "27B底座权重，不位于归档目标树",
+          "体积较大的数值梯度/参数参照张量，归档摘要列出路径及大小；相应JSON及其已记录哈希保留在包内"
+        ],
+        "safety": "仅读取原产物，使用exclusive ZIP创建拒绝覆盖；不加载模型或修改任何旧结果，不发外部消息或推送GitHub",
+        "local_control_check": "合成夹具验证ZIP成员与逐文件哈希、保留新adapter/源码、略去并保留大参照张量、拒绝覆盖已有ZIP；仅归档控制测试，不当作真实A100产物核验",
+        "actual_archive_created": true,
+        "actual_archive_downloaded": true,
+        "local_archive_audit": {
+          "date": "2026-10-25",
+          "archive_path": "C:\\Users\\y\\Desktop\\学术引用不端\\cmj_gpu_validation_v2_20261025_handoff.zip",
+          "archive_bytes": 789804401,
+          "archive_sha256": "01023ef52bb50040a9b721edead660b13fef842b26a626eb1f63bf6b23132c67",
+          "archive_members": 199,
+          "manifest_payload_members_checked": 198,
+          "uncompressed_payload_bytes": 1356960579,
+          "unique_safe_member_paths": true,
+          "manifest_exact_member_set": true,
+          "all_payload_sizes_sha256_and_zip_crc_passed": true,
+          "manifest_self_hash_exclusion_explicit": true,
+          "server_whole_zip_sha256_provided": false,
+          "integrity_scope": "未收到A100整包SHA，未声称独立比对两端整包哈希；已完整读取ZIP核对CRC、198项逐文件SHA与大小，并将执行包、代码、预测及adapter等关键哈希对照此前已记录的A100/原件值。",
+          "member_group_payload_counts": {
+            "equivalence": 137,
+            "failed_save_reload": 7,
+            "source_bundles": 3,
+            "train_and_reload": 50,
+            "HANDOFF_SUMMARY.json": 1
+          },
+          "source_bundle_hashes_match_pinned_values": true,
+          "candidate_trainer_hash_matches_cpu_candidate": true,
+          "five_actual_gpu_case_reports_reviewed": true,
+          "all_five_gpu_A_and_B_failed_confirmed": true,
+          "both_branches_executed_in_all_five_cases": true,
+          "first_micro_loss_equal_and_gradient_failure_confirmed": true,
+          "actual_train_config_confirmed": {
+            "train_samples": 32,
+            "max_length": 5120,
+            "lora_r": 16,
+            "lora_alpha": 32,
+            "lora_dropout": 0.05,
+            "learning_rate": 0.0001,
+            "grad_accum": 16
+          },
+          "actual_full32_id_raw_parse_gold_and_metrics_recomputed_passed": true,
+          "prediction_sha256": "af388ccb0266a946778caacdeb5b0aba5f43c678f625cc24d8accc5647dc384c",
+          "adapter_sha256": "69063d703ae506457eb7eee45cf63be1b03f9d24c27b3b17b56a9078654d8f5b",
+          "rows": 32,
+          "invalid_count": 0,
+          "generation_at_token_limit_count": 0,
+          "output_tokens_min": 95,
+          "output_tokens_max": 148,
+          "accuracy": 0.53125,
+          "macro_f1": 0.5706417624521073,
+          "oom_and_64token_failed_attempts_preserved_and_confirmed": true,
+          "omitted_large_numerical_reference_tensors": 63,
+          "omitted_tensor_a100_paths_and_sizes_listed": true,
+          "size_explanation": "主要包括checkpoint-2/optimizer.pt 637974371字节及checkpoint-2/final_adapter各318835672字节adapter；两份adapter哈希相同。27B底座不在包内，未为缩小体积删改原ZIP。",
+          "checkpoint2_adapter_hash_equals_final_adapter": true,
+          "model_run_performed_for_this_local_audit": false,
+          "actual_archive_modified_or_repacked": false,
+          "sent_to_cmj_by_assistant": false,
+          "published_to_github": false,
+          "human_joint_acceptance": false
+        }
+      },
+      "diagnostic_v3_preparation": {
+        "status": "A100_DIAGNOSTIC_INCOMPLETE_NATIVE1_PROBE_CAPTURE_FAILED",
+        "date": "2026-10-25",
+        "user_request": "阅读失败分析MD，说明是否需要重跑并提供命令；准备最小诊断入口，不直接重复五组、训练或Test",
+        "analysis_document": "10.19-11.2/gpu等价验证/GPU验证v2等价性失败分析与重跑方案_20261025.md",
+        "original_analysis_document_modified": false,
+        "review_corrections": [
+          "首步标量loss相同不能排除中间前向差异，尚不能确定logits_to_keep为根因",
+          "single_micro梯度差0.0859375、1.6563012599945068、9.546875、0.0418701171875、3.078125并非单调放大",
+          "accum4第2个micro在第一次更新前已有约0.000356 loss差，不能全部解释为Adam更新后的反馈",
+          "此前CPU实测为小配置Qwen3.5、FP32，并非27B/NF4或CPU BF16证明"
+        ],
+        "script": "10.19-11.2/gpu等价验证/执行修订_v2/diagnose_gpu_equivalence_v3_20261025.py",
+        "script_sha256": "7eba0a5b9701f689204792e7c114609a4d0a892884b2144358b565b97efc4376",
+        "script_bytes": 26196,
+        "plan": "native、原字节candidate、全序列手算sum/N、监督位置mean乘token数再除N四路，各在新进程执行两次；使用v2首个micro的Train967、588输入token、10监督token；实际Trainer.training_step内捕获，在裁剪和optimizer.step前主动停止",
+        "captured": [
+          "原生和候选各自重复对照",
+          "四路标量loss与LoRA梯度",
+          "监督位置lm_head输入及其梯度",
+          "监督位置logits及其梯度"
+        ],
+        "unchanged": [
+          "原候选训练文件字节",
+          "原A/B门槛",
+          "旧五组失败结果",
+          "已有adapter",
+          "所有冻结Test"
+        ],
+        "local_checks": [
+          "语法和CLI通过",
+          "8项执行计划和loss正负例检查通过",
+          "从真实回传ZIP及原执行包复核7项来源哈希，首micro ID、输入签名及监督计数对齐",
+          "输入篡改负例拒绝",
+          "使用NumPy测试替身验证比较逻辑同值通过、大差异失败、形状不匹配拒绝；不是Torch/GPU实测"
+        ],
+        "gpu_runtime_tested": true,
+        "gpu_diagnostic_completed": false,
+        "a100_launch_reported": {
+          "evidence": "用户粘贴--launch --gpu 2的终端输出，LAUNCHED_DIAGNOSTIC；仅确认后台启动，不推定模型执行或完成",
+          "pid": 2951539,
+          "gpu_index": 2,
+          "run_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/diagnostic_20261025T121251Z_5q2ijhw4",
+          "run_name_timestamp_utc": "2026-10-25T12:12:51Z",
+          "worker_status_received": true,
+          "terminal_result_received": true,
+          "server_script_sha256_received": true,
+          "server_script_sha256_matches_local": true
+        },
+        "a100_terminal_status_received": {
+          "status": "DIAGNOSTIC_INCOMPLETE_WORKER_FAILURE",
+          "exit_code": 1,
+          "finished_workers": 1,
+          "planned_workers": 8,
+          "failed_worker": "native_1",
+          "failed_worker_exit_code": 1,
+          "remaining_workers_not_started": 7,
+          "traceback_received": true,
+          "worker_metadata_received": true,
+          "interpretation": "native_1已完成权重加载并从Trainer.training_step返回，在诊断脚本检查探针完整性时抛出Missing forward/backward probes；不是本次日志中的OOM，无新数值等价判定。原失败未列缺失键，不能据此断言具体缺的是哪一个探针。",
+          "worker_metadata": {
+            "status": "WORKER_FAILED",
+            "started_utc": "2026-10-25T20:13:00.813584+08:00",
+            "variant": "native",
+            "repeat": 1,
+            "exit_code": 1,
+            "script_sha256": "7eba0a5b9701f689204792e7c114609a4d0a892884b2144358b565b97efc4376",
+            "scope": "One unchanged short Train micro; actual Trainer; stop before optimizer; diagnostic only",
+            "claim_id": "967",
+            "batch_sha256": "e57c472950c301a9bc9987e79d02dcdf0659fa5dda46b1434b768d64faa9da2f",
+            "num_items_in_batch": 10,
+            "optimizer_steps_executed": 0,
+            "finished_utc": "2026-10-25T20:13:33.560857+08:00",
+            "error_type": "RuntimeError",
+            "error": "Missing forward/backward probes"
+          },
+          "trace_location": "diagnose_gpu_equivalence_v3_20261025.py:225, Observe.training_step; after super().training_step and trainable-gradient capture"
+        },
+        "new_root_cause_established": false,
+        "output_policy": "新建diagnostic_runs独立目录，保留逐进程日志和捕获张量；不重打旧ZIP；不设空闲显存门槛，遇worker失败留痕并停止；诊断退出0不等于五组等价通过"
+      },
+      "diagnostic_v3_1_repair": {
+        "status": "A100_DIAGNOSTIC_FULL_REPORT_REVIEWED_SELF_REPEAT_FAILURE",
+        "script": "10.19-11.2/gpu等价验证/执行修订_v2/diagnose_gpu_equivalence_v3_1_20261025.py",
+        "script_sha256": "2fcfe86eb7c078d1e73019b3ee3b576e2f4aaab3e7359e46ce826d252d2174c7",
+        "script_bytes": 33611,
+        "previous_script_sha256": "7eba0a5b9701f689204792e7c114609a4d0a892884b2144358b565b97efc4376",
+        "repair": "将logits数值与梯度探针一起移到lm_head原始输出；模型公开返回的logits只记录dtype和值差，不再要求它的梯度hook触发。保留head输入探针和四项完整性门槛；异常时保存已收/缺失探针名、反向完成状态及梯度数量，禁止混用v3/v3.1捕获。",
+        "mechanism_evidence": "在实际PyTorch CPU小模型中复现：内部loss建立后才转换返回logits，公开返回张量不在该loss祖先路径，旧hook不触发；原始head输出hook正常触发。这解释了v3代码的观测缺陷，但不是已证实的A100缺失键定位，也不是原v2数值不等价根因。",
+        "local_autograd_regression": {
+          "command_mode": "--probe-self-test",
+          "status": "CPU_PROBE_REGRESSION_PASS",
+          "torch": "2.14.1+cpu",
+          "python": "3.11.9",
+          "precisions": [
+            "fp32_output_copy",
+            "cpu_bf16"
+          ],
+          "loss_path_shapes": [
+            "native",
+            "candidate",
+            "full_manual",
+            "selected_mean_normalized"
+          ],
+          "checks_passed": 8,
+          "actual_training_candidate_or_27b_loaded": false,
+          "old_native_public_output_hook_failure_reproduced": true,
+          "all_raw_head_probes_captured": true,
+          "instrumentation_loss_and_parameter_gradients_unchanged": true,
+          "scope": "真实Torch autograd小模型探针回归，不是A100/NF4或五组等价验收；本地Torch版本不同，A100启动前再用其原环境执行CPU探针自测"
+        },
+        "additional_local_checks": [
+          "语法、CLI和原控制自测通过",
+          "AST比较确认来源校验、loss门槛、FullManual/SelectedMean公式、collator、参数哈希函数和训练/量化/LoRA配置未变",
+          "v3原文件哈希未变，旧A100失败目录与结果不覆盖"
+        ],
+        "a100_execution_received": true,
+        "a100_terminal_status_received": {
+          "evidence": "用户先粘贴--status及8项比较摘要，现已通过SCP回传完整diagnostic_summary.json并本地读取；本轮worker独立元数据及大张量未下载",
+          "run_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/diagnostic_20261025T123434Z_pdp75066",
+          "run_name_timestamp_utc": "2026-10-25T12:34:34Z",
+          "status": "DIAGNOSTIC_COMPLETED_REQUIRES_REVIEW",
+          "finished_workers": 8,
+          "planned_workers": 8,
+          "exit_code": 0,
+          "numerical_comparisons_received": true,
+          "server_script_sha256_received": true,
+          "server_script_sha256": "2fcfe86eb7c078d1e73019b3ee3b576e2f4aaab3e7359e46ce826d252d2174c7",
+          "server_script_sha256_matches_local": true,
+          "interpretation": "8项最小诊断正常结束，旧探针错误未复现；退出0仅表示捕获及比较执行完成，不能据此判定A/B通过，更不能替代旧五组全轨迹结论"
+        },
+        "numerical_review_20261025": {
+          "evidence_scope": "先记录用户粘贴的8项比较，现已与下载的完整diagnostic_summary.json逐项核对；未下载大张量，非本地逐元素梯度复算",
+          "comparison_count": 8,
+          "common_to_all_comparisons": {
+            "raw_loss_max_abs": 0.0,
+            "scaled_loss_max_abs": 0.0,
+            "passed_A_loss_gradients": false,
+            "passed_B_loss_gradients": false,
+            "head_input_max_abs": 0.0,
+            "head_input_passed_B": true,
+            "logits_max_abs": 0.0,
+            "logits_passed_B": true,
+            "logits_grad_max_abs": 0.0,
+            "logits_grad_passed_B": true
+          },
+          "comparisons": [
+            {
+              "name": "repeat_native",
+              "gradients_max_abs": 0.0703125,
+              "head_input_grad_max_abs": 0.0,
+              "head_input_grad_passed_B": true
+            },
+            {
+              "name": "repeat_candidate",
+              "gradients_max_abs": 0.0703125,
+              "head_input_grad_max_abs": 0.0,
+              "head_input_grad_passed_B": true
+            },
+            {
+              "name": "repeat_full_manual",
+              "gradients_max_abs": 0.08203125,
+              "head_input_grad_max_abs": 0.0,
+              "head_input_grad_passed_B": true
+            },
+            {
+              "name": "repeat_selected_mean_normalized",
+              "gradients_max_abs": 0.1015625,
+              "head_input_grad_max_abs": 0.0,
+              "head_input_grad_passed_B": true
+            },
+            {
+              "name": "candidate_vs_native",
+              "gradients_max_abs": 0.078125,
+              "head_input_grad_max_abs": 3.0517578125E-05,
+              "head_input_grad_passed_B": false
+            },
+            {
+              "name": "full_manual_vs_native",
+              "gradients_max_abs": 0.0625,
+              "head_input_grad_max_abs": 0.0,
+              "head_input_grad_passed_B": true
+            },
+            {
+              "name": "selected_mean_normalized_vs_native",
+              "gradients_max_abs": 0.0703125,
+              "head_input_grad_max_abs": 3.0517578125E-05,
+              "head_input_grad_passed_B": false
+            },
+            {
+              "name": "mean_vs_sum_selected",
+              "gradients_max_abs": 0.07421875,
+              "head_input_grad_max_abs": 0.0,
+              "head_input_grad_passed_B": true
+            }
+          ],
+          "conclusions": [
+            "四种实现自身重复的参数梯度均未过A/B，原生也不例外；先处理当前运行条件下的梯度重复性缺口，不能将跨实现差异全部归因于优化候选",
+            "四项自身重复中，已观测监督位置的head输入/logits及其梯度均相同，但LoRA参数梯度不同；需向更早层反向及参数梯度形成过程定位，尚未确定具体算子",
+            "候选与selected_mean相对native的head输入梯度均差3.0517578125e-05且B不通过；这是另需保留的跨路径观测，不因参数梯度自身不稳定而忽略",
+            "本条micro的mean-vs-sum在loss和全部四项探针上相同，不能据现有证据认定CE归约方式是根因；不外推至原五组全轨迹或其他样本",
+            "跨实现最大梯度差与自身重复差同量级，不等于两者统计等同或优化已等价；最大值不能直接相减归因，当前每路仅两次运行",
+            "原五组等价未建立的结果、训练保存和32条重载结果均保留；不放宽A/B门槛，不修改正式训练、adapter或Test"
+          ],
+          "not_established": [
+            "具体非确定性算子或其他运行差异来源",
+            "BF16舍入或量化是唯一根因",
+            "候选优化等价通过",
+            "原五组全轨迹通过"
+          ],
+          "source_inspection": "v3.1显式固定seed、关闭TF32并配置CUBLAS_WORKSPACE_CONFIG；源码未显式调用torch.use_deterministic_algorithms(True)。这不是A100有效全局开关状态的实测，不能凭代码缺少调用确定运行时状态或根因。",
+          "reference": {
+            "reproducibility": "https://docs.pytorch.org/docs/2.11/notes/randomness.html",
+            "deterministic_algorithms": "https://docs.pytorch.org/docs/2.11/generated/torch.use_deterministic_algorithms.html",
+            "note": "固定随机种子不能排除所有非确定性运算；严格确定性开关可对已知且无替代的非确定性算子报错，但单独开启也不保证整个应用可复现。仅作后续定位依据，本轮未变更设置或启动运行。"
+          },
+          "next_read_only_artifact": "完整diagnostic_summary.json已读取并核查，后续不重复索取同一文件",
+          "planned_local_destination": "10.19-11.2/gpu等价验证/执行修订_v2/diagnostic_summary_v3_1_20261025.json",
+          "full_summary_downloaded": true,
+          "full_summary_review": {
+            "path": "10.19-11.2/gpu等价验证/执行修订_v2/diagnostic_summary_v3_1_20261025.json",
+            "bytes": 35918,
+            "local_sha256": "2b0fb5b294605f0119a48b0c87d238370346bb4cacff65049a100ef5b3a9e095",
+            "server_whole_file_sha256_independently_received": false,
+            "script_sha256_matches_local": true,
+            "all_8_comparison_summaries_match_pasted_values": true,
+            "worker_exit_codes": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "gradient_tensor_count_per_comparison": 512,
+            "worst_gradient_entries": 64,
+            "worst_entry_counts_including_repeated_parameters": {
+              "self_attn.v_proj.lora_A": 46,
+              "mlp.gate_proj.lora_A": 13,
+              "mlp.up_proj.lora_A": 3,
+              "self_attn.q_proj.lora_A": 2
+            },
+            "top_self_repeat_gradient_examples": [
+              {
+                "comparison": "repeat_native",
+                "parameter": "layers.27.self_attn.v_proj.lora_A.default.weight",
+                "max_abs": 0.0703125,
+                "reference_max_abs": 3.9375,
+                "relative_infinity_norm": 0.017857142857142856
+              },
+              {
+                "comparison": "repeat_candidate",
+                "parameter": "layers.7.self_attn.v_proj.lora_A.default.weight",
+                "max_abs": 0.0703125,
+                "reference_max_abs": 3.28125,
+                "relative_infinity_norm": 0.02142857142857143
+              },
+              {
+                "comparison": "repeat_full_manual",
+                "parameter": "layers.3.self_attn.v_proj.lora_A.default.weight",
+                "max_abs": 0.08203125,
+                "reference_max_abs": 3.484375,
+                "relative_infinity_norm": 0.023542600896860985
+              },
+              {
+                "comparison": "repeat_selected_mean_normalized",
+                "parameter": "layers.7.self_attn.v_proj.lora_A.default.weight",
+                "max_abs": 0.1015625,
+                "reference_max_abs": 3.234375,
+                "relative_infinity_norm": 0.03140096618357488
+              }
+            ],
+            "scale_note": "上述比值是每个所列张量的max_abs(diff)/max_abs(reference)，不是逐元素最大相对误差，也不是原B门槛；不据约1.79%至3.14%的张量尺度比放宽容差。native第7层v_proj同为0.0703125并列最大。",
+            "interpretation": "top8列表中差异频繁出现在注意力v_proj的LoRA_A梯度，不能仅凭参数名称确认是该层算子造成，也不能推定其余参数无差异。需先隔离共同重复性，再评估优化差异。",
+            "new_model_run_by_assistant": false
+          }
+        },
+        "gpu_equivalence_passed": false,
+        "next": "完整报告已审核，保留当前失败结论。下一阶段使用v3.2仅做原生/候选各两次严格确定性诊断，不重跑五组或正式训练。"
+      },
+      "diagnostic_v3_2_preparation": {
+        "status": "A100_COMPLETED_SELF_REPEATS_PASS_CROSS_PATH_EQUIVALENCE_NOT_ESTABLISHED",
+        "script": "10.19-11.2/gpu等价验证/执行修订_v2/diagnose_gpu_equivalence_v3_2_20261025.py",
+        "script_sha256": "42f28e8f61ce3fa819df7001a87796da83795b39bb238cdc8daa8ac5003a0ebe",
+        "script_bytes": 39729,
+        "previous_script_sha256": "2fcfe86eb7c078d1e73019b3ee3b576e2f4aaab3e7359e46ce826d252d2174c7",
+        "reference_summary_local_sha256": "2b0fb5b294605f0119a48b0c87d238370346bb4cacff65049a100ef5b3a9e095",
+        "question": "显式启用严格确定性后，同一短Train micro的native和candidate自身重复是否通过原A/B；若不支持，保留框架给出的算子错误。",
+        "plan": "native1/native2/candidate1/candidate2四个新进程；比较native自身、candidate自身、candidate对native三项。仍使用Train967原micro，在梯度裁剪及首次optimizer更新前停止。",
+        "changed_policy": [
+          "torch.use_deterministic_algorithms(True, warn_only=False)",
+          "cudnn.deterministic=True",
+          "cudnn.benchmark=False"
+        ],
+        "unchanged": [
+          "原候选代码和原生Trainer",
+          "模型路径及NF4/BF16/double-quant配置",
+          "LoRA初值和同一完整短Train输入",
+          "loss公式及监督分母",
+          "A/B容差",
+          "探针位置",
+          "不强制attention backend、不改精度",
+          "TF32关闭及CUBLAS_WORKSPACE_CONFIG=:4096:8",
+          "无显存启动门槛"
+        ],
+        "runtime_evidence": "模型加载前及训练步前/反向后记录并校验严格开关；记录配置中的attention实现、模块类、可训练参数dtype和可用SDP后端，后者不等于实际内核的profiling确认。小型worker元数据嵌入诊断JSON，--status直接输出三项比较或失败调用栈。",
+        "failure_policy": "首次worker失败即停止，不降级、不自动改精度或重试；严格模式也不保证所有自定义内核可复现。执行完成和数值通过仍分开报告。",
+        "output_policy": "新strict_diagnostic_*目录及LAST_STRICT_DIAGNOSTIC_RUN.txt，不覆盖v3/v3.1或其当前指针；不写adapter/checkpoint，不碰冻结Test。",
+        "local_checks": {
+          "syntax_cli_plan": "PASS; 4 captures, 3 comparisons",
+          "unchanged_ast_checks": "PASS; source_check/loss_compare/compare_workers/FullManual/SelectedMean/collator/trainable_hash/probe helpers及TrainingArguments/量化/LoRA配置与v3.1相同",
+          "strict_state_positive_and_negative_checks": "PASS; 正例及6项开关错误负例",
+          "cpu_probe_regression": "PASS; Torch 2.14.1+cpu、FP32输出复制与CPU BF16两种情形，native/candidate四项；严格开关有效、探针未改变loss/参数梯度",
+          "gpu_runtime_tested": false,
+          "a100_original_environment_probe_self_test_pending": false
+        },
+        "a100_probe_self_test_received": {
+          "evidence_source": "用户粘贴的A100哈希检查、CPU自检及启动输出",
+          "script_sha256_check": "OK",
+          "status": "CPU_PROBE_REGRESSION_PASS",
+          "torch": "2.11.0+cu130",
+          "checks": [
+            "fp32_output_copy/native",
+            "fp32_output_copy/candidate",
+            "cpu_bf16/native",
+            "cpu_bf16/candidate"
+          ],
+          "all_raw_head_probes_present": true,
+          "loss_and_parameter_gradients_unchanged": true,
+          "strict_cpu_policy_reported_enabled": true,
+          "scope_note": "此项为A100原Python环境的CPU探针回归，不是GPU数值等价性结果；该CPU进程CUDA_VISIBLE_DEVICES及CUBLAS_WORKSPACE_CONFIG为空，不能据此推定GPU worker环境。"
+        },
+        "a100_launched": true,
+        "a100_run": {
+          "evidence_source": "用户粘贴的启动及--status终态，现已与下载的完整v3.2诊断JSON核对；未下载大梯度张量作本地逐元素复算",
+          "launch_pid": 2970400,
+          "requested_gpu_index": 2,
+          "run_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/strict_diagnostic_20261025T130552Z_euy9zwk1",
+          "run_name_timestamp_utc": "2026-10-25T13:05:52Z",
+          "started_utc": "2026-10-25T21:05:52.316537+08:00",
+          "finished_utc": "2026-10-25T21:09:43.500875+08:00",
+          "status": "DIAGNOSTIC_COMPLETED_REQUIRES_REVIEW",
+          "script_sha256": "42f28e8f61ce3fa819df7001a87796da83795b39bb238cdc8daa8ac5003a0ebe",
+          "script_sha256_matches_prepared": true,
+          "finished_workers": 4,
+          "planned_workers": 4,
+          "worker_exit_codes": {
+            "native_1": 0,
+            "native_2": 0,
+            "candidate_1": 0,
+            "candidate_2": 0
+          },
+          "exit_code": 0,
+          "scope": "同一短Train micro，实际Trainer、首次optimizer更新前捕获；退出0只表示四个worker和三项比较正常完成，不代表等价性通过。"
+        },
+        "numerical_review_20261025": {
+          "evidence_scope": "已本地读取完整v3.2 JSON，核查四个worker元数据、十二处严格开关快照和三项比较明细，并与此前回传摘要核对；未下载大张量，不冒充本地逐元素复算。",
+          "comparison_count": 3,
+          "common_to_all_comparisons": {
+            "raw_loss_max_abs": 0.0,
+            "scaled_loss_max_abs": 0.0,
+            "loss_finite": true,
+            "loss_passed_A": true,
+            "loss_passed_B": true,
+            "head_input_max_abs": 0.0,
+            "logits_max_abs": 0.0,
+            "logits_grad_max_abs": 0.0
+          },
+          "comparisons": [
+            {
+              "name": "repeat_native",
+              "gradients_max_abs": 0.0,
+              "passed_A_loss_gradients": true,
+              "passed_B_loss_gradients": true,
+              "head_input_grad_max_abs": 0.0,
+              "all_four_probes_passed_A_B": true
+            },
+            {
+              "name": "repeat_candidate",
+              "gradients_max_abs": 0.0,
+              "passed_A_loss_gradients": true,
+              "passed_B_loss_gradients": true,
+              "head_input_grad_max_abs": 0.0,
+              "all_four_probes_passed_A_B": true
+            },
+            {
+              "name": "candidate_vs_native",
+              "gradients_max_abs": 0.078125,
+              "passed_A_loss_gradients": false,
+              "passed_B_loss_gradients": false,
+              "head_input_grad_max_abs": 3.0517578125E-05,
+              "head_input_grad_passed_A": true,
+              "head_input_grad_passed_B": false,
+              "other_three_probes_passed_A_B": true
+            }
+          ],
+          "conclusions": [
+            "本轮严格确定性条件下，native和candidate各两次同micro的已捕获loss、梯度及探针均一致；v3.1观察到的自身重复差异在本轮未复现，不外推为所有输入或全轨迹的重复性保证。",
+            "跨实现最大参数梯度差仍为0.078125、A/B均未过；自身重复已一致，当前跨实现差异不能仅用本轮自身重复波动来解释。",
+            "在已布置的探针中，head输入、原始logits及logits梯度一致，但head输入梯度差3.0517578125e-05、B未过；下一步聚焦输出投影向输入回传的梯度路径及其数值实现。当前尚未确定具体算子或根因。",
+            "不能据loss相同或退出0宣布GPU等价性通过，也不能直接断言logits_to_keep、BF16或量化是唯一原因；不放宽原A/B门槛。",
+            "旧五组失败、32条保存重载通过及正式adapter/Test原件继续保留；本轮没有形成五组验收或新的正式训练结果。"
+          ],
+          "full_summary_downloaded": true,
+          "planned_local_destination": "10.19-11.2/gpu等价验证/执行修订_v2/diagnostic_summary_v3_2_20261025.json",
+          "full_summary_review": {
+            "path": "10.19-11.2/gpu等价验证/执行修订_v2/diagnostic_summary_v3_2_20261025.json",
+            "bytes": 37661,
+            "local_sha256": "01ee8fc50263e3bbcbc3bfa83fa5d810a74fd82386232c3672c886a9d6fb64e3",
+            "server_whole_file_sha256_independently_received": false,
+            "script_sha256_matches_local": true,
+            "prior_three_comparison_summaries_match": true,
+            "worker_metadata_checks": "PASS; 四项CAPTURED_BEFORE_OPTIMIZER、exit=0、backward_completed=true、parameters_unchanged=true、optimizer_steps=0、516项捕获及四项探针完整",
+            "shared_claim_id": "967",
+            "shared_batch_sha256": "e57c472950c301a9bc9987e79d02dcdf0659fa5dda46b1434b768d64faa9da2f",
+            "shared_initial_trainable_sha256": "b3d6a043de050aae3ef4bc5e5b6fc95f7b2cde43808349d2649aa0ba7c6b48c2",
+            "shared_num_items_in_batch": 10,
+            "shared_raw_and_scaled_loss": 1.6648108959197998,
+            "gradient_tensor_count_per_comparison": 512,
+            "strict_policy_snapshots_checked": 12,
+            "strict_policy_snapshot_stages": [
+              "before_model_load",
+              "at_training_step",
+              "after_backward"
+            ],
+            "shared_runtime_policy": {
+              "deterministic_algorithms": true,
+              "deterministic_warn_only": false,
+              "cudnn_deterministic": true,
+              "cudnn_benchmark": false,
+              "cuda_matmul_allow_tf32": false,
+              "cudnn_allow_tf32": false,
+              "bf16_reduced_precision_reduction": true,
+              "cuda_visible_devices": "GPU-ad785776-f83b-2516-d23b-228692d20358",
+              "cublas_workspace_config": ":4096:8",
+              "torch_version": "2.11.0+cu130"
+            },
+            "shared_execution_info": {
+              "model_class": "Qwen3_5ForCausalLM",
+              "configured_attention_implementation": "sdpa",
+              "actual_attention_kernel_profiled": false,
+              "trainable_dtype_counts": {
+                "torch.float32": 512
+              },
+              "head_input_dtype": "torch.float32",
+              "raw_logits_dtype": "torch.bfloat16",
+              "public_logits_dtype": "torch.float32"
+            },
+            "head_shapes": {
+              "native_input": [
+                1,
+                588,
+                5120
+              ],
+              "candidate_input": [
+                1,
+                10,
+                5120
+              ],
+              "native_raw_logits": [
+                1,
+                588,
+                248320
+              ],
+              "candidate_raw_logits": [
+                1,
+                10,
+                248320
+              ],
+              "scope_note": "两路仍使用同一完整588-token Train输入。候选在输出投影前只选10个监督位置，不是将输入文本截为10 token。已保存跨路径探针仅比较这10个位置。"
+            },
+            "reported_repeat_capture_hashes": {
+              "native_1_equals_native_2": "8037c1d2fbc35ae2be85982d45e54961b4660027770709c52fe26c2904016a98",
+              "candidate_1_equals_candidate_2": "ce3ad4169580f6ae70d45ad54ae847ac19fcf9920cf9c06073438cc681fc1df7",
+              "scope_note": "元数据中的捕获文件哈希在各路内部一致；本机未下载这些大张量作独立重算。"
+            },
+            "cross_path_worst_gradients": [
+              {
+                "parameter": "layers.27.self_attn.v_proj.lora_A.default.weight",
+                "max_abs": 0.078125,
+                "reference_max_abs": 4.0
+              },
+              {
+                "parameter": "layers.23.self_attn.v_proj.lora_A.default.weight",
+                "max_abs": 0.0703125,
+                "reference_max_abs": 2.953125
+              },
+              {
+                "parameter": "layers.7.self_attn.v_proj.lora_A.default.weight",
+                "max_abs": 0.0703125,
+                "reference_max_abs": 3.296875
+              },
+              {
+                "parameter": "layers.35.self_attn.v_proj.lora_A.default.weight",
+                "max_abs": 0.06640625,
+                "reference_max_abs": 2.203125
+              },
+              {
+                "parameter": "layers.19.self_attn.v_proj.lora_A.default.weight",
+                "max_abs": 0.0625,
+                "reference_max_abs": 3.859375
+              },
+              {
+                "parameter": "layers.11.self_attn.v_proj.lora_A.default.weight",
+                "max_abs": 0.0546875,
+                "reference_max_abs": 3.265625
+              },
+              {
+                "parameter": "layers.27.mlp.up_proj.lora_A.default.weight",
+                "max_abs": 0.0546875,
+                "reference_max_abs": 2.015625
+              },
+              {
+                "parameter": "layers.23.self_attn.q_proj.lora_A.default.weight",
+                "max_abs": 0.048828125,
+                "reference_max_abs": 1.6640625
+              }
+            ],
+            "cross_path_top_tensor_relative_infinity_norm": 0.01953125,
+            "scale_note": "0.078125/4.0=1.953125%仅是该张量误差无穷范数/参照无穷范数，不是逐元素相对误差或新门槛；top8参数名也不能定位故障算子。",
+            "candidate_source_sha256_rechecked": "9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba",
+            "candidate_source_inspection": "SupervisedLogitsTrainer.compute_loss第97至115行：以labels[1:]选择预测位置，传logits_to_keep，在FP32执行交叉熵sum并除以num_items_in_batch。本条运行分母同为10。",
+            "interpretation": "当前捕获范围内，首次可见跨路径分歧位于原始logits梯度与lm_head输入梯度之间。完整/选取位置两种输出头形状不同，且原始logits为BF16，是下一步隔离矩阵运算/精度影响的明确线索；尚无输出头权重与实际内核回放，不能宣布形状或BF16是唯一根因。",
+            "reference": {
+              "url": "https://docs.pytorch.org/docs/2.11/notes/numerical_accuracy.html",
+              "sections": [
+                "Batched computations or slice computations",
+                "Reduced Precision Reduction for FP16 and BF16 GEMMs"
+              ],
+              "use_limit": "官方说明数学等价的整张量/切片计算未必逐位相同，BF16归约也有独立开关；仅支持待检假设，不据此豁免原A/B或直接归因本轮失败。"
+            },
+            "new_gpu_run_or_candidate_edit": false
+          },
+          "next_read_only_artifact": "本轮完整JSON已核查，无需重复下载；进一步定位需要另行准备输出头隔离回放，不重跑同一v3.2。"
+        },
+        "new_acceptance_or_equivalence_pass": false,
+        "next": "完整回传核查阶段已完成；用户随后授权继续，v3.3输出头隔离脚本已准备，见diagnostic_v3_3_preparation。v3.2旧结果保留，不重复原四步诊断。"
+      },
+      "diagnostic_v3_3_preparation": {
+        "status": "A100_FAILED_IMPORT_REGISTRATION_BEFORE_FORWARD_BACKWARD",
+        "authorization": "用户在v3.2完整报告复核后明确要求继续下一步",
+        "script": "10.19-11.2/gpu等价验证/执行修订_v2/diagnose_head_backward_v3_3_20261025.py",
+        "script_sha256": "abcaedbb6564fc77ca7938b868abe6354f6becbe62b4a4529ad50cd5cf400623",
+        "script_bytes": 28538,
+        "pinned_sibling": "diagnose_gpu_equivalence_v3_2_20261025.py",
+        "pinned_sibling_sha256": "42f28e8f61ce3fa819df7001a87796da83795b39bb238cdc8daa8ac5003a0ebe",
+        "pinned_reference_summary_sha256": "01ee8fc50263e3bbcbc3bfa83fa5d810a74fd82386232c3672c886a9d6fb64e3",
+        "physical_gpu": 2,
+        "gpu_uuid": "GPU-ad785776-f83b-2516-d23b-228692d20358",
+        "question": "同一原输出头、实际完整H及上游dY下，588位置与10个监督位置的反向梯度差能否独立复现？关闭BF16低精度归约或仅输出头FP32对照分别如何影响该差异？",
+        "plan": [
+          "先核对原v3.2脚本、原报告、native/candidate捕获文件哈希、原Train输入和运行环境；不设置显存启动门槛",
+          "只新增一次原生Train967 micro完整捕获，调用原v3.2实际Trainer、同初值/输入/配置，在optimizer前停止；附加探针只读取完整H/dY/dH并保留冻结nn.Linear头",
+          "新增捕获与旧native的512个参数梯度及4项探针须全部差0，loss相同；不符即停止，避免用已改变的基线作定位",
+          "核实588位置中未监督位置的dY/dH确为0，监督位置H/dY与旧native和candidate均一致；保存完整头捕获并记录原头权重哈希、autocast及dtype",
+          "释放模型主干，复用同一冻结头、输入及上游梯度：原BF16、BF16低精度归约关闭、仅头FP32三个条件，每条件full/selected各重复两次，共12次头部VJP",
+          "原BF16回放必须精确复现旧native及candidate的输出头前向和输入梯度；否则停止，不继续将数值对照解释为根因",
+          "每路回放重复须完全一致，权重及冻结输入前后哈希不变；保留各条件A/B结果，结束不等于候选或五组验收通过"
+        ],
+        "unchanged": [
+          "原候选代码",
+          "原27B模型路径和NF4/BF16实际捕获配置",
+          "完整Train967输入及监督分母",
+          "LoRA固定初值",
+          "原A/B门槛",
+          "原adapter和六组Test",
+          "旧v3/v3.1/v3.2结果"
+        ],
+        "diagnostic_controls_only": "BF16归约关闭及输出头FP32只对同一冻结头的独立回放生效；不改正式训练精度、不重新计算目标loss、不将对照通过代替全模型或全轨迹验收。",
+        "failure_policy": "基线不复现、自身重复失败、探针/权重类型不符、源哈希变化、OOM或其他异常均留错误并停止，不自动重试或切模型；失败的新capture元数据不残留为RUNNING。",
+        "output_policy": "独立head_isolation_*目录及LAST_HEAD_ISOLATION_RUN.txt；源代码副本、实际捕获、回放张量和小型head_isolation_summary.json均保留。只需回传小型JSON；较大张量留A100，不重复保存27B底座或adapter。",
+        "local_checks": {
+          "syntax_and_plan": "PASS; 1 native capture, 12 head VJPs, optimizer updates 0",
+          "pinned_original_hashes": "PASS; v3.2、其完整报告及原训练候选未变",
+          "tampered_base_rejected": true,
+          "cpu_runtime": "Torch 2.14.1+cpu on isolated local test environment, not A100",
+          "cpu_fp32_and_bf16_hooks": "PASS; 新探针未改变前向/反向，完整回放复现捕获，自身重复一致，toy full/selected满足原B",
+          "negative_cases_rejected": [
+            "unselected_nonzero_dy",
+            "unselected_nonzero_dh",
+            "duplicate_positions",
+            "nonfinite_values",
+            "large_difference"
+          ],
+          "safetensors_roundtrip": "PASS",
+          "atomic_progress_write": "PASS",
+          "head_weight_unchanged": true,
+          "gpu_runtime_tested": false,
+          "a100_original_environment_self_test_pending": true
+        },
+        "a100_launched": true,
+        "a100_failure": {
+          "evidence": "C:/Users/y/.codex/attachments/d99ef4be-f211-4482-abe7-ba3086fdbab1/已粘贴的文本.txt",
+          "evidence_sha256": "2853810f6b788c79ffbac07c3b5a51534fbe22b8260f5b8eaf092e1c79a9d5b7",
+          "run_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/head_isolation_20261025T134359Z_hm19dlvf",
+          "status": "HEAD_ISOLATION_FAILED",
+          "phase": "native_capture_before_optimizer",
+          "exit_code": 1,
+          "replay_count_completed": 0,
+          "error_type": "TypeError",
+          "error": "<class 'route1_pinned_v32_head_isolation.worker.<locals>.FullManual'> is a built-in class",
+          "cause": "v3.3 load_base动态导入未在exec_module前登记sys.modules，inspect.getsource无法通过嵌套类的__module__找到文件；这是包装脚本缺陷，不是显存不足或新的数值等价失败。",
+          "execution_boundary": "已加载851个权重，在v3.2第434行actual_runtime_sources.txt源码留档处失败，尚未进入第440行trainer.train；本次前向/反向、optimizer更新及12次head回放均未执行。",
+          "self_test_stdout_received": false,
+          "failure_and_original_script_preserved": true
+        },
+        "equivalence_passed": false,
+        "next": "不重启旧v3.3；导入登记修复与新增源码留档预检见diagnostic_v3_3_1_preparation。",
+        "references": [
+          "https://docs.pytorch.org/docs/2.11/generated/torch.autograd.grad.html",
+          "https://docs.pytorch.org/docs/2.11/amp.html",
+          "https://docs.pytorch.org/docs/2.11/notes/numerical_accuracy.html"
+        ]
+      },
+      "diagnostic_v3_3_1_preparation": {
+        "status": "A100_COMPLETED_AND_SUMMARY_REVIEWED_NUMERICAL_FIX_PENDING",
+        "script": "10.19-11.2/gpu等价验证/执行修订_v2/diagnose_head_backward_v3_3_1_20261025.py",
+        "script_sha256": "354f2c84037b8ff9593e164c5f6d389ec6464b0fedfae6b80431f959e6b853e6",
+        "script_bytes": 33095,
+        "supersedes_execution_only": "diagnostic_v3_3_preparation; 原v3.3脚本、失败目录和指针均保留",
+        "pinned_sibling_sha256": "42f28e8f61ce3fa819df7001a87796da83795b39bb238cdc8daa8ac5003a0ebe",
+        "fix": "exec_module前登记sys.modules，导入失败恢复原条目或移除本次新增条目；不删除inspect留档、不跳过源码检查。",
+        "new_preflight": "从固定v3.2源码AST构造仅含FullManual/SelectedMean/Observe类定义的合成worker，保留实际模块名、文件名及嵌套类限定名，逐项核对inspect.getsource原文；用缺失模块登记的负例验证可提前拦截原错误。只执行类定义，Trainer以object替身，无模型/训练执行。",
+        "preflight_locations": [
+          "--self-test",
+          "--plan",
+          "--launch创建运行前",
+          "--execute加载模型前"
+        ],
+        "unchanged_plan": "沿用v3.3的一次native Train967更新前捕获和12次冻结头回放；原A/B、精度对照、冻结输入与基线完全复现门槛不变。",
+        "output_policy": "新head_isolation_v331_*目录、LAST_HEAD_ISOLATION_V331_RUN.txt；摘要仍为head_isolation_summary.json，不覆盖旧运行。",
+        "local_checks": {
+          "syntax_and_plan": "PASS",
+          "runtime": "准备期本地检查为Python3.11/Torch2.14.1+cpu；A100实际运行与源码预检见a100_result，未另收到独立--self-test输出",
+          "nested_source_archive_with_torch_loaded": "PASS; 三个实际限定名对应的源码匹配",
+          "old_loader_omission_rejected_before_model": true,
+          "missing_registration_negative_controls": "PASS; 三个类均拒绝缺失登记",
+          "loader_failure_restore_and_cleanup": "PASS; 原有条目恢复、无原条目时清理",
+          "numeric_function_ast_unchanged": "PASS; 只变load_base/self_test/execute/main与新增预检，tensor_compare/tensor_digest/extended_hooks/validate_full_capture/replay等未变",
+          "cpu_fp32_and_bf16_capture_replay": "PASS; 探针无扰动、重复一致、完整回放复现捕获",
+          "negative_tensor_cases_serialization_atomic_write": "PASS",
+          "old_v3_3_and_pinned_v3_2_hashes_unchanged": true,
+          "gpu_runtime_tested": false
+        },
+        "a100_launched": true,
+        "a100_result": {
+          "status": "A100_HEAD_ISOLATION_COMPLETED_LOCAL_SUMMARY_REVIEWED_NOT_EQUIVALENCE_PASS",
+          "summary_file": "10.19-11.2/gpu等价验证/执行修订_v2/diagnostic_summary_v3_3_1_20261025.json",
+          "summary_bytes": 21350,
+          "summary_local_sha256": "2640d06686c73360806d9061b1df5b6ed9d65d8515f78ddceca802061fef0e1a",
+          "run_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/head_isolation_v331_20261025T135631Z_01mdno3a",
+          "reported_terminal_status": "HEAD_ISOLATION_COMPLETED_REQUIRES_REVIEW",
+          "exit_code": 0,
+          "started_utc": "2026-10-25T21:56:31.953913+08:00",
+          "finished_utc": "2026-10-25T21:58:27.483732+08:00",
+          "elapsed_seconds": 115.53,
+          "captures_completed": 1,
+          "head_replays_completed": 12,
+          "optimizer_steps_executed": 0,
+          "script_and_pinned_reference_hashes_match": true,
+          "source_introspection_preflight": "PINNED_SOURCE_INTROSPECTION_PASS; actual worker preflight recorded",
+          "standalone_a100_self_test_stdout_received": false,
+          "native_capture": {
+            "claim_id": "967",
+            "input_tokens": 588,
+            "supervised_tokens": 10,
+            "compared_parameter_gradients": 512,
+            "compared_probes": 4,
+            "raw_loss": 1.6648108959197998,
+            "loss_gradient_and_probe_differences": 0,
+            "batch_initial_weights_and_policies_match_reference": true,
+            "capture_sha256": "8037c1d2fbc35ae2be85982d45e54961b4660027770709c52fe26c2904016a98",
+            "capture_hash_matches_original_native": true
+          },
+          "head_controls": {
+            "original_head_paths_reproduced_exactly": true,
+            "unselected_positions": 578,
+            "unselected_dy_nonzero": 0,
+            "unselected_dh_nonzero": 0,
+            "weight_sha256_before_and_after": "92111fa342be6d82e979d930b1e90cac32a274ce3eae21a808f17126b2918b6d",
+            "same_path_exact_repeat_pairs": 12,
+            "conditions": [
+              {
+                "name": "bf16_original",
+                "autocast_bf16": true,
+                "bf16_reduced_precision_reduction": true,
+                "cross_shape_dh": {
+                  "finite": true,
+                  "max_abs": 3.0517578125E-05,
+                  "reference_max_abs": 0.006317138671875,
+                  "passed_A": true,
+                  "passed_B": false,
+                  "exact": false
+                },
+                "cross_shape_logits": {
+                  "finite": true,
+                  "max_abs": 0,
+                  "reference_max_abs": 26.125,
+                  "passed_A": true,
+                  "passed_B": true,
+                  "exact": true
+                },
+                "full_dh_vs_native_B": true,
+                "selected_dh_vs_candidate_B": true,
+                "replay_tensors": {
+                  "path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/head_isolation_v331_20261025T135631Z_01mdno3a/bf16_original_selected_position_replays.safetensors",
+                  "bytes": 40551088,
+                  "sha256": "2b165402789c17ca7dfb508402be0c66c22fe649a211edf7174f90f3ddec4a71"
+                }
+              },
+              {
+                "name": "bf16_reduction_off",
+                "autocast_bf16": true,
+                "bf16_reduced_precision_reduction": false,
+                "cross_shape_dh": {
+                  "finite": true,
+                  "max_abs": 1.52587890625E-05,
+                  "reference_max_abs": 0.006317138671875,
+                  "passed_A": true,
+                  "passed_B": false,
+                  "exact": false
+                },
+                "cross_shape_logits": {
+                  "finite": true,
+                  "max_abs": 0,
+                  "reference_max_abs": 26.125,
+                  "passed_A": true,
+                  "passed_B": true,
+                  "exact": true
+                },
+                "full_dh_vs_native_B": false,
+                "selected_dh_vs_candidate_B": true,
+                "replay_tensors": {
+                  "path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/head_isolation_v331_20261025T135631Z_01mdno3a/bf16_reduction_off_selected_position_replays.safetensors",
+                  "bytes": 40551088,
+                  "sha256": "39c5e4226c2d0ddd83fdfc4eb592eeaf911c7eb19c4f51c644d19ef5b4bd8c7f"
+                }
+              },
+              {
+                "name": "head_fp32_control",
+                "autocast_bf16": false,
+                "bf16_reduced_precision_reduction": true,
+                "cross_shape_dh": {
+                  "finite": true,
+                  "max_abs": 6.272457540035248E-07,
+                  "reference_max_abs": 0.006322577595710754,
+                  "passed_A": true,
+                  "passed_B": true,
+                  "exact": false
+                },
+                "cross_shape_logits": {
+                  "finite": true,
+                  "max_abs": 5.53131103515625E-05,
+                  "reference_max_abs": 26.0993595123291,
+                  "passed_A": true,
+                  "passed_B": false,
+                  "exact": false
+                },
+                "full_dh_vs_native_B": false,
+                "selected_dh_vs_candidate_B": false,
+                "replay_tensors": {
+                  "path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/head_isolation_v331_20261025T135631Z_01mdno3a/head_fp32_control_selected_position_replays.safetensors",
+                  "bytes": 40551088,
+                  "sha256": "6b7cad7b1ff991d1e8ae8e46d3c69642ea7aa82c2126ab1170f1a476c9bc2ed7"
+                }
+              }
+            ]
+          },
+          "conclusions": [
+            "修复版在A100完成一次原生micro与12次head回放；上一版导入错误已跨过，不是新的运行失败。",
+            "同一输入与初值下，新native的512个参数梯度、4项探针和loss均与v3.2相同；原BF16的full/selected头回放分别精确复现旧两路。因此当前样本的head输入梯度差已在冻结输出头反向中独立复现。",
+            "原BF16跨形状dH最大差3.0517578125e-05，A过/B不过；关闭BF16低精度归约后为1.52587890625e-05，减半但B仍不过。两组BF16前向logits差均0。",
+            "仅头FP32的跨形状dH最大差6.272457540035248e-07，A/B过；但logits差5.53131103515625e-05、B不过，且两路dH相对原BF16参照均B不过；不能认定该对照已修复原等价性问题。",
+            "本轮仅定位一条短Train micro的输出头数值行为，未证明全部0.078125参数梯度差的唯一成因、具体底层内核或五场景全轨迹等价。"
+          ],
+          "evidence_limits": [
+            "本地核查完整JSON、脚本/参照哈希、字段及判定一致性；大捕获和回放张量仍在A100，未独立下载逐元素复算B判定。",
+            "JSON哈希为本地计算；未另收到服务器对本JSON的整文件哈希。",
+            "FP32与归约开关只改变冻结头回放，使用原捕获的上游dY，不是新的端到端loss/全模型反向验收。",
+            "不改原候选、adapter、Test、旧失败记录及A/B门槛，不新增人工签核。"
+          ],
+          "next_stage": {
+            "status": "NUMERICAL_FIX_DESIGN_REVIEW_PENDING",
+            "recommendation": "停止重复相同诊断，先由陈明进审阅本轮定位并确定优化候选修订方案。若仍要求对齐原BF16实现，不能直接用FP32头或关闭归约当作已通过方案；改变参考精度须另立协议，不覆盖旧结果。",
+            "validation_order": "候选修订后，先在同一Train967 micro检查自身重复、loss、head探针与全参数梯度；满足原门槛后才进入原五场景与参数更新轨迹验证。此阶段不重跑正式训练或六组Test。",
+            "sent_to_cmj": false,
+            "new_gpu_run_prepared": false
+          }
+        },
+        "equivalence_passed": false,
+        "next": "本轮回传与本地摘要核查完成；按a100_result.next_stage审阅并修订候选，不再重复启动此诊断，也不将FP32头的局部dH通过视为整体验收。"
+      },
+      "next_action": "A100 v3a完整回传已核对：五正例通过、两反例正确拒绝、16+13两次更新齐全；旧BF16参数更新差异已分层归并。交陈明进/路线负责人审阅修复候选与原Mbio训练影响，不重复启动或全量训练/Test。"
+    },
+    "latest_received_revision_20261026": {
+      "directory": "10.19-11.2/gpu等价验证/3",
+      "status": "ORIGINAL_V2_BLOCKERS_FIXED_IN_V3_LOCAL_VERIFIED",
+      "files_sha256": {
+        "省显存候选修订v2说明_20261025.md": "b8c04fd928739572e0f11245ddda2873b90004cab957534460f82c8eed8b879e",
+        "GPU等价性修复_协议决策摘要_20261025.md": "5d4fa4a26378b41a35a372bf96b033ecaf367375a3dbf18a0228a1ef12752156",
+        "GPU等价性修复_分层验收执行方案与缺口表_20261026.md": "0dce36e4f160b99d037ac0c39ff2645d6488429908be5c33d86891fe42cf87f3",
+        "diagnostic_summary_v3_3_1_20261025.json": "2640d06686c73360806d9061b1df5b6ed9d65d8515f78ddceca802061fef0e1a",
+        "route1_qwen38_train_sarol_memopt_v2.py": "15177d558fb72324a50ad759702dbae63e65f19cc30f6527a4b163c54bfa0ebb",
+        "test_supervised_logits_equivalence_v2.py": "dc550d5a31e8c73efa4c7680be88414cf6caf9d266462a55e68ac0fb117247f5"
+      },
+      "reported_direction": {
+        "source": "陈明进10月26日分层验收方案，文内转述金城师兄指示；不是本聊天另收到的直接签核",
+        "plan": "标准与候选双方FP32，核查loss、全部LoRA梯度和优化器更新，实际Trainer完整16次累积及13条尾批；保留BF16原B失败和12次回放，另报参数更新影响；本方案不含全量重训。",
+        "supersedes_older_proposal": "以最新分层方案理解下一步，不再将10月25日全shape/放宽门槛的A/B二选一作为当前待选项。",
+        "acceptance_not_implied": true
+      },
+      "closed_documentation_gaps": [
+        "2fcfe86eb7c078d1e73019b3ee3b576e2f4aaab3e7359e46ce826d252d2174c7属于diagnose_gpu_equivalence_v3_1_20261025.py，不是训练候选。原候选本地副本与已下载handoff ZIP中train_and_reload/bundle_assets/code/cmj/route1_qwen38_train_sarol_memopt_v1.py均为9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba；v3.2 source_check也固定此哈希。无需因这两个不同文件哈希不等而再次向A100索取候选。",
+        "Transformers v5.8.0 fixed_cross_entropy在num_items_in_batch存在时为sum/N，不是mean/N。v1候选同样sum/N；文档所称因少除一次n_sup导致v1放大n_sup倍不成立，不能以此解释既有10个监督token且首步loss相同的结果。此结论不代表原始Mbio实现已验收。",
+        "本目录诊断JSON与此前已审阅文件同哈希，不是新一轮GPU结果。旧五组报告已有更新后参数差异，新增候选FP32更新结果不能替代旧27B/BF16影响记录。"
+      ],
+      "blocking_findings": [
+        {
+          "id": "R1",
+          "file": "route1_qwen38_train_sarol_memopt_v2.py",
+          "line": 123,
+          "finding": "默认selected模式保留完整labels，却只返回监督位置logits。实际模型类Qwen3_5ForCausalLM的v5.8.0官方forward不自动同步筛选labels；ForCausalLMLoss展开后长度不匹配。",
+          "required_fix": "明确对齐next-token监督位置和target，保留sum/N归一化；使用候选实际compute_loss做可执行覆盖，不以关闭logits筛选的exact模式代替selected候选验收。"
+        },
+        {
+          "id": "R2",
+          "file": "test_supervised_logits_equivalence_v2.py",
+          "line": 244,
+          "finding": "测试2逐micro调用run_standard/run_memopt，二者各自在162/172行zero_grad，实际只保留最后一个micro；尾批仅打印，未进入返回JSON或汇总。脚本未实例化Trainer或SupervisedLogitsTrainer，手工复制候选逻辑不能称实际Trainer验证。",
+          "required_fix": "调用真实标准/候选Trainer，累计16条后更新，再处理13条尾批；保留全部micro和两次更新的结果。"
+        },
+        {
+          "id": "R3",
+          "file": "test_supervised_logits_equivalence_v2.py",
+          "line": 456,
+          "finding": "梯度汇总以max(atol,rtol*1.0)=1e-4判定，未使用逐元素atol+rtol*abs(reference)；忽略已计算的不一致参数数目。尾批、变长/padding、优化器更新结果未纳入总门槛，FAIL也无失败退出码。",
+          "required_fix": "逐项按原A/B定义独立计算，覆盖非空且名称一致的全部梯度及有限性，聚合所有必需结果，失败或缺项使总状态失败并返回非零退出码。"
+        },
+        {
+          "id": "R4",
+          "file": "test_supervised_logits_equivalence_v2.py",
+          "line": 351,
+          "finding": "测试4在每个累积周期新建AdamW，第二步丢失第一步优化器状态；默认weight_decay=0.01也不同于训练0.0，未复现Trainer裁剪/调度。比较的是更新后权重而非逐步delta的相对容差。",
+          "required_fix": "使用真实Trainer的持续优化器状态和已记录更新规则，分别保存参数、delta及必要优化器状态，不把重置优化器的手工两步当作生产更新轨迹。"
+        },
+        {
+          "id": "R5",
+          "file": "test_supervised_logits_equivalence_v2.py",
+          "line": 373,
+          "finding": "padding测试分别collate单条短/长输入，未显式构造padding；把labels==-100的提示词掩码计为padding。只返回completed，未保存数值或验收判定。",
+          "required_fix": "构造真实padding并检查attention_mask、监督掩码和位置映射，记录loss/梯度/更新比较及结果；冻结一致初值、随机状态和dropout策略。"
+        }
+      ],
+      "targeted_cpu_checks": {
+        "scope": "仅AST抽取收到的compute_loss和测试helper，配合官方v5.8.0损失函数及微型CPU夹具；不是完整模型、真实Trainer或A100验收。未修改来文原件。",
+        "runtime": "torch 2.14.1+cpu；不同于A100 2.11.0+cu130",
+        "selected_logits_and_full_labels": "2个logits行/6个target行时ValueError: Expected input batch_size (2) to match target batch_size (6).；full-shape控制loss有限",
+        "accumulation": {
+          "expected_gradient": 5.0,
+          "actual_after_second_micro": 3.0
+        },
+        "gate_counterexample": {
+          "max_abs": 3.0517578125E-05,
+          "reference": 0.006317138671875,
+          "original_B_pass": false,
+          "received_summary_pass": true
+        }
+      },
+      "source_checks": [
+        "https://github.com/huggingface/transformers/blob/v5.8.0/src/transformers/loss/loss_utils.py#L25-L62",
+        "https://github.com/huggingface/transformers/blob/v5.8.0/src/transformers/models/qwen3_5/modeling_qwen3_5.py#L1562-L1616"
+      ],
+      "interpretation_limits": [
+        "既有回放只证明该样本、冻结头、固定上游dY的跨形状反向差异；不能证明物理上不可能通过、唯一具体内核成因，或尚未通过测试的新v2不是代码缺陷。",
+        "原BF16监督位置logits/dY差均0，不能用未经观测的dy约1e-7差解释已捕获结果；诊断监督位置为10，不是1。",
+        "FP32头5.53131103515625e-05是FP32内full/selected的logits差，不是FP32对原BF16的logits差；后者约0.062。norm最大值之比不等于逐元素相对误差。",
+        "当前仅修订方案审阅完成，未形成新版候选FP32、27B/NF4等价通过或原Mbio实现人工验收。"
+      ],
+      "implementation_revision_v3": {
+        "status": "LOCAL_FP32_REAL_TRAINER_PASS_A100_ORIGINAL_ENV_PENDING",
+        "date": "2026-10-26",
+        "directory": "10.19-11.2/gpu等价验证/执行修订_v2",
+        "user_authorization": "用户要求修正候选和验收脚本、本地检查后给A100命令；未授权全量重训或改正式Test。",
+        "files_sha256": {
+          "route1_qwen38_train_sarol_memopt_v3.py": "4c9dac5d6d19b86f5e2a23f456bc8ec1c1d2eec4932c7a69864d0d65ad611a64",
+          "test_supervised_logits_equivalence_v3.py": "fabb9fa100a4116315dc6ea1f6e6977a5a981f12b0d51b8c3060be3a8de78299",
+          "fp32_revision_v3_bundle.py": "cea1e59db3bd9d185b0d5489faee5d0c941dad88bcdfcefa5a4b07d029969be5",
+          "build_fp32_revision_v3.py": "37e3f7faedeb53875e668e64fe21344244ebf4fb42733f5742c74e1902ede9ce",
+          "route1_fp32_revision_v3_20261026.pyz": "e555efbb05976f9521c99b30cc04430cddabd32aa86ec6c579cf923416e3d4b8",
+          "fp32_v3_local_checked_20261026/summary.json": "c698f31af73339435d61f4de92cff6a7b8d9bbc6e6c0e01bd396b267f6b424af"
+        },
+        "resolution": {
+          "R1": "v3在t-1选择logits、t选择targets，显式调用官方fixed_cross_entropy；cycle计数存在时sum/N、否则mean；不是用full-shape关闭优化绕过验收。",
+          "R2": "数值测试通过实际Trainer.train调用实际候选类；完整16+13，各micro保留累积并记录全部LoRA梯度，尾批纳入结果与门槛。",
+          "R3": "原A/B分别计算，全部必需场景、有限性/名称/形状、尾批和更新均纳入总状态；异常/失败写非零exit_code。",
+          "R4": "一个分支持续使用同一AdamW及状态，两次更新step为1、2；比对更新后参数、每步delta与优化器moments。数值协议constant LR/warmup0单独记录，生产cosine/warmup0.03未改。",
+          "R5": "显式追加真实padding并检查attention_mask=0、labels=-100和EOS监督；数值测试固定初值、dropout0且LoRA A/B均非零；生产dropout0.05未改。"
+        },
+        "local_verification": {
+          "scope": "本机Windows CPU，tiny真实Qwen3_5ForCausalLM随机初始化，完整248320词表；复用旧A100 CPU冻结29条合成夹具，不是Train/Test分类成绩或27B/NF4验证。",
+          "versions": {
+            "torch": "2.14.1+cpu",
+            "transformers": "5.8.0",
+            "peft": "0.21.2",
+            "accelerate": "1.14.0",
+            "datasets": "5.0.0"
+          },
+          "fixture_sha256": "bba09fb704b7fb15a205980a5c5542d2185d9b5f41ae5651083d6abded303fb5",
+          "config_sha256": "5b1e535cd7388a7ce480a88a27e11f6706337a550ae034c093da830348956138",
+          "status": "FP32_TINY_ACTUAL_TRAINER_PASS_NOT_27B_ACCEPTANCE",
+          "exit_code": 0,
+          "normal_cases": {
+            "single_micro": {
+              "passed_A": true,
+              "passed_B": true,
+              "loss_max_abs": 9.5367431640625E-07,
+              "gradient_max_abs": 1.979060471057892E-09,
+              "parameter_max_abs": 8.940696716308594E-08,
+              "delta_max_abs": 8.940696716308594E-08,
+              "updates": 5
+            },
+            "accum4_tail1": {
+              "passed_A": true,
+              "passed_B": true,
+              "loss_max_abs": 2.384185791015625E-07,
+              "gradient_max_abs": 1.367880031466484E-09,
+              "parameter_max_abs": 1.1175870895385742E-08,
+              "delta_max_abs": 1.1175870895385742E-08,
+              "updates": 2
+            },
+            "padded_accum4_tail1": {
+              "passed_A": true,
+              "passed_B": true,
+              "loss_max_abs": 9.5367431640625E-07,
+              "gradient_max_abs": 1.6298145055770874E-09,
+              "parameter_max_abs": 2.0489096641540527E-08,
+              "delta_max_abs": 2.0489096641540527E-08,
+              "updates": 2
+            },
+            "production_accum16_tail13": {
+              "passed_A": true,
+              "passed_B": true,
+              "loss_max_abs": 1.1920928955078125E-07,
+              "gradient_max_abs": 9.313225746154785E-10,
+              "parameter_max_abs": 5.587935447692871E-09,
+              "delta_max_abs": 5.587935447692871E-09,
+              "updates": 2
+            },
+            "eos_as_pad_accum4_tail1": {
+              "passed_A": true,
+              "passed_B": true,
+              "loss_max_abs": 9.5367431640625E-07,
+              "gradient_max_abs": 1.6298145055770874E-09,
+              "parameter_max_abs": 2.0489096641540527E-08,
+              "delta_max_abs": 2.0489096641540527E-08,
+              "updates": 2
+            }
+          },
+          "negative_controls": {
+            "reject_micro_mean": {
+              "checker_passed": true,
+              "deliberately_wrong_candidate_passed_B": false
+            },
+            "reject_reset_gradient": {
+              "checker_passed": true,
+              "deliberately_wrong_candidate_passed_B": false
+            }
+          },
+          "production_case": {
+            "micros": 29,
+            "cycles": [
+              16,
+              13
+            ],
+            "optimizer_steps": [
+              1,
+              2
+            ],
+            "all_trainable_tensor_count": 32,
+            "actual_trainer": true
+          },
+          "additional_controls": [
+            "选位/shift、mean和sum/N及其梯度对照",
+            "空/缺失/非有限/异形梯度拒绝",
+            "尾批缺失、优化器重置、假padding、错误分母拒绝",
+            "旧B失败值不能被固定1e-4门槛误放行",
+            "package篡改、额外成员及越界路径拒绝",
+            "失败运行也可打包，重复collect只复用相同内容"
+          ],
+          "source_and_bundle_hashes_match_tested_files": true,
+          "prior_local_run_preserved": "fp32_v3_local_20261026：首轮通过；随后补API正反例和显式A总判定，最终结果以fp32_v3_local_checked_20261026为准。"
+        },
+        "a100_handoff": {
+          "package": "route1_fp32_revision_v3a_20261026.pyz",
+          "package_sha256": "b0ae4a2e68ee6bcfb540d6443fa57cc1e83b9d37f1af41faa0d301171e55dca0",
+          "bytes": 25184,
+          "launcher_fix_v3a": {
+            "user_report": "原v3校验OK，随后RuntimeError: A100 environment changed: torch=2.11.0。",
+            "failed_stage": "启动前的distribution metadata字符串检查；未启动数值worker，不属于等价性失败。",
+            "previous_package_sha256": "e555efbb05976f9521c99b30cc04430cddabd32aa86ec6c579cf923416e3d4b8",
+            "reason": "旧启动器把importlib.metadata.version(torch)与此前torch.__version__含CUDA本地后缀的记录作严格字符串比较；这两个版本来源需要分开核对。仅凭本次错误不能认定实际运行时已经变更。",
+            "policy": "distribution metadata和运行时版本分别允许2.11.0或2.11.0+cu130，同时要求torch.version.cuda为13.0、CUDA未初始化；其他依赖仍精确核验。本轮完整回传证实metadata为2.11.0，runtime为2.11.0+cu130/CUDA13.0，CPU执行未初始化CUDA。",
+            "runtime_probe": "同一Python解释器的独立CPU子进程，CUDA_VISIBLE_DEVICES为空；记录torch.__version__、torch.version.cuda、torch.__file__及cuda_initialized，不加载模型。",
+            "changed_payload_members": [
+              "__main__.py"
+            ],
+            "unchanged_payload_members": 7,
+            "candidate_test_data_and_thresholds_unchanged": true,
+            "source_sha256": {
+              "fp32_revision_v3a_bundle.py": "37f4c8e6911d508b1d809af9b5093e7afbc75730091aa6dd8d7ee02422cb5441",
+              "build_fp32_revision_v3a.py": "4dbd977fcdbc339521112821f59c3cc23988d933dfd3bf4ccf68822ae25b233e"
+            },
+            "local_checks": {
+              "allowed_metadata_runtime_combinations": 4,
+              "wrong_release_runtime_cpu_build_cuda_missing_dependency_or_initialized_cuda_rejected": 8,
+              "actual_cpu_runtime_probe_passed_without_cuda_initialization": true,
+              "new_model_test_run": false,
+              "package_crc_hashes_and_7_unchanged_members_verified": true
+            },
+            "original_v3_package_preserved": true,
+            "v3a_a100_uploaded_or_executed": true
+          },
+          "required_versions": {
+            "torch": "2.11.0+cu130",
+            "transformers": "5.8.0",
+            "peft": "0.21.2",
+            "accelerate": "1.14.0",
+            "datasets": "5.0.0"
+          },
+          "purpose": "原A100环境与本机Torch不同，复核运行兼容性及相同FP32逻辑层。只用CPU四线程、CUDA不可见，不载27B，不需等待显卡空闲。",
+          "root": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025",
+          "commands": "--inspect核验包；--launch前检环境并后台运行；--status查终态；--collect下载包含源码、配置、逐micro/更新、日志和哈希的ZIP。",
+          "entry_readme": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/README.md#fp32-v3执行交接",
+          "launched": true,
+          "passed": true,
+          "pass_evidence_scope": "2026-10-26完整ZIP已下载并本地核对；38项载荷及内嵌执行包/源码哈希匹配，五正例两反例、逐micro和更新JSON与summary/日志一致。记录审计通过，不等同原始tensor独立重放或27B验收。",
+          "a100_result_reported": {
+            "run_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/fp32_revision_v3_runs/fp32_v3_20261026T011046Z_6qdzab5t",
+            "status": "FP32_TINY_ACTUAL_TRAINER_PASS_NOT_27B_ACCEPTANCE",
+            "exit_code": 0,
+            "reported_negative_case": {
+              "name": "reject_reset_gradient",
+              "passed": true,
+              "expected_negative": "reset_gradient",
+              "candidate_passed_B": false,
+              "candidate_passed_A_loss_gradients": false,
+              "loss_max_abs": 0.0001926422119140625,
+              "gradient_max_abs": 0.004537317901849747,
+              "parameter_max_abs": 0.00036601023748517036,
+              "delta_max_abs": 0.00019999593496322632,
+              "updates": 2,
+              "interpretation": "故意错误的候选被拒绝，因此反例检查通过；不是本轮正常候选等价性失败。"
+            },
+            "full_handoff_downloaded_and_verified": true,
+            "reported_scope": "A100 CPU上tiny真实Qwen/LoRA/Trainer的FP32逻辑层；不能覆盖旧27B/NF4失败或形成原Mbio人工验收。"
+          },
+          "full_handoff_verification": {
+            "archive": "10.19-11.2/gpu等价验证/执行修订_v2/fp32_v3_20261026T011046Z_6qdzab5t.zip",
+            "bytes": 106583,
+            "archive_sha256": "402a2c0141cde2783c3397a12c2b65f20e4f366a987ef48c003845d69b996713",
+            "crc_ok": true,
+            "members": 39,
+            "payload_hashes_verified": 38,
+            "package_payload_hashes_verified": 8,
+            "source_and_package_match": true,
+            "summary_sha256": "3079f7963041dc28f103e1337c2aae1d33efbb173dc8f43dfde75f6f67c8d799",
+            "status": "FP32_TINY_ACTUAL_TRAINER_PASS_NOT_27B_ACCEPTANCE",
+            "exit_code": 0,
+            "environment": {
+              "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:13:31) [GCC 14.3.0]",
+              "platform": "Linux-6.8.0-142-generic-x86_64-with-glibc2.39",
+              "versions": {
+                "torch": "2.11.0",
+                "transformers": "5.8.0",
+                "peft": "0.21.2",
+                "accelerate": "1.14.0",
+                "datasets": "5.0.0"
+              },
+              "CUDA_VISIBLE_DEVICES_for_worker": "",
+              "threads": 4,
+              "torch_runtime": {
+                "version": "2.11.0+cu130",
+                "cuda": "13.0",
+                "module_file": "/home/admire/.local/lib/python3.13/site-packages/torch/__init__.py",
+                "cuda_initialized": false
+              },
+              "preflight_validation": {
+                "passed": true,
+                "torch_metadata_version": "2.11.0",
+                "torch_runtime_version": "2.11.0+cu130",
+                "torch_runtime_cuda": "13.0",
+                "policy": {
+                  "accepted_metadata_versions": [
+                    "2.11.0",
+                    "2.11.0+cu130"
+                  ],
+                  "accepted_runtime_versions": [
+                    "2.11.0",
+                    "2.11.0+cu130"
+                  ],
+                  "required_runtime_cuda": "13.0",
+                  "reason": "Distribution metadata may omit the local CUDA build suffix; verify the imported runtime and CUDA build separately."
+                }
+              }
+            },
+            "started_utc": "2026-10-26T09:10:46.814585+08:00",
+            "finished_utc": "2026-10-26T09:11:41.939461+08:00",
+            "cases": {
+              "single_micro": {
+                "passed": true,
+                "expected_negative": null,
+                "candidate_passed_B": true,
+                "candidate_passed_A_loss_gradients": true,
+                "count": 5,
+                "accumulation": 1,
+                "padded": false,
+                "eos_as_pad": false,
+                "loss_max_abs": 9.5367431640625E-07,
+                "gradient_max_abs": 0,
+                "parameter_max_abs": 0,
+                "delta_max_abs": 0,
+                "updates": 5
+              },
+              "accum4_tail1": {
+                "passed": true,
+                "expected_negative": null,
+                "candidate_passed_B": true,
+                "candidate_passed_A_loss_gradients": true,
+                "count": 5,
+                "accumulation": 4,
+                "padded": false,
+                "eos_as_pad": false,
+                "loss_max_abs": 2.384185791015625E-07,
+                "gradient_max_abs": 0,
+                "parameter_max_abs": 0,
+                "delta_max_abs": 0,
+                "updates": 2
+              },
+              "padded_accum4_tail1": {
+                "passed": true,
+                "expected_negative": null,
+                "candidate_passed_B": true,
+                "candidate_passed_A_loss_gradients": true,
+                "count": 5,
+                "accumulation": 4,
+                "padded": true,
+                "eos_as_pad": false,
+                "loss_max_abs": 2.384185791015625E-07,
+                "gradient_max_abs": 0,
+                "parameter_max_abs": 0,
+                "delta_max_abs": 0,
+                "updates": 2
+              },
+              "production_accum16_tail13": {
+                "passed": true,
+                "expected_negative": null,
+                "candidate_passed_B": true,
+                "candidate_passed_A_loss_gradients": true,
+                "count": 29,
+                "accumulation": 16,
+                "padded": false,
+                "eos_as_pad": false,
+                "loss_max_abs": 1.1920928955078125E-07,
+                "gradient_max_abs": 0,
+                "parameter_max_abs": 0,
+                "delta_max_abs": 0,
+                "updates": 2
+              },
+              "eos_as_pad_accum4_tail1": {
+                "passed": true,
+                "expected_negative": null,
+                "candidate_passed_B": true,
+                "candidate_passed_A_loss_gradients": true,
+                "count": 5,
+                "accumulation": 4,
+                "padded": true,
+                "eos_as_pad": true,
+                "loss_max_abs": 2.384185791015625E-07,
+                "gradient_max_abs": 0,
+                "parameter_max_abs": 0,
+                "delta_max_abs": 0,
+                "updates": 2
+              },
+              "reject_micro_mean": {
+                "passed": true,
+                "expected_negative": "micro_mean",
+                "candidate_passed_B": false,
+                "candidate_passed_A_loss_gradients": false,
+                "count": 5,
+                "accumulation": 4,
+                "padded": false,
+                "eos_as_pad": false,
+                "loss_max_abs": 9.469807624816895,
+                "gradient_max_abs": 0.016265958547592163,
+                "parameter_max_abs": 0.0003550667315721512,
+                "delta_max_abs": 0.00019996333867311478,
+                "updates": 2
+              },
+              "reject_reset_gradient": {
+                "passed": true,
+                "expected_negative": "reset_gradient",
+                "candidate_passed_B": false,
+                "candidate_passed_A_loss_gradients": false,
+                "count": 5,
+                "accumulation": 4,
+                "padded": false,
+                "eos_as_pad": false,
+                "loss_max_abs": 0.0001926422119140625,
+                "gradient_max_abs": 0.004537317901849747,
+                "parameter_max_abs": 0.00036601023748517036,
+                "delta_max_abs": 0.00019999593496322632,
+                "updates": 2
+              }
+            },
+            "gradient_tensor_comparisons_audited": 1888,
+            "update_tensor_comparisons_audited": 2720,
+            "production_cycles": [
+              16,
+              13
+            ],
+            "production_cycle_denominators": [
+              154,
+              126
+            ],
+            "positive_cases": 5,
+            "deliberate_negative_controls": 2,
+            "all_case_log_summary_and_step_records_consistent": true,
+            "limitations": [
+              "包内保存逐tensor比较记录，未保存原始梯度/参数tensor；本地复核是原件哈希、记录一致性及标量loss复算，不宣称独立张量重放。",
+              "用户未贴回A100整包SHA，未独立比较两端ZIP哈希；包内38项、内嵌执行包与预期源码哈希均吻合。",
+              "tiny合成CPU FP32逻辑层通过；旧27B/NF4的B失败和正式Test保留，不据此确认原Mbio实现或共同验收。"
+            ],
+            "verified_date": "2026-10-26",
+            "review_scope": "本地核对回传包CRC/38项载荷哈希、内嵌执行包及8项源码配置、真实环境、7组逐micro/更新、日志与汇总；逐tensor记录聚合一致并独立复算loss差。未重新执行模型、未持有原始tensor进行重放。",
+            "production_optimizer_steps": [
+              1,
+              2
+            ],
+            "production_trainable_tensors": 32
+          },
+          "historical_bf16_update_impact": {
+            "source_archive": "cmj_gpu_validation_v2_20261025_handoff.zip",
+            "source_member": "equivalence/equivalence_results.json",
+            "candidate_trainer_sha256": "9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba",
+            "tolerance_A": {
+              "loss_abs_strict_lt": 1E-05,
+              "gradient_abs_strict_lt": 0.0001,
+              "parameters": "not specified by original A protocol; assessed separately under B"
+            },
+            "tolerance_B": {
+              "loss_atol": 1E-06,
+              "loss_rtol": 1E-05,
+              "tensor_atol": 1E-06,
+              "tensor_rtol": 0.0001
+            },
+            "cases": {
+              "single_micro": [
+                {
+                  "step": 1,
+                  "max_parameter_abs_diff": 0.00019996613264083862,
+                  "passed_B": false,
+                  "parameters_changed": true
+                },
+                {
+                  "step": 2,
+                  "max_parameter_abs_diff": 0.00039816275238990784,
+                  "passed_B": false,
+                  "parameters_changed": true
+                },
+                {
+                  "step": 3,
+                  "max_parameter_abs_diff": 0.0005725109949707985,
+                  "passed_B": false,
+                  "parameters_changed": true
+                },
+                {
+                  "step": 4,
+                  "max_parameter_abs_diff": 0.0007237978279590607,
+                  "passed_B": false,
+                  "parameters_changed": true
+                },
+                {
+                  "step": 5,
+                  "max_parameter_abs_diff": 0.0008669865783303976,
+                  "passed_B": false,
+                  "parameters_changed": true
+                }
+              ],
+              "accum4_tail1": [
+                {
+                  "step": 1,
+                  "max_parameter_abs_diff": 0.00019999034702777863,
+                  "passed_B": false,
+                  "parameters_changed": true
+                },
+                {
+                  "step": 2,
+                  "max_parameter_abs_diff": 0.0003987336531281471,
+                  "passed_B": false,
+                  "parameters_changed": true
+                }
+              ],
+              "padded_accum4_tail1": [
+                {
+                  "step": 1,
+                  "max_parameter_abs_diff": 0.00019999162759631872,
+                  "passed_B": false,
+                  "parameters_changed": true
+                },
+                {
+                  "step": 2,
+                  "max_parameter_abs_diff": 0.00039717555046081543,
+                  "passed_B": false,
+                  "parameters_changed": true
+                }
+              ],
+              "production_accum16_tail13": [
+                {
+                  "step": 1,
+                  "max_parameter_abs_diff": 0.0001999707892537117,
+                  "passed_B": false,
+                  "parameters_changed": true
+                },
+                {
+                  "step": 2,
+                  "max_parameter_abs_diff": 0.00039688311517238617,
+                  "passed_B": false,
+                  "parameters_changed": true
+                }
+              ],
+              "eos_as_pad_accum4_tail1": [
+                {
+                  "step": 1,
+                  "max_parameter_abs_diff": 0.00019998475909233093,
+                  "passed_B": false,
+                  "parameters_changed": true
+                },
+                {
+                  "step": 2,
+                  "max_parameter_abs_diff": 0.0003973729908466339,
+                  "passed_B": false,
+                  "parameters_changed": true
+                }
+              ]
+            },
+            "interpretation": "复用已核验的旧GPU回传包，只补读13项更新记录：这些是旧候选9a47a2da…更新后参数相对标准分支的差异，不是新v3的27B结果，也不是逐步delta差；仅凭参数差异不能推断分类性能或损失下降影响。FP32逐步delta通过单独报告。",
+            "new_gpu_run": false
+          }
+        },
+        "original_v2_files_modified": false,
+        "formal_training_or_test_modified": false,
+        "sent_to_cmj": false,
+        "new_human_signature": null
+      },
+      "next_action": "本轮FP32完整回传及旧BF16参数更新影响已分层归并，可将现有回传ZIP和当前索引交陈明进/路线负责人复核。原Mbio训练实现及影响仍需其结合实际训练记录核查；不代填签核，不追加同一验证、27B或全量训练/Test。",
+      "original_files_modified": false,
+      "new_a100_run": true,
+      "new_full_model_or_trainer_run": true,
+      "new_trainer_run_scope": "v3本机及A100 CPU的tiny FP32实际Trainer已完成；A100完整ZIP已本地核对。本次回传核验未新启动模型，没有新27B或GPU模型运行。",
+      "sent_to_cmj": false,
+      "new_human_signature": null
+    },
+    "next_required": "李云2026-10-26回报三处文字修订及原Mbio核查请求已发送；等待陈明进对修订范围及原Mbio实际代码、日志、134步和checkpoint的具体复核。当前本侧独立核验及交付已完成，旧27B/BF16五组B未通过保留；无需重跑、重包或全量重训。"
+  },
+  "next_required": [
+    "Mbio已由用户报告发给陈明进，等待实际复核意见；收到后归并，不重复训练或索要同一原件。",
+    "PDF两补充点技术核对及李云个人确认完成，下一步与陈明进实际分项合议；同版共同结论及其余未决项仍待核，不重复索要本人此次确认。",
+    "原Mbio、M0、Mscv、原Test及原PDF严格失败记录保留。"
+  ],
+  "latest_received_personal_review_20261026": {
+    "path": "10.19-11.2/发给李云_FP32分层验证复核意见_20261026.md",
+    "sha256": "783c88cc25d76f96d9687fa0f8b7eb59720472e574efddfb24984cb7984c250b",
+    "reviewer": "陈明进",
+    "review_date": "2026-10-26",
+    "review_type": "个人分项复核意见，不构成整体正式验收",
+    "acknowledged_package_sha256": "449c1147299c0b727a8fa8d8d222c1ce3588b47469c9e693171f6ebcc6df938e",
+    "acknowledgment_scope": "来文确认收到并核验该包；历史制作收据和ZIP内快照保留，不据此补填发送人或发送时间",
+    "fp32_logic_layer": "认可tiny真实Qwen3_5、CPU FP32实际Trainer五组正常用例通过及两组错误对照正确拒绝；不是27B GPU验收",
+    "accepted_corrections": [
+      "2fcfe86e为旧诊断捕获脚本哈希；训练候选9a47a2da与本地v1一致，原要求取回diff的缺口消项",
+      "Transformers 5.8.0传入num_items_in_batch时为sum/N；旧native=mean/N及多n_sup倍表述作废"
+    ],
+    "scope_clarification": {
+      "source_location": "第四节缺口表第③项",
+      "issue": "更新后参数/逐步delta差0、B通过未在该行注明FP32范围，容易与旧27B/BF16参数更新影响混读",
+      "fp32": "本轮tiny CPU FP32正常场景梯度、更新后参数和逐步delta最大差均为0，原B通过",
+      "old_27b_bf16": "五组原B仍未通过；更新后参数最大差首次约2e-4、最终约4e-4至8.7e-4；旧记录不是逐步delta差",
+      "recording_rule": "按原文第二节分层登记；不将第四节第③项解释为旧27B已通过，原来文不改写"
+    },
+    "additional_review_findings": [
+      {
+        "source_location": "第三节第2项",
+        "issue": "文中[1,1,V]与原始诊断中的候选logits形状不符",
+        "evidence_path": "10.19-11.2/gpu等价验证/执行修订_v2/diagnostic_summary_v3_2_20261025.json",
+        "actual_native_shape": [
+          1,
+          588,
+          248320
+        ],
+        "actual_candidate_shape": [
+          1,
+          10,
+          248320
+        ],
+        "claim_id": "967",
+        "suggested_correction": "写为本条诊断的[1,10,V]监督位置输出与[1,588,V]完整输出；不将单样本形状概括为所有输入固定形状"
+      },
+      {
+        "source_location": "第三节差异来源及第四节第⑤项",
+        "issue": "差异来源与不是代码缺陷的表述需要限定证据范围",
+        "evidence_path": "10.19-11.2/gpu等价验证/执行修订_v2/diagnostic_summary_v3_3_1_20261025.json",
+        "established": "在固定权重、输入和上游梯度的单样本输出头回放中复现跨形状BF16输入梯度差3.0517578125e-05；本轮修复v3在已测tiny CPU FP32用例中通过原A/B",
+        "not_established": "全部五场景梯度差的唯一成因、具体底层内核、修复后候选绝对无代码缺陷、原Mbio实际实现已合格",
+        "suggested_correction": "限定为已测FP32场景未发现上述等价性问题；单样本输出头差异已复现，旧GPU全轨迹及原训练实现仍按各自证据登记"
+      }
+    ],
+    "reply_prepared_for_liyun": {
+      "instruction_quote": "好的，下一步",
+      "instruction_scope": "继续准备交接；不据此推定具体结论认可、验收签核或消息已发送",
+      "text": "师兄，复核意见收到了。我这边对照原始回传，FP32小模型五组正常测试通过、两个错误对照被正确拒绝，与您给出的结论一致。建议把三处表述明确一下：①第③项的参数/逐步delta差0、B通过注明仅限本轮CPU FP32，旧27B/BF16五组未通过继续保留；②第三节本条诊断的候选形状应为[1,10,V]，原生为[1,588,V]；③差异来源及‘不是代码缺陷’限定在已测场景，不扩大为原Mbio实现已合格。原Mbio实际代码、训练日志、134步及checkpoint的核查就继续麻烦您，完成后请把具体结论和对应依据发我。本轮先不重复运行或全量重训。",
+      "sent": true,
+      "sent_status_basis": "user_reported",
+      "sent_report_date": "2026-10-26",
+      "sent_report_quote": "发过去了，下一步呢？",
+      "recipient": "陈明进",
+      "sent_by": "李云",
+      "exact_sent_text_independently_verified": false,
+      "recipient_receipt_verified": false,
+      "reply_received": false,
+      "new_model_run_required": false
+    },
+    "cmj_next_action": "结合原Mbio实际训练代码、日志、134步及checkpoint核查原实现和影响，再提供原Mbio层意见",
+    "liyun_confirmation_recorded": false,
+    "joint_signoff_recorded": false,
+    "original_mbio_accepted": false,
+    "new_model_run": false,
+    "review_source_modified": false
+  },
+  "delivery_package_20261026": {
+    "path": "10.19-11.2/gpu等价验证/发给陈明进_FP32分层验证回传_20261026.zip",
+    "bytes": 1410043,
+    "sha256": "449c1147299c0b727a8fa8d8d222c1ce3588b47469c9e693171f6ebcc6df938e",
+    "members": 163,
+    "payload_files": 162,
+    "crc_verified": true,
+    "all_payload_hashes_verified": true,
+    "readme_links_verified": true,
+    "source_snapshot_sha256": "9ec2929bc6791dbcd6ee6d538d2b8f8099405f9d0bc7e36a2efb4767de5c9431",
+    "created_date": "2026-10-26",
+    "sent": false,
+    "new_model_run": false,
+    "contents": [
+      "修正代码/共享依赖/冻结夹具/执行包",
+      "A100原始回传ZIP及summary、日志、元数据",
+      "核验索引快照与本机FP32参照",
+      "旧27B完整equivalence证据及对应源码",
+      "陈明进六项原件及12次回放汇总",
+      "说明和SHA256清单"
+    ]
+  },
+  "new_training_or_CPU_equivalence_run": true,
+  "new_human_signature": null,
+  "latest_received_personal_review_20261027": {
+    "path": "mbio_reproduction/peer_replies_20261027/发给李云_原Mbio层核查意见_20261027.md",
+    "sha256": "a82be4b2aa3ef2225e137dd14c9797c3a7dfca925806011e3950fcdf0d2ee22b",
+    "reviewer": "陈明进",
+    "review_date": "2026-10-27",
+    "review_scope": "原Mbio实际代码、训练日志、134步记录、checkpoint来源的个人核查；不重复运行，不启动全量重训，不改原冻结gold/模型输出/Test成绩。",
+    "personal_conclusion": "原实现按监督token数 n_sup 对交叉熵做 mean；官方Trainer按累积有效token总数 N 做 sum/N，二者归一化不等价。原代码、134/134训练日志和checkpoint-100来源已完成核对。",
+    "checkpoint_selection": "checkpoint-100；Sarol Dev Macro-F1 0.599595 高于 final 0.591875。",
+    "scope_boundary": "固定候选的CPU FP32等价性结论不替代原27B/NF4实现核验；原冻结gold、模型输出和Test成绩保持不变。",
+    "joint_signoff": false
+  },
+  "current_state_20261027": {
+    "status": "ORIGINAL_MBİO_PERSONAL_REVIEW_RECEIVED_JOINT_DECISION_PENDING",
+    "source_sha256": "a82be4b2aa3ef2225e137dd14c9797c3a7dfca925806011e3950fcdf0d2ee22b",
+    "reviewer": "陈明进",
+    "review_date": "2026-10-27",
+    "summary": "原Mbio层归一化差异已由陈明进个人核查确认；未启动重训或重评。",
+    "next_decision_owner": "金城",
+    "next_decision": "决定是否按修复归一化口径重训/重评，以及原Mbio结果的后续使用口径。",
+    "no_model_run_started_by_this_update": true,
+    "joint_acceptance": "pending"
+  },
+  "latest_received_correction_plan_20261030": {
+    "source_original_attachment": "D:\\缓存\\xwechat_files\\wxid_jho22qm3wuo322_070b\\temp\\RWTemp\\2026-10\\3fa490bdfcbe9cd7dfe4136c47bf27ad\\给金城_Mbio归一化分母核查与纠正方案_20261030(1).md",
+    "path": "给金城_Mbio归一化分母核查与纠正方案_20261030.md",
+    "sha256": "4eef5b1cd90f38f21bf99458f26cb49e9c1622e461a20f8f7acb9dce2385cf44",
+    "author_as_user_report": "陈明进",
+    "document_date": "2026-10-30",
+    "received_review_date": "2026-10-31",
+    "leader_instruction_path": "路线一负责人三项统一口径_用户转述_20261030.txt",
+    "leader_instruction_sha256": "de649df5428ab6f7a8e04aab7bae1ccdfad795a2933264314b7e0870ad707c52",
+    "leader_message_date_basis": "用户说昨晚发送，即2026-10-30晚；精确时刻未知",
+    "joint_signoff": false
+  },
+  "current_state_20261031": {
+    "status": "CORRECTED_MBIO_VERIFIED_AND_USER_REPORTED_HANDED_OFF_CHEN_REVIEW_PENDING",
+    "leader_condition": "Corrected Mbio selected by Sarol Dev Macro-F1 and evaluated on both corresponding Test units; preserve old results",
+    "mbio": "Corrected v1 train/Dev/Test complete. Local archive SHA matches user-reported server SHA; 25 payloads, frozen data IDs/gold, original parsing and all four Dev/Test scoring results verified.",
+    "pdf": "Li Yun confirmed two supplement full-source ACCURATE opinions, original reason1 not passed, reason2 limited pass and whitespace-only locator opinions on 2026-11-01; Chen pending components and strict engineering 0/2 remain.",
+    "yang": "Independent replay passed as reported by Chen; does not imply whole20 acceptance",
+    "next_action": "Await Chen review of corrected Mbio handoff. Continue the separate PDF same-version component adjudication using already received replies; do not rerun models.",
+    "new_training_started": true,
+    "new_test_started": true,
+    "joint_acceptance": "pending",
+    "updated_date": "2026-11-01"
+  },
+  "current_state_key": "current_state_20261101",
+  "historical_current_state_20261031_before_freeze": {
+    "status": "CONDITIONAL_MBİO_CORRECTION_SCOPE_RECEIVED_PLAN_NEEDS_VERSION_AND_EVIDENCE_ALIGNMENT",
+    "leader_condition": "If code/evidence confirms deviation from window supervised-token sum/N or effective update logic, only correct Mbio and evaluate new Mbio; preserve old results",
+    "source_objective_review": "Original mean-per-micro then outer 1/k differs from token-weighted window mean for varying supervised lengths; code basis established",
+    "review": "陈明进10月30日方案_接收核对与执行缺口.md",
+    "review_sha256": "3c491b2eadaf1b39760207ea9d4abc6a35dc4be0b540e235d29652336e540355",
+    "corrections": [
+      "tail divisor is actual k=13 not fixed16",
+      "separate v1 9a47 and v3 4c9 hashes",
+      "reject_micro_mean is not exact original outer-scaling replay",
+      "v3 tiny nonzero differences within tolerance, not exactly zero"
+    ],
+    "next_action": "Align the existing plan and freeze one concrete correction training implementation/config; no further open-ended equivalence tests",
+    "owner": "陈明进；李云按现有分工提供A100和材料协助",
+    "new_training_started": false,
+    "new_test_started": false,
+    "joint_acceptance": "pending",
+    "source_588_is_denominator": false,
+    "learning_rate_scaled_by_88": false
+  },
+  "latest_received_freeze_config_20261031": {
+    "path": "发给李云_Mbio纠正训练冻结配置确认_20261031.md",
+    "sha256": "16fe51235d3d110d597d23b122de5e835a6373ec3ff45de3da0f942148fc15ba",
+    "reviewer": "陈明进",
+    "document_date": "2026-10-31",
+    "status": "FROZEN_CONFIGURATION_RECEIVED_TRAINING_PENDING",
+    "script": "route1_qwen38_train_sarol_memopt_v1.py",
+    "script_sha256": "9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba",
+    "candidate_v3_not_selected": "4c9dac5d6d19b86f5e2a23f456bc8ec1c1d2eec4932c7a69864d0d65ad611a64",
+    "train_inputs_sha256": "712338b41e7f1b56b8a4cb8a75018a57bab89706ed0b6d9f4a2e7dc8bd0d0180",
+    "train_gold_sha256": "f245b94aafc67934b43c760a1d6c68b0f1042d7561f493280c77d49467c1fad8",
+    "max_length": 5120,
+    "max_new_tokens": 512,
+    "epochs": 1,
+    "accumulation": {
+      "window_1_microbatches": 16,
+      "window_1_N": 154,
+      "tail_microbatches": 13,
+      "tail_N": 126
+    },
+    "scope": "Mbio only; M0/Mscv and historical results retained; new checkpoint selected by Sarol Dev then two Test units evaluated",
+    "new_training_started": false,
+    "new_test_started": false,
+    "joint_signoff": false,
+    "snapshot_scope": "Received-document state on 2026-10-31; execution state is recorded in current_state_key and the 2026-11-01 training/Dev/Test entries."
+  },
+  "latest_received_pdf_replacement_candidates_20261030": {
+    "path": "../pdf_demo/发给李云_PDF替补点候选方案_20261030.md",
+    "sha256": "961d9d2f4ae784fc438ab18ffb5ad84bfe60a21bfe97fdde22aac1116ee25a75",
+    "reviewer": "陈明进",
+    "document_date": "2026-10-30",
+    "candidate_A": "PMC11350039 p2 [7] -> PMC5958625, proposed substitute point 1",
+    "candidate_B": "PMC7092819 p11 [1,12] -> PMC7159299, proposed substitute point 15",
+    "status": "CANDIDATES_RECEIVED_LIYUN_CONFIRMATION_REQUIRED",
+    "selection_independent_of_prediction": true,
+    "new_list_not_frozen": true,
+    "joint_signoff": false,
+    "snapshot_scope": "Candidate proposal as received; current confirmation is in ../pdf_demo/fixed20_progress_summary.json#pdf_replacement_candidates_20261030."
+  },
+  "latest_received_yang_replay_20261030": {
+    "path": "../pdf_demo/发给李云_杨独立复演验收与登记_20261030.md",
+    "sha256": "4a817d3c4e691f8f863e5d6cc4e73eced5eb2efe87892ff78a460229f51e3da8",
+    "reported_by": "陈明进",
+    "document_date": "2026-10-30",
+    "reported_status": "YANG_INDEPENDENT_REPLAY_PASSED_REPORTED",
+    "operator": "杨",
+    "classifier_count": "13/13",
+    "explainer_count": "13/13",
+    "exit_code": 0,
+    "output_byte_identical": true,
+    "scope_limit": "Does not imply 20-point overall acceptance; original explanation failures remain",
+    "liyuns_joint_acceptance": false
+  },
+  "latest_received_pdf_supplement_review_20261031": {
+    "path": "../pdf_demo/发给李云_两条补充点复核意见_20261031.md",
+    "sha256": "aab335f8e3d5a8a44bd4274a2d2593a762d75eab186db215ff7060c4b6d8ec38",
+    "reviewer": "陈明进",
+    "document_date": "2026-10-31",
+    "return_archive_sha256": "0d6f7cf1f4e663e02a61da5879cd179e59484a7e8f88b5e57c7f4c1c9e06fb00",
+    "point_1": "continue pending; strict quote 0/1, compressed whitespace unique 1/1; reason needs narrowing",
+    "point_2": "pending leaning pass; strict quote 0/2, compressed whitespace unique 2/2; reason passes",
+    "model_predictions": "ACCURATE x2 only; not personal or joint labels",
+    "engineering_strict": "0/2",
+    "compressed_diagnostic": "2/2",
+    "joint_signoff": false
+  },
+  "latest_mbio_corrected_dev_selection_20261101": {
+    "status": "CHECKPOINT_134_SELECTED_BY_SAROL_DEV_MACRO_F1",
+    "reported_date": "2026-11-01",
+    "source": "user_reported_A100_metrics",
+    "dev_inputs_sha256": "2c0690ab3a0c50cc63c47bf0db06f63895de51513d1257ecf4aeb051d1e64403",
+    "dev_gold_sha256": "d1d0362dba636ea5c93803c50671ca822bd5c1cd058db10bc261eda6386823c4",
+    "checkpoint_100": {
+      "adapter": "train/checkpoint-100",
+      "accuracy": 0.689873417721519,
+      "macro_f1": 0.5665071770334928,
+      "prediction_sha256": "5918c9042c5ff7760fe6f39c5155488500df08ba7c4aaa2109d9f2bfff53b127"
+    },
+    "checkpoint_134": {
+      "adapter": "train/checkpoint-134",
+      "accuracy": 0.7025316455696202,
+      "macro_f1": 0.5969663576701484,
+      "prediction_sha256": "cad9c96c4355e1c174934a7440f0c7f44bbf3129caa73312f3da6a455e0336ff"
+    },
+    "selection_rule": "Sarol Dev Macro-F1 only",
+    "selected_checkpoint": "train/checkpoint-134",
+    "new_test_started": true,
+    "old_results_preserved": true,
+    "result_evidence_scope": "Both Dev raw prediction/metrics pairs locally verified against frozen inputs/gold and archived parser; logs and scoring recomputation match."
+  },
+  "latest_mbio_corrected_test_results_20261101": {
+    "status": "CORRECTED_MBIO_CHECKPOINT_134_TEST_LOCAL_VERIFICATION_PASS",
+    "reported_date": "2026-11-01",
+    "source": "downloaded_A100_archive_checked_against_user_reported_server_SHA_and_frozen_data",
+    "adapter": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134",
+    "max_length": 5120,
+    "max_new_tokens": 512,
+    "enable_thinking": false,
+    "retry_policy": "none",
+    "sarol": {
+      "records": 606,
+      "correct": 439,
+      "accuracy": 0.7244224422442245,
+      "macro_f1": 0.6487155317532668,
+      "invalid_count": 0,
+      "inputs_sha256": "46b441cd7623ca827113ba5a52ae8a08d34cbbc4d5211b133e6af8595fc27391",
+      "gold_sha256": "696d6d9290c03e3ca79ff705aeeab52161932f3c2b229db87298427e900caeae",
+      "metrics_path": "test/sarol/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_metrics.json",
+      "predictions_path": "test/sarol/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_predictions.jsonl"
+    },
+    "sciciteval": {
+      "records": 257,
+      "correct": 192,
+      "accuracy": 0.7470817120622568,
+      "macro_f1": 0.7240656305829695,
+      "invalid_count": 0,
+      "inputs_sha256": "da705b96dff43c8077de9ed7c261048ba427795848126ad941f4c7cd9ff73301",
+      "gold_sha256": "98512eb476fe31da3f36dea716ea3333008234f2af9ac191afd10d48a854eabd",
+      "metrics_path": "test/sciciteval/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_metrics.json",
+      "predictions_path": "test/sciciteval/Mbio_corrected_ckpt134/Mbio_corrected_ckpt134_test_predictions.jsonl"
+    },
+    "old_results_preserved": true,
+    "prediction_and_metrics_hashes_pending_download": false,
+    "joint_acceptance": false,
+    "artifacts_verified": true,
+    "artifact_hashes": {
+      "sarol_metrics_sha256": "bc2a6a917de71b9202d452f5154cd2b102e699e8bfa6e602d89c6469dbe50bf0",
+      "sarol_predictions_sha256": "0416472fece95f94ebe6a86047d38fdafffd6376adfbf2918c2b6f22054b84b6",
+      "sciciteval_metrics_sha256": "587a1be67b11e5f6027bf241b43c45f3d43c8a36ae72b3e17959fb3eb8508009",
+      "sciciteval_predictions_sha256": "1c404f5a6cdc007d351cc70dad0c6427061bb78e9e0f5c5fefa24e4bb38677d2"
+    },
+    "prediction_line_counts": {
+      "sarol": 606,
+      "sciciteval": 257,
+      "total": 863
+    },
+    "server_hashes_reported": true,
+    "local_artifacts_downloaded": true,
+    "local_artifacts_verified": true,
+    "hash_verification_scope": "Archive local SHA256 matches user-reported server SHA256; all 25 payload hashes verified; two Dev/two Test raw IDs, gold, original parser, metrics recomputed.",
+    "pending_artifacts": [],
+    "verification_receipt": "a100_archive_validation_20261101.json"
+  },
+  "latest_mbio_corrected_training_20261101": {
+    "status": "TRAINING_COMPLETED_LOCAL_ARCHIVE_VERIFIED",
+    "reported_date": "2026-11-01",
+    "operator_as_user_identity": "李云",
+    "source": "user_pasted_A100_input_check_training_log_file_listing_and_sha256",
+    "output_root": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031",
+    "script_sha256": "9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba",
+    "train_records": 2141,
+    "supervised_tokens": 20042,
+    "label_distribution": {
+      "ACCURATE": 1368,
+      "NOT_ACCURATE": 630,
+      "IRRELEVANT": 143
+    },
+    "max_length": 5120,
+    "epochs": 1,
+    "gradient_accumulation_steps": 16,
+    "optimizer_steps_reported": 134,
+    "tail_microbatches": 13,
+    "training_minutes_reported": 221.8,
+    "train_loss_rounded_in_log": 0.151,
+    "saved_checkpoints_reported": [
+      "checkpoint-100",
+      "checkpoint-134",
+      "final_adapter"
+    ],
+    "final_adapter_reported_sha256": {
+      "adapter_config.json": "d5951f1c125680cc73a0031b5c20ffbfe7ce050eb2cf81fd1fd327adf5e68944",
+      "adapter_model.safetensors": "cabbde8d1027a2c7dcd61e7404c5028b7108ce6879252357f3e52b8281407f25"
+    },
+    "training_config_reported_sha256": "24d8251ae7a896079c69962b3b7b335fb7856fc743a8353f6fdb876068de9584",
+    "selected_adapter": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_sarol_mbio_corrected_20261031/train/checkpoint-134",
+    "selected_adapter_sha256_pending": false,
+    "final_and_checkpoint134_byte_identity_not_assumed": true,
+    "normalization_note": "N is the actual supervised-token count in each accumulation window. N=154/126 belongs to the existing 29-micro (16+13) CPU comparison, not fixed constants for all 2141 training examples.",
+    "local_training_artifacts_verified": true,
+    "joint_signoff": false,
+    "selected_adapter_sha256": {
+      "adapter_config.json": "d5951f1c125680cc73a0031b5c20ffbfe7ce050eb2cf81fd1fd327adf5e68944",
+      "adapter_model.safetensors": "cabbde8d1027a2c7dcd61e7404c5028b7108ce6879252357f3e52b8281407f25"
+    },
+    "verification_receipt": "a100_archive_validation_20261101.json"
+  },
+  "latest_old_new_test_comparison_20261101": {
+    "scope": "Old archived Mbio compared with locally verified corrected Mbio outputs; IDs/gold match, aggregate metrics and paired repair/new-error counts recomputed.",
+    "sarol": {
+      "old_metrics_path": "../../route1_qwen38_v2/2026-10-19/test_refreeze5120_run02/test/sarol/Mbio/Mbio_test_metrics.json",
+      "old_metrics_sha256": "17cff7417b5405765dd22198863ad35d60ad998c68afa792f9f0a77fd87c960b",
+      "old_checkpoint": "original_Mbio_checkpoint-100",
+      "old_correct": 434,
+      "old_accuracy": 0.7161716171617162,
+      "old_macro_f1": 0.6453537351330311,
+      "new_checkpoint": "corrected_Mbio_checkpoint-134",
+      "new_correct": 439,
+      "new_accuracy": 0.7244224422442245,
+      "new_macro_f1": 0.6487155317532668,
+      "delta_correct": 5,
+      "delta_accuracy_percentage_points": 0.8250825082508295,
+      "delta_macro_f1": 0.003361796620235724,
+      "inputs_and_gold_hashes_match": true,
+      "new_data_source": "locally_verified_original_A100_predictions_and_metrics",
+      "paired_transitions": {
+        "repaired_vs_old_mbio": 32,
+        "new_errors_vs_old_mbio": 27,
+        "net_correct_change": 5,
+        "reference": "original Mbio checkpoint-100, not M0"
+      }
+    },
+    "sciciteval": {
+      "old_metrics_path": "../../route1_qwen38_v2/2026-10-19/test_refreeze5120_run02/test/sciciteval/Mbio/Mbio_test_metrics.json",
+      "old_metrics_sha256": "205bb740941a779814951921685a478f351d2f84608dd3c4610517b20c898619",
+      "old_checkpoint": "original_Mbio_checkpoint-100",
+      "old_correct": 196,
+      "old_accuracy": 0.7626459143968871,
+      "old_macro_f1": 0.745415535667894,
+      "new_checkpoint": "corrected_Mbio_checkpoint-134",
+      "new_correct": 192,
+      "new_accuracy": 0.7470817120622568,
+      "new_macro_f1": 0.7240656305829695,
+      "delta_correct": -4,
+      "delta_accuracy_percentage_points": -1.5564202334630295,
+      "delta_macro_f1": -0.021349905084924514,
+      "inputs_and_gold_hashes_match": true,
+      "new_data_source": "locally_verified_original_A100_predictions_and_metrics",
+      "paired_transitions": {
+        "repaired_vs_old_mbio": 0,
+        "new_errors_vs_old_mbio": 4,
+        "net_correct_change": -4,
+        "reference": "original Mbio checkpoint-100, not M0"
+      }
+    },
+    "checkpoint_selection_uses_test": false,
+    "joint_signoff": false,
+    "paths_relative_to": "weekly entry directory, parent of mbio_reproduction/"
+  },
+  "legacy_CPU_fields_scope": "Top-level CPU case fields and their historical run flags describe the archived CPU check only. Current corrected training/Dev/Test state is in current_state_key and the latest_mbio_corrected_*_20261101 entries.",
+  "archive_helper_20261101": {
+    "path": "archive_mbio_corrected_20261101.py",
+    "sha256": "1edc27882114807145732ce78a54c87c8ee9cbe9f2e405cd4405db9a442b95e2",
+    "status": "USER_EXECUTED_A100_ARCHIVE_RECOVERED_LOCAL_VERIFICATION_PASS",
+    "scope": "Archive existing logs, Dev/Test originals and selected checkpoint-134, verify fixed reported hashes; no model run",
+    "a100_archive": "/home/admire/mbio_corrected_ckpt134_handoff_20261101.tar.gz",
+    "local_download_directory": "C:\\Users\\y\\Desktop\\学术引用不端\\10.26-10.31\\A100_Mbio纠正归档_20261101",
+    "a100_run_performed_by_assistant": false
+  },
+  "local_archive_verification_20261101": {
+    "receipt": "a100_archive_validation_20261101.json",
+    "receipt_sha256": "e9ac0e75032f00962d9e5e10169b84467080114cd392b15048d956dcb0427bd6",
+    "archive": "C:\\Users\\y\\Desktop\\学术引用不端\\10.26-10.31\\A100_Mbio纠正归档_20261101\\mbio_corrected_ckpt134_handoff_20261101.tar.gz",
+    "archive_sha256": "75928854a840efd11d59a21bedc2706f7d9a489f27ee838f21d6b303d1f295cb",
+    "payload_files_verified": 25,
+    "server_digest_source": "user SSH cat output",
+    "joint_acceptance": false
+  },
+  "github_publication_20261101": {
+    "status": "PUSHED_MAIN_AND_REMOTE_CONTENT_VERIFIED",
+    "commit": "9e9d10133a174d3ea34cbf174bf86478470d2c08",
+    "url": "https://github.com/LeegenSteven/academic-misconduct/tree/main/results/route1_qwen38_v3/2026-10-25/mbio_reproduction",
+    "files_published": 32,
+    "remote_blob_sha256_checked": 32,
+    "published_payload_files": 22,
+    "weight_archive_uploaded_to_git": false,
+    "large_files_identity_manifest": "corrected_20261031/manifest.json",
+    "technical_scope": "Corrected Mbio training/Dev/Test provenance, exact raw logs/results, source snapshots and original review documents. Other local task changes were not included.",
+    "joint_signoff_inferred": false
+  },
+  "handoff_20261101": {
+    "status": "USER_REPORTED_SENT_TO_CHEN_REVIEW_PENDING",
+    "sender_as_user_identity": "李云",
+    "recipient": "陈明进",
+    "report_date": "2026-11-01",
+    "user_original": "发过去了，下一步要做啥？",
+    "scope": "前述Mbio纠正实验说明、GitHub归档链接、含checkpoint-134的完整交接包及SHA256校验文件；按用户对上一交接建议的回报登记，实际发送清单未独立读取。",
+    "archive_sha256": "75928854a840efd11d59a21bedc2706f7d9a489f27ee838f21d6b303d1f295cb",
+    "github_commit": "9e9d10133a174d3ea34cbf174bf86478470d2c08",
+    "exact_sent_time": null,
+    "sent_by_tool": false,
+    "recipient_receipt_independently_verified": false,
+    "reply_received": false,
+    "joint_signoff": false
+  },
+  "latest_received_joint_conclusion_20261101": {
+    "path": "共同结论_纠正训练复核_20261101.json",
+    "sha256": "489dc3a95285d4caed99a2d56d45ace884e1767326443d2c7b0f1e7f92310bde",
+    "source_review_path": "发给李云_Mbio纠正训练复核意见_20261101.md",
+    "source_review_sha256": "fc48784bac72de798c54233aadc1c5c741cee7c7035b5cda9ffce72be534d761",
+    "reviewer": "陈明进",
+    "review_date": "2026-11-01",
+    "confirmation": "同意按此登记共同结论",
+    "scope": "执行与冻结配置一致、Sarol Dev按Macro-F1选中checkpoint-134、两组Test本机复算一致且无效输出为0、新旧结果分列并保留历史",
+    "scope_boundary": "技术共同结论，不等同路线一整体联合验收、PDF固定20点验收或27B逐位等价",
+    "joint_signoff": true
+  },
+  "historical_current_state_20261031_before_joint_conclusion": {
+    "status": "CORRECTED_MBIO_VERIFIED_AND_USER_REPORTED_HANDED_OFF_CHEN_REVIEW_PENDING",
+    "leader_condition": "Corrected Mbio selected by Sarol Dev Macro-F1 and evaluated on both corresponding Test units; preserve old results",
+    "mbio": "Corrected v1 train/Dev/Test complete. Local archive SHA matches user-reported server SHA; 25 payloads, frozen data IDs/gold, original parsing and all four Dev/Test scoring results verified.",
+    "pdf": "Li Yun confirmed two supplement full-source ACCURATE opinions, original reason1 not passed, reason2 limited pass and whitespace-only locator opinions on 2026-11-01; Chen pending components and strict engineering 0/2 remain.",
+    "yang": "Independent replay passed as reported by Chen; does not imply whole20 acceptance",
+    "next_action": "Await Chen review of corrected Mbio handoff. Continue the separate PDF same-version component adjudication using already received replies; do not rerun models.",
+    "new_training_started": true,
+    "new_test_started": true,
+    "joint_acceptance": "pending",
+    "updated_date": "2026-11-01"
+  },
+  "current_state_20261101": {
+    "status": "CORRECTED_MBIO_TECHNICAL_REVIEW_JOINT_CONCLUSION_REGISTERED",
+    "leader_condition": "Corrected Mbio selected by Sarol Dev Macro-F1 and evaluated on both corresponding Test units; preserve old results",
+    "mbio": "纠正v1训练、Sarol Dev选点、两组Test及本机原件核验均完成；陈明进已明确同意按复核意见登记共同技术结论，新旧结果分列、历史保留。",
+    "joint_conclusion_path": "共同结论_纠正训练复核_20261101.json",
+    "joint_conclusion_sha256": "489dc3a95285d4caed99a2d56d45ace884e1767326443d2c7b0f1e7f92310bde",
+    "limitations": "共同结论保留复核报告列明的旧成绩来源、train.log未打印窗口N、部分旧权重未随包回收等边界；不扩展为整体验收或27B逐位等价。",
+    "pdf": "Li Yun confirmed two supplement full-source ACCURATE opinions, original reason1 not passed, reason2 limited pass and whitespace-only locator opinions on 2026-11-01; Chen pending components and strict engineering 0/2 remain.",
+    "yang": "Independent replay passed as reported by Chen; does not imply whole20 acceptance",
+    "next_action": "Mbio技术共同结论已登记；后续不重复训练、Test或下载。路线一整体交付及PDF同版联合验收继续按各自当前入口推进。",
+    "new_training_started": true,
+    "new_test_started": true,
+    "joint_acceptance": false,
+    "joint_acceptance_scope": "Mbio技术复核分项共同结论；不代表路线一整体联合验收",
+    "overall_route1_acceptance": "pending",
+    "updated_date": "2026-11-01",
+    "joint_conclusion_registered": true
+  },
+  "weekly_one_page_summary_20261101": {
+    "path": "../本周一页阶段总结_事实版_20261101.md",
+    "sha256": "494f9b874225642efe836d93f40b3d89bd534ed47323344cea69932b3e62445c",
+    "status": "FACTUAL_STAGE_DELIVERY_NOT_OVERALL_SIGNOFF",
+    "scope": "已完成、待核、失败及不重复操作的事实汇总；外部提交/收悉未独立核实。"
+  }
+}

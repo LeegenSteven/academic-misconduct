@@ -1,0 +1,68 @@
+2015; 112(11): 3368–73.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+261. 	
+ Shi D, Nannenga BL, de La Cruz MJ, et al.: The collection of MicroED data 
+for macromolecular crystallography. Nat Protoc. 2016; 11(5): 895–904.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+262. 	 Clabbers MTB, Gruene T, Parkhurst JM, et al.: Electron diffraction data 
+processing with DIALS. Acta Crystallogr D Struct Biol. 2018; 74(Pt 6): 506–18.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+263. 	
+ Rodriguez JA, Ivanova MI, Sawaya MR, et al.: Structure of the toxic core of 
+α-synuclein from invisible crystals. Nature. 2015; 525(7570): 486–90.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+264. 	 Sawaya MR, Rodriguez J, Cascio D, et al.: Ab initio structure determination from 
+prion nanocrystals at atomic resolution by MicroED. Proc Natl Acad Sci U S A. 
+2016; 113(40): 11232–6.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+265. 	
+ Xu H, Lebrette H, Clabbers MTB, et al.: Solving a new R2lox protein 
+structure by microcrystal electron diffraction. Sci Adv. 2019; 5(8): eaax4621.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+266. 	 Warmack RA, Boyer DR, Zee CT, et al.: Structure of amyloid-β (20-34) with 
+Alzheimer’s-associated isomerization at Asp23 reveals a distinct protofilament 
+interface. Nat Commun. 2019; 10(1): 3357.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+267. 	 de la Cruz MJ, Hattne J, Shi D, et al.: Atomic-resolution structures from 
+fragmented protein crystals with the cryoEM method MicroED. Nat Methods. 
+2017; 14(4): 399–402.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+268. 	
+ Martynowycz MW, Zhao W, Hattne J, et al.: Collection of Continuous 
+Rotation MicroED Data from Ion Beam-Milled Crystals of Any Size. Structure. 
+2019; 27(3): 545–548.e2.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+269. 	 Zhou H, Luo Z, Li X: Using focus ion beam to prepare crystal lamella for 
+electron diffraction. J Struct Biol. 2019; 205(3): 59–64.  
+PubMed Abstract | Publisher Full Text 
+270. 	 Duyvesteyn HME, Kotecha A, Ginn HM, et al.: Machining protein microcrystals 
+for structure determination by electron diffraction. Proc Natl Acad Sci U S A. 
+2018; 115(38): 9569–73.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+271. 	 Brázda P, Palatinus L, Babor M: Electron diffraction determines molecular 
+absolute configuration in a pharmaceutical nanocrystal. Science. 2019; 
+364(6441): 667–9.  
+PubMed Abstract | Publisher Full Text 
+272. 	
+ Yonekura K, Ishikawa T, Maki-Yonekura S: A new cryo-EM system for 
+electron 3D crystallography by eEFD. J Struct Biol. 2019; 206(2): 243–53.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+273. 	 Wang B, Zou X, Smeets S: Automated serial rotation electron diffraction 
+combined with cluster analysis: An efficient multi-crystal workflow for 
+structure determination. IUCrJ. 2019; 6(Pt 5): 854–67.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+274. 	 Gallagher-Jones M, Ophus C, Bustillo KC, et al.: Nanoscale mosaicity revealed 
+in peptide microcrystals by scanning electron nanodiffraction. Commun Biol. 
+2019; 2: 26.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+275. 	
+ Bücker R, Hogan-Lamarre P, Mehrabi P, et al.: Serial protein crystallography 
+in an electron microscope. Nat Commun. 2020; 11(1): 996.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+Page 17 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

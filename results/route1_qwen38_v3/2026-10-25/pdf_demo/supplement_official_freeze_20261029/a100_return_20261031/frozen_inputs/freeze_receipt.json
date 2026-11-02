@@ -1,0 +1,49 @@
+{
+  "status": "FROZEN_FOR_RUN",
+  "freeze_date": "2026-10-29",
+  "freeze_basis_code": "explicit_user_selection_freeze_and_run",
+  "new_official_list_code": "original_18_plus_two_supplements",
+  "original20_history_preserved": true,
+  "original_held_points": [
+    1,
+    15
+  ],
+  "new_supplement_count": 2,
+  "supplement_case_ids": [
+    "r1pdf:7cec9c89372bb76396f53fdb",
+    "r1pdf:7f30025df2b6e4c93f2addd5"
+  ],
+  "manifest_sha256": "3f22a047e765940e2f1e4c75b7919aadd1caafc0e5726009ac758a18828c31ad",
+  "classifier_config": {
+    "adapter": "Mbio/checkpoint-100",
+    "adapter_sha256_expected": "0f4019af9d0f510408f841797c1038bb19abfee8b6e5f24dc7f222501776bd09",
+    "base_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "reasoning": false
+  },
+  "generation_config": {
+    "max_length": 5120,
+    "max_new_tokens": 512,
+    "enable_thinking": false,
+    "do_sample": false,
+    "retry_policy": "none_keep_first_attempt"
+  },
+  "parser_version": "original_strict_parser",
+  "acceptance_config": {
+    "fixed_denominator": 20,
+    "locator_applicable_points": 20,
+    "locator_minimum_valid": 16,
+    "locator_threshold": 0.8,
+    "separate_reporting": [
+      "engineering",
+      "locator",
+      "explanation_semantics",
+      "classification"
+    ]
+  },
+  "human_review_status": {
+    "LiYun_freeze": "explicit_user_selection_received",
+    "ChenMingjin_locator_review": "pending_after_run_or_before_acceptance"
+  },
+  "model_run_status": "NOT_STARTED_A100_REQUIRED",
+  "prompt_manifest_sha256": "3f22a047e765940e2f1e4c75b7919aadd1caafc0e5726009ac758a18828c31ad"
+}

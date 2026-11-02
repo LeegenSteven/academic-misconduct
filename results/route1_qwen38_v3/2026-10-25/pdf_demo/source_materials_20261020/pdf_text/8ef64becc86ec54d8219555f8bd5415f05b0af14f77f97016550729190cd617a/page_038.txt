@@ -1,0 +1,19 @@
+Text Box 2 AT(N)(C) measures have different roles for definition and staging
+Definition
+A: Aβ biomarkers determine whether or not an individual is in the Alzheimer’s 
+continuum.
+T: Pathologic tau biomarkers determine if someone who is in the Alzheimer’s 
+continuum has Alzheimer’s disease.
+Staging severity
+(N): Neurodegenerative/neuronal injury biomarkers
+(C): Cognitive symptoms
+A and T indicate specific neuropathologic changes that define Alzheimer’s disease, 
+whereas (N) and (C) are not specific to Alzheimer’s disease and are therefore placed in 
+parentheses.
+Jack et al.
+Page 38
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

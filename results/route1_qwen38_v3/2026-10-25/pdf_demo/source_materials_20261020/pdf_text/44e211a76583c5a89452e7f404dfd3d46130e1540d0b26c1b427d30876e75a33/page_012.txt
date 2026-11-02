@@ -1,0 +1,140 @@
+(Mallam et al, 2019). Only WMM features, described below, were
+calculated for Treiber et al.
+HuRI dataset (Luck et al, 2020), which was not included in train-
+ing but was included for evaluation, was downloaded from http://
+interactome.baderlab.org/data/HuRI.tsv. HuRI protein interactions
+were ranked based on the number of assays the interaction was
+identified in.
+Weighted matrix model
+To gain additional information on the probability that two proteins
+interact, we generated additional features using a WMM. The
+WMM is based on the hypergeometric distribution and is described
+in (Hart et al, 2007) and (Drew et al, 2017). Briefly, we used the
+hypergeometric test (equation (1)), where k represents the number
+of experiments when both proteins A and B are identified. Vari-
+ables n and m represent the number of experiments that indepen-
+dently identified protein A and protein B respectively. N represents
+the total number of experiments. The index i is defined from k to
+the minimum of n and m.
+p #sharedexperiments ≥kjn,m,N
+ð
+Þ ¼
+∑
+minðn,mÞ
+i¼k
+n
+i
+ 
+N n
+mi
+
+
+N
+m
+
+
+: (1)
+Our implementation of the WMM is based on presence or
+absence of proteins in individual experiments (e.g., one pull-down).
+Due to the nature of high-throughput experiments, noise arises in
+the form of spurious identifications leading to a protein being erro-
+neously called present in the experiment. To deal with this noise,
+we set arbitrary but sensible cutoffs of the quality of identification
+required for a protein to be considered present in the experiment.
+WMM for Bioplex2.0 was calculated only considering experiments
+for a given protein where the protein had > 2.0 Bioplex2.0 Z score
+and > 4.0 Bioplex2.0 Z score. WMM based on Gupta et al were
+calculated considering all experiments, > 2 average spectral counts,
+and > 4 average spectral counts. WMM based on Boldt et al were
+calculated considering all experiments and > 4 spectral counts.
+WMM based on Treiber et al were calculated considering > 2 spec-
+tral counts and > 4 spectral counts. WMM based on Youn et al were
+calculated considering all experiments, > 2 spectral counts and > 4
+spectral counts. For each calculation, we generate a feature in the
+form of the negative natural log P-value of Equation (1) and the total
+number of experiments the pair of proteins is observed together
+(i.e., pair count).
+All features, precalculated from original publications and WMM,
+were combined into 17,564,755 protein pairs × 292 features matrix.
+Since not all features cover all protein pairs, missing values were
+filled with 0.0. The final feature matrix can be found in the Data
+availability section.
+Gold standard test and training set
+To create a test and training set of literature-curated protein
+complexes, we downloaded the complete set of CORUM complexes
+(Giurgiu et al, 2019) version 2017_07_02 (http://mips.helmholtz-
+muenchen.de/corum/download/corum_2017_07_02.zip)
+and
+fil-
+tered out all non-human proteins. Complexes were merged to elimi-
+nate
+redundancy,
+so
+no
+two
+complexes
+had
+> 0.6
+Jaccard
+coefficient. Complexes were then randomly split into test and train-
+ing sets. A complex was removed from the test or training sets if
+any pairs of proteins overlapped in the other set. Large complexes
+> 30 subunits were removed from the test and training complexes.
+Test and training sets were also generated for pairs of proteins for
+training the SVM classifier. A pair of proteins was labeled “positive”
+if both proteins were in the same complex. A pair was labeled
+“negative” if proteins were in separate complexes. All other pairs
+were left unlabeled. For test and training pairs, only 10% of pairs
+from large complexes were considered. Below is the command line
+used to generate the test and training sets:
+./protein_complex_maps/preprocessing_util/complexes/split_
+complexes.py --input_complexes allComplexes_20170702_geneids_hu
+man.txt --random_seed 1234 --size_threshold 30 --subsample_large_
+complexes 0.1 --remove_large_complexes --remove_largest --merge_
+threshold 0.6
+Additionally, the full test and training sets used in this study can
+be found in the Data availability section.
+Support vector machine model selection and evaluation
+We trained a SVM classifier using Libsvm (Chang & Lin, 2011) to
+classify pairs of proteins as co-complex protein interactions. We first
+generated a feature matrix using the features described above where
+rows are pairs of proteins and columns are features. The feature
+matrix was further labeled using the gold standard training set
+described above. We used fivefold cross-validation using only the
+training set when training to select SVM parameters C and gamma.
+We evaluated a range of C values (2, 8, 32, 128, 512) and gamma
+values (0.00048828125, 0.001953125, 0.0078125, 0.03125). As an
+evaluation metric, we used Area Under the Precision-Recall Curve
+(AUPRC) averaging across the five cross-validation sets. We identi-
+fied C = 512 and gamma = 001953125 with the highest cross-vali-
+dated AUPRC. We retrained a full model using all training data
+using these parameters. We used this final model to predict on all
+pairs in the feature matrix. The final result is a list of pairs with a
+corresponding score generated by model.
+We evaluated the final model using a precision-recall framework
+as shown in Fig 2A. We used the scikit-learn python package
+(preprint: Buitinck et al, 2013) to calculate precision and recall for
+the leave-out gold standard test protein pairs.
+For comparisons between datasets as shown in Fig 2A, we gener-
+ated additional models restricting the features to just those gener-
+ated from the given dataset keeping the parameters C and gamma
+fixed. Note, the HuRI dataset was evaluated using the dataset
+directly as described above.
+We additionally evaluated the SVM confidence score for its fide-
+lity to the test set precision value. We observed that the test set preci-
+sion is consistently higher than the confidence score (Fig EV4). For
+example, a confidence score as low as 0.02 has ~0.5 precision value.
+Two-stage clustering and parameter set selection
+We next used a two-stage clustering approach to identify clusters
+within the protein interaction network generated by the classifi-
+cation step described above (Fig 2B). First, the network was thresh-
+olded based on the SVM score. We then applied the ClusterOne
+(Nepusz et al, 2012) algorithm to identify dense regions in the
+thresholded network. Further, for each dense region produced by
+ClusterOne, we applied the MCL (Enright et al, 2002) algorithm to
+12 of 16
+Molecular Systems Biology
+17: e10016 | 2021
+ª 2021 The Authors
+Molecular Systems Biology
+Kevin Drew et al

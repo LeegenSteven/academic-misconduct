@@ -1,0 +1,87 @@
+The Author(s) BMC Bioinformatics 2017, 18(Suppl 3):80
+Page 99 of 175
+Table 1 A feature comparison of AfterQC with existing tools. From the table we can find that AfterQC is versatile on common quality
+control and data filtering tasks, and offers novel features not implemented by other tools before
+FastQC
+Trimmomatic
+Cutadapt
+AfterQC
+Quality Control
+Rich functions
+Few function
+Few function
+Rich functions
+Auto Trimming
+None
+Read by read
+Read by read
+Global Trimming
+Cutting adapter
+None
+Single-end/pair-end
+Single-end/pair-end
+Pair-end only
+PolyX filtering
+None
+None
+None
+Supported
+Figure plotting
+Static
+Static
+Static
+Interactive
+Overlap analysis
+None
+Cutting adapter only
+None
+Supported with error correction
+Sequence error profiling
+None
+None
+None
+Supported
+Bubble detection
+None
+None
+None
+Supported
+Programming Language
+Java
+Java
+Python
+Python, C
+Speed
+Fast
+Fast
+Fast
+Fast only for single-end
+overlapping analysis and error correction, this feature
+actually converts the pair-end sequencing data into high
+quality clean single-end sequencing data. Since most bases
+are double confirmed by pair-end sequencing, this over-
+lapped data will have very high quality, and due to overlap-
+ping analysis based error correction, the sequence errors
+will be significantly eliminated.
+To evaluate how downstream analysis can benefit from
+AfterQC’s quality control, data filtering and error remov-
+ing effort, we tested somatic variant calling pipelines with
+BWA [15] + Samtools [16] + VarScan2 [17] on both the
+raw data and AfterQC preprocessed data from several
+samples. From the experiment results, we found that large
+percentages of low-frequency somatic mutations called
+from raw data cannot be reproduced from the filtered
+clean data, especially for those mutations with frequency
+under 5%. This result indicates that a large percent-
+age of low-frequency mutations may be false positives
+caused by errors, and AfterQC can help to remove them.
+Figure 9 gives an example showing that a large amount
+of low-frequency mutations are filtered out by AfterQC
+preprocessing.
+Fig. 9 Six sample data were examined in this evaluation experiment, all of them were downloaded from NCBI Sequence Read Archive (accession
+numbers: SRR2496699 SRR2496709, SRR2496731, SRR2496739, SRR2496749, SRR2496716) [18]. AfterQC preprocessed every sample data and
+produced clean data files. BWA + Samtools + VarScan2 pipeline was applied on both raw data (not preprocessed) and clean data (AfterQC
+preprocessed). The variants called from raw data, but not called from clean data were counted. In this figure, values in X-axis denote the mutation
+frequency and the values in Y-axis denote the number of raw data only mutations, with frequency in each of the windows. Mutations with
+frequency lower than 2% are categorized to the first window. From this figure, we can learn that AfterQC helps filtering out lots of low frequency
+mutations, while seeing no difference for relatively high frequency (10%+) mutations

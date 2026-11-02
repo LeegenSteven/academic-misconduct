@@ -1,0 +1,60 @@
+{
+  "status": "A100_REQUIRED_NOT_STARTED",
+  "created_date": "2026-10-29",
+  "manifest": "supplement_official_freeze_20261029/official_supplement_manifest.jsonl",
+  "manifest_sha256": "3f22a047e765940e2f1e4c75b7919aadd1caafc0e5726009ac758a18828c31ad",
+  "run_scope": "two frozen supplement points only; do not rerun original 18",
+  "stages": [
+    "classifier",
+    "explainer"
+  ],
+  "model_config": {
+    "adapter": "Mbio/checkpoint-100",
+    "adapter_sha256_expected": "0f4019af9d0f510408f841797c1038bb19abfee8b6e5f24dc7f222501776bd09",
+    "base_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "reasoning": false
+  },
+  "generation_config": {
+    "max_length": 5120,
+    "max_new_tokens": 512,
+    "enable_thinking": false,
+    "do_sample": false,
+    "retry_policy": "none_keep_first_attempt"
+  },
+  "acceptance_config": {
+    "fixed_denominator": 20,
+    "locator_applicable_points": 20,
+    "locator_minimum_valid": 16,
+    "locator_threshold": 0.8,
+    "separate_reporting": [
+      "engineering",
+      "locator",
+      "explanation_semantics",
+      "classification"
+    ]
+  },
+  "server_requirements": [
+    "A100 with exactly one selected GPU",
+    "offline base model and tokenizer Qwen3.8-27B revision 1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "Mbio checkpoint-100 adapter and expected hash",
+    "PyMuPDF and frozen runtime dependencies",
+    "run output directory must be new and empty"
+  ],
+  "local_check": {
+    "nvidia_smi_available": false,
+    "model_run_started": false
+  },
+  "command_generation_note": "The existing remaining13 runtime hardcodes a 13-point release; do not pass this two-point manifest to that script without a versioned two-point runtime adaptation. Prepare or use a dedicated two-point runtime on A100 and record its code hash before launch.",
+  "next_gate": "A100 operator must use a dedicated two-point runtime adaptation, verify manifest hash and code hash, then launch classifier and explainer separately; preserve logs and exit codes.",
+  "prompt_manifest_sha256": "3f22a047e765940e2f1e4c75b7919aadd1caafc0e5726009ac758a18828c31ad",
+  "runner_script": "run_two_point_a100_20261029.py",
+  "runner_sha256": "3eef92f03c0ead083f98d6f36301226d447011f963ba17f9081aecc2ef5025e5",
+  "prepared_inputs": {
+    "prepared_items": "prepared_items.jsonl",
+    "classification_inputs": "classification.inputs.jsonl",
+    "explanation_inputs": "explanation.inputs.jsonl",
+    "receipt": "preparation_receipt.json"
+  },
+  "instructions": "A100_RUN_INSTRUCTIONS.md",
+  "runtime_correction": "2026-10-31: aligned the runner settings check with two_point_runtime_plan.json; no input/model/config change."
+}

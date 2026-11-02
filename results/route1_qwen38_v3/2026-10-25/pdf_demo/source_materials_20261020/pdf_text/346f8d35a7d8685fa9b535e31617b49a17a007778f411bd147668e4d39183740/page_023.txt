@@ -1,0 +1,132 @@
+JACK ET AL.
+5165
+56. McCarron M, McCallion P, Reilly E, Dunne P, Carroll R, Mulryan N.
+A prospective 20-year longitudinal follow-up of dementia in persons
+with Down syndrome. J Intellect Disabil Res. 2017;61:843-852.
+57. Simuni T, Chahine LM, Poston KL, et al. Biological definition of neu-
+ronal alpha-synuclein disease: towards an integrated staging system
+for research. Lancet Neurol. 2023;23:178-190.
+58. Hoglinger GU, Adler CH, Berg D, et al. A biological classification
+of Parkinson’s disease: the SynNeurGe research diagnostic criteria.
+Lancet Neurol. 2024;23:191-204.
+59. Tabrizi SJ, Schobel S, Gantman EC, et al. A biological classification of
+Huntington’s disease: the Integrated Staging System. Lancet Neurol.
+2022;21:632-644.
+60. Benatar M, Wuu J, McHutchison C, et al. Preventing amyotrophic
+lateral sclerosis: insights from pre-symptomatic neurodegenerative
+diseases. Brain. 2022;145:27-44.
+61. Curtis C, Gamez JE, Singh U, et al. Phase 3 trial of flutemetamol
+labeled with radioactive fluorine 18 imaging and neuritic plaque
+density. JAMA Neurol. 2015;72:287-294.
+62. Sabri O, Sabbagh MN, Seibyl J, et al. Florbetaben PET imaging to
+detect amyloid beta plaques in Alzheimer’s disease: phase 3 study.
+Alzheimers Dement. 2015;11:964-974.
+63. Beach TG, Adler CH, Sue LI, et al. Arizona Study of aging and neu-
+rodegenerative disorders and brain and body donation program.
+Neuropathology. 2015;35:354-389.
+64. Roberts RO, Geda YE, Knopman DS, et al. The Mayo Clinic Study
+of Aging: design and sampling, participation, baseline measures and
+sample characteristics. Neuroepidemiology. 2008;30:58-69.
+65. Administration UFaD. Evaluation of automatic class III designation
+for Lumipulse G β-amyloid ratio (1-42/1-40) Decision Summary. In:
+FDA, ed. 2023.
+66. Administration UFaD. FDA Permits Marketing for New Test to
+Improve Diagnosis of Alzheimer’s Disease. In: Administration USFaD,
+ed. 2022.
+67. Administration UFaD. Center for Devices and Radiological Health.
+Elecsys β-Amyloid (1-42) CSF II, Elecsys Phospho-Tau (181P) CSF:
+510(k) substantial equivalence determination decision summary. In:
+FDA, ed. 2023.
+68. Mattsson-Carlgren N, Grinberg LT, Boxer A, et al. Cerebrospinal
+fluid biomarkers in autopsy-confirmed Alzheimer disease and
+frontotemporal lobar degeneration. Neurology. 2022;98:e1137-
+e1150.
+69. Janelidze S, Bali D, Ashton NJ, et al. Head-to-head comparison of 10
+plasma phospho-tau assays in prodromal Alzheimer’s disease. Brain.
+2023;146:1592-1601.
+70. Janelidze S, Teunissen CE, Zetterberg H, et al. Head-to-head com-
+parison of 8 plasma amyloid-beta 42/40 assays in Alzheimer disease.
+JAMA Neurol. 2021;78:1375-1382.
+71. Zicha S, Bateman RJ, Shaw LM, et al. Comparative analytical perfor-
+mance of multiple plasma Aβ42 and Aβ40 assays and their ability to
+predict positron emission tomography amyloid positivity. Alzheimers
+Dement. 2022;19:956-966.
+72. Nakamura A, Kaneko N, Villemagne VL, et al. High performance
+plasma amyloid-β biomarkers for Alzheimer’s disease. Nature.
+2018;554:249-254.
+73. Thijssen EH, La Joie R, Strom A, et al. Plasma phosphorylated tau 217
+and phosphorylated tau 181 as biomarkers in Alzheimer’s disease
+and frontotemporal lobar degeneration: a retrospective diagnostic
+performance study. Lancet. 2021;20:739-752.
+74. Therriault J, Servaes S, Tissot C, et al. Equivalence of plasma p-tau217
+with cerebrospinal fluid in the diagnosis of Alzheimer’s disease.
+Alzheimers Dement. 2023;19:4967-4977.
+75. Janelidze S, Mattsson N, Palmqvist S, et al. Plasma P-tau181
+in Alzheimer’s disease: relationship to other biomarkers, differ-
+ential diagnosis, neuropathology and longitudinal progression to
+Alzheimer’s dementia. Nat Med. 2020;26:379-386.
+76. Ashton NJ, Brum WS, Di Molfetta G, et al. Diagnostic accuracy of a
+plasma phosphorylated tau 217 immunoassay for Alzheimer disease
+pathology. JAMA Neurol. 2024.
+77. Groot C, Cicognola C, Bali D, et al. Diagnostic and prognostic per-
+formance to detect Alzheimer’s disease and clinical progression of a
+novel assay for plasma p-tau217. Alzheimers Res Ther. 2022;14:67.
+78. Mielke MM, Hagen CE, Xu J, et al. Plasma phospho-tau181 increases
+with Alzheimer’s disease clinical severity and is associated with
+tau- and amyloid-positron emission tomography. Alzheimers Dement.
+2018;14:989-997.
+79. Karikari TK, Pascoal TA, Ashton NJ, et al. Blood phosphorylated tau
+181 as a biomarker for Alzheimer’s disease: a diagnostic performance
+and prediction modelling study using data from four prospective
+cohorts. Lancet Neurol. 2020;19:422-433.
+80. Palmqvist S, Janelidze S, Quiroz YT, et al. Discriminative accuracy of
+plasma phospho-tau217 for Alzheimer disease vs other neurodegen-
+erative disorders. JAMA Neurol. 2020;324:772-781.
+81. Thijssen EH, La Joie R, Wolf A, et al. Diagnostic value of plasma phos-
+phorylated tau181 in Alzheimer’s disease and frontotemporal lobar
+degeneration. Nat Med. 2020;26:387-397.
+82. Palmqvist S, Tideman P, Cullen N, et al. Prediction of future
+Alzheimer’s disease dementia using plasma phospho-tau combined
+with other accessible measures. Nat Med. 2021;27:1034-1042.
+83. Therriault J, Benedet AL, Pascoal TA, et al. Association of plasma P-
+tau181 with memory decline in non-demented adults. Brain Commun.
+2021;3:fcab136.
+84. Moscoso A, Grothe MJ, Ashton NJ, et al. Longitudinal associations
+of blood phosphorylated tau181 and neurofilament light chain with
+neurodegeneration in Alzheimer disease. JAMA Neurol. 2021;78:396-
+406.
+85. Brickman AM, Manly JJ, Honig LS, et al. Plasma p-tau181, p-tau217,
+and other blood-based Alzheimer’s disease biomarkers in a multi-
+ethnic, community study. Alzheimers Dement. 2021;17:1353-1364.
+86. Hansson O, Seibyl J, Stomrud E, et al. CSF biomarkers of Alzheimer’s
+disease concord with amyloid-beta PET and predict clinical progres-
+sion: a study of fully automated immunoassays in BioFINDER and
+ADNI cohorts. Alzheimers Dement. 2018;14:1470-1481.
+87. Ovod V, Ramsey KN, Mawuenyega KG, et al. Amyloid beta con-
+centrations and stable isotope labeling kinetics of human plasma
+specific to central nervous system amyloidosis. Alzheimers Dement.
+2017;13:841-849.
+88. Schindler SE, Bollinger JG, Ovod V, et al. High-precision plasma
+beta-amyloid 42/40 predicts current and future brain amyloidosis.
+Neurology. 2019;93:e1647-e1659.
+89. Brand AL, Lawler PE, Bollinger JG, et al. The performance of
+plasma amyloid beta measurements in identifying amyloid plaques
+in Alzheimer’s disease: a literature review. Alzheimers Res Ther.
+2022;14:195.
+90. Rabe C, Bittner T, Jethwa A, et al. Clinical performance and
+robustness evaluation of plasma amyloid-beta(42/40) prescreening.
+Alzheimers Dement. 2023;19:1393-1402.
+91. Cullen NC, Janelidze S, Mattsson-Carlgren N, et al. Test-retest vari-
+ability of plasma biomarkers in Alzheimer’s disease and its effects on
+clinical prediction models. Alzheimers Dement. 2022.
+92. Jack CR Jr., Wiste HJ, Weigand SD, et al. Defining imaging biomarker
+cut points for brain aging and Alzheimer’s disease. Alzheimers Dement.
+2017;13:205-216.
+93. Klunk WE, Cohen A, Bi W, et al. Why We Need Two Cutoffs for Amyloid-
+Imaging: Early Versus Alzheimer’s-Like Amyloid-Positivity. Alzheimer’s
+Association International Conference; 2012; Alzheimer’s Associa-
+ton: P453-P454.
+94. Brum WS, Cullen NC, Janelidze S, et al. A two-step workflow based
+on plasma p-tau217 to screen for amyloid beta positivity with further
+confirmatory testing only in uncertain cases. Nat Aging. 2023;3:1079-
+1090.

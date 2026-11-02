@@ -1,0 +1,122 @@
+Articles
+www.thelancet.com   Vol 395   February 22, 2020	
+573
+Spring Festival travel rush, during which hundreds of 
+millions of people will travel through China.
+As a typical RNA virus, the average evolutionary rate 
+for coronaviruses is roughly 10–⁴ nucleotide substitutions 
+per site per year,1 with mutations arising during 
+every replication cycle. It is, therefore, striking that 
+the sequences of 2019-nCoV from different patients 
+described here were almost identical, with greater than 
+99·9% sequence identity. This finding suggests that 
+2019-nCoV originated from one source within a very 
+short period and was detected relatively rapidly. 
+However, as the virus transmits to more individuals, 
+constant surveillance of mutations arising is needed.
+Phylogenetic analysis showed that bat-derived corona­
+viruses fell within all five subgenera of the genus 
+Betacoronavirus. Moreover, bat-derived coronaviruses fell 
+in basal positions in the subgenus Sarbecovirus, with 
+2019-nCoV most closely related to bat-SL-CoVZC45 
+and bat-SL-CoVZXC21, which were also sampled from 
+bats.23 These data are consistent with a bat reservoir for 
+coronaviruses in general and for 2019-nCoV in particular. 
+However, despite the importance of bats, several facts 
+suggest that another animal is acting as an intermediate 
+host between bats and humans. First, the outbreak was 
+first reported in late December, 2019, when most bat 
+species in Wuhan are hibernating. Second, no bats were 
+sold or found at the Huanan seafood market, whereas 
+various non-aquatic animals (including mammals) were 
+available for purchase. Third, the sequence identity 
+between 2019-nCoV and its close relatives bat-SL-CoVZC45 
+and bat-SL-CoVZXC21 was less than 90%, which is 
+reflected in the relatively long branch between them. 
+Hence, bat-SL-CoVZC45 and bat-SL-CoVZXC21 are not 
+direct ancestors of 2019-nCoV. Fourth, in both SARS-CoV 
+and MERS-CoV, bats acted as the natural reservoir, 
+with another animal (masked palm civet for SARS-CoV35 
+and dromedary camels for MERS-CoV)36 acting as an 
+intermediate host, with humans as terminal hosts. 
+Therefore, on the basis of current data, it seems likely 
+that the 2019-nCoV causing the Wuhan outbreak might 
+also be initially hosted by bats, and might have been 
+transmitted to humans via currently unknown wild 
+animal(s) sold at the Huanan seafood market.
+Previous studies have uncovered several receptors 
+that different coronaviruses bind to, such as ACE2 for 
+SARS-CoV29 and CD26 for MERS-CoV.30 Our molecular 
+modelling showed structural similarity between the 
+receptor-binding domains of SARS-CoV and 2019-nCoV. 
+Therefore, we suggest that 2019-nCoV might use ACE2 as 
+the receptor, despite the presence of amino acid mutations 
+in the 2019-nCoV receptor-binding domain. Although a 
+previous study using HeLa cells expressing ACE2 
+proteins showed that 2019-nCoV could employ the ACE2 
+receptor,37 whether these mutations affect ACE2 binding 
+or change receptor tropism requires further study.
+Recombination has been seen frequently in coro­
+naviruses.1 As expected, we detected recombination in 
+the Sarbecoviruses analysed here. Our results suggest 
+that recombination events are complex and are more 
+likely occurring in bat coronaviruses than in 2019-nCoV. 
+Hence, despite its occurrence, recombination is probably 
+not the reason for emergence of this virus, although this 
+inference might change if more closely related animal 
+viruses are identified.
+In conclusion, we have described the genomic structure 
+of a seventh human coronavirus that can cause severe 
+pneumonia and have shed light on its origin and 
+Figure 5: Phylogenetic analysis and homology modelling of the receptor-binding domain of the 2019-nCoV, 
+SARS-CoV, and MERS-CoV
+(A) Phylogenetic analysis of the receptor-binding domain from various betacoronaviruses. The star highlights 
+2019-nCoV and the question marks means that the receptor used by the viruses remains unknown. Structural 
+comparison of the receptor-binding domain of SARS-CoV (B), 2019-nCoV (C), and MERS-CoV (D) binding to 
+their own receptors. Core subdomains are magenta, and the external subdomains of SARS-CoV, 2019-nCoV, 
+and MERS CoV are orange, dark blue, and green, respectively. Variable residues between SARS-CoV and 2019-nCoV 
+in the receptor-binding site are highlighted as sticks. CoV=coronavirus. 2019-nCoV=2019 novel coronavirus. 
+SARS-CoV=severe acute respiratory syndrome coronavirus. MERS=Middle East respiratory syndrome coronavirus.
+ Bat-CoV HKU9 
+ HKU1 
+ Bat-CoV HKU5 
+ Bat-SL-CoVZXC21 
+ Bat-SL-CoVZC45 
+ SARS-CoV 
+ 2019-nCoV 
+ MERS-CoV 
+ Bat-CoV HKU4 
+0·05
+?
+?
+Lineage A
+Lineage C
+Lineage B
+Lineage D
+Receptor CD26
+Unknown receptor
+Unknown receptor
+Unknown receptor
+Receptor ACE2
+A
+ACE2
+Ala426
+External
+subdomain
+Core subdomain
+Thr487 Asn479 Leu472
+Asn439
+Asn501 Gln493
+Phe486
+Gly485
+External
+subdomain
+Core subdomain
+?
+External
+subdomain
+Core subdomain
+CD26
+B SARS-CoV
+C 2019-nCoV
+D MERS-CoV

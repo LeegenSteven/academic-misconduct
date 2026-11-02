@@ -1,0 +1,170 @@
+{
+  "case_id": "r1pdf:1dfa922c755ed870245927e3",
+  "original_point_number": 10,
+  "status": "source_positions_verified_candidate_coverage_review_pending",
+  "scope_recommendation": "retain_rare_claim_and_A_negative_T2_positive_referent",
+  "scope": {
+    "case_id": "r1pdf:1dfa922c755ed870245927e3",
+    "pair_id": "r1pair:dd4e358b7151dc90c83a",
+    "dedup_key": "1dfa922c755ed870245927e34bc4dc7308010016dd10d505a7c42fbd9909ac99",
+    "source_pool_candidate_id": "newpair_002_R40_PMC9671808",
+    "target_reference_id": "alz13859-bib-0040",
+    "original_full_context_marked": "Core 2 biomarkers have many uses (Table 2, Box 2) but most often would not be used as standalone diagnostic tests for AD. Caution should be used in interpreting an abnormal Core 2 result in the presence of a normal Core 1 result, because, as discussed in Section 4.3, abnormal amyloid PET (or a biofluid surrogate) is nearly always a prerequisite for neocortical AD tauopathy.35 The A−T2+ biomarker profile36 is not consistent with a diagnosis of AD.37 First, this combination is rare.38–[[TARGET_REFERENCE]]40[[/TARGET_REFERENCE]] Second, when it does occur, it is often due to quantitative values close to cutpoints that may fall on one side versus the other owing to measurement variation.41 As discussed later, biomarkershave sensitivitylimitsand a normal Abiomarker resultdoes not mean that the brain is devoid of plaques, but rather that if plaques are present, the burden does not rise to the detection threshold. Third, from a neuropathologic perspective, A−T2+ corresponds to primary age-related tauopathy, which is not considered to represent AD.5,42",
+    "old_scope_query": "First, this combination is rare.38–40 Second, when it does occur, it is often due to quantitative values close to cutpoints that may fall on one side versus the other owing to measurement variation.41",
+    "primary_scope_pieces": [
+      {
+        "text": "First, this combination is rare.38–40",
+        "normalized_context_start": 453,
+        "normalized_context_end_exclusive": 490,
+        "source_pdf_fragments": [
+          {
+            "pdf_page": 5,
+            "printed_page": null,
+            "char_start": 3188,
+            "char_end_exclusive": 3227,
+            "raw_text": "First, this com-\nbination is rare.38–40",
+            "raw_text_sha256": "d57b23f1218cb5ca32ffe1299bef3f0f4db92b2880fa5599ddf5e1b0b0190b10",
+            "source_blocks": [
+              {
+                "block_number": 44,
+                "bbox": [
+                  306.735,
+                  492.092,
+                  549.52,
+                  502.925
+                ]
+              },
+              {
+                "block_number": 45,
+                "bbox": [
+                  306.735,
+                  505.043,
+                  549.52,
+                  515.876
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ]
+      }
+    ],
+    "context_only_pieces": [
+      {
+        "text": "A−T2+ biomarker profile",
+        "normalized_context_start": 383,
+        "normalized_context_end_exclusive": 406,
+        "source_pdf_fragments": [
+          {
+            "pdf_page": 5,
+            "printed_page": null,
+            "char_start": 3118,
+            "char_end_exclusive": 3141,
+            "raw_text": "A−T2+ biomarker\nprofile",
+            "raw_text_sha256": "0df6cb16d314a5b3c0fee27476cac7a202a3e78e315874c98208bf386865a968",
+            "source_blocks": [
+              {
+                "block_number": 43,
+                "bbox": [
+                  45.517,
+                  711.962,
+                  288.297,
+                  724.083
+                ]
+              },
+              {
+                "block_number": 44,
+                "bbox": [
+                  306.735,
+                  492.092,
+                  549.52,
+                  502.925
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ]
+      }
+    ],
+    "prepared_query": "A−T2+ biomarker profile\nFirst, this combination is rare.38–40",
+    "query_changed": true,
+    "boundary_reason": "当前 r40 在 rare.38–40 组内，需保留 rare 并用 A−T2+ 解消 this combination；测量波动的 Second 分句由 r41 标记，不并入本点。AD 诊断结论仍是上下文，不偷换成被引 r40 必须证明的另一主张。",
+    "scope_status": "assistant_source_boundary_checked",
+    "reviewer_signoff": {
+      "李云": null,
+      "陈明进": null
+    },
+    "exposure": {
+      "prior_retrieval_known": true,
+      "new_model_predictions_seen": false,
+      "independent_blind_claimed": false
+    },
+    "label": null,
+    "joint_adjudication": null
+  },
+  "neighbor_claims_not_attributed_to_reference40": [
+    "Measurement variation and values near cutpoints, referenced to 41",
+    "The preceding diagnostic conclusion referenced separately",
+    "The following neuropathological/PART claim referenced to 5 and 42"
+  ],
+  "candidate_quality_findings": [
+    {
+      "evidence_ids": [
+        "D01:S02",
+        "D01:S05",
+        "D01:S06"
+      ],
+      "issue": "Detached table/risk-table cells; the isolated numeric content cannot establish the target group's numerator, denominator or definition."
+    },
+    {
+      "evidence_ids": [
+        "D01:S07",
+        "D01:S08"
+      ],
+      "issue": "Additional-information/reporting-summary boilerplate, not target evidence."
+    },
+    {
+      "evidence_ids": [
+        "D01:S10"
+      ],
+      "issue": "Reference-list fragment; references cited inside the target article are not automatically this article's own findings."
+    },
+    {
+      "evidence_ids": [
+        "D01:S03"
+      ],
+      "issue": "The roughly 5–10% description concerns neocortical tau positivity among cognitively unimpaired people, not specifically the A-negative/T2-positive conjunction."
+    }
+  ],
+  "supplemental_source_proposal": {
+    "record_file": "遗漏正文位置_补充只读未应用.json",
+    "source_reported_group_n": 34,
+    "active_evidence_id_assigned": false,
+    "population_prevalence_computed": false,
+    "remaining_checks": [
+      "Align the citing T2 notation with this study's PET-based T+ definition and regions.",
+      "Keep the cognitively-unimpaired, study-cohort selection; do not generalize a population prevalence.",
+      "Resolve or explicitly quarantine the Figure 2 caption/legend group-label discrepancy before using that figure's numbers."
+    ]
+  },
+  "input_revision_recommended_before_new_execution": true,
+  "recommendation_is_assistant_preparation_only": true,
+  "hold_written_to_runtime_release": false,
+  "active_scope_or_input_changed": false,
+  "existing_top10_changed": false,
+  "new_retrieval_run": false,
+  "human_scope_confirmation": {
+    "李云": null,
+    "陈明进": null
+  },
+  "classification_label": null,
+  "joint_adjudication": null,
+  "independent_blind_review_claimed": false,
+  "formal_end_to_end_accepted": false,
+  "fixed_denominator": 20,
+  "model_loaded": false,
+  "inference_performed": false
+}

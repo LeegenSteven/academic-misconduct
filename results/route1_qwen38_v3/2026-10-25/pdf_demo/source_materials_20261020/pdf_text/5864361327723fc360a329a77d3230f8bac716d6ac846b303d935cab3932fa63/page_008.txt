@@ -1,0 +1,135 @@
+Articles
+www.thelancet.com   Vol 395   February 22, 2020	
+571
+Sarbecovirus could be classified into three well supported 
+clades: two SARS-CoV-related strains from Rhinolophus sp 
+from Bulgaria (accession number GU190215) and Kenya 
+(KY352407) formed clade 1; the ten 2019-nCoV from 
+Wuhan and the two bat-derived SARS-like strains from 
+Zhoushan in eastern China (bat-SL-CoVZC45 and 
+bat-SL-CoVZXC21) formed clade 2, which was notable for 
+the long branch separating the human and bat viruses; 
+and SARS-CoV strains from humans and many genetically 
+similar SARS-like corona­viruses from bats collected 
+from southwestern China formed clade 3, with bat-derived 
+coronaviruses also falling in the basal positions (figure 3). 
+In addition, 2019-nCoV was distinct from SARS-CoV 
+in a phylogeny of the complete RNA-dependent RNA 
+polymerase (RdRp) gene (appendix p 2). This evidence 
+indicates that 2019-nCoV is a novel beta­coronavirus 
+from the subgenus Sarbecovirus.
+As the sequence similarity plot revealed changes in 
+genetic distances among viruses across the 2019-nCoV 
+genome, we did additional phylogenetic analyses of 
+the major encoding regions of representative members 
+of the subgenus Sarbecovirus. Consistent with the 
+genome phylogeny, 2019-nCoV, bat-SL-CoVZC45, and 
+bat-SL-CoVZXC21 clustered together in trees of 
+the 1a and spike genes (appendix p 3). By contrast, 
+2019-nCoV did not cluster with bat-SL-CoVZC45 and 
+bat-SL-CoVZXC21 in the 1b tree, but instead formed a 
+distinct clade with SARS-CoV, bat-SL-CoVZC45, and 
+bat-SL-CoVZXC21 (appendix p 3), indicative of potential 
+recombination events in 1b, although these probably 
+occurred in the bat coronaviruses rather than 2019-nCoV. 
+Phylogenetic analysis of the 2019-nCoV genome ex­
+cluding 1b revealed similar evolutionary relationships as 
+the full-length viral genome (appendix p 3).
+The envelope spike (S) protein mediates receptor 
+binding and membrane fusion24 and is crucial for 
+determining host tropism and transmission capacity.25,26 
+Generally, the spike protein of coronaviruses is func­
+tionally divided into the S1 domain (especially positions 
+318–510 of SARS-CoV), responsible for receptor binding, 
+Figure 3: Phylogenetic analysis of full-length genomes of 2019-nCoV and representative viruses of the genus Betacoronavirus
+2019-nCoV=2019 novel coronavirus. MERS-CoV=Middle East respiratory syndrome coronavirus. SARS-CoV=severe acute respiratory syndrome coronavirus.
+SARS-CoV
+2019-nCoV
+MERS-CoV
+Sarbecovirus
+Hibecovirus
+Nobecovirus
+Embevovirus
+Merbecovirus
+Bat-SL-CoV
+Bat-SL-CoV
+Clade 2
+Clade 1
+0·2
+KY417146|Rs4231|Yunnan
+KJ473814|BtRs-BetaCoV/HuB2013|Hubei
+KJ473816|BtRs-BetaCoV/YN2013|Yunnan
+EF065505|Bat_coronavirus_HKU4-1|B04f|Guangdong
+WH19008|2019-12-30
+KY417152|Rs9401|Yunnan
+WH04|2020-01-05
+KF294457|Longquan-140|China
+WH03|2020-01-01
+GU190215|Bat_coronavirus|BM48-31/BGR/2008|Bulgaria
+EF065509|Bat_coronavirus_HKU5-1|LMH03f|Guangdong
+WH19005|2019-12-30
+JX993987|Shaanxi2011
+DQ648857|Bat_CoV_279/2005|Hubei
+KY417142|As6526|Yunnan
+AY390556|SARS-CoV_GZ02|Guangzhou
+WH02|2019-12-31
+KY352407|SARS-related_coronavirus|BtKY72|Kenya
+KY770859|Anlong-112|Guizhou
+MG772934|bat-SL-CoVZXC21|Zhejiang
+KY417151|Rs7327|Yunnan
+WH19002|2019-12-30
+KY417145|Rf4092|Yunnan
+FJ647223|Murine_coronavirus_MHV-1|USA
+Q084200|HKU3-3|HK/2005
+JX993988|Yunnan2011
+WH19001|2019-12-30
+WH01|2019-12-26
+AY508724|SARS-CoV_NS-1
+KY417148|Rs4247|Yunnan
+KT444582|WIV16|Yunnan
+KJ473815|BtRs-BetaCoV/GX2013|Guangxi
+AY485277|SARS-CoV_Sino1-11
+MK167038|Human_coronavirus_HKU1|SC2521|USA
+AY278489|SARS-CoV_GD01
+JX869059|Human_betacoronavirus_2c_EMC/2012|HCoV-EMC|Saudi Arabia
+KC545386|Betacoronavirus_Erinaceus/VMC/DEU/2012|ErinaceusCoV/2012-216/GER/2012|Germany
+GQ153547|HKU3-12|HK/2005
+MK211377|BtRs-BetaCoV/YN2018C|Yunnan
+MK211376|BtRs-BetaCoV/YN2018B|Yunnan
+MK211374|BtRl-BetaCoV/SC2018|China
+YS8011|2020-01-07
+WH19004|2020-01-01
+EF065513|Bat_coronavirus_HKU9-1|BF_005I|Guangdong
+MG772933|bat-SL-CoVZC45|Zhejiang
+AY391777|Human_coronavirus_OC43|ATCC_VR-759|UK
+KM349744|Betacoronavirus_HKU24|HKU24-R05010I|China
+GQ153542|HKU3-7|HK/2007
+KU762338|Rousettus_bat_coronavirus|GCCDC1_356|China
+KF636752|Bat_Hp-betacoronavirus/Zhejiang2013
+100
+100
+100
+100
+100
+100
+100
+76
+100
+100
+100
+100
+100
+100
+100
+86
+100
+100
+100
+95
+100
+100
+100
+100
+100
+100
+Clade 3

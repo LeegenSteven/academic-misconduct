@@ -1,0 +1,48 @@
+Although the term “stage” is more familiar, we use the term “biomarker profile” (Table 2) 
+because the term “stage” implies a sequence, that is, stage 1 always precedes stage 2, etc. 
+The AT(N) biomarker system does not imply a specific order of events nor does it imply 
+causality. It is a system for grouping biomarkers and classifying research participants on the 
+basis of biomarker profiles. A−T−(N)− represents a state without evidence of pathologic 
+change that is detectable by AT(N) biomarkers, whereas A+T+(N)+ represents an advanced 
+pathologic state. Staging can be accomplished by combining information from each of the 
+three biomarker groups; the more biomarker groups that are abnormal, the more advanced 
+the pathologic stage. The rate of cognitive decline is significantly greater for cognitively 
+impaired and CU individuals who have abnormalities in both an amyloid biomarker and a 
+second biomarker type (which could be CSF T-tau or P-tau, atrophy, or hypometabolism) in 
+comparison to individuals who have neither or only one of these biomarker abnormalities 
+[30–35,39,40,42–45]. These data firmly establish that more advanced disease defined by 
+biomarkers predicts greater likelihood of and more rapid cognitive decline. Thus, a solid 
+evidence base exists proving that combinations of biomarker abnormalities are useful for 
+staging the Alzheimer’s continuum.
+8.1. Alternatives to binary biomarker groups
+Given that Alzheimer’s pathologic change and AD are defined by biomarkers, a single cut 
+point is needed in many situations. However, as pointed out in the AT(N) position paper 
+[16], other options are possible. In many research situations, biomarkers are best treated as 
+continuous variables. For example, the risk of short-term cognitive decline increases 
+continuously with worsening (N) biomarkers, and this may be true of T biomarkers as well 
+[108,109].
+A three-range approach might also be useful where the three ranges are defined by two cut 
+points, one lenient and the other more conservative [16,110,111]. If these three ranges were 
+labeled—clearly normal (0), intermediate range (1), and clearly abnormal (2)—then a two–
+cut point biomarker profile might look like A2T1(N)0, etc. Designating an intermediate 
+range using two cut points has evolved in other diseases for clinical care, for example, pre-
+hypertension (a stage now called “elevated”) and prediabetes have proved to be useful 
+constructs in medicine. Numeric severity grading within different pathologic categories is 
+also analogous to the tumor, nodes, metastasis (TNM) system used for staging all non–
+central nervous system solid tumors [112,113]. Characteristics of the primary tumor (T) are 
+graded from 0–1; nodal (N) involvement from 0–3; and distant metastases (M) are graded 0–
+1.
+8.2. Personalized medicine
+The AT(N) system moves AD research in the direction of personalized medicine by coding 
+pathologic change in three categories for each research participant and allows for future 
+flexibility by adding other biomarkers as they are discovered and validated. This level of 
+granularity in biomarker classification, combined with genetic and clinical information, will 
+presumably be useful in tailoring treatment to the individual when appropriate specific 
+treatments become available.
+Jack et al.
+Page 9
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

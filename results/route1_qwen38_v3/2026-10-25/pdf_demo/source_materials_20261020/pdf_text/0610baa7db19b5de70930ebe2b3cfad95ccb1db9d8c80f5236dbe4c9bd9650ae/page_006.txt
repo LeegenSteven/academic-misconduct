@@ -1,0 +1,211 @@
+gain in unique alignments shown if mismatch tolerant aligner
+settings are used, although a more substantial difference could
+be seen when perfect matches were required. In practice, how-
+ever, given a high-quality dataset like this, the benefits to a
+downstream application such as variant calling are likely to be
+small.
+The second dataset, which had reads with substantially lower
+quality, illustrated that even reference-based tasks can benefit
+substantially from read preprocessing. Less than 25% of reads
+could be aligned by BWA without preprocessing. This could be
+improved to almost 80% by preprocessing, with almost 78%
+aligning even with strict settings.
+In the de novo assembly scenario, trimming was needed to
+ensure adapter sequences would not be incorporated into the
+newly assembled genome. This benefit was accompanied by a
+significant 58%/77% improvement in N50, respectively, and
+28%/55% improvement, respectively, in maximum contig size
+for two datasets. The substantial improvement in assembly stat-
+istics further justifies the preprocessing of reads for de novo
+assembly.
+It is perhaps not surprising that preprocessing is so beneficial
+to de novo assembly, as many assembly tools, including velvet, do
+not exploit quality scores and thus treat all data equally, regard-
+less of the known difference in quality. The effect of adapter
+sequences is also more serious, given the risk of incorporating
+adapter sequences into the final sequence assembly, compared
+with the mere reduction in the alignment rate typically seen in
+reference-based approaches.
+5.2
+Comparison against existing tools
+Trimmomatic compared favorably against all other tools in the
+tests performed.
+When using high-quality raw data and liberal alignment
+criteria, the differences between the tools were relatively small.
+In this scenario, AdapterRemoval performed particularly well,
+reflecting its relative strength in removing technical sequences.
+This is unsurprising because, to the authors’ knowledge,
+AdapterRemoval is the only other tool to implement a pair-
+aware adapter removal strategy.
+Nonetheless, the use of strict alignment criteria, especially
+when combined with poor-quality input data, allows the differ-
+ences between the tools to become clearer. In these scenarios,
+appropriate trimming based on quality seems to be more import-
+ant, whereas technical sequence identification appeared to matter
+less. This helps explain the change in relative rankings of the
+tools
+between
+the
+two
+datasets.
+Trimmomatic
+with
+the
+Maximum Information mode seems to perform exceptionally
+well in these challenging scenarios.
+Funding: We want to thank the BMBF for funding through
+grants 0315702F, 0315961 and 0315049A and BLE/BMELV
+Verbundprojekt: G 127/10 IF.
+Conflict of Interest: none declared.
+Table 2. Results of Bowtie2 alignment of dataset 1 showing raw data and
+the trimmed data by each tool
+Dataset/alignment
+Reads
+Alignment (paired)a
+Run timeb (s)
+Tolerant alignment
+Unfiltered
+11 008190
+9 018810 (8,323,786)
+N/A
+Fastx-Toolkit
+9 631977
+8 073757 (N/A)
+670.1/356.3
+Reaper
+9 428331
+9 057448 (N/A)
+324.8/166.8
+Cutadapt
+9 456172
+9 127667 (N/A)
+342.5/176.7
+EA-Utils
+8 995134
+8 662596 (8578 790)
+9.3/8.0
+Scythe/Sickle
+9 453459
+9 133464 (8636 984)
+529.3/279.7
+AdapterRemoval
+9 456350
+9 147915 (8689 668)
+960.2
+Trimmomatic SW
+9 456819
+9 150361 (8693 000)
+33.7/9.6
+Trimmomatic MI
+9 456819
+9 153375 (8 697 690)
+34.3/9.7
+Strict alignment
+Unfiltered
+11 008190
+6 401927 (4857 606)
+N/A
+Fastx-Toolkit
+8 263345
+7 187257 (N/A)
+—
+Reaper
+9 355765
+8 010326 (N/A)
+—
+Cutadapt
+9 390371
+8 086428 (N/A)
+—
+EA-Utils
+8 910356
+7 757108 (7056 242)
+—
+Scythe/Sickle
+9 339668
+8 060612 (6993 076)
+—
+AdapterRemoval
+9 454189
+8 103596 (7050 788)
+—
+Trimmomatic SW
+9 355985
+8 111470 (7068 406)
+—
+Trimmomatic MI
+9 456124
+8 748401 (8 053 230)
+—
+Note: Both quality modes are shown for Trimmomatic. Best values are indicated in
+bold. MI indicates Maximum Information mode, and SW indicates Sliding Window
+mode.
+aTotal reads aligned, and the subset that are aligned as pairs.
+bShows wall time, for both serial and parallel execution. See Supplementary
+Methods for more details.
+Table 3. Results of strict and tolerant BWA alignments of the raw data
+and trimmed data from each tool (using both quality modes for
+Trimmomatic) from both datasets
+Dataset
+Strict alignmentsa
+Tolerant
+alignmentsb
+Dataset 1
+Unfiltered
+7 834544
+8 750851
+Fastx-Toolkit
+7 187257
+7 894580
+Reaper
+8 010326
+8 894757
+Cutadapt
+8 086428
+8 968519
+EA-Utils
+8 059850
+8 896724
+Scythe/Sickle
+8 755676
+9 076936
+AdapterRemoval
+8 810051
+9 108691
+Trimmomatic SW
+8 810063
+9 110831
+Trimmomatic MI
+9 056403
+9 145423
+Dataset 2
+Unfiltered
+11592
+60010
+AdapterRemoval
+513133
+574973
+Fastx-Toolkit
+525519
+550695
+EA-Utils
+538472
+588046
+Scythe/Sickle
+567976
+588135
+Cutadapt
+568044
+613089
+Trimmomatic SW
+590729
+628867
+Trimmomatic MI
+634779
+639740
+Note: Best values are indicated in bold. MI indicates Maximum Information mode,
+and SW indicates Sliding Window mode.
+aReads aligned, zero mismatches permitted.
+bReads aligned, one mismatch allowed.
+2119
+Trimmomatic: a flexible trimmer for Illumina sequence data

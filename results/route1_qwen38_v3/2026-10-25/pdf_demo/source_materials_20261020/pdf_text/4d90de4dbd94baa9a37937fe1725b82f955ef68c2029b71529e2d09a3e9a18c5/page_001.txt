@@ -1,0 +1,71 @@
+ 
+Open Peer Review
+Faculty Reviews are review articles written by the
+prestigious Members of 
+. The
+Faculty Opinions
+articles are commissioned and peer reviewed before
+publication to ensure that the final, published version
+is comprehensive and accessible. The reviewers
+who approved the final version are listed with their
+names and affiliations.
+Any comments on the article can be found at the
+end of the article.
+REVIEW
+Advances in methods for atomic resolution macromolecular
+ 
+structure determination [version 1; peer review: 2 approved]
+Michael C. Thompson , 
+ 
+Todd O. Yeates
+, Jose A. Rodriguez2,3
+Department of Chemistry and Chemical Biology, University of California, Merced, CA, USA
+Department of Chemistry and Biochemistry, University of California Los Angeles, Los Angeles, CA, USA
+UCLA-DOE Institute for Genomics and Proteomics, Los Angeles, CA, USA
+Abstract
+Recent technical advances have dramatically increased the power and
+scope of structural biology. New developments in high-resolution
+cryo-electron microscopy, serial X-ray crystallography, and electron
+diffraction have been especially transformative. Here we highlight some of
+the latest advances and current challenges at the frontiers of atomic
+resolution methods for elucidating the structures and dynamical properties
+of macromolecules and their complexes.
+Keywords
+Structural biology, x-ray crystallography, electron microscopy, electron
+diffraction, computational methods
+1
+2,3
+2,3
+1
+2
+3
+ 
+ 
+Reviewer Status
+ 
+Invited Reviewers
+ 
+version 1
+02 Jul 2020
+ 
+1
+2
+, Arizona State University,
+John C. H. Spence
+Tempe, USA
+1
+, University of Michigan, Ann Arbor,
+Janet Smith
+USA
+2
+ 02 Jul 2020,  (Faculty Rev):667 
+First published:
+9
+https://doi.org/10.12688/f1000research.25097.1
+ 02 Jul 2020,  (Faculty Rev):667 
+Latest published:
+9
+https://doi.org/10.12688/f1000research.25097.1
+v1
+Page 1 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

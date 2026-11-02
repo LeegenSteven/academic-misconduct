@@ -1,0 +1,41 @@
+{
+  "status": "RECEIVED_DIAGNOSTIC_ACK_PDB_PROPOSAL_PREPARED_NO_ADJUDICATION",
+  "recorded_at_utc": "2026-10-23T12:55:26.393750+00:00",
+  "timestamp_meaning": "Automated receipt/preparation time, not a human review time",
+  "new_v2_changes_limited_to_cpu_diagnostic_section_and_section_number": true,
+  "original_source_files_sha256": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\assembled\\records.jsonl": "495e96f319bc49d062460f14f9c23fccb62a18427c3ac0a0c1cab821a24fd2b5",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\首批5点语义核对_陈明进_v2_20261022.md": "4879f6ea33fd9af6db28acd4d1f0877134aa23480f04a3269384e1dd34c17896",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\首批5点摘录诊断确认_陈明进_20261023.txt": "5b92b2095109cb539c76a93bcde08f1ee875c5847b902d9c16076638e9a46fb7",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\first5_cmj_reply_v2_2026-10-23\\首批5点语义核对_陈明进_v2_20261022.md": "876c57b94552fb4dfc37b49504e91aaf4a4085a71057b4a6817172dda297bb6b",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC8371605.1\\PMC8371605.1.pdf": "6eae057a9faf4f671c3101e0745ed704460c6d3dec77243dfd3a9f2d2ab68970",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC6324056.1\\PMC6324056.1.pdf": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\first5_quote_mapping_trial_2026-10-23\\诊断摘要.json": "96f062b6548ec6e3e10e41601a95eaa3000d701f23659842cdc471e55c191bb9",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\first5_quote_mapping_trial_2026-10-23\\逐条摘录映射_非验收.jsonl": "fb0923153196d62be6c20fcb8e36cb4c184c3091cc349ad02709114fb11dc7ed",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\first5_quote_mapping_trial_2026-10-23\\断词复核项_未签核.json": "7decc222b7a0415d149c8e96b873aa7287bb2463ce93107512c53c03c0575654",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\readiness_2026-10-23\\point_readiness.jsonl": "d2ffae2e499625f4b02e8c91e6847d540635c6244d1879c8990b063c9c5e86c5",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\readiness_2026-10-23\\summary.json": "0518704baf8ed003c72b90fdf34e25db9ecb4a4f6aa9cc74ed689b80b5f626f3",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\acceptance.csv": "d98bb17257e38ba857f573465d97b03472434e05d43f807268a26641928e650d"
+  },
+  "new_model_runs": 0,
+  "new_human_confirmations": 0,
+  "new_formal_end_to_end_acceptances": 0,
+  "existing_strict": {
+    "success": 1,
+    "attempted": 5
+  },
+  "existing_fence_only_supplement": {
+    "success": 3,
+    "attempted": 5
+  },
+  "fixed_denominator": 20,
+  "all_originals_unchanged": true,
+  "files_sha256": {
+    "PDB_共同裁决建议_待确认.json": "e59d94ae7e2ddbd0d3aac1a6c3e505b602cdf51a09668910e097371b14e39a7f",
+    "PDB_来源核对.json": "00f189df03b9612c5011c19c2342218e38d13d8145ded9a60599c53caf011b58",
+    "共同裁决建议.md": "6a41a6588e04584ce9e1491aa37c322a0eaae09c93899895c7e9b59ce058f04c",
+    "最新v2与前次接收差异.diff": "a57521e216e9333563f40bce30538f9076019cd1ee32d775a442d40199ee24e4",
+    "首批5点摘录诊断确认_陈明进_20261023.txt": "5b92b2095109cb539c76a93bcde08f1ee875c5847b902d9c16076638e9a46fb7",
+    "首批5点语义核对_陈明进_v2_20261022.md": "4879f6ea33fd9af6db28acd4d1f0877134aa23480f04a3269384e1dd34c17896"
+  }
+}

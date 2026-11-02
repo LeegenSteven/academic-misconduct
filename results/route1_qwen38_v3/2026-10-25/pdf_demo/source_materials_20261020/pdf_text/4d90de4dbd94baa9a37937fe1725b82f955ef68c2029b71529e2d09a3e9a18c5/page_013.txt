@@ -1,0 +1,183 @@
+87. 	
+ Neumann P, Dickmanns A, Ficner R: Validating Resolution Revolution. 
+Structure. 2018; 26(12): 785–795.e4.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+88. 	
+Williams CJ, Headd JJ, Moriarty NW, et al.: MolProbity: More and better 
+reference data for improved all-atom structure validation. Protein Sci. 2018; 
+27(1): 293–315.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+89. 	
+Heymann JB, Marabini R, Kazemi M, et al.: The first single particle analysis Map 
+Challenge: A summary of the assessments. J Struct Biol. 2018; 204(2): 291–300. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+90. 	
+ Avramov T, Vyenielo D, Gomez-Blanco J��, et al.: Deep Learning for Validating 
+and Estimating Resolution of Cryo-Electron Microscopy Density Maps †. 
+Molecules. 2019; 24(6): 1181.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+91. 	
+Rohou A: Fourier shell correlation criteria for local resolution estimation. 
+Biophysics. 2020.  
+Publisher Full Text 
+92. 	
+ Herzik MA, Fraser JS, Lander GC: A Multi-model Approach to Assessing 
+Local and Global Cryo-EM Map Quality. Structure. 2019; 27(2): 344–358.e3. 
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+93. 	
+Barad BA, Echols N, Wang RYR, et al.: EMRinger: Side chain–directed model 
+and map validation for 3D cryo-electron microscopy. Nat Methods. 2015; 12(10): 
+943–6.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+94. 	
+ Chen CY, Chang YC, Lin BL, et al.: Temperature-Resolved Cryo-EM 
+Uncovers Structural Bases of Temperature-Dependent Enzyme Functions. J 
+Am Chem Soc. 2019; 141(51): 19983–7.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+95. 	
+Liao HY, Hashem Y, Frank J: Efficient Estimation of Three-Dimensional 
+Covariance and its Application in the Analysis of Heterogeneous Samples in 
+Cryo-Electron Microscopy. Structure. 2015; 23(6): 1129–37.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+96. 	
+Scheres SHW: Processing of Structurally Heterogeneous Cryo-EM Data in 
+RELION. Methods Enzymol. 2016; 579: 125–57.  
+PubMed Abstract | Publisher Full Text 
+97. 	
+ Nakane T, Kimanius D, Lindahl E, et al.: Characterisation of molecular 
+motions in cryo-EM single-particle data by multi-body refinement in RELION. 
+eLife. 2018; 7: e36861.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+98. 	
+Zhang W, Kimmel M, Spahn CMT, et al.: Heterogeneity of large macromolecular 
+complexes revealed by 3D cryo-EM variance analysis. Structure. 2008; 16(12): 
+1770–6.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+99. 	
+Tagare HD, Kucukelbir A, Sigworth FJ, et al.: Directly reconstructing principal 
+components of heterogeneous particles from cryo-EM images. J Struct Biol. 
+2015; 191(2): 245–62.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+100. 	 Dashti A, Schwander P, Langlois R, et al.: Trajectories of the ribosome as a 
+Brownian nanomachine. Proc Natl Acad Sci U S A. 2014; 111(49): 17492–7. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+101. 	 Frank J, Ourmazd A: Continuous changes in structure mapped by manifold 
+embedding of single-particle data in cryo-EM. Methods. 2016; 100: 61–7. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+102. 	 Chen B, Frank J: Two promising future developments of cryo-EM: Capturing 
+short-lived states and mapping a continuum of states of a macromolecule. 
+Microscopy (Oxf). 2016; 65(1): 69–79.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+103. 	 Maeda S, Koehl A, Matile H, et al.: Development of an antibody fragment that 
+stabilizes GPCR/G-protein complexes. Nat Commun. 2018; 9(1): 3712.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+104. 	 Zimmermann I, Egloff P, Hutter CA, et al.: Synthetic single domain antibodies 
+for the conformational trapping of membrane proteins. eLife. 2018; 7: e34317. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+105. 	 Uchański T, Pardon E, Steyaert J: Nanobodies to study protein conformational 
+states. Curr Opin Struct Biol. 2020; 60: 117–123.  
+PubMed Abstract | Publisher Full Text 
+106. 	 Basu K, Green EM, Cheng Y, et al.: Why recombinant antibodies — benefits and 
+applications. Curr Opin Biotechnol. 2019; 60: 153–158.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+107. 	
+ Dutka P, Mukherjee S, Gao X, et al.: Development of “Plug and Play” 
+Fiducial Marks for Structural Studies of GPCR Signaling Complexes by Single-
+Particle Cryo-EM. Structure. 2019; 27(12): 1862–1874.e7.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+108. 	 Kim J, Wu S, Tomasiak TM, et al.: Subnanometre-resolution electron 
+cryomicroscopy structure of a heterodimeric ABC exporter. Nature. 2015; 
+517(7534): 396–400.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+109. 	 Grimes JM, Hall DR, Ashton AW, et al.: Where is crystallography going? Acta 
+Crystallogr D Struct Biol. 2018; 74(Pt 2): 152–166.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+110. 	 Cymborowski M, Klimecka M, Chruszcz M, et al.: To automate or not to automate: 
+This is the question. J Struct Funct Genomics. 2010; 11(3): 211–21.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+111. 	
+ Sanchez-Weatherby J, Sandy J, Mikolajek H, et al.: VMXi: A fully automated, 
+fully remote, high-flux in situ macromolecular crystallography beamline.  
+J Synchrotron Rad. 2019; 26(Pt 1): 291–301.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+112. 	 Krojer T, Talon R, Pearce N, et al.: The XChemExplorer graphical workflow 
+tool for routine or large-scale protein-ligand structure determination. Acta 
+Crystallogr D Struct Biol. 2017; 73(Pt 3): 267–78.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+113. 	 Pearce NM, Bradley AR, Krojer T, et al.: Partial-occupancy binders identified by 
+the Pan-Dataset Density Analysis method offer new chemical opportunities 
+and reveal cryptic binding sites. Struct Dyn. 2017; 4(3): 32104.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+114. 	
+ Pearce NM, Krojer T, Bradley AR, et al.: A multi-crystal method 
+for extracting obscured crystallographic states from conventionally 
+uninterpretable electron density. Nat Commun. 2017; 8: 15123.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+115. 	 Keedy DA, Hill ZB, Biel JT, et al.: An expanded allosteric network in PTP1B by 
+multitemperature crystallography, fragment screening, and covalent tethering. 
+eLife. 2018; 7: e36307.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+116. 	 Haas DJ: The early history of cryo-cooling for macromolecular crystallography. 
+IUCrJ. 2020; 7(2): 148–57.  
+Publisher Full Text 
+117. 	 Pflugrath JW: Practical macromolecular cryocrystallography. Acta Crystallogr F 
+Struct Biol Commun. 2015; 71(Pt 6): 622–42.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+118. 	
+ Nave C, Garman EF: Towards an understanding of radiation damage in 
+cryocooled macromolecular crystals. J Synchrotron Rad. 2005; 12(Pt 3): 257–60. 
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+119. 	 Garman E: ‘Cool’ crystals: Macromolecular cryocrystallography and radiation 
+damage. Curr Opin Struct Biol. 2003; 13(5): 545–51.  
+PubMed Abstract | Publisher Full Text 
+120. 	 Holton JM: A beginner’s guide to radiation damage. J Synchrotron Rad. 2009; 
+16(Pt 2): 133–42.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+121. 	 Garman EF, Weik M: Radiation Damage in Macromolecular Crystallography. 
+Methods Mol Biol. 2017; 1607: 467–89.  
+PubMed Abstract | Publisher Full Text 
+122. 	 Tilton RF Jr, Dewan JC, Petsko GA: Effects of temperature on protein structure 
+and dynamics: X-ray crystallographic studies of the protein ribonuclease-A 
+at nine different temperatures from 98 to 320 K. Biochemistry. 1992; 31(9): 
+2469–81.  
+PubMed Abstract | Publisher Full Text 
+123. 	 Halle B: Biomolecular cryocrystallography: Structural changes during flash-
+cooling. Proc Natl Acad Sci U S A. 2004; 101(14): 4793–8.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+124. 	 Frauenfelder H, Chen G, Berendzen J, et al.: A unified model of protein 
+dynamics. Proc Natl Acad Sci U S A. 2009; 106(13): 5129–34.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+125. 	
+ Fraser JS, Clarkson MW, Degnan SC, et al.: Hidden alternative structures 
+of proline isomerase essential for catalysis. Nature. 2009; 462(7273): 669–73. 
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+126. 	 Keedy DA, Kenner LR, Warkentin M, et al.: Mapping the conformational 
+landscape of a dynamic enzyme by multitemperature and XFEL 
+crystallography. eLife. 2015; 4: e07574.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+127. 	 Biel JT, Thompson MC, Cunningham CN, et al.: Flexibility and Design: 
+Conformational Heterogeneity Along the Evolutionary Trajectory of a 
+Redesigned Ubiquitin. Structure. 2017; 25(5): 739–749.e3.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+128. 	 Acker TM, Gable JE, Bohn M-F, et al.: Allosteric Inhibitors, Crystallography, 
+and Comparative Analysis Reveal Network of Coordinated Movement Across 
+Human Herpesvirus Proteases. J Am Chem Soc. 2017; 139(34): 11650–3. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+129. 	 Winter G, Gildea RJ, Paterson NG, et al.: How best to use photons. Acta 
+Crystallogr D Struct Biol. 2019; 75(Pt 3): 242–61.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+130. 	 Winter G, Waterman DG, Parkhurst JM, et al.: DIALS: Implementation and 
+evaluation of a new integration package. Acta Crystallogr D Struct Biol. 2018; 
+74(Pt 2): 85–97.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+131. 	
+ Ueno G, Shimada A, Yamashita E, et al.: Low-dose X-ray structure analysis 
+Page 13 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

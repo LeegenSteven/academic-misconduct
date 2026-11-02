@@ -1,0 +1,119 @@
+The
+correctness
+probabilities
+Pcorr
+of
+each
+base
+are
+calculated from the sequence quality scores. The error score
+typically begins as a high score at the start of the read, and
+depending on the read quality, typically drops rapidly at some
+point during the read.
+The Maximum Information algorithm determines the com-
+bined score of the three factors for each possible trimming pos-
+ition, and the best combined score determines how much of the
+read to trim. A user-specified strictness setting s, which can be set
+between 0 and 1, controls the balance between the ‘coverage’
+factor (maximal for s ¼ 0) and the ‘error rate’ factor (maximal
+for s ¼ 1). This gives the following overall formula:
+Score lð Þ ¼
+1
+1 þ etl
+ð
+Þ :lð1sÞ:
+Y
+l
+i¼1
+Pcorr½i
+ 
+!s
+Figure 3 illustrates how the three factors are combined into a
+single score. The peak score is then used to determine the point
+where the read is trimmed.
+3
+IMPLEMENTATION
+Trimmomatic uses a pipeline-based architecture, allowing indi-
+vidual ‘steps’ (adapter removal, quality filtering, etc.) to be
+applied
+to
+each
+read/read
+pair,
+in
+the
+order
+specified
+by the user. Each step can choose to work on the reads in isola-
+tion, or work on the combined pair, as appropriate. The tool
+tracks read pairing and stores ‘paired’ and ‘single’ reads
+separately.
+A full list of the additional trimming and filtering steps is given
+in the Supplementary Materials and the online manual.
+3.1
+Convenience features
+Input and output files can be specified individually on the com-
+mand line, but for paired-end mode, where two similarly named
+input and four similarly named output files are often used, a
+‘template’ name can be given instead of the input and/or
+output files. This template is automatically expanded to give
+the complete set of files needed. See Supplementary Materials
+for more details.
+Compressed input and output are supported using either gzip
+or bzip2 formats. Compression/decompression is applied auto-
+matically when the appropriate file extensions are used, e.g. gz
+or bz2.
+Performance can be improved using multiple threads if mul-
+tiple CPU cores are available. The number of threads to use can
+be specified by the user or will be determined automatically if
+unspecified.
+Trimmomatic supports sequence quality data in both standard
+(phredþ33) and Illumina ‘legacy’ formats (phredþ64), and
+can also convert between these formats if required. The
+quality format is determined automatically if not specified by
+the user.
+The trimming status of each read can optionally be written to
+a log file. This is intended to help tune the choice of processing
+parameters used, but because it has a significant performance
+impact, it is not recommended unless needed.
+4
+RESULTS
+To illustrate the value of data preprocessing, we evaluated two
+different scenarios: reference-based alignment using Bowtie 2
+(Langmead and Salzberg, 2012) and BWA (Li and Durbin,
+2009) against the Escherichia coli K-12/MG1655 reference
+(NCBI sequence NC_000913.2), and de novo assembly using
+Velvet (Zerbino and Birney, 2008), on public E.coli K-12/
+MG1655 datasets (SRA datasets SRX131047 and SRR519926),
+as described in the Supplementary Methods.
+4.1
+Reference-based alignment
+Dataset 1 (SRX131047) represents a typical Illumina library,
+sequenced on the HiSeq 2000 using 2  100 bp reads. Quality
+checking with FastQC revealed a notable quality drop in many
+reads after cycle 75 in both but did not report a high level of
+adapter contamination.
+In the reference-based scenario, preprocessing increased the
+number of uniquely aligned reads from dataset 1, as seen in
+the first portion of Table 1. Filtering for both adapters and qual-
+ity achieves the best result, and quality trimming is especially
+important when alignment settings are strict. The Maximum
+Information approach outperforms the Sliding Window ap-
+proach in both cases, with a wider margin when the alignment
+mode is strict.
+Notably, the optimal results for strict alignment and tolerant
+alignment were found using widely different quality stringency
+settings. (See Supplementary Results for more details.)
+To validate these results with an alternative aligner, we re-
+peated the experiment using BWA. Although the alignment
+counts differ, because of slight differences between the tools in
+the settings or algorithms, the overall trend is similar. The best
+results are again achieved when filtering for both adapters and
+quality, as shown in the second part of Table 1.
+Dataset 2 (SRR519926) is a 2  250 bp run, sequenced on an
+MiSeq. Although read quality is high at the start of each forward
+read, the longer read length allows more opportunity for errors
+Fig. 3. How Maximum Information mode combines uniqueness, cover-
+age and error rate to determine the optimal trimming point
+2117
+Trimmomatic: a flexible trimmer for Illumina sequence data

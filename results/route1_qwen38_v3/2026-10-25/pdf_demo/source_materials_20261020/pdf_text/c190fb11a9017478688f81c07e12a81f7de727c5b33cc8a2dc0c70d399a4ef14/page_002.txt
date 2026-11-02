@@ -1,0 +1,122 @@
+Articles
+www.thelancet.com   Vol 395   February 15, 2020	
+497
+Clinical features of patients infected with 2019 novel 
+coronavirus in Wuhan, China
+Chaolin Huang*, Yeming Wang*, Xingwang Li*, Lili Ren*, Jianping Zhao*, Yi Hu*, Li Zhang, Guohui Fan, Jiuyang Xu, Xiaoying Gu, 
+Zhenshun Cheng, Ting Yu, Jiaan Xia, Yuan Wei, Wenjuan Wu, Xuelei Xie, Wen Yin, Hui Li, Min Liu, Yan Xiao, Hong Gao, Li Guo, Jungang Xie, 
+Guangfa Wang, Rongmeng Jiang, Zhancheng Gao, Qi Jin, Jianwei Wang†, Bin Cao†
+Summary
+Background A recent cluster of pneumonia cases in Wuhan, China, was caused by a novel betacoronavirus, the 
+2019 novel coronavirus (2019-nCoV). We report the epidemiological, clinical, laboratory, and radiological characteristics 
+and treatment and clinical outcomes of these patients.
+Methods All patients with suspected 2019-nCoV were admitted to a designated hospital in Wuhan. We prospectively 
+collected and analysed data on patients with laboratory-confirmed 2019-nCoV infection by real-time RT-PCR and 
+next-generation sequencing. Data were obtained with standardised data collection forms shared by WHO and the 
+International Severe Acute Respiratory and Emerging Infection Consortium from electronic medical records. 
+Researchers also directly communicated with patients or their families to ascertain epidemiological and symptom 
+data. Outcomes were also compared between patients who had been admitted to the intensive care unit (ICU) and 
+those who had not.
+Findings By Jan 2, 2020, 41 admitted hospital patients had been identified as having laboratory-confirmed 2019-nCoV 
+infection. Most of the infected patients were men (30 [73%] of 41); less than half had underlying diseases (13 [32%]), 
+including diabetes (eight [20%]), hypertension (six [15%]), and cardiovascular disease (six [15%]). Median age was 
+49·0 years (IQR 41·0–58·0). 27 (66%) of 41 patients had been exposed to Huanan seafood market. One family cluster 
+was found. Common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or 
+fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), 
+haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38). Dyspnoea developed in 22 (55%) of 40 patients (median 
+time from illness onset to dyspnoea 8·0 days [IQR 5·0–13·0]). 26 (63%) of 41 patients had lymphopenia. All 41 patients 
+had pneumonia with abnormal findings on chest CT. Complications included acute respiratory distress syndrome 
+(12 [29%]), RNAaemia (six [15%]), acute cardiac injury (five [12%]) and secondary infection (four [10%]). 13 (32%) patients 
+were admitted to an ICU and six (15%) died. Compared with non-ICU patients, ICU patients had higher plasma levels 
+of IL2, IL7, IL10, GSCF, IP10, MCP1, MIP1A, and TNFα.
+Interpretation The 2019-nCoV infection caused clusters of severe respiratory illness similar to severe acute respiratory 
+syndrome coronavirus and was associated with ICU admission and high mortality. Major gaps in our knowledge of 
+the origin, epidemiology, duration of human transmission, and clinical spectrum of disease need fulfilment by future 
+studies.
+Funding Ministry of Science and Technology, Chinese Academy of Medical Sciences, National Natural Science 
+Foundation of China, and Beijing Municipal Science and Technology Commission.
+Copyright © 2020 Elsevier Ltd. All rights reserved.
+Introduction
+Coronaviruses are enveloped non-segmented positive-
+sense RNA viruses belonging to the family Coronaviridae 
+and the order Nidovirales and broadly distributed in 
+humans and other mammals.1 Although most human 
+coronavirus infections are mild, the epidemics of 
+the two betacoronaviruses, severe acute respiratory 
+syndrome coronavirus (SARS-CoV)2–4 and Middle East 
+respiratory syndrome coronavirus (MERS-CoV),5,6 have 
+caused more than 10 000 cumulative cases in the past 
+two decades, with mortality rates of 10% for SARS-CoV 
+and 37% for MERS-CoV.7,8 The coronaviruses already 
+identified might only be the tip of the iceberg, with 
+potentially more novel and severe zoonotic events to be 
+revealed.
+In December, 2019, a series of pneumonia cases of 
+unknown cause emerged in Wuhan, Hubei, China, 
+with clinical presentations greatly resembling viral 
+pneumonia.9 Deep sequencing analysis from lower 
+respiratory tract samples indicated a novel coronavirus, 
+which was named 2019 novel coronavirus (2019-nCoV). 
+Thus far, more than 800 confirmed cases, including in 
+health-care workers, have been identified in Wuhan, and 
+several exported cases have been confirmed in other 
+provinces in China, and in Thailand, Japan, South Korea, 
+and the USA.10–13
+Lancet 2020; 395: 497–506
+Published Online 
+January 24, 2020 
+https://doi.org/10.1016/ 
+S0140-6736(20)30183-5
+This online publication has been 
+corrected. The corrected version 
+first appeared at thelancet.com 
+on January 30, 2020
+See Comment pages 469 and 
+470
+*Contributed equally
+†Joint corresponding authors
+Jin Yin-tan Hospital, Wuhan, 
+China (Prof C Huang MD, 
+Prof L Zhang MD, T Yu MD, 
+J Xia MD, Y Wei MD, 
+Prof W Wu MD, Prof X Xie MD); 
+Department of Pulmonary and 
+Critical Care Medicine, Center of 
+Respiratory Medicine, National 
+Clinical Research Center for 
+Respiratory Diseases 
+(Y Wang MD, G Fan MS, X Gu PhD, 
+H Li MD, Prof B Cao MD), 
+Institute of Clinical Medical 
+Sciences (G Fan, X Gu), and 
+Department of Radiology 
+(M Liu MD), China-Japan 
+Friendship Hospital, Beijing, 
+China; Institute of Respiratory 
+Medicine, Chinese Academy of 
+Medical Sciences, Peking Union 
+Medical College, Beijing, China 
+(Y Wang, G Fan, X Gu, H Li, 
+Prof B Cao); Department of 
+Respiratory Medicine, Capital 
+Medical University, Beijing, 
+China (Y Wang, H Li, Prof B Cao); 
+Clinical and Research Center of 
+Infectious Diseases, Beijing 
+Ditan Hospital, Capital Medical 
+University, Beijing, China 
+(Prof X Li MD, Prof R Jiang MD); 
+NHC Key Laboratory of Systems 
+Biology of Pathogens and 
+Christophe Merieux Laboratory, 
+Institute of Pathogen Biology 
+(Prof L Ren PhD, Y Xiao MS, 
+Prof L Guo PhD, Q Jin PhD, 
+Prof J Wang PhD), and Institute 
+of Laboratory Animal Science 
+(Prof H Gao PhD), Chinese 
+Academy of Medical Sciences 
+and Peking Union Medical 
+College, Beijing, China; Tongji 
+Hospital (Prof J Zhao MD, 
+Prof J Xie MD), and Department 

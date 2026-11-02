@@ -1,0 +1,34 @@
+{
+  "record_type": "liyun_explicit_personal_confirmation",
+  "reviewer": "李云",
+  "confirmation_date": "2026-11-02",
+  "exact_time": null,
+  "source": "user_explicit_answer_to_concrete_proposal",
+  "question_as_presented": "第13点已核对原句及2018框架第9、22、47页：组合可用于非正式分期，全文支持条件性预期路径，同时允许替代路径和个体差异。是否认可登记为你的个人意见：全文范围限定 ACCURATE，原模型理由仍不通过？这项确认不表示每人必然按同一阳性阈值顺序进展，也不改变原模型输出、严格工程失败或正式20点验收。",
+  "confirmation_quote": "认可，登记为李云个人意见",
+  "point_number": 13,
+  "case_id": "r1pdf:43c53ece80a7c35828d5246d",
+  "fulltext_classification": "ACCURATE",
+  "classification_scope": "完整reference7主张中的非正式分期及条件性预期路径A+T−N−→A+T+N−→A+T+N+；允许替代路径与个体差异，不宣称每个个体必然按同一阳性阈值顺序进展。",
+  "fulltext_source_pdf_pages": [
+    9,
+    22,
+    47
+  ],
+  "original_reason_opinion": "NOT_PASSED",
+  "reason_scope": "原模型所选S06为profile及数字临床stage的组合清单，不足以证明预期顺序；全文补证不改为原理由通过。",
+  "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+  "chen_same_scope_source": {
+    "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_20261101/发给李云_PDF增量复议回复_20261101.md",
+    "file_sha256": "6923b2c350b7e4c6517a6c71f7b8fcbbf194356de9dad4e5b05028b7f3c762d3",
+    "reviewer": "陈明进",
+    "review_date": "2026-11-01",
+    "received_in_workspace_date": "2026-11-02",
+    "exact_time": null
+  },
+  "historical_candidate_and_tentative_opinions_retained": true,
+  "original_frozen_input_changed": false,
+  "new_model_run": false,
+  "joint_conclusion": false,
+  "formal_20_point_acceptance": false
+}

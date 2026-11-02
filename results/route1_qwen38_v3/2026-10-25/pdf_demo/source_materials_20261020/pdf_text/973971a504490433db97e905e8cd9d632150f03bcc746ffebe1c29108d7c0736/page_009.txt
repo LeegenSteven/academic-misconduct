@@ -1,0 +1,96 @@
+n engl j med 382;13  nejm.org  March 26, 2020
+1207
+Early Transmission Dynamics of NCIP
+References
+1.	 The 2019-nCoV Outbreak Joint Field 
+Epidemiology Investigation Team, Li Q. 
+Notes from the field: an outbreak of NCIP 
+(2019-nCoV) infection in China — Wu-
+han, Hubei Province, 2019–2020. China 
+CDC Weekly 2020;​2:​79-80.
+2.	 Tan WJ, Zhao X, Ma XJ, et al. A novel 
+coronavirus genome identified in a clus-
+ter of pneumonia cases — Wuhan, China 
+2019–2020. China CDC Weekly 2020;​2:​61-2.
+3.	 Zhu N, Zhang D, Wang W, et al. A 
+novel coronavirus from patients with 
+pneumonia in China, 2019. N Engl J Med 
+2020;382:727-33.
+4.	 Xiang N, Havers F, Chen T, et al. Use 
+of national pneumonia surveillance to de-
+scribe influenza A(H7N9) virus epidemi-
+ology, China, 2004–2013. Emerg Infect 
+Dis 2013;​19:​1784-90.
+5.	 Munster VJ, Koopmans M, van Dore­
+malen N, van Riel D, de Wit E. A novel 
+coronavirus emerging in China — key 
+questions for impact assessment. N Engl J 
+Med 2020;​382:692-4.
+6.	 WHO guidelines for the global sur-
+veillance of severe acute respiratory syn-
+drome (SARS). 2004 (https://www​.who​.int/​
+csr/​resources/​publications/​WHO_CDS_CSR 
+_ARO_2004_1​.pdf?ua=1).
+7.	 Middle East respiratory syndrome 
+case definition for reporting to WHO. 
+2017 (https://www​.who​.int/​csr/​disease/​
+coronavirus_infections/​mers​-­interim​-­case​
+-­definition​.pdf?ua=1).
+8.	 Azhar EI, El-Kafrawy SA, Farraj SA, 
+et al. Evidence for camel-to-human trans-
+mission of MERS coronavirus. N Engl J 
+Med 2014;​370:​2499-505.
+9.	 New coronavirus pneumonia pre-
+vention and control program (2nd ed.) 
+(in Chinese). 2020 (http://www​.nhc​.gov​
+.cn/​jkj/​s3577/​202001/​c67cfe29ecf1470e8c7fc 
+47d3b751e88​.shtml).
+10.	 Laboratory diagnostics for novel coro-
+navirus. WHO 2020 (https://www​.who​
+.int/​health​-­topics/​coronavirus/​laboratory​
+-­diagnostics​-­for​-­novel​-­coronavirus).
+11.	 Lipsitch M, Cohen T, Cooper B, et al. 
+Transmission dynamics and control of se-
+vere acute respiratory syndrome. Science 
+2003;​300:​1966-70.
+12.	Bauch CT, Lloyd-Smith JO, Coffee MP, 
+Galvani AP. Dynamically modeling SARS 
+and other newly emerging respiratory ill-
+nesses: past, present, and future. Epide-
+miology 2005;​16:​791-801.
+13.	 Paules CI, Marston HD, Fauci AS. 
+Coronavirus infections — more than just 
+the common cold. JAMA 2020 January 23 
+(Epub ahead of print).
+14.	 Perlman S. Another decade, another 
+coronavirus. N Engl J Med 2020;​382:760-2.
+15.	 de Wit E, van Doremalen N, Falzarano 
+D, Munster VJ. SARS and MERS: recent 
+insights into emerging coronaviruses. 
+Nat Rev Microbiol 2016;​14:​523-34.
+16.	 Wong G, Liu W, Liu Y, Zhou B, Bi Y, 
+Gao GF. MERS, SARS, and Ebola: the role 
+of super-spreaders in infectious disease. 
+Cell Host Microbe 2015;​18:​398-401.
+17.	 Chan JF, Yuan S, Kok KH, et al. A fa-
+milial cluster of pneumonia associated 
+with the 2019 novel coronavirus indicat-
+ing person-to-person transmission: a study 
+of a family cluster. Lancet 2020 January 24 
+(Epub ahead of print).
+18.	Wu P, Hao X, Lau EHY, et al. Real-
+time tentative assessment of the epide-
+miological characteristics of novel coro-
+navirus infections in Wuhan, China, as 
+at January 2020. Eurosurveillance 2020;​
+25(3):​pii=2000044.
+19.	 Lipsitch M, Hayden FG, Cowling BJ, 
+Leung GM. How to maintain surveillance 
+for novel influenza A H1N1 when there 
+are too many cases to count. Lancet 2009;​
+374:​1209-11.
+Copyright © 2020 Massachusetts Medical Society.
+TRACK THIS ARTICLE’S IMPACT AND REACH
+Visit the article page at NEJM.org and click on Metrics for a dashboard  
+that logs views, citations, media references, and commentary. 
+NEJM.org/about-nejm/article-metrics.

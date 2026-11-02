@@ -1,0 +1,83 @@
+{
+  "version": "pdf_point07_scope_preparation_20261023",
+  "created_at_utc": "2026-10-23T08:04:07.419873+00:00",
+  "timestamp_meaning": "CPU preparation record time; not a human review time",
+  "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+  "fixed_denominator": 20,
+  "scope_sha256": "ecf839d4f5dd4f2f09d37091f8794b4291ac10d70af6a7aeb7ffb228d9cd5984",
+  "pdf_hashes_verified": 2,
+  "scope_fragments_replayed": 1,
+  "citation_marker_fragments_replayed": 1,
+  "candidate_fragments_replayed": 10,
+  "reference_number_and_doi_match": true,
+  "scope_query_changed": false,
+  "existing_runtime_plan_row": {
+    "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+    "pair_id": "r1pair:bef264fa326803da7f93",
+    "scope_sha256": "ecf839d4f5dd4f2f09d37091f8794b4291ac10d70af6a7aeb7ffb228d9cd5984",
+    "scope_hold": null,
+    "stages": {
+      "classifier": {
+        "input_sha256": "2a3fcf4dff3ae9df26e3a54cfe2b07ca24f80327d4c039439c569a2accf7ebc6",
+        "input_tokens": 2125,
+        "required_total": 2637,
+        "input_ids_sha256": "12633ccab0ad7f72362a4e089ee6e43f476718855a791e42f1809d0c1e851160",
+        "within_budget": true,
+        "truncation": false
+      },
+      "explainer": {
+        "input_sha256": "767135f5361185d172d53686a9aabe61ac2d1a712d24b2c820b456c4cea3cbd6",
+        "input_tokens": 2099,
+        "required_total": 2611,
+        "input_ids_sha256": "f82cda869de295e5ad2989cb8e4390224b2acff0baf62a9263c066353d29c848",
+        "within_budget": true,
+        "truncation": false
+      }
+    },
+    "released": false
+  },
+  "existing_scope_confirmation": {
+    "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+    "scope_sha256": "ecf839d4f5dd4f2f09d37091f8794b4291ac10d70af6a7aeb7ffb228d9cd5984",
+    "confirmed": false,
+    "reviewer": null,
+    "reviewed_at": null,
+    "review_source": null,
+    "hold_resolution": null,
+    "note": "Scope acknowledgement only; not semantic label or adjudication"
+  },
+  "point_selected_in_existing_first5_release": false,
+  "original_point_classifier_response": null,
+  "original_point_explanation_response": null,
+  "new_scope_confirmation": null,
+  "new_classification_label": null,
+  "semantic_adjudication": null,
+  "formal_end_to_end_accepted": false,
+  "model_loaded": false,
+  "inference_performed": false,
+  "torch_imported": false,
+  "GPU_used": false,
+  "original_files_unchanged": true,
+  "original_file_checks": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\classifier.run.log": "48b7fd0563403fa7ac1016214f590cd877bb2799dfc6525a88aceb8c4a847bce",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\execution_request.json": "d887a9fe37028d24571667dc583750abe1d84cc9cf6a4e638c0fa30754f7acac",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\execution_summary.json": "54df73f1c2580e6b320ff158221375281b8dd72bf3b868a8fe768c4932a7e27e",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\explainer.run.log": "4195868deb16bc81fb41b991dedb3767ef0259594bebd12183cc46c55e950a6a",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\assembled\\records.csv": "9949b3483b37edfc6ad41095839c8a4198e4f299ccfd0bf751a8e3f8dde5527e",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\assembled\\records.jsonl": "495e96f319bc49d062460f14f9c23fccb62a18427c3ac0a0c1cab821a24fd2b5",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\assembled\\summary.json": "fdb69b5842b35947e2dadcbd5f9f916f6e14e32c7d975e4788f1274fec2f8caa",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\classifier\\exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\classifier\\responses.jsonl": "56fb1aa0b816e0741ecf07607d73005d23ed56bd4fa7a94896a02d2141bfa84f",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\classifier\\run.log": "ae0b1827e98a2f0e9965bbbf4909490e4c33bcc86e501cca0e777f278b20f9e7",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\classifier\\run_metadata.json": "a2c06607edc8e661bc847b4bf0c1a4162ad6ff53bb0b02735247778bdad5ec74",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\explainer\\exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\explainer\\responses.jsonl": "97dbf80644bb691dcc9146830f733eb39484ca0bf3dbf3058fbc456290285c3f",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\explainer\\run.log": "65b8cd1d127cbe179d82cdde38eb1e6bae78c3194d3a12f1b8c0e50c3275cb79",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\explainer\\run_metadata.json": "53ef5d679e1c33b725cbb433fb8d2a29b8c1b27f1147864f4218736ab1f8bb4b",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点执行_20261021\\route1_pdf_first5_20261021\\scope_confirmations.json": "eeaa31f7167d9bcf20b00a3ec7c0b91bb17844b65d19f6b3f8bb62fd9635b435",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\scope_acknowledgement_2026-10-21\\release.local_checked.json": "a467d1be4874e1c9f86fc0d05683a5bd24e25970a495a07e33fe9d209132decb",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\runtime_preparation_2026-10-21\\runtime_plan.json": "2bfe43cbcdc382e229b177424a9dcb17a8fce7a0b1a92632ddc1d83c927cd84a",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC7270627.1\\PMC7270627.1.pdf": "1b9f4a28378fdb4bd1b47cd2c3c0d191f82735bf4c2ecf13ffb6ceefc6fd70fa",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC7121484.1\\PMC7121484.1.pdf": "973971a504490433db97e905e8cd9d632150f03bcc746ffebe1c29108d7c0736"
+  }
+}

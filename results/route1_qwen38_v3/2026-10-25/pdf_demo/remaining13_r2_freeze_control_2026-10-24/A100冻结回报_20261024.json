@@ -1,0 +1,16 @@
+{
+  "status": "A100_REMAINING13_R2_FROZEN_REPORTED_BY_USER",
+  "source": "user pasted A100 terminal output",
+  "exact_output": "REMAINING13_R2_FROZEN selected=13 fixed_denominator=20 model_loaded=false GPU_used=false",
+  "release_sha256": "09a875e7d8bcae223e39e1ba1c903c99405b17f8c08a8f3797e49dacb01106ec",
+  "reported_release_path": "/home/admire/route1_pdf_remaining13_r2_release_20261024/release.json",
+  "selected": 13,
+  "fixed_denominator": 20,
+  "recorded_at_utc": "2026-10-24T06:19:41.017188+00:00",
+  "actual_execution_time": null,
+  "recorded_time_is_not_execution_time": true,
+  "full_release_downloaded_and_locally_verified": false,
+  "new_model_runs": 0,
+  "GPU_started": false,
+  "formal_acceptances_added": 0
+}

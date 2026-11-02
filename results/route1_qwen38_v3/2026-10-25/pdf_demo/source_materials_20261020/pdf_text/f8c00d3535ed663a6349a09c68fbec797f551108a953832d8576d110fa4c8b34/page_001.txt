@@ -1,0 +1,61 @@
+Nature Medicine | Volume 28 | November 2022 | 2381–2387
+2381
+nature medicine
+https://doi.org/10.1038/s41591-022-02049-x
+Article
+Amyloid and tau PET-positive cognitively 
+unimpaired individuals are at high risk for 
+future cognitive decline
+A major unanswered question in the dementia field is whether 
+cognitively unimpaired individuals who harbor both Alzheimer’s 
+disease neuropathological hallmarks (that is, amyloid-β plaques and 
+tau neurofibrillary tangles) can preserve their cognition over time or are 
+destined to decline. In this large multicenter amyloid and tau positron 
+emission tomography (PET) study (n = 1,325), we examined the risk for 
+future progression to mild cognitive impairment and the rate of cognitive 
+decline over time among cognitively unimpaired individuals who were 
+amyloid PET-positive (A+) and tau PET-positive (T+) in the medial temporal 
+lobe (A+TMTL
++) and/or in the temporal neocortex (A+TNEO-T
++) and compared 
+them with A+T− and A−T− groups. Cox proportional-hazards models showed 
+a substantially increased risk for progression to mild cognitive impairment 
+in the A+TNEO-T
++ (hazard ratio (HR) = 19.2, 95% confidence interval (CI) = 10.9–
+33.7), A+TMTL
++ (HR = 14.6, 95% CI = 8.1–26.4) and A+T− (HR = 2.4, 95% CI = 1.4–
+4.3) groups versus the A−T− (reference) group. Both A+TMTL
++ (HR = 6.0, 95% 
+CI = 3.4–10.6) and A+TNEO-T
++ (HR = 7.9, 95% CI = 4.7–13.5) groups also showed 
+faster clinical progression to mild cognitive impairment than the A+T− group. 
+Linear mixed-effect models indicated that the A­+­T­N­EO­-T
++ (­β­ = −0.056 ± 0.005, 
+T = −11.55, P < 0.001), A+TMTL
++ (β = −0.024 ± 0.005, T = −4.72, P < 0.001) and 
+A­+­T­− (­β­ = −0.008 ± 0.002, T = −3.46, P < 0.001) groups showed significantly 
+faster longitudinal global cognitive decline compared to the A−T− (reference) 
+group (all P < 0.001). Both A+TNEO-T
++ (P < 0.001) and A+TMTL
++ (P = 0.002) 
+groups also progressed faster than the A+T− group. In summary, evidence 
+of advanced Alzheimer’s disease pathological changes provided by a 
+combination of abnormal amyloid and tau PET examinations is strongly 
+associated with short-term (that is, 3–5 years) cognitive decline in cognitively 
+unimpaired individuals and is therefore of high clinical relevance.
+Alzheimer’s disease (AD) is neuropathologically characterized by the 
+presence of amyloid-β (Αβ) plaques and tau neurofibrillary tangles. 
+Although the two most well-established diagnostic criteria for AD both 
+acknowledge the importance of Αβ and tau pathology in AD pathogen-
+esis1, an important distinction is that the National Institute on Aging and 
+Alzheimer’s Association (NIA-AA) criteria2 define AD by its biological 
+features (that is, the presence of Αβ and tau pathology) irrespective 
+of the clinical syndrome, whereas the International Working Group 
+(IWG) criteria3 require the presence of objective cognitive impairment 
+(mild cognitive impairment (MCI) or dementia) in conjunction with 
+Received: 18 May 2022
+Accepted: 21 September 2022
+Published online: 10 November 2022
+ Check for updates
+ e-mail: r.ossenkoppele@amsterdamumc.nl; oskar.hansson@med.lu.se
+A list of authors and their affiliations appears at the end of the paper.

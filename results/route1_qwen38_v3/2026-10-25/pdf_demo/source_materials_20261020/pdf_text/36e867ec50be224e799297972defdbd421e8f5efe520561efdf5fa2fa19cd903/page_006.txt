@@ -1,0 +1,90 @@
+The Author(s) BMC Bioinformatics 2017, 18(Suppl 3):80
+Page 96 of 175
+sequencers are more likely to produce polyX reads, and
+most of them are polyG.
+The order of applying different filters is not important.
+If one read is filtered out, a new sequence name containing
+the filter name will be assigned, and then this read will be
+streamed into the bad output.
+Overlapping analysis and error correction
+Let T denote the length of a sequenced DNA template,
+and S denote the length of pair-end sequencing length,
+then the pair of reads will totally overlap if T ≤S, will
+overlap with a length of 2S −T, if S < T < 2S, and
+will not overlap if 2S ≤T. Based on edit distance [11]
+optimisation, we developed a method to check how each
+pair of reads overlap, for data from pair-end sequenc-
+ing. For a pair of reads R1 and R2, let O be the offset
+we place R2 under R1, then we’ll have vertically aligned
+subsequences R1o and R2o, and we can calculate their
+edit distance ed(R1o, R2o). Our method optimises offset O
+to obtain the minimal edit distance, ed(R1o−1, R2o−1) <
+ed(R1o, R2o) < ed(R1o+1, R2o+1). We consider R1 and R2
+overlapped at this offset O if this edit distance ed(R1o, R2o)
+and overlapped length Lo meet the thresholds.
+If a pair is overlapped, AfterQC will do overlapping anal-
+ysis and error correction for it. If ed(R1o, R2o) is 0, it
+indicates no mismatch and no obvious sequencing error
+in the overlapped bases. Otherwise we should correct the
+overlapped mismatch or discard the reads if they can-
+not be corrected. For each pair with mismatch bases in
+overlapping region, we calculate the hamming distance
+hd(R1o, R2o) and check if it is identical to ed(R1o, R2o). If
+yes, it means there is only substitution difference between
+R1o and R2o. For this case, we check the mismatch pairs
+to see if one base is of very high quality and the other is of
+very low quality. If it’s true, AfterQC will correct the low
+quality base according to its high quality mate. Accord-
+ing to our results, most mismatch pairs have unbalanced
+quality scores. Figure 5 shows an example of overlapping
+analysis.
+Sequencing error profiling
+As described above, AfterQC can detect the mismatches
+in the overlapping regions. For those reads with very
+long overlap (i.e. overlap_len > 50), the edit distance of
+overlapped subsequences is mainly caused by sequenc-
+ing errors, because an error-free overlapping is usually
+completely identical (edit distance should be 0). Based
+on this assumption, we can count the total bases and
+the mismatched bases in all overlapping regions. And
+we can consider the ratio of (mismatch/total) reflecting
+the sequencing error rate, which can be called estimated
+sequencing error rate. Furthermore, a mismatched pair
+usually consists of one high quality base (i.e. Q30+) and
+one low quality base (i.e. < Q15). In this case, we can con-
+sider that the low quality base in this pair is a sequencing
+error, and furtherly profile the sequencing error trans-
+form distribution (i.e. how many T bases are sequenced
+as C).
+For each pair of pair-end sequenced FastQ files,
+AfterQC estimates such sequencing error rate and profiles
+the sequencing error transform distribution. By looking
+into the error distribution results from lots of sequenc-
+ing data, we found an interesting phenomenon: error
+distribution is clearly sequencing platform dependent, dif-
+ferent sequencing platforms have different error patterns,
+while the same sequencing platform’s different sequenc-
+ing runs share similar patterns. Figure 6 shows an example
+of Illumina NextSeq sequencer patterns comparing with
+Illumina HiSeq sequencer patterns. An interesting phe-
+nomenon is that NextSeq sequencers produce very few
+A/G and C/T errors (the orange bars). We guess it is due
+to the two-colour system [9] adopted by NextSeq systems.
+In a Illumina two-colour system, base A, which requires
+both red and green light signals, is not easy to be mis-
+recognised as base G, which requires no light signals.
+Also base C, which requires only red light signal, can be
+clearly distinguished from base T, which requires green
+light signals.
+Automatic adapter cutting
+When the DNA template length is less than the sequenc-
+ing cycles, a part of 3’ adapter will be sequenced in the tail.
+From Fig. 7, we can see that when the inserted DNA tem-
+plate length T is less than sequencing length S, the offset
+O for the best overlapping will be negative. On the other
+hand, if we find that the optimal offset O for aligning the
+pair of reads is negative, we consider that the length of
+inserted DNA is smaller than sequencing length. Based on
+Fig. 5 An example of overlapping analysis: the original DNA template is 60 bp long and sequencing length is 2 × 50, R1 and R2 have 40 bp overlap
+at offset 10, and the edit distance of the overlapped sub-sequences is 1. Brighter colour represents higher quality. A mismatch pair is found with
+high quality A and very low quality T, then T can be corrected

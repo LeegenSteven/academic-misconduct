@@ -1,0 +1,7 @@
+Nature Medicine 
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+Extended Data Table 7 | Linear mixed models with and without covarying for white matter pathology. The standardized beta 
+values are derived from the linear mixed models adjusted for age, sex, education, cohort and white matter hypointensity 
+volumes (sensitivity analysis only) and represent the group × time interaction with A−T− serving as the reference group. P 
+values from two-sided statistical tests without adjustment for multiple comparisons are reported

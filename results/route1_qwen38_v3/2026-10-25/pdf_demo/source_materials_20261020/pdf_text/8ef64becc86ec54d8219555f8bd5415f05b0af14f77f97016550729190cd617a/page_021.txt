@@ -1,0 +1,50 @@
+Studies without biomarkers that infer biological associations with “AD” can cause 
+confusion. For example, in studies without biomarkers, diabetes has been claimed to be a 
+risk factor for probable AD, when AD was defined as an amnestic dementia [215]. In 
+contrast, in clinical-autopsy studies, diabetes was associated with cognitive impairment (and 
+the clinical diagnosis of probable AD); however, the pathologic basis for this association 
+was vascular brain injury and not Aβ plaques and neurofibrillary degeneration [50,216]. 
+Population-based studies using biomarkers also show that mid-life risk factors (obesity, 
+smoking, diabetes, hypertension, and cardiac disease) commonly found to be associated with 
+cognitive decline and clinically ascertained impairment that is labeled “AD” dementia are 
+associated with neurodegeneration but not amyloid pathology [183]. Certain genome-wide 
+association studies provide another example of this phenomenon. When loci that were 
+associated with clinically defined AD are examined against autopsy-defined AD, many of 
+these loci have no association with neuritic plaques and neurofibrillary degeneration but 
+rather with other pathologic findings such as cerebrovascular disease [217]. Apparently, 
+conflicting conclusions like these in the literature create confusion in the medical field and 
+in the general public, which highlights the need to investigate the relationship of risk factors 
+to AD biomarkers or neuropathologic change to understand the biologic basis of such 
+associations. Thus, non-biomarker studies can establish robust and valid associations 
+between risk factors and Alzheimer’s clinical syndrome, but the biologically based studies 
+are needed to determine if these associations are with AD.
+An issue related to research without biomarkers is that many studies will ascertain some but 
+not all biomarker groups in study participants. Because tau PET is relatively new, 
+incomplete biomarker information will occur in studies that use imaging for amyloid and 
+neurodegenerative biomarker characterization but lack tau PET. A missing biomarker group 
+is denoted *; missing T would therefore be T* (Table 2). Participants in these studies may be 
+categorized on the basis of information that is available, that is, A+T* places the participant 
+in the “Alzheimer’s continuum,” and A−T*(N)+ is suspected non-AD pathologic change 
+(Table 2). Another common situation will be studies with MRI but without either PET or 
+CSF molecular biomarkers for amyloid and tau. In this situation, while MRI cannot be used 
+as a biomarker of the Alzheimer’s continuum, it is useful as a measure of cerebrovascular 
+disease and of nonspecific neurodegeneration, which in turn is a predictor of future clinical 
+decline.
+15. Hypothesis testing using the research framework
+This framework is a flexible platform to generate and test hypotheses concerning the 
+interactions among different pathologic processes (denoted by biomarkers) and cognitive 
+symptoms. Abundant human and animal data implicate A and T in the primary pathogenesis 
+of AD [9,100], including the observation that the age-related exponential increase in 
+prevalence of A (by biomarkers and neuropathology) anticipates the age-related exponential 
+increase in prevalence of clinically defined possible/probable “AD” by around 15 years 
+[53,212]. However, we point out the potential distinction between possible cause(s) of AD 
+and a biologically based definition of AD. This framework does not depend on A and T 
+being causal in AD pathogenesis. The AT(N) biomarker system is an unbiased system for 
+grouping biomarkers and classifying research participants on the basis of biomarker profiles. 
+Jack et al.
+Page 21
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

@@ -1,0 +1,101 @@
+JACK ET AL.
+5145
+BOX 1: Fundamental principles
+It is necessary to separate syndrome (clinically identified
+impairment) from biology (etiology).
+Alzheimer’s disease (AD) is defined by its biology with the
+following implications.
+AD is defined by its unique neuropathologic findings;
+therefore, detection of AD neuropathologic change by
+biomarkers is equivalent to diagnosing the disease.
+AD exists on a continuum. The disease is first evident in
+vivo with the appearance of disease-specific Core biomark-
+ers while people are asymptomatic. Pathophysiologic mech-
+anisms involved with processing and clearance of protein
+fragments may be involved very early in the disease process,
+but these are not yet well understood.
+Symptoms are a result of the disease process and are not
+necessary to diagnose AD.
+Unimpaired individuals with abnormal biomarker test
+results are at risk for symptoms due to AD. They are not at
+risk for a disease they already have.
+Clinical syndromes commonly seen with AD may also be
+caused by disorders other than AD, and therefore clinical
+presentation alone is not diagnostic of AD.
+The same AD biology may result in different phenotypic
+presentations.
+Three major developments prompted this update. First, treatments
+that target core disease pathology have, for the first time, received
+regulatory approval. The prospect of these therapies entering clini-
+cal practice highlights the importance of conceptual alignment among
+clinicians, industry, and academia around diagnosis and staging of AD.
+Second, the most significant advance in AD diagnostics in recent
+years has been the development of blood-based markers (BBM) with
+some (not all) assays exhibiting accurate diagnostic performance.
+This now makes the biological diagnosis of AD (which previously
+required positron emission tomography [PET] or cerebrospinal fluid
+[CSF] assays) more generally accessible and is projected to revolution-
+ize clinical care and research. The field is now in a transition phase
+during which BBM are being integrated with traditional CSF and PET
+biomarkers.
+Finally, an important product of recent research is the recognition
+that imaging, CSF, and BBM within a pathobiological AT(N) (amy-
+loid/tau/neurodegeneration) category are interchangeable for some,
+but not all, intended uses. The present document is updated to reflect
+this.
+This is a forward-looking document based on current scientific
+evidence that provides a common framework for AD diagnostic and
+staging criteria to inform both research and clinical care. We do not
+provide detailed guidance on clinical workflow or treatment protocols;
+formal clinical practice guidelines will appear in a subsequent docu-
+ment. The criteria we describe are presently operationalizable at some
+but by no means all centers even among major medical institutions in
+high-income countries. We therefore view these criteria as a bridge
+between research and clinical care.
+2
+BIOMARKER CATEGORIZATION
+Categorization of biomarkers refers to grouping biomarkers into cat-
+egories that reflect a common proteinopathy pathway or pathogenic
+process. Categorization of biomarkers in the 2018 NIA-AA framework
+assumedequivalenceofCSFandimagingbiomarkerswithineachAT(N)
+category.8 Ample evidence has accumulated that this is not always the
+case; therefore, in these revised criteria we break from the assumption
+of equivalence between imaging and biofluid biomarkers within a given
+biomarker category.
+We group biomarkers into three broad categories: core biomark-
+ers of AD neuropathologic change (ADNPC),5 non-specific biomarkers
+that are important in AD pathogenesis but are also involved in other
+brain diseases, and biomarkers of common non-AD copathologies
+(Table 1). Within each of these three broad categories we subcatego-
+rize biomarkers by the specific proteinopathy pathway or pathogenic
+process that each measures; for example, “A” biomarkers denote the
+amyloid beta (Aβ) proteinopathy pathway.
+Throughout the document we distinguish between imaging and
+fluid biomarkers. Imaging biomarkers measure cumulative effects;
+capture topographic information; map onto established neuropatho-
+logic constructs; and, in the case of amyloid and tau PET, represent
+insoluble aggregates.9–15 Fluid biomarkers reflect the net of rates of
+production/clearance of analytes at a given point in time.
+The 2018 framework recognized the need to modify the AT(N)
+biomarker classification scheme to incorporate newly developed
+biomarkers within an existing AT(N) category; and, we have included
+recently developed BBM of A, T, and (N) in this update. The 2018 frame-
+work also called for incorporating new biomarker categories beyond
+AT(N) as appropriate. This was denoted in the 2018 document as
+ATX(N), where X indicated a new biomarker category beyond A, T, or
+(N).7 Accordingly, Tables 1 and 2 include three new biomarker cate-
+gories: inflammatory/immune mechanisms (I), vascular brain injury (V),
+and alpha-synucleinopathy (S). V and S biomarkers are relevant to this
+document on AD diagnosis and staging because AD most often occurs
+with copathologies in older adults.
+Table 1 illustrates biomarker categories by pathogenic mechanism
+or proteinopathy pathway. CSF and plasma are listed together as fluid
+analytes because the same analyte is measured in CSF or plasma.
+Table 2 lists intended uses for biomarkers, which fall into several
+categories: diagnosis; staging, prognosis, as an indicator of biological
+treatment effect; and identification of copathologies. While Table 1
+lists fluid analytes, Table 2 lists assays and, accordingly, CSF and plasma
+are broken into separate columns in Table 2 because assay imple-
+mentation may differ between CSF and plasma. Table 2 also includes
+hybrid ratios, which are assays rather than individual analytes. Assays
+in Table 2 may be in vitro diagnostics, laboratory-developed tests, or

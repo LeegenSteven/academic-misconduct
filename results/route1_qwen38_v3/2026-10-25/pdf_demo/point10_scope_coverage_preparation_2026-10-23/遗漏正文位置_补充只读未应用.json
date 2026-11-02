@@ -1,0 +1,127 @@
+{
+  "case_id": "r1pdf:1dfa922c755ed870245927e3",
+  "status": "supplemental_source_check_only_not_in_active_candidates",
+  "target_group_text": "A−T+",
+  "population": "cognitively unimpaired participants in this study; do not generalize an unqualified population prevalence",
+  "results_continuation_fragments": [
+    {
+      "pdf_page": 2,
+      "char_start": 1230,
+      "char_end_exclusive": 1766,
+      "raw_text": "We included 1,325 cognitively unimpaired participants from 7 cohorts, \nof whom 843 (63.6%) were A−T−, 328 (24.8%) A+T−, 55 (4.2%) A+TMTL\n+ \nand 65 (4.9%) A+TNEO-T\n+ (see Table 1 and Supplementary Table 1 for \na breakdown by cohort). All biomarker-positive groups were older \nand had lower baseline Mini-Mental State Examination (MMSE) \nscores compared to the A−T− group (all P < 0.001). There were no sex \ndifferences between groups. The average follow-up duration was \n41.8 ± 18.9 months. The A−T+ group was considerably smaller than \n",
+      "raw_text_sha256": "70268b9a48e86327d04843ae60d9fd86bc5c55ee99346aebee14283e581ca042",
+      "source_blocks": [
+        {
+          "block_number": 7,
+          "bbox": [
+            306.142,
+            636.274,
+            562.608,
+            682.022
+          ]
+        },
+        {
+          "block_number": 8,
+          "bbox": [
+            306.142,
+            670.756,
+            562.745,
+            692.772
+          ]
+        },
+        {
+          "block_number": 9,
+          "bbox": [
+            306.142,
+            681.506,
+            562.815,
+            745.776
+          ]
+        }
+      ],
+      "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+      "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+    },
+    {
+      "pdf_page": 3,
+      "char_start": 112,
+      "char_end_exclusive": 225,
+      "raw_text": "the other groups (n = 34; Extended Data Table 1), hence their results \nare only reported in Extended Data Fig. 1.",
+      "raw_text_sha256": "d08ff8f0baf3192c83b754b414f08a4e7e301ae4e9da476329ab495caab6667b",
+      "source_blocks": [
+        {
+          "block_number": 3,
+          "bbox": [
+            39.685,
+            574.313,
+            296.26,
+            595.276
+          ]
+        }
+      ],
+      "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+      "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+    }
+  ],
+  "methods_group_definition_fragment": {
+    "pdf_page": 8,
+    "char_start": 4023,
+    "char_end_exclusive": 4458,
+    "raw_text": "Based on amyloid \nand tau PET status, we generated four different biomarker groups: \nA−T−; A+T−; A+TMTL\n+ (defined as tau PET-positive in the MTL but not in the \nneocortex); and A+TNEO-T\n+ (defined as tau PET-positive in the NEO-T and/\nor MTL; 49 out of 65 were also TMTL\n+). The A−T+ group was considerably \nsmaller than the other groups (n = 34; Extended Data Table 1), hence \ntheir results are only reported in Extended Data Fig. 1.",
+    "raw_text_sha256": "8812cd0ea0fbafcef111ab703ad375fbb7f123e8fa413327f18c04fd49c9b407",
+    "source_blocks": [
+      {
+        "block_number": 5,
+        "bbox": [
+          39.685,
+          477.072,
+          296.401,
+          735.772
+        ]
+      },
+      {
+        "block_number": 6,
+        "bbox": [
+          39.685,
+          724.506,
+          296.354,
+          746.522
+        ]
+      },
+      {
+        "block_number": 7,
+        "bbox": [
+          126.105,
+          735.256,
+          294.862,
+          745.776
+        ]
+      },
+      {
+        "block_number": 8,
+        "bbox": [
+          306.142,
+          47.596,
+          431.286,
+          58.522
+        ]
+      },
+      {
+        "block_number": 9,
+        "bbox": [
+          306.142,
+          47.256,
+          562.703,
+          79.276
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "reading_order_note": "The Results sentence continues from PDF page 2 to page 3 around intervening page layout. These remain separate physical-page spans, not a fabricated continuous quote.",
+  "source_reported_group_n": 34,
+  "population_prevalence_computed": false,
+  "added_to_model_input": false,
+  "new_retrieval_performed": false
+}

@@ -43,3 +43,18 @@ data/quality_v1/** -text
 /code/ly/test_route1_pdf_review_v3.py -text
 /code/ly/test_route1_pdf_v3.py -text
 /code/ly/write_route1_miss45_tables_v3.mjs -text
+
+# Byte-exact technical sync 2026-11-02.
+/code/ly/audit_pdf20_weekly_readiness_20261023.py -text
+/code/ly/build_route1_pdf_loop_demo_v1.py -text
+/code/ly/diagnose_pdf_quote_mapping_trial_v1.py -text
+/code/ly/pdf_quote_mapping_trial_policy_20261023.json -text
+/code/ly/pdf_quote_mapping_trial_v1.py -text
+/code/ly/prepare_route1_pdf_remaining13_20261024.py -text
+/code/ly/revise_route1_pdf_point14_scope_20261024.py -text
+/code/ly/route1_pdf_explanation_parser_v4_20261024.py -text
+/code/ly/route1_pdf_remaining13_replay_20261025.py -text
+/code/ly/route1_pdf_remaining13_runtime_20261024.py -text
+/code/ly/route1_qwen38_pdf_positioning_v1.py -text
+/code/ly/test_pdf_quote_mapping_trial_v1.py -text
+/code/ly/test_route1_pdf_explanation_parser_v4_20261024.py -text

@@ -1,0 +1,29 @@
+{
+  "status": "DELIVERY_VERIFIED",
+  "verified_at_utc": "2026-10-23T12:09:54.434763+00:00",
+  "rows": 25,
+  "confirmed": 21,
+  "final_label_counts": {
+    "ACCURATE": 19,
+    "NOT_ACCURATE": 2,
+    "IRRELEVANT": 0
+  },
+  "pending": 4,
+  "pending_sample_ids": [
+    "R2EXP-PMC-04",
+    "R2EXP-PMC-12",
+    "R2EXP-PMC-19",
+    "R2EXP-PMC-27"
+  ],
+  "unique_ids": 25,
+  "original_frozen_inputs_unchanged": true,
+  "source_excerpts_relocated": 37,
+  "portable_internal_links_checked": 226,
+  "xml_files": 38,
+  "original_CSV_and_CMJs_reply_preserved": true,
+  "liyun_confirmation_recorded_from_actual_chat": true,
+  "independent_blind_agreement_not_fabricated": true,
+  "calibrated_scores_all_null": true,
+  "new_model_run": false,
+  "CSV_sha256": "ec249cb89ca8ed6e5025cae3348b14c8876038f20dc506b5166671a9d3e21076"
+}

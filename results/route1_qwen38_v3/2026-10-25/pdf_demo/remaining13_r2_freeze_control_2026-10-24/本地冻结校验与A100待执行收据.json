@@ -1,0 +1,14 @@
+{
+  "status": "LOCAL_R2_FREEZE_CONTROL_VALIDATION_PASS_A100_FREEZE_PENDING",
+  "recorded_at_utc": "2026-10-24T06:15:12.500349+00:00",
+  "control_package_sha256": "5fdab5f4e934c1feaac400ce3e38a66d2d4f895043e932b707de0ef0eebc76d4",
+  "selected": 13,
+  "fixed_denominator": 20,
+  "local_release_sha256": "bfee62e72bfa738e3f5c34598c095e869f043c94fb30bcecdaa52661798c893c",
+  "A100_CPU_pass_evidence": "User pasted: REMAINING13_R2_CPU_MIGRATION_PASS points=20 fingerprints=40 model_loaded=false GPU_used=false released=0",
+  "full_A100_files_downloaded_and_locally_verified": false,
+  "A100_release_created": false,
+  "new_model_runs": 0,
+  "new_human_labels": 0,
+  "acknowledgement_timestamp_basis": "Actual user confirmation turn.startedAt from Codex metadata; not invented reading time"
+}

@@ -1,0 +1,44 @@
+{
+  "version": "supplement_two_point_runtime_20261029",
+  "status": "A100_REQUIRED_NOT_STARTED",
+  "scope": "two_frozen_supplements_only",
+  "selected_case_ids": [
+    "r1pdf:7cec9c89372bb76396f53fdb",
+    "r1pdf:7f30025df2b6e4c93f2addd5"
+  ],
+  "fixed_denominator": 20,
+  "model": {
+    "base": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "adapter": "Mbio/checkpoint-100",
+    "adapter_sha256": "0f4019af9d0f510408f841797c1038bb19abfee8b6e5f24dc7f222501776bd09"
+  },
+  "stages": [
+    "classifier",
+    "explainer"
+  ],
+  "settings": {
+    "max_length": 5120,
+    "max_new_tokens": 512,
+    "enable_thinking": false,
+    "do_sample": false,
+    "retry_policy": "none; keep all first attempts"
+  },
+  "retry_policy": "none_keep_first_attempt",
+  "source_validation": "actual_PDF_replayed",
+  "original_18_reuse": true,
+  "held_points": [
+    1,
+    15
+  ],
+  "human_locator_review": "pending_after_model_outputs",
+  "prepared_items_sha256": "9b1ab5e26740e76f81b5d3f5f500774c1a08f621b2218001da45bcea5419937a",
+  "classification_inputs_sha256": "8a211d406945968252b9771a9b040047bba6172de05a77f712524088e2054ad8",
+  "explanation_inputs_sha256": "ec656f0535e1540d07f19a8ab8472fed9b7fc95c33fb0589da31c9a0c99f871f",
+  "code_sha256": "48cb111bc91df6f268d8680e3e65abb11fd6e7fa8e395f2944066f400921b227",
+  "runner_script": "run_two_point_a100_20261029.py",
+  "runner_sha256": "3eef92f03c0ead083f98d6f36301226d447011f963ba17f9081aecc2ef5025e5",
+  "run_instructions": "A100_RUN_INSTRUCTIONS.md",
+  "run_instructions_sha256": "f2cfc54ff4c684bf1f5e1b12d09433351912b6b3e20c466c80b2bc1f3851d52d",
+  "runtime_correction": "2026-10-31: runner comparison corrected to match the frozen retry_policy string; inputs and generation settings unchanged."
+}

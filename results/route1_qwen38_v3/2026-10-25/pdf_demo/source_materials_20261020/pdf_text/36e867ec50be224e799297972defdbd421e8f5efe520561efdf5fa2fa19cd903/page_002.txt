@@ -1,0 +1,108 @@
+The Author(s) BMC Bioinformatics 2017, 18(Suppl 3):80
+Page 92 of 175
+Background
+As next generation sequencing (NGS) technology being
+used more broadly in clinical applications, sequencing
+data quality control is becoming more important. In some
+NGS applications like ctDNA(circulating tumour DNA)
+sequencing [1], we need to detect ultra low frequency
+somatic mutations to help diagnosing cancers. How-
+ever, the experiments (such like DNA amplification) and
+sequencing process always introduce errors and biases [2].
+Typically the somatic mutation rate in ctDNA is near 1%
+for advanced tumour patients, and can be as low as 1%
+for early stage tumour patients [3], which is very close to
+the error rate of mainstream NGS platforms. The pres-
+ence of these errors degrades the performance of variant
+calling tools in detection of true low frequency mutations
+while keeping false-positive mutations away. This prob-
+lem drives us to not only apply better preprocessing with
+better quality control strategies and stricter filtering cri-
+terions, but also develop sequencing error profiling and
+correction algorithms to recognise and reduce errors as
+much as possible.
+For sequencing data, some good tools can already per-
+form quality control, such like FastQC [4] with per-base
+and per-sequence quality profiling functions and PRIN-
+SEQ [5] with FASTA/FASTQ statistics capability, while
+some other tools being able to read trimming, such like
+Trimmomatic [6] and SolexaQA [7]. Since the way to
+do data filtering depends on the QC result and the fil-
+tered data also need a post filtering QC, a tool with both
+rich QC and filtering functions is still wanted. Another
+improvement that can be made to these tools is over-
+lapping analysis for pair-end sequencing, for which each
+DNA template is sequenced twice in forward and reverse
+directions. When the DNA template length is less than
+twice of the sequencing length, the pair of reads will be
+overlapped. Note that each base in the overlapping region
+is actually sequenced twice, so the inconsistency of these
+pairs may reflect the sequencing errors.
+Another function needed for data preprocessing is
+cutting adapters. When the sequenced DNA template
+is shorter than sequencing length, part of sequencing
+adapters may be contained in the output reads. In this
+case, the adapters should be error-tolerantly detected and
+removed. Some tools like Trimmomatic [6] and Cutadapt
+[8] can handle such tasks, but they usually require users
+to input the sequence of the adapters, which are usually
+not well known for the people doing data analysis. By
+searching the best overlapping of each pair, AfterQC auto-
+matically detects and cuts adapters for pair-end data, with
+no need of adapter sequence input.
+We will present AfterQC in this paper, a tool developed
+to address major practical sequencing data quality con-
+trol and filtering problems. In addition to regular quality
+control functions like per-cycle base content and quality
+statistics, AfterQC also provides new functions like auto-
+matic trimming and overlapping analysis. For example,
+we found that some sequencers (like Illumina NextSeq
+series) may output a lot of polyX reads with high qual-
+ity score. AfterQC can remove them using its polyX
+filter, while normal quality filters cannot. Another exam-
+ple is that we found if the amplification or sequencing
+process has serious strand bias, the sequence reads will
+show K-MER count bias (i.e. the counts of ATCGATCG
+and its reverse complement CGATCGAT are significantly
+different). Based on this finding, AfterQC provides K-
+MER counting based strand bias profiling. Another major
+contribution of this tool is overlapping analysis for pair-
+end sequencing data, which can be used to profile the
+sequencing error rate and apply error base correction or
+removing. For each input of a single or pair of FastQ files,
+AfterQC outputs a HTML report, which contains a quality
+control and data filtering summary, and a list of interactive
+figures.
+Methods
+AfterQC is designed to process FastQ files in batches. It
+goes through a folder with all FastQ files (can be single-
+end or pair-end output), which are typically data of a
+sequencing run for different samples, and passes each
+FastQ file or pair into the QC and filtering pipeline. As
+described in Fig. 1, firstly, AfterQC will run a bubble
+detection to find the bubbles raised during the sequencing
+process. Secondly, a pre-filtering QC will be conducted to
+profile the data with per-cycle base content and quality
+curves. Thirdly, AfterQC will do automatic read trimming
+based on data quality profiling. Fourthly, each read will be
+filtered by bubble filter, polyX filter, quality filter and over-
+lapping analysis filters, the ones failed to pass these filters
+will be discarded as bad reads. Fifthly, an error correction
+based on overlapping analysis will be applied for pair-
+end sequencing data. Finally, AfterQC will store the good
+reads, perform post-filtering QC profiling and generate
+HTML reports.
+Bubble detection and visualisation
+For Illumina sequencers, especially for those using two-
+channel SBS sequencing technology [9], we observed a
+phenomenon that more polyX reads could be found in
+the bubble areas than the background. Based on this phe-
+nomenon, we developed a method deBubble to visualise
+and detect bubbles. Firstly, we detect all polyX reads, sep-
+arate them by tiles, and filter them by their local density
+since bubble areas tend to have higher polyX density. Sec-
+ondly, we cluster the polyX reads into small sets, filter the
+clusters by features like size, shape and number of polyX
+reads. Thirdly, for each polyX cluster, we fit a circle to
+include all its polyX reads, and we also perform circle fil-
+tering to remove false positive bubbles. Finally, we plot

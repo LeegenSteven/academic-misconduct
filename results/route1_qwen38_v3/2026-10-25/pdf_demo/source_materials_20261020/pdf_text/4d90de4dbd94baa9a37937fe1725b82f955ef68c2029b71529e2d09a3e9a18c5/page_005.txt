@@ -1,0 +1,46 @@
+While recent advances in working with difficult types of pro-
+teins have been notable, key challenges remain. Many studies 
+are limited by protein denaturation at the air–water interface, 
+combined with the tendency of proteins to adopt preferred 
+orientations on EM grids67,68. Improved methods of sample 
+preparation and freezing are being investigated to mitigate these 
+challenges69.
+Cryo-electron tomography (cryo-ET) offers new promise, along 
+with unique challenges of its own. Samples, often of intact cells 
+or tissues, are tilted under low-dose exposure, allowing the 
+reconstruction of three-dimensional images of subcellular struc-
+tures and their constituent macromolecular assemblies (reviewed 
+in 70,71). This has led to impressive views of macromolecu-
+lar machines and the cellular milieu. Key challenges in cryo-
+ET concern resolution, which is limited by electron dose per 
+volume. Important advances are facilitated by averaging; 
+methods 
+involving 
+“sub-tomogram” 
+averaging 
+boost 
+the 
+signal-to-noise for particles present in large copy number or those 
+exhibiting high internal symmetry, with concomitant improve-
+ments in resolution (reviewed in 72). Sample thickness is a fur-
+ther limitation, and focused ion beam (FIB) milling, which carves 
+out a thin section of sample on the EM grid prior to electron beam 
+exposure, is making a major impact73,74. Given resolutions typi-
+cally insufficient to trace protein backbones and establish amino 
+acid sequences, protein labeling and identification in a cellular 
+context by cryo-ET is another area of vital investigation75.
+Improvements in interpretation
+The resolution revolution led to a series of challenges and oppor-
+tunities related to the interpretation of single-particle cryo-EM 
+data. First, the ability of microscopists to reconstruct density 
+maps with near-atomic resolution required the development of 
+methods and software76 that could be used to build and refine77–79 
+Figure 2. High-resolution cryo-electron microscopy (EM) as a tool for drug discovery. Cryo-EM density at a resolution of approximately 
+2.6 Å reveals a streptogramin antibiotic (green sticks) bound to the peptidyl transferase center (PTC) of a bacterial ribosome (wheat sticks), 
+as described by Li, Pellegrino, et al. (https://doi.org/10.26434/chemrxiv.8346107.v2). The map is shown as a blue volume and is rendered 
+only within 2 Å of the antibiotic for clarity (A). Views of the streptogramin molecule (ribosome deleted) normal to (B) and coplanar with (C) 
+the macrocycle ring illustrate features such as the proline in the macrocycle backbone, isopropyl side chain, and carbonyl groups, allowing 
+unambiguous placement of the drug in order to inform structure-based design. This figure is an original image created by the authors for this 
+publication.
+Page 5 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

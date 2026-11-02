@@ -1,0 +1,138 @@
+Materials and Methods
+Reagents and Tools table
+Reagent/Resource
+Reference or Source
+Identifier or Catalog Number
+Software
+MCL Version: 14-137
+https://micans.org/mcl/ (Enright et al, 2002)
+ClusterOne Version: 1.0
+https://paccanarolab.org/cluster-one/ (Nepusz et al, 2012)
+LibSVM Version: 321
+https://www.csie.ntu.edu.tw/~cjlin/libsvm/ (Chang & Lin, 2011)
+UpSet Version: 0.4.1
+https://upsetplot.readthedocs.io/en/stable/ (Lex et al, 2014)
+MSBlender Version: ec3b484
+https://github.com/marcottelab/MSblender (Kwon et al, 2011)
+ProteinComplexMaps Version: 512b9b5
+https://github.com/marcottelab/protein_complex_maps (Drew et al, 2017)
+Methods and Protocols
+Mass spectrometry dataset collection
+Mass spectrometry data and features based on those data used as
+input into the machine learning classifier were collected from vari-
+ous publications. Specifically, protein interaction features for data-
+sets used in hu.MAP 1.0 (Drew et al, 2017), e.g., Wan et al, Hein
+et al, Huttlin et al, were downloaded from http://hu1.proteincomple
+xes.org/static/downloads/feature_matrix.txt.gz. Four vector compar-
+ison measures were used for co-fractionation data from Wan et al
+including Poisson noise Pearson correlation coefficient, weighted
+cross-correlation, co-apex score, and MS1 ion intensity distance
+metric. All four vector comparison measures were applied to each
+of the 55 fractionation experiments, totaling 220 features. Pairs of
+proteins were filtered to ensure co-fractionation measures were
+> 0.5 in at least two species. AP-MS data from (Guruharsha et al,
+2011) mapped onto human orthologs using InParanoid (Sonnham-
+mer & O¨ stlund, 2015) were represented using the HGSCore value
+originally downloaded from supplemental table S3 in Guruharsha
+et al AP-MS data from (Malovannaya et al, 2011) were repre-
+sented by the
+MEMOs (core modules) certainty assignments
+“approved”, “provisional”, and “temporary” originally downloaded
+from supplemental file S1, assigning the scores 10, 3, and 1, respec-
+tively. Bioplex 1.0 (Huttlin et al, 2015) features were used as origi-
+nally downloaded from http://wren.hms.harvard.edu/bioplex/data/
+cdf/150408_CDF_STAR_GRAPH_Ver2594.cdf including NWD Score,
+Z Score, Plate Z Score, Entropy, Unique Peptide Bins, Ratio, Total
+PSMs, Ratio Total PSMs, and Unique:Total Peptide Ratio. For the
+Hein AP-MS data, the features prey.bait.correlation, valid.values,
+log10.prey.bait.ratio,
+and
+log10.prey.bait.expression.ratio
+were
+taken from supplemental table S2 in (Hein et al, 2015). The mean
+value was used across the experiments in the case of multiple
+entries for a given protein pair. Note, all HumanNet (Lee et al,
+2011) features were excluded from all model training.
+New datasets added for hu.MAP 2.0 were downloaded from orig-
+inal publications or associated dataset web resources as shown in
+Table 1. The same measures used for Bioplex1.0 were also used for
+Bioplex2.0 features specifically NWD Score, Z Score, Plate Z Score,
+Entropy, Unique Peptide Bins, Ratio, Total PSMs, Ratio Total PSMs,
+Unique:Total Peptide Ratio and Average Assembled Peptide Spectral
+Matches. We used the measures from the proximity labeling dataset,
+Gupta et al, for both the ciliated condition and nonciliated
+condition, specifically Average Spectra, Average Saint probability,
+Max Saint probability, Fold Change, and Bayesian FDR estimate.
+The same measures were used for the proximity labeling Youn et al
+data but only for the single condition. Measures used for Boldt et al
+data were socioaffinity index (SAij) and individual terms based on
+the spoke model for where protein i is the bait (Sij) and where
+protein j is the bait (Sji). The matrix model term for the socioaffinity
+index was also used (Mij). Mass spectrometry data from (Treiber
+et al, 2017) were downloaded from the Pride web resource (Perez-
+Riverol et al, 2019) (PXD004193) and reprocessed using the MSBlen-
+der pipeline (Kwon et al, 2011). Full details are described in
+Table 1.
+Integrated mass spectrometry datasets.
+Dataset
+Num of
+experiments
+Link
+Wan et al (2015)
+5,344 fractions
+http://hu1.proteincomplexe
+s.org/static/downloads/fea
+ture_matrix.txt.gz
+Hein et al (2015)
+1,125 bait pull-
+downs
+http://hu1.proteincomplexe
+s.org/static/downloads/fea
+ture_matrix.txt.gz
+Bioplex 2.0 (Huttlin
+et al, 2017)
+(includes Bioplex 1.0)
+5,891 bait pull-
+downs
+https://bioplex.hms.harva
+rd.edu/data/BaitPreyPairs_
+noFilters_BP2a.tsv
+Gupta et al (2015)
+2 conditions x 58
+proximity labeled
+baits = 116
+http://prohits-web.lunenfe
+ld.ca/
+Youn et al (2018)
+119 proximity
+labeled baits
+http://www.cell.com/cms/
+attachment/2118963855/
+2087347233/mmc2.xlsx
+Boldt et al (2016)
+217 bait pull-
+downs
+https://static-content.
+springer.com/esm/art%
+3A10.1038%2Fnc
+omms11491/MediaObjects/
+41467_2016_BFnc
+omms11491_MOESM835_
+ESM.xlsx
+Treiber et al (2017)
+(reprocessed by
+(Mallam et al, 2019))
+3,004 RNA hairpin
+pull-down MS
+runs
+https://www.cell.com/cms/
+10.1016/j.celrep.2019.09.
+060/attachment/45abb95b-
+ef3f-4752-8906-dc5eed
+118480/mmc4.csv
+ª 2021 The Authors
+Molecular Systems Biology
+17: e10016 | 2021
+11 of 16
+Kevin Drew et al
+Molecular Systems Biology

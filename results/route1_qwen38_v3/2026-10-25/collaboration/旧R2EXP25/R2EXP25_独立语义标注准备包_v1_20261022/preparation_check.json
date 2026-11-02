@@ -1,0 +1,17 @@
+{
+  "status": "PASS_preparation_materials_only_no_labels_or_adjudication",
+  "candidates": 25,
+  "fixed_citation_markers_verified": 25,
+  "citation_cards": 25,
+  "unique_raw_XMLs": 38,
+  "blank_annotation_tables": 2,
+  "annotation_fields_all_blank": true,
+  "input_tables_identical": true,
+  "structure_fields_absent_from_annotation_inputs": true,
+  "local_HTML_links_verified": 163,
+  "XML_hashes_match_acquired_sources": true,
+  "scope_still_requires_annotator_confirmation": true,
+  "human_annotation_complete": false,
+  "semantic_labels_written": 0,
+  "model_runs": 0
+}

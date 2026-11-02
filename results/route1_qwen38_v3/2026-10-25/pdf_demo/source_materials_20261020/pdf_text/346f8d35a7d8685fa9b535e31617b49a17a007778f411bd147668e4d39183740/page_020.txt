@@ -1,0 +1,107 @@
+5162
+JACK ET AL.
+6. We envision creating a comprehensive system to stratify risk
+of onset and progression by incorporating all biomarkers (core
+AD, non-core, and biomarkers of non-AD copathology) along with
+demographics and genetics. Practical operationalization of a com-
+plete AT1T2NISV diagnosis and staging system (with the future
+addition of TDP-43) is aspirational at this point but could be
+conceivable with the development of multiplex BBM assays.
+7. The committee recognizes that the feasibility of implementing
+these criteria for biologically based diagnosis and staging of
+AD in clinical practice varies across regions, even within World
+Bank–designated high-income countries. We anticipate that the
+increasing availability of BBM will make these criteria more widely
+deployable within World Bank–designated low- to middle-income
+countries where PET- and CSF-based biomarkers may not be
+readily available.
+ACKNOWLEDGMENTS
+Clifford R. Jack Jr. received grant funding from the National Insti-
+tutes of Health, the Alexander family professorship, and the GHR
+Foundation. He has also received funding from the Alzheimer’s Asso-
+ciation for travel. Thomas G. Beach has received grant funding from
+the National Institutes of Health, Veterans Administration, State
+of Arizona, Life Molecular Imaging, Michael J. Fox Foundation for
+Parkinson’s Research, Avid Radiopharmaceuticals/Eli Lilly, and Gates
+Foundation. Oskar Hansson has acquired research support (for the
+institution) from AVID Radiopharmaceuticals, Biogen, C2N Diagnos-
+tics, Eli Lilly, Eisai, Fujirebio, GE Healthcare, and Roche. William
+Jagust received grants or contracts paid to his institution from the
+National Institute on Aging, Roche/Genentech, Alzheimer’s Associa-
+tion, and BrightFocus Foundation. Eric McDade received grant funding
+from NIA, Eli Lilly, Hoffmann-La Roche, Alzheimer’s Association, and
+GHR Foundation all directly to his institution. Ozioma Okonkwo
+received support from the following grants, paid to his institu-
+tion: R01AG062167, R01AG077507, U19AG024904, U19AG078109,
+U19AG073153, R01AG066203, R01AG070028, R01AG027161, and
+RF1AG052324. Michael Rafii received grants or contracts from Eisai
+(AHEAD Study) and Eli Lilly (A4 Study), which were paid to his institu-
+tion. Philip Scheltens received grants or contracts from Novo Nordisk,
+Toyama, UCB, AC Immune, and Alzheon, all paid to his institution.
+Reisa Sperling received grants or contracts from the National Insti-
+tute on Aging, Eli Lilly (public–private partnership trial funding), Eisai
+(public–private partnership trial funding), Alzheimer’s Association, and
+GHR Foundation. Charlotte E. Teunissen received grants or contracts
+for Research of the European Commission (Marie Curie International
+Training Network, grant agreement No 860197; MIRIADE), Innovative
+Medicines Initiatives 3TR (Horizon 2020, grant no 831434) EPND (IMI
+2 Joint Undertaking (JU), grant No. 101034344) and JPND (bPRIDE),
+National MS Society (Progressive MS alliance), Alzheimer Drug Dis-
+covery Foundation, Alzheimer Association, Health Holland, the Dutch
+Research Council (ZonMW), including TAP-dementia, a ZonMw funded
+project (#10510032120003) in the context of the Dutch National
+Dementia Strategy, Alzheimer Drug Discovery Foundation, The Self-
+ridges Group Foundation, and Alzheimer Netherlands.
+CONFLICT OF INTEREST STATEMENT
+Clifford R. Jack Jr. is employed by Mayo Clinic. Within the past 36
+months, he served on a Data Safety Monitoring Board for Roche
+pro bono; no payments to the individual or institution were involved.
+In addition, he holds index funds. J. Scott Andrews is employed by
+Takeda Pharmaceuticals and is a minor shareholder for the com-
+pany. He has a leadership or fiduciary role in the Clinical Trials on
+Alzheimer’s Disease (CTAD) Task Force—Clinical Meaningfulness and
+Optimizing Therapies, AD PACE Executive Steering Committee, and
+UsAgainstAlzheimer’s—Clinical Meaningfulness Forum. He is a for-
+mer employee of Eli Lilly and Company and is a minor shareholder
+for the company. Thomas G. Beach is employed by Banner Health.
+He has received consulting fees from Aprinoia Therapeutics and
+Acadia Pharmaceuticals. He consulted for Biogen. He has received
+payment or honoraria from the World PD Coalition, Mayo Clinic
+Florida, Stanford University, and the IOS Press-Journal of Parkinson’s
+Disease and support for attending meetings from the Alzheimer’s
+Association, AD/PD/Kenes Group, Mayo Clinic Florida, Universität-
+sklinikum Hamburg-Eppendorf, and the International Movement Dis-
+orders Association. In addition he has recieved funds from the National
+Institutes of Health for reviewing grant proposals. He also has a lead-
+ership/fiduciary role and stock options with Vivid Genomics. Teresa
+Burracchio is employed by the US Food and Drug Administration and
+has no financial conflicts to disclose. Billy Dunn is a consultant and
+has received consulting fees for his role as an advisor for Arch Ven-
+ture Partners, Cerveau Technologies, Epilepsy Foundation, F-PRIME
+Capital, Loulou Foundation, and Michael J. Fox Foundation. He has
+held a past position of leadership or fiduciary role in the Virginia
+Neurological Society (past president) and Prothena Inc. (Director).
+He holds stock options with Prothena Inc. Ana Graf is employed by
+Novartis Pharma AG and has stock options in the company. Oskar
+Hansson is employed by Lund University. He has grants or contracts
+from ADx, AVID Radiopharmaceuticals, Biogen, Eli Lilly, Eisai, Fujirebio,
+GE Healthcare, Pfizer, and Roche. He also has been paid consult-
+ing fees by AC Immune, Amylyx, Alzpath, BioArctic, Biogen, Cerveau,
+Eisai, Eli Lilly, Fujirebio, Genentech, Merck, Novartis, Novo Nordisk,
+Roche, Sanofi, and Siemens. In the past 2 years, he has received con-
+sultancy/speaker fees from AC Immune, Alzpath, BioArctic, Biogen,
+Bristol Meyer Squibb, Cerveau, Eisai, Eli Lilly, Fujirebio, Merck, Novar-
+tis, Novo Nordisk, Roche, Sanofi, and Siemens. Carole Ho is employed
+by Denali Therapeutics. She has stock options with Denali Therapeu-
+tics. She is also a Board Director for Beam Therapeutics and NGM
+Therapeutics and has stock options with both companies. William
+Jagust is employed by University of California, Berkley. He has received
+consulting fees from Biogen, Clario, Eisai, Lilly, and Prothena and
+has stock with Optoceutics and Molecular Medicine. Eric McDade is
+employed by Washington University, St Louis. He has received roy-
+alties for work on “Methods of diagnosing AD with phosphorylation
+changes,” which is licensed to C2N with royalties to himself and Wash-
+ington University. He has received consulting fees from Alzamend
+(SAB member), Sanofi, AstraZeneca, Roche, Grifols, Merck, and Sage.
+He has also received payments from Neurology Live; Kaplan-Projects
+in Knowledge; and support for travel from Foundation Alzheimer,

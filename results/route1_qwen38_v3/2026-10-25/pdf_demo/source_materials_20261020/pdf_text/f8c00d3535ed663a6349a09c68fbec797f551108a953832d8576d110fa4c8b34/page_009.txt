@@ -1,0 +1,128 @@
+Nature Medicine 
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+all groups were age-matched. Second, we additionally adjusted the sta-
+tistical models for a measure of white matter pathology, that is, white 
+matter hypointensity volumes derived from T1-weighted magnetic 
+resonance imaging scans using the standard FreeSurfer pipeline60. 
+Statistical significance for all models was set at two-sided P < 0.05.
+Reporting summary
+Further information on research design is available in the Nature 
+Research Reporting Summary linked to this article.
+Data availability
+Due to the multicenter design of the study, access to individual partici-
+pant data from each cohort would need to be made available through 
+the principal investigators or project websites of the respective 
+cohorts. For the MCSA, raw and analyzed de-identified data can be 
+requested at https://ras-rdrs.mayo.edu/Request/IndexRequest. The 
+request will be reviewed by the MCSA investigators and Mayo Clinic to 
+verify whether it is subject to any intellectual property or confidenti-
+ality obligations. A data sharing agreement must be obtained before 
+release. For BioFINDER-1 and BioFINDER-2, anonymized data will be 
+shared by request to O.H. from a qualified academic investigator for 
+the sole purpose of replicating the procedures and results presented 
+in the article and as long as data transfer is in agreement with Euro-
+pean Union legislation on the general data protection regulation and 
+decisions by the Swedish Ethical Review Authority and Region Skåne, 
+which should be regulated in a material transfer agreement. For BACS, 
+data are available on request to W.J.J. Requests for data from the open 
+access part of HABS can be submitted to https://habs.mgh.harvard.
+edu. Requests for access to the AIBL data can submitted via an online 
+form available at https://aibl.csiro.au/adni/index.html. For the ADC, 
+the dataset used for the present study is available from R.O. and/or 
+W.F. upon reasonable request.
+Code availability
+The codes used for the data analyses in our study can be requested 
+from the corresponding authors (R.O., O.H.).
+References
+48.	 Roberts, R. O. et al. The Mayo Clinic Study of Aging: design 
+and sampling, participation, baseline measures and sample 
+characteristics. Neuroepidemiology 30, 58–69 (2008).
+49.	 Ossenkoppele, R. et al. Is verbal episodic memory in elderly with 
+amyloid deposits preserved through altered neuronal function? 
+Cereb. Cortex 24, 2210–2218 (2014).
+50.	 Dagley, A. et al. Harvard Aging Brain Study: dataset and 
+accessibility. Neuroimage 144, 255–258 (2017).
+51.	 Fowler, C. et al. Fifteen years of the Australian Imaging, 
+Biomarkers and Lifestyle (AIBL) study: progress and observations 
+from 2,359 older adults spanning the spectrum from cognitive 
+normality to Alzheimer’s disease. J. Alzheimers Dis. Rep. 5, 
+443–468 (2021).
+52.	 Slot, R. E. R. et al. Subjective Cognitive Impairment Cohort 
+(SCIENCe): study design and first results. Alzheimers Res. Ther. 10, 
+76 (2018).
+53.	 Jack, C. R. Jr et al. Defining imaging biomarker cut points for  
+brain aging and Alzheimer’s disease. Alzheimers Dement. 13, 
+205–216 (2017).
+54.	 Leuzy, A. et al. Biomarker-based prediction of longitudinal tau 
+positron emission tomography in Alzheimer’s disease. JAMA 
+Neurol. 79, 149–158 (2022).
+55.	 Berron, D. et al. Early stages of tau pathology and its associations 
+with functional connectivity, atrophy and memory. Brain 144, 
+2771–2783 (2021).
+56.	 Petersen, R. C. Mild cognitive impairment as a diagnostic entity. J. 
+Intern. Med. 256, 183–194 (2004).
+57.	 Petersen, R. C. et al. Practice guideline update summary: mild 
+cognitive impairment: report of the Guideline Development, 
+Dissemination, and Implementation Subcommittee of the 
+American Academy of Neurology. Neurology 90, 126–135 (2018).
+58.	 McKhann, G. M. et al. The diagnosis of dementia due to 
+Alzheimer’s disease: recommendations from the National 
+Institute on Aging-Alzheimer’s Association workgroups on 
+diagnostic guidelines for Alzheimer’s disease. Alzheimers Dement. 
+7, 263–269 (2011).
+59.	 Donohue, M. C. et al. The preclinical Alzheimer cognitive 
+composite: measuring amyloid-related decline. JAMA Neurol. 71, 
+961–970 (2014).
+60.	 Fischl, B. et al. Whole brain segmentation: automated labeling 
+of neuroanatomical structures in the human brain. Neuron 33, 
+341–355 (2002).
+Acknowledgements
+We thank B. Dubois for advice on the nomenclature used for the IWG 
+criteria in Fig. 1a. The data used in the preparation of this article were 
+obtained from the Harvard Aging Brain Study (HABS) (P01AG036694; 
+https://habs.mgh.harvard.edu). The HABS study was launched in 
+2010, funded by the National Institute on Aging, and is led by principal 
+investigators R. A. Sperling and K. A. Johnson at Massachusetts 
+General Hospital/Harvard Medical School in Boston. Data were also 
+obtained from the Mayo Clinic Study of Aging (U01 AG006786) 
+and the Mayo Clinic Alzheimer’s Disease Research Center (P30 
+AG067677) supported by the National Institute on Aging, Alzheimer’s 
+Association and GHR Foundation (principal investigator R. C. 
+Petersen). The research of Alzheimer Center Amsterdam is part of the 
+neurodegeneration research program of Amsterdam Neuroscience. 
+Alzheimer Center Amsterdam is supported by the Alzheimer 
+Nederland and VUmc Foundations. The chair of Wiesje van der Flier is 
+supported by the Pasman Foundation. The SCIENCe project receives 
+funding from the Gieskes-Strijbis Fund and the Dioraphte Foundation. 
+V. Venkatraghavan kindly provided the white matter hypointensity 
+data for the ADC. This project received funding from the European 
+Research Council under the European Union’s Horizon 2020 research 
+and innovation programme (grant no. 949570; principal investigator 
+R.O.). Work at Lund University was supported by the Swedish 
+Research Council (2016-00906, O.H.), the Knut and Alice Wallenberg 
+Foundation (2017-0383, O.H.), the Marianne and Marcus Wallenberg 
+Foundation (2015.0125, O.H.), the Strategic Research Area MultiPark 
+(Multidisciplinary Research in Parkinson’s disease) at Lund University, 
+the Swedish Alzheimer Foundation (AF-939932, O.H.), the Swedish 
+Brain Foundation (FO2021-0293, O.H.), The Parkinson Foundation 
+of Sweden (1280/20, O.H.), the King Gustaf V’s and Queen Victoria’s 
+Masonic Foundation, the Skåne University Hospital Foundation 
+(2020-O000028, O.H.), Regional Research Support (2020-0314, 
+O.H.) and the Swedish federal government under the ALF agreement 
+(2018-Projekt0279, O.H.). We also thank the donors of the Alzheimer’s 
+Disease Research, a program of the BrightFocus Foundation, for 
+support of this research (A2021013F, O.H. and A.P.B.). A.P.B. is 
+supported by a postdoctoral fellowship from the Fonds de Recherche 
+en Santé Québec (298314). C.G. is supported by a Dementia 
+Fellowship grant from ZonMW (10510022110010). The precursor 
+of 18F-flortaucipir was provided by AVID Radiopharmaceuticals and 
+the precursor of 18F-RO948 was provided by Roche. The precursor 
+of 18F-flutemetamol was sponsored by GE Healthcare. Research 
+of Alzheimer Center Amsterdam has been funded by ZonMW, 
+NWO, EU-FP7, EU-JPND, Alzheimer Nederland, Hersenstichting 
+CardioVascular Onderzoek Nederland, Health~Holland, Top Sector 
+Life Sciences & Health, the Dioraphte Foundation, Gieskes-Strijbis 
+Fund, Equilibrio Foundation, Edwin Bouw Fund, Pasman Foundation, 
+Alzheimer & Neuropsychiatry Foundation, Philips, Biogen, Novartis-NL, 
+Life Molecular Imaging, AVID Radiopharmaceuticals, Roche, Fujifilm 

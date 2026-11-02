@@ -1,0 +1,219 @@
+Articles
+570	
+www.thelancet.com   Vol 395   February 22, 2020
+with 100% identity at the amino acid level. In addition, 
+the partial genomes from samples WH02 and WH19002 
+also had nearly 100% identity to the complete genomes 
+across the aligned gene regions.
+A Blastn search of the complete genomes of 2019-nCoV 
+revealed that the most closely related viruses available 
+on GenBank were bat-SL-CoVZC45 (sequence identity 
+87·99%; query coverage 99%) and another SARS-like 
+betacoronavirus of bat origin, bat-SL-CoVZXC21 (acces­
+sion number MG772934;23 87·23%; query coverage 98%). 
+In five gene regions (E, M, 7, N, and 14), the sequence 
+identities were greater than 90%, with the highest 
+being 98·7% in the E gene (figure 2A). The S gene of 
+2019-nCoV exhibited the lowest sequence identity with 
+bat-SL-CoVZC45 and bat-SL-CoVZXC21, at only around 
+75%. In addition, the sequence identity in 1b (about 86%) 
+was lower than that in 1a (about 90%; figure 2A). Most of 
+the encoded proteins exhibited high sequence identity 
+between 2019-nCoV and the related bat-derived corona­
+viruses (figure 2a). The notable exception was the spike 
+protein, with only around 80% sequence identity, and 
+protein 13, with 73·2% sequence identity. Notably, the 
+2019-nCoV strains were less genetically similar to 
+SARS-CoV (about 79%) and MERS-CoV (about 50%). The 
+similarity between 2019-nCoV and related viruses was 
+visualised using SimPlot software, with the 2019-nCoV 
+consensus sequence employed as the query (figure 2B).
+Comparison of the predicted coding regions of 
+2019-nCoV showed that they possessed a similar genomic 
+organisation to bat-SL-CoVZC45, bat-SL-CoVZXC21, and 
+SARS-CoV (figure 1B). At least 12 coding regions were 
+predicted, including 1ab, S, 3, E, M, 7, 8, 9, 10b, N, 13, and 
+14 (figure 1B). The lengths of most of the proteins encoded 
+by 2019-nCoV, bat-SL-CoVZC45, and bat-SL-CoVZXC21 
+were similar, with only a few minor insertions or dele­
+tions. A notable difference was a longer spike protein 
+encoded by 2019-nCoV compared with the bat SARS-like 
+coronaviruses, SARS-CoV, and MERS-CoV (figure 1B).
+Phylogenetic analysis of 2019-nCoV and its closely 
+related reference genomes, as well as representative beta­
+coronaviruses, revealed that the five subgenera formed 
+five well supported branches (figure 3). The subgenus 
+Figure 2: Sequence identity between the consensus of 2019-nCoV and representative betacoronavirus genomes
+(A) Sequence identities for 2019-nCoV compared with SARS-CoV GZ02 (accession number AY390556) and the bat SARS-like coronaviruses bat-SL-CoVZC45 
+(MG772933) and bat-SL-CoVZXC21 (MG772934). (B) Similarity between 2019-nCoV and related viruses. 2019-nCoV=2019 novel coronavirus. SARS-CoV=severe 
+acute respiratory syndrome coronavirus.
+1ab
+S
+3
+E
+M
+7
+8
+10b
+N
+1314
+Strain
+Complete
+genome
+(%)
+Gene region (%)
+Nucleotide
+sequences
+Amino acid 
+sequences
+Bat-SL-CoVZC45
+Bat-SL-CoVZXC21
+SARS-CoVGZ02
+87·6
+87·5
+79·0
+88·9
+88·7
+79·5
+90·7
+90·3
+75·4
+86·0
+86·1
+86·3
+75·2
+74·7
+72·7
+87·8
+88·9
+75·6
+98·7
+98·7
+93·5
+93·4
+93·4
+85·1
+95·2
+95·2
+74·5
+88·8
+89·1
+82·1
+88·5
+88·5
+··
+91·1
+91·2
+88·1
+89·1
+89·5
+··
+96·7
+96·7
+··
+95·6
+95·2
+86·2
+95·6
+95·1
+80·5
+95·8
+95·5
+95·6
+80·2
+79·6
+76·2
+90·9
+92·0
+73·1
+100·0
+100·0
+94·7
+98·6
+98·6
+90·1
+93·4
+93·4
+68·9
+87·6
+88·4
+85·2
+94·2
+94·2
+··
+94·3
+94·3
+90·3
+73·2
+73·2
+ ··
+92·9
+92·9
+··
+··
+··
+··
+Bat-SL-CoVZC45
+Bat-SL-CoVZXC21
+SARS-CoVGZ02
+1a
+1b
+1ab
+1a
+1b
+S
+3
+E
+M
+7
+8
+10b
+N
+13
+14
+A
+B
+1000
+3000
+5000
+7000
+9000
+11 000
+13 000
+15 000
+17 000
+19 000
+21 000
+23 000
+27 000
+25 000
+29 000
+0
+0·05
+0·10
+0·15
+0·20
+0·25
+0·30
+0·35
+0·40
+0·45
+0·50
+0·55
+0·60
+0·65
+0·70
+0·75
+0·80
+0·85
+0·90
+0·95
+1·00
+Similarity (%)
+Position
+SARS-CoV GZ02
+Bat-SL-CoVZC45
+Bat-SL-CoVZXC21
+Gene
+2019-nCoV
+Consensus

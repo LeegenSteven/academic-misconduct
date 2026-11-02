@@ -1,0 +1,45 @@
+ 
+ Michael C. Thompson (
+), Todd O. Yeates (
+), Jose A. Rodriguez (
+Corresponding authors:
+mthompson30@ucmerced.edu
+yeates@mbi.ucla.edu
+)
+jrodriguez@mbi.ucla.edu
+ 
+: Writing – Original Draft Preparation, Writing – Review & Editing; 
+: Writing – Original Draft Preparation,
+Author roles: Thompson MC
+Yeates TO
+Writing – Review & Editing; 
+: Writing – Original Draft Preparation, Writing – Review & Editing
+Rodriguez JA
+ No competing interests were disclosed.
+Competing interests:
+ This work was supported by the National Institutes of Health-National Institute of General Medical Sciences (NIH-NIGMS)
+Grant information:
+Grant R35-GM128867, a Searle Scholars award, a Pew Scholar award (J.A.R), a Beckman Young Investigator award, a Packard Fellowship
+(J.A.R), Department of Energy Grant DE-FC02-02ER63421 (T.O.Y. and J.A.R.), NIH-NIGMS Grant R01-GM129854 (T.O.Y.), and National Science
+Foundation (NSF) STC-1231306 (M.C.T.).
+The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+ © 2020 Thompson MC 
+. This is an open access article distributed under the terms of the 
+,
+Copyright:
+et al
+Creative Commons Attribution License
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+ Thompson MC, Yeates TO and Rodriguez JA. 
+How to cite this article:
+Advances in methods for atomic resolution macromolecular
+ F1000Research 2020,  (Faculty Rev):667 
+structure determination [version 1; peer review: 2 approved]
+9
+https://doi.org/10.12688/f1000research.25097.1
+ 02 Jul 2020,  (Faculty Rev):667 
+First published:
+9
+https://doi.org/10.12688/f1000research.25097.1
+Page 2 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

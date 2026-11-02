@@ -1,0 +1,74 @@
+{
+  "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+  "status": "proposed_only_not_applied",
+  "issue": "lexical_hyphen_deleted_by_generic_line_end_normalization",
+  "source_word_fragment": {
+    "pdf_page": 2,
+    "char_start": 859,
+    "char_end_exclusive": 868,
+    "raw_text": "SARS-\nCoV",
+    "raw_text_sha256": "b1e9949d1e873ff8cb88c0be6548f94c7ed60221330f58e08ffee2616ded077a",
+    "source_blocks": [
+      {
+        "block_number": 4,
+        "bbox": [
+          99.997,
+          173.83,
+          301.029,
+          341.96
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "same_pdf_inline_spelling_fragment": {
+    "pdf_page": 2,
+    "char_start": 379,
+    "char_end_exclusive": 422,
+    "raw_text": "has a phylogenetic similarity to SARS-CoV.3",
+    "raw_text_sha256": "acd73b7005168f3d17c847f1383650516e7e959957468eaa3f175d1044ddfe07",
+    "source_blocks": [
+      {
+        "block_number": 3,
+        "bbox": [
+          100.003,
+          53.97,
+          301.041,
+          173.96
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "old_normalized_word": "SARSCoV",
+  "proposed_normalized_word": "SARS-CoV",
+  "operation": "Retain the source U+002D lexical hyphen and remove only the physical line break for this mapped occurrence.",
+  "old_primary_text": "In recent studies, the severity of some cases of Covid-19 mimicked that of SARSCoV.1,12,13",
+  "proposed_primary_text": "In recent studies, the severity of some cases of Covid-19 mimicked that of SARS-CoV.1,12,13",
+  "old_query": "In recent studies, the severity of some cases of Covid-19 mimicked that of SARSCoV.1,12,13",
+  "proposed_query": "In recent studies, the severity of some cases of Covid-19 mimicked that of SARS-CoV.1,12,13",
+  "old_query_utf8_sha256": "124afb18dd370286753c0a6648fa50cefbeb986bf9cd74c04c6ab62c479c026f",
+  "proposed_query_utf8_sha256": "41d443bd4af0cc42a7939cb2b9ad7457a93d2302888f00407d0f0940a71c54c5",
+  "proposed_normalized_context_text": "The World Health Organization (WHO) has recently declared coronavirus disease 2019 (Covid-19) a public health emergency of international concern.9 As of February 25, 2020, a total of 81,109 laboratory-confirmed cases had been documented globally.5,6,9-11 In recent studies, the severity of some cases of Covid-19 mimicked that of SARS-CoV.1,12,13 Given the rapid spread of Covid-19, we determined that an updated analysis of cases throughout mainland China might help identify the defining clinical characteristics and severity of the disease. Here, we describe the results of our analysis of the clinical characteristics of Covid-19 in a selected cohort of patients throughout China",
+  "proposed_normalized_context_utf8_sha256": "60885548301e75f2f08f23c37c6cc1d1e873d5a29d3bee003d6fcc4fb7392254",
+  "original_scope_sha256": "46e8d5fc63d50398979b64e7e2521030f213b90c02a0b8d04428c43c41af01b2",
+  "proposed_scope_sha256": null,
+  "requires_new_normalization_policy_and_character_map": true,
+  "old_normalized_offsets_not_claimed_valid_for_proposed_text": true,
+  "old_classifier_input_sha256": "133c1a8da3eb7edc09d1d83b187c3a160610e8fb35d83889426589dd6cd25310",
+  "proposed_classifier_input_sha256_text_inspection_only": "6413c349dda5fda7e1daaa1956b19ba56163aa9853e4b6c45c25537855ac3891",
+  "proposed_user_prompt_with_old_candidates_not_released": "目标引用覆盖的原文片段：\nIn recent studies, the severity of some cases of Covid-19 mimicked that of SARS-CoV.1,12,13\n候选证据：\nD01:S01 | Summary\nBackground A recent cluster of pneumonia cases in Wuhan, China, was caused by a novel betacoronavirus, the \n2019 novel coronavirus (2019-nCoV). We report the epidemiological, clinical, laboratory, and radiological characteristics \nand treatment and clinical outcomes of these patients.\n\nD01:S02 | The pathophysiology of unusually high pathogenicity \nfor SARS-CoV or MERS-CoV has not been completely \nunderstood. Early studies have shown that increased \namounts of proinflammatory cytokines in serum (eg, \nIL1B, IL6, IL12, IFNγ, IP10, and MCP1) were associated \nwith pulmonary inflammation and extensive lung \ndamage in SARS patients.22 MERS-CoV infection was \nalso reported to induce increased concentrations of \nproinflammatory cytokines (IFNγ, TNFα, IL15, and \nIL17).23 We noted that patients infected with 2019-nCoV \nalso had high amounts of IL1B, IFNγ, IP10, and MCP1, \nprobably leading to activated T-helper-1 (Th1) cell re­\nsponses. Moreover, patients requiring ICU admission \nhad higher concentrations of GCSF, IP10, MCP1, MIP1A, \nand TNFα than did those not requiring ICU admission, \nsuggesting that the cytokine storm was associated with \ndisease severity. However, 2019-nCoV infection also \ninitiated increased secretion of T-helper-2 (Th2) cytokines \n(eg, IL4 and IL10) that suppress inflammation, which \ndiffers from SARS-CoV infection.22 Further studies are \nnecessary to characterise the Th1 and Th2 responses in \n2019-nCoV infection and to elucidate the pathogenesis. \nAutopsy or biopsy studies would be the key to understand \nthe disease.\n\nD01:S03 | Our study has some limitations. First, for most of the \n41 patients, the diagnosis was confirmed with lower \nrespiratory tract specimens and no paired nasopharyngeal \nswabs were obtained to investigate the difference in the \nviral RNA detection rate between upper and lower \nrespiratory tract specimens. Serological detection was not \ndone to look for 2019-nCoV antibody rises in 18 patients \nwith undetectable viral RNA. Second, with the limited \nnumber of cases, it is difficult to assess host risk factors \nfor disease severity and mortality with multivariable-\nadjusted methods. This is a modest-sized case series of \npatients admitted to hospital; collection of standardised \ndata for a larger cohort would help to further define the \nclinical presentation, natural history, and risk factors. \nFurther studies in outpatient, primary care, or community \nsettings are needed to get a full picture of the spectrum of \nclinical severity. At the same time, finding of statistical \ntests and p values should be interpreted with caution, \nand non-significant p values do not necessarily rule out \ndifference between ICU and non-ICU patients. Third, \nsince the causative pathogen has just been identified, \nkinetics of viral load and antibody titres were not available. \nFinally, the potential exposure bias in our study might \naccount for why no paediatric or adolescent patients were \nreported in this cohort. More effort should be made to \nanswer these questions in future studies.\n\nD01:S04 | research that is available on the COVID-19 resource centre - including this \n\nD01:S05 | The blood counts of patients on admission showed \nleucopenia (white blood cell count less than 4 × 10⁹/L; \nten [25%] of 40 patients) and lymphopenia (lymphocyte \ncount <1·0 × 10⁹/L; 26 [63%] patients; table 2). Pro­\nthrombin time and D-dimer level on admission were \nhigher in ICU patients (median prothrombin time \n12·2 s [IQR 11·2–13·4]; median D-dimer level 2·4 mg/L \n[0·6–14·4]) than non-ICU patients (median prothrombin \ntime 10·7 s [9·8–12·1], p=0·012; median D-dimer level \n0·5 mg/L [0·3–0·8], p=0·0042). Levels of aspartate \namino­transferase were increased in 15 (37%) of \n41 patients, including eight (62%) of 13 ICU patients \nand seven (25%) of 28 non-ICU patients. Hypersensitive \ntroponin I (hs-cTnI) was increased substantially in \nfive patients, in whom the diagnosis of virus-related \ncardiac injury was made.\n\nD01:S06 | Interpretation The 2019-nCoV infection caused clusters of severe respiratory illness similar to severe acute respiratory \nsyndrome coronavirus and was associated with ICU admission and high mortality. Major gaps in our knowledge of \nthe origin, epidemiology, duration of human transmission, and clinical spectrum of disease need fulfilment by future \nstudies.\n\nD01:S07 | In December, 2019, a series of pneumonia cases of \nunknown cause emerged in Wuhan, Hubei, China, \nwith clinical presentations greatly resembling viral \npneumonia.9 Deep sequencing analysis from lower \nrespiratory tract samples indicated a novel coronavirus, \nwhich was named 2019 novel coronavirus (2019-nCoV). \nThus far, more than 800 confirmed cases, including in \nhealth-care workers, have been identified in Wuhan, and \nseveral exported cases have been confirmed in other \nprovinces in China, and in Thailand, Japan, South Korea, \nand the USA.10–13\n\nD01:S08 | The number of deaths is rising quickly. As of \nJan 24, 2020, 835 laboratory-confirmed 2019-nCoV \ninfec­tions were reported in China, with 25 fatal \ncases. Reports have been released of exported cases in \nmany provinces in China, and in other countries; \n\nD01:S09 | References\n1\t\nRichman DD, Whitley RJ, Hayden FG, eds. Clinical virology, \n4th edn. Washington: ASM Press, 2016.\n2\t\nKsiazek TG, Erdman D, Goldsmith CS, et al. A novel coronavirus \nassociated with severe acute respiratory syndrome. N Engl J Med \n2003; 348: 1953–66.\n3\t\nKuiken T, Fouchier RAM, Schutten M, et al. Newly discovered \ncoronavirus as the primary cause of severe acute respiratory \nsyndrome. Lancet 2003; 362: 263–70.\n4\t\nDrosten C, Günther S, Preiser W, et al. Identification of a novel \ncoronavirus in patients with severe acute respiratory syndrome. \nN Engl J Med 2003; 348: 1967–76.\n5\t\nde Groot RJ, Baker SC, Baric RS, et al. Middle East respiratory \nsyndrome coronavirus (MERS-CoV): announcement of the \nCoronavirus Study Group. J Virol 2013; 87: 7790–92.\n6\t\nZaki AM, van Boheemen S, Bestebroer TM, Osterhaus ADME, \nFouchier RAM. Isolation of a novel coronavirus from a man with \npneumonia in Saudi Arabia. N Engl J Med 2012; 367: 1814–20.\n7\t\nWHO. Summary of probable SARS cases with onset of illness \nfrom 1 November 2002 to 31 July 2003. Dec 31, 2003. https://www.\nwho.int/csr/sars/country/table2004_04_21/en/ (accessed \nJan 19, 2020).\n8\t\nWHO. Middle East respiratory syndrome coronavirus (MERS-CoV). \nNovember, 2019. http://www.who.int/emergencies/mers-cov/en/ \n(accessed Jan 19, 2020).\n9\t\nWHO. Novel coronavirus – China. Jan 12, 2020. http://www.who.\nint/csr/don/12-january-2020-novel-coronavirus-china/en/ (accessed \nJan 19, 2020).\n10\t\nWHO. Novel coronavirus – Thailand (ex-China). Jan 14, 2020. \nhttp://www.who.int/csr/don/14-january-2020-novel-coronavirus-\nthailand/en/ (accessed Jan 19, 2020).\n\nD01:S10 | Similarities of clinical features between 2019-nCoV and \nprevious betacoronavirus infections have been noted. In \nthis cohort, most patients presented with fever, dry \ncough, dyspnoea, and bilateral ground-glass opacities on \nchest CT scans. These features of 2019-nCoV infection \nbear some resemblance to SARS-CoV and MERS-CoV \ninfections.20,21 However, few patients with 2019-nCoV \ninfection had prominent upper respiratory tract signs \nand symptoms (eg, rhinorrhoea, sneezing, or sore \nthroat), indicating that the target cells might be located in \nthe lower airway. Furthermore, 2019-nCoV patients rarely \ndeveloped intestinal signs and symptoms (eg, diarrhoea), \nwhereas about 20–25% of patients with MERS-CoV or \nSARS-CoV infection had diarrhoea.21 Faecal and urine \nsamples should be tested to exclude a potential alternative \nroute of transmission that is unknown at this stage.\n\n仅对目标引用范围返回 label JSON；不能可靠判定时返回规定的 failure_status。",
+  "candidate_source_texts_changed": false,
+  "retrieval_query_would_change": true,
+  "required_before_adoption": [
+    "Confirm the single mapped spelling correction",
+    "Rebuild and verify normalized source-character mapping under an explicit correction policy",
+    "Prepare retrieval for the changed query, then rebuild and tokenize actual two-stage inputs"
+  ],
+  "retrieval_rerun": false,
+  "tokenizer_rerun": false,
+  "applied_to_runtime": false,
+  "human_confirmation": null
+}

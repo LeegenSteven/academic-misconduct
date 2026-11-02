@@ -1,0 +1,47 @@
+distinction between normal aging and age-related disease has been debated for decades 
+[193–195], and we do not presume to settle this here. Cut points should be selected to fit the 
+specific question(s) of interest. It is quite conceivable that the field will ultimately settle on 
+the concept of multiple cut points. For example, lenient cut points would be useful if the 
+research question centered on the earliest evidence of Alzheimer’s pathologic change. In 
+contrast, more conservative cut points might be appropriate if the research questions 
+required high diagnostic certainty.
+For amyloid imaging, where over a decade of data are available, different ligands, methods 
+of image acquisition, and image processing can result in different thresholds when compared 
+to neuropathologic standards [21,22,196]. These issues are currently less understood for 
+pathologic tau imaging, but the questions are equally tractable. The committee avoided 
+taking a proscriptive approach to these methodologic issues under the assumption that this 
+was best left to expert work groups and individual research centers.
+Initiatives to standardize imaging and CSF biomarker measures exist, for example, the 
+Centiloid Project [197], EADC-ADNI Harmonized Protocol for hippocampal segmentation 
+[198], Alzheimer’s Association Global Biomarkers Standardization Consortium [199], and 
+International Federation of Clinical Chemistry Working Group for CSF proteins [200]. 
+These efforts are the subject of ongoing research, but universal standards have not yet been 
+established [201].
+12. Genetics
+Genetics is not formally included in the research framework because our concept of disease 
+rests on neuropathologic change (that can be detected by biomarkers). In contrast, gene 
+variants do not measure pathologic change but rather indicate an individual’s risk for 
+developing pathologic change. For example, inheritance of an APOE ε4 allele neither 
+defines the presence of Alzheimer’s pathologic change or AD nor indicates any particular 
+stage of the disease.
+The penetrance of the classic autosomal dominant mutations in APP, PSEN1, or PSEN2 is 
+essentially 100%, and for this reason, it could be argued that these mutations confer a 
+pathologic state that exists from conception. Moreover, one can be almost certain that a 
+symptomatic autosomal dominant mutation carrier has AD neuropathologic change without 
+the use of biomarkers. However, also in this specific instance, our definitions of AD 
+pathologic change and AD are based on biomarker evidence of disease.
+13. Comparison to IWG
+In addition to the NIA AA, the other group that has established diagnostic guidelines for AD 
+that incorporate biomarkers is the IWG [64,74,75]. In the most recent formal IWG 
+document, published in 2014 [75], the diagnosis of AD required the presence of cognitive 
+symptoms plus an AD biomarker signature. This could be either an abnormal amyloid PET 
+study or both abnormal CSF Aβ and tau. The NIA-AA research framework aligns with these 
+criteria in recognizing that neither hypometabolism nor atrophy are specific for AD and thus 
+cannot be used to support a diagnosis of AD. One difference though is that we regard CSF T-
+Jack et al.
+Page 18
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

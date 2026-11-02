@@ -1,0 +1,127 @@
+n engl j med 382;13  nejm.org  March 26, 2020
+1202
+The new engl and jour nal of medicine
+a true turning point in incidence (Fig. 1). Spe-
+cifically, the latter part of the curve does not 
+indicate a decrease in the number of incident 
+cases but is due to delayed case ascertainment at 
+the cutoff date. Care should be taken in inter-
+preting the speed of growth in cases in January, 
+given an increase in the availability and use of 
+testing kits as time has progressed. The major-
+ity of the earliest cases included reported expo-
+sure to the Huanan Seafood Wholesale Market, 
+but there was an exponential increase in the 
+number of nonlinked cases beginning in late 
+December.
+The median age of the patients was 59 years 
+(range, 15 to 89), and 240 of the 425 patients 
+(56%) were male. There were no cases in chil-
+dren below 15 years of age. We examined char-
+acteristics of cases in three time periods: the 
+first period was for patients with illness onset 
+before January 1, which was the date the Huanan 
+Seafood Wholesale Market was closed; the sec-
+ond period was for those with onset between 
+January 1 and January 11, which was the date 
+when RT-PCR reagents were provided to Wuhan; 
+and the third period was those with illness onset 
+on or after January 12 (Table 1). The patients 
+with earlier onset were slightly younger, more 
+likely to be male, and much more likely to report 
+exposure to the Huanan Seafood Wholesale 
+Market. The proportion of cases in health care 
+workers gradually increased across the three 
+periods (Table 1).
+We examined data on exposures among 10 
+confirmed cases, and we estimated the mean 
+Figure 1. Onset of Illness among the First 425 Confirmed Cases of Novel Coronavirus (2019-nCoV)–Infected Pneumonia (NCIP) in Wuhan, 
+China.
+The decline in incidence after January 8 is likely to be due to delays in diagnosis and laboratory confirmation. China CDC denotes Chinese 
+Center for Disease Control and Prevention, NHC National Health Commission of the People’s Republic of China, PCR polymerase chain 
+reaction, WHC Wuhan Health Commission, and WHO World Health Organization.
+No. of Cases
+45
+50
+35
+40
+30
+25
+15
+10
+20
+5
+0
+27
+30
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+2
+5
+8
+11
+14
+17
+20
+Nov.
+2019
+Dec.
+2020
+Jan.
+A novel coronavirus was officially
+announced as the causative
+pathogen of the outbreak
+by China CDC
+Huanan Seafood Wholesale
+Market closed
+Outbreak announced by WHC;
+NHC and China CDC involved
+in investigation and response
+Case-finding activated
+Pneumonia cases linked
+to the Huanan Seafood
+Wholesale Market
+China CDC publicly shared the gene sequence
+of the novel coronavirus; completed PCR
+diagnostic reagent development and testing
+PCR diagnostic reagents provided to Wuhan
+First confirmed case from Wuhan
+reported outside China (in Thailand)
+China CDC emergency response level
+upgraded to Level 1 (the highest level);
+national technical protocols for 2019-
+nCoV released by NHC
+NCIP incorporated as a notifiable
+disease in the Infectious Disease
+Law and Health and Quarantine
+Law in China
+Reagent probes and primers
+shared with the public by 
+China CDC
+Strict exit screening measures activated
+in Wuhan, people with body temperature
+≥37.3ºC were restricted from leaving
+First confirmed case reported in another
+province in China (in a person who
+had traveled from Wuhan); China CDC
+issued test reagent to all provinces
+in China
+China CDC Level 2 emergency
+response activated
+Emergency monitoring, case investigation,
+close contact management, and market
+investigation initiated, technical protocols
+for Wuhan released; NHC notified WHO
+and relevant countries and regions; gene
+sequencing completed by China CDC
+Outbreak Period
+Not linked to Huanan market
+Linked to Huanan market

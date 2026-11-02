@@ -1,0 +1,91 @@
+The second mode, referred to as ‘palindrome mode’, is specif-
+ically aimed at detecting this common ‘adapter read-through’
+scenario, whereby the sequenced DNA fragment is shorter
+than the read length, and results in adapter contamination on
+the end of the reads. This is especially the case for longer read
+length as supported by the Miseq. Although such short frag-
+ments should normally be removed during library preparation,
+in practice this process is not perfectly efficient, and thus many
+libraries suffer from this problem to some extent. ‘Palindrome
+mode’ can only be used with paired-end data, but has consider-
+able advantages in sensitivity and specificity over ‘simple’ mode.
+Note
+that
+the
+current
+technical
+sequence
+identification
+approaches in Trimmomatic are not designed to filter or categor-
+ize data on the basis of ‘barcodes’.
+2.1.1 Simple mode
+In simple mode, each read is scanned from
+the 50 end to the 30 end to determine if any of the user-provided
+adapters are present. The standard ‘seed and extend’ approach
+(Li and Homer, 2010) is used to find initial matches between the
+technical sequences and the reads. The seed is not required to
+match perfectly, and a user-defined number of mismatches are
+tolerated. Based on this seed match, a local alignment is per-
+formed. If the alignment score exceeds the user-defined thresh-
+old, the aligned region plus the remainder after the alignment are
+removed.
+Figure 1 illustrates the alignments tested for each technical
+sequence. The process begins with a partial overlap of the 30
+end of the technical sequence with the 50 end of the read, as
+shown in (A). Testing proceeds by moving the putative contam-
+inant toward the 30 end of the read. In both the partial overlap
+(A) and complete overlap at the 50 end (B) scenarios, the entire
+read will be clipped. If the contaminant is found within the read
+(C), the bases from the 50 end of the read to the beginning of the
+alignment are retained. The testing process continues until only a
+partial alignment on the 30 end of the read remains (D).
+Simple mode has the advantage that it can detect any technical
+sequence at any location in the read, provided that the alignment
+is sufficiently long and the read is sufficiently accurate. However,
+when only a short partial match is possible, such as in scenarios
+(A) and (D), the contaminant may not be reliably detectable.
+2.1.2 Palindrome mode
+As noted above, ‘palindrome mode’ is
+specifically optimized for the detection of ‘adapter read-through’.
+When ‘read-through’ occurs, both reads in a pair will consist of
+an equal number of valid bases, followed by contaminating se-
+quence from the ‘opposite’ adapters. Furthermore, the valid se-
+quence within the two reads will be reverse complements. By
+detecting all three of these symptoms at once, adapter read-
+through can be identified with high sensitivity and specificity.
+For performance reasons, the actual algorithm combines these
+three tests. The adapter sequences are prepended to their respect-
+ive reads, and then the combined read-with-adapter sequences
+from the pair are aligned against each other. A high-scoring
+alignment indicates that the first parts of each read are reverse
+complements, while the remaining parts of the reads match the
+respective adapters.
+The alignment is implemented using a ‘seed and extend’
+approach, similar to that in simple mode. Global alignment scor-
+ing is used to ensure an end-to-end match across the entire
+overlap.
+Figure 2 illustrates the alignments tested in palindrome mode.
+The process begins with an overlap between the adapters and the
+start of the opposite reads, as shown in (A). This alignment
+would detect a read pair containing no useful sequence informa-
+tion, which could be caused by the direct ligation of the adapters.
+Detection of this scenario would result in the dropping of both
+reads. Testing then proceeds by moving the relative positioning
+of the reads ‘backwards’, testing for increasingly longer valid
+DNA fragments, illustrated in (B). This scenario would result
+in the trimming of both reads as illustrated. Even when only a
+small fragment of the adapter is overlapping, as shown in (C), the
+overall alignment is easily sufficient to ensure reliable detection.
+Fig. 1. Putative sequence alignments as tested in simple mode. The align-
+ment process begins with a partial overlap at the 50 end of the read (A),
+increasing to a full-length 50 overlap (B), followed by full overlaps at all
+positions (C) and finishes with a partial overlap at the 30 end of the read
+(D). Note that the upstream ‘adapter’ sequence is for illustration only and
+is not part of the read or the aligned region
+Fig. 2. Putative sequence alignments as tested in palindrome mode. The
+alignment process begins with the adapters completely overlapping the
+reads (A) testing for immediate ‘read-through’, then proceeds by checking
+for later overlap (B), including partial adapter read-through (C), finishing
+when the overlap indicates no read-through into the adapters (D)
+2115
+Trimmomatic: a flexible trimmer for Illumina sequence data

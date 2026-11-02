@@ -1,0 +1,22 @@
+The Author(s) BMC Bioinformatics 2017, 18(Suppl 3):80
+Page 95 of 175
+Fig. 4 An example of how automatic trimming works. Data is obtained from a cell-free DNA quality control sample, and sequenced by Illumina
+NextSeq 500 sequencer. a is the base content percentage curve before trimming and filtering, from which we can find base contents change
+dramatically in front and tail; b is the curve after trimming and filtering, from which we can find that the bad cycles in the tail are all trimmed, while
+only part of the front is trimmed. This results from the fact that we use different thresholds for the front and tail, since unflatness in front is more
+probably caused by different fragmentation methods, while unflatness in tail is usually caused by lab preparation or sequencing artefacts
+and tail. The default setting is no more than 10% in front
+and no more than 5% in tail.
+Filtering
+After trimming is done, AfterQC will apply a series of
+filters on the reads. AfterQC implements quality filters
+and polyX filters. Quality filters are trivial, which just
+count the number of low quality bases or N, calculate the
+mean quality of each read, and then determine whether to
+keep or discard this read. AfterQC implements an error-
+tolerantly method to detect polyX (X is one of A/T/C/G).
+Two arguments (P and L) are used to configure the polyX
+detection algorithm, P (default is 35) means how long the
+polyX sequence should have, while L (default is 2) refers
+to how many non-X bases can be tolerated in each polyX
+sub-sequence. According to our experiments, NextSeq

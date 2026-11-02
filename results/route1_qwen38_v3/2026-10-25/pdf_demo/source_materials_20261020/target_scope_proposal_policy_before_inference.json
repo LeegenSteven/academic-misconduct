@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-20",
+  "selection_set_changed": false,
+  "proposal_rule": "Mask XML bibliography-marker strings, split at sentence punctuation before next capital; associate post-period marker with preceding sentence; map back to exact PDF fragments.",
+  "full_original_paragraph_preserved": true,
+  "specific_target_occurrence_marked": true,
+  "human_scope_review_required": true,
+  "model_predictions_used": false
+}

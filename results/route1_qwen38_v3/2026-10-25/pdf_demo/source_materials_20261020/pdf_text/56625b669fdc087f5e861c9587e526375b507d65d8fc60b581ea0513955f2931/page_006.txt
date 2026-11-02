@@ -1,0 +1,37 @@
+Nucleic Acids Research, 2023, Vol. 51, Database issue D643
+Figure 4. Reliability estimates for protein–protein interaction detection assays. The top three most prolific experimental interaction assay types are shown,
+ranked by the number of protein pairs to which they contribute in STRING. Benchmarked on KEGG pathways, they yield (on average) lower confidence
+scores when derived from the high-throughput assays (A), in contrast, for the equivalent low-throughput experiments (shown in color), the predicted
+confidence is substantially higher (B). The distributions shown in (A) encompass all HT interactions of a given assay type (for simplicity); in the actual
+scoring computations in STRING, each HT interaction datasets is scored separately.
+probabilistic fashion (46) and the resulting scores are re-
+calibrated to negate the effect that the non-independence
+of the sources has on the STRING network. New meth-
+ods together with the additional sources result in significant
+improvement in the performance of STRING version 12.0
+over STRING version 11.5 co-expression network (Figure
+2A). The performance of each individual source contribut-
+ing to the combined network is shown in Figure 2B. In ad-
+dition, the STRING interface now reports the associated
+fractional score and the source of each piece of evidence in
+the co-expression network.
+RNA-Seq datasets have increased sensitivity for genes
+exhibiting low levels of expression (69,70). This combined
+with improved performance and the high-throughput na-
+ture of the experimental data reduces the inherent literature
+bias of the STRING network.
+EXPERIMENT-LEVEL CONFIDENCE SCORING
+For the experiments channel, STRING integrates pairwise
+experimental interaction evidence from BioGRID, IntAct,
+MINT, and others ((37–40), see Figure 3). Each reported
+protein pair supported by a specific publication is con-
+sidered an independent piece of evidence and scored in-
+dividually. During import, duplicate records from differ-
+ent sources are removed. Each ‘experiment’, defined as all
+protein–protein pairs supported by a common PubMed
+identifier and a given detection method, is classified as a
+high-throughput (HT) experiment if at least 25 unique in-
+teractions are reported, otherwise as a low-throughput (LT)
+experiment.
+For interactions detected by HT experiments, bench-
+marking against KEGG molecular pathway maps and scor-

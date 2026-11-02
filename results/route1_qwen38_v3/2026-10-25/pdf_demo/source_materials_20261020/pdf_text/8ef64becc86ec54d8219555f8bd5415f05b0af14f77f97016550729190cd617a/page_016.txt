@@ -1,0 +1,49 @@
+investigators may prefer to not use the biomarker category terminology in Table 2 but 
+instead simply report biomarker profile; for example, A+T+(N)+ instead of AD.
+10.4. Numeric clinical staging
+The committee also created a “numeric clinical staging scheme” (Table 6) that avoids 
+traditional syndromal labels and is applicable for only those in the Alzheimer’s continuum. 
+This staging scheme reflects the sequential evolution of AD from an initial stage 
+characterized by the appearance of abnormal AD biomarkers in asymptomatic individuals. 
+As biomarker abnormalities progress, the earliest subtle symptoms become detectable. 
+Further progression of biomarker abnormalities is accompanied by progressive worsening of 
+cognitive symptoms, culminating in dementia. A useful application envisioned for this 
+numeric cognitive staging scheme is interventional trials. Indeed, the NIA-AA numeric 
+staging scheme is intentionally very similar to the categorical system for staging AD 
+outlined in recent FDA guidance for industry pertaining to developing drugs for treatment of 
+early AD [187]. As the FDA guidance notes, the categorical staging definitions are 
+intimately related to appropriate outcome measure selection in interventional trials, and it 
+was our belief that harmonizing this aspect of the framework with FDA guidance would 
+enhance cross fertilization between observational and interventional studies, which in turn 
+would facilitate conduct of interventional clinical trials early in the disease process.
+It is apparent that numeric stages 1–6 (Table 6) bear a close resemblance to the Global 
+Deterioration Scale [188], with the important distinction that the Global Deterioration Scale 
+was created before the development of disease-specific AD biomarkers. Stage 1 (Table 6) is 
+defined by biomarker evidence of the Alzheimer’s continuum in asymptomatic individuals. 
+Stage 2 describes the earliest detectable clinical consequence of the Alzheimer’s continuum 
+and is similar to “stage 3 preclinical AD” in the 2011 NIA-AA guidelines [4]. Stage 3 
+describes cognitive impairment that is not severe enough to result in significant functional 
+loss. Stages 4–6 describe progressively worse functional loss. The nature of decline or 
+impairment in stages 2–6 may involve any cognitive domain(s)—not only memory. We 
+suspect that finding individuals in stages 3–6 with (N) – profiles will be uncommon, as 
+clinical symptoms are typically associated with evidence of neurodegeneration. However, 
+these biomarker profiles are included in all 6 numeric stages for sake of completeness.
+The syndromal categories in Table 3 and numeric stages in Table 6 obviously point to 
+similar constructs. A CU individual who also has no subjective or objective evidence of 
+subtle decline (Table 3) and stage 1 (Table 6) both describe an asymptomatic state. A CU 
+individual who has subjective or objective evidence of subtle decline (Table 3) is similar to 
+stage 2 (Table 6). MCI (Table 3) and stage 3 (Table 6) both describe cognitive impairment 
+short of dementia. Mild, moderate, and severe dementia (Table 3) is identical to stages 4–6 
+(Table 6).
+However, because the two staging systems address different needs, there are important 
+differences between them. First, numeric staging is only applicable to those in the 
+Alzheimer’s continuum, whereas syndromal categorical staging includes all biomarker 
+profiles. Second, stage 2 is called out as a distinct transitional stage between asymptomatic 
+(stage 1) and mildly impaired (stage 3) in the numeric scheme (Table 6), but there is no 
+Jack et al.
+Page 16
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

@@ -1,0 +1,19 @@
+待补施引全文清单（2026-11-01）
+说明：仅列出当前21条入边中尚无施引全文文件的16条；不代表标签结论。
+
+1. M3-W4402919591-W4387330299 | citing=W4402919591 | DOI=10.1007/s11081-024-09904-5 | title=Intelligent fault diagnosis of mechanical engineering using NLF-LSTM optimized deep learning model
+2. M3-W4396634358-W4387330299 | citing=W4396634358 | DOI=10.1016/j.compeleceng.2024.109276 | title=A decentralized path planning model based on deep reinforcement learning
+3. M3-W4394910925-W4387330299 | citing=W4394910925 | DOI=10.1109/icimia60377.2023.10426091 | title=An Enhancing Network Security: A Stacked Ensemble Intrusion Detection System for Effective Threat Mitigation
+4. M3-W4416874876-W4387330299 | citing=W4416874876 | DOI=10.1109/icoici65217.2025.11252990 | title=Artificial Intelligence-Powered Protocols for Enhancing Security in Next-Generation Communication Networks
+5. M3-W4391882695-W4387330299 | citing=W4391882695 | DOI=10.1007/s11277-023-10822-5 | title=The Privacy Protection of IoT Data Fusion and Sensing Detection Under Artificial Intelligence Technology
+6. M3-W4401171603-W4387330299 | citing=W4401171603 | DOI=10.1016/j.entcom.2024.100852 | title=Production and dissemination path of new media film and television content based on 5G technology
+7. M3-W4413480838-W4387330299 | citing=W4413480838 | DOI=10.3390/math13172715 | title=Adaptive Spectrum Management in Optical WSNs for Real-Time Data Transmission and Fault Tolerance
+8. M3-W4390504230-W4387330299 | citing=W4390504230 | DOI=10.1002/cpe.8010 | title=Handoff performance analysis of PMIPv6‐based distributed mobility management protocol‐urban scenario
+9. M3-W4411948763-W4387330299 | citing=W4411948763 | DOI=10.1109/access.2025.3585459 | title=Computational Overhead Across Prioritizing Bioinformatics Traffic Packet Operations by Differentiated Services Code Point (DSCP)
+10. M3-W4403048172-W4387330299 | citing=W4403048172 | DOI=10.1007/978-981-97-6103-6_44 | title=Intrusion Detection System Using a Hybrid of SVM and RFE
+11. M3-W4403723223-W4387330299 | citing=W4403723223 | DOI=10.1109/iacis61494.2024.10721799 | title=Compatibility and optimization Strategy of Multiple Network Protocols in the Internet of Things Installation and Debugging Training Bench
+12. M3-W4408017740-W4387330299 | citing=W4408017740 | DOI=10.1109/icmsci62561.2025.10894596 | title=Enhanced Monitoring and Security Measures with Video Analysis
+13. M3-W4414534611-W4387330299 | citing=W4414534611 | DOI=10.1002/itl2.70045 | title=Design and Implementation of Intelligent Construction Automation System Based on 6G Network
+14. M3-W7160385562-W4387330299 | citing=W7160385562 | DOI=10.1007/978-3-032-18802-1_37 | title=Energy-Efficient Resource Allocation and Relay-Selection for Wireless Sensor Networks
+15. M3-W7161582739-W4387330299 | citing=W7161582739 | DOI=10.4018/ijkm.410301 | title=Knowledge-Driven Evaluation of Online Classroom Participation
+16. M3-W7221172091-W4387330299 | citing=W7221172091 | DOI=10.1088/1742-6596/3328/1/012028 | title=A reliability optimization method for wireless Ad Hoc networks in complex environments of power distribution cable channels

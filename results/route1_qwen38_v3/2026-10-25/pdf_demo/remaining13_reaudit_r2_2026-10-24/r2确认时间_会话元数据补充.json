@@ -1,0 +1,10 @@
+{
+  "thread_id": "01a134c8-a828-7473-a105-6f7170392986",
+  "confirmation_turn_id": "01a16c7a-e483-7010-acb6-664ddb6c6af3",
+  "user_message_id": "01a16c7a-e716-7be1-86e2-a3f5ee9e03ce",
+  "user_message_text": "确认",
+  "confirmation_turn_started_at_unix": 1792821356,
+  "confirmation_turn_started_at_utc": "2026-10-24T05:55:56.000Z",
+  "timestamp_source": "Codex read_thread: confirmation turn.startedAt; represents the recorded acknowledgement event, not the beginning/end of reading or an independent human review",
+  "exact_reading_time": null
+}

@@ -1,0 +1,27 @@
+The Author(s) BMC Bioinformatics 2017, 18(Suppl 3):80
+Page 97 of 175
+Fig. 6 a Illumina NextSeq 500 output run #1. b Illumina NextSeq 500 output run #2. c Illumina HiSeq X-tenoutput run #1. d Illumina HiSeq
+X-tenoutput run #2. Sequencing error transform distribution is platform associated. Data are obtained from internal quality control DNA samples,
+and sequenced by Illumina HiSeq X10 sequencer and Illumina NextSeq 500 sequencer. Values in X-axis represent the sequencing error, and the
+values in Y-axis represent the counts calculated from a pair of FastQ files. Fig. (a) and (b) are profiled from two different sequencing runs from same
+NextSeq sequencers, while Fig. (c) and (d) are profiled from two different runs from different HiSeq sequencers. We can find that the patterns of a)
+and b) are nearly identical, while patterns of (c) and (d) are similar, but with noticeable difference
+this rule, AfterQC implements automatic adapter cutting
+for pair-end sequencing data.
+In the overlapping analysis process, we get the optimal
+offset O for the best local alignment of each pair. The
+overlap length of this pair can be directly calculated using
+the offset O. If O is found negative, the bases outside
+overlapping region will be considered as part of adapter
+sequences, and then be trimmed automatically.
+Quality profiling
+Besides normal per-cycle base content and quality pro-
+filing, AfterQC implements two novel methods to give
+more information about sequencing quality: strand bias
+profiling to reflect amplification bias, and per-cycle dis-
+continuity profiling to reflect sequencing quality instabil-
+ity. The first one is based on a hypothesis: if the DNA
+amplification process and sequencing process have only
+Fig. 7 An example of automatic adapter detection and cutting. The offset makes the best alignment for this pair of reads is negative, which
+indicates that the length of inserted DNA is less than the sequencing length. When the offset is detected, it is trivial to calculate the overlapping
+region, and cut the adapter bases (outside overlapping region) from 3’ of both read1 and read2

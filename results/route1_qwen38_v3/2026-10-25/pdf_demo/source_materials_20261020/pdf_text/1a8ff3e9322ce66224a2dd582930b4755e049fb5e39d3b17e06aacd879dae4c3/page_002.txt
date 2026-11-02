@@ -1,0 +1,102 @@
+n engl j med﻿  nejm.org﻿
+2
+The new engl and jour nal of medicine
+I
+n early December 2019, the first pneu-
+monia cases of unknown origin were identi-
+fied in Wuhan, the capital city of Hubei 
+province.1 The pathogen has been identified as a 
+novel enveloped RNA betacoronavirus2 that has 
+currently been named severe acute respiratory 
+syndrome coronavirus 2 (SARS-CoV-2), which 
+has a phylogenetic similarity to SARS-CoV.3 Pa-
+tients with the infection have been documented 
+both in hospitals and in family settings.4-8
+The World Health Organization (WHO) has re-
+cently declared coronavirus disease 2019 (Covid-19) 
+a public health emergency of international con-
+cern.9 As of February 25, 2020, a total of 81,109 
+laboratory-confirmed cases had been document-
+ed globally.5,6,9-11 In recent studies, the severity of 
+some cases of Covid-19 mimicked that of SARS-
+CoV.1,12,13 Given the rapid spread of Covid-19, we 
+determined that an updated analysis of cases 
+throughout mainland China might help identify 
+the defining clinical characteristics and severity of 
+the disease. Here, we describe the results of our 
+analysis of the clinical characteristics of Covid-19 
+in a selected cohort of patients throughout China.
+Methods
+Study Oversight
+The study was supported by National Health 
+Commission of China and designed by the in-
+vestigators. The study was approved by the insti-
+tutional review board of the National Health 
+Commission. Written informed consent was 
+waived in light of the urgent need to collect 
+data. Data were analyzed and interpreted by the 
+authors. All the authors reviewed the manuscript 
+and vouch for the accuracy and completeness of 
+the data and for the adherence of the study to 
+the protocol, available with the full text of this 
+article at NEJM.org.
+Data Sources
+We obtained the medical records and compiled 
+data for hospitalized patients and outpatients 
+with laboratory-confirmed Covid-19, as reported 
+to the National Health Commission between 
+December 11, 2019, and January 29, 2020; the 
+data cutoff for the study was January 31, 2020. 
+Covid-19 was diagnosed on the basis of the 
+WHO interim guidance.14 A confirmed case of 
+Covid-19 was defined as a positive result on high-
+throughput sequencing or real-time reverse-tran-
+scriptase–polymerase-chain-reaction (RT-PCR) 
+assay of nasal and pharyngeal swab specimens.1 
+Only laboratory-confirmed cases were included 
+in the analysis.
+We obtained data regarding cases outside 
+Hubei province from the National Health Com-
+mission. Because of the high workload of clini-
+cians, three outside experts from Guangzhou 
+performed raw data extraction at Wuhan Jinyin-
+tan Hospital, where many of the patients with 
+Covid-19 in Wuhan were being treated.
+We extracted the recent exposure history, 
+clinical symptoms or signs, and laboratory find-
+ings on admission from electronic medical rec­
+ords. Radiologic assessments included chest radi-
+ography or computed tomography (CT), and all 
+laboratory testing was performed according to 
+the clinical care needs of the patient. We deter-
+mined the presence of a radiologic abnormality 
+on the basis of the documentation or description 
+in medical charts; if imaging scans were avail-
+able, they were reviewed by attending physicians 
+in respiratory medicine who extracted the data. 
+Major disagreement between two reviewers was 
+resolved by consultation with a third reviewer. 
+Laboratory assessments consisted of a complete 
+blood count, blood chemical analysis, coagula-
+tion testing, assessment of liver and renal func-
+tion, and measures of electrolytes, C-reactive 
+protein, procalcitonin, lactate dehydrogenase, 
+and creatine kinase. We defined the degree of 
+severity of Covid-19 (severe vs. nonsevere) at the 
+time of admission using the American Thoracic 
+Society guidelines for community-acquired pneu-
+monia.15
+All medical records were copied and sent to 
+the data-processing center in Guangzhou, under 
+the coordination of the National Health Com-
+mission. A team of experienced respiratory clini-
+cians reviewed and abstracted the data. Data 
+were entered into a computerized database and 
+cross-checked. If the core data were missing, 
+requests for clarification were sent to the coor-
+dinators, who subsequently contacted the attend-
+ing clinicians.
+Study Outcomes
+The primary composite end point was admission 
+to an intensive care unit (ICU), the use of me-
+chanical ventilation, or death. These outcomes 

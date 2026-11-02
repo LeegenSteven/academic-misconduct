@@ -1,0 +1,27 @@
+{
+  "source": "用户在本会话粘贴的A100分类日志及exit_code.txt输出；原始运行文件尚未下载核验",
+  "release_sha256": "09a875e7d8bcae223e39e1ba1c903c99405b17f8c08a8f3797e49dacb01106ec",
+  "execution_package_sha256": "4b21f1269bd808491cdcaf9d67ef82a2c706997ae39ed42079c1c4dc4444e66b",
+  "reported_pid": 1959038,
+  "stage": "classifier",
+  "server_output_dir": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/route1_pdf_remaining13_r2_resource_trial_20261024_run01/classifier",
+  "reported_weight_shards_sha256_ok": 18,
+  "reported_weights_loading_complete": true,
+  "reported_valid_label_outputs": 13,
+  "reported_exit_code": 0,
+  "reported_resource_policy": {
+    "free_before_load_bytes": 27402240000,
+    "headroom_mib": 2048,
+    "pytorch_allocator_budget_bytes": 25254756352,
+    "pytorch_allocator_fraction": 0.5955635302590542,
+    "total_bytes": 42404806656,
+    "old_35000_mib_launch_guard_applied": false,
+    "automatic_retry": false,
+    "allocator_cap_covers_all_external_cuda_allocations": false,
+    "shared_gpu_performance_isolation_guaranteed": false
+  },
+  "classification_correctness_verified": false,
+  "remaining13_explainer_started_as_of_this_record": false,
+  "new_semantic_acceptances": 0,
+  "raw_run_files_downloaded_and_hashed_locally": false
+}

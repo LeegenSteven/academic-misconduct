@@ -1,0 +1,69 @@
+of full molecular dynamics simulations (of crystallized molecules) 
+into the modelling and refinement procedure142–145.
+Serial crystallography
+Within the first decade of this millennium, first light was achieved 
+at an X-ray free electron laser (XFEL). With it, macromolecular 
+crystallographers gained access to a powerful tool that offered 
+exciting new opportunities but which also required a reformula-
+tion of the traditional crystallographic experiment. XFELs produce 
+ultrafast (tens of femtoseconds) X-ray pulses with gigawatts of 
+peak power146. The benefit of this extreme X-ray fluence is the 
+ability to measure useful X-ray diffraction signals from extremely 
+small macromolecular crystals, as small as several hundred 
+nanometers147–149. A concomitant challenge, however, is that the 
+X-ray pulses are so intense that they strip atoms of their elec-
+trons and cause Coulombic explosion of the sample150. Diffrac-
+tion is a nearly instantaneous process, and scattered X-rays can be 
+recorded before destruction of the sample151. However, owing to 
+the severe damage, a single crystal cannot be used for the repeated 
+measurements required to fully sample three-dimensional recip-
+rocal space. This required the development of a new experimen-
+tal strategy, coined “serial crystallography”152. The technique 
+was initially developed and refined prior to the operation of the 
+first XFEL, at synchrotron facilities153, and has now been suc-
+cessfully implemented at synchrotrons worldwide154,155. Instead of 
+growing large, single crystals for data collection using the rota-
+tion method, serial crystallography relies on slurries of tiny micro-
+crystals (tens of microns or less), which are serially replenished 
+in the X-ray beam as they are destroyed by the intense X-ray 
+pulses. Typically, a single X-ray pulse is used per individual 
+microcrystal, destroying it in the process. Serial crystallography 
+relies on rapid delivery of crystals to the X-ray beam, ideally in 
+random orientations so that all reciprocal space can be sampled 
+uniformly from thousands of microcrystals. These two needs 
+can be met using either a microfluidic or a fixed-target approach 
+(Figure 3). In the microfluidic setup, a freestanding stream or jet 
+of microcrystals is generated perpendicular to the X-ray beam, 
+and crystals are measured as they flow through the interaction 
+region156–160. Alternatively, in a fixed-target experiment, many 
+microcrystals are simultaneously mounted on some type of 
+solid support chip, which is then rapidly translated through 
+the X-ray beam using robotics to expose the crystals for 
+measurement161–166. Additional experimental systems that deliver 
+microcrystals via a drop-on-demand system have also been 
+developed, but these are not yet as widely used167,168.
+The development of serial crystallography and other types of 
+multi-crystal experiments has opened the door to interesting 
+new opportunities for structural biology. While serial crystallog-
+raphy was invented to enable measurements at XFEL sources, 
+similar experiments are now also routinely performed at very bright 
+synchrotron beamlines169–172, making them more easily accessible 
+to the scientific community. Because these approaches use many 
+crystals to construct a complete data set, traditional concerns 
+about radiation damage become unimportant, either because of the 
+“diffraction-before-destruction” phenomenon observed at XFELs 
+or because the required X-ray dose per crystal is much lower 
+than for traditional experiments when performed at a synchrotron 
+source173,174. Consequently, serial crystallography is generally per-
+formed at room temperature175, the benefits of which have already 
+Figure 3. Sample delivery strategies for serial crystallography. In the microfluidic variety of the experiment (A), crystals are delivered to 
+the X-ray beam using a microfluidic nozzle ranging from tens to hundreds of microns in diameter. A stream of randomly oriented microcrystals 
+continuously flows perpendicular to the pulsing X-ray beam (black arrow). In the fixed-target version (B), microcrystals are mounted (by 
+pipetting) in random orientations on a solid support chip that contains appropriately sized windows, and the chip is rapidly moved through the 
+pulsing X-ray beam (black arrow) by automated translation in the x and y directions. In both diagrams, each crystal yields a single diffraction 
+pattern capturing a random slice of reciprocal space. Crystals that have not been probed by the X-ray beam are colored green, and those 
+that have been measured, and destroyed, are depicted in purple. In time-resolved serial crystallography, a perturbation (shown by the red 
+arrow) is applied to the crystals with user-defined timing prior to the X-ray pulse (Δt). This figure is an original image created by the authors 
+for this publication.
+Page 7 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

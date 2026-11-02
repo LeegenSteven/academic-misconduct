@@ -1,0 +1,210 @@
+[
+  {
+    "point_number": 7,
+    "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "1b9f4a28378fdb4bd1b47cd2c3c0d191f82735bf4c2ecf13ffb6ceefc6fd70fa",
+      "cited": "973971a504490433db97e905e8cd9d632150f03bcc746ffebe1c29108d7c0736"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 1,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 8,
+    "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "56625b669fdc087f5e861c9587e526375b507d65d8fc60b581ea0513955f2931",
+      "cited": "44e211a76583c5a89452e7f404dfd3d46130e1540d0b26c1b427d30876e75a33"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 3,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 9,
+    "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "346f8d35a7d8685fa9b535e31617b49a17a007778f411bd147668e4d39183740",
+      "cited": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 2,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 10,
+    "case_id": "r1pdf:1dfa922c755ed870245927e3",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "346f8d35a7d8685fa9b535e31617b49a17a007778f411bd147668e4d39183740",
+      "cited": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 2,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 11,
+    "case_id": "r1pdf:976890f040d5c2cab2e50965",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "6eae057a9faf4f671c3101e0745ed704460c6d3dec77243dfd3a9f2d2ab68970",
+      "cited": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 2,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 12,
+    "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "1a8ff3e9322ce66224a2dd582930b4755e049fb5e39d3b17e06aacd879dae4c3",
+      "cited": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 1,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 13,
+    "case_id": "r1pdf:43c53ece80a7c35828d5246d",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "346f8d35a7d8685fa9b535e31617b49a17a007778f411bd147668e4d39183740",
+      "cited": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 2,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 14,
+    "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "346f8d35a7d8685fa9b535e31617b49a17a007778f411bd147668e4d39183740",
+      "cited": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 2,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 16,
+    "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "1a8ff3e9322ce66224a2dd582930b4755e049fb5e39d3b17e06aacd879dae4c3",
+      "cited": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 1,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 17,
+    "case_id": "r1pdf:0243ab815badba958177a9a8",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "346f8d35a7d8685fa9b535e31617b49a17a007778f411bd147668e4d39183740",
+      "cited": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 1,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 18,
+    "case_id": "r1pdf:0625d9ca3ef5bf2a22c6109b",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "1a8ff3e9322ce66224a2dd582930b4755e049fb5e39d3b17e06aacd879dae4c3",
+      "cited": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 1,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 19,
+    "case_id": "r1pdf:826cdb765c276ba900010084",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "346f8d35a7d8685fa9b535e31617b49a17a007778f411bd147668e4d39183740",
+      "cited": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 1,
+      "candidates": 10
+    }
+  },
+  {
+    "point_number": 20,
+    "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+    "cited_title_in_first_two_pdf_pages": true,
+    "cited_doi_in_first_two_pdf_pages": true,
+    "source_sha256": {
+      "citing": "1a8ff3e9322ce66224a2dd582930b4755e049fb5e39d3b17e06aacd879dae4c3",
+      "cited": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14"
+    },
+    "direct_PDF_checks": {
+      "references": 1,
+      "marker": 1,
+      "scope_fragments": 1,
+      "candidates": 10
+    }
+  }
+]

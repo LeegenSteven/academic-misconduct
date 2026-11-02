@@ -1,0 +1,103 @@
+fibroblast growth factor receptor complex (HuMAP2_06274). This
+suggests that while the high-throughput methods we integrate in our
+pipeline may have some biases against membrane associated proteins,
+our map still has substantial coverage of these proteins and produces
+coherent and biologically meaningful complexes.
+To further explore biases in our dataset, we considered the
+degree to which our complexes are distributed across all tissues/cell
+types or are they cell type specific. To evaluate this potential bias,
+we considered transcriptomics data in the Human Protein Atlas
+(across 37 tissues, 43 single cell types, 10 main regions of each
+mammalian brain, 18 blood cell types, and 69 cell lines) (Uhlen
+et al, 2015) as an indicator for protein expression. We evaluated
+these data for the entire human proteome (Fig 5A), proteins identi-
+fied in hu.MAP 1.0 (Fig 5B), and those identified in hu.MAP 2.0
+(Fig 5C). In the entire human proteome, we see a substantial
+number of proteins likely expressed in all samples (~ 50%) but still
+many displaying some specificity. In hu.MAP 1.0 and hu.MAP 2.0,
+we see the vast majority of proteins likely expressed in all samples,
+~ 76 and ~ 70%, respectively. This suggests that the complexes we
+identify are likely to be expressed across many different cellular
+conditions and cell types. As more and more high-throughput data-
+sets are collected on different cell types and tissues, we expect to
+identify more cell type-specific complexes upon their integration.
+Completeness of human protein complex map
+Our goal in this work is to build a complete and accurate set of
+protein complexes. We next asked how far have we come in achiev-
+ing this goal? The size of the human interactome has previously been
+estimated to contain 154k–369k total interactions (Hart et al, 2006).
+Here we report 57k distinct interactions equating to roughly 15–37%
+complete. Consistent with this, if we consider the CORUM bench-
+mark we use for evaluation in Fig 2A as representative of all interac-
+tions, we see the majority of the hu.MAP 2.0 precision-recall curve
+in Fig 2A roughly falls between 15 and 37% recall. Also, making the
+same assumption for the CORUM benchmark, we can get rough esti-
+mates of hu.MAP 2.0’s coverage of total protein complexes. The
+precision and recall metrics used in Fig 2D are robust to any redun-
+dancy and therefore give an accurate representation of total cover-
+age. In Fig 2D, we see hu.MAP 2.0 covers > 30% of complexes in
+the benchmark at a precision of 60%. As described in the section
+above, many cell type and condition-specific interactions likely make
+up a large portion of the remaining undiscovered interactions. We
+expect these interactions to be a focus of future experimentation in
+order to gain greater coverage of the complete human interactome.
+Detected in all
+49.0%
+Detected in many
+28.8%
+Detected in single
+3.7%
+Detected in some
+17.4%
+Not detected
+1.1%
+Detected in all
+76.4%
+Detected in many
+18.3%
+Detected in single
+0.7%
+Detected in some
+4.6%
+Not detected
+0.1%
+Detected in all
+70.0%
+Detected in many
+21.7%
+Detected in single
+0.9%
+Detected 
+in some
+7.3%
+Not detected
+0.1%
+hu.MAP 2.0
+hu.MAP 1.0
+Human Proteome
+A
+B
+C
+Figure 5.
+Protein complex map coverage across Human Protein Atlas
+tissues and cell specificity.
+A
+Coverage of all human proteins shows a broad distribution of proteins
+classified into a range of specificity classes, from detected in all tissues and
+cells to detected in only a single tissue or cell type.
+B
+Coverage of hu.MAP 1.0 proteins show a narrower distribution of proteins
+classified into specificity classes with the majority of proteins detected in
+many or all tissues and cell types. This suggests hu.MAP 1.0 represented the
+core cellular machinery.
+C
+Coverage of hu.MAP 2.0 proteins show a distribution representative of the
+core cellular machinery shared among all or many tissue and cell types but
+also shows an increase in cell type specificity with gains in proteins that
+are only detected in some tissues/cell types.
+10 of 16
+Molecular Systems Biology
+17: e10016 | 2021
+ª 2021 The Authors
+Molecular Systems Biology
+Kevin Drew et al

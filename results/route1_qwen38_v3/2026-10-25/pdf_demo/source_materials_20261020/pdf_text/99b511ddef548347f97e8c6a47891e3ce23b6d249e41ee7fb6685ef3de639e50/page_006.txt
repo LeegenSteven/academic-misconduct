@@ -1,0 +1,146 @@
+adapters when four or fewer mismatches are allowed. Comparing to
+fastp-filtered data, Trimmomatic-filtered data contains less sus-
+pected adapters when five or more mismatches are allowed, but con-
+tains more when four mismatches are allowed. The data filtered
+with Cutadapt, SOAPnuke or AfterQC contain a large number of
+suspected adapters when the allowed mismatches are four or more.
+Since AfterQC was not designed as a professional adapter-trimming
+tool, the data filtered by this tool even contains suspected adapters
+without any mismatch.
+To further evaluate filtering effectiveness, we mapped the data fil-
+tered by different tools to the reference genome hg19 using BWA-MEM
+and evaluated the mapping results with Samtools (Li et al., 2009).
+Mimatches, clips and improper mappings were recorded for evaluation
+purposes. From our perspective, uncorrected sequencing errors contrib-
+ute greatly to mismatches while residual adapters contribute to clips
+and improper mappings. Comparison results are presented in Table 2.
+fastp generated the lowest number of mismatches, clipped reads
+and single-read mapped reads. Trimmomatic and Cutadapt gener-
+ated much more clipped or single-read mapped reads. Given that
+Trimmomatic, Cutadapt and SOAPnuke are all based on adapter-
+sequence matching, they may fail to detect adapters when the adapt-
+er sequence only has a few bases. For example, Cutadapt requires at
+least 3 bp matching of the adapter sequence and the read for a se-
+quence to be recognized as an adapter. If the adapter sequence has
+only one or two bases, it will not be detected and is often erroneous-
+ly reported as either a mismatch or soft clip by the alignment tools.
+3.3 UMI evaluation
+UMI technology is widely used in cancer sequencing, especially
+ctDNA sequencing. To analyze NGS data with UMI integration, the
+FASTQ preprocessor should shift the UMI from the reads to the
+read identifiers. We ran UMI preprocessing on a FASTQ of 4 Gb
+Illumina PE150 data using fastp, umis and UMI-tools, respectively.
+The execution times were recorded and are reported in Table 3.
+Clearly, fastp is approximately 2.7 times faster than umis and
+about 6.1 times faster than UMI-tools. This evaluation was con-
+ducted with GZIP input and uncompressed output because umis
+does not support GZIP output. Considering that fastp can achieve
+high performance for UMI preprocessing, it has recently been
+adopted by the popular NGS pipeline framework, bcbio-nextgen
+(Brad Chapman, 2018).
+3.4 Downstream analysis evaluation
+We conducted an experiment to evaluate how fastp preprocessing
+improves downstream analysis. The standard dataset NA12878
+(SRR952827) was selected for benchmarking fastp, Trimmomatic,
+Cutadapt and SOAPNuke, for their performance on reducing false
+positive variants. These tools were used to filter the dataset respect-
+ively, and SpeedSeq (Chiang et al., 2015) was used to call variants
+from the filtered data. The variants called from these filtered data,
+but not found in the NA12878 curated variants were counted as
+false positive variants. Finally, The data filtered by Trimmomatic,
+SOAPNuke, Cutadapt and fastp were detected with 7174, 7040,
+6942 and 6708 false positive variants respectively. This result
+showed that fastp preprocessing could improve the specificity of
+downstream analysis.
+4 Discussion
+In this paper, we introduced fastp, an ultra-fast all-in-one FASTQ
+preprocessor. fastp is a versatile tool that can perform quality profil-
+ing, read filtering, read pruning, adapter trimming, polyG/polyX tail
+trimming, UMI preprocessing and other operations with a single
+scan of FASTQ files. Additionally, it can split output into multiple
+files for parallel processing.
+We evaluated the performance of speed and quality of fastp
+against other tools. The results indicate that fastp is much faster
+than its counterparts and provides the highest-quality data filtering
+of all other tested options. Due to its high speed and rich functions
+in FASTQ file quality control and filtering, fastp has gained many
+community users.
+Acknowledgements
+The authors would like to thank fastp community users for providing feature
+requests and identifying bugs.
+Funding
+This work was financed by Special Funds for Future Industries of Shenzhen
+(No. JSGG20160229123927512) and the National Science Foundation of
+China (No. 61472411).
+Conflict of Interest: none declared.
+Fig. 6. Result of adapter trimming performance evaluation. The X-axis is the
+number of allowed mismatches when searching for suspected adapter
+sequences, and the Y-axis is the count of suspected adapter sequences
+Table 2. Mismatches, clips and single-read maps of the data ﬁltered
+with different tools
+NS_PE150
+Total
+map
+base (M)
+Mismatched
+base (M)
+Total
+map
+read (M)
+Clip
+read (M)
+Single-
+read
+map
+Raw data
+3390
+19.8
+22.4
+6.16
+46025
+Fastp
+3102
+10.6
+21.2
+0.30
+271
+AfterQC
+3053
+12.3
+21.2
+0.64
+34099
+SOAPnuke
+2981
+18.3
+19.7
+3.46
+36888
+Trimmomatic
+3111
+12.8
+22.1
+0.75
+229111
+Cutadapt
+3287
+19.8
+22.4
+1.05
+46195
+Table 3. UMI preprocessing time comparison of fastp, umis and
+UMI-tools
+Tools
+Time (min)
+Throughput (read/s)
+fastp
+4.6
+104302.9
+umis
+12.43
+38599.6
+UMI-tools
+28.38
+16906.4
+fastp
+i889

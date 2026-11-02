@@ -1,0 +1,111 @@
+Article
+HMMER v.3.3 (http://eddylab.org/software/hmmer/). For constrained 
+relaxation of structures, we used OpenMM v.7.3.1 (https://github.com/
+openmm/openmm) with the Amber99sb force field.
+Construction of BFD used MMseqs2 v.925AF (https://github.
+com/soedinglab/MMseqs2) and FAMSA v.1.2.5 (https://github.com/
+refresh-bio/FAMSA).
+Data analysis used Python v.3.6 (https://www.python.org/), NumPy 
+v.1.16.4 (https://github.com/numpy/numpy), SciPy v.1.2.1 (https://www.
+scipy.org/), seaborn v.0.11.1 (https://github.com/mwaskom/seaborn), 
+Matplotlib v.3.3.4 (https://github.com/matplotlib/matplotlib), bokeh 
+v.1.4.0 (https://github.com/bokeh/bokeh), pandas v.1.1.5 (https://
+github.com/pandas-dev/pandas), plotnine v.0.8.0 (https://github.
+com/has2k1/plotnine), statsmodels v.0.12.2 (https://github.com/
+statsmodels/statsmodels) and Colab (https://research.google.com/
+colaboratory). TM-align v.20190822 (https://zhanglab.dcmb.med.
+umich.edu/TM-align/) was used for computing TM-scores. Structure 
+visualizations were created in Pymol v.2.3.0 (https://github.com/schro-
+dinger/pymol-open-source).
+ 
+59.	 Ingraham, J., Garg, V. K., Barzilay, R. & Jaakkola, T. Generative models for graph-based 
+protein design. in Proc. 33rd Conference on Neural Information Processing Systems 
+(2019).
+60.	 Johnson, L. S., Eddy, S. R. & Portugaly, E. Hidden Markov model speed heuristic and 
+iterative HMM search procedure. BMC Bioinformatics 11, 431 (2010).
+61.	
+Remmert, M., Biegert, A., Hauser, A. & Söding, J. HHblits: lightning-fast iterative protein 
+sequence searching by HMM-HMM alignment. Nat. Methods 9, 173–175 (2012).
+62.	 The UniProt Consortium. UniProt: the universal protein knowledgebase in 2021. Nucleic 
+Acids Res. 49, D480–D489 (2020).
+63.	 Steinegger, M. & Söding, J. Clustering huge protein sequence sets in linear time. Nat. 
+Commun. 9, 2542 (2018).
+64.	 Steinegger, M. & Söding, J. MMseqs2 enables sensitive protein sequence searching for 
+the analysis of massive data sets. Nat. Biotechnol. 35, 1026–1028 (2017).
+65.	 Deorowicz, S., Debudaj-Grabysz, A. & Gudyś, A. FAMSA: fast and accurate multiple 
+sequence alignment of huge protein families. Sci. Rep. 6, 33964 (2016).
+66.	 Steinegger, M. et al. HH-suite3 for fast remote homology detection and deep protein 
+annotation. BMC Bioinformatics 20, 473 (2019).
+67.	
+Suzek, B. E., Wang, Y., Huang, H., McGarvey, P. B. & Wu, C. H. UniRef clusters: a 
+comprehensive and scalable alternative for improving sequence similarity searches. 
+Bioinformatics 31, 926–932 (2015).
+68.	 Eddy, S. R. Accelerated profile HMM searches. PLOS Comput. Biol. 7, e1002195 (2011).
+69.	 Eastman, P. et al. OpenMM 7: rapid development of high performance algorithms for 
+molecular dynamics. PLOS Comput. Biol. 13, e1005659 (2017).
+70.	 Ashish, A. M. A. et al. TensorFlow: large-scale machine learning on heterogeneous 
+systems. Preprint at https://arxiv.org/abs/1603.04467 (2015).
+71.	
+Reynolds, M. et al. Open sourcing Sonnet – a new library for constructing neural 
+networks. DeepMind https://deepmind.com/blog/open-sourcing-sonnet/ (7 April 2017).
+72.	 Harris, C. R. et al. Array programming with NumPy. Nature 585, 357–362 (2020).
+73.	 Van Rossum, G. & Drake, F. L. Python 3 Reference Manual (CreateSpace, 2009).
+74.	 Bisong, E. in Building Machine Learning and Deep Learning Models on Google Cloud 
+Platform: A Comprehensive Guide for Beginners 59–64 (Apress, 2019).
+75.	 TensorFlow. XLA: Optimizing Compiler for TensorFlow. https://www.tensorflow.org/xla 
+(2018).
+76.	 Wu, T., Hou, J., Adhikari, B. & Cheng, J. Analysis of several key factors influencing deep 
+learning-based inter-residue contact prediction. Bioinformatics 36, 1091–1098 (2020).
+77.	
+Jiang, W. et al. MrpH, a new class of metal-binding adhesin, requires zinc to mediate 
+biofilm formation. PLoS Pathog. 16, e1008707 (2020).
+78.	 Dunne, M., Ernst, P., Sobieraj, A., Pluckthun, A. & Loessner, M. J. The M23 peptidase 
+domain of the Staphylococcal phage 2638A endolysin. PDB https://doi.org/10.2210/
+pdb6YJ1/pdb (2020).
+79.	 Drobysheva, A. V. et al. Structure and function of virion RNA polymerase of a crAss-like 
+phage. Nature 589, 306–309 (2021).
+80.	 Flaugnatti, N. et al. Structural basis for loading and inhibition of a bacterial T6SS 
+phospholipase effector by the VgrG spike. EMBO J. 39, e104129 (2020).
+81.	
+ElGamacy, M. et al. An interface-driven design strategy yields a novel, corrugated protein 
+architecture. ACS Synth. Biol. 7, 2226–2235 (2018).
+82.	 Lim, C. J. et al. The structure of human CST reveals a decameric assembly bound to 
+telomeric DNA. Science 368, 1081–1085 (2020).
+83.	 Debruycker, V. et al. An embedded lipid in the multidrug transporter LmrP suggests a 
+mechanism for polyspecificity. Nat. Struct. Mol. Biol. 27, 829–835 (2020).
+84.	 Flower, T. G. et al. Structure of SARS-CoV-2 ORF8, a rapidly evolving immune evasion 
+protein. Proc. Natl Acad. Sci. USA 118, e2021785118 (2021).
+Acknowledgements We thank A. Rrustemi, A. Gu, A. Guseynov, B. Hechtman, C. Beattie,  
+C. Jones, C. Donner, E. Parisotto, E. Elsen, F. Popovici, G. Necula, H. Maclean, J. Menick,  
+J. Kirkpatrick, J. Molloy, J. Yim, J. Stanway, K. Simonyan, L. Sifre, L. Martens, M. Johnson,  
+M. O’Neill, N. Antropova, R. Hadsell, S. Blackwell, S. Das, S. Hou, S. Gouws, S. Wheelwright,  
+T. Hennigan, T. Ward, Z. Wu, Ž. Avsec and the Research Platform Team for their contributions; 
+M. Mirdita for his help with the datasets; M. Piovesan-Forster, A. Nelson and R. Kemp for their 
+help managing the project; the JAX, TensorFlow and XLA teams for detailed support and 
+enabling machine learning models of the complexity of AlphaFold; our colleagues at 
+DeepMind, Google and Alphabet for their encouragement and support; and J. Moult and  
+the CASP14 organizers, and the experimentalists whose structures enabled the assessment.  
+M.S. acknowledges support from the National Research Foundation of Korea grant 
+(2019R1A6A1A10073437, 2020M3A9G7103933) and the Creative-Pioneering Researchers 
+Program through Seoul National University.
+Author contributions J.J. and D.H. led the research. J.J., R.E., A. Pritzel, M.F., O.R., R.B.,  
+A. Potapenko, S.A.A.K., B.R.-P., J.A., M.P., T. Berghammer and O.V. developed the neural network  
+architecture and training. T.G., A.Ž., K.T., R.B., A.B., R.E., A.J.B., A.C., S.N., R.J., D.R., M.Z. and S.B. 
+developed the data, analytics and inference systems. D.H., K.K., P.K., C.M. and E.C. managed 
+the research. T.G. led the technical platform. P.K., A.W.S., K.K., O.V., D.S., S.P. and T. Back 
+contributed technical advice and ideas. M.S. created the BFD genomics database and 
+provided technical assistance on HHBlits. D.H., R.E., A.W.S. and K.K. conceived the AlphaFold 
+project. J.J., R.E. and A.W.S. conceived the end-to-end approach. J.J., A. Pritzel, O.R.,  
+A. Potapenko, R.E., M.F., T.G., K.T., C.M. and D.H. wrote the paper.
+Competing interests J.J., R.E., A. Pritzel, T.G., M.F., O.R., R.B., A.B., S.A.A.K., D.R. and A.W.S. have 
+filed non-provisional patent applications 16/701,070 and PCT/EP2020/084238, and provisional 
+patent applications 63/107,362, 63/118,917, 63/118,918, 63/118,921 and 63/118,919, each in the 
+name of DeepMind Technologies Limited, each pending, relating to machine learning for 
+predicting protein structures. The other authors declare no competing interests.
+Additional information
+Supplementary information The online version contains supplementary material available at 
+https://doi.org/10.1038/s41586-021-03819-2.
+Correspondence and requests for materials should be addressed to J.J. or D.H.
+Peer review information Nature thanks Mohammed AlQuraishi, Charlotte Deane and Yang 
+Zhang for their contribution to the peer review of this work.
+Reprints and permissions information is available at http://www.nature.com/reprints.

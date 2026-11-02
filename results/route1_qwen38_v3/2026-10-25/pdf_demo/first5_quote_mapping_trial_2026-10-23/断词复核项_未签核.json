@@ -1,0 +1,29 @@
+{
+  "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+  "evidence_id": "D01:S07",
+  "raw_source_excerpt": "The PDB Core\nArchive houses 3D atomic coordinates of >144 000 struc-\ntural models of proteins, DNA/RNA, and their com-\nplexes with metals and small molecules.",
+  "line_join_operations": [
+    {
+      "kind": "line_end_hyphen_join_hypothesis",
+      "source_start": 706,
+      "source_end": 708,
+      "raw": "-\n",
+      "to": ""
+    },
+    {
+      "kind": "line_end_hyphen_join_hypothesis",
+      "source_start": 756,
+      "source_end": 758,
+      "raw": "-\n",
+      "to": ""
+    }
+  ],
+  "assistant_visual_observation": "已查看PDF原页区块截图；印刷行末为struc-/tural和com-/plexes两处断行，支持当前文本映射假设。",
+  "source_image": "页面核对图/PDB_S07_source_block.png",
+  "assistant_visual_inspection_performed": true,
+  "human_reviewer": null,
+  "human_reviewed_at": null,
+  "human_confirmed": false,
+  "accepted_production_rule": false,
+  "semantic_classification_or_PDB_count_scope_resolved": false
+}

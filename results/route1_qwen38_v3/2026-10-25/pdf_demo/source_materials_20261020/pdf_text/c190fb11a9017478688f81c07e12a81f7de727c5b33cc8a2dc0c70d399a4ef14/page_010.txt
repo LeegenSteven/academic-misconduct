@@ -1,0 +1,170 @@
+Articles
+www.thelancet.com   Vol 395   February 15, 2020	
+505
+data and the accuracy of the data analysis. YWa, GF, XG, JiXu, HL, 
+and BC contributed to writing of the report. BC contributed to critical 
+revision of the report. YWa, GF, XG, JiXu, and HL contributed to the 
+statistical analysis. All authors contributed to data acquisition, 
+data analysis, or data interpretation, and reviewed and approved the 
+final version.
+Declaration of interests
+All authors declare no competing interests.
+Data sharing
+The data that support the findings of this study are available from the 
+corresponding author on reasonable request. Participant data without 
+names and identifiers will be made available after approval from the 
+corresponding author and National Health Commission. After 
+publication of study findings, the data will be available for others to 
+request. The research team will provide an email address for 
+communication once the data are approved to be shared with others. 
+The proposal with detailed description of study objectives and statistical 
+analysis plan will be needed for evaluation of the reasonability to request 
+for our data. The corresponding author and National Health Commission 
+will make a decision based on these materials. Additional materials may 
+also be required during the process.
+Acknowledgments
+This work is funded by the Special Project for Emergency of the Ministry 
+of Science and Technology (2020YFC0841300) Chinese Academy of 
+Medical Sciences (CAMS) Innovation Fund for Medical Sciences 
+(CIFMS 2018-I2M-1-003), a National Science Grant for Distinguished 
+Young Scholars (81425001/H0104), the National Key Research and 
+Development Program of China (2018YFC1200102), The Beijing Science 
+and Technology Project (Z19110700660000), CAMS Innovation Fund for 
+Medical Sciences (2016-I2M-1-014), and National Mega-projects for 
+Infectious Diseases in China (2017ZX10103004 and 2018ZX10305409). 
+We acknowledge all health-care workers involved in the diagnosis and 
+treatment of patients in Wuhan; we thank the Chinese National Health 
+Commission for coordinating data collection for patients with 2019-nCoV 
+infection; we thank WHO and the International Severe Acute Respiratory 
+and Emerging Infections Consortium (ISARIC) for sharing data 
+collection templates publicly on the website; and we thank 
+Prof Chen Wang and Prof George F Gao for guidance in study design 
+and interpretation of results.
+References
+1	
+Richman DD, Whitley RJ, Hayden FG, eds. Clinical virology, 
+4th edn. Washington: ASM Press, 2016.
+2	
+Ksiazek TG, Erdman D, Goldsmith CS, et al. A novel coronavirus 
+associated with severe acute respiratory syndrome. N Engl J Med 
+2003; 348: 1953–66.
+3	
+Kuiken T, Fouchier RAM, Schutten M, et al. Newly discovered 
+coronavirus as the primary cause of severe acute respiratory 
+syndrome. Lancet 2003; 362: 263–70.
+4	
+Drosten C, Günther S, Preiser W, et al. Identification of a novel 
+coronavirus in patients with severe acute respiratory syndrome. 
+N Engl J Med 2003; 348: 1967–76.
+5	
+de Groot RJ, Baker SC, Baric RS, et al. Middle East respiratory 
+syndrome coronavirus (MERS-CoV): announcement of the 
+Coronavirus Study Group. J Virol 2013; 87: 7790–92.
+6	
+Zaki AM, van Boheemen S, Bestebroer TM, Osterhaus ADME, 
+Fouchier RAM. Isolation of a novel coronavirus from a man with 
+pneumonia in Saudi Arabia. N Engl J Med 2012; 367: 1814–20.
+7	
+WHO. Summary of probable SARS cases with onset of illness 
+from 1 November 2002 to 31 July 2003. Dec 31, 2003. https://www.
+who.int/csr/sars/country/table2004_04_21/en/ (accessed 
+Jan 19, 2020).
+8	
+WHO. Middle East respiratory syndrome coronavirus (MERS-CoV). 
+November, 2019. http://www.who.int/emergencies/mers-cov/en/ 
+(accessed Jan 19, 2020).
+9	
+WHO. Novel coronavirus – China. Jan 12, 2020. http://www.who.
+int/csr/don/12-january-2020-novel-coronavirus-china/en/ (accessed 
+Jan 19, 2020).
+10	
+WHO. Novel coronavirus – Thailand (ex-China). Jan 14, 2020. 
+http://www.who.int/csr/don/14-january-2020-novel-coronavirus-
+thailand/en/ (accessed Jan 19, 2020).
+11	
+WHO. Novel coronavirus – Japan (ex-China). Jan 17, 2020. 
+http://www.who.int/csr/don/17-january-2020-novel-coronavirus-
+japan-ex-china/en/ (accessed Jan 19, 2020).
+12	
+WHO. Novel coronavirus – Republic of Korea (ex-China). 
+Jan 21, 2020. http://www.who.int/csr/don/21-january-2020-novel-
+coronavirus-republic-of-korea-ex-china/en/ (accessed Jan 23, 2020).
+13	
+CDC. First travel-related case of 2019 novel coronavirus detected in 
+United States. Jan 21, 2020. https://www.cdc.gov/media/
+releases/2020/p0121-novel-coronavirus-travel-case.html (accessed 
+Jan 23, 2020).
+14	
+Tan W, Zhao X, Ma X, et al. A novel coronavirus genome identified 
+in a cluster of pneumonia cases — Wuhan, China 2019−2020. 
+http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e-
+4253b453d10c (accessed Jan 23, 2020).
+15	
+Sanz F, Gimeno C, Lloret T, et al. Relationship between the 
+presence of hypoxemia and the inflammatory response measured 
+by C-reactive protein in bacteremic pneumococcal pneumonia. 
+Eur Respir J 2011; 38 (suppl 55): 2492.
+16	
+Kidney disease: improving global outcomes (KDIGO) acute kidney 
+injury work group. KDIGO clinical practice guideline for acute kidney 
+injury. March, 2012. https://kdigo.org/wp-content/uploads/2016/10/
+KDIGO-2012-AKI-Guideline-English.pdf (accessed Jan 23, 2020).
+17	
+Garner JS, Jarvis WR, Emori TG, Horan TC, Hughes JM. 
+CDC definitions for nosocomial infections, 1988. Am J Infect Control 
+1988; 16: 128–40.
+18	
+Gao C, Wang Y, Gu X, et al. Association between cardiac injury and 
+mortality in hospitalized patients infected with avian influenza A 
+(H7N9) virus. Crit Care Med 2020; published online Jan 20. 
+DOI:10.1097/CCM.0000000000004207.
+19	
+Perlman S, Netland J. Coronaviruses post-SARS: update on 
+replication and pathogenesis. Nat Rev Microbiol 2009; 7: 439–50.
+20	 Lee N, Hui D, Wu A, et al. A major outbreak of severe acute 
+respiratory syndrome in Hong Kong. N Engl J Med 2003; 
+348: 1986–94.
+21	
+Assiri A, Al-Tawfiq JA, Al-Rabeeah AA, et al. Epidemiological, 
+demographic, and clinical characteristics of 47 cases of Middle East 
+respiratory syndrome coronavirus disease from Saudi Arabia: 
+a descriptive study. Lancet Infect Dis 2013; 13: 752–61.
+22	 Wong CK, Lam CWK, Wu AKL, et al. Plasma inflammatory 
+cytokines and chemokines in severe acute respiratory syndrome. 
+Clin Exp Immunol 2004; 136: 95–103.
+23	 Mahallawi WH, Khabour OF, Zhang Q, Makhdoum HM, 
+Suliman BA. MERS-CoV infection in humans is associated with a 
+pro-inflammatory Th1 and Th17 cytokine profile. Cytokine 2018; 
+104: 8–13.
+24	
+He L, Ding Y, Zhang Q, et al. Expression of elevated levels of 
+pro-inflammatory cytokines in SARS-CoV-infected ACE2+ cells in 
+SARS patients: relation to the acute lung injury and pathogenesis of 
+SARS. J Pathol 2006; 210: 288–97.
+25	 Faure E, Poissy J, Goffard A, et al. Distinct immune response in 
+two MERS-CoV-infected patients: can we go from bench to bedside? 
+PLoS One 2014; 9: e88716.
+26	 Falzarano D, de Wit E, Rasmussen AL, et al. Treatment with 
+interferon-α2b and ribavirin improves outcome in MERS-CoV-
+infected rhesus macaques. Nat Med 2013; 19: 1313–17.
+27	
+Stockman LJ, Bellamy R, Garner P. SARS: systematic review of 
+treatment effects. PLoS Med 2006; 3: e343.
+28	 Lansbury L, Rodrigo C, Leonardi-Bee J, Nguyen-Van-Tam J, 
+Lim WS. Corticosteroids as adjunctive therapy in the treatment of 
+influenza. Cochrane Database Syst Rev 2019; 2: CD010406.
+29	 Arabi YM, Mandourah Y, Al-Hameed F, et al. Corticosteroid therapy 
+for critically ill patients with Middle East respiratory syndrome. 
+Am J Respir Crit Care Med 2018; 197: 757–67.
+30	 WHO. Clinical management of severe acute respiratory infection 
+when novel coronavirus (nCoV) infection is suspected. Jan 11, 2020. 
+https://www.who.int/internal-publications-detail/clinical-
+management-of-severe-acute-respiratory-infection-when-novel-
+coronavirus-(ncov)-infection-is-suspected (accessed Jan 19, 2020).
+31	
+Chu CM. Role of lopinavir/ritonavir in the treatment of SARS: 
+initial virological and clinical findings. Thorax 2004; 59: 252–56.
+32	 Arabi YM, Alothman A, Balkhy HH, et al. Treatment of Middle East 
+respiratory syndrome with a combination of lopinavir-ritonavir and 
+interferon-β1b (MIRACLE trial): study protocol for a randomized 
+controlled trial. Trials 2018; 19: 81.

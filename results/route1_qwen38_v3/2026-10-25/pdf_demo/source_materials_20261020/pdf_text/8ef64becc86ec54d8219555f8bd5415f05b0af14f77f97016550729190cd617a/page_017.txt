@@ -1,0 +1,49 @@
+separate category between clinically unimpaired and MCI in the syndromal categorical 
+scheme. Our reasoning was that if an individual is in the Alzheimer’s continuum, then it is 
+reasonable to label subjective complaints or evidence of subtle cognitive decline as a 
+transitional stage attributable to the pathologic process. However, in the syndromal 
+categorical scheme (Table 3) where abnormal biomarkers are not required, it is not 
+reasonable to assume that subjective complaints (which are very common in aging) represent 
+a symptom of any specific disease(s). Third, neurobehavioral symptoms are treated 
+differently between the two staging systems. While cognitive symptoms represent the core 
+clinical feature of AD, in some individuals, the initial presentation may be neurobehavioral 
+(e.g., depression, anxiety, and apathy) rather than cognitive [189]. Therefore, in the numeric 
+scheme, an individual may be placed into stage 2 on the basis of neurobehavioral symptoms 
+alone, that is, without evident cognitive decline. To reflect this, we use the term “clinical 
+staging” rather than cognitive staging to recognize that early clinical manifestations of AD 
+may be either cognitive or neurobehavioral. Individuals must have cognitive impairment to 
+be placed into numeric stages 3–6 [190]. Our position is that without biomarker 
+abnormalities indicating the presence of a neurodegenerative disease, it is not reasonable to 
+classify patients with isolated neurobehavioral symptoms as having MCI or dementia. 
+Consequently, cognitive symptoms are required for inclusion in these categories in the 
+syndromal staging scheme, which is not limited to individuals in the Alzheimer’s 
+continuum.
+Because only four biomarker profiles are included in numeric staging, the committee saw an 
+opportunity to streamline nomenclature. In this shorthand naming scheme, the four 
+Alzheimer’s continuum biomarker profiles are labeled a-d: (a) A+T−(N)−; (b) A+T+(N)−; 
+(c) A+T+(N)+; and (d) A+T−(N)+. Thus, individuals can be fully described by a single 
+number/letter combination denoting numeric clinical stage and biomarker profile—stage 1 a, 
+stage 2c, etc. Some investigators may wish to treat participants with an A+T−(N)+ profile 
+(i.e., d above) differently from the other three Alzheimer’s continuum profiles because A+T
+−(N)+ indicates Alzheimer’s and concomitant suspected non-Alzheimer’s pathologic change 
+(Table 4, Fig. 3).
+11. Implementation
+The committee avoided making specific recommendations for many implementation details. 
+Our objective was to outline a general research framework that could be adapted by 
+individual research groups to their own research goals and environment. For example, 
+different research groups will use cognitive testing batteries and cut points that best fit their 
+own research samples.
+PET or MRI images may be evaluated by visual interpretation or by quantitative methods. 
+Methods of image quantification vary among research groups and are constantly being 
+refined [191,192]. Cut points must be determined, and age norming biomarker cut points is 
+controversial. Arguments have been made that neurodegenerative biomarkers should be age 
+normed because loss of neuropil is closely tied with aging. By contrast, a strong argument 
+can be made that any amyloid or pathologic tau detected by a biomarker is abnormal 
+regardless of age, and thus age-norming biomarker cut points is inappropriate. The 
+Jack et al.
+Page 17
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

@@ -1,0 +1,70 @@
+{
+  "case_id": "r1pdf:976890f040d5c2cab2e50965",
+  "reference_number": 5,
+  "reference_fragment": {
+    "pdf_page": 7,
+    "char_start": 1395,
+    "char_end_exclusive": 1542,
+    "raw_text": "5.\t\nwwPDB Consortium. Protein Data Bank: the single global archive for 3D macromolecular \nstructure data. Nucleic Acids Res. 47, D520–D528 (2018).\n",
+    "raw_text_sha256": "79d11886cc3d9927163574f29b6ffd88a0de47e02fadaac63ec946342636d861",
+    "source_blocks": [
+      {
+        "block_number": 5,
+        "bbox": [
+          39.655,
+          221.355,
+          296.395,
+          734.552
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_title_fragment": {
+    "pdf_page": 1,
+    "char_start": 121,
+    "char_end_exclusive": 202,
+    "raw_text": "Protein Data Bank: the single global archive for 3D\nmacromolecular structure data",
+    "raw_text_sha256": "d83ca8914e9e826ac5cee25ebad7ff872af09994aa58dce0ac0ed5b7f7cf4fe4",
+    "source_blocks": [
+      {
+        "block_number": 2,
+        "bbox": [
+          42.225,
+          73.364,
+          520.269,
+          115.205
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_publication_fragment": {
+    "pdf_page": 1,
+    "char_start": 10,
+    "char_end_exclusive": 120,
+    "raw_text": "Nucleic Acids Research, 2019, Vol. 47, Database issue\nPublished online 24 October 2018\ndoi: 10.1093/nar/gky949",
+    "raw_text_sha256": "a1053a5bef4dbf59dc5e6a1dc24a19b58ade7914608c650e9a07de44d3a8a29e",
+    "source_blocks": [
+      {
+        "block_number": 1,
+        "bbox": [
+          42.225,
+          32.839,
+          556.291,
+          54.205
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "citing_year": 2018,
+  "cited_online_date": "2018-10-24",
+  "cited_issue_year": 2019,
+  "same_title_volume_pages": true,
+  "doi_printed_in_citing_entry": false,
+  "added_to_model_input": false
+}

@@ -1,0 +1,60 @@
+{
+  "version": "pdf_point07_scope_sidecar_20261023",
+  "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+  "original_point_number": 7,
+  "status": "assistant_source_scope_preparation_complete_human_confirmation_pending",
+  "scope_recommendation": "retain_full_compound_sentence_and_qualifiers",
+  "recommended_scope_for_reading": "Although the outbreak is likely to have started from a zoonotic transmission event associated with a large seafood market that also traded in live wild animals, it soon became clear that efficient person-to-person transmission was also occurring.4",
+  "source_citation_role": "reference_4_at_end_of_compound_sentence",
+  "preserved_qualifiers": [
+    "Although",
+    "likely",
+    "zoonotic transmission event",
+    "associated with a large seafood market",
+    "also traded in live wild animals",
+    "efficient person-to-person transmission"
+  ],
+  "excluded_neighbor_claim": "Following clinical-spectrum sentence is separately cited to references 5–7.",
+  "evidence_reading_notes": [
+    {
+      "component": "market association and possible origin",
+      "existing_evidence_ids": [
+        "D01:S01"
+      ],
+      "note": "S01 distinguishes earliest-case market links from possible zoonotic OR environmental exposures. Do not turn either the citing likely or the cited could into a demonstrated origin or remove the alternative environmental explanation."
+    },
+    {
+      "component": "live wild animals at the market",
+      "existing_evidence_ids": [
+        "D01:S02"
+      ],
+      "note": "S02 describes investigation of exposure to animals purportedly available at the market. It is a methods/exposure-history statement, not by itself a confirmed finding that the outbreak originated from those animals."
+    },
+    {
+      "component": "person-to-person transmission",
+      "existing_evidence_ids": [
+        "D01:S01",
+        "D01:S07"
+      ],
+      "note": "The existing passages explicitly discuss human-to-human transmission. Whether the qualifier efficient is adequately supported remains an evidence-interpretation question; existence alone must not be silently substituted for efficiency."
+    }
+  ],
+  "supplemental_reference_check_is_model_evidence": false,
+  "existing_top10_changed": false,
+  "scope_query_changed_in_active_inputs": false,
+  "transcription_patch_proposed_but_not_applied": true,
+  "new_classifier_response": null,
+  "new_explanation_response": null,
+  "classification_label": null,
+  "human_scope_confirmation": {
+    "李云": null,
+    "陈明进": null
+  },
+  "joint_adjudication": null,
+  "independent_blind_review_claimed": false,
+  "formal_end_to_end_accepted": false,
+  "model_loaded": false,
+  "inference_performed": false,
+  "scope_release_modified": false,
+  "fixed_denominator": 20
+}

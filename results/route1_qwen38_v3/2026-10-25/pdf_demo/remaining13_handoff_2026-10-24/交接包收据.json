@@ -1,0 +1,14 @@
+{
+  "archive": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\route1_pdf_remaining13_cpu_20261024.pyz",
+  "sha256": "f640b18ed3f2d086a4f57ff04b16dedfba569a9ee547d58eb9a08c3aa504f248",
+  "bytes": 362940,
+  "files_verified": 28,
+  "CPU_checks_passed": true,
+  "external_message_sent": false,
+  "GPU_runs": 0,
+  "new_scope_confirmations": 0,
+  "local_packaged_CPU_trial_report": "C:\\Users\\y\\Desktop\\学术引用不端\\tmp\\remaining13_packaged_CPU_trial_20261024\\migration_comparison.json",
+  "local_packaged_CPU_trial_report_sha256": "9e2946b2e5739adc6616d74449c328814c35a21de318a8b71e8f86ef51019115",
+  "local_packaged_CPU_trial_passed": true,
+  "notes": "Local extraction-and-CPU rehearsal only; no A100 execution or other-person review claimed."
+}

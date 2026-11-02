@@ -1,0 +1,107 @@
+{
+  "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+  "status": "proposed_only_not_applied",
+  "reason": "The governing assertion must remain evaluable; a noun phrase alone must not reduce validation to method-name matching.",
+  "change": "Move the existing governing-predicate piece from context_only_pieces to primary_scope_pieces; keep the referent-definition piece as context.",
+  "original_scope_sha256": "9d02eef7b7be2a99a6600ea0942d017a86defdc4f9f45a524b31a397ef7fa76b",
+  "proposed_scope_sha256": "8105fabdeb6f5cab2882f68a8231cb1a525196679f36555daff1ddb4b99eda13",
+  "proposed_primary_scope_pieces": [
+    {
+      "text": "Recent developments have further improved our ability to unravel this connectivity, through techniques such as",
+      "normalized_context_start": 177,
+      "normalized_context_end_exclusive": 287,
+      "source_pdf_fragments": [
+        {
+          "pdf_page": 1,
+          "printed_page": null,
+          "char_start": 3353,
+          "char_end_exclusive": 3463,
+          "raw_text": "Recent developments have further improved\nour ability to unravel this connectivity, through techniques\nsuch as",
+          "raw_text_sha256": "155e8d2031f27d30de82603cec95ed2ed195a55bb50446980d71fa668e6027f6",
+          "source_blocks": [
+            {
+              "block_number": 10,
+              "bbox": [
+                309.225,
+                502.782,
+                556.323,
+                666.166
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ]
+    },
+    {
+      "text": "systematic co-fractionation of proteomes (6,7)",
+      "normalized_context_start": 327,
+      "normalized_context_end_exclusive": 373,
+      "source_pdf_fragments": [
+        {
+          "pdf_page": 1,
+          "printed_page": null,
+          "char_start": 3503,
+          "char_end_exclusive": 3549,
+          "raw_text": "systematic\nco-fractionation of proteomes (6,7)",
+          "raw_text_sha256": "bb76138d63573273591e498aed606cb664dd1fe6f9b0cbb6bc677d2802a85c0a",
+          "source_blocks": [
+            {
+              "block_number": 10,
+              "bbox": [
+                309.225,
+                502.782,
+                556.323,
+                666.166
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ]
+    }
+  ],
+  "proposed_context_only_pieces": [
+    {
+      "text": "A dense network of functional connections among proteins",
+      "normalized_context_start": 0,
+      "normalized_context_end_exclusive": 56,
+      "source_pdf_fragments": [
+        {
+          "pdf_page": 1,
+          "printed_page": null,
+          "char_start": 3170,
+          "char_end_exclusive": 3228,
+          "raw_text": "A dense network of functional connections among pro-\nteins",
+          "raw_text_sha256": "9d955551d5381f945436eb1609039f2658b4959aed1020ed68132b8b034de972",
+          "source_blocks": [
+            {
+              "block_number": 10,
+              "bbox": [
+                309.225,
+                502.782,
+                556.323,
+                666.166
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ]
+    }
+  ],
+  "source_words_or_offsets_changed": false,
+  "prepared_retrieval_query_changed": false,
+  "candidate_set_changed": false,
+  "old_classifier_input_sha256": "97736bb0a1e16de8425bfe3bde564147f84ce9dc0728bfec912f1fc7e9c13412",
+  "proposed_classifier_input_sha256": "23b738f0c5b23c9e0e3b00b86f4d9fb3778a58e8750e96cfcd0973195024ef03",
+  "proposed_user_prompt": "目标引用覆盖的原文片段：\nRecent developments have further improved our ability to unravel this connectivity, through techniques such as\nsystematic co-fractionation of proteomes (6,7)\n必要上下文（仅用于解消指代）：\nA dense network of functional connections among proteins\n候选证据：\nD01:S01 | A primary goal of our work is to identify all stable physical complexes\nin human cells. While hu.MAP 2.0 substantially increases coverage of\nstable human complexes, the results ultimately reflect the integrated\nhigh-throughput methods’ ability to identify these assemblies. For\nexample, high-throughput biochemical purification techniques such\nas AP-MS and CF-MS are commonly thought to be robust at identify-\ning soluble cytoplasmic protein complexes and less robust at purify-\ning, for example, membrane bound complexes. To determine whether\nour hu.MAP 2.0 complexes were biased against certain categories of\nproteins, we used PantherDB (Mi et al, 2019) GO analysis to identify\nenriched and depleted terms. Interestingly, we see GO cellular compo-\nnent\nterms\nsuch\nas\n“vesicle\nmembrane”\nand\n“mitochondrial\nmembrane” as enriched with 1.27- and 1.41-fold enrichment respec-\ntively. Alternatively, we see a depletion in proteins annotated with\n“plasma membrane” in hu.MAP 2.0 yet only slightly, with a 0.86-fold\ndepletion and a total of over 2,300 proteins with the “plasma\nmembrane” annotation in our complexes. To further investigate the\nvalidity of these proteins in our data, we searched, for examples, of\nplasma membrane complexes. We found several high confidence\ncomplexes enriched with “plasma membrane” term including a potas-\nsium\nvoltage-gated\nchannel\ncomplex\n(HuMAP2_00584)\nand\na\n\nD01:S02 | To address this gap in knowledge, there is an ongoing worldwide\neffort to identify all protein interactions in human cells. High-\nthroughput protein interaction screens using affinity purification\n(AP-MS) (Malovannaya et al, 2011; Hein et al, 2015; Huttlin et al,\n2015, 2017) have greatly increased coverage of protein interactions\nacross the proteome. Likewise, biochemical separation strategies,\nsuch as co-fractionation mass spectrometry (CF-MS), have provided\northogonal approaches to identifying protein complexes (Havugimana\net al, 2012; Kristensen et al, 2012; Kirkwood et al, 2013; Wan et al,\n2015). Although these methods have identified tens of thousands of\nprotein interactions, they still have limited coverage of the entire\nhuman interactome.\n\nD01:S03 | two complexes, we inspected sparkline traces of two co-fractiona-\ntion experiments (Wan et al, 2015) (Fig 3C). We identified two sepa-\nrate\nelution\npeaks\nof\nHSPA9\nwhich\ncorrespond\nto\nthe\ntwo\ncomplexes. This example shows the ability of our complex map to\n\nD01:S04 | Our strategy in building a comprehensive map of protein complexes\ninvolves the integration of the many orthogonal experimental\nprotein interaction datasets available using a custom machine learn-\ning pipeline as shown in Fig 1A. Each individual experimental\ndataset identifies different sets of protein interactions and therefore\ncombining them results in a more accurate and comprehensive set\nof interactions. Our pipeline combines quantified features from\nthese datasets using a support vector machine (SVM) classifier\nwhich calculates a confidence score of two proteins interacting. This\nresults in a large protein interaction network. The network is subse-\nquently searched for dense regions of highly connected proteins\nwhich represent individual complexes. The identified complexes are\nranked by a clustering confidence value. We call the resulting set of\ncomplexes, hu.MAP 2.0. The map of complexes contains many\nknown complexes such as the EIF2B complex, Spliceosome, RNA\nPol III, and IFT-A complex (Fig 1A Positive Control Examples) as\nwell as many novel insights into the physical biology of the cell.\n\nD01:S05 | Two-stage clustering and parameter set selection\nWe next used a two-stage clustering approach to identify clusters\nwithin the protein interaction network generated by the classifi-\ncation step described above (Fig 2B). First, the network was thresh-\nolded based on the SVM score. We then applied the ClusterOne\n(Nepusz et al, 2012) algorithm to identify dense regions in the\nthresholded network. Further, for each dense region produced by\nClusterOne, we applied the MCL (Enright et al, 2002) algorithm to\n\nD01:S06 | Recently, a co-regulation map based on protein expression was\nshown to capture relationships among proteins that do not necessar-\nily interact or co-localize (Kustatscher et al, 2019). This dataset\ntherefore provides an independent test of the quality of our protein\ninteractions. When we compared the hu.MAP 2.0 interactions to the\nmost co-expressing pairs in Kustatcher et al, we see a highly signifi-\ncant overlap (P-value < 10E−10, hypergeometric test) indicating a\nhigh degree of consistency between the orthogonal datasets.\n\nD01:S07 | A\nSETD3 and CMTR1 are identified as co-complex interactors with the Ribonuclease H2 complex which provides a possible mechanistic explanation for their role in\nviral infection.\nB\nSparkline elution profiles from multiple orthogonal co-fractionation experiments demonstrate a strong degree of co-elution among subunits in the SETD3-CMTR1-\nRNAse H2 complex. Weight of network edges represents confidence of interactions. X-axis represents fraction collected along biochemical separation. Y-axis for each\nrow represents observed protein abundance.\nC\nThe uncharacterized protein, C7orf26, is identified as part of the Integrator complex.\nD\nSparkline elution profiles show a high degree of correlation between C7orf26 and subunits of the Integrator complex from multiple orthogonal co-fractionation\nexperiments.\nE\nThe association of C7orf26 and Integrator complex is additionally supported by affinity purification mass spectrometry (AP-MS) experiment where C7orf26 is pulled\ndown with Integrator subunit baits.\nF\nThe uncharacterized protein, CCDC9, is identified as co-complex with the exon–exon junction complex (EJC), a ribonucleoprotein complex involved in splicing.\nG\nSparkline elution profiles from the independently collected RNA DIF-FRAC size exclusion chromatography (SEC) experiment show CCDC9 co-elutes with known\nsubunits of the EJC when RNA is present (black). The elution profiles also show CCDC9 is sensitive to RNAse A treatment (shift of elution peak between black and red\nprofiles) as are the subunits of the EJC further supporting CCDC9’s participation in this known ribonucleoprotein complex.\n\nD01:S08 | It has been observed that biomedical research is biased toward\nthe study of well-annotated genes and this bias is due less to the\nphysiological importance or disease relevance of the gene but rather\nto the ease of experimentation using traditional methods (Stoeger\net al, 2018). Unbiased systematic approaches such as the integration\nof thousands of mass spectrometry experiments described here\nprovide a powerful tool for closing the gap of uncharacterized\nproteins. We therefore cross-referenced genes deemed poorly anno-\ntated (UniProt (The UniProt Consortium, 2017) annotation score\n≤3) with hu.MAP 2.0 complexes that were enriched for functional\n\nD01:S09 | Once we confirmed our protein interaction network was of high\nquality, we then clustered this network using a parameterized two-\nstage clustering algorithm to identify highly connected proteins\nwhich represent protein complexes. Briefly, the algorithm first filters\nthe network based on the confidence score from the SVM classifier\nand then uses the ClusterOne algorithm (Nepusz et al, 2012) to clus-\nter the thresholded network. ClusterOne often produces large clus-\nters containing proteins from multiple complexes. To remedy this,\neach resulting cluster is further clustered using the MCL algorithm\n(Enright et al, 2002) (Fig 2B). There are several parameters for each\nalgorithm\nthat\nrequire\noptimization\nin\naddition\nto\nan\nSVM\n\nD01:S10 | hypothesize that the promiscuous proteins would be on average\nolder due to younger proteins not having enough evolutionary time\nto make multiple connections. Figure 3D shows a clear enrichment\nin older proteins in the set of promiscuous proteins and a depletion\nfor younger proteins (see Materials and Methods). Using gProfiler\n(Reimand et al, 2016) to identify functionally annotations for the\nolder promiscuous proteins, we identify older promiscuous proteins\nare\nenriched\nfor\nReactome\n“Metabolism”\n(adjusted\nP-value\n~ 5 × 10E−8, g:SCS corrected) among other metabolism-related\nannotations (Fig EV2). Consistent with this finding, many “moon-\nlighting” proteins are enzymes with multifunctional roles (Jeffery,\n2015). Our results suggest a protein’s complex membership may\nplay a role in its multifunctional activity.\n\n仅对目标引用范围返回 label JSON；不能可靠判定时返回规定的 failure_status。",
+  "tokenizer_rerun": false,
+  "proposed_token_ids_sha256": null,
+  "human_scope_confirmation": null,
+  "applied_to_runtime": false,
+  "new_scope_release": false
+}

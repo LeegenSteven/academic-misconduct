@@ -1,0 +1,139 @@
+Nature  |  Vol 596  |  26 August 2021  |  587
+global distance test (GDT)33 or lDDT-Cα34 but does remove distracting 
+stereochemical violations without the loss of accuracy.
+The residue gas representation is updated iteratively in two stages 
+(Fig. 3d). First, a geometry-aware attention operation that we term 
+‘invariant point attention’ (IPA) is used to update an Nres set of neural 
+activations (single representation) without changing the 3D positions, 
+then an equivariant update operation is performed on the residue gas 
+using the updated activations. The IPA augments each of the usual 
+attention queries, keys and values with 3D points that are produced 
+in the local frame of each residue such that the final value is invariant 
+to global rotations and translations (see Methods ‘IPA’ for details). The 
+3D queries and keys also impose a strong spatial/locality bias on the 
+attention, which is well-suited to the iterative refinement of the protein 
+structure. After each attention operation and element-wise transition 
+block, the module computes an update to the rotation and translation 
+of each backbone frame. The application of these updates within the 
+local frame of each residue makes the overall attention and update 
+block an equivariant operation on the residue gas.
+Predictions of side-chain χ angles as well as the final, per-residue 
+accuracy of the structure (pLDDT) are computed with small per-residue 
+networks on the final activations at the end of the network. The estimate 
+of the TM-score (pTM) is obtained from a pairwise error prediction that 
+is computed as a linear projection from the final pair representation. The 
+final loss (which we term the frame-aligned point error (FAPE) (Fig. 3f)) 
+compares the predicted atom positions to the true positions under 
+many different alignments. For each alignment, defined by aligning 
+the predicted frame (Rk, tk) to the corresponding true frame, we com-
+pute the distance of all predicted atom positions xi from the true atom 
+positions. The resulting Nframes × Natoms distances are penalized with a 
+clamped L1 loss. This creates a strong bias for atoms to be correct relative 
+to the local frame of each residue and hence correct with respect to its 
+side-chain interactions, as well as providing the main source of chirality 
+for AlphaFold (Supplementary Methods 1.9.3 and Supplementary Fig. 9).
+Training with labelled and unlabelled data
+The AlphaFold architecture is able to train to high accuracy using only 
+supervised learning on PDB data, but we are able to enhance accuracy 
+(Fig. 4a) using an approach similar to noisy student self-distillation35. 
+In this procedure, we use a trained network to predict the structure of 
+around 350,000 diverse sequences from Uniclust3036 and make a new 
+dataset of predicted structures filtered to a high-confidence subset. We 
+then train the same architecture again from scratch using a mixture of 
+PDB data and this new dataset of predicted structures as the training 
+data, in which the various training data augmentations such as crop-
+ping and MSA subsampling make it challenging for the network to 
+recapitulate the previously predicted structures. This self-distillation 
+procedure makes effective use of the unlabelled sequence data and 
+considerably improves the accuracy of the resulting network.
+Additionally, we randomly mask out or mutate individual residues 
+within the MSA and have a Bidirectional Encoder Representations from 
+Transformers (BERT)-style37 objective to predict the masked elements of 
+the MSA sequences. This objective encourages the network to learn to 
+interpret phylogenetic and covariation relationships without hardcoding 
+a particular correlation statistic into the features. The BERT objective is 
+trained jointly with the normal PDB structure loss on the same training 
+examples and is not pre-trained, in contrast to recent independent work38.
+Interpreting the neural network
+To understand how AlphaFold predicts protein structure, we trained 
+a separate structure module for each of the 48 Evoformer blocks in 
+the network while keeping all parameters of the main network fro-
+zen (Supplementary Methods 1.14). Including our recycling stages, 
+this provides a trajectory of 192 intermediate structures—one per full 
+Evoformer block—in which each intermediate represents the belief of 
+the network of the most likely structure at that block. The resulting 
+trajectories are surprisingly smooth after the first few blocks, show-
+ing that AlphaFold makes constant incremental improvements to the 
+structure until it can no longer improve (see Fig. 4b for a trajectory of 
+accuracy). These trajectories also illustrate the role of network depth. 
+For very challenging proteins such as ORF8 of SARS-CoV-2 (T1064), 
+the network searches and rearranges secondary structure elements 
+for many layers before settling on a good structure. For other proteins 
+such as LmrP (T1024), the network finds the final structure within the 
+first few layers. Structure trajectories of CASP14 targets T1024, T1044, 
+T1064 and T1091 that demonstrate a clear iterative building process 
+for a range of protein sizes and difficulties are shown in Supplementary 
+Videos 1–4. In Supplementary Methods 1.16 and Supplementary Figs. 12, 
+13, we interpret the attention maps produced by AlphaFold layers.
+Figure 4a contains detailed ablations of the components of AlphaFold 
+that demonstrate that a variety of different mechanisms contribute 
+to AlphaFold accuracy. Detailed descriptions of each ablation model, 
+their training details, extended discussion of ablation results and the 
+–20
+–10
+0
+GDT difference compared
+with baseline
+No IPA and no recycling
+No end-to-end structure gradients
+(keep auxiliary heads)
+No triangles, biasing or gating
+(use axial attention)
+No recycling
+No auxiliary masked MSA head
+No IPA (use direct projection)
+No raw MSA
+(use MSA pairwise frequencies)
+No auxiliary distogram head
+No templates
+Baseline
+With self-distillation training
+Test set of CASP14 domains
+–4
+–2
+0
+2
+lDDT-Cα difference
+compared with baseline
+Test set of PDB chains
+a
+0
+48
+96
+144
+192
+Evoformer block
+0
+20
+40
+60
+80
+100
+Domain GDT
+T1024 D1
+T1024 D2
+T1064 D1
+b
+Fig. 4 | Interpreting the neural network. a, Ablation results on two target sets: 
+the CASP14 set of domains (n = 87 protein domains) and the PDB test set of 
+chains with template coverage of ≤30% at 30% identity (n = 2,261 protein 
+chains). Domains are scored with GDT and chains are scored with lDDT-Cα. The 
+ablations are reported as a difference compared with the average of the three 
+baseline seeds. Means (points) and 95% bootstrap percentile intervals (error 
+bars) are computed using bootstrap estimates of 10,000 samples. b, Domain 
+GDT trajectory over 4 recycling iterations and 48 Evoformer blocks on CASP14 
+targets LmrP (T1024) and Orf8 (T1064) where D1 and D2 refer to the individual 
+domains as defined by the CASP assessment. Both T1024 domains obtain the 
+correct structure early in the network, whereas the structure of T1064 changes 
+multiple times and requires nearly the full depth of the network to reach the 
+final structure. Note, 48 Evoformer blocks comprise one recycling iteration.

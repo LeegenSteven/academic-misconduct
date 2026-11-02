@@ -1,0 +1,123 @@
+Figure 3A and B shows an example of a promiscuous protein,
+HSPA9, participating in two unrelated protein complexes. HSPA9 is
+a multilocational (mitochondria and nucleus) and multifunctional
+protein, playing a role in mitochondrial import and stress response
+(Wadhwa et al, 2002). We identify HSPA9 participating in two
+complexes that reflect its multifunctional role. First, we identify
+HSPA9 in complex HuMAP2_01130, a heat shock response complex
+supported by AP-MS experiments (Guruharsha et al, 2011; Huttlin
+et al, 2015) and co-fractionation evidence (Wan et al, 2015). And
+second, we identify HSPA9 in complex HuMAP2_00358, a mito-
+chondrial protein import complex supported by AP-MS experiments
+(Malovannaya et al, 2011; Huttlin et al, 2015; Boldt et al, 2016), co-
+fractionation evidence (Wan et al, 2015), and WMM based on
+(Treiber et al, 2017). To further verify HSPA9’s membership in these
+0.2
+0.4
+0.6
+Recall
+0.2
+0.4
+0.6
+0.8
+1.0
+Precision
+huMAP 1.0
+huMAP 2.0
+Bioplex2
+Wan et al.
+Hein et al. 
+No WMM
+HuRI
+0.1
+0.15
+0.2
+0.25
+0.3
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+k-cliques Precision
+C
+A
+0.15
+0.20
+0.25
+0.30
+0.35
+k-cliques Recall
+0.40
+0.50
+0.60
+0.70
+0.80
+k-cliques Precision
+1k
+5k
+10k
+Num of 
+Proteins
+D
+Wan et al.
+Bioplex1.0
+Bioplex2.0
+hu.MAP 1.0
+hu.MAP 2.0
+Training Complexes
+Test Complexes
+Selected clustering
+Individual clustering
+Union
+1
+2
+3
+4
+5
+1
+2
+3
+4
+5
+Stage 1 Clustering: ClusterOne
+Density Values
+(0.1, 0.2, 0.3, 0.35, 0.4)
+Clustering Workflow
+B
+Filter Network
+Stage 2 Clustering: MCL
+k-cliques Evaluate
+Max Overlap Values
+(0.6, 0.7, 0.8)
+SVM Score Thresholds (1.0, 0.99, ... 0.00001)
+Inflation Values (1.2, 2, ...15)
+~1,700 parameter combinations
+k-cliques Recall
+Figure 2.
+hu.MAP 2.0 outperforms previous complex maps.
+A
+Precision-Recall (PR) plot evaluated on a test (leave-out) set of literature-curated co-complex pairwise protein interactions. The plot shows hu.MAP 2.0 is more
+accurate and comprehensive than previous published datasets. The plot also evaluates the performance of predictions without the Weighted Matrix Model (WMM)
+and shows the WMM substantially improves performance.
+B
+Clustering workflow used to identify protein complexes in hu.MAP 2.0 protein interaction network. The network is first filtered based on the confidence score
+produced by the Support Vector Machine (SVM). The filtered network is then clustered using a two-stage approach, clustering first using ClusterOne, and then further
+clustering with MCL. The resulting clusters are then evaluated using the k-clique method (see Materials and Methods) on training complexes. Approximately 1,700
+parameter combinations were evaluated, each producing a unique set of clusters, sweeping SVM score filter thresholds, and clustering parameters (i.e., ClusterOne
+Max Overlap, ClusterOne Density, and MCL Inflation).
+C
+k-clique Precision-Recall (kPR) scatter plot of 1,700 clustering parameter sets. Five clusterings (colored hollow circles) were selected representing varying degrees of
+confidence balancing the trade-off between precision and recall. The five selected clusterings were combined as a final set of clusters (orange filled circle).
+D
+kPR scatter plot of hu.MAP 2.0 complexes (orange filled circle) and other published complex maps (colored filled circles) evaluated on a test set of literature-curated
+complexes. hu.MAP 2.0 complexes increase in both precision and recall relative to other maps. Also plotted are the five sets of complexes at different levels of
+confidence (colored hollow circles) demonstrating consistency between the level of confidence determined from training set (B) and test set.
+ª 2021 The Authors
+Molecular Systems Biology
+17: e10016 | 2021
+5 of 16
+Kevin Drew et al
+Molecular Systems Biology

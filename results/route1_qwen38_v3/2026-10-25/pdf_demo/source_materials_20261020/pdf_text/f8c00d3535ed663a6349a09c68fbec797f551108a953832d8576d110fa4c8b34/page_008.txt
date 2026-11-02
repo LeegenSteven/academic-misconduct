@@ -1,0 +1,134 @@
+Nature Medicine 
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+Methods
+Participants
+We included 1,325 participants from the Mayo Clinic Olmsted Study 
+of Aging48 (MCSA, n = 680), the Swedish BioFINDER-1 (n = 56) and 
+BioFINDER-2 (n = 228) studies at Lund University10,16, the Berkeley Aging 
+Cohort Study49 (BACS, n = 109), the Harvard Aging Brain Study50 (HABS, 
+n = 162, data obtained in March 2022 from data release 2.0 via https://
+habs.mgh.harvard.edu), the Australian Imaging, Biomarker & Lifestyle 
+Flagship Study of Ageing51 (AIBL, n = 48) and the SCIENCe project52, 
+which is part of the Amsterdam Dementia Cohort (ADC, n = 42). A brief 
+description of each cohort is provided in Supplementary Table 2. All 
+participants were (1) cognitively unimpaired at baseline defined by 
+neuropsychological test scores within the normative range given an 
+individual’s age, sex and educational background, (2) had amyloid 
+PET available to determine Αβ status, (3) underwent a tau PET scan 
+before 1 January 2019, to allow for sufficiently long follow-up and (4) 
+had at least one clinical follow-up visit available. Follow-up data were 
+collected until 1 April 2022. Amyloid and tau PET scans included in the 
+study were acquired at the same time point in most cases and always 
+within a maximum of 1 year of each other. Written informed consent was 
+obtained from all participants and local institutional review boards for 
+human research approved the study. This includes the Mayo Clinic and 
+Olmsted Medical Center institutional review boards for MSCA, regional 
+ethics committee at Lund University for BioFINDER-1 and BioFINDER-2, 
+institutional review boards at Lawrence Berkeley National Laboratory 
+and the University of California, Berkeley, for BACS, institutional human 
+research ethics committees of Austin Health, St. Vincent’s Health, Hol-
+lywood Private Hospital and Edith Cowan University for AIBL, partners 
+human research committee for HABS and the medical ethics review 
+committee of the Amsterdam University Medical Center for ADC.
+Amyloid PET status
+Amyloid PET scans were performed and analyzed at each respective 
+cohort site. Αβ status was determined using center-specific cutoffs 
+or visually read metrics using [18F]flutemetamol PET for BioFINDER-1 
+and BioFINDER-2, [11C]Pittsburgh compound-B PET for MCSA, BACS 
+and HABS, [18F]florbetapir PET for ADC and AIBL (n = 47 out of 48) and 
+[18F]NAV4694 for AIBL (n = 1 out of 48). Each cohort provided the Αβ 
+status for their participants (see Supplementary Table 3 for details).
+Tau PET status
+Tau PET was performed using [18F]flortaucipir across all cohorts, except 
+BioFINDER-2 where [18F]RO948 was used, and data were processed 
+according to previously described procedures (Supplementary Table 
+4). BioFINDER-1, BioFINDER-2 and BACS (part of a previous multicenter 
+study23) tau PET scans were analyzed at Lund University. For the other 
+cohorts, tau PET scans were processed at the respective sites; stand-
+ardized uptake value ratios and region-of-interest (ROI) volumes were 
+sent to the statistical analysis team (R.O. and A.P.B.) at Lund University. 
+Based on these data, we computed the tau PET status for an MTL (an 
+unweighted average of bilateral entorhinal cortex and amygdala) and 
+an NEO-T (a weighted average of bilateral middle temporal and infe-
+rior temporal gyri) ROI. We used an unweighted MTL ROI because we 
+intended the entorhinal cortex to have a relatively higher contribution 
+since this region is involved in the earliest stages of tau accumula-
+tion yet it is somewhat smaller compared to the amygdala. The MTL 
+and NEO-T ROIs were modified from a previously described temporal 
+meta-ROI17,53 based on a well-established stereotypical progression of 
+tau pathology from the MTL into the lateral temporal cortex19,54,55. The 
+threshold was determined for each cohort separately, based on the 
+mean + 2 × s.d. across all Αβ-negative participants in each cohort (see 
+cohort-specific cutoffs in Supplementary Table 4). Based on amyloid 
+and tau PET status, we generated four different biomarker groups: 
+A−T−; A+T−; A+TMTL
++ (defined as tau PET-positive in the MTL but not in the 
+neocortex); and A+TNEO-T
++ (defined as tau PET-positive in the NEO-T and/
+or MTL; 49 out of 65 were also TMTL
++). The A−T+ group was considerably 
+smaller than the other groups (n = 34; Extended Data Table 1), hence 
+their results are only reported in Extended Data Fig. 1.
+Clinical outcome measures
+We used both binary and continuous measures of clinical progression. 
+First, we examined progression from cognitively unimpaired to MCI 
+(Fig. 2a), all-cause dementia (Fig. 2d) or AD-type dementia (Extended 
+Data Fig. 2). MCI was established using the Petersen criteria56 and is 
+defined as significant cognitive symptoms as assessed by a physician, 
+in combination with cognitive impairment on one or multiple domains 
+(for example, memory, executive functioning, attention, language) that 
+is below the normative range given an individual’s age, sex and educa-
+tional background but not sufficiently severe to meet the diagnostic cri-
+teria for dementia. A large systematic review assessing 11,000 studies 
+showed convergence across practices when validated diagnostic tools 
+were used, such as in the current study57. AD-type dementia was diag-
+nosed using established criteria58. Both MCI and dementia diagnoses 
+were made by clinicians who were blinded for any PET or CSF outcome. 
+For BACS, no formal diagnosis of MCI or dementia was made during the 
+study; hence, the cohort was excluded from this analysis. Second, we 
+examined cognitive trajectories using a sensitive composite measure 
+specifically developed to detect cognitive changes in preclinical stages 
+of AD (that is, the mPACC5 (refs. 34,59); Fig. 3a) and a screening tests of 
+global cognition (that is, the MMSE, which is frequently used in clinical 
+practice and in trials; Fig. 3b). The mPACC5 consists of tests capturing 
+episodic memory, executive function, semantic memory and global 
+cognition34. Individual tests were z-transformed using the baseline test 
+scores of Αβ-negative participants in each cohort as the reference group 
+and then averaged to obtain a composite z-score. The composition of 
+mPACC5 is described for each cohort in Supplementary Table 5. Note 
+that we used a modified version of the mPACC5 because, although we 
+measured the same cognitive domains, the specific tests used in this 
+study are not consistent with the original mPACC5 and they differ by 
+cohort. However, a direct comparison between the original PACC5 and 
+the mPACC5 in HABS (where the original PACC5 was developed) showed 
+a strong correspondence between the 2 versions (r = 0.89, P < 0.001; 
+Supplementary Fig. 2).
+Statistical analyses
+All statistical analyses were performed in R v.4.0.5. Differences in base-
+line characteristics between groups were assessed using analysis of 
+variance (ANOVA) with post-hoc t-tests with Bonferroni correction 
+for continuous variables and chi-squared and Kruskal–Wallis with 
+post-hoc Mann–Whitney U-tests for categorical or ordinal variables. 
+First, we examined progression from cognitively unimpaired to MCI 
+(Fig. 2a), all-cause dementia (Fig. 2d) or AD-type dementia (Extended 
+Data Fig. 2) using Cox proportional-hazards models, adjusting for age, 
+sex, education and cohort using A−T− as the reference group. We addi-
+tionally repeated the Cox proportional-hazards model analysis while 
+using the A+T− group as the reference group. Furthermore, we compared 
+the A+TMTL
++ and A+TNEO-T
++ groups using pairwise log-rank tests with false 
+discovery rate correction. For individuals who progressed to MCI and 
+subsequent dementia, we used the respective times at conversion to 
+MCI and dementia for the analyses presented in Fig. 2a,d. Second, we 
+examined differences in cognitive trajectories between groups on the 
+mPACC5 (Fig. 3a) and on global cognition (that is, the MMSE; Fig. 3b) 
+using linear mixed-effect models with random intercepts and slopes, 
+adjusting for age, sex, education and cohort. Finally, we examined 
+whether our findings would generalize across different age groups and 
+whether our results would be consistent when accounting for white 
+matter pathology. Therefore, we performed two sets of analyses. First, 
+we performed the main analyses when (1) stratifying the participants 
+into different age groups (that is, 50–69, 70–79 and 80+ years old) and 
+(2) restricting the A−T− group to individuals older than 65 years, so that 

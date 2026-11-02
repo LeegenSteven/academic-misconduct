@@ -1,0 +1,272 @@
+Articles
+www.thelancet.com   Vol 395   March 28, 2020	
+1059
+17·0 days (13·0–19·0) to secondary infection (figure 1; 
+table 2). Among survivors, secondary infection, acute 
+kidney injury, and acute cardiac injury were observed in 
+one patient each, occurring 9 days (acute kidney injury), 
+14 days (secondary infection), and 21 days (acute cardiac 
+injury) after illness onset.
+The median time from dyspnoea to intubation was 
+10·0 days (IQR 5·0–12·5) for patients who received 
+invasive mechanical ventilation and the time from inva­
+sive mechanical ventilation to occurrence of ventilator-
+associated pneumonia was 8·0 days (2·0–9·0; figure 1).
+Discussion
+This retrospective cohort study identified several risk 
+factors for death in adults in Wuhan who were 
+hospitalised with COVID-19. In particular, older age, 
+d-dimer levels greater than 1 μg/mL, and higher SOFA 
+score on admission were associated with higher odds of 
+in-hospital death. Additionally, elevated levels of blood 
+IL-6, high-sensitivity cardiac troponin I, and lactate 
+dehydrogenase and lymphopenia were more commonly 
+seen in severe COVID-19 illness. Sustained viral 
+detection in throat samples was observed in both 
+survivors and non-survivors.
+Previously, older age has been reported as an impor­
+tant independent predictor of mortality in SARS and 
+MERS.14,15 The current study confirmed that increased 
+age was associated with death in patients with COVID-19. 
+Previous studies in macaques inoculated with SARS-CoV 
+found that older macaques had stronger host innate 
+responses to virus infection than younger adults, with an 
+Univariable OR 
+(95% CI)
+p value
+Multivariable 
+OR (95% CI)
+p value
+Demographics and clinical characteristics
+Age, years*
+1·14 
+(1·09–1·18)
+<0·0001
+1·10 
+(1·03–1·17)
+0·0043
+Female sex 
+(vs male)
+0·61 
+(0·31–1·20)
+0·15
+··
+··
+Current smoker 
+(vs non-
+smoker)
+2·23 
+(0·65–7·63)
+0·20
+··
+··
+Comorbidity present (vs not present)
+Chronic 
+obstructive 
+lung disease
+5·40 
+(0·96–30·40)
+0·056
+··
+··
+Coronary 
+heart disease
+21·40 
+(4·64–98·76)
+<0·0001
+2·14 
+(0·26–17·79)
+0·48
+Diabetes
+2·85 
+(1·35–6·05)
+0·0062
+··
+··
+Hypertension
+3·05 
+(1·57–5·92)
+0·0010
+··
+··
+Respiratory rate, breaths per min
+≤24
+1 (ref)
+··
+··
+··
+>24
+8·89 
+(4·34–18·19)
+<0·0001
+··
+··
+SOFA score
+6·14 
+(3·48–10·85)
+<0·0001
+5·65 
+(2·61–12·23)
+<0·0001
+qSOFA score
+12·00 
+(5·06–28·43)
+<0·0001
+··
+··
+Laboratory findings
+White blood cell count, × 10⁹ per L
+<4
+0·73 
+(0·26–2·10)
+0·56
+··
+··
+4–10
+1 (ref)
+··
+··
+··
+>10
+6·60 
+(3·02–14·41)
+<0·0001
+··
+··
+Lymphocyte 
+count, 
+× 10⁹ per L*
+0·02 
+(0·01–0·08)
+<0·0001
+0·19 
+(0·02–1·62)
+0·13
+ALT, U/L
+≤40
+1 (ref)
+··
+··
+··
+>40
+2·87 
+(1·48–5·57)
+0·0018
+··
+··
+(Table 3 continues in next column)
+Univariable OR 
+(95% CI)
+p value
+Multivariable 
+OR (95% CI)
+p value
+(Continued from previous column)
+Creatinine, μmol/L
+≤133
+1 (ref)
+··
+··
+··
+>133
+4·39 
+(1·01–19·06)
+0·048
+··
+··
+Lactate dehydrogenase, U/L
+≤245
+1 (ref)
+··
+··
+··
+>245
+45·43 
+(6·10–338·44)
+0·0002
+··
+··
+Creatine kinase, U/L
+≤185
+1 (ref)
+··
+··
+··
+>185
+2·56 
+(1·03–6·36)
+0·043
+··
+··
+High-sensitivity cardiac troponin I, pg/mL
+≤28
+1 (ref)
+··
+··
+··
+>28
+80·07 
+(10·34–620·36)
+<0·0001
+··
+··
+D-dimer, μg/mL
+≤0·5
+1 (ref)
+··
+1 (ref)
+··
+> 0·5
+1·96 
+(0·52–7·43)
+0·32
+2·14 
+(0·21–21·39)
+0·52
+> 1
+20·04 
+(6·52–61·56)
+<0·0001
+18·42 
+(2·64–128·55)
+0·0033
+Prothrombin time, s
+<16
+1 (ref)
+··
+··
+··
+≥16
+4·62 
+(1·29–16·50)
+0·019
+··
+··
+Serum ferritin, μg/L
+≤300
+1 (ref)
+··
+··
+··
+>300
+9·10 
+(2·04–40·58)
+0·0038
+··
+··
+IL-6, pg/mL*
+1·12 
+(1·03–1·23)
+0·0080
+··
+··
+Procalcitonin, 
+ng/mL*
+13·75 
+(1·81–104·40)
+0·011
+··
+··
+OR=odds ratio. S­OFA=Sequential Organ Failure Assessment. qSOFA=Quick SOFA. 
+ALT=alanine aminotransferase. IL-6=interleukin-6. *Per 1 unit increase.
+Table 3: Risk factors associated with in-hospital death

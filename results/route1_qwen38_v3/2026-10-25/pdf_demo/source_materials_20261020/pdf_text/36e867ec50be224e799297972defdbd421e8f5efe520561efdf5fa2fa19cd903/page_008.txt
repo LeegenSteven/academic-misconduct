@@ -1,0 +1,68 @@
+The Author(s) BMC Bioinformatics 2017, 18(Suppl 3):80
+Page 98 of 175
+little non-uniformity, the repeat count of a short K-MER
+should be close to the repeat count of its reverse com-
+plement. So we plot each K-MER and its reverse comple-
+ment’s counts, and check whether most points are near
+the line y = x. Figure 8 gives an example of K-MER
+based strand bias evaluation. The second method is based
+on another hypothesis: the mean discontinuity should be
+more or less stable for all sequencing cycles. For a short
+window of sequencing cycles, we use the average dis-
+continued base number in this window to calculate the
+discontinuity. For example, ATCGA has a discontinued
+base number of 4 because all of the neighbour bases are
+different, while AAAAA has a discontinued base num-
+ber of 0. If discontinuity drops down significantly cycle
+by cycle, it usually reflects a sequencing issue, which may
+be caused by the per-cycle washing process not working
+well.
+Software implementation
+AfterQC can be viewed as a mix of quality control tools
+(i.e. FastQC) and data filtering/trimming tools (i.e. Trim-
+momatic, cutadapt). Table 1 gives a simple feature com-
+parison of AfterQC with some existing tools. AfterQC
+differs from other tools by those features like overlap-
+ping analysis, bubble detection and automatic trimming.
+And for figure plotting, AfterQC switched from using
+matplotlib [12] to plotly.js [13] for creating interactive
+figures.
+Since AfterQC provides some functions that other high
+throughput sequencing QC or filtering tools do not pos-
+sess, it usually runs slower than those other tools. In our
+evaluation, for pair-end sequencing data, AfterQC can
+process 2*240K pair-end reads per minute, while FastQC
+can process 2*1.5M reads per minute, which is 6X faster
+as AfterQC. However, the most time consuming parts
+of AfterQC are overlapping analysis and error correc-
+tion processes, which are very useful for pair-end data.
+Actually, for single-end data, AfterQC can run as fast as
+FastQC, since no overlapping analysis is involved.
+This tool is written in Python, with an edit distance
+module written in C. PyPy is supported for performance
+consideration. Currently, the fastest way to run AfterQC
+is using PyPy, but we are also re-implementing AfterQC
+using C/C++ only. The performance will be improved
+after the slow python code is replaced.
+Results and discussion
+AfterQC has been used to process all of our 100+
+runs’ sequencing data, most of which are cell-free DNA
+sequencing. According to previous studies, the mean
+length of cell-free DNA is around 167 bp [14]. This rel-
+atively short length of cell-free DNA makes AfterQC’s
+overlapping analysis very useful since most pairs of reads
+will be overlapped. The AfterQC results of our 100
+runs’ data also confirm the reported length distribution.
+According to our results, sequencing quality can vary
+greatly with different runs, machines and samples. This
+suggests us to pay more attention to QC and data filtering,
+especially for clinical applications.
+For pair-end sequencing, AfterQC provides an option
+to store only the overlapped sub-sequences, which means
+all pairs with no overlap, and outside overlapping areas
+will be discarded. Because the overlapped parts of each
+pair will be completely reverse complemented after
+Fig. 8 Two examples of strand bias profiling. X-axis is about the counts of relative forward strand K-MERs, while the Y-axis is about relative reverse
+ones. a shows a case of very little strand bias because most points are close to the line y = x, and (b) shows a case of serious strand bias because
+lots of points are close to X-axis and Y-axis, and repeat counts of some K-MERs are very high so the figure seems very sparse. Both files are
+downloaded from NCBI Sequence Read Archive (SRA), with accession numbers SRR1654347 and SRR2496735 [18]

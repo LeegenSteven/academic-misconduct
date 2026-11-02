@@ -1,0 +1,135 @@
+584  |  Nature  |  Vol 596  |  26 August 2021
+Article
+for the participating methods, and has long served as the gold-standard 
+assessment for the accuracy of structure prediction25,26.
+In CASP14, AlphaFold structures were vastly more accurate than 
+competing methods. AlphaFold structures had a median backbone 
+accuracy of 0.96 Å r.m.s.d.95 (Cα root-mean-square deviation at 95% 
+residue coverage) (95% confidence interval = 0.85–1.16 Å) whereas 
+the next best performing method had a median backbone accuracy 
+of 2.8 Å r.m.s.d.95 (95% confidence interval = 2.7–4.0 Å) (measured on 
+CASP domains; see Fig. 1a for backbone accuracy and Supplementary 
+Fig. 14 for all-atom accuracy). As a comparison point for this accuracy, 
+the width of a carbon atom is approximately 1.4 Å. In addition to very 
+accurate domain structures (Fig. 1b), AlphaFold is able to produce 
+highly accurate side chains (Fig. 1c) when the backbone is highly accu-
+rate and considerably improves over template-based methods even 
+when strong templates are available. The all-atom accuracy of Alpha-
+Fold was 1.5 Å r.m.s.d.95 (95% confidence interval = 1.2–1.6 Å) compared 
+with the 3.5 Å r.m.s.d.95 (95% confidence interval = 3.1–4.2 Å) of the best 
+alternative method. Our methods are scalable to very long proteins with 
+accurate domains and domain-packing (see Fig. 1d for the prediction 
+of a 2,180-residue protein with no structural homologues). Finally, the 
+model is able to provide precise, per-residue estimates of its reliability 
+that should enable the confident use of these predictions.
+We demonstrate in Fig. 2a that the high accuracy that AlphaFold dem-
+onstrated in CASP14 extends to a large sample of recently released PDB 
+structures; in this dataset, all structures were deposited in the PDB after 
+our training data cut-off and are analysed as full chains (see Methods, 
+Supplementary Fig. 15 and Supplementary Table 6 for more details). 
+Furthermore, we observe high side-chain accuracy when the back-
+bone prediction is accurate (Fig. 2b) and we show that our confidence 
+measure, the predicted local-distance difference test (pLDDT), reliably 
+predicts the Cα local-distance difference test (lDDT-Cα) accuracy of the 
+corresponding prediction (Fig. 2c). We also find that the global super-
+position metric template modelling score (TM-score)27 can be accu-
+rately estimated (Fig. 2d). Overall, these analyses validate that the high 
+accuracy and reliability of AlphaFold on CASP14 proteins also transfers 
+to an uncurated collection of recent PDB submissions, as would be 
+expected (see Supplementary Methods 1.15 and Supplementary Fig. 11 
+for confirmation that this high accuracy extends to new folds).
+The AlphaFold network
+AlphaFold greatly improves the accuracy of structure prediction by 
+incorporating novel neural network architectures and training proce-
+dures based on the evolutionary, physical and geometric constraints 
+of protein structures. In particular, we demonstrate a new architecture 
+to jointly embed multiple sequence alignments (MSAs) and pairwise 
+features, a new output representation and associated loss that enable 
+accurate end-to-end structure prediction, a new equivariant attention 
+a
+G427
+AlphaFold
+G009
+G473
+G129
+G403
+G032
+G420
+G480
+G498
+G488
+G368
+G324
+G362
+G253
+G216
+0
+1
+2
+3
+4
+Median Cα r.m.s.d.95 (Å)
+b
+C terminus
+N terminus
+AlphaFold
+Experiment
+r.m.s.d.95 = 0.8 Å; TM-score = 0.93
+c
+AlphaFold
+Experiment
+r.m.s.d. = 0.59 Å within 8 Å of Zn
+d
+AlphaFold
+Experiment
+r.m.s.d.95 = 2.2 Å; TM-score = 0.96
+MSA
+3D structure
+Low 
+conﬁdence
+High 
+conﬁdence
+Templates
+Input sequence
+MSA 
+representation
+(s,r,c)
+Evoformer 
+(48 blocks)
+Structure 
+module
+ (8 blocks)
++
++
+← Recycling (three times)
+Pairing
+Pair 
+representation
+(r,r,c)
+Pair 
+representation
+(r,r,c)
+Genetic 
+database
+search
+Structure 
+database
+search
+e
+Single repr. (r,c)
+Fig. 1 | AlphaFold produces highly accurate structures. a, The performance 
+of AlphaFold on the CASP14 dataset (n = 87 protein domains) relative to the top-
+15 entries (out of 146 entries), group numbers correspond to the numbers 
+assigned to entrants by CASP. Data are median and the 95% confidence interval 
+of the median, estimated from 10,000 bootstrap samples. b, Our prediction of 
+CASP14 target T1049 (PDB 6Y4F, blue) compared with the true (experimental) 
+structure (green). Four residues in the C terminus of the crystal structure are 
+B-factor outliers and are not depicted. c, CASP14 target T1056 (PDB 6YJ1).  
+An example of a well-predicted zinc-binding site (AlphaFold has accurate side 
+chains even though it does not explicitly predict the zinc ion). d, CASP target 
+T1044 (PDB 6VR4)—a 2,180-residue single chain—was predicted with correct 
+domain packing (the prediction was made after CASP using AlphaFold without 
+intervention). e, Model architecture. Arrows show the information flow among 
+the various components described in this paper. Array shapes are shown in 
+parentheses with s, number of sequences (Nseq in the main text); r, number of 
+residues (Nres in the main text); c, number of channels.

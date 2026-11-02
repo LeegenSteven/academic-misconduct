@@ -1,0 +1,152 @@
+Articles
+498	
+www.thelancet.com   Vol 395   February 15, 2020
+of Pulmonary and Critical Care 
+Medicine, The Central Hospital 
+of Wuhan (Y Hu MD, W Yin MD), 
+Tongji Medical College, 
+Huazhong University of Science 
+and Technology, Wuhan, China; 
+Tsinghua University School of 
+Medicine, Beijing, China 
+(J Xu MDc); Department of 
+Respiratory medicine, 
+Zhongnan Hospital of Wuhan 
+University, Wuhan, China 
+(Prof Z Cheng MD); Department 
+of Pulmonary and Critical Care 
+Medicine, Peking University 
+First Hospital, Beijing, China 
+(Prof G Wang MD); Department 
+of Pulmonary and Critical Care 
+Medicine, Peking University 
+People’s Hospital, Beijing, 
+China (Prof Z Gao MD); and 
+Tsinghua University-Peking 
+University Joint Center for Life 
+Sciences, Beijing, China 
+(Prof B Cao)
+Correspondence to: 
+Prof Bin Cao, Department of 
+Pulmonary and Critical Care 
+Medicine, China-Japan 
+Friendship Hospital, 
+Beijing 100029, China 
+caobin_ben@163.com
+or
+Prof Jianwei Wang, NHC Key 
+Laboratory of Systems Biology of 
+Pathogens and Christophe 
+Merieux Laboratory, Institute of 
+Pathogen Biology, Chinese 
+Academy of Medical Sciences 
+and Peking Union Medical 
+College, Beijing 100730, China 
+wangjw28@163.com
+We aim to describe epidemiological, clinical, laboratory, 
+and radiological characteristics, treatment, and outcomes 
+of patients confirmed to have 2019-nCoV infection, and to 
+compare the clinical features between intensive care unit 
+(ICU) and non-ICU patients. We hope our study findings 
+will inform the global community of the emergence of 
+this novel coronavirus and its clinical features.
+Methods
+Patients
+Following the pneumonia cases of unknown cause 
+reported in Wuhan and considering the shared history 
+of exposure to Huanan seafood market across the 
+patients, an epidemiological alert was released by the 
+local health authority on Dec 31, 2019, and the market 
+was shut down on Jan 1, 2020. Meanwhile, 59 suspected 
+cases with fever and dry cough were transferred to a 
+designated hospital starting from Dec 31, 2019. An 
+expert team of physicians, epidemiologists, virologists, 
+and government officials was soon formed after the 
+alert.
+Since the cause was unknown at the onset of these 
+emerging infections, the diagnosis of pneumonia of 
+unknown cause in Wuhan was based on clinical 
+characteristics, chest imaging, and the ruling out of 
+common bacterial and viral pathogens that cause 
+pneumonia. Suspected patients were isolated using 
+airborne precautions in the designated hospital, Jin Yin-
+tan Hospital (Wuhan, China), and fit-tested N95 masks 
+and 
+airborne 
+precautions 
+for 
+aerosol-generating 
+procedures were taken. This study was approved by the 
+National Health Commission of China and Ethics 
+Commission of Jin Yin-tan Hospital (KY-2020-01.01). 
+Written informed consent was waived by the Ethics 
+Commission of the designated hospital for emerging 
+infectious diseases.
+Procedures
+Local centres for disease control and prevention collected 
+respiratory, blood, and faeces specimens, then shipped 
+them to designated authoritative laboratories to detect the 
+pathogen (NHC Key Laboratory of Systems Biology of 
+Pathogens and Christophe Mérieux Laboratory, Beijing, 
+China). A novel coronavirus, which was named 2019-nCoV, 
+was isolated then from lower respiratory tract specimen 
+and a diagnostic test for this virus was developed soon 
+after that.14 Of 59 suspected cases, 41 patients were 
+confirmed to be infected with 2019-nCoV. The presence of 
+2019-nCoV in respi­ratory specimens was detected by next-
+generation se­quencing or real-time RT-PCR methods. The 
+primers and probe target to envelope gene of CoV were 
+used and the sequences were as follows: forward primer 
+5′-ACTTCTTTTTCTTGCTTTCGTGGT-3′; reverse primer 
+5′-GCAGCAGTACGCACACAATC-3′; and the probe 
+5′CY5-CTAGTTACACTAGCCATCCTTACTGC-3′BHQ1. 
+Conditions for the amplifications were 50°C for 15 min, 
+95°C for 3 min, followed by 45 cycles of 95°C for 15 s and 
+60°C for 30 s.
+Initial investigations included a complete blood count, 
+coagulation profile, and serum biochemical test (including 
+renal and liver function, creatine kinase, lactate dehydro­
+genase, and electrolytes). Respiratory specimens, including 
+nasal and pharyngeal swabs, bronchoalveolar lavage fluid, 
+sputum, or bronchial aspirates were tested for common 
+viruses, including influenza, avian influenza, respiratory 
+syncytial virus, adenovirus, parainfluenza virus, SARS-CoV 
+and MERS-CoV using real-time RT-PCR assays approved 
+by the China Food and Drug Administration. Routine 
+bacterial and fungal examinations were also performed.
+Given the emergence of the 2019-nCoV pneumonia 
+cases during the influenza season, antibiotics (orally and 
+intravenously) and osel­tamivir (orally 75 mg twice daily) 
+were empirically administered. Corticosteroid therapy 
+Research in context
+Evidence before this study
+Human coronaviruses, including hCoV-229E, OC43, NL63, 
+and HKU1, cause mild respiratory diseases. Fatal coronavirus 
+infections that have emerged in the past two decades are severe 
+acute respiratory syndrome coronavirus (SARS-CoV) and the 
+Middle East respiratory syndrome coronavirus. We searched 
+PubMed and the China National Knowledge Infrastructure 
+database for articles published up to Jan 11, 2020, using the 
+keywords “novel coronovirus”, “2019 novel coronavirus”, 
+or “2019-nCoV”. No published work about the human infection 
+caused by the 2019 novel coronavirus (2019-nCoV) could be 
+identified.
+Added value of this study
+We report the epidemiological, clinical, laboratory, and 
+radiological characteristics, treatment, and clinical outcomes of 
+41 laboratory-confirmed cases infected with 2019-nCoV. 
+27 (66%) of 41 patients had a history of direct exposure to the 
+Huanan seafood market. The median age of patients was 
+49·0 years (IQR 41·0–58·0), and 13 (32%) patients had underlying 
+disease. All patients had pneumonia. A third of patients were 
+admitted to intensive care units, and six died. High concentrations 
+of cytokines were recorded in plasma of critically ill patients 
+infected with 2019-nCoV.
+Implications of all the available evidence
+2019-nCoV caused clusters of fatal pneumonia with clinical 
+presentation greatly resembling SARS-CoV. Patients infected 
+with 2019-nCoV might develop acute respiratory distress 
+syndrome, have a high likelihood of admission to intensive care, 
+and might die. The cytokine storm could be associated with 
+disease severity. More efforts should be made to know the 
+whole spectrum and pathophysiology of the new disease.

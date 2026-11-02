@@ -1,0 +1,420 @@
+{
+  "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+  "fixed20_point_number": 6,
+  "first5_point_number": 5,
+  "status": "EVIDENCE_BOUNDARY_AND_HOLD_DISPOSITION_PROPOSED_AWAITING_LI_CONFIRMATION",
+  "client_record_date": "2026-10-24",
+  "proposed_human_disposition": "continue_pending_frozen_candidate_attribute_support",
+  "proposed_human_label": null,
+  "proposed_human_basis": "按原冻结候选边界核查：novel、RNA和betacoronavirus已有候选支持，enveloped属性未获本批候选直接支持。本轮不新增外部常识豁免，保留完整原句和原候选，继续待核、不新增人工三标签。",
+  "component_support_as_previously_reviewed": [
+    {
+      "component": "novel",
+      "evidence_ids": [
+        "D01:S01",
+        "D01:S04"
+      ]
+    },
+    {
+      "component": "RNA",
+      "evidence_ids": [
+        "D01:S02"
+      ]
+    },
+    {
+      "component": "betacoronavirus",
+      "evidence_ids": [
+        "D01:S10"
+      ]
+    },
+    {
+      "component": "enveloped",
+      "direct_supporting_evidence_ids": [],
+      "status": "frozen_candidate_support_gap_not_an_assertion_of_falsehood"
+    }
+  ],
+  "new_common_knowledge_exemption_adopted": false,
+  "Trimmomatic_popular_materiality_not_generalized_to_this_case": true,
+  "scope_as_frozen": {
+    "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+    "pair_id": "r1pair:c94aeb805e9261b355bc",
+    "dedup_key": "df5053bbd503ea2762b3617d5b82a59a1c4e5eeb80e8b49167408cb89303ddae",
+    "source_pool_candidate_id": "PMC-OA-EXP-08",
+    "target_reference_id": "r2",
+    "original_full_context_marked": "I n early December 2019, the first pneumonia cases of unknown origin were identified in Wuhan, the capital city of Hubei province.1 The pathogen has been identified as a novel enveloped RNA betacoronavirus[[TARGET_REFERENCE]]2[[/TARGET_REFERENCE]] that has currently been named severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which has a phylogenetic similarity to SARS-CoV.3 Patients with the infection have been documented both in hospitals and in family settings.4-8",
+    "old_scope_query": "The pathogen has been identified as a novel enveloped RNA betacoronavirus2 that has currently been named severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which has a phylogenetic similarity to SARS-CoV.3",
+    "primary_scope_pieces": [
+      {
+        "text": "The pathogen has been identified as a novel enveloped RNA betacoronavirus2",
+        "normalized_context_start": 132,
+        "normalized_context_end_exclusive": 206,
+        "source_pdf_fragments": [
+          {
+            "pdf_page": 2,
+            "printed_page": null,
+            "char_start": 202,
+            "char_end_exclusive": 277,
+            "raw_text": "The pathogen has been identified as a \nnovel enveloped RNA betacoronavirus2",
+            "raw_text_sha256": "2dbe3291bc9510d7625776ddbb728d61073d1ba0db1941268e83f1eb0450eca8",
+            "source_blocks": [
+              {
+                "block_number": 3,
+                "bbox": [
+                  100.003,
+                  53.97,
+                  301.041,
+                  173.96
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ]
+      }
+    ],
+    "context_only_pieces": [],
+    "prepared_query": "The pathogen has been identified as a novel enveloped RNA betacoronavirus2",
+    "query_changed": true,
+    "boundary_reason": "当前 r2 位于 novel enveloped RNA betacoronavirus 后。后续命名及由 r3 标记的 SARS-CoV 相似性不强加给 r2；当前分句的 novel、enveloped、RNA、betacoronavirus 均保留。",
+    "scope_status": "assistant_source_boundary_checked",
+    "reviewer_signoff": {
+      "李云": null,
+      "陈明进": null
+    },
+    "exposure": {
+      "prior_retrieval_known": true,
+      "new_model_predictions_seen": false,
+      "independent_blind_claimed": false
+    },
+    "label": null,
+    "joint_adjudication": null
+  },
+  "scope_word_deleted": false,
+  "source_pdf_ids": {
+    "citing": "PMC7092819",
+    "cited": "PMC7159086"
+  },
+  "designated_cited_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+  "no_evidence_borrowed_from_other_target_papers": true,
+  "candidate_source_checks": [
+    {
+      "evidence_id": "D01:S01",
+      "model_text_sha256": "a0b9709522a878c4c96f549ea7f76600074e4996190dcb411fe36a16985d0fb6",
+      "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "PDF_locations": [
+        {
+          "pdf_page": 2,
+          "char_start": 607,
+          "char_end_exclusive": 1092,
+          "source_blocks": [
+            {
+              "block_number": 5,
+              "bbox": [
+                36.85,
+                245.689,
+                478.517,
+                313.911
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_envelope_term_present": false
+    },
+    {
+      "evidence_id": "D01:S02",
+      "model_text_sha256": "b8c131e52165e3364685a8b6136af4563f5dbc38138aeba72ce56dee35bf5826",
+      "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "PDF_locations": [
+        {
+          "pdf_page": 2,
+          "char_start": 3533,
+          "char_end_exclusive": 4031,
+          "source_blocks": [
+            {
+              "block_number": 11,
+              "bbox": [
+                36.847,
+                641.689,
+                253.142,
+                753.915
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_envelope_term_present": false
+    },
+    {
+      "evidence_id": "D01:S03",
+      "model_text_sha256": "012998efdfd87577fa0e1b21eba2122f0123b2f2226c0f5c745673dd9221916b",
+      "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "PDF_locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 228,
+          "char_end_exclusive": 1254,
+          "source_blocks": [
+            {
+              "block_number": 4,
+              "bbox": [
+                119.053,
+                347.182,
+                335.345,
+                555.915
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_envelope_term_present": false
+    },
+    {
+      "evidence_id": "D01:S04",
+      "model_text_sha256": "c242e0d55ebce359dc5cbcbc0794ff655a182398f8140a76799d13e17c5622c2",
+      "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "PDF_locations": [
+        {
+          "pdf_page": 9,
+          "char_start": 2435,
+          "char_end_exclusive": 2964,
+          "source_blocks": [
+            {
+              "block_number": 6,
+              "bbox": [
+                344.404,
+                487.689,
+                560.692,
+                610.905
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_envelope_term_present": false
+    },
+    {
+      "evidence_id": "D01:S05",
+      "model_text_sha256": "588b95f3499dcd2d9df068852a250d6f03ecd8a4d25dbf8fb11e0304f96a27e4",
+      "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "PDF_locations": [
+        {
+          "pdf_page": 10,
+          "char_start": 3025,
+          "char_end_exclusive": 3128,
+          "source_blocks": [
+            {
+              "block_number": 7,
+              "bbox": [
+                36.855,
+                732.178,
+                253.093,
+                753.919
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_envelope_term_present": false
+    },
+    {
+      "evidence_id": "D01:S06",
+      "model_text_sha256": "6a21b2a66502a4718c3afe38f6875d9749d39c9050429a311942938aec1b4c6a",
+      "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "PDF_locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 6430,
+          "char_end_exclusive": 6925,
+          "source_blocks": [
+            {
+              "block_number": 44,
+              "bbox": [
+                345.093,
+                201.094,
+                547.606,
+                299.473
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_envelope_term_present": false
+    },
+    {
+      "evidence_id": "D01:S07",
+      "model_text_sha256": "143a68a5ef6ffe0440423b830f4325811a841d718e0e7867dcc693404d1cdeae",
+      "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "PDF_locations": [
+        {
+          "pdf_page": 9,
+          "char_start": 2964,
+          "char_end_exclusive": 3715,
+          "source_blocks": [
+            {
+              "block_number": 7,
+              "bbox": [
+                344.404,
+                611.166,
+                560.71,
+                753.915
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_envelope_term_present": false
+    },
+    {
+      "evidence_id": "D01:S08",
+      "model_text_sha256": "8f7d597f3880ca99af7127141fd870bcad3b6338ace6931b59ed2f861fc5c519",
+      "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "PDF_locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 3621,
+          "char_end_exclusive": 4007,
+          "source_blocks": [
+            {
+              "block_number": 9,
+              "bbox": [
+                344.408,
+                665.161,
+                560.687,
+                753.907
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_envelope_term_present": false
+    },
+    {
+      "evidence_id": "D01:S09",
+      "model_text_sha256": "ab70f898315042284d728d8b8f5e272b2bd3f8003e7d37c2d5843425f32d7161",
+      "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "PDF_locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 6194,
+          "char_end_exclusive": 6430,
+          "source_blocks": [
+            {
+              "block_number": 43,
+              "bbox": [
+                345.093,
+                151.437,
+                545.464,
+                194.812
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_envelope_term_present": false
+    },
+    {
+      "evidence_id": "D01:S10",
+      "model_text_sha256": "c5eaefaf138372224ee175c39e654ca6fa5721dc21a22b121871fe9979283587",
+      "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+      "PDF_locations": [
+        {
+          "pdf_page": 8,
+          "char_start": 62,
+          "char_end_exclusive": 967,
+          "source_blocks": [
+            {
+              "block_number": 3,
+              "bbox": [
+                36.85,
+                534.182,
+                253.138,
+                720.887
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true,
+      "literal_envelope_term_present": false
+    }
+  ],
+  "literal_search_scope_note": "词命中仅辅助位置核对，不把缺词单独当成完整语义结论；当前支持缺口也与既有双方v2复核一致。",
+  "fulltext_supplement": {
+    "source": "designated cited PDF only",
+    "source_pmcid": "PMC7159086",
+    "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+    "previous_readonly_record": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\first5_source_review_2026-10-22\\全文补查_模型未见.json",
+    "previous_readonly_record_sha256": "b297d8a222dd7e2d304e5d69f52caf9d4dc0db0ea09632e7fb8ae5a57d9f8105",
+    "keyword_fragment": {
+      "pdf_page": 8,
+      "printed_page": null,
+      "char_start": 1864,
+      "char_end_exclusive": 1872,
+      "raw_text": "envelope",
+      "raw_text_sha256": "4c503ca67761e5c4aaecfe996244c25d8c0b40902d1085c85b4468bd567548c6",
+      "source_blocks": [
+        {
+          "block_number": 6,
+          "bbox": [
+            262.183,
+            688.118,
+            478.472,
+            753.913
+          ]
+        }
+      ],
+      "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+      "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+    },
+    "keyword_visible_in_frozen_candidates": false,
+    "complete_attribute_support_inferred_from_keyword_alone": false,
+    "added_to_frozen_input": false,
+    "new_fulltext_evidence_version_created": false
+  },
+  "original_records_sha256": "495e96f319bc49d062460f14f9c23fccb62a18427c3ac0a0c1cab821a24fd2b5",
+  "original_classifier_input_sha256": "2ad3f18326149c9519f76e2f7bfffc164d4de32ce059c9f0a12b91e064599ad0",
+  "original_explainer_input_sha256": "4dc552ac4b9807cb27819f457a587e587bcb86304eb1ff4f1a68fc09767f73ab",
+  "original_classifier_label_retained": "ACCURATE",
+  "original_reason_already_reports_the_missing_attribute": true,
+  "formal_explanation_semantic_status": null,
+  "Chen_boundary_as_received": "继续待核；原冻结提示只依据候选、不使用外部知识；常识豁免须另行定义，本次未决定改规则。",
+  "Chen_source_file": "首批5点语义核对_陈明进_v2_20261022.md",
+  "Chen_source_sha256": "4879f6ea33fd9af6db28acd4d1f0877134aa23480f04a3269384e1dd34c17896",
+  "Li_confirmed_disposition": null,
+  "joint_adjudication_imported": false,
+  "original_model_response_changed": false,
+  "new_model_run": false,
+  "new_scope_release": false,
+  "formal_acceptance_added": false
+}

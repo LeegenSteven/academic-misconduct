@@ -1,0 +1,207 @@
+{
+  "batch": "路线一PDF20点被引端检索 v1",
+  "date": "2026-10-20",
+  "input_requests": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\ly_pdf20_20261020\\cited_retrieval_requests.jsonl",
+  "input_pdf_text_dir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\ly_pdf20_20261020\\pdf_text",
+  "output_results": "C:\\Users\\Administrator\\Documents\\academic-misconduct\\deliverables\\2026-10-20_PDF20点被引检索\\cited_evidence_results.jsonl",
+  "retrieval_config": {
+    "engine": "rank_bm25.BM25Okapi",
+    "k1": 1.2,
+    "b": 0.75,
+    "top_k": 10,
+    "tokenizer": "lowercase + regex [a-z0-9]+, min token length 2",
+    "min_block_chars": 50,
+    "scope": "per-case cited PDF blocks only",
+    "query_field": "target_claim_scope_proposal"
+  },
+  "stats": {
+    "total": 20,
+    "ok": 18,
+    "low_confidence": 2,
+    "zero_score_top1": 0,
+    "no_query": 0,
+    "no_blocks": 0
+  },
+  "case_summary": [
+    {
+      "case_id": "r1pdf:48b208f007c2c6e700c04ff0",
+      "cited_pmcid": "PMC7333361",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 21.651618,
+      "top1_page": 8,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+      "cited_pmcid": "PMC6324056",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 19.14656,
+      "top1_page": 1,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:ecd1a395eb5f25610750d721",
+      "cited_pmcid": "PMC4103590",
+      "status": "low_confidence",
+      "num_candidates": 10,
+      "top1_score": 11.626836,
+      "top1_page": 1,
+      "note": "top1 BM25分数(11.63)低于阈值15.0，query可能在被引全文中无直接对应，需人工核查"
+    },
+    {
+      "case_id": "r1pdf:e1636ac35ca5131bfdf6fb44",
+      "cited_pmcid": "PMC5374548",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 20.09379,
+      "top1_page": 10,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:cc2e2247d91afc3f3559aa23",
+      "cited_pmcid": "PMC7159299",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 24.995379,
+      "top1_page": 2,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+      "cited_pmcid": "PMC7159086",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 32.946539,
+      "top1_page": 2,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+      "cited_pmcid": "PMC7121484",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 26.116711,
+      "top1_page": 5,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+      "cited_pmcid": "PMC8111494",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 24.993926,
+      "top1_page": 1,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+      "cited_pmcid": "PMC5958625",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 17.795109,
+      "top1_page": 39,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:1dfa922c755ed870245927e3",
+      "cited_pmcid": "PMC9671808",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 17.714406,
+      "top1_page": 6,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:976890f040d5c2cab2e50965",
+      "cited_pmcid": "PMC6324056",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 28.404443,
+      "top1_page": 1,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+      "cited_pmcid": "PMC7159299",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 41.559649,
+      "top1_page": 6,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:43c53ece80a7c35828d5246d",
+      "cited_pmcid": "PMC5958625",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 28.864702,
+      "top1_page": 40,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+      "cited_pmcid": "PMC9671808",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 23.401984,
+      "top1_page": 8,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:896e930269210ee1300d8037",
+      "cited_pmcid": "PMC6324056",
+      "status": "low_confidence",
+      "num_candidates": 10,
+      "top1_score": 12.321157,
+      "top1_page": 7,
+      "note": "top1 BM25分数(12.32)低于阈值15.0，query可能在被引全文中无直接对应，需人工核查"
+    },
+    {
+      "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+      "cited_pmcid": "PMC7159299",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 34.702873,
+      "top1_page": 4,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:0243ab815badba958177a9a8",
+      "cited_pmcid": "PMC5958625",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 26.212114,
+      "top1_page": 40,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:0625d9ca3ef5bf2a22c6109b",
+      "cited_pmcid": "PMC7159299",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 18.270196,
+      "top1_page": 8,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:826cdb765c276ba900010084",
+      "cited_pmcid": "PMC5958625",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 26.096771,
+      "top1_page": 38,
+      "note": ""
+    },
+    {
+      "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+      "cited_pmcid": "PMC7159299",
+      "status": "ok",
+      "num_candidates": 10,
+      "top1_score": 27.920057,
+      "top1_page": 9,
+      "note": ""
+    }
+  ]
+}

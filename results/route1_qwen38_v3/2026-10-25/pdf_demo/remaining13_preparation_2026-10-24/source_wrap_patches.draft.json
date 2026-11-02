@@ -1,0 +1,57 @@
+{
+  "version": "route1_pdf_remaining13_source_revision_draft_20261024",
+  "patches": [
+    {
+      "point_number": 7,
+      "patch_id": "p07_transmission_wrap",
+      "pdf_page": 2,
+      "start": 3726,
+      "raw": "trans­\nmission",
+      "model": "transmission",
+      "skip_relative": [
+        5,
+        6
+      ],
+      "source_pdf_sha256": "1b9f4a28378fdb4bd1b47cd2c3c0d191f82735bf4c2ecf13ffb6ceefc6fd70fa",
+      "end": 3740,
+      "source_raw_sha256": "f639c045295e82cc60ee8338bb1d71af7fe0c42a2032208599650b78f2803a3e",
+      "model_text_sha256": "1d2cafdb2fbaa2b86fe4565d2fb98940c32dc91a57f3dab5b22b84b2f105fecc",
+      "human_confirmation": null,
+      "stage": "draft_only_not_released"
+    },
+    {
+      "point_number": 12,
+      "patch_id": "p12_SARS_lexical_hyphen",
+      "pdf_page": 2,
+      "start": 859,
+      "raw": "SARS-\nCoV",
+      "model": "SARS-CoV",
+      "skip_relative": [
+        5
+      ],
+      "source_pdf_sha256": "1a8ff3e9322ce66224a2dd582930b4755e049fb5e39d3b17e06aacd879dae4c3",
+      "end": 868,
+      "source_raw_sha256": "b1e9949d1e873ff8cb88c0be6548f94c7ed60221330f58e08ffee2616ded077a",
+      "model_text_sha256": "f88cec115e2143f9f672fc737c87a94dfef76ddba51351784fa2bfd2a949d089",
+      "human_confirmation": null,
+      "stage": "draft_only_not_released"
+    },
+    {
+      "point_number": 16,
+      "patch_id": "p16_high_throughput_lexical_hyphen",
+      "pdf_page": 2,
+      "start": 2214,
+      "raw": "high-\nthroughput",
+      "model": "high-throughput",
+      "skip_relative": [
+        5
+      ],
+      "source_pdf_sha256": "1a8ff3e9322ce66224a2dd582930b4755e049fb5e39d3b17e06aacd879dae4c3",
+      "end": 2230,
+      "source_raw_sha256": "4e190f1539341664c0970625e5f1475443cf4f145839da3cfb663f97ee00f438",
+      "model_text_sha256": "589f66478173471b92892c81a01965ee10876cdb8bf0d81b5aa23146c43e844b",
+      "human_confirmation": null,
+      "stage": "draft_only_not_released"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "finished_at_utc": "2026-10-31T11:41:57.169231+00:00",
+  "status": "completed",
+  "stages": [
+    {
+      "stage": "classifier",
+      "exit_code": 0
+    },
+    {
+      "stage": "explainer",
+      "exit_code": 0
+    }
+  ],
+  "human_semantic_acceptance": false
+}

@@ -1,0 +1,11 @@
+{
+  "legacy_source": "C:\\Users\\y\\Desktop\\学术引用不端\\路线一PDF定位_20261018\\原五对10点_被引检索交接_20261019\\施引检索任务_10点.jsonl",
+  "legacy_source_sha256": "ff95434a2af5c5a4beab8326a1bcbe1a22a37b4e16407d7257652cd1e42ccd55",
+  "legacy_pairs": 5,
+  "legacy_points": 10,
+  "comparison": "both PDF hashes or PMCID pair identity; thus different markers in known shared pair are conservatively excluded here",
+  "new_selected_pair_overlap_count": 0,
+  "shared_citing_article_is_not_same_citation_point": true,
+  "complete_116_edge_graph_crosswalk_performed": false,
+  "new_cases_not_claimed_to_be_blind_annotations": true
+}

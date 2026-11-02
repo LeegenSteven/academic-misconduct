@@ -1,0 +1,240 @@
+{
+  "version": "two_supplement_a100_return_validation_20261031",
+  "archive_path_relative_to_workspace": "10.26-10.31/route1_pdf_two_supplement_20261031_return.tar.gz",
+  "archive_sha256": "0d6f7cf1f4e663e02a61da5879cd179e59484a7e8f88b5e57c7f4c1c9e06fb00",
+  "checksum_pass": true,
+  "raw_return_directory": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\results\\route1_qwen38_v3\\2026-10-25\\pdf_demo\\supplement_official_freeze_20261029\\a100_return_20261031",
+  "received_files_sha256": {
+    "handoff_manifest.json": "1515066c4e8fb9eb25ca9d48e8242e59db066e529e4b9f55b28592091401dab5",
+    "frozen_inputs/classification.inputs.jsonl": "8a211d406945968252b9771a9b040047bba6172de05a77f712524088e2054ad8",
+    "frozen_inputs/explanation.inputs.jsonl": "ec656f0535e1540d07f19a8ab8472fed9b7fc95c33fb0589da31c9a0c99f871f",
+    "frozen_inputs/freeze_receipt.json": "6a5b17120c207dfd0b4aa5513df9c1dc5e641038185280468c76edc788d2628f",
+    "frozen_inputs/prepared_items.jsonl": "9b1ab5e26740e76f81b5d3f5f500774c1a08f621b2218001da45bcea5419937a",
+    "frozen_inputs/two_point_runtime_plan.json": "a4fb8aae9f9beb9dedbb5410de1a4fa0afc5d6aeb5be4ce325550f4ddaf8c0a0",
+    "run01/completion.json": "aac1eee9087ea090825ad3d866f1ca2f8b7ce300aa82c901e363a25e72aa51b3",
+    "run01/execution_request.json": "3b46a8827364cce037bbc04bdce06c85c42eada71e16e57e3b326fe537f43f53",
+    "run01/launch_receipt.json": "bdf0af601ddb3b82c6a9e7a8a52722573819ab8e72ae521ec6ffb201fcd7d795",
+    "run01/orchestrator.run.log": "b4078ef977436f15cfe8c8ed4a0052e7770c2eb68f7bd5dca605a93eb95cb731",
+    "run01/classifier/exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "run01/classifier/responses.jsonl": "1c6aae3d0b888f68b1f9b9bc3b69a563fadd1fcba6349d465b3c144ec6fe0702",
+    "run01/classifier/run.log": "210acbc85ee4a2ad3f540eef0533e4fc78cf44ab8a9bee969d5cbfd9c1302347",
+    "run01/classifier/run_metadata.json": "f50e47701d5ae52c4a67640f7bdb4578eea26e9c2cb47ec875a4db591308718a",
+    "run01/explainer/exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "run01/explainer/responses.jsonl": "ce0e3e2bdf20c88823beac81902c81892ad4737b98be789bd5271e9f997b711f",
+    "run01/explainer/run.log": "2da7b9ff02d970488ba5ca06660c1902bf7597b48d9ebe07cb1bf4367efb39aa",
+    "run01/explainer/run_metadata.json": "0e846d22708cf831918f152f673be6b510eb61f118893c07b4017df9c82e2e0c"
+  },
+  "input_and_model_identity_verified": true,
+  "returned_frozen_files_equal_local": 5,
+  "package_files_pinned": 18,
+  "official_weight_shards_per_stage": 18,
+  "CPU_tokenizer_fingerprints_verified": 4,
+  "source_pdf_identity_proofs": [
+    {
+      "case_id": "r1pdf:7cec9c89372bb76396f53fdb",
+      "role": "citing",
+      "pmcid": "PMC11350039",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC11350039.1\\PMC11350039.1.pdf",
+      "sha256": "346f8d35a7d8685fa9b535e31617b49a17a007778f411bd147668e4d39183740"
+    },
+    {
+      "case_id": "r1pdf:7cec9c89372bb76396f53fdb",
+      "role": "cited",
+      "pmcid": "PMC5958625",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC5958625.1\\PMC5958625.1.pdf",
+      "sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a"
+    },
+    {
+      "case_id": "r1pdf:7f30025df2b6e4c93f2addd5",
+      "role": "citing",
+      "pmcid": "PMC7092819",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC7092819.1\\PMC7092819.1.pdf",
+      "sha256": "1a8ff3e9322ce66224a2dd582930b4755e049fb5e39d3b17e06aacd879dae4c3"
+    },
+    {
+      "case_id": "r1pdf:7f30025df2b6e4c93f2addd5",
+      "role": "cited",
+      "pmcid": "PMC7159299",
+      "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC7159299.1\\PMC7159299.1.pdf",
+      "sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14"
+    }
+  ],
+  "frozen_evidence_PDF_fragments_replayed": 3,
+  "stages": {
+    "classifier": {
+      "exit_code": 0,
+      "records": [
+        {
+          "case_id": "r1pdf:7cec9c89372bb76396f53fdb",
+          "input_sha256": "cb32a797dbcf140c8ff5c4a8f9d39e8a7dfa1280771c4fd348730861912e1987",
+          "input_tokens": 575,
+          "input_ids_sha256": "720e865bc54fff733fc35804b2a1b4c881c17413d6c04b3db04658980256f528",
+          "cpu_official_tokenizer_fingerprint_independently_replayed": true,
+          "generated_tokens": 9,
+          "strict_status": "valid_label",
+          "prediction_not_human_label": "ACCURATE"
+        },
+        {
+          "case_id": "r1pdf:7f30025df2b6e4c93f2addd5",
+          "input_sha256": "982b3dac5c6f65c2b855ad9401bf9bf5f14dd25cfc55d8d41bea3a6abdc14735",
+          "input_tokens": 762,
+          "input_ids_sha256": "42d7a39df1e87a36e7b025e59cd20fbf838b97d866ee75ece58cd572a2b17727",
+          "cpu_official_tokenizer_fingerprint_independently_replayed": true,
+          "generated_tokens": 9,
+          "strict_status": "valid_label",
+          "prediction_not_human_label": "ACCURATE"
+        }
+      ],
+      "operator_as_logged": "LiYun",
+      "gpu_as_logged": "0",
+      "started_at_utc": "2026-10-31T11:34:16.559230+00:00",
+      "finished_at_utc": "2026-10-31T11:37:36.380744+00:00",
+      "base_model_and_weights_verified": true,
+      "adapter_role_verified": true,
+      "versions_as_logged": {
+        "torch": "2.11.0",
+        "transformers": "5.8.0",
+        "peft": "0.21.2",
+        "accelerate": "1.14.0",
+        "bitsandbytes": "0.50.2"
+      }
+    },
+    "explainer": {
+      "exit_code": 0,
+      "records": [
+        {
+          "case_id": "r1pdf:7cec9c89372bb76396f53fdb",
+          "input_sha256": "3b5bd1bf8a1c63809861d1d4396d852713ba7979cc27fa88c55e70d821b0b96b",
+          "input_tokens": 556,
+          "input_ids_sha256": "ada481877423e1650957426015a3c70edf096fae13ad3043dccdc5b76157378e",
+          "cpu_official_tokenizer_fingerprint_independently_replayed": true,
+          "generated_tokens": 174,
+          "strict_status": "invalid_explanation_output",
+          "prediction_not_human_label": null
+        },
+        {
+          "case_id": "r1pdf:7f30025df2b6e4c93f2addd5",
+          "input_sha256": "bcc1ded01eaf919438b18f762ed5619335965fd12014287ddb61b64a74c0ccc8",
+          "input_tokens": 743,
+          "input_ids_sha256": "5b757400750704392b84b9344af164327f9df4f5e0fcbb5b7a91d8607436fded",
+          "cpu_official_tokenizer_fingerprint_independently_replayed": true,
+          "generated_tokens": 235,
+          "strict_status": "invalid_explanation_output",
+          "prediction_not_human_label": null
+        }
+      ],
+      "operator_as_logged": "LiYun",
+      "gpu_as_logged": "0",
+      "started_at_utc": "2026-10-31T11:37:38.847582+00:00",
+      "finished_at_utc": "2026-10-31T11:41:55.265915+00:00",
+      "base_model_and_weights_verified": true,
+      "adapter_role_verified": true,
+      "versions_as_logged": {
+        "torch": "2.11.0",
+        "transformers": "5.8.0",
+        "peft": "0.21.2",
+        "accelerate": "1.14.0",
+        "bitsandbytes": "0.50.2"
+      }
+    }
+  },
+  "explanation_diagnostics": [
+    {
+      "case_id": "r1pdf:7cec9c89372bb76396f53fdb",
+      "original_strict_status": "invalid_explanation_output",
+      "original_error": "Expecting value: line 1 column 1 (char 0)",
+      "outer_markdown_fence": true,
+      "fence_only_diagnostic_status": "invalid_explanation_output",
+      "fence_only_diagnostic_error": "quote_not_unique_verbatim",
+      "raw_json_after_fence_only": {
+        "evidence_ids": [
+          "D01:S02"
+        ],
+        "quotes": [
+          {
+            "evidence_id": "D01:S02",
+            "quote": "CSF total tau (T-tau)—are not specific for AD but rather are nonspecific indicators of damage that may derive from a variety of etiologies"
+          }
+        ],
+        "reason": "候选证据D01:S02指出CSF总tau（T-tau）不是AD的特异性指标，而是非特异性损伤指标，这为将其从特定生物标志物类别中排除或重新分类提供了科学依据，从而支持了目标引用中关于其缺席是相对于2018框架的偏离这一主张。"
+      },
+      "whitespace_diagnostics": [
+        {
+          "evidence_id": "D01:S02",
+          "model_quote_unchanged": "CSF total tau (T-tau)—are not specific for AD but rather are nonspecific indicators of damage that may derive from a variety of etiologies",
+          "exact_verbatim_matches": 0,
+          "whitespace_fold_matches": 1,
+          "source_raw_excerpt_diagnostic_only": "CSF total tau (T-tau)—are not specific for AD \nbut rather are nonspecific indicators of damage that may derive from a variety of etiologies",
+          "pdf_page": 4,
+          "char_start": 2161,
+          "char_end_exclusive": 2300,
+          "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+          "counts_as_original_strict_pass": false
+        }
+      ],
+      "human_semantic_review": "PENDING",
+      "formal_acceptance_added": false
+    },
+    {
+      "case_id": "r1pdf:7f30025df2b6e4c93f2addd5",
+      "original_strict_status": "invalid_explanation_output",
+      "original_error": "Expecting value: line 1 column 1 (char 0)",
+      "outer_markdown_fence": true,
+      "fence_only_diagnostic_status": "invalid_explanation_output",
+      "fence_only_diagnostic_error": "quote_not_unique_verbatim",
+      "raw_json_after_fence_only": {
+        "evidence_ids": [
+          "D01:S01"
+        ],
+        "quotes": [
+          {
+            "evidence_id": "D01:S01",
+            "quote": "By Jan 2, 2020, 41 admitted hospital patients had been identified as having laboratory-confirmed 2019-nCoV infection."
+          },
+          {
+            "evidence_id": "D01:S01",
+            "quote": "13 (32%) patients were admitted to an ICU and six (15%) died."
+          }
+        ],
+        "reason": "证据支持目标引用中关于“41名患者”和“6人死亡（15%）”的具体数值主张。证据未包含“早期武汉队列（early Wuhan cohort）”的明确标签，也未包含“作为比较基线（comparison baseline）”的语境，因此仅支持数据事实，不支持引用中关于该数据在引用论文中作为基线角色的描述。"
+      },
+      "whitespace_diagnostics": [
+        {
+          "evidence_id": "D01:S01",
+          "model_quote_unchanged": "By Jan 2, 2020, 41 admitted hospital patients had been identified as having laboratory-confirmed 2019-nCoV infection.",
+          "exact_verbatim_matches": 0,
+          "whitespace_fold_matches": 1,
+          "source_raw_excerpt_diagnostic_only": "By Jan 2, 2020, 41 admitted hospital patients had been identified as having laboratory-confirmed 2019-nCoV \ninfection.",
+          "pdf_page": 2,
+          "char_start": 1475,
+          "char_end_exclusive": 1593,
+          "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+          "counts_as_original_strict_pass": false
+        },
+        {
+          "evidence_id": "D01:S01",
+          "model_quote_unchanged": "13 (32%) patients were admitted to an ICU and six (15%) died.",
+          "exact_verbatim_matches": 0,
+          "whitespace_fold_matches": 1,
+          "source_raw_excerpt_diagnostic_only": "13 (32%) patients \nwere admitted to an ICU and six (15%) died.",
+          "pdf_page": 2,
+          "char_start": 2618,
+          "char_end_exclusive": 2680,
+          "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+          "counts_as_original_strict_pass": false
+        }
+      ],
+      "human_semantic_review": "PENDING",
+      "formal_acceptance_added": false
+    }
+  ],
+  "strict_engineering_success_this_batch": 0,
+  "strict_engineering_denominator_this_batch": 2,
+  "diagnostic_whitespace_mappable_quotes": 3,
+  "human_locator_confirmations_added": 0,
+  "human_semantic_confirmations_added": 0,
+  "human_labels_added": 0,
+  "formal_joint_acceptances_added": 0,
+  "new_model_runs_in_this_local_validation": 0,
+  "scope_note": "Original strict 0/2 remains. Fence removal alone is insufficient; whitespace folding is traceability diagnosis only, not a changed production parser or formal pass."
+}

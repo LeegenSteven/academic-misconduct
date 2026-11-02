@@ -1,0 +1,32 @@
+Nucleic Acids Research, 2019, Vol. 47, Database issue D521
+Figure 1. (A) Growth the PDB Core Archive. Total height of each bar indicates aggregate released structures, coloured by experimental technique
+(MX––green, 3DEM––yellow, NMR––blue). (B) Number of PDB structures released annually. All PDB Core Archive structures are indicated with light
+green shading, and MX structures are shown with a solid green line, plotted with respect to the green primary axis (left). NMR structures (blue solid line)
+and 3DEM structures (blue dashed line) are plotted with respect to the blue secondary axis (right).
+molecules as an enduring public good to promote basic
+and applied research and education across the sciences.
+The Mission of the wwPDB is to:
+• Manage the wwPDB Core Archives as a public good ac-
+cording to the FAIR Principles.
+• Provide expert deposition, validation, biocuration, and
+remediation services at no charge to Data Depositors
+worldwide.
+• Ensure universal open access to public domain structural
+biology data with no limitations on usage.
+• Develop and promote community-endorsed data stan-
+dards for archiving and exchange of global structural bi-
+ology data.
+PDB data are being used by researchers, educators, spe-
+cialist bioinformatics resources and other Users from every
+inhabited continent and every UN-recognized sovereign na-
+tion. Nearly two million daily structure data file downloads
+from wwPDB partner websites and the two Core Archives
+attest to the important role that the wwPDB plays within
+the biological data ecosystem.
+Ongoing collaborative work among wwPDB partners
+helps to ensure completeness, consistency, and accuracy
+of data in the two Core Archives. The wwPDB has also
+worked to enable growth of the corpus of structure data
+to accommodate new experimental techniques. Herein,
+we describe impacts of the recently developed universal
+wwPDB OneDep deposition/validation/biocuration sys-

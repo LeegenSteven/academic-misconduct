@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Comprehensive Classification of Iris Flower Species: A Machine Learning Approach
+							| The Indonesian Journal of Computer Science
+			</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.3.0.10">
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="The Indonesian Journal of Computer Science"/>
+<meta name="citation_journal_abbrev" content="ijcs"/>
+<meta name="citation_issn" content="2549-7286"/> 
+<meta name="citation_author" content="Renas Rajab Asaad"/>
+<meta name="citation_author_institution" content="Computer Science, Nawroz University, Duhok, Iraq"/>
+<meta name="citation_author" content="Adnan M. Abdulazeez"/>
+<meta name="citation_author_institution" content="Technical College of Engineering-Duhok, Duhok Polytechnic University, Duhok, KRG-Iraq"/>
+<meta name="citation_title" content="Comprehensive Classification of Iris Flower Species: A Machine Learning Approach"/>
+<meta name="citation_language" content="en"/>
+<meta name="citation_date" content="2024/02/16"/>
+<meta name="citation_volume" content="13"/>
+<meta name="citation_issue" content="1"/>
+<meta name="citation_doi" content="10.33022/ijcs.v13i1.3717"/>
+<meta name="citation_abstract_html_url" content="https://www.ijcs.net/ijcs/index.php/ijcs/article/view/3717"/>
+<meta name="citation_pdf_url" content="https://www.ijcs.net/ijcs/index.php/ijcs/article/download/3717/397"/>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Renas Rajab Asaad"/>
+<meta name="DC.Creator.PersonalName" content="Adnan M. Abdulazeez"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2024-02-16"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2024-01-23"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2024-02-29"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2024-07-31"/>
+<meta name="DC.Description" xml:lang="en" content="This study employs robust machine learning techniques to comprehensively assess the classification of Iris flower species.&amp;nbsp;This study investigates the effectiveness of several machine learning algorithms in reliably classifying Iris flower species by utilizing a dataset that includes crucial morphological attributes such as sepal length, sepal width, petal length, and petal width. &amp;nbsp;The algorithms under consideration are Decision Tree, Random Forest, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), and XGBoost. Every algorithm has its own distinct methodology for classification, where Decision Trees offer clear interpretability and Random Forest and XGBoost offer strong and complex ensemble techniques. &amp;nbsp;The primary aim of this study is to assess and contrast different algorithms, considering not only their classification accuracy but also significant performance metrics including precision, recall, F1-score, ROC AUC, and specificity. This research provides valuable insights into the capabilities and constraints of each methodology when implemented on a meticulously organized and defined botanical dataset. It is expected that the results of this study will contribute significantly to the fields of artificial intelligence and botanical taxonomy, highlighting the capacity of these methods to accurately identify and categorize plant species. "/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="3717"/>
+<meta name="DC.Identifier.DOI" content="10.33022/ijcs.v13i1.3717"/>
+<meta name="DC.Identifier.URI" content="https://www.ijcs.net/ijcs/index.php/ijcs/article/view/3717"/>
+<meta name="DC.Language" scheme="ISO639-1" content="en"/>
+<meta name="DC.Rights" content="Copyright (c) 2024 Renas Rajab Asaad, Adnan M. Abdulazeez"/>
+<meta name="DC.Rights" content="https://creativecommons.org/licenses/by-sa/4.0"/>
+<meta name="DC.Source" content="The Indonesian Journal of Computer Science"/>
+<meta name="DC.Source.ISSN" content="2549-7286"/>
+<meta name="DC.Source.Issue" content="1"/>
+<meta name="DC.Source.Volume" content="13"/>
+<meta name="DC.Source.URI" content="https://www.ijcs.net/ijcs/index.php/ijcs"/>
+<meta name="DC.Title" content="Comprehensive Classification of Iris Flower Species: A Machine Learning Approach"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="English Articles"/>
+	<link rel="stylesheet" href="https://www.ijcs.net/ijcs/index.php/ijcs/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://www.ijcs.net/ijcs/index.php/ijcs/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://www.ijcs.net/ijcs/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.10" type="text/css" />
+</head>
+<body class="pkp_page_article pkp_op_view" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						 <nav class="cmp_skip_to_content" aria-label="Jump to content links">
+	<a href="#pkp_content_main">Skip to main content</a>
+	<a href="#siteNav">Skip to main navigation menu</a>
+		<a href="#pkp_content_footer">Skip to site footer</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://www.ijcs.net/ijcs/index.php/ijcs/index
+					" class="is_text">The Indonesian Journal of Computer Science</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Site Navigation">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://www.ijcs.net/ijcs/index.php/ijcs/issue/current">
+					Current
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.ijcs.net/ijcs/index.php/ijcs/issue/archive">
+					Archives
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.ijcs.net/ijcs/index.php/ijcs/announcement">
+					Announcements
+				</a>
+							</li>
+								<li class="">
+				<a href="https://www.ijcs.net/ijcs/index.php/ijcs/about">
+					About
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/about">
+										About IJCS
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/reviewer">
+										Reviewer
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/editor">
+										Editor
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/about/submissions">
+										Submissions
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/authorguidelines">
+										Author Guidelines
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/peerreview">
+										Peer Review
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/authorfee">
+										Article Fee
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/fasttrack">
+										Fast Track
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/ethics">
+										Publication Ethics
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/oa">
+										Open Access
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/rights">
+										Copyright and License Statement
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/about/contact">
+										Contact
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://www.ijcs.net/ijcs/index.php/ijcs/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Search
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+								<li class="profile">
+				<a href="https://www.ijcs.net/ijcs/index.php/ijcs/user/register">
+					Register
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://www.ijcs.net/ijcs/index.php/ijcs/login">
+					Login
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol>
+		<li>
+			<a href="https://www.ijcs.net/ijcs/index.php/ijcs/index">
+				Home
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://www.ijcs.net/ijcs/index.php/ijcs/issue/archive">
+				Archives
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://www.ijcs.net/ijcs/index.php/ijcs/issue/view/111">
+					Vol. 13 No. 1 (2024): The Indonesian Journal of Computer Science
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									English Articles
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+		  	 <article class="obj_article_details">
+
+		
+	<h1 class="page_title">
+		Comprehensive Classification of Iris Flower Species: A Machine Learning Approach
+	</h1>
+
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Authors</h2>
+					<ul class="authors">
+											<li>
+							<span class="name">
+								Renas Rajab Asaad
+							</span>
+															<span class="affiliation">
+									Computer Science, Nawroz University, Duhok, Iraq
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Adnan M. Abdulazeez
+							</span>
+															<span class="affiliation">
+									Technical College of Engineering-Duhok, Duhok Polytechnic University, Duhok, KRG-Iraq
+																	</span>
+																				</li>
+										</ul>
+				</section>
+			
+																												<section class="item doi">
+						<h2 class="label">
+														DOI:
+						</h2>
+						<span class="value">
+							<a href="https://doi.org/10.33022/ijcs.v13i1.3717">
+								https://doi.org/10.33022/ijcs.v13i1.3717
+							</a>
+						</span>
+					</section>
+							
+						
+										<section class="item abstract">
+					<h2 class="label">Abstract</h2>
+					<p>This study employs robust machine learning techniques to comprehensively assess the classification of Iris flower species. This study investigates the effectiveness of several machine learning algorithms in reliably classifying Iris flower species by utilizing a dataset that includes crucial morphological attributes such as sepal length, sepal width, petal length, and petal width.  The algorithms under consideration are Decision Tree, Random Forest, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), and XGBoost. Every algorithm has its own distinct methodology for classification, where Decision Trees offer clear interpretability and Random Forest and XGBoost offer strong and complex ensemble techniques.  The primary aim of this study is to assess and contrast different algorithms, considering not only their classification accuracy but also significant performance metrics including precision, recall, F1-score, ROC AUC, and specificity. This research provides valuable insights into the capabilities and constraints of each methodology when implemented on a meticulously organized and defined botanical dataset. It is expected that the results of this study will contribute significantly to the fields of artificial intelligence and botanical taxonomy, highlighting the capacity of these methods to accurately identify and categorize plant species. </p>
+				</section>
+			
+			
+
+																										
+						
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+										<div class="item cover_image">
+					<div class="sub_item">
+													<a href="https://www.ijcs.net/ijcs/index.php/ijcs/issue/view/111">
+								<img src="https://www.ijcs.net/ijcs/public/journals/1/cover_issue_111_en_US.png" alt="">
+							</a>
+											</div>
+				</div>
+			
+										<div class="item galleys">
+					<h2 class="pkp_screen_reader">
+						Downloads
+					</h2>
+					<ul class="value galleys_links">
+													<li>
+								
+	
+							
+
+<a class="obj_galley_link pdf" href="https://www.ijcs.net/ijcs/index.php/ijcs/article/view/3717/397">
+
+		
+	PDF
+
+	</a>
+							</li>
+											</ul>
+				</div>
+						
+						<div class="item published">
+				<section class="sub_item">
+					<h2 class="label">
+						Published
+					</h2>
+					<div class="value">
+																			<span>16-02-2024</span>
+																	</div>
+				</section>
+							</div>
+			
+						
+										<div class="item issue">
+
+											<section class="sub_item">
+							<h2 class="label">
+								Issue
+							</h2>
+							<div class="value">
+								<a class="title" href="https://www.ijcs.net/ijcs/index.php/ijcs/issue/view/111">
+									Vol. 13 No. 1 (2024): The Indonesian Journal of Computer Science
+								</a>
+							</div>
+						</section>
+					
+											<section class="sub_item">
+							<h2 class="label">
+								Section
+							</h2>
+							<div class="value">
+								English Articles
+							</div>
+						</section>
+					
+									</div>
+			
+															
+										<div class="item copyright">
+					<h2 class="label">
+						License
+					</h2>
+																										<p>Copyright (c) 2024 Renas Rajab Asaad, Adnan M. Abdulazeez</p>
+														<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+																
+				</div>
+			
+			
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+
+	
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary" aria-label="Sidebar">
+				<div class="pkp_block block_custom" id="customblock-index">
+	<h2 class="title">Index</h2>
+	<div class="content">
+		<p><a title="Crossref" href="https://search.crossref.org/search/works?q=10.33022%2Fijcs&amp;from_ui=yes" target="_blank" rel="noopener"><img src="https://www.ijcs.net/ijcs/public/site/images/tri/crossref.jpg" alt="Crossref" width="600" height="300"></a></p>
+<p><a title="Dimensions" href="https://app.dimensions.ai/discover/publication?search_mode=content&amp;or_facet_source_title=jour.1364752" target="_blank" rel="noopener"><img src="https://www.ijcs.net/ijcs/public/site/images/tri/dimensions.png" alt="" width="720" height="240"></a></p>
+<p><a title="Scopus" href="/ijcs/index.php/ijcs/scopus"><img src="https://www.ijcs.net/ijcs/public/site/images/tri/scopus.png" alt="Scopus Citedness" width="339" height="154"></a></p>
+<p><a title="Google Scholar" href="https://scholar.google.com/citations?user=apHuskcAAAAJ&amp;hl=id" target="_blank" rel="noopener"><img src="https://www.ijcs.net/ijcs/public/site/images/tri/google-scholar.png" alt="Google Scholar" width="762" height="128"></a></p>
+<p>&nbsp;</p>
+<p><a title="SINTA" href="http://sinta.kemdiktisaintek.go.id/journals/profile/4997" target="_blank" rel="noopener"><img src="https://www.ijcs.net/ijcs/public/site/images/tri/sinta-b346166d0e5ea2cf80b053aaf617728b.png" alt="SINTA" width="597" height="205"></a></p>
+<p><a title="Garuda" href="https://garuda.kemdiktisaintek.go.id/journal/view/37099" target="_blank" rel="noopener"><img src="https://www.ijcs.net/ijcs/public/site/images/tri/garuda.png" alt="Garuda" width="762" height="178"></a></p>
+	</div>
+</div>
+<div class="pkp_block block_language">
+	<h2 class="title">
+		Language
+	</h2>
+
+	<div class="content">
+		<ul>
+							<li class="locale_id_ID" lang="id-ID">
+					<a href="https://www.ijcs.net/ijcs/index.php/ijcs/user/setLocale/id_ID?source=%2Fijcs%2Findex.php%2Fijcs%2Farticle%2Fview%2F3717">
+						Bahasa Indonesia
+					</a>
+				</li>
+							<li class="locale_en_US current" lang="en-US">
+					<a href="https://www.ijcs.net/ijcs/index.php/ijcs/user/setLocale/en_US?source=%2Fijcs%2Findex.php%2Fijcs%2Farticle%2Fview%2F3717">
+						English
+					</a>
+				</li>
+					</ul>
+	</div>
+</div><!-- .block_language -->
+<div class="pkp_block block_make_submission">
+	<h2 class="pkp_screen_reader">
+		Make a Submission
+	</h2>
+
+	<div class="content">
+		<a class="block_make_submission_link" href="https://www.ijcs.net/ijcs/index.php/ijcs/about/submissions">
+			Make a Submission
+		</a>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-template">
+	<h2 class="title">Template</h2>
+	<div class="content">
+		<p><a title="IJCS Template - English" href="/ijcs/IJCS-Template_en.doc">IJCS Template - English</a></p>
+<p><a title="IJCS Template - Bahasa Indonesia" href="/ijcs/IJCS-Template.doc">IJCS Template - Bahasa Indonesia</a></p>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-visitor-statistics">
+	<h2 class="title">Visitor Statistics</h2>
+	<div class="content">
+		<p><a title="Flag Counter" href="https://info.flagcounter.com/co8G" target="_blank" rel="noopener"><img src="https://s11.flagcounter.com/count2/co8G/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a></p>
+<div class="statcounter"><a title="Web Analytics Made Easy - Statcounter" href="https://statcounter.com/" target="_blank" rel="noopener"><img class="statcounter" src="https://c.statcounter.com/11321968/0/4d0954d6/0/" alt="Web Analytics Made Easy - Statcounter"></a></div>
+<p><a title="IJCS Stat by StatCounter" href="https://statcounter.com/p11321968/?guest=1" target="_blank" rel="noopener">IJCS Stat by StatCounter</a></p>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+					<div class="pkp_footer_content">
+				<center><strong>The Indonesian Journal of Computer Science</strong></center><center></center>
+			</div>
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<!-- <a href="https://www.ijcs.net/ijcs/index.php/ijcs/about/aboutThisPublishingSystem">
+				<img alt="More information about the publishing system, Platform and Workflow by OJS/PKP." src="https://www.ijcs.net/ijcs/templates/images/ojs_brand.png">
+			</a> -->
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://www.ijcs.net/ijcs/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.10" type="text/javascript"></script><script src="https://www.ijcs.net/ijcs/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.10" type="text/javascript"></script><script src="https://www.ijcs.net/ijcs/plugins/themes/default/js/lib/popper/popper.js?v=3.3.0.10" type="text/javascript"></script><script src="https://www.ijcs.net/ijcs/plugins/themes/default/js/lib/bootstrap/util.js?v=3.3.0.10" type="text/javascript"></script><script src="https://www.ijcs.net/ijcs/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.3.0.10" type="text/javascript"></script><script src="https://www.ijcs.net/ijcs/plugins/themes/default/js/main.js?v=3.3.0.10" type="text/javascript"></script>
+
+
+</body>
+</html>

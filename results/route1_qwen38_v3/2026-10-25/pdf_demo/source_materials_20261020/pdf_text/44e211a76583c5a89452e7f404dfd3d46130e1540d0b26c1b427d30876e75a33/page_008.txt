@@ -1,0 +1,140 @@
+GO:0035145: 
+exon-exon junction complex
+GO:0032039:
+ integrator complex
+BHLHA15
+PYM1
+MAGOHB
+SAP18
+SDE2
+CCDC9
+NKTR
+MAGOH
+RBM8A
+FAF1
+CASC3
+A
+C
+F
+HuMAP2_03563
+HuMAP2_00752
+SETD3
+RNASEH2A
+RNASEH2C
+RNASEH2B
+CMTR1
+HuMAP2_00183
+GO:0032299:
+ribonuclease H2 complex
+INTS6
+INTS5
+INTS3
+INTS1
+ZNF592
+GADD45A
+DOT1L
+ZMYND8
+ZNF687
+C7orf26 Average
+ Spectral Counts
+Malovannaya et al. AP-MS 
+Wan et al. CF-MS
+Mallam et al. DIF-FRAC MS HEK 293 (Leave Out Data)
+(1,073 exps)
+18
+3.5
+2.7
+1.3
+0.5
+0.5
+0.3
+0.2
+0.1
+0.0
+Wan et al. CF-MS
+C7orf26
+INTS14
+INTS1
+INTS9
+INTS2
+INTS8
+INTS5
+INTS7
+INTS12
+INTS11
+INTS4
+INTS13
+INTS10
+Large
+Small
+SEC Fractions
+Control
+RNaseA
+HEK 293
+Fly
+IEX Fractions
+IEX Fractions
+Novel
+Known
+20
+60
+100
+CMTR1
+RNASEH2A
+RNASEH2C
+RNASEH2B
+SETD3
+20
+60
+100
+HeLa
+HEK 293
+IEX Fractions
+IEX Fractions
+20
+60
+100
+Fly
+Heparin Fractions
+Novel
+Known
+20
+60
+100
+INTS2
+INTS1
+INTS12
+INTS13
+INTS14
+C7orf26
+INTS8
+INTS5
+ INTS7
+INTS4
+INTS9
+INTS11
+20
+60
+100
+INTS10
+CCDC9
+NKTR
+SAP18
+MAGOH
+CASC3
+RBM8A
+PYM1
+Known
+Novel
+Baits
+B
+D
+E
+G
+Figure 4.
+8 of 16
+Molecular Systems Biology
+17: e10016 | 2021
+ª 2021 The Authors
+Molecular Systems Biology
+Kevin Drew et al

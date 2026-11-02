@@ -1,0 +1,96 @@
+{
+  "pymupdf_version": "1.28.2",
+  "images": [
+    {
+      "path": "页面核对图/01_施引第2页_目标句及相邻引用.png",
+      "pdf_role": "citing",
+      "pdf_page": 2,
+      "clip_pdf_points": [
+        91.99700164794922,
+        165.8300018310547,
+        309.02899169921875,
+        349.9599914550781
+      ],
+      "sha256": "50f8e2942d14a6ac5d658bfe641903e9b6f174b0529fd08df42b6217bac2a6d2",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/02_施引第2页_同行词形核对.png",
+      "pdf_role": "citing",
+      "pdf_page": 2,
+      "clip_pdf_points": [
+        92.00299835205078,
+        45.970001220703125,
+        309.0409851074219,
+        181.9600067138672
+      ],
+      "sha256": "609d62516424f69994be23c9337b0c3fc235ba23424cad35a6a532a7d67c9c2f",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/03_施引第12页_参考文献1.png",
+      "pdf_role": "citing",
+      "pdf_page": 12,
+      "clip_pdf_points": [
+        91.99800109863281,
+        593.1220092773438,
+        239.26600646972656,
+        654.219970703125
+      ],
+      "sha256": "725670bb245f71b38996f514e37302dc8ac3006291f53d89c9a9241983a5a3bf",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/04_被引第2页_题名DOI及刊期.png",
+      "pdf_role": "cited",
+      "pdf_page": 2,
+      "clip_pdf_points": [
+        28.849998474121094,
+        109.8219985961914,
+        563.2999877929688,
+        282.1990051269531
+      ],
+      "sha256": "bc305b1a9a24155d1f9ff3908131c0c69c5362aa4dba73f61604846bfecf632a",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/05_被引第2页_既有候选S06_严重程度比较.png",
+      "pdf_role": "cited",
+      "pdf_page": 2,
+      "clip_pdf_points": [
+        28.840999603271484,
+        492.60101318359375,
+        486.5069885253906,
+        552.8629760742188
+      ],
+      "sha256": "78519d51f1365df08ae158ce6ebcfe160018a8b1097a819f280576e73389c7b2",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/06_被引第9页_既有候选S03_研究边界.png",
+      "pdf_role": "cited",
+      "pdf_page": 9,
+      "clip_pdf_points": [
+        336.4100036621094,
+        229.16600036621094,
+        568.6890258789062,
+        530.85302734375
+      ],
+      "sha256": "c7144b9012a12c718a87d859d23c4657f95179c94bcae1d626e5677127afddd5",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    }
+  ],
+  "status": "assistant_inspected_six_source_images_no_human_signoff",
+  "assistant_inspection": {
+    "recorded_at_utc": "2026-10-23T12:02:20.698831+00:00",
+    "inspector_role": "assistant",
+    "observations": [
+      "The comparison sentence on citing PDF page 2 is followed by references 1,12,13; the earlier global case count has separate citations.",
+      "The source visibly wraps SARS- and CoV across two lines, while the same page also prints SARS-CoV within a line. The generic old line-end normalization has removed a lexical hyphen.",
+      "Reference 1 matches the cited article title, first three authors and Lancet publication details. Physical PDF page 1 is a publisher notice; the article starts on physical page 2.",
+      "Existing S06 explicitly discusses similarity in severe respiratory illness. Existing S03 records the hospitalized case-series scope and limits on generalization."
+    ],
+    "human_review": null,
+    "semantic_adjudication": null
+  }
+}

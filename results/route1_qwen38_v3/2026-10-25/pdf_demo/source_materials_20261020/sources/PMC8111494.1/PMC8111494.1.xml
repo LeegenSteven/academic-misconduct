@@ -1,0 +1,1574 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Mol Syst Biol</journal-id><journal-id journal-id-type="iso-abbrev">Mol Syst Biol</journal-id><journal-id journal-id-type="pmc-domain-id">387</journal-id><journal-id journal-id-type="pmc-domain">molsystbiol</journal-id><journal-id journal-id-type="nlm-id">101235389</journal-id><journal-id journal-id-type="publisher-id">MSB</journal-id><journal-title-group><journal-title>Molecular Systems Biology</journal-title></journal-title-group><issn pub-type="epub">1744-4292</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC8111494</article-id><article-id pub-id-type="pmcid-ver">PMC8111494.1</article-id><article-id pub-id-type="pmcaid">8111494</article-id><article-id pub-id-type="pmcaiid">8111494</article-id><article-id pub-id-type="pmid">33973408</article-id><article-id pub-id-type="doi">10.15252/msb.202010016</article-id><article-id pub-id-type="publisher-id">MSB202010016</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>hu.MAP 2.0: integration of over 15,000 proteomic experiments builds a global compendium of human multiprotein assemblies</article-title><alt-title alt-title-type="left-running-head">Kevin Drew <italic toggle="yes">et al</italic></alt-title></title-group><contrib-group><contrib id="msb202010016-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Drew</surname><given-names initials="K">Kevin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1260-4413</contrib-id><xref ref-type="aff" rid="msb202010016-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="msb202010016-curr-0001">
+<sup>2</sup>
+</xref><address><email>ksdrew@uic.edu</email></address></contrib><contrib id="msb202010016-cr-0002" contrib-type="author"><name name-style="western"><surname>Wallingford</surname><given-names initials="JB">John B</given-names></name><xref ref-type="aff" rid="msb202010016-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="msb202010016-cr-0003" contrib-type="author" corresp="yes"><name name-style="western"><surname>Marcotte</surname><given-names initials="EM">Edward M</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8808-180X</contrib-id><xref ref-type="aff" rid="msb202010016-aff-0001">
+<sup>1</sup>
+</xref><address><email>marcotte@utexas.edu</email></address></contrib></contrib-group><aff id="msb202010016-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Molecular Biosciences</named-content>
+<named-content content-type="organisation-division">Center for Systems and Synthetic Biology</named-content>
+<institution>University of Texas</institution>
+<city>Austin</city>
+<named-content content-type="country-part">TX</named-content>
+<country country="US">USA</country>
+</aff><aff id="msb202010016-curr-0001"><label><sup>2</sup></label>Present address:
+<named-content content-type="organisation-division">Department of Biological Sciences</named-content>
+<institution>University of Illinois at Chicago</institution>
+<city>Chicago</city>
+<named-content content-type="country-part">IL</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label>
+Corresponding author. Tel: +1 312 996 9341; E‐mail: <email>ksdrew@uic.edu</email><break/>
+Corresponding author. Tel: +1 512 471 5435; E‐mail: <email>marcotte@utexas.edu</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>11</day><month>5</month><year>2021</year></pub-date><pub-date pub-type="collection"><month>5</month><year>2021</year></pub-date><volume>17</volume><issue>5</issue><issue-id pub-id-type="pmc-issue-id">380927</issue-id><issue-id pub-id-type="doi">10.1002/msb.v17.5</issue-id><elocation-id>e10016</elocation-id><history><date date-type="rev-recd"><day>08</day><month>4</month><year>2021</year></date><date date-type="received"><day>23</day><month>9</month><year>2020</year></date><date date-type="accepted"><day>09</day><month>4</month><year>2021</year></date></history><pub-history><event event-type="pmc-release"><date><day>11</day><month>05</month><year>2021</year></date></event><event event-type="pmc-live"><date><day>21</day><month>05</month><year>2021</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-08-09 12:25:18.573"><day>09</day><month>08</month><year>2024</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2021 The Authors. Published under the terms of the CC BY 4.0 license</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> 4.0 License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="MSB-17-e10016.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:MSB-17-e10016.pdf"/><abstract id="msb202010016-abs-0001"><title>Abstract</title><p>A general principle of biology is the self‐assembly of proteins into functional complexes. Characterizing their composition is, therefore, required for our understanding of cellular functions. Unfortunately, we lack knowledge of the comprehensive set of identities of protein complexes in human cells. To address this gap, we developed a machine learning framework to identify protein complexes in over 15,000 mass spectrometry experiments which resulted in the identification of nearly 7,000 physical assemblies. We show our resource, hu.MAP 2.0, is more accurate and comprehensive than previous state of the art high‐throughput protein complex resources and gives rise to many new hypotheses, including for 274 completely uncharacterized proteins. Further, we identify 253 promiscuous proteins that participate in multiple complexes pointing to possible moonlighting roles. We have made hu.MAP 2.0 easily searchable in a web interface (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/">http://humap2.proteincomplexes.org/</ext-link>), which will be a valuable resource for researchers across a broad range of interests including systems biology, structural biology, and molecular explanations of disease.</p></abstract><abstract abstract-type="graphical" id="msb202010016-abs-0003"><p>Integration of orthogonal high‐throughput mass spectrometry datasets using a machine learning framework reveals nearly 7,000 human protein assemblies and offers insights into novel protein function.<boxed-text position="anchor" content-type="graphic" id="msb202010016-blkfxd-0002" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="MSB-17-e10016-g002.jpg"/></boxed-text>
+</p></abstract><kwd-group><kwd id="msb202010016-kwd-0001">data integration</kwd><kwd id="msb202010016-kwd-0002">human protein complexes</kwd><kwd id="msb202010016-kwd-0003">mass spectrometry</kwd><kwd id="msb202010016-kwd-0004">moonlighting proteins</kwd></kwd-group><kwd-group kwd-group-type="subject-categories"><title>Subject Categories</title><kwd>Methods &amp; Resources</kwd><kwd>Post-translational Modifications, Proteolysis &amp; Proteomics</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>HHS | NIH | National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) </institution><institution-id institution-id-type="open-funder-registry">10.13039/100000062</institution-id></institution-wrap></funding-source><award-id>01 DK110520</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>HHS | NIH | National Institute of General Medical Sciences (NIGMS) </institution><institution-id institution-id-type="open-funder-registry">10.13039/100000057</institution-id></institution-wrap></funding-source><award-id>R35 GM122480</award-id></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>HHS | NIH | National Heart, Lung, and Blood Institute (NHLBI) </institution><institution-id institution-id-type="open-funder-registry">10.13039/100000050</institution-id></institution-wrap></funding-source><award-id>R01 HL117164</award-id></award-group><award-group id="funding-0004"><funding-source><institution-wrap><institution>HHS | NIH | Division of Loan Repayment (DLR) </institution><institution-id institution-id-type="open-funder-registry">10.13039/100012893</institution-id></institution-wrap></funding-source><award-id>L40 HD096554</award-id></award-group><award-group id="funding-0005"><funding-source><institution-wrap><institution>Welch Foundation (The Welch Foundation) </institution><institution-id institution-id-type="open-funder-registry">10.13039/100000928</institution-id></institution-wrap></funding-source><award-id>F‐1515</award-id></award-group><award-group id="funding-0006"><funding-source><institution-wrap><institution>HHS | NIH | Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) </institution><institution-id institution-id-type="open-funder-registry">10.13039/100009633</institution-id></institution-wrap></funding-source><award-id>R01 HD085901</award-id><award-id>K99 HD092613</award-id></award-group></funding-group><counts><fig-count count="11"/><table-count count="3"/><page-count count="17"/><word-count count="11282"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>May 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.0.2 mode:remove_FC converted:11.05.2021</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="msb202010016-cit-1001">
+<source xml:lang="en">Mol Syst Biol</source>. (<year>2021</year>) <volume>17</volume>: <elocation-id>e10016</elocation-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/msb.202010016</pub-id><pub-id pub-id-type="pmcid">PMC8111494</pub-id><pub-id pub-id-type="pmid">33973408</pub-id></mixed-citation>
+</p></notes></front><body id="msb202010016-body-0001"><sec id="msb202010016-sec-0001"><title>Introduction</title><p>Macromolecular protein complexes carry out a wide variety of functions in the cell including essential functions such as replication, transcription, translation, and protein degradation (e.g., MCM‐ORC, RNA polymerase, ribosome, proteasome) (Alberts, <xref rid="msb202010016-bib-0001" ref-type="ref">1998</xref>; Hartwell <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0024" ref-type="ref">1999</xref>). The disruption of protein complexes is implicated in many human diseases (Goh <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0019" ref-type="ref">2007</xref>; Bruel <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0006" ref-type="ref">2017</xref>) and many therapeutics target protein complexes (Arkin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0002" ref-type="ref">2014</xref>). The formation of protein complexes to carry out biological function is a general principle of biology and characterizing their composition is therefore a basic requirement to our full understanding of cellular functions. Unfortunately, we still lack knowledge of a comprehensive set of protein complexes for the human cell.</p><p>To address this gap in knowledge, there is an ongoing worldwide effort to identify all protein interactions in human cells. High‐throughput protein interaction screens using affinity purification (AP‐MS) (Malovannaya <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0042" ref-type="ref">2011</xref>; Hein <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0026" ref-type="ref">2015</xref>; Huttlin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0028" ref-type="ref">2015</xref>, <xref rid="msb202010016-bib-0029" ref-type="ref">2017</xref>) have greatly increased coverage of protein interactions across the proteome. Likewise, biochemical separation strategies, such as co‐fractionation mass spectrometry (CF‐MS), have provided orthogonal approaches to identifying protein complexes (Havugimana <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0025" ref-type="ref">2012</xref>; Kristensen <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0034" ref-type="ref">2012</xref>; Kirkwood <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0032" ref-type="ref">2013</xref>; Wan <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0058" ref-type="ref">2015</xref>). Although these methods have identified tens of thousands of protein interactions, they still have limited coverage of the entire human interactome.</p><p>Fortunately, these high‐throughput methods are orthogonal, each sampling different parts of the human proteome and identifying sets of interactions which do not completely overlap. We previously re‐analyzed and integrated three of the largest datasets available at the time (Hein <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0026" ref-type="ref">2015</xref>; Huttlin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0028" ref-type="ref">2015</xref>; Wan <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0058" ref-type="ref">2015</xref>), over 9,000 mass spectrometry experiments, to build a more complete and accurate set of protein complexes (Drew <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0014" ref-type="ref">2017</xref>). Our resource, hu.MAP, identified interactions for over a third of all human proteins.</p><p>We envision interactomes as evolving entities, growing, and improving as new technologies and datasets emerge. Here, we introduce hu.MAP 2.0, which we find to be the most accurate and comprehensive human protein complex map available to date. hu.MAP 2.0 is an integration of over 15,000 mass spectrometry experiments and identifies 6,965 complexes consisting of 57,148 unique interactions among 9,963 human proteins. Multiple performance metrics demonstrate that hu.MAP 2.0 outperforms our previous map and other complex maps available in the literature. We further show that complexes in hu.MAP 2.0 are not only highly enriched for specific literature‐curated annotations but also have greater coverage of completely uncharacterized genes. Finally, we highlight several new biological findings that illustrate the utility of hu.MAP 2.0 as a resource for biological discovery.</p></sec><sec sec-type="results" id="msb202010016-sec-0002"><title>Results</title><p>Our strategy in building a comprehensive map of protein complexes involves the integration of the many orthogonal experimental protein interaction datasets available using a custom machine learning pipeline as shown in Fig <xref rid="msb202010016-fig-0001" ref-type="fig">1A</xref>. Each individual experimental dataset identifies different sets of protein interactions and therefore combining them results in a more accurate and comprehensive set of interactions. Our pipeline combines quantified features from these datasets using a support vector machine (SVM) classifier which calculates a confidence score of two proteins interacting. This results in a large protein interaction network. The network is subsequently searched for dense regions of highly connected proteins which represent individual complexes. The identified complexes are ranked by a clustering confidence value. We call the resulting set of complexes, hu.MAP 2.0. The map of complexes contains many known complexes such as the EIF2B complex, Spliceosome, RNA Pol III, and IFT‐A complex (Fig <xref rid="msb202010016-fig-0001" ref-type="fig">1A</xref> Positive Control Examples) as well as many novel insights into the physical biology of the cell.</p><fig fig-type="Figure" xml:lang="en" id="msb202010016-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><title>Machine learning framework to identify protein complexes</title><p>
+<list list-type="alpha-upper" id="msb202010016-list-0002"><list-item><p>Graphical description of computational pipeline to integrate &gt; 15,000 mass spectrometry experiments. Number of experiments used is listed next to each technique (see also Table <xref rid="msb202010016-tbl-0001" ref-type="table">1</xref>). A Support Vector Machine (SVM) classifier was trained using numerical measures (i.e., features) on pairs of proteins calculated from original mass spectrometry data and training labels from literature‐curated complexes (CORUM). The classifier was then used to construct a protein interaction network by calculating a confidence score for all pairs of proteins for their propensity to interact. Clustering parameters were then learned from training complexes, and five final sets of clusters were chosen ranked in order of confidence from “Extremely High” to “Medium”. The union of these selected clusterings represents the final set of hu.MAP 2.0 complexes. Networks of previously known protein complexes identified by this pipeline which were not in the training set of complexes are shown as positive control examples.</p></list-item><list-item><p>“UpSet” plot (Lex <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0038" ref-type="ref">2014</xref>) displaying the intersections of protein pairs for all integrated datasets. Each set of connected black dots represents the intersection of the respective datasets. Vertical bar plot displays protein pair count of intersection. Light gray dots are datasets not included in the intersection. Single unconnected black dots represent protein pairs that are only present in a single dataset. Horizontal bar plot represents total protein pair count in each dataset. The plot shows the Weighted Matrix Model (single black WMM dot) provides additional information for many pairs of proteins (&gt; 2.2 × 10E6) that would be limited otherwise.</p></list-item></list>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="jats-graphic-5" position="float" orientation="portrait" xlink:href="MSB-17-e10016-g003.jpg"/></fig><sec id="msb202010016-sec-0003"><title>Integration of over 15,000 mass spectrometry experiments</title><p>To construct hu.MAP 2.0, we integrated over 15,000 previously published mass spectrometry experiments using our custom machine learning framework. We built upon the 9,000 mass spectrometry experiments used for hu.MAP 1.0 (Hein <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0026" ref-type="ref">2015</xref>; Huttlin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0028" ref-type="ref">2015</xref>; Wan <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0058" ref-type="ref">2015</xref>; Drew <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0014" ref-type="ref">2017</xref>) by incorporating additional affinity purification data from Bioplex 2 (Huttlin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0029" ref-type="ref">2017</xref>) and (Boldt <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0005" ref-type="ref">2016</xref>) as well as proximity labeling data from (Gupta <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0020" ref-type="ref">2015</xref>) and (Youn <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0061" ref-type="ref">2018</xref>) (Fig <xref rid="msb202010016-fig-0001" ref-type="fig">1A</xref>). Our rationale for including these datasets was twofold. First, each dataset samples a different set of bait proteins which provides increased coverage of the interactome. Second, the methods are orthogonal and complementary, where affinity purification targets stable interactions, and the proximity labeling datasets potentially also capture transient <italic toggle="yes">in vivo</italic> interactions. The “Upset” plot (Lex <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0038" ref-type="ref">2014</xref>) in Fig <xref rid="msb202010016-fig-0001" ref-type="fig">1B</xref> shows that tens of thousands of protein pairs are represented by 2 or more datasets providing orthogonal evidence for those interactions. This greatly enhances our framework's ability to identify true interactions from false ones.</p><p>Additionally, we applied our Weighted Matrix Model (WMM) technique which we previously demonstrated identifies many new high confidence interactions from affinity purification data (Hart <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0023" ref-type="ref">2007</xref>; Drew <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0014" ref-type="ref">2017</xref>). Contrary to the traditional spoke and matrix models used to interpret AP‐MS data that only consider one pull‐down experiment at a time, the WMM technique takes all pull‐down experiments from a given dataset into account and determines protein pairs that are in the same pull‐down experiments more often than random chance. The WMM balances both the false‐negative and false‐positive issues that face both the spoke and matrix models and therefore is capable of identifying novel interactions. More specifically, since a spoke model only considers interactions between a bait protein and a prey protein, all true interactions between prey proteins are missed leading to high false‐negative rates for the spoke model. Alternatively, a naive matrix model does consider interactions between prey proteins limiting false negatives but does so by treating all prey pairs equally. Some of these prey pairs will participate in the same complex but since proteins participate in multiple complexes, two prey proteins pulled down by the same bait are not guaranteed to interact. This leads to a high degree of false positives for the naive matrix model. The WMM considers all prey pairs as interactors but weights them according to the frequency they occur together while controlling for “frequent flyer” or “sticky” proteins. Therefore, by considering all prey pairs the WMM has better false‐negative rates than the spoke model, and by accurately measuring the specificity of the prey pairs, the WMM has better false‐positive rates than the naive matrix model. The WMM can be applied to proximity labeling experiments and also, in contrast to the traditional models, the WMM can be applied to datasets that were not exclusively collected for the purpose of identifying protein interactions. Specifically, we applied our WMM to &gt; 3,000 RNA hairpin pull‐down experiments (Treiber <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0055" ref-type="ref">2017</xref>) and incorporated the results into our framework. Figure <xref rid="msb202010016-fig-0001" ref-type="fig">1B</xref> shows WMM overlaps substantially with other methods but also provides additional information for many pairs of proteins not covered in the other datasets (&gt; 2.2 × 10E6 protein pairs attributed to WMM alone).</p></sec><sec id="msb202010016-sec-0004"><title>hu.MAP 2.0 network is highly accurate</title><p>We next trained an SVM classifier to determine whether two proteins interact in a macromolecular complex. The classifier uses 292 features computed from the mass spectrometry experiments and is trained on examples consisting of co‐complex protein interactions from a set of &gt; 1,100 literature‐curated CORUM complexes (Giurgiu <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0018" ref-type="ref">2019</xref>). All features, with the exception of WMM features, were downloaded from the original publications (see Materials and Methods for a complete list). The set of CORUM complexes were split into two equal proportion non‐overlapping test and train subsets. We then derived sets of co‐complex interactions from these test and train complex subsets. The classifier was parameterized using 5× cross‐validation on the train co‐complex interactions and applied to 17.5 million pairs of proteins scoring each one for their ability to interact based on the input data (see Materials and Methods). The full list of scored pairs and the complete feature matrix can be found in the <xref rid="msb202010016-sec-0021" ref-type="sec">Data availability</xref> section.</p><p>To evaluate the performance of our SVM classifier, we examined the confidence scores of 8,337 co‐complex interactions in our leave‐out test set using a Precision‐Recall framework (Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2A</xref>). Precision‐Recall frameworks are the preferred method of evaluating imbalanced binary classification problems such as protein interaction identification (Davis &amp; Goadrich, <xref rid="msb202010016-bib-0012" ref-type="ref">2006</xref>; Saito &amp; Rehmsmeier, <xref rid="msb202010016-bib-0051" ref-type="ref">2015</xref>). We see that hu.MAP 2.0 outperforms our previous complex map, hu.MAP 1.0, as well as all other datasets including Bioplex 2, Wan <italic toggle="yes">et al</italic> and Hein <italic toggle="yes">et al</italic>, demonstrating the power of data integration. For example, a direct comparison of hu.MAP 2.0 to hu.MAP 1.0 at a fixed precision of 0.5 results in an increase of 67% recall relative to hu.MAP 1.0. We also evaluated the increase in total high confidence (precision = 0.9) protein interactions identified by hu.MAP 2.0 and saw an increase of &gt; 1,880 high confidence interactions over hu.MAP 1.0. Additionally, we see a drop in performance when we remove the WMM features from hu.MAP 2.0 further showing how important the WMM features are to performance improvements. Finally, we compare hu.MAP 2.0 to the HuRi dataset which encompasses a 17,500 × 17,500 all‐by‐all yeast 2‐hybrid screen (Luck <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0040" ref-type="ref">2020</xref>). Yeast 2‐hybrid aims to capture only direct protein‐protein interactions and has previously shown good performance on benchmarks of binary interactors (Luck <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0040" ref-type="ref">2020</xref>). Here we see HuRi underperforms all other networks when evaluated on co‐complex interactions likely due to its inability to identify indirect physical interactions.</p><fig fig-type="Figure" xml:lang="en" id="msb202010016-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><title>hu.MAP 2.0 outperforms previous complex maps</title><p>
+<list list-type="alpha-upper" id="msb202010016-list-0003"><list-item><p>Precision‐Recall (PR) plot evaluated on a test (leave‐out) set of literature‐curated co‐complex pairwise protein interactions. The plot shows hu.MAP 2.0 is more accurate and comprehensive than previous published datasets. The plot also evaluates the performance of predictions without the Weighted Matrix Model (WMM) and shows the WMM substantially improves performance.</p></list-item><list-item><p>Clustering workflow used to identify protein complexes in hu.MAP 2.0 protein interaction network. The network is first filtered based on the confidence score produced by the Support Vector Machine (SVM). The filtered network is then clustered using a two‐stage approach, clustering first using ClusterOne, and then further clustering with MCL. The resulting clusters are then evaluated using the <italic toggle="yes">k</italic>‐clique method (see Materials and Methods) on training complexes. Approximately 1,700 parameter combinations were evaluated, each producing a unique set of clusters, sweeping SVM score filter thresholds, and clustering parameters (i.e., ClusterOne Max Overlap, ClusterOne Density, and MCL Inflation).</p></list-item><list-item><p>
+<italic toggle="yes">k</italic>‐clique Precision‐Recall (<italic toggle="yes">k</italic>PR) scatter plot of 1,700 clustering parameter sets. Five clusterings (colored hollow circles) were selected representing varying degrees of confidence balancing the trade‐off between precision and recall. The five selected clusterings were combined as a final set of clusters (orange filled circle).</p></list-item><list-item><p>
+<italic toggle="yes">k</italic>PR scatter plot of hu.MAP 2.0 complexes (orange filled circle) and other published complex maps (colored filled circles) evaluated on a test set of literature‐curated complexes. hu.MAP 2.0 complexes increase in both precision and recall relative to other maps. Also plotted are the five sets of complexes at different levels of confidence (colored hollow circles) demonstrating consistency between the level of confidence determined from training set (B) and test set.</p></list-item></list>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="jats-graphic-7" position="float" orientation="portrait" xlink:href="MSB-17-e10016-g005.jpg"/></fig><p>Recently, a co‐regulation map based on protein expression was shown to capture relationships among proteins that do not necessarily interact or co‐localize (Kustatscher <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0035" ref-type="ref">2019</xref>). This dataset therefore provides an independent test of the quality of our protein interactions. When we compared the hu.MAP 2.0 interactions to the most co‐expressing pairs in Kustatcher <italic toggle="yes">et al</italic>, we see a highly significant overlap (<italic toggle="yes">P</italic>‐value &lt; 10E−10, hypergeometric test) indicating a high degree of consistency between the orthogonal datasets.</p></sec><sec id="msb202010016-sec-0005"><title>hu.MAP 2.0 complex map</title><p>Once we confirmed our protein interaction network was of high quality, we then clustered this network using a parameterized two‐stage clustering algorithm to identify highly connected proteins which represent protein complexes. Briefly, the algorithm first filters the network based on the confidence score from the SVM classifier and then uses the ClusterOne algorithm (Nepusz <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0045" ref-type="ref">2012</xref>) to cluster the thresholded network. ClusterOne often produces large clusters containing proteins from multiple complexes. To remedy this, each resulting cluster is further clustered using the MCL algorithm (Enright <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0015" ref-type="ref">2002</xref>) (Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2B</xref>). There are several parameters for each algorithm that require optimization in addition to an SVM confidence score threshold of the input network. We therefore take an agnostic approach and optimize these parameters by generating clusterings for over 1,700 parameter combinations. Each parameter combination is evaluated using the <italic toggle="yes">k</italic>‐clique precision‐recall performance measure (Drew <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0014" ref-type="ref">2017</xref>) comparing the resulting clusters from the specific parameter combination with the CORUM‐based set of training complexes (Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2C</xref>). The resulting clusterings vary substantially with regards to their performance but ultimately show a familiar pattern of a trade‐off between precision and recall. We therefore selected five clusterings that balance the precision‐recall trade‐off. For example, clustering 1 (green) is a set of clusters with “extremely high” precision but low recall while clustering 5 (gray) is a set of clusters with “medium” precision yet higher recall (Figs <xref rid="msb202010016-fig-0001" ref-type="fig">1A</xref> and <xref rid="msb202010016-fig-0002" ref-type="fig">2C</xref>). This allows us to rank our confidence of a protein complex based on its appearance in one of the five clusterings. We then combined all five selected clusterings into a union set while preserving their precision rank (Dataset <xref rid="msb202010016-sup-0002" ref-type="supplementary-material">EV1</xref>).</p><p>To evaluate the union of clusterings that represent our final hu.MAP complexes, we again use the <italic toggle="yes">k</italic>‐clique precision‐recall performance measure but now calculated on the leave‐out set of test complexes. As shown in Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2D</xref>, our hu.MAP 2.0 complexes balance both precision and recall. Additionally, we see a consistent trend of <italic toggle="yes">k</italic>‐clique precision and recall values for our individual clusterings between both the train (Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2C</xref>) and test sets (Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2D</xref>). This suggests the confidence ranking given to each complex is robust. We also observe our final set of complexes outperforms our previous hu.MAP 1.0 complexes and other previous state‐of‐the‐art complex maps. Taken together, this points to hu.MAP 2.0 complexes as being highly accurate and spanning a large portion of all human protein assemblies.</p></sec><sec id="msb202010016-sec-0006"><title>Identification of multifunctional promiscuous proteins</title><p>Now that we have established hu.MAP 2.0 as a highly accurate resource of human protein complexes, we can ask questions about protein assemblies in a systematic way. Specifically, one systematic question we can ask is how prevalent are promiscuous proteins in stable protein assemblies? That is, how often do we see proteins participating in multiple different complexes and presumably performing orthogonal functions (sometimes termed “moonlighting” (Chapple <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0011" ref-type="ref">2015</xref>; Jeffery, <xref rid="msb202010016-bib-0030" ref-type="ref">2015</xref>)). We therefore created a non‐redundant set of complexes (see Materials and Methods) and surprisingly identified 253 proteins that participate in multiple complexes (Dataset <xref rid="msb202010016-sup-0003" ref-type="supplementary-material">EV2</xref>). This is a 53% increase over the same analysis if done on hu.MAP 1.0.</p><p>The majority of promiscuous proteins appear only in two complexes and the largest number of complexes a protein participates in is four, suggesting these are not just “sticky” interactions but rather proteins participating in multiple specific complexes. The 253 proteins constituted nearly 7.5% of proteins in the non‐redundant set of complexes. This compares to 106 moonlighting human proteins identified in the MoonProt database (Mani <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0043" ref-type="ref">2015</xref>). Additionally, when we compare expression levels from the Human Protein Atlas (Uhlén <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0056" ref-type="ref">2015</xref>) across tissues of promiscuous proteins versus non‐promiscuous proteins, we see the bulk of the distributions substantially overlaps, suggesting the promiscuous proteins do not appear in a greater number of complexes due to higher expression levels (Fig <xref rid="msb202010016-fig-0001ev" ref-type="fig">EV1</xref>).</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb202010016-fig-0001ev" orientation="portrait" position="float"><label>Figure EV1</label><caption><title>Density plot of Human Protein Atlas (Uhlén <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0056" ref-type="ref">2015</xref>) transcript expression across tissues of promiscuous proteins versus non‐promiscuous proteins</title><p>We observe negligible differences between promiscuous and non‐promiscuous distributions suggesting expression levels are not a factor contributing to the identification of promiscuous proteins.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="jats-graphic-9" position="float" orientation="portrait" xlink:href="MSB-17-e10016-g008.jpg"/></fig><p>Figure <xref rid="msb202010016-fig-0003" ref-type="fig">3A and B</xref> shows an example of a promiscuous protein, HSPA9, participating in two unrelated protein complexes. HSPA9 is a multilocational (mitochondria and nucleus) and multifunctional protein, playing a role in mitochondrial import and stress response (Wadhwa <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0057" ref-type="ref">2002</xref>). We identify HSPA9 participating in two complexes that reflect its multifunctional role. First, we identify HSPA9 in complex HuMAP2_01130, a heat shock response complex supported by AP‐MS experiments (Guruharsha <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0021" ref-type="ref">2011</xref>; Huttlin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0028" ref-type="ref">2015</xref>) and co‐fractionation evidence (Wan <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0058" ref-type="ref">2015</xref>). And second, we identify HSPA9 in complex HuMAP2_00358, a mitochondrial protein import complex supported by AP‐MS experiments (Malovannaya <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0042" ref-type="ref">2011</xref>; Huttlin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0028" ref-type="ref">2015</xref>; Boldt <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0005" ref-type="ref">2016</xref>), co‐fractionation evidence (Wan <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0058" ref-type="ref">2015</xref>), and WMM based on (Treiber <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0055" ref-type="ref">2017</xref>). To further verify HSPA9's membership in these two complexes, we inspected sparkline traces of two co‐fractionation experiments (Wan <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0058" ref-type="ref">2015</xref>) (Fig <xref rid="msb202010016-fig-0003" ref-type="fig">3C</xref>). We identified two separate elution peaks of HSPA9 which correspond to the two complexes. This example shows the ability of our complex map to identify multifunctional promiscuous proteins and place them into their respective non‐overlapping functional complexes.</p><fig fig-type="Figure" xml:lang="en" id="msb202010016-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><title>hu.MAP 2.0 complexes identify promiscuous proteins</title><p>
+<list list-type="simple" id="msb202010016-list-0004"><list-item><label>A, B</label><p>Multifunctional protein HSPA9 participates in two distinct complexes, HuMAP2_00358 (A) and HuMAP2_01130 (B). HuMAP2_00358 (turquoise, “high” confidence) is enriched for Reactome annotation “Mitochondrial protein import”, a known function of HSPA9. HuMAP2_01130 (blue, “very high” confidence) is enriched for Reactome annotation “Regulation of HSF1‐mediated heat shock response”, another known function of HSPA9. Weight of network edges represent confidence of interactions.</p></list-item><list-item><label>C</label><p>Sparkline elution profiles from two orthogonal biochemical fractionation experiments. HEK 293 cell lysate was separated using a mixed bed ion‐exchange column and <italic toggle="yes">Drosophila melanogaster</italic> embryo lysate was separated using a heparin column (Wan <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0058" ref-type="ref">2015</xref>). HSPA9 elutes in two distinct peaks (shaded) which co‐elute with members of the two complexes. <italic toggle="yes">X</italic>‐axis represents fraction collected along biochemical separation. <italic toggle="yes">Y</italic>‐axis for each row represents observed protein abundance.</p></list-item><list-item><label>D</label><p>Promiscuous proteins are older on average than single complex proteins. <italic toggle="yes">Z</italic>‐scores for each protein age group were determined by comparing the number of promiscuous proteins to a randomly sampled background set consisting of non‐promiscuous proteins (i.e., participating in only one complex).</p></list-item></list>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="jats-graphic-11" position="float" orientation="portrait" xlink:href="MSB-17-e10016-g006.jpg"/></fig><p>Saeed and Deane (<xref rid="msb202010016-bib-0050" ref-type="ref">2006</xref>) previously showed a strong relationship between protein age and interaction connectivity. We therefore hypothesize that the promiscuous proteins would be on average older due to younger proteins not having enough evolutionary time to make multiple connections. Figure <xref rid="msb202010016-fig-0003" ref-type="fig">3D</xref> shows a clear enrichment in older proteins in the set of promiscuous proteins and a depletion for younger proteins (see Materials and Methods). Using gProfiler (Reimand <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0049" ref-type="ref">2016</xref>) to identify functionally annotations for the older promiscuous proteins, we identify older promiscuous proteins are enriched for Reactome “Metabolism” (adjusted <italic toggle="yes">P</italic>‐value ~ 5 × 10E−8, g:SCS corrected) among other metabolism‐related annotations (Fig <xref rid="msb202010016-fig-0002ev" ref-type="fig">EV2</xref>). Consistent with this finding, many “moonlighting” proteins are enzymes with multifunctional roles (Jeffery, <xref rid="msb202010016-bib-0030" ref-type="ref">2015</xref>). Our results suggest a protein's complex membership may play a role in its multifunctional activity.</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb202010016-fig-0002ev" orientation="portrait" position="float"><label>Figure EV2</label><caption><title>Annotation enrichment of older promiscuous proteins</title><p>gProfiler output shows older promiscuous proteins are enriched for metabolic processing annotations.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="jats-graphic-13" position="float" orientation="portrait" xlink:href="MSB-17-e10016-g001.jpg"/></fig></sec><sec id="msb202010016-sec-0007"><title>Functional annotation of uncharacterized proteins</title><p>High‐quality protein complex maps have long been sought after for the purpose of functionally annotating poorly characterized proteins in a genome due to the relationship between physical interaction and biological function (Gavin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0017" ref-type="ref">2002</xref>; Ho <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0027" ref-type="ref">2002</xref>; Wang &amp; Marcotte, <xref rid="msb202010016-bib-0059" ref-type="ref">2010</xref>). To assess hu.MAP 2.0's ability to functionally annotate uncharacterized proteins, we first tested whether our identified complexes are enriched with literature‐curated annotations including Gene Ontology (Ashburner <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0003" ref-type="ref">2000</xref>), Reactome (Fabregat <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0016" ref-type="ref">2016</xref>), CORUM (Giurgiu <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0018" ref-type="ref">2019</xref>), Human Phenotype Ontology (Köhler <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0033" ref-type="ref">2014</xref>), and KEGG (Kanehisa <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0031" ref-type="ref">2014</xref>). We see in Fig <xref rid="msb202010016-fig-0003ev" ref-type="fig">EV3</xref> that &gt;40% of our complexes are enriched with at least one annotation which is 20.5‐fold higher than expected by randomly shuffled complexes. This result shows hu.MAP 2.0 complexes are functionally coherent.</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb202010016-fig-0003ev" orientation="portrait" position="float"><label>Figure EV3</label><caption><title>hu.MAP 2.0 complexes are functionally enriched</title><p>The bar chart shows the number of identified complexes that are enriched with at least one annotation from GO, Reactome, CORUM, KEGG, or Human Phenotype Ontology (HP) at an FDR threshold of 0.05.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="jats-graphic-15" position="float" orientation="portrait" xlink:href="MSB-17-e10016-g004.jpg"/></fig><p>As an example of the utility of hu.MAP 2.0 in annotating poorly characterized proteins, Fig <xref rid="msb202010016-fig-0004" ref-type="fig">4A</xref> shows two previously unreported interactions with RNaseH2, CMTR1, and SETD3. The evidence for these interactions is elucidated from co‐fractionation mass spectrometry experiments which demonstrate a high degree of correlation over multiple separation column types and multiple organisms, which we have shown suggests a deep conservation in function (Wan <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0058" ref-type="ref">2015</xref>) (Fig <xref rid="msb202010016-fig-0004" ref-type="fig">4B</xref>). RNaseH2 is implicated in Aicardi–Goutières syndrome, a monogenic autoinflammatory disorder which mimics <italic toggle="yes">in utero</italic> viral infection of the brain (Reijns &amp; Jackson, <xref rid="msb202010016-bib-0048" ref-type="ref">2014</xref>). Mechanistically, RNaseH2 degrades RNA fragments of RNA‐DNA hybrids including Okazaki fragment RNA primers during DNA replication (Chapados <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0010" ref-type="ref">2001</xref>). Mutations in RNaseH2 are thought to disrupt the degradation of immuno‐stimulating nucleic acids and cause innate immune activation (Reijns &amp; Jackson, <xref rid="msb202010016-bib-0048" ref-type="ref">2014</xref>). CMTR1 is a mRNA methyltransferase and a known regulator of protein expression of IFN‐stimulated genes to restrict viral infection (Williams <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0060" ref-type="ref">2020</xref>). SETD3, also a methyltransferase, is a human host protein critical for infection of a wide range of viruses and participates in viral replication yet its mode of action is currently unknown (Diep <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0013" ref-type="ref">2019</xref>). The links we identify between CMTR1, SETD3, and RNaseH2 point to the hypothesis where CMTR1 and SETD3 interact with RNaseH2 to modulate the innate immune response and affect viral replication.</p><fig fig-type="Figure" xml:lang="en" id="msb202010016-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><title>Transfer of function annotations to uncharacterized proteins</title><p>
+<list list-type="alpha-upper" id="msb202010016-list-0005"><list-item><p>SETD3 and CMTR1 are identified as co‐complex interactors with the Ribonuclease H2 complex which provides a possible mechanistic explanation for their role in viral infection.</p></list-item><list-item><p>Sparkline elution profiles from multiple orthogonal co‐fractionation experiments demonstrate a strong degree of co‐elution among subunits in the SETD3‐CMTR1‐RNAse H2 complex. Weight of network edges represents confidence of interactions. <italic toggle="yes">X</italic>‐axis represents fraction collected along biochemical separation. <italic toggle="yes">Y</italic>‐axis for each row represents observed protein abundance.</p></list-item><list-item><p>The uncharacterized protein, C7orf26, is identified as part of the Integrator complex.</p></list-item><list-item><p>Sparkline elution profiles show a high degree of correlation between C7orf26 and subunits of the Integrator complex from multiple orthogonal co‐fractionation experiments.</p></list-item><list-item><p>The association of C7orf26 and Integrator complex is additionally supported by affinity purification mass spectrometry (AP‐MS) experiment where C7orf26 is pulled down with Integrator subunit baits.</p></list-item><list-item><p>The uncharacterized protein, CCDC9, is identified as co‐complex with the exon–exon junction complex (EJC), a ribonucleoprotein complex involved in splicing.</p></list-item><list-item><p>Sparkline elution profiles from the independently collected RNA DIF‐FRAC size exclusion chromatography (SEC) experiment show CCDC9 co‐elutes with known subunits of the EJC when RNA is present (black). The elution profiles also show CCDC9 is sensitive to RNAse A treatment (shift of elution peak between black and red profiles) as are the subunits of the EJC further supporting CCDC9's participation in this known ribonucleoprotein complex.</p></list-item></list>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="jats-graphic-17" position="float" orientation="portrait" xlink:href="MSB-17-e10016-g009.jpg"/></fig><p>It has been observed that biomedical research is biased toward the study of well‐annotated genes and this bias is due less to the physiological importance or disease relevance of the gene but rather to the ease of experimentation using traditional methods (Stoeger <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0053" ref-type="ref">2018</xref>). Unbiased systematic approaches such as the integration of thousands of mass spectrometry experiments described here provide a powerful tool for closing the gap of uncharacterized proteins. We therefore cross‐referenced genes deemed poorly annotated (UniProt (The UniProt Consortium, <xref rid="msb202010016-bib-0054" ref-type="ref">2017</xref>) annotation score ≤ 3) with hu.MAP 2.0 complexes that were enriched for functional annotations. We identified 274 proteins in which we could transfer the annotation of the complex to an uncharacterized protein (Dataset <xref rid="msb202010016-sup-0004" ref-type="supplementary-material">EV3</xref>). This is an increase of ~ 40% over the same analysis done with hu.MAP 1.0.</p><p>Within this set of uncharacterized proteins, we identify C7orf26 as a member of the Integrator complex (Fig <xref rid="msb202010016-fig-0004" ref-type="fig">4C</xref>). We see strong correlation of C7orf26 with Integrator subunits in co‐fractionation experiments from both HEK 293 cells and fly embryos (Fig <xref rid="msb202010016-fig-0004" ref-type="fig">4D</xref>). In addition, C7orf26 was also identified in several separate affinity purification experiments (Malovannaya <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0042" ref-type="ref">2011</xref>) where Integrator subunits were the target bait protein (Fig <xref rid="msb202010016-fig-0004" ref-type="fig">4E</xref>). The consistent results from these orthogonal datasets suggest a role for C7orf26 in the Integrator complex and provide a new function for a completely unannotated protein.</p><p>We also observe another uncharacterized protein, CCDC9, as being a member of the exon–exon junction complex (EJC; Fig <xref rid="msb202010016-fig-0004" ref-type="fig">4F</xref>). The interaction between CCDC9 and the EJC is supported by evidence from Hein <italic toggle="yes">et al</italic> (<xref rid="msb202010016-bib-0026" ref-type="ref">2015</xref>) AP‐MS experiments and WMM evidence. Since the EJC is a ribonucleoprotein complex involved in RNA splicing, we searched our previously collected RNA DIF‐FRAC mass spectrometry data (Mallam <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0041" ref-type="ref">2019</xref>) for evidence of CCDC9 as being both a member of the EJC and also associated with RNA. The DIF‐FRAC experiment identifies ribonucleoprotein complexes by comparing elution profiles of protein complexes with and without RNAseA treatment. We see in Fig <xref rid="msb202010016-fig-0004" ref-type="fig">4G</xref> CCDC9 not only co‐elutes with EJC subunits but is also sensitive to RNAseA treatment suggesting it is interacting with the EJC while associated with RNA. Importantly, the DIF‐FRAC experimental data were not included in the generation of hu.MAP 2.0 and therefore represent an independent assessment of CCDC9's interaction with the EJC. Additionally, CCDC9 was identified as an RNA binding protein in high‐throughput screens searching for mRNA‐binding proteins (Baltz <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0004" ref-type="ref">2012</xref>; Castello <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0008" ref-type="ref">2012</xref>) which is consistent with our observation of CCDC9 participating in a ribonucleoprotein complex.</p></sec></sec><sec sec-type="discussion" id="msb202010016-sec-0008"><title>Discussion</title><p>Herein, we describe the construction of the most accurate and comprehensive protein complex map to date which fills a large gap in our knowledge regarding the composition of functional complexes in the cell. We demonstrate the utility of our map by assigning functions for hundreds of completely uncharacterized proteins, providing testable hypotheses for their characterization. Additionally, we determine the prevalence of proteins that participate in multiple independent protein assemblies including ones with disparate functions suggesting moonlighting functions for the protein. Overall, our results, searchable with a simple web interface (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/">http://humap2.proteincomplexes.org/</ext-link>), establish the utility of hu.MAP 2.0 for furthering our understanding of human protein functions.</p><sec id="msb202010016-sec-0009"><title>Summary of methodological updates to the hu.MAP pipeline from version 1.0</title><p>While the substantial performance gain between hu.MAP 1.0 and hu.MAP 2.0 is largely due to the addition of newly published interactome datasets, we summarize changes between the pipelines here. First, the hu.MAP 1.0 pipeline took advantage of LIBSVM's (Chang &amp; Lin, <xref rid="msb202010016-bib-0009" ref-type="ref">2011</xref>) grid.py utility to sweep SVM hyper‐parameters <italic toggle="yes">C</italic> and gamma. The grid.py utility relies on the accuracy metric for evaluation defined as Accuracy = (TP + TN)/(TP + TN + FP + FN) where TP is true positives, TN is true negatives, FP is false positives, and FN is false negatives. Using accuracy as an evaluation metric is problematic in cases of large class imbalance such as protein interaction prediction. Specifically, there are orders of magnitude more negative interactions than positive interactions, and therefore, accuracy can be dominated by the true negatives resulting in a poor predictor of new interactions. In the hu.MAP 2.0 pipeline, we therefore remedied this by developing our own cross‐validation utility (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/marcottelab/protein_complex_maps/tree/master/protein_complex_maps/model_fitting/cross_validation">https://github.com/marcottelab/protein_complex_maps/tree/master/protein_complex_maps/model_fitting/cross_validation</ext-link>) which uses area under the precision‐recall curve (PR‐AUC) as a metric to identify optimal <italic toggle="yes">C</italic> and gamma SVM parameters. PR‐AUC does not rely on true negatives for its calculation and is preferred for evaluation of problems with large class imbalance (Davis &amp; Goadrich, <xref rid="msb202010016-bib-0012" ref-type="ref">2006</xref>).</p><p>Second, we simplified the clustering section of the hu.MAP 2.0 pipeline to use only ClusterOne followed by MCL. In the hu.MAP 1.0 pipeline, we observed a gain in performance when we combined results from the Newman clustering method (Newman, <xref rid="msb202010016-bib-0046" ref-type="ref">2004</xref>) with the MCL results. In the hu.MAP 2.0 pipeline, we do not see such gains and opt for only using MCL.</p><p>Third, the hu.MAP 1.0 pipeline did not classify protein complexes by their estimated confidence level. Hu.MAP 2.0 now allows for a quick way for users to evaluate a complex of interest based on a confidence measure. As described above, in the hu.MAP 2.0 pipeline, we use the <italic toggle="yes">k</italic>‐clique precision‐recall performance measure for evaluating the generated clusterings. The <italic toggle="yes">k</italic>‐clique precision‐recall measure allows for a finer grain analysis of performance due to the separation of precision and recall terms as opposed to the F‐Grand <italic toggle="yes">k</italic>‐clique measure used in hu.MAP 1.0. We were then able to select five clusterings that provided a trade‐off between precision and recall which ultimately serve as a confidence score for the complexes in those clusterings.</p></sec><sec id="msb202010016-sec-0010"><title>hu.MAP 2.0 identifies complexes across a broad distribution of biochemical classifications</title><p>A primary goal of our work is to identify all stable physical complexes in human cells. While hu.MAP 2.0 substantially increases coverage of stable human complexes, the results ultimately reflect the integrated high‐throughput methods' ability to identify these assemblies. For example, high‐throughput biochemical purification techniques such as AP‐MS and CF‐MS are commonly thought to be robust at identifying soluble cytoplasmic protein complexes and less robust at purifying, for example, membrane bound complexes. To determine whether our hu.MAP 2.0 complexes were biased against certain categories of proteins, we used PantherDB (Mi <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0044" ref-type="ref">2019</xref>) GO analysis to identify enriched and depleted terms. Interestingly, we see GO cellular component terms such as “vesicle membrane” and “mitochondrial membrane” as enriched with 1.27‐ and 1.41‐fold enrichment respectively. Alternatively, we see a depletion in proteins annotated with “plasma membrane” in hu.MAP 2.0 yet only slightly, with a 0.86‐fold depletion and a total of over 2,300 proteins with the “plasma membrane” annotation in our complexes. To further investigate the validity of these proteins in our data, we searched, for examples, of plasma membrane complexes. We found several high confidence complexes enriched with “plasma membrane” term including a potassium voltage‐gated channel complex (HuMAP2_00584) and a fibroblast growth factor receptor complex (HuMAP2_06274). This suggests that while the high‐throughput methods we integrate in our pipeline may have some biases against membrane associated proteins, our map still has substantial coverage of these proteins and produces coherent and biologically meaningful complexes.</p><p>To further explore biases in our dataset, we considered the degree to which our complexes are distributed across all tissues/cell types or are they cell type specific. To evaluate this potential bias, we considered transcriptomics data in the Human Protein Atlas (across 37 tissues, 43 single cell types, 10 main regions of each mammalian brain, 18 blood cell types, and 69 cell lines) (Uhlén <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0056" ref-type="ref">2015</xref>) as an indicator for protein expression. We evaluated these data for the entire human proteome (Fig <xref rid="msb202010016-fig-0005" ref-type="fig">5A</xref>), proteins identified in hu.MAP 1.0 (Fig <xref rid="msb202010016-fig-0005" ref-type="fig">5B</xref>), and those identified in hu.MAP 2.0 (Fig <xref rid="msb202010016-fig-0005" ref-type="fig">5C</xref>). In the entire human proteome, we see a substantial number of proteins likely expressed in all samples (~ 50%) but still many displaying some specificity. In hu.MAP 1.0 and hu.MAP 2.0, we see the vast majority of proteins likely expressed in all samples, ~ 76 and ~ 70%, respectively. This suggests that the complexes we identify are likely to be expressed across many different cellular conditions and cell types. As more and more high‐throughput datasets are collected on different cell types and tissues, we expect to identify more cell type‐specific complexes upon their integration.</p><fig fig-type="Figure" xml:lang="en" id="msb202010016-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><title>Protein complex map coverage across Human Protein Atlas tissues and cell specificity</title><p>
+<list list-type="alpha-upper" id="msb202010016-list-0006"><list-item><p>Coverage of all human proteins shows a broad distribution of proteins classified into a range of specificity classes, from detected in all tissues and cells to detected in only a single tissue or cell type.</p></list-item><list-item><p>Coverage of hu.MAP 1.0 proteins show a narrower distribution of proteins classified into specificity classes with the majority of proteins detected in many or all tissues and cell types. This suggests hu.MAP 1.0 represented the core cellular machinery.</p></list-item><list-item><p>Coverage of hu.MAP 2.0 proteins show a distribution representative of the core cellular machinery shared among all or many tissue and cell types but also shows an increase in cell type specificity with gains in proteins that are only detected in some tissues/cell types.</p></list-item></list>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="jats-graphic-19" position="float" orientation="portrait" xlink:href="MSB-17-e10016-g011.jpg"/></fig></sec><sec id="msb202010016-sec-0011"><title>Completeness of human protein complex map</title><p>Our goal in this work is to build a complete and accurate set of protein complexes. We next asked how far have we come in achieving this goal? The size of the human interactome has previously been estimated to contain 154k–369k total interactions (Hart <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0022" ref-type="ref">2006</xref>). Here we report 57k distinct interactions equating to roughly 15–37% complete. Consistent with this, if we consider the CORUM benchmark we use for evaluation in Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2A</xref> as representative of all interactions, we see the majority of the hu.MAP 2.0 precision‐recall curve in Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2A</xref> roughly falls between 15 and 37% recall. Also, making the same assumption for the CORUM benchmark, we can get rough estimates of hu.MAP 2.0's coverage of total protein complexes. The precision and recall metrics used in Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2D</xref> are robust to any redundancy and therefore give an accurate representation of total coverage. In Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2D</xref>, we see hu.MAP 2.0 covers &gt; 30% of complexes in the benchmark at a precision of 60%. As described in the section above, many cell type and condition‐specific interactions likely make up a large portion of the remaining undiscovered interactions. We expect these interactions to be a focus of future experimentation in order to gain greater coverage of the complete human interactome.</p></sec></sec><sec sec-type="materials-and-methods" id="msb202010016-sec-0012"><title>Materials and Methods</title><sec id="msb202010016-sec-0013"><title>Reagents and Tools table</title><p>
+<table-wrap id="jats-table-wrap-1" xml:lang="en" orientation="portrait" position="anchor"><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Reagent/Resource</th><th align="left" valign="top" rowspan="1" colspan="1">Reference or Source</th><th align="left" valign="top" rowspan="1" colspan="1">Identifier or Catalog Number</th></tr></thead><tbody><tr><td align="left" colspan="3" rowspan="1">
+<bold>Software</bold>
+</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">MCL Version: 14‐137</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://micans.org/mcl/">https://micans.org/mcl/</ext-link> (Enright <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0015" ref-type="ref">2002</xref>)</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">ClusterOne Version: 1.0</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://paccanarolab.org/cluster-one/">https://paccanarolab.org/cluster‐one/</ext-link> (Nepusz <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0045" ref-type="ref">2012</xref>)</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">LibSVM Version: 321</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.csie.ntu.edu.tw/~cjlin/libsvm/">https://www.csie.ntu.edu.tw/~cjlin/libsvm/</ext-link> (Chang &amp; Lin, <xref rid="msb202010016-bib-0009" ref-type="ref">2011</xref>)</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">UpSet Version: 0.4.1</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://upsetplot.readthedocs.io/en/stable/">https://upsetplot.readthedocs.io/en/stable/</ext-link> (Lex <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0038" ref-type="ref">2014</xref>)</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">MSBlender Version: ec3b484</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/marcottelab/MSblender">https://github.com/marcottelab/MSblender</ext-link> (Kwon <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0036" ref-type="ref">2011</xref>)</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">ProteinComplexMaps Version: 512b9b5</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/marcottelab/protein_complex_maps">https://github.com/marcottelab/protein_complex_maps</ext-link> (Drew <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0014" ref-type="ref">2017</xref>)</td><td align="left" rowspan="1" colspan="1"/></tr></tbody></table></table-wrap>
+</p></sec><sec id="msb202010016-sec-0014"><title>Methods and Protocols</title><sec id="msb202010016-sec-0015"><title>Mass spectrometry dataset collection</title><p>Mass spectrometry data and features based on those data used as input into the machine learning classifier were collected from various publications. Specifically, protein interaction features for datasets used in hu.MAP 1.0 (Drew <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0014" ref-type="ref">2017</xref>)<italic toggle="yes">, e.g</italic>., Wan <italic toggle="yes">et al</italic>, Hein <italic toggle="yes">et al</italic>, Huttlin <italic toggle="yes">et al</italic>, were downloaded from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://hu1.proteincomplexes.org/static/downloads/feature_matrix.txt.gz">http://hu1.proteincomplexes.org/static/downloads/feature_matrix.txt.gz</ext-link>. Four vector comparison measures were used for co‐fractionation data from Wan <italic toggle="yes">et al</italic> including Poisson noise Pearson correlation coefficient, weighted cross‐correlation, co‐apex score, and MS1 ion intensity distance metric. All four vector comparison measures were applied to each of the 55 fractionation experiments, totaling 220 features. Pairs of proteins were filtered to ensure co‐fractionation measures were &gt; 0.5 in at least two species. AP‐MS data from (Guruharsha <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0021" ref-type="ref">2011</xref>) mapped onto human orthologs using InParanoid (Sonnhammer &amp; Östlund, <xref rid="msb202010016-bib-0052" ref-type="ref">2015</xref>) were represented using the HGSCore value originally downloaded from supplemental table S3 in Guruharsha <italic toggle="yes">et al</italic> AP‐MS data from (Malovannaya <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0042" ref-type="ref">2011</xref>) were represented by the MEMOs (core modules) certainty assignments “approved”, “provisional”, and “temporary” originally downloaded from supplemental file S1, assigning the scores 10, 3, and 1, respectively. Bioplex 1.0 (Huttlin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0028" ref-type="ref">2015</xref>) features were used as originally downloaded from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://wren.hms.harvard.edu/bioplex/data/cdf/150408_CDF_STAR_GRAPH_Ver2594.cdf">http://wren.hms.harvard.edu/bioplex/data/cdf/150408_CDF_STAR_GRAPH_Ver2594.cdf</ext-link> including NWD Score, <italic toggle="yes">Z</italic> Score, Plate <italic toggle="yes">Z</italic> Score, Entropy, Unique Peptide Bins, Ratio, Total PSMs, Ratio Total PSMs, and Unique:Total Peptide Ratio. For the Hein AP‐MS data, the features prey.bait.correlation, valid.values, log10.prey.bait.ratio, and log10.prey.bait.expression.ratio were taken from supplemental table S2 in (Hein <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0026" ref-type="ref">2015</xref>). The mean value was used across the experiments in the case of multiple entries for a given protein pair. Note, all HumanNet (Lee <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0037" ref-type="ref">2011</xref>) features were excluded from all model training.</p><p>New datasets added for hu.MAP 2.0 were downloaded from original publications or associated dataset web resources as shown in Table <xref rid="msb202010016-tbl-0001" ref-type="table">1</xref>. The same measures used for Bioplex1.0 were also used for Bioplex2.0 features specifically NWD Score, <italic toggle="yes">Z</italic> Score, Plate <italic toggle="yes">Z</italic> Score, Entropy, Unique Peptide Bins, Ratio, Total PSMs, Ratio Total PSMs, Unique:Total Peptide Ratio and Average Assembled Peptide Spectral Matches. We used the measures from the proximity labeling dataset, Gupta <italic toggle="yes">et al</italic>, for both the ciliated condition and nonciliated condition, specifically Average Spectra, Average Saint probability, Max Saint probability, Fold Change, and Bayesian FDR estimate. The same measures were used for the proximity labeling Youn <italic toggle="yes">et al</italic> data but only for the single condition. Measures used for Boldt <italic toggle="yes">et al</italic> data were socioaffinity index (SA<italic toggle="yes"><sub>ij</sub></italic>) and individual terms based on the spoke model for where protein <italic toggle="yes">i</italic> is the bait (S<italic toggle="yes"><sub>ij</sub></italic>) and where protein <italic toggle="yes">j</italic> is the bait (S<italic toggle="yes"><sub>ji</sub></italic>). The matrix model term for the socioaffinity index was also used (M<italic toggle="yes"><sub>ij</sub></italic>). Mass spectrometry data from (Treiber <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0055" ref-type="ref">2017</xref>) were downloaded from the Pride web resource (Perez‐Riverol <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0047" ref-type="ref">2019</xref>) (PXD004193) and reprocessed using the MSBlender pipeline (Kwon <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0036" ref-type="ref">2011</xref>). Full details are described in (Mallam <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0041" ref-type="ref">2019</xref>). Only WMM features, described below, were calculated for Treiber <italic toggle="yes">et al</italic>.</p><table-wrap id="msb202010016-tbl-0001" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 1</label><caption><p>Integrated mass spectrometry datasets.</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Dataset</th><th align="left" valign="top" rowspan="1" colspan="1">Num of experiments</th><th align="left" valign="top" rowspan="1" colspan="1">Link</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Wan <italic toggle="yes">et al</italic> (<xref rid="msb202010016-bib-0058" ref-type="ref">2015</xref>)</td><td align="left" rowspan="1" colspan="1">5,344 fractions</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://hu1.proteincomplexes.org/static/downloads/feature_matrix.txt.gz">http://hu1.proteincomplexes.org/static/downloads/feature_matrix.txt.gz</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Hein <italic toggle="yes">et al</italic> (<xref rid="msb202010016-bib-0026" ref-type="ref">2015</xref>)</td><td align="left" rowspan="1" colspan="1">1,125 bait pull‐downs</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://hu1.proteincomplexes.org/static/downloads/feature_matrix.txt.gz">http://hu1.proteincomplexes.org/static/downloads/feature_matrix.txt.gz</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<p>Bioplex 2.0 (Huttlin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0029" ref-type="ref">2017</xref>)</p>
+<p>(includes Bioplex 1.0)</p>
+</td><td align="left" rowspan="1" colspan="1">5,891 bait pull‐downs</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://bioplex.hms.harvard.edu/data/BaitPreyPairs_noFilters_BP2a.tsv">https://bioplex.hms.harvard.edu/data/BaitPreyPairs_noFilters_BP2a.tsv</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Gupta <italic toggle="yes">et al</italic> (<xref rid="msb202010016-bib-0020" ref-type="ref">2015</xref>)</td><td align="left" rowspan="1" colspan="1">2 conditions x 58 proximity labeled baits = 116</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://prohits-web.lunenfeld.ca/">http://prohits‐web.lunenfeld.ca/</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Youn <italic toggle="yes">et al</italic> (<xref rid="msb202010016-bib-0061" ref-type="ref">2018</xref>)</td><td align="left" rowspan="1" colspan="1">119 proximity labeled baits</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.cell.com/cms/attachment/2118963855/2087347233/mmc2.xlsx">http://www.cell.com/cms/attachment/2118963855/2087347233/mmc2.xlsx</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Boldt <italic toggle="yes">et al</italic> (<xref rid="msb202010016-bib-0005" ref-type="ref">2016</xref>)</td><td align="left" rowspan="1" colspan="1">217 bait pull‐downs</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://static-content.springer.com/esm/art%253A10.1038%252Fncomms11491/MediaObjects/41467_2016_BFncomms11491_MOESM835_ESM.xlsx">https://static‐content.springer.com/esm/art%3A10.1038%2Fncomms11491/MediaObjects/41467_2016_BFncomms11491_MOESM835_ESM.xlsx</ext-link>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Treiber <italic toggle="yes">et al</italic> (<xref rid="msb202010016-bib-0055" ref-type="ref">2017</xref>) (reprocessed by (Mallam <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0041" ref-type="ref">2019</xref>))</td><td align="left" rowspan="1" colspan="1">3,004 RNA hairpin pull‐down MS runs</td><td align="left" rowspan="1" colspan="1">
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cell.com/cms/10.1016/j.celrep.2019.09.060/attachment/45abb95b-ef3f-4752-8906-dc5eed118480/mmc4.csv">https://www.cell.com/cms/10.1016/j.celrep.2019.09.060/attachment/45abb95b‐ef3f‐4752‐8906‐dc5eed118480/mmc4.csv</ext-link>
+</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap><p>HuRI dataset (Luck <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0040" ref-type="ref">2020</xref>), which was not included in training but was included for evaluation, was downloaded from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://interactome.baderlab.org/data/HuRI.tsv">http://interactome.baderlab.org/data/HuRI.tsv</ext-link>. HuRI protein interactions were ranked based on the number of assays the interaction was identified in.</p></sec><sec id="msb202010016-sec-0016"><title>Weighted matrix model</title><p>To gain additional information on the probability that two proteins interact, we generated additional features using a WMM. The WMM is based on the hypergeometric distribution and is described in (Hart <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0023" ref-type="ref">2007</xref>) and (Drew <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0014" ref-type="ref">2017</xref>). Briefly, we used the hypergeometric test (equation (1)), where <italic toggle="yes">k</italic> represents the number of experiments when both proteins A and B are identified. Variables <italic toggle="yes">n</italic> and <italic toggle="yes">m</italic> represent the number of experiments that independently identified protein A and protein B respectively. <italic toggle="yes">N</italic> represents the total number of experiments. The index <italic toggle="yes">i</italic> is defined from <italic toggle="yes">k</italic> to the minimum of <italic toggle="yes">n</italic> and <italic toggle="yes">m</italic>.<disp-formula id="msb202010016-disp-0001"><label>(1)</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1"><mml:mrow><mml:mi>p</mml:mi><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mo>#</mml:mo><mml:mtext>shared</mml:mtext><mml:mspace width="0.166667em"/><mml:mtext>experiments</mml:mtext><mml:mo>≥</mml:mo><mml:mi>k</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi>n</mml:mi><mml:mo>,</mml:mo><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>N</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mo movablelimits="true">min</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>n</mml:mi><mml:mo>,</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:munderover><mml:mfrac><mml:mrow><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mi>n</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mi>i</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mi>N</mml:mi><mml:mo>‐</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow><mml:mi>m</mml:mi><mml:mo>‐</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mi>N</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mi>m</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:math></disp-formula>
+</p><p>Our implementation of the WMM is based on presence or absence of proteins in individual experiments (e.g., one pull‐down). Due to the nature of high‐throughput experiments, noise arises in the form of spurious identifications leading to a protein being erroneously called present in the experiment. To deal with this noise, we set arbitrary but sensible cutoffs of the quality of identification required for a protein to be considered present in the experiment. WMM for Bioplex2.0 was calculated only considering experiments for a given protein where the protein had &gt; 2.0 Bioplex2.0 <italic toggle="yes">Z</italic> score and &gt; 4.0 Bioplex2.0 <italic toggle="yes">Z</italic> score. WMM based on Gupta <italic toggle="yes">et al</italic> were calculated considering all experiments, &gt; 2 average spectral counts, and &gt; 4 average spectral counts. WMM based on Boldt <italic toggle="yes">et al</italic> were calculated considering all experiments and &gt; 4 spectral counts. WMM based on Treiber <italic toggle="yes">et al</italic> were calculated considering &gt; 2 spectral counts and &gt; 4 spectral counts. WMM based on Youn <italic toggle="yes">et al</italic> were calculated considering all experiments, &gt; 2 spectral counts and &gt; 4 spectral counts. For each calculation, we generate a feature in the form of the negative natural log <italic toggle="yes">P</italic>‐value of Equation (1) and the total number of experiments the pair of proteins is observed together (i.e., pair count).</p><p>All features, precalculated from original publications and WMM, were combined into 17,564,755 protein pairs × 292 features matrix. Since not all features cover all protein pairs, missing values were filled with 0.0. The final feature matrix can be found in the <xref rid="msb202010016-sec-0021" ref-type="sec">Data availability</xref> section.</p></sec><sec id="msb202010016-sec-0017"><title>Gold standard test and training set</title><p>To create a test and training set of literature‐curated protein complexes, we downloaded the complete set of CORUM complexes (Giurgiu <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0018" ref-type="ref">2019</xref>) version 2017_07_02 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://mips.helmholtz-muenchen.de/corum/download/corum_2017_07_02.zip">http://mips.helmholtz‐muenchen.de/corum/download/corum_2017_07_02.zip</ext-link>) and filtered out all non‐human proteins. Complexes were merged to eliminate redundancy, so no two complexes had &gt; 0.6 Jaccard coefficient. Complexes were then randomly split into test and training sets. A complex was removed from the test or training sets if any pairs of proteins overlapped in the other set. Large complexes &gt; 30 subunits were removed from the test and training complexes. Test and training sets were also generated for pairs of proteins for training the SVM classifier. A pair of proteins was labeled “positive” if both proteins were in the same complex. A pair was labeled “negative” if proteins were in separate complexes. All other pairs were left unlabeled. For test and training pairs, only 10% of pairs from large complexes were considered. Below is the command line used to generate the test and training sets:</p><p>./protein_complex_maps/preprocessing_util/complexes/split_complexes.py ‐‐input_complexes allComplexes_20170702_geneids_human.txt ‐‐random_seed 1234 ‐‐size_threshold 30 ‐‐subsample_large_complexes 0.1 ‐‐remove_large_complexes ‐‐remove_largest ‐‐merge_threshold 0.6</p><p>Additionally, the full test and training sets used in this study can be found in the <xref rid="msb202010016-sec-0021" ref-type="sec">Data availability</xref> section.</p></sec><sec id="msb202010016-sec-0018"><title>Support vector machine model selection and evaluation</title><p>We trained a SVM classifier using Libsvm (Chang &amp; Lin, <xref rid="msb202010016-bib-0009" ref-type="ref">2011</xref>) to classify pairs of proteins as co‐complex protein interactions. We first generated a feature matrix using the features described above where rows are pairs of proteins and columns are features. The feature matrix was further labeled using the gold standard training set described above. We used fivefold cross‐validation using only the training set when training to select SVM parameters <italic toggle="yes">C</italic> and gamma. We evaluated a range of <italic toggle="yes">C</italic> values (2, 8, 32, 128, 512) and gamma values (0.00048828125, 0.001953125, 0.0078125, 0.03125). As an evaluation metric, we used Area Under the Precision‐Recall Curve (AUPRC) averaging across the five cross‐validation sets. We identified <italic toggle="yes">C</italic> = 512 and gamma = 001953125 with the highest cross‐validated AUPRC. We retrained a full model using all training data using these parameters. We used this final model to predict on all pairs in the feature matrix. The final result is a list of pairs with a corresponding score generated by model.</p><p>We evaluated the final model using a precision‐recall framework as shown in Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2A</xref>. We used the scikit‐learn python package (preprint: Buitinck <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0007" ref-type="ref">2013</xref>) to calculate precision and recall for the leave‐out gold standard test protein pairs.</p><p>For comparisons between datasets as shown in Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2A</xref>, we generated additional models restricting the features to just those generated from the given dataset keeping the parameters <italic toggle="yes">C</italic> and gamma fixed. Note, the HuRI dataset was evaluated using the dataset directly as described above.</p><p>We additionally evaluated the SVM confidence score for its fidelity to the test set precision value. We observed that the test set precision is consistently higher than the confidence score (Fig <xref rid="msb202010016-fig-0004ev" ref-type="fig">EV4</xref>). For example, a confidence score as low as 0.02 has ~0.5 precision value.</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb202010016-fig-0004ev" orientation="portrait" position="float"><label>Figure EV4</label><caption><title>SVM confidence score versus test set precision</title><p>The line plot shows the relationship between the SVM confidence score, and the empirical precision value calculated from the test set of protein interactions. The relationship shows the precision value is consistently higher than the confidence score.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="jats-graphic-21" position="float" orientation="portrait" xlink:href="MSB-17-e10016-g010.jpg"/></fig></sec><sec id="msb202010016-sec-0019"><title>Two‐stage clustering and parameter set selection</title><p>We next used a two‐stage clustering approach to identify clusters within the protein interaction network generated by the classification step described above (Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2B</xref>). First, the network was thresholded based on the SVM score. We then applied the ClusterOne (Nepusz <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0045" ref-type="ref">2012</xref>) algorithm to identify dense regions in the thresholded network. Further, for each dense region produced by ClusterOne, we applied the MCL (Enright <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0015" ref-type="ref">2002</xref>) algorithm to identify clusters. To identify optimal parameters for the score threshold, ClusterOne parameters density and overlap as well as MCL inflation parameter, we generated clusters for various parameter combinations. Specifically, we evaluated a range of parameters: SVM score threshold (1.0, 0.99, 0.97, 0.95, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0.05, 0.01, 0.005, 0.001, 0.0005, 0.0001, 0.00005, 0.00001), ClusterOne max overlap (0.6, 0.7, 0.8), density (0.1, 0.2, 0.3, 0.35, 0.4), and MCL inflation (1.2, 2, 3, 4, 5, 7, 9, 11, 15). We also compared using an unweighted graph as input into ClusterOne versus a weighted graph and observed the unweighted graph had superior performance. A weighted graph was used for the MCL stage clustering. We additionally applied a post‐clustering filter that removed nodes from a cluster that lacked edges that scored greater than the SVM score threshold.</p><p>To evaluate the clusterings as shown in Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2C and D</xref>, we used the <italic toggle="yes">k</italic>‐cliques method, specifically weighted recall (R_weighted), and weighted precision (P_weighted), which we described previously (Drew <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0014" ref-type="ref">2017</xref>). Briefly, the <italic toggle="yes">k</italic>‐cliques method globally compares a set of clusters to a set of gold standard complexes by comparing cliques derived from the clusters to cliques derived from gold standard complexes. This comparison is done for all clique sizes from size 2 (i.e., pairs) to size <italic toggle="yes">n</italic> (i.e., the size of the largest complex or cluster). A precision and recall value are calculated for all clique sizes. A weighted average is then calculated for both precision and recall across all clique sizes, weighted by the number of clusters with size &gt;= to the clique size. This is to limit the bias effect that larger clusters will have on the final precision or recall value.</p><p>We evaluated all clusterings using the <italic toggle="yes">k</italic>‐cliques method, comparing to the training set of gold standard complexes. We selected five clusterings that optimize the trade‐off between precision and recall as shown in Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2C</xref>. These five clusterings were then combined into a union set. Table <xref rid="msb202010016-tbl-0002" ref-type="table">2</xref> shows the clustering parameters used for the selected clusterings.</p><table-wrap id="msb202010016-tbl-0002" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 2</label><caption><p>Selected clusterings parameters.</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Clustering</th><th align="left" valign="top" rowspan="1" colspan="1">Confidence</th><th align="left" valign="top" rowspan="1" colspan="1">Score threshold</th><th align="left" valign="top" rowspan="1" colspan="1">ClusterOne density</th><th align="left" valign="top" rowspan="1" colspan="1">ClusterOne overlap</th><th align="left" valign="top" rowspan="1" colspan="1">MCL inflation</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">Extremely high</td><td align="char" char="." rowspan="1" colspan="1">1.0</td><td align="char" char="." rowspan="1" colspan="1">0.4</td><td align="char" char="." rowspan="1" colspan="1">0.6</td><td align="char" char="." rowspan="1" colspan="1">9</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">Very high</td><td align="char" char="." rowspan="1" colspan="1">0.7</td><td align="char" char="." rowspan="1" colspan="1">0.4</td><td align="char" char="." rowspan="1" colspan="1">0.6</td><td align="char" char="." rowspan="1" colspan="1">9</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">High</td><td align="char" char="." rowspan="1" colspan="1">0.5</td><td align="char" char="." rowspan="1" colspan="1">0.4</td><td align="char" char="." rowspan="1" colspan="1">0.7</td><td align="char" char="." rowspan="1" colspan="1">4</td></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">Medium high</td><td align="char" char="." rowspan="1" colspan="1">0.04</td><td align="char" char="." rowspan="1" colspan="1">0.4</td><td align="char" char="." rowspan="1" colspan="1">0.7</td><td align="char" char="." rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">Medium</td><td align="char" char="." rowspan="1" colspan="1">0.02</td><td align="char" char="." rowspan="1" colspan="1">0.1</td><td align="char" char="." rowspan="1" colspan="1">0.6</td><td align="char" char="." rowspan="1" colspan="1">2</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap><p>We finally evaluated the individual selected clusterings and the union of the selected clusterings using the <italic toggle="yes">k</italic>‐clique method by comparing to the leave‐out set of gold standard test complexes (Fig <xref rid="msb202010016-fig-0002" ref-type="fig">2D</xref>). In addition, we compare to previously published complex maps from (Wan <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0058" ref-type="ref">2015</xref>), Bioplex 1.0 (Huttlin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0028" ref-type="ref">2015</xref>), Bioplex 2.0 (Huttlin <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0029" ref-type="ref">2017</xref>), and our original hu.MAP 1.0 (Drew <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0014" ref-type="ref">2017</xref>).</p></sec><sec id="msb202010016-sec-0020"><title>Identification of promiscuous proteins</title><p>To identify proteins which participate in multiple complexes, we first determined a set of complexes with limited overlap. To determine the degree with which one complex overlaps another, we developed a ‘subcomplex index’ (equation (2)) defined as:<disp-formula id="msb202010016-disp-0002"><label>(2)</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2"><mml:mrow><mml:mtext>SC</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>A</mml:mi><mml:mo>∩</mml:mo><mml:mi>B</mml:mi><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>A</mml:mi><mml:mo stretchy="false">|</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>where <italic toggle="yes">A</italic> and <italic toggle="yes">B</italic> are complexes (i.e., sets of proteins). The ‘subcomplex index’ is related to the Jaccard index but is normalized by the size of a single complex rather than the size of the union of both complexes as is done in the Jaccard index. We then calculated the subcomplex index for every complex compared to all other complexes. We then generated a set of complexes with limited overlap by selecting complexes that had SC &lt; 0.5 to all other complexes. We then identified all proteins that participated in multiple complexes from this reduced set of complexes.</p></sec><sec id="msb202010016-sec-0021"><title>Calculation of protein age enrichment for promiscuous proteins</title><p>Protein ages were mapped using ‘modeAge’ in the main_HUMAN.csv file from (Liebeskind <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0039" ref-type="ref">2016</xref>) <italic toggle="yes">Z</italic>‐scores for each age group were determined by comparing the number of promiscuous proteins to a background distribution. The background distribution was calculated by counting the number of randomly sampled non‐promiscuous proteins (i.e., proteins that participate in only one complex) in each age group.</p></sec><sec id="msb202010016-sec-0022"><title>Annotation enrichment, tissue specificity, and overall expression</title><p>Annotation enrichment was calculated for GO, Reactome, CORUM, KEGG, and Human Phenotype Ontology (HP) terms using gProfiler (Reimand <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0049" ref-type="ref">2016</xref>) for each individual complex. All proteins observed in the 15,000 mass spectrometry experiments were used as the background set. Annotations inferred by electronic transfer were ignored.</p><p>To evaluate annotation enrichment for all complexes, we first generated a set of shuffled complexes where protein ids were reassigned to new cluster ids. This has the effect of keeping both the number of clusters and the size distribution of clusters the same as the final set of hu.MAP 2.0 complexes. In addition, this also has the effect of keeping the distribution of complexes per protein constant with the final hu.MAP 2.0 complexes as well. Annotation enrichment for the shuffled set of clusters was done as described above. Using this background annotation enrichment from all categories, we calculated a 0.05 false discovery rate threshold.</p><p>We used the Human Protein Atlas (HPA) (Uhlén <italic toggle="yes">et al,</italic>
+<xref rid="msb202010016-bib-0056" ref-type="ref">2015</xref>) to compare tissue specificity between the full human proteome, hu.MAP 1.0, and hu.MAP 2.0. RNA tissue distribution data were downloaded from: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.proteinatlas.org/download/proteinatlas.tsv.zip">https://www.proteinatlas.org/download/proteinatlas.tsv.zip</ext-link> and mapped to proteins through genenames.</p><p>Comparison of overall expression levels between promiscuous and non‐promiscuous proteins shown in Fig <xref rid="msb202010016-fig-0001ev" ref-type="fig">EV1</xref> was done using HPA using the same proteinatlas.tsv.zip file described above. The median value was calculated for all “Tissue RNA” columns for each individual promiscuous and non‐promiscuous protein, and the resulting distribution was plotted.</p></sec></sec></sec><sec id="msb202010016-sec-0026"><title>Author contributions</title><p>KD, JBW, and EMM conceived of the study. KD designed all experiments and analyzed data. KD wrote software including software pipeline and web resources. KD, JBW, and EMM discussed and interpreted the results, and wrote the manuscript.</p></sec><sec sec-type="COI-statement" id="msb202010016-sec-0027"><title>Conflict of interest</title><p>The authors declare that they have no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" position="float" orientation="portrait"/><supplementary-material content-type="local-data" id="msb202010016-sup-0001" position="float" orientation="portrait"><caption><p>Expanded View Figures PDF</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MSB-17-e10016-s002.pdf" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb202010016-sup-0002" position="float" orientation="portrait"><caption><p>Dataset EV1</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MSB-17-e10016-s003.xlsx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb202010016-sup-0003" position="float" orientation="portrait"><caption><p>Dataset EV2</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MSB-17-e10016-s004.xlsx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb202010016-sup-0004" position="float" orientation="portrait"><caption><p>Dataset EV3</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MSB-17-e10016-s001.xlsx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" position="float" orientation="portrait"><caption><p>Review Process File</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MSB-17-e10016-s005.pdf" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="msb202010016-sec-0025"><title>Acknowledgements</title><p>This work was supported by grants from the NIH (01 DK110520, R35 GM122480 to E.M.M.; R01 HL117164 and R01 HD085901 to J.B.W.; K99 HD092613 and L40 HD096554 to K.D.) and the Welch Foundation (F‐1515) to E.M.M. The authors acknowledge the Texas Advanced Computing Center (TACC) at The University of Texas at Austin for providing high‐performance computing resources that have contributed to the research results reported within this paper. URL: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.tacc.utexas.edu">http://www.tacc.utexas.edu</ext-link>.</p></ack><sec sec-type="data-availability" id="msb202010016-sec-0024"><title>Data availability</title><p>hu.MAP 2.0 is available at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/" specific-use="software is-supplemented-by">http://humap2.proteincomplexes.org/</ext-link>
+</p><p>Protein Complexes List: humap2_complexes <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_complexes_20200809.txt" specific-use="software is-supplemented-by">http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_complexes_20200809.txt</ext-link>
+</p><p>Protein Interaction Network with probability scores: humap2_ppis_ACC <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_ppis_ACC_20200821.pairsWprob.gz" specific-use="software is-supplemented-by">http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_ppis_ACC_20200821.pairsWprob.gz</ext-link>
+</p><p>Cytoscape Network: humap2_protein_complex_map <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_protein_complex_map_20200821.cys" specific-use="software is-supplemented-by">http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_protein_complex_map_20200821.cys</ext-link>
+</p><p>Train Complexes: humap2_train_complexes_ACC</p><p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_train_complexes_ACC_20200818.txt" specific-use="software is-supplemented-by">http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_train_complexes_ACC_20200818.txt</ext-link>
+</p><p>Test Complexes: humap2_test_complexes_ACC</p><p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_test_complexes_ACC_20200818.txt" specific-use="software is-supplemented-by">http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_test_complexes_ACC_20200818.txt</ext-link>
+</p><p>Train Positive PPIs: humap2_train_ppis_ACC</p><p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_train_ppis_ACC_20200818.txt" specific-use="software is-supplemented-by">http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_train_ppis_ACC_20200818.txt</ext-link>
+</p><p>Train Negative PPIs: humap2_neg_train_ppis_ACC</p><p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_neg_train_ppis_ACC_20200818.txt" specific-use="software is-supplemented-by">http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_neg_train_ppis_ACC_20200818.txt</ext-link>
+</p><p>Test Positive PPIs: humap2_test_ppis_ACC</p><p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_test_ppis_ACC_20200818.txt" specific-use="software is-supplemented-by">http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_test_ppis_ACC_20200818.txt</ext-link>
+</p><p>Test Negative PPIs: humap2_neg_test_ppis_ACC</p><p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_neg_test_ppis_ACC_20200818.txt" specific-use="software is-supplemented-by">http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_neg_test_ppis_ACC_20200818.txt</ext-link>
+</p><p>Feature Matrix: humap2_feature_matrix</p><p>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_feature_matrix_20200820.featmat.gz" specific-use="software is-supplemented-by">http://humap2.proteincomplexes.org/static/downloads/humap2/humap2_feature_matrix_20200820.featmat.gz</ext-link>
+</p><p>Software pipeline: GitHub <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/marcottelab/protein_complex_maps" specific-use="software is-supplemented-by">https://github.com/marcottelab/protein_complex_maps</ext-link>
+</p></sec><ref-list content-type="cited-references" id="msb202010016-bibl-0001"><title>References</title><ref id="msb202010016-bib-0001"><mixed-citation publication-type="journal" id="msb202010016-cit-0001">
+<string-name name-style="western">
+<surname>Alberts</surname>
+<given-names>B</given-names>
+</string-name> (<year>1998</year>) <article-title>The cell as a collection of protein machines: preparing the next generation of molecular biologists</article-title>. <source xml:lang="en">Cell</source>
+<volume>92</volume>: <fpage>291</fpage>–<lpage>294</lpage>
+<pub-id pub-id-type="pmid">9476889</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0092-8674(00)80922-8</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0002"><mixed-citation publication-type="journal" id="msb202010016-cit-0002">
+<string-name name-style="western">
+<surname>Arkin</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wells</surname>
+<given-names>JA</given-names>
+</string-name> (<year>2014</year>) <article-title>Small‐molecule inhibitors of protein‐protein interactions: progressing towards the reality</article-title>. <source xml:lang="en">Chem Biol</source>
+<volume>21</volume>: <fpage>1102</fpage>–<lpage>1114</lpage>
+<pub-id pub-id-type="pmid">25237857</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.chembiol.2014.09.001</pub-id><pub-id pub-id-type="pmcid">PMC4179228</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0003"><mixed-citation publication-type="journal" id="msb202010016-cit-0003">
+<string-name name-style="western">
+<surname>Ashburner</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ball</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blake</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Botstein</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Butler</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cherry</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davis</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dolinski</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dwight</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eppig</surname>
+<given-names>JT</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2000</year>) <article-title>Gene ontology: tool for the unification of biology. The Gene Ontology Consortium</article-title>. <source xml:lang="en">Nat Genet</source>
+<volume>25</volume>: <fpage>25</fpage>–<lpage>29</lpage>
+<pub-id pub-id-type="pmid">10802651</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/75556</pub-id><pub-id pub-id-type="pmcid">PMC3037419</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0004"><mixed-citation publication-type="journal" id="msb202010016-cit-0004">
+<string-name name-style="western">
+<surname>Baltz</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Munschauer</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schwanhäusser</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vasile</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murakawa</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schueler</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Youngs</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Penfold‐Brown</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Drew</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Milek</surname>
+<given-names>M</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2012</year>) <article-title>The mRNA‐bound proteome and its global occupancy profile on protein‐coding transcripts</article-title>. <source xml:lang="en">Mol Cell</source>
+<volume>46</volume>: <fpage>674</fpage>–<lpage>690</lpage>
+<pub-id pub-id-type="pmid">22681889</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.molcel.2012.05.021</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0005"><mixed-citation publication-type="journal" id="msb202010016-cit-0005">
+<string-name name-style="western">
+<surname>Boldt</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Reeuwijk</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lu</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koutroumpas</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nguyen</surname>
+<given-names>T‐M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Texier</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Beersum</surname>
+<given-names>SEC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Horn</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Willer</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mans</surname>
+<given-names>DA</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2016</year>) <article-title>An organelle‐specific protein landscape identifies novel diseases and molecular mechanisms</article-title>. <source xml:lang="en">Nat Commun</source>
+<volume>7</volume>: <elocation-id>11491</elocation-id>
+<pub-id pub-id-type="pmid">27173435</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms11491</pub-id><pub-id pub-id-type="pmcid">PMC4869170</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0006"><mixed-citation publication-type="journal" id="msb202010016-cit-0006">
+<string-name name-style="western">
+<surname>Bruel</surname>
+<given-names>A‐L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Franco</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duffourd</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thevenon</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jego</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lopez</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deleuze</surname>
+<given-names>J‐F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doummar</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giles</surname>
+<given-names>RH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>
+<given-names>CA</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2017</year>) <article-title>Fifteen years of research on oral‐facial‐digital syndromes: from 1 to 16 causal genes</article-title>. <source xml:lang="en">J Med Genet</source>
+<volume>54</volume>: <fpage>371</fpage>–<lpage>380</lpage>
+<pub-id pub-id-type="pmid">28289185</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/jmedgenet-2016-104436</pub-id><pub-id pub-id-type="pmcid">PMC5557276</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0007"><mixed-citation publication-type="journal" id="msb202010016-cit-0007">
+<string-name name-style="western">
+<surname>Buitinck</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Louppe</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blondel</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pedregosa</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mueller</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grisel</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Niculae</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prettenhofer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gramfort</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grobler</surname>
+<given-names>J</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2013</year>) <article-title>API design for machine learning software: experiences from the scikit‐learn project</article-title>. <source xml:lang="en">ArXiv</source> https://arxiv.org/abs/1309.0238v1 [PREPRINT]</mixed-citation></ref><ref id="msb202010016-bib-0008"><mixed-citation publication-type="journal" id="msb202010016-cit-0008">
+<string-name name-style="western">
+<surname>Castello</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fischer</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eichelbaum</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Horos</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beckmann</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strein</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davey</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Humphreys</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Preiss</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Steinmetz</surname>
+<given-names>L</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2012</year>) <article-title>Insights into RNA biology from an atlas of mammalian mRNA‐binding proteins</article-title>. <source xml:lang="en">Cell</source>
+<volume>149</volume>: <fpage>1393</fpage>–<lpage>1406</lpage>
+<pub-id pub-id-type="pmid">22658674</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2012.04.031</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0009"><mixed-citation publication-type="journal" id="msb202010016-cit-0009">
+<string-name name-style="western">
+<surname>Chang</surname>
+<given-names>C‐C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>C‐J</given-names>
+</string-name> (<year>2011</year>) <article-title>LIBSVM: a library for support vector machines</article-title>. <source xml:lang="en">ACM Trans Intell Syst Technol</source>
+<volume>2</volume>: <fpage>27:1–</fpage>
+<lpage>27:27</lpage>
+</mixed-citation></ref><ref id="msb202010016-bib-0010"><mixed-citation publication-type="journal" id="msb202010016-cit-0010">
+<string-name name-style="western">
+<surname>Chapados</surname>
+<given-names>BR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chai</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hosfield</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qiu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shen</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tainer</surname>
+<given-names>JA</given-names>
+</string-name> (<year>2001</year>) <article-title>Structural biochemistry of a type 2 RNase H: RNA primer recognition and removal during DNA replication11Edited by K. Morikawa</article-title>. <source xml:lang="en">J Mol Biol</source>
+<volume>307</volume>: <fpage>541</fpage>–<lpage>556</lpage>
+<pub-id pub-id-type="pmid">11254381</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1006/jmbi.2001.4494</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0011"><mixed-citation publication-type="journal" id="msb202010016-cit-0011">
+<string-name name-style="western">
+<surname>Chapple</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robisson</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Spinelli</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guien</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Becker</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brun</surname>
+<given-names>C</given-names>
+</string-name> (<year>2015</year>) <article-title>Extreme multifunctional proteins identified from a human protein interaction network</article-title>. <source xml:lang="en">Nat Commun</source>
+<volume>6</volume>: <fpage>7412</fpage>
+<pub-id pub-id-type="pmid">26054620</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms8412</pub-id><pub-id pub-id-type="pmcid">PMC4468855</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0012"><mixed-citation publication-type="book" id="msb202010016-cit-0012">
+<string-name name-style="western">
+<surname>Davis</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goadrich</surname>
+<given-names>M</given-names>
+</string-name> (<year>2006</year>) <chapter-title>The relationship between Precision‐Recall and ROC curves</chapter-title>. In <source xml:lang="en">Proceedings of the 23rd international conference on Machine learning ‐ ICML ’06</source>, pp <fpage>233</fpage>–<lpage>240</lpage>. <publisher-loc>Pittsburgh, PA</publisher-loc>: <publisher-name>ACM Press</publisher-name>
+</mixed-citation></ref><ref id="msb202010016-bib-0013"><mixed-citation publication-type="journal" id="msb202010016-cit-0013">
+<string-name name-style="western">
+<surname>Diep</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ooi</surname>
+<given-names>YS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilkinson</surname>
+<given-names>AW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peters</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Foy</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zengel</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ding</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weng</surname>
+<given-names>K‐F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Laufman</surname>
+<given-names>O</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2019</year>) <article-title>Enterovirus pathogenesis requires the host methyltransferase SETD3</article-title>. <source xml:lang="en">Nat Microbiol</source>
+<volume>4</volume>: <fpage>2523</fpage>–<lpage>2537</lpage>
+<pub-id pub-id-type="pmid">31527793</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41564-019-0551-1</pub-id><pub-id pub-id-type="pmcid">PMC6879830</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0014"><mixed-citation publication-type="journal" id="msb202010016-cit-0014">
+<string-name name-style="western">
+<surname>Drew</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huizar</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tu</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Borgeson</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McWhite</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ma</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wallingford</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcotte</surname>
+<given-names>EM</given-names>
+</string-name> (<year>2017</year>) <article-title>Integration of over 9,000 mass spectrometry experiments builds a global map of human protein complexes</article-title>. <source xml:lang="en">Mol Syst Biol</source>
+<volume>13</volume>: <fpage>932</fpage>
+<pub-id pub-id-type="pmid">28596423</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/msb.20167490</pub-id><pub-id pub-id-type="pmcid">PMC5488662</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0015"><mixed-citation publication-type="journal" id="msb202010016-cit-0015">
+<string-name name-style="western">
+<surname>Enright</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Dongen</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ouzounis</surname>
+<given-names>CA</given-names>
+</string-name> (<year>2002</year>) <article-title>An efficient algorithm for large‐scale detection of protein families</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>30</volume>: <fpage>1575</fpage>–<lpage>1584</lpage>
+<pub-id pub-id-type="pmid">11917018</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/30.7.1575</pub-id><pub-id pub-id-type="pmcid">PMC101833</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0016"><mixed-citation publication-type="journal" id="msb202010016-cit-0016">
+<string-name name-style="western">
+<surname>Fabregat</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sidiropoulos</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garapati</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gillespie</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hausmann</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haw</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jassal</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jupe</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Korninger</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McKay</surname>
+<given-names>S</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2016</year>) <article-title>The reactome pathway knowledgebase</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>44</volume>: <fpage>D481</fpage>–<lpage>D487</lpage>
+<pub-id pub-id-type="pmid">26656494</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkv1351</pub-id><pub-id pub-id-type="pmcid">PMC4702931</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0017"><mixed-citation publication-type="journal" id="msb202010016-cit-0017">
+<string-name name-style="western">
+<surname>Gavin</surname>
+<given-names>A‐C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bösche</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Krause</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grandi</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marzioch</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bauer</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schultz</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rick</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Michon</surname>
+<given-names>A‐M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cruciat</surname>
+<given-names>C‐M</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2002</year>) <article-title>Functional organization of the yeast proteome by systematic analysis of protein complexes</article-title>. <source xml:lang="en">Nature</source>
+<volume>415</volume>: <fpage>141</fpage>–<lpage>147</lpage>
+<pub-id pub-id-type="pmid">11805826</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/415141a</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0018"><mixed-citation publication-type="journal" id="msb202010016-cit-0018">
+<string-name name-style="western">
+<surname>Giurgiu</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reinhard</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brauner</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dunger‐Kaltenbach</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fobo</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frishman</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Montrone</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ruepp</surname>
+<given-names>A</given-names>
+</string-name> (<year>2019</year>) <article-title>CORUM: the comprehensive resource of mammalian protein complexes‐2019</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>47</volume>: <fpage>D559</fpage>–<lpage>D563</lpage>
+<pub-id pub-id-type="pmid">30357367</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gky973</pub-id><pub-id pub-id-type="pmcid">PMC6323970</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0019"><mixed-citation publication-type="journal" id="msb202010016-cit-0019">
+<string-name name-style="western">
+<surname>Goh</surname>
+<given-names>K‐I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cusick</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Valle</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Childs</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vidal</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barabási</surname>
+<given-names>A‐L</given-names>
+</string-name> (<year>2007</year>) <article-title>The human disease network</article-title>. <source xml:lang="en">Proc Natl Acad Sci USA</source>
+<volume>104</volume>: <fpage>8685</fpage>–<lpage>8690</lpage>
+<pub-id pub-id-type="pmid">17502601</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0701361104</pub-id><pub-id pub-id-type="pmcid">PMC1885563</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0020"><mixed-citation publication-type="journal" id="msb202010016-cit-0020">
+<string-name name-style="western">
+<surname>Gupta</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coyaud</surname>
+<given-names>É</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gonçalves</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mojarad</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Yi</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gheiratmand</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Comartin</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tkach</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheung</surname>
+<given-names>S</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2015</year>) <article-title>A Dynamic protein interaction landscape of the human centrosome‐cilium interface</article-title>. <source xml:lang="en">Cell</source>
+<volume>163</volume>: <fpage>1484</fpage>–<lpage>1499</lpage>
+<pub-id pub-id-type="pmid">26638075</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2015.10.065</pub-id><pub-id pub-id-type="pmcid">PMC5089374</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0021"><mixed-citation publication-type="journal" id="msb202010016-cit-0021">
+<string-name name-style="western">
+<surname>Guruharsha</surname>
+<given-names>Kg</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rual</surname>
+<given-names>J‐F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhai</surname>
+<given-names>Bo</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mintseris</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vaidya</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vaidya</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beekman</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wong</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rhee</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cenaj</surname>
+<given-names>O</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2011</year>) <article-title>A protein complex network of <italic toggle="yes">Drosophila melanogaster</italic>
+</article-title>. <source xml:lang="en">Cell</source>
+<volume>147</volume>: <fpage>690</fpage>–<lpage>703</lpage>
+<pub-id pub-id-type="pmid">22036573</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2011.08.047</pub-id><pub-id pub-id-type="pmcid">PMC3319048</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0022"><mixed-citation publication-type="journal" id="msb202010016-cit-0022">
+<string-name name-style="western">
+<surname>Hart</surname>
+<given-names>GT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ramani</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcotte</surname>
+<given-names>EM</given-names>
+</string-name> (<year>2006</year>) <article-title>How complete are current yeast and human protein‐interaction networks?</article-title>
+<source xml:lang="en">Genome Biol</source>
+<volume>7</volume>: <fpage>120</fpage>
+<pub-id pub-id-type="pmid">17147767</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/gb-2006-7-11-120</pub-id><pub-id pub-id-type="pmcid">PMC1794583</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0023"><mixed-citation publication-type="journal" id="msb202010016-cit-0023">
+<string-name name-style="western">
+<surname>Hart</surname>
+<given-names>GT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcotte</surname>
+<given-names>EM</given-names>
+</string-name> (<year>2007</year>) <article-title>A high‐accuracy consensus map of yeast protein complexes reveals modular nature of gene essentiality</article-title>. <source xml:lang="en">BMC Bioinformatics</source>
+<volume>8</volume>: <fpage>236</fpage>
+<pub-id pub-id-type="pmid">17605818</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2105-8-236</pub-id><pub-id pub-id-type="pmcid">PMC1940025</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0024"><mixed-citation publication-type="journal" id="msb202010016-cit-0024">
+<string-name name-style="western">
+<surname>Hartwell</surname>
+<given-names>LH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hopfield</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leibler</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murray</surname>
+<given-names>AW</given-names>
+</string-name> (<year>1999</year>) <article-title>From molecular to modular cell biology</article-title>. <source xml:lang="en">Nature</source>
+<volume>402</volume>: <fpage>C47</fpage>–<lpage>C52</lpage>
+<pub-id pub-id-type="pmid">10591225</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/35011540</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0025"><mixed-citation publication-type="journal" id="msb202010016-cit-0025">
+<string-name name-style="western">
+<surname>Havugimana</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hart</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nepusz</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Turinsky</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boutz</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fong</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Phanse</surname>
+<given-names>S</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2012</year>) <article-title>A census of human soluble protein complexes</article-title>. <source xml:lang="en">Cell</source>
+<volume>150</volume>: <fpage>1068</fpage>–<lpage>1081</lpage>
+<pub-id pub-id-type="pmid">22939629</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2012.08.011</pub-id><pub-id pub-id-type="pmcid">PMC3477804</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0026"><mixed-citation publication-type="journal" id="msb202010016-cit-0026">
+<string-name name-style="western">
+<surname>Hein</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hubner</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Poser</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cox</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nagaraj</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Toyoda</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gak</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weisswange</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mansfeld</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buchholz</surname>
+<given-names>F</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2015</year>) <article-title>A human interactome in three quantitative dimensions organized by stoichiometries and abundances</article-title>. <source xml:lang="en">Cell</source>
+<volume>163</volume>: <fpage>712</fpage>–<lpage>723</lpage>
+<pub-id pub-id-type="pmid">26496610</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2015.09.053</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0027"><mixed-citation publication-type="journal" id="msb202010016-cit-0027">
+<string-name name-style="western">
+<surname>Ho</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gruhler</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heilbut</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bader</surname>
+<given-names>GD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moore</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Adams</surname>
+<given-names>S‐L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Millar</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taylor</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boutilier</surname>
+<given-names>K</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2002</year>) <article-title>Systematic identification of protein complexes in <italic toggle="yes">Saccharomyces cerevisiae</italic> by mass spectrometry</article-title>. <source xml:lang="en">Nature</source>
+<volume>415</volume>: <fpage>180</fpage>–<lpage>183</lpage>
+<pub-id pub-id-type="pmid">11805837</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/415180a</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0028"><mixed-citation publication-type="journal" id="msb202010016-cit-0028">
+<string-name name-style="western">
+<surname>Huttlin</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ting</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bruckner</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gebreab</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gygi</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Szpyt</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tam</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zarraga</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Colby</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baltier</surname>
+<given-names>K</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2015</year>) <article-title>The BioPlex network: a systematic exploration of the human interactome</article-title>. <source xml:lang="en">Cell</source>
+<volume>162</volume>: <fpage>425</fpage>–<lpage>440</lpage>
+<pub-id pub-id-type="pmid">26186194</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2015.06.043</pub-id><pub-id pub-id-type="pmcid">PMC4617211</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0029"><mixed-citation publication-type="journal" id="msb202010016-cit-0029">
+<string-name name-style="western">
+<surname>Huttlin</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bruckner</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Paulo</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cannon</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ting</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baltier</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Colby</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gebreab</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gygi</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Parzen</surname>
+<given-names>H</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2017</year>) <article-title>Architecture of the human interactome defines protein communities and disease networks</article-title>. <source xml:lang="en">Nature</source>
+<volume>545</volume>: <fpage>505</fpage>–<lpage>509</lpage>
+<pub-id pub-id-type="pmid">28514442</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature22366</pub-id><pub-id pub-id-type="pmcid">PMC5531611</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0030"><mixed-citation publication-type="journal" id="msb202010016-cit-0030">
+<string-name name-style="western">
+<surname>Jeffery</surname>
+<given-names>CJ</given-names>
+</string-name> (<year>2015</year>) <article-title>Why study moonlighting proteins?</article-title>
+<source xml:lang="en">Front Genet</source>
+<volume>6</volume>: <fpage>211</fpage>
+<pub-id pub-id-type="pmid">26150826</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fgene.2015.00211</pub-id><pub-id pub-id-type="pmcid">PMC4473056</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0031"><mixed-citation publication-type="journal" id="msb202010016-cit-0031">
+<string-name name-style="western">
+<surname>Kanehisa</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goto</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sato</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kawashima</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Furumichi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tanabe</surname>
+<given-names>M</given-names>
+</string-name> (<year>2014</year>) <article-title>Data, information, knowledge and principle: back to metabolism in KEGG</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>42</volume>: <fpage>D199</fpage>–<lpage>D205</lpage>
+<pub-id pub-id-type="pmid">24214961</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkt1076</pub-id><pub-id pub-id-type="pmcid">PMC3965122</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0032"><mixed-citation publication-type="journal" id="msb202010016-cit-0032">
+<string-name name-style="western">
+<surname>Kirkwood</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ahmad</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Larance</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lamond</surname>
+<given-names>AI</given-names>
+</string-name> (<year>2013</year>) <article-title>Characterisation of native protein complexes and protein isoform variation using size‐fractionation based quantitative proteomics</article-title>. <source xml:lang="en">Mol Cell Proteomics</source>
+<volume>12</volume>: <fpage>3851</fpage>–<lpage>3873</lpage>
+<pub-id pub-id-type="pmid">24043423</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/mcp.M113.032367</pub-id><pub-id pub-id-type="pmcid">PMC3861729</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0033"><mixed-citation publication-type="journal" id="msb202010016-cit-0033">
+<string-name name-style="western">
+<surname>Köhler</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doelken</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mungall</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bauer</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Firth</surname>
+<given-names>HV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bailleul‐Forestier</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Black</surname>
+<given-names>GCM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brown</surname>
+<given-names>DL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brudno</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Campbell</surname>
+<given-names>J</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2014</year>) <article-title>The Human Phenotype Ontology project: linking molecular biology and disease through phenotype data</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>42</volume>: <fpage>D966</fpage>–<lpage>D974</lpage>
+<pub-id pub-id-type="pmid">24217912</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkt1026</pub-id><pub-id pub-id-type="pmcid">PMC3965098</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0034"><mixed-citation publication-type="journal" id="msb202010016-cit-0034">
+<string-name name-style="western">
+<surname>Kristensen</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gsponer</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Foster</surname>
+<given-names>LJ</given-names>
+</string-name> (<year>2012</year>) <article-title>A high‐throughput approach for measuring temporal changes in the interactome</article-title>. <source xml:lang="en">Nat Methods</source>
+<volume>9</volume>: <fpage>907</fpage>–<lpage>909</lpage>
+<pub-id pub-id-type="pmid">22863883</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth.2131</pub-id><pub-id pub-id-type="pmcid">PMC3954081</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0035"><mixed-citation publication-type="journal" id="msb202010016-cit-0035">
+<string-name name-style="western">
+<surname>Kustatscher</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grabowski</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schrader</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Passmore</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schrader</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rappsilber</surname>
+<given-names>J</given-names>
+</string-name> (<year>2019</year>) <article-title>Co‐regulation map of the human proteome enables identification of protein functions</article-title>. <source xml:lang="en">Nat Biotechnol</source>
+<volume>37</volume>: <fpage>1361</fpage>–<lpage>1371</lpage>
+<pub-id pub-id-type="pmid">31690884</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41587-019-0298-5</pub-id><pub-id pub-id-type="pmcid">PMC6901355</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0036"><mixed-citation publication-type="journal" id="msb202010016-cit-0036">
+<string-name name-style="western">
+<surname>Kwon</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Choi</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vogel</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nesvizhskii</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcotte</surname>
+<given-names>EM</given-names>
+</string-name> (<year>2011</year>) <article-title>MSblender: a probabilistic approach for integrating peptide identifications from multiple database search engines</article-title>. <source xml:lang="en">J Proteome Res</source>
+<volume>10</volume>: <fpage>2949</fpage>–<lpage>2958</lpage>
+<pub-id pub-id-type="pmid">21488652</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/pr2002116</pub-id><pub-id pub-id-type="pmcid">PMC3128686</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0037"><mixed-citation publication-type="journal" id="msb202010016-cit-0037">
+<string-name name-style="western">
+<surname>Lee</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blom</surname>
+<given-names>UM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>PI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shim</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcotte</surname>
+<given-names>EM</given-names>
+</string-name> (<year>2011</year>) <article-title>Prioritizing candidate disease genes by network‐based boosting of genome‐wide association data</article-title>. <source xml:lang="en">Genome Res</source>
+<volume>21</volume>: <fpage>1109</fpage>–<lpage>1121</lpage>
+<pub-id pub-id-type="pmid">21536720</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.118992.110</pub-id><pub-id pub-id-type="pmcid">PMC3129253</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0038"><mixed-citation publication-type="journal" id="msb202010016-cit-0038">
+<string-name name-style="western">
+<surname>Lex</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gehlenborg</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strobelt</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vuillemot</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pfister</surname>
+<given-names>H</given-names>
+</string-name> (<year>2014</year>) <article-title>UpSet: visualization of intersecting sets</article-title>. <source xml:lang="en">IEEE Trans Vis Comput Graph</source>
+<volume>20</volume>: <fpage>1983</fpage>–<lpage>1992</lpage>
+<pub-id pub-id-type="pmid">26356912</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1109/TVCG.2014.2346248</pub-id><pub-id pub-id-type="pmcid">PMC4720993</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0039"><mixed-citation publication-type="journal" id="msb202010016-cit-0039">
+<string-name name-style="western">
+<surname>Liebeskind</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McWhite</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcotte</surname>
+<given-names>EM</given-names>
+</string-name> (<year>2016</year>) <article-title>Towards consensus gene ages</article-title>. <source xml:lang="en">Genome Biol Evol</source>
+<volume>8</volume>: <fpage>1812</fpage>–<lpage>1823</lpage>
+<pub-id pub-id-type="pmid">27259914</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/gbe/evw113</pub-id><pub-id pub-id-type="pmcid">PMC4943184</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0040"><mixed-citation publication-type="journal" id="msb202010016-cit-0040">
+<string-name name-style="western">
+<surname>Luck</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>D‐K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lambourne</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Spirohn</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Begg</surname>
+<given-names>BE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bian</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brignall</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cafarelli</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Campos‐Laborie</surname>
+<given-names>FJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Charloteaux</surname>
+<given-names>B</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2020</year>) <article-title>A reference map of the human binary protein interactome</article-title>. <source xml:lang="en">Nature</source>
+<volume>580</volume>: <fpage>402</fpage>–<lpage>408</lpage>
+<pub-id pub-id-type="pmid">32296183</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-020-2188-x</pub-id><pub-id pub-id-type="pmcid">PMC7169983</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0041"><mixed-citation publication-type="journal" id="msb202010016-cit-0041">
+<string-name name-style="western">
+<surname>Mallam</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sae‐Lee</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schaub</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tu</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Battenhouse</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jang</surname>
+<given-names>YJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wallingford</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Finkelstein</surname>
+<given-names>IJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcotte</surname>
+<given-names>EM</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2019</year>) <article-title>Systematic discovery of endogenous human ribonucleoprotein complexes</article-title>. <source xml:lang="en">Cell Rep</source>
+<volume>29</volume>: <fpage>1351</fpage>–<lpage>1368</lpage>.e5<pub-id pub-id-type="pmid">31665645</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.celrep.2019.09.060</pub-id><pub-id pub-id-type="pmcid">PMC6873818</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0042"><mixed-citation publication-type="journal" id="msb202010016-cit-0042">
+<string-name name-style="western">
+<surname>Malovannaya</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lanz</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jung</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bulynko</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Le</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chan</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ding</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>
+<given-names>Yi</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yucer</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Krenciute</surname>
+<given-names>G</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2011</year>) <article-title>Analysis of the human endogenous coregulator complexome</article-title>. <source xml:lang="en">Cell</source>
+<volume>145</volume>: <fpage>787</fpage>–<lpage>799</lpage>
+<pub-id pub-id-type="pmid">21620140</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2011.05.006</pub-id><pub-id pub-id-type="pmcid">PMC3131083</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0043"><mixed-citation publication-type="journal" id="msb202010016-cit-0043">
+<string-name name-style="western">
+<surname>Mani</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amblee</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mathur</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zwicke</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zabad</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Patel</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thakkar</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jeffery</surname>
+<given-names>CJ</given-names>
+</string-name> (<year>2015</year>) <article-title>MoonProt: a database for proteins that are known to moonlight</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>43</volume>: <fpage>D277</fpage>–<lpage>D282</lpage>
+<pub-id pub-id-type="pmid">25324305</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gku954</pub-id><pub-id pub-id-type="pmcid">PMC4384022</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0044"><mixed-citation publication-type="journal" id="msb202010016-cit-0044">
+<string-name name-style="western">
+<surname>Mi</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Muruganujan</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ebert</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thomas</surname>
+<given-names>PD</given-names>
+</string-name> (<year>2019</year>) <article-title>PANTHER version 14: more genomes, a new PANTHER GO‐slim and improvements in enrichment analysis tools</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>47</volume>: <fpage>D419</fpage>–<lpage>D426</lpage>
+<pub-id pub-id-type="pmid">30407594</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gky1038</pub-id><pub-id pub-id-type="pmcid">PMC6323939</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0045"><mixed-citation publication-type="journal" id="msb202010016-cit-0045">
+<string-name name-style="western">
+<surname>Nepusz</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Paccanaro</surname>
+<given-names>A</given-names>
+</string-name> (<year>2012</year>) <article-title>Detecting overlapping protein complexes in protein‐protein interaction networks</article-title>. <source xml:lang="en">Nat Methods</source>
+<volume>9</volume>: <fpage>471</fpage>–<lpage>472</lpage>
+<pub-id pub-id-type="pmid">22426491</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth.1938</pub-id><pub-id pub-id-type="pmcid">PMC3543700</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0046"><mixed-citation publication-type="journal" id="msb202010016-cit-0046">
+<string-name name-style="western">
+<surname>Newman</surname>
+<given-names>MEJ</given-names>
+</string-name> (<year>2004</year>) <article-title>Fast algorithm for detecting community structure in networks</article-title>. <source xml:lang="en">Phys Rev E</source>
+<volume>69</volume>: <elocation-id>066133</elocation-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1103/PhysRevE.69.066133</pub-id><pub-id pub-id-type="pmid">15244693</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0047"><mixed-citation publication-type="journal" id="msb202010016-cit-0047">
+<string-name name-style="western">
+<surname>Perez‐Riverol</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Csordas</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bai</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bernal‐Llinares</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hewapathirana</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kundu</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Inuganti</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Griss</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mayer</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eisenacher</surname>
+<given-names>M</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2019</year>) <article-title>The PRIDE database and related tools and resources in 2019: improving support for quantification data</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>47</volume>: <fpage>D442</fpage>–<lpage>D450</lpage>
+<pub-id pub-id-type="pmid">30395289</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gky1106</pub-id><pub-id pub-id-type="pmcid">PMC6323896</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0048"><mixed-citation publication-type="journal" id="msb202010016-cit-0048">
+<string-name name-style="western">
+<surname>Reijns</surname>
+<given-names>MAM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jackson</surname>
+<given-names>AP</given-names>
+</string-name> (<year>2014</year>) <article-title>Ribonuclease H2 in health and disease</article-title>. <source xml:lang="en">Biochem Soc Trans</source>
+<volume>42</volume>: <fpage>717</fpage>–<lpage>725</lpage>
+<pub-id pub-id-type="pmid">25109948</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1042/BST20140079</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0049"><mixed-citation publication-type="journal" id="msb202010016-cit-0049">
+<string-name name-style="western">
+<surname>Reimand</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arak</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Adler</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kolberg</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reisberg</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peterson</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vilo</surname>
+<given-names>J</given-names>
+</string-name> (<year>2016</year>) <article-title>g:Profiler‐a web server for functional interpretation of gene lists (2016 update)</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>44</volume>: <fpage>W83</fpage>–<lpage>W89</lpage>
+<pub-id pub-id-type="pmid">27098042</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkw199</pub-id><pub-id pub-id-type="pmcid">PMC4987867</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0050"><mixed-citation publication-type="journal" id="msb202010016-cit-0050">
+<string-name name-style="western">
+<surname>Saeed</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deane</surname>
+<given-names>CM</given-names>
+</string-name> (<year>2006</year>) <article-title>Protein protein interactions, evolutionary rate, abundance and age</article-title>. <source xml:lang="en">BMC Bioinformatics</source>
+<volume>7</volume>: <fpage>128</fpage>
+<pub-id pub-id-type="pmid">16533385</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2105-7-128</pub-id><pub-id pub-id-type="pmcid">PMC1431566</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0051"><mixed-citation publication-type="journal" id="msb202010016-cit-0051">
+<string-name name-style="western">
+<surname>Saito</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rehmsmeier</surname>
+<given-names>M</given-names>
+</string-name> (<year>2015</year>) <article-title>The precision‐recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets</article-title>. <source xml:lang="en">PLoS One</source>
+<volume>10</volume>: <elocation-id>e0118432</elocation-id>
+<pub-id pub-id-type="pmid">25738806</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0118432</pub-id><pub-id pub-id-type="pmcid">PMC4349800</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0052"><mixed-citation publication-type="journal" id="msb202010016-cit-0052">
+<string-name name-style="western">
+<surname>Sonnhammer</surname>
+<given-names>ELL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Östlund</surname>
+<given-names>G</given-names>
+</string-name> (<year>2015</year>) <article-title>InParanoid 8: orthology analysis between 273 proteomes, mostly eukaryotic</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>43</volume>: <fpage>D234</fpage>–<lpage>239</lpage>
+<pub-id pub-id-type="pmid">25429972</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gku1203</pub-id><pub-id pub-id-type="pmcid">PMC4383983</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0053"><mixed-citation publication-type="journal" id="msb202010016-cit-0053">
+<string-name name-style="western">
+<surname>Stoeger</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gerlach</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morimoto</surname>
+<given-names>RI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amaral</surname>
+<given-names>LAN</given-names>
+</string-name> (<year>2018</year>) <article-title>Large‐scale investigation of the reasons why potentially important genes are ignored</article-title>. <source xml:lang="en">PLOS Biol</source>
+<volume>16</volume>: <elocation-id>e2006643</elocation-id>
+<pub-id pub-id-type="pmid">30226837</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.2006643</pub-id><pub-id pub-id-type="pmcid">PMC6143198</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0054"><mixed-citation publication-type="journal" id="msb202010016-cit-0054">
+<collab collab-type="authors">The UniProt Consortium</collab>
+(<year>2017</year>) <article-title>UniProt: the universal protein knowledgebase</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>45</volume>: <fpage>D158</fpage>–<lpage>D169</lpage>
+<pub-id pub-id-type="pmid">27899622</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkw1099</pub-id><pub-id pub-id-type="pmcid">PMC5210571</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0055"><mixed-citation publication-type="journal" id="msb202010016-cit-0055">
+<string-name name-style="western">
+<surname>Treiber</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Treiber</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Plessmann</surname>
+<given-names>U</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harlander</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Daiß</surname>
+<given-names>J‐L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eichner</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lehmann</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schall</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Urlaub</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Meister</surname>
+<given-names>G</given-names>
+</string-name> (<year>2017</year>) <article-title>A compendium of RNA‐binding proteins that regulate microRNA biogenesis</article-title>. <source xml:lang="en">Mol Cell</source>
+<volume>66</volume>: <fpage>270</fpage>–<lpage>284</lpage>.e13<pub-id pub-id-type="pmid">28431233</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.molcel.2017.03.014</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0056"><mixed-citation publication-type="journal" id="msb202010016-cit-0056">
+<string-name name-style="western">
+<surname>Uhlen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fagerberg</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hallstrom</surname>
+<given-names>Bm</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lindskog</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oksvold</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mardinoglu</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sivertsson</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kampf</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sjostedt</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Asplund</surname>
+<given-names>A</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2015</year>) <article-title>Proteomics. Tissue‐based map of the human proteome</article-title>. <source xml:lang="en">Science</source>
+<volume>347</volume>: <elocation-id>1260419</elocation-id>
+<pub-id pub-id-type="pmid">25613900</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1260419</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0057"><mixed-citation publication-type="journal" id="msb202010016-cit-0057">
+<string-name name-style="western">
+<surname>Wadhwa</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taira</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kaul</surname>
+<given-names>SC</given-names>
+</string-name> (<year>2002</year>) <article-title>An Hsp70 family chaperone, mortalin/mthsp70/PBP74/Grp75: what, when, and where?</article-title>
+<source xml:lang="en">Cell Stress Chaperones</source>
+<volume>7</volume>: <fpage>309</fpage>–<lpage>316</lpage>
+<pub-id pub-id-type="pmid">12482206</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1379/1466-1268(2002)007&lt;0309:ahfcmm&gt;2.0.co;2</pub-id><pub-id pub-id-type="pmcid">PMC514830</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0058"><mixed-citation publication-type="journal" id="msb202010016-cit-0058">
+<string-name name-style="western">
+<surname>Wan</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Borgeson</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Phanse</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tu</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Drew</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clark</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xiong</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kagan</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kwan</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bezginov</surname>
+<given-names>A</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2015</year>) <article-title>Panorama of ancient metazoan macromolecular complexes</article-title>. <source xml:lang="en">Nature</source>
+<volume>525</volume>: <fpage>339</fpage>–<lpage>344</lpage>
+<pub-id pub-id-type="pmid">26344197</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature14877</pub-id><pub-id pub-id-type="pmcid">PMC5036527</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0059"><mixed-citation publication-type="journal" id="msb202010016-cit-0059">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>PI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcotte</surname>
+<given-names>EM</given-names>
+</string-name> (<year>2010</year>) <article-title>It’s the machine that matters: Predicting gene function and phenotype from protein networks</article-title>. <source xml:lang="en">J Proteomics</source>
+<volume>73</volume>: <fpage>2277</fpage>–<lpage>2289</lpage>
+<pub-id pub-id-type="pmid">20637909</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jprot.2010.07.005</pub-id><pub-id pub-id-type="pmcid">PMC2953423</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0060"><mixed-citation publication-type="journal" id="msb202010016-cit-0060">
+<string-name name-style="western">
+<surname>Williams</surname>
+<given-names>GD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gokhale</surname>
+<given-names>NS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Snider</surname>
+<given-names>DL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Horner</surname>
+<given-names>SM</given-names>
+</string-name> (<year>2020</year>) <article-title>The mRNA Cap 2’‐O‐methyltransferase CMTR1 regulates the expression of certain interferon‐stimulated genes</article-title>. <source xml:lang="en">mSphere</source>
+<volume>5</volume>: <fpage>e00202</fpage>–<lpage>e00220</lpage>
+<pub-id pub-id-type="pmid">32404510</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/mSphere.00202-20</pub-id><pub-id pub-id-type="pmcid">PMC7227766</pub-id></mixed-citation></ref><ref id="msb202010016-bib-0061"><mixed-citation publication-type="journal" id="msb202010016-cit-0061">
+<string-name name-style="western">
+<surname>Youn</surname>
+<given-names>J‐Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dunham</surname>
+<given-names>WH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hong</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knight</surname>
+<given-names>JDR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bashkurov</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>GI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bagci</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rathod</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>MacLeod</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eng</surname>
+<given-names>SWM</given-names>
+</string-name>
+<italic toggle="yes">et al</italic> (<year>2018</year>) <article-title>High‐density proximity mapping reveals the subcellular organization of mRNA‐associated granules and bodies</article-title>. <source xml:lang="en">Mol Cell</source>
+<volume>69</volume>: <fpage>517</fpage>–<lpage>532</lpage>.e11<pub-id pub-id-type="pmid">29395067</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.molcel.2017.12.020</pub-id></mixed-citation></ref></ref-list></back></article>

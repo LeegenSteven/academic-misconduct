@@ -1,0 +1,737 @@
+{
+  "date": "2026-11-01",
+  "reviewer": "李云",
+  "review_context": "已见成员4标签、助手建议及陈明进个人意见的集中复核；非独立盲标或独立一致率",
+  "records": [
+    {
+      "citation_id": "M3-W4387330299-W1968850365",
+      "paper_pair_id": "PP-W4387330299--W1968850365",
+      "scope_text": "范围片段1: Then the process of fault tolerance means the ability to manage the continuous interruption of the components and the ability to manage the despite and the operating the computer system and the networking that enables the fault tolerance is proposed. Here the process of maintaining the hardware and the software errors and the induction of the changes in the physical analysis is done [ 2]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 1,
+            "char_start": 3129,
+            "char_end_exclusive": 3519,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Then the process of fault tolerance means the ability to manage the continuous interruption of the components and the ability to manage the despite and the operating the computer system and the networking that enables the fault tolerance is proposed. Here the process of maintaining the hardware and the software errors and the induction of the changes in the physical analysis is done [ 2]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": null,
+      "reason": "待核，三标签留空。原句把组件中断、硬件/软件错误及物理分析混写，命题仍含混。备份/镜像位于v5片段外；如采用更大段落须另定范围，位置在标记后本身不证明永不归属。源文确有量子硬件错误保护，不能仅凭领域不同定IRRELEVANT。保留陈明进原意见及预印本/期刊版本限制。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_HOLD_CONFIRMED",
+      "source_version_limit": "Related preprint established, but body text is not assumed interchangeable with the cited journal version."
+    },
+    {
+      "citation_id": "M3-W4387330299-W2028811477",
+      "paper_pair_id": "PP-W4387330299--W2028811477",
+      "scope_text": "范围片段1: Figure 2 describes the Jitter refers to the variation in the timing of a signal’s transitions, which can cause problems in data transmission, digital signal processing, and other applications that rely on precise timing [ 17]. ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 3,
+            "char_start": 3937,
+            "char_end_exclusive": 4164,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Figure 2 describes the Jitter refers to the variation in the timing of a signal’s transitions, which can cause problems in data transmission, digital signal processing, and other applications that rely on precise timing [ 17]. "
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "IRRELEVANT",
+      "reason": "建议仅针对[17]前“信号转变时刻的抖动定义及其对数据传输/数字信号处理的影响”作IRRELEVANT。可回溯源文讨论量子纠错码、逻辑量子机和噪声阈值，不是该处所述网络信号抖动定义或时钟同步方法。此建议基于已取得的相关预印本，正式期刊版对应关系仍有限制。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Repository/preprint or publisher version must be distinguished before citation-evidence acceptance."
+    },
+    {
+      "citation_id": "M3-W4387330299-W2075846738",
+      "paper_pair_id": "PP-W4387330299--W2075846738",
+      "scope_text": "范围片段1: Disaster Recovery Planning: Disaster recovery planning involves developing a plan for recovering systems and data in the event of a disaster, such as a natural disaster, cyberattack, or hardware failure. This plan can include backup and recovery sys- tems, redundant hardware and storage systems, and other measures to ensure that systems can be recovered quickly and effectively [ 29]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 12,
+            "char_start": 4788,
+            "char_end_exclusive": 5173,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Disaster Recovery Planning: Disaster recovery planning involves developing a plan for recovering systems and data in the event of a disaster, such as a natural disaster, cyberattack, or hardware failure. This plan can include backup and recovery sys- tems, redundant hardware and storage systems, and other measures to ensure that systems can be recovered quickly and effectively [ 29]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "IRRELEVANT",
+      "reason": "施引[29]对应灾难恢复、备份/冗余硬件与存储系统。被引正文具体实验是在七量子比特NMR处理器内将五份magic state蒸馏为一份以提高保真度，机制与此处系统/数据灾难恢复主张不对应。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Repository/preprint or publisher version must be distinguished before citation-evidence acceptance."
+    },
+    {
+      "citation_id": "M3-W4387330299-W2485913602",
+      "paper_pair_id": "PP-W4387330299--W2485913602",
+      "scope_text": "范围片段1: The relationship between packet arrival time and data redundancy is complex, as increasing data redundancy can both improve and worsen packet arrival times. On the one hand, adding redundancy to a transmission can increase the amount of data that needs to be transmitted, which can increase the overall time it takes for packets to arrive. This is because each packet must carry additional information that must be transmitted and received. On the other hand, data redundancy can also improve packet arrival times by helping to ensure the accuracy and integrity of the data being transmitted. By including error-correcting codes and other forms of redundancy, data can be checked and cor- rected for errors before it is transmitted, reducing the need for retransmissions and improving overall network efﬁ- ciency. In general, the relationship between packet arrival time and data redundancy will depend on a variety of factors, including the speciﬁc application, the network environment, and the amount of redundancy being used. By carefully balancing the need for data redundancy with the need for efﬁcient and timely packet transmission, net- work engineers can optimize network performance and ensure reliable data transmission [ 30]\n\n范围片段2: Therefore, it’s important to carefully balance the trade-off between delay and robustness depending on the speciﬁc application and requirements of the system. These factors ﬁnd Coalescing novel QoS Routing and fault tolerance (CRAFT) protocol against the efﬁcient routing [ 30]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 13,
+            "char_start": 880,
+            "char_end_exclusive": 2116,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "The relationship between packet arrival time and data redundancy is complex, as increasing data redundancy can both improve and worsen packet arrival times. On the one hand, adding redundancy to a transmission can increase the amount of data that needs to be transmitted, which can increase the overall time it takes for packets to arrive. This is because each packet must carry additional information that must be transmitted and received. On the other hand, data redundancy can also improve packet arrival times by helping to ensure the accuracy and integrity of the data being transmitted. By including error-correcting codes and other forms of redundancy, data can be checked and cor- rected for errors before it is transmitted, reducing the need for retransmissions and improving overall network efﬁ- ciency. In general, the relationship between packet arrival time and data redundancy will depend on a variety of factors, including the speciﬁc application, the network environment, and the amount of redundancy being used. By carefully balancing the need for data redundancy with the need for efﬁcient and timely packet transmission, net- work engineers can optimize network performance and ensure reliable data transmission [ 30]"
+          },
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 14,
+            "char_start": 775,
+            "char_end_exclusive": 1052,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Therefore, it’s important to carefully balance the trade-off between delay and robustness depending on the speciﬁc application and requirements of the system. These factors ﬁnd Coalescing novel QoS Routing and fault tolerance (CRAFT) protocol against the efﬁcient routing [ 30]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": null,
+      "reason": "待核，三标签留空。源文的MDRI/RIP确实研究网络资源、动态服务需求和路径供给时延，存在可解释的主题关联，成员4的整边IRRELEVANT理由过强。但[30]两处分别提出数据冗余—到达时间权衡、延迟—鲁棒性与CRAFT概括，当前源文定位尚不能覆盖这些具体主张。保留待核，不能用“没出现redundancy”本身当成不准确证据，也不能把施引作者自己的CRAFT贡献自动归给源文。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_HOLD_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W2972117947",
+      "paper_pair_id": "PP-W4387330299--W2972117947",
+      "scope_text": "范围片段1: In this pseudocode, the Pop_Node_With_Lowest_Cost func- tion pops the node with the lowest cost from the priority queue, the Mark_As_Visited function marks a node as visited, the Get_Neighbors function returns the neighbors of a node, Calculate_Cost_Using_Execution_Time_Factor calculates the cost of an edge using the execution time factor, Get_Current_Cost returns the current cost of a node, Update_Cost updates the cost of a node, Set_Path sets the path from the source node to the current node and Add_Node_To_Priority_Queue adds a node to the priority queue [ 22]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 8,
+            "char_start": 403,
+            "char_end_exclusive": 972,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "In this pseudocode, the Pop_Node_With_Lowest_Cost func- tion pops the node with the lowest cost from the priority queue, the Mark_As_Visited function marks a node as visited, the Get_Neighbors function returns the neighbors of a node, Calculate_Cost_Using_Execution_Time_Factor calculates the cost of an edge using the execution time factor, Get_Current_Cost returns the current cost of a node, Update_Cost updates the cost of a node, Set_Path sets the path from the source node to the current node and Add_Node_To_Priority_Queue adds a node to the priority queue [ 22]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "IRRELEVANT",
+      "reason": "施引[22]具体说明以执行时间为边代价的优先队列最短路径伪代码及各函数。被引正文提出SWoT设备的语义本体、设备能力与动态交互，以SPARQL/发布订阅实现发现和互操作。当前所归属的具体路由算法与该语义本体方法没有可解释的命题对应。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Repository/preprint or publisher version must be distinguished before citation-evidence acceptance."
+    },
+    {
+      "citation_id": "M3-W4387330299-W3035458854",
+      "paper_pair_id": "PP-W4387330299--W3035458854",
+      "scope_text": "范围片段1: Then prepare the data for machine learning by normalizing and transforming the features, such as delay, into a machine-readable format. Also, split the data into training and testing sets [ 26]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 11,
+            "char_start": 362,
+            "char_end_exclusive": 555,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Then prepare the data for machine learning by normalizing and transforming the features, such as delay, into a machine-readable format. Also, split the data into training and testing sets [ 26]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": null,
+      "reason": "待核，三标签留空。不能沿用“生物网络所以无关”的理由：源文Introduction、Materials and Methods及Network implication明确把转录网络基序与通信路由、容错网络设计联系起来。施引[26]具体讲监测数据的机器学习特征预处理和Train/Test划分，尚未核到该具体方法的支持。主题有关而具体支持未定，先待核，不强判IRRELEVANT或仅因检索缺词判NOT_ACCURATE。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_HOLD_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W3083462945",
+      "paper_pair_id": "PP-W4387330299--W3083462945",
+      "scope_text": "范围片段1: Optimize your network infrastructure: If you are experi- encing delays due to network congestion, optimizing your network infrastructure can help. This might involve adding more bandwidth or optimizing your routing protocols to minimize hops and packet loss [ 25]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 10,
+            "char_start": 279,
+            "char_end_exclusive": 542,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Optimize your network infrastructure: If you are experi- encing delays due to network congestion, optimizing your network infrastructure can help. This might involve adding more bandwidth or optimizing your routing protocols to minimize hops and packet loss [ 25]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "IRRELEVANT",
+      "reason": "限定施引[25]的拥塞下增加带宽、优化路由跳数和丢包主张。被引正文及结论的任务是RFID/IoT认证协议的泄密/去同步攻击分析，并构造基于轻量分组密码的LBCbAP。其通信成本表不等于针对路径跳数、带宽和路由拥塞的改进机制。该具体命题下建议IRRELEVANT。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Repository/preprint or publisher version must be distinguished before citation-evidence acceptance."
+    },
+    {
+      "citation_id": "M3-W4387330299-W3122257190",
+      "paper_pair_id": "PP-W4387330299--W3122257190",
+      "scope_text": "范围片段1: Latency measurement and analysis: Measuring and ana- lyzing network latency can help to identify bottlenecks and guide the selection of appropriate mitigation techniques \n\n范围片段2: [20]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 6,
+            "char_start": 2679,
+            "char_end_exclusive": 2849,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Latency measurement and analysis: Measuring and ana- lyzing network latency can help to identify bottlenecks and guide the selection of appropriate mitigation techniques "
+          },
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 7,
+            "char_start": 0,
+            "char_end_exclusive": 4,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "[20]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "IRRELEVANT",
+      "reason": "[20]在PDF第7页首，承接第6页末的网络监测、瓶颈识别与缓解措施；不能把标记后的包到达时间公式当成其已冻结范围。被引正文的FBQC由小规模纠缠资源态生成和融合测量构成，研究光子量子计算容错，与上述计算机分组网络的监测和路径性能命题不对应。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W3138186071",
+      "paper_pair_id": "PP-W4387330299--W3138186071",
+      "scope_text": "范围片段1: Determine the available paths between the source and destination nodes, then calculate the jitter for each path using historical data or real-time measure- ments. Then, sort the paths in order of increasing jitter [ 19]\n\n范围片段2: Use automated testing: Automated testing can help identify faults and failures early in the develop- ment process, making it easier fto isolate and resolve issues before they become critical [ 19]\n\n范围片段3: Network Segmentation : Network segmentation can help to limit the impact of network faults by isolating affected areas of the network. By breaking the network into smaller, more manageable segments, faults can be con- tained, and their impact can be minimized [ 19]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 5,
+            "char_start": 3596,
+            "char_end_exclusive": 3815,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Determine the available paths between the source and destination nodes, then calculate the jitter for each path using historical data or real-time measure- ments. Then, sort the paths in order of increasing jitter [ 19]"
+          },
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 11,
+            "char_start": 2574,
+            "char_end_exclusive": 2770,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Use automated testing: Automated testing can help identify faults and failures early in the develop- ment process, making it easier fto isolate and resolve issues before they become critical [ 19]"
+          },
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 12,
+            "char_start": 966,
+            "char_end_exclusive": 1231,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Network Segmentation : Network segmentation can help to limit the impact of network faults by isolating affected areas of the network. By breaking the network into smaller, more manageable segments, faults can be con- tained, and their impact can be minimized [ 19]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": null,
+      "reason": "待核，三标签留空。三处[19]必须分别处理。p5把文献用于按jitter排序路径，该具体算法与源文持续远程证明框架不对应；但p11/p12的故障隔离、网络分隔不能一概称毫无关联，源文SR2明确要求将证明失败或长期不可达设备排除网络。仍未找到与自动化测试、分区容错等完整主张等价的支持，整边暂缓，不用一处结论覆盖三处。两篇CRAFT缩写指代不同，已分别记录。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_HOLD_CONFIRMED",
+      "source_version_limit": "Repository/preprint or publisher version must be distinguished before citation-evidence acceptance."
+    },
+    {
+      "citation_id": "M3-W4387330299-W3201341253",
+      "paper_pair_id": "PP-W4387330299--W3201341253",
+      "scope_text": "范围片段1: Song et al. [ 5] discussed about the scheduling and the routing related transmission has been enabled for the industrial internet services and the transmissions. In this paper the method of OPC UA for the PubSub for the scheduling and the routing purpose is done. Then based on the simultaneous transmission the data streaming is done and for the scheduling of the packets the scheduling algorithm has been used. For analyzing the speed and the reliability the time triggered trafﬁc based colony algorithm has been enabled for the shortest path in the scheduling calculations. ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 2,
+            "char_start": 1839,
+            "char_end_exclusive": 2416,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Song et al. [ 5] discussed about the scheduling and the routing related transmission has been enabled for the industrial internet services and the transmissions. In this paper the method of OPC UA for the PubSub for the scheduling and the routing purpose is done. Then based on the simultaneous transmission the data streaming is done and for the scheduling of the packets the scheduling algorithm has been used. For analyzing the speed and the reliability the time triggered trafﬁc based colony algorithm has been enabled for the shortest path in the scheduling calculations. "
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "ACCURATE",
+      "reason": "限定Song et al.[5]至下一作者段落的OPC UA PubSub/TSN工业互联网路由调度概括。源文Work of this paper明确NetworkMessage映射、TT分类、KSP缩小路由空间和改进蚁群调度，覆盖本段方法。此建议不扩成该论文验证所有网络场景或当前CRAFT。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W3212931265",
+      "paper_pair_id": "PP-W4387330299--W3212931265",
+      "scope_text": "范围片段1: Zhuo et al. [ 6] examine about novel the security threats in the survey in the routing and the detection of the information in the space networks has been enabled for the analysis. ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 2,
+            "char_start": 2416,
+            "char_end_exclusive": 2597,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Zhuo et al. [ 6] examine about novel the security threats in the survey in the routing and the detection of the information in the space networks has been enabled for the analysis. "
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "ACCURATE",
+      "reason": "仅评价Zhuo et al.[6]后首句的空间信息网络安全威胁、路由和异常检测综述范围。源文Introduction明确聚焦SIN安全问题及安全路由/异常检测，并给出机器学习相关方案。相邻[7]所承担的主张不自动并入[6]，此处不替[7]作判定。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W3214969050",
+      "paper_pair_id": "PP-W4387330299--W3214969050",
+      "scope_text": "范围片段1: Routing is the process of deter- mining the best path for data to travel from its source to its destination across a network. In a computer network, routing is essential for ensuring that data is transmitted efﬁciently and reliably. During this communication, there is a lot of disturbance occurs [ 14]. Disturbances like con- gestion, packet loss, latency, jitter, and network failures can impact data transmission in computer networks. \n\n范围片段2: Protocol optimization: Optimizing the network protocol can help to reduce the overhead associated with packet delivery, thereby improving packet arrival time. This can be done by using techniques such as packet compression, header compres- sion, and protocol ofﬂoading [ 14]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 3,
+            "char_start": 131,
+            "char_end_exclusive": 569,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Routing is the process of deter- mining the best path for data to travel from its source to its destination across a network. In a computer network, routing is essential for ensuring that data is transmitted efﬁciently and reliably. During this communication, there is a lot of disturbance occurs [ 14]. Disturbances like con- gestion, packet loss, latency, jitter, and network failures can impact data transmission in computer networks. "
+          },
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 6,
+            "char_start": 1008,
+            "char_end_exclusive": 1282,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Protocol optimization: Optimizing the network protocol can help to reduce the overhead associated with packet delivery, thereby improving packet arrival time. This can be done by using techniques such as packet compression, header compres- sion, and protocol ofﬂoading [ 14]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": null,
+      "reason": "待核，三标签留空。两处[14]不能合并作单一否定。p3路由质量与通信扰动的宽泛概括，源文确实讨论组成员变化、树重算、网络资源与延迟，成员4把施引作者随后提出CRAFT也归给源文不妥；p6则具体列包/报头压缩和协议卸载，尚无该机制的直接支持。先确认p3的限定范围及p6机制证据，整边待核。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_HOLD_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W4206801895",
+      "paper_pair_id": "PP-W4387330299--W4206801895",
+      "scope_text": "范围片段1: Code proﬁling helps you identify the parts of your code that take the most time to execute. By using a proﬁling tool, you can pinpoint the areas of your code that need optimization and make changes to improve the perfor- mance [ 23]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 8,
+            "char_start": 1423,
+            "char_end_exclusive": 1655,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Code proﬁling helps you identify the parts of your code that take the most time to execute. By using a proﬁling tool, you can pinpoint the areas of your code that need optimization and make changes to improve the perfor- mance [ 23]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "IRRELEVANT",
+      "reason": "施引[23]用于软件代码剖析与定位执行耗时瓶颈。被引正文研究硅量子点自旋、交换耦合、CROT/CNOT门、退相干与量子门保真度，属于物理门操作加速，不能把这种量子门速度当成代码profiling方法的依据。保留已取得预印本与期刊版不可逐句互换的限制。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Official arXiv metadata links related DOI 10.1038/s41586-021-04182-y, but preprint title uses control while journal title uses gate; not assumed interchangeable."
+    },
+    {
+      "citation_id": "M3-W4387330299-W4220784320",
+      "paper_pair_id": "PP-W4387330299--W4220784320",
+      "scope_text": "范围片段1: Song et al. [ 13] writing about low latency and the relia- bility of the IoT has been enabled for the end-to-end challenges in the internet has been enabled. The IoT enables the transformation and the industries that enables the internet of things. ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 2,
+            "char_start": 4397,
+            "char_end_exclusive": 4646,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Song et al. [ 13] writing about low latency and the relia- bility of the IoT has been enabled for the end-to-end challenges in the internet has been enabled. The IoT enables the transformation and the industries that enables the internet of things. "
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "ACCURATE",
+      "reason": "限定Song et al.[13]的工业物联网、端到端低时延和可靠传输概括；源文Introduction明确时限/可靠性约束，提出SDN实时调度及改进Lagrangian选路。按该技术范围建议ACCURATE，不把后续施引作者提出的新方法并入。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W4282929449",
+      "paper_pair_id": "PP-W4387330299--W4282929449",
+      "scope_text": "范围片段1: Wang et al. [ 10] have a discussion about the security related segmentation and the SDP related enhancement has been enabled ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 2,
+            "char_start": 3605,
+            "char_end_exclusive": 3730,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Wang et al. [ 10] have a discussion about the security related segmentation and the SDP related enhancement has been enabled "
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "ACCURATE",
+      "reason": "仅就Wang et al.[10]所接的分段路由与SDP信任增强安全模型概括，源文Conclusion及SbSR模型直接支持。相邻[11]插入后的标签检测/安全成本等分句有引文分工问题，不在本条无条件扩展为[10]已支持全部段落。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W4283080009",
+      "paper_pair_id": "PP-W4387330299--W4283080009",
+      "scope_text": "范围片段1: Marwah et al. [ 12] discussed about the ensemble based machine learning technique which is done using the VANET mobility and for the routing based machine learning tech- nique can be used. The machine learning technique is used for the decision making and the comparative analysis has been enabled in the performance is enabled. Here the increase in the consumption has been done for the analysis. ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 2,
+            "char_start": 3999,
+            "char_end_exclusive": 4397,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Marwah et al. [ 12] discussed about the ensemble based machine learning technique which is done using the VANET mobility and for the routing based machine learning tech- nique can be used. The machine learning technique is used for the decision making and the comparative analysis has been enabled in the performance is enabled. Here the increase in the consumption has been done for the analysis. "
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "NOT_ACCURATE",
+      "reason": "按完整Marwah et al.[12]作者段落的字面范围，前半集成学习/VANET路由概括成立，但末句写“increase in the consumption”；源文Conclusion明确在80节点条件下能耗相对CRSM-VANET降低81%。因此完整段落存在方向相反的具体条件/结果表述，建议NOT_ACCURATE。若双方另限定为前面的技术方法句，则可单独作ACCURATE建议，须记录范围变化，不能静默删掉冲突末句。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W4293168421",
+      "paper_pair_id": "PP-W4387330299--W4293168421",
+      "scope_text": "范围片段1: Guo et al. [ 8] talked over about study, the soft- ware deﬁned network and the analysis using the Scheduling algorithm has been used for the problems in the multi path trafﬁc scheduling has been enabled for the linking the deep reinforcement learning the weight calculation algorithm has been enabled for the deep reinforcement learning has been enabled and proposed in this study. ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 2,
+            "char_start": 2804,
+            "char_end_exclusive": 3186,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Guo et al. [ 8] talked over about study, the soft- ware deﬁned network and the analysis using the Scheduling algorithm has been used for the problems in the multi path trafﬁc scheduling has been enabled for the linking the deep reinforcement learning the weight calculation algorithm has been enabled for the deep reinforcement learning has been enabled and proposed in this study. "
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "ACCURATE",
+      "reason": "Guo et al.[8]段落明确指SDN多路径调度和深度强化学习的链路权重计算。源文Conclusion将QOGMP的多路径、全局视图、牵引链路和深度强化学习逐项列出，支持该范围。不会外推为其已经处理jitter；源文恰把jitter列为未来方向。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W4294237858",
+      "paper_pair_id": "PP-W4387330299--W4294237858",
+      "scope_text": "范围片段1: Use anomaly detection: Anomaly detection techniques can help identify unusual behavior in a system or application, which may be indicative of a fault or failure. By using anomaly detection, you can proactively identify faults before they cause signiﬁcant damage and isolate their root cause [ 27]\n\n范围片段2: Jitter can be an indicator of faults or failures within a system. By monitoring the amount of jitter in a system, engineers may be able to identify potential problems and isolate the source of the issue. For example, if the jitter in a digital communication system increases suddenly and sig- niﬁcantly, this may indicate a fault in the clock or timing circuitry. By isolating this fault, engineers can work to repair or replace the affected components and restore the system to its proper functioning. In this way, jitter and fault isolation are closely related. Jitter can be both a symptom of a fault and a tool for identifying the source of the fault. By monitoring and analyzing jitter, engineers can improve the reliability and performance of electronic systems, and ensure that faults are quickly and accurately isolated and addressed [ 27]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 11,
+            "char_start": 3632,
+            "char_end_exclusive": 3928,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Use anomaly detection: Anomaly detection techniques can help identify unusual behavior in a system or application, which may be indicative of a fault or failure. By using anomaly detection, you can proactively identify faults before they cause signiﬁcant damage and isolate their root cause [ 27]"
+          },
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 13,
+            "char_start": 31,
+            "char_end_exclusive": 878,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Jitter can be an indicator of faults or failures within a system. By monitoring the amount of jitter in a system, engineers may be able to identify potential problems and isolate the source of the issue. For example, if the jitter in a digital communication system increases suddenly and sig- niﬁcantly, this may indicate a fault in the clock or timing circuitry. By isolating this fault, engineers can work to repair or replace the affected components and restore the system to its proper functioning. In this way, jitter and fault isolation are closely related. Jitter can be both a symptom of a fault and a tool for identifying the source of the fault. By monitoring and analyzing jitter, engineers can improve the reliability and performance of electronic systems, and ensure that faults are quickly and accurately isolated and addressed [ 27]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": null,
+      "reason": "待核，三标签留空。源文IChoA确实研究WSN路由、能耗与网络寿命，并报告执行时间、丢包和吞吐，因此有网络性能关联。施引两处[27]却分别要求“异常检测定位故障根因”和“以jitter隔离时钟/定时电路故障”的具体机制。已核Introduction贡献与Conclusion，尚不足以支持这些具体主张；不能仅凭未出现fault/anomaly/jitter词作定案，先待核并明确两处各自所需的支持。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_HOLD_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W4310238875",
+      "paper_pair_id": "PP-W4387330299--W4310238875",
+      "scope_text": "范围片段1: For the detection of the fault in the packet, delay and the robust- ness enables the routing system and the efﬁcient routing can be enabled [ 4]\n\n范围片段2: Disaster Recovery Planning: Disaster recovery planning involves developing a plan for recovering data in the event of a disaster, such as a natural disaster, cyberattack, or hardware failure. This plan can include backup and recovery systems, redundant hardware and storage systems, and other measures to ensure that data can be recovered quickly and effectively [4]",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 2,
+            "char_start": 339,
+            "char_end_exclusive": 483,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "For the detection of the fault in the packet, delay and the robust- ness enables the routing system and the efﬁcient routing can be enabled [ 4]"
+          },
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 12,
+            "char_start": 2937,
+            "char_end_exclusive": 3303,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Disaster Recovery Planning: Disaster recovery planning involves developing a plan for recovering data in the event of a disaster, such as a natural disaster, cyberattack, or hardware failure. This plan can include backup and recovery systems, redundant hardware and storage systems, and other measures to ensure that data can be recovered quickly and effectively [4]"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "IRRELEVANT",
+      "reason": "按两处具体范围分别建议IRRELEVANT：p2是分组传输/路由中故障、延迟和鲁棒性；p12是备份和冗余存储的灾难恢复。源文正文分析可编程光子干涉仪/MZI的制造误差、误差校正和规模扩展，并不等于这两类系统级机制。虽然源文列光通信应用，当前分组/备份主张仍不能由器件误差校正实验直接承担。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4387330299-W4313894837",
+      "paper_pair_id": "PP-W4387330299--W4313894837",
+      "scope_text": "范围片段1: Monika et al. [ 9] considers about analysis of the random user the GMPLS network has been proposed and for the analysis of the decision tree work the Data protection algorithm work has been enabled for the optical networks. Then the probability of the blocking the latency and the parameters has been proposed. This results the RSA that reduces the latency and the enhancement for the data protection has been enabled. ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pdf_page_1based": 2,
+            "char_start": 3186,
+            "char_end_exclusive": 3605,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Monika et al. [ 9] considers about analysis of the random user the GMPLS network has been proposed and for the analysis of the decision tree work the Data protection algorithm work has been enabled for the optical networks. Then the probability of the blocking the latency and the parameters has been proposed. This results the RSA that reduces the latency and the enhancement for the data protection has been enabled. "
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "NOT_ACCURATE",
+      "reason": "按完整Monika et al.[9]作者段落字面判断，GMPLS随机用户、RSA/AES比较及RSA降低时延等部分成立，但另出现“decision tree work”的方法归属。源文Conclusion明确实施的是RSA和AES数据保护算法，当前未给决策树方法的支持，完整概述含关键方法错配，建议NOT_ACCURATE。若双方限定为RSA/AES结果分句，可单列ACCURATE建议，须保留该范围区别。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Europe PMC archived article; edition/page correspondence requires later review"
+    },
+    {
+      "citation_id": "M3-W4391319791-W4387330299",
+      "paper_pair_id": "PP-W4391319791--W4387330299",
+      "scope_text": "范围片段1: Ramya et al.[13] investigate the management of QoS for multimedia applications in Internet of Things (IoT) devices. They specifically focus on the importance of edge intelligence in enhancing QoS for IoT applications. ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4391319791.pdf",
+            "sha256": "d10e7041b54e4983e60c2992b3ecd81b2792c305c67bf43e9cfcfc585702f1a9",
+            "pdf_page_1based": 3,
+            "char_start": 144,
+            "char_end_exclusive": 362,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Ramya et al.[13] investigate the management of QoS for multimedia applications in Internet of Things (IoT) devices. They specifically focus on the importance of edge intelligence in enhancing QoS for IoT applications. "
+          }
+        ],
+        "alternative_scopes_not_replacements": [
+          {
+            "conditional_suggestion": "ACCURATE",
+            "condition": "Only if humans explicitly choose the Aruna-author-intended statement rather than literal bibliography[13]",
+            "fragments": [
+              {
+                "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4391319791.pdf",
+                "sha256": "d10e7041b54e4983e60c2992b3ecd81b2792c305c67bf43e9cfcfc585702f1a9",
+                "pdf_page_1based": 2,
+                "char_start": 4708,
+                "char_end_exclusive": 4927,
+                "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+                "text": "Aruna et al.[12] conducted a study on integrating new QoS routing with fault tolerance mechanisms to enhance QoS parameters in wireless Ad -Hoc networks. They specifically focused on using the Craft protocol. This study"
+              },
+              {
+                "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4391319791.pdf",
+                "sha256": "d10e7041b54e4983e60c2992b3ecd81b2792c305c67bf43e9cfcfc585702f1a9",
+                "pdf_page_1based": 3,
+                "char_start": 45,
+                "char_end_exclusive": 144,
+                "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+                "text": "emphasizes the correlation between QoS routing and fault tolerance to improve network performance. "
+              }
+            ]
+          }
+        ]
+      },
+      "label": "IRRELEVANT",
+      "reason": "参考文献[12]为Maheswari，[13]为Aruna中心论文，[14]才是Ramya。原[13]的具体作者/研究归属错配，按字面单位建议IRRELEVANT。第2页Aruna [12]及第3页首承接句保留为作者意图的条件ACCURATE替代范围，不自动修正编号或替换稳定发生位置。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Center PDF received from Member4; retracted status does not itself determine citation labels."
+    },
+    {
+      "citation_id": "M3-W4392854462-W4387330299",
+      "paper_pair_id": "PP-W4392854462--W4387330299",
+      "scope_text": "范围片段1: According to [131], protocol processing overhead in TCP/IP networks refers to the computational and time resources required to process the TCP/IP protocol stack layers, including data encapsulation/de-capsulation, header analysis, and error checking. ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4392854462.pdf",
+            "sha256": "949ff238d104f26a025fd1243ac331baa4a29b585725ecee357f36c7152cea36",
+            "pdf_page_1based": 15,
+            "char_start": 3694,
+            "char_end_exclusive": 3945,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "According to [131], protocol processing overhead in TCP/IP networks refers to the computational and time resources required to process the TCP/IP protocol stack layers, including data encapsulation/de-capsulation, header analysis, and error checking. "
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "NOT_ACCURATE",
+      "reason": "中心第10页错误检查开销和第6页报头压缩有部分支持，但不足承担协议栈各层、封装/解封装、报头分析的完整定义来源。按完整引用支持不足建议NOT_ACCURATE，不是断言TCP/IP定义本身为假。有限开销句如另行评价须显式另记范围。复用全文核对，缺词检索不单独作证。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Center PDF received from Member4; retracted status does not itself determine citation labels."
+    },
+    {
+      "citation_id": "M3-W4406218056-W4387330299",
+      "paper_pair_id": "PP-W4406218056--W4387330299",
+      "scope_text": "范围片段1: One promising area is the improvement of dynamic visitor routing algorithms. These algorithms can optimize site visitor flows in actual time, making sure that information packets take the most green paths via the network [35]. ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4406218056.pdf",
+            "sha256": "1b40455242a94b3d786084cb8ef3e3369bf77f6a321f8b76b4fcb4413aa9518f",
+            "pdf_page_1based": 4,
+            "char_start": 2646,
+            "char_end_exclusive": 2873,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "One promising area is the improvement of dynamic visitor routing algorithms. These algorithms can optimize site visitor flows in actual time, making sure that information packets take the most green paths via the network [35]. "
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": null,
+      "reason": "待核，三标签留空。同节前文明写dynamic traffic routing及信息包，应结合网络流量语境，不按网站访客直接判错。中心第5页实时jitter路径排序/资源预留、第14页QoS优化有实质关联；most green paths含义和支持仍未定，不能改写成最节能或用最低jitter证明全局最优。整句待核，不静默缩成限定ACCURATE；陈明进NOT_ACCURATE原意见保留。 当前归一化范围定位补正为PDF第4页2646:2873（首尾空格偏移）；原句和ID不变。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_HOLD_CONFIRMED",
+      "source_version_limit": "Center PDF received from Member4; retracted status does not itself determine citation labels."
+    },
+    {
+      "citation_id": "M3-W4392783225-W4387330299",
+      "paper_pair_id": "PP-W4392783225--W4387330299",
+      "scope_text": "范围片段1: Lastly, XGBoost, an eXtreme Gradient Boosting algorithm, employs decision trees within a gradient boosting framework, offering high efficiency, accuracy, and versatility for various data types[18][19]. ",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4392783225.pdf",
+            "sha256": "6ffb57fa30c49b4d3187c2aa28b83afa76e456f71483bb3488bbcdc572f38d93",
+            "pdf_page_1based": 3,
+            "char_start": 464,
+            "char_end_exclusive": 666,
+            "offset_basis": "whitespace-normalized pypdf page text; zero-based Unicode code points; end exclusive",
+            "text": "Lastly, XGBoost, an eXtreme Gradient Boosting algorithm, employs decision trees within a gradient boosting framework, offering high efficiency, accuracy, and versatility for various data types[18][19]. "
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": null,
+      "reason": "待核，三标签留空。[18]为中心论文，[19]为DCNN花卉识别论文；[19]全文未审核，不能凭题名认定其支持或不支持XGBoost。中心第11页有ML预测/Train-Test，第2页有决策树的文献综述，不能说完全没有ML/决策树；这些仍未直接给出XGBoost机制及效率依据。原句未声称中心做过花卉实验，不能以缺花卉实验判错。组引承担份额未定，保留待核；若明确[18]承担XGBoost特定主张，可另议NOT_ACCURATE，当前不自动赋予该份额或转移[19]支持。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_HOLD_CONFIRMED",
+      "source_version_limit": "Center PDF received from Member4; retracted status does not itself determine citation labels."
+    },
+    {
+      "citation_id": "M3-W7139045855-W4387330299",
+      "paper_pair_id": "PP-W7139045855--W4387330299",
+      "scope_text": "范围片段1: In [26,27], fault tolerant QoS routing has been employed on ad hoc networks. This causes packets to be delivered fast and successfully in the network. In addition, it also makes the network environment to be more efficient in routing and also enhanced in tolerance of faults.",
+      "scope_locator": {
+        "fragments": [
+          {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W7139045855_PMC12998948.xml",
+            "sha256": "a4fb44a76d999719b08a9e2b45e7291e8afde9a2d9a405daec21d429f9fe997c",
+            "xml_xpath": "/article/body/sec[2]/p",
+            "body_p_ordinal_1based": 9,
+            "target_ref_id": "pone.0342008.ref026",
+            "char_start": 3982,
+            "char_end_exclusive": 4257,
+            "text": "In [26,27], fault tolerant QoS routing has been employed on ad hoc networks. This causes packets to be delivered fast and successfully in the network. In addition, it also makes the network environment to be more efficient in routing and also enhanced in tolerance of faults.",
+            "offset_basis": "whitespace-normalized XML itertext paragraph; zero-based Unicode code points; end exclusive"
+          }
+        ],
+        "alternative_scopes_not_replacements": []
+      },
+      "label": "ACCURATE",
+      "reason": "仅评价[26,27]共同引用中中心论文能够承担的“ad hoc中的容错QoS路由、较快/成功分组传输、路由效率及容错改进”范围。中心论文Results and discussion明确描述CRAFT路由优化与相应QoS指标，支持该定性概括，不外推未经本处支持的定量改进。原body第9段ref026定位可复现，不将成员4“原段号错误”说明作为事实。",
+      "date": "2026-11-01",
+      "status": "PERSONAL_LABEL_CONFIRMED",
+      "source_version_limit": "Center PDF received from Member4; retracted status does not itself determine citation labels."
+    }
+  ],
+  "confirmation_question": "是否认可25条集中方案，登记为李云个人意见：6条ACCURATE、8条IRRELEVANT、3条NOT_ACCURATE、8条待核？原15条建议沿用现有入口列明的范围；本轮新增W4391319791字面[13]为IRRELEVANT、W4392854462完整[131]定义为NOT_ACCURATE；W1968850365、W4406218056、W4392783225继续待核。W4283080009、W4313894837按完整作者段落保留NOT_ACCURATE，限定分句不替换原范围。版本及引用组限制保留，不填joint_*或score_*。",
+  "confirmation_answer": "认可上述方案，登记个人意见",
+  "basis": "USER_EXPLICIT_CONFIRMATION_IN_CURRENT_CHAT",
+  "confirmation_date": "2026-11-01",
+  "exact_time_not_inferred": true,
+  "counts": {
+    "ACCURATE": 6,
+    "IRRELEVANT": 8,
+    "NOT_ACCURATE": 3,
+    "HOLD": 8
+  },
+  "joint_adjudication_added": false,
+  "score_added": false,
+  "sent_by_tool": false,
+  "protected_original_sha256": {
+    "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+    "10.26-10.31/paper_pair_semantic_evidence_v4_member4_completed_20261101.csv": "1819964b5d844a433370ca110c1856a4f867f8c18837243296a2a2cab0cd8409",
+    "10.26-10.31/route1_25_fulltext_review_confirmation_20261101.csv": "d1764615cf4181c044b067bb609eb53a2c096fd78fa91614d771db6986a44e61",
+    "10.26-10.31/成员3交接/发给李云_25条集中复核意见_20261101.md": "9d6aafa0afd34717b915dc11411c78f8dddab9c09846047fff5b1e045ab43f0c",
+    "10.26-10.31/成员3交接/发给李云_25条集中复核chen列_20261101.xlsx": "fae91a85b32e803ecd83b3a4682c7a8691335c3027f9a0df5d0d1f0c6c851fa7"
+  },
+  "current_review_workbook": {
+    "file": "10.26-10.31/route1_25_fulltext_review_liyun_chen_20261101.xlsx",
+    "sha256": "6432219661b0f3caeea5773bb7387bf5a5b5af26d7194a8be56ea0b53a6fce98",
+    "source_chen_workbook": "10.26-10.31/成员3交接/发给李云_25条集中复核chen列_20261101.xlsx",
+    "source_chen_sha256": "fae91a85b32e803ecd83b3a4682c7a8691335c3027f9a0df5d0d1f0c6c851fa7",
+    "validation": {
+      "rows": 25,
+      "unique_ids": 25,
+      "source_columns_A_to_R_unchanged": true,
+      "chen_columns_W_to_Z_unchanged": true,
+      "liyun_fields_match_confirmation": true,
+      "pending_liyun_labels_blank": 8,
+      "all_joint_cells_blank": true,
+      "scores_not_added": true,
+      "date_verified": "2026-11-01",
+      "visual_review": "All25 changed review rows rendered in five ranges and visually checked"
+    }
+  },
+  "scope5_technical_record": "10.26-10.31/成员3交接/语义来源/member4_v4_intake_review.json#fulltext_review25.scope5_followup_20261101"
+}

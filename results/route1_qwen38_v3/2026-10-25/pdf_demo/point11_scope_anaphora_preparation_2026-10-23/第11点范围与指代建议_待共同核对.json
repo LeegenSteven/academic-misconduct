@@ -1,0 +1,136 @@
+{
+  "case_id": "r1pdf:976890f040d5c2cab2e50965",
+  "original_point_number": 11,
+  "status": "source_replay_complete_anaphora_context_and_candidate_cleanup_review_pending",
+  "scope_recommendation": "retain_the_benefit_and_growth_assertion_add_only_its_source_mapped_antecedent_as_context",
+  "primary_scope_pieces": [
+    {
+      "text": "This bioinformatics approach has benefited greatly from the steady growth of experimental protein structures deposited in the Protein Data Bank (PDB)5",
+      "normalized_context_start": 1036,
+      "normalized_context_end_exclusive": 1186,
+      "source_pdf_fragments": [
+        {
+          "pdf_page": 1,
+          "printed_page": null,
+          "char_start": 3522,
+          "char_end_exclusive": 3674,
+          "raw_text": "This bioinformatics approach has benefited greatly from \nthe steady growth of experimental protein structures deposited in \nthe Protein Data Bank (PDB)5",
+          "raw_text_sha256": "75a893f347d6f7c16813e6e64d037f3edaa864e7db322eccd9da36bc3fe8cb51",
+          "source_blocks": [
+            {
+              "block_number": 5,
+              "bbox": [
+                39.685,
+                531.346,
+                296.403,
+                702.776
+              ]
+            },
+            {
+              "block_number": 6,
+              "bbox": [
+                306.142,
+                531.346,
+                562.83,
+                616.776
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ]
+    }
+  ],
+  "proposed_context_only_pieces": [
+    {
+      "text": "The evolutionary programme has provided an alternative in recent years, in which the constraints on protein structure are derived from bioinformatics analysis of the evolutionary history of proteins, homology to solved structures18,19 and pairwise evolutionary correlations20–24.",
+      "normalized_context_start": 756,
+      "normalized_context_end_exclusive": 1035,
+      "source_pdf_fragments": [
+        {
+          "pdf_page": 1,
+          "printed_page": null,
+          "char_start": 3237,
+          "char_end_exclusive": 3521,
+          "raw_text": "The evolutionary programme has provided an alternative in \nrecent years, in which the constraints on protein structure are derived \nfrom bioinformatics analysis of the evolutionary history of proteins, \nhomology to solved structures18,19 and pairwise evolutionary correla-\ntions20–24.",
+          "raw_text_sha256": "9a65d5c14e2f0a6479753efb4e9a88e6898f160c98f48598117be1e47985966a",
+          "source_blocks": [
+            {
+              "block_number": 5,
+              "bbox": [
+                39.685,
+                531.346,
+                296.403,
+                702.776
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ]
+    }
+  ],
+  "preserve": [
+    "This bioinformatics approach",
+    "has benefited greatly",
+    "steady growth",
+    "experimental protein structures",
+    "Protein Data Bank (PDB)5"
+  ],
+  "other_claims_not_transferred": [
+    "Subsequent genomic-sequencing growth item",
+    "Subsequent deep-learning development item",
+    "The antecedent's separately cited homology/evolutionary-correlation claims"
+  ],
+  "candidate_reading_notes": [
+    {
+      "evidence_ids": [
+        "D01:S05"
+      ],
+      "note": "Directly describes steady growth of the PDB Core Archive, including over 11,000 new structures in 2017. The statistic covers the archive, not uniquely identified protein-only structures or an effect-size estimate for the target approach."
+    },
+    {
+      "evidence_ids": [
+        "D01:S01",
+        "D01:S03"
+      ],
+      "note": "Resource identity and archive scope include proteins, DNA/RNA and complexes. Do not carry over the different point-2 unique-protein/count dispute as this point's classification."
+    },
+    {
+      "evidence_ids": [
+        "D01:S02",
+        "D01:S04",
+        "D01:S06",
+        "D01:S07"
+      ],
+      "note": "Affiliations, reference-list fragments and funding metadata are not direct support for the growth/benefit assertion. No fragment was deleted or replaced."
+    },
+    {
+      "evidence_ids": [
+        "D01:S08",
+        "D01:S09",
+        "D01:S10"
+      ],
+      "note": "Archive quality/management and data growth context must not be rewritten as a quantified benefit to this specific evolutionary approach."
+    }
+  ],
+  "supplemental_source_inspection": "Same-PDF usage and computational-community passages retained separately; no active evidence IDs assigned and no classification based on them.",
+  "resource_only_disposition_inherited_from_point15": false,
+  "input_revision_proposed_not_applied": true,
+  "changed_query_requires_fresh_retrieval_and_token_checks": true,
+  "active_scope_or_input_changed": false,
+  "existing_top10_changed": false,
+  "human_scope_confirmation": {
+    "李云": null,
+    "陈明进": null
+  },
+  "classification_label": null,
+  "joint_adjudication": null,
+  "independent_blind_review_claimed": false,
+  "formal_end_to_end_accepted": false,
+  "fixed_denominator": 20,
+  "model_loaded": false,
+  "inference_performed": false
+}

@@ -1,0 +1,16 @@
+{
+  "source": "用户在本会话粘贴的 nvidia-smi 输出",
+  "server_snapshot_time": null,
+  "release_sha256": "09a875e7d8bcae223e39e1ba1c903c99405b17f8c08a8f3797e49dacb01106ec",
+  "required_free_mib_in_frozen_backend": 35000,
+  "gpus": [
+    {"index": 0, "memory_used_mib": 13479, "memory_free_mib": 26962, "utilization_percent": 0},
+    {"index": 1, "memory_used_mib": 18555, "memory_free_mib": 21886, "utilization_percent": 0},
+    {"index": 2, "memory_used_mib": 8525, "memory_free_mib": 31916, "utilization_percent": 82},
+    {"index": 3, "memory_used_mib": 21469, "memory_free_mib": 18972, "utilization_percent": 0}
+  ],
+  "eligible_gpu_indices_at_snapshot": [],
+  "remaining13_gpu_run_started": false,
+  "decision": "等待符合当前执行门槛的 GPU；本次未修改资源门槛，未启动模型。",
+  "prior_first5_memory_stress_does_not_validate_remaining13_longest_input": true
+}

@@ -1,0 +1,146 @@
+identify clusters. To identify optimal parameters for the score
+threshold, ClusterOne parameters density and overlap as well as
+MCL inflation parameter, we generated clusters for various parame-
+ter combinations. Specifically, we evaluated a range of parameters:
+SVM score threshold (1.0, 0.99, 0.97, 0.95, 0.9, 0.8, 0.7, 0.6, 0.5,
+0.4, 0.3, 0.2, 0.1, 0.05, 0.01, 0.005, 0.001, 0.0005, 0.0001, 0.00005,
+0.00001), ClusterOne max overlap (0.6, 0.7, 0.8), density (0.1, 0.2,
+0.3, 0.35, 0.4), and MCL inflation (1.2, 2, 3, 4, 5, 7, 9, 11, 15). We
+also compared using an unweighted graph as input into ClusterOne
+versus a weighted graph and observed the unweighted graph had
+superior performance. A weighted graph was used for the MCL stage
+clustering. We additionally applied a post-clustering filter that
+removed nodes from a cluster that lacked edges that scored greater
+than the SVM score threshold.
+To evaluate the clusterings as shown in Fig 2C and D, we used
+the k-cliques method, specifically weighted recall (R_weighted),
+and weighted precision (P_weighted), which we described previ-
+ously (Drew et al, 2017). Briefly, the k-cliques method globally
+compares a set of clusters to a set of gold standard complexes by
+comparing cliques derived from the clusters to cliques derived
+from gold standard complexes. This comparison is done for all
+clique sizes from size 2 (i.e., pairs) to size n (i.e., the size of the
+largest complex or cluster). A precision and recall value are calcu-
+lated for all clique sizes. A weighted average is then calculated for
+both precision and recall across all clique sizes, weighted by the
+number of clusters with size >= to the clique size. This is to limit
+the bias effect that larger clusters will have on the final precision
+or recall value.
+We evaluated all clusterings using the k-cliques method, compar-
+ing to the training set of gold standard complexes. We selected five
+clusterings that optimize the trade-off between precision and recall
+as shown in Fig 2C. These five clusterings were then combined into
+a union set. Table 2 shows the clustering parameters used for the
+selected clusterings.
+We finally evaluated the individual selected clusterings and
+the union of the selected clusterings using the k-clique method by
+comparing to the leave-out set of gold standard test complexes
+(Fig 2D).
+In
+addition,
+we
+compare
+to
+previously
+published
+complex maps from (Wan et al, 2015), Bioplex 1.0 (Huttlin et al,
+2015), Bioplex 2.0 (Huttlin et al, 2017), and our original hu.MAP
+1.0 (Drew et al, 2017).
+Identification of promiscuous proteins
+To identify proteins which participate in multiple complexes, we
+first determined a set of complexes with limited overlap. To deter-
+mine the degree with which one complex overlaps another, we
+developed a ‘subcomplex index’ (equation (2)) defined as:
+SC ¼ jA∩Bj
+jAj
+(2)
+where A and B are complexes (i.e., sets of proteins). The ‘subcom-
+plex index’ is related to the Jaccard index but is normalized by the
+size of a single complex rather than the size of the union of both
+complexes as is done in the Jaccard index. We then calculated the
+subcomplex index for
+every complex compared to all
+other
+complexes. We then generated a set of complexes with limited
+overlap by selecting complexes that had SC < 0.5 to all other
+complexes. We then identified all proteins that participated in
+multiple complexes from this reduced set of complexes.
+Calculation of protein age enrichment for promiscuous proteins
+Protein ages were mapped using ‘modeAge’ in the main_HUMAN.csv
+file from (Liebeskind et al, 2016) Z-scores for each age group were
+determined by comparing the number of promiscuous proteins to a
+background distribution. The background distribution was calcu-
+lated by counting the number of randomly sampled non-promiscuous
+proteins (i.e., proteins that participate in only one complex) in each
+age group.
+Annotation enrichment, tissue specificity, and overall expression
+Annotation enrichment was calculated for GO, Reactome, CORUM,
+KEGG, and Human Phenotype Ontology (HP) terms using gProfiler
+(Reimand et al, 2016) for each individual complex. All proteins observed
+in the 15,000 mass spectrometry experiments were used as the back-
+ground set. Annotations inferred by electronic transfer were ignored.
+To evaluate annotation enrichment for all complexes, we first
+generated a set of shuffled complexes where protein ids were reas-
+signed to new cluster ids. This has the effect of keeping both the
+number of clusters and the size distribution of clusters the same as
+the final set of hu.MAP 2.0 complexes. In addition, this also has the
+effect of keeping the distribution of complexes per protein constant
+with the final hu.MAP 2.0 complexes as well. Annotation enrich-
+ment for the shuffled set of clusters was done as described above.
+Using this background annotation enrichment from all categories,
+we calculated a 0.05 false discovery rate threshold.
+We used the Human Protein Atlas (HPA) (Uhlen et al, 2015) to
+compare tissue specificity between the full human proteome,
+hu.MAP 1.0, and hu.MAP 2.0. RNA tissue distribution data were
+downloaded
+from:
+https://www.proteinatlas.org/download/prote
+inatlas.tsv.zip and mapped to proteins through genenames.
+Comparison of overall expression levels between promiscuous
+and non-promiscuous proteins shown in Fig EV1 was done using
+HPA using the same proteinatlas.tsv.zip file described above. The
+median value was calculated for all “Tissue RNA” columns for each
+Table 2.
+Selected clusterings parameters.
+Clustering
+Confidence
+Score threshold
+ClusterOne density
+ClusterOne overlap
+MCL inflation
+1
+Extremely high
+1.0
+0.4
+0.6
+9
+2
+Very high
+0.7
+0.4
+0.6
+9
+3
+High
+0.5
+0.4
+0.7
+4
+4
+Medium high
+0.04
+0.4
+0.7
+2
+5
+Medium
+0.02
+0.1
+0.6
+2
+ª 2021 The Authors
+Molecular Systems Biology
+17: e10016 | 2021
+13 of 16
+Kevin Drew et al
+Molecular Systems Biology

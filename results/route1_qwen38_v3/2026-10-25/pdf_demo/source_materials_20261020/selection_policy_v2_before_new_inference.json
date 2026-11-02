@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-20",
+  "supersedes": "selection_policy_before_pdf_processing.json",
+  "change_reason": "Original pool has at most 15 citation occurrences with both main PDFs, below target20; supplement two already-prepared different-reference pairs, without looking at labels or predictions.",
+  "added_pairs": [
+    {
+      "candidate_id": "newpair_001_R7_PMC5958625",
+      "citing_pmcid": "PMC11350039",
+      "cited_pmcid": "PMC5958625",
+      "citing_xml_locator": "bibliography_xref=alz13859-bib-0007; paragraph containing xref",
+      "origin_identity_file": "C:\\Users\\y\\Desktop\\学术引用不端\\路线一PDF定位_20261018\\newpair_001_R7_PMC5958625\\source_identity_and_scope_check.json"
+    },
+    {
+      "candidate_id": "newpair_002_R40_PMC9671808",
+      "citing_pmcid": "PMC11350039",
+      "cited_pmcid": "PMC9671808",
+      "citing_xml_locator": "bibliography_xref=alz13859-bib-0040; paragraph containing xref",
+      "origin_identity_file": "C:\\Users\\y\\Desktop\\学术引用不端\\路线一PDF定位_20261018\\newpair_002_R40_PMC9671808\\source_identity_and_scope_check.json"
+    }
+  ],
+  "selection": "round robin in original candidate order plus added pair order; PDF marker location order within each pair",
+  "target": 20,
+  "reserve_and_failures": "retain all; never replace after seeing classification results",
+  "domain_before_predictions": "biomedical subject contexts, including structural bioinformatics; planned classifier Mbio checkpoint-100",
+  "label_or_prediction_used_for_selection": false
+}

@@ -1,0 +1,70 @@
+Nucleic Acids Research, 2019, Vol. 47, Database issue D525
+Figure 3. Quarterly wwPDB structure data file download metrics from 2008–2017 (FTP and rsync downloads-solid line; wwPDB partner website
+downloads-dotted line).
+(37) and the Drug Design Data Resource (D3R) (www.
+drugdesigndata.org), the wwPDB convened a Ligand Val-
+idation Workshop in 2015 to obtain recommendations re-
+garding improved PDB ligand representation and valida-
+tion (18). Further refinements of our validation processes
+are being guided by continued interaction with the valida-
+tion task forces. The wwPDB validation report is updated
+annually to incorporate software updates, new validation
+processes, and to update the archive wide validation statis-
+tics by incorporating PDB entries from the previous year.
+To establish data standards and obtain recommendations
+for improving data quality on rapidly developing experi-
+mental methods currently not supported within the PDB
+archive, the wwPDB has also established task forces for
+Small Angle Scattering (SAS) (38) and Integrative/Hybrid
+Methods (I/HM) (39), both of which have published their
+recommendations in white papers.
+All
+of
+these
+efforts
+are
+underpinned
+by
+the
+PDBx/mmCIF Working Group (www.wwpdb.org/task/
+mmcif), which advises on data standards for representation
+of structural biology data in the PDBx/mmCIF dictionary.
+This working group meets regularly with representatives
+from the wwPDB to advise on adjustments to the data
+dictionary.
+In consultation with the working group, the wwPDB has
+recently produced an extension to the PDBx/mmCIF dic-
+tionary to incorporate multiple crystal data collection tech-
+niques such as those used in serial femtosecond crystallog-
+raphy (SFX) and X-ray free electron laser (XFEL) experi-
+ments. This step increased the amount of metadata that will
+be available for future multiple crystal data collection ex-
+periments. None of this would have been possible had the
+organization not transitioned from the legacy PDB format
+to the PDBx/mmCIF data standard. The wwPDB will con-
+tinue to expand and extend the PDBx/mmCIF dictionary
+as structural biology advances.
+The wwPDB has also worked with the NMR community
+to develop the NMR Exchange Format (NEF) (40), and this
+format for deposition of NMR restraint data will be sup-
+ported by the OneDep system in a later software release.
+Figure 4. Boxplot representation of the number of residues per PDB struc-
+ture per year. Red lines represent the median value, boxes represent the 25
+and 75 percentile values, and whiskers represent the 5th and 95th percentile
+values.
+Communications from Data Depositors regarding their
+own depositions should only be submitted via the Com-
+munication Panel within the individual OneDep session.
+More general feedback regarding issues not directly related
+to an individual OneDep session is welcome at the wwPDB
+Customer Service Helpdesk––further contact information
+is available at deposit.wwpdb.org.
+CURRENT AND FUTURE CHALLENGES
+The PDB Core Archive continues to grow year-on-year
+(Figure 1A), while incoming structures grow in size
+and complexity (Figure 4). The wwPDB partners have
+addressed these challenges by launching and continu-
+ally improving the unified OneDep deposition–validation–
+biocuration system. Global adoption of best practices and
+increased automation have improved the Data Depositor
+experience and made wwPDB biocuration more efficient.

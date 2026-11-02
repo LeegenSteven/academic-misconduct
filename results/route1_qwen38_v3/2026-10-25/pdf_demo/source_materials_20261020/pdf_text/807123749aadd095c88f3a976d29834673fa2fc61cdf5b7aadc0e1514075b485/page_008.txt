@@ -1,0 +1,140 @@
+Nucleic Acids Research, 2019, Vol. 47, Database issue D527
+most exciting structures entering the PDB Core Archive to-
+day are determined using the rapidly evolving techniques
+of SFX/XFEL and 3DEM. The I/HM structures on the
+horizon promise to be even more important contributors to
+research and education in biomedicine as 3D structures of
+macromolecular machines at work inside cells come from
+cryo-electron tomography combined with other methods.
+Members of the wwPDB organization look forward to ad-
+dressing these challenges and ensuring that joint manage-
+ment of the wwPDB Core Archives continues to serve Users
+around the globe.
+FUNDING
+The RCSB Protein Data Bank is jointly funded by the Na-
+tional Science Foundation; National Institute of General
+Medical Sciences; National Cancer Institute; Department
+of Energy [NSF-DBI 1338415]. The Protein Data Bank
+in Europe is supported by European Molecular Biology
+Laboratory-European Bioinformatics Institute; Wellcome
+Trust [88944, 104948]; Biotechnology and Biological Sci-
+ences Research Council [BB/G022577/1, BB/J007471/1,
+BB/K016970/1,
+BB/K020013/1,
+BB/M013146/1,
+BB/M011674/1,
+BB/M020347/1,
+BB/M020428/1];
+European Union [284209, 675858]. The Protein Data Bank
+Japan is supported by the Database Integration Coordi-
+nation Program from the National Bioscience Database
+Centre (NBDC)-JST (Japan Science and Technology
+Agency) and the joint usage program of Institute for Pro-
+tein Research, Osaka University. The BMRB is supported
+by the U.S. National Institutes of Health [R01GM109046].
+Funding for open access charge: Wellcome Trust.
+Conflict of interest statement. None declared.
+REFERENCES
+1. Protein Data Bank (1971) Protein Data Bank. Nat. New Biol., 233,
+223.
+2. Berman,H., Henrick,K. and Nakamura,H. (2003) Announcing the
+worldwide Protein Data Bank. Nat. Struct. Biol., 10, 980–980.
+3. Berman,H.M., Westbook,J., Feng,Z., Gilliland,G., Bhat,T.N.,
+Weissig,H., Shindyalov,I.N. and Bourne,P.E. (2000) The Protein Data
+Bank. Nucleic Acids Res., 28, 235–242.
+4. Mir,S., Alhroub,Y., Anyango,S., Armstrong,D.R., Berrisford,J.M.,
+Clark,A.R., Conroy,M.J., Dana,J.M., Deshpande,M., Gupta,D. et al.
+(2017) PDBe: towards reusable data delivery infrastructure at protein
+data bank in Europe. Nucleic Acids Res., 46, D486–D492.
+5. Kinjo,A.R., Bekker,G.-J., Suzuki,H., Tsuchiya,Y., Kawabata,T.,
+Ikegawa,Y. and Nakamura,H. (2017) Protein Data Bank Japan
+(PDBj): updated user interfaces, resource description framework,
+analysis tools for large structures. Nucleic Acids Res., 45, D282–D288.
+6. Ulrich,E.L., Akutsu,H., Doreleijers,J.F., Harano,Y., Ioannidis,Y.E.,
+Lin,J., Livny,M., Mading,S., Maziuk,D., Miller,Z. et al. (2008)
+BioMagResBank. Nucleic Acids Res., 36, D402–D408.
+7. Wilkinson,M.D., Dumontier,M., Aalbersberg,Ij.J., Appleton,G.,
+Axton,M., Baak,A., Blomberg,N., Boiten,J.-W., da Silva Santos,L.B.,
+Bourne,P.E. et al. (2016) The FAIR Guiding Principles for scientific
+data management and stewardship. Sci. Data, 3, 160018.
+8. Abbott,S., Iudin,A., Korir,P.K., Somasundharam,S. and
+Patwardhan,A. (2018) EMDB Web Resources. Curr. Protoc.
+Bioinforma., 61, 5.10.1–5.10.12.
+9. Young,J.Y., Westbrook,J.D., Feng,Z., Sala,R., Peisach,E.,
+Oldfield,T.J., Sen,S., Gutmanas,A., Armstrong,D.R., Berrisford,J.M.
+et al. (2017) OneDep: unified wwPDB system for deposition,
+biocuration, and validation of macromolecular structures in the PDB
+archive. Structure, 25, 536–545.
+10. Morin,A., Eisenbraun,B., Key,J., Sanschagrin,P.C., Timony,M.A.,
+Ottaviano,M. and Sliz,P. (2013) Collaboration gets the most out of
+software. Elife, 2, e01456.
+11. Grabowski,M., Langner,K.M., Cymborowski,M., Porebski,P.J.,
+Sroka,P., Zheng,H., Cooper,D.R., Zimmerman,M.D., Elsliger,M.A.,
+Burley,S.K. et al. (2016) A public database of macromolecular
+diffraction experiments. Acta Crystallogr. D Struct. Biol., 72,
+1181–1193.
+12. Valentini,E., Kikhney,A.G., Previtali,G., Jeffries,C.M.C.M. and
+Svergun,D.I. (2015) SASBDB, a repository for biological small-angle
+scattering data. Nucleic Acids Res., 43, D357–D363.
+13. Iudin,A., Korir,P.K., Salavert-Torres,J., Kleywegt,G.J. and
+Patwardhan,A. (2016) EMPIAR: a public archive for raw electron
+microscopy image data. Nat. Methods, 13, 387–388.
+14. Gore,S., Velankar,S. and Kleywegt,G.J. (2012) Implementing an
+X-ray validation pipeline for the Protein Data Bank. Acta Crystallogr.
+D Biol. Crystallogr., 68, 478–483.
+15. Gore,S., Sanz Garc´ıa,E., Hendrickx,P.M.S., Gutmanas,A.,
+Westbrook,J.D., Yang,H., Feng,Z., Baskaran,K., Berrisford,J.M.,
+Hudson,B.P. et al. (2017) Validation of structures in the Protein Data
+Bank. Structure, 25, 1916–1927.
+16. Henderson,R., Sali,A., Baker,M.L., Carragher,B., Devkota,B.,
+Downing,K.H., Egelman,E.H., Feng,Z., Frank,J., Grigorieff,N. et al.
+(2012) Outcome of the first electron microscopy validation task force
+meeting. Structure, 20, 205–214.
+17. Montelione,G.T., Nilges,M., Bax,A., G¨untert,P., Herrmann,T.,
+Richardson,J.S., Schwieters,C.D., Vranken,W.F., Vuister,G.W.,
+Wishart,D.S. et al. (2013) Recommendations of the wwPDB NMR
+Validation Task Force. Structure, 21, 1563–1570.
+18. Adams,P.D., Aertgeerts,K., Bauer,C., Bell,J.A., Berman,H.M.,
+Bhat,T.N., Blaney,J.M., Bolton,E., Bricogne,G., Brown,D. et al.
+(2016) Outcome of the first wwPDB/CCDC/D3R ligand validation
+workshop. Structure, 24, 502–508.
+19. Read,R.J., Adams,P.D., Arendall,W.B., Brunger,A.T., Emsley,P.,
+Joosten,R.P., Kleywegt,G.J., Krissinel,E.B., L¨utteke,T.,
+Otwinowski,Z. et al. (2011) A new generation of crystallographic
+validation tools for the Protein Data Bank. Structure, 19, 1395–1412.
+20. Westbrook,J.D., Shao,C., Feng,Z., Zhuravleva,M., Velankar,S. and
+Young,J. (2015) The chemical component dictionary: complete
+descriptions of constituent molecules in experimentally determined
+3D macromolecules in the Protein Data Bank. Bioinformatics, 31,
+1274–1278.
+21. Young,J.Y., Feng,Z., Dimitropoulos,D., Sala,R., Westbrook,J.,
+Zhuravleva,M., Shao,C., Quesada,M., Peisach,E. and Berman,H.M.
+(2013) Chemical annotation of small and peptide-like molecules at
+the Protein Data Bank. Database, 2013, bat079.
+22. Westbrook,J.D. and Bourne,P.E. (2000) STAR/mmCIF: an ontology
+for macromolecular structure. Bioinformatics, 16, 159–168.
+23. Fitzgerald,P.M.D., Westbrook,J.D., Bourne,P.E., McMahon,B.,
+Watenpaugh,K.D. and Berman,H.M. (2005) The Macromolecular
+dictionary (mmCIF). In: International Tables for Crystallography,
+Volume G. pp. 295–443.
+24. Westbrook,J., Henrick,K., Ulrich,E.L. and Berman,H.M. (2005) The
+Protein Data Bank exchange data dictionary. In: International Tables
+for Crystallography, Volume G. pp. 195–198.
+25. Ulrich,E.L., Argentar,D., Klimowicz,A., Westler,W.M. and
+Markley,J.L. (1996) STAR/CIF macromolecular NMR data
+dictionaries and data file formats. Acta Crystallogr. A Found.
+Crystallogr., 52, C577–C577.
+26. Doreleijers,J.F., Mading,S., Maziuk,D., Sojourner,K., Yin,L., Zhu,J.,
+Markley,J.L. and Ulrich,E.L. (2003) BioMagResBank database with
+sets of experimental NMR constraints corresponding to the
+structures of over 1400 biomolecules deposited in the Protein Data
+Bank. J. Biomol. NMR, 26, 139–146.
+27. Tagari,M., Newman,R., Chagoyen,M., Carazo,J.M. and Henrick,K.
+(2002) New electron microscopy database and deposition system.
+Trends Biochem Sci., 27, 589.
+28. Westbrook,J., Ito,N., Nakamura,H., Henrick,K. and Berman,H.M.
+(2005) PDBML: the representation of archival macromolecular
+structure data in XML. Bioinformatics, 21, 988–992.
+29. Kinjo,A.R., Suzuki,H., Yamashita,R., Ikegawa,Y., Kudou,T.,
+Igarashi,R., Kengaku,Y., Cho,H., Standley,D.M., Nakagawa,A. et al.
+(2012) Protein Data Bank Japan (PDBj): maintaining a structural

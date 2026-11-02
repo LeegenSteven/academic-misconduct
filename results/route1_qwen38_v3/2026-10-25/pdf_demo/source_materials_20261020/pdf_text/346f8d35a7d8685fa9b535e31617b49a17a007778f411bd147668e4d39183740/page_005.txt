@@ -1,0 +1,112 @@
+JACK ET AL.
+5147
+TABLE 2
+Intended uses for imaging, CSF, and plasma biomarker assays.
+Intended use
+CSF
+Plasma
+Imaging
+Diagnosis
+A: (Aβ proteinopathy)
+—
+—
+Amyloid PET
+T1: (phosphorylated and
+secreted AD tau)
+—
+p-tau217
+—
+Hybrid ratios
+p-tau181/Aβ42, t-tau/Aβ42, Aβ42/40
+%p-tau217
+—
+Staging, prognosis, as an indicator of biological treatment effect
+A: (Aβ proteinopathy)
+—
+—
+Amyloid PET
+T1: (phosphorylated and
+secreted AD tau)
+—
+p-tau217
+—
+Hybrid ratios
+p-tau181/Aβ42, t-tau/Aβ42, Aβ42/40
+%p-tau217
+—
+T2: (AD tau proteinopathy)
+MTBR-tau243, other p-tau forms (e.g.,
+p-tau205), non-phosphorylated
+mid-region tau fragments
+MTBR-tau243, other
+p-tau forms (e.g.,
+p-tau205)
+Tau PET
+N (injury, dysfunction, or
+degeneration of neuropil)
+NfL
+NfL
+Anatomic MRI,
+FDG PET
+I (inflammation) Astrocytic
+activation
+GFAP
+GFAP
+—
+Identification of copathology
+N (injury, dysfunction, or
+degeneration of neuropil)
+NfL
+NfL
+Anatomic MRI,
+FDG PET
+V vascular brain injury
+—
+—
+Infarction on MRI
+or CT, WMH
+S α-synuclein
+αSyn-SAA
+—
+Notes: Table 2 lists assays while Table 1 lists analytes; therefore, plasma and CSF are listed separately in Table 2 but listed together in Table 1. The focus in
+this table is on plasma p-tau217 and not p-tau231, p-tau181, or Aβ42/40 because p-tau217 typically outperforms these other plasma assays in head-to-
+head comparisons. %p-tau is the ratio p-tau217/non-phosphorylated-tau217. Combinations of Core 1 biomarkers may also be used for diagnosis. P-tau205,
+MTBR-tau243, and non-phosphorylated tau fragments have not undergone the same level of validation testing as has tau PET; however, they are included to
+support a “conceptual” staging scheme outlined in Table 5.
+Abbreviations: Aβ, amyloid beta; AD, Alzheimer’s disease; αSyn-SAA, alpha-synuclein seed amplification assay; CSF, cerebrospinal fluid; CT, computed
+tomography; FDG, fluorodeoxyglucose; GFAP, glial fibrillary acidic protein; MRI, magnetic resonance imaging; MTBR, microtubule-binding region; NfL,
+neurofilament light chain; PET, positron emission tomography; p-tau, phosphorylated tau; WMH, white matter hyperintensity.
+3
+DIAGNOSIS
+In this update we propose that abnormality on specific Core 1 biomark-
+ers is sufficient to diagnose AD (Table 2). Specifically, we propose that
+the following can be diagnostic of AD: amyloid PET; CSF Aβ 42/40, CSF
+p-tau 181/Aβ 42, CSF t-tau/Aβ 42; or “accurate” plasma assays where
+“accurate” can be defined as accuracy that is equivalent to approved
+CSF assays in detecting abnormal amyloid PET in the intended-use
+population (Box 2). This definition is consistent with recent recom-
+mendations on minimum acceptable performance criteria for BBM.34
+Combinations of Core 1 biomarkers may also be used as diagnostic
+tests.
+Core 2 biomarkers have many uses (Table 2, Box 2) but most often
+would not be used as standalone diagnostic tests for AD. Caution
+should be used in interpreting an abnormal Core 2 result in the pres-
+ence of a normal Core 1 result, because, as discussed in Section 4.3,
+abnormal amyloid PET (or a biofluid surrogate) is nearly always a
+prerequisite for neocortical AD tauopathy.35 The A−T2+ biomarker
+profile36 is not consistent with a diagnosis of AD.37 First, this com-
+bination is rare.38–40 Second, when it does occur, it is often due to
+quantitative values close to cutpoints that may fall on one side ver-
+sus the other owing to measurement variation.41 As discussed later,
+biomarkershave sensitivitylimitsand a normal Abiomarker resultdoes
+not mean that the brain is devoid of plaques, but rather that if plaques
+are present, the burden does not rise to the detection threshold. Third,
+from a neuropathologic perspective, A−T2+ corresponds to primary
+age-related tauopathy, which is not considered to represent AD.5,42
+3.1
+Rationale for diagnosis of AD by Core 1
+biomarkers
+Natural history studies show that biomarkers in the Core 1 category
+become abnormal well before symptoms arise (Figure 1).43–49,50,51 Our
+rationale for diagnosing AD by the presence of specific Core 1 biomark-
+ers(Table 2) isthatbiomarkersthatcoincide withthe onsetofabnormal

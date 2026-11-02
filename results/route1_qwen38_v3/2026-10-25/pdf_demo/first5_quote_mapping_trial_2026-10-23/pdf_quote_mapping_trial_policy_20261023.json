@@ -1,0 +1,32 @@
+{
+  "version": "route1_pdf_quote_mapping_trial_v1_20261023",
+  "kind": "separate_CPU_offline_mapping_trial",
+  "accepted_production_parser": false,
+  "snapshot_sha256": "368f6098a0a15afcd9de9cbc631cb5da7a256fd35a1df22dc2926c055addfe5a",
+  "offsets": "Unicode code points; zero-based half-open; PyMuPDF 1.28.2 text sort=False",
+  "scope": "Frozen first5 responses and their selected evidence; no model call or candidate replacement",
+  "exact_match_precedence": "Use exact unique match first; overlapping duplicate occurrences are ambiguous",
+  "allowed_diagnostic_operations": [
+    "Remove one complete enclosing json fence, without JSON repair",
+    "Fold whitespace runs while preserving a word boundary and character map",
+    "Remove U+00AD only at an ASCII-letter boundary, logged with source offsets",
+    "Join a line break after a retained ASCII lexical hyphen before an ASCII letter",
+    "Hypothesize removal of ASCII hyphen plus line break between ASCII letters; ALWAYS flag for review"
+  ],
+  "disallowed_operations": [
+    "Global punctuation, number, minus sign, negation, or citation-marker removal",
+    "Case folding or generic NFKC substitution",
+    "Deletion of an inline lexical hyphen",
+    "Joining digits across a line-end hyphen",
+    "Accepting multiple occurrences or arbitrary source substitutions"
+  ],
+  "preexisting_patch_handling": "Only the frozen equal-length trimmomatic_p03_prime_glyphs_v1 patch is recognized; raw PDF glyphs and differences are preserved",
+  "line_end_hyphen_removal_acceptance": "Unique mapping hypothesis only; not automatic acceptance",
+  "uniqueness_scope": "Within the selected candidate; never silently choose among repeated occurrences",
+  "PDF_mapping_requirement": "Replay full candidate and matched intervals against hash-verified PDF; block boxes remain block-level",
+  "semantic_acceptance": false,
+  "formal_review_import": false,
+  "new_model_inference": false,
+  "fixed_denominator": 20,
+  "historical_results_to_preserve": {"strict": "1/5", "fence_only": "3/5", "formal_end_to_end_accepted": 0}
+}

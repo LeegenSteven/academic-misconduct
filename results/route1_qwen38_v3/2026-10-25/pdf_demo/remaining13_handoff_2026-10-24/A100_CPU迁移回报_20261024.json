@@ -1,0 +1,16 @@
+{
+  "status": "A100_CPU_MIGRATION_PASS_REPORTED_BY_USER",
+  "source": "user pasted terminal output",
+  "exact_output": "REMAINING13_CPU_MIGRATION_PASS points=20 fingerprints=40 model_loaded=false GPU_used=false released=0",
+  "reported_host": "admire@a100",
+  "fixed_points": 20,
+  "matching_stage_fingerprints": 40,
+  "recorded_at_utc": "2026-10-24T05:39:42.650940+00:00",
+  "actual_execution_time": null,
+  "recorded_time_is_not_execution_or_human_review_time": true,
+  "full_A100_output_files_downloaded_and_verified": false,
+  "new_scope_confirmation": null,
+  "new_model_run": false,
+  "released": 0,
+  "actual_model_points_total_unchanged": 5
+}

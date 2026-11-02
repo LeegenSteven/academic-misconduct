@@ -1,0 +1,12 @@
+{
+  "version": "supplement_two_point_runtime_20261029",
+  "prepared_at_utc": "2026-10-29T13:06:24.879105+00:00",
+  "status": "PREPARED_FOR_A100_NOT_RUN",
+  "model_run_started": false,
+  "plan_sha256": "a4fb8aae9f9beb9dedbb5410de1a4fa0afc5d6aeb5be4ce325550f4ddaf8c0a0",
+  "points": 2,
+  "candidate_locators_replayed": 3,
+  "local_nvidia_smi": false,
+  "note": "This package does not contain model responses; no run or acceptance is inferred. Runtime check corrected on 2026-10-31; no model run occurred before correction.",
+  "runner_sha256": "3eef92f03c0ead083f98d6f36301226d447011f963ba17f9081aecc2ef5025e5"
+}

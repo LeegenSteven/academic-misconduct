@@ -1,0 +1,385 @@
+{
+  "case_id": "r1pdf:ecd1a395eb5f25610750d721",
+  "fixed20_point_number": 3,
+  "first5_point_number": 2,
+  "status": "PROPOSAL_AWAITING_LI_EXPLICIT_CASE_SPECIFIC_CONFIRMATION",
+  "proposed_human_label": "ACCURATE",
+  "proposed_human_reason": "S02/S04直接支持Trimmomatic以Sliding Window进行质量修剪；S08直接支持adapter removal和quality filtering功能。本点将popular作为不影响核心工具/算法功能判断的非关键修饰，候选未独立证实其流行程度。保留完整原句，建议按ACCURATE处理。",
+  "claim_component_checks": [
+    {
+      "claim_component": "quality pruning using sliding window",
+      "evidence_ids": [
+        "D01:S02",
+        "D01:S04"
+      ],
+      "basis": "S02直接列出Sliding Window quality filtering；S04明确SW是Trimmomatic的质量模式。"
+    },
+    {
+      "claim_component": "trimming adapter tool",
+      "evidence_ids": [
+        "D01:S08"
+      ],
+      "basis": "S08明确列出adapter removal与quality filtering，支持本句所述工具功能。"
+    },
+    {
+      "claim_component": "popular",
+      "evidence_ids": [],
+      "basis": "冻结候选没有给出使用率或传播范围依据；S02的standard approach形容算法做法，不能充当工具流行度数据。"
+    }
+  ],
+  "materiality_decision_proposed": "Only for this unchanged claim: popular does not materially change the stated tool identity or the supported trimming functions.",
+  "general_popular_exemption_adopted": false,
+  "claim_word_removed": false,
+  "new_popularity_threshold": null,
+  "such_as_rule_relaxed": false,
+  "outside_knowledge_used": false,
+  "scope_as_frozen": {
+    "case_id": "r1pdf:ecd1a395eb5f25610750d721",
+    "pair_id": "r1pair:5aa02bcf44b678f7de9e",
+    "dedup_key": "ecd1a395eb5f25610750d721c05c6281e78968e5043a67921e1db275b0f4a371",
+    "source_pool_candidate_id": "PMC-OA-EXP-05",
+    "target_reference_id": "bty560-B3",
+    "original_full_context_marked": "Quality control and preprocessing of FASTQ data could be considered resolved given the availability of several relevant tools. For instance, FASTQC (Andrews, 2010) is a Java-based quality control tool providing per-base and per-read quality profiling features. Cutadapt (Martin, 2011) is a commonly used adapter trimmer, which also provides some read-filtering features. Trimmomatic ([[TARGET_REFERENCE]]Bolger et al., 2014[[/TARGET_REFERENCE]]), another popular trimming adapter tool, can perform quality pruning using algorithms such as sliding window cutting. SOAPnuke (Chen et al., 2018) is a recently published tool for adapter trimming and read filtering with the implementation of MapReduce on Hadoop systems",
+    "old_scope_query": "Trimmomatic (Bolger et al., 2014), another popular trimming adapter tool, can perform quality pruning using algorithms such as sliding window cutting",
+    "primary_scope_pieces": [
+      {
+        "text": "Trimmomatic (Bolger et al., 2014), another popular trimming adapter tool, can perform quality pruning using algorithms such as sliding window cutting",
+        "normalized_context_start": 371,
+        "normalized_context_end_exclusive": 520,
+        "source_pdf_fragments": [
+          {
+            "pdf_page": 1,
+            "printed_page": null,
+            "char_start": 3212,
+            "char_end_exclusive": 3361,
+            "raw_text": "Trimmomatic\n(Bolger et al., 2014), another popular trimming adapter tool, can\nperform quality pruning using algorithms such as sliding window\ncutting",
+            "raw_text_sha256": "db7dce368eff67cdec23cfc2f0f7b6ee16da8c4fe6f931df35dec1ef1c02567b",
+            "source_blocks": [
+              {
+                "block_number": 10,
+                "bbox": [
+                  315.153,
+                  471.128,
+                  549.224,
+                  567.114
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ]
+      }
+    ],
+    "context_only_pieces": [],
+    "prepared_query": "Trimmomatic (Bolger et al., 2014), another popular trimming adapter tool, can perform quality pruning using algorithms such as sliding window cutting",
+    "query_changed": false,
+    "boundary_reason": "保留 Trimmomatic 可用 sliding window 做质量剪切的完整主张。被引 E02 的 5′/3′ 另用逐字修订记录处理，不通过删改施引主张消除问题。",
+    "scope_status": "assistant_source_boundary_checked",
+    "reviewer_signoff": {
+      "李云": null,
+      "陈明进": null
+    },
+    "exposure": {
+      "prior_retrieval_known": true,
+      "new_model_predictions_seen": false,
+      "independent_blind_claimed": false
+    },
+    "label": null,
+    "joint_adjudication": null
+  },
+  "frozen_classifier_input_sha256": "9836cb6ee93dcec60818bff4178d27c5addc3d6a63d6b2cf3c22a92ba71c7974",
+  "frozen_explainer_input_sha256": "3e296eb76f8b4d780998899bd6f1460c0a38cfd991d5ac493f5414fa31d61d41",
+  "frozen_contract_sha256": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+  "candidate_source_checks": [
+    {
+      "evidence_id": "D01:S01",
+      "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "model_text_sha256": "178576d1109029dc3b5265ade42b0918f7960baa91638ac375d8e0645fa788a1",
+      "correction_patch_ids": [],
+      "PDF_locations": [
+        {
+          "pdf_page": 1,
+          "char_start": 1853,
+          "char_end_exclusive": 2275,
+          "source_blocks": [
+            {
+              "block_number": 12,
+              "bbox": [
+                48.416,
+                494.325,
+                290.603,
+                569.055
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S02",
+      "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "model_text_sha256": "de6899b0f5e329a3c5ced7f6e674d89eed90cf9387036e593b3dea7fab816916",
+      "correction_patch_ids": [
+        "trimmomatic_p03_prime_glyphs_v1"
+      ],
+      "PDF_locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 2834,
+          "char_end_exclusive": 3276,
+          "source_blocks": [
+            {
+              "block_number": 11,
+              "bbox": [
+                48.415,
+                638.577,
+                290.528,
+                713.451
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S03",
+      "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "model_text_sha256": "dbf69c8b20b16bc15fcaad8481ee8e184e0b33f0ef811882833e1cccb4411fd4",
+      "correction_patch_ids": [],
+      "PDF_locations": [
+        {
+          "pdf_page": 5,
+          "char_start": 5668,
+          "char_end_exclusive": 6011,
+          "source_blocks": [
+            {
+              "block_number": 23,
+              "bbox": [
+                48.416,
+                306.321,
+                290.598,
+                358.164
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S04",
+      "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "model_text_sha256": "03794122c6dc4f65f5cc23168179f8aaf1a8d6ac7bcd2817c7705895284df1c5",
+      "correction_patch_ids": [],
+      "PDF_locations": [
+        {
+          "pdf_page": 6,
+          "char_start": 3802,
+          "char_end_exclusive": 4132,
+          "source_blocks": [
+            {
+              "block_number": 17,
+              "bbox": [
+                61.795,
+                336.255,
+                303.947,
+                388.041
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S05",
+      "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "model_text_sha256": "18fb5e7a3326333f0ae0a6103b69212dfd83ce2d7210184e7d96d27a91901435",
+      "correction_patch_ids": [],
+      "PDF_locations": [
+        {
+          "pdf_page": 4,
+          "char_start": 3473,
+          "char_end_exclusive": 3918,
+          "source_blocks": [
+            {
+              "block_number": 23,
+              "bbox": [
+                321.789,
+                495.514,
+                563.979,
+                581.473
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S06",
+      "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "model_text_sha256": "2b69b9cc111da03a85edb2c296789e78a798c2d9bc5ec34c68b47e4e3ea28f19",
+      "correction_patch_ids": [],
+      "PDF_locations": [
+        {
+          "pdf_page": 1,
+          "char_start": 1690,
+          "char_end_exclusive": 1853,
+          "source_blocks": [
+            {
+              "block_number": 11,
+              "bbox": [
+                48.416,
+                461.444,
+                290.592,
+                492.293
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S07",
+      "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "model_text_sha256": "194cad1030351ff8eb11a8919fb5ec445ff1b6e34679d39b044814c805d63e31",
+      "correction_patch_ids": [],
+      "PDF_locations": [
+        {
+          "pdf_page": 6,
+          "char_start": 4132,
+          "char_end_exclusive": 4297,
+          "source_blocks": [
+            {
+              "block_number": 18,
+              "bbox": [
+                321.789,
+                68.541,
+                563.989,
+                96.41
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S08",
+      "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "model_text_sha256": "4a2b4b3343c8ac6f90fad3466d3ab60eea19e64d1481b50eb94c544c0ac72ad2",
+      "correction_patch_ids": [],
+      "PDF_locations": [
+        {
+          "pdf_page": 4,
+          "char_start": 924,
+          "char_end_exclusive": 1303,
+          "source_blocks": [
+            {
+              "block_number": 10,
+              "bbox": [
+                61.795,
+                310.47,
+                303.952,
+                385.597
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S09",
+      "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "model_text_sha256": "5777a86016d30c60ecb4843beffeabc2781ec25f66439c7ae0949833def19c51",
+      "correction_patch_ids": [],
+      "PDF_locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 4312,
+          "char_end_exclusive": 4564,
+          "source_blocks": [
+            {
+              "block_number": 14,
+              "bbox": [
+                308.466,
+                257.459,
+                550.62,
+                299.818
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S10",
+      "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+      "model_text_sha256": "4ee27ca36af31bb825e4100265361f50419d956c42d017d413cd83c6ccd858f2",
+      "correction_patch_ids": [],
+      "PDF_locations": [
+        {
+          "pdf_page": 6,
+          "char_start": 4848,
+          "char_end_exclusive": 5047,
+          "source_blocks": [
+            {
+              "block_number": 23,
+              "bbox": [
+                321.789,
+                346.176,
+                563.974,
+                380.104
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    }
+  ],
+  "registered_prime_correction_reproduced": true,
+  "new_candidate_correction_applied": false,
+  "original_classifier_label": "ACCURATE",
+  "original_explanation_reason": "证据支持Trimmomatic能够执行质量修剪（quality filtering），且Sliding Window（SW）是其质量修剪模式之一（D01:S04, D01:S08）。D01:S02提供了Sliding Window算法的具体机制（扫描5'端，当平均质量低于阈值时移除3'端），支持目标引用中关于“使用滑动窗口切割等算法进行质量修剪”的主张。证据未直接提及“popular”（流行）这一属性，也未直接证明其是“adapter tool”（尽管D01:S08提到adapter removal步骤，但目标引用主要强调其作为修剪工具执行质量修剪的能力，且D01:S04明确将其与质量模式关联）。",
+  "original_reason_assessment_proposed": "未直接证明其为adapter tool这一限制忽略了S08明确的adapter removal；不建议把原理由直接记为完全语义合格。其关于popular未直接获证的限定单独保留。",
+  "Chen_personal_suggestion_as_received": {
+    "label": "ACCURATE",
+    "popular_materiality_proposal": "popular为弱修饰语，不影响核心判断",
+    "source_file": "首批5点语义核对_陈明进_v2_20261022.md",
+    "source_sha256": "4879f6ea33fd9af6db28acd4d1f0877134aa23480f04a3269384e1dd34c17896"
+  },
+  "Li_confirmed_label": null,
+  "Li_confirmed_popular_materiality": null,
+  "joint_adjudication_imported": false,
+  "new_model_run": false,
+  "original_output_or_scope_changed": false,
+  "formal_acceptance_added": false
+}

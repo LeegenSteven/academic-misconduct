@@ -1,0 +1,93 @@
+D640 Nucleic Acids Research, 2023, Vol. 51, Database issue
+Figure 1. Extending STRING with user-submitted genomes. Submitted genomes are first searched against the existing STRING genomes, and orthology
+is used to transfer all relevant information (interactions, annotations) from closely related organisms. The submitted genomes then become available on
+the web interface, via the programmatic Application Programming Interface (API), and for bulk downloads.
+(43). Lastly, the ‘textmining’ channel is the result of parsing
+full-text articles from the PMC Open Access Subset (up to
+April 2022), PubMed abstracts (up to August 2022), as well
+as summary texts from OMIM (44) and SGD (45) entry de-
+scriptions. These texts are all parsed for co-mentions of pro-
+tein pairs and assessed against the frequencies of all sepa-
+rate mentions of the respective proteins, as described in (46).
+On top of functional associations, the three latter channels
+(i.e. experiments, database and textmining) provide also the
+interactions for the physical sub-network of STRING. The
+calculation of the confidence scores for the protein pairs in
+this network differs from that of the functional association
+network and is described in detail in (22).
+The deep learning-based relation extraction text mining
+model has received significant upgrades in the current ver-
+sion. Specifically, the language representation model that
+we use has changed from BioBERT (47) to a biomedical
+RoBERTa-large model (48), which has already shown better
+performance in relation extraction tasks (49). Moreover, the
+model can now detect physical interactions that span across
+the boundaries of a single sentence. This is made possible
+mainly due to the two orders of magnitude increase of man-
+ually annotated relations in the training set (from 6145 to
+243 831), which led to the addition of many cross-sentence
+pairs during training, thus allowing the model to learn to
+detect such associations. These changes in the deep learning
+model, in combination with the increase in the size of the lit-
+erature corpus compared to the previous STRING version,
+have led to a two-fold increase in the number of physical
+protein–protein interactions above the low, medium, and
+high confidence score cut-offs in the text mining channel
+(Table 1).
+Table 1.
+Counts and relative frequencies of physically interacting pro-
+tein pairs obtained via text mining. Aggregating across all organisms in
+STRING, the table shows counts for various frequently used score cutoff
+levels, for both STRING version 11.5 and STRING version 12.0. The low-
+est score cut-off has been used to determine what constitutes 100% for each
+dataset
+score
+Number of
+pairs in v. 11.5
+Number of
+pairs in v.
+12.0
+Frequency of
+pairs above
+score cut-off
+in v. 11.5 (%)
+Frequency of
+pairs above
+score cut-off
+in v. 12.0 (%)
+0.15
+253 626
+401 976
+100.0
+100.0
+0.4
+70 148
+143 591
+27.6
+35.7
+0.7
+22 349
+45 981
+8.8
+11.4
+0.9
+0
+21 689
+0
+5.4
+All protein–protein associations assembled for the
+STRING database are then transferred across organisms,
+where applicable, based on orthology relationships with the
+assumption that orthologs of associated proteins are like-
+wise associated (‘interologs’, (50)). For this, hierarchical or-
+thology relationships, at various levels of taxonomic reso-
+lution, are imported from the eggNOG database (51). Af-
+ter interolog transfer and the final combined score integra-
+tion, the resulting protein association networks can be ac-
+cessed in a number of ways. Firstly, the interactive web-
+site of STRING allows browsing and searching, including
+evidence inspection via dedicated viewers. Users can also
+submit larger queries there, allowing for the construction
+of dedicated networks and for statistical searches for func-
+tional enrichments. Apart from the website, scientists can
+access STRING via a dedicated Cytoscape plugin (52), as

@@ -1,0 +1,130 @@
+5166
+JACK ET AL.
+95. Brum WS, Ashton NJ, Simren J, et al. Biological variation estimates
+of Alzheimer’s disease plasma biomarkers in healthy individuals.
+Alzheimers Dement. 2023;20:1284-1297.
+96. Landau SM, Horng A, Jagust WJ, Alzheimer’s Disease Neuroimaging
+I. Memory decline accompanies subthreshold amyloid accumulation.
+Neurology. 2018;90:e1452-e1460.
+97. Zetterberg H, Blennow K. Moving fluid biomarkers for Alzheimer’s
+disease from research tools to routine clinical diagnostics. Mol
+Neurodegener. 2021;16:10.
+98. Cousins KAQ, Shaw LM, Shellikeri S, et al. Elevated Plasma Phos-
+phorylated Tau 181 in Amyotrophic Lateral Sclerosis. Ann Neurol.
+2022;92:807-818.
+99. Brum WS, Docherty KF, Ashton NJ, et al. Effect of neprilysin inhibi-
+tion on Alzheimer disease plasma biomarkers: a secondary analysis
+of a randomized clinical trial. JAMA Neurol. 2023;81:197-200.
+100. Graff-Radford J, Jones DT, Wiste HJ, et al. Cerebrospinal fluid
+dynamics and discordant amyloid biomarkers. Neurobiol Aging.
+2022;110:27-36.
+101. Mielke MM, Dage JL, Frank RD, et al. Performance of plasma
+phosphorylated tau 181 and 217 in the community. Nat Med.
+2022;28:1398-1405.
+102. O’Bryant SE, Petersen M, Hall J, Johnson LA, Team H-HS. Medi-
+cal comorbidities and ethnicity impact plasma Alzheimer’s disease
+biomarkers: important considerations for clinical trials and practice.
+Alzheimers Dement. 2023;19:36-43.
+103. Pichet Binette A, Janelidze S, Cullen N, et al. Confounding factors of
+Alzheimer’s disease plasma biomarkers and their impact on clinical
+performance. Alzheimers Dement. 2023;19:1403-1414.
+104. Huber H, Ashton NJ, Schieren A, et al. Levels of Alzheimer’s dis-
+ease blood biomarkers are altered after food intake-A pilot inter-
+vention study in healthy adults. Alzheimers Dement. 2023;19:5531-
+5540.
+105. Rabinovici GD, Gatsonis C, Apgar C, et al. Association of amyloid
+positron emission tomography with subsequent change in clini-
+cal management among medicare beneficiaries with mild cognitive
+impairment or dementia. JAMA. 2019;321:1286-1294.
+106. Monane M, Johnson KG, Snider BJ, et al. A blood biomarker test for
+brain amyloid impacts the clinical evaluation of cognitive impairment.
+Ann Clin Transl Neurol. 2023;10:1738-1748.
+107. Strikwerda-Brown C, Hobbs DA, Gonneaud J, et al. Association of
+elevated amyloid and tau positron emission tomography signal with
+near-term development of Alzheimer disease symptoms in older
+adults without cognitive impairment. JAMA Neurol. 2022;79:975-
+985.
+108. Salvado G, Larsson V, Cody KA, et al. Optimal combinations of CSF
+biomarkers for predicting cognitive decline and clinical conversion
+in cognitively unimpaired participants and mild cognitive impairment
+patients: a multi-cohort study. Alzheimers Dement. 2023;19:2943-
+2955.
+109. Ebenau JL, Timmers T, Wesselman LMP, et al. ATN classification
+and clinical progression in subjective cognitive decline: the SCIENCe
+project. Neurology. 2020;95:e46-e58.
+110. Jack CR Jr., Wiste HJ, Therneau TM, et al. Associations of amyloid,
+tau, and neurodegeneration biomarker profiles with rates of memory
+decline among individuals without dementia. JAMA. 2019;321:2316-
+2325.
+111. Therriault J, Pascoal TA, Lussier FZ, et al. Biomarker modeling
+of Alzheimer’s disease using PET-based Braak staging. Nat Aging.
+2022;2:526-535.
+112. Grothe MJ, Barthel H, Sepulcre J, et al. In vivo staging of regional
+amyloid deposition. Neurology. 2017;89:2031-2038.
+113. Mattsson N, Palmqvist S, Stomrud E, Vogel J, Hansson O. Staging
+beta-amyloid pathology with amyloid positron emission tomography.
+JAMA Neurol. 2019;76:1319-1329.
+114. Collij LE, Heeman F, Salvado G, et al. Multitracer model for
+staging cortical amyloid deposition using PET imaging. Neurology.
+2020;95:e1538-e1553.
+115. Cho H, Choi JY, Hwang MS, et al. In vivo cortical spreading pattern
+of tau and amyloid in the Alzheimer disease spectrum. Ann Neurol.
+2016;80:247-258.
+116. Scholl M, Lockhart SN, Schonhaut DR, et al. PET Imaging of tau
+deposition in the aging human brain. Neuron. 2016;89:971-982.
+117. Schwarz AJ, Shcherbinin S, Slieker LJ, et al. Topographic staging of
+tau positron emission tomography images. Alzheimers Dement (Amst).
+2018;10:221-231.
+118. Jack CR Jr., Wiste HJ, Algeciras-Schimnich A, et al. Predicting
+amyloid PET and tau PET stages with plasma biomarkers. Brain.
+2023;146:2029-2044.
+119. Wang L, Benzinger TL, Su Y, et al. Evaluation of tau imaging in staging
+alzheimer disease and revealing interactions between beta-amyloid
+and tauopathy. JAMA Neurol. 2016;73:1070-1077.
+120. Villemagne VL, Dore V, Bourgeat P, et al. The tau MeTeR scale for the
+generation of continuous and categorical measures of tau deposits in
+the brain: results from 18F-AV1451 and 18F-THK5351 tau imaging
+studies. Alzheimer’s dement. 2016;12:244.
+121. Jack CR Jr., Knopman DS, Jagust WJ, et al. Hypothetical model of
+dynamic biomarkers of the Alzheimer’s pathological cascade. Lancet
+Neurol. 2010;9:119-128.
+122. Jack CR Jr., Knopman DS, Jagust WJ, et al. Tracking pathophysiologi-
+cal processes in Alzheimer’s disease: an updated hypothetical model
+of dynamic biomarkers. Lancet Neurol. 2013;12:207-216.
+123. Smith R, Cullen NC, Pichet Binette A, et al. Tau-PET is superior to
+phospho-tau when predicting cognitive decline in symptomatic AD
+patients. Alzheimers Dement. 2023;19:2497-2507.
+124. Ossenkoppele R, Schonhaut DR, Scholl M, et al. Tau PET patterns mir-
+ror clinical and neuroanatomical variability in Alzheimer’s disease.
+Brain. 2016;139:1551-1567.
+125. Brier MR, Gordon B, Friedrichsen K, et al. Tau and Aβ imaging,
+CSF measures, and cognition in Alzheimer’s disease. Sci Transl Med.
+2016;8:338ra366.
+126. Gordon BA, Blazey TM, Christensen J, et al. Tau PET in autosomal
+dominant Alzheimer’s disease: relationship with cognition, dementia
+and other biomarkers. Brain. 2019;142:1063-1076.
+127. Ossenkoppele R, Smith R, Mattsson-Carlgren N, et al. Accuracy
+of tau positron emission tomography as a prognostic marker in
+preclinical and prodromal Alzheimer disease: a head-to-head com-
+parison against amyloid positron emission tomography and magnetic
+resonance imaging. JAMA Neurol. 2021;78:961-971.
+128. Hanseeuw BJ, Betensky RA, Jacobs HIL, et al. Association of amyloid
+and tau with cognition in preclinical Alzheimer disease: a longitudinal
+study. JAMA Neurol. 2019;76:915-924.
+129. Berron D, Vogel JW, Insel PS, et al. Early stages of tau pathology and
+its associations with functional connectivity, atrophy and memory.
+Brain. 2021;144:2771-2783.
+130. Leuzy A, Smith R, Cullen NC, et al. Biomarker-based prediction of
+longitudinal tau positron emission tomography in Alzheimer disease.
+JAMA Neurol. 2022;79:149-158.
+131. Tetzloff KA, Graff-Radford J, Martin PR, et al. Regional distribution,
+asymmetry, and clinical correlates of tau uptake on [18F]AV-1451
+PET in atypical Alzheimer’s disease. J Alzheimers Dis. 2018;62:1713-
+1724.
+132. Vogel JW, Young AL, Oxtoby NP, et al. Four distinct trajectories of tau
+deposition identified in Alzheimer’s disease. Nat Med. 2021;27:871-
+881.
+133. Knopman DS, Lundt ES, Therneau TM, et al. Association of initial
+beta-amyloid levels with subsequent flortaucipir positron emission
+tomography changes in persons without cognitive impairment. JAMA
+Neurol. 2021;78:217-228.

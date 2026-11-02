@@ -1,0 +1,50 @@
+Thus, this framework can serve as a hypothesis testing platform for disease models where A 
+and T are present as epiphenomena and models where they are causal. We emphasize though 
+that A and T proteinopathies define AD as a unique disease among the many that can 
+lead to dementia. As a consequence, disease models where A and T are not in the 
+primary causal pathway must provide a mechanistic explanation for the development 
+of both of these diagnostic proteinopathies, as well as neurodegeneration and clinical 
+symptoms.
+Many in the field are convinced that amyloidosis induces or facilitates the spread of 
+pathologic tau (perhaps by promoting pathologic tau strains [218,219]), pathologic tau is 
+immediately proximate to neurodegeneration, and neurodegeneration is the proximate cause 
+of cognitive decline (C). If this “modified amyloid cascade hypothesis” were correct, then 
+the logical biomarker sequence of AD pathogenesis would be that denoted in Fig. 6A 
+[153,220,221]. Indeed, Fig. 6A maps onto the definitions outlined in Table 2. However, other 
+biomarker sequences are possible and can be investigated through this framework. T could 
+induce A (Fig. 6B), although if this were true, individuals with primary tauopathies 
+(particularly MAPT mutations that produce 3R/4R fibrillar pathological tau that is 
+morphologically identical to tau deposits in AD) would be expected to develop Aβ plaques, 
+which is not the case. Both A and T could arise spontaneously and independently with the 
+combination of both required to induce (N) (Fig. 6C). A and T could arise simultaneously 
+due to a common upstream pathologic process (W) (Fig. 6D). For example, it is possible that 
+cell senescence [222] or age-related breakdown of systems involved in immune surveillance 
+or clearance of proteinaceous debris could be the upstream etiology for both A and T 
+accumulation. A and T could be promoted by different and independent upstream pathologic 
+processes (X and Y) [223] (Fig. 6E). For example, an age-related decrease in the rate of Aβ 
+turnover could represent mechanism X in Fig. 6E [224]. “X” could also be a complement 
+component receptor-1 variant that may influence Aβ clearance [164]. A yet unknown or 
+unproven upstream pathologic process (Z) could induce A, T, and (N), with A and T being 
+epiphenomena that are not in the causal pathway of (N) and (C). “Z” could represent many 
+different possible mechanisms, for example, immune function, over or under activation of 
+inflammatory pathways [165], and network failure [225,226] (Fig. 6F). It is also possible 
+that mechanisms exist that lead to A and T but never lead to (N) and (C). Ultimately, proof 
+of causality requires that mechanistically targeted interventions alter the natural history of 
+the disease. If interventions that prevent A and T do not prevent (N) and (C), then this would 
+be evidence that neither A nor T is central to the pathogenesis of AD. The research 
+framework provides a platform to test these hypotheses.
+Another possible scenario is that the same pathologic process has different effects in 
+different people. It might be that the pathway outlined in Fig. 6A is operative in some 
+individuals, but other individuals have a factor Q (which could be genetic or environmental) 
+that blocks the effect of A on T. In these individuals, A could accumulate harmlessly without 
+leading to downstream events. If Q were discovered, then its effect on T, (N), and (C) given 
+A could be tested empirically with the framework. However, this issue needs to be 
+approached thoughtfully. The fact that individuals die with A without developing T, (N), or 
+(C) in their lifetimes does not prove the existence of factor Q. Because of increasing death 
+Jack et al.
+Page 22
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

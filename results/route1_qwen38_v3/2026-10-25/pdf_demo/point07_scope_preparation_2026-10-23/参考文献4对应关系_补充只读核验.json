@@ -1,0 +1,28 @@
+{
+  "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+  "target_reference_id": "bib4",
+  "reference_number": 4,
+  "citing_reference_fragment": {
+    "pdf_page": 10,
+    "char_start": 1668,
+    "char_end_exclusive": 1857,
+    "raw_text": "4\t\nLi Q, Guan X, Wu P, et al. Early transmission dynamics in Wuhan, \nChina, of novel coronavirus-infected pneumonia. N Engl J Med \n2020; published online Jan 29. DOI:10.1056/NEJMoa2001316.\n",
+    "raw_text_sha256": "1a8e2eb30494846d91abaf1738b850a0acb14cd51960702f5ab65acb562e35e6",
+    "source_blocks": [
+      {
+        "block_number": 5,
+        "bbox": [
+          119.054,
+          286.518,
+          333.905,
+          707.127
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "expected_cited_doi": "10.1056/NEJMoa2001316",
+  "doi_matches": true,
+  "added_to_candidate_input": false
+}

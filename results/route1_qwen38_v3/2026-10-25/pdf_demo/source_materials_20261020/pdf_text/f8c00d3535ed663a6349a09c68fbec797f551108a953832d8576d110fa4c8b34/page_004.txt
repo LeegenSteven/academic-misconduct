@@ -1,0 +1,140 @@
+Nature Medicine | Volume 28 | November 2022 | 2381–2387
+2384
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+A+TNEO-T
++ (HR = 41.3, 95% CI = 16.7–101.9, P < 0.001) and A+TMTL
++ (HR = 6.2, 
+95% CI = 1.4–26.8, P = 0.01) groups compared to the A−T− (reference) 
+group (Fig. 2d,e). There was no difference between the A+T− and the 
+A−T− group (HR = 1.6, 95% CI = 0.5–5.4, P = 0.53). The A+TNEO-T
++ (HR = 26.7, 
+95% CI = 10.4–68.1, P < 0.001) group showed faster clinical progression 
+to all-cause dementia than the A+T− group, while there was no significant 
+difference between the A+TMTL
++ (HR = 3.8, 95% CI = 0.9–16.2, P = 0.08) 
+and the A+T− group (Fig. 2f). Pairwise log-rank tests showed that the 
+A+TNEO-T
++ group progressed significantly faster to all-cause dementia 
+than the A+TMTL
++ group (P = 0.01). Similar results were found when using 
+progression to AD-type dementia (11 A+TNEO-T
++, 2 A+TMTL
++ and 1 A+T−) as 
+outcome instead of all-cause dementia (Extended Data Fig. 2).
+Cognitive trajectories
+Linear mixed-effect models adjusting for age, sex, education and 
+cohort indicated that the A+TNEO-T
++ (standardized β (stdβ) of inter-
+action with time in months ± s.e. = −0.020 ± 0.002, T = −10.14, 
+P < 0.001), A+TMTL
++ (stdβ = −0.017 ± 0.002, T = −8.84, P < 0.001) and 
+A+T− (stdβ = −0.005 ± 0.001, T = −5.26, P < 0.001) groups showed faster 
+decline over time on the modified preclinical Alzheimer cognitive 
+composite 5 (mPACC5 (ref.34)) compared to the A−T− (reference) group 
+(Fig. 3a). Additionally, the A+TNEO-T
++ (stdβ = −0.16 ± 0.002, T = −7.53, 
+P < 0.001) and A+TMTL
++ (stdβ = −0.13 ± 0.002, T = −6.21, P < 0.001) 
+groups progressed faster than the A+T− group but there was no differ-
+ence between the A+TNEO-T
++ and A+TMTL
++ groups (stdβ = −0.003 ± 0.002, 
+T = −1.13, P = 0.26). Exploratory study of the mPACC5 subcomponents 
+showed that A+TNEO-T
++ and A+TMTL
++ groups did not differ on delayed 
+episodic memory (stdβ = −0.002 ± 0.003, P = 0.47; Fig. 3c) but the 
+A+TNEO-T
++ group showed faster decline on timed executive function 
+(stdβ = −0.007 ± 0.002, P = 0.003; Fig. 3d) and semantic memory 
+(stdβ = −0.009 ± 0.003, P = 0.007; Fig. 3e).
+On the MMSE, the A+TNEO-T
++ (β = −0.056 ± 0.005, T = −11.55, 
+P < 0.001), A+TMTL
++ (β = −0.024 ± 0.005, T = −4.72, P < 0.001) and 
+A+T− (β = −0.008 ± 0.002, T = −3.46, P < 0.001) groups showed faster 
+decline over time compared to the A−T− (reference) group (Fig. 3b). 
+The A+TNEO-T
++ (stdβ = −0.49 ± 0.005, T = −9.51, P < 0.001) and A+TMTL
++ 
+(stdβ = −0.16 ± 0.005, T = −3.04, P = 0.002) groups progressed faster 
+than the A+T− group and the A+TNEO-T
++ group declined faster than the 
+A+TMTL
++ group (stdβ = −0.033 ± 0.007, T = −4.82, P < 0.001). Cognitive 
+trajectories on the MMSE and mPACC5 for each cohort are displayed 
+in Extended Data Fig. 3.
+Replication across different age groups
+Based on the lower age of the A−T− group compared to the 
+biomarker-positive groups (Table 1), we performed the Cox 
+proportional-hazards models and linear mixed models (1) stratified 
+a
+b
+d
+e
+c
+A–T–
+A+T–
+A+TMTL
++
+A+TNEO–T
++
+MMSE
+mPACC5
+TImed executive function
+Semantic memory
+Delayed episodic memory
+–2
+–4
+0
+2
+0
+30
+60
+Time (months)
+0
+30
+60
+Time (months)
+0
+30
+60
+Time (months)
+AT categories
+z-score
+–2
+–4
+0
+2
+z-score
+0
+30
+60
+Time (months)
+0
+–5.0
+–2.5
+2.5
+z-score
+0
+30
+60
+Time (months)
+2.5
+0
+–2.5
+5.0
+z-score
+20
+25
+30
+Total score
+Fig. 3 | Longitudinal cognitive decline in the different AT biomarker profiles. 
+a–e, Cognitive trajectories of mPACC5 (a), MMSE (b) and subcomponents of 
+the mPACC5 including delayed episodic memory (c), timed executive function 
+(d) and semantic memory (e) over time in the different AT biomarker profiles. 
+The average regression line for each group was plotted from linear mixed-effect 
+models including age, sex, education and cohort as covariates. Data are anchored 
+to the tau PET visit (time 0); cognitive data up to 1 year before PET was included. 
+The error bands correspond to the 95% CI.

@@ -1,0 +1,121 @@
+Articles
+www.thelancet.com   Vol 395   February 15, 2020	
+501
+were sputum production (11 [28%] of 39), headache 
+(three [8%] of 38), haemoptysis (two [5%] of 39), and 
+diarrhoea (one [3%] of 38; table 1). More than half of 
+patients (22 [55%] of 40) developed dyspnoea. The median 
+duration from illness onset to dyspnoea was 8·0 days 
+(IQR 5·0–13·0). The median time from onset of symp­
+toms to first hospital admission was 7·0 days (4·0–8·0), 
+to shortness of breath was 8·0 days (5·0–13·0), to ARDS 
+was 9·0 days (8·0–14·0), to mechanical venti­lation was 
+10·5 days (7·0–14·0), and to ICU admission was 10·5 days 
+(8·0–17·0; figure 2).
+The blood counts of patients on admission showed 
+leucopenia (white blood cell count less than 4 × 10⁹/L; 
+ten [25%] of 40 patients) and lymphopenia (lymphocyte 
+count <1·0 × 10⁹/L; 26 [63%] patients; table 2). Pro­
+thrombin time and D-dimer level on admission were 
+higher in ICU patients (median prothrombin time 
+12·2 s [IQR 11·2–13·4]; median D-dimer level 2·4 mg/L 
+[0·6–14·4]) than non-ICU patients (median prothrombin 
+time 10·7 s [9·8–12·1], p=0·012; median D-dimer level 
+0·5 mg/L [0·3–0·8], p=0·0042). Levels of aspartate 
+amino­transferase were increased in 15 (37%) of 
+41 patients, including eight (62%) of 13 ICU patients 
+and seven (25%) of 28 non-ICU patients. Hypersensitive 
+troponin I (hs-cTnI) was increased substantially in 
+five patients, in whom the diagnosis of virus-related 
+cardiac injury was made.
+Most patients had normal serum levels of procalcitonin 
+on admission (procalcitonin <0·1 ng/mL; 27 [69%] patients; 
+table 2). Four ICU patients developed secondary infec­
+tions. Three of the four patients with secondary infection 
+had procalcitonin greater than 0·5 ng/mL (0·69 ng/mL, 
+1·46 ng/mL, and 6·48 ng/mL).
+On admission, abnormalities in chest CT images were 
+detected among all patients. Of the 41 patients, 40 (98%) 
+had bilateral involvement (table 2). The typical findings 
+of chest CT images of ICU patients on admission were 
+bilateral multiple lobular and subsegmental areas of 
+consolidation (figure 3A). The representative chest CT 
+findings of non-ICU patients showed bilateral ground-
+glass opacity and subseg­mental areas of consolidation 
+(figure 3B). Later chest CT images showed bilateral 
+ground-glass opacity, whereas the consolidation had 
+been resolved (figure 3C).
+Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic 
+FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, 
+PDGF, TNFα, and VEGF concentrations were higher in 
+both ICU patients and non-ICU patients than in healthy 
+adults (appendix pp 6–7). Plasma levels of IL5, IL12p70, 
+IL15, Eotaxin, and RANTES were similar between healthy 
+adults and patients infected with 2019-nCoV. Further 
+comparison between ICU and non-ICU patients showed 
+that plasma concentrations of IL2, IL7, IL10, GCSF, IP10, 
+MCP1, MIP1A, and TNFα were higher in ICU patients 
+than non-ICU patients.
+All patients had pneumonia. Common compli­cations 
+included ARDS (12 [29%] of 41 patients), followed by 
+RNAaemia (six [15%] patients), acute cardiac injury 
+(five [12%] patients), and secondary infection (four [10%] 
+patients; table 3). Invasive mechanical ventilation was 
+required in four (10%) patients, with two of them (5%) had 
+refractory hypoxaemia and received extracorporeal mem­
+brane oxygenation as salvage therapy. All patients were 
+administered with empirical antibiotic treatment, and 
+38 (93%) patients received antiviral therapy (osel­tamivir). 
+Additionally, nine (22%) patients were given systematic 
+corticosteroids. A comparison of clinical features between 
+patients who received and did not receive systematic 
+corticosteroids is in the appendix (pp 1–5).
+As of Jan 22, 2020, 28 (68%) of 41 patients have been 
+dis­charged and six (15%) patients have died. Fitness 
+for discharge was based on abatement of fever for at 
+least 10 days, with improvement of chest radiographic 
+evidence and viral clearance in respiratory samples from 
+upper respiratory tract.
+Discussion
+We report here a cohort of 41 patients with laboratory-
+confirmed 2019-nCoV infection. Patients had serious, 
+sometimes fatal, pneumonia and were admitted to the 
+designated hospital in Wuhan, China, by Jan 2, 2020. 
+Clinical presentations greatly resemble SARS-CoV. 
+Patients with severe illness developed ARDS and 
+required ICU admission and oxygen therapy. The time 
+between hospital admission and ARDS was as short 
+as 2 days. At this stage, the mortality rate is high for 
+2019-nCoV, because six (15%) of 41 patients in this cohort 
+died.
+The number of deaths is rising quickly. As of 
+Jan 24, 2020, 835 laboratory-confirmed 2019-nCoV 
+infec­tions were reported in China, with 25 fatal 
+cases. Reports have been released of exported cases in 
+many provinces in China, and in other countries; 
+Figure 2: Timeline of 2019-nCoV cases after onset of illness
+Onset
+Admission
+Dyspnoea
+Acute respiratory 
+distress syndrome
+Intensive care 
+unit admission
+7
+8
+9
+10·5
+Median time
+Number of cases
+Days
+41
+(100%)
+41
+(100%)
+21
+(51%)
+11
+(27%)
+16
+(39%)
+See Online for appendix

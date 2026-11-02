@@ -1,0 +1,94 @@
+5152
+JACK ET AL.
+BOX 3: Limitations of biomarkers
+1. Lack of certified biofluid reference methods and mate-
+rials (except for cerebrospinal fluid [CSF] amyloid beta
+[Aβ]42, where these are available).
+2. Biomarkers (positron emission tomography [PET], CSF,
+and blood) are less sensitive than neuropathologic exam-
+ination for detection of early/mild Alzheimer’s disease
+neuropathologic change (ADNPC). Disease staging by
+PET (or fluid biomarkers) is not equivalent to neuropatho-
+logical staging, for example, tau PET ligand uptake in
+different Braak areas is not equivalent to Braak neu-
+ropathological staging. While the sensitivity limits of
+biomarkers could be viewed as a weakness, they could
+also be viewed as a strength because abnormal Core 1
+biomarkers indicate that ADNPC more generally rather
+than just neuritic plaques alone is very likely present.
+3. Thoroughly studied biomarkers are not available for all
+relevant diseases; therefore, it cannot be known with cer-
+tainty in vivo what diseases in addition to AD are present
+in any individual, or what the proportional disease-
+specific burden is among various pathologic entities. This
+leads to No. 4.
+4. The proportion of the cognitive deficit observed in any
+individual that is attributable to AD versus other neu-
+ropathologic entities cannot be known with certainty.
+Probabilistic estimates can be made based on combina-
+tions of biomarker results and clinical judgment.
+payers if additional testing seems clinically indicated. This is particu-
+larly pertinent for BBM given their much wider projected accessibility.
+3.7
+Intended uses
+The major intended use for the biological diagnosis of AD in clinical tri-
+als is as an inclusion criterion. While a purely symptomatic therapy may
+not require documentation of AD biology, therapy directed toward a
+biological target requires confirmation of that biology.
+Establishing an etiologic diagnosis is an essential aspect of good
+medical practice. Intended uses for a biological diagnosis of AD in
+clinical care include determining eligibility for treatments targeting
+core disease pathology based on drug registration criteria; additionally,
+they include counseling and tailoring medications for symptomatic (i.e.,
+non–disease-modifying) treatment.105,106
+At the present time disease-targeted therapies have not been
+approved for cognitively unimpaired individuals with AD. For this
+reason, we currently recommend against diagnostic testing in cogni-
+tively unimpaired individuals outside the context of observational or
+BOX 4: Implications for clinicians
+The biologically based diagnosis of Alzheimer’s disease (AD)
+is meant to assist rather than supplant the clinical evalua-
+tion of individuals with cognitive impairment. The revised
+criteria in this document are, in large part, a response to
+rapid advances in fluid-based biomarkers, especially blood,
+and the approval of drugs specifically targeting amyloid beta
+(Aβ) pathology for individuals with early symptomatic AD—
+specifically mild cognitive impairment and mild dementia.
+Both advances are of high relevance to clinical use in the
+immediate and near future.
+First, the clinical use of AD biomarkers is presently
+intended for the evaluation of symptomatic individuals, not
+cognitively unimpaired individuals. We highlight the dis-
+tinction between can and should. AD can be diagnosed in
+asymptomatic individuals, but we do not believe this should
+be done for clinical purposes at this time.
+Second, although the presence of abnormal Core 1
+biomarkers is sufficient for confirming AD pathology in a
+symptomatic individual, it does not preclude the search for
+other contributors to the clinical symptoms, particularly
+other common copathologies. That said, higher biological
+stages, reflecting tau tangle pathology, increase the likeli-
+hood that the cognitive symptoms of an individual are due to
+AD pathology, and further inform on the prognosis. The inte-
+grated biological and clinical staging approach (see Table 7)
+may aid clinical judgment in assessing the contribution of AD
+to the clinical syndrome.
+Third, the work group asserts that AD biomarkers are fun-
+damental to making an accurate diagnosis and determining
+likely contributions to the patient’s symptoms. Although it is
+expected that clinicians will use AD biomarkers to determine
+potential eligibility for recently approved Aβ-specific thera-
+pies,clinicalapplicationsalsoincludecounselingandtailoring
+medications for symptomatic treatment.
+Fourth, the development of Core biomarker categories
+wherein amyloid, tau fluid, and/or positron emission tomog-
+raphy biomarkers can be used for diagnosing or staging is
+intended to provide greater flexibility to clinicians regarding
+access to specific biomarkers and their judgment as to which
+biomarker(s) is most appropriate.
+Fifth, because many of the currently available or soon
+to be available biomarker measures highlighted in this doc-
+ument have been used in clinical trials, they may provide
+greater opportunities for clinicians to make decisions about
+treatments for AD (therapeutic response and/or duration of
+treatments).

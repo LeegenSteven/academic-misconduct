@@ -1,0 +1,50 @@
+9.3. CSF T-tau and P-tau
+The most thoroughly examined P-tau epitope as a CSF biomarker for AD is threonine 181 
+(P-tau181) [143], but assays for the concentration of P-tau231 and P-tau199 correlate tightly 
+with P-tau181 and show very similar diagnostic accuracy [144]. CSF levels of T-tau and P-
+tau are tightly correlated within cohorts of AD patients and controls [145], and the 
+correlation between CSF T-tau and P-tau is typically much higher than between CSF T-tau 
+and MRI measures of atrophy or FDG PET [36,115]. Therefore, it is reasonable to ask why 
+not place both CSF T-tau and P-tau in the pathologic tau biomarker group. The answer lies 
+in the divergent behavior of these two measures in other diseases. There is a marked 
+temporary increase in T-tau, with no change in P-tau, in traumatic brain injury and stroke 
+that correlates with the severity of neuronal damage [146,147]. It is difficult to rationalize 
+how changes in T-tau in such patients could be attributed to brain PHF tau deposition. 
+Furthermore, in Creutzfeldt-Jakob disease, a disorder characterized by very rapid 
+neurodegeneration but not PHF tau accumulation, there is a very marked increase in CSF T-
+tau (10–20 times more than in AD), whereas P-tau shows no or minor change [148,149]. The 
+only disorder that consistently shows an increase in CSF P-tau is AD [143], whereas this 
+biomarker is normal in other neurodegenerative disorders. The level of CSF P-tau also does 
+correlate with severity of PHF tau accumulation after death [81,150]. Taken together, these 
+data indicate that CSF T-tau reflects the intensity of neuronal damage at a specific point 
+[114], whereas elevated CSF P-tau reflects an abnormal pathologic state associated with 
+PHF tau formation.
+9.4. Biomarkers of neurodegeneration or neuronal injury
+Biomarkers in the (N) group (Table 1) are indicators of neurodegeneration or neuronal injury 
+resulting from many causes; they are not specific for neurodegeneration due to AD. In any 
+individual, the proportion of observed neurodegeneration/injury that can be attributed to AD 
+versus other possible comorbid conditions (most of which have no extant biomarker) is 
+unknown. These are recognized limitations of the (N) category of biomarkers. In addition, 
+unlike A and T, (N) biomarkers do not map onto neuropathologic findings used to diagnose 
+AD. For these reasons, we have placed (N) in parenthesis, indicating the fundamental 
+differences between (N) and AT.
+For purposes of simplification, it might be tempting to eliminate the (N) biomarker group 
+from the research framework. However, the combination of an abnormal MRI, CSF T-tau, or 
+FDG PET study with an abnormal amyloid biomarker provides much more powerful 
+prediction of future cognitive decline [30–35,39,40,42–45] than an abnormal amyloid study 
+alone. This is logical given that neurodegeneration, particularly synapse loss, is the aspect of 
+AD neuropathologic change that correlates most closely with symptoms [151]. Thus, the (N) 
+biomarker group provides important pathologic staging information; and for this reason, it 
+seems inadvisable to eliminate this group of biomarkers from the AD research framework. 
+Also, without the (N) group, the difference between A+T−(N)− (see Fig. 2) and A+T−(N)+ 
+(see Fig. 3) would not be formally captured, that is, both would be placed into the same A+T
+− biomarker group. Comparison of the images in Fig. 2 and Fig. 3 shows that these two 
+individuals obviously belong in different biomarker groups. We believe that A+T−(N)+ 
+represents evidence of comorbidity, that is, A+T− represents Alzheimer’s pathologic change 
+Jack et al.
+Page 11
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

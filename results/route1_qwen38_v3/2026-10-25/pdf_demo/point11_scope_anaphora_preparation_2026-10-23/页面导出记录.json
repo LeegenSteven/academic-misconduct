@@ -1,0 +1,110 @@
+{
+  "pymupdf_version": "1.28.2",
+  "images": [
+    {
+      "path": "页面核对图/01_施引第1页_主张及This前文.png",
+      "pdf_role": "citing",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        31.685001373291016,
+        523.3460083007812,
+        570.8300170898438,
+        710.7760009765625
+      ],
+      "sha256": "3149674bcdc7ed78f9501c5a8a5d11136865bc2e3447402930b1b7e04c431029",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/02_施引第7页_参考文献5.png",
+      "pdf_role": "citing",
+      "pdf_page": 7,
+      "clip_pdf_points": [
+        31.655000686645508,
+        213.35499572753906,
+        304.3949890136719,
+        742.552001953125
+      ],
+      "sha256": "a67279a86b01fad473f09172e7efaca0262e902b568a1882571e165361f82e74",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/03_被引第1页_题名DOI及双重日期.png",
+      "pdf_role": "cited",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        34.224998474121094,
+        24.839000701904297,
+        564.291015625,
+        123.20500183105469
+      ],
+      "sha256": "a5d65adf999dfe64afc8146ecd3f6c2b7959cedece764a7393f04af556c4bb04",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/04_被引第1页_既有候选S05_增长.png",
+      "pdf_role": "cited",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        301.2309875488281,
+        474.47198486328125,
+        564.3159790039062,
+        599.0640258789062
+      ],
+      "sha256": "58ae21611b0d85b2ccb4c088dd56fe926a8f336f69f85784044f778130aac268",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/05_被引第1页_既有候选S03_档案范围.png",
+      "pdf_role": "cited",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        34.2239990234375,
+        196.07200622558594,
+        297.3110046386719,
+        508.9670104980469
+      ],
+      "sha256": "5c59aaa5e65f57c2c9e4339d226c7f69d11473c85a45b46a32325dcc66443a8a",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/06_补充只读_被引第2页_生物信息学资源使用.png",
+      "pdf_role": "cited",
+      "pdf_page": 2,
+      "clip_pdf_points": [
+        314.5929870605469,
+        566.218017578125,
+        577.6859741210938,
+        657.9340209960938
+      ],
+      "sha256": "83f6370cbbaf3599f425b6e6d99130cd2145f88641a6660c1cdfc7697beb97a9",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/07_补充只读_被引第5页_计算预测活动.png",
+      "pdf_role": "cited",
+      "pdf_page": 5,
+      "clip_pdf_points": [
+        34.2239990234375,
+        115.56199645996094,
+        297.3219909667969,
+        371.6610107421875
+      ],
+      "sha256": "0330020e0d17c9dd255a47be0d17327dc7c327efc564b4f07a414614afa39136",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    }
+  ],
+  "status": "assistant_inspected_seven_source_images_no_human_signoff",
+  "assistant_inspection": {
+    "recorded_at_utc": "2026-10-23T11:55:05.229411+00:00",
+    "inspector_role": "assistant",
+    "observations": [
+      "The evolutionary-programme sentence immediately precedes This bioinformatics approach across the two source columns.",
+      "The target keeps has benefited greatly and steady growth; the following genomic-sequencing/deep-learning items remain outside this citation-specific target.",
+      "Reference 5 matches the PDB paper title and volume/pages; the source visibly has online date 24 October 2018 and issue year 2019.",
+      "Existing S05 explicitly describes steady archive growth. Existing S03 includes proteins, DNA/RNA and complexes, not unique protein counts alone.",
+      "Supplemental usage and computational-community passages were inspected but remain outside active model candidates."
+    ],
+    "human_review": null,
+    "semantic_adjudication": null
+  }
+}

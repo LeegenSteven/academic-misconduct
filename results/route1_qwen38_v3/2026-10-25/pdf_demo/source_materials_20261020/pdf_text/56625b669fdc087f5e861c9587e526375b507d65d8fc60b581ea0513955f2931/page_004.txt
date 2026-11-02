@@ -1,0 +1,80 @@
+Nucleic Acids Research, 2023, Vol. 51, Database issue D641
+Figure 2. Improved interaction prediction based on co-expression. Interaction scores based on co-expression have been ranked and benchmarked against
+common KEGG pathway membership as ground truth. (A) Performance comparison of co-expression network between STRING version 11.5 and
+STRING version 12.0. (B) Overview of the performance of all expression datasets contributing to the STRING version 12.0 co-expression channel.
+well as via a Bioconductor package and a dedicated appli-
+cation programming interface (REST).
+USER-UPLOADED GENOMES
+One of the unique features of STRING has always been
+its support for a large selection of non-model organisms:
+the current version of the database contains protein–protein
+interaction networks (and protein functional pathway an-
+notations) for >10 000 distinct genomes. When selecting
+which genomes to include in a STRING update, key factors
+are the organism’s research prominence, genome quality,
+and completeness. Subsequently, STRING utilizes genomes
+from authoritative sources only, including Ensembl (53),
+UniProtKB Reference Proteomes (54) and the ‘representa-
+tive genomes’ set in the proGenomes database (55).
+However, new genomes are sequenced and assem-
+bled daily, and existing genomes are re-sequenced or re-
+annotated; overall, the number of taxonomically distinct
+species that are being sequenced has been doubling roughly
+every 3 years (56). The UniProtKB database is updated with
+the new proteomes on an eight-week cycle, and projects
+like Ensembl Rapid Release (53) aim to provide annota-
+tion for the newly released genomes on a 2-week cycle.
+For STRING, such frequent update cycles would require
+heavy resources and may create complexities with data
+reproducibility/data archiving when the new updates super-
+sede older datasets. On the other hand, a slow update cy-
+cle implies that the database will not incorporate newly se-
+quenced genomes or any improvements to the gene sets of
+existing genomes.
+To improve this situation, STRING now allows its users
+to upload any fully sequenced proteome (including those
+that are already part of the database), enabling them to
+browse and query the predicted protein–protein interac-
+tions in an identical manner to the genomes already natively
+covered by the STRING database. This includes access to
+the evidence viewers, homology viewer, network clustering
+methods, gene set enrichment analysis, bulk download, and
+REST API access. The outline of the proteome annotation
+pipeline is shown in Figure 1. The procedure for upload-
+ing a new proteome begins by choosing ‘Annotate your pro-
+teome’ on the STRING input page, after which the user is
+guided through a few simple steps of the process. All that is
+required for the submission is a simple FASTA-formatted
+proteome, as well as the taxonomic name of the species or
+clade that the uploaded proteome belongs to. Along with
+the protein sequences from the file, if provided, STRING
+will extract from the FASTA definition lines (headers) any
+standard gene names, identifiers, and free-text protein de-
+scriptions; these will later be searchable from the input page
+and used throughout the webpage. For this, STRING au-
+tomatically recognizes several formats of FASTA headers
+including those from RefSeq (57), UniProtKB (54) and En-
+sembl (53), and checks for any apparent errors such as du-
+plicate sequence identifiers. After the proteome is uploaded,
+STRING directly aligns the sequences to all sequences in its
+database using DIAMOND (58) (with the –iterate option).
+Each protein is then assigned to its orthologs via the hierar-
+chical orthology database eggNOG (51) based on its highest
+scoring alignment (best hit). The taxonomic level at which
+the protein is placed in the group hierarchy is defined by
+the last common ancestor between the user-specified taxon
+and the taxon of the best-scoring hit. If a protein cannot be
+placed via the hierarchical orthology groups, it is consid-
+ered a direct one-to-one ortholog with its best-scoring hit.
+As the user can submit a proteome of an organism already
+included in the database, the proteins of the matching pro-
+teomes will then directly map to each other, without a need
+for mapping to any of the existing orthologous groups.
+The network prediction based on orthology is then per-
+formed as described previously (46). In parallel with the net-
+work prediction, STRING also attempts to assign the sub-
+mitted proteins to their corresponding pathways and func-
+tional subsystems, as imported for STRING from the three
+Gene Ontology branches (Biological process, Molecular
+Function and Cellular Component) (43), KEGG pathways
+(31), UniProtKB Keywords (54), COMPARTMENTS (59)

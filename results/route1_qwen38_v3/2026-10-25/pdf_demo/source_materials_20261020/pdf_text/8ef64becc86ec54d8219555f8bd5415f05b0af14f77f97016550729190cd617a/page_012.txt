@@ -1,0 +1,49 @@
+while in the A+T− context, (N) + represents evidence of non-AD neurodegeneration/
+neuronal injury [152] and thus A+T−(N)− and A+T−(N)+ indicate meaningfully different 
+pathologic states [153].
+It is important to note some differences among biomarkers in the (N) group [114]. Atrophy 
+on MRI likely reflects cumulative loss and shrinkage of the neuropil [154–156]. CSF T-tau 
+likely indicates the intensity of neuronal injury at a given point in time [108,114,157,158]. 
+FDG PET likely indicates both cumulative loss of the neuropil and functional impairment of 
+neurons. These differences may result in discordances [36,43,115,119,159].
+9.5. Limitations
+None of the biomarkers are as sensitive as direct examination of tissue at autopsy. Absolute 
+sensitivity of amyloid PET relative to an autopsy gold standard has been assessed [160]. 
+Typical cut points used for 18F amyloid PET ligands roughly label individuals with none to 
+sparse neuritic plaques normal and individuals with moderate to high neuritic plaque load 
+abnormal [18,22]. A typical cut point used for 11C Pittsburgh compound B approximately 
+labels individuals with Thal phase 0–1 normal and individuals with Thal phase 2–5 
+abnormal [21]. Thus, a negative amyloid PET scan should not be equated with the complete 
+absence of Aβ in the brain or even with absent or sparse neuritic plaques. Clinicopathologic 
+studies suggest that low levels of pathologic changes are associated with subtle cognitive 
+deficits among CU persons [8,161]. The amount of pathologic tau that can be present in the 
+brain below the in vivo tau PET detectable threshold is unknown at this time. This limitation 
+is important to bear in mind when considering the distinction between Alzheimer’s 
+pathologic change and AD, which hinges on in vivo detection of pathologic tau deposits; 
+however, neither CSF P-tau nor tau PET is expected to identify minimal neurofibrillary 
+changes that are detectable by neuropathologic examination. Similarly, the number of 
+neurons or neuronal processes that must be lost to detect atrophy on MRI or 
+hypometabolism on FDG PET is not known. For every biomarker, there must be an in vivo 
+limit of detection, which is true for any biomarker not just those discussed here.
+9.6. Flexibility to incorporate new biomarkers
+The current form of the NIA-AA research framework is designed around biomarker 
+technology that is presently available. TDP43 and α-synuclein proteinopathies, micro 
+infarcts, hippocampal sclerosis, and argyrophilic grains can occur alone, or more frequently, 
+along with AD pathologic changes [162,163]; however, validated biomarkers are not 
+presently available for them. The AT(N) biomarker scheme is expandable to incorporate new 
+biomarkers (Text Box 3). For example, a vascular biomarker group could be added, that is, 
+ATV(N), when a clear definition of what constitutes V+ is developed. And, when 
+biomarkers for TDP43 and α-synuclein are developed, AT(N) can be expanded to 
+incorporate these as well. An important pathologic process in AD is activation of the innate 
+immune system, with both astrocytosis and microgliosis [164]. Biomarkers of these changes 
+are not yet widely accepted though some are emerging [165–169] and when developed could 
+likewise be added to the biomarker scheme. CSF neurogranin is presumed to measure 
+synaptic degeneration and loss [170,171], and neurofilament light chain [172] is presumed to 
+measure axonal injury. When they have been more thoroughly studied, these measures 
+Jack et al.
+Page 12
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

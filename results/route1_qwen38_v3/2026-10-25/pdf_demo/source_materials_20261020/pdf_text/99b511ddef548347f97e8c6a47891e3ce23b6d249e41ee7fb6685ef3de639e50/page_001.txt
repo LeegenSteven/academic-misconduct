@@ -1,0 +1,81 @@
+fastp: an ultra-fast all-in-one FASTQ
+preprocessor
+Shifu Chen1,2,*, Yanqing Zhou1, Yaru Chen1 and Jia Gu2
+1Department of Bioinformatics, HaploX Biotechnology, Shenzhen 518057, China and 2Shenzhen Institutes of
+Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China
+*To whom correspondence should be addressed.
+Abstract
+Motivation: Quality control and preprocessing of FASTQ ﬁles are essential to providing clean data
+for downstream analysis. Traditionally, a different tool is used for each operation, such as quality
+control, adapter trimming and quality ﬁltering. These tools are often insufﬁciently fast as most are
+developed using high-level programming languages (e.g. Python and Java) and provide limited
+multi-threading support. Reading and loading data multiple times also renders preprocessing slow
+and I/O inefﬁcient.
+Results: We developed fastp as an ultra-fast FASTQ preprocessor with useful quality control and
+data-ﬁltering features. It can perform quality control, adapter trimming, quality ﬁltering, per-read
+quality pruning and many other operations with a single scan of the FASTQ data. This tool is devel-
+oped in Cþþ and has multi-threading support. Based on our evaluation, fastp is 2–5 times faster
+than other FASTQ preprocessing tools such as Trimmomatic or Cutadapt despite performing far
+more operations than similar tools.
+Availability and implementation: The open-source code and corresponding instructions are avail-
+able at https://github.com/OpenGene/fastp.
+Contact: chen@haplox.com
+1 Introduction
+Quality control and preprocessing of sequencing data are critical to
+obtaining high-quality and high-confidence variants in downstream
+data analysis. Data can suffer from adapter contamination, base con-
+tent biases and overrepresented sequences. Even worse, library prepar-
+ation and sequencing steps always involve errors and can cause
+inaccurate
+representations
+of
+original
+nucleic
+acid
+sequences.
+Sequencing technologies, especially next-generation sequencing (NGS),
+have been broadly used in clinical applications in recent years, particu-
+larly for noninvasive prenatal testing (Bianchi et al., 2015) and cancer
+diagnosis. For example, liquid biopsy technology (Esposito et al.,
+2017), which seeks out cancer-related biomarkers in the circulatory
+system, can be used to facilitate cancer diagnosis and personalized
+treatment regimens. As a major technology in liquid biopsy, cell-free
+tumor DNA (ctDNA) sequencing is used to detect tumor-derived DNA
+fragments from plasma, urine and other circulating liquids. ctDNA
+sequencing data are usually highly noisy, and detected mutations often
+exhibit ultra-low mutation allele frequencies (MAF); quality control
+and data preprocessing are especially important for detecting low-
+MAF mutations to eliminate false positives and false negatives.
+Quality control and preprocessing of FASTQ data could be con-
+sidered resolved given the availability of several relevant tools. For
+instance, FASTQC (Andrews, 2010) is a Java-based quality control
+tool providing per-base and per-read quality profiling features.
+Cutadapt (Martin, 2011) is a commonly used adapter trimmer,
+which also provides some read-filtering features. Trimmomatic
+(Bolger et al., 2014), another popular trimming adapter tool, can
+perform quality pruning using algorithms such as sliding window
+cutting. SOAPnuke (Chen et al., 2018) is a recently published tool
+for adapter trimming and read filtering with the implementation of
+MapReduce on Hadoop systems.
+In the past, multiple tools were employed for FASTQ data qual-
+ity control and preprocessing. A typical combination was the use
+of FASTQC for quality control, Cutadapt for adapter trimming
+and Trimmomatic for read pruning and filtering. The requirement
+to read and load data multiple times made preprocessing slow and
+I/O inefficient. Yet the tools must be used in combination because
+no single tool currently exists that can effectively address all these
+problems. The authors developed AfterQC (Chen et al., 2017) to
+integrate quality control, adapter trimming, data filtering and
+other useful functions into one tool. AfterQC is a convenient tool
+that can perform all necessary operations and output HTML-
+based reports with a single scan of FASTQ files. It also provides
+a novel algorithm to correct bases by searching for overlapping
+V
+C The Author(s) 2018. Published by Oxford University Press.
+i884
+This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/by-nc/4.0/),
+which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited. For commercial re-use, please contact
+journals.permissions@oup.com
+Bioinformatics, 34, 2018, i884–i890
+doi: 10.1093/bioinformatics/bty560
+ECCB 2018

@@ -1,0 +1,50 @@
+{
+  "confirmed_client_date": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T12:06:54.730217+00:00",
+  "human_user": "李云",
+  "human_user_confirmation_verbatim": "确认",
+  "confirmation_context": "接受本聊天前一轮明确列出的21条拟定标签及范围，04、12、19、27保留待核。",
+  "accepted_plan_sha256": "a3fdbbd764273663e68c7f16966cc5c491ac02f91ab7418b0370902851faa608",
+  "accepted_plan_archive": "原始标注与确认/李云确认前的21条方案_20261023.md",
+  "cmj_reply_sha256": "829eeee9a13392c899f09f6fcc61d19b1ac24d9c9f52fafc2741787d816db283",
+  "confirmed_sample_ids": [
+    "R2EXP-PMC-03",
+    "R2EXP-PMC-05",
+    "R2EXP-PMC-06",
+    "R2EXP-PMC-07",
+    "R2EXP-PMC-08",
+    "R2EXP-PMC-10",
+    "R2EXP-PMC-11",
+    "R2EXP-PMC-13",
+    "R2EXP-PMC-14",
+    "R2EXP-PMC-15",
+    "R2EXP-PMC-18",
+    "R2EXP-PMC-20",
+    "R2EXP-PMC-21",
+    "R2EXP-PMC-22",
+    "R2EXP-PMC-23",
+    "R2EXP-PMC-24",
+    "R2EXP-PMC-25",
+    "R2EXP-PMC-26",
+    "R2EXP-PMC-28",
+    "R2EXP-PMC-29",
+    "R2EXP-PMC-30"
+  ],
+  "pending_ids": [
+    "R2EXP-PMC-04",
+    "R2EXP-PMC-12",
+    "R2EXP-PMC-19",
+    "R2EXP-PMC-27"
+  ],
+  "confirmed_label_counts": {
+    "ACCURATE": 19,
+    "NOT_ACCURATE": 2,
+    "IRRELEVANT": 0
+  },
+  "total_rows": 25,
+  "confirmed_rows": 21,
+  "pending_rows": 4,
+  "independent_blind_agreement_computed": false,
+  "whole_25_completed": false,
+  "source_inputs_unchanged": true
+}

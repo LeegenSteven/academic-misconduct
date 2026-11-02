@@ -1,0 +1,99 @@
+5156
+JACK ET AL.
+rather than amyloid PET and tau PET. Core 1 fluid biomarkers (Table 2)
+can establish that an individual is in stage A or higher, but may not
+accurately discriminate between stages A through D as defined by tau
+PET.118,135
+4.5
+Biological staging with fluids
+The onset of abnormal fluid Core 1 biomarkers occurs around the
+time of amyloid PET abnormalities and earlier than neocortical tau
+PET abnormalities.21–23,136 In contrast, more recently developed tau
+assays (e.g., MTBR-tau243 and non-phosphorylated mid-domain tau
+fragments) are more closely linked with the onset of abnormal tau PET
+and correlate better with tau PET than with amyloid PET; pT205 also
+correlates more strongly with tau PET than with amyloid PET.136–140
+From these data, a sequence of events has been proposed, with patho-
+logic tau species appearing in the following order: p-tau181, 217, or
+231; then pT205; then MTBR-tau243; then non-phosphorylated mid-
+domain tau fragments.29,136,138,139 Based on these data, a fluid-only
+staging scheme (Table 5) can be envisioned that mirrors the A through
+D scheme described earlier. P-tau-T205136 and MTBR-tau243141 can
+be measured in both CSF and plasma. This fluid-only staging scheme
+is regarded as conceptual at present, and specifics of this conceptual
+scheme are likely to change given the rapidly changing nature of the
+fluid biomarker field.
+4.6
+Caveats
+We do not specify specific proprietary fluid assays, PET ligands, or
+numeric cutpoints for staging purposes in this document; these would
+fall under the purview of clinical practice guidelines.
+Several caveats are specific to tau PET. First, care must be taken
+to identify off-target tau ligand binding, which is not relevant to AD
+staging. Second, we recognize that PET-detectable medial temporal
+tauopathy does not always precede neocortical tauopathy, particularly
+in atypical presentations.132 However, medial temporal to neocortical
+spread is by far the most common pattern.115 Third, we use topo-
+graphic location of ligand uptake as one element of staging (medial
+temporal vs. neocortical), but we do not specify an inflexible set
+of anatomic ROIs to define the medial temporal or the neocortical
+meta-ROIs for tau quantitation. Neocortical areas that reflect inter-
+mediate and advanced stages by virtue of association with diagnostic
+utility and prediction of cognitive decline include inferior and lat-
+eral temporal and inferior and medial parietal lobes; sampling of at
+least some of these areas should be included in a neocortical tau
+PET meta-ROI.107,110,116,127,129,142 Similarly, the medial temporal ROI
+could include the hippocampus (for some ligands), entorhinal cortex,
+and amygdala. Efforts are underway to standardize quantification of
+tau PET for all tracers (for example, the CenTauR scale143) in the same
+way that the Centiloid scale144 is the standardized method for quan-
+tifying amyloid PET. Fourth, the distinction between moderate (stage
+C) and high (stage D) neocortical tau uptake could be operationalized
+in different ways. Methods for quantification of tau PET is an area of
+activeresearch,andselectingthebestcutpointtodistinguishmoderate
+versus high uptake will be informed by upcoming research findings.
+PET is less sensitive than neuropathologic examination (Box 3), and
+PET-based staging is not equivalent to autopsy-based staging. How-
+ever, PET-based staging clearly has prognostic value.145 For example, a
+large multi-cohort meta-analysis40 using a PET-based staging scheme
+very similar to what we describe, found a 40-fold range in hazard ratios
+(HRs) based on PET stages. Specifically, relative to the A−T2−refer-
+ence group, the HR for progression from cognitively unimpaired to
+dementia was 1.5 for A+T2−individuals (stage A in our scheme), HR
+5.6 for A+ individuals with tau PET uptake confined to the medial tem-
+poral lobe (stage B in our scheme), and HR 39.9 for A+ individuals with
+neocortical tau PET uptake (stages C and D in our scheme).
+The Centiloid scale is the accepted method for quantifying amyloid
+PET; however, this method is based on the anatomic distribution of lig-
+and uptake in sporadic AD.144 Florid striatal amyloid PET uptake often
+occurs early in individuals with ADAD and DS AD (DSAD), which is not
+the case in sporadic AD.146,147 Therefore, the approach to determining
+A+ versus A−may need special consideration in ADAD and DSAD.
+4.7
+Intended uses
+As with other diseases, more advanced biological AD stage predicts
+a worse clinical prognosis (Figure 1).40,53,107–110,148 In addition, more
+advanced biological stage provides greater confidence that AD is
+meaningfully contributing to symptoms.
+Biological staging in clinical trials would sharpen inclusion or strat-
+ification criteria by identifying individuals who should respond to
+treatment in a similar fashion, thus decreasing biological hetero-
+geneity. Inclusion in the TRAILBLAZER-ALZ and TRAILBLAZER-ALZ2
+studies was based on an abnormal amyloid PET result and on tau PET
+stage.149,150 In the A4 and AHEAD studies, while inclusion was based
+on an abnormal amyloid PET result, study assignment within the trial
+was based on amyloid PET severity/stage.151,152
+5
+CLINICAL STAGING
+5.1
+Numeric clinical staging
+In the 2018 research framework,7 we described a six-stage numeric
+clinical staging scheme that is brought forward largely unchanged
+into this revision, and readers are referred to the earlier document
+for additional details. Clinical staging of AD applies only to individu-
+als who are in the AD pathophysiologic continuum. The six clinically
+defined stages are as follows (Table 6): (1) biomarker evidence of AD
+in asymptomatic individuals; (2) transitional decline, which denotes the
+earliest detectable clinical symptoms that might be due to AD in indi-
+viduals who are cognitively unimpaired; (3) objective cognitive impair-
+ment of insufficient severity to result in significant functional loss

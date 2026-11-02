@@ -1,0 +1,86 @@
+{
+  "case_id": "r1pdf:1dfa922c755ed870245927e3",
+  "reference_number": 40,
+  "reference_fragment": {
+    "pdf_page": 22,
+    "char_start": 4396,
+    "char_end_exclusive": 4589,
+    "raw_text": "40. Ossenkoppele R, Pichet Binette A, Groot C, et al. Amyloid and tau\nPET-positive cognitively unimpaired individuals are at high risk for\nfuture cognitive decline. Nat Med. 2022;28:2381-2387.\n",
+    "raw_text_sha256": "6eb27619de53da21741abe9c3a2f4069c0b8458bf13e6394521655ab6539156e",
+    "source_blocks": [
+      {
+        "block_number": 4,
+        "bbox": [
+          312.655,
+          49.104,
+          549.599,
+          726.061
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_title_fragment": {
+    "pdf_page": 1,
+    "char_start": 128,
+    "char_end_exclusive": 239,
+    "raw_text": "Amyloid and tau PET-positive cognitively \nunimpaired individuals are at high risk for \nfuture cognitive decline",
+    "raw_text_sha256": "3f85df4db3eec33a3dc6ce672f214ebf069568bf31a5a9744a11ae53b11256ad",
+    "source_blocks": [
+      {
+        "block_number": 3,
+        "bbox": [
+          39.685,
+          91.431,
+          561.259,
+          197.198
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_doi_fragment": {
+    "pdf_page": 1,
+    "char_start": 77,
+    "char_end_exclusive": 119,
+    "raw_text": "https://doi.org/10.1038/s41591-022-02049-x",
+    "raw_text_sha256": "79a41944ebeb9278321b1ae085b5c71ce8a1852fe956ed5b96b8e9634daf4217",
+    "source_blocks": [
+      {
+        "block_number": 3,
+        "bbox": [
+          39.685,
+          91.431,
+          561.259,
+          197.198
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_journal_fragment": {
+    "pdf_page": 1,
+    "char_start": 0,
+    "char_end_exclusive": 55,
+    "raw_text": "Nature Medicine | Volume 28 | November 2022 | 2381–2387",
+    "raw_text_sha256": "90a16d2ff206eaaa6da7ca073c7bbd8fc70a0c25794fb749807f0b336f290caa",
+    "source_blocks": [
+      {
+        "block_number": 1,
+        "bbox": [
+          39.685,
+          760.197,
+          562.677,
+          771.798
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "doi_printed_in_citing_entry": false,
+  "added_to_model_candidates": false
+}

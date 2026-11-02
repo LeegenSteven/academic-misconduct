@@ -1,0 +1,37 @@
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Jack et al.
+Page 49
+Table 2
+Biomarker profiles and categories
+AT(N) profiles
+Biomarker category
+A-T-(N)-
+Normal AD biomarkers
+A+T-(N)-
+Alzheimer’s pathologic change
+Alzheimer’s continuum
+A+T+(N>
+Alzheimer’s disease
+A+T+(N)+
+Alzheimer’s disease
+A+T-(N)+
+Alzheimer’s and concomitant suspected non Alzheimer’s pathologic change
+A-T+(N)-
+Non-AD pathologic change
+A-T-(N)+
+Non-AD pathologic change
+A-T+(N)+
+Non-AD pathologic change
+Abbreviation: AD, Alzheimer’s disease.
+NOTE. See text for explanation of (N) notation.
+NOTE. Binarizing the three AT(N) biomarker types leads to eight different biomarker “profiles”. Every individual can be placed into one of the 
+three general biomarker “categories” based on biomarker profiles: those with normal AD biomarkers (no color), those with non-AD pathologic 
+change (dark grey), and those who are in the Alzheimer’s continuum (light grey). The term “Alzheimer’s continuum” is an umbrella term that 
+denotes either Alzheimer’s pathologic change or AD.
+NOTE. If an individual has an abnormal amyloid biomarker study, but a biomarker for tau is not available, then the individual is placed into the 
+“Alzheimer’s continuum”. A missing biomarker group can be labeled with an asterisk (*). For example, A+(N)+ without a T biomarker would be A
++T*(N)+.
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.

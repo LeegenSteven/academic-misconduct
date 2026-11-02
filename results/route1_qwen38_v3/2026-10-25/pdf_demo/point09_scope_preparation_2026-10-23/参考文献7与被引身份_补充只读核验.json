@@ -1,0 +1,75 @@
+{
+  "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+  "target_reference_id": "alz13859-bib-0007",
+  "reference_number": 7,
+  "citing_reference_fragment": {
+    "pdf_page": 21,
+    "char_start": 5470,
+    "char_end_exclusive": 5634,
+    "raw_text": "7. Jack Jr. CR, Bennett DA, Blennow K, et al. NIA-AA Research\nFramework: toward a biological definition of Alzheimer’s disease.\nAlzheimers Dement. 2018;14:535-562.\n",
+    "raw_text_sha256": "757fd83190fdbb7e4cb50926ec3b8cd9b689fb65a1ec012eee9f0a7c1ebc1320",
+    "source_blocks": [
+      {
+        "block_number": 63,
+        "bbox": [
+          312.654,
+          167.655,
+          549.609,
+          729.543
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_title_fragment": {
+    "pdf_page": 1,
+    "char_start": 0,
+    "char_end_exclusive": 81,
+    "raw_text": "NIA-AA Research Framework: Toward a biological definition of \nAlzheimer’s disease",
+    "raw_text_sha256": "300e2cda9adc89369bb6af3def30db94e95c6c794f3217d53f691803178a1d8a",
+    "source_blocks": [
+      {
+        "block_number": 1,
+        "bbox": [
+          90.002,
+          127.67,
+          509.12,
+          164.33
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_publication_fragment": {
+    "pdf_page": 1,
+    "char_start": 3253,
+    "char_end_exclusive": 3332,
+    "raw_text": "Alzheimers Dement. 2018 April ; 14(4): 535–562. doi:10.1016/j.jalz.2018.02.018.",
+    "raw_text_sha256": "5e3b2cdd7087f43deffe5b03dc3046ca0e95d9f9abda8231722ae73a0b48485d",
+    "source_blocks": [
+      {
+        "block_number": 16,
+        "bbox": [
+          95.292,
+          90.02,
+          425.15,
+          101.18
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "matching_fields": [
+    "title",
+    "first three authors",
+    "2018",
+    "Alzheimers Dement",
+    "14:535–562"
+  ],
+  "doi_printed_in_citing_reference7": false,
+  "doi_in_cited_publication_line": "10.1016/j.jalz.2018.02.018",
+  "added_to_model_candidates": false
+}

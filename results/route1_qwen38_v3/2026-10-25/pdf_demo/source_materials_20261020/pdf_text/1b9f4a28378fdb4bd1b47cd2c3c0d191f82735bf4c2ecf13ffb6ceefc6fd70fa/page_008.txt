@@ -1,0 +1,108 @@
+Articles
+1060	
+www.thelancet.com   Vol 395   March 28, 2020
+increase in differential expression of genes associated 
+with inflammation, whereas expression of type I inter­
+feron beta was reduced.16 The age-dependent defects in 
+T-cell and B-cell function and the excess production of 
+type 2 cytokines could lead to a deficiency in control of 
+viral replication and more prolonged proinflammatory 
+responses, potentially leading to poor outcome.17
+SOFA score is a good diagnostic marker for sepsis 
+and septic shock, and reflects the state and degree of 
+multi-organ dysfunction.18,19 Although bacterial infec­
+tions are usually regarded as a leading cause of sepsis, 
+viral infection can also cause sepsis syndrome. Previ­
+ously, we determined that sepsis occurred in nearly 
+40% of adults with community-acquired pneumonia due 
+to viral infection.20 In the current study, we found that 
+more than half of patients developed sepsis. Additionally, 
+we found that more than 70% of patients had white 
+blood cell count below 10·0 × 10⁹ per L or procalcitonin 
+below 0·25 ng/mL, and no bacterial pathogens were 
+detected in these patients on admission. Sepsis was a 
+common complication, which might be directly caused 
+by SARS-CoV-2 infection, but further research is needed 
+to investigate the pathogenesis of sepsis in COVID-19 
+illness.
+Cardiac complications, including new or worsening 
+heart failure, new or worsening arrhythmia, or myocardial 
+infarction are common in patients with pneumonia. 
+Cardiac arrest occurs in about 3% of inpatients with 
+pneumonia.21 Risk factors of cardiac events after 
+pneumonia include older age, pre-existing cardiovascular 
+diseases, and greater severity of pneumonia at presen­
+tation.22 Coronary heart disease has also been found to be 
+associated with acute cardiac events and poor outcomes 
+in influenza and other respiratory viral infections.22–24 In 
+this study, increased high-sensitivity cardiac troponin I 
+during hospitalisation was found in more than half of 
+those who died. The first autopsy of a 53-year-old woman 
+with chronic renal failure in Jinyintan Hospital showed 
+acute myocardial infarction (data not published; personal 
+communication with a pathologist from the Chinese 
+Academy of Science). About 90% of inpatients with 
+pneumonia had increased coagulation activity, marked by 
+increased d-dimer concentrations.25 In this study, we 
+found d-dimer greater than 1 µg/mL is associated with 
+fatal outcome of COVID-19. High levels of d-dimer have a 
+reported asso­ciation with 28-day mortality in patients 
+with infection or sepsis identified in the emergency 
+department.26 Contri­butory mechanisms include systemic 
+pro-inflammatory cytokine responses that are mediators 
+of atherosclerosis directly contributing to plaque rupture 
+through local inflammation, induction of procoagulant 
+factors, and haemodynamic changes, which predispose to 
+ischaemia and thrombosis.27–29 In addition, angiotensin 
+converting enzyme 2, the receptor for SARS-CoV-2, is 
+expressed on myocytes and vascular endothelial cells,30,31 
+so there is at least theoretical potential possibility of direct 
+cardiac involvement by the virus. Of note, interstitial 
+mononuclear inflammatory infiltrates in heart tissue has 
+Figure 1: Clinical courses of major symptoms and outcomes and duration of viral shedding from illness onset in patients hospitalised with COVID-19
+Figure shows median duration of symptoms and onset of complications and outcomes. ICU=intensive care unit. SARS-CoV-2=severe acute respiratory syndrome coronavirus 2. ARDS=acute respiratory 
+distress syndrome. COVID-19=coronavirus disease 2019.
+Fever
+Cough
+Dyspnoea
+ICU admission
+Systematic corticosteroid
+SARS-CoV-2 RNA positive
+Days after illness onset
+Day 1
+Survivors
+Day 2
+Day 3
+Day 4
+Day 5
+Day 6
+Day 7
+Day 8
+Day 9 Day 10 Day 11 Day 12 Day 13 Day 14 Day 15 Day 16 Day 17 Day 18 Day 19 Day 20 Day 21 Day 22
+Fever
+Cough
+Dyspnoea
+ICU admission
+Invasive ventilation
+Systematic corticosteroid
+SARS-CoV-2 RNA positive
+Days after illness onset
+Day 1
+Non-survivors
+Day 2
+Day 3
+Day 4
+Day 5
+Day 6
+Day 7
+Day 8
+Day 9 Day 10 Day 11 Day 12 Day 13 Day 14 Day 15 Day 16 Day 17 Day 18 Day 19 Day 20
+Sepsis
+ARDS
+Discharged
+Sepsis
+ARDS
+Acute kidney injury
+Death
+Secondary infection
+Acute cardiac injury

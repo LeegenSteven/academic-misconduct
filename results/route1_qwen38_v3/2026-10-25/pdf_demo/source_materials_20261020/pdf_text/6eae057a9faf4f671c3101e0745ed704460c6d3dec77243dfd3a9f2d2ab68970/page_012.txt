@@ -1,0 +1,62 @@
+2
+nature research  |  reporting summary
+April 2020
+Data
+Policy information about availability of data
+All manuscripts must include a data availability statement. This statement should provide the following information, where applicable: 
+- Accession codes, unique identifiers, or web links for publicly available datasets 
+- A list of figures that have associated raw data 
+- A description of any restrictions on data availability
+All input data are freely available from public sources. 
+ 
+Structures from the PDB were used for training and as templates (https://www.wwpdb.org/ftp/pdb-ftp-sites; for the associated sequence data and 40% sequence 
+clustering see also https://ftp.wwpdb.org/pub/pdb/derived_data/ and https://cdn.rcsb.org/resources/sequence/clusters/bc-40.out). Training used a version of the 
+PDB downloaded 28/08/2019, while CASP14 template search used a version downloaded 14/05/2020. Template search also used the PDB70 database, downloaded 
+13/05/2020 (https://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/). 
+ 
+We show experimental structures from the PDB with accessions 6Y4F77, 6YJ178, 6VR479, 6SK080, 6FES81, 6W6W82, 6T1Z83, and 7JTL84. 
+ 
+For MSA lookup at both training and prediction time, we used UniRef90 v2020_01 (https://ftp.ebi.ac.uk/pub/databases/uniprot/previous_releases/
+release-2020_01/uniref/), BFD (https://bfd.mmseqs.com), Uniclust30 v2018_08 (https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/), and MGnify clusters 
+v2018_12 (https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2018_12/).  
+Uniclust30 v2018_08 was further used as input for constructing a distillation structure dataset.
+Field-specific reporting
+Please select the one below that is the best fit for your research. If you are not sure, read the appropriate sections before making your selection.
+Life sciences
+Behavioural & social sciences
+ Ecological, evolutionary & environmental sciences
+For a reference copy of the document with all sections, see nature.com/documents/nr-reporting-summary-flat.pdf
+Life sciences study design
+All studies must disclose on these points even when the disclosure is negative.
+Sample size
+No sample size was chosen; the method was evaluated on the full CASP14 benchmark set, and all PDB chains not in the training set (subject to 
+the exclusions noted below). 
+Data exclusions
+The recent PDB set was filtered (see Methods for full details). Briefly this excludes chains with too few resolved residues, longer than 1400 
+residues, solved by NMR or with unknown/ambiguous residues. This set was also redundancy reduced (by taking representatives from a 
+sequence clustering), and for some figures a sequence similarity-based filter was applied to remove entries too similar to the training set (see 
+Methods and figure legends for details).
+Replication
+Not applicable, no experimental work is described in this study. The results are the output of a computational method which will be made 
+available.
+Randomization
+Not applicable, we are not making a comparison between two groups
+Blinding
+Not applicable, we are not making a comparison between two groups
+Reporting for specific materials, systems and methods
+We require information from authors about some types of materials, experimental systems and methods used in many studies. Here, indicate whether each material, 
+system or method listed is relevant to your study. If you are not sure if a list item applies to your research, read the appropriate section before selecting a response. 
+Materials & experimental systems
+n/a Involved in the study
+Antibodies
+Eukaryotic cell lines
+Palaeontology and archaeology
+Animals and other organisms
+Human research participants
+Clinical data
+Dual use research of concern
+Methods
+n/a Involved in the study
+ChIP-seq
+Flow cytometry
+MRI-based neuroimaging

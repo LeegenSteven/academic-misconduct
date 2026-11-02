@@ -1,0 +1,84 @@
+{
+  "case_id": "r1pdf:1dfa922c755ed870245927e3",
+  "status": "assistant_source_notation_discrepancy_observed_not_publication_correction",
+  "figure2_caption_fragment": {
+    "pdf_page": 3,
+    "char_start": 3929,
+    "char_end_exclusive": 4236,
+    "raw_text": "Fig. 2 | Progression to MCI or all-cause dementia in the different AT \nbiomarker profiles. a,d, Survival curves for progression to MCI (a) or all-cause \ndementia (d) in the different AT biomarker profiles (A−T+: n = 292; A+TMTL\n+: \nn = 51; A+TNEO-T\n+: n = 60) with the A−T− group (n = 781) as the reference,",
+    "raw_text_sha256": "ffcabbf95efa5d235aa9e52073387b22c665a4492678707baa86d324cf6310fc",
+    "source_blocks": [
+      {
+        "block_number": 120,
+        "bbox": [
+          39.678,
+          471.668,
+          288.237,
+          501.05
+        ]
+      },
+      {
+        "block_number": 121,
+        "bbox": [
+          39.687,
+          491.491,
+          268.804,
+          511.05
+        ]
+      },
+      {
+        "block_number": 122,
+        "bbox": [
+          39.684,
+          501.491,
+          286.139,
+          540.434
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "main_text_fragment": {
+    "pdf_page": 3,
+    "char_start": 254,
+    "char_end_exclusive": 462,
+    "raw_text": "During the clinical follow-up, 26 out of 781 (3.3%) of A−T−, 26 out of 292 \n(8.9%) of A+T−, 25 out of 51 (49.0%) of A+TMTL\n+ and 32 out of 60 (53.3%) of \nA+TNEO-T\n+ participants progressed to MCI or dementia.",
+    "raw_text_sha256": "293302a60c768639cce32143ae7c3e5bb15f1854ddc826f38453658cba141163",
+    "source_blocks": [
+      {
+        "block_number": 4,
+        "bbox": [
+          39.685,
+          606.072,
+          296.257,
+          639.022
+        ]
+      },
+      {
+        "block_number": 5,
+        "bbox": [
+          39.685,
+          627.756,
+          296.308,
+          649.772
+        ]
+      },
+      {
+        "block_number": 6,
+        "bbox": [
+          66.988,
+          638.506,
+          292.21,
+          649.772
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "observation": "The original Figure 2 caption says A−T+ with n=292, while the plot/risk-table labels and clinical-progression main text associate 292 with A+T−. The source elsewhere reports A−T+ n=34. Preserve each original form; do not take the caption's 292 as target-group evidence or silently repair the paper.",
+  "formal_erratum_checked": false,
+  "source_pdf_modified": false,
+  "added_to_model_input": false
+}

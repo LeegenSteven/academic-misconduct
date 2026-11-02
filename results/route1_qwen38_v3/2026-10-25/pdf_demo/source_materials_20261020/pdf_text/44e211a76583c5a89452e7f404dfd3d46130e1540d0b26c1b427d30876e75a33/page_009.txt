@@ -1,0 +1,128 @@
+annotations. We identified 274 proteins in which we could transfer
+the annotation of the complex to an uncharacterized protein
+(Dataset EV3). This is an increase of ~ 40% over the same analysis
+done with hu.MAP 1.0.
+Within this set of uncharacterized proteins, we identify C7orf26 as a
+member of the Integrator complex (Fig 4C). We see strong correlation
+of C7orf26 with Integrator subunits in co-fractionation experiments
+from both HEK 293 cells and fly embryos (Fig 4D). In addition, C7orf26
+was also identified in several separate affinity purification experiments
+(Malovannaya et al, 2011) where Integrator subunits were the target
+bait protein (Fig 4E). The consistent results from these orthogonal data-
+sets suggest a role for C7orf26 in the Integrator complex and provide a
+new function for a completely unannotated protein.
+We also observe another uncharacterized protein, CCDC9, as
+being a member of the exon–exon junction complex (EJC; Fig 4F).
+The interaction between CCDC9 and the EJC is supported by
+evidence from Hein et al (2015) AP-MS experiments and WMM
+evidence. Since the EJC is a ribonucleoprotein complex involved in
+RNA splicing, we searched our previously collected RNA DIF-FRAC
+mass spectrometry data (Mallam et al, 2019) for evidence of CCDC9
+as being both a member of the EJC and also associated with RNA.
+The DIF-FRAC experiment identifies ribonucleoprotein complexes
+by comparing elution profiles of protein complexes with and with-
+out RNAseA treatment. We see in Fig 4G CCDC9 not only co-elutes
+with EJC subunits but is also sensitive to RNAseA treatment
+suggesting it is interacting with the EJC while associated with RNA.
+Importantly, the DIF-FRAC experimental data were not included in
+the generation of hu.MAP 2.0 and therefore represent an indepen-
+dent assessment of CCDC9’s interaction with the EJC. Additionally,
+CCDC9 was identified as an RNA binding protein in high-throughput
+screens searching for mRNA-binding proteins (Baltz et al, 2012;
+Castello et al, 2012) which is consistent with our observation of
+CCDC9 participating in a ribonucleoprotein complex.
+Discussion
+Herein, we describe the construction of the most accurate and
+comprehensive protein complex map to date which fills a large gap
+in our knowledge regarding the composition of functional complexes
+in the cell. We demonstrate the utility of our map by assigning func-
+tions for hundreds of completely uncharacterized proteins, providing
+testable hypotheses for their characterization. Additionally, we
+determine the prevalence of proteins that participate in multiple
+independent protein assemblies including ones with disparate func-
+tions suggesting moonlighting functions for the protein. Overall, our
+results, searchable with a simple web interface (http://humap2.
+proteincomplexes.org/), establish the utility of hu.MAP 2.0 for
+furthering our understanding of human protein functions.
+Summary of methodological updates to the hu.MAP pipeline
+from version 1.0
+While the substantial performance gain between hu.MAP 1.0 and
+hu.MAP 2.0 is largely due to the addition of newly published inter-
+actome datasets, we summarize changes between the pipelines here.
+First, the hu.MAP 1.0 pipeline took advantage of LIBSVM’s (Chang
+& Lin, 2011) grid.py utility to sweep SVM hyper-parameters C and
+gamma. The grid.py utility relies on the accuracy metric for evalua-
+tion defined as Accuracy = (TP + TN)/(TP + TN + FP + FN) where
+TP is true positives, TN is true negatives, FP is false positives, and
+FN is false negatives. Using accuracy as an evaluation metric is
+problematic in cases of large class imbalance such as protein inter-
+action prediction. Specifically, there are orders of magnitude more
+negative interactions than positive interactions, and therefore, accu-
+racy can be dominated by the true negatives resulting in a poor
+predictor of new interactions. In the hu.MAP 2.0 pipeline, we there-
+fore remedied this by developing our own cross-validation utility
+(https://github.com/marcottelab/protein_complex_maps/tree/maste
+r/protein_complex_maps/model_fitting/cross_validation) which uses
+area under the precision-recall curve (PR-AUC) as a metric to identify
+optimal C and gamma SVM parameters. PR-AUC does not rely on true
+negatives for its calculation and is preferred for evaluation of prob-
+lems with large class imbalance (Davis & Goadrich, 2006).
+Second, we simplified the clustering section of the hu.MAP 2.0
+pipeline to use only ClusterOne followed by MCL. In the hu.MAP
+1.0 pipeline, we observed a gain in performance when we combined
+results from the Newman clustering method (Newman, 2004) with
+the MCL results. In the hu.MAP 2.0 pipeline, we do not see such
+gains and opt for only using MCL.
+Third, the hu.MAP 1.0 pipeline did not classify protein complexes by
+their estimated confidence level. Hu.MAP 2.0 now allows for a quick
+way for users to evaluate a complex of interest based on a confidence
+measure. As described above, in the hu.MAP 2.0 pipeline, we use the k-
+clique precision-recall performance measure for evaluating the gener-
+ated clusterings. The k-clique precision-recall measure allows for a finer
+grain analysis of performance due to the separation of precision and
+recall terms as opposed to the F-Grand k-clique measure used in
+hu.MAP 1.0. We were then able to select five clusterings that provided
+a trade-off between precision and recall which ultimately serve as a con-
+fidence score for the complexes in those clusterings.
+hu.MAP 2.0 identifies complexes across a broad distribution of
+biochemical classifications
+A primary goal of our work is to identify all stable physical complexes
+in human cells. While hu.MAP 2.0 substantially increases coverage of
+stable human complexes, the results ultimately reflect the integrated
+high-throughput methods’ ability to identify these assemblies. For
+example, high-throughput biochemical purification techniques such
+as AP-MS and CF-MS are commonly thought to be robust at identify-
+ing soluble cytoplasmic protein complexes and less robust at purify-
+ing, for example, membrane bound complexes. To determine whether
+our hu.MAP 2.0 complexes were biased against certain categories of
+proteins, we used PantherDB (Mi et al, 2019) GO analysis to identify
+enriched and depleted terms. Interestingly, we see GO cellular compo-
+nent
+terms
+such
+as
+“vesicle
+membrane”
+and
+“mitochondrial
+membrane” as enriched with 1.27- and 1.41-fold enrichment respec-
+tively. Alternatively, we see a depletion in proteins annotated with
+“plasma membrane” in hu.MAP 2.0 yet only slightly, with a 0.86-fold
+depletion and a total of over 2,300 proteins with the “plasma
+membrane” annotation in our complexes. To further investigate the
+validity of these proteins in our data, we searched, for examples, of
+plasma membrane complexes. We found several high confidence
+complexes enriched with “plasma membrane” term including a potas-
+sium
+voltage-gated
+channel
+complex
+(HuMAP2_00584)
+and
+a
+ª 2021 The Authors
+Molecular Systems Biology
+17: e10016 | 2021
+9 of 16
+Kevin Drew et al
+Molecular Systems Biology

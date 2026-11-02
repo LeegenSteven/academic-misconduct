@@ -1,0 +1,109 @@
+(>90%). This algorithm tries to extend an adapter seed in the for-
+ward direction to check its validity since a valid adapter can always
+be extended to the read tails. And if this adapter seed is valid, a
+backward extension is applied to obtain the complete adapter se-
+quence. The process of extending an adapter seed in forward and
+backward directions is given in Figure 2.
+For paired-end data, fastp seeks the overlap of each pair and
+considers the bases that fall out of the overlapped regions as adapt-
+er contents. The overlapping detection algorithm was derived from
+our previous work, AfterQC. Compared to sequence-matching-
+based adapter-trimming tools like Cutadapt and Trimmomatic, a
+clear advantage of the overlap-analysis-based method is that it
+can trim adapters with few bases in the read tail. For example,
+most sequence-matching-based tools require a hatchment of at
+least three bases and cannot trim adapters with only one or two
+bases. In contrast, fastp can trim adapters with even only one base
+in the tail.
+Although fastp can detect adapter sequences automatically, it
+also provides interfaces to set specific adapter sequences for trim-
+ming. For SE data, if an adapter sequence is given, then automatic
+adapter-sequence detection will be disabled. For PE data, the adapt-
+er sequence will be used for sequence-matching-based adapter trim-
+ming only when fastp fails to detect a good overlap in the pair.
+2.3 Base correction
+For paired-end data, if one pair of reads can be detected with a good
+overlap, then the bases within the overlapped region can be com-
+pared. If the reads are of high quality, they are usually completely re-
+verse-complemented.
+If any mismatches are found within the overlapped region, fastp
+will try to correct them. fastp only corrects a mismatched base pair
+with an imbalanced quality score, such as when one has a high-
+quality score (>Q30) and the other has a low-quality score (<Q15).
+To reduce false corrections, fastp only performs a correction if the
+total mismatch is below a given threshold T (T ¼ 5).
+2.4 Sliding window quality pruning
+To improve the read quality, fastp supports a sliding window
+method to drop the low-quality bases of each read’s head and tail.
+The window can slide from either 50 to 30 or from 30 to 50, and the
+average quality score within the window is evaluated. If the average
+quality is lower than a given threshold, then the bases in the window
+will be marked as discarded and the window will be moved forward
+by one base; otherwise, the algorithm ends.
+2.5 polyG and polyX tail trimming
+PolyG is a common issue observed in Illumina NextSeq and
+NovaSeq series, which are based on two-color chemistry. Such sys-
+tems use two different lights (i.e. red and green) to represent four
+bases: a base with only a detected red-light signal is called C; a base
+with only a detected green light signal is called T; a base with both
+red and green light detected is called A; and a base with no light
+detected is called G. However, as the sequencing by synthesis pro-
+ceeds to subsequent cycles, the signal strength of each DNA cluster
+becomes progressively weaker. This issue causes some T and C to be
+wrongly interpreted as G in the read tails, a problem otherwise
+known as a polyG tail.
+fastp can detect and trim the polyG in the read tails. It checks the
+flow cell identifier to determine whether the data are from Illumina
+NextSeq or NovaSeq sequencers, and if so, it automatically enables
+polyG tai trimming. The polyG tail issue can result in a serious base
+content separation problem, meaning that A and T or C and G have
+substantially different base content ratios. Figure 3 shows an ex-
+ample of data exhibiting a polyG tail issue and how the problem is
+ad-dressed with fastp preprocessing.
+fastp also implements polyX tail trimming, where X means any
+base of A/T/C/G. This function can be used to trim the low-
+complexity consecutive bases in 30 end. PolyX tail trimming and
+polyG tail trimming can be enabled together. In this case, polyG tail
+trimming will be applied first since polyG is usually caused by
+sequencing artifacts and should be trimmed first.
+2.6 UMI preprocessing
+Recently, UMI technology was proposed to reduce background
+noise and improve sensitivity when detecting ultra-low frequency
+mutations in deep-sequencing applications (i.e. ctDNA sequencing).
+The UMI method can be used to remove duplications and generate
+high-quality consensus reads. It has been adopted by various
+Fig. 2. A demonstration of extending an adapter seed in both forward and
+backward directions. The found adapter is GCAAATCGATCGACT, with the
+ﬁrst two bases (GC) as the upstream sequence, the central ten bases as the
+adapter seed, and the last three bases (ACT) as the downstream sequence
+Algorithm 1 adapter sequence detection
+for seed in sorted_adapter_seeds:
+seqs_after_seed ¼ get_seqs_after(seed)
+forward_tree ¼ build_nucleotide_tree(seqs_after_seed)
+found ¼ True
+node ¼ forward_tree.root
+after_seed ¼ “”
+while node.is_not_leaf():
+if node.has_dominant_child():
+node ¼ node.dominant_child()
+after_seed ¼ after_seed þ node.base
+else:
+found ¼ False
+break
+if found ¼¼ False:
+continue
+else:
+seqs_before_seed ¼ get_seqs_before(seed)
+backward_tree ¼ build_nucleotide_tree(seqs_before_seed)
+node ¼ backward _tree.root
+before_seed ¼ “”
+while node.is_not_leaf():
+if node.has_dominant_child():
+node ¼ node.dominant_child()
+before_seed ¼ node.base þ before_seed
+else:
+break
+adapter ¼ before_seed þ seed þ after_seed
+break
+i886
+S.Chen et al.

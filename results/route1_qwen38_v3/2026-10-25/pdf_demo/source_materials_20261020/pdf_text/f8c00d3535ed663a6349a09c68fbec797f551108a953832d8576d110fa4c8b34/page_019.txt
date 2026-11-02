@@ -1,0 +1,8 @@
+Nature Medicine 
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+Extended Data Table 6 | Survival analyses with and without covarying for white matter pathology. The hazard ratios are 
+derived from a Cox proportional-hazards model with clinical progression (progression to MCI or to all-cause dementia) 
+as the outcome, adjustment for age, sex, education, cohort and white matter hypointensity volumes (sensitivity analysis 
+only) and A−T− serving as the reference group. P values from two-sided statistical tests without adjustment for multiple 
+comparisons are reported

@@ -1,0 +1,295 @@
+Nature Medicine | Volume 28 | November 2022 | 2381–2387
+2385
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+by different age groups (that is, 50–69, 70–79 and 80+ years; Tables 2 
+and 3) and (2) restricting the A−T− group to individuals >65 years so that 
+groups were age-matched (Extended Data Tables 4 and 5). All analyses 
+yielded highly similar results as the primary analyses, suggesting that 
+age did not explain the observed differences in clinical progression 
+rates between AT groups and that the findings can be generalized across 
+different age groups.
+Findings are independent of white matter lesions
+To account for the potential effect of white matter lesions on clinical 
+progression, we additionally adjusted the Cox proportional-hazards 
+models and linear mixed models for white matter hypointensity vol-
+umes (Extended Data Tables 6 and 7). These analyses yielded highly 
+similar results as the primary analyses, suggesting that the observed 
+differences in clinical progression rates between AT groups were inde-
+pendent of white matter pathology.
+Discussion
+To examine whether amyloid and tau PET-positive cognitively unim-
+paired individuals are destined to decline, we performed a multicenter 
+study in 1,325 participants with, on average, approximately 3.5 years 
+of clinical follow-up data available. We found that A+TNEO-T
++ and A+TMTL
++ 
+cognitively unimpaired individuals had clearly increased risk for future 
+development of MCI and all-cause dementia and showed steep trajec-
+tories of cognitive decline. Hence, evidence of advanced AD pathology 
+provided by amyloid and tau PET is strongly associated with short-term 
+clinical progression in initially cognitively unimpaired individuals. This 
+supports the NIA-AA criteria-based classification of A+T+ cognitively 
+unimpaired individuals as ‘preclinical AD’, especially when ‘T’ is defined 
+by PET. To consider A+T+ merely as a risk factor, and not manifest disease, 
+may be an underestimation of its malignancy.
+Although the A+TNEO-T
++ group was at increased risk for progression 
+to all-cause dementia compared to the A+TMTL
++ group, there were no 
+differences in risk for progression to MCI. A potential explanation is 
+that tau pathological changes in the MTL can cause severe-enough 
+memory loss leading to an individual being classified as MCI (but not 
+dementia), while widespread tau pathology into the neocortex might 
+be needed to produce a dementia syndrome16,17,35. Supporting this 
+hypothesis, we found that the A+TNEO-T
++ group exhibited faster decline 
+in global cognition, semantic memory and timed executive function 
+but not in delayed episodic memory function compared to the A+TMTL
++ 
+group (Fig. 3c–e).
+Another important finding was the higher clinical progression rate 
+for both A+T+ groups compared to the A+T− group, with HRs up to 7.9 and 
+26.7 for progression to MCI and all-cause dementia, respectively. This 
+indicates that among A+ cognitively unimpaired individuals, who are 
+presumably already on the AD pathological continuum, the coexistence 
+of tau pathological changes in the MTL and/or the neocortex represents 
+a ssubstantial additional relative risk for short-term cognitive decline. 
+However, a proportion of the A+T+ group remained cognitively intact 
+after approximately 3.5 years of follow-up, highlighting the variable 
+rates of cognitive decline even among individuals who are at the high-
+est risk of deterioration based on their AD biomarker profile5–7,23,24,36. 
+This possibly represents highly resilient individuals due to a favorable 
+genetic makeup and/or a healthy lifestyle37–39. Alternatively, these 
+nonprogressors may harbor fewer additional factors on top of Aβ and 
+tau pathology, for example, synaptic loss, copathologies or neuroin-
+flammation, resulting in an attenuation of their cognitive decline40–42. 
+Hence, research into both resilience and risk factors is necessary to 
+optimize future prediction models.
+The main strengths of this study include the large-scale multi-
+center dataset with available amyloid PET, tau PET and longitudinal 
+clinical and cognitive data, which allowed us to accurately estimate the 
+relative risk of the different AT groups in terms of clinical progression 
+and cognitive decline. This study also has several limitations. First, 
+Table 2 | Survival analyses across different age groups
+All agesA−T−: 
+n = 781A+T−: 
+n = 292A+TMTL
++: 
+n = 51A+TNEO-T
++: 
+n = 60
+50–69 
+yearsA−T−: 
+n = 433A+T−: 
+n = 75A+TMTL
++: 
+n = 12A+TNEO-T
++: 
+n = 10
+70–79 
+yearsA−T−: 
+n = 256A+T−: 
+n = 123A+TMTL
++: 
+n = 25A+TNEO-T
++: 
+n = 29
+80+ 
+yearsA−T−: 
+n = 92A+T−: 
+n = 94A+TMTL
++: 
+n = 14A+TNEO-T
++: 
+n = 21
+HR (95% CI), P
+HR (95% CI), P
+HR (95% CI), P
+HR (95% CI), P
+Progression to MCI
+A+T−
+2.43 (1.38–
+4.26), P = 0.002
+0.94 (0.25–
+3.59), P = 0.93
+2.93 (1.16–7.39), 
+P = 0.02
+2.41 (0.90–
+6.42), P = 0.08
+A+TMTL
++
+14.60 (8.06–
+26.41), P < 0.001
+17.19 
+(5.98–49.42), 
+P < 0.001
+21.94 
+(8.51–56.56), 
+P < 0.001
+5.14 (1.39–
+18.94), P = 0.01
+A+TNEO-T
++
+19.19 (10.93–
+33.71), P < 0.001
+17.21 
+(4.54–65.19), 
+P < 0.001
+26.07 
+(10.79–62.99), 
+P < 0.001
+11.28 
+(3.91–32.57), 
+P < 0.001
+Progression to all-cause dementia
+A+T−
+1.58 (0.46–
+5.41), P = 0.47
+2.50 
+(0.27–23.00), 
+P = 0.42
+1.33 (0.16–
+10.84), P = 0.78
+0.90 
+(0.50–15.98), 
+P = 0.94
+A+TMTL
++
+6.22 (1.44–
+26.79), P = 0.01
+18.09 (1.99–
+165), P = 0.01
+NA
+6.26 (0.34–
+116), P = 0.22
+A+TNEO-T
++
+41.26 
+(16.70–101.93), 
+P < 0.001
+28.17 (4.47–
+177), P < 0.001
+47.62 (9.55–
+237), P < 0.001
+27.69 (2.49–
+307.56), 
+P = 0.007
+The HR are derived from Cox proportional-hazards models with clinical progression 
+(progression to MCI or all-cause dementia) as outcome, age, sex, education and cohort 
+as covariates and A−T− serving as the reference group. NA, there were no progressors to 
+dementia in the A+TMTL
++ group for this particular age bin.
+Table 3 | Linear mixed models across different age groups
+All agesA−T−: 
+n = 843A+T−: 
+n = 328A+TMTL
++: 
+n = 55A+TNEO-T
++: 
+n = 65
+50–69 
+yearsA−T−: 
+n = 442A+T−: 
+n = 77A+TMTL
++: 
+n = 12A+TNEO-T
++: 
+n = 10
+70–79 
+yearsA−T−: 
+n = 284A+T−: 
+n = 148A+TMTL
++: 
+n = 27A+TNEO-T
++: 
+n = 33
+80+ yearsA−T−: 
+n = 117A+T−: 
+n = 103A+TMTL
++: 
+n = 16A+TNEO-T
++: 
+n = 22
+Stdβ (s.e.), P
+Stdβ (s.e.) P
+Stdβ (s.e.) P
+Stdβ (s.e.) P
+mPACC5
+A+T−
+−0.005 (0.001), 
+P < 0.001
+−0.002 
+(0.001), 
+P = 0.11
+−0.004 (0.001), 
+P = 0.005
+−0.003 
+(0.003), 
+P = 0.33
+A+TMTL
++
+−0.017 (0.002), 
+P < 0.001
+−0.015 
+(0.003), 
+P < 0.001
+−0.016 (0.003), 
+P < 0.001
+−0.015 (0.005), 
+P = 0.004
+A+TNEO-T
++
+−0.020 
+(0.002), 
+P < 0.001
+−0.025 
+(0.004), 
+P < 0.001
+−0.019 (0.003), 
+P < 0.001
+−0.012 (0.005), 
+P = 0.02
+MMSE
+A+T−
+−0.008 
+(0.002), 
+P < 0.001
+−0.001 
+(0.003), 
+P = 0.73)
+−0.007 
+(0.004), 
+P = 0.06
+−0.013 (0.007), 
+P = 0.06
+A+TMTL
++
+−0.024 
+(0.005), 
+P < 0.001
+−0.039 
+(0.008), 
+P < 0.001)
+−0.006 
+(0.008), 
+P = 0.43
+−0.032 (0.014), 
+P = 0.02
+A+TNEO-T
++
+−0.056 
+(0.005), 
+P < 0.001
+−0.050 
+(0.011), 
+P < 0.001
+−0.049 
+(0.007), 
+P < 0.001
+−0.063 (0.013), 
+P < 0.001
+The stdβ values are derived from the linear mixed models adjusted for age, sex, education 
+and cohort and represent the group × time interaction with the A−T− serving as the reference 
+group. P values from two-sided statistical tests without adjustment for multiple comparisons 
+are reported.

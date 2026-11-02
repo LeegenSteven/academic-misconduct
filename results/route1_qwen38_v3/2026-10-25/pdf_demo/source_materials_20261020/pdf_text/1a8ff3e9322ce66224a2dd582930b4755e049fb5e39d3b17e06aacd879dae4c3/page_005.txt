@@ -1,0 +1,101 @@
+n engl j med﻿  nejm.org﻿
+5
+Characteristics of Coronavirus Disease 2019 in China
+creatine kinase, and d-dimer. Patients with severe 
+disease had more prominent laboratory abnor-
+malities (including lymphocytopenia and leuko-
+penia) than those with nonsevere disease.
+Clinical Outcomes
+None of the 1099 patients were lost to follow-up 
+during the study. A primary composite end-point 
+event occurred in 67 patients (6.1%), including 
+5.0% who were admitted to the ICU, 2.3% who 
+underwent invasive mechanical ventilation, and 
+1.4% who died (Table 3). Among the 173 patients 
+with severe disease, a primary composite end-point 
+event occurred in 43 patients (24.9%). Among all 
+the patients, the cumulative risk of the compos-
+ite end point was 3.6%; among those with severe 
+disease, the cumulative risk was 20.6%.
+Treatment and Complications
+A majority of the patients (58.0%) received intra-
+venous antibiotic therapy, and 35.8% received 
+oseltamivir therapy; oxygen therapy was admin-
+istered in 41.3% and mechanical ventilation in 
+6.1%; higher percentages of patients with severe 
+disease received these therapies (Table 3). Me-
+chanical ventilation was initiated in more pa-
+tients with severe disease than in those with 
+nonsevere disease (noninvasive ventilation, 32.4% 
+vs. 0%; invasive ventilation, 14.5% vs. 0%). Sys-
+temic glucocorticoids were given to 204 patients 
+(18.6%), with a higher percentage among those 
+with severe disease than nonsevere disease (44.5% 
+vs. 13.7%). Of these 204 patients, 33 (16.2%) 
+were admitted to the ICU, 17 (8.3%) underwent 
+invasive ventilation, and 5 (2.5%) died. Extracor-
+poreal membrane oxygenation was performed in 
+5 patients (0.5%) with severe disease.
+The median duration of hospitalization was 
+12.0 days (mean, 12.8). During hospital admis-
+sion, most of the patients received a diagnosis of 
+pneumonia from a physician (91.1%), followed 
+by ARDS (3.4%) and shock (1.1%). Patients with 
+severe disease had a higher incidence of physi-
+cian-diagnosed pneumonia than those with non-
+severe disease (99.4% vs. 89.5%).
+Discussion
+During the initial phase of the Covid-19 out-
+break, the diagnosis of the disease was compli-
+cated by the diversity in symptoms and imaging 
+findings and in the severity of disease at the 
+time of presentation. Fever was identified in 
+43.8% of the patients on presentation but devel-
+oped in 88.7% after hospitalization. Severe ill-
+ness occurred in 15.7% of the patients after ad-
+mission to a hospital. No radiologic abnormalities 
+were noted on initial presentation in 2.9% of the 
+patients with severe disease and in 17.9% of those 
+with nonsevere disease. Despite the number of 
+deaths associated with Covid-19, SARS-CoV-2 
+appears to have a lower case fatality rate than 
+either SARS-CoV or Middle East respiratory syn-
+drome–related coronavirus (MERS-CoV). Com-
+promised respiratory status on admission (the 
+primary driver of disease severity) was associat-
+ed with worse outcomes.
+Approximately 2% of the patients had a history 
+of direct contact with wildlife, whereas more than 
+three quarters were either residents of Wuhan, 
+had visited the city, or had contact with city 
+residents. These findings echo the latest reports, 
+including the outbreak of a family cluster,4 
+transmission from an asymptomatic patient,6 
+and the three-phase outbreak patterns.8 Our 
+study cannot preclude the presence of patients 
+who have been termed “super-spreaders.”
+Conventional routes of transmission of SARS-
+CoV, MERS-CoV, and highly pathogenic influenza 
+consist of respiratory droplets and direct con-
+tact,18-20 mechanisms that probably occur with 
+SARS-CoV-2 as well. Because SARS-CoV-2 can be 
+detected in the gastrointestinal tract, saliva, and 
+urine, these routes of potential transmission 
+need to be investigated21 (Tables S1 and S2).
+The term Covid-19 has been applied to pa-
+tients who have laboratory-confirmed symptom-
+atic cases without apparent radiologic manifes-
+tations. A better understanding of the spectrum 
+of the disease is needed, since in 8.9% of the 
+patients, SARS-CoV-2 infection was detected be-
+fore the development of viral pneumonia or viral 
+pneumonia did not develop.
+In concert with recent studies,1,8,12 we found 
+that the clinical characteristics of Covid-19 mimic 
+those of SARS-CoV. Fever and cough were the 
+dominant symptoms and gastrointestinal symp-
+toms were uncommon, which suggests a differ-
+ence in viral tropism as compared with SARS-CoV, 
+MERS-CoV, and seasonal influenza.22,23 The ab-
+sence of fever in Covid-19 is more frequent than 
+in SARS-CoV (1%) and MERS-CoV infection 

@@ -1,0 +1,14 @@
+{
+  "kind": "new_generation_version_plan_not_an_executed_run",
+  "point_number": 16,
+  "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+  "parent_release_sha256": "09a875e7d8bcae223e39e1ba1c903c99405b17f8c08a8f3797e49dacb01106ec",
+  "failure": "512 generated tokens; JSON string and outer fence incomplete",
+  "proposed_scope": "Only a new explanation attempt; classification and original attempt retained",
+  "proposed_output_constraint": "Compact JSON only, no fence; at most two evidence IDs; short continuous source excerpts; concise reason preserving coverage limits; insufficient_evidence if adequate explanation cannot fit.",
+  "model_and_candidates": "Same official base without adapter and same frozen ten candidates",
+  "budget": "Keep 5120 total and 512 generation initially; new prompt must be tokenized before GPU launch",
+  "model_run_performed": false,
+  "original_failure_overwritten": false,
+  "semantic_acceptance_inferred": false
+}

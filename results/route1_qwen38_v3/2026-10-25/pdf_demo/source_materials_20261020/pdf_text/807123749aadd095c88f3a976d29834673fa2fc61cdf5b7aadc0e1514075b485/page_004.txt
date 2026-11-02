@@ -1,0 +1,112 @@
+Nucleic Acids Research, 2019, Vol. 47, Database issue D523
+that were previously split across multiple PDB entries were
+merged into a single PDB entry using the PDBx/mmCIF
+format. All 3D structures in the PDB Core Archive are now
+stored and distributed in PDBx/mmCIF format.
+Where possible, the wwPDB has continued to make struc-
+tures in the PDB Core Archive available in legacy PDB for-
+mat for the convenience of the User community. For the
+avoidance of doubt, the legacy PDB format was ‘frozen’ in
+2012, and no longer conveys the broad range of rich meta-
+data represented in the PDBx/mmCIF files. Most major
+structural biology data resources and software tools have
+embraced the PDBx/mmCIF format, and continued re-
+liance on the legacy PDB file format is strongly discouraged
+by the wwPDB.
+Experimental data are distributed using various file for-
+mats, reflecting minor differences in the evolution of data
+archiving practices within different structural biology com-
+munities. Structure factors from MX experiments are stored
+and distributed in the PDBx/mmCIF format. Chemical
+shifts from NMR experiments are stored and distributed
+in the BMRB Core Archive NMR-STAR format (25, 26).
+Coulomb potential maps from 3DEM experiments are
+stored and distributed in the CCP4 map format, whereas the
+associated metadata are stored and distributed in EMDB-
+XML format (27).
+All the data categories and items represented using the
+PDBx/mmCIF format are unambiguously defined in the
+PDBx/mmCIF dictionary (mmcif.wwpdb.org) (22). These
+data definitions include relationships among different data
+categories, and allowed data types for all data items in
+the data categories. The PDBx/mmCIF dictionary also in-
+cludes allowed enumerations and ranges of values for indi-
+vidual data items, thereby enabling validation of the data
+items in each PDBx/mmCIF file across the PDB Core
+Archive. Finally, the PDBx/mmCIF format has the advan-
+tage of being fully extensible, enabling archiving of new data
+types as structural biology continues to develop as a scien-
+tific discipline.
+Additional structure data file formats
+In addition to PDBx/mmCIF, the wwPDB also dis-
+tributes the atomic coordinates of every PDB structure in
+PDBML/XML format, which can be read using a standard
+XML parser (pdbml.pdb.org) (28) and as RDF (rdf.wwpdb.
+org/pdb) (5,29).
+GLOBAL DATA DEPOSITION
+In
+2014,
+the
+global
+OneDep
+deposition-validation-
+biocuration system was launched (9). This important
+advance ensured that all wwPDB regional data centers
+(RCSB PDB, PDBe and PDBj) provide the same data pro-
+cessing experience to Data Depositors around the world.
+The OneDep system processes depositions of 3D structures
+coming from all of the experimental methods currently
+supported by PDB Core Archives. OneDep also supports
+all EMDB depositions, including Coulomb potential maps
+that are not accompanied by 3D atomic coordinates.
+Validation and biocuration of depositions is geographically
+distributed, with RCSB PDB processing all depositions
+Figure 2. World map indicating the locations of wwPDB partner sites and
+color-coded to indicate the regions from which each accepts PDB deposi-
+tions.
+from the Americas and Oceania, PDBe processing depo-
+sitions from Europe and Africa, and PDBj processing all
+depositions from Asia and the Middle East (Figure 2). This
+arrangement
+distributes
+validation/biocuration
+efforts
+across three wwPDB partner sites, and allows most Data
+Depositors to communicate with wwPDB biocurators
+located in the same or nearby time zones.
+To improve data quality and to allow for future extensi-
+bility, the OneDep system uses the PDBx/mmCIF frame-
+work throughout deposition-validation-biocuration. The
+launch of the OneDep system was accompanied by a sig-
+nificant extension of the PDBx/mmCIF dictionary, includ-
+ing addition of new or updated enumerations and allowed
+ranges for individual data items and significant changes
+to improve representation of 3DEM structures within the
+PDB Core Archive. Both the PDBx/mmCIF dictionary and
+the OneDep system undergo continuous updates, with enu-
+merations being extended and new data items being added
+when and where appropriate.
+wwPDB validation (15) and biocuration (30) processes
+have been described in detail, and information about
+the deposition and biocuration policies and procedures
+is available on the wwPDB website (www.wwpdb.org/
+documentation/biocuration). Recently, validation of lig-
+ands in the PDB Core Archive was improved with the adop-
+tion of a more robust way of flagging those molecules that
+do not fit electron density well (31). The wwPDB validation
+report provides consistent quality assessment metrics across
+the entire PDB archive, enabling comparisons between dif-
+ferent structures. This allows Users to rank PDB structures
+relevant for their needs based on validation criteria.
+Validation is performed throughout the deposition pro-
+cess: a preliminary validation report is provided to Data De-
+positors at the time of deposition; an updated, confidential
+report is then provided to Data Depositors once the biocu-
+ration is concluded; and a final public report is released
+alongside the PDB entry. An increasing number of scien-
+tific journals now require wwPDB validation reports to be
+included at the time of manuscript submission to assist ref-
+erees in assessment of the quality of the 3D structure data.
+The wwPDB strongly encourages all Data Depositors to
+provide their confidential wwPDB validation reports when
+submitting related manuscripts.

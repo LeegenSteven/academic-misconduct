@@ -1,0 +1,36 @@
+{
+  "version": "route1_pdf_explanation_parser_v4_20261024",
+  "complete_single_outer_json_fence": true,
+  "whitespace_word_boundaries_preserved": true,
+  "exact_match_precedence": true,
+  "case_number_punctuation_negation_changes_allowed": false,
+  "incomplete_json_repair_allowed": false,
+  "soft_hyphen_handling": "Only existing layout matcher ASCII-letter gaps, with source map",
+  "line_end_hyphen_removal": "Only three PDF/page/candidate-hash/character-interval entries",
+  "line_join_whitelist": [
+    [
+      "973971a504490433db97e905e8cd9d632150f03bcc746ffebe1c29108d7c0736",
+      5,
+      "e3a33edf965cafef323d619e4b2c6f454f36441e0fe6b4ab41ec9c9c32c48f19",
+      1810,
+      1812
+    ],
+    [
+      "973971a504490433db97e905e8cd9d632150f03bcc746ffebe1c29108d7c0736",
+      5,
+      "e3a33edf965cafef323d619e4b2c6f454f36441e0fe6b4ab41ec9c9c32c48f19",
+      1904,
+      1906
+    ],
+    [
+      "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+      1,
+      "ea935cc98fdb6b5b449d80e7e38ded2ed4f5f0122c55794ba3b51f7e24d69eb4",
+      3935,
+      3937
+    ]
+  ],
+  "scope": "New engineering parser candidate; original strict results preserved",
+  "human_confirmation_inferred": false,
+  "semantic_acceptance_inferred": false
+}

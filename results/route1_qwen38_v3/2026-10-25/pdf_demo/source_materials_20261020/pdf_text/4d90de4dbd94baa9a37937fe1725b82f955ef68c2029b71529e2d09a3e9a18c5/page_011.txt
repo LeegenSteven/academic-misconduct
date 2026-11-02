@@ -1,0 +1,200 @@
+References
+Faculty Opinions Recommended
+1. 	
+Callaway E: The revolution will not be crystallized: A new method sweeps 
+through structural biology. Nature. 2015; 525(7568): 172–4.  
+PubMed Abstract | Publisher Full Text 
+2. 	
+Subramaniam S: The cryo-EM revolution: Fueling the next phase. IUCrJ. 2019; 
+6(Pt 1): 1–2.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+3. 	
+ Lyumkis D: Challenges and opportunities in cryo-EM single-particle 
+analysis. J Biol Chem. 2019; 294(13): 5181–97.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+4. 	
+Bai XC, McMullan G, Scheres SHW: How cryo-EM is revolutionizing structural 
+biology. Trends Biochem Sci. 2015; 40(1): 49–57.  
+PubMed Abstract | Publisher Full Text 
+5. 	
+Glaeser RM ed: Electron crystallography of biological macromolecules. Oxford; 
+New York: Oxford University Press; 2007.  
+Reference Source
+6. 	
+ Herzik MA, Wu M, Lander GC: Achieving better-than-3-Å resolution by 
+single-particle cryo-EM at 200 keV. Nat Methods. 2017; 14(11): 1075–8.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+7. 	
+ Naydenova K, McMullan G, Peet MJ, et al.: CryoEM at 100 keV: A 
+demonstration and prospects. IUCrJ. 2019; 6(Pt 6): 1086–98.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+8. 	
+Frank J, Goldfarb W, Eisenberg D, et al.: Reconstruction of glutamine synthetase 
+using computer averaging. Ultramicroscopy. 1978; 3(3): 283–90.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+9. 	
+Faruqi AR, Henderson R, Pryddetch M, et al.: Direct single electron detection 
+with a CMOS detector for electron microscopy. Nucl Instrum Meth A. 2005; 
+546(1–2): 170–5.  
+Publisher Full Text 
+10. 	
+ Li X, Mooney P, Zheng S, et al.: Electron counting and beam-induced 
+motion correction enable near-atomic-resolution single-particle cryo-EM. Nat 
+Methods. 2013; 10(6): 584–90.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+11. 	
+ Punjani A, Rubinstein JL, Fleet DJ, et al.: cryoSPARC: Algorithms for rapid 
+unsupervised cryo-EM structure determination. Nat Meth. 2017; 14(3): 290–6. 
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+12. 	
+Grant T, Rohou A, Grigorieff N: cisTEM, user-friendly software for single-particle 
+image processing. eLife. 2018; 7: e35383.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+13. 	
+Zivanov J, Nakane T, Forsberg BO, et al.: New tools for automated high-
+resolution cryo-EM structure determination in RELION-3. eLife. 2018; 7: 
+e42166.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+14. 	
+Li X, Grigorieff N, Cheng Y: GPU-enabled FREALIGN: Accelerating single 
+particle 3D reconstruction and refinement in Fourier space on graphics 
+processors. J Struct Biol. 2010; 172(3): 407–12.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+15. 	
+Zhang X, Zhang X, Hong Zhou Z: Low cost, high performance GPU computing 
+solution for atomic resolution cryoEM single-particle reconstruction. J Struct 
+Biol. 2010; 172(3): 400–6.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+16. 	
+ Kimanius D, Forsberg BO, Scheres SH, et al.: Accelerated cryo-EM structure 
+determination with parallelisation using GPUs in RELION-2. eLife. 2016; 5: 
+e18722.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+17. 	
+Baldwin PR, Tan YZ, Eng ET, et al.: Big data in cryoEM: Automated collection, 
+processing and accessibility of EM data. Curr Opin Microbiol. 2018; 43: 1–8. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+18. 	
+Cianfrocco MA, Lahiri I, DiMaio F, et al.: cryoem-cloud-tools: A software platform 
+to deploy and manage cryo-EM jobs in the cloud. J Struct Biol. 2018; 203(3): 
+230–5.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+19. 	
+Langlois R, Pallesen J, Frank J: Reference-free particle selection enhanced with 
+semi-supervised machine learning for cryo-electron microscopy. J Struct Biol. 
+2011; 175(3): 353–61.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+20. 	
+Wang F, Gong H, Liu G, et al.: DeepPicker: A deep learning approach for fully 
+automated particle picking in cryo-EM. J Struct Biol. 2016; 195(3): 325–36. 
+PubMed Abstract | Publisher Full Text 
+21. 	
+ Li Y, Cash JN, Tesmer JJG, et al.: High-Throughput Cryo-EM Enabled by 
+User-Free Preprocessing Routines. Structure. 2020; S0969-2126(20)30080-0.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+22. 	
+Li Q, Pellegrino J, Lee DJ, et al.: Synthesis and Mechanism of Action of Group a 
+Streptogramin Antibiotics That Overcome Resistance. 2019.  
+Reference Source
+23. 	
+ Cao E, Liao M, Cheng Y, et al.: TRPV1 structures in distinct conformations 
+reveal activation mechanisms. Nature. 2013; 504(7478): 113–8.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+24. 	
+Merino F, Raunser S: Electron Cryo-microscopy as a Tool for Structure-Based 
+Drug Development. Angew Chem Int Ed Engl. 2017; 56(11): 2846–60.  
+PubMed Abstract | Publisher Full Text 
+25. 	
+Finch JT, Klug A: Three-dimensional reconstruction of the stacked-disk 
+aggregate of tobacco mosaic virus protein from electron micrographs. Philos 
+Trans R Soc Lond B Biol Sci. 1971; 261(837): 211–9.  
+PubMed Abstract | Publisher Full Text 
+26. 	
+Ge P, Zhou ZH: Hydrogen-bonding networks and RNA bases revealed by cryo 
+electron microscopy suggest a triggering mechanism for calcium switches. 
+Proc Natl Acad Sci U S A. 2011; 108(23): 9637–42.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+27. 	
+Wang YA, Yu X, Overman S, et al.: The structure of a filamentous 
+bacteriophage. J Mol Biol. 2006; 361(2): 209–15.  
+PubMed Abstract | Publisher Full Text 
+28. 	
+ Zhang R, Alushin GM, Brown A, et al.: Mechanistic Origin of Microtubule 
+Dynamic Instability and Its Modulation by EB Proteins. Cell. 2015; 162(4): 
+849–59.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+29. 	
+Tan D, Rice WJ, Sosa H: Structure of the kinesin13-microtubule ring complex. 
+Structure. 2008; 16(11): 1732–9.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+30. 	
+Fujii T, Kato T, Namba K: Specific arrangement of alpha-helical coiled coils in 
+the core domain of the bacterial flagellar hook for the universal joint function. 
+Structure. 2009; 17(11): 1485–93.  
+PubMed Abstract | Publisher Full Text 
+31. 	
+Braun T, Vos MR, Kalisman N, et al.: Archaeal flagellin combines a bacterial 
+type IV pilin domain with an Ig-like domain. Proc Natl Acad Sci U S A. 2016; 
+113(37): 10352–10357.  
+Publisher Full Text 
+32. 	
+ Yamaguchi T, Toma S, Terahara N, et al.: Structural and Functional 
+Comparison of Salmonella Flagellar Filaments Composed of FljB and FliC. 
+Biomolecules. 2020; 10(2): 246.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+33. 	
+ Poweleit N, Ge P, Nguyen HH, et al.: CryoEM structure of the 
+Methanospirillum hungatei archaellum reveals structural features distinct from 
+the bacterial flagellum and type IV pilus. Nat Microbiol. 2016; 2: 16222.  
+Publisher Full Text | Faculty Opinions Recommendation 
+34. 	
+Zheng W, Andersson M, Mortezaei N, et al.: Cryo-EM structure of the CFA/I pilus 
+rod. IUCrJ. 2019; 6(Pt 5): 815–821.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+35. 	
+ Gremer L, Schölzel D, Schenk C, et al.: Fibril structure of amyloid-β(1–42) by 
+cryo–electron microscopy. Science. 2017; 358(6359): 116–119.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+36. 	
+Schmidt M, Wiese S, Adak V, et al.: Cryo-EM structure of a transthyretin-derived 
+amyloid fibril from a patient with hereditary ATTR amyloidosis. Nat Commun. 
+2019; 10(1): 5008.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+37. 	
+Li B, Ge P, Murray KA, et al.: Cryo-EM of full-length α-synuclein reveals fibril 
+polymorphs with a common structural kernel. Nat Commun. 2018; 9(1): 3609. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+38. 	
+ Fitzpatrick AWP, Falcon B, He S, et al.: Cryo-EM structures of tau filaments 
+from Alzheimer’s disease. Nature. 2017; 547(7662): 185–190.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+39. 	
+Cao Q, Boyer DR, Sawaya MR, et al.: Cryo-EM structures of four polymorphic 
+TDP-43 amyloid cores. Nat Struct Mol Biol. 2019; 26(7): 619–627.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+40. 	
+Boyer DR, Li B, Sun C, et al.: Structures of fibrils formed by α-synuclein 
+hereditary disease mutant H50Q reveal new polymorphs. Nat Struct Mol Biol. 
+2019; 26(11): 1044–1052.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+41. 	
+ Hervas R, Rau MJ, Park Y, et al.: Cryo-EM structure of a neuronal functional 
+amyloid implicated in memory persistence in Drosophila. Science. 2020; 
+367(6483): 1230–4.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+42. 	
+Schweighauser M, Shi Y, Tarutani A, et al.: Structures of α-synuclein filaments 
+from multiple system atrophy. Neuroscience. 2020.  
+Publisher Full Text 
+Page 11 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

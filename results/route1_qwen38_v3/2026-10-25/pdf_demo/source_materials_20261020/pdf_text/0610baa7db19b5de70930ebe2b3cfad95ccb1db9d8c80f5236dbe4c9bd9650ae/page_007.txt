@@ -1,0 +1,23 @@
+REFERENCES
+Aronesty,E. (2013) Comparison of sequencing utility programs. Open Bioinform. J.,
+7, 1–8.
+Junier,T. and Zdobnov,E.M. (2010) The Newick utilities: high-throughput phylo-
+genetic tree processing in the Unix shell. Bioinformatics, 26, 1669–1670.
+Langmead,B. and Salzberg,S.L. (2012) Fast gapped-read alignment with Bowtie 2.
+Nat. Methods, 9, 357–359.
+Li,H. and Durbin,R. (2009) Fast and accurate short read alignment with Burrows–
+Wheeler transform. Bioinformatics, 25, 1754–1760.
+Li,H. and Homer,N. (2010) A survey of sequence alignment algorithms for next-
+generation sequencing. Brief. Bioinform., 11, 473–483.
+Li,J.W. et al. (2013) The NGS WikiBook: a dynamic collaborative online training
+effort with long-term sustainability. Brief. Bioinform., 14, 548–555.
+Lindgreen,S. (2012) AdapterRemoval: easy cleaning of next generation sequencing
+reads. BMC Res. Notes, 5, 337.
+Mardis,E.R. (2008) Next-generation DNA sequencing methods. Annu. Rev.
+Genomics Hum. Genet., 9, 387–402.
+Martin,M. (2011) Cutadapt removes adapter sequences from high-throughput
+sequencing reads. EMBnet. J., 17, 10–12.
+Zerbino,D.R. and Birney,E. (2008) Velvet: algorithms for de novo short read assem-
+bly using de Bruijn graphs. Genome Res., 18, 821–829.
+2120
+A.M.Bolger et al.

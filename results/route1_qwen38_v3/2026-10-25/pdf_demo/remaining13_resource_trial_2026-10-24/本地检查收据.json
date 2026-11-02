@@ -1,0 +1,48 @@
+{
+  "status": "LOCAL_RESOURCE_TRIAL_PACKAGE_CHECKS_PASS_A100_NOT_RUN",
+  "checks": [
+    {
+      "name": "only_resource_guard_ast_changed",
+      "passed": true
+    },
+    {
+      "name": "allocator_headroom_at_31916_mib",
+      "passed": true,
+      "pytorch_budget_mib": 29868
+    },
+    {
+      "name": "allocator_headroom_at_26962_mib",
+      "passed": true,
+      "pytorch_budget_mib": 24914
+    },
+    {
+      "name": "nonpositive_allocator_budget_rejected",
+      "passed": true
+    },
+    {
+      "name": "changed_original_backend_rejected",
+      "passed": true
+    },
+    {
+      "name": "standalone_archive_verification",
+      "passed": true,
+      "output": "RESOURCE_TRIAL_PACKAGE_VERIFIED model_loaded=false GPU_used=false"
+    }
+  ],
+  "package_path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\route1_pdf_remaining13_resource_trial_20261024.pyz",
+  "package_sha256": "4b21f1269bd808491cdcaf9d67ef82a2c706997ae39ed42079c1c4dc4444e66b",
+  "package_bytes": 6990,
+  "original_backend_sha256": "800e2f1db364ba955fdcbecf26740fb3e3ae2e585a04ea18670f09a72b108caf",
+  "effective_backend_sha256": "0a23995a6df388bc02902821d599a1b23562deabafba9c38c69909270bad4286",
+  "GPU_used": false,
+  "model_loaded": false,
+  "inference_performed": false,
+  "original_code_hashes_unchanged": {
+    "route1_pdf_pipeline_v3.py": "80d17ad57db84c218ac3b0046432f12cbd915835003576ccf3fc5f6571faf055",
+    "route1_pdf_hf_backend_v3.py": "800e2f1db364ba955fdcbecf26740fb3e3ae2e585a04ea18670f09a72b108caf",
+    "run_route1_pdf_v3.py": "6674fc6e49bead010f4155cef897a00a4b0b26d78e7c626fcacae06fed81b1cb",
+    "prepare_pdf20_scope_inputs_20261020.py": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+    "build_sarol_inputs_v2.py": "2f4b32708646337b91064474d13b1769029038c5f72b8ec5059599329bc6e3af",
+    "route1_pdf_remaining13_runtime_20261024.py": "b47324dcdfb92a059de38dae3a9efc7ba587c551ae0bd3947c3a9342e7f3c186"
+  }
+}

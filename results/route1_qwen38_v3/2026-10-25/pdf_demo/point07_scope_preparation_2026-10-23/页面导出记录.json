@@ -1,0 +1,88 @@
+{
+  "pymupdf_version": "1.28.2",
+  "images": [
+    {
+      "path": "页面核对图/01_施引第2页_完整复句与标记4.png",
+      "pdf_role": "citing",
+      "pdf_page": 2,
+      "clip_pdf_points": [
+        107.05799865722656,
+        676.1820068359375,
+        347.34698486328125,
+        765.9169921875
+      ],
+      "granularity": "whole PDF text blocks with surrounding margin",
+      "sha256": "97a130c91780aab7afd2a1a487424eebff4d3f69f46bdc4062ebd3e78b65cf14",
+      "human_review_claimed": false
+    },
+    {
+      "path": "页面核对图/02_施引第10页_参考文献4.png",
+      "pdf_role": "citing",
+      "pdf_page": 10,
+      "clip_pdf_points": [
+        111.05400085449219,
+        278.51800537109375,
+        341.9049987792969,
+        715.1270141601562
+      ],
+      "granularity": "whole PDF text blocks with surrounding margin",
+      "sha256": "4ac54c40ff588ad60e5f26629acc24af6e03684a0cb6095b77faa15be9f87f2c",
+      "human_review_claimed": false
+    },
+    {
+      "path": "页面核对图/03_被引第5页_既有候选S01.png",
+      "pdf_role": "cited",
+      "pdf_page": 5,
+      "clip_pdf_points": [
+        261.0,
+        441.8299865722656,
+        478.0419921875,
+        613.9600219726562
+      ],
+      "granularity": "whole PDF text blocks with surrounding margin",
+      "sha256": "c8d3371c6be597da655d97048d10a9caa0ccc588ee99843ac5084b005f313630",
+      "human_review_claimed": false
+    },
+    {
+      "path": "页面核对图/04_被引第2页_既有候选S02.png",
+      "pdf_role": "cited",
+      "pdf_page": 2,
+      "clip_pdf_points": [
+        298.9960021972656,
+        45.83000183105469,
+        516.0369873046875,
+        409.9599914550781
+      ],
+      "granularity": "whole PDF text blocks with surrounding margin",
+      "sha256": "c62c5911866405a2ccef9b24420c26808daad829abb65cc92793d5a94953054d",
+      "human_review_claimed": false
+    },
+    {
+      "path": "页面核对图/05_被引第1页_既有候选S07.png",
+      "pdf_role": "cited",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        54.0,
+        596.4140014648438,
+        409.0400085449219,
+        695.3209838867188
+      ],
+      "granularity": "whole PDF text blocks with surrounding margin",
+      "sha256": "1855339b25964e2d88bd4ad031c063135ca9c7cfa7298ba53516f9e3847bd720",
+      "human_review_claimed": false
+    }
+  ],
+  "status": "assistant_inspected_five_source_crops_no_human_signoff",
+  "assistant_inspection": {
+    "recorded_at_utc": "2026-10-23T08:06:57.564927+00:00",
+    "inspector_role": "assistant",
+    "checks": [
+      "Compound sentence, qualification words, and superscript 4 visible on citing PDF page 2.",
+      "Reference 4 on citing PDF page 10 visibly names Li et al. and the matching DOI.",
+      "Existing S01, S02, S07 source blocks visually agree with extracted text.",
+      "Source transmission is line-wrapped; old normalized trans mission is a transcription issue."
+    ],
+    "human_review": null,
+    "semantic_acceptance": null
+  }
+}

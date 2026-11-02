@@ -1,0 +1,11 @@
+{
+  "verification": "source_excerpts_and_preservation_checked",
+  "records": 25,
+  "excerpts_relocated": 37,
+  "html_records": 25,
+  "priority_questions": 9,
+  "scoped_support_suggestions": 16,
+  "original_csv_and_blanks_unchanged": true,
+  "human_confirmations_and_final_labels_not_fabricated": true,
+  "scope": "File preservation, exact XML excerpt locations, frozen reference markers and record counts; not joint human adjudication."
+}

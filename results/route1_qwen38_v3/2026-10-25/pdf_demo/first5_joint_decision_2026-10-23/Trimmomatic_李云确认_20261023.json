@@ -1,0 +1,39 @@
+{
+  "case_id": "r1pdf:ecd1a395eb5f25610750d721",
+  "fixed20_point_number": 3,
+  "first5_point_number": 2,
+  "reviewer": "李云",
+  "status": "confirmed_by_liyun_in_current_chat",
+  "confirmed_label": "ACCURATE",
+  "confirmed_human_basis": "S02/S04直接支持Sliding Window质量修剪；S08直接支持adapter removal功能。popular仅在本句按非关键修饰处理，保留原词，注明流行程度未独立证实。原模型adapter tool限制另列为解释问题，保留原响应。",
+  "confirmed_popular_materiality": "case_specific_noncritical_modifier_not_independently_verified",
+  "confirmation_source": {
+    "type": "direct_human_user_message_in_current_chat",
+    "question_context": "Trimmomatic建议ACCURATE；本句popular按非关键修饰处理、保留原词、注明未独立证实；原理由限制另列。你是否认可本点的ACCURATE标签及上述处理？",
+    "user_message_exact": "认可，下一步呢"
+  },
+  "recorded_at_utc": "2026-10-23T13:11:32.606672+00:00",
+  "recording_time_is_not_claimed_to_be_user_review_time": true,
+  "reviewed_at": null,
+  "review_time_note": "The explicit chat opinion is recorded; no exact user-message timestamp was supplied.",
+  "referenced_proposal_file": "Trimmomatic_裁决建议_待确认.json",
+  "referenced_proposal_sha256": "14efebc347020d23c5a6557c49bea09adc3e48d98c0c1b642fec604968e9788d",
+  "Chen_personal_suggestion_as_received": {
+    "label": "ACCURATE",
+    "popular_materiality_proposal": "popular为弱修饰语，不影响核心判断",
+    "source_file": "首批5点语义核对_陈明进_v2_20261022.md",
+    "source_sha256": "4879f6ea33fd9af6db28acd4d1f0877134aa23480f04a3269384e1dd34c17896"
+  },
+  "personal_label_values_agree": true,
+  "personal_popular_materiality_opinions_align": true,
+  "general_popular_exemption_adopted": false,
+  "such_as_rule_relaxed": false,
+  "other_cases_approved": false,
+  "original_explanation_marked_semantic_pass": false,
+  "new_scope_approval": false,
+  "production_parser_approval": false,
+  "formal_review_imported": false,
+  "formal_end_to_end_acceptance_added": false,
+  "original_model_response_changed": false,
+  "new_model_run": false
+}

@@ -1,0 +1,8 @@
+Nature Medicine 
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+Extended Data Table 5 | Linear mixed models for the full A-T- sample versus an age-matched A-T- sample. In this analysis, 
+the A-T- sample was restricted to individuals older than 65 years (n = 541), so that there was no longer any significant age 
+difference between the AT groups. The standardized beta values are derived from the linear mixed models adjusted for age, 
+sex, education and cohort, and represent the group × time interaction with the A−T− serving as the reference group. P values 
+from two-sided statistical tests without adjustment for multiple comparisons are reported

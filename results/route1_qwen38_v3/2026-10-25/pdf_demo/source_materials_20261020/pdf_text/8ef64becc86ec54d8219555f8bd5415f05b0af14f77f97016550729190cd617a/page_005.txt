@@ -1,0 +1,47 @@
+that a common framework for defining and staging the disease facilitates standardized 
+reporting of research findings across the field [30–45].
+Second, we determined that these recommendations should be cast as a “research 
+framework,” not as diagnostic criteria or guidelines. Unlike the 2011 NIA-AA criteria for 
+MCI or AD dementia based on clinical criteria (i.e., without biomarkers) [2,3], the 2018 
+research framework is not intended for general clinical practice. It is called a “research 
+framework” because it needs to be thoroughly examined and modified if needed before 
+being adopted into general clinical practice. There are two categories of studies that will 
+achieve this ultimate goal: longitudinal cohort studies and randomized placebo controlled 
+trials. Cohort studies, particularly community- and population-based cohorts, will examine 
+the extent to which temporal relationships and patterns of signs, symptoms, and biomarkers 
+expected by this framework align with what is observed. These results will support 
+convergent and divergent validity. Trials showing that an intervention modifies both 
+biomarkers and signs and symptoms will establish criterion validity (i.e., a disease-
+modifying effect). Other areas of medicine have used this approach to define pathologic 
+processes using biomarkers, for example, bone mineral density, hypertension, 
+hyperlipidemia, and diabetes are defined by biomarkers. Interventions modulating these 
+biomarkers have been shown to reduce the likelihood of developing fractures and 
+myocardial and cerebral infarctions [46,47].
+Third, the committee recognized the research framework must function in two major 
+contexts—observational cohort studies and interventional trials.
+The committee took a stepwise approach to creating the 2018 research framework by posing 
+a series of questions where each incremental step built on earlier conclusions.
+4. The term “Alzheimer’s disease” refers to an aggregate of 
+neuropathologic changes and thus is defined in vivo by biomarkers and by 
+postmortem examination, not by clinical symptoms
+We approached the definition of AD with the distinction between a syndrome and a disease 
+in mind. Some will argue that a specific syndrome, that is, a multidomain amnestic dementia 
+(after other potential etiologies have been excluded), should define AD in living people. Our 
+position, however, is that dementia is not a “disease” but rather is a syndrome composed of 
+signs and symptoms that can be caused by multiple diseases, one of which is AD. As we 
+elaborate in the following paragraph, there are two major problems with using a syndrome to 
+define AD; it is neither sensitive nor specific for the neuropathologic changes that define the 
+disease, and it cannot identify individuals who have biological evidence of the disease but do 
+not (yet) manifest signs or symptoms [48,49].
+It is now well established that the prototypical multidomain amnestic dementia phenotype 
+historically used to define probable AD [1] does not “rule in” AD pathologic change (which 
+implies change from normal) at autopsy [50–52] and the absence of the syndrome does not 
+“rule out” AD pathologic change. From 10% to 30% of individuals clinically diagnosed as 
+AD dementia by experts do not display AD neuropathologic changes at autopsy [50], and a 
+Jack et al.
+Page 5
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

@@ -1,0 +1,135 @@
+{
+  "status": "source_and_character_replay_passed",
+  "cases": 20,
+  "pairs": 10,
+  "unique_pdf_files_used": 16,
+  "source_set_unchanged_after_target_marking": true,
+  "raw_marker_geometry_passed": 20,
+  "checks": [
+    {
+      "case_id": "r1pdf:48b208f007c2c6e700c04ff0",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:ecd1a395eb5f25610750d721",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:e1636ac35ca5131bfdf6fb44",
+      "source_fragments_replayed": 6,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:cc2e2247d91afc3f3559aa23",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+      "source_fragments_replayed": 6,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:1dfa922c755ed870245927e3",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:976890f040d5c2cab2e50965",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:43c53ece80a7c35828d5246d",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:896e930269210ee1300d8037",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:0243ab815badba958177a9a8",
+      "source_fragments_replayed": 6,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:0625d9ca3ef5bf2a22c6109b",
+      "source_fragments_replayed": 6,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:826cdb765c276ba900010084",
+      "source_fragments_replayed": 5,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    },
+    {
+      "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+      "source_fragments_replayed": 6,
+      "target_character_geometry_reconstructed": true,
+      "human_semantic_check": false
+    }
+  ],
+  "formal_validity_rate": null,
+  "human_review_completed": false,
+  "scope_boundary_review_required": true,
+  "model_inference_performed": false,
+  "meaning": "Programmatic source identity/offset/character geometry checks, not independent semantic review or final 80% acceptance."
+}

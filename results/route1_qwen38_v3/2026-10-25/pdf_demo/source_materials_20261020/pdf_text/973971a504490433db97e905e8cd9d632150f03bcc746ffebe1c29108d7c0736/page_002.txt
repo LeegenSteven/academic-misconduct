@@ -1,0 +1,105 @@
+n engl j med 382;13  nejm.org  March 26, 2020
+1200
+The new engl and jour nal of medicine
+S
+ince December 2019, an increasing 
+number of cases of novel coronavirus 
+(2019-nCoV)–infected pneumonia (NCIP) 
+have been identified in Wuhan, a large city of 11 
+million people in central China.1-3 On December 
+29, 2019, the first 4 cases reported, all linked to 
+the Huanan (Southern China) Seafood Whole-
+sale Market, were identified by local hospitals 
+using a surveillance mechanism for “pneumonia 
+of unknown etiology” that was established in 
+the wake of the 2003 severe acute respiratory 
+syndrome (SARS) outbreak with the aim of al-
+lowing timely identification of novel pathogens 
+such as 2019-nCoV.4 In recent days, infections 
+have been identified in other Chinese cities and 
+in more than a dozen countries around the 
+world.5 Here, we provide an analysis of data on 
+the first 425 laboratory-confirmed cases in Wu-
+han to describe the epidemiologic characteristics 
+and transmission dynamics of NCIP.
+Methods
+Sources of Data
+The earliest cases were identified through the 
+“pneumonia of unknown etiology” surveillance 
+mechanism.4 Pneumonia of unknown etiology is 
+defined as an illness without a causative patho-
+gen identified that fulfills the following criteria: 
+fever (≥38°C), radiographic evidence of pneumo-
+nia, low or normal white-cell count or low lym-
+phocyte count, and no symptomatic improvement 
+after antimicrobial treatment for 3 to 5 days 
+following standard clinical guidelines. In re-
+sponse to the identification of pneumonia cases 
+and in an effort to increase the sensitivity for 
+early detection, we developed a tailored surveil-
+lance protocol to identify potential cases on 
+January 3, 2020, using the case definitions de-
+scribed below.1 Once a suspected case was iden-
+tified, the joint field epidemiology team com-
+prising members from the Chinese Center for 
+Disease Control and Prevention (China CDC) 
+together with provincial, local municipal CDCs 
+and prefecture CDCs would be informed to initi-
+ate detailed field investigations and collect respi-
+ratory specimens for centralized testing at the 
+National Institute for Viral Disease Control and 
+Prevention, China CDC, in Beijing. A joint team 
+comprising staff from China CDC and local 
+CDCs conducted detailed field investigations for 
+all suspected and confirmed 2019-nCoV cases.
+Data were collected onto standardized forms 
+through interviews of infected persons, relatives, 
+close contacts, and health care workers. We col-
+lected information on the dates of illness onset, 
+visits to clinical facilities, hospitalization, and 
+clinical outcomes. Epidemiologic data were col-
+lected through interviews and field reports. In-
+vestigators interviewed each patient with infec-
+tion and their relatives, where necessary, to 
+determine exposure histories during the 2 weeks 
+before the illness onset, including the dates, 
+times, frequency, and patterns of exposures to 
+any wild animals, especially those purportedly 
+available in the Huanan Seafood Wholesale Mar-
+ket in Wuhan, or exposures to any relevant envi-
+ronments such as that specific market or other 
+wet markets. Information about contact with 
+others with similar symptoms was also included. 
+All epidemiologic information collected during 
+field investigations, including exposure history, 
+timelines of events, and close contact identifica-
+tion, was cross-checked with information from 
+multiple sources. Households and places known to 
+have been visited by the patients in the 2 weeks 
+before the onset of illness were also investigated 
+to assess for possible animal and environmental 
+exposures. Data were entered into a central data-
+base, in duplicate, and were verified with EpiData 
+software (EpiData Association).
+Case Definitions
+The initial working case definitions for suspected 
+NCIP were based on the SARS and Middle East 
+respiratory syndrome (MERS) case definitions, 
+as recommended by the World Health Organiza-
+tion (WHO) in 2003 and 2012.6-8 A suspected 
+NCIP case was defined as a pneumonia that ei-
+ther fulfilled all the following four criteria — 
+fever, with or without recorded temperature; radio-
+graphic evidence of pneumonia; low or normal 
+white-cell count or low lymphocyte count; and 
+no reduction in symptoms after antimicrobial 
+treatment for 3 days, following standard clinical 
+guidelines — or fulfilled the abovementioned 
+first three criteria and had an epidemiologic link 
+to the Huanan Seafood Wholesale Market or 
+contact with other patients with similar symp-
+toms. The epidemiologic criteria to define a sus-
+pected case were updated on January 18, 2020, 
+once new information on identified cases be-
+came available. The criteria were the following: 
+a travel history to Wuhan or direct contact with 

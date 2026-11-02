@@ -1,0 +1,83 @@
+{
+  "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+  "reference_number": 1,
+  "reference_fragment": {
+    "pdf_page": 12,
+    "char_start": 6472,
+    "char_end_exclusive": 6621,
+    "raw_text": "1.\t Huang C, Wang Y, Li X, et al. Clinical \nfeatures of patients infected with 2019 \nnovel coronavirus in Wuhan, China. Lan-\ncet 2020;​395:​497-506.\n",
+    "raw_text_sha256": "d472668dde554f96f2f7e62c7a35b17b664b67ffe7ef0cc5dc67f8ac1e078422",
+    "source_blocks": [
+      {
+        "block_number": 12,
+        "bbox": [
+          99.998,
+          601.122,
+          231.266,
+          646.22
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_title_fragment": {
+    "pdf_page": 2,
+    "char_start": 62,
+    "char_end_exclusive": 145,
+    "raw_text": "Clinical features of patients infected with 2019 novel \ncoronavirus in Wuhan, China",
+    "raw_text_sha256": "7bdc8cd173a1b89fad3ebf08ef829a59fa3b98535dc5a2dc481921887ef3695b",
+    "source_blocks": [
+      {
+        "block_number": 3,
+        "bbox": [
+          36.85,
+          117.822,
+          422.662,
+          161.814
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "cited_publication_fragment": {
+    "pdf_page": 2,
+    "char_start": 4673,
+    "char_end_exclusive": 4782,
+    "raw_text": "Lancet 2020; 395: 497–506\nPublished Online \nJanuary 24, 2020 \nhttps://doi.org/10.1016/ \nS0140-6736(20)30183-5",
+    "raw_text_sha256": "4d7fc069796b6546b761bf19206fb93962a9d8764a3dcc8a5b27591de97f31c3",
+    "source_blocks": [
+      {
+        "block_number": 14,
+        "bbox": [
+          484.724,
+          228.426,
+          555.3,
+          236.369
+        ]
+      },
+      {
+        "block_number": 15,
+        "bbox": [
+          484.724,
+          240.009,
+          548.111,
+          274.199
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "matching_fields": [
+    "title",
+    "first three authors",
+    "2020",
+    "Lancet 395:497–506"
+  ],
+  "cited_pdf_page1_is_publisher_cover": true,
+  "article_title_page_is_physical_pdf_page": 2,
+  "doi_printed_in_citing_entry": false,
+  "added_to_model_input": false
+}

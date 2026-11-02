@@ -1,0 +1,71 @@
+{
+  "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+  "original_point_number": 12,
+  "status": "source_replay_complete_single_lexical_hyphen_correction_pending",
+  "scope_recommendation": "retain_the_some_cases_severity_comparison_and_its_reference_group",
+  "source_reference_group": "1,12,13",
+  "target_reference": 1,
+  "reading_scope_text_with_proposed_spelling": "In recent studies, the severity of some cases of Covid-19 mimicked that of SARS-CoV.1,12,13",
+  "preserve": [
+    "In recent studies",
+    "severity",
+    "some cases",
+    "mimicked",
+    "SARS-CoV",
+    "1,12,13"
+  ],
+  "neighboring_claims_not_attributed_to_reference1": [
+    "Global count of 81,109 laboratory-confirmed cases and its date",
+    "The citing authors' purpose and newly selected China-wide cohort"
+  ],
+  "candidate_reading_notes": [
+    {
+      "evidence_ids": [
+        "D01:S06"
+      ],
+      "note": "Existing Interpretation passage explicitly discusses similarity in severe respiratory illness; it does not establish identical overall fatality rates or identical severity across all cases."
+    },
+    {
+      "evidence_ids": [
+        "D01:S03"
+      ],
+      "note": "Keep the modest hospitalized case-series scope and the stated limits in assessing the wider clinical-severity spectrum. Do not generalize the cohort to every infection or the whole population."
+    },
+    {
+      "evidence_ids": [
+        "D01:S10"
+      ],
+      "note": "Discusses resemblance and differences in clinical features. Resemblance must not be rewritten as complete identity of the two diseases."
+    },
+    {
+      "evidence_ids": [
+        "D01:S02",
+        "D01:S05"
+      ],
+      "note": "Mechanistic or laboratory observations are not by themselves a direct demonstration of the comparative clinical-severity claim; no causal interpretation is added here."
+    },
+    {
+      "evidence_ids": [
+        "D01:S04",
+        "D01:S09"
+      ],
+      "note": "Publisher cover/resource-centre text and reference-list content are not the cited study's direct comparative result. Candidates remain unchanged."
+    }
+  ],
+  "spelling_correction_proposed_not_applied": true,
+  "normalization_and_mapping_revision_required": true,
+  "active_scope_or_input_changed": false,
+  "existing_top10_changed": false,
+  "new_retrieval_run": false,
+  "human_scope_confirmation": {
+    "李云": null,
+    "陈明进": null
+  },
+  "classification_label": null,
+  "joint_adjudication": null,
+  "independent_blind_review_claimed": false,
+  "formal_end_to_end_accepted": false,
+  "fixed_denominator": 20,
+  "model_loaded": false,
+  "inference_performed": false
+}

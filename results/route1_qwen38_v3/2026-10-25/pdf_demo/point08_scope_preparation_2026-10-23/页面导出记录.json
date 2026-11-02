@@ -1,0 +1,96 @@
+{
+  "pymupdf_version": "1.28.2",
+  "images": [
+    {
+      "path": "页面核对图/01_施引第1页_母句与并列引用.png",
+      "pdf_role": "citing",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        301.2250061035156,
+        494.7820129394531,
+        564.322998046875,
+        674.166015625
+      ],
+      "bbox_scope": "whole source text blocks plus margin",
+      "sha256": "70539526e48a5b42b422fcd9996df511321ab148b5ad5d12f3cbea576ee8d03e"
+    },
+    {
+      "path": "页面核对图/02_施引第7页_参考文献6.png",
+      "pdf_role": "citing",
+      "pdf_page": 7,
+      "clip_pdf_points": [
+        305.2040100097656,
+        459.8840026855469,
+        562.06298828125,
+        743.9409790039062
+      ],
+      "bbox_scope": "whole source text blocks plus margin",
+      "sha256": "fee5389e3c1e0d10060e9f8e30d8e35f33373aadf264b2f320a3879689de78a8"
+    },
+    {
+      "path": "页面核对图/03_被引第1页_题名.png",
+      "pdf_role": "cited",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        34.52000045776367,
+        95.61499786376953,
+        558.072021484375,
+        191.88400268554688
+      ],
+      "bbox_scope": "whole source text blocks plus margin",
+      "sha256": "2796dc105670c4e7b78bc968c87bff6945c32c184d7f939a4635db55b85f99b8"
+    },
+    {
+      "path": "页面核对图/04_被引第1页_DOI与刊期.png",
+      "pdf_role": "cited",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        34.52000045776367,
+        522.7340087890625,
+        290.7770080566406,
+        569.0659790039062
+      ],
+      "bbox_scope": "whole source text blocks plus margin",
+      "sha256": "f154c43f113090d079748147551fb9b8321a690053006ed8c776debc7d113e1a"
+    },
+    {
+      "path": "页面核对图/05_被引第1页_既有候选S02.png",
+      "pdf_role": "cited",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        298.1400146484375,
+        307.0740051269531,
+        560.8289794921875,
+        456.06500244140625
+      ],
+      "bbox_scope": "whole source text blocks plus margin",
+      "sha256": "b71c2b9735770de49019d18267a6954ff62d34367667787d4f4706316fccb6db"
+    },
+    {
+      "path": "页面核对图/06_被引第7页_既有候选S07多面板图注.png",
+      "pdf_role": "cited",
+      "pdf_page": 7,
+      "clip_pdf_points": [
+        42.51100158691406,
+        592.2979736328125,
+        548.9140014648438,
+        735.9089965820312
+      ],
+      "bbox_scope": "whole source text blocks plus margin",
+      "sha256": "396afadc30de701d381e2c1e33f2320cf849f2176d50f2718a862dc5c9bac5fe"
+    }
+  ],
+  "status": "source_crops_inspected_by_assistant_no_human_signoff",
+  "assistant_inspection": {
+    "recorded_at_utc": "2026-10-23T11:20:11.056378+00:00",
+    "inspector_role": "assistant",
+    "scope_checks": [
+      "Reference group (6,7) follows the co-fractionation item.",
+      "Genetic screens, cross-linking and AlphaFold each carry separate neighboring reference groups.",
+      "The governing assertion refers back to functional connections among proteins.",
+      "Reference 6 names the hu.MAP 2.0 paper; S02 and the B/D portions of the existing S07 figure legend are readable."
+    ],
+    "human_review": null,
+    "semantic_adjudication": null
+  }
+}

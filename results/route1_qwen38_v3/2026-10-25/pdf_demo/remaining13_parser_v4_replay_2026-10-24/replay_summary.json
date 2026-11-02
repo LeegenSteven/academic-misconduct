@@ -1,0 +1,32 @@
+{
+  "version": "route1_pdf_explanation_parser_v4_20261024",
+  "recorded_at_utc": "2026-10-24T10:18:36.175161+00:00",
+  "fixed_denominator": 20,
+  "replayed_points": 13,
+  "unselected_historical_points_not_overwritten": 7,
+  "source_release_sha256": "09a875e7d8bcae223e39e1ba1c903c99405b17f8c08a8f3797e49dacb01106ec",
+  "old_strict_technical_valid": 1,
+  "new_parser_counts": {
+    "structure_and_source_mapping_valid_pending_human_semantics": 10,
+    "insufficient_evidence": 2,
+    "invalid_explanation_output": 1
+  },
+  "new_quote_locators_verified_against_original_pdf": 12,
+  "parser_policy_sha256": "d31b5c9f407b8d261655cbc5176e26b69f9725b4b3866b074c4dc01b0390951a",
+  "parser_source_sha256": "1c1988fa48f3937da2d76a2ea5dfe74872d542431e0369ff62a11d7e4fb7cfe7",
+  "new_model_runs": 0,
+  "GPU_used": false,
+  "human_labels_written": 0,
+  "semantic_acceptances_added": 0,
+  "formal_end_to_end_acceptances_added": 0,
+  "original_18_A100_files_unchanged": true,
+  "frozen_original_code_unchanged": true,
+  "remaining_engineering_failures": {
+    "explicit_insufficient_evidence_points": [
+      10,
+      14
+    ],
+    "incomplete_at_generation_limit_point": 16
+  },
+  "note": "Versioned source-mapping parser candidate; technical readability is not semantic correctness or formal acceptance."
+}

@@ -1,0 +1,127 @@
+Article
+Methods
+Full algorithm details
+Extensive explanations of the components and their motivations are 
+available in Supplementary Methods 1.1–1.10, in addition, pseudocode 
+is available in Supplementary Information Algorithms 1–32, network 
+diagrams in Supplementary Figs. 1–8, input features in Supplementary 
+Table 1 and additional details are provided in Supplementary Tables 2, 3. 
+Training and inference details are provided in Supplementary Methods 
+1.11–1.12 and Supplementary Tables 4, 5.
+IPA
+The IPA module combines the pair representation, the single repre-
+sentation and the geometric representation to update the single rep-
+resentation (Supplementary Fig. 8). Each of these representations 
+contributes affinities to the shared attention weights and then uses 
+these weights to map its values to the output. The IPA operates in 3D 
+space. Each residue produces query points, key points and value points 
+in its local frame. These points are projected into the global frame using 
+the backbone frame of the residue in which they interact with each 
+other. The resulting points are then projected back into the local frame. 
+The affinity computation in the 3D space uses squared distances and 
+the coordinate transformations ensure the invariance of this module 
+with respect to the global frame (see Supplementary Methods 1.8.2 
+‘Invariant point attention (IPA)’ for the algorithm, proof of invariance 
+and a description of the full multi-head version). A related construc-
+tion that uses classic geometric invariants to construct pairwise fea-
+tures in place of the learned 3D points has been applied to protein 
+design59.
+In addition to the IPA, standard dot product attention is computed 
+on the abstract single representation and a special attention on the pair 
+representation. The pair representation augments both the logits and 
+the values of the attention process, which is the primary way in which 
+the pair representation controls the structure generation.
+Inputs and data sources
+Inputs to the network are the primary sequence, sequences from evo-
+lutionarily related proteins in the form of a MSA created by standard 
+tools including jackhmmer60 and HHBlits61, and 3D atom coordinates 
+of a small number of homologous structures (templates) where avail-
+able. For both the MSA and templates, the search processes are tuned 
+for high recall; spurious matches will probably appear in the raw MSA 
+but this matches the training condition of the network.
+One of the sequence databases used, Big Fantastic Database (BFD), 
+was custom-made and released publicly (see ‘Data availability’) and 
+was used by several CASP teams. BFD is one of the largest publicly avail-
+able collections of protein families. It consists of 65,983,866 families 
+represented as MSAs and hidden Markov models (HMMs) covering 
+2,204,359,010 protein sequences from reference databases, metage-
+nomes and metatranscriptomes.
+BFD was built in three steps. First, 2,423,213,294 protein sequences 
+were collected from UniProt (Swiss-Prot&TrEMBL, 2017-11)62, a soil refer-
+ence protein catalogue and the marine eukaryotic reference catalogue7, 
+and clustered to 30% sequence identity, while enforcing a 90% align-
+ment coverage of the shorter sequences using MMseqs2/Linclust63. 
+This resulted in 345,159,030 clusters. For computational efficiency, 
+we removed all clusters with less than three members, resulting in 
+61,083,719 clusters. Second, we added 166,510,624 representative pro-
+tein sequences from Metaclust NR (2017-05; discarding all sequences 
+shorter than 150 residues)63 by aligning them against the cluster rep-
+resentatives using MMseqs264. Sequences that fulfilled the sequence 
+identity and coverage criteria were assigned to the best scoring cluster. 
+The remaining 25,347,429 sequences that could not be assigned were 
+clustered separately and added as new clusters, resulting in the final 
+clustering. Third, for each of the clusters, we computed an MSA using 
+FAMSA65 and computed the HMMs following the Uniclust HH-suite 
+database protocol36.
+The following versions of public datasets were used in this study. Our 
+models were trained on a copy of the PDB5 downloaded on 28 August 
+2019. For finding template structures at prediction time, we used a copy 
+of the PDB downloaded on 14 May 2020, and the PDB7066 clustering 
+database downloaded on 13 May 2020. For MSA lookup at both training 
+and prediction time, we used Uniref9067 v.2020_01, BFD, Uniclust3036 
+v.2018_08 and MGnify6 v.2018_12. For sequence distillation, we used 
+Uniclust3036 v.2018_08 to construct a distillation structure dataset. 
+Full details are provided in Supplementary Methods 1.2.
+For MSA search on BFD + Uniclust30, and template search against 
+PDB70, we used HHBlits61 and HHSearch66 from hh-suite v.3.0-beta.3 
+(version 14/07/2017). For MSA search on Uniref90 and clustered MGnify, 
+we used jackhmmer from HMMER368. For constrained relaxation of 
+structures, we used OpenMM v.7.3.169 with the Amber99sb force field32. 
+For neural network construction, running and other analyses, we used 
+TensorFlow70, Sonnet71, NumPy72, Python73 and Colab74.
+To quantify the effect of the different sequence data sources, we 
+re-ran the CASP14 proteins using the same models but varying how the 
+MSA was constructed. Removing BFD reduced the mean accuracy by 
+0.4 GDT, removing Mgnify reduced the mean accuracy by 0.7 GDT, and 
+removing both reduced the mean accuracy by 6.1 GDT. In each case, we 
+found that most targets had very small changes in accuracy but a few 
+outliers had very large (20+ GDT) differences. This is consistent with the 
+results in Fig. 5a in which the depth of the MSA is relatively unimportant 
+until it approaches a threshold value of around 30 sequences when the 
+MSA size effects become quite large. We observe mostly overlapping 
+effects between inclusion of BFD and Mgnify, but having at least one 
+of these metagenomics databases is very important for target classes 
+that are poorly represented in UniRef, and having both was necessary 
+to achieve full CASP accuracy.
+Training regimen
+To train, we use structures from the PDB with a maximum release date 
+of 30 April 2018. Chains are sampled in inverse proportion to cluster 
+size of a 40% sequence identity clustering. We then randomly crop 
+them to 256 residues and assemble into batches of size 128. We train the 
+model on Tensor Processing Unit (TPU) v3 with a batch size of 1 per TPU 
+core, hence the model uses 128 TPU v3 cores. The model is trained until 
+convergence (around 10 million samples) and further fine-tuned using 
+longer crops of 384 residues, larger MSA stack and reduced learning 
+rate (see Supplementary Methods 1.11 for the exact configuration). The 
+initial training stage takes approximately 1 week, and the fine-tuning 
+stage takes approximately 4 additional days.
+The network is supervised by the FAPE loss and a number of auxil-
+iary losses. First, the final pair representation is linearly projected to 
+a binned distance distribution (distogram) prediction, scored with 
+a cross-entropy loss. Second, we use random masking on the input 
+MSAs and require the network to reconstruct the masked regions 
+from the output MSA representation using a BERT-like loss37. Third, 
+the output single representations of the structure module are used to 
+predict binned per-residue lDDT-Cα values. Finally, we use an auxiliary 
+side-chain loss during training, and an auxiliary structure violation loss 
+during fine-tuning. Detailed descriptions and weighting are provided 
+in the Supplementary Information.
+An initial model trained with the above objectives was used to make 
+structure predictions for a Uniclust dataset of 355,993 sequences with 
+the full MSAs. These predictions were then used to train a final model 
+with identical hyperparameters, except for sampling examples 75% of 
+the time from the Uniclust prediction set, with sub-sampled MSAs, and 
+25% of the time from the clustered PDB set.
+We train five different models using different random seeds, some 
+with templates and some without, to encourage diversity in the predic-
+tions (see Supplementary Table 5 and Supplementary Methods 1.12.1 

@@ -1,0 +1,115 @@
+greater coverage of completely uncharacterized genes. Finally, we
+highlight several new biological findings that illustrate the utility of
+hu.MAP 2.0 as a resource for biological discovery.
+Results
+Our strategy in building a comprehensive map of protein complexes
+involves the integration of the many orthogonal experimental
+protein interaction datasets available using a custom machine learn-
+ing pipeline as shown in Fig 1A. Each individual experimental
+dataset identifies different sets of protein interactions and therefore
+combining them results in a more accurate and comprehensive set
+of interactions. Our pipeline combines quantified features from
+these datasets using a support vector machine (SVM) classifier
+which calculates a confidence score of two proteins interacting. This
+results in a large protein interaction network. The network is subse-
+quently searched for dense regions of highly connected proteins
+which represent individual complexes. The identified complexes are
+ranked by a clustering confidence value. We call the resulting set of
+complexes, hu.MAP 2.0. The map of complexes contains many
+known complexes such as the EIF2B complex, Spliceosome, RNA
+Pol III, and IFT-A complex (Fig 1A Positive Control Examples) as
+well as many novel insights into the physical biology of the cell.
+Integration of over 15,000 mass spectrometry experiments
+To construct hu.MAP 2.0, we integrated over 15,000 previously
+published
+mass
+spectrometry
+experiments
+using
+our
+custom
+machine learning framework. We built upon the 9,000 mass spec-
+trometry experiments used for hu.MAP 1.0 (Hein et al, 2015; Huttlin
+et al, 2015; Wan et al, 2015; Drew et al, 2017) by incorporating addi-
+tional affinity purification data from Bioplex 2 (Huttlin et al, 2017)
+and (Boldt et al, 2016) as well as proximity labeling data from
+(Gupta et al, 2015) and (Youn et al, 2018) (Fig 1A). Our rationale
+for including these datasets was twofold. First, each dataset samples
+a different set of bait proteins which provides increased coverage of
+the interactome. Second, the methods are orthogonal and comple-
+mentary, where affinity purification targets stable interactions, and
+the proximity labeling datasets potentially also capture transient
+in vivo interactions. The “Upset” plot (Lex et al, 2014) in Fig 1B
+shows that tens of thousands of protein pairs are represented by 2
+or more datasets providing orthogonal evidence for those interac-
+tions. This greatly enhances our framework’s ability to identify true
+interactions from false ones.
+Additionally, we applied our Weighted Matrix Model (WMM)
+technique which we previously demonstrated identifies many new
+high confidence interactions from affinity purification data (Hart
+et al, 2007; Drew et al, 2017). Contrary to the traditional spoke and
+matrix models used to interpret AP-MS data that only consider one
+pull-down experiment at a time, the WMM technique takes all pull-
+down experiments from a given dataset into account and determines
+protein pairs that are in the same pull-down experiments more often
+than random chance. The WMM balances both the false-negative
+and false-positive issues that face both the spoke and matrix models
+and therefore is capable of identifying novel interactions. More
+specifically, since
+a
+spoke model
+only
+considers interactions
+between a bait protein and a prey protein, all true interactions
+between prey proteins are missed leading to high false-negative
+rates for the spoke model. Alternatively, a naive matrix model does
+consider interactions between prey proteins limiting false negatives
+but does so by treating all prey pairs equally. Some of these prey
+pairs will participate in the same complex but since proteins partici-
+pate in multiple complexes, two prey proteins pulled down by the
+same bait are not guaranteed to interact. This leads to a high degree
+of false positives for the naive matrix model. The WMM considers
+all prey pairs as interactors but weights them according to the
+frequency they occur together while controlling for “frequent flyer”
+or “sticky” proteins. Therefore, by considering all prey pairs the
+WMM has better false-negative rates than the spoke model, and by
+accurately measuring the specificity of the prey pairs, the WMM has
+better false-positive rates than the naive matrix model. The WMM
+can be applied to proximity labeling experiments and also, in
+contrast to the traditional models, the WMM can be applied to data-
+sets that were not exclusively collected for the purpose of identify-
+ing protein interactions. Specifically, we applied our WMM to
+> 3,000 RNA hairpin pull-down experiments (Treiber et al, 2017)
+and incorporated the results into our framework. Figure 1B shows
+WMM overlaps substantially with other methods but also provides
+additional information for many pairs of proteins not covered in the
+other datasets (> 2.2 × 10E6 protein pairs attributed to WMM
+alone).
+hu.MAP 2.0 network is highly accurate
+We next trained an SVM classifier to determine whether two
+proteins interact in a macromolecular complex. The classifier uses
+292 features computed from the mass spectrometry experiments and
+is trained on examples consisting of co-complex protein interactions
+from a set of > 1,100 literature-curated CORUM complexes (Giurgiu
+▸
+Figure 1.
+Machine learning framework to identify protein complexes.
+A
+Graphical description of computational pipeline to integrate > 15,000 mass spectrometry experiments. Number of experiments used is listed next to each technique
+(see also Table 1). A Support Vector Machine (SVM) classifier was trained using numerical measures (i.e., features) on pairs of proteins calculated from original mass
+spectrometry data and training labels from literature-curated complexes (CORUM). The classifier was then used to construct a protein interaction network by
+calculating a confidence score for all pairs of proteins for their propensity to interact. Clustering parameters were then learned from training complexes, and five final
+sets of clusters were chosen ranked in order of confidence from “Extremely High” to “Medium”. The union of these selected clusterings represents the final set of
+hu.MAP 2.0 complexes. Networks of previously known protein complexes identified by this pipeline which were not in the training set of complexes are shown as
+positive control examples.
+B
+“UpSet” plot (Lex et al, 2014) displaying the intersections of protein pairs for all integrated datasets. Each set of connected black dots represents the intersection of
+the respective datasets. Vertical bar plot displays protein pair count of intersection. Light gray dots are datasets not included in the intersection. Single unconnected
+black dots represent protein pairs that are only present in a single dataset. Horizontal bar plot represents total protein pair count in each dataset. The plot shows the
+Weighted Matrix Model (single black WMM dot) provides additional information for many pairs of proteins (> 2.2 × 10E6) that would be limited otherwise.
+2 of 16
+Molecular Systems Biology
+17: e10016 | 2021
+ª 2021 The Authors
+Molecular Systems Biology
+Kevin Drew et al

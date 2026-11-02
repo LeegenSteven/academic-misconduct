@@ -1,0 +1,766 @@
+{
+  "queue_source": "10.26-10.31/paper_pair_queue_v1.csv",
+  "queue_sha256": "b06c0ba0c79f95002cd4452bf28b9f9db9d6e3168f0bb66635c0f7b531789f62",
+  "stats": {
+    "date": "2026-11-01",
+    "queue_rows": 51,
+    "unique_citation_ids": 51,
+    "outgoing": 30,
+    "incoming": 21,
+    "unique_works_metadata_resolved": 52,
+    "legacy25_overlapping_pairs": 0,
+    "exact_reference_matches": 47,
+    "reference_metadata_gap": 0,
+    "metadata_year_conflicts": 0,
+    "source_status": {
+      "FULLTEXT_REQUIRED": 51
+    },
+    "semantic_evidence_records_completed": 0,
+    "human_adjudications_added": 0,
+    "score_fields_populated": 0,
+    "pdf_reference_matches": 3,
+    "bibliographic_matches_total": 51,
+    "incoming_context_locations": 5,
+    "title_author_matches_in_deposit": 1,
+    "center_fulltext_received": 1,
+    "center_citation_edges_located": 30,
+    "center_citation_occurrences_located": 39,
+    "outgoing_cited_fulltext_rows": 20,
+    "incoming_citing_fulltext_rows": 5,
+    "referenced_fulltext_files_present": 26,
+    "incoming_citing_fulltext_missing_rows": 16,
+    "incoming_citing_fulltext_available_rows": 5,
+    "member4_submitted_label_rows": 35,
+    "member4_submitted_label_counts": {
+      "NOT_ACCURATE": 7,
+      "IRRELEVANT": 19,
+      "ACCURATE": 9
+    },
+    "member4_pending_source_rows": 16,
+    "member4_evidence_source_types": {
+      "openalex_abstract": 24,
+      "pdf_page_text": 7,
+      "external_abstract": 2,
+      "external_title": 1,
+      "openalex_title": 1
+    },
+    "assistant_fulltext_pairs_reviewed": 25,
+    "assistant_original_occurrences_reviewed": 31,
+    "assistant_suggested_labels": {
+      "HOLD": 10,
+      "IRRELEVANT": 7,
+      "ACCURATE": 6,
+      "NOT_ACCURATE": 2
+    }
+  },
+  "files": [
+    {
+      "path": "openalex_works.json",
+      "sha256": "5c2bdc8cca60afb96960ad00bdc14426262f8b7a77266c1a59909d176f3d064b",
+      "bytes": 117152
+    },
+    {
+      "path": "crossref_focus.json",
+      "sha256": "516677e4892bd6fa1d5583af685e319e2afd3e3d7a9cdc7ec9fa29729f7fd390",
+      "bytes": 17455
+    },
+    {
+      "path": "incoming_reference_lookup.json",
+      "sha256": "d42cd25307d2c8f97741d262cb6c827f0115d0dd82a29d36b4e53c44ef707d61",
+      "bytes": 6327
+    },
+    {
+      "path": "focus_publisher.html",
+      "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "bytes": 3038
+    },
+    {
+      "path": "crossref_W4390504230.json",
+      "sha256": "c2e3023409a761e35c06012075f9bd4160864dcbfdf9accfc8f37c25c6dea96b",
+      "bytes": 7662
+    },
+    {
+      "path": "crossref_W4391319791.json",
+      "sha256": "aa98eafb9822e5a229473283d823dccdbfdf42387406eba4aa408c6e8aef7221",
+      "bytes": 3985
+    },
+    {
+      "path": "crossref_W4391882695.json",
+      "sha256": "0d9fbcbe0422a54fa21c94d8d536656227257b2a75b05acd33e486678a2c4974",
+      "bytes": 16146
+    },
+    {
+      "path": "crossref_W4392783225.json",
+      "sha256": "430bb5f92f59d049221cb846c7fe8b613b13fa0ff1e9201b05f4c234486de850",
+      "bytes": 3754
+    },
+    {
+      "path": "crossref_W4392854462.json",
+      "sha256": "e7fd38171f65b4c4eb29c687cdd9395c4fed040a923be4f0fa137d032b03c070",
+      "bytes": 3654
+    },
+    {
+      "path": "crossref_W4394910925.json",
+      "sha256": "d9ce20179a2d2a07e4110204e746202af6db90cfdc93609c255b65e899fb56cd",
+      "bytes": 7239
+    },
+    {
+      "path": "crossref_W4396634358.json",
+      "sha256": "5a56800edf0149dd4122d4ee6aa2a3005da5c0c75c5ee0b37f992439b06afc01",
+      "bytes": 20966
+    },
+    {
+      "path": "crossref_W4401171603.json",
+      "sha256": "8d851eeb3a1bb4d4c7b09b828bb3cc3853bb23e95bcd570e88d2dbda7c61e091",
+      "bytes": 13962
+    },
+    {
+      "path": "crossref_W4402919591.json",
+      "sha256": "25bc1c8a3dba9317e8d8ad11f7a81309c65a8baaa28ff1f6e0f761a22a6fb352",
+      "bytes": 13652
+    },
+    {
+      "path": "crossref_W4403048172.json",
+      "sha256": "af093c254701cb45104794851402dc07d2d23d8d6395eb856ef7cd8392f7b9d9",
+      "bytes": 8044
+    },
+    {
+      "path": "crossref_W4403723223.json",
+      "sha256": "2c4a1babe85e8d23d15e9cc8a2b58d7c693375415059d2182346e7d7c05da067",
+      "bytes": 4806
+    },
+    {
+      "path": "crossref_W4406218056.json",
+      "sha256": "6a2c73b20ee2de57cd9db592baaa5eba5d24586c1e88232a1aef883b6f746b1b",
+      "bytes": 13469
+    },
+    {
+      "path": "crossref_W4408017740.json",
+      "sha256": "26cc779cd42271769c10a191d70db719fe5100a3967e54013aee57610d95ef02",
+      "bytes": 5954
+    },
+    {
+      "path": "crossref_W4411948763.json",
+      "sha256": "7cf7e55f69f665b2b3a2ca16d9c5fb423a785186d5ecdd94a5fe67c2cd554302",
+      "bytes": 7195
+    },
+    {
+      "path": "crossref_W4413480838.json",
+      "sha256": "e7ded9850aabe8be252c510844cda44b13175b3b8c5597d5968a8613ceb3dfd2",
+      "bytes": 14797
+    },
+    {
+      "path": "crossref_W4414534611.json",
+      "sha256": "896f1e72de564c687e091e920f3725e89ebd19c63bb798b2200ea0e8d25b1d89",
+      "bytes": 8027
+    },
+    {
+      "path": "crossref_W4416874876.json",
+      "sha256": "21dcd0e7450d59608d71301d4dcaf873cb86ffd032b7f1f3cbdb6c887776f8b0",
+      "bytes": 6373
+    },
+    {
+      "path": "crossref_W7139045855.json",
+      "sha256": "93ebe23b2a560553dc345406f9813f77d2fe127a0df73e5cdb1f3b6ff47c567d",
+      "bytes": 13788
+    },
+    {
+      "path": "crossref_W7160385562.json",
+      "sha256": "f8c1075db74fa878e11dee102dc3672a2df91289c8e697735947cfb97b96759f",
+      "bytes": 10414
+    },
+    {
+      "path": "crossref_W7161582739.json",
+      "sha256": "da40024900fdf72a66ba1abfc722ba862a3d8f06644cac778aecd16f4d98a665",
+      "bytes": 5981
+    },
+    {
+      "path": "crossref_W7221172091.json",
+      "sha256": "fbe67d6ef642bc3c36a85d7feadb4502d7a5b15cc5df356de9ddb11de675c95f",
+      "bytes": 9793
+    },
+    {
+      "path": "europepmc_nonfocus_metadata.json",
+      "bytes": 108687,
+      "sha256": "f2ef4dd983a56f109da67a72df2913cbc47cae390ddf64ad01ece72eae676d4a"
+    },
+    {
+      "path": "nonfocus_fulltext_acquisition.json",
+      "sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+      "bytes": 52670
+    },
+    {
+      "path": "fulltext/W1968850365.pdf",
+      "bytes": 3953913,
+      "sha256": "d9d6f549dbfbb6134de8a09a1ae62c085a52f4678293570bbd7fbfc5d82554ea"
+    },
+    {
+      "path": "fulltext/W2028811477.pdf",
+      "bytes": 271659,
+      "sha256": "d599a62ecd770617da4c0098fb6f302cef789fb836f761a03f760b543f1d2849"
+    },
+    {
+      "path": "fulltext/W2075846738.pdf",
+      "bytes": 844039,
+      "sha256": "f831aa47ec193d3d98e2469fa6259bb59ae6f061736e45d660f7d866842896af"
+    },
+    {
+      "path": "fulltext/W2485913602_PMC4964600.xml",
+      "bytes": 97473,
+      "sha256": "23c66584e6bbf434ba597afdb8ba197847e89ff9b67122e1ea8bf727b4991f4c"
+    },
+    {
+      "path": "fulltext/W2972117947.pdf",
+      "bytes": 5956831,
+      "sha256": "862dd12474da72050020edf4878206393577aed6d5c0114a765c56cd9a554736"
+    },
+    {
+      "path": "fulltext/W3035458854_PMC7296022.xml",
+      "bytes": 505583,
+      "sha256": "c5d8ffbf56a6a9b807c1c3e71ab3617371f4f1319c6a812652e7767b0a484593"
+    },
+    {
+      "path": "fulltext/W3083462945.pdf",
+      "bytes": 7723591,
+      "sha256": "4c5c56aee943d70b9ac17e28a8d461eeb81d16322c4b668669c56181ef9dfcec"
+    },
+    {
+      "path": "fulltext/W3122257190_PMC9938229.xml",
+      "bytes": 88390,
+      "sha256": "8aea8872fce89fdb22bf5957a4440adefd63ad3a8db2d9ec8b9790da14580b58"
+    },
+    {
+      "path": "fulltext/W3138186071.pdf",
+      "bytes": 2005851,
+      "sha256": "4a0e693a34a3738f6969dc8e2683d1827e12fa41c806975d62fbc8ec73d31089"
+    },
+    {
+      "path": "fulltext/W3201341253_PMC8443763.xml",
+      "bytes": 124122,
+      "sha256": "7c6bd5c2b0d725cb201b919146390cfdb35527a2e7d7a27e5940d9be53dfd3ca"
+    },
+    {
+      "path": "fulltext/W3212931265_PMC8593023.xml",
+      "bytes": 172602,
+      "sha256": "18bc927ebebaaa9a14b4143720cedcab88c0b53c2ef081a655757694d5bc00f7"
+    },
+    {
+      "path": "fulltext/W3214969050_PMC8630018.xml",
+      "bytes": 304446,
+      "sha256": "03d21f185ab6be2fe2507bf5a8f13b65a2887ebec28889b0c6056f9a3a650cc6"
+    },
+    {
+      "path": "fulltext/W4220784320_PMC8907310.xml",
+      "bytes": 86978,
+      "sha256": "f39cb480afbf425f5d68c962140444a0f9cd69b9cd54208a8bedf451e15c4fb4"
+    },
+    {
+      "path": "fulltext/W4282929449_PMC9130199.xml",
+      "bytes": 363821,
+      "sha256": "979e46d9e85aa4cd54698872c0a80d27edf616787b72f7d5319d3651eb0c21a4"
+    },
+    {
+      "path": "fulltext/W4283080009_PMC9206657.xml",
+      "bytes": 203369,
+      "sha256": "64a3792d4d8d85efb634c219ecfd1e3c6ca9a674624464f90bf92477ace8251a"
+    },
+    {
+      "path": "fulltext/W4293168421_PMC9418155.xml",
+      "bytes": 94174,
+      "sha256": "9d5dafe1fafb727b4dfb8b90418d2a8bac9477d97d1f3ca3bb8c04699942065f"
+    },
+    {
+      "path": "fulltext/W4294237858_PMC9440053.xml",
+      "bytes": 489134,
+      "sha256": "7c19f584c16e5769bfdf1d3d85afcbe81affd0c2841ccf98ba227f552e693aeb"
+    },
+    {
+      "path": "fulltext/W4310238875_PMC9708693.xml",
+      "bytes": 200318,
+      "sha256": "38c17346964df2ac4925473035faba446c03d4a998bd2cad12614a4c0ebedc77"
+    },
+    {
+      "path": "fulltext/W4313894837_PMC9829899.xml",
+      "bytes": 90622,
+      "sha256": "2ea8e87f823c13f7d4b3836bd27602ce51a91f30bdbecf52289f643f33085a2b"
+    },
+    {
+      "path": "fulltext/W4391319791.pdf",
+      "bytes": 377703,
+      "sha256": "d10e7041b54e4983e60c2992b3ecd81b2792c305c67bf43e9cfcfc585702f1a9"
+    },
+    {
+      "path": "fulltext/W4392854462.pdf",
+      "bytes": 1722415,
+      "sha256": "949ff238d104f26a025fd1243ac331baa4a29b585725ecee357f36c7152cea36"
+    },
+    {
+      "path": "fulltext/W4406218056.pdf",
+      "bytes": 1628138,
+      "sha256": "1b40455242a94b3d786084cb8ef3e3369bf77f6a321f8b76b4fcb4413aa9518f"
+    },
+    {
+      "path": "fulltext/W7139045855_PMC12998948.xml",
+      "bytes": 178728,
+      "sha256": "a4fb44a76d999719b08a9e2b45e7291e8afde9a2d9a405daec21d429f9fe997c"
+    },
+    {
+      "path": "ijcs_3717_publisher.html",
+      "sha256": "20b94a52a40d622da83fe3eff8ea9838a52c5c3c96f6885978187c8793e108c8",
+      "bytes": 20604
+    },
+    {
+      "path": "fulltext/W4392783225.pdf",
+      "sha256": "6ffb57fa30c49b4d3187c2aa28b83afa76e456f71483bb3488bbcdc572f38d93",
+      "bytes": 829583
+    },
+    {
+      "path": "openalex_remaining_locations.json",
+      "sha256": "3883c176a1663877eb42640fcee92ac78267469f86887d705248d5759eeb6c1e",
+      "bytes": 57574
+    },
+    {
+      "path": "remaining_public_source_search.json",
+      "sha256": "64fb28819c4df535576c05a90efad823e2ac0aa9c87e09b779f7000935c1dcf4",
+      "bytes": 20529
+    },
+    {
+      "path": "fulltext/W4206801895.pdf",
+      "sha256": "fa2c2ca149d6b9c657a7d57b15a7bbf9185da1329bc551ea1351d586ba22b6a9",
+      "bytes": 2328419
+    },
+    {
+      "path": "crossref_seed_W4387330299.json",
+      "sha256": "516677e4892bd6fa1d5583af685e319e2afd3e3d7a9cdc7ec9fa29729f7fd390",
+      "bytes": 17455
+    },
+    {
+      "path": "crossref_notice_W4387330299.json",
+      "sha256": "f896e5c9187ba28c4651abf11cd57f9ac5349998be81b32a16b6af66ce126c4b",
+      "bytes": 4124
+    },
+    {
+      "path": "crossref_seed_W3174775079.json",
+      "sha256": "04b9de3b0436a25b2aae0d6dc08de6f58e43b57054ca275a2c94e921969bb552",
+      "bytes": 21289
+    },
+    {
+      "path": "crossref_notice_W3174775079.json",
+      "sha256": "98b6566285071c16d829d890270f5d1a6bd60f29835f288fb10def75d125e04e",
+      "bytes": 3803
+    },
+    {
+      "path": "crossref_seed_W4253806260.json",
+      "sha256": "55721e16cb34380a856410ad0f97262c491f794eb7aa71e5a276772d6f80409e",
+      "bytes": 10630
+    },
+    {
+      "path": "crossref_notice_W4253806260.json",
+      "sha256": "51fb534e45c0a32f2fc423ac4aaff9d07a196802bc5ff838934cce29fc876d33",
+      "bytes": 3305
+    },
+    {
+      "path": "crossref_seed_W3173617463.json",
+      "sha256": "166600ed38f082e27df5f695c30d30c4d6e568d27fa3cbed40c42d0a738a5961",
+      "bytes": 20562
+    },
+    {
+      "path": "crossref_notice_W3173617463.json",
+      "sha256": "383028e9db333ab63a2094fbeb70d99b0c4868b11d243c915bcff7e9b979d411",
+      "bytes": 3881
+    },
+    {
+      "path": "crossref_seed_W3089788671.json",
+      "sha256": "e47e103484cf071848101ffd43af9234c4cea14630d24783dcd8d5f5fba27c8d",
+      "bytes": 21146
+    },
+    {
+      "path": "crossref_notice_W3089788671.json",
+      "sha256": "1f9cc6753f590c855f561c06f00672c09a3a323d6ef7f046c77d49d8a8eadddd",
+      "bytes": 3850
+    },
+    {
+      "path": "fulltext/W4387330299.pdf",
+      "bytes": 4719776,
+      "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e"
+    },
+    {
+      "path": "../../paper_pair_semantic_evidence_v3_center_citations_located.csv",
+      "bytes": 158320,
+      "sha256": "d0fd03b187f6dd4e40c27c176a7ae16dc0843986a859dce1d1fc0421fef14fdd"
+    },
+    {
+      "path": "待补施引全文清单_20261101.txt",
+      "sha256": "c03dd663a39fa9a11ebab0fd25fa67dba9a9e5d8fd903ca19833d7d57edcbf1a",
+      "bytes": 3196,
+      "scope": "16条入边缺失施引全文的待补清单；不含语义标签"
+    },
+    {
+      "path": "../../paper_pair_semantic_evidence_v4_member4_completed_20261101.csv",
+      "sha256": "1819964b5d844a433370ca110c1856a4f867f8c18837243296a2a2cab0cd8409",
+      "bytes": 215030
+    },
+    {
+      "path": "../../paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+      "sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+      "bytes": 323036
+    },
+    {
+      "path": "member4_v4_intake_review.json",
+      "sha256": "f7d42ce5380356925be7a1168de09d1cbb445ed3f9ba2c905ebbcdbd27e02770",
+      "bytes": 197176
+    },
+    {
+      "path": "../../route1_25_fulltext_review_confirmation_20261101.csv",
+      "sha256": "d1764615cf4181c044b067bb609eb53a2c096fd78fa91614d771db6986a44e61",
+      "bytes": 127068
+    }
+  ],
+  "openalex_request_url": "https://api.openalex.org/works?filter=openalex_id%3AW1871398651%7CW1968850365%7CW2028811477%7CW2031163406%7CW2075846738%7CW2485913602%7CW2520540666%7CW2552133479%7CW2753886374%7CW2892808760%7CW2897280001%7CW2972117947%7CW3022034429%7CW3035458854%7CW3083462945%7CW3122257190%7CW3138186071%7CW3201341253%7CW3203972939%7CW3212931265%7CW3214969050%7CW4206801895%7CW4220784320%7CW4282929449%7CW4283080009%7CW4293168421%7CW4294237858%7CW4310238875%7CW4313132011%7CW4313894837%7CW4387330299%7CW4390504230%7CW4391319791%7CW4391882695%7CW4392783225%7CW4392854462%7CW4394910925%7CW4396634358%7CW4401171603%7CW4402919591%7CW4403048172%7CW4403723223%7CW4406218056%7CW4408017740%7CW4411948763%7CW4413480838%7CW4414534611%7CW4416874876%7CW7139045855%7CW7160385562%7CW7161582739%7CW7221172091&per-page=100&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Copen_access%2Cbest_oa_location%2Cprimary_location",
+  "publisher_checks": {
+    "url": "https://link.springer.com/article/10.1007/s11276-023-03515-1",
+    "browser_read_result": "Official publisher preview, abstract and reference list accessible; full text requires institutional access.",
+    "raw_http_attempt": "HTTP 200 returned a Client Challenge page, preserved as focus_publisher.html; not article full text.",
+    "retraction_notice_url": "https://link.springer.com/article/10.1007/s11276-026-04128-0",
+    "scope": "Publisher records article-level retraction. No citation-level semantic label inferred.",
+    "bounded_fulltext_search": "No accessible original-article full text obtained in this stage. Search results included a retraction note; not substituted for original article."
+  },
+  "field_notes": {
+    "source_status": "FULLTEXT_REQUIRED means required full text not obtained this stage; not an exhaustive finding that no source exists.",
+    "reference_match_status": "47 exact DOI matches in Crossref, one title/author match in Crossref, and three target references located in downloaded PDFs. No citation-level semantic labels inferred.",
+    "citation_id": "Stable edge IDs retained. Five incoming rows have internally generated occurrence IDs linked to actual PDF/XML positions; target scope and semantics remain pending.",
+    "oa_candidate_url": "Indexed candidate location, not independently downloaded or validated.",
+    "source_dates": "Queue retrieved_at retained; source_lookup_date is this intake stage date.",
+    "scores": "All score_* and raw_confidence cells intentionally blank.",
+    "citing_context_excerpt": "Short source excerpt <=24 words; source whitespace compacted for display. Full original documents are preserved; complete claim field is not filled from a truncated excerpt.",
+    "fulltext_file": "Document paths and SHA256 hashes are source acquisition records; preprint identity/DOI association does not establish sentence-level equivalence with the journal version.",
+    "assistant_review_columns": "Added in v5 only. These columns contain assistant evidence checking and proposed scopes/labels after seeing Member4 labels. Original judgment/reviewer/review_status columns remain Member4 values. Neither personal human confirmation nor joint adjudication is implied."
+  },
+  "intake_stats_before_fulltext_acquisition": {
+    "date": "2026-10-31",
+    "queue_rows": 51,
+    "unique_citation_ids": 51,
+    "outgoing": 30,
+    "incoming": 21,
+    "unique_works_metadata_resolved": 52,
+    "legacy25_overlapping_pairs": 0,
+    "exact_reference_matches": 47,
+    "reference_metadata_gap": 4,
+    "metadata_year_conflicts": 0,
+    "source_status": {
+      "FULLTEXT_REQUIRED": 51
+    },
+    "semantic_evidence_records_completed": 0,
+    "human_adjudications_added": 0,
+    "score_fields_populated": 0
+  },
+  "source_acquisition_current": {
+    "nonfocus_works": 51,
+    "source_status": {
+      "FULLTEXT_NOT_OBTAINED": 26,
+      "ARXIV_RELATED_DOI_MATCHED_VERSION_PENDING": 2,
+      "PDF_IDENTITY_MATCHED_VERSION_PENDING": 9,
+      "OA_XML_IDENTITY_MATCHED": 14
+    },
+    "incoming_context_locations": 5,
+    "bibliographic_matches_total": 51,
+    "semantic_labels_added": 0,
+    "scores_added": 0,
+    "before_csv_sha256": "984d58d586317d39b062427ea1fae86cc01f6f149e87e0df10553cfa79ec3116",
+    "focus_request_status": "RECEIVED_FROM_MEMBER4; CENTER_FULLTEXT_ARCHIVED",
+    "source_record": "nonfocus_fulltext_acquisition.json",
+    "public_source_followup": "一轮公开索引、仓储和DOI检索已完成；中心论文已由成员4提供并归档。其余另一端全文缺口继续按现有来源记录保留，不重复检索同一失败入口。",
+    "center_fulltext_file": "fulltext/W4387330299.pdf",
+    "center_fulltext_sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+    "center_fulltext_provider": "成员4"
+  },
+  "current_evidence_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+  "seed_event_verification": {
+    "date": "2026-10-31",
+    "scope": "Five received seed records; separate from 51 citation edges and legacy R2EXP25",
+    "paper_retraction_events_confirmed": 5,
+    "publisher_reason_bodies_obtained": 0,
+    "human_signoffs_added": 0,
+    "citation_semantic_labels_added": 0,
+    "records": [
+      {
+        "case_id": "R2-CASE-W4387330299",
+        "openalex_w": "W4387330299",
+        "original_doi": "10.1007/s11276-023-03515-1",
+        "original_title": "RETRACTED ARTICLE: Coalescing novel QoS routing with fault tolerance for improving QoS parameters in wireless Ad-Hoc network using craft protocol",
+        "notice_doi": "10.1007/s11276-026-04128-0",
+        "notice_title": "Retraction Note: Coalescing novel QoS routing with fault tolerance for improving QoS parameters in wireless Ad-Hoc network using craft protocol",
+        "notice_date": "2026-03-18",
+        "publisher_notice_url": "https://link.springer.com/article/10.1007/s11276-026-04128-0",
+        "publisher_page_checked": true,
+        "publisher_page_observed_type": "Retraction Note",
+        "publisher_page_observed_date": "2026-03-18",
+        "crossref_original_path": "crossref_seed_W4387330299.json",
+        "crossref_notice_path": "crossref_notice_W4387330299.json",
+        "title_match": true,
+        "ordered_author_family_names_match": true,
+        "bidirectional_publisher_retraction_relation": true,
+        "event_status": "PAPER_RETRACTION_CONFIRMED",
+        "scope": "Article-level retraction event only; not a judgment of any citation edge or particular cause",
+        "notice_reason_body_status": "NOT_OBTAINED_FROM_PUBLISHER_PREVIEW",
+        "verified_retraction_reason": null,
+        "human_review_status": "NOT_RECORDED",
+        "reviewer": null,
+        "review_date": null,
+        "source_check_date": "2026-10-31",
+        "source_check_method": "Public publisher notice identity and publication date, plus publisher-deposited Crossref reciprocal retraction relation; technical source check only",
+        "citation_semantic_labels_added": 0
+      },
+      {
+        "case_id": "R2-CASE-W3174775079",
+        "openalex_w": "W3174775079",
+        "original_doi": "10.1007/s11276-021-02666-3",
+        "original_title": "RETRACTED ARTICLE: Bursty data service latency analysis under fractional calculus fluid model of Multi-hop Wireless Networks",
+        "notice_doi": "10.1007/s11276-026-04131-5",
+        "notice_title": "Retraction Note: Bursty data service latency analysis under fractional calculus fluid model of multi-hop wireless networks",
+        "notice_date": "2026-03-23",
+        "publisher_notice_url": "https://link.springer.com/article/10.1007/s11276-026-04131-5",
+        "publisher_page_checked": true,
+        "publisher_page_observed_type": "Retraction Note",
+        "publisher_page_observed_date": "2026-03-23",
+        "crossref_original_path": "crossref_seed_W3174775079.json",
+        "crossref_notice_path": "crossref_notice_W3174775079.json",
+        "title_match": true,
+        "ordered_author_family_names_match": true,
+        "bidirectional_publisher_retraction_relation": true,
+        "event_status": "PAPER_RETRACTION_CONFIRMED",
+        "scope": "Article-level retraction event only; not a judgment of any citation edge or particular cause",
+        "notice_reason_body_status": "NOT_OBTAINED_FROM_PUBLISHER_PREVIEW",
+        "verified_retraction_reason": null,
+        "human_review_status": "NOT_RECORDED",
+        "reviewer": null,
+        "review_date": null,
+        "source_check_date": "2026-10-31",
+        "source_check_method": "Public publisher notice identity and publication date, plus publisher-deposited Crossref reciprocal retraction relation; technical source check only",
+        "citation_semantic_labels_added": 0
+      },
+      {
+        "case_id": "R2-CASE-W4253806260",
+        "openalex_w": "W4253806260",
+        "original_doi": "10.1007/s11276-021-02661-8",
+        "original_title": "RETRACTED ARTICLE: Dynamics of a population-hibernation model with genic mutation and impulsive effects in a polluted environment",
+        "notice_doi": "10.1007/s11276-026-04137-z",
+        "notice_title": "Retraction Note: Dynamics of a population-hibernation model with genic mutation and impulsive effects in a polluted environment",
+        "notice_date": "2026-03-25",
+        "publisher_notice_url": "https://link.springer.com/article/10.1007/s11276-026-04137-z",
+        "publisher_page_checked": true,
+        "publisher_page_observed_type": "Retraction Note",
+        "publisher_page_observed_date": "2026-03-25",
+        "crossref_original_path": "crossref_seed_W4253806260.json",
+        "crossref_notice_path": "crossref_notice_W4253806260.json",
+        "title_match": true,
+        "ordered_author_family_names_match": true,
+        "bidirectional_publisher_retraction_relation": true,
+        "event_status": "PAPER_RETRACTION_CONFIRMED",
+        "scope": "Article-level retraction event only; not a judgment of any citation edge or particular cause",
+        "notice_reason_body_status": "NOT_OBTAINED_FROM_PUBLISHER_PREVIEW",
+        "verified_retraction_reason": null,
+        "human_review_status": "NOT_RECORDED",
+        "reviewer": null,
+        "review_date": null,
+        "source_check_date": "2026-10-31",
+        "source_check_method": "Public publisher notice identity and publication date, plus publisher-deposited Crossref reciprocal retraction relation; technical source check only",
+        "citation_semantic_labels_added": 0
+      },
+      {
+        "case_id": "R2-CASE-W3173617463",
+        "openalex_w": "W3173617463",
+        "original_doi": "10.1007/s11276-021-02672-5",
+        "original_title": "RETRACTED ARTICLE: A Hyperparameters automatic optimization method of time graph convolution network model for traffic prediction",
+        "notice_doi": "10.1007/s11276-026-04141-3",
+        "notice_title": "Retraction Note: A Hyperparameters automatic optimization method of time graph convolution network model for traffic prediction",
+        "notice_date": "2026-03-25",
+        "publisher_notice_url": "https://link.springer.com/article/10.1007/s11276-026-04141-3",
+        "publisher_page_checked": true,
+        "publisher_page_observed_type": "Retraction Note",
+        "publisher_page_observed_date": "2026-03-25",
+        "crossref_original_path": "crossref_seed_W3173617463.json",
+        "crossref_notice_path": "crossref_notice_W3173617463.json",
+        "title_match": true,
+        "ordered_author_family_names_match": true,
+        "bidirectional_publisher_retraction_relation": true,
+        "event_status": "PAPER_RETRACTION_CONFIRMED",
+        "scope": "Article-level retraction event only; not a judgment of any citation edge or particular cause",
+        "notice_reason_body_status": "NOT_OBTAINED_FROM_PUBLISHER_PREVIEW",
+        "verified_retraction_reason": null,
+        "human_review_status": "NOT_RECORDED",
+        "reviewer": null,
+        "review_date": null,
+        "source_check_date": "2026-10-31",
+        "source_check_method": "Public publisher notice identity and publication date, plus publisher-deposited Crossref reciprocal retraction relation; technical source check only",
+        "citation_semantic_labels_added": 0
+      },
+      {
+        "case_id": "R2-CASE-W3089788671",
+        "openalex_w": "W3089788671",
+        "original_doi": "10.1007/s11356-020-10618-1",
+        "original_title": "RETRACTED ARTICLE: The impact trilemma of energy prices, taxation, and population on industrial and residential greenhouse gas emissions in Europe",
+        "notice_doi": "10.1007/s11356-026-37713-z",
+        "notice_title": "Retraction Note: The impact trilemma of energy prices, taxation, and population on industrial and residential greenhouse gas emissions in Europe",
+        "notice_date": "2026-03-31",
+        "publisher_notice_url": "https://link.springer.com/article/10.1007/s11356-026-37713-z",
+        "publisher_page_checked": true,
+        "publisher_page_observed_type": "Retraction Note",
+        "publisher_page_observed_date": "2026-03-31",
+        "crossref_original_path": "crossref_seed_W3089788671.json",
+        "crossref_notice_path": "crossref_notice_W3089788671.json",
+        "title_match": true,
+        "ordered_author_family_names_match": true,
+        "bidirectional_publisher_retraction_relation": true,
+        "event_status": "PAPER_RETRACTION_CONFIRMED",
+        "scope": "Article-level retraction event only; not a judgment of any citation edge or particular cause",
+        "notice_reason_body_status": "NOT_OBTAINED_FROM_PUBLISHER_PREVIEW",
+        "verified_retraction_reason": null,
+        "human_review_status": "NOT_RECORDED",
+        "reviewer": null,
+        "review_date": null,
+        "source_check_date": "2026-10-31",
+        "source_check_method": "Public publisher notice identity and publication date, plus publisher-deposited Crossref reciprocal retraction relation; technical source check only",
+        "citation_semantic_labels_added": 0
+      }
+    ],
+    "remaining": {
+      "other_seed_candidates_not_checked_this_stage": 25,
+      "cohort_and_blind_test_counts_pending_member3_clarification": true
+    },
+    "request_note": "Initial original-article Crossref request for W3089788671 returned HTTP429; a later bounded retry succeeded. Publisher PDF attempts did not provide accessible notice bodies."
+  },
+  "focus_source_acquisition": {
+    "status": "RECEIVED_FROM_MEMBER4",
+    "received_date": "2026-10-31",
+    "provider": "成员4",
+    "openalex_id": "W4387330299",
+    "doi": "10.1007/s11276-023-03515-1",
+    "title": "Coalescing novel QoS routing with fault tolerance for improving QoS parameters in wireless Ad-Hoc network using craft protocol",
+    "local_file": "fulltext/W4387330299.pdf",
+    "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+    "bytes": 4719776,
+    "pages": 25,
+    "pdf_observed_status": "RETRACTED ARTICLE",
+    "scope": "中心论文原文已收到；用于30条出边施引上下文和21条入边被引证据核对；不自动生成标签或分数。",
+    "semantic_evidence_completed": 0,
+    "joint_adjudications_added": 0
+  },
+  "current_evidence_csv": "paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+  "annotation_intake": {
+    "center_outgoing_edges_with_marker_locations": 30,
+    "center_outgoing_marker_occurrences": 39,
+    "incoming_edges_with_existing_other_endpoint_locations": 5,
+    "labels_added": 0,
+    "scores_added": 0,
+    "semantic_support_not_inferred": true
+  },
+  "current_evidence_integrity": {
+    "audit_date": "2026-11-01",
+    "csv": "paper_pair_semantic_evidence_v3_center_citations_located.csv",
+    "csv_sha256": "d0fd03b187f6dd4e40c27c176a7ae16dc0843986a859dce1d1fc0421fef14fdd",
+    "rows": 51,
+    "unique_citation_ids": 51,
+    "v2_identity_order_preserved": true,
+    "labels_scores_reasons_unchanged_from_v2": true,
+    "source_file_hashes_checked": 76,
+    "source_file_hash_mismatches": 0,
+    "missing_referenced_source_files": 0,
+    "outgoing_center_marker_rows": 30,
+    "outgoing_center_marker_occurrences": 39,
+    "incoming_rows_with_existing_location": 5,
+    "semantic_labels_added": 0,
+    "scope": "integrity and provenance audit only; no semantic label or adjudication"
+  },
+  "pending_source_list": {
+    "path": "待补施引全文清单_20261101.txt",
+    "sha256": "c03dd663a39fa9a11ebab0fd25fa67dba9a9e5d8fd903ca19833d7d57edcbf1a",
+    "rows": 16,
+    "scope": "missing incoming citing fulltext only; no label inference"
+  },
+  "baseline_evidence_csv": "paper_pair_semantic_evidence_v3_center_citations_located.csv",
+  "baseline_evidence_csv_sha256": "d0fd03b187f6dd4e40c27c176a7ae16dc0843986a859dce1d1fc0421fef14fdd",
+  "current_evidence_role": "MEMBER4_ORIGINAL_FIELDS_PLUS_ASSISTANT_FULLTEXT_REVIEW25; HUMAN_CONFIRMATION_PENDING",
+  "member4_return_intake": {
+    "date": "2026-11-01",
+    "file": "paper_pair_semantic_evidence_v4_member4_completed_20261101.csv",
+    "sha256": "1819964b5d844a433370ca110c1856a4f867f8c18837243296a2a2cab0cd8409",
+    "reviewer_as_submitted": "成员4",
+    "status": "RECEIVED_WITH_EVIDENCE_GAPS_PENDING_ROUTE1_REVIEW",
+    "audit_file": "member4_v4_intake_review.json",
+    "audit_sha256": "f7d42ce5380356925be7a1168de09d1cbb445ed3f9ba2c905ebbcdbd27e02770",
+    "same_schema_and_id_order": true,
+    "protected_fields_changed": 0,
+    "evidence_text_hashes_checked": 35,
+    "outgoing_marker_positions_covered": 39,
+    "pdf_evidence_offsets_matched": 7,
+    "title_only_rows": 2,
+    "abstract_only_rows": 26,
+    "joint_adjudications": 0,
+    "paired_independent_agreement_rate": null,
+    "review_context": "Member4 labels were read for this intake. Subsequent checking must not be represented as a fresh blind comparison."
+  },
+  "assistant_fulltext_review25": {
+    "date": "2026-11-01",
+    "reviewer_role": "assistant",
+    "review_context": "SEEN_MEMBER4_LABELS_NOT_INDEPENDENT_BLIND_ANNOTATION",
+    "reviewed_pairs": 25,
+    "outgoing": 20,
+    "incoming": 5,
+    "original_occurrences_reviewed": 31,
+    "alternative_author_intended_occurrences_not_substituted": 1,
+    "suggested_labels": {
+      "HOLD": 10,
+      "IRRELEVANT": 7,
+      "ACCURATE": 6,
+      "NOT_ACCURATE": 2
+    },
+    "member4_original_fields_changed": 0,
+    "human_judgments_added": 0,
+    "joint_adjudications_added": 0,
+    "new_csv": "10.26-10.31\\paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+    "new_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+    "raw_return_sha256_unchanged": "1819964b5d844a433370ca110c1856a4f867f8c18837243296a2a2cab0cd8409",
+    "scope_notes": "An assistant evidence review is complete for the selected available-file pairs. It is not human annotation, agreement measurement or formal sample acceptance. Related preprints retain their version limitations."
+  },
+  "human_confirmation_intake": {
+    "file": "route1_25_fulltext_review_confirmation_20261101.csv",
+    "sha256": "d1764615cf4181c044b067bb609eb53a2c096fd78fa91614d771db6986a44e61",
+    "rows": 25,
+    "source_evidence_csv": "paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+    "source_evidence_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+    "purpose": "Reply form for the existing 25 assistant reviews; not a second canonical evidence table",
+    "status": "PREPARED_NOT_SENT; PERSONAL_AND_JOINT_FIELDS_EMPTY",
+    "review_context": "Seen Member4 labels and assistant suggestions; not independent blind annotation",
+    "human_judgments_recorded": 0,
+    "joint_adjudications_recorded": 0
+  },
+  "current_personal_review_workbook_handoff": {
+    "file": "route1_25_fulltext_review_liyun_chen_20261101.xlsx",
+    "local_sha256": "6432219661b0f3caeea5773bb7387bf5a5b5af26d7194a8be56ea0b53a6fce98",
+    "local_bytes": 43042,
+    "user_screenshot_received_date": "2026-11-02",
+    "member4_handoff": {
+      "status": "USER_SCREENSHOT_SHOWS_SENT_FOR_PERSONAL_OPINION_INTEGRATION",
+      "recipient": "成员4",
+      "purpose": "按citation_id接入liyun_*及chen_*实际个人意见；joint_*与score_*未填",
+      "evidence": "用户截图及其对前次成员4发送指示的明确关联",
+      "screenshot_attachment_path_as_supplied": "C:\\Users\\y\\AppData\\Local\\Temp\\codex-clipboard-35fc3779-2451-4a9b-ba47-a0815fbaf384.png",
+      "time_as_displayed": "昨天21:22",
+      "exact_sent_datetime": null,
+      "displayed_file_size": "42.0K",
+      "sent_by_tool": false,
+      "recipient_read_or_integrated_inferred": false,
+      "external_attachment_hash_independently_verified": false
+    },
+    "chen_scope_clarification_handoff": {
+      "status": "PREPARED_NO_USER_SENDING_REPORT_RECEIVED",
+      "recipient": "陈明进",
+      "purpose": "集中确认17条同值记录的范围，澄清3条本人待核/陈已分类的处置差异，5条双方待核沿用；不重填chen_*",
+      "new_personal_opinion_inferred": false,
+      "joint_conclusion_added": false
+    },
+    "original_blank_csv_is_historical_template": true,
+    "workbook_bytes_changed": false
+  }
+}

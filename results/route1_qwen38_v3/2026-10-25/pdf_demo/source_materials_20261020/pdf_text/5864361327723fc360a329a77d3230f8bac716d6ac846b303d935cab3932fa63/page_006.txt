@@ -1,0 +1,176 @@
+Articles
+www.thelancet.com   Vol 395   February 22, 2020	
+569
+Figure 1: Sequence comparison and genomic organisation of 2019-nCoV
+(A) Sequence alignment of eight full-length genomes of 2019-nCoV, 29 829 base pairs in length, with a few nucleotides truncated at both ends of the genome. 
+(B) Coding regions of 2019-nCoV, bat-SL-CoVZC45, bat-SL-CoVZXC21, SARS-CoV, and MERS-CoV. Only open reading frames of more than 100 nucleotides are 
+shown. 2019-nCoV=2019 novel coronavirus. SARS-CoV=severe acute respiratory syndrome coronavirus. MERS-CoV=Middle East respiratory syndrome coronavirus.
+E
+M 7 10b
+N
+E
+M 6
+8b
+9a
+MG772933
+Bat_SL-CoVZC45
+29802 base pairs
+MG772934
+Bat_SLCoVZXC21
+29 732 base pairs
+NC_004718.3
+SARS-CoV
+29 751 base pairs
+3a
+7a
+9b
+8a
+3b
+2019-nCoV
+WH04
+29844 base pairs
+Non-structural polyprotein 1ab (7073 amino acids)
+265
+21 486
+Spike protein (1255 amino acids)
+21 493
+25 260
++C, 13 398
+TTTTTAAACCGGG
+Consensus
+WH04
+WH03
+WH01
+YH8011
+Sample
+WH19001
+WH19004
+WH19005
+WH19008
+A
+B
+NC_019843.3
+MERS-CoV
+30 119 base pairs
+3
+5
+4b
+E
+M
+N
+8b
+4a
+Non-structural polyprotein 1ab (7078 amino acids)
+279
+21 514
+Spike protein (1270 amino acids)
+21 705
+25 517
++C, 13433
+TTTTTAAACCGGG
+ Non-synonymous mutations
+ Synonymous mutations
+5’
+5’
+5’
+5’
+5’
+5’
+5’
+5’
+5’
+5’
+3’
+5’
+3’
+TTTTTAAACCGGG
++C, 13 443
+C
+C
+T
+GG
+A
+C T C
+A
+T
+A A
+G
+T
+C
+T
+A
+3’
+3’
+3’
+3’
+3’
+3’
+3’
+3’
+3’
+1
+5000
+10 000
+15 000
+20 000
+25 000
+29 829
+7b
+3a
+8
+Non-structural polyprotein 1ab (7070 amino acids)
+265
+21 477
+Spike protein (1245 amino acids)
+21 484
+25 221
++C, 13 389
+TTTTTAAACCGGG
+5’
+3’
+3a
+8
+3b
+Non-structural polyprotein 1ab  (7092 amino acids)
+265
+21 543
+Spike protein (1246 amino acids)
+21 550
+25 290
++C, 13455
+TTTTTAAACCGGG
+5’
+3’
+9 1314
+3b
+9 1314
+3
+E
+M 7
+8
+10b
+Non-structural polyprotein 1ab (7096 amino acids)
+251
+21 541
+Spike protein (1273 amino acids)
+21 549
+25 730
++C, 13 443
+TTTTTAAACCGGG
+5’
+3’
+N
+E
+M 7 10b
+N
+9 13 14
+6943
+8757
+11 739
+20 646
+20 655
+24 301
+27 469
+28 120
+28 229
+Base pairs

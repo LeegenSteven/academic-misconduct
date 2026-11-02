@@ -1,0 +1,50 @@
+biomarkers, or brain autopsy. While imaging/CSF biomarker data on subsets of individuals 
+from well-designed community-based cohorts would provide additional research value, 
+incorporating biomarkers on a large scale in many settings will require low-cost and 
+minimally invasive biomarkers (e.g., blood or saliva) that are now emerging [202–205].
+Another issue is that the vast majority of data from PET and CSF are from selected 
+participants recruited through tertiary care dementia centers [176]. It is widely recognized 
+that clinic-based participants differ from community-based studies, for example, the amount, 
+type, and distribution of neuropathologic changes differ by the source of a participant 
+[206,207]. There are limited data on CSF and PET AD biomarkers from population-based 
+studies. Therefore, incorporating biomarkers into these studies is highly warranted to 
+increase our understanding of the biology of AD, but only when such inclusion does not 
+compromise the overarching scientific goals of the parent project. Importantly, there are less 
+data from diverse populations. As with population-based studies, we encourage the inclusion 
+of AD biomarkers in studies of diverse populations that use this research framework [208], 
+but it is clearly premature to recommend that all such studies incorporate biomarkers.
+The issues of clinical research without biomarkers and defining AD as amnestic dementia 
+are often conflated, but it is important to recognize the distinction. Clinical research without 
+biomarkers provides valuable information about the societal burden of cognitive disability 
+and risk factors for cognitive impairment. However, amnestic multidomain dementia and 
+other classic syndromal variants are not synonymous with the presence of Aβ deposition and 
+neurofibrillary degeneration. In addition, the absence of amnestic dementia is clearly not 
+synonymous with the absence of these hallmark lesions of AD. AD neuropathologic change 
+is documented in approximately 80% of cases with a traditional clinical diagnosis of “AD 
+dementia” (see Fig. 5 for an example of clinical misdiagnosis of “AD dementia”) [50–
+52,162,185,209–211]. However, preclinical AD cannot be ascertained without biomarkers. 
+Up to 60% of CU individuals over age 80 years have AD neuropathologic changes at 
+autopsy or by biomarkers [60,152,212–214]. Thus, using a clinical diagnosis of “AD” to 
+ascertain absence of disease is associated with an error rate exceeding 50% in the elderly.
+Valuable clinical research will continue in contexts that do not use biomarkers where the 
+outcome that is ascertained is a multi-(or single-) domain amnestic syndrome or a classic 
+syndromal variant. Historically though such individuals have been labeled “probable or 
+possible AD” [1,2] and in practice this is more often than not shortened to simply “AD” and 
+this is problematic. Labeling individuals “AD” who do not have biomarker evidence of AD 
+undermines the major theme of this framework. But, we also recognize the deeply engrained 
+historic use of the term “Alzheimer” to denote particular syndromes. Thus, we strongly 
+recommend that a clinically ascertained syndrome consistent with what has historically been 
+labeled “probable or possible AD” be referred to as Alzheimer’s clinical syndrome, but not 
+as AD or some modified form of AD (e.g., “possible or probable AD”). This terminology 
+applies to both mildly impaired and demented individuals and is consistent with our position 
+that a syndrome is not a disease, while at the same time recognizing the deeply engrained 
+use of the term Alzheimer. This terminology is also consistent with the frontotemporal lobar 
+degeneration field where corticobasal syndrome refers to the syndrome and corticobasal 
+degeneration refers to a specific disease.
+Jack et al.
+Page 20
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

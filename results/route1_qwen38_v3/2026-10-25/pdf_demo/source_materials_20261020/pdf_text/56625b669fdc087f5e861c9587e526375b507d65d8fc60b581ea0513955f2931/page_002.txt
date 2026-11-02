@@ -1,0 +1,121 @@
+Nucleic Acids Research, 2023, Vol. 51, Database issue D639
+have strengths and weaknesses, including potential biases,
+false negatives and noise. Furthermore, the resulting inter-
+action data is scattered over a number of online resources,
+and available in varying namespaces and data-formats as
+well as varying levels of detail.
+Given this, a number of meta-resources dedicated to
+data integration in the protein network context have been
+developed. These resources aim to collect and critically
+assess protein–protein functional linkage data, integrate
+it, connect it to previous knowledge, and allow users to
+browse, compare and retrieve organism-wide protein net-
+works. Among frequently used and actively maintained
+frameworks are ConsensusPathDB (14), FunCoup (15),
+GeneMANIA (16), HumanBase (17), HumanNet (18), IID
+(19) and STRING (20–22). Within this group, STRING
+places its focus on comprehensiveness and ease of use––it
+covers >10 000 organisms, draws from a wide diversity of
+data sources including text mining and computational pre-
+dictions, and offers many intuitive interface features includ-
+ing personalization, enrichment detection and program-
+matic access.
+Researchers employ protein network meta-resources for
+a wide variety of purposes, broadly falling into three cate-
+gories: (i) facilitating individual, small-scale molecular dis-
+coveries, (ii) facilitating large-scale data analysis and (iii)
+contributing to new methodologies and workflows. With
+respect to STRING, it has, for example, proven useful in
+interpreting and reducing newly acquired genetic screen-
+ing datasets––these are sometimes noisy and unwieldy, and
+STRING can be used to distill such data into more manage-
+able sets of observations and hypotheses. As a case in point,
+consider three recent screens for SARS-CoV-2 human host
+factors (23–25). All three studies used STRING to inter-
+pret their initial, raw lists of screening hits––placing them
+into network contexts and searching them for functionally
+enriched processes/pathways. STRING and its competitors
+are also often used as data providers in novel methodolo-
+gies and computational resources, be it new databases, new
+algorithms, or community-wide competitions. As an exam-
+ple, consider two recent uses of STRING networks in deep-
+learning frameworks (26,27). Both studies use deep learn-
+ing to predict protein function (i.e. Gene Ontology terms),
+based on amino acid sequences and protein–protein inter-
+action network topologies derived from STRING.
+Here, we provide an update on the current features of the
+STRING database and describe some novel developments
+in more detail. The latter include a complete redesign of the
+co-expression based interaction prediction pipeline, newly
+exposed sub-scores for experimental dataset confidence, as
+well as novel facilities allowing users to upload and analyze
+any newly sequenced genome of interest.
+DATABASE CONTENT
+The scope of protein–protein links in STRING is that of a
+‘functional association’ (28–30)––proteins are considered to
+be associated when there is evidence suggesting an evolved,
+specific functional partnership between the two. This defini-
+tion includes proteins that are physically associated to each
+other in a protein complex or in a transient interaction, but
+also proteins that are more indirectly associated: they may
+work towards a common goal in a metabolic or signaling
+pathway, may regulate each other through intermediaries,
+or may jointly contribute to a common cellular structure.
+The granularity of what constitutes a ‘common function’
+is not formally defined; it should not be understood too
+broadly, however, and operationally it roughly corresponds
+to the specificity of pathways ‘maps’ or ‘diagrams’ in knowl-
+edgebases such as KEGG (31) or Reactome (32). It should
+be noted that the definition of a functional assocation can
+include proteins that act antagonistically to each other, al-
+beit in the same overall pathway.
+All protein–protein association evidence in STRING is
+assessed and quantified, and its correspondence to the
+above definition is benchmarked against common mem-
+bership in KEGG pathway maps (excluding maps that are
+largely based on homology, such as ‘ABC transporters’).
+The result of this benchmarking/calibration is a STRING
+‘confidence score’ for each association; confidence scores
+are scaled between zero and one, and correspond to the es-
+timated likelihood of a given association being true, given
+the underlying evidence. Confidence scores are first com-
+puted separately per evidence type (see (33) for an exam-
+ple), and then integrated into a final, ‘combined’ confidence
+score. All evidence collected for a given protein pair con-
+tributes to the score, irrespective of the exact nature of these
+proteins in terms of alternative splicing isoforms or post-
+translational modifications; correspondingly, the interact-
+ing unit in STRING networks is the entire protein-coding
+locus, represented by its most canonical protein product
+(34).
+All confidence scores in STRING are pre-computed
+and freely available for download, under a Creative Com-
+mons Attribution license (CC BY 4.0). The various evi-
+dence types are grouped into seven distinct ‘evidence chan-
+nels’, with separate sub-scores available for each channel.
+These channels can also be individually viewed on the
+STRING user interface, together with their underlying evi-
+dence, and can be enabled or disabled separately as desired.
+Of the seven channels, the first three (‘neighborhood’, ‘fu-
+sion’ and ‘co-occurrence’) are dealing with association ev-
+idence that can be gleaned from genome sequences alone.
+These so-called ‘genomic context’ channels (reviewed in
+(35,36)) are based on detecting evolutionary constraints
+arising from functional gene-gene partnerships, and are
+best applicable in prokaryotic genomes. Another channel
+(‘co-expression’) is dealing with functional genomics mea-
+surements (transcripts or proteins) across a multitude of
+conditions, searching for evidence of common expression
+regulation (see also below). Next, the ‘experiments’ chan-
+nel deals with laboratory experiments that were conducted
+with the expressed goal to uncover protein–protein associ-
+ation evidence. They are imported from primary database
+repositories: BioGRID (37), DIP (38), PDB (39), as well
+as IntAct and its partner databases in the IMEx consor-
+tium (40). The final two evidence channels are concerned
+with protein–protein associations that are already known.
+The ‘database’ channel imports well-established knowledge
+(‘textbook knowledge’) about protein complexes, pathways
+and other functional connections from dedicated knowl-
+edge resources: KEGG (31), Reactome (32), MetaCyc (41),
+EBI Complex Portal (42), and Gene Ontology Complexes

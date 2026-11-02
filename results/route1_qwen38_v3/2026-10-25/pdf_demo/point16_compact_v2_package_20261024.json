@@ -1,0 +1,18 @@
+{
+  "status": "POINT16_COMPACT_V2_LOCAL_PREFLIGHT_PASS_A100_NOT_RUN",
+  "package_sha256": "33ac2c782057f4dc7fa6639ec8b7d7e2b6b76c4067f4b2691ae2b4bd0e21c695",
+  "package_bytes": 17683,
+  "new_input_budget": {
+    "input_tokens": 2379,
+    "required_total": 2891,
+    "input_ids_sha256": "0ff01c04ef304bb95f08f506abacbf4adad116c23b30221b425d437d9e935298",
+    "within_budget": true,
+    "truncation": false
+  },
+  "same_scope_and_candidates": true,
+  "new_model_runs": 0,
+  "GPU_used": false,
+  "package_path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\route1_pdf_point16_compact_v2_20261024.pyz",
+  "new_input_sha256": "0679d723ad7afd78c955bf67f6f6edeb658d183f52cdff23b7f060a3181b2f24",
+  "parent_input_sha256": "5028fabd5588bbc04608fea32160899b5cb8d235c677f0a77ab7fb0605212490"
+}

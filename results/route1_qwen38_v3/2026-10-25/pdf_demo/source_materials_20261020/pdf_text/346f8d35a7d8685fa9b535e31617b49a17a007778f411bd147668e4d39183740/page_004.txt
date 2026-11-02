@@ -1,0 +1,123 @@
+5146
+JACK ET AL.
+TABLE 1
+Categorization of fluid analyte and imaging biomarkers.
+Biomarker category
+CSF or plasma analytes
+Imaging
+Core Biomarkers
+Core 1
+A (Aβ proteinopathy)
+Aβ 42
+Amyloid PET
+T1: (phosphorylated and
+secreted AD tau)
+p-tau217, p-tau181,
+p-tau231
+Core 2
+T2 (AD tau
+proteinopathy)
+MTBR-tau243, other
+phosphorylated tau
+forms (e.g., p-tau205),
+non-phosphorylated
+mid-region tau
+fragmentsa
+Tau PET
+Biomarkers of non-specific processes involved in AD pathophysiology
+N (injury, dysfunction,
+or degeneration of
+neuropil)
+NfL
+Anatomic MRI,
+FDG PET
+I (inflammation)
+Astrocytic activation
+GFAP
+Biomarkers of non-AD copathology
+V vascular brain injury
+Infarction on MRI
+or CT, WMH
+S α-synuclein
+αSyn-SAAa
+Notes: P-tau231, p-tau205, MTBR-tau243, and non-phosphorylated tau
+fragments are included in this table because they are discussed in the text;
+however, these analytes have not undergone the same level of validation
+testing as other Core biomarkers. Biomarkers are categorized based on
+four criteria. First, three broad mechanistic groupings have been identified.
+Second, biomarkers are subclassified based on the proteinopathy or patho-
+physiologic pathway that each measures (e.g., A, T1, T2, N etc.). Third, within
+the Core category we distinguish between Core 1 and Core 2 biomarkers.
+Fourth, imaging and fluid analyte biomarkers are listed separately within
+each category.
+Abbreviations: Aβ, amyloid beta; AD, Alzheimer’s disease; αSyn-SAA, alpha-
+synuclein seed amplification assay; CSF, cerebrospinal fluid; CT, computed
+tomography; FDG, fluorodeoxyglucose; GFAP, glial fibrillary acidic protein;
+MRI, magnetic resonance imaging; MTBR, microtubule-binding region; NfL,
+neurofilament light chain; PET, positron emission tomography; WMH, white
+matter hyperintensity.
+aA fluid analyte that is presently informative only when measured in CSF.
+No notation used if the fluid analyte is informative with plasma or CSF.
+research-use-only tests. The committee used the following criteria for
+inclusion in Table 2: the imaging, CSF, or BBM has either received
+regulatory approval or has played a prominent role in recent clinical
+research, and, in the opinion of the committee, enough evidence exists
+to support its clinical value and the assumption that it may receive
+regulatory approval in the future.
+Tables 1 and 2 categorize core and non-core biomarkers. In the
+remainder of Section 2, we focus on core biomarkers of ADNPC to
+create a logical progression to the subsequent topics of diagnosis and
+staging, which use only core biomarkers. Non-core biomarkers (i.e., N,
+I, V, and S) are discussed in Section 7.
+Core AD biomarkers are those in the A (Aβ) and T (tau) categories
+(Table 1). The A category denotes biomarkers of the Aβ proteinopa-
+thy pathway. Soluble aggregation-prone Aβ peptides are the molecular
+building blocks of insoluble fibrillar Aβ aggregates in plaques. Hence,
+fluid and imaging A biomarkers “represent different biochemical pools
+of the same proteinopathy pathway.”16 Moreover, although fluid Aβ42-
+based assays may become abnormal slightly before amyloid PET,17 the
+two are usually highly concordant.18–20
+Timing relationships are different across the spectrum of T biomark-
+ers. Phosphorylated mid-region fragments (phosphorylated tau [p-tau]
+181, 217, and 231) become abnormal around the same time as amy-
+loid PET and before tau PET.21–24 This has led to the suggestion that
+secretion of tau fragments phosphorylated at specific residues (181,
+217, and 231) may represent a physiologic reaction to Aβ plaques25
+and may link Aβ proteinopathy to early tau proteinopathy.26,27 In con-
+trast, other tau fragment analytes (e.g., microtubule-binding region
+[MTBR-tau243] and non-phosphorylated mid-region tau fragments)
+become abnormal later and correlate better with tau PET than with
+amyloid PET.28,29 These observations led us to split the T biomarker
+category into two subcategories: T1 (biofluid analytes of soluble tau
+fragments that may reflect a reaction to amyloid plaques or to solu-
+ble Aβ species in plaque penumbra) and T2 (tau PET imaging or biofluid
+analytes that signal the presence of AD tau aggregates). Because of
+theirtimeofonset,plasmap-tau217,181,and231havebeenproposed
+as biomarkers of Aβ plaques, but this is difficult to accept conceptually
+becausethesearetaufragments,notmeasuresoftheAβproteinopathy
+pathway. Furthermore, these tau analytes do correlate with tau pro-
+teinopathy in addition to Aβ proteinopathy.30 The T1 and T2 categories
+address these conceptual issues.
+We introduce the concept of Core 1 and Core 2 AD biomark-
+ers, which are differentiated by the timing of abnormality onset and
+intended use (Box 2). Core 1 biomarkers become abnormal around
+the same time as amyloid PET, and are those in the A, T1, or
+hybrid ratio categories (Tables 1 and 2). Because most individuals
+with abnormal amyloid PET have intermediate-to-high ADNPC (dis-
+cussed in Section 3.2), the Core 1 category represents ADNPC more
+generally (i.e., both neuritic plaques and tangles). Core 1 biomark-
+ers define the initial stage of AD that is detectable in vivo and can
+identify the presence of AD in both symptomatic and asymptomatic
+individuals.
+Core 2 biomarkers are those in the T2 category (Tables 1 and 2)
+and include tau PET and certain soluble tau fragments associated
+with tau proteinopathy (e.g., MTBR-tau243), but also pT205 and non-
+phosphorylated mid-region tau fragments.21,29 Core 2 biomarkers
+become abnormal later in the evolution of AD and are more closely
+linked with the onset of symptoms than are Core 1 biomarkers. Core
+2 biomarkers, when combined with Core 1, may be used to stage
+biological disease severity.
+CSF assays/platforms and PET ligands that have received regulatory
+approval for clinical use are listed in Table S1 in supporting information.
+Readers are referred to recent reviews for details describing specific
+fluid biomarker assays and PET ligands.31–33

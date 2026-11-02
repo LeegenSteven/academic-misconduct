@@ -1,0 +1,13 @@
+{
+  "requested_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8371605.1/PMC8371605.1.xml?md5=66a55f35e816678ef07ad9a5a1dfed9a",
+  "final_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8371605.1/PMC8371605.1.xml?md5=66a55f35e816678ef07ad9a5a1dfed9a",
+  "retrieved_at_utc": "2026-10-20T07:58:36.478992+00:00",
+  "http_status": 200,
+  "etag": "\"66a55f35e816678ef07ad9a5a1dfed9a\"",
+  "last_modified": "Sat, 27 Jun 2026 03:28:55 GMT",
+  "sha256": "5e244fc69451d00491187fb6ec84bae135fc74cde2aac7b554754fe810a14f21",
+  "bytes": 140721,
+  "official_md5": "66a55f35e816678ef07ad9a5a1dfed9a",
+  "official_md5_verified": true,
+  "attempts": []
+}

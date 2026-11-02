@@ -1,0 +1,122 @@
+{
+  "pymupdf_version": "1.28.2",
+  "images": [
+    {
+      "path": "页面核对图/01_施引第5页_组合指代与38至40引用组.png",
+      "pdf_role": "citing",
+      "pdf_page": 5,
+      "clip_pdf_points": [
+        37.516998291015625,
+        484.0920104980469,
+        557.52001953125,
+        732.0830078125
+      ],
+      "sha256": "ed6ac759e3fb12ab366f0459c6720236d292dde36c95d520a64a51dbb2a1f042",
+      "scope": "whole intersecting text blocks with margin"
+    },
+    {
+      "path": "页面核对图/02_施引第22页_参考文献40.png",
+      "pdf_role": "citing",
+      "pdf_page": 22,
+      "clip_pdf_points": [
+        304.6549987792969,
+        41.104000091552734,
+        557.5989990234375,
+        734.0609741210938
+      ],
+      "sha256": "127d6eba8a83b5d12481e76aafcdc3d4e742e75ad58dde392fdc37a11f180246",
+      "scope": "whole intersecting text blocks with margin"
+    },
+    {
+      "path": "页面核对图/03_被引第1页_题名.png",
+      "pdf_role": "cited",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        31.684999465942383,
+        83.43099975585938,
+        569.2589721679688,
+        205.197998046875
+      ],
+      "sha256": "8af1e457871f3afd16a6d43149f14dfcb5821fb0a3432e10f96325d6627c1b6e",
+      "scope": "whole intersecting text blocks with margin"
+    },
+    {
+      "path": "页面核对图/04_被引第1页_DOI.png",
+      "pdf_role": "cited",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        31.684999465942383,
+        83.43099975585938,
+        569.2589721679688,
+        205.197998046875
+      ],
+      "sha256": "8af1e457871f3afd16a6d43149f14dfcb5821fb0a3432e10f96325d6627c1b6e",
+      "scope": "whole intersecting text blocks with margin"
+    },
+    {
+      "path": "页面核对图/05_补充只读_被引第2页_参与者与续句.png",
+      "pdf_role": "cited",
+      "pdf_page": 2,
+      "clip_pdf_points": [
+        298.1419982910156,
+        628.2739868164062,
+        570.8150024414062,
+        753.7760009765625
+      ],
+      "sha256": "36e00d658423fa8304d3f56f63c38cac7ad400ebe0d28b488b963c8836ba7a65",
+      "scope": "whole intersecting text blocks with margin"
+    },
+    {
+      "path": "页面核对图/06_补充只读_被引第3页_续句n34.png",
+      "pdf_role": "cited",
+      "pdf_page": 3,
+      "clip_pdf_points": [
+        31.684999465942383,
+        566.31298828125,
+        304.260009765625,
+        603.2760009765625
+      ],
+      "sha256": "e546a6d9513ebaa428cb9285fc0736acebce20f833852f566d12c68368bfc777",
+      "scope": "whole intersecting text blocks with margin"
+    },
+    {
+      "path": "页面核对图/07_补充只读_被引第8页_分组及n34.png",
+      "pdf_role": "cited",
+      "pdf_page": 8,
+      "clip_pdf_points": [
+        31.685001373291016,
+        39.25600051879883,
+        570.7030029296875,
+        754.52197265625
+      ],
+      "sha256": "f3b4991b5a3ece7a486e2b20e5d08f430b8fd4bc83dcebb8f9e9c5daaa3e91d2",
+      "scope": "whole intersecting text blocks with margin"
+    },
+    {
+      "path": "页面核对图/08_补充只读_被引第3页_图例图注与正文.png",
+      "pdf_role": "cited",
+      "pdf_page": 3,
+      "clip_pdf_points": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        790.8660278320312
+      ],
+      "sha256": "95fc6fe8144aab4635d8d88adb0246762cefb596ec329ce0e11bc3f7deffbec9",
+      "scope": "whole page"
+    }
+  ],
+  "status": "assistant_inspected_eight_source_images_no_human_signoff",
+  "assistant_inspection": {
+    "recorded_at_utc": "2026-10-23T11:43:43.149421+00:00",
+    "inspector_role": "assistant",
+    "observations": [
+      "The citing A−T2+ context crosses the two text columns on PDF page 5; rare is followed by references 38–40 and the next measurement-variation clause carries reference 41.",
+      "Reference 40 and the cited title/DOI match the intended source.",
+      "The Results sentence continues from page 2 to page 3 and explicitly reports A−T+ n=34; page 8 repeats it after the PET-group definitions.",
+      "The original Figure 2 caption associates A−T+ with n=292, while the plot/risk-table labels and clinical-progression main text associate 292 with A+T−. Preserve this visible discrepancy without silently editing the source."
+    ],
+    "human_review": null,
+    "semantic_adjudication": null
+  }
+}

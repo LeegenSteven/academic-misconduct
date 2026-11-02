@@ -1,0 +1,186 @@
+to accumulate in the lower quality final 60–70 bases of each read.
+Furthermore, the reverse read has notably poorer quality, with
+quality dropping significantly by approximately base 120. These
+quality issues can be seen clearly in the FastQC plots, shown in
+the Supplementary Figure S1, compared with the much higher
+average
+quality
+of
+the
+post-filtered
+data,
+as
+shown
+in
+Supplementary Figure S2.
+Not surprisingly, trimming is even more critical to achieving
+acceptable alignment rates with these data. The final part of
+Table 1 shows that 51.5% of the reads align in strict mode,
+which requires a perfect match, while just 7% of the reads can
+be aligned when allowing for one mismatch. Even with the liberal
+default settings, allowing nine mismatches,525% (197 933 reads)
+can be aligned. However, after trimming, almost 78% of the
+reads align perfectly.
+4.2
+De novo assembly
+Both datasets also showed considerable improvement in a de
+novo assembly scenario. For the first dataset, the contig N50
+size increased by 58% (95 389 versus 60 370 bp) after preprocess-
+ing, while the maximum contig size improved by 28%. Also,
+the assembly from unfiltered data contained a 34-bp perfect
+match to an adapter sequence, while no adapters were found
+in the filtered assemblies.
+The second dataset showed even greater benefits after trim-
+ming, with 77% improvement in N50 contig size (177880
+versus 100 662bp) and 55% increase in maximum contig size.
+Perhaps surprisingly, no adapter sequences were found in the
+assembly of the untrimmed version of this dataset.
+4.3
+Comparison with existing tools
+We also compared the performance of Trimmomatic with a var-
+iety of existing adapter and quality filtering tools in similar refer-
+enced-based scenarios, as described in the Supplementary
+Methods. The tools selected were AdapterRemoval (Lindgreen,
+2012), and Scythe/Sickle (https://github.com/najoshi/), which
+fully support paired-end data and EA-Utils (Aronesty, 2013),
+which maintains read pairing but loses singletons (reads whose
+mate has been filtered). Additionally, the single-end tools
+Cutadapt (Martin, 2011), Fastx-Toolkit (http://hannonlab.cshl.
+edu/fastx_toolkit)
+and
+Reaper
+(http://www.ebi.ac.uk/*stijn/
+reaper) were included.
+We filtered and aligned using paired-end mode for those tools
+that support it, but we used single-end mode as a fallback where
+necessary. In practice, ignoring pairing will result in suboptimal
+alignments but was done here in the interest of making the
+output of all tools comparable.
+Table 2 shows the output of the various tools aligned using
+Bowtie 2 in both tolerant and strict alignment settings. The top
+portion of this table, which shows the results using a tolerant
+alignment, suggests that the best tools perform almost identically
+in terms of output quality, with520 000 reads separating the top
+three, and most tools within 1% of the best. However, given
+that the unfiltered data show a difference of just 1.5%, the nar-
+rowness of the result is likely due to the relatively low rate of
+adapter contamination in this dataset, the high average read
+quality and the tolerant alignment settings used.
+The execution time varies widely, with EA-Utils leading,
+Trimmomatic following closely, while the remaining tools re-
+quire considerably longer time. However, the testing method-
+ology, using the median of 3 runs on a relatively small dataset,
+allows the entire dataset to be cached. In practice, it is likely that
+at least the faster tools will be limited by IO performance. The
+individual
+execution
+times
+for
+each
+run
+are
+shown
+in
+Supplementary Table S4.
+The equivalent alignment using strict mode, shown in the
+bottom part of the table, more clearly differentiates the tools,
+with
+the
+margin
+between
+Trimmomatic
+in
+Maximum
+Information mode and the alternatives widening considerably.
+Alignments of the same dataset using BWA painted a broadly
+similar picture, as shown in the top half of Table 3, although the
+difference between strict and tolerant mode is not so strong.
+Again, Maximum Information mode appears to outperform by
+a greater margin for stricter alignments.
+The results of dataset 2, shown in the lower half of Table 3,
+rank many of the tools differently, with AdapterRemoval drop-
+ping significantly in the ranking. Trimmomatic remains the best
+performer, especially in Maximum Information mode, but
+Cutadapt becomes the closest challenger. Reaper was unable to
+process this dataset, perhaps because of the long read length.
+5
+DISCUSSION
+5.1
+The need for read preprocessing
+We have illustrated the advantages of NGS data preprocessing in
+both reference-based and de novo assembly applications. For
+high-quality datasets, in reference-based applications, the bene-
+fits of preprocessing seem somewhat limited. We show 1.5%
+Table 1. Results of alignment of raw data and data trimmed by
+Trimmomatic from both datasets
+Dataset/aligner
+Reads
+Toleranta
+Strictb
+Dataset 1 with Bowtie2 aligner
+Unfiltered
+11 008190
+9018 810
+6 401927
+Trimmomatic—adapters only
+11 008150
+9117 952
+6 510253
+Trimmomatic—SW
+9 456826
+9079 434
+8 086905
+Trimmomatic—MI
+9 456826
+9116 627
+8 748376
+Trimmomatic—adapters and SW
+9 456819
+9150 361
+8 111470
+Trimmomatic—adapters and MI
+9 456126
+9153 375
+8 748401
+Dataset 1 with BWA aligner
+Unfiltered
+11 008190
+8750 851
+7 834544
+Trimmomatic—adapters only
+11 008150
+8864 884
+7 942198
+Trimmomatic—adapters and SW
+9 456819
+9110 831
+8 810063
+Trimmomatic—adapters and MI
+9 456126
+9145 423
+9 056403
+Dataset 2 with BWA aligner
+Unfiltered
+801192
+60 010
+11592
+Trimmomatic—adapters only
+801164
+121 926
+68177
+Trimmomatic—adapters and SW
+655075
+628 867
+590729
+Trimmomatic—adapters and MI
+658796
+639 740
+634779
+Note: Adapter trimming, where done, used palindrome mode. Best values per data-
+set and aligner are indicated in bold. MI indicates Maximum Information mode,
+and SW indicates Sliding Window mode.
+aAlignment allowing some mismatches and/or INDELs. See Supplementary
+Methods for more details.
+bAligned when no mismatches or INDELs were allowed.
+2118
+A.M.Bolger et al.

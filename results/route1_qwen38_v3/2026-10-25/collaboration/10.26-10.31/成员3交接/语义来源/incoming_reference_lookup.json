@@ -1,0 +1,204 @@
+[
+  {
+    "id": "W4390504230",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 26,
+    "target_matches": [],
+    "sha256": "c2e3023409a761e35c06012075f9bd4160864dcbfdf9accfc8f37c25c6dea96b",
+    "url": "https://api.crossref.org/works/10.1002/cpe.8010"
+  },
+  {
+    "id": "W4391319791",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 0,
+    "target_matches": [],
+    "sha256": "aa98eafb9822e5a229473283d823dccdbfdf42387406eba4aa408c6e8aef7221",
+    "url": "https://api.crossref.org/works/10.52783/jes.695"
+  },
+  {
+    "id": "W4391882695",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 30,
+    "target_matches": [
+      "10822_CR21"
+    ],
+    "sha256": "0d9fbcbe0422a54fa21c94d8d536656227257b2a75b05acd33e486678a2c4974",
+    "url": "https://api.crossref.org/works/10.1007/s11277-023-10822-5"
+  },
+  {
+    "id": "W4392783225",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 0,
+    "target_matches": [],
+    "sha256": "430bb5f92f59d049221cb846c7fe8b613b13fa0ff1e9201b05f4c234486de850",
+    "url": "https://api.crossref.org/works/10.33022/ijcs.v13i1.3717"
+  },
+  {
+    "id": "W4392854462",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 0,
+    "target_matches": [],
+    "sha256": "e7fd38171f65b4c4eb29c687cdd9395c4fed040a923be4f0fa137d032b03c070",
+    "url": "https://api.crossref.org/works/10.30574/gscarr.2024.18.3.0106"
+  },
+  {
+    "id": "W4394910925",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 28,
+    "target_matches": [
+      "ref2"
+    ],
+    "sha256": "d9ce20179a2d2a07e4110204e746202af6db90cfdc93609c255b65e899fb56cd",
+    "url": "https://api.crossref.org/works/10.1109/icimia60377.2023.10426091"
+  },
+  {
+    "id": "W4396634358",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 52,
+    "target_matches": [
+      "10.1016/j.compeleceng.2024.109276_bib0042"
+    ],
+    "sha256": "5a56800edf0149dd4122d4ee6aa2a3005da5c0c75c5ee0b37f992439b06afc01",
+    "url": "https://api.crossref.org/works/10.1016/j.compeleceng.2024.109276"
+  },
+  {
+    "id": "W4401171603",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 34,
+    "target_matches": [
+      "10.1016/j.entcom.2024.100852_b0155"
+    ],
+    "sha256": "8d851eeb3a1bb4d4c7b09b828bb3cc3853bb23e95bcd570e88d2dbda7c61e091",
+    "url": "https://api.crossref.org/works/10.1016/j.entcom.2024.100852"
+  },
+  {
+    "id": "W4402919591",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 24,
+    "target_matches": [
+      "9904_CR1"
+    ],
+    "sha256": "25bc1c8a3dba9317e8d8ad11f7a81309c65a8baaa28ff1f6e0f761a22a6fb352",
+    "url": "https://api.crossref.org/works/10.1007/s11081-024-09904-5"
+  },
+  {
+    "id": "W4403048172",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 9,
+    "target_matches": [
+      "44_CR7"
+    ],
+    "sha256": "af093c254701cb45104794851402dc07d2d23d8d6395eb856ef7cd8392f7b9d9",
+    "url": "https://api.crossref.org/works/10.1007/978-981-97-6103-6_44"
+  },
+  {
+    "id": "W4403723223",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 20,
+    "target_matches": [
+      "ref8"
+    ],
+    "sha256": "2c4a1babe85e8d23d15e9cc8a2b58d7c693375415059d2182346e7d7c05da067",
+    "url": "https://api.crossref.org/works/10.1109/iacis61494.2024.10721799"
+  },
+  {
+    "id": "W4406218056",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 42,
+    "target_matches": [
+      "ref=35"
+    ],
+    "sha256": "6a2c73b20ee2de57cd9db592baaa5eba5d24586c1e88232a1aef883b6f746b1b",
+    "url": "https://api.crossref.org/works/10.5772/intechopen.1006591"
+  },
+  {
+    "id": "W4408017740",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 15,
+    "target_matches": [
+      "ref11"
+    ],
+    "sha256": "26cc779cd42271769c10a191d70db719fe5100a3967e54013aee57610d95ef02",
+    "url": "https://api.crossref.org/works/10.1109/icmsci62561.2025.10894596"
+  },
+  {
+    "id": "W4411948763",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 37,
+    "target_matches": [
+      "ref34"
+    ],
+    "sha256": "7cf7e55f69f665b2b3a2ca16d9c5fb423a785186d5ecdd94a5fe67c2cd554302",
+    "url": "https://api.crossref.org/works/10.1109/access.2025.3585459"
+  },
+  {
+    "id": "W4413480838",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 35,
+    "target_matches": [
+      "ref_12"
+    ],
+    "sha256": "e7ded9850aabe8be252c510844cda44b13175b3b8c5597d5968a8613ceb3dfd2",
+    "url": "https://api.crossref.org/works/10.3390/math13172715"
+  },
+  {
+    "id": "W4414534611",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 21,
+    "target_matches": [
+      "e_1_2_8_14_1"
+    ],
+    "sha256": "896f1e72de564c687e091e920f3725e89ebd19c63bb798b2200ea0e8d25b1d89",
+    "url": "https://api.crossref.org/works/10.1002/itl2.70045"
+  },
+  {
+    "id": "W4416874876",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 21,
+    "target_matches": [
+      "ref21"
+    ],
+    "sha256": "21dcd0e7450d59608d71301d4dcaf873cb86ffd032b7f1f3cbdb6c887776f8b0",
+    "url": "https://api.crossref.org/works/10.1109/icoici65217.2025.11252990"
+  },
+  {
+    "id": "W7139045855",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 27,
+    "target_matches": [
+      "pone.0342008.ref026"
+    ],
+    "sha256": "93ebe23b2a560553dc345406f9813f77d2fe127a0df73e5cdb1f3b6ff47c567d",
+    "url": "https://api.crossref.org/works/10.1371/journal.pone.0342008"
+  },
+  {
+    "id": "W7160385562",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 15,
+    "target_matches": [
+      "37_CR2"
+    ],
+    "sha256": "f8c1075db74fa878e11dee102dc3672a2df91289c8e697735947cfb97b96759f",
+    "url": "https://api.crossref.org/works/10.1007/978-3-032-18802-1_37"
+  },
+  {
+    "id": "W7161582739",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 25,
+    "target_matches": [
+      "IJKM.410301.-0"
+    ],
+    "sha256": "da40024900fdf72a66ba1abfc722ba862a3d8f06644cac778aecd16f4d98a665",
+    "url": "https://api.crossref.org/works/10.4018/ijkm.410301"
+  },
+  {
+    "id": "W7221172091",
+    "status": "METADATA_RETRIEVED",
+    "ref_count": 10,
+    "target_matches": [
+      "JPCS_3328_1_012028bib2"
+    ],
+    "sha256": "fbe67d6ef642bc3c36a85d7feadb4502d7a5b15cc5df356de9ddb11de675c95f",
+    "url": "https://api.crossref.org/works/10.1088/1742-6596/3328/1/012028"
+  }
+]

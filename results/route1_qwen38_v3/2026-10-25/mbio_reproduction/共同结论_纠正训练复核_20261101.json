@@ -1,0 +1,55 @@
+{
+  "status": "jointly_confirmed",
+  "title": "Mbio纠正训练与评估技术复核共同结论",
+  "resolved_date": "2026-11-01",
+  "resolved_at": null,
+  "resolution_basis": {
+    "review_document": "发给李云_Mbio纠正训练复核意见_20261101.md",
+    "review_sha256": "fc48784bac72de798c54233aadc1c5c741cee7c7035b5cda9ffce72be534d761",
+    "review_scope": "执行与冻结配置一致性、Dev选点、新旧结果口径",
+    "confirmation_quote": "同意按此登记共同结论",
+    "confirmation_source": "用户转述陈明进2026-11-01回复"
+  },
+  "decisions": [
+    {
+      "id": "execution_and_freeze_consistency",
+      "conclusion": "纠正训练的执行与2026-10-31冻结配置一致。",
+      "basis": "训练脚本、修复实现、输入/gold、超参数、环境、输出目录及134步训练证据逐项吻合；尾批N语义由冻结脚本和既有FP32证据共同支持。"
+    },
+    {
+      "id": "dev_selection",
+      "conclusion": "按Sarol Dev Macro-F1规则选中checkpoint-134。",
+      "basis": "checkpoint-134 Dev Macro-F1为0.596966，高于checkpoint-100的0.566507；两候选共用同一Dev输入/gold，选点在本次纠正训练内部完成。"
+    },
+    {
+      "id": "test_recalculation",
+      "conclusion": "两组Test指标及预测解析经本机独立复算一致，无效输出为0。",
+      "basis": "Sarol为439/606、Macro-F1 0.648716；SciCiteVal为192/257、Macro-F1 0.724066；预测结构、三标签解析、重试与无效字段均核对通过。"
+    },
+    {
+      "id": "old_new_separation",
+      "conclusion": "新旧Mbio结果分列，历史结果和原输出保留。",
+      "basis": "新输出物理独立，old_history_overwritten=false；客观差异仅作为对照记录，不据此宣称普遍增益，也不改原45条分析或冻结gold。"
+    }
+  ],
+  "limitations": [
+    "旧Mbio的0.645354/0.745416来自回传声明，本机无独立旧原件；登记时沿用原登记文件，不扩大为本机独立复核。",
+    "train.log未打印每个窗口的num_items_in_batch/N值，窗口级归一化依据冻结脚本实现和既有production_accum16_tail13 FP32证据。",
+    "完整checkpoint-100和final_adapter权重未随本包回收；其哈希已登记，不能把缺失权重写成已本地复核。"
+  ],
+  "scope_boundary": "这是Mbio纠正训练、Dev选点、两组Test及新旧口径的技术共同结论，不等同路线一整体联合验收、PDF固定20点验收或27B逐位等价结论。",
+  "confirmations": {
+    "chen_mingjin": {
+      "status": "explicitly_confirmed",
+      "date": "2026-11-01",
+      "source": "user_reported_reply",
+      "quote": "同意按此登记共同结论"
+    },
+    "li_yun": {
+      "status": "registration_directive_received",
+      "date": "2026-11-01",
+      "source": "current_user_instruction",
+      "scope": "按上述复核意见登记Mbio技术共同结论"
+    }
+  }
+}

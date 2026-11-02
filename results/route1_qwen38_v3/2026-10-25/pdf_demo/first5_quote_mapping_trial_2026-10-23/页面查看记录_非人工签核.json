@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "file": "页面核对图/PDB_S07_source_block.png",
+      "assistant_viewed": true,
+      "observation": "可见struc-和com-处行末断词；映射未改变>144 000和protein/DNA/RNA口径。"
+    },
+    {
+      "file": "页面核对图/RNA_S10_source_block.png",
+      "assistant_viewed": true,
+      "observation": "对应原文排版中的betacoronavirus；提取层的U+00AD删除作为字符映射日志保留。"
+    }
+  ],
+  "human_signoff_inferred": false,
+  "PDF_source_modified": false
+}

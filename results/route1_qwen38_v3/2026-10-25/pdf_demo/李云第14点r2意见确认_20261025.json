@@ -1,0 +1,114 @@
+{
+  "record_type": "explicit_personal_technical_opinion_confirmation",
+  "reviewer": "李云",
+  "confirmation_date": "2026-10-25",
+  "exact_confirmation_time": null,
+  "source": "Direct human user message in this conversation",
+  "user_reply_verbatim": "好的，现在认可你这个了",
+  "immediately_preceding_summary_plain_text": "核对完了，原建议第2项说得过强，已修正：\n1. 40倍：条件性成立。包含HR＝1参照组时，39.9可概括为约40倍；不能无条件说“40倍已证明正确”。\n2. 分期映射：只能作粗略类比。施引表4的C/D都要求内侧颞叶及新皮质tau阳性，源研究的新皮质组并非人人满足前一条件，因此不能认定两组严格等同。\n3. 研究类型：核验原则正确。应看实际分析方法，但目前还不能确认它属于严格意义的Meta分析。\n结论：数字出处已经确认，整句仍不能直接判ACCURATE。修正意见已写入现有总表，没有登记为你的认可。",
+  "summary_scope_note": "Plain-text substantive summary of the immediately preceding assistant message; presentation markup and file-link rendering omitted.",
+  "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+  "point_number": 14,
+  "proposal_version": "point14_concentrated_technical_opinion_r2_20261025",
+  "proposal_snapshot_sha256": "0661bffab79a4c854f121c6378b973baa49061e3da2701c326d2794297ff5221",
+  "proposal_snapshot": {
+    "version": "point14_concentrated_technical_opinion_r2_20261025",
+    "status": "assistant_proposal_awaiting_Li_specific_confirmation",
+    "is_human_review": false,
+    "current_response_sha256": "09dfaee5dcce1a787b208274c8e49a8bf526e70e190e659922d28de15d1e277e",
+    "current_input_sha256": "50f8565b35b99f76d22fc9db3a4b7b98065b3b2bd20acafd2c265a0e15f13aff",
+    "source_files": [
+      {
+        "path_relative_to_workspace": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_2026-10-24/point14_medrxiv_v1_20220525.source.xml",
+        "file_sha256": "9952ee5607b3e8cf95adcceef891854dbd05faa4ad8f1e688bd8b953c2962b22"
+      },
+      {
+        "path_relative_to_workspace": "10.19-11.2/路线一PDF独立清单_20261020/sources/PMC11350039.1/PMC11350039.1.pdf",
+        "file_sha256": "346f8d35a7d8685fa9b535e31617b49a17a007778f411bd147668e4d39183740"
+      },
+      {
+        "path_relative_to_workspace": "10.19-11.2/路线一PDF独立清单_20261020/sources/PMC9671808.1/PMC9671808.1.pdf",
+        "file_sha256": "f8c00d3535ed663a6349a09c68fbec797f551108a953832d8576d110fa4c8b34"
+      }
+    ],
+    "preprint_sections_checked": {
+      "s2c": {
+        "section_id": "s2c",
+        "normalized_text_sha256": "c8da23369f0d47d2901c3da911f1063648c5a7fd5acb16e19d08335ab470d8b0"
+      },
+      "s9a": {
+        "section_id": "s9a",
+        "normalized_text_sha256": "257bbd7c18855099db0c4fd87a109b1bb1bb64366e332bead400742140745700"
+      },
+      "s9e": {
+        "section_id": "s9e",
+        "normalized_text_sha256": "8d1e081a6b4bf08ff94adc855ead7e45335b60cec3b65612a7a54cafcfe6423b"
+      },
+      "s9c": {
+        "section_id": "s9c",
+        "normalized_text_sha256": "03f8594cc1428f439403819d39cf3a029fea5825a465cd7d21b78a15843ceb45"
+      }
+    },
+    "published_methods_pdf_page": 8,
+    "citing_stage_table_pdf_page": 13,
+    "citing_stage_tables": [
+      3,
+      4
+    ],
+    "citing_scope_pdf_page": 14,
+    "proposed_opinions": {
+      "40_fold": {
+        "recommendation": "Including the HR=1 reference permits approximately 40-fold; this is a plausible contextual reading, not proof that a range restricted to the Aplus stages equals 40.",
+        "basis": "The citing sentence explicitly names the A−T2− reference; 39.9/1=39.9, while 39.9/1.5 excludes that reference.",
+        "limitation": "This supports the reference-relative reading, not a claim that every possible definition of range equals 40."
+      },
+      "author_stage_mapping": {
+        "recommendation": "The author-intended coarse analogy is understandable, but the source neocortical group is not established as equivalent to the citing scheme’s combined C/D group.",
+        "basis": "Citing Table4 requires both medial-temporal and neocortical tau positivity for C and D. Source methods s9c and published page8 report that only 49/65 in the baseline neocortical group were also MTL-positive; the source grouping does not impose the same full conjunction. The source temporal-neocortical ROI and positivity grouping also do not independently validate the citing moderate/high C/D subdivision.",
+        "baseline_count_caveat": "49/65 describes the full baseline neocortical group, not a separate tally of the 60-participant clinical-progression subset; no subset-specific count is inferred.",
+        "limitation": "In our scheme means the stage names are the citing authors’ own. Absence of identical names is not itself an error, but numeric HR=39.9 cannot automatically be treated as a validated estimate for the exact combined C/D population or separately for each stage.",
+        "earlier_supported_correspondence_claim_withdrawn": true
+      },
+      "research_design": {
+        "recommendation": "The verification principle is correct: inspect actual pooled analyses rather than keyword presence. This audit does not establish that the study satisfies a strict meta-analysis definition.",
+        "observed_methods": "Seven cohorts, N=1325, participant-level Cox models adjusted for age, sex, education and cohort, plus longitudinal mixed-effects models.",
+        "methodological_source": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-26",
+        "methodological_source_section": "26.4.2",
+        "guidance_paraphrase": "IPD meta-analysis can use a one-stage regression accounting for study grouping; absence of a two-stage pooling step alone does not disprove meta-analysis.",
+        "limitation": "Cochrane guidance illustrates methods, not certification of this observational study as a systematic IPD review. Strict study-design naming remains open."
+      }
+    },
+    "proposed_whole_claim_disposition": "Retain version discrepancy and unresolved whole-claim classification; numeric provenance is settled, but exact stage-population equivalence and strict design nomenclature are not established.",
+    "new_confirmation_requested_only_for": [
+      "conditional HR-reference interpretation",
+      "coarse author-stage analogy with explicit non-equivalence of group definitions",
+      "methods-based design appraisal without a strict meta-analysis determination"
+    ],
+    "already_confirmed_numeric_provenance_not_reasked": true,
+    "Li_label": null,
+    "joint_label": null,
+    "formal_acceptance_added": 0,
+    "model_run_performed": false,
+    "supersedes": "point14_concentrated_technical_opinion_20261025",
+    "revision_reason": "Independent source-definition audit: earlier combined C/D correspondence wording was too strong.",
+    "verification_conclusion": "Item1 is defensible only conditionally; Item2 required substantive narrowing and is corrected here; Item3 is a valid review principle, not proof of the cited design label. No whole-claim label follows."
+  },
+  "confirmed_opinions": {
+    "HR_reference": "约40倍仅作为包含HR=1参照组的有条件解释，不认定所有range定义都等于40。",
+    "stage_mapping": "只认可粗略类比；施引Table4 C/D与源新皮质组定义不完全相同，不支持严格等同或各自独立验证。",
+    "research_design": "应按实际分析方法核研究类型；当前未确认严格Meta分析身份。"
+  },
+  "whole_claim_disposition": "完整主张继续待核，不直接判ACCURATE。",
+  "confirmation_is_not_classification_label": true,
+  "confirmed_classification_label": null,
+  "original_explanation_semantic_pass": null,
+  "joint_signoff": false,
+  "formal_end_to_end_accepted": false,
+  "independent_blind_claimed": false,
+  "response_sha256": "09dfaee5dcce1a787b208274c8e49a8bf526e70e190e659922d28de15d1e277e",
+  "input_sha256": "50f8565b35b99f76d22fc9db3a4b7b98065b3b2bd20acafd2c265a0e15f13aff",
+  "generation_version": "remaining13_r2_original_512_generation",
+  "parser_version": "route1_pdf_explanation_parser_v4_20261024",
+  "original_13_point_confirmation_unchanged": true,
+  "unconfirmed_earlier_strong_correspondence_not_adopted": true
+}

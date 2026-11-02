@@ -1,0 +1,209 @@
+43. 	
+Bayburt TH, Sligar SG: Membrane protein assembly into Nanodiscs. FEBS Lett. 
+2010; 584(9): 1721–7.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+44. 	
+ Gao Y, Cao E, Julius D, et al.: TRPV1 structures in nanodiscs reveal 
+mechanisms of ligand and lipid action. Nature. 2016; 534(7607): 347–51. 
+Publisher Full Text | Faculty Opinions Recommendation 
+45. 	
+ Liu S, Chang S, Han B, et al.: Cryo-EM structures of the human cation-
+chloride cotransporter KCC1. Science. 2019; 366(6464): 505–8.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+46. 	
+Thonghin N, Kargas V, Clews J, et al.: Cryo-electron microscopy of membrane 
+proteins. Methods. 2018; 147: 176–86.  
+PubMed Abstract | Publisher Full Text 
+47. 	
+Nasr ML, Wagner G: Covalently circularized nanodiscs; challenges and 
+applications. Curr Opin Struct Biol. 2018; 51: 129–34.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+48. 	
+Henderson R: The potential and limitations of neutrons, electrons and X-rays 
+for atomic resolution microscopy of unstained biological molecules. Q Rev 
+Biophys. 1995; 28(2): 171–93.  
+PubMed Abstract | Publisher Full Text 
+49. 	
+Glaeser RM, Hall RJ: Reaching the information limit in cryo-EM of biological 
+macromolecules: Experimental aspects. Biophys J. 2011; 100(10): 2331–7. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+50. 	
+ Merk A, Bartesaghi A, Banerjee S, et al.: Breaking Cryo-EM Resolution 
+Barriers to Facilitate Drug Discovery. Cell. 2016; 165(7): 1698–707.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+51. 	
+ Khoshouei M, Radjainia M, Baumeister W, et al.: Cryo-EM structure of 
+haemoglobin at 3.2 Å determined with the Volta phase plate. Nat Commun. 
+2017; 8: 16099.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+52. 	
+ Herzik MA Jr, Wu M, Lander GC: High-resolution structure determination of 
+sub-100 kDa complexes using conventional cryo-EM. Nat Commun. 2019; 10(1): 
+1032.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+53. 	
+ Fan X, Wang J, Zhang X, et al.: Single particle cryo-EM reconstruction of 52 
+kDa streptavidin at 3.2 Angstrom resolution. Nat Commun. 2019; 10(1): 2386. 
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+54. 	
+Kratz PA, Böttcher B, Nassal M: Native display of complete foreign protein 
+domains on the surface of hepatitis B virus capsids. Proc Natl Acad Sci U S A. 
+1999; 96(5): 1915–20.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+55. 	
+Martin TG, Bharat TAM, Joerger AC, et al.: Design of a molecular support for 
+cryo-EM structure determination. Proc Natl Acad Sci U S A. 2016; 113(47): 
+E7456–E7463.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+56. 	
+Wu S, Avila-Sakar A, Kim JM, et al.: Fabs enable single particle cryoEM studies 
+of small proteins. Structure. 2012; 20(4): 582–92.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+57. 	
+Aksel T, Yu Z, Cheng Y, et al.: Molecular goniometers for single-particle cryo-
+EM of DNA-binding proteins. Biophysics. 2020.  
+Publisher Full Text 
+58. 	
+ Zhang C, Cantara W, Jeon Y, et al.: Analysis of discrete local variability 
+and structural covariance in macromolecular assemblies using Cryo-EM and 
+focused classification. Ultramicroscopy. 2019; 203: 170–80.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+59. 	
+Padilla JE, Colovos C, Yeates TO: Nanohedra: Using symmetry to design self 
+assembling protein cages, layers, crystals, and filaments. Proc Natl Acad Sci U 
+S A. 2001; 98(5): 2217–21.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+60. 	
+Kwon NY, Kim Y, Lee JO: The application of helix fusion methods in structural 
+biology. Curr Opin Struct Biol. 2020; 60: 110–6.  
+PubMed Abstract | Publisher Full Text 
+61. 	
+ Coscia F, Estrozi LF, Hans F, et al.: Fusion to a homo-oligomeric scaffold 
+allows cryo-EM analysis of a small protein. Sci Rep. 2016; 6: 30909.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+62. 	
+Liu Y, Gonen S, Gonen T, et al.: Near-atomic cryo-EM imaging of a small protein 
+displayed on a designed scaffolding system. Proc Natl Acad Sci U S A. 2018; 
+115(13): 3362–7.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+63. 	
+Yao Q, Weaver SJ, Mock JY, et al.: Fusion of DARPin to Aldolase Enables 
+Visualization of Small Protein by Cryo-EM. Structure. 2019; 27(7): 1148–1155.e3. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+64. 	
+ Liu Y, Huynh DT, Yeates TO: A 3.8 Å Resolution cryo-EM Structure of a 
+Small Protein Bound to an Imaging Scaffold. Nat Commun. 2019; 10(1): 1864.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+65. 	
+Mittl PR, Ernst P, Plückthun A: Chaperone-assisted structure elucidation with 
+DARPins. Curr Opin Struct Biol. 2020; 60: 93–100.  
+PubMed Abstract | Publisher Full Text 
+66. 	
+ Zhang K, Li S, Kappel K, et al.: Cryo-EM Structure of a 40 kDa SAM-IV 
+Riboswitch RNA at 3.7 Å resolution. Nat Commun. 2019; 10(1): 5511.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+67. 	
+Noble AJ, Dandey VP, Wei H, et al.: Routine Single Particle CryoEM Sample and 
+Grid Characterization by Tomography. eLife. 2018; 7: e34257.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+68. 	
+Glaeser RM, Han BG: Opinion: Hazards Faced by Macromolecules When 
+Confined to Thin Aqueous Films. Biophys Rep. 2017; 3(1): 1–7.  
+PubMed Abstract | Publisher Full Text | Free Full Text  
+69. 	
+ Noble AJ, Wei H, Dandey VP, et al.: Reducing effects of particle adsorption 
+to the air-water interface in cryo-EM. Nat Methods. 2018; 15(10): 793–795.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation
+70. 	
+Wagner J, Schaffer M, Fernández-Busnadiego R: Cryo-electron tomography-the 
+cell biology that came in from the cold. FEBS Lett. 2017; 591(17): 2520–33.  
+PubMed Abstract | Publisher Full Text 
+71. 	
+Henderson LD, Beeby M: High-Throughput Electron Cryo-tomography of 
+Protein Complexes and Their Assembly. Methods Mol Biol. 2018; 1764: 29–44.  
+PubMed Abstract | Publisher Full Text 
+72. 	
+Leigh KE, Navarro PP, Scaramuzza S, et al.: Subtomogram averaging from cryo-
+electron tomograms. Methods Cell Biol. 2019; 152: 217–59.  
+PubMed Abstract | Publisher Full Text 
+73. 	
+Marko M, Hsieh C, Schalek R, et al.: Focused-ion-beam thinning of frozen-
+hydrated biological specimens for cryo-electron microscopy. Nat Methods. 
+2007; 4(3): 215–7.  
+PubMed Abstract | Publisher Full Text 
+74. 	
+Schaffer M, Mahamid J, Engel BD, et al.: Optimized cryo-focused ion beam 
+sample preparation aimed at in situ structural studies of membrane proteins. J 
+Struct Biol. 2017; 197(2): 73–82.  
+PubMed Abstract | Publisher Full Text 
+75. 	
+Oda T: Three-dimensional structural labeling microscopy of cilia and flagella. 
+Microscopy (Oxf). 2017; 66(4): 234–44.  
+PubMed Abstract | Publisher Full Text 
+76. 	
+DiMaio F, Chiu W: Tools for Model Building and Optimization into Near-Atomic 
+Resolution Electron Cryo-Microscopy Density Maps. Meth Enzymol. 2016; 579: 
+255–76.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+77. 	
+Afonine PV, Poon BK, Read RJ, et al.: Real-space refinement in PHENIX for 
+cryo-EM and crystallography. Acta Crystallogr D Struct Biol. 2018; 74(Pt 6): 
+531–44.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+78. 	
+Brown A, Long F, Nicholls RA, et al.: Tools for macromolecular model building 
+and refinement into electron cryo-microscopy reconstructions. Acta Crystallogr 
+D Biol Crystallogr. 2015; 71(Pt 1): 136–53.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+79. 	
+Nicholls RA, Tykac M, Kovalevskiy O, et al.: Current approaches for the fitting 
+and refinement of atomic models into cryo-EM maps using CCP-EM. Acta 
+Crystallogr D Struct Biol. 2018; 74(Pt 6): 492–505.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+80. 	
+Terwilliger TC, Adams PD, Afonine PV, et al.: A fully automatic method yielding 
+initial models from high-resolution cryo-electron microscopy maps. Nat 
+Methods. 2018; 15(11): 905–8.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+81. 	
+Wang RYR, Song Y, Barad BA, et al.: Automated structure refinement of 
+macromolecular assemblies from cryo-EM maps using Rosetta. eLife. 2016; 5: 
+e17219.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+82. 	
+ Singharoy A, Teo I, McGreevy R, et al.: Molecular dynamics-based 
+refinement and validation for sub-5 Å cryo-electron microscopy maps. eLife. 
+2016; 5: e16105.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+83. 	
+ Kim DN, Moriarty NW, Kirmizialtin S, et al.: Cryo_fit: Democratization of 
+flexible fitting for cryo-EM. J Struct Biol. 2019; 208(1): 1–6.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+84. 	
+Igaev M, Kutzner C, Bock LV, et al.: Automated cryo-EM structure refinement 
+using correlation-driven molecular dynamics. eLife. 2019; 8: e43542.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+85. 	
+Tama F, Miyashita O, Brooks CL: Normal mode based flexible fitting of high-
+resolution structure into low-resolution experimental data from cryo-EM. J 
+Struct Biol. 2004; 147(3): 315–26.  
+PubMed Abstract | Publisher Full Text 
+86. 	
+ Afonine PV, Klaholz BP, Moriarty NW, et al.: New tools for the analysis and 
+validation of cryo-EM maps and atomic models. Acta Crystallogr D Struct Biol. 
+2018; 74: 814–40.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+Page 12 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

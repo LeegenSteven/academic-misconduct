@@ -1,0 +1,47 @@
+should serve as biomarkers of damage to the neuropil in the (N) group of biomarkers. In 
+fact, these may ultimately be preferable to T-tau as a CSF-based (N) biomarker. Because 
+CSF P-tau and T-tau are highly correlated in AD and are equally correlated with tau PET 
+[124], they do not seem to provide independent information in AD.
+Conceptually, it might be useful to think of ATX(N), where X is an array of biomarkers of 
+specific pathologic processes, which hopefully will become available in the future (TDP43, 
+synuclein, etc.), and (N) represents cumulative brain injury from all etiologies. Even if 
+biomarkers of all known brain pathologic processes became available, a sensitive but 
+nonspecific (N) biomarker would still be useful because it seems certain that some 
+proportion of cumulative brain injury would remain unexplained by all available disease 
+biomarkers.
+9.7. Biomarkers other than AT(N)
+While we focus on biomarkers of AD, we emphasize that other currently available 
+biomarkers have a valuable role to play. Several different MRI measures provide information 
+about cerebrovascular disease. Although a biomarker for α-synuclein does not yet exist, 
+decreased striatal dopamine transporter uptake of 123I-2β-carbomethoxy-3β-(4-iodophenyl)-
+N-(3-fluoropropyl) nortropane single-photon emission computed tomography (dopamine 
+transporter, DaTscan) is thought to reflect nigrostriatal degeneration in Lewy body disease 
+[173]. Likewise, the FDG PET cingulate island sign is often present in Lewy body disease 
+[174]. These tests may provide useful information about non-AD pathologic processes and 
+may be used alone or concordantly with AT(N) biomarkers to provide a more complete 
+picture of the heterogeneous etiologic nature of dementia. For example, in an individual with 
+an A+T−(N)+ biomarker profile and cerebral infarction(s), atrophy is attributable at least in 
+part to vascular brain injury.
+The fact that most dementia is multifactorial presents a challenge both for diagnosis and 
+treatment. In individuals with multiple brain neuropathologic processes, each makes some 
+contribution to the individual’s cognitive impairment. In an individual with multiple 
+neuropathologic processes, treating one of them (i.e., AD) should have a beneficial effect. 
+Therefore, using biomarkers to aid in discovery of treatments for AD should not be delayed 
+until biomarkers of all possible etiologies for dementia have been developed.
+Finally, while many neuropathologic processes are known to contribute to cognitive 
+impairment, it seems likely that new pathologic entities will be discovered in the future. 
+And, biomarkers of these new diseases, when developed, will enhance the ability of 
+investigators to more fully characterize the dementia spectrum.
+10. Cognitive staging
+Like biomarkers, cognitive performance exists on a continuum. An obvious approach to 
+cognitive staging therefore is to use continuous cognitive instruments, which may be the 
+preferred outcome measure in many modern clinical trials [175]. While recognizing that 
+cognition does exist on a continuum, the committee felt it was also appropriate to outline 
+categorical cognitive staging schemes. In the 2011 NIA-AA guidelines, cognitive staging 
+Jack et al.
+Page 13
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

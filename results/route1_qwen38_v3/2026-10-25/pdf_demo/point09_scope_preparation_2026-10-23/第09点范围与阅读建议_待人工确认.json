@@ -1,0 +1,149 @@
+{
+  "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+  "original_point_number": 9,
+  "status": "assistant_source_scope_preparation_complete_human_confirmation_pending",
+  "scope_recommendation": "retain_existing_target_definition_sentence_and_direct_anaphoric_context",
+  "primary_scope_pieces": [
+    {
+      "text": "This was denoted in the 2018 document as ATX(N), where X indicated a new biomarker category beyond A, T, or (N).7",
+      "normalized_context_start": 349,
+      "normalized_context_end_exclusive": 462,
+      "source_pdf_fragments": [
+        {
+          "pdf_page": 3,
+          "printed_page": null,
+          "char_start": 4694,
+          "char_end_exclusive": 4807,
+          "raw_text": "This was denoted in the 2018 document as\nATX(N), where X indicated a new biomarker category beyond A, T, or\n(N).7",
+          "raw_text_sha256": "19e12162def10c0bad3ea1b439d709c67a08b701e6633bded82c78423697ebe7",
+          "source_blocks": [
+            {
+              "block_number": 82,
+              "bbox": [
+                306.735,
+                501.999,
+                549.509,
+                509.97
+              ]
+            },
+            {
+              "block_number": 83,
+              "bbox": [
+                306.735,
+                514.95,
+                549.505,
+                522.92
+              ]
+            },
+            {
+              "block_number": 84,
+              "bbox": [
+                306.735,
+                525.041,
+                549.505,
+                535.873
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ]
+    }
+  ],
+  "context_only_pieces": [
+    {
+      "text": "The 2018 framework also called for incorporating new biomarker categories beyond AT(N) as appropriate.",
+      "normalized_context_start": 246,
+      "normalized_context_end_exclusive": 348,
+      "source_pdf_fragments": [
+        {
+          "pdf_page": 3,
+          "printed_page": null,
+          "char_start": 4589,
+          "char_end_exclusive": 4693,
+          "raw_text": "The 2018 frame-\nwork also called for incorporating new biomarker categories beyond\nAT(N) as appropriate.",
+          "raw_text_sha256": "1afdfa28ccb5bc448a170727f99d5c9e41967de20c50f8c7d54b16d0dcb2f8c5",
+          "source_blocks": [
+            {
+              "block_number": 80,
+              "bbox": [
+                306.735,
+                476.098,
+                549.486,
+                484.068
+              ]
+            },
+            {
+              "block_number": 81,
+              "bbox": [
+                306.735,
+                489.049,
+                549.479,
+                497.019
+              ]
+            },
+            {
+              "block_number": 82,
+              "bbox": [
+                306.735,
+                501.999,
+                549.509,
+                509.97
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ]
+    }
+  ],
+  "scope_words_to_preserve": [
+    "2018",
+    "ATX(N)",
+    "X",
+    "new biomarker category beyond A, T, or (N)"
+  ],
+  "evidence_reading_notes": [
+    {
+      "evidence_ids": [
+        "D01:S01"
+      ],
+      "pdf_page": 39,
+      "note": "Directly addresses the notation and beyond-AT(N) groups. Keep the source's might be useful, conceptualizing, may become available in the future and conditional examples; do not convert this into an already validated fixed X test or completed clinical adoption."
+    },
+    {
+      "evidence_ids": [
+        "D01:S02"
+      ],
+      "pdf_page": 2,
+      "note": "Separately describes adding biomarkers within the existing A/T/(N) groups and adding new groups beyond them. The current target concerns the latter."
+    },
+    {
+      "evidence_ids": [
+        "D01:S01"
+      ],
+      "pdf_page": 39,
+      "note": "The 2018 passage itself mentions V, synuclein and inflammation examples. Do not claim that these concepts were absent from 2018; also do not treat the examples as proof of every detail in the citing paper's newly presented tables."
+    }
+  ],
+  "neighboring_claim_boundary": "The citing paper's Accordingly sentence and newly presented Tables 1 and 2 remain its own update, outside the target ATX(N) notation-definition sentence.",
+  "transcription_correction_proposed": false,
+  "scope_role_change_proposed": false,
+  "active_scope_or_input_changed": false,
+  "existing_candidates_changed": false,
+  "human_scope_confirmation": {
+    "李云": null,
+    "陈明进": null
+  },
+  "classification_label": null,
+  "new_classifier_response": null,
+  "new_explanation_response": null,
+  "joint_adjudication": null,
+  "independent_blind_review_claimed": false,
+  "formal_end_to_end_accepted": false,
+  "fixed_denominator": 20,
+  "model_loaded": false,
+  "inference_performed": false
+}

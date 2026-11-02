@@ -1,0 +1,397 @@
+{
+  "date": "2026-10-31",
+  "scope": "Discovery of public alternate sources for missing nonfocus works; search hits are not full-text or identity confirmations.",
+  "batches": [
+    {
+      "queries": [
+        "\"10.1038/s41586-021-03928-y\" arxiv",
+        "\"10.1038/nature20479\" pdf",
+        "\"10.1109/TMI.2017.2750210\" repository",
+        "\"10.1109/TDSC.2018.2877332\" pdf"
+      ],
+      "hits": [
+        {
+          "title": "Efficient fault tolerance | Nature",
+          "url": "https://www.nature.com/articles/nature20479.pdf"
+        },
+        {
+          "title": "Fault-tolerant control of an error-corrected qubit | Nature",
+          "url": "https://www.nature.com/articles/s41586-021-03928-y"
+        },
+        {
+          "title": "Structure Prediction for Gland Segmentation With Hand-Crafted and Deep Convolutional Features - UCL Discovery",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10046665/"
+        },
+        {
+          "title": "Fault-tolerant control of an error-corrected qubit.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34608286/"
+        },
+        {
+          "title": "Enabling reliable keyword search in encrypted decentralized storage with fairness - Monash University",
+          "url": "https://research.monash.edu/en/publications/enabling-reliable-keyword-search-in-encrypted-decentralized-stora/"
+        },
+        {
+          "title": "University of Dundee",
+          "url": "https://discovery.dundee.ac.uk/ws/files/18221407/TMI_unmarked.pdf"
+        },
+        {
+          "title": "Fault-tolerant control of an error-correct",
+          "url": "https://dukespace.lib.duke.edu/bitstreams/42f611c3-f96a-4ce5-96b1-0b926e8bca68/download"
+        },
+        {
+          "title": "Quantum computing: Efficient fault tolerance.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27851728/"
+        },
+        {
+          "title": "Crossmark",
+          "url": "https://crossmark.crossref.org/dialog/?doi=10.1038%2Fs41586-021-03928-y"
+        },
+        {
+          "title": "Fault-tolerant control of an error-corrected qubit",
+          "url": "https://openalex.org/W3203972939"
+        },
+        {
+          "title": "AI-enabled radiologist in the loop: novel AI-based framework to augment radiologist performance for COVID-19 chest CT medical image annotation and classification from pneumonia",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8886865/"
+        },
+        {
+          "title": "Section A: Publications of PhD Students",
+          "url": "https://www.cityu.edu.hk/sgs/-/media/project/cityuhk/academic/sgs/about-us/research-output/research-degree-and-professional-doctorate-students-output-july-2018---june-2019.pdf?hash=0E20CD1AC6D214C61BCB6B11CC5F0D2B&rev=bb659b736f5a40c99b9edc88773ffdb8"
+        },
+        {
+          "title": "Efficient fault tolerance",
+          "url": "https://openalex.org/W2552133479"
+        },
+        {
+          "title": "Foundational step shows quantum computers can be better than the sum of their parts | EurekAlert!",
+          "url": "https://www.eurekalert.org/news-releases/930354"
+        },
+        {
+          "title": "Quantum computing: Efficient fault tolerance",
+          "url": "https://www.researchgate.net/publication/310459924_Quantum_computing_Efficient_fault_tolerance"
+        },
+        {
+          "title": "International Journal For Technological Research In Engineering",
+          "url": "https://ijtre.com/wp-content/uploads/2023/06/2023100934.pdf"
+        },
+        {
+          "title": "Quantum error correction",
+          "url": "https://en.wikipedia.org/wiki/Quantum_error_correction"
+        },
+        {
+          "title": "Glossary of quantum computing",
+          "url": "https://en.wikipedia.org/wiki/Glossary_of_quantum_computing"
+        },
+        {
+          "title": "量子纠错",
+          "url": "https://zh.wikipedia.org/wiki/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99"
+        },
+        {
+          "title": "Bacon–Shor code",
+          "url": "https://en.wikipedia.org/wiki/Bacon%E2%80%93Shor_code"
+        },
+        {
+          "title": "Correção de erros quânticos",
+          "url": "https://pt.wikipedia.org/wiki/Corre%C3%A7%C3%A3o_de_erros_qu%C3%A2nticos"
+        }
+      ]
+    },
+    {
+      "queries": [
+        "\"10.1109/ICACEA.2015.7164818\" pdf",
+        "\"10.1109/ICIINFS.2014.7036635\" pdf",
+        "\"10.1109/WiSPNET.2016.7566201\" pdf",
+        "\"10.1109/PARC49193.2020.236630\" pdf"
+      ],
+      "hits": [
+        {
+          "title": "(PDF) Distortion Aware Novel Routing Protocol for Video Transmission over MANETs",
+          "url": "https://www.researchgate.net/publication/301284572_Distortion_Aware_Novel_Routing_Protocol_for_Video_Transmission_over_MANETs"
+        },
+        {
+          "title": "Energy aware path formation with link stability in wireless adhoc network | Request PDF",
+          "url": "https://www.researchgate.net/publication/285526120_Energy_aware_path_formation_with_link_stability_in_wireless_adhoc_network"
+        },
+        {
+          "title": "An on demand routing protocol AODV with end to end reliability and backward route information | Request PDF",
+          "url": "https://www.researchgate.net/publication/272495668_An_on_demand_routing_protocol_AODV_with_end_to_end_reliability_and_backward_route_information"
+        },
+        {
+          "title": "New Approach for Improving Battery Power Consumption of Wireless Mobile Adhoc Networks Nodes Using Genetic Algorithm | Request PDF",
+          "url": "https://www.researchgate.net/publication/341237503_New_Approach_for_Improving_Battery_Power_Consumption_of_Wireless_Mobile_Adhoc_Networks_Nodes_Using_Genetic_Algorithm"
+        },
+        {
+          "title": "ORCID",
+          "url": "https://orcid.org/0000-0003-4168-1669"
+        },
+        {
+          "title": "Energy aware path formation with link stability in wireless adhoc network",
+          "url": "https://eurekamag.com/research/110/139/110139607.php"
+        },
+        {
+          "title": "Distortion aware novel routing protocol for video transmission over MANETs",
+          "url": "https://eurekamag.com/research/107/878/107878152.php"
+        },
+        {
+          "title": "Node Discovery Through a Centralized MANET-Based Approach | Wikantyasa | International Review of Automatic Control (IREACO)",
+          "url": "https://www.praiseworthyprize.org/jsm/index.php?journal=ireaco&op=view&page=article&path%5B%5D=28571"
+        },
+        {
+          "title": "Romanian Journal of Information Technology and Automatic Control, Vol. 35, No. 2, 33-42, 2025",
+          "url": "https://rria.ici.ro/documents/1376/art._Sulaiman_Naif_Idrees_Ahmed.pdf"
+        },
+        {
+          "title": "RETRACTED ARTICLE: Coalescing novel QoS routing with fault tolerance for improving QoS parameters in wireless Ad-Hoc ne…",
+          "url": "https://ouci.dntb.gov.ua/en/works/7A0xAGa9/"
+        },
+        {
+          "title": "Vidwan | Profile",
+          "url": "https://vapt6.irins.org/profile-detail/336377?page=5"
+        }
+      ]
+    },
+    {
+      "queries": [
+        "\"10.1007/s11277-023-10822-5\" pdf",
+        "\"10.1016/j.compeleceng.2024.109276\" pdf",
+        "\"10.1016/j.entcom.2024.100852\" pdf",
+        "\"10.1007/s11081-024-09904-5\" pdf"
+      ],
+      "hits": [
+        {
+          "title": "A decentralized path planning model based on deep reinforcement learning - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045790624002040"
+        },
+        {
+          "title": "Intelligent fault diagnosis of mechanical engineering using NLF-LSTM optimized deep learning model",
+          "url": "https://www.researchgate.net/publication/384430258_Intelligent_fault_diagnosis_of_mechanical_engineering_using_NLF-LSTM_optimized_deep_learning_model"
+        },
+        {
+          "title": "A decentralized path planning model based on deep reinforcement learning",
+          "url": "https://www.researchgate.net/publication/381868698_A_decentralized_path_planning_model_based_on_deep_reinforcement_learning"
+        },
+        {
+          "title": "dblp: Production and dissemination path of new media film and television content based on 5G technology.",
+          "url": "https://dblp.org/rec/journals/entcom/ZhangS25"
+        },
+        {
+          "title": "Production and dissemination path of new media film and television content based on 5G technology - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1875952124002209"
+        },
+        {
+          "title": "Production and dissemination path of new media film and television content based on 5G technology",
+          "url": "https://www.researchgate.net/publication/382749145_Production_and_dissemination_path_of_new_media_film_and_television_content_based_on_5G_technology"
+        },
+        {
+          "title": "The Privacy Protection of IoT Data Fusion and Sensing Detection Under Artificial Intelligence Technology",
+          "url": "https://www.researchgate.net/publication/378265959_The_Privacy_Protection_of_IoT_Data_Fusion_and_Sensing_Detection_Under_Artificial_Intelligence_Technology"
+        },
+        {
+          "title": "A decentralized path planning model based on deep reinforcement learning",
+          "url": "https://ouci.dntb.gov.ua/en/works/4w0LOM8l/"
+        },
+        {
+          "title": "Vol 15, Issue 4, (2025) E-ISSN: 2222-6990",
+          "url": "https://kwpublications.com/papers_submitted/16909/event-management-communication-strategies-experiences-in-public-relations-from-a-chinese-media-company-in-an-emergent-incident-of-film-distribution.pdf"
+        },
+        {
+          "title": "A decentralized path planning model based on deep reinforcement learning (2024) | Dong Guo | 5 Citations",
+          "url": "https://scispace.com/papers/a-decentralized-path-planning-model-based-on-deep-566vpn03gy"
+        },
+        {
+          "title": "Search Results | Scholarly Articles, Journals, and E-Books | EBSCOhost",
+          "url": "https://openurl.ebsco.com/results?bquery=AU+XINYUE+ZHANG&page=1&sid=ebsco%3Aocu_results%3Acache"
+        },
+        {
+          "title": "Search Results | Scholarly Articles, Journals, and E-Books | EBSCOhost",
+          "url": "https://openurl.ebsco.com/results?bquery=AU+Xinyue+Zhang&page=1&sid=ebsco%3Aocu_results%3Acache"
+        },
+        {
+          "title": "Top 65 Optimization and Engineering papers published in 2024",
+          "url": "https://scispace.com/journals/optimization-and-engineering-1bv82s4u/2024"
+        },
+        {
+          "title": "Volume 6, Number 12, December 2025",
+          "url": "https://devotion.greenvest.co.id/index.php/dev/article/download/25598/1437/9309"
+        },
+        {
+          "title": "untitled",
+          "url": "https://nano-ntp.com/index.php/nano/article/download/4800/3742/9337"
+        },
+        {
+          "title": "Algorithmic Content Curation, Immersive User",
+          "url": "https://assets-eu.researchsquare.com/files/rs-6823843/v1/d66cece6-f98e-4946-8492-6cb80fe58435.pdf?c=1767174864"
+        },
+        {
+          "title": "Privacy-preserving sports data fusion and prediction with smart devices in distributed environment",
+          "url": "https://d-nb.info/1337461849/34"
+        }
+      ]
+    },
+    {
+      "queries": [
+        "\"10.1109/ICIMIA60377.2023.10426091\" pdf",
+        "\"10.1109/IACIS61494.2024.10721799\" pdf",
+        "\"10.1109/ICMSCI62561.2025.10894596\" pdf",
+        "\"10.1109/ICOICI65217.2025.11252990\" pdf"
+      ],
+      "hits": [
+        {
+          "title": "(PDF) Artificial Intelligence-Powered Protocols for Enhancing Security in Next-Generation Communication Networks",
+          "url": "https://www.researchgate.net/publication/398213906_Artificial_Intelligence-Powered_Protocols_for_Enhancing_Security_in_Next-Generation_Communication_Networks"
+        },
+        {
+          "title": "An Enhancing Network Security: A Stacked Ensemble Intrusion Detection System for Effective Threat Mitigation | Request PDF",
+          "url": "https://www.researchgate.net/publication/379942359_An_Enhancing_Network_Security_A_Stacked_Ensemble_Intrusion_Detection_System_for_Effective_Threat_Mitigation"
+        },
+        {
+          "title": "Compatibility and optimization Strategy of Multiple Network Protocols in the Internet of Things Installation and Debugging Training Bench",
+          "url": "https://eurekamag.com/research/095/931/095931801.php"
+        },
+        {
+          "title": "Enhanced Monitoring and Security Measures with Video Analysis",
+          "url": "https://ouci.dntb.gov.ua/en/works/4M1rOWex/"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://veltech.edu.in/cse/assets/CSE_Pub_2024-2025.pdf"
+        },
+        {
+          "title": "An Enhancing Network Security: A Stacked Ensemble Intrusion Detection System for Effective Threat Mitigation",
+          "url": "https://enterprise.eurekamag.com/research/106/756/106756466.php"
+        },
+        {
+          "title": "RETRACTED ARTICLE: Coalescing novel QoS routing with fault tolerance for improving QoS parameters in wireless Ad-Hoc ne…",
+          "url": "https://ouci.dntb.gov.ua/en/works/7A0xAGa9/"
+        },
+        {
+          "title": "INTERNATIONAL JOURNAL OF PROGRESSIVE",
+          "url": "https://www.ijprems.com/uploadedfiles/paper/issue_7_july_2024/35476/final/fin_ijprems1721137236.pdf"
+        },
+        {
+          "title": "PREDICTING EARTHQUAKE PARAMETERS USING RANDOM FOREST: A MULTI-OUTPUT APPROACH WITH P-ARRIVAL DATA",
+          "url": "https://ouci.dntb.gov.ua/en/works/4yNnJRNL/"
+        },
+        {
+          "title": "Bibliographies: 'Security measures' – Grafiati",
+          "url": "https://www.grafiati.com/en/literature-selections/security-measures/"
+        }
+      ]
+    },
+    {
+      "queries": [
+        "\"10.1007/978-3-032-18802-1_37\" pdf",
+        "\"10.1007/978-981-97-6103-6_44\" pdf",
+        "\"10.1002/itl2.70045\" pdf",
+        "\"10.4018/IJKM.410301\" pdf"
+      ],
+      "hits": [
+        {
+          "title": "Advances in Information Communication Technology and Computing: Proceedings of AICTC 2024, Volume 1 | Springer Nature Link",
+          "url": "https://link.springer.com/book/10.1007/978-981-97-6103-6"
+        },
+        {
+          "title": "Design and Implementation of Intelligent Construction Automation System Based on 6G Network - Nie - 2025 - Internet Technology Letters - Wiley Online Library",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/itl2.70045"
+        },
+        {
+          "title": "Knowledge-Driven Evaluation of Online Classroom Participation:: An AI Approach Using DTW and Fuzzy Cross-Entropy - ScienceDirect",
+          "url": "https://www.sciencedirect.com/org/science/article/pii/S1548066626000469"
+        },
+        {
+          "title": "Design and Implementation of Intelligent Construction Automation System Based on 6G Network - Nie - 2025 - Internet Technology Letters - Wiley Online Library",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/itl2.70045"
+        },
+        {
+          "title": "Knowledge-Driven Evaluation of Online Classroom Participation: - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1548066626000469"
+        },
+        {
+          "title": "Intrusion Detection System Using a Hybrid of SVM and RFE | Request PDF",
+          "url": "https://www.researchgate.net/publication/384561307_Intrusion_Detection_System_Using_a_Hybrid_of_SVM_and_RFE"
+        },
+        {
+          "title": "Energy-Efficient Resource Allocation and Relay-Selection for Wireless Sensor Networks | Request PDF",
+          "url": "https://www.researchgate.net/publication/404503429_Energy-Efficient_Resource_Allocation_and_Relay-Selection_for_Wireless_Sensor_Networks"
+        },
+        {
+          "title": "Knowledge-Driven Evaluation of Online Classroom Participation: An AI Approach Using DTW and Fuzzy Cross-Entropy: Library & Information Science Journal Article | IGI Global Scientific Publishing",
+          "url": "https://www.igi-global.com/article/knowledge-driven-evaluation-of-online-classroom-participation/410301"
+        },
+        {
+          "title": "Design and Implementation of Intelligent Construction Automation System Based on 6G Network - Nie - 2025 - Internet Technology Letters - Wiley Online Library",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/itl2.70045"
+        },
+        {
+          "title": "[PDF] Design and Implementation of Intelligent Construction Automation System Based on 6G Network | CiteDrive",
+          "url": "https://www.citedrive.com/en/discovery/design-and-implementation-of-intelligent-construction-automation-system-based-on-scp6gscp-network/"
+        },
+        {
+          "title": "Advances in Information Communication Technology and Computing: Proceedings of AICTC 2024, Volume 1 | Springer Nature Link",
+          "url": "https://link.springer.com/book/10.1007/978-981-97-6103-6?page=2"
+        },
+        {
+          "title": "Advances in Information Communication Technology and Computing: Proceedings of AICTC 2024, Volume 1 | Springer Nature Link",
+          "url": "https://link.springer.com/book/10.1007/978-981-97-6103-6?page=3"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://nitdgp.ac.in/uploads/userfiles/files/Springer%20Nature%20eBooks%20collection%205331%20titles%20with%20URL.pdf"
+        },
+        {
+          "title": "ҚОРҚЫТ АТА АТЫНДАҒЫ ҚУ ШЕТЕЛ ТІЛДЕРІ ЖӘНЕ АУДАРМА БББ",
+          "url": "https://korkyt.edu.kz/files/nauka/Potencial/%D0%91%D0%91%20%D0%A8%D0%B5%D1%82%D0%B5%D0%BB%20%D1%82%D1%96%D0%BB%D0%B4%D0%B5%D1%80%D1%96%20%D0%B6%D3%99%D0%BD%D0%B5%20%D0%B0%D1%83%D0%B4%D0%B0%D1%80%D0%BC%D0%B0%20%281%29.pdf"
+        },
+        {
+          "title": "Methodology for the application of STEM-education technology in the study of physics",
+          "url": "https://pedjournal.enu.kz/index.php/main-about/article/download/190/49"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://kaznpu.kz/docs/docs/042025/250425.pdf"
+        },
+        {
+          "title": "166. Shaukat K, Luo S, Varadharajan V, H",
+          "url": "https://www.preprints.org/frontend/manuscript/0e33d8bf9e4951a07d92c75a9e160733/download_pub"
+        }
+      ]
+    },
+    {
+      "queries": [
+        "\"10.1109/TDSC.2018.2872536\" pdf",
+        "\"10.1109/ACCESS.2025.3585459\" pdf",
+        "\"10.1088/1742-6596/3328/1/012028\" pdf"
+      ],
+      "hits": [
+        {
+          "title": "DNIC Architectural Developments for 0-Knowledge Detection of OPC Malware 10.1109/tdsc.2018.2872536 - Minsky DTIC",
+          "url": "https://dtic.minsky.ai/index/10.1109%2Ftdsc.2018.2872536"
+        },
+        {
+          "title": "(PDF) DNIC Architectural Developments for 0-Knowledge Detection of OPC Malware",
+          "url": "https://www.researchgate.net/publication/327946874_DNIC_Architectural_Developments_for_0-Knowledge_Detection_of_OPC_Malware"
+        },
+        {
+          "title": "(PDF) Computational Overhead Across Prioritizing Bioinformatics Traffic Packet Operations by Differentiated Services Code Point (DSCP)",
+          "url": "https://www.researchgate.net/publication/393351238_Computational_Overhead_Across_Prioritizing_Bioinformatics_Traffic_Packet_Operations_by_Differentiated_Services_Code_Point_DSCP"
+        },
+        {
+          "title": "RETRACTED ARTICLE: Coalescing novel QoS routing with fault tolerance for improving QoS parameters in wireless Ad-Hoc ne…",
+          "url": "https://ouci.dntb.gov.ua/en/works/7A0xAGa9/"
+        },
+        {
+          "title": "(PDF) Detecting differentiated services code point values and packet length mismatch in internet protocol packet headers",
+          "url": "https://www.researchgate.net/publication/400499972_Detecting_differentiated_services_code_point_values_and_packet_length_mismatch_in_internet_protocol_packet_headers"
+        },
+        {
+          "title": "Three decades of deception techniques in active cyber defense - Retrospect and outlook",
+          "url": "https://ouci.dntb.gov.ua/en/works/98LRWPv9/"
+        },
+        {
+          "title": "Items where Year is 2017 -ORCA",
+          "url": "https://orca.cardiff.ac.uk/view/year/2017.html"
+        }
+      ]
+    }
+  ]
+}

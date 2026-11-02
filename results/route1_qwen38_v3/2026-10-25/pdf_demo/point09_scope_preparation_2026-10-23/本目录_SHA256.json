@@ -1,0 +1,19 @@
+{
+  "schema": "sha256_inventory",
+  "files": {
+    "CPU来源核验摘要.json": "ffb61a0c211e7dcb51a949c0cdc085760c953e0de5d5d8b3406faff83179e157",
+    "先看这里_第09点核对结论.md": "c36dfabbeaa2e7d08e13e041c24419f0ad9dee4408df0519ee6a7a8c5cbee08f",
+    "原第09点范围与10候选_提取快照.json": "efa1d12841d2c8405496c46be46581f4e99a04a4cb597cc8015d6fdd010aab12",
+    "参考文献7与被引身份_补充只读核验.json": "08d8b1909cb759cdb79a728533487f2024f3260625bd68cb81edbe517624546d",
+    "核对摘要.txt": "54a93afa5cad4c4eea43fbe2bd49d49fbdbea82b788a024b38b21a014330e329",
+    "第09点范围与阅读建议_待人工确认.json": "3b179f6e12c505407f6fe2c3828a7509efe8a089aba0900e5e5239f31a4833df",
+    "逐候选PDF位置复现.json": "2d79d1b796f5ac46f25d7e79789a1baf6a4f4c71a6db603e80cfd37fe9e26820",
+    "页面导出记录.json": "8a9a8fa7191e68061ade57f0839cd5b3b3d3cd1a79c9a9aae47d6c798e4dacf3",
+    "页面核对图/01_施引第3页_This前文及标记7.png": "3e78bdf4f0c6326e4eb784515041675cc964370d5198f27796f7a8138caf4dac",
+    "页面核对图/02_施引第21页_参考文献7.png": "4e04ef056e82862d01597f5c92235df4e7c35205e117a9f2ef85ad33c134098d",
+    "页面核对图/03_被引第1页_题名.png": "6b47361f9f6666210ddf0fed6af512087127e1e7cb63b099d5bc36241ee90223",
+    "页面核对图/04_被引第1页_刊期与DOI.png": "28283a6fa068c34f6294e05155f114c329ec43d24e035f201a5054e011e7af48",
+    "页面核对图/05_被引第39页_既有候选S01_ATX说明.png": "e2296811eefcb5835a2221b1ea75974f1613ce497bb9063fa346e1a32087864e",
+    "页面核对图/06_被引第2页_既有候选S02_研究框架说明.png": "b56a7f4ff146cbcd833852059c3933a90ff75e4c4278cce0c57d7481d6be2240"
+  }
+}

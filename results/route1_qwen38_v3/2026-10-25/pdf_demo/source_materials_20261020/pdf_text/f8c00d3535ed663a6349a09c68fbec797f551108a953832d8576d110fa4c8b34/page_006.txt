@@ -1,0 +1,146 @@
+Nature Medicine | Volume 28 | November 2022 | 2381–2387
+2386
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+there are inherent challenges due to the multicenter study design, 
+such as data pooling and harmonization, different amyloid and tau PET 
+tracers and dissimilarities in PET acquisition protocols. Also, different 
+neuropsychological tests were used as mPACC5 subcomponents across 
+cohorts and these differences could impact the overall mPACC5 score. 
+Relatedly, the varying rates of clinical progression in the A+TNEO-T
++ and 
+A+TMTL
++ groups across cohorts (Supplementary Table 1) could be due to 
+chance given the relatively small number of T+ participants but might 
+also be a result of different ascertainment and recruitment methods. 
+Second, the number of events (that is, progression to MCI and espe-
+cially dementia) was relatively low. Third, we may have underestimated 
+the actual risk of A+TNEO-T
++ and A+TMTL
++ cognitively unimpaired individu-
+als due to consent or volunteer bias (lower study participation among 
+individuals at risk) and informative censoring (the tendency of people 
+to drop out when experiencing onset or worsening of symptoms)43. 
+Fourth, we acknowledge that our design only allowed establishing rela-
+tive risk and not lifetime risk and we did not control for the competing 
+risk of death in our survival analyses.
+Future studies should test whether our findings are generalizable 
+to more diverse populations in terms of ethnicity, socioeconomic 
+status and medical comorbidities. Furthermore, studies with longer 
+follow-ups and larger samples of A+TNEO-T
++ and A+TMTL
++ cognitively unim-
+paired individuals will help refine the current findings. This may, in 
+turn, aid in enriching clinical trials for fast progressors and developing 
+algorithms for a personalized prognosis that reliably estimates the risk 
+for future cognitive decline at an individual level. Of particular interest 
+will be the performance of head-to-head studies between tau PET and 
+high performing plasma p-tau assays44–47 to investigate the potential 
+added value and cost-effectiveness of tau PET as a prognostic tool.
+Online content
+Any methods, additional references, Nature Research reporting sum-
+maries, source data, extended data, supplementary information, 
+acknowledgements, peer review information; details of author contri-
+butions and competing interests; and statements of data and code avail-
+ability are available at https://doi.org/10.1038/s41591-022-02049-x.
+References
+1.	
+Jack, C. R. Jr et al. A/T/N: an unbiased descriptive classification 
+scheme for Alzheimer disease biomarkers. Neurology 87, 
+539–547 (2016).
+2.	
+Jack, C. R. Jr et al. NIA-AA Research Framework: toward a 
+biological definition of Alzheimer’s disease. Alzheimers Dement. 
+14, 535–562 (2018).
+3.	
+Dubois, B. et al. Clinical diagnosis of Alzheimer’s disease: 
+recommendations of the International Working Group. Lancet 
+Neurol. 20, 484–496 (2021).
+4.	
+Brookmeyer, R. & Abdalla, N. Estimation of lifetime risks of 
+Alzheimer’s disease dementia using biomarkers for preclinical 
+disease. Alzheimers Dement. 14, 981–988 (2018).
+5.	
+Dubois, B. et al. Cognitive and neuroimaging features and 
+brain β-amyloidosis in individuals at risk of Alzheimer’s disease 
+(INSIGHT-preAD): a longitudinal observational study. Lancet 
+Neurol. 17, 335–346 (2018).
+6.	
+Donohue, M. C. et al. Association between elevated brain amyloid 
+and subsequent cognitive decline among cognitively normal 
+persons. JAMA 317, 2305–2316 (2017).
+7.	
+Jack, C. R. Jr et al. Long-term associations between amyloid 
+positron emission tomography, sex, apolipoprotein E and incident 
+dementia and mortality among individuals without dementia: 
+hazard ratios and absolute risk. Brain Commun. 4, fcac017 (2022).
+8.	
+Nelson, P. T. et al. Correlation of Alzheimer disease 
+neuropathologic changes with cognitive status: a review of the 
+literature. J. Neuropathol. Exp. Neurol. 71, 362–381 (2012).
+9.	
+Ossenkoppele, R. et al. Tau PET patterns mirror clinical and 
+neuroanatomical variability in Alzheimer’s disease. Brain 139, 
+1551–1567 (2016).
+10.	 Ossenkoppele, R. et al. Associations between tau, Aβ, and cortical 
+thickness with cognition in Alzheimer disease. Neurology 92, 
+e601–e612 (2019).
+11.	
+Jack, C. R. Jr et al. Associations of amyloid, tau, and 
+neurodegeneration biomarker profiles with rates of memory 
+decline among individuals without dementia. JAMA 321,  
+2316–2325 (2019).
+12.	 Ossenkoppele, R., van der Kant, R. & Hansson, O. Tau biomarkers 
+in Alzheimer’s disease: towards implementation in clinical 
+practice and trials. Lancet Neurol. 21, 726–734 (2022).
+13.	 Leuzy, A. et al. 2020 update on the clinical validity of 
+cerebrospinal fluid amyloid, tau, and phospho-tau as biomarkers 
+for Alzheimer’s disease in the context of a structured 5-phase 
+development framework. Eur. J. Nucl. Med. Mol. Imaging 48, 
+2121–2139 (2021).
+14.	 Fleisher, A. S. et al. Positron emission tomography imaging  
+with [18F]flortaucipir and postmortem assessment of  
+Alzheimer disease neuropathologic changes. JAMA Neurol. 77, 
+829–839 (2020).
+15.	 Moloney, C. M., Lowe, V. J. & Murray, M. E. Visualization of 
+neurofibrillary tangle maturity in Alzheimer’s disease: a 
+clinicopathologic perspective for biomarker research. Alzheimers 
+Dement. 17, 1554–1574 (2021).
+16.	 Leuzy, A. et al. Diagnostic performance of RO948 F 18 tau positron 
+emission tomography in the differentiation of Alzheimer disease 
+from other neurodegenerative disorders. JAMA Neurol. 77, 
+955–965 (2020).
+17.	 Ossenkoppele, R. et al. Discriminative accuracy of [18F]flortaucipir 
+positron emission tomography for Alzheimer disease vs other 
+neurodegenerative disorders. JAMA 320, 1151–1162 (2018).
+18.	 Young, C. B. et al. Divergent cortical tau positron emission 
+tomography patterns among patients with preclinical Alzheimer 
+disease. JAMA Neurol. 79, 592–603 (2022).
+19.	 Johnson, K. A. et al. Tau positron emission tomographic  
+imaging in aging and early Alzheimer disease. Ann. Neurol. 79, 
+110–119 (2016).
+20.	 Schöll, M. et al. PET imaging of tau deposition in the aging human 
+brain. Neuron 89, 971–982 (2016).
+21.	 Gordon, B. A. et al. Tau PET in autosomal dominant Alzheimer’s 
+disease: relationship with cognition, dementia and other 
+biomarkers. Brain 142, 1063–1076 (2019).
+22.	 Pontecorvo, M. J. et al. Relationships between flortaucipir PET 
+tau binding and amyloid burden, clinical diagnosis, age and 
+cognition. Brain 140, 748–763 (2017).
+23.	 Ossenkoppele, R. et al. Accuracy of tau positron emission 
+tomography as a prognostic marker in preclinical and prodromal 
+Alzheimer disease: a head-to-head comparison against amyloid 
+positron emission tomography and magnetic resonance imaging. 
+JAMA Neurol. 78, 961–971 (2021).
+24.	 Sperling, R. A. et al. The impact of amyloid-beta and tau on 
+prospective cognitive decline in older individuals. Ann. Neurol. 
+85, 181–193 (2019).
+25.	 Hanseeuw, B. J. et al. Association of amyloid and tau with 
+cognition in preclinical Alzheimer disease: a longitudinal study. 
+JAMA Neurol. 76, 915–924 (2019).
+26.	 Chen, S. D. et al. Staging tau pathology with tau PET in  
+Alzheimer’s disease: a longitudinal study. Transl. Psychiatry 11, 
+483 (2021).
+27.	 Bucci, M., Chiotis, K. & Nordberg, A. Alzheimer’s disease profiled 
+by fluid and imaging markers: tau PET best predicts cognitive 
+decline. Mol. Psychiatry 26, 5888–5898 (2021).

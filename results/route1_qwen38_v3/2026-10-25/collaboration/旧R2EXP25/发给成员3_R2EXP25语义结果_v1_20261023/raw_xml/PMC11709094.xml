@@ -1,0 +1,972 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="acel14367" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Aging Cell</journal-id><journal-id journal-id-type="iso-abbrev">Aging Cell</journal-id><journal-id journal-id-type="pmc-domain-id">2481</journal-id><journal-id journal-id-type="pmc-domain">acel</journal-id><journal-id journal-id-type="nlm-id">101130839</journal-id><journal-id journal-id-type="publisher-id">ACEL</journal-id><journal-title-group><journal-title>Aging Cell</journal-title></journal-title-group><issn pub-type="ppub">1474-9718</issn><issn pub-type="epub">1474-9726</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11709094</article-id><article-id pub-id-type="pmcid-ver">PMC11709094.1</article-id><article-id pub-id-type="pmcaid">11709094</article-id><article-id pub-id-type="pmcaiid">11709094</article-id><article-id pub-id-type="pmid">39394673</article-id><article-id pub-id-type="doi">10.1111/acel.14367</article-id><article-id pub-id-type="publisher-id">ACEL14367</article-id><article-id pub-id-type="other">ACE-24-0299.R2</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Lipid peroxidation products induce carbonyl stress, mitochondrial dysfunction, and cellular senescence in human and murine cells</article-title><alt-title alt-title-type="left-running-head">Monroe et al.</alt-title></title-group><contrib-group><contrib id="acel14367-cr-0001" contrib-type="author"><name name-style="western"><surname>Monroe</surname><given-names initials="TB">T. Blake</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7146-0907</contrib-id><xref rid="acel14367-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="acel14367-cr-0002" contrib-type="author"><name name-style="western"><surname>Hertzel</surname><given-names initials="AV">Ann V.</given-names></name><xref rid="acel14367-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="acel14367-cr-0003" contrib-type="author"><name name-style="western"><surname>Dickey</surname><given-names initials="DM">Deborah M.</given-names></name><xref rid="acel14367-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="acel14367-cr-0004" contrib-type="author"><name name-style="western"><surname>Hagen</surname><given-names initials="T">Thomas</given-names></name><xref rid="acel14367-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="acel14367-cr-0005" contrib-type="author"><name name-style="western"><surname>Santibanez</surname><given-names initials="SV">Simon Vergara</given-names></name><xref rid="acel14367-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="acel14367-cr-0006" contrib-type="author"><name name-style="western"><surname>Berdaweel</surname><given-names initials="IA">Islam A.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0006-2987-458X</contrib-id><xref rid="acel14367-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="acel14367-curr-0001" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="acel14367-cr-0007" contrib-type="author"><name name-style="western"><surname>Halley</surname><given-names initials="C">Catherine</given-names></name><xref rid="acel14367-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="acel14367-cr-0008" contrib-type="author"><name name-style="western"><surname>Puchalska</surname><given-names initials="P">Patrycja</given-names></name><xref rid="acel14367-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="acel14367-cr-0009" contrib-type="author"><name name-style="western"><surname>Anderson</surname><given-names initials="EJ">Ethan J.</given-names></name><xref rid="acel14367-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="acel14367-cr-0010" contrib-type="author"><name name-style="western"><surname>Camell</surname><given-names initials="CD">Christina D.</given-names></name><xref rid="acel14367-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="acel14367-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="acel14367-cr-0011" contrib-type="author"><name name-style="western"><surname>Robbins</surname><given-names initials="PD">Paul D.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1068-7099</contrib-id><xref rid="acel14367-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="acel14367-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="acel14367-cr-0012" contrib-type="author" corresp="yes"><name name-style="western"><surname>Bernlohr</surname><given-names initials="DA">David A.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6969-9129</contrib-id><xref rid="acel14367-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>bernl001@umn.edu</email></address></contrib></contrib-group><aff id="acel14367-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biochemistry, Molecular Biology and Biophysics</named-content>
+<institution>University of Minnesota‐Twin Cities</institution>
+<city>Minneapolis</city>
+<named-content content-type="country-part">Minnesota</named-content>
+<country country="US">USA</country>
+</aff><aff id="acel14367-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pharmaceutical Sciences &amp; Experimental Therapeutics, College of Pharmacy, Fraternal Order of Eagles Diabetes Research Center</named-content>
+<institution>University of Iowa</institution>
+<city>Iowa City</city>
+<named-content content-type="country-part">Iowa</named-content>
+<country country="US">USA</country>
+</aff><aff id="acel14367-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medicine</named-content>
+<institution>University of Minnesota‐Twin Cities</institution>
+<city>Minneapolis</city>
+<named-content content-type="country-part">Minnesota</named-content>
+<country country="US">USA</country>
+</aff><aff id="acel14367-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Institute for the Biology of Aging and Metabolism</named-content>
+<institution>University of Minnesota‐Twin Cities</institution>
+<city>Minneapolis</city>
+<named-content content-type="country-part">Minnesota</named-content>
+<country country="US">USA</country>
+</aff><aff id="acel14367-curr-0001"><label>
+<sup>5</sup>
+</label>Present address:
+<named-content content-type="organisation-division">Department of Clinical Pharmacy and Pharmacy Practice, College of Pharmacy</named-content>
+<institution>Yarmouk University</institution>
+<city>Irbid</city>
+<country country="JO">Jordan</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+David A. Bernlohr, Department of Biochemistry, Molecular Biology and Biophysics, University of Minnesota‐Twin Cities, Minneapolis 55455, Minnesota, USA.<break/>
+Email: <email>bernl001@umn.edu</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>11</day><month>10</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>1</month><year>2025</year></pub-date><volume>24</volume><issue seq="300">1</issue><issue-id pub-id-type="pmc-issue-id">479008</issue-id><issue-id pub-id-type="doi">10.1111/acel.v24.1</issue-id><elocation-id>e14367</elocation-id><history>
+<date date-type="rev-recd"><day>19</day><month>9</month><year>2024</year></date>
+<date date-type="received"><day>24</day><month>3</month><year>2024</year></date>
+<date date-type="accepted"><day>21</day><month>9</month><year>2024</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>11</day><month>10</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>09</day><month>01</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-01-09 11:25:45.297"><day>09</day><month>01</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Author(s). <italic toggle="yes">Aging Cell</italic> published by Anatomical Society and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ACEL-24-e14367.pdf"><?pdf-name ACEL-24-e14367.pdf?><?pdf-size 6530974?><?pdf-md5 e1e6d3d663108d72c1f43abc205a2724?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:c0e4/11709094/e1e6d3d66310/ACEL-24-e14367.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ACEL-24-e14367.pdf"/><abstract><title>Abstract</title><p>Lipid enals are electrophilic products of lipid peroxidation that induce genotoxic and proteotoxic stress by covalent modification of DNA and proteins, respectively. As lipid enals accumulate to substantial amounts in visceral adipose during obesity and aging, we hypothesized that biogenic lipid enals may represent an endogenously generated, and therefore physiologically relevant, senescence inducers. To that end, we identified that 4‐hydroxynonenal (4‐HNE), 4‐hydroxyhexenal (4‐HHE) or 4‐oxo‐2‐nonenal (4‐ONE) initiate the cellular senescence program of IMR90 fibroblasts and murine adipose stem cells. In such cells, lipid enals induced accumulation of γH2AX foci, increased p53 signaling, enhanced expression of p21<sup>Cip1</sup>, and upregulated the expression and secretion of numerous cytokines, chemokines, and regulatory factors independently from NF‐κB activation. Concomitantly, lipid enal treatment resulted in covalent modification of mitochondrial proteins, reduced mitochondrial spare respiratory capacity, altered nucleotide pools, and increased the phosphorylation of AMP kinase. Lipid‐induced senescent cells upregulated <italic toggle="no">BCL2L1</italic> (Bcl‐xL) and <italic toggle="no">BCL2L2</italic> (Bcl‐w). and were resistant to apoptosis while pharmacologic inhibition of BAX/BAK macropores attenuated lipid‐induced senescence. In situ, the 4‐HNE scavenger L‐carnosine ameliorated the development of the cellular senescence, while in visceral fat of obese C57BL/6J mice, L‐carnosine reduced the abundance of 4‐HNE‐modified proteins and blunted the expression of senescence biomarkers <italic toggle="no">CDKN1A</italic> (p21<sup>Cip1</sup>), <italic toggle="no">PLAUR</italic>, <italic toggle="no">BCL2L1</italic>, and <italic toggle="no">BCL2L2.</italic> Taken together, the results suggest that lipid enals are endogenous regulators of cellular senescence and that biogenic lipid‐induced senescence (BLIS) may represent a mechanistic link between oxidative stress and age‐dependent pathologies.</p></abstract><abstract abstract-type="graphical"><p>Lipid enals covalently modify mitochondrial proteins and induce genotoxic stress initiating the cellular senescence program in IMR90 and adipose stem cells leading to expression of p53, p21, and SASP factors.<boxed-text position="anchor" content-type="graphic" id="acel14367-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ACEL-24-e14367-g003.jpg"><?image-name ACEL-24-e14367-g003.jpg?><?image-size 38687?><?image-md5 51eebaa85065d3ee52099e2683b60e03?><?image-image-server-status NEVER_LOAD?><?image-original-height 331?><?image-original-width 331?><?image-scaled-height 331?><?image-scaled-width 331?><?image-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/51eebaa85065/ACEL-24-e14367-g003.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="acel14367-kwd-0001">4‐HNE</kwd><kwd id="acel14367-kwd-0002">adipose</kwd><kwd id="acel14367-kwd-0003">lipid peroxidation</kwd><kwd id="acel14367-kwd-0004">mitochondrion</kwd><kwd id="acel14367-kwd-0005">senescence</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>American Heart Association
+</institution><institution-id institution-id-type="doi">10.13039/100000968</institution-id></institution-wrap></funding-source><award-id>20SFRN35200003</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>National Institutes of Health
+</institution><institution-id institution-id-type="doi">10.13039/100000002</institution-id></institution-wrap></funding-source><award-id>NIH P01 AG062413</award-id><award-id>NIH R01 AG069819</award-id><award-id>NIH U54 AG079754</award-id><award-id>NIHT32AG029796</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="1"/><page-count count="18"/><word-count count="11100"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.2 mode:remove_FC converted:08.01.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ACEL14367-cit-2001">
+<string-name name-style="western">
+<surname>Monroe</surname>, <given-names>T. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hertzel</surname>, <given-names>A. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dickey</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hagen</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Santibanez</surname>, <given-names>S. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berdaweel</surname>, <given-names>I. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Halley</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Puchalska</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>, <given-names>E. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Camell</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robbins</surname>, <given-names>P. D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bernlohr</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2025</year>). <article-title>Lipid peroxidation products induce carbonyl stress, mitochondrial dysfunction, and cellular senescence in human and murine cells</article-title>. <source>Aging Cell</source>, <volume>24</volume>, <elocation-id>e14367</elocation-id>. <pub-id pub-id-type="doi">10.1111/acel.14367</pub-id>
+<pub-id pub-id-type="pmcid">PMC11709094</pub-id><pub-id pub-id-type="pmid">39394673</pub-id></mixed-citation>
+</p></notes></front><body id="acel14367-body-0001"><def-list list-content="abbreviations" id="acel14367-dl-0001"><title>Abbreviations</title><def-item><term id="acel14367-li-0001">4‐HHE</term><def id="acel14367-li-0002"><p>4‐hydroxy 2,3 hexenal</p></def></def-item><def-item><term id="acel14367-li-0003">4‐HNE</term><def id="acel14367-li-0004"><p>4‐hydroxy 2,3 nonenal</p></def></def-item><def-item><term id="acel14367-li-0005">4‐MU</term><def id="acel14367-li-0006"><p>4‐methylumbelliferone</p></def></def-item><def-item><term id="acel14367-li-0007">4‐ONE</term><def id="acel14367-li-0008"><p>4‐oxo‐2,3 nonenal</p></def></def-item><def-item><term id="acel14367-li-0009">ALCAT1</term><def id="acel14367-li-0010"><p>Acyl‐CoA:lysocardiolipin acyltransferase‐1</p></def></def-item><def-item><term id="acel14367-li-0011">ANGPTL4</term><def id="acel14367-li-0012"><p>Angiopoietin‐like 4</p></def></def-item><def-item><term id="acel14367-li-0013">AQP1</term><def id="acel14367-li-0014"><p>Aquaporin 1</p></def></def-item><def-item><term id="acel14367-li-0015">BAK</term><def id="acel14367-li-0016"><p>BCL2 antagonist/killer</p></def></def-item><def-item><term id="acel14367-li-0017">BAX</term><def id="acel14367-li-0018"><p>BCL2 associated X</p></def></def-item><def-item><term id="acel14367-li-0019">BCA</term><def id="acel14367-li-0020"><p>Bicinchoninic acid</p></def></def-item><def-item><term id="acel14367-li-0021">BCB</term><def id="acel14367-li-0022"><p>Bax channel blocker</p></def></def-item><def-item><term id="acel14367-li-0023">BCL2</term><def id="acel14367-li-0024"><p>B‐cell lymphoma 2</p></def></def-item><def-item><term id="acel14367-li-0025">BCL2L1</term><def id="acel14367-li-0026"><p>BCL2 Like 1</p></def></def-item><def-item><term id="acel14367-li-0027">BCL2L2</term><def id="acel14367-li-0028"><p>BCL2 Like 2</p></def></def-item><def-item><term id="acel14367-li-0029">BIPv5</term><def id="acel14367-li-0030"><p>Bax inhibitor peptide V5</p></def></def-item><def-item><term id="acel14367-li-0031">BLIS</term><def id="acel14367-li-0032"><p>Biogenic lipid‐induced senescence</p></def></def-item><def-item><term id="acel14367-li-0033">BMP3</term><def id="acel14367-li-0034"><p>Bone morphogenetic protein 3</p></def></def-item><def-item><term id="acel14367-li-0035">BSA</term><def id="acel14367-li-0036"><p>Bovine serum albumin</p></def></def-item><def-item><term id="acel14367-li-0037">C<sub>12</sub>FDG</term><def id="acel14367-li-0038"><p>5‐Dodecanoylaminofluorescein Di‐β‐D‐Galactopyranoside</p></def></def-item><def-item><term id="acel14367-li-0039">CAR T</term><def id="acel14367-li-0040"><p>Chimeric antigen receptor T‐cell</p></def></def-item><def-item><term id="acel14367-li-0041">CDKN1A</term><def id="acel14367-li-0042"><p>Cyclin‐dependent kinase inhibitor 1A</p></def></def-item><def-item><term id="acel14367-li-0043">CDKN2A</term><def id="acel14367-li-0044"><p>Cyclin‐dependent kinase inhibitor 2A</p></def></def-item><def-item><term id="acel14367-li-0045">CDNF</term><def id="acel14367-li-0046"><p>Cerebral dopamine neurotrophic factor</p></def></def-item><def-item><term id="acel14367-li-0047">cGAS</term><def id="acel14367-li-0048"><p>Cyclic GMP‐AMP Synthase</p></def></def-item><def-item><term id="acel14367-li-0049">CHAPS</term><def id="acel14367-li-0050"><p>3‐[(3‐cholamidopropyl)dimethylammonio]‐1‐propanesulfonate</p></def></def-item><def-item><term id="acel14367-li-0051">COXIV</term><def id="acel14367-li-0052"><p>Cytochrome c oxidase subunit 4</p></def></def-item><def-item><term id="acel14367-li-0053">CPT1A</term><def id="acel14367-li-0054"><p>Carnitine palmitoyltransferase I</p></def></def-item><def-item><term id="acel14367-li-0055">CTF1</term><def id="acel14367-li-0056"><p>Cardiotrophin‐1</p></def></def-item><def-item><term id="acel14367-li-0057">CXCL1</term><def id="acel14367-li-0058"><p>Chemokine ligand 1</p></def></def-item><def-item><term id="acel14367-li-0059">CXCL14</term><def id="acel14367-li-0060"><p>Chemokine ligand 14</p></def></def-item><def-item><term id="acel14367-li-0061">D<sub>2</sub>O</term><def id="acel14367-li-0062"><p>Deuterium oxide</p></def></def-item><def-item><term id="acel14367-li-0063">DAVID</term><def id="acel14367-li-0064"><p>Database for annotation, visualization and integrated discovery</p></def></def-item><def-item><term id="acel14367-li-0065">DKK2</term><def id="acel14367-li-0066"><p>Dickkopf‐related protein 2</p></def></def-item><def-item><term id="acel14367-li-0067">DMEM</term><def id="acel14367-li-0068"><p>Dulbecco's Modified Eagle Medium</p></def></def-item><def-item><term id="acel14367-li-0069">EGFL7</term><def id="acel14367-li-0070"><p>EGF‐like domain‐containing protein 7</p></def></def-item><def-item><term id="acel14367-li-0071">ELISA</term><def id="acel14367-li-0072"><p>Enzyme‐linked Immunosorbent Assay</p></def></def-item><def-item><term id="acel14367-li-0073">FCCP</term><def id="acel14367-li-0074"><p>Carbonyl cyanide‐p‐trifluoromethoxyphenylhydrazone</p></def></def-item><def-item><term id="acel14367-li-0075">FGF2</term><def id="acel14367-li-0076"><p>Fibroblast growth factor 2</p></def></def-item><def-item><term id="acel14367-li-0077">FITC</term><def id="acel14367-li-0078"><p>Fluorescein isothiocyanate</p></def></def-item><def-item><term id="acel14367-li-0079">GAPDH</term><def id="acel14367-li-0080"><p>Glyceraldehyde 3‐phosphate dehydrogenase</p></def></def-item><def-item><term id="acel14367-li-0081">Gst10</term><def id="acel14367-li-0082"><p>GST C‐terminal domain‐containing protein</p></def></def-item><def-item><term id="acel14367-li-0083">GstA4</term><def id="acel14367-li-0084"><p>Glutathione S‐Transferase Alpha 4</p></def></def-item><def-item><term id="acel14367-li-0085">GTT</term><def id="acel14367-li-0086"><p>Glucose Tolerance Test</p></def></def-item><def-item><term id="acel14367-li-0087">HADHB</term><def id="acel14367-li-0088"><p>Hydroxyacyl‐CoA Dehydrogenase Trifunctional Multienzyme Complex Subunit Beta</p></def></def-item><def-item><term id="acel14367-li-0089">HFHS</term><def id="acel14367-li-0090"><p>High fat high sucrose</p></def></def-item><def-item><term id="acel14367-li-0091">HMGB1</term><def id="acel14367-li-0092"><p>High mobility group box 1</p></def></def-item><def-item><term id="acel14367-li-0093">IGFBP3</term><def id="acel14367-li-0094"><p>Insulin‐like growth factor binding protein 3</p></def></def-item><def-item><term id="acel14367-li-0095">IGFBP7</term><def id="acel14367-li-0096"><p>Insulin‐like growth factor binding protein 7</p></def></def-item><def-item><term id="acel14367-li-0097">IL‐1β</term><def id="acel14367-li-0098"><p>Interleukin 1β</p></def></def-item><def-item><term id="acel14367-li-0099">IL6</term><def id="acel14367-li-0100"><p>Interleukin 6</p></def></def-item><def-item><term id="acel14367-li-0101">IL8</term><def id="acel14367-li-0102"><p>Interleukin 8</p></def></def-item><def-item><term id="acel14367-li-0103">INA</term><def id="acel14367-li-0104"><p>Internexin Neuronal Intermediate Filament Protein Alpha</p></def></def-item><def-item><term id="acel14367-li-0105">IRF3</term><def id="acel14367-li-0106"><p>Interferon Response Factor 3</p></def></def-item><def-item><term id="acel14367-li-0107">ITT</term><def id="acel14367-li-0108"><p>Insulin Tolerance Test</p></def></def-item><def-item><term id="acel14367-li-0109">KEGG</term><def id="acel14367-li-0110"><p>Kyoto Encyclopedia of Genes and Genomes</p></def></def-item><def-item><term id="acel14367-li-0111">KISS1</term><def id="acel14367-li-0112"><p>Kisspeptins</p></def></def-item><def-item><term id="acel14367-li-0113">KRT34</term><def id="acel14367-li-0114"><p>Keratin 34</p></def></def-item><def-item><term id="acel14367-li-0115">LCLAT1</term><def id="acel14367-li-0116"><p>Lysocardiolipin acyltransferase 1</p></def></def-item><def-item><term id="acel14367-li-0117">LIPG</term><def id="acel14367-li-0118"><p>Lipase G</p></def></def-item><def-item><term id="acel14367-li-0119">MEK</term><def id="acel14367-li-0120"><p>Mitogen‐activated protein kinase kinase</p></def></def-item><def-item><term id="acel14367-li-0121">MEM</term><def id="acel14367-li-0122"><p>Minimum Essential Media</p></def></def-item><def-item><term id="acel14367-li-0123">MFAP5</term><def id="acel14367-li-0124"><p>Microfibril‐associated glycoprotein 5</p></def></def-item><def-item><term id="acel14367-li-0125">MiDAS</term><def id="acel14367-li-0126"><p>mitochondrial dysfunction associated senescence</p></def></def-item><def-item><term id="acel14367-li-0127">miMOMP</term><def id="acel14367-li-0128"><p>minority mitochondrial outer membrane permeabilization</p></def></def-item><def-item><term id="acel14367-li-0129">MMP3</term><def id="acel14367-li-0130"><p>Matrix metalloproteinase‐3</p></def></def-item><def-item><term id="acel14367-li-0131">mtDNA</term><def id="acel14367-li-0132"><p>Mitochondrial DNA</p></def></def-item><def-item><term id="acel14367-li-0133">mtMOMP</term><def id="acel14367-li-0134"><p>mitochondrial outer membrane permeabilization</p></def></def-item><def-item><term id="acel14367-li-0135">MUG</term><def id="acel14367-li-0136"><p>4‐methylumbelliferyl‐β‐d‐galactopyranoside</p></def></def-item><def-item><term id="acel14367-li-0137">NF‐κB</term><def id="acel14367-li-0138"><p>Nuclear factor kappa B</p></def></def-item><def-item><term id="acel14367-li-0139">OSTN</term><def id="acel14367-li-0140"><p>Osteocrin</p></def></def-item><def-item><term id="acel14367-li-0141">PLA2G15</term><def id="acel14367-li-0142"><p>Phospholipase A2 group XV</p></def></def-item><def-item><term id="acel14367-li-0143">PLAUR</term><def id="acel14367-li-0144"><p>Urokinase plasminogen activator</p></def></def-item><def-item><term id="acel14367-li-0145">PRDX6</term><def id="acel14367-li-0146"><p>Peroxyredoxin 6</p></def></def-item><def-item><term id="acel14367-li-0147">PVDF</term><def id="acel14367-li-0148"><p>Polyvinylidene difluoride</p></def></def-item><def-item><term id="acel14367-li-0149">REN</term><def id="acel14367-li-0150"><p>Renin</p></def></def-item><def-item><term id="acel14367-li-0151">RIPA</term><def id="acel14367-li-0152"><p>Radio‐Immunoprecipitation Assay</p></def></def-item><def-item><term id="acel14367-li-0153">SASP</term><def id="acel14367-li-0154"><p>Senescence associated secretory phenotype</p></def></def-item><def-item><term id="acel14367-li-0155">SA‐β‐gal</term><def id="acel14367-li-0156"><p>Senescence associated β galactosidase</p></def></def-item><def-item><term id="acel14367-li-0157">SEMA3E</term><def id="acel14367-li-0158"><p>Semaphorin 3E</p></def></def-item><def-item><term id="acel14367-li-0159">SERPINE1</term><def id="acel14367-li-0160"><p>Serine protease inhibitor E1</p></def></def-item><def-item><term id="acel14367-li-0161">SERPINI1</term><def id="acel14367-li-0162"><p>Serine protease inhibitor I1</p></def></def-item><def-item><term id="acel14367-li-0163">SnC</term><def id="acel14367-li-0164"><p>Senescent cell</p></def></def-item><def-item><term id="acel14367-li-0165">STING</term><def id="acel14367-li-0166"><p>Stimulator of Interferon Genes</p></def></def-item><def-item><term id="acel14367-li-0167">SVF</term><def id="acel14367-li-0168"><p>Stromal Vascular Fraction</p></def></def-item><def-item><term id="acel14367-li-0169">TFEA</term><def id="acel14367-li-0170"><p>Transcription Factor Enrichment Analysis</p></def></def-item><def-item><term id="acel14367-li-0171">Tfiie</term><def id="acel14367-li-0172"><p>Transcription factor II E</p></def></def-item><def-item><term id="acel14367-li-0173">TIMP1</term><def id="acel14367-li-0174"><p>Tissue inhibitors of metalloproteinase 1</p></def></def-item><def-item><term id="acel14367-li-0175">TUNEL</term><def id="acel14367-li-0176"><p>Terminal deoxynucleotidyl transferase dUTP nick end labeling</p></def></def-item><def-item><term id="acel14367-li-0177">ULBP2</term><def id="acel14367-li-0178"><p>UL16 binding protein 2</p></def></def-item><def-item><term id="acel14367-li-0179">VAMP7</term><def id="acel14367-li-0180"><p>Vesicle Associated Membrane Protein 7</p></def></def-item><def-item><term id="acel14367-li-0181">WNT16</term><def id="acel14367-li-0182"><p>Wnt Family Member 16</p></def></def-item><def-item><term id="acel14367-li-0183">X‐gal</term><def id="acel14367-li-0184"><p>5‐Bromo‐4‐chloro‐1H‐indol‐3‐yl β‐D‐galactopyranoside</p></def></def-item><def-item><term id="acel14367-li-0185">γH2AX</term><def id="acel14367-li-0186"><p>H2A histone family member X phosphorylated at Ser 139</p></def></def-item></def-list><sec id="acel14367-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Cellular senescence is a cell fate characterized by coincident set of features such as cell cycle arrest, enhanced expression of cyclin‐dependent kinase inhibitors, resistance to apoptosis, and secretion of a battery of proteins (cytokines, chemokines, protease inhibitors) collectively referred to as the senescence‐associated secretory phenotype (SASP). Senescent cells (SnCs) accumulate in tissue over time and, with their inflammatory paracrine effects of the SASP and associated stem cell exhaustion, are thought to contribute to dysfunction associated with age. Transgenic mouse models utilizing systems that allow for selective elimination of cells highly expressing p16<sup>ink4a</sup> or p21<sup>Cip1</sup> have revealed an association between SnC accumulation in adipose and age‐related metabolic disease (Xu, Palmer, et al., <xref rid="acel14367-bib-0044" ref-type="bibr">2015</xref>). Recent evidence demonstrates a link between senescence in adipose depots during obesity and the development of systemic insulin resistance (Suda et al., <xref rid="acel14367-bib-0032" ref-type="bibr">2021</xref>; Wang et al., <xref rid="acel14367-bib-0039" ref-type="bibr">2022</xref>). Using mouse models of obesity coupled with xenografts of human adipose, ablation of p21<sup>Cip1</sup> positive cells in adipose tissue, through either pharmacological or genetic means, alleviated the development of metabolic dysfunction (Wang et al., <xref rid="acel14367-bib-0039" ref-type="bibr">2022</xref>).</p><p>While accumulation of SnCs in visceral adipose tissue is a causal factor in age‐ and obesity‐associated metabolic dysfunction (Suda et al., <xref rid="acel14367-bib-0032" ref-type="bibr">2021</xref>; Wang et al., <xref rid="acel14367-bib-0039" ref-type="bibr">2022</xref>), the molecular mechanisms that initiate the senescence program in fat have remained enigmatic and largely unexplored. Known senescence inducers include gamma radiation, H<sub>2</sub>O<sub>2</sub>, hypoxia, rotenone, and telomeric attrition (Chen et al., <xref rid="acel14367-bib-0006" ref-type="bibr">2001</xref>). Oxidative stress is frequently a correlate to cellular senescence and leads to the peroxidation of membrane phospholipids and triglycerides (Catalá, <xref rid="acel14367-bib-0005" ref-type="bibr">2009</xref>) resulting in chemical production of lipid enals such as 4‐hydroxynonenal, 4‐hydroxyhexenal, and 4‐oxo‐2‐nonenal. In murine models of metabolic and genetic obesity, 4‐HNE and 4‐ONE accumulate in adipose tissue to the highest know levels (approaching milligram/gm quantities) in visceral, but not subcutaneous adipose depots (Long et al., <xref rid="acel14367-bib-0022" ref-type="bibr">2013</xref>). Moreover, expression of the biogenic aldehyde detoxification enzymes glutathione S‐transferase, peroxyredoxin, glutathione peroxidase, and aldehyde dehydrogenase are down‐regulated in visceral, but not subcutaneous, adipose tissue and cultured adipocytes in response to cytokine treatment, promoting the accumulation of 4‐HNE (Curtis et al., <xref rid="acel14367-bib-0007" ref-type="bibr">2010</xref>). Importantly, comparison of lifespan extension across multiple murine platforms identified GstA4, the major 4‐HNE detoxification enzyme, as a key determinant of longevity (Ayyadevara et al., <xref rid="acel14367-bib-0003" ref-type="bibr">2007</xref>). Consistent with this, deletion of <italic toggle="yes">Caenorhabditis elegans Gst10</italic> decreased lifespan while overexpression of either <italic toggle="yes">C. elegans Gst10</italic> or murine Gsta4 into <italic toggle="yes">Gst10</italic> null animals increased lifespan (Swiader et al., <xref rid="acel14367-bib-0033" ref-type="bibr">2021</xref>).</p><p>Due to their chemical solubility, lipid enals readily diffuse across phospholipid bilayers (Vazdar et al., <xref rid="acel14367-bib-0038" ref-type="bibr">2012</xref>), allowing them to serve as paracrine and autocrine regulators of senescence. In their capacity as reactive electrophiles, lipid enals covalently modify nucleophilic species including those on nucleic acids and proteins via Michael addition and Schiff base formation. This modification is termed carbonyl stress and has been shown to typically, but not always, represent a loss‐of‐function in both DNA and proteins (Yoval‐Sánchez &amp; Rodríguez‐Zavala, <xref rid="acel14367-bib-0045" ref-type="bibr">2012</xref>). Since lipid enals are more stable than reactive oxygen species such as hydrogen peroxide or superoxide, they are longer‐lived and therefore represent potential mediators of senescence in vivo (Siems &amp; Grune, <xref rid="acel14367-bib-0030" ref-type="bibr">2003</xref>). Even though bioactive lipids are implicated in a variety of pathologies (Das, <xref rid="acel14367-bib-0009" ref-type="bibr">2021</xref>; Wiley et al., <xref rid="acel14367-bib-0041" ref-type="bibr">2021</xref>) and lipid peroxidation is recognized as an index and effector of oxidative stress, lipid enals themselves have not been investigated in detail as mediators of cellular senescence. Herein we describe experiments in vitro and in vivo that demonstrate reactive lipid enals induce cellular senescence via a bifurcated process termed Biogenic Lipid‐Induced Senescence (BLIS) involving both DNA damage and mitochondrial dysfunction. Moreover, the aldehyde quenching molecule L‐ carnosine attenuates BLIS both in vitro and in vivo, suggesting a novel therapeutic opportunity to affect senescence by targeting lipid peroxidation products.</p></sec><sec id="acel14367-sec-0002"><label>2</label><title>METHODS AND PROTOCOLS</title><sec id="acel14367-sec-0003"><label>2.1</label><title>Cell culture</title><p>IMR90 human lung fibroblasts (ATCC CCL 186) were cultured at 37°C, 5% CO<sub>2</sub> in Minimum Essential Medium (Thermo 11095080), supplemented with fetal bovine serum (10%, Atlas Biologicals FS‐0500‐AD), sodium pyruvate (1%, Thermo 11360070), and MEM nonessential amino acids (1%, Thermo 11140050). All IMR90s used for experiments were between passages 2 and 6. Murine adipose progenitor cells in the stromal vascular fraction (SVF) were isolated from murine adipose tissue by digestion in collagenase and differential plating as previously described (Xu, Hertzel, et al., <xref rid="acel14367-bib-0043" ref-type="bibr">2015</xref>). Murine SVF cells were then cultured in DMEM (Thermo 10569–100) with 10% FBS and used for experiments in passages 2 and 3. Except where otherwise noted, BLIS was induced by treating cells continuously with either 20 μM 4‐hydroxynonenal (Cayman 32100), 20 μM of 4‐hydroxyhexenal (Cayman 32060), or 10 μM of 4‐oxo‐2‐nonenal (Cayman 10185). The concentration of lipid used to induce BLIS for each enal was determined experimentally over a range of lipid levels and assessed by cell viability and β‐galactosidase levels. Continuous treatment entails never aspirating media from cells, and instead adding fresh media every 3 days.</p></sec><sec id="acel14367-sec-0004"><label>2.2</label><title>Mouse model of diet induced obesity and L‐carnosine treatment</title><p>All interventions and procedures were reviewed and approved by the University of Iowa Institutional Animal Care and Use Committee or the University of Minnesota Institutional Animal Care and Use Committee prior to beginning the study. Male C57BL/6J mice were obtained from Jackson Laboratory at ~4 weeks of age. At 8–10 weeks, mice (<italic toggle="yes">n</italic> = 10) were randomly assigned to either normal chow diet (Control, D20122207, Research Diets, Inc) or high fat high sucrose diet (HFHS), (D09071704, Research Diets, Inc) for 16 weeks. Protein and macronutrient composition in each diet were matched except that the HFHS diet consisted of lard‐based fat (35.5% daily kcal) and cholesterol (1.5% daily kcal), and carbohydrate consisted of sucrose (38% daily kcal), while the Control diet consisted of low fat (6% daily kcal), and starch‐based carbohydrates (~75% daily kcal). Seven weeks after starting the diets, a subset of the mice on HFHS diet began receiving L‐carnosine supplemented in their drinking water (80 mM). Both the HFHS diet and carnosine‐supplemented water were refreshed every 3–4 days.</p></sec><sec id="acel14367-sec-0005"><label>2.3</label><title>Metabolic parameters</title><p>To assess the impact of dietary L‐carnosine on glycemic control in the mice, intraperitoneal glucose (GTT) and insulin tolerance tests (ITT) were performed at 14 and 15 weeks after starting the diet, respectively, using standard techniques. Briefly, for GTT a dose of 1 g/kg of 50% dextrose in saline, and for ITT a dose of 0.75 U/kg insulin in saline, were administered via intraperitoneal injection after 6 h of fasting, followed by blood glucose measurements from the tail stick at subsequent timepoints using a glucometer (OneTouch, Verio Flex).</p></sec><sec id="acel14367-sec-0006"><label>2.4</label><title>Mitochondrial isolation</title><p>Mitochondria were isolated from cells using a reagent‐based method following manufacturer's instructions (Thermo 89,874). Briefly, cells were lysed in proprietary buffers, nuclei and unlysed cells were removed by low‐speed (700 × <italic toggle="yes">g</italic>) centrifugation, and mitochondria were pelleted by 12,000 × g centrifugation, with the resulting supernatant constituting the cytosolic fraction of the cellular extract. Identity of mitochondrial and cytosolic fractions were confirmed by probing for cytochrome c oxidase subunit 4 (COXIV) and mitogen‐activated protein kinase kinase (MEK).</p></sec><sec id="acel14367-sec-0007"><label>2.5</label><title>Carbonyl detection</title><p>Cells were lysed in coupling buffer (100 mM sodium acetate, 20 mM NaCl, 0.1 mM EDTA, pH 5.5) supplemented with 1% Triton and protease inhibitors. Cell extracts were then incubated with EZ‐link biotin hydrazide (5 mM) for 2 h at room temperature to add biotin groups to carbonyl moieties. Functionalized samples were then resolved by SDS‐PAGE and transferred to a PVDF membrane. Membranes were blocked overnight at 4°C in Intercept Blocking Buffer (LI‐COR 927–60,001), incubated with IRDye CW800 streptavidin (LI‐COR 926–32,230), rinsed, and imaged using a LI‐COR Odyssey imager.</p></sec><sec id="acel14367-sec-0008"><label>2.6</label><title>Mass spectrometric measurement of 4‐hydroxynonenal</title><p>4‐hydroxynonenal was quantitated from frozen adipose tissue using the method described by Wang et al., <xref rid="acel14367-bib-0040" ref-type="bibr">2012</xref>. Briefly, frozen adipose samples were homogenized in ice‐cold phosphate buffered saline: water (1/10, v/v) at 4°C and the protein level was quantitated using the bicinchoninic acid method. 0.7 nmol of 4‐hydroxynonenal‐d<sub>3</sub> (Cayman) per 1 mg of protein was added to the homogenate as an internal standard. Homogenate with internal standard was extracted using the modified Bligh and Dyer extraction method, dried, and diluted in chloroform/methanol (1/1, v/v). Subsequently, 20 μL of extract was mixed with 22 μL of 125 mM carnosine, 250 μL of water, and incubated at 37°C for 24 h. for derivatization (Wang et al., <xref rid="acel14367-bib-0040" ref-type="bibr">2012</xref>). Derivatization was ended by adding 1.5 mL of chloroform/methanol (1/1, v/v) and 0.5 mL water and derivatized samples extracted into the upper aqueous layer after centrifugation at 2700 rpm for 5 min. The collected aqueous phase was washed two times by addition of chloroform (0.75 mL) and evaporated under a nitrogen stream. The residue was reconstituted in 100 μL of water/methanol (1/1, v/v), diluted 20‐fold in methanol/water/formic acid (80/20/0.1, v/v/v) and infused in TSQ Quantis mass spectrometer (Thermo, San Jose, CA) equipped with an automated nanospray device (Triversa Nanomate, Advion Bioscienc Ltd. Ithaca, NY). Analysis was performed in positive ion mode using neutral loss scans of 71.2 and 117.2 with collision energies 23 and 28 eV, respectively, and collision gas pressure at 1 mTorr. Quantitation of 4‐hydroxynonenal species was obtained by averaging the results determined from neutral loss scans of 71.2 and 117.2 in comparison to internal standard using in‐house software.</p></sec><sec id="acel14367-sec-0009"><label>2.7</label><title>Western blotting</title><p>Proteins from cell extracts in RIPA buffer were resolved by SDS‐PAGE, transferred to an Immobilon‐P PVDF membrane (Millipore IPVH00010) at 4°C, blocked for 1 h at room temperature with Intercept Blocking Buffer, and then incubated with primary antibody to desired target overnight. All antibodies used are listed in Table <xref rid="acel14367-supitem-0005" ref-type="supplementary-material">S1</xref>. Membranes were then rinsed in tris‐buffered saline buffer with 1% Tween, incubated for 1 h at room temperature with fluorescently‐ or near infrared‐labeled secondary antibodies (LI‐COR, IRDye 680RD or 800CW), and imaged using a LI‐COR Odyssey Imager or an iBright CL1500 Imaging System (Thermo).</p></sec><sec id="acel14367-sec-0010"><label>2.8</label><title>Enzyme‐linked immunosorbent assay (<styled-content style="fixed-case" toggle="no">ELISA</styled-content>)</title><p>To quantitate secreted IGFBP3 and MMP3, ELISAs were performed on conditioned media using commercially available kits (Biotechne DGB300, DMP300), according to manufacturer's instructions. Briefly, conditioned media from IMR90s treated for a week with vehicle or lipid enals were loaded into clear, plastic 96‐well plates provided with the kits. After an hour of antigen adhesion, plates were rinsed and probed with provided primary and secondary antibodies, chromogenic substrate was added to samples, and absorbance was measured on a Synergy 4 Reader (Agilent).</p></sec><sec id="acel14367-sec-0011"><label>2.9</label><title>Senescence‐associated β‐galactosidase staining</title><p>Chromogenic staining for senescence‐associated β‐galactosidase (SA‐β‐gal) was performed with galactosidase substrate 5‐Bromo‐4‐chloro‐1H‐indol‐3‐yl β‐D‐galactopyranoside (X‐gal, Sigma 16,555) as previously described (Itahana et al., <xref rid="acel14367-bib-0019" ref-type="bibr">2007</xref>). Briefly, IMR90s subjected to BLIS were fixed with paraformaldehyde/glutaraldehyde (2%/0.1%) for 5 min at room temperature. Fixed cells were then rinsed with phosphate‐buffered saline and stained with 1 mg/mL X‐gal in a citrate/phosphate buffer (5 mM Potassium Ferricyanide, 5 mM Potassium Ferrocyanide, 2 mM MgCl<sub>2</sub>, 150 mM NaCl, 40 mM citric acid, 40 mM sodium phosphate, pH 6) for 4 h at 37°C, protected from light. Stained cells were then rinsed and visualized on an Olympus CK40 microscope.</p><p>The conversion of fluorogenic galactosidase substrate 4‐methylumbelliferyl‐β‐d‐galactopyranoside (MUG, Sigma M1633) to fluorophore 4‐methylumbelliferone (4‐MU) was used to quantify SA‐β‐gal in cell lysate previously described (Gary &amp; Kindell, <xref rid="acel14367-bib-0016" ref-type="bibr">2005</xref>). Briefly, cells were washed with PBS and lysed in CHAPS lysis buffer (5 mM 3‐[(3‐cholamidopropyl)dimethylammonio]‐1‐propanesulfonate, 40 mM citric acid, 40 mM sodium phosphate, pH 6) supplemented with protease inhibitors. Samples were kept on ice for an hour, vortexed, and centrifuged at 12,000 × g for 5 min. Total protein in each sample was measured by BCA assay. Samples were combined with a 2X reaction buffer (40 mM citric acid, 40 mM sodium phosphate, 10 mM β‐mercaptoethanol, 4 mM MgCl2, pH 6), and MUG (final concentration 1.7 mM). Mixtures were incubated at 37°C for 1 h, after which reactions were terminated with 400 mM sodium carbonate. Fluorescence was then measured using a plate reader at excitation/emission wavelengths of 360 nm/465 nm.</p><p>Generation of a fluorophore from SA‐β‐gal substrate 5‐Dodecanoylaminofluorescein Di‐β‐D‐Galactopyranoside (C<sub>12</sub>FDG) was used to visualize SA‐β‐gal activity and quantify SnCs as previously described (Fuhrmann‐Stroissnigg et al., <xref rid="acel14367-bib-0015" ref-type="bibr">2019</xref>). IMR90s treated with a vehicle control, lipid enals, or etoposide were seeded (5000 cells/well) on a 96‐well plate (Corning, 3614). All cells were treated with bafilomycin (100 nM) for 1 h to alkalinize lysosomes. C<sub>12</sub>FDG (10 μM) was then added and cells were incubated for 2 h. Cells were then washed and nuclei were counterstained with Hoechst 33342 before imaging using a Cytation 1 (Agilent). SnCs were quantified using C<sub>12</sub>FDG fluorescence intensity thresholds determined by the etoposide‐treated group.</p></sec><sec id="acel14367-sec-0012"><label>2.10</label><title>Cell proliferation assay</title><p>Cellular proliferation was assessed by a commercially available kit (CyQUANT, Thermo C7026) using the manufacturer's instructions. Briefly, cells treated as described were lysed and then incubated with a proprietary DNA‐binding fluorogenic probe (CyQUANT GR dye). Fluorescence of each sample was then determined on a plate reader using excitation/emission wavelengths of 485/528 nm. A standard curve was generated using serial dilutions of pellets with known cell number quantities as determined by an automated cell counter (Countess 3), and cell number in samples were quantified by interpolating on the standard curve.</p></sec><sec id="acel14367-sec-0013"><label>2.11</label><title>Metabolomic analysis</title><p>Polar metabolites were extracted from cells using a chloroform‐methanol extraction procedure. Briefly, cells were lysed by mechanical shearing in a 28‐gauge needle in 300 μL 1% sodium chloride solution. 250 μL of lysate was added to 500 μL chloroform and 250 μL methanol and the mixture was vortexed and centrifuged at 13,000 × <italic toggle="yes">g</italic> for 10 min. The upper aqueous/methanol layer was removed to a new tube and the chloroform layer was washed with 250 μL of 1:1 1% sodium chloride‐methanol. Three milliliters of methanol were added to the aqueous phase to facilitate drying under nitrogen and stored at −80°C until nuclear magnetic resonance (NMR) analysis. Immediately prior to the NMR analysis, the dried film was resuspended in 100 mM sodium phosphate in D<sub>2</sub>O (pH 7.4) containing 20 μM trimethylsilyl propionic acid as a calibration standard with a volume that ensured equal loading across all samples.</p></sec><sec id="acel14367-sec-0014"><label>2.12</label><title>Real time measurement of oxygen consumption</title><p>Oxygen consumption rate and extracellular acidification rate of IMR90s were measured using a Mito Stress Test Kit (Agilent 103,015–100) and a Seahorse XFe24 Analyzer. IMR90s were treated as described and seeded (9 × 10<sup>4</sup> cells/well) the day before the assay. An hour before the assay, IMR90s were cultured in unbuffered DMEM for 1 h. at 37°C at atmospheric CO<sub>2</sub>. Plated cells and a loaded cassette containing oligomycin (1 μM), FCCP (1.5 μM), and rotenone (1 μM)/antimycin A (1 μM) were placed into the analyzer and the assay was performed following manufacturer's instructions. OCR is measured in triplicate at baseline and after each added pharmacological agent.</p></sec><sec id="acel14367-sec-0015"><label>2.13</label><title>
+<styled-content style="fixed-case" toggle="no">γH2AX</styled-content> foci visualization</title><p>H2AX phosphorylated at Ser 139 (γH2AX) was visualized using immunofluorescent microscopy. IMR90s seeded onto coverslips were treated as described and fixed with a 4% paraformaldehyde solution for 12 min. Fixed samples were then permeabilized with 0.2% Triton‐X and blocked with 5% BSA for 1 h. at room temperature. Samples were incubated in primary antibody (1:200) overnight at 4°C. After rinsing, they were incubated with secondary antibody for 1 h. at room temperature. Coverslips were rinsed again, mounted onto slides, and imaged using a Leica Fluorescence Microscopy system (DM5500B).</p></sec><sec id="acel14367-sec-0016"><label>2.14</label><title>Real time quantitative polymerase chain reaction (<styled-content style="fixed-case" toggle="no">RT</styled-content>‐<styled-content style="fixed-case" toggle="no">qPCR</styled-content>)</title><p>RNA was isolated using TRIzol reagent (Invitrogen 15,596,026) and after extraction, precipitation, and resuspension, the RNA was subjected to iScript reverse transcriptase (Bio‐Rad, 1,708,891) to synthesize cDNA. Real time quantitative PCR (RT‐qPCR) assays were then performed using SYBR green dye on a Bio‐Rad CFX96 Real Time System. Genes used as internal controls for human and mouse samples were VAMP7 and TFIIE, respectively. Sequences for all primers used can be found in Table <xref rid="acel14367-supitem-0006" ref-type="supplementary-material">S2</xref>.</p></sec><sec id="acel14367-sec-0017"><label>2.15</label><title>
+<styled-content style="fixed-case" toggle="no">RNA</styled-content> sequencing and analysis</title><p>Libraries were synthesized from equal amounts of high‐quality mRNA (1 μg) from IMR90s treated for 1 week with vehicle or 4‐HNE. These libraries were then sequenced using a Lumina NovaSeq 6000. 2 × 150 bp FastQ paired end reads for 6 samples (<italic toggle="yes">n</italic> = 85.3 Million average reads per sample) were trimmed using Trimmomatic (v 0.33) enabled with the optional “‐q” option; 3 bp sliding‐window trimming from 3′ end requiring minimum Q30. Quality control on raw sequence data for each sample were performed with FastQC. Read mapping was performed via Hisat2 (v2.1.0) using the human genome (GRCh38 v97) as a reference. Gene quantification was done via Feature Counts for raw read counts. Differentially expressed genes were identified using the edgeR (negative binomial) feature in CLCGWB (Qiagen, Redwood City, CA) using raw read counts. Genes with a <italic toggle="yes">p</italic> value &lt;0.05, after Benjamini‐Hochberg's correction was applied, were considered significantly upregulated. Functional annotation analysis on differentially expressed genes was performed using DAVID as previously described (Huang et al., <xref rid="acel14367-bib-0018" ref-type="bibr">2009</xref>). In comparative analysis, published data (Casella et al., <xref rid="acel14367-bib-0004" ref-type="bibr">2019</xref>) from IMR90s made senescent with gamma radiation and serial passaging were used.</p></sec><sec id="acel14367-sec-0018"><label>2.16</label><title>Relative mitochondrial membrane potential</title><p>Mitochondrial membrane potential was assessed using MitoTracker dyes: one that was potential‐dependent and one that was not, MitoTracker Red CMXRos and MitoTracker Green, respectively. Briefly, IMR90s treated for a week with vehicle or 4‐HNE were loaded with MitoTracker dyes for 45 min and fluorescence was quantified at an excitation/emission of 579 nm/599 nm and 490 nm/516 nm using a Synergy Neo 2 Multi‐mode Reader. Potential‐dependent dye signal was normalized to total mitochondrial content signal and expressed as a fold‐control of vehicle‐treated IMR90s.</p></sec><sec id="acel14367-sec-0019"><label>2.17</label><title>
+<styled-content style="fixed-case" toggle="no">TUNEL</styled-content> assay</title><p>Apoptotic phenotypes were assessed using a commercial kit to fluorescently tag 3′‐hydroxyl ends of DNA fragments (Abcam, ab66108). Briefly, IMR90s treated with vehicle and 4‐HNE continuously for 1 week were fixed with formaldehyde on ice, incubated in a FITC‐based stain targeted to DNA fragments, and then counterstained with propidium iodide to visualize all cells. Samples were then imaged on a Leica Fluorescence Microscopy system (DM5500B).</p></sec><sec id="acel14367-sec-0020"><label>2.18</label><title>
+<styled-content style="fixed-case" toggle="no">DNA</styled-content> binding assays</title><p>Commercially available DNA binding assays were used to quantify transcription factors bound to nuclear DNA (NF‐κB: Cayman 10,007,889). Briefly, nuclear extracts were prepared by lysing cells in hypotonic buffer (20 mM Tris–HCl, 10 mM NaCl, 3 mM MgCl<sub>2</sub>, pH 7.4) supplemented with protease inhibitors and 10% NP‐40 detergent. Nuclei were then pelleted by low‐speed centrifugation for 10 min (700 × <italic toggle="yes">g</italic> at 4°C). The pellet was rinsed once and then resuspended into hypotonic buffer and mechanically lysed through a 28‐gauge needle, yielding nuclear extracts. Samples were then added to clear plates coated with immobilized binding sequences. Plates were rinsed, probed with the antibodies, developed with chromogenic dyes, and their absorbance was measured on a Synergy 4 Plate Reader (Agilent).</p></sec><sec id="acel14367-sec-0021"><label>2.19</label><title>Statistical analysis</title><p>Unpaired, two‐tailed Student's or Welch's T tests (between 2 experimental groups) were performed as appropriate. <italic toggle="yes">p</italic>‐Values below 0.05 were deemed statistically significant. All experimental groups have a sample size of at least 3, and measurements were taken from distinct biological samples. The statistical test(s) used and whether they are one‐ or two‐sided is presented in each figure legend. All data in figures are expressed as mean ± standard error of the mean (SEM).</p></sec></sec><sec sec-type="results" id="acel14367-sec-0022"><label>3</label><title>RESULTS</title><sec id="acel14367-sec-0023"><label>3.1</label><title>Lipid enals induce a senescent phenotype in <styled-content style="fixed-case" toggle="no">IMR90</styled-content> fibroblasts and murine adipose stromal vascular fraction cells</title><p>Work by Curtis et al., as well as Long et al., have shown that in obese, glucose intolerant C57Bl/6J mice that the expression of the key antioxidant enzyme glutathione S‐transferase A4, as well as peroxiredoxin 3, glutathione peroxidase 4, and aldehyde dehydrogenase 2 are each down‐regulated in visceral, but not subcutaneous adipose tissue from high fat fed animals (Curtis et al., <xref rid="acel14367-bib-0007" ref-type="bibr">2010</xref>; Long et al., <xref rid="acel14367-bib-0022" ref-type="bibr">2013</xref>). At the cellular level using primary fat cells and 3 T3‐L1 adipocytes, inflammatory cytokines such as TNFα and IL‐1β similarly down‐regulate antioxidant gene expression (Curtis et al., <xref rid="acel14367-bib-0007" ref-type="bibr">2010</xref>). The down regulation of the antioxidant enzymes in turn leads to the increased abundance of 4‐HNE and 4‐ONE in visceral, but not subcutaneous fat (Long et al., <xref rid="acel14367-bib-0022" ref-type="bibr">2013</xref>). These finding suggest that lipid aldehydes accumulate in visceral, but not subcutaneous adipose tissue due to the down‐regulation of antioxidant enzymes and that inflammatory cytokines drive such processes.</p><p>Medium chain lipid enals are both soluble in aqueous systems and capable of rapidly diffusing across biological membranes making them ideal candidates for signaling molecules. Indeed, in a variety of systems 4‐HNE has been shown to diffuse into the nucleus of cells and covalently modify DNA leading to formation of N<sup>2</sup>‐propano‐HNE‐deoxyguanine (Douki et al., <xref rid="acel14367-bib-0011" ref-type="bibr">2004</xref>), a reaction that promotes G:C to A:T substitution mutations. Additionally, 4‐HNE modifies the side chains of amino acids in proteins, particularly lysine, cysteine and histidine, leading to altered properties (Esterbauer et al., <xref rid="acel14367-bib-0012" ref-type="bibr">1991</xref>). Given the increased levels of lipid enals in visceral fat, and that both DNA damage and mitochondrial dysfunction are inducers of cellular senescence, we hypothesized that adipocyte 4‐HNE and other enals such as 4‐hydroxy <italic toggle="yes">trans</italic> 2,3 hexenal and 4‐oxy <italic toggle="yes">trans</italic> 2,3 nonenal would induce senescence in cultured cells.</p><p>To assess the physiological relevance of lipid enals to adipose tissue in advanced age, we quantified 4‐HNE in the epididymal adipose depot in mouse models of aging by mass spectrometry. Compared to young (4–6 months) mice, old mice (24–26 months) have approximately 2 times the level of 4‐HNE in epididymal white adipose tissue (EWAT) (Figure <xref rid="acel14367-fig-0001" ref-type="fig">1A</xref>). To examine whether these enals indeed induce senescence, IMR90 cells were plated and while subconfluent, treated with lipid enals for 7 days (see methods), and SnC markers then assessed including (SA‐β‐gal) activity, cell cycle arrest, loss of cellular lamin B1, loss of HMGB1, and enhanced expression of cyclin‐dependent kinase inhibitors p21<sup>Cip1</sup> and p16<sup>ink4A</sup>. Using the fluorogenic β‐galactosidase substrates 4‐methylumbelliferyl‐β‐d‐galactopyranoside (MUG) as well as the chromogenic substrate X‐gal we found that lipid enal‐treated cells exhibited increased SA‐β‐gal activity compared to the vehicle control in a time and concentration dependent manner (Figure <xref rid="acel14367-fig-0001" ref-type="fig">1B,C</xref>, <xref rid="acel14367-supitem-0002" ref-type="supplementary-material">S2A,B</xref>). Gating individual cells by fluorescence intensity, we estimate that the 7‐day lipid enal treatment results in approximately 10% of cells becoming positive for SA‐β‐gal (Figure <xref rid="acel14367-supitem-0002" ref-type="supplementary-material">S2C,D</xref>). Lipid enal‐treated fibroblasts also exhibited slower proliferation and lost expression of lamin B1 and HMGB1 (Figure <xref rid="acel14367-fig-0001" ref-type="fig">1D,E</xref>
+<xref rid="acel14367-supitem-0001" ref-type="supplementary-material">S1A,B</xref>, <xref rid="acel14367-supitem-0002" ref-type="supplementary-material">S2E</xref>). All lipid enals caused a significant upregulation of expression of <italic toggle="yes">CDKN1A</italic> (p21<sup>Cip1</sup>), and 4‐ONE also significantly upregulated expression of <italic toggle="yes">CDKN2A</italic> (p16<sup>ink4A</sup>) in IMR90 cells (Figure <xref rid="acel14367-fig-0001" ref-type="fig">1F</xref>). The downregulation of p16ink4A at the transcriptional level in response to 4‐HNE was confirmed at the protein level (Figure <xref rid="acel14367-supitem-0002" ref-type="supplementary-material">S2F</xref>). Considered altogether, these observed changes to a suite of classic senescence biomarkers in concert indicated the initiation of the senescence program in a process we termed biogenic lipid‐induced senescence (BLIS). To confirm that BLIS occurs in cell types other than IMR90 fibroblasts, we applied continuous 4‐HNE treatment to murine stem cells isolated from the stromal vascular fraction (SVF) of visceral (perigonadal) fat and similarly measured upregulated expression of both p21<sup>Cip1</sup> and p16<sup>ink4A</sup> by qPCR (Figure <xref rid="acel14367-fig-0001" ref-type="fig">1G</xref>). These results are consistent with previous result demonstrating that 4‐HNE also induces biomarkers associated with senescence in human endothelial cells and skin fibroblasts, respectively (Fafián‐Labora et al., <xref rid="acel14367-bib-0013" ref-type="bibr">2020</xref>; Riahi et al., <xref rid="acel14367-bib-0026" ref-type="bibr">2015</xref>). Thus, lipid enals appear able to induce senescence‐like phenotypes in a variety of cell types.</p><fig position="float" fig-type="FIGURE" id="acel14367-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Lipid enals induce cellular senescence in IMR90s. (a) Quantitation of 4‐HNE in epididymal adipose from young (4‐month) and old (24‐month) mice by mass spectrometry. (b, c) SA‐β‐galactosidase activity in continuously treated IMR90s as indexed by chromogenic substrate X‐gal (b) and fluorogenic substrate MUG (c). (d, e) Representative immunoblots of intracellular LaminB1 (d) and HMGB1 (e) from continuously treated cells. Relative expression of p21 and p16 in continuously treated IMR90s (f) and murine SVF cells (g). *<italic toggle="yes">p</italic> &lt; 0.05 versus vehicle control. Data are representative of <italic toggle="yes">n</italic> = 3–8.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ACEL-24-e14367-g004.jpg"><?image-name ACEL-24-e14367-g004.jpg?><?image-size 90791?><?image-md5 ca6e1b10a6477504006da991e36dc4e8?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1014?><?image-original-width 1064?><?image-scaled-height 676?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/ca6e1b10a647/ACEL-24-e14367-g004.jpg?><?thumb-name ACEL-24-e14367-g004.gif?><?thumb-size 4207?><?thumb-md5 d00fa28a1e13cf24116c72b5acdd9f7d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 95?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/d00fa28a1e13/ACEL-24-e14367-g004.gif?></graphic></fig></sec><sec id="acel14367-sec-0024"><label>3.2</label><title>4‐<styled-content style="fixed-case" toggle="no">HNE</styled-content> causes genotoxic stress</title><p>Genomic instability encompassing many types of genetic damage including telomeric attrition and double‐stranded DNA breaks, are a well‐established determinant of senescence. Similar to their reaction with the side chain amine from lysine, reactive lipid enals covalently modify the N<sup>2</sup>‐amine of deoxyguanine generating N<sup>2</sup>‐(3‐oxopropyl)‐dG. This product rearranges with the reversible modification of N<sup>1</sup>, giving rise to 1,N<sup>2</sup> dG adducts that both hinder DNA replication and are mutagenic (Minko et al., <xref rid="acel14367-bib-0023" ref-type="bibr">2009</xref>). To address possible DNA modification and subsequent double‐stranded DNA breaks with BLIS, we evaluated hallmarks of canonical γH2AX/p53/p21 pathway signaling. Concomitant with 4‐HNE treatment, the formation of γH2AX foci appeared approximately 4 h after 4‐HNE treatment, was significantly increased by 8 h. and occurred coincident with an increase in p53 (Figure <xref rid="acel14367-fig-0002" ref-type="fig">2A–C</xref>). Increased expression of p53 was followed by enhanced expression of p21<sup>Cip1</sup>, which remained persistently elevated even after p53 levels returned to near basal levels (Figure <xref rid="acel14367-fig-0002" ref-type="fig">2D</xref>, <xref rid="acel14367-supitem-0001" ref-type="supplementary-material">S1C,D</xref>). Induction of these signaling pathways suggests the creation of double‐stranded DNA breaks, potentially arising from modification of DNA.</p><fig position="float" fig-type="FIGURE" id="acel14367-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>4‐HNE induces signs of genotoxicity. (a–c) Representative images of γH2AX foci in IMR90s after indicated time of 4‐HNE (20 μM) treatment and corresponding quantifications (d) Representative immunoblot of p53 and p21 after indicated time of 4‐HNE (20 μM) treatment. *<italic toggle="yes">p</italic> &lt; 0.05 versus vehicle control. Scale bar is 20 μm. Data are representative of <italic toggle="yes">n</italic> = 3.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ACEL-24-e14367-g006.jpg"><?image-name ACEL-24-e14367-g006.jpg?><?image-size 60997?><?image-md5 2046dca841b444509db950c1ae5702cf?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 856?><?image-original-width 1064?><?image-scaled-height 570?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/2046dca841b4/ACEL-24-e14367-g006.jpg?><?thumb-name ACEL-24-e14367-g006.gif?><?thumb-size 3233?><?thumb-md5 3bce27fc1d7b162d5698ee46ddeaa04b?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/3bce27fc1d7b/ACEL-24-e14367-g006.gif?></graphic></fig></sec><sec id="acel14367-sec-0025"><label>3.3</label><title>Lipid enals generate protein adducts and mitochondrial dysfunction in <styled-content style="fixed-case" toggle="no">IMR90</styled-content> fibroblasts</title><p>The electrophilicity of enals such as 4‐hydroxy, <italic toggle="yes">trans</italic> 2,3 nonenal, makes them subject to covalent adduction with the side chains of proteins, especially those with nucleophilic amines (Esterbauer et al., <xref rid="acel14367-bib-0012" ref-type="bibr">1991</xref>). One of the main reactions that lipid enals participate in is formation of Michael adducts wherein attack occurs on the β‐carbon in the lipid α, β‐unsaturated bond. Further rearrangement can result in stable hemi‐acetal groups making this covalent modification effectively irreversible (Schaur, <xref rid="acel14367-bib-0029" ref-type="bibr">2003</xref>). To evaluate if treatment of IMR90 fibroblasts with 4‐HNE results in stable modification of proteins, we performed immunoblot analysis using antibodies specific for HNE‐protein adducts (Long et al., <xref rid="acel14367-bib-0022" ref-type="bibr">2013</xref>). Characterization of 4‐HNE‐modified protein adducts over the course of the continuous treatment demonstrated an increase in 4‐HNE adducts 4–8 h after initial exposure after which adduct levels were maintained at a static lower‐level despite subsequent treatments with 4‐HNE on day 3 and day 6 (Figure <xref rid="acel14367-fig-0003" ref-type="fig">3A</xref>, <xref rid="acel14367-supitem-0001" ref-type="supplementary-material">S1E</xref>). Whereas 4‐HNE, 4‐HHE, and 4‐ONE appear to modify the same set of proteins, 4‐HNE and 4‐HHE modified proteins were more abundant relative to modification with 4‐ONE (Figure <xref rid="acel14367-fig-0003" ref-type="fig">3B</xref>, <xref rid="acel14367-supitem-0001" ref-type="supplementary-material">S1F</xref>). Fractionating the 4‐HNE modified proteins revealed that the majority of HNE‐induced protein carbonylation were mitochondrial rather than cytoplasmic (Figures <xref rid="acel14367-fig-0003" ref-type="fig">3C</xref>, <xref rid="acel14367-supitem-0003" ref-type="supplementary-material">S3A</xref>).</p><fig position="float" fig-type="FIGURE" id="acel14367-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Lipid enals induce carbonyl stress and mitochondrial dysfunction in IMR90s. (a) Representative immunoblot of HNE‐protein Michael adducts formed in IMR90s with continuous treatment of 4‐HNE (20 μM). (b) Representative blot of carbonylated proteins with continuous treatment for a week with 4‐HNE, 4‐HHE, and 4‐ONE. (c) Representative immunoblot of HNE‐protein Michael adducts formed in mitochondria and cytosol after 4 h of treatment with 4‐HNE (20 μM). (d) Oxygen consumption of continuously treated IMR90s undergoing a mitochondrial stress test. (e) ADP:ATP ratios in fibroblasts treated with indicated enal continuously for 7 days. (f, g) Relative levels of citrate (f) and succinate (g) in fibroblasts treated with indicated enal continuously for 7 days. (h) Relative mitochondrial potential, normalized to total mitochondria. (i) Phospho‐ and total AMPK levels after exposure to 4‐HNE for the indicated times. *<italic toggle="yes">p</italic> &lt; 0.05 versus vehicle control. Data are representative of <italic toggle="yes">n</italic> = 3–6.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ACEL-24-e14367-g005.jpg"><?image-name ACEL-24-e14367-g005.jpg?><?image-size 124359?><?image-md5 c774710c6abccdaf1c85a6b1a9ff24b9?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1364?><?image-original-width 1064?><?image-scaled-height 909?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/c774710c6abc/ACEL-24-e14367-g005.jpg?><?thumb-name ACEL-24-e14367-g005.gif?><?thumb-size 5534?><?thumb-md5 80f34007def11abc2b82b6bad10982a1?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 128?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/80f34007def1/ACEL-24-e14367-g005.gif?></graphic></fig><p>Given the capacity of oxidized enals to modify proteins, they can induce mitochondrial dysfunction via loss of function of TCA cycle and electron transport chain constituents such as aconitase, Complex I, Complex III and the ATP Synthase (Curtis et al., <xref rid="acel14367-bib-0008" ref-type="bibr">2012</xref>). To assess mitochondrial function in 4‐HNE‐treated IMR90 cells, we utilized Seahorse technology to quantify oxygen consumption in response to enal challenge. IMR90 cells exhibited reduced mitochondrial spare capacity following a weeklong exposure to 4‐HNE (Figures <xref rid="acel14367-fig-0003" ref-type="fig">3D</xref>, <xref rid="acel14367-supitem-0003" ref-type="supplementary-material">S3B</xref>), along with an increase in ADP and a decrease in ATP levels (Figures <xref rid="acel14367-fig-0003" ref-type="fig">3E</xref>, <xref rid="acel14367-supitem-0003" ref-type="supplementary-material">S3I–K</xref>), consistent with a decrease in energy charge (Figure <xref rid="acel14367-supitem-0003" ref-type="supplementary-material">S3K</xref>). 4‐HNE treatment also affected the tricarboxylic acid cycle with a decrease in succinate and an increase in citrate levels, suggesting potential modification of aconitase, a known 4‐HNE target (Figure <xref rid="acel14367-fig-0003" ref-type="fig">3F,G</xref>). 4‐HNE treatment reduced the mitochondrial membrane potential indicating altered mitochondrial function in cells exposed to lipid enals (Figure <xref rid="acel14367-fig-0003" ref-type="fig">3H</xref>). Phosphorylation of AMP kinase at threonine 172, a putative consequence of disrupted mitochondrial function, occurred 48 h post 4‐HNE exposure (Figures <xref rid="acel14367-fig-0003" ref-type="fig">3I</xref>, <xref rid="acel14367-supitem-0001" ref-type="supplementary-material">S1G</xref>). A trending increase in extracellular acidification (Figure <xref rid="acel14367-supitem-0003" ref-type="supplementary-material">S3C</xref>) suggests that BLIS causes SnCs to become more glycolytic, consistent with the enrichment of glycolysis‐associated genes often measured in senescent cells. Indeed, GAPDH is upregulated by nearly 2‐fold in IMR90s subjected to BLIS (Table <xref rid="acel14367-supitem-0007" ref-type="supplementary-material">S3</xref>). Also consistent with mitochondrial dysfunction, genes associated with fatty acid oxidation such as <italic toggle="yes">HADHB</italic> and <italic toggle="yes">CPT1A</italic> were upregulated (Table <xref rid="acel14367-supitem-0007" ref-type="supplementary-material">S3</xref>). Taken together, these results suggest a bimodal mechanism of BLIS involving both genotoxicity and mitochondrial damage.</p></sec><sec id="acel14367-sec-0026"><label>3.4</label><title>
+<styled-content style="fixed-case" toggle="no">BLIS</styled-content> is associated with an <styled-content style="fixed-case" toggle="no">NF</styled-content>‐<styled-content style="fixed-case" toggle="no">κB</styled-content>‐independent <styled-content style="fixed-case" toggle="no">SASP</styled-content>
+</title><p>A major feature of the senescent program is the senescence associated secretory phenotype (SASP), the composition of which varies by cell type and means of senescence induction (Sturmlechner et al., <xref rid="acel14367-bib-0031" ref-type="bibr">2021</xref>). Using a candidate‐gene approach, we found that BLIS was accompanied by increased expression of several SASP constituents as defined by the SenMayo panel of factors (Figure <xref rid="acel14367-fig-0004" ref-type="fig">4A–C</xref>) (Saul et al., <xref rid="acel14367-bib-0028" ref-type="bibr">2022</xref>). Among these were extracellular matrix regulators <italic toggle="yes">SERPINE1</italic> and <italic toggle="yes">MMP3</italic>, insulin‐like growth factor binding proteins 3 and 7, and growth factors <italic toggle="yes">ANGPTL4</italic> and <italic toggle="yes">FGF2</italic>. <italic toggle="yes">CXCL14</italic>, a chemokine that initiates immunosurveillance of p21<sup>Cip1</sup>‐positive SnC by macrophages (Sturmlechner et al., <xref rid="acel14367-bib-0031" ref-type="bibr">2021</xref>), is also a member of the lipid enal‐induced SASP. Secretion of IGFBP3 and MMP3 in response to lipid enals was confirmed by ELISA measurements of target protein levels in conditioned media (Figure <xref rid="acel14367-supitem-0004" ref-type="supplementary-material">S4A,B</xref>).</p><fig position="float" fig-type="FIGURE" id="acel14367-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Lipid enals induce an NF‐κB‐independent portion of the SASP. (a–c) Volcano plots of expression of selected putative human SASP constituents in IMR90s after a week of continuous treatment with lipid enals (a) 4‐HNE, (b) 4‐HHE, and (c) 4‐ONE. (d) Expression of selected putative SASP constituents in murine SVF cells after a week of continuous treatment. (e) Expression of selected BLIS‐associated SASP factors in IMR90s over the course of continuous treatment at indicated times. *<italic toggle="yes">p</italic> &lt; 0.05 versus vehicle control. Data are representative of <italic toggle="yes">n</italic> = 3–6.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ACEL-24-e14367-g002.jpg"><?image-name ACEL-24-e14367-g002.jpg?><?image-size 131800?><?image-md5 d89fd66f2421c2b9689ddf44f5f0e494?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1293?><?image-original-width 1064?><?image-scaled-height 862?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/d89fd66f2421/ACEL-24-e14367-g002.jpg?><?thumb-name ACEL-24-e14367-g002.gif?><?thumb-size 4634?><?thumb-md5 c52ab4f4b4d2b0537850f981c6437552?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 122?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/c52ab4f4b4d2/ACEL-24-e14367-g002.gif?></graphic></fig><p>In contrast to the upregulated SASP components, the expression of SASP constituents modulated by NF‐κB signaling such as <italic toggle="yes">CXCL1</italic> and <italic toggle="yes">IL‐1β</italic> declined upon treatment with 4‐HNE or 4‐HHE (Figure <xref rid="acel14367-fig-0004" ref-type="fig">4A,B</xref>). Intriguingly, the expression of some major NF‐κB targets such as <italic toggle="yes">TIMP1</italic>, <italic toggle="yes">IL6</italic>, and <italic toggle="yes">IL8</italic> were decreased following 4‐HNE treatment while upregulated with 4‐ONE (Figure <xref rid="acel14367-fig-0004" ref-type="fig">4C</xref>). NF‐κB inhibition by 4‐HNE treatment was previous reported in cultured chondrocytes through modification of IKKα (Vaillancourt et al., <xref rid="acel14367-bib-0037" ref-type="bibr">2007</xref>). Consistent with this, 4‐HNE treatment of human IMR90 fibroblasts resulted in a decrease in NF‐κB DNA binding activity, suggesting that lipid enals decrease expression of certain SASP components via decreased NF‐κB signaling (Figure <xref rid="acel14367-supitem-0004" ref-type="supplementary-material">S4C</xref>). To evaluate if the secretory phenotype associated with BLIS was similar in different cell types, we measured mRNA expression of SASP factors in murine SVF cells from visceral (perigonadal) fat depots of C57BL/6J mice. The SASP from enal‐induced murine adipose stem cells largely, but not completely, phenocopied that from human fibroblasts (Figure <xref rid="acel14367-fig-0004" ref-type="fig">4D</xref>). Of particular note, a putative senescent cell surface marker Urokinase Plasminogen Activator Surface Receptor (<italic toggle="yes">PLAUR</italic>) (Amor et al., <xref rid="acel14367-bib-0002" ref-type="bibr">2020</xref>) is robustly upregulated by over 3‐fold in murine SVF cells exposed to 4‐HNE while only upregulated ~10% in IMR90 cells similarly treated.</p><p>The kinetics of expression of SASP factors was not uniform for all target genes <bold>(</bold>Figure <xref rid="acel14367-fig-0004" ref-type="fig">4E</xref>). Upon exposure to 4‐HNE, <italic toggle="yes">MMP3</italic> mRNA expression increased immediately while expression of p21<sup>Cip1</sup> was delayed until 9 h posttreatment. In contrast, <italic toggle="yes">CXCL14</italic> and <italic toggle="yes">IGFBP7</italic> required essentially 7 days of continuous 4‐HNE treatment before upregulation. Interestingly, <italic toggle="yes">ANGPTL4</italic>, <italic toggle="yes">IGFBP3</italic>, and <italic toggle="yes">SERPINE1</italic> were initially downregulated following 4‐HNE treatment before increasing above basal levels after 4–7 days (Figure <xref rid="acel14367-fig-0004" ref-type="fig">4E</xref>). These temporal differences in the emergence of secreted factors suggests a complex program of regulatory events and multiple transcription factors mediating the BLIS transcriptome.</p><p>To characterize the transcriptome that accompanies the induction of the BLIS program further, we performed RNA‐Seq analysis on 4‐HNE treated and vehicle control treated IMR90s (Table <xref rid="acel14367-supitem-0007" ref-type="supplementary-material">S3</xref>). Functional annotation analysis of the nearly 4500 genes upregulated in BLIS highlighted several interesting patterns: (1) transcripts for factors associated with stress response, chaperone proteins, proteasomal machinery, ubiquitin mediated proteolysis, and autophagy were all enriched (Table <xref rid="acel14367-tbl-0001" ref-type="table">1</xref>); (2) transcripts for proteins associated with DNA replication, chromosome partitioning, and cell division were depleted (Table <xref rid="acel14367-supitem-0008" ref-type="supplementary-material">S4</xref>); and (3) genes associated with mitochondrial proteins are upregulated while those associated with nuclear proteins are downregulated (Table <xref rid="acel14367-tbl-0001" ref-type="table">1</xref>, Table <xref rid="acel14367-supitem-0008" ref-type="supplementary-material">S4</xref>). Evaluation of the SASP factors by SignalP predicted that almost 60% of the proteins did not contain conventional secretion sequences and may be secreted by unconventional pathways (Teufel et al., <xref rid="acel14367-bib-0034" ref-type="bibr">2022</xref>) (Figure <xref rid="acel14367-supitem-0004" ref-type="supplementary-material">S4D</xref>).</p><table-wrap position="float" id="acel14367-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>DAVID Analysis of Genes Upregulated in IMR90s subject to BLIS.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Category</th><th align="left" valign="bottom" rowspan="1" colspan="1">Term</th><th align="left" valign="bottom" rowspan="1" colspan="1">Count</th><th align="left" valign="bottom" rowspan="1" colspan="1">%</th><th align="left" valign="bottom" rowspan="1" colspan="1">FDR</th></tr></thead><tbody valign="top"><tr><td align="left" rowspan="17" valign="top" colspan="1">Biological Process</td><td align="left" valign="top" rowspan="1" colspan="1">Electron transport</td><td align="char" char="." valign="top" rowspan="1" colspan="1">60</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.5</td><td align="left" valign="top" rowspan="1" colspan="1">1.4E‐14</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Respiratory chain</td><td align="char" char="." valign="top" rowspan="1" colspan="1">40</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1</td><td align="left" valign="top" rowspan="1" colspan="1">7.1E‐12</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">ER‐Golgi transport</td><td align="char" char="." valign="top" rowspan="1" colspan="1">46</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.2</td><td align="left" valign="top" rowspan="1" colspan="1">4.1E‐09</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Protein biosynthesis</td><td align="char" char="." valign="top" rowspan="1" colspan="1">60</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.5</td><td align="left" valign="top" rowspan="1" colspan="1">6.10E‐08</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Lipid metabolism</td><td align="char" char="." valign="top" rowspan="1" colspan="1">193</td><td align="char" char="." valign="top" rowspan="1" colspan="1">4.9</td><td align="left" valign="top" rowspan="1" colspan="1">1.30E‐06</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Tricarboxylic acid cycle</td><td align="char" char="." valign="top" rowspan="1" colspan="1">17</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4</td><td align="left" valign="top" rowspan="1" colspan="1">2.20E‐05</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Apoptosis</td><td align="char" char="." valign="top" rowspan="1" colspan="1">143</td><td align="char" char="." valign="top" rowspan="1" colspan="1">3.6</td><td align="left" valign="top" rowspan="1" colspan="1">3.50E‐05</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Ubl conjugation pathway</td><td align="char" char="." valign="top" rowspan="1" colspan="1">184</td><td align="char" char="." valign="top" rowspan="1" colspan="1">4.6</td><td align="left" valign="top" rowspan="1" colspan="1">3.90E‐05</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Autophagy</td><td align="char" char="." valign="top" rowspan="1" colspan="1">54</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.4</td><td align="left" valign="top" rowspan="1" colspan="1">8.60E‐05</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Hydrogen ion transport</td><td align="char" char="." valign="top" rowspan="1" colspan="1">26</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.7</td><td align="left" valign="top" rowspan="1" colspan="1">1.30E‐04</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Lipid biosynthesis</td><td align="char" char="." valign="top" rowspan="1" colspan="1">54</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.4</td><td align="left" valign="top" rowspan="1" colspan="1">3.50E‐04</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Fatty acid metabolism</td><td align="char" char="." valign="top" rowspan="1" colspan="1">50</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.3</td><td align="left" valign="top" rowspan="1" colspan="1">1.30E‐03</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Glycolysis</td><td align="char" char="." valign="top" rowspan="1" colspan="1">17</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4</td><td align="left" valign="top" rowspan="1" colspan="1">2.70E‐03</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Stress response</td><td align="char" char="." valign="top" rowspan="1" colspan="1">36</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.9</td><td align="left" valign="top" rowspan="1" colspan="1">4.90E‐03</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Lipid transport</td><td align="char" char="." valign="top" rowspan="1" colspan="1">46</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.2</td><td align="left" valign="top" rowspan="1" colspan="1">3.90E‐02</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Fatty acid biosynthesis</td><td align="char" char="." valign="top" rowspan="1" colspan="1">19</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.5</td><td align="left" valign="top" rowspan="1" colspan="1">3.90E‐02</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Carbohydrate metabolism</td><td align="char" char="." valign="top" rowspan="1" colspan="1">29</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.7</td><td align="left" valign="top" rowspan="1" colspan="1">4.90E‐02</td></tr><tr><td align="left" rowspan="9" valign="top" colspan="1">Cellular Component</td><td align="left" valign="top" rowspan="1" colspan="1">Mitochondrion</td><td align="char" char="." valign="top" rowspan="1" colspan="1">476</td><td align="char" char="." valign="top" rowspan="1" colspan="1">12</td><td align="left" valign="top" rowspan="1" colspan="1">2.20E‐60</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Cytoplasm</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1291</td><td align="char" char="." valign="top" rowspan="1" colspan="1">32.6</td><td align="left" valign="top" rowspan="1" colspan="1">1.20E‐35</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Mitochondrion inner membrane</td><td align="char" char="." valign="top" rowspan="1" colspan="1">142</td><td align="char" char="." valign="top" rowspan="1" colspan="1">3.6</td><td align="left" valign="top" rowspan="1" colspan="1">6.80E‐24</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Golgi apparatus</td><td align="char" char="." valign="top" rowspan="1" colspan="1">269</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6.8</td><td align="left" valign="top" rowspan="1" colspan="1">1.10E‐14</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Proteasome</td><td align="char" char="." valign="top" rowspan="1" colspan="1">36</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.9</td><td align="left" valign="top" rowspan="1" colspan="1">3.00E‐13</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Endoplasmic reticulum</td><td align="char" char="." valign="top" rowspan="1" colspan="1">326</td><td align="char" char="." valign="top" rowspan="1" colspan="1">8.2</td><td align="left" valign="top" rowspan="1" colspan="1">2.90E‐10</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Mitochondrion outer membrane</td><td align="char" char="." valign="top" rowspan="1" colspan="1">55</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.4</td><td align="left" valign="top" rowspan="1" colspan="1">2.50E‐07</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Lysosome</td><td align="char" char="." valign="top" rowspan="1" colspan="1">96</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.4</td><td align="left" valign="top" rowspan="1" colspan="1">6.70E‐04</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Membrane</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1547</td><td align="char" char="." valign="top" rowspan="1" colspan="1">39.1</td><td align="left" valign="top" rowspan="1" colspan="1">3.50E‐03</td></tr><tr><td align="left" rowspan="12" valign="top" colspan="1">Molecular Function</td><td align="left" valign="top" rowspan="1" colspan="1">Transferase</td><td align="char" char="." valign="top" rowspan="1" colspan="1">468</td><td align="char" char="." valign="top" rowspan="1" colspan="1">11.8</td><td align="left" valign="top" rowspan="1" colspan="1">1.10E‐10</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Ribosomal protein</td><td align="char" char="." valign="top" rowspan="1" colspan="1">70</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.8</td><td align="left" valign="top" rowspan="1" colspan="1">2.40E‐08</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Chaperone</td><td align="char" char="." valign="top" rowspan="1" colspan="1">78</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2</td><td align="left" valign="top" rowspan="1" colspan="1">6.80E‐08</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Ribonucleoprotein</td><td align="char" char="." valign="top" rowspan="1" colspan="1">91</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.3</td><td align="left" valign="top" rowspan="1" colspan="1">1.50E‐06</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Initiation factor</td><td align="char" char="." valign="top" rowspan="1" colspan="1">29</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.7</td><td align="left" valign="top" rowspan="1" colspan="1">1.50E‐06</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Oxidoreductase</td><td align="char" char="." valign="top" rowspan="1" colspan="1">153</td><td align="char" char="." valign="top" rowspan="1" colspan="1">3.9</td><td align="left" valign="top" rowspan="1" colspan="1">6.90E‐06</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Hydrolase</td><td align="char" char="." valign="top" rowspan="1" colspan="1">381</td><td align="char" char="." valign="top" rowspan="1" colspan="1">9.6</td><td align="left" valign="top" rowspan="1" colspan="1">8.00E‐06</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Kinase</td><td align="char" char="." valign="top" rowspan="1" colspan="1">171</td><td align="char" char="." valign="top" rowspan="1" colspan="1">4.3</td><td align="left" valign="top" rowspan="1" colspan="1">5.80E‐04</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Elongation factor</td><td align="char" char="." valign="top" rowspan="1" colspan="1">14</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.4</td><td align="left" valign="top" rowspan="1" colspan="1">3.50E‐03</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Isomerase</td><td align="char" char="." valign="top" rowspan="1" colspan="1">43</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.1</td><td align="left" valign="top" rowspan="1" colspan="1">7.90E‐03</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Lyase</td><td align="char" char="." valign="top" rowspan="1" colspan="1">46</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.2</td><td align="left" valign="top" rowspan="1" colspan="1">2.10E‐02</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Translocase</td><td align="char" char="." valign="top" rowspan="1" colspan="1">31</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.8</td><td align="left" valign="top" rowspan="1" colspan="1">2.10E‐02</td></tr></tbody></table><table-wrap-foot id="acel14367-ntgp-0001"><fn id="acel14367-note-0001"><p>
+<italic toggle="yes">Note</italic>: Count refers to number of upregulated genes in category, % refers to percentage of upregulated genes in category, FDR refers to <italic toggle="yes">p</italic>‐value after Benjamini‐Hochberg correction.</p></fn></table-wrap-foot></table-wrap><p>To identify SASP genes common across different human senescence models, we cross‐referenced our dataset with two other published datasets on ionizing radiation‐induced senescence and replicative senescence (Casella et al., <xref rid="acel14367-bib-0004" ref-type="bibr">2019</xref>; Sturmlechner et al., <xref rid="acel14367-bib-0031" ref-type="bibr">2021</xref>) focusing on those with at least a 2‐fold change in expression. This analysis revealed 17 common SASP factors (<italic toggle="yes">OSTN</italic>, <italic toggle="yes">KISS1</italic>, <italic toggle="yes">SERPINI1</italic>, <italic toggle="yes">KRT34</italic>, <italic toggle="yes">REN</italic>, <italic toggle="yes">DKK2</italic>, <italic toggle="yes">AQP1</italic>, <italic toggle="yes">CDNF</italic>, <italic toggle="yes">WNT16</italic>, <italic toggle="yes">MFAP5</italic>, <italic toggle="yes">SEMA3E</italic>, <italic toggle="yes">BMP3</italic>, <italic toggle="yes">LIPG</italic>, <italic toggle="yes">EGFL7</italic>, <italic toggle="yes">INA</italic>, <italic toggle="yes">ULBP2</italic>, <italic toggle="yes">CTF1</italic>), many of which are associated with extracellular matrix regulation (e.g., serine protease inhibitor I1 and renin) (Figure <xref rid="acel14367-supitem-0004" ref-type="supplementary-material">S4E</xref>).</p><p>To discover potential cell signaling pathways conserved across senescence induction models, we used a more inclusive dataset for IR‐induced senescence (Casella et al., <xref rid="acel14367-bib-0004" ref-type="bibr">2019</xref>) and considered results meeting a false discovery rate threshold of 0.05 to be upregulated. Our analysis yielded 2017 genes that were upregulated during BLIS, IR senescence, and replicative senescence. As expected, KEGG pathway analysis revealed significant enrichment of transcripts associated with p53 signaling and cellular senescence. Functional annotation analysis identified significant enrichment of genes associated with stress response, mainly heat shock proteins, as well as the proteasome (Table <xref rid="acel14367-supitem-0009" ref-type="supplementary-material">S5</xref>). We also found that mitochondrial proteins and metabolic enzymes are overrepresented among the BLIS upregulated genes (Table <xref rid="acel14367-tbl-0001" ref-type="table">1</xref>). Additionally, transcripts for enzymes that participate in lipid metabolism, particularly those involved in phospholipid remodeling such as <italic toggle="yes">LCLAT1</italic>, <italic toggle="yes">LIPG</italic>, <italic toggle="yes">PLA2G15</italic>, and <italic toggle="yes">PRDX6</italic>, are represented among the common gene sets. These findings suggest that a disruption in normal protein folding and homeostasis, mitochondrial and metabolic stress, and phospholipid remodeling are features of cellular senescence that occur irrespective of what initiates the senescence.</p></sec><sec id="acel14367-sec-0027"><label>3.5</label><title>
+<styled-content style="fixed-case" toggle="no">BAX</styled-content> channel formation is required for part of the <styled-content style="fixed-case" toggle="no">BLIS</styled-content> phenotype</title><p>Passos and colleagues have proposed that sublethal apoptotic stress is a determining feature of cellular senescence (Victorelli et al., <xref rid="acel14367-bib-0046" ref-type="bibr">2023</xref>) BAK/BAX macropores cause mitochondrial outer membrane permeabilization (mtMOMP), a major disruption of normal mitochondrial architecture that ends with release of mtDNA into the cytosol. As shown in both radiation‐associated and replicative senescence, when MOMP occurs in a small number of mitochondria, it leads to senescence rather than apoptosis by a processes termed minority MOMP (miMOMP) (Victorelli et al., <xref rid="acel14367-bib-0046" ref-type="bibr">2023</xref>). At both the protein and mRNA levels, 4‐HNE treatment increased BAX expression; RNA‐seq and subsequent functional annotation analysis revealed a significant enrichment of genes associated with apoptosis including the anti‐apoptotic factors <italic toggle="yes">BCL2L1</italic> (Bcl‐xL) and <italic toggle="yes">BCL2L2</italic> (Bcl‐w) (Figure <xref rid="acel14367-fig-0005" ref-type="fig">5A,B</xref>; Table <xref rid="acel14367-tbl-0001" ref-type="table">1</xref>; Table <xref rid="acel14367-supitem-0007" ref-type="supplementary-material">S3</xref>). Treatment of IMR90 cells with two different BAX macropore inhibitors, BCB or BIPv5, attenuated the upregulation of p21<sup>Cip1</sup> and several SASP factors by 4‐HNE without effecting loss of Lamin B1 and mitotic arrest associated with BLIS (Figure <xref rid="acel14367-fig-0005" ref-type="fig">5C–F</xref>). Furthermore, predicted activation of IRF3, a transcription factor triggered by presence of mtDNA in the cytoplasm, suggests that 4‐HNE induces mtMOMP as part of its mode of action and that mitochondrial dysfunction may be upstream of DNA damage based signaling (Figure <xref rid="acel14367-fig-0004" ref-type="fig">4F</xref>). It is important to note that 4‐HNE‐treated IMR90 cells are not themselves apoptotic. Fibroblasts that stained positive for SA‐β‐galactosidase activity exhibited a spread morphology associated with senescence rather than a compact, rounded morphology characteristic of apoptosis and fibroblasts treated with lipid enals over a week were TUNEL negative and did not exhibit an accumulation of cleaved caspase 3 (Figures <xref rid="acel14367-fig-0001" ref-type="fig">1A</xref>, <xref rid="acel14367-fig-0005" ref-type="fig">5G,H</xref>, <xref rid="acel14367-supitem-0001" ref-type="supplementary-material">S1I</xref>).</p><fig position="float" fig-type="FIGURE" id="acel14367-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>BAX signaling is necessary for BLIS (a) Representative immunoblot of relative BAX levels after indicated time of 4‐HNE exposure (b) Expression of <italic toggle="yes">BAX</italic>, <italic toggle="yes">BCL2L1</italic>, and <italic toggle="yes">BCL2L2</italic> after a week of 4‐HNE treatment. (c–f) Representative immunoblot of (c) Lamin B1, (d) cell count, (e) p21 expression, (f) BLIS factor expression after 1 week of continuous exposure to cells cotreated with 4‐HNE and BAX inhibitors as stated. *<italic toggle="yes">p</italic> &lt; 0.05 versus HNE group for panel 5F. (g) Immunoblot of cleaved caspase 3 after 7‐day 4‐HNE treatment. (h) Representative images of TUNEL‐stained fibroblasts following treatment. Camptothecin used as a positive apoptotic control. All experiments performed on IMR90 fibroblasts. *<italic toggle="yes">p</italic> &lt; 0.05. Data are representative of <italic toggle="yes">n</italic> = 3.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ACEL-24-e14367-g007.jpg"><?image-name ACEL-24-e14367-g007.jpg?><?image-size 104490?><?image-md5 6226602a7fd12610403eee0b1a9d59f7?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1440?><?image-original-width 1064?><?image-scaled-height 960?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/6226602a7fd1/ACEL-24-e14367-g007.jpg?><?thumb-name ACEL-24-e14367-g007.gif?><?thumb-size 4782?><?thumb-md5 9d6659aa6aa9427f39f3260b20e996bc?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 135?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/9d6659aa6aa9/ACEL-24-e14367-g007.gif?></graphic></fig></sec><sec id="acel14367-sec-0028"><label>3.6</label><title>L‐carnosine attenuates the senescent phenotype brought on by lipid enals</title><p>L‐carnosine is a dipeptide of histidine and beta‐alanine that is most abundant in tissue with high mitochondrial content such as the heart and brain. As a Michael acceptor, carnosine forms an covalent adduct with 4‐HNE (Aldini et al., <xref rid="acel14367-bib-0001" ref-type="bibr">2002</xref>) both in situ and in vivo, and its capacity to scavenge a variety of other biogenic aldehydes has been well documented (Palmer et al., <xref rid="acel14367-bib-0024" ref-type="bibr">2019</xref>). Concurrent treatment of IMR90 cells with L‐carnosine in the presence of 4‐HNE exposure resulted in a reduction of HNE adduct formation (Figures <xref rid="acel14367-fig-0006" ref-type="fig">6A</xref>, <xref rid="acel14367-supitem-0001" ref-type="supplementary-material">S1J</xref>), attenuation of BLIS as measured by expression of <italic toggle="yes">MMP3</italic>, <italic toggle="yes">IGFBP7</italic>, <italic toggle="yes">ANGPTL4</italic>, <italic toggle="yes">SERPINE1</italic>, <italic toggle="yes">CXCL14</italic>, <italic toggle="yes">MMP1</italic>, and <italic toggle="yes">FGF2</italic> (Figure <xref rid="acel14367-fig-0006" ref-type="fig">6B</xref>), as well as reduced SA‐β‐galactosidase activity and p21<sup>Cip1</sup> expression (Figure <xref rid="acel14367-fig-0006" ref-type="fig">6C,D</xref>).</p><fig position="float" fig-type="FIGURE" id="acel14367-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Carnosine attenuates the senescent phenotype (a) Representative immunoblot of 4‐HNE adducts in HNE‐treated IMR90 cells with indicated concentration of L‐carnosine. (b–d) Expression of select BLIS factors, <italic toggle="yes">*p</italic> &lt; 0.05 compared to HNE alone (b), SA‐β‐galactosidase activity indexed by MUG (c), and expression of p21 (d) in IMR90s concurrently treated with 4‐HNE and L‐carnosine. (e, f) Immunoblot and accompanying quantitation of 4‐HNE Michael adducts in epididymal white adipose tissue (EWAT) of C57BL/6 mice treated with a high fat diet (HFD) with and without L‐carnosine (80 mM in drinking water). (g) p21 and selected BLIS signature constituents in EWAT from high fat high sucrose (HFHS) fed mice treated with L‐carnosine (80 mM in drinking water). (h) Glucose tolerance test (GTT) of normal chow diet (control) fed mice and HFHS‐fed mice with and without carnosine. (i, j) Areas under the curves of glucose (GTT) and insulin tolerance tests (ITT) of mice fed specified diets. *<italic toggle="yes">p</italic> &lt; 0.05. Data are representative of <italic toggle="yes">n</italic> = 3–6.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="ACEL-24-e14367-g001.jpg"><?image-name ACEL-24-e14367-g001.jpg?><?image-size 144118?><?image-md5 84411f9fc59a5ba86c15dfb0b6eef2f0?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1361?><?image-original-width 1064?><?image-scaled-height 907?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/84411f9fc59a/ACEL-24-e14367-g001.jpg?><?thumb-name ACEL-24-e14367-g001.gif?><?thumb-size 5631?><?thumb-md5 1528e4ee39ef42816a848ce1695200b3?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 128?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/c0e4/11709094/1528e4ee39ef/ACEL-24-e14367-g001.gif?></graphic></fig><p>In visceral adipose from C57BL/6J mice, obesity is associated with increased carbonyl stress (Long et al., <xref rid="acel14367-bib-0022" ref-type="bibr">2013</xref>) and expression of senescence markers, particularly p21<sup>Cip1</sup> (Wang et al., <xref rid="acel14367-bib-0039" ref-type="bibr">2022</xref>). To address the potential of 4‐HNE and other bioactive lipid enals to be inducers of cellular senescence in vivo, we maintained mice on a high fat or high fat, high sugar diet in the presence or absence of carnosine and evaluated 4‐HNE Michael adducts in EWAT SVF, glucose tolerance, and the expression of senescence markers in EWAT. Treatment of HFD‐fed mice with L‐carnosine resulted in a downward trend in 4‐HNE Michael adducts in the SVF of EWAT, suggesting that carnosine is, in fact, scavenging endogenous 4‐HNE (Figure <xref rid="acel14367-fig-0006" ref-type="fig">6E,F</xref>). Importantly, carnosine treatment significantly blunted the expression of <italic toggle="yes">p21</italic>
+<sup>
+<italic toggle="yes">Cip1</italic>
+</sup> and <italic toggle="yes">Bcl2l2</italic> and the expression of other senescence‐associated transcripts <italic toggle="yes">Plaur</italic> and <italic toggle="yes">Bcl2L1</italic> trended downward (Figure <xref rid="acel14367-fig-0006" ref-type="fig">6G</xref>). Concomitant with a downregulation in <italic toggle="yes">p21</italic>
+<sup>
+<italic toggle="yes">Cip1</italic>
+</sup> was an improvement in glucose tolerance (Figure <xref rid="acel14367-fig-0006" ref-type="fig">6H,I</xref>), but no change in insulin tolerance (Figure <xref rid="acel14367-fig-0006" ref-type="fig">6J</xref>). Administration of carnosine to HFD‐fed mice did not lead to a change in overall body weight (Figure <xref rid="acel14367-supitem-0001" ref-type="supplementary-material">S4F</xref>).</p></sec></sec><sec sec-type="discussion" id="acel14367-sec-0029"><label>4</label><title>DISCUSSION</title><p>Reactive lipid enals containing activated double bonds such as 4‐HNE, 4‐HHE, and 4‐ONE are products of lipid peroxidation that readily react with nucleophilic species on proteins and nucleic acids (Esterbauer et al., <xref rid="acel14367-bib-0012" ref-type="bibr">1991</xref>). Studies by Long et al., <xref rid="acel14367-bib-0022" ref-type="bibr">2013</xref> demonstrated that lipid enals are formed most avidly in the visceral, but not subcutaneous, depots of white adipose tissue in response to obesity. In parallel, work by Xu et al. (Aldini et al., <xref rid="acel14367-bib-0001" ref-type="bibr">2002</xref>) and Palmer et al., <xref rid="acel14367-bib-0024" ref-type="bibr">2019</xref> demonstrated that white adipose tissue accumulated SnCs in response to high fat feeding and that genetic or pharmacologic ablation of such cells improved metabolic dysfunction and attenuated characteristics of age‐dependent processes (Aldini et al., <xref rid="acel14367-bib-0001" ref-type="bibr">2002</xref>; Xu, Palmer, et al., <xref rid="acel14367-bib-0044" ref-type="bibr">2015</xref>). Despite the strong correlative link between visceral obesity and senescence, the molecular mechanisms that link these together has been enigmatic. Our in vitro findings are consistent with the hypothesis that biogenic lipid enals such as 4‐HNE, 4‐HHE, or 4‐ONE are inducers of cellular senescence. In support of this hypothesis, we used human IMR90 or murine adipose stem cells to demonstrate that (1) lipid enals induce hallmarks of DNA damage and cell cycle arrest including upregulation of p53, p21<sup>Cip1</sup>, and γH2AX foci; (2) 4‐HNE modifies cellular proteins, particularly mitochondrial proteins, supporting mitochondrial dysfunction and limited mitochondrial outer membrane permeabilization in the absence of apoptosis; (3) lipid enals induce an NF‐κB independent arm of the human SASP characteristic of primary senescence; and (4) scavenging biogenic aldehydes can ameliorate BLIS both in vitro and in vivo. Consistent with the concept that biogenic aldehydes induce senescence in vivo, comparison of 15 life‐extending interventions found overexpression of the major 4‐HNE detoxification enzyme, GstA4, in 9 interventions, making it the most frequently shared feature of these geroprotectors (Tyshkovskiy et al., <xref rid="acel14367-bib-0036" ref-type="bibr">2019</xref>). Moreover, the ability to metabolize endogenously‐generated aldehydes has been found to be correlated with lifespan in <italic toggle="yes">C elegans</italic> models where loss of Gsta4 function shortened lifespan while Gsta4 over expression lengthened lifespans (Ayyadevara et al., <xref rid="acel14367-bib-0003" ref-type="bibr">2007</xref>). Taken together, our results and previous studies demonstrate the potential for biogenic enals to initiate and/or potentiate cellular senescence.</p><p>Reactive lipid enals have been shown to activate some biomarkers of senescence in a limited number of in vitro models (Fafián‐Labora et al., <xref rid="acel14367-bib-0013" ref-type="bibr">2020</xref>; Riahi et al., <xref rid="acel14367-bib-0026" ref-type="bibr">2015</xref>; Swiader et al., <xref rid="acel14367-bib-0033" ref-type="bibr">2021</xref>). Importantly, a common theme is that the senescence inducer directly or indirectly increases production of reactive oxygen species. Studied stressors included sublethal doses of H<sub>2</sub>O<sub>2</sub> along with several organic peroxide species and ethanol (Toussaint et al., <xref rid="acel14367-bib-0035" ref-type="bibr">2000</xref>). Our results recapitulate previous observations that 4‐HNE and 4‐ONE initiate the senescence program, extends that finding to the related lipid enal 4‐HHE, and characterize the associated senescence programming. Studies of 4‐HHE largely phenocopied those of 4‐HNE in the transcriptional profile of cyclin‐dependent kinase inhibitors and SASP factors while 4‐ONE deviated from that with several key markers including <italic toggle="yes">p16</italic>
+<sup>
+<italic toggle="yes">ink4a</italic>
+</sup>, <italic toggle="yes">IL6</italic>, and <italic toggle="yes">IL8</italic>. Due to the presence of a strongly electron withdrawing carbonyl group, 4‐ONE has been characterized as much more reactive than the 4‐hydroxy enal lipids (Lin et al., <xref rid="acel14367-bib-0021" ref-type="bibr">2005</xref>). Such a difference in reactivity may translate to differences in protein and/or DNA modification and therefore, differentially affect senescence programming (Aldini et al., <xref rid="acel14367-bib-0001" ref-type="bibr">2002</xref>). Future detailed proteomic studies should provide more granular detail on differential modification between 4‐HNE and 4‐ONE and downstream effects on the senescence phenotype.</p><p>These studies suggest that biogenic lipid enals affect cellular senescence through mechanisms involving both genetic damage and mitochondrial dysfunction incurred after alkylation (Figures <xref rid="acel14367-fig-0002" ref-type="fig">2</xref>, <xref rid="acel14367-fig-0005" ref-type="fig">5</xref>). Mitochondrial dysfunction and DNA double‐stranded breaks enacted by pharmacological means are known to induce cellular senescence, and we observed evidence of each occurring after 4‐HNE treatment (Wiley et al., <xref rid="acel14367-bib-0042" ref-type="bibr">2016</xref>). An important cell signaling pathway involved in senescence initiation is p53 signaling, known to play a role in both the cellular response to genotoxicity and mitochondrial dysfunction associated senescence (MiDAS) (Victorelli et al., <xref rid="acel14367-bib-0046" ref-type="bibr">2023</xref>). Our results are consistent with both an immediate p53 response to the oxidative insult of 4‐HNE and chronic p53 signaling more characteristic of MiDAS. Recently, it has been proposed that sublethal apoptotic stress mediates the development of senescence (Victorelli et al., <xref rid="acel14367-bib-0046" ref-type="bibr">2023</xref>) by BCL2 signaling leading to BAX polymers to form pores in the mitochondrial membrane, facilitating mtMOMP. Progressively wider BAX pores in the mitochondrial membranes permit the release of mtDNA into the cytosol, and through cGAS‐STING signaling mediates the SASP. Our finding that mitochondrial stress response and apoptotic programming are shared features of BLIS support the hypothesis that persistent, low‐level stress underpins cellular senescence and its accompanying secretory phenotype.</p><p>Comparing the transcriptome of 4‐HNE‐induced IMR90 senescence with that of replicative senescence and/or ionizing radiation‐induced IMR90 senescence revealed commonalities that warrant future study. Remodeling of cardiolipin, a lipid found specifically in the mitochondria, has been found to drive 4‐HNE generation and redox dysfunction during myocardial infarction (Jia et al., <xref rid="acel14367-bib-0020" ref-type="bibr">2021</xref>). Indeed, ALCAT1 (<italic toggle="yes">LCLAT1</italic>), the acyltransferase responsible for this adverse remodeling, was upregulated in BLIS (Table <xref rid="acel14367-supitem-0007" ref-type="supplementary-material">S3</xref>). Among the upregulated factors shared between radiation senescence, replicative senescence, and BLIS is peroxiredoxin 6 (Prdx6), a dual‐functioning enzyme that has both glutathione peroxidase and phospholipase A2 activity (Fisher, <xref rid="acel14367-bib-0014" ref-type="bibr">2011</xref>). Prdx6 is upregulated in tBHP‐associated senescence (Dierick et al., <xref rid="acel14367-bib-0010" ref-type="bibr">2002</xref>) where it mediates the extracellular matrix regulation arm of the SASP (Salovska et al., <xref rid="acel14367-bib-0027" ref-type="bibr">2022</xref>). Notably, we found that an extracellular matrix‐regulated portion of the SASP, including serine protease inhibitor <italic toggle="yes">SERPINI1</italic>, is also conserved across the types of senescence we analyzed.</p><p>Sequestering biogenic aldehydes as a therapeutic strategy to mitigate senescence‐associated pathologies has previously shown potential (Hipkiss et al., <xref rid="acel14367-bib-0017" ref-type="bibr">2016</xref>). Fafian‐Labora et al. used an aging mouse model to demonstrate that small extracellular vesicles from young fibroblasts alleviate senescence‐related markers through glutathione S transferase activity (Fafián‐Labora et al., <xref rid="acel14367-bib-0013" ref-type="bibr">2020</xref>). Moreover, Swiader et al. used L‐carnosine to blunt the formation of γH2AX foci and restore SIRT1 expression in fibroblasts exposed to UV‐A radiation (Swiader et al., <xref rid="acel14367-bib-0033" ref-type="bibr">2021</xref>). Consistent with these observations, we found L‐carnosine to be effective in partially ameliorating the senescent phenotype brought on by lipid enals in vitro. Scavenging 4‐HNE prevented upregulation of SA‐β‐galactosidase activity, p21<sup>Cip1</sup> expression, and expression of SASP factors in cultured fibroblasts subjected to BLIS. In parallel, we treated diet‐induced obese C57BL/6J mice with 80 mM L‐carnosine in the drinking water for 8 weeks and measured blunted expression of <italic toggle="yes">CDKN1A</italic> (p21<sup>Cip1</sup>) and <italic toggle="yes">Bcl2L2</italic> in the stromal vascular fraction of visceral fat, a critical finding given that high p21<sup>Cip1</sup> expression in visceral adipose depots drives metabolic dysfunction (Wang et al., <xref rid="acel14367-bib-0039" ref-type="bibr">2022</xref>) while Bcl2 proteins facilitate the MOMP. Additionally, L‐carnosine treatment blunts the expression of <italic toggle="yes">Plaur</italic>, a cell surface marker of senescent cells and a target for CAR T senolytic therapy (Amor et al., <xref rid="acel14367-bib-0002" ref-type="bibr">2020</xref>). A concomitant decrease in 4‐HNE‐protein adducts in the stromal vascular fraction of the visceral adipose depot suggests a connection between the biogenic lipid‐derived electrophiles and senescence in adipose. Further study should be undertaken on L‐carnosine and more bioavailable derivatives to further evaluate the therapeutic potential of scavenging endogenously‐generated enals and aldehydes.</p><p>A limitation of our cell‐based studies is that all measurements were made in bulk using cultured cell systems. Our in vitro analysis indicates that 4‐HNE treatment of cultured cells results in both genotoxic and proteotoxic stress, but not which one (or both), is required for induction of the senescence phenotype. Moreover, the studies were carried out in cell lines that may contain primary and secondary senescence subpopulations expressing different gene expression profiles. Although bulk measurements still yielded sufficient resolution to observe classic senescence hallmarks, future studies in animal models utilizing single cell transcriptomics, spatial analysis, and proteomics will yield more granular information on mechanisms underlying BLIS. In addition, while L‐carnosine treatment of experimental mice attenuates the adipose BLIS phenotype, there remain multiple potential mechanisms beyond simple adduction of 4‐HNE including amplification of endogenous L‐carnosine synthesis and activation of antioxidant signaling pathways. Further in vivo studies will be needed to elucidate the relevant mechanisms at play in lipid‐induced senescence.</p></sec><sec id="acel14367-sec-0030"><title>AUTHOR CONTRIBUTIONS</title><p>TBM developed hypothesis, carried out experiments, wrote and edited the manuscript. AVM developed the hypothesis, carried out experiments, wrote and edited the manuscript. DMD carried out experiments and edited the manuscript. TH carried out experiments and edited manuscript. SVS carried out experiments and edited the manuscript. IB carried out experiments and edited the manuscript. CH carried out experiments and edited the manuscript. PP carried out experiments, wrote, and edited the manuscript. EJA developed the hypothesis, edited the manuscript. CDC developed the hypothesis and edited the manuscript. PDR developed the hypothesis and edited the manuscript. DAB developed the hypothesis, wrote, and edited the manuscript.</p></sec><sec sec-type="COI-statement" id="acel14367-sec-0032"><title>CONFLICT OF INTEREST STATEMENT</title><p>None declared.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="acel14367-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Figure S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACEL-24-e14367-s008.jpg" position="float" orientation="portrait"><?suppdata-name ACEL-24-e14367-s008.jpg?><?suppdata-size 1944842?><?suppdata-md5 2ea39c95c63459930ba9fca35d9d2f87?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type image?><?suppdata-mime-sub-type jpeg?><?suppdata-cloudpmc-urn urn:app:c0e4/11709094/2ea39c95c634/ACEL-24-e14367-s008.jpg?></media></supplementary-material><supplementary-material id="acel14367-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Figure S2.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACEL-24-e14367-s007.jpg" position="float" orientation="portrait"><?suppdata-name ACEL-24-e14367-s007.jpg?><?suppdata-size 297161?><?suppdata-md5 c892056982960f795eca760216219d60?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type image?><?suppdata-mime-sub-type jpeg?><?suppdata-cloudpmc-urn urn:app:c0e4/11709094/c89205698296/ACEL-24-e14367-s007.jpg?></media></supplementary-material><supplementary-material id="acel14367-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Figure S3.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACEL-24-e14367-s003.jpg" position="float" orientation="portrait"><?suppdata-name ACEL-24-e14367-s003.jpg?><?suppdata-size 216780?><?suppdata-md5 79f90f3923eb69569d46384c8657036f?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type image?><?suppdata-mime-sub-type jpeg?><?suppdata-cloudpmc-urn urn:app:c0e4/11709094/79f90f3923eb/ACEL-24-e14367-s003.jpg?></media></supplementary-material><supplementary-material id="acel14367-supitem-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Figure S4.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACEL-24-e14367-s006.jpg" position="float" orientation="portrait"><?suppdata-name ACEL-24-e14367-s006.jpg?><?suppdata-size 298122?><?suppdata-md5 93453d5df33c9922b78359e6be7e5a81?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type image?><?suppdata-mime-sub-type jpeg?><?suppdata-cloudpmc-urn urn:app:c0e4/11709094/93453d5df33c/ACEL-24-e14367-s006.jpg?></media></supplementary-material><supplementary-material id="acel14367-supitem-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Table S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACEL-24-e14367-s002.docx" position="float" orientation="portrait"><?suppdata-name ACEL-24-e14367-s002.docx?><?suppdata-size 15420?><?suppdata-md5 5b2a369282fa890a6486e82314a1f575?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:c0e4/11709094/5b2a369282fa/ACEL-24-e14367-s002.docx?></media></supplementary-material><supplementary-material id="acel14367-supitem-0006" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Table S2.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACEL-24-e14367-s001.xlsx" position="float" orientation="portrait"><?suppdata-name ACEL-24-e14367-s001.xlsx?><?suppdata-size 13991?><?suppdata-md5 f791e79430c704ca8aa9b865c5a3daba?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:c0e4/11709094/f791e79430c7/ACEL-24-e14367-s001.xlsx?></media></supplementary-material><supplementary-material id="acel14367-supitem-0007" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Table S3.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACEL-24-e14367-s009.xlsx" position="float" orientation="portrait"><?suppdata-name ACEL-24-e14367-s009.xlsx?><?suppdata-size 8093675?><?suppdata-md5 2d7bedfa3bab48c6556ed9eb5f59a192?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:c0e4/11709094/2d7bedfa3bab/ACEL-24-e14367-s009.xlsx?></media></supplementary-material><supplementary-material id="acel14367-supitem-0008" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Table S4.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACEL-24-e14367-s004.xlsx" position="float" orientation="portrait"><?suppdata-name ACEL-24-e14367-s004.xlsx?><?suppdata-size 14600?><?suppdata-md5 4d5d7a9d94ed8c093131cee173b0247f?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:c0e4/11709094/4d5d7a9d94ed/ACEL-24-e14367-s004.xlsx?></media></supplementary-material><supplementary-material id="acel14367-supitem-0009" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Table S5.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ACEL-24-e14367-s005.xlsx" position="float" orientation="portrait"><?suppdata-name ACEL-24-e14367-s005.xlsx?><?suppdata-size 20115?><?suppdata-md5 bdad1bd16ed887e05b386ad0fa498425?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:c0e4/11709094/bdad1bd16ed8/ACEL-24-e14367-s005.xlsx?></media></supplementary-material></sec></body><back><ack id="acel14367-sec-0031"><title>ACKNOWLEDGMENTS</title><p>Supported by NIH R01 AG069819 and U54 AG079754 to DAB, P01 AG062413 to PDR, and American Heart Association award # 20SFRN35200003 to EJA. TBM was supported by NIH T32 AG029796. We acknowledge and thank the UMN Genomics Center and Dr. Juan E. Abrahante Lloréns (Minnesota Supercomputing Institute) for technical assistance in the transcriptome data and the Minnesota NMR Center and Mr. Todd Rappe for technical assistance in the NMR metabolite analysis. We would also like to thank Dr. Joao Passos (Mayo Clinic) for helpful discussions during this study.</p></ack><sec sec-type="data-availability" id="acel14367-sec-0034"><title>DATA AVAILABILITY STATEMENT</title><p>Raw RNA sequencing data contained in Table <xref rid="acel14367-supitem-0007" ref-type="supplementary-material">S3</xref> are available from the NCBI under BioProject ID PRJNA1048426. All raw data are available from corresponding author DAB (<email>bernl001@umn.edu</email>) upon reasonable request.</p></sec><ref-list content-type="cited-references" id="acel14367-bibl-0001"><title>REFERENCES</title><ref id="acel14367-bib-0001"><mixed-citation publication-type="journal" id="acel14367-cit-0001">
+<string-name name-style="western">
+<surname>Aldini</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carini</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beretta</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bradamante</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Facino</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2002</year>). <article-title>Carnosine is a quencher of 4‐hydroxy‐nonenal: Through what mechanism of reaction?</article-title>
+<source>Biochemical and Biophysical Research Communications</source>, <volume>298</volume>(<issue>5</issue>), <fpage>699</fpage>–<lpage>706</lpage>.<pub-id pub-id-type="pmid">12419310</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0006-291x(02)02545-7</pub-id></mixed-citation></ref><ref id="acel14367-bib-0002"><mixed-citation publication-type="journal" id="acel14367-cit-0002">
+<string-name name-style="western">
+<surname>Amor</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feucht</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leibold</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ho</surname>, <given-names>Y. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alonso‐Curbelo</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mansilla‐Soto</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boyer</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giavridis</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kulick</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Houlihan</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peerschke</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Friedman</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ponomarev</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Piersigilli</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sadelain</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lowe</surname>, <given-names>S. W.</given-names>
+</string-name> (<year>2020</year>). <article-title>Senolytic CAR T cells reverse senescence‐associated pathologies</article-title>. <source>Nature</source>, <volume>583</volume>(<issue>7814</issue>), <fpage>127</fpage>–<lpage>132</lpage>.<pub-id pub-id-type="pmid">32555459</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-020-2403-9</pub-id><pub-id pub-id-type="pmcid">PMC7583560</pub-id></mixed-citation></ref><ref id="acel14367-bib-0003"><mixed-citation publication-type="journal" id="acel14367-cit-0003">
+<string-name name-style="western">
+<surname>Ayyadevara</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dandapat</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Singh</surname>, <given-names>S. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siegel</surname>, <given-names>E. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reis</surname>, <given-names>R. J. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zimniak</surname>, <given-names>L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Zimniak</surname>, <given-names>P.</given-names>
+</string-name> (<year>2007</year>). <article-title>Life span and stress resistance of Caenorhabditis elegans are differentially affected by glutathione transferases metabolizing 4‐hydroxynon‐2‐enal</article-title>. <source>Mechanisms of Ageing and Development</source>, <volume>128</volume>(<issue>2</issue>), <fpage>196</fpage>–<lpage>205</lpage>.<pub-id pub-id-type="pmid">17157356</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.mad.2006.11.025</pub-id><pub-id pub-id-type="pmcid">PMC1819584</pub-id></mixed-citation></ref><ref id="acel14367-bib-0004"><mixed-citation publication-type="journal" id="acel14367-cit-0004">
+<string-name name-style="western">
+<surname>Casella</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Munk</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>, <given-names>K. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Piao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>De</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abdelmohsen</surname>, <given-names>K.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Gorospe</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Transcriptome signature of cellular senescence</article-title>. <source>Nucleic Acids Research</source>, <volume>47</volume>(<issue>14</issue>), <fpage>7294</fpage>–<lpage>7305</lpage>.<pub-id pub-id-type="pmid">31251810</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkz555</pub-id><pub-id pub-id-type="pmcid">PMC6698740</pub-id></mixed-citation></ref><ref id="acel14367-bib-0005"><mixed-citation publication-type="journal" id="acel14367-cit-0005">
+<string-name name-style="western">
+<surname>Catalá</surname>, <given-names>A.</given-names>
+</string-name> (<year>2009</year>). <article-title>Lipid peroxidation of membrane phospholipids generates hydroxy‐alkenals and oxidized phospholipids active in physiological and/or pathological conditions</article-title>. <source>Chemistry and Physics of Lipids</source>, <volume>157</volume>(<issue>1</issue>), <fpage>1</fpage>–<lpage>11</lpage>.<pub-id pub-id-type="pmid">18977338</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.chemphyslip.2008.09.004</pub-id></mixed-citation></ref><ref id="acel14367-bib-0006"><mixed-citation publication-type="journal" id="acel14367-cit-0006">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Q. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prowse</surname>, <given-names>K. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tu</surname>, <given-names>V. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Purdom</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Linskens</surname>, <given-names>M. H. K.</given-names>
+</string-name> (<year>2001</year>). <article-title>Uncoupling the senescent phenotype from telomere shortening in hydrogen peroxide‐treated fibroblasts</article-title>. <source>Experimental Cell Research</source>, <volume>265</volume>(<issue>2</issue>), <fpage>294</fpage>–<lpage>303</lpage>.<pub-id pub-id-type="pmid">11302695</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1006/excr.2001.5182</pub-id></mixed-citation></ref><ref id="acel14367-bib-0007"><mixed-citation publication-type="journal" id="acel14367-cit-0007">
+<string-name name-style="western">
+<surname>Curtis</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grimsrud</surname>, <given-names>P. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wright</surname>, <given-names>W. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Foncea</surname>, <given-names>R. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Graham</surname>, <given-names>D. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brestoff</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wiczer</surname>, <given-names>B. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ilkayeva</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cianflone</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Muoio</surname>, <given-names>D. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arriaga</surname>, <given-names>E. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bernlohr</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2010</year>). <article-title>Downregulation of adipose glutathione S‐transferase A4 leads to increased protein carbonylation, oxidative stress, and mitochondrial dysfunction</article-title>. <source>Diabetes</source>, <volume>59</volume>(<issue>5</issue>), <fpage>1132</fpage>–<lpage>1142</lpage>.<pub-id pub-id-type="pmid">20150287</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2337/db09-1105</pub-id><pub-id pub-id-type="pmcid">PMC2857893</pub-id></mixed-citation></ref><ref id="acel14367-bib-0008"><mixed-citation publication-type="journal" id="acel14367-cit-0008">
+<string-name name-style="western">
+<surname>Curtis</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hahn</surname>, <given-names>W. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stone</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Inda</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Droullard</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuzmicic</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Donoghue</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Long</surname>, <given-names>E. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Armien</surname>, <given-names>A. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lavandero</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arriaga</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Griffin</surname>, <given-names>T. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bernlohr</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2012</year>). <article-title>Protein carbonylation and adipocyte mitochondrial function</article-title>. <source>The Journal of Biological Chemistry</source>, <volume>287</volume>(<issue>39</issue>), <fpage>32967</fpage>–<lpage>32980</lpage>.<pub-id pub-id-type="pmid">22822087</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.M112.400663</pub-id><pub-id pub-id-type="pmcid">PMC3463318</pub-id></mixed-citation></ref><ref id="acel14367-bib-0009"><mixed-citation publication-type="journal" id="acel14367-cit-0009">
+<string-name name-style="western">
+<surname>Das</surname>, <given-names>U. N.</given-names>
+</string-name> (<year>2021</year>). <article-title>“Cell membrane theory of senescence” and the role of bioactive lipids in aging, and aging associated diseases and their therapeutic implications</article-title>. <source>Biomolecules</source>, <volume>11</volume>(<issue>2</issue>), <elocation-id>241</elocation-id>.<pub-id pub-id-type="pmid">33567774</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/biom11020241</pub-id><pub-id pub-id-type="pmcid">PMC7914625</pub-id></mixed-citation></ref><ref id="acel14367-bib-0010"><mixed-citation publication-type="journal" id="acel14367-cit-0010">
+<string-name name-style="western">
+<surname>Dierick</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kalume</surname>, <given-names>D. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wenders</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salmon</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dieu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raes</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roepstorff</surname>, <given-names>P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Toussaint</surname>, <given-names>O.</given-names>
+</string-name> (<year>2002</year>). <article-title>Identification of 30 protein species involved in replicative senescence and stress‐induced premature senescence</article-title>. <source>FEBS Letters</source>, <volume>531</volume>(<issue>3</issue>), <fpage>499</fpage>–<lpage>504</lpage>.<pub-id pub-id-type="pmid">12435600</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0014-5793(02)03604-9</pub-id></mixed-citation></ref><ref id="acel14367-bib-0011"><mixed-citation publication-type="journal" id="acel14367-cit-0011">
+<string-name name-style="western">
+<surname>Douki</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Odin</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caillat</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Favier</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cadet</surname>, <given-names>J.</given-names>
+</string-name> (<year>2004</year>). <article-title>Predominance of the 1, N2‐propano 2′‐deoxyguanosine adduct among 4‐hydroxy‐2‐nonenal‐induced DNA lesions</article-title>. <source>Free Radical Biology &amp; Medicine</source>, <volume>37</volume>(<issue>1</issue>), <fpage>62</fpage>–<lpage>70</lpage>.<pub-id pub-id-type="pmid">15183195</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.freeradbiomed.2004.04.013</pub-id></mixed-citation></ref><ref id="acel14367-bib-0012"><mixed-citation publication-type="journal" id="acel14367-cit-0012">
+<string-name name-style="western">
+<surname>Esterbauer</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schaur</surname>, <given-names>R. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Zollner</surname>, <given-names>H.</given-names>
+</string-name> (<year>1991</year>). <article-title>Chemistry and biochemistry of 4‐hydroxynonenal, malonaldehyde and related aldehydes</article-title>. <source>Free Radical Biology &amp; Medicine</source>, <volume>11</volume>(<issue>1</issue>), <fpage>81</fpage>–<lpage>128</lpage>.<pub-id pub-id-type="pmid">1937131</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0891-5849(91)90192-6</pub-id></mixed-citation></ref><ref id="acel14367-bib-0013"><mixed-citation publication-type="journal" id="acel14367-cit-0013">
+<string-name name-style="western">
+<surname>Fafián‐Labora</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rodríguez‐Navarro</surname>, <given-names>J. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>O'Loghlen</surname>, <given-names>A.</given-names>
+</string-name> (<year>2020</year>). <article-title>Small extracellular vesicles have GST activity and ameliorate senescence‐related tissue damage</article-title>. <source>Cell Metabolism</source>, <volume>32</volume>(<issue>1</issue>), <fpage>71</fpage>–<lpage>86</lpage>.<pub-id pub-id-type="pmid">32574561</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cmet.2020.06.004</pub-id><pub-id pub-id-type="pmcid">PMC7342013</pub-id></mixed-citation></ref><ref id="acel14367-bib-0014"><mixed-citation publication-type="journal" id="acel14367-cit-0014">
+<string-name name-style="western">
+<surname>Fisher</surname>, <given-names>A. B.</given-names>
+</string-name> (<year>2011</year>). <article-title>Peroxiredoxin 6: A bifunctional enzyme with glutathione peroxidase and phospholipase A2 activities</article-title>. <source>Antioxidants &amp; Redox Signaling</source>, <volume>15</volume>(<issue>3</issue>), <fpage>831</fpage>–<lpage>844</lpage>.<pub-id pub-id-type="pmid">20919932</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1089/ars.2010.3412</pub-id><pub-id pub-id-type="pmcid">PMC3125547</pub-id></mixed-citation></ref><ref id="acel14367-bib-0015"><mixed-citation publication-type="journal" id="acel14367-cit-0015">
+<string-name name-style="western">
+<surname>Fuhrmann‐Stroissnigg</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Santiago</surname>, <given-names>F. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grassi</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ling</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Niedernhofer</surname>, <given-names>L. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Robbins</surname>, <given-names>P. D.</given-names>
+</string-name> (<year>2019</year>). <article-title>SA‐β‐galactosidase‐based screening assay for the identification of senotherapeutic drugs</article-title>. <source>JoVE (Journal of Visualized Experiments)</source>, <volume>148</volume>, <fpage>e58133</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3791/58133</pub-id><pub-id pub-id-type="pmid">31305507</pub-id></mixed-citation></ref><ref id="acel14367-bib-0016"><mixed-citation publication-type="journal" id="acel14367-cit-0016">
+<string-name name-style="western">
+<surname>Gary</surname>, <given-names>R. K.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kindell</surname>, <given-names>S. M.</given-names>
+</string-name> (<year>2005</year>). <article-title>Quantitative assay of senescence‐associated β‐galactosidase activity in mammalian cell extracts</article-title>. <source>Analytical Biochemistry</source>, <volume>343</volume>(<issue>2</issue>), <fpage>329</fpage>–<lpage>334</lpage>.<pub-id pub-id-type="pmid">16004951</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ab.2005.06.003</pub-id></mixed-citation></ref><ref id="acel14367-bib-0017"><mixed-citation publication-type="journal" id="acel14367-cit-0017">
+<string-name name-style="western">
+<surname>Hipkiss</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baye</surname>, <given-names>E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>de Courten</surname>, <given-names>B.</given-names>
+</string-name> (<year>2016</year>). <article-title>Carnosine and the processes of ageing</article-title>. <source>Maturitas</source>, <volume>93</volume>, <fpage>28</fpage>–<lpage>33</lpage>.<pub-id pub-id-type="pmid">27344459</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.maturitas.2016.06.002</pub-id></mixed-citation></ref><ref id="acel14367-bib-0018"><mixed-citation publication-type="journal" id="acel14367-cit-0018">
+<string-name name-style="western">
+<surname>Huang</surname>, <given-names>D. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sherman</surname>, <given-names>B. T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lempicki</surname>, <given-names>R. A.</given-names>
+</string-name> (<year>2009</year>). <article-title>Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</article-title>. <source>Nature Protocols</source>, <volume>4</volume>(<issue>1</issue>), <fpage>44</fpage>–<lpage>57</lpage>.<pub-id pub-id-type="pmid">19131956</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nprot.2008.211</pub-id></mixed-citation></ref><ref id="acel14367-bib-0019"><mixed-citation publication-type="journal" id="acel14367-cit-0019">
+<string-name name-style="western">
+<surname>Itahana</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Campisi</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Dimri</surname>, <given-names>G. P.</given-names>
+</string-name> (<year>2007</year>). <article-title>Methods to detect biomarkers of cellular senescence: The senescence‐associated β‐galactosidase assay</article-title>. <source>Biological Aging: Methods and Protocols</source>, <volume>371</volume>, <fpage>21</fpage>–<lpage>31</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-1-59745-361-5_3</pub-id><pub-id pub-id-type="pmid">17634571</pub-id></mixed-citation></ref><ref id="acel14367-bib-0020"><mixed-citation publication-type="journal" id="acel14367-cit-0020">
+<string-name name-style="western">
+<surname>Jia</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nie</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andersen</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rendon</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zheng</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tian</surname>, <given-names>Z.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Shi</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2021</year>). <article-title>Cardiolipin remodeling by ALCAT1 links hypoxia to coronary artery disease by promoting mitochondrial dysfunction</article-title>. <source>Molecular Therapy</source>, <volume>29</volume>(<issue>12</issue>), <fpage>3498</fpage>–<lpage>3511</lpage>.<pub-id pub-id-type="pmid">34111561</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ymthe.2021.06.007</pub-id><pub-id pub-id-type="pmcid">PMC8636157</pub-id></mixed-citation></ref><ref id="acel14367-bib-0021"><mixed-citation publication-type="journal" id="acel14367-cit-0021">
+<string-name name-style="western">
+<surname>Lin</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>, <given-names>H. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perry</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>, <given-names>M. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sayre</surname>, <given-names>L. M.</given-names>
+</string-name> (<year>2005</year>). <article-title>4‐Oxo‐2‐nonenal is both more neurotoxic and more protein reactive than 4‐hydroxy‐2‐nonenal</article-title>. <source>Chemical Research in Toxicology</source>, <volume>18</volume>(<issue>8</issue>), <fpage>1219</fpage>–<lpage>1231</lpage>.<pub-id pub-id-type="pmid">16097795</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/tx050080q</pub-id></mixed-citation></ref><ref id="acel14367-bib-0022"><mixed-citation publication-type="journal" id="acel14367-cit-0022">
+<string-name name-style="western">
+<surname>Long</surname>, <given-names>E. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Olson</surname>, <given-names>D. M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bernlohr</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2013</year>). <article-title>High‐fat diet induces changes in adipose tissue trans‐4‐oxo‐2‐nonenal and trans‐4‐hydroxy‐2‐nonenal levels in a depot‐specific manner</article-title>. <source>Free Radical Biology &amp; Medicine</source>, <volume>63</volume>, <fpage>390</fpage>–<lpage>398</lpage>.<pub-id pub-id-type="pmid">23726997</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.freeradbiomed.2013.05.030</pub-id><pub-id pub-id-type="pmcid">PMC3737572</pub-id></mixed-citation></ref><ref id="acel14367-bib-0023"><mixed-citation publication-type="journal" id="acel14367-cit-0023">
+<string-name name-style="western">
+<surname>Minko</surname>, <given-names>I. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kozekov</surname>, <given-names>I. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harris</surname>, <given-names>T. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rizzo</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lloyd</surname>, <given-names>R. S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Stone</surname>, <given-names>M. P.</given-names>
+</string-name> (<year>2009</year>). <article-title>Chemistry and biology of DNA containing 1, N 2‐deoxyguanosine adducts of the α, β‐unsaturated aldehydes acrolein, crotonaldehyde, and 4‐hydroxynonenal</article-title>. <source>Chemical Research in Toxicology</source>, <volume>22</volume>(<issue>5</issue>), <fpage>759</fpage>–<lpage>778</lpage>.<pub-id pub-id-type="pmid">19397281</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/tx9000489</pub-id><pub-id pub-id-type="pmcid">PMC2685875</pub-id></mixed-citation></ref><ref id="acel14367-bib-0024"><mixed-citation publication-type="journal" id="acel14367-cit-0024">
+<string-name name-style="western">
+<surname>Palmer</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>, <given-names>Y. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pirtskhalava</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weivoda</surname>, <given-names>M. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hachfeld</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prata</surname>, <given-names>L. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Dijk</surname>, <given-names>T. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Verkade</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Casaclang‐Verzosa</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>, <given-names>K. O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cubro</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doornebal</surname>, <given-names>E. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ogrodnik</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jurk</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jensen</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chini</surname>, <given-names>E. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Matveyenko</surname>, <given-names>A.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Kirkland</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2019</year>). <article-title>Targeting senescent cells alleviates obesity‐induced metabolic dysfunction</article-title>. <source>Aging Cell</source>, <volume>18</volume>(<issue>3</issue>), <elocation-id>e12950</elocation-id>.<pub-id pub-id-type="pmid">30907060</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/acel.12950</pub-id><pub-id pub-id-type="pmcid">PMC6516193</pub-id></mixed-citation></ref><ref id="acel14367-bib-0026"><mixed-citation publication-type="journal" id="acel14367-cit-0026">
+<string-name name-style="western">
+<surname>Riahi</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kaiser</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cohen</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abd‐Elrahman</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blum</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shapira</surname>, <given-names>O. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koler</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Simionescu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sima</surname>, <given-names>A. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zarkovic</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zarkovic</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Orioli</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aldini</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cerasi</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leibowitz</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sasson</surname>, <given-names>S.</given-names>
+</string-name> (<year>2015</year>). <article-title>Foam cell‐derived 4‐hydroxynonenal induces endothelial cell senescence in a TXNIP‐dependent manner</article-title>. <source>Journal of Cellular and Molecular Medicine</source>, <volume>19</volume>(<issue>8</issue>), <fpage>1887</fpage>–<lpage>1899</lpage>.<pub-id pub-id-type="pmid">25754218</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/jcmm.12561</pub-id><pub-id pub-id-type="pmcid">PMC4549039</pub-id></mixed-citation></ref><ref id="acel14367-bib-0027"><mixed-citation publication-type="journal" id="acel14367-cit-0027">
+<string-name name-style="western">
+<surname>Salovska</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kondelova</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pimkova</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liblova</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pribyl</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fabrik</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bartek</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vajrychova</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hodny</surname>, <given-names>Z.</given-names>
+</string-name> (<year>2022</year>). <article-title>Peroxiredoxin 6 protects irradiated cells from oxidative stress and shapes their senescence‐associated cytokine landscape</article-title>. <source>Redox Biology</source>, <volume>49</volume>, <elocation-id>102212</elocation-id>.<pub-id pub-id-type="pmid">34923300</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.redox.2021.102212</pub-id><pub-id pub-id-type="pmcid">PMC8688892</pub-id></mixed-citation></ref><ref id="acel14367-bib-0028"><mixed-citation publication-type="journal" id="acel14367-cit-0028">
+<string-name name-style="western">
+<surname>Saul</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kosinsky</surname>, <given-names>R. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Atkinson</surname>, <given-names>E. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doolittle</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>LeBrasseur</surname>, <given-names>N. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pignolo</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robbins</surname>, <given-names>P. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Niedernhofer</surname>, <given-names>L. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ikeno</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jurk</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Passos</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hickson</surname>, <given-names>L. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xue</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Monroe</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tchkonia</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kirkland</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Farr</surname>, <given-names>J. N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Khosla</surname>, <given-names>S.</given-names>
+</string-name> (<year>2022</year>). <article-title>A new gene set identifies senescent cells and predicts senescence‐associated pathways across tissues</article-title>. <source>Nature Communications</source>, <volume>13</volume>(<issue>1</issue>), <fpage>4827</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-022-32552-1</pub-id><pub-id pub-id-type="pmcid">PMC9381717</pub-id><pub-id pub-id-type="pmid">35974106</pub-id></mixed-citation></ref><ref id="acel14367-bib-0029"><mixed-citation publication-type="journal" id="acel14367-cit-0029">
+<string-name name-style="western">
+<surname>Schaur</surname>, <given-names>R. J.</given-names>
+</string-name> (<year>2003</year>). <article-title>Basic aspects of the biochemical reactivity of 4‐hydroxynonenal</article-title>. <source>Molecular Aspects of Medicine</source>, <volume>24</volume>(<issue>4–5</issue>), <fpage>149</fpage>–<lpage>159</lpage>.<pub-id pub-id-type="pmid">12892992</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0098-2997(03)00009-8</pub-id></mixed-citation></ref><ref id="acel14367-bib-0030"><mixed-citation publication-type="journal" id="acel14367-cit-0030">
+<string-name name-style="western">
+<surname>Siems</surname>, <given-names>W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Grune</surname>, <given-names>T.</given-names>
+</string-name> (<year>2003</year>). <article-title>Intracellular metabolism of 4‐hydroxynonenal</article-title>. <source>Molecular Aspects of Medicine</source>, <volume>24</volume>(<issue>4–5</issue>), <fpage>167</fpage>–<lpage>175</lpage>.<pub-id pub-id-type="pmid">12892994</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0098-2997(03)00011-6</pub-id></mixed-citation></ref><ref id="acel14367-bib-0031"><mixed-citation publication-type="journal" id="acel14367-cit-0031">
+<string-name name-style="western">
+<surname>Sturmlechner</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sine</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van Deursen</surname>, <given-names>E. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jeganathan</surname>, <given-names>K. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamada</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grasic</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Friedman</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stutchman</surname>, <given-names>J. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Can</surname>, <given-names>I.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hamada</surname>, <given-names>M.</given-names>
+</string-name> (<year>2021</year>). <article-title>p21 produces a bioactive secretome that places stressed cells under immunosurveillance</article-title>. <source>Science</source>, <volume>374</volume>(<issue>6567</issue>), <elocation-id>eabb3420</elocation-id>.<pub-id pub-id-type="pmid">34709885</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.abb3420</pub-id><pub-id pub-id-type="pmcid">PMC8985214</pub-id></mixed-citation></ref><ref id="acel14367-bib-0032"><mixed-citation publication-type="journal" id="acel14367-cit-0032">
+<string-name name-style="western">
+<surname>Suda</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shimizu</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Katsuumi</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yoshida</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hayashi</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ikegami</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Matsumoto</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yoshida</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mikawa</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Katayama</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wada</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Seki</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Suzuki</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iwama</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nakagami</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nagasawa</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morishita</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sugimoto</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Okuda</surname>, <given-names>S.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Minamino</surname>, <given-names>T.</given-names>
+</string-name> (<year>2021</year>). <article-title>Senolytic vaccination improves normal and pathological age‐related phenotypes and increases lifespan in progeroid mice</article-title>. <source>Nature Aging</source>, <volume>1</volume>(<issue>12</issue>), <fpage>1117</fpage>–<lpage>1126</lpage>.<pub-id pub-id-type="pmid">37117524</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s43587-021-00151-2</pub-id></mixed-citation></ref><ref id="acel14367-bib-0033"><mixed-citation publication-type="journal" id="acel14367-cit-0033">
+<string-name name-style="western">
+<surname>Swiader</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Camaré</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guerby</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salvayre</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Negre‐Salvayre</surname>, <given-names>A.</given-names>
+</string-name> (<year>2021</year>). <article-title>4‐hydroxynonenal contributes to fibroblast senescence in skin photoaging evoked by uv‐a radiation</article-title>. <source>Antioxidants</source>, <volume>10</volume>(<issue>3</issue>), <elocation-id>365</elocation-id>.<pub-id pub-id-type="pmid">33670907</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/antiox10030365</pub-id><pub-id pub-id-type="pmcid">PMC7997366</pub-id></mixed-citation></ref><ref id="acel14367-bib-0034"><mixed-citation publication-type="journal" id="acel14367-cit-0034">
+<string-name name-style="western">
+<surname>Teufel</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Almagro Armenteros</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johansen</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gíslason</surname>, <given-names>M. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pihl</surname>, <given-names>S. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tsirigos</surname>, <given-names>K. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Winther</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brunak</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>von Heijne</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Nielsen</surname>, <given-names>H.</given-names>
+</string-name> (<year>2022</year>). <article-title>SignalP 6.0 predicts all five types of signal peptides using protein language models</article-title>. <source>Nature Biotechnology</source>, <volume>40</volume>(<issue>7</issue>), <fpage>1023</fpage>–<lpage>1025</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41587-021-01156-3</pub-id><pub-id pub-id-type="pmcid">PMC9287161</pub-id><pub-id pub-id-type="pmid">34980915</pub-id></mixed-citation></ref><ref id="acel14367-bib-0035"><mixed-citation publication-type="journal" id="acel14367-cit-0035">
+<string-name name-style="western">
+<surname>Toussaint</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Medrano</surname>, <given-names>E. E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>von Zglinicki</surname>, <given-names>T.</given-names>
+</string-name> (<year>2000</year>). <article-title>Cellular and molecular mechanisms of stress‐induced premature senescence (SIPS) of human diploid fibroblasts and melanocytes</article-title>. <source>Experimental Gerontology</source>, <volume>35</volume>(<issue>8</issue>), <fpage>927</fpage>–<lpage>945</lpage>.<pub-id pub-id-type="pmid">11121681</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0531-5565(00)00180-7</pub-id></mixed-citation></ref><ref id="acel14367-bib-0036"><mixed-citation publication-type="journal" id="acel14367-cit-0036">
+<string-name name-style="western">
+<surname>Tyshkovskiy</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bozaykut</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Borodinova</surname>, <given-names>A. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gerashchenko</surname>, <given-names>M. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ables</surname>, <given-names>G. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garratt</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Khaitovich</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clish</surname>, <given-names>C. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>, <given-names>R. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Gladyshev</surname>, <given-names>V. N.</given-names>
+</string-name> (<year>2019</year>). <article-title>Identification and application of gene expression signatures associated with lifespan extension</article-title>. <source>Cell Metabolism</source>, <volume>30</volume>(<issue>3</issue>), <fpage>573</fpage>–<lpage>593</lpage>.<pub-id pub-id-type="pmid">31353263</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cmet.2019.06.018</pub-id><pub-id pub-id-type="pmcid">PMC6907080</pub-id></mixed-citation></ref><ref id="acel14367-bib-0037"><mixed-citation publication-type="journal" id="acel14367-cit-0037">
+<string-name name-style="western">
+<surname>Vaillancourt</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morquette</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fahmi</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lavigne</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Battista</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fernandes</surname>, <given-names>J. C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Benderdour</surname>, <given-names>M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Differential regulation of cyclooxygenase‐2 and inducible nitric oxide synthase by 4‐hydroxynonenal in human osteoarthritic chondrocytes through ATF‐2/CREB‐1 transactivation and concomitant inhibition of NF‐κB signaling cascade</article-title>. <source>Journal of Cellular Biochemistry</source>, <volume>100</volume>(<issue>5</issue>), <fpage>1217</fpage>–<lpage>1231</lpage>.<pub-id pub-id-type="pmid">17031850</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jcb.21110</pub-id></mixed-citation></ref><ref id="acel14367-bib-0038"><mixed-citation publication-type="journal" id="acel14367-cit-0038">
+<string-name name-style="western">
+<surname>Vazdar</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jurkiewicz</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hof</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jungwirth</surname>, <given-names>P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cwiklik</surname>, <given-names>L.</given-names>
+</string-name> (<year>2012</year>). <article-title>Behavior of 4‐hydroxynonenal in phospholipid membranes</article-title>. <source>The Journal of Physical Chemistry. B</source>, <volume>116</volume>(<issue>22</issue>), <fpage>6411</fpage>–<lpage>6415</lpage>.<pub-id pub-id-type="pmid">22577896</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jp3044219</pub-id></mixed-citation></ref><ref id="acel14367-bib-0046"><mixed-citation publication-type="journal" id="acel14367-cit-0046">
+<string-name name-style="western">
+<surname>Victorelli</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salmonowicz</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chapman</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martini</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vizioli</surname>, <given-names>M. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Riley</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cloix</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hall‐Younger</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Machado Espindola‐Netto</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jurk</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lagnado</surname>, <given-names>A. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sales Gomez</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Farr</surname>, <given-names>J. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saul</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reed</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kelly</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eppard</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Greaves</surname>, <given-names>L. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dou</surname>, <given-names>Z.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Passos</surname>, <given-names>J. F.</given-names>
+</string-name> (<year>2023</year>). <article-title>Apoptotic stress causes mtDNA release during senescence and drives the SASP</article-title>. <source>Nature</source>, <volume>622</volume>(<issue>7983</issue>), <fpage>627</fpage>–<lpage>636</lpage>.<pub-id pub-id-type="pmid">37821702</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-023-06621-4</pub-id><pub-id pub-id-type="pmcid">PMC10584674</pub-id></mixed-citation></ref><ref id="acel14367-bib-0039"><mixed-citation publication-type="journal" id="acel14367-cit-0039">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gasek</surname>, <given-names>N. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cohn</surname>, <given-names>R. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martin</surname>, <given-names>D. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zuo</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Flynn</surname>, <given-names>W. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jellison</surname>, <given-names>E. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prata</surname>, <given-names>L. G. P. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Palmer</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Inman</surname>, <given-names>C. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barber</surname>, <given-names>L. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>al‐Naggar</surname>, <given-names>I. M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>du</surname>, <given-names>W.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Xu</surname>, <given-names>M.</given-names>
+</string-name> (<year>2022</year>). <article-title>Targeting p21<sup>Cip1</sup> highly expressing cells in adipose tissue alleviates insulin resistance in obesity</article-title>. <source>Cell Metabolism</source>, <volume>34</volume>(<issue>1</issue>), <fpage>75</fpage>–<lpage>89</lpage>.<pub-id pub-id-type="pmid">34813734</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cmet.2021.11.002</pub-id><pub-id pub-id-type="pmcid">PMC8732323</pub-id></mixed-citation></ref><ref id="acel14367-bib-0040"><mixed-citation publication-type="journal" id="acel14367-cit-0040">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fang</surname>, <given-names>H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Han</surname>, <given-names>X.</given-names>
+</string-name> (<year>2012</year>). <article-title>Shotgun lipidomics analysis of 4‐hydroxyalkenal species directly from lipid extracts after one‐step in situ derivatization</article-title>. <source>Analytical Chemistry</source>, <volume>84</volume>(<issue>10</issue>), <fpage>4580</fpage>–<lpage>4586</lpage>.<pub-id pub-id-type="pmid">22500579</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ac300695p</pub-id><pub-id pub-id-type="pmcid">PMC3352972</pub-id></mixed-citation></ref><ref id="acel14367-bib-0041"><mixed-citation publication-type="journal" id="acel14367-cit-0041">
+<string-name name-style="western">
+<surname>Wiley</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sharma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davis</surname>, <given-names>S. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lopez‐Dominguez</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mitchell</surname>, <given-names>K. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wiley</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alimirah</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>, <given-names>D. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Payne</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rosko</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aimontche</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deshpande</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Neri</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuehnemann</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Demaria</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ramanathan</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Campisi</surname>, <given-names>J.</given-names>
+</string-name> (<year>2021</year>). <article-title>Oxylipin biosynthesis reinforces cellular senescence and allows detection of senolysis</article-title>. <source>Cell Metabolism</source>, <volume>33</volume>(<issue>6</issue>), <fpage>1124</fpage>–<lpage>1136</lpage>.<pub-id pub-id-type="pmid">33811820</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cmet.2021.03.008</pub-id><pub-id pub-id-type="pmcid">PMC8501892</pub-id></mixed-citation></ref><ref id="acel14367-bib-0042"><mixed-citation publication-type="journal" id="acel14367-cit-0042">
+<string-name name-style="western">
+<surname>Wiley</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Velarde</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lecot</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>S. U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sarnoski</surname>, <given-names>E. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Freund</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shirakawa</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lim</surname>, <given-names>H. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davis</surname>, <given-names>S. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ramanathan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gerencser</surname>, <given-names>A. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Verdin</surname>, <given-names>E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Campisi</surname>, <given-names>J.</given-names>
+</string-name> (<year>2016</year>). <article-title>Mitochondrial dysfunction induces senescence with a distinct secretory phenotype</article-title>. <source>Cell Metabolism</source>, <volume>23</volume>(<issue>2</issue>), <fpage>303</fpage>–<lpage>314</lpage>.<pub-id pub-id-type="pmid">26686024</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cmet.2015.11.011</pub-id><pub-id pub-id-type="pmcid">PMC4749409</pub-id></mixed-citation></ref><ref id="acel14367-bib-0043"><mixed-citation publication-type="journal" id="acel14367-cit-0043">
+<string-name name-style="western">
+<surname>Xu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hertzel</surname>, <given-names>A. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Steen</surname>, <given-names>K. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Suttles</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bernlohr</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2015</year>). <article-title>Uncoupling lipid metabolism from inflammation through fatty acid binding protein‐dependent expression of UCP2</article-title>. <source>Molecular and Cellular Biology</source>, <volume>35</volume>(<issue>6</issue>), <fpage>1055</fpage>–<lpage>1065</lpage>.<pub-id pub-id-type="pmid">25582199</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/MCB.01122-14</pub-id><pub-id pub-id-type="pmcid">PMC4333098</pub-id></mixed-citation></ref><ref id="acel14367-bib-0044"><mixed-citation publication-type="journal" id="acel14367-cit-0044">
+<string-name name-style="western">
+<surname>Xu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Palmer</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ding</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weivoda</surname>, <given-names>M. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pirtskhalava</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>, <given-names>T. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sepe</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>, <given-names>K. O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stout</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giorgadze</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jensen</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>LeBrasseur</surname>, <given-names>N. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tchkonia</surname>, <given-names>T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kirkland</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2015</year>). <article-title>Targeting senescent cells enhances adipogenesis and metabolic function in old age</article-title>. <source>eLife</source>, <volume>4</volume>, <elocation-id>e12997</elocation-id>.<pub-id pub-id-type="pmid">26687007</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.12997</pub-id><pub-id pub-id-type="pmcid">PMC4758946</pub-id></mixed-citation></ref><ref id="acel14367-bib-0045"><mixed-citation publication-type="journal" id="acel14367-cit-0045">
+<string-name name-style="western">
+<surname>Yoval‐Sánchez</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rodríguez‐Zavala</surname>, <given-names>J. S.</given-names>
+</string-name> (<year>2012</year>). <article-title>Differences in susceptibility to inactivation of human aldehyde dehydrogenases by lipid peroxidation byproducts</article-title>. <source>Chemical Research in Toxicology</source>, <volume>25</volume>(<issue>3</issue>), <fpage>722</fpage>–<lpage>729</lpage>.<pub-id pub-id-type="pmid">22339434</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/tx2005184</pub-id></mixed-citation></ref></ref-list></back></article>

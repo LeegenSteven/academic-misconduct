@@ -1,0 +1,119 @@
+JACK ET AL.
+5159
+TABLE 7
+Integrated biological and clinical staging.
+Stage 0
+Clinical
+Stage 1
+Clinical
+Stage 2
+Clinical
+Stage 3
+Clinical
+Stages 4–6
+Initial biological stage (A)
+X
+1A
+2A
+3A
+4-6A
+Early biological stage (B)
+X
+1B
+2B
+3B
+4-6B
+Intermediate biological stage (C)
+X
+1C
+2C
+3C
+4-6C
+Advanced biological stage (D)
+X
+1D
+2D
+3D
+4-6D
+Note: The typical expected progression trajectory is along the diagonal shaded cells, from 1A to 4–6D. However, considerable individual variability exists in
+the population. Individuals who lie above the diagonal (i.e., worse clinical stage than expected for biological stage) often have greater than average comorbid
+pathology. Individuals who lie below the diagonal (i.e., better clinical stage than expected for biological stage) may have exceptional cognitive reserve or
+resilience.
+total tau should be considered a T biomarker. However, CSF and plasma
+total tau also increase dramatically in Creutzfeldt–Jacob disease, head
+trauma, anoxia, cerebral infarction, as well as peripheral neuropathies,
+which has been taken as evidence that total tau belongs in the N
+category.97,170,8 When all evidence is considered it is unclear how best
+to categorize this measure in the current document.
+Imaging N biomarkers represent the net result of cumulative
+insults to the neuropil. Neurodegenerative loss of neurons and
+synapses results in volume loss (or decreased cortical thickness) on
+magnetic resonance imaging (MRI)171–173 and fluorodeoxyglucose
+hypometabolism. Like their fluid counterparts, imaging N biomarkers
+are not specific to AD and may result from a variety of prior or ongoing
+brain insults.174,175
+Synaptic loss and dysfunction are an important feature of neurode-
+generative diseases. Various synaptic CSF markers have been used for
+research purposes.31,32,175 PET imaging of synapses has also entered
+the research arena based on ligands that bind to the synaptic vesi-
+cle glycoprotein 2A, a presynaptic component that may be lost with
+neurodegeneration.176,177 A future direction for the field could be to
+identify more specific roles that various synaptic biomarkers could play
+and possibly to break out synaptic biomarkers from the broader N cat-
+egory. Electroencephalography may be one of the synaptic measures
+because it provides insight into synaptic connectivity and is widely
+available.178
+Biomarkers of inflammatory/immune processes (I) are divided into
+two subcategories: reactivity of astrocytes and microglia. A substan-
+tial body of evidence indicates that immune/inflammatory mechanisms
+are important in AD pathogenesis.179–181 In addition, a growing list of
+interventional strategies targets immune/inflammatory pathways.182
+Despite the importance of these mechanisms, there is a dearth of
+available I biomarkers. An I marker that may gain clinical use is glial fib-
+rillary acidic protein (GFAP), which is a marker of astrocytic reactivity.
+GFAP can be measured in plasma or CSF but seems to perform bet-
+ter in plasma for reasons that are not well understood. Although not
+specific to AD, it is associated with early amyloid PET, higher risk of
+incident dementia, and faster rates of cognitive decline.31,32,175,183–187
+Another I biomarker that has received recent attention is soluble
+TREM2, which reflects microglial reactivity and can be measured
+in CSF.188–190
+7.2
+Biomarkers of common non-AD copathologies
+We list biomarkers of α-synuclein (S) and vascular brain injury (V)
+in Tables 1 and 2 under the heading of biomarkers of non-AD
+copathology. Αlpha-synuclein seed amplification assays (αSyn-SAA)
+in CSF have gained attention in Parkinson’s disease and demen-
+tia with Lewy bodies,191,192 which have recently been relabeled as
+NSD.57 αSyn-SAA are sensitive and specific for ante mortem identifica-
+tion of cortical α-synuclein pathologic change as a primary pathology
+or as a copathology.193,194 Cortical α-synuclein pathologic change is
+associated with cognitive decline independent of amyloid and tau
+pathology in both cognitively unimpaired and cognitively impaired
+individuals.195,196 These assays are less sensitive to α-synuclein inclu-
+sions in multisystem atrophy in which the cellular location and confor-
+mation of inclusions differ from those in NSD.197,198 Development of
+PET ligands for α-synuclein is an active area of research but, at present,
+no ligands are available for the detection of α-synuclein copathology
+in patients with AD.199,200 Dopamine transporter (DAT) single-photon
+emission computed tomography (SPECT) or PET are DAT imaging
+methods used clinically to assess loss of striatal dopaminergic neu-
+rons in the evaluation of patients with suspected NSD.57,201,202 DAT
+scanning plays a prominent role in recent staging criteria for NSD.57
+Cerebrovascular disease (V) is an umbrella term that encompasses
+different forms of vascular pathology or vascular brain injury. Vari-
+ous diagnostic modalities or imaging findings exist; however, at this
+point a single summary measure composed of different imaging find-
+ings has not been widely accepted. Macroscopic cerebral infarctions,
+including both large cortical and subcortical infarctions and lacunes,
+on anatomic MRI or computed tomography are the most definitive
+biomarker of ischemic vascular brain injury and are widely used for
+this purpose in clinical care (Tables 1 and 2). State-of-the-art meth-
+ods in neuroimaging of small-vessel disease203 are reviewed in the
+recent STRIVE-2 guidelines.204 While diffusion-weighted imaging is
+used routinely in clinical practice to identify acute cerebral infarc-
+tion, quantitative diffusion MRI has gained traction as a method to
+detect loss of microscopic tissue integrity due to small vessel dis-
+ease in research.205–207 However, diffusion MRI (a broad field that
+encompasses many approaches) findings are also abnormal in neu-
+rodegenerative diseases, traumatic brain injury, and so forth. The same

@@ -1,0 +1,234 @@
+Articles
+500	
+www.thelancet.com   Vol 395   February 15, 2020
+for novel coronavirus.9 Hypoxaemia was defined as arterial 
+oxygen tension (PaO₂) over inspiratory oxygen fraction 
+(FIO₂) of less than 300 mm Hg.15 Acute kidney injury was 
+identified and classified on the basis of the highest serum 
+creatinine level or urine output criteria according to the 
+kidney disease improving global outcomes classification.16 
+Secondary infection was diagnosed if the patients had 
+clinical symptoms or signs of nosocomial pneumonia or 
+bacteraemia, and was combined with a positive culture of a 
+new pathogen from a lower respiratory tract specimen 
+(including the sputum, transtracheal aspirates, or bron­
+choalveolar lavage ﬂuid, or from blood samples taken ≥48 h 
+after admission).17 Cardiac injury followed the definition 
+used in our previous study in H7N9 patients.18 In brief, 
+cardiac injury was diagnosed if serum levels of cardiac 
+biomarkers (eg, troponin I) were above the 99th percentile 
+upper reference limit, or new abnormalities were shown in 
+electrocardiography and echocardiography.
+Statistical analysis
+Continuous variables were expressed as median (IQR) 
+and compared with the Mann-Whitney U test; categorical 
+variables were expressed as number (%) and compared 
+by χ² test or Fisher’s exact test between ICU care and 
+no ICU care groups. Boxplots were drawn to describe 
+plasma cytokine and chemokine concentrations.
+A two-sided α of less than 0·05 was considered statis­
+tically significant. Statistical analyses were done using the 
+SAS software, version 9.4, unless otherwise indicated.
+Role of the funding source
+The funder of the study had no role in study design, data 
+collection, data analysis, data interpretation, or writing of 
+the report. The corresponding authors had full access to 
+all the data in the study and had final responsibility for 
+the decision to submit for publication.
+Results
+By Jan 2, 2020, 41 admitted hospital patients were 
+identified as laboratory-confirmed 2019-nCoV infection in 
+Wuhan. 20 [49%]) of the 2019-nCoV-infected patients were 
+aged 25–49 years, and 14 (34%) were aged 50–64 years 
+(figure 1A). The median age of the patients was 49·0 years 
+(IQR 41·0–58·0; table 1). In our cohort of the first 
+41 patients as of Jan 2, no children or adolescents were 
+infected. Of the 41 patients, 13 (32%) were admitted to the 
+ICU because they required high-flow nasal cannula or 
+higher-level oxygen support measures to cor­rect hypox­
+aemia. Most of the infected patients were men (30 [73%]); 
+less than half had underlying diseases (13 [32%]), inc­
+luding diabetes (eight [20%]), hypertension (six [15%]), 
+and cardiovascular disease (six [15%]).
+27 (66%) patients had direct exposure to Huanan 
+seafood market (figure 1B). Market exposure was similar 
+between the patients with ICU care (nine [69%]) and 
+those with non-ICU care (18 [64%]). The symptom onset 
+date of the first patient identified was Dec 1, 2019. None 
+of his family members developed fever or any respiratory 
+symptoms. No epidemiological link was found between 
+the first patient and later cases. The first fatal case, 
+who had continuous exposure to the market, was 
+admitted to hospital because of a 7-day history of fever, 
+cough, and dyspnoea. 5 days after illness onset, his wife, 
+a 53-year-old woman who had no known history of 
+exposure to the market, also presented with pneumonia 
+and was hospitalised in the isolation ward.
+The most common symptoms at onset of illness were 
+fever (40 [98%] of 41 patients), cough (31 [76%]), and 
+myalgia or fatigue (18 [44%]); less common symptoms 
+All patients (n=41)
+ICU care (n=13)
+No ICU care (n=28)
+p value
+Characteristics
+Age, years
+49·0 (41·0–58·0)
+49·0 (41·0–61·0)
+49·0 (41·0–57·5)
+0·60
+Sex
+··
+··
+··
+0·24
+Men
+30 (73%)
+11 (85%)
+19 (68%)
+··
+Women
+11 (27%)
+2 (15%)
+9 (32%)
+··
+Huanan seafood market 
+exposure
+27 (66%)
+9 (69%)
+18 (64%)
+0·75
+Current smoking
+3 (7%)
+0
+3 (11%)
+0·31
+Any comorbidity
+13 (32%)
+5 (38%)
+8 (29%)
+0·53
+Diabetes
+8 (20%)
+1 (8%)
+7 (25%)
+0·16
+Hypertension
+6 (15%)
+2 (15%)
+4 (14%)
+0·93
+Cardiovascular disease
+6 (15%)
+3 (23%)
+3 (11%)
+0·32
+Chronic obstructive 
+pulmonary disease
+1 (2%)
+1 (8%)
+0
+0·14
+Malignancy
+1 (2%)
+0
+1 (4%)
+0·49
+Chronic liver disease
+1 (2%)
+0
+1 (4%)
+0·68
+Signs and symptoms
+Fever
+40 (98%)
+13 (100%)
+27 (96%)
+0·68
+Highest temperature, °C
+··
+··
+··
+0·037
+<37·3
+1 (2%)
+0
+1 (4%)
+··
+37·3–38·0
+8 (20%)
+3 (23%)
+5 (18%)
+··
+38·1–39·0
+18 (44%)
+7 (54%)
+11 (39%)
+··
+>39·0
+14 (34%)
+3 (23%)
+11 (39%)
+··
+Cough
+31 (76%)
+11 (85%)
+20 (71%)
+0·35
+Myalgia or fatigue
+18 (44%)
+7 (54%)
+11 (39%)
+0·38
+Sputum production
+11/39 (28%)
+5 (38%)
+6/26 (23%)
+0·32
+Headache
+3/38 (8%)
+0
+3/25 (12%)
+0·10
+Haemoptysis
+2/39 (5%)
+1 (8%)
+1/26 (4%)
+0·46
+Diarrhoea
+1/38 (3%)
+0
+1/25 (4%)
+0·66
+Dyspnoea
+22/40 (55%)
+12 (92%)
+10/27 (37%)
+0·0010
+Days from illness onset to 
+dyspnoea
+8·0 (5·0–13·0)
+8·0 (6·0–17·0)
+6·5 (2·0–10·0)
+0·22
+Days from first admission 
+to transfer
+5·0 (1·0–8·0)
+8·0 (5·0–14·0)
+1·0 (1·0–6·5)
+0·0023
+Systolic pressure, mm Hg
+125·0 (119·0–135·0)
+145·0 (123·0–167·0)
+122·0 (118·5–129·5)
+0·018
+Respiratory rate 
+>24 breaths per min
+12 (29%)
+8 (62%)
+4 (14%)
+0·0023
+Data are median (IQR), n (%), or n/N (%), where N is the total number of patients with available data. p values 
+comparing ICU care and no ICU care are from χ² test, Fisher’s exact test, or Mann-Whitney U test. 2019-nCoV=2019 
+novel coronavirus. ICU=intensive care unit.
+Table 1: Demographics and baseline characteristics of patients infected with 2019-nCoV

@@ -1,0 +1,92 @@
+D646 Nucleic Acids Research, 2023, Vol. 51, Database issue
+49. Miranda,A., Mehryary,F., Luoma,J., Pyysalo,S., Valencia,A. and
+Krallinger,M. (2021) Overview of drugprot biocreative VII track:
+quality evaluation and large scale text mining of drug-gene/protein
+relations. BioCreative. https://biocreative.bioinformatics.udel.edu/
+media/store/files/2021/Track1 pos 1 BC7 overview.pdf.
+50. Yu,H., Luscombe,N.M., Lu,H.X., Zhu,X., Xia,Y., Han,J.-D.J.,
+Bertin,N., Chung,S., Vidal,M. and Gerstein,M. (2004) Annotation
+transfer between genomes: protein–protein interologs and
+protein-DNA regulogs. Genome Res., 14, 1107–1118.
+51. Huerta-Cepas,J., Szklarczyk,D., Heller,D., Hern´andez-Plaza,A.,
+Forslund,S.K., Cook,H., Mende,D.R., Letunic,I., Rattei,T.,
+Jensen,L.J. et al. (2019) eggNOG 5.0: a hierarchical, functionally and
+phylogenetically annotated orthology resource based on 5090
+organisms and 2502 viruses. Nucleic Acids Res., 47, D309–D314.
+52. Doncheva,N.T., Morris,J.H., Gorodkin,J. and Jensen,L.J. (2019)
+Cytoscape stringapp: network analysis and visualization of
+proteomics data. J. Proteome Res., 18, 623–632.
+53. Cunningham,F., Allen,J.E., Allen,J., Alvarez-Jarreta,J., Amode,M.R.,
+Armean,I.M., Austine-Orimoloye,O., Azov,A.G., Barnes,I.,
+Bennett,R. et al. (2022) Ensembl 2022. Nucleic Acids Res., 50,
+D988–D995.
+54. UniProt Consortium (2021) UniProt: the universal protein
+knowledgebase in 2021. Nucleic Acids Res., 49, D480–D489.
+55. Mende,D.R., Letunic,I., Maistrenko,O.M., Schmidt,T.S.B.,
+Milanese,A., Paoli,L., Hern´andez-Plaza,A., Orakov,A.N.,
+Forslund,S.K., Sunagawa,S. et al. (2020) proGenomes2: an improved
+database for accurate and consistent habitat, taxonomic and
+functional annotations of prokaryotic genomes. Nucleic Acids Res.,
+48, D621–D625.
+56. Nasko,D.J., Koren,S., Phillippy,A.M. and Treangen,T.J. (2018)
+RefSeq database growth influences the accuracy of k-mer-based
+lowest common ancestor species identification. Genome Biol., 19, 165.
+57. Li,W., O’Neill,K.R., Haft,D.H., DiCuccio,M., Chetvernin,V.,
+Badretdin,A., Coulouris,G., Chitsaz,F., Derbyshire,M.K.,
+Durkin,A.S. et al. (2021) RefSeq: expanding the prokaryotic genome
+annotation pipeline reach with protein family model curation. Nucleic
+Acids Res., 49, D1020–D1028.
+58. Buchfink,B., Reuter,K. and Drost,H.-G. (2021) Sensitive protein
+alignments at tree-of-life scale using DIAMOND. Nat. Methods, 18,
+366–368.
+59. Binder,J.X., Pletscher-Frankild,S., Tsafou,K., Stolte,C.,
+O’Donoghue,S.I., Schneider,R. and Jensen,L.J. (2014)
+COMPARTMENTS: unification and visualization of protein
+subcellular localization evidence. Database, 2014, bau012.
+60. Palasca,O., Santos,A., Stolte,C., Gorodkin,J. and Jensen,L.J. (2018)
+TISSUES 2.0: an integrative web resource on mammalian tissue
+expression. Database, 2018, bay003.
+61. Zhong,W. and Sternberg,P.W. (2006) Genome-wide prediction of c.
+elegans genetic interactions. Science, 311, 1481–1484.
+62. Raina,P., Lopes,I., Chatsirisupachai,K., Farooq,Z. and de
+Magalh˜aes,J.P. (2021) GeneFriends 2021: updated co-expression
+databases and tools for human and mouse genes and transcripts.
+bioRxiv doi: https://doi.org/10.1101/2021.01.10.426125, 10 January
+2021, preprint: not peer reviewed.
+63. Harris,B.D., Crow,M., Fischer,S. and Gillis,J. (2021) Single-cell
+co-expression analysis reveals that transcriptional modules are shared
+across cell types in the brain. Cell Syst., 12, 748–756.
+64. Kanonidis,E.I., Roy,M.M., Deighton,R.F. and Le Bihan,T. (2016)
+Protein co-expression analysis as a strategy to complement a standard
+quantitative proteomics approach: case of a glioblastoma multiforme
+study. PLoS One, 11, e0161828.
+65. Barrett,T., Wilhite,S.E., Ledoux,P., Evangelista,C., Kim,I.F.,
+Tomashevsky,M., Marshall,K.A., Phillippy,K.H., Sherman,P.M.,
+Holko,M. et al. (2012) NCBI GEO: archive for functional genomics
+data sets––update. Nucleic Acids Res., 41, D991–D995.
+66. Sj¨ostedt,E., Zhong,W., Fagerberg,L., Karlsson,M., Mitsios,N.,
+Adori,C., Oksvold,P., Edfors,F., Limiszewska,A., Hikmet,F. et al.
+(2020) An atlas of the protein-coding genes in the human, pig, and
+mouse brain. Science, 367, eaay5947.
+67. Perez-Riverol,Y., Bai,J., Bandla,C., Garc´ıa-Seisdedos,D.,
+Hewapathirana,S., Kamatchinathan,S., Kundu,D.J., Prakash,A.,
+Frericks-Zipper,A., Eisenacher,M. et al. (2022) The PRIDE database
+resources in 2022: a hub for mass spectrometry-based proteomics
+evidences. Nucleic. Acids. Res., 50, D543–D552.
+68. Koutrouli,M., L´ındez,P.P., Bouwmeester,R., Martens,L. and
+Jensen,L.J. (2022) FAVA: high-quality functional association
+networks inferred from scRNA-seq and proteomics data. bioRxiv
+doi: https://doi.org/10.1101/2022.07.06.499022, 07 July 2022,
+preprint: not peer reviewed.
+69. Zhao,S., Fung-Leung,W.-P., Bittner,A., Ngo,K. and Liu,X. (2014)
+Comparison of RNA-Seq and microarray in transcriptome profiling
+of activated t cells. PLoS One, 9, e78644.
+70. Rai,M.F., Tycksen,E.D., Sandell,L.J. and Brophy,R.H. (2017)
+Advantages of RNA-seq compared to RNA microarrays for
+transcriptome profiling of anterior cruciate ligament tears. J. Orthop.
+Res., 36, 484–497.
+71. Hermjakob,H., Montecchi-Palazzi,L., Bader,G., Wojcik,J.,
+Salwinski,L., Ceol,A., Moore,S., Orchard,S., Sarkans,U., von
+Mering,C. et al. (2004) The HUPO PSI’s molecular interaction
+format–a community standard for the representation of protein
+interaction data. Nat. Biotechnol., 22, 177–183.

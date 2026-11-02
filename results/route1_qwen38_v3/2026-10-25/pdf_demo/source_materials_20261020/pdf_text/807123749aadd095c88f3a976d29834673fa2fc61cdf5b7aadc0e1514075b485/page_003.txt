@@ -1,0 +1,113 @@
+D522 Nucleic Acids Research, 2019, Vol. 47, Database issue
+tem and various methods-specific wwPDB Validation Task
+Forces on improving the quality of structures and data
+housed in the PDB Core Archive, together with current
+challenges and future plans.
+PDB CORE ARCHIVE CONTENT
+Unlike the situation in 1971, multiple techniques are now
+available for determining 3D structures of biological macro-
+molecules. PDB structure depositions are currently re-
+stricted to atomic-level structures that have been substan-
+tially determined by one or more of the following sup-
+ported experimental techniques: MX, NMR, 3DEM, pow-
+der diffraction and fiber diffraction.
+Atomic coordinate data
+Every PDB structure deposition includes the atomic co-
+ordinates defining the 3D structural model of the macro-
+molecule. Atomic positions are specified as Cartesian co-
+ordinates (x, y, z) using ˚Angstr¨om units (i.e. 0.1 nm)
+and a right-handed coordinate system. Additional method-
+specific attributes are provided for individual atoms (e.g. B-
+factors or temperature-factors for MX structures).
+Related metadata
+To ensure adherence to the FAIR Principles (7), the atomic
+coordinates of 3D structures must be adequately described
+with additional mandatory metadata. These metadata in-
+clude a hierarchy of information describing whether a par-
+ticular atom is part of a polymer (and if so, which residue),
+or a metal ion, a ligand, a small molecule solute or a water
+molecule. For macromolecules, additional metadata includ-
+ing name, source organisms, and cross-references to other
+bioinformatics resources are provided. Data on the type of
+structure determination experiment performed and on the
+nature and production of the experimental sample are also
+archived. Consistent collection of structure data and exper-
+imental data/metadata, governed by defined vocabularies,
+allows Users of the PDB Core Archive to find and under-
+stand 3D structures of interest.
+Experimental data
+Deposition of experimental data/metadata together with
+atomic coordinate data is required for all incoming struc-
+tures. For MX experiments, deposition of structure fac-
+tors or unmerged intensities and related metadata is re-
+quired. These data are stored in the PDB Core Archive.
+For NMR experiments, deposition of assigned chemical
+shifts and geometric restraints and related metadata is re-
+quired. These data and additional experimental data are
+stored in the BMRB Core Archive. For 3DEM exper-
+iments, Coulomb potential maps and related metadata
+are required. These data are stored in the EMDB (8).
+Experimental data/metadata accompanying MX, NMR
+and 3DEM structures are processed using the universal
+OneDep system for deposition/validation/biocuration (9).
+For NMR and 3DEM methods wherein experimental data
+are often deposited in advance of 3D structure determina-
+tion, cross-referencing with subsequently deposited atomic
+coordinates ensures interoperability across the PDB and
+BMRB Core Archives and the EMDB. The OneDep sys-
+tem also allows Data Depositors to provide additional links
+to other experimental data, housed in repositories such as
+SBGRID (sbgrid.org) (10), IIRMC (proteindiffraction.org)
+(11), SASBDB (www.sasbdb.org) (12) and EMPIAR (www.
+ebi.ac.uk/pdbe/emdb/empiar) (13).
+Mandatory archiving of the experimental data fulfils two
+important functions. First, it enables PDB Users to repro-
+duce 3D structure determinations and analyses therefrom.
+Second, it allows quantitative assessments of how well the
+atomic coordinates conform to the experimental data. The
+wwPDB partnership has made significant investment in val-
+idation of 3D atomic-level structures together with experi-
+mental data/metadata (9, 14–19).
+Chemical reference data
+In addition to atomic coordinates and experimental data,
+the wwPDB provides key chemical reference data includ-
+ing the Chemical Component Dictionary (CCD) (20) and
+Biologically Interesting Molecule Reference Dictionary
+(BIRD) (21). The CCD provides a detailed chemical de-
+scription of every unique chemical component represented
+within 3D atomic coordinates in the PDB Core Archive, in-
+cluding standard and modified residues, metal ions, small
+molecule ligands, solute molecules, and water molecules.
+Each chemical component definition includes descriptions
+of chemical properties, such as stereochemical assignments,
+chemical structure descriptors (SMILES and InChI), sys-
+tematic chemical names, chemical formulae, and idealized
+atomic coordinates. Currently, the BIRD includes detailed
+descriptions of biologically interesting peptide-like antibi-
+otic and enzyme inhibitor molecules present in the PDB
+Core Archive. These molecules may be composed of a mix-
+ture of polymer and non-polymer components or short
+polymeric entities, and require a description on the level of
+the whole molecule and on the level of constituent parts. In
+future, the BIRD resource could be extended to other kinds
+of oligomeric molecules, which may require analogous dual
+definitions.
+PDBx/mmCIF DATA FILE FORMAT
+Providing consistent and accurate representation for all 3D
+structures in the PDB Core Archive allows these data to be
+easily searched and exploited by Users around the world.
+Significant advances in structure determination techniques
+over the last decade have resulted in an increase in the size
+and complexity of macromolecular structures studied by
+structural biologists. As a result, it is no longer possible
+to represent these large macromolecular machines with the
+legacy PDB file format, which is restricted to a maximum of
+99 999 atoms and 62 single-character polymer chain identi-
+fiers. For a time, 3D structural models that exceeded these
+limits were split into multiple PDB entries, causing consid-
+erable inconvenience to Data Depositors and Users alike.
+To address this limitation, the wwPDB convened a working
+group to obtain community support for adoption of a com-
+mon extensible PDBx/mmCIF data archiving framework
+(22–24) with the associated mmCIF format as the mas-
+ter file format for the PDB Core Archive. Large structures

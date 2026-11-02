@@ -1,0 +1,102 @@
+n engl j med 382;13  nejm.org  March 26, 2020
+1201
+Early Transmission Dynamics of NCIP
+patients from Wuhan who had fever or respira-
+tory symptoms, within 14 days before illness 
+onset.9 A confirmed case was defined as a case 
+with respiratory specimens that tested positive 
+for the 2019-nCoV by at least one of the follow-
+ing three methods: isolation of 2019-nCoV or at 
+least two positive results by real-time reverse-
+transcription–polymerase-chain-reaction (RT-PCR) 
+assay for 2019-nCoV or a genetic sequence that 
+matches 2019-nCoV.
+Laboratory Testing
+The 2019-nCoV laboratory test assays were based 
+on the previous WHO recommendation.10 Upper 
+and lower respiratory tract specimens were ob-
+tained from patients. RNA was extracted and 
+tested by real-time RT-PCR with 2019-nCoV–spe-
+cific primers and probes. Tests were carried out 
+in biosafety level 2 facilities at the Hubei (pro-
+vincial) CDC and then at the National Institute 
+for Viral Disease Control at China CDC. If two 
+targets (open reading frame 1a or 1b, nucleocap-
+sid protein) tested positive by specific real-time 
+RT-PCR, the case would be considered to be 
+laboratory-confirmed. A cycle threshold value 
+(Ct-value) less than 37 was defined as a positive 
+test, and a Ct-value of 40 or more was defined 
+as a negative test. A medium load, defined as a 
+Ct-value of 37 to less than 40, required confir-
+mation by retesting. If the repeated Ct-value was 
+less than 40 and an obvious peak was observed, 
+or if the repeated Ct-value was less than 37, the 
+retest was deemed positive. The genome was 
+identified in samples of bronchoalveolar-lavage 
+fluid from the patient by one of three methods: 
+Sanger sequencing, Illumina sequencing, or nano-
+pore sequencing. Respiratory specimens were 
+inoculated in cells for viral isolation in enhanced 
+biosafety laboratory 3 facilities at the China CDC.3
+Statistical Analysis
+The epidemic curve was constructed by date of 
+illness onset, and key dates relating to epidemic 
+identification and control measures were over-
+laid to aid interpretation. Case characteristics 
+were described, including demographic charac-
+teristics, exposures, and health care worker sta-
+tus. The incubation period distribution (i.e., the 
+time delay from infection to illness onset) was 
+estimated by fitting a log-normal distribution to 
+data on exposure histories and onset dates in a 
+subset of cases with detailed information avail-
+able. Onset-to-first-medical-visit and onset-to-
+admission distributions were estimated by fit-
+ting a Weibull distribution on the dates of 
+illness onset, first medical visit, and hospital 
+admission in a subset of cases with detailed in-
+formation available. We fitted a gamma distribu-
+tion to data from cluster investigations to esti-
+mate the serial interval distribution, defined as 
+the delay between illness onset dates in succes-
+sive cases in chains of transmission.
+We estimated the epidemic growth rate by 
+analyzing data on the cases with illness onset 
+between December 10 and January 4, because we 
+expected the proportion of infections identified 
+would increase soon after the formal announce-
+ment of the outbreak in Wuhan on December 31. 
+We fitted a transmission model (formulated with 
+the use of renewal equations) with zoonotic in-
+fections to onset dates that were not linked to 
+the Huanan Seafood Wholesale Market, and we 
+used this model to derive the epidemic growth 
+rate, the epidemic doubling time, and the basic 
+reproductive number (R0), which is defined as 
+the expected number of additional cases that 
+one case will generate, on average, over the 
+course of its infectious period in an otherwise 
+uninfected population. We used an informative 
+prior distribution for the serial interval based on 
+the serial interval of SARS with a mean of 8.4 
+and a standard deviation of 3.8.11
+Analyses of the incubation period, serial in-
+terval, growth rate, and R0 were performed with 
+the use of MATLAB software (MathWorks). Other 
+analyses were performed with the use of SAS 
+software (SAS Institute) and R software (R Foun-
+dation for Statistical Computing).
+Ethics Approval
+Data collection and analysis of cases and close 
+contacts were determined by the National Health 
+Commission of the People’s Republic of China to 
+be part of a continuing public health outbreak 
+investigation and were thus considered exempt 
+from institutional review board approval.
+Results
+The development of the epidemic follows an ex-
+ponential growth in cases, and a decline in the 
+most recent days is likely to be due to under-
+ascertainment of cases with recent onset and 
+delayed identification and reporting rather than 

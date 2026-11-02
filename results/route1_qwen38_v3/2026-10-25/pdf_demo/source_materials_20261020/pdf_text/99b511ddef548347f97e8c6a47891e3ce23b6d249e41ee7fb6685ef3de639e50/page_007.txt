@@ -1,0 +1,50 @@
+References
+Andrews,S. (2010) A quality control tool for high throughput sequence data.
+http://www.bioinformatics.babraham.ac.uk/projects/fastqc/.
+Bianchi,D.W. et al. (2015) Noninvasive prenatal testing and incidental detec-
+tion of occult maternal malignancies. JAMA, 314, 162–169.
+Bolger,A.M. et al. (2014) Trimmomatic: a ﬂexible trimmer for Illumina se-
+quence data. Bioinformatics, 30, 2114–2120.
+Brad Chapman,R.K. et al. (2018) Validated, Scalable, Community Developed
+Variant Calling, RNA-Seq and Small RNA Analysis, https://github.com/
+chapmanb/bcbio-nextgen.
+Chen,S. et al. (2017) AfterQC: automatic ﬁltering, trimming, error removing
+and quality control for fastq data. BMC Bioinformatics, 18, 80–91100.
+Chen,Y. et al. (2018) SOAPnuke: a MapReduce acceleration-supported soft-
+ware for integrated quality control and preprocessing of high-throughput
+sequencing data. Gigascience, 7, 1–6.
+Chiang,C. et al. (2015) SpeedSeq: ultra-fast personal genome analysis and in-
+terpretation. Nat. Methods, 12, 966–968.
+Esposito,A.
+et
+al.
+(2017)
+The
+emerging
+role
+of
+“Liquid
+Biopsies,”
+circulating tumor cells, and circulating cell-free tumor dna in lung
+cancer diagnosis and identiﬁcation of resistance mutations. Curr. Oncol.
+Rep., 19.
+Kennedy,S.R. et al. (2014) Detecting ultralow-frequency mutations by duplex
+sequencing. Nat. Protoc., 9, 2586–2606.
+Langmead,B. et al. (2012) Fast gapped-read alignment with Bowtie 2. Nat.
+Methods, 9, 357–359.
+Li,H. and Durbin,R. (2009) Fast and accurate short read alignment with
+Burrows-Wheeler transform. Bioinformatics, 25, 1754–1760.
+Li,H. et al. (2009) The Sequence Alignment/Map format and SAMtools.
+Bioinformatics, 25, 2078–2079.
+Martin,M. (2011) Cutadapt removes adapter sequences from high-throughput
+sequencing reads. EMBnet J., 17, 10–12.
+Newman,A.M. et al. (2016) Integrated digital error suppression for
+improved detection of circulating tumor DNA. Nat. Biotechnol., 34,
+547–555.
+Smith,T. et al. (2017) UMI-tools: modelling sequencing errors in Unique
+Molecular Identiﬁers to improve quantiﬁcation accuracy. Genome Res., 27,
+491–499.
+Valentine Svensson,R.K. et al. (2018) Tools for Processing UMI RNA-Tag
+Data, https://github.com/vals/umis.
+i890
+S.Chen et al.

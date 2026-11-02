@@ -1,0 +1,108 @@
+588  |  Nature  |  Vol 596  |  26 August 2021
+Article
+effect of MSA depth on each ablation are provided in Supplementary 
+Methods 1.13 and Supplementary Fig. 10.
+MSA depth and cross-chain contacts
+Although AlphaFold has a high accuracy across the vast majority of 
+deposited PDB structures, we note that there are still factors that affect 
+accuracy or limit the applicability of the model. The model uses MSAs 
+and the accuracy decreases substantially when the median alignment 
+depth is less than around 30 sequences (see Fig. 5a for details). We 
+observe a threshold effect where improvements in MSA depth over 
+around 100 sequences lead to small gains. We hypothesize that the MSA 
+information is needed to coarsely find the correct structure within the 
+early stages of the network, but refinement of that prediction into a 
+high-accuracy model does not depend crucially on the MSA information. 
+The other substantial limitation that we have observed is that AlphaFold 
+is much weaker for proteins that have few intra-chain or homotypic con-
+tacts compared to the number of heterotypic contacts (further details 
+are provided in a companion paper39). This typically occurs for bridging 
+domains within larger complexes in which the shape of the protein is 
+created almost entirely by interactions with other chains in the complex. 
+Conversely, AlphaFold is often able to give high-accuracy predictions for 
+homomers, even when the chains are substantially intertwined (Fig. 5b). 
+We expect that the ideas of AlphaFold are readily applicable to predicting 
+full hetero-complexes in a future system and that this will remove the dif-
+ficulty with protein chains that have a large number of hetero-contacts.
+Related work
+The prediction of protein structures has had a long and varied develop-
+ment, which is extensively covered in a number of reviews14,40–43. Despite 
+the long history of applying neural networks to structure prediction14,42,43, 
+they have only recently come to improve structure prediction10,11,44,45. 
+These approaches effectively leverage the rapid improvement in com-
+puter vision systems46 by treating the problem of protein structure 
+prediction as converting an ‘image’ of evolutionary couplings22–24 to an 
+‘image’ of the protein distance matrix and then integrating the distance 
+predictions into a heuristic system that produces the final 3D coordinate 
+prediction. A few recent studies have been developed to predict the 3D 
+coordinates directly47–50, but the accuracy of these approaches does not 
+match traditional, hand-crafted structure prediction pipelines51. In paral-
+lel, the success of attention-based networks for language processing52 
+and, more recently, computer vision31,53 has inspired the exploration of 
+attention-based methods for interpreting protein sequences54–56.
+Discussion
+The methodology that we have taken in designing AlphaFold is a combi-
+nation of the bioinformatics and physical approaches: we use a physical 
+and geometric inductive bias to build components that learn from PDB 
+data with minimal imposition of handcrafted features (for example, 
+AlphaFold builds hydrogen bonds effectively without a hydrogen bond 
+score function). This results in a network that learns far more efficiently 
+from the limited data in the PDB but is able to cope with the complexity 
+and variety of structural data.
+In particular, AlphaFold is able to handle missing the physical context 
+and produce accurate models in challenging cases such as intertwined 
+homomers or proteins that only fold in the presence of an unknown 
+haem group. The ability to handle underspecified structural conditions 
+is essential to learning from PDB structures as the PDB represents the 
+full range of conditions in which structures have been solved. In gen-
+eral, AlphaFold is trained to produce the protein structure most likely 
+to appear as part of a PDB structure. For example, in cases in which a 
+particular stochiometry, ligand or ion is predictable from the sequence 
+alone, AlphaFold is likely to produce a structure that respects those 
+constraints implicitly.
+AlphaFold has already demonstrated its utility to the experimental 
+community, both for molecular replacement57 and for interpreting 
+cryogenic electron microscopy maps58. Moreover, because AlphaFold 
+outputs protein coordinates directly, AlphaFold produces predictions 
+in graphics processing unit (GPU) minutes to GPU hours depending on 
+the length of the protein sequence (for example, around one GPU min-
+ute per model for 384 residues; see Methods for details). This opens up 
+the exciting possibility of predicting structures at the proteome-scale 
+and beyond—in a companion paper39, we demonstrate the application 
+of AlphaFold to the entire human proteome39.
+The explosion in available genomic sequencing techniques and data 
+has revolutionized bioinformatics but the intrinsic challenge of experi-
+mental structure determination has prevented a similar expansion in 
+our structural knowledge. By developing an accurate protein structure 
+100
+101
+102
+103
+104
+Median per-residue Neff for the chain
+0
+20
+40
+60
+80
+100
+lDDT-Cα
+Coverage < 0.3
+Coverage > 0.6
+a
+AlphaFold Experiment
+b
+Fig. 5 | Effect of MSA depth and cross-chain contacts. a, Backbone accuracy 
+(lDDT-Cα) for the redundancy-reduced set of the PDB after our training data 
+cut-off, restricting to proteins in which at most 25% of the long-range contacts 
+are between different heteromer chains. We further consider two groups of 
+proteins based on template coverage at 30% sequence identity: covering more 
+than 60% of the chain (n = 6,743 protein chains) and covering less than 30% of 
+the chain (n = 1,596 protein chains). MSA depth is computed by counting the 
+number of non-gap residues for each position in the MSA (using the Neff 
+weighting scheme; see Methods for details) and taking the median across 
+residues. The curves are obtained through Gaussian kernel average smoothing 
+(window size is 0.2 units in log10(Neff)); the shaded area is the 95% confidence 
+interval estimated using bootstrap of 10,000 samples. b, An intertwined 
+homotrimer (PDB 6SK0) is correctly predicted without input stoichiometry 
+and only a weak template (blue is predicted and green is experimental).

@@ -1,0 +1,163 @@
+Nature  |  Vol 596  |  26 August 2021  |  585
+architecture, use of intermediate losses to achieve iterative refinement 
+of predictions, masked MSA loss to jointly train with the structure, 
+learning from unlabelled protein sequences using self-distillation and 
+self-estimates of accuracy.
+The AlphaFold network directly predicts the 3D coordinates of all 
+heavy atoms for a given protein using the primary amino acid sequence 
+and aligned sequences of homologues as inputs (Fig. 1e; see Methods 
+for details of inputs including databases, MSA construction and use of 
+templates). A description of the most important ideas and components 
+is provided below. The full network architecture and training procedure 
+are provided in the Supplementary Methods.
+The network comprises two main stages. First, the trunk of the net-
+work processes the inputs through repeated layers of a novel neural 
+network block that we term Evoformer to produce an Nseq × Nres array 
+(Nseq, number of sequences; Nres, number of residues) that represents 
+a processed MSA and an Nres × Nres array that represents residue pairs. 
+The MSA representation is initialized with the raw MSA (although 
+see Supplementary Methods 1.2.7 for details of handling very deep 
+MSAs). The Evoformer blocks contain a number of attention-based 
+and non-attention-based components. We show evidence in ‘Interpret-
+ing the neural network’ that a concrete structural hypothesis arises 
+early within the Evoformer blocks and is continuously refined. The key 
+innovations in the Evoformer block are new mechanisms to exchange 
+information within the MSA and pair representations that enable direct 
+reasoning about the spatial and evolutionary relationships.
+The trunk of the network is followed by the structure module that 
+introduces an explicit 3D structure in the form of a rotation and transla-
+tion for each residue of the protein (global rigid body frames). These 
+representations are initialized in a trivial state with all rotations set to 
+the identity and all positions set to the origin, but rapidly develop and 
+refine a highly accurate protein structure with precise atomic details. 
+Key innovations in this section of the network include breaking the 
+chain structure to allow simultaneous local refinement of all parts of 
+the structure, a novel equivariant transformer to allow the network to 
+implicitly reason about the unrepresented side-chain atoms and a loss 
+term that places substantial weight on the orientational correctness 
+of the residues. Both within the structure module and throughout 
+the whole network, we reinforce the notion of iterative refinement 
+by repeatedly applying the final loss to outputs and then feeding the 
+outputs recursively into the same modules. The iterative refinement 
+using the whole network (which we term ‘recycling’ and is related to 
+approaches in computer vision28,29) contributes markedly to accuracy 
+with minor extra training time (see Supplementary Methods 1.8 for 
+details).
+Evoformer
+The key principle of the building block of the network—named Evo-
+former (Figs. 1e, 3a)—is to view the prediction of protein structures 
+as a graph inference problem in 3D space in which the edges of the 
+graph are defined by residues in proximity. The elements of the pair 
+representation encode information about the relation between the 
+residues (Fig. 3b). The columns of the MSA representation encode the 
+individual residues of the input sequence while the rows represent 
+the sequences in which those residues appear. Within this framework, 
+we define a number of update operations that are applied in each block 
+in which the different update operations are applied in series.
+The MSA representation updates the pair representation through an 
+element-wise outer product that is summed over the MSA sequence 
+dimension. In contrast to previous work30, this operation is applied 
+within every block rather than once in the network, which enables the 
+continuous communication from the evolving MSA representation to 
+the pair representation.
+Within the pair representation, there are two different update pat-
+terns. Both are inspired by the necessity of consistency of the pair 
+0–0.5
+0.5–1
+1–2
+2–4
+4–8
+>8
+Full chain Cα r.m.s.d.95 (Å)
+0
+0.05
+0.10
+0.15
+0.20
+0.25
+0.30
+Fraction of proteins
+a
+20
+40
+60
+80
+100
+lDDT-Cα of a residue
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Fraction of correct F1 rotamers
+b
+0
+20
+40
+60
+80
+100
+Average pLDDT on the resolved region
+0
+20
+40
+60
+80
+100
+lDDT-Cα
+80
+90
+100
+80
+90
+100
+c
+0
+0.2
+0.4
+0.6
+0.8
+1.0
+pTM on the resolved region
+0
+0.2
+0.4
+0.6
+0.8
+1.0
+TM-score
+0.8
+0.9
+1.0
+0.8
+0.9
+1.0
+d
+Fig. 2 | Accuracy of AlphaFold on recent PDB structures. The analysed 
+structures are newer than any structure in the training set. Further filtering is 
+applied to reduce redundancy (see Methods). a, Histogram of backbone 
+r.m.s.d. for full chains (Cα r.m.s.d. at 95% coverage). Error bars are 95% 
+confidence intervals (Poisson). This dataset excludes proteins with a template 
+(identified by hmmsearch) from the training set with more than 40% sequence 
+identity covering more than 1% of the chain (n = 3,144 protein chains). The 
+overall median is 1.46 Å (95% confidence interval = 1.40–1.56 Å). Note that this 
+measure will be highly sensitive to domain packing and domain accuracy; a 
+high r.m.s.d. is expected for some chains with uncertain packing or packing 
+errors. b, Correlation between backbone accuracy and side-chain accuracy. 
+Filtered to structures with any observed side chains and resolution better than 
+2.5 Å (n = 5,317 protein chains); side chains were further filtered to 
+B-factor <30 Å2. A rotamer is classified as correct if the predicted torsion angle 
+is within 40°. Each point aggregates a range of lDDT-Cα, with a bin size of 2 units 
+above 70 lDDT-Cα and 5 units otherwise. Points correspond to the mean 
+accuracy; error bars are 95% confidence intervals (Student t-test) of the mean 
+on a per-residue basis. c, Confidence score compared to the true accuracy on 
+chains. Least-squares linear fit lDDT-Cα = 0.997 × pLDDT − 1.17 (Pearson’s 
+r = 0.76). n = 10,795 protein chains. The shaded region of the linear fit 
+represents a 95% confidence interval estimated from 10,000 bootstrap 
+samples. In the companion paper39, additional quantification of the reliability 
+of pLDDT as a confidence measure is provided. d, Correlation between pTM 
+and full chain TM-score. Least-squares linear fit TM-score = 0.98 × pTM + 0.07 
+(Pearson’s r = 0.85). n = 10,795 protein chains. The shaded region of the linear fit 
+represents a 95% confidence interval estimated from 10,000 bootstrap 
+samples.

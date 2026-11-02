@@ -1,0 +1,13 @@
+{
+  "recorded_at_utc": "2026-10-24T10:53:01.406024+00:00",
+  "current_package": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\剩余13点_统一复核收尾包_v2_20261024.zip",
+  "zip_sha256": "e9c95c559f17b9bd464a6ee1003cbdbd88c1accb1b2dd34311f19b2e192738f1",
+  "zip_bytes": 579458,
+  "files": 60,
+  "review_rows": 13,
+  "technical_source_mappable_current_view": 11,
+  "explicit_insufficient_evidence": 2,
+  "distinct_generation_versions_preserved": true,
+  "new_human_labels": 0,
+  "new_formal_acceptances": 0
+}

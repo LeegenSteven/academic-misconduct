@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-20",
+  "review_author": "Codex",
+  "visual_review_type": "assisted source-marker inspection",
+  "contact_sheets_viewed": 4,
+  "target_marker_previews_viewed": 20,
+  "checks": [
+    "Highlighted characters are actual citations, not claim measurements",
+    "Printed multi-reference groups remain visible",
+    "R40 after meta-analysis distinguished from later 40-fold measurement",
+    "Repeated R1/R7 references point to separate physical positions"
+  ],
+  "human_independent_review": false,
+  "semantic_labels_assigned": false,
+  "files": [
+    {
+      "path": "qa_previews/marker_review_01.png",
+      "sha256": "524966271ae1ddc9500dda342f0413fddeef315b6253a000d18e8320e87096ef"
+    },
+    {
+      "path": "qa_previews/marker_review_02.png",
+      "sha256": "ca2d36290ccd0ead6db182f019df1edc4f479cfef6624c483126f4958106dcae"
+    },
+    {
+      "path": "qa_previews/marker_review_03.png",
+      "sha256": "cf25c5ae8b4f96f45b57bf35b5a4a06f7dda4c3942e65ca9349fe5d718e7e253"
+    },
+    {
+      "path": "qa_previews/marker_review_04.png",
+      "sha256": "d15f7e749189e3792e1e699c7d4c6df2ca829823b3a3df8f04feed98d79df7e7"
+    }
+  ]
+}

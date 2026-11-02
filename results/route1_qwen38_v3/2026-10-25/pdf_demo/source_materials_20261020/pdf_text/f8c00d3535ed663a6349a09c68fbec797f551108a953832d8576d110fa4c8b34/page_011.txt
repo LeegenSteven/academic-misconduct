@@ -1,0 +1,20 @@
+Nature Medicine 
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+Extended Data Fig. 1 | Main analyses from Figs. 2 and 3, but now also 
+including the A-T + group. This figure resembles parts of Figs. 2 and 3 of the 
+main manuscript but now also includes the A-T + group. a, Survival curves in 
+relation to progression to MCI in the different AT categories, with the table of 
+total number of participants available at each time point. b, Survival curves 
+in relation to progression to all-cause dementia in the different AT categories, 
+with the table of total number of participants available at each time point. c, d 
+Forest plots showing the hazard ratios and 95% confidence intervals from the 
+survival analyses shown in a and b, from Cox regression models including age, 
+sex, education, and cohort as covariates. Statistical tests were two-sided without 
+adjustment for multiple comparisons. e, Cognitive trajectories of mPACC5 scores 
+over time in the different AT categories f, Cognitive trajectories of MMSE scores 
+over time in the different AT categories. The average regression line for each 
+group was plotted from linear mixed effect models including age, sex, education, 
+and cohort as covariates. The error bands correspond to the 95% confidence 
+interval. Data are anchored to the tau-PET visit (Time 0), and cognitive data up to 
+1 year prior to PET was included. *p = 0.01, **p < 0.001.

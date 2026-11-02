@@ -1,0 +1,1580 @@
+{
+  "input_summary_path": "D:\\缓存\\xwechat_files\\wxid_jho22qm3wuo322_070b\\temp\\RWTemp\\2026-10\\5949ad631d0a27f044fa16ac530b8da5\\local_network_summary.csv",
+  "input_summary_sha256": "b51757f615696ecb110b1ff21e3c5029a887821d6bb85dcf6d82e816b38e9f1b",
+  "input_details_path": "D:\\缓存\\xwechat_files\\wxid_jho22qm3wuo322_070b\\temp\\RWTemp\\2026-10\\5949ad631d0a27f044fa16ac530b8da5\\local_network_details.json",
+  "input_details_sha256": "5b629c9bcc267ae11f9930e4f0039fd356f69db31686407bf09e5fecc17c46ed",
+  "frozen_edges_sha256": "5d5f613184e105d8663eb212cd5ef6f09814090df78e16a93adb90ba3e3ea26c",
+  "summary_columns": [
+    "sample_id",
+    "citing_w",
+    "cited_w",
+    "1hop_nodes",
+    "1hop_edges",
+    "1hop_density",
+    "1hop_has_reverse",
+    "2hop_nodes",
+    "2hop_edges",
+    "2hop_density",
+    "2hop_has_reverse",
+    "truncated_flag"
+  ],
+  "summary_rows": 25,
+  "details_records": 25,
+  "expected_eligible_candidates": 25,
+  "held_sample_ids": [
+    "R2EXP-PMC-01",
+    "R2EXP-PMC-02",
+    "R2EXP-PMC-09",
+    "R2EXP-PMC-16",
+    "R2EXP-PMC-17"
+  ],
+  "issue_count": 0,
+  "issue_types": {},
+  "issues": [],
+  "results": [
+    {
+      "sample_id": "R2EXP-PMC-03",
+      "edge_key": "W4385606468->W4307425304",
+      "endpoint_known_truncated_nodes": [
+        "W4307425304"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1013,
+          "edges": 1072,
+          "density_exact": 0.0010456945089332747,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 3,
+          "known_truncated_nodes": [
+            "W4307425304",
+            "W4323036511",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 3018,
+          "edges": 3303,
+          "density_exact": 0.0003627555185954212,
+          "reported_density": 0.0004,
+          "target_reverse": false,
+          "known_truncated_node_count": 16,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4205208574",
+            "W4206677002",
+            "W4211191293",
+            "W4223591189",
+            "W4281790889",
+            "W4283271244",
+            "W4283381496",
+            "W4307425304",
+            "W4309506674",
+            "W4319662928",
+            "W4323036511",
+            "W4381681857",
+            "W4384071683",
+            "W4402557213",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-04",
+      "edge_key": "W4280619985->W4223591189",
+      "endpoint_known_truncated_nodes": [
+        "W4223591189"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1109,
+          "edges": 1111,
+          "density_exact": 0.0009041547170671206,
+          "reported_density": 0.0009,
+          "target_reverse": false,
+          "known_truncated_node_count": 1,
+          "known_truncated_nodes": [
+            "W4223591189"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 5822,
+          "edges": 9145,
+          "density_exact": 0.00026984471049188694,
+          "reported_density": 0.0003,
+          "target_reverse": false,
+          "known_truncated_node_count": 17,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4205208574",
+            "W4206055706",
+            "W4211191293",
+            "W4223591189",
+            "W4283695295",
+            "W4307425304",
+            "W4308183941",
+            "W4309506674",
+            "W4323036511",
+            "W4381799391",
+            "W4384522480",
+            "W4389166035",
+            "W4393858312",
+            "W4394894573",
+            "W4396946025",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 18
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-05",
+      "edge_key": "W4387770134->W4307425304",
+      "endpoint_known_truncated_nodes": [
+        "W4307425304"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1013,
+          "edges": 1072,
+          "density_exact": 0.0010456945089332747,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 3,
+          "known_truncated_nodes": [
+            "W4307425304",
+            "W4323036511",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 3018,
+          "edges": 3303,
+          "density_exact": 0.0003627555185954212,
+          "reported_density": 0.0004,
+          "target_reverse": false,
+          "known_truncated_node_count": 16,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4205208574",
+            "W4206677002",
+            "W4211191293",
+            "W4223591189",
+            "W4281790889",
+            "W4283271244",
+            "W4283381496",
+            "W4307425304",
+            "W4309506674",
+            "W4319662928",
+            "W4323036511",
+            "W4381681857",
+            "W4384071683",
+            "W4402557213",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-06",
+      "edge_key": "W4400262563->W4384071683",
+      "endpoint_known_truncated_nodes": [
+        "W4384071683"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1085,
+          "edges": 1227,
+          "density_exact": 0.0010432431513255225,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 2,
+          "known_truncated_nodes": [
+            "W4367310920",
+            "W4384071683"
+          ],
+          "reciprocal_directed_edges": 4
+        },
+        "2": {
+          "nodes": 1979,
+          "edges": 2500,
+          "density_exact": 0.0006386573684966159,
+          "reported_density": 0.0006,
+          "target_reverse": false,
+          "known_truncated_node_count": 18,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4206055706",
+            "W4206677002",
+            "W4281790889",
+            "W4283695295",
+            "W4307425304",
+            "W4309506674",
+            "W4318923555",
+            "W4319662928",
+            "W4323036511",
+            "W4327946446",
+            "W4367310920",
+            "W4381681857",
+            "W4381799391",
+            "W4384071683",
+            "W4384522480",
+            "W4393858312",
+            "W4394894573"
+          ],
+          "reciprocal_directed_edges": 6
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-07",
+      "edge_key": "W7127044300->W4400089962",
+      "endpoint_known_truncated_nodes": [],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1245,
+          "edges": 1447,
+          "density_exact": 0.0009342837588295303,
+          "reported_density": 0.0009,
+          "target_reverse": false,
+          "known_truncated_node_count": 1,
+          "known_truncated_nodes": [
+            "W4384522480"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 2089,
+          "edges": 2417,
+          "density_exact": 0.0005541249640059497,
+          "reported_density": 0.0006,
+          "target_reverse": false,
+          "known_truncated_node_count": 9,
+          "known_truncated_nodes": [
+            "W4205208574",
+            "W4206055706",
+            "W4223591189",
+            "W4323036511",
+            "W4367310920",
+            "W4384522480",
+            "W4393858312",
+            "W4394894573",
+            "W4396946025"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-08",
+      "edge_key": "W4364377070->W4308183941",
+      "endpoint_known_truncated_nodes": [
+        "W4308183941"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1026,
+          "edges": 1031,
+          "density_exact": 0.0009803641896068084,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 1,
+          "known_truncated_nodes": [
+            "W4308183941"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 5730,
+          "edges": 8999,
+          "density_exact": 0.0002741326772914022,
+          "reported_density": 0.0003,
+          "target_reverse": false,
+          "known_truncated_node_count": 13,
+          "known_truncated_nodes": [
+            "W4206055706",
+            "W4211191293",
+            "W4223591189",
+            "W4283381496",
+            "W4283695295",
+            "W4308183941",
+            "W4318923555",
+            "W4381681857",
+            "W4381799391",
+            "W4389166035",
+            "W4393858312",
+            "W4394894573",
+            "W4396946025"
+          ],
+          "reciprocal_directed_edges": 18
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-10",
+      "edge_key": "W4396541442->W4205192056",
+      "endpoint_known_truncated_nodes": [
+        "W4205192056"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1038,
+          "edges": 1101,
+          "density_exact": 0.0010228482561412701,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 1,
+          "known_truncated_nodes": [
+            "W4205192056"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 2012,
+          "edges": 2339,
+          "density_exact": 0.0005780829691171717,
+          "reported_density": 0.0006,
+          "target_reverse": false,
+          "known_truncated_node_count": 9,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4223591189",
+            "W4281790889",
+            "W4307425304",
+            "W4309506674",
+            "W4323036511",
+            "W4384071683",
+            "W4402557213",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-11",
+      "edge_key": "W4386032599->W4307425304",
+      "endpoint_known_truncated_nodes": [
+        "W4307425304"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1013,
+          "edges": 1072,
+          "density_exact": 0.0010456945089332747,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 3,
+          "known_truncated_nodes": [
+            "W4307425304",
+            "W4323036511",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 3018,
+          "edges": 3303,
+          "density_exact": 0.0003627555185954212,
+          "reported_density": 0.0004,
+          "target_reverse": false,
+          "known_truncated_node_count": 16,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4205208574",
+            "W4206677002",
+            "W4211191293",
+            "W4223591189",
+            "W4281790889",
+            "W4283271244",
+            "W4283381496",
+            "W4307425304",
+            "W4309506674",
+            "W4319662928",
+            "W4323036511",
+            "W4381681857",
+            "W4384071683",
+            "W4402557213",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-12",
+      "edge_key": "W4391821569->W4223591189",
+      "endpoint_known_truncated_nodes": [
+        "W4223591189"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1109,
+          "edges": 1111,
+          "density_exact": 0.0009041547170671206,
+          "reported_density": 0.0009,
+          "target_reverse": false,
+          "known_truncated_node_count": 1,
+          "known_truncated_nodes": [
+            "W4223591189"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 5822,
+          "edges": 9145,
+          "density_exact": 0.00026984471049188694,
+          "reported_density": 0.0003,
+          "target_reverse": false,
+          "known_truncated_node_count": 17,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4205208574",
+            "W4206055706",
+            "W4211191293",
+            "W4223591189",
+            "W4283695295",
+            "W4307425304",
+            "W4308183941",
+            "W4309506674",
+            "W4323036511",
+            "W4381799391",
+            "W4384522480",
+            "W4389166035",
+            "W4393858312",
+            "W4394894573",
+            "W4396946025",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 18
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-13",
+      "edge_key": "W4411858108->W4403479110",
+      "endpoint_known_truncated_nodes": [
+        "W4403479110"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1012,
+          "edges": 1015,
+          "density_exact": 0.0009920518564564495,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 2,
+          "known_truncated_nodes": [
+            "W4307425304",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 2028,
+          "edges": 2216,
+          "density_exact": 0.0005390735913296727,
+          "reported_density": 0.0005,
+          "target_reverse": false,
+          "known_truncated_node_count": 9,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4206055706",
+            "W4223591189",
+            "W4307425304",
+            "W4309506674",
+            "W4323036511",
+            "W4381799391",
+            "W4402557213",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-14",
+      "edge_key": "W4413270819->W4403479110",
+      "endpoint_known_truncated_nodes": [
+        "W4403479110"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1012,
+          "edges": 1015,
+          "density_exact": 0.0009920518564564495,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 2,
+          "known_truncated_nodes": [
+            "W4307425304",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 2028,
+          "edges": 2216,
+          "density_exact": 0.0005390735913296727,
+          "reported_density": 0.0005,
+          "target_reverse": false,
+          "known_truncated_node_count": 9,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4206055706",
+            "W4223591189",
+            "W4307425304",
+            "W4309506674",
+            "W4323036511",
+            "W4381799391",
+            "W4402557213",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-15",
+      "edge_key": "W4412991257->W4403479110",
+      "endpoint_known_truncated_nodes": [
+        "W4403479110"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1012,
+          "edges": 1015,
+          "density_exact": 0.0009920518564564495,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 2,
+          "known_truncated_nodes": [
+            "W4307425304",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 2028,
+          "edges": 2216,
+          "density_exact": 0.0005390735913296727,
+          "reported_density": 0.0005,
+          "target_reverse": false,
+          "known_truncated_node_count": 9,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4206055706",
+            "W4223591189",
+            "W4307425304",
+            "W4309506674",
+            "W4323036511",
+            "W4381799391",
+            "W4402557213",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-18",
+      "edge_key": "W4390600046->W4283381496",
+      "endpoint_known_truncated_nodes": [
+        "W4283381496"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1324,
+          "edges": 1403,
+          "density_exact": 0.0008009581811912412,
+          "reported_density": 0.0008,
+          "target_reverse": false,
+          "known_truncated_node_count": 2,
+          "known_truncated_nodes": [
+            "W4283271244",
+            "W4283381496"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 2364,
+          "edges": 2445,
+          "density_exact": 0.0004376910534874579,
+          "reported_density": 0.0004,
+          "target_reverse": false,
+          "known_truncated_node_count": 4,
+          "known_truncated_nodes": [
+            "W4283271244",
+            "W4283381496",
+            "W4307425304",
+            "W4308183941"
+          ],
+          "reciprocal_directed_edges": 2
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-19",
+      "edge_key": "W4389994583->W4308616064",
+      "endpoint_known_truncated_nodes": [],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1033,
+          "edges": 1211,
+          "density_exact": 0.0011359628387251702,
+          "reported_density": 0.0011,
+          "target_reverse": false,
+          "known_truncated_node_count": 3,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4309506674",
+            "W4323036511"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 3931,
+          "edges": 4479,
+          "density_exact": 0.0002899248680968073,
+          "reported_density": 0.0003,
+          "target_reverse": false,
+          "known_truncated_node_count": 6,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4281790889",
+            "W4307425304",
+            "W4309506674",
+            "W4323036511",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-20",
+      "edge_key": "W4319758886->W4308616064",
+      "endpoint_known_truncated_nodes": [],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1033,
+          "edges": 1211,
+          "density_exact": 0.0011359628387251702,
+          "reported_density": 0.0011,
+          "target_reverse": false,
+          "known_truncated_node_count": 3,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4309506674",
+            "W4323036511"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 3931,
+          "edges": 4479,
+          "density_exact": 0.0002899248680968073,
+          "reported_density": 0.0003,
+          "target_reverse": false,
+          "known_truncated_node_count": 6,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4281790889",
+            "W4307425304",
+            "W4309506674",
+            "W4323036511",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-21",
+      "edge_key": "W4399298449->W4283271244",
+      "endpoint_known_truncated_nodes": [
+        "W4283271244"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1120,
+          "edges": 1200,
+          "density_exact": 0.0009574875526618154,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 2,
+          "known_truncated_nodes": [
+            "W4283271244",
+            "W4283381496"
+          ],
+          "reciprocal_directed_edges": 2
+        },
+        "2": {
+          "nodes": 2367,
+          "edges": 2452,
+          "density_exact": 0.0004378319675190105,
+          "reported_density": 0.0004,
+          "target_reverse": false,
+          "known_truncated_node_count": 7,
+          "known_truncated_nodes": [
+            "W4283271244",
+            "W4283381496",
+            "W4307425304",
+            "W4309506674",
+            "W4323036511",
+            "W4393858312",
+            "W4394894573"
+          ],
+          "reciprocal_directed_edges": 2
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-22",
+      "edge_key": "W4294754748->W4281790889",
+      "endpoint_known_truncated_nodes": [
+        "W4281790889"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1040,
+          "edges": 1077,
+          "density_exact": 0.0009967054120085881,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 1,
+          "known_truncated_nodes": [
+            "W4281790889"
+          ],
+          "reciprocal_directed_edges": 2
+        },
+        "2": {
+          "nodes": 2052,
+          "edges": 2252,
+          "density_exact": 0.0005350881945097861,
+          "reported_density": 0.0005,
+          "target_reverse": false,
+          "known_truncated_node_count": 10,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4206055706",
+            "W4206677002",
+            "W4281790889",
+            "W4307425304",
+            "W4309506674",
+            "W4319662928",
+            "W4323036511",
+            "W4384071683",
+            "W4384522480"
+          ],
+          "reciprocal_directed_edges": 2
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-23",
+      "edge_key": "W4408406002->W4400089962",
+      "endpoint_known_truncated_nodes": [],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1245,
+          "edges": 1447,
+          "density_exact": 0.0009342837588295303,
+          "reported_density": 0.0009,
+          "target_reverse": false,
+          "known_truncated_node_count": 1,
+          "known_truncated_nodes": [
+            "W4384522480"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 2089,
+          "edges": 2417,
+          "density_exact": 0.0005541249640059497,
+          "reported_density": 0.0006,
+          "target_reverse": false,
+          "known_truncated_node_count": 9,
+          "known_truncated_nodes": [
+            "W4205208574",
+            "W4206055706",
+            "W4223591189",
+            "W4323036511",
+            "W4367310920",
+            "W4384522480",
+            "W4393858312",
+            "W4394894573",
+            "W4396946025"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-24",
+      "edge_key": "W4393386964->W4327946446",
+      "endpoint_known_truncated_nodes": [
+        "W4327946446"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1107,
+          "edges": 1382,
+          "density_exact": 0.0011287695758211349,
+          "reported_density": 0.0011,
+          "target_reverse": false,
+          "known_truncated_node_count": 3,
+          "known_truncated_nodes": [
+            "W4319662928",
+            "W4327946446",
+            "W4384071683"
+          ],
+          "reciprocal_directed_edges": 4
+        },
+        "2": {
+          "nodes": 2840,
+          "edges": 3512,
+          "density_exact": 0.0004355828525219652,
+          "reported_density": 0.0004,
+          "target_reverse": false,
+          "known_truncated_node_count": 7,
+          "known_truncated_nodes": [
+            "W4206677002",
+            "W4283695295",
+            "W4318923555",
+            "W4319662928",
+            "W4327946446",
+            "W4367310920",
+            "W4384071683"
+          ],
+          "reciprocal_directed_edges": 10
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-25",
+      "edge_key": "W4403360741->W4205192056",
+      "endpoint_known_truncated_nodes": [
+        "W4205192056"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1038,
+          "edges": 1101,
+          "density_exact": 0.0010228482561412701,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 1,
+          "known_truncated_nodes": [
+            "W4205192056"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 2012,
+          "edges": 2339,
+          "density_exact": 0.0005780829691171717,
+          "reported_density": 0.0006,
+          "target_reverse": false,
+          "known_truncated_node_count": 9,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4223591189",
+            "W4281790889",
+            "W4307425304",
+            "W4309506674",
+            "W4323036511",
+            "W4384071683",
+            "W4402557213",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-26",
+      "edge_key": "W4396781347->W4309506674",
+      "endpoint_known_truncated_nodes": [
+        "W4309506674"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1042,
+          "edges": 1133,
+          "density_exact": 0.001044507256237082,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 1,
+          "known_truncated_nodes": [
+            "W4309506674"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 3015,
+          "edges": 3504,
+          "density_exact": 0.00038559689937835704,
+          "reported_density": 0.0004,
+          "target_reverse": false,
+          "known_truncated_node_count": 16,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4206055706",
+            "W4206677002",
+            "W4223591189",
+            "W4281790889",
+            "W4283271244",
+            "W4307425304",
+            "W4309506674",
+            "W4318923555",
+            "W4323036511",
+            "W4367310920",
+            "W4381799391",
+            "W4384071683",
+            "W4384522480",
+            "W4402557213",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-27",
+      "edge_key": "W4402830391->W4327946446",
+      "endpoint_known_truncated_nodes": [
+        "W4327946446"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1107,
+          "edges": 1402,
+          "density_exact": 0.0011451048808257824,
+          "reported_density": 0.0011,
+          "target_reverse": false,
+          "known_truncated_node_count": 3,
+          "known_truncated_nodes": [
+            "W4319662928",
+            "W4327946446",
+            "W4367310920"
+          ],
+          "reciprocal_directed_edges": 4
+        },
+        "2": {
+          "nodes": 2760,
+          "edges": 3429,
+          "density_exact": 0.0004503049308980885,
+          "reported_density": 0.0005,
+          "target_reverse": false,
+          "known_truncated_node_count": 7,
+          "known_truncated_nodes": [
+            "W4206677002",
+            "W4283695295",
+            "W4318923555",
+            "W4319662928",
+            "W4327946446",
+            "W4367310920",
+            "W4384071683"
+          ],
+          "reciprocal_directed_edges": 8
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-28",
+      "edge_key": "W4324057840->W4223591189",
+      "endpoint_known_truncated_nodes": [
+        "W4223591189"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1109,
+          "edges": 1111,
+          "density_exact": 0.0009041547170671206,
+          "reported_density": 0.0009,
+          "target_reverse": false,
+          "known_truncated_node_count": 1,
+          "known_truncated_nodes": [
+            "W4223591189"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 5822,
+          "edges": 9145,
+          "density_exact": 0.00026984471049188694,
+          "reported_density": 0.0003,
+          "target_reverse": false,
+          "known_truncated_node_count": 17,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4205208574",
+            "W4206055706",
+            "W4211191293",
+            "W4223591189",
+            "W4283695295",
+            "W4307425304",
+            "W4308183941",
+            "W4309506674",
+            "W4323036511",
+            "W4381799391",
+            "W4384522480",
+            "W4389166035",
+            "W4393858312",
+            "W4394894573",
+            "W4396946025",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 18
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-29",
+      "edge_key": "W4399177958->W4309506674",
+      "endpoint_known_truncated_nodes": [
+        "W4309506674"
+      ],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1042,
+          "edges": 1133,
+          "density_exact": 0.001044507256237082,
+          "reported_density": 0.001,
+          "target_reverse": false,
+          "known_truncated_node_count": 1,
+          "known_truncated_nodes": [
+            "W4309506674"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 3015,
+          "edges": 3504,
+          "density_exact": 0.00038559689937835704,
+          "reported_density": 0.0004,
+          "target_reverse": false,
+          "known_truncated_node_count": 16,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4206055706",
+            "W4206677002",
+            "W4223591189",
+            "W4281790889",
+            "W4283271244",
+            "W4307425304",
+            "W4309506674",
+            "W4318923555",
+            "W4323036511",
+            "W4367310920",
+            "W4381799391",
+            "W4384071683",
+            "W4384522480",
+            "W4402557213",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    },
+    {
+      "sample_id": "R2EXP-PMC-30",
+      "edge_key": "W4396768514->W4308616064",
+      "endpoint_known_truncated_nodes": [],
+      "provided_truncated_flag": "否",
+      "detail_keys": [
+        "nodes",
+        "edges"
+      ],
+      "detail_network_matches": [
+        {
+          "hop": 1,
+          "node_set_matches": false,
+          "directed_edge_set_matches": false
+        },
+        {
+          "hop": 2,
+          "node_set_matches": true,
+          "directed_edge_set_matches": true
+        }
+      ],
+      "hops": {
+        "1": {
+          "nodes": 1033,
+          "edges": 1211,
+          "density_exact": 0.0011359628387251702,
+          "reported_density": 0.0011,
+          "target_reverse": false,
+          "known_truncated_node_count": 3,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4309506674",
+            "W4323036511"
+          ],
+          "reciprocal_directed_edges": 0
+        },
+        "2": {
+          "nodes": 3931,
+          "edges": 4479,
+          "density_exact": 0.0002899248680968073,
+          "reported_density": 0.0003,
+          "target_reverse": false,
+          "known_truncated_node_count": 6,
+          "known_truncated_nodes": [
+            "W4205192056",
+            "W4281790889",
+            "W4307425304",
+            "W4309506674",
+            "W4323036511",
+            "W4403479110"
+          ],
+          "reciprocal_directed_edges": 0
+        }
+      }
+    }
+  ],
+  "provided_truncated_flag_counts": {
+    "否": 25
+  },
+  "candidate_endpoint_truncated_count": 20,
+  "candidate_1hop_contains_truncated_count": 25,
+  "candidate_2hop_contains_truncated_count": 25,
+  "candidate_reverse_count": 0,
+  "density_ranges_exact": {
+    "1": [
+      0.0008009581811912412,
+      0.0011451048808257824
+    ],
+    "2": [
+      0.00026984471049188694,
+      0.0006386573684966159
+    ]
+  },
+  "detail_exactly_matches_2hop_count": 25,
+  "detail_exactly_matches_1hop_count": 0,
+  "truncation_flag_scope_status": "Not defined in the delivered files; needs member3 clarification and correction. All 25 local networks contain known capped nodes, including 20 target pairs with a capped endpoint.",
+  "status": "PARTIAL_PASS_numeric_and_2hop_sets_verified_truncation_metadata_pending",
+  "density_comparison_policy": "Compare recomputed exact fractions against supplied values with four-decimal rounding tolerance 0.00005.",
+  "known_truncated_set_basis": "28 original graph nodes with in_degree exactly 1000; member3 explicitly confirmed these hit the upstream per-page=200,max-pages=5 acquisition cap.",
+  "metadata_followups": [
+    "Define truncated_flag. If it refers to any upstream cap exposure, all 25 local networks are affected. If it means no additional local clipping, rename the field and add upstream-cap flags.",
+    "Split endpoint_truncated,1hop_contains_truncated,2hop_contains_truncated and retain corresponding node IDs.",
+    "Delivered detail nodes/edges match radius=2 for all 25 samples. Explicitly label radius=2; provide radius=1 lists if both radii are claimed as delivered.",
+    "Retain unrounded density values for comparisons; distinguish proportions from percentages."
+  ]
+}

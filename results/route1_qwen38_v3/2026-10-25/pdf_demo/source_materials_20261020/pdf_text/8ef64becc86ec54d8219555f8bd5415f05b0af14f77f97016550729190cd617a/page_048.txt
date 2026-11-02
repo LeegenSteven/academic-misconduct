@@ -1,0 +1,21 @@
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Jack et al.
+Page 48
+Table 1
+AT(N) biomarker grouping
+A: Aggregated Aβ or associated pathologic state
+  CSF Aβ42, or Aβ42/Aβ40 ratio
+  Amyloid PET
+T: Aggregated tau (neurofibrillary tangles) or associated pathologic state
+  CSF phosphorylated tau
+  Tau PET
+(N): Neurodegeneration or neuronal injury
+  Anatomic MRI
+  FDG PET
+  CSF total tau
+Abbreviations: Aβ, β amyloid; CSF, cerebrospinal fluid.
+NOTE. See section 9.4 for explanation of (N) notation.
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.

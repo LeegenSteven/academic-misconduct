@@ -1,0 +1,382 @@
+{
+  "case_id": "r1pdf:cc2e2247d91afc3f3559aa23",
+  "fixed20_point_number": 5,
+  "first5_point_number": 4,
+  "status": "HOLD_DISPOSITION_PROPOSED_AWAITING_LI_CONFIRMATION",
+  "proposed_human_disposition": "continue_pending_identification_date_evidence",
+  "proposed_human_label": null,
+  "proposed_human_basis": "冻结候选支持2019年12月武汉/湖北出现不明原因肺炎病例。S05的Dec 1是发病日期，S02的Dec 31是警报发布日期，均不能直接证明12月初首批病例被识别。保留原句及identified谓词，本点继续待核，不新增人工三标签。",
+  "reason_time_inference_issue": "原理由借S05发病日期支持施引句的识别时间，随后转述为首例在12月初出现；两个事件谓词不同。",
+  "reason_grammar_issue": "first cases为复数，原理由将其称为单数不准确；此问题不替代日期核查。",
+  "alert_date_not_used_as_contradiction": true,
+  "capital_city_support_and_materiality_still_pending": true,
+  "geographic_common_knowledge_exemption_adopted": false,
+  "identification_date_supplied": null,
+  "evidence_time_event_checks": [
+    {
+      "evidence_id": "D01:S01",
+      "source_pdf_page": 2,
+      "time": "December 2019",
+      "event_in_source": "a series of pneumonia cases emerged",
+      "limit": "月份与地点有依据；未明确12月初被识别的时间。"
+    },
+    {
+      "evidence_id": "D01:S05",
+      "source_pdf_page": 5,
+      "time": "Dec 1, 2019",
+      "event_in_source": "symptom onset date of the first patient identified",
+      "limit": "Dec 1修饰发病日期；identified修饰patient，未给出识别发生日期。"
+    },
+    {
+      "evidence_id": "D01:S02",
+      "source_pdf_page": 3,
+      "time": "Dec 31, 2019",
+      "event_in_source": "an epidemiological alert was released",
+      "limit": "警报发布日期不能反推首次识别恰在当天，也不能据此否定可能的更早识别。"
+    },
+    {
+      "evidence_id": "D01:S06",
+      "source_pdf_page": 5,
+      "time": "By Jan 2, 2020",
+      "event_in_source": "study cohort identified as laboratory-confirmed infections by this date",
+      "limit": "研究队列的确认截止时间不等于首批不明原因肺炎病例的首次识别时间。"
+    }
+  ],
+  "scope_as_frozen": {
+    "case_id": "r1pdf:cc2e2247d91afc3f3559aa23",
+    "pair_id": "r1pair:f1839724111f75fec4aa",
+    "dedup_key": "cc2e2247d91afc3f3559aa23aaaa841736d83a51f3921fbbe7bcae9137e3288a",
+    "source_pool_candidate_id": "PMC-OA-EXP-07",
+    "target_reference_id": "r1",
+    "original_full_context_marked": "I n early December 2019, the first pneumonia cases of unknown origin were identified in Wuhan, the capital city of Hubei province.[[TARGET_REFERENCE]]1[[/TARGET_REFERENCE]] The pathogen has been identified as a novel enveloped RNA betacoronavirus2 that has currently been named severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which has a phylogenetic similarity to SARS-CoV.3 Patients with the infection have been documented both in hospitals and in family settings.4-8",
+    "old_scope_query": "I n early December 2019, the first pneumonia cases of unknown origin were identified in Wuhan, the capital city of Hubei province.1",
+    "primary_scope_pieces": [
+      {
+        "text": "I n early December 2019, the first pneumonia cases of unknown origin were identified in Wuhan, the capital city of Hubei province.1",
+        "normalized_context_start": 0,
+        "normalized_context_end_exclusive": 131,
+        "source_pdf_fragments": [
+          {
+            "pdf_page": 2,
+            "printed_page": null,
+            "char_start": 65,
+            "char_end_exclusive": 201,
+            "raw_text": "I\nn early December 2019, the first pneu-\nmonia cases of unknown origin were identi-\nfied in Wuhan, the capital city of Hubei \nprovince.1",
+            "raw_text_sha256": "7cba78a049a85b116fa99583a383e6b3e1bfb3f2a3ed9fc9a289b225d7881fea",
+            "source_blocks": [
+              {
+                "block_number": 2,
+                "bbox": [
+                  100.0,
+                  23.371,
+                  400.39,
+                  101.043
+                ]
+              },
+              {
+                "block_number": 3,
+                "bbox": [
+                  100.003,
+                  53.97,
+                  301.041,
+                  173.96
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ]
+      }
+    ],
+    "context_only_pieces": [],
+    "prepared_query": "I n early December 2019, the first pneumonia cases of unknown origin were identified in Wuhan, the capital city of Hubei province.1",
+    "query_changed": false,
+    "boundary_reason": "保留 early December 2019、unknown origin、Wuhan/Hubei 等限定。提取文本的 I n 排版空格原样留存，不据此改变日期或地点。",
+    "scope_status": "assistant_source_boundary_checked",
+    "reviewer_signoff": {
+      "李云": null,
+      "陈明进": null
+    },
+    "exposure": {
+      "prior_retrieval_known": true,
+      "new_model_predictions_seen": false,
+      "independent_blind_claimed": false
+    },
+    "label": null,
+    "joint_adjudication": null
+  },
+  "source_pdf_ids": {
+    "citing": "PMC7092819",
+    "cited": "PMC7159299"
+  },
+  "original_records_sha256": "495e96f319bc49d062460f14f9c23fccb62a18427c3ac0a0c1cab821a24fd2b5",
+  "original_classifier_input_sha256": "5d4d71fa971d615004ed8e7e4b29d9b5f6589769dc2a9682488cf66f54610c56",
+  "original_explainer_input_sha256": "1ad00edfaf0d05dde534037fbd0bb9cf4d0a9ab497cd8c3417f44d035cb7bcae",
+  "candidate_source_checks": [
+    {
+      "evidence_id": "D01:S01",
+      "raw_text_sha256": "7e88ff36eb2871a604a464ec3adc050f4b9057999d6db66f83d422df98211613",
+      "PDF_locations": [
+        {
+          "pdf_page": 2,
+          "char_start": 4120,
+          "char_end_exclusive": 4673,
+          "source_blocks": [
+            {
+              "block_number": 13,
+              "bbox": [
+                262.198,
+                633.173,
+                478.484,
+                753.905
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S02",
+      "raw_text_sha256": "66b9d76124ab5f8efff032be6409cd30d77df7ca84c0dac46d977809f5ff8f60",
+      "PDF_locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 1596,
+          "char_end_exclusive": 2154,
+          "source_blocks": [
+            {
+              "block_number": 28,
+              "bbox": [
+                119.054,
+                443.689,
+                335.342,
+                588.899
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S03",
+      "raw_text_sha256": "cca37e1fbdb62b23b5419da5eeb80b77454a79fa368d64a00df24d384db8d153",
+      "PDF_locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 2154,
+          "char_end_exclusive": 2904,
+          "source_blocks": [
+            {
+              "block_number": 29,
+              "bbox": [
+                119.054,
+                589.16,
+                335.333,
+                753.869
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S04",
+      "raw_text_sha256": "ee58c0523006daaedb335ff8dce3f88f4b67d88731445b4cbaeb9aea0f9162b1",
+      "PDF_locations": [
+        {
+          "pdf_page": 2,
+          "char_start": 488,
+          "char_end_exclusive": 782,
+          "source_blocks": [
+            {
+              "block_number": 5,
+              "bbox": [
+                36.85,
+                212.689,
+                478.517,
+                258.915
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S05",
+      "raw_text_sha256": "132dff70c28bcd143834972e7d37bb4c4974ea89d806dc779d0c38a723f4bd77",
+      "PDF_locations": [
+        {
+          "pdf_page": 5,
+          "char_start": 2699,
+          "char_end_exclusive": 3457,
+          "source_blocks": [
+            {
+              "block_number": 9,
+              "bbox": [
+                344.399,
+                567.154,
+                560.696,
+                720.865
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S06",
+      "raw_text_sha256": "abf6915f73796f5ff3f8363fc3bdc4fcf94f1c8d069f48f4fe0a1ccaed59d0ff",
+      "PDF_locations": [
+        {
+          "pdf_page": 5,
+          "char_start": 1912,
+          "char_end_exclusive": 2699,
+          "source_blocks": [
+            {
+              "block_number": 8,
+              "bbox": [
+                344.399,
+                399.689,
+                560.696,
+                566.893
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S07",
+      "raw_text_sha256": "cc456274666867f19db67bdfa1c428dd198a76c194de3fb7ad2045e1df5020ee",
+      "PDF_locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 4607,
+          "char_end_exclusive": 4830,
+          "source_blocks": [
+            {
+              "block_number": 31,
+              "bbox": [
+                344.406,
+                710.136,
+                560.667,
+                753.867
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S08",
+      "raw_text_sha256": "14cb80630d23baa6c37acc6b6f8d53187fcee1ad7a5d9c56047dace9a9128219",
+      "PDF_locations": [
+        {
+          "pdf_page": 6,
+          "char_start": 4564,
+          "char_end_exclusive": 4818,
+          "source_blocks": [
+            {
+              "block_number": 11,
+              "bbox": [
+                262.196,
+                699.16,
+                478.484,
+                753.889
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S09",
+      "raw_text_sha256": "0cc9433a9eeea156f952b9b3509928fa968106b236edc67da95e62cee47f5881",
+      "PDF_locations": [
+        {
+          "pdf_page": 2,
+          "char_start": 2806,
+          "char_end_exclusive": 3166,
+          "source_blocks": [
+            {
+              "block_number": 8,
+              "bbox": [
+                36.841,
+                500.601,
+                478.507,
+                544.863
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S10",
+      "raw_text_sha256": "b55ffbaa96ac07ec078a045fe4643f2696a1efdc21186ce58bd32fedd681c780",
+      "PDF_locations": [
+        {
+          "pdf_page": 3,
+          "char_start": 5692,
+          "char_end_exclusive": 6100,
+          "source_blocks": [
+            {
+              "block_number": 35,
+              "bbox": [
+                344.385,
+                151.428,
+                550.943,
+                227.801
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "source_and_bbox_replayed": true
+    }
+  ],
+  "Chen_disposition_as_received": "继续待核；需补12月初被识别的候选依据，或明确继续待核。",
+  "Chen_source_file": "首批5点语义核对_陈明进_v2_20261022.md",
+  "Chen_source_sha256": "4879f6ea33fd9af6db28acd4d1f0877134aa23480f04a3269384e1dd34c17896",
+  "Li_confirmed_disposition": null,
+  "joint_adjudication_imported": false,
+  "original_classifier_label_retained": "ACCURATE",
+  "classifier_output_changed_to_failure_status": false,
+  "classification_correct_marked": null,
+  "original_reason_changed": false,
+  "original_explanation_semantic_failure_proposed": true,
+  "formal_semantic_assessment_imported": false,
+  "new_scope_release": false,
+  "new_model_run": false,
+  "formal_acceptance_added": false
+}

@@ -1,0 +1,132 @@
+5168
+JACK ET AL.
+177. Mecca AP, Chen MK, O’Dell RS, et al. In vivo measurement of
+widespread synaptic loss in Alzheimer’s disease with SV2A PET.
+Alzheimers Dement. 2020;16:974-982.
+178. Gouw AA, Alsema AM, Tijms BM, et al. EEG spectral analysis as
+a putative early prognostic biomarker in nondemented, amyloid
+positive subjects. Neurobiol Aging. 2017;57:133-142.
+179. Haass C, Selkoe D. If amyloid drives Alzheimer disease, why have
+anti-amyloid therapies not yet slowed cognitive decline? PLoS Biol.
+2022;20:e3001694.
+180. De Strooper B, Karran E. The cellular phase of Alzheimer’s disease.
+Cell. 2016;164:603-615.
+181. Bouzid H, Belk JA, Jan M, et al. Clonal hematopoiesis is associated
+with protection from Alzheimer’s disease. Nat Med. 2023;29:1662-
+1670.
+182. Cummings J, Lee G, Zhong K, Fonseca J, Taghva K. Alzheimer’s dis-
+ease drug development pipeline: 2021. Alzheimers Dement (N Y).
+2021;7:e12179.
+183. Verberk IMW, Laarhuis MB, van den Bosch KA, et al. Serum markers
+glial fibrillary acidic protein and neurofilament light for prognosis and
+monitoring in cognitively normal older people: a prospective memory
+clinic-based cohort study. Lancet Healthy Longev. 2021;2:e87-e95.
+184. Chatterjee P, Pedrini S, Stoops E, et al. Plasma glial fibrillary acidic
+protein is elevated in cognitively normal older adults at risk of
+Alzheimer’s disease. Transl Psychiatry. 2021;11:27.
+185. Chatterjee P, Vermunt L, Gordon BA, et al. Plasma glial fibrillary
+acidic protein in autosomal dominant Alzheimer’s disease: Associ-
+ations with Aβ-PET, neurodegeneration, and cognition. Alzheimers
+Dement. 2023;19:2790-2804.
+186. Jack CR Jr., Wiste HJ, Algeciras-Schimnich A, et al. Comparison
+of plasma biomarkers and amyloid PET for predicting memory
+decline in cognitively unimpaired individuals. Alzheimers Dement.
+2024;20:2143-2154.
+187. Cicognola C, Janelidze S, Hertze J, et al. Plasma glial fibrillary acidic
+protein detects Alzheimer pathology and predicts future conversion
+to Alzheimer dementia in patients with mild cognitive impairment.
+Alzheimers Res Ther. 2021;13:68.
+188. Suarez-Calvet M, Araque Caballero MA, Kleinberger G, et al. Early
+changes in CSF sTREM2 in dominantly inherited Alzheimer’s disease
+occur after amyloid deposition and neuronal injury. Sci Transl Med.
+2016;8:369ra178.
+189. Morenas-Rodriguez E, Li Y, Nuscher B, et al. Soluble TREM2 in
+CSF and its association with other biomarkers and cognition in
+autosomal-dominant Alzheimer’s disease: a longitudinal observa-
+tional study. Lancet Neurol. 2022;21:329-341.
+190. Pereira JB, Janelidze S, Strandberg O, et al. Microglial activation
+protects against accumulation of tau aggregates in nondemented
+individuals with underlying Alzheimer’s disease pathology. Nat Aging.
+2022;2:1138-1144.
+191. Fairfoul G, McGuire LI, Pal S, et al. Alpha-synuclein RT-QuIC in the
+CSF of patients with alpha-synucleinopathies. Ann Clin Transl Neurol.
+2016;3:812-818.
+192. Shahnawaz M, Tokuda T, Waragai M, et al. Development of a
+Biochemical Diagnosis of Parkinson Disease by Detection of alpha-
+Synuclein Misfolded Aggregates in Cerebrospinal Fluid. JAMA Neurol.
+2017;74:163-172.
+193. Arnold MR, Coughlin DG, Brumbach BH, et al. α-synuclein seed
+amplification in CSF and brain from patients with different brain dis-
+tributions of pathological α-synuclein in the context of co-pathology
+and non-LBD diagnoses. Ann Neurol. 2022;92:650-662.
+194. Hall S, Orru CD, Serrano GE, et al. Performance of alphaSynuclein RT-
+QuIC in relation to neuropathological staging of Lewy body disease.
+Acta Neuropathol Commun. 2022;10:90.
+195. Palmqvist S, Rossi M, Hall S, et al. Cognitive effects of Lewy
+body pathology in clinically unimpaired individuals. Nat Med.
+2023;29:1971-1978.
+196. Quadalti C, Palmqvist S, Hall S, et al. Clinical effects of Lewy
+body pathology in cognitively impaired individuals. Nat Med.
+2023;29:1964-1970.
+197. Rossi M, Candelise N, Baiardi S, et al. Ultrasensitive RT-QuIC assay
+with high sensitivity and specificity for Lewy body-associated synu-
+cleinopathies. Acta Neuropathol. 2020;140:49-62.
+198. Bargar C, De Luca CMG, Devigili G, et al. Discrimination of MSA-P
+and MSA-C by RT-QuIC analysis of olfactory mucosa: the first assess-
+ment of assay reproducibility between two specialized laboratories.
+Mol Neurodegener. 2021;16:82.
+199. Seibyl JP. alpha-synuclein PET and parkinson disease therapeutic
+trials: ever the twain shall meet? J Nucl Med. 2022;63:1463-1466.
+200. Korat S, Bidesi NSR, Bonanno F, et al. Alpha-synuclein PET tracer
+development-an overview about current efforts. Pharmaceuticals
+(Basel). 2021;14:847.
+201. McKeith I, O’Brien J, Walker Z, et al. Sensitivity and specificity of
+dopamine transporter imaging with 123I-FP-CIT SPECT in demen-
+tia with Lewy bodies: a phase III, multicentre study. Lancet Neurol.
+2007;6:305-313.
+202. Vlaar AM, de Nijs T, Kessels AG, et al. Diagnostic value of 123I-
+ioflupane and 123I-iodobenzamide SPECT scans in 248 patients with
+parkinsonian syndromes. Eur Neurol. 2008;59:258-266.
+203. Wardlaw JM, Smith EE, Biessels GJ, et al. Neuroimaging standards for
+research into small vessel disease and its contribution to ageing and
+neurodegeneration. Lancet Neurol. 2013;12:822-838.
+204. Duering M, Biessels GJ, Brodtmann A, et al. Neuroimaging standards
+for research into small vessel disease-advances since 2013. Lancet
+Neurol. 2023;22:602-618.
+205. Baykara E, Gesierich B, Adam R, et al. A novel imaging marker for
+small vessel disease based on skeletonization of white matter tracts
+and diffusion histograms. Ann Neurol. 2016;80:581-592.
+206. Vemuri P, Graff-Radford J, Lesnick TG, et al. White matter abnor-
+malities are key components of cerebrovascular disease impacting
+cognitive decline. Brain Commun. 2021;3:fcab076.
+207. Vemuri P, Lesnick TG, Knopman DS, et al. Amyloid, vascular, and
+resilience pathways associated with cognitive aging. Ann Neurol.
+2019;86:866-877.
+208. Jagust WJ, Zheng L, Harvey DJ, et al. Neuropathological basis of
+magnetic resonance images in aging and dementia. Ann Neurol.
+2008;63:72-80.
+209. Beach TG, Sue LI, Scott S, et al. Cerebral white matter rarefaction has
+both neurodegenerative and vascular causes and may primarily be a
+distal axonopathy. J Neuropathol Exp Neurol. 2023;82:457-466.
+210. Greenberg SM, Bacskai BJ, Hernandez-Guillamon M, Pruzin J,
+Sperling R, van Veluw SJ. Cerebral amyloid angiopathy and Alzheimer
+disease – one peptide, two pathways. Nat Rev Neurol. 2020;16:30-42.
+211. Graff-Radford J, Lesnick T, Rabinstein AA, et al. Cerebral microbleed
+incidence, relationship to amyloid burden: the Mayo Clinic Study of
+Aging. Neurology. 2020;94:e190-e199.
+212. Koemans EA, Chhatwal JP, van Veluw SJ, et al. Progression of cere-
+bral amyloid angiopathy: a pathophysiological framework. Lancet
+Neurol. 2023;22:632-642.
+213. Sperling R, Salloway S, Brooks DJ, et al. Amyloid-related imag-
+ing abnormalities in patients with Alzheimer’s disease treated with
+bapineuzumab: a retrospective analysis. Lancet Neurol. 2012;11:241-
+249.
+214. Nelson PT, Dickson DW, Trojanowski JQ, et al. Limbic-predominant
+age-related TDP-43 encephalopathy (LATE): consensus working
+group report. Brain. 2019;142:1503-1527.
+215. Nelson PT, Head E, Schmitt FA, et al. Alzheimer’s disease is not
+“brain aging”: neuropathological, genetic, and epidemiological human
+studies. Acta Neuropathol. 2011;121:571-587.
+216. Beach TG, Malek-Ahmadi M. Alzheimer’s disease neuropathologi-
+cal comorbidities are common in the younger-old. J Alzheimers Dis.
+2021;79:389-400.

@@ -1,0 +1,1318 @@
+{
+  "version": "pdf20_Li_component_confirmation_20261026",
+  "reviewer": "李云",
+  "confirmation_date": "2026-10-26",
+  "confirmation_date_basis": "current session date; human reply has no separate exact timestamp",
+  "confirmation_exact_time": null,
+  "recorded_at_utc": "2026-10-26T00:56:12.391001+00:00",
+  "confirmation_source": "explicit user reply to request_user_input_async",
+  "questionItemId": "[\"request_user_input_async\",\"call_f765e57ba4fb4e7bae1fcf01867781f8\",0]",
+  "question_original": "可独立完成的整理与核验已完成。按你提供的 AGENTS.md，“继续”不能代替个人判断确认。你是否认可10月26日总表的集中分项建议：原理由8/9/17/19建议通过，2/3/4/5/12/13/16/18不通过或需修订，7/11单列覆盖缺口，6/10/14/20待核，1/15暂缓；16点来源映射只按各自诊断版本认可，不算正式定位率或整体验收？已有分类意见沿用，陈明进未确认的分项仍保留待核。",
+  "answer_original": "认可上述集中分项建议，登记为李云个人意见",
+  "status": "confirmed_personal_component_opinions_not_joint_acceptance",
+  "reason_categories": {
+    "pass": [
+      8,
+      9,
+      17,
+      19
+    ],
+    "fail": [
+      2,
+      3,
+      4,
+      5,
+      12,
+      13,
+      16,
+      18
+    ],
+    "coverage_gap_without_inference_error": [
+      7,
+      11
+    ],
+    "pending": [
+      6,
+      10,
+      14,
+      20
+    ],
+    "held": [
+      1,
+      15
+    ]
+  },
+  "source_mapping_supported_points": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "supplemental_only_points": [
+    10,
+    14
+  ],
+  "held_points": [
+    1,
+    15
+  ],
+  "source_mapping_scope": "Selected excerpts, source identity, PDF pages and block-level bboxes according to each diagnostic version. Not a uniform formal location rate or complete-claim support.",
+  "proposal_rows_before_sha256": "aa0329de4e95b3b47e3d132b8d10f8b140428bb880c6085f34e795d16016eed3",
+  "proposal_summary_before_sha256": "dc9b2aae934d86735531c1c3c339482b8e5a0e64853e54d0e2c946cddca5b264",
+  "proposal_snapshot": {
+    "version": "pdf20_missing_component_batch_20261026",
+    "date": "2026-10-26",
+    "status": "recommendations_prepared_awaiting_specific_Li_confirmation",
+    "entry": "固定20点进度总表.md#李云缺失分项集中建议2026-10-26待本人确认",
+    "fixed_points": 20,
+    "reason_recommendations": {
+      "held": 2,
+      "fail": 8,
+      "pending": 4,
+      "coverage_gap_not_inference_error": 2,
+      "pass_recommended": 4
+    },
+    "source_mapping_recommended_points": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "supplemental_only_points": [
+      10,
+      14
+    ],
+    "held_points": [
+      1,
+      15
+    ],
+    "named_peer_pending_on_new_recommendation_points": {
+      "location": [
+        6
+      ],
+      "reason": [
+        8
+      ]
+    },
+    "source_files_sha256_relative_to_pdf_demo": {
+      "first5_quote_mapping_trial_2026-10-23/逐点诊断_非验收.jsonl": "77b336c23bc4a9e4e3846fe3d38f226029b44cd07a58dbfbeef41768f88ed038",
+      "first5_quote_mapping_trial_2026-10-23/逐条摘录映射_非验收.jsonl": "fb0923153196d62be6c20fcb8e36cb4c184c3091cc349ad02709114fb11dc7ed",
+      "first5_source_recheck_2026-10-22/50条候选与5条原响应_只读对照.jsonl": "368f6098a0a15afcd9de9cbc631cb5da7a256fd35a1df22dc2926c055addfe5a",
+      "first5_source_recheck_ack_2026-10-22/确认记录.json": "15ffb330bf38739ebca711744eeac1a6511aa37b71fa5c8449b9b17dae9dd4be",
+      "first5_source_recheck_2026-10-22/先看这里_5点复查结论.md": "5738e1e7a9070e32ff99e5775a1f508f5c33911172e0135e6cf6b1b640160a2a",
+      "point16_compact_v2_a100_verified_2026-10-24/current_13_versioned_records.jsonl": "7901c4a8b39e4e54772b46582046f9ca35fd378aa96f981de9a533f2146f29d2",
+      "remaining13_preparation_r2_2026-10-24/classification.draft.inputs.jsonl": "462cc104faa1aede0da5c47e2367be0aed392bd9894e5a5ba213663ab506c272",
+      "李云个人意见确认_20261025.json": "c9c69c00c38280e41aa7f0551e9f9ae5c100cefdfd0659bf63232b48c1af0fc6",
+      "李云第14点r2意见确认_20261025.json": "e7b54e44a805086a83235944eca63d8ebbcbe810065863f2eec0339069d94aa3",
+      "peer_replies_2026-10-24/固定20点复核回复_20261025.md": "fa9c4569c6de1a8276a101d6e5f6452037eba0a23dda9892913e0790815688c0",
+      "peer_replies_2026-10-24/20点归并后补充确认_20261025.md": "7464f7ae38db2ebb896a3335d0da862ba1bc31d0a9ae8ea14204e11582b5a8fc"
+    },
+    "human_confirmed": false,
+    "joint_confirmed": false,
+    "new_human_labels": 0,
+    "new_model_runs": 0,
+    "formal_acceptance_added": 0,
+    "existing_confirmations_preserved": true,
+    "same_version_formal_location_rate": null
+  },
+  "point_proposals": [
+    {
+      "point_number": 1,
+      "case_id": "r1pdf:48b208f007c2c6e700c04ff0",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": null,
+        "review_parser_or_mapping_version": null,
+        "raw_response_sha256": null,
+        "source_mapping_recommendation": "held",
+        "location_scope": "未运行，沿用暂缓。",
+        "quote_locators_compact": [],
+        "reason_recommendation": "held",
+        "reason_basis": "沿用已确认暂缓：修饰性背景，不强行三分类。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    },
+    {
+      "point_number": 2,
+      "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "first5_resource_run01_original",
+        "review_parser_or_mapping_version": "route1_pdf_quote_mapping_trial_v1_20261023 (offline diagnostic only)",
+        "raw_response_sha256": "85c867d249956249e61eee7eafe971b116fda12d1eec49a0736c8f40688fb49a",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S01",
+            "pdf_page": 1,
+            "char_start": 1843,
+            "char_end_exclusive": 2010,
+            "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+            "source_blocks": [
+              {
+                "block_number": 8,
+                "bbox": [
+                  42.224,
+                  537.088,
+                  289.308,
+                  700.472
+                ]
+              }
+            ],
+            "raw_source_excerpt": "making >144 000 experimentally-\ndetermined structures of proteins, DNA, and RNA, and\ntheir complexes with metal ions, drugs, and other small\nmolecules freely available",
+            "model_quote_unchanged": "making >144 000 experimentally-determined structures of proteins, DNA, and RNA, and their complexes with metal ions, drugs, and other small molecules freely available",
+            "mapping_status": "normalized_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S03",
+            "pdf_page": 1,
+            "char_start": 768,
+            "char_end_exclusive": 930,
+            "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+            "source_blocks": [
+              {
+                "block_number": 6,
+                "bbox": [
+                  42.224,
+                  204.072,
+                  289.311,
+                  500.967
+                ]
+              }
+            ],
+            "raw_source_excerpt": "The PDB Core Archive\nhouses 3D atomic coordinates of more than 144 000\nstructural models of proteins, DNA/RNA, and their\ncomplexes with metals and small molecules",
+            "model_quote_unchanged": "The PDB Core Archive houses 3D atomic coordinates of more than 144 000 structural models of proteins, DNA/RNA, and their complexes with metals and small molecules",
+            "mapping_status": "normalized_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S07",
+            "pdf_page": 1,
+            "char_start": 3195,
+            "char_end_exclusive": 3353,
+            "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+            "source_blocks": [
+              {
+                "block_number": 10,
+                "bbox": [
+                  309.229,
+                  219.468,
+                  556.321,
+                  481.482
+                ]
+              }
+            ],
+            "raw_source_excerpt": "The PDB Core\nArchive houses 3D atomic coordinates of >144 000 struc-\ntural models of proteins, DNA/RNA, and their com-\nplexes with metals and small molecules.",
+            "model_quote_unchanged": "The PDB Core Archive houses 3D atomic coordinates of >144 000 structural models of proteins, DNA/RNA, and their complexes with metals and small molecules.",
+            "mapping_status": "unique_mapping_line_join_review_required",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "fail",
+        "reason_basis": "沿用已认可报告中的问题：144k总体结构与100k独特蛋白质口径不同，不能按大小证明矛盾，也不能称数量级差异。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0,
+        "existing_acknowledged_problem_finding_reused": true,
+        "reuse_note": "复用已认可报告中的具体问题，不反推此前已经签署单独语义布尔项。"
+      }
+    },
+    {
+      "point_number": 3,
+      "case_id": "r1pdf:ecd1a395eb5f25610750d721",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "first5_resource_run01_original",
+        "review_parser_or_mapping_version": "route1_pdf_quote_mapping_trial_v1_20261023 (offline diagnostic only)",
+        "raw_response_sha256": "c0e146a8cb64d47b3914a9e9b94bf1e55dae385ed7290720d2d8b5f570fdc448",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S02",
+            "pdf_page": 3,
+            "char_start": 2834,
+            "char_end_exclusive": 3095,
+            "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+            "source_blocks": [
+              {
+                "block_number": 11,
+                "bbox": [
+                  48.415,
+                  638.577,
+                  290.528,
+                  713.451
+                ]
+              }
+            ],
+            "raw_source_excerpt": "2.2.1 Sliding Window quality filtering\nThe Sliding Window uses\na relatively standard approach. This works by scanning from the\n50 end of the read, and removes the 30 end of the read when the\naverage quality of a group of bases drops below a specified\nthreshold.",
+            "model_quote_unchanged": "2.2.1 Sliding Window quality filtering\nThe Sliding Window uses\na relatively standard approach. This works by scanning from the\n5′ end of the read, and removes the 3′ end of the read when the\naverage quality of a group of bases drops below a specified\nthreshold.",
+            "mapping_status": "exact_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S04",
+            "pdf_page": 6,
+            "char_start": 3802,
+            "char_end_exclusive": 3965,
+            "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+            "source_blocks": [
+              {
+                "block_number": 17,
+                "bbox": [
+                  61.795,
+                  336.255,
+                  303.947,
+                  388.041
+                ]
+              }
+            ],
+            "raw_source_excerpt": "Note: Both quality modes are shown for Trimmomatic. Best values are indicated in\nbold. MI indicates Maximum Information mode, and SW indicates Sliding Window\nmode.",
+            "model_quote_unchanged": "Note: Both quality modes are shown for Trimmomatic. Best values are indicated in\nbold. MI indicates Maximum Information mode, and SW indicates Sliding Window\nmode.",
+            "mapping_status": "exact_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S08",
+            "pdf_page": 4,
+            "char_start": 924,
+            "char_end_exclusive": 1118,
+            "source_pdf_sha256": "0610baa7db19b5de70930ebe2b3cfad95ccb1db9d8c80f5236dbe4c9bd9650ae",
+            "source_blocks": [
+              {
+                "block_number": 10,
+                "bbox": [
+                  61.795,
+                  310.47,
+                  303.952,
+                  385.597
+                ]
+              }
+            ],
+            "raw_source_excerpt": "Trimmomatic uses a pipeline-based architecture, allowing indi-\nvidual ‘steps’ (adapter removal, quality filtering, etc.) to be\napplied\nto\neach\nread/read\npair,\nin\nthe\norder\nspecified\nby the user.",
+            "model_quote_unchanged": "Trimmomatic uses a pipeline-based architecture, allowing indi-\nvidual ‘steps’ (adapter removal, quality filtering, etc.) to be\napplied\nto\neach\nread/read\npair,\nin\nthe\norder\nspecified\nby the user.",
+            "mapping_status": "exact_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "fail",
+        "reason_basis": "沿用已认可报告中的问题：模型已提到S08 adapter removal，却仍对adapter tool作不必要保留；不写成模型完全未看见S08。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0,
+        "existing_acknowledged_problem_finding_reused": true,
+        "reuse_note": "复用已认可报告中的具体问题，不反推此前已经签署单独语义布尔项。"
+      }
+    },
+    {
+      "point_number": 4,
+      "case_id": "r1pdf:e1636ac35ca5131bfdf6fb44",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "first5_resource_run01_original",
+        "review_parser_or_mapping_version": "route1_pdf_quote_mapping_trial_v1_20261023 (offline diagnostic only)",
+        "raw_response_sha256": "0d6b139bc8f0997a2fa700dcba70c639808ed22b5cba23ff3dd80b3d558b332b",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S01",
+            "pdf_page": 10,
+            "char_start": 81,
+            "char_end_exclusive": 250,
+            "source_pdf_sha256": "36e867ec50be224e799297972defdbd421e8f5efe520561efdf5fa2fa19cd903",
+            "source_blocks": [
+              {
+                "block_number": 2,
+                "bbox": [
+                  56.139,
+                  89.297,
+                  290.046,
+                  207.335
+                ]
+              }
+            ],
+            "raw_source_excerpt": "In summary, we developed a tool called AfterQC with\nrich quality control, data filtering, error profiling and cor-\nrection functions for next generation sequencing data.",
+            "model_quote_unchanged": "In summary, we developed a tool called AfterQC with\nrich quality control, data filtering, error profiling and cor-\nrection functions for next generation sequencing data.",
+            "mapping_status": "exact_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S02",
+            "pdf_page": 2,
+            "char_start": 2743,
+            "char_end_exclusive": 2883,
+            "source_pdf_sha256": "36e867ec50be224e799297972defdbd421e8f5efe520561efdf5fa2fa19cd903",
+            "source_blocks": [
+              {
+                "block_number": 5,
+                "bbox": [
+                  56.139,
+                  687.685,
+                  289.982,
+                  733.309
+                ]
+              }
+            ],
+            "raw_source_excerpt": "We will present AfterQC in this paper, a tool developed\nto address major practical sequencing data quality con-\ntrol and filtering problems.",
+            "model_quote_unchanged": "We will present AfterQC in this paper, a tool developed\nto address major practical sequencing data quality con-\ntrol and filtering problems.",
+            "mapping_status": "exact_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S05",
+            "pdf_page": 8,
+            "char_start": 985,
+            "char_end_exclusive": 1120,
+            "source_pdf_sha256": "36e867ec50be224e799297972defdbd421e8f5efe520561efdf5fa2fa19cd903",
+            "source_blocks": [
+              {
+                "block_number": 3,
+                "bbox": [
+                  56.139,
+                  305.383,
+                  289.998,
+                  422.57
+                ]
+              }
+            ],
+            "raw_source_excerpt": "AfterQC can be viewed as a mix of quality control tools\n(i.e. FastQC) and data filtering/trimming tools (i.e. Trim-\nmomatic, cutadapt).",
+            "model_quote_unchanged": "AfterQC can be viewed as a mix of quality control tools\n(i.e. FastQC) and data filtering/trimming tools (i.e. Trim-\nmomatic, cutadapt).",
+            "mapping_status": "exact_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S08",
+            "pdf_page": 1,
+            "char_start": 2356,
+            "char_end_exclusive": 2466,
+            "source_pdf_sha256": "36e867ec50be224e799297972defdbd421e8f5efe520561efdf5fa2fa19cd903",
+            "source_blocks": [
+              {
+                "block_number": 6,
+                "bbox": [
+                  63.753,
+                  280.736,
+                  532.493,
+                  563.992
+                ]
+              }
+            ],
+            "raw_source_excerpt": "AfterQC is able to perform quality control,\ndata filtering, error profiling and base correction automatically.",
+            "model_quote_unchanged": "AfterQC is able to perform quality control,\ndata filtering, error profiling and base correction automatically.",
+            "mapping_status": "exact_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "fail",
+        "reason_basis": "沿用已认可报告中的问题：同一工具功能及detect and cut adapters支持整合与修剪，不要求完全相同词串；候选全文与模型短摘录分报。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0,
+        "existing_acknowledged_problem_finding_reused": true,
+        "reuse_note": "复用已认可报告中的具体问题，不反推此前已经签署单独语义布尔项。"
+      }
+    },
+    {
+      "point_number": 5,
+      "case_id": "r1pdf:cc2e2247d91afc3f3559aa23",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "first5_resource_run01_original",
+        "review_parser_or_mapping_version": "route1_pdf_quote_mapping_trial_v1_20261023 (offline diagnostic only)",
+        "raw_response_sha256": "0ec50b9ee6354e5217ed7d75e51aab1e39c69fa65b8d3acadba85e06792a2e9f",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S01",
+            "pdf_page": 2,
+            "char_start": 4120,
+            "char_end_exclusive": 4215,
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "source_blocks": [
+              {
+                "block_number": 13,
+                "bbox": [
+                  262.198,
+                  633.173,
+                  478.484,
+                  753.905
+                ]
+              }
+            ],
+            "raw_source_excerpt": "In December, 2019, a series of pneumonia cases of \nunknown cause emerged in Wuhan, Hubei, China",
+            "model_quote_unchanged": "In December, 2019, a series of pneumonia cases of \nunknown cause emerged in Wuhan, Hubei, China",
+            "mapping_status": "exact_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S05",
+            "pdf_page": 5,
+            "char_start": 2894,
+            "char_end_exclusive": 2966,
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "source_blocks": [
+              {
+                "block_number": 9,
+                "bbox": [
+                  344.399,
+                  567.154,
+                  560.696,
+                  720.865
+                ]
+              }
+            ],
+            "raw_source_excerpt": "The symptom onset \ndate of the first patient identified was Dec 1, 2019.",
+            "model_quote_unchanged": "The symptom onset \ndate of the first patient identified was Dec 1, 2019.",
+            "mapping_status": "exact_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "fail",
+        "reason_basis": "沿用已认可报告中的问题：出现/发病/警报不能直接支持首次识别日期，first cases是复数。模型未直说12月1日是识别日期，不向它强加这句话。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0,
+        "existing_acknowledged_problem_finding_reused": true,
+        "reuse_note": "复用已认可报告中的具体问题，不反推此前已经签署单独语义布尔项。"
+      }
+    },
+    {
+      "point_number": 6,
+      "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "first5_resource_run01_original",
+        "review_parser_or_mapping_version": "route1_pdf_quote_mapping_trial_v1_20261023 (offline diagnostic only)",
+        "raw_response_sha256": "801514861792b4895674d2eb74811b0bf368b1760945a767d88ac870e6cb052d",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S01",
+            "pdf_page": 2,
+            "char_start": 762,
+            "char_end_exclusive": 835,
+            "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+            "source_blocks": [
+              {
+                "block_number": 5,
+                "bbox": [
+                  36.85,
+                  245.689,
+                  478.517,
+                  313.911
+                ]
+              }
+            ],
+            "raw_source_excerpt": "A novel coronavirus was subsequently identified as the causative pathogen",
+            "model_quote_unchanged": "A novel coronavirus was subsequently identified as the causative pathogen",
+            "mapping_status": "exact_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S02",
+            "pdf_page": 2,
+            "char_start": 3546,
+            "char_end_exclusive": 3633,
+            "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+            "source_blocks": [
+              {
+                "block_number": 11,
+                "bbox": [
+                  36.847,
+                  641.689,
+                  253.142,
+                  753.915
+                ]
+              }
+            ],
+            "raw_source_excerpt": "Viruses of the family Coronaviridae possess a single-\nstrand, positive-sense RNA genome",
+            "model_quote_unchanged": "Viruses of the family Coronaviridae possess a single-strand, positive-sense RNA genome",
+            "mapping_status": "normalized_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S04",
+            "pdf_page": 9,
+            "char_start": 2545,
+            "char_end_exclusive": 2604,
+            "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+            "source_blocks": [
+              {
+                "block_number": 6,
+                "bbox": [
+                  344.404,
+                  487.689,
+                  560.692,
+                  610.905
+                ]
+              }
+            ],
+            "raw_source_excerpt": "a novel \ncoronavirus (termed 2019-nCoV) has been identified",
+            "model_quote_unchanged": "a novel coronavirus (termed 2019-nCoV) has been identified",
+            "mapping_status": "normalized_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S10",
+            "pdf_page": 8,
+            "char_start": 866,
+            "char_end_exclusive": 965,
+            "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+            "source_blocks": [
+              {
+                "block_number": 3,
+                "bbox": [
+                  36.85,
+                  534.182,
+                  253.138,
+                  720.887
+                ]
+              }
+            ],
+            "raw_source_excerpt": "This evidence \nindicates that 2019-nCoV is a novel beta­coronavirus \nfrom the subgenus Sarbecovirus",
+            "model_quote_unchanged": "This evidence indicates that 2019-nCoV is a novel betacoronavirus from the subgenus Sarbecovirus",
+            "mapping_status": "normalized_unique",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "pending",
+        "reason_basis": "原理由如实限定为所见候选缺少enveloped，不是断言全文没有；完整主张继续待核，不列为已证推理错误。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0,
+        "difference_from_peer": "陈明进定位待核；本建议只认离线诊断的原出处及相关性，不改原严格失败或完整属性缺口。",
+        "location_basis": "施引PMC7092819第2页引用2、第12页书目对应Lu/PMC7159086；S01/S04新冠身份，S02 RNA属性，S10 beta分类均对应目标有关部分。四处均在同一Lu原PDF，未借用Huang。"
+      }
+    },
+    {
+      "point_number": 7,
+      "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "e9488699df083b96ec983818e07248fefb56d81618ed83f9f07ba95d67ae3664",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S01",
+            "pdf_page": 5,
+            "char_start": 1736,
+            "char_end_exclusive": 1992,
+            "source_pdf_sha256": "973971a504490433db97e905e8cd9d632150f03bcc746ffebe1c29108d7c0736",
+            "source_blocks": [
+              {
+                "block_number": 7,
+                "bbox": [
+                  269.0,
+                  449.83,
+                  470.042,
+                  605.96
+                ]
+              }
+            ],
+            "raw_source_excerpt": "Although the majority of the \nearliest cases were linked to the Huanan Sea-\nfood Wholesale Market and the patients could \nhave been infected through zoonotic or environ-\nmental exposures, it is now clear that human-to-\nhuman transmission has been occurring",
+            "model_quote_unchanged": "Although the majority of the earliest cases were linked to the Huanan Seafood Wholesale Market and the patients could have been infected through zoonotic or environmental exposures, it is now clear that human-to-human transmission has been occurring",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "coverage_gap_not_inference_error",
+        "reason_basis": "市场关联和人际传播发生有依据；原理由如实保留活体野生动物交易及efficient缺口。不把全句未覆盖登记成理由推理错误。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    },
+    {
+      "point_number": 8,
+      "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "88df51de0545564961e6180bd8e79a4812be262a684462a58fb76a246c9600df",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S02",
+            "pdf_page": 1,
+            "char_start": 2827,
+            "char_end_exclusive": 2982,
+            "source_pdf_sha256": "44e211a76583c5a89452e7f404dfd3d46130e1540d0b26c1b427d30876e75a33",
+            "source_blocks": [
+              {
+                "block_number": 16,
+                "bbox": [
+                  306.14,
+                  315.074,
+                  552.829,
+                  448.065
+                ]
+              }
+            ],
+            "raw_source_excerpt": "biochemical separation strategies,\nsuch as co-fractionation mass spectrometry (CF-MS), have provided\northogonal approaches to identifying protein complexes",
+            "model_quote_unchanged": "biochemical separation strategies, such as co-fractionation mass spectrometry (CF-MS), have provided orthogonal approaches to identifying protein complexes",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "pass_recommended",
+        "reason_basis": "原reason只作定性技术对应：S02明确将CF-MS列为识别蛋白质复合物的补充途径，与目标systematic co-fractionation对应。未宣称任意精度、全部网络覆盖或新定量增益。建议本点原理由通过；陈明进仍待核，尚非双方一致。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0,
+        "difference_from_peer": "陈明进原理由待核；本次提出李云可审阅的通过建议，未登记双方一致。",
+        "previous_current_note": "分类建议方向相同；李云尚未确认，不能统计双方人工一致。"
+      }
+    },
+    {
+      "point_number": 9,
+      "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "579825969c77c8aadd25875481ece53c38f531ab9d59bb54a386cc0de2a4678a",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S01",
+            "pdf_page": 39,
+            "char_start": 352,
+            "char_end_exclusive": 536,
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "source_blocks": [
+              {
+                "block_number": 3,
+                "bbox": [
+                  150.0,
+                  135.92,
+                  507.64,
+                  245.08
+                ]
+              }
+            ],
+            "raw_source_excerpt": "The notation ATX(N) might be useful when conceptualizing the incorporation of \nnew biomarker groups, where X represents an array of biomarkers that may become \navailable in the future.",
+            "model_quote_unchanged": "The notation ATX(N) might be useful when conceptualizing the incorporation of new biomarker groups, where X represents an array of biomarkers that may become available in the future.",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "pass_recommended",
+        "reason_basis": "原摘录明确ATX(N)及未来新标志物组，理由对应；2018身份复用来源记录、与候选内容分列，不回填模型输入。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    },
+    {
+      "point_number": 10,
+      "case_id": "r1pdf:1dfa922c755ed870245927e3",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "09dfaee5dcce1a787b208274c8e49a8bf526e70e190e659922d28de15d1e277e",
+        "source_mapping_recommendation": "supplemental_only_not_model_selected_location",
+        "location_scope": "仅全文/数值出处补证；原输出证据不足，不记模型选中摘录定位通过。",
+        "quote_locators_compact": [],
+        "reason_recommendation": "pending",
+        "reason_basis": "原输出insufficient_evidence，没有完整解释摘录可验收；已认可的全文有条件意见独立保留。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    },
+    {
+      "point_number": 11,
+      "case_id": "r1pdf:976890f040d5c2cab2e50965",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "3daa0c6b79c54a468bc319aaba29e294d82b881047b5cd28503cc222365e7783",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S04",
+            "pdf_page": 1,
+            "char_start": 3828,
+            "char_end_exclusive": 3975,
+            "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+            "source_blocks": [
+              {
+                "block_number": 11,
+                "bbox": [
+                  309.231,
+                  482.472,
+                  556.316,
+                  591.064
+                ]
+              }
+            ],
+            "raw_source_excerpt": "The PDB Core Archive has seen steady growth since\nits inception, with over 11,000 new structures plus exper-\nimental data/metadata released in 2017",
+            "model_quote_unchanged": "The PDB Core Archive has seen steady growth since its inception, with over 11,000 new structures plus experimental data/metadata released in 2017",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "coverage_gap_not_inference_error",
+        "reason_basis": "原理由正确指出特定方法获益未获支持；structures转述成实验蛋白质结构存在口径限制。按最新来文单列覆盖/措辞缺口，不升级为独立推理错误。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    },
+    {
+      "point_number": 12,
+      "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "9c4c5ab45f9590468b5b01e57575b13637a53ac0e67598909a00ba5018d0bcb4",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S09",
+            "pdf_page": 3,
+            "char_start": 6143,
+            "char_end_exclusive": 6244,
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "source_blocks": [
+              {
+                "block_number": 36,
+                "bbox": [
+                  344.385,
+                  234.082,
+                  550.425,
+                  321.462
+                ]
+              }
+            ],
+            "raw_source_excerpt": "2019-nCoV caused clusters of fatal pneumonia with clinical \npresentation greatly resembling SARS-CoV.",
+            "model_quote_unchanged": "2019-nCoV caused clusters of fatal pneumonia with clinical presentation greatly resembling SARS-CoV.",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "fail",
+        "reason_basis": "当前S09的临床表现相似及致命肺炎不能直接建立目标的严重程度比较；全文定性补证另报，不另加原句未要求的统计等效条件。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    },
+    {
+      "point_number": 13,
+      "case_id": "r1pdf:43c53ece80a7c35828d5246d",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "811e6092defaaae33544e22781e92bc5bb2fb7fc42746af06b03d896c35a16cc",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S06",
+            "pdf_page": 17,
+            "char_start": 1870,
+            "char_end_exclusive": 1997,
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "source_blocks": [
+              {
+                "block_number": 2,
+                "bbox": [
+                  150.0,
+                  351.42,
+                  523.7,
+                  474.58
+                ]
+              }
+            ],
+            "raw_source_excerpt": "the four \nAlzheimer’s continuum biomarker profiles are labeled a-d: (a) A+T−(N)−; (b) A+T+(N)−; \n(c) A+T+(N)+; and (d) A+T−(N)+",
+            "model_quote_unchanged": "the four Alzheimer’s continuum biomarker profiles are labeled a-d: (a) A+T−(N)−; (b) A+T+(N)−; (c) A+T+(N)+; and (d) A+T−(N)+",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "fail",
+        "reason_basis": "复用已认可的需修订处置：字母profile与数字stage组合描述不能证明目标三组合预期进展路径；倾向NOT仍非最终标签。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0,
+        "existing_acknowledged_problem_finding_reused": true,
+        "reuse_note": "复用已认可报告中的具体问题，不反推此前已经签署单独语义布尔项。",
+        "previous_current_note": "分类建议方向相同，但原理由先把profile清单当作非正式分期支持，与来文称原理由区分正确存在差异；解释不自动通过。"
+      }
+    },
+    {
+      "point_number": 14,
+      "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "09dfaee5dcce1a787b208274c8e49a8bf526e70e190e659922d28de15d1e277e",
+        "source_mapping_recommendation": "supplemental_only_not_model_selected_location",
+        "location_scope": "仅全文/数值出处补证；原输出证据不足，不记模型选中摘录定位通过。",
+        "quote_locators_compact": [],
+        "reason_recommendation": "pending",
+        "reason_basis": "沿用已认可r2技术意见；原输出仍证据不足，无完整模型理由可通过。数值出处与完整主张分开，不重判。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    },
+    {
+      "point_number": 15,
+      "case_id": "r1pdf:896e930269210ee1300d8037",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": null,
+        "review_parser_or_mapping_version": null,
+        "raw_response_sha256": null,
+        "source_mapping_recommendation": "held",
+        "location_scope": "未运行，沿用暂缓。",
+        "quote_locators_compact": [],
+        "reason_recommendation": "held",
+        "reason_basis": "沿用已确认暂缓：资源身份引用，训练行为与日期是施引作者自述。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    },
+    {
+      "point_number": 16,
+      "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "route1_pdf_point16_compact_v2_20261024",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "f451a04318b249851845f664e11fa947327a0d06c73e966c3a0ff99f7148355a",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S02",
+            "pdf_page": 3,
+            "char_start": 3467,
+            "char_end_exclusive": 3593,
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "source_blocks": [
+              {
+                "block_number": 30,
+                "bbox": [
+                  344.406,
+                  357.161,
+                  560.704,
+                  709.875
+                ]
+              }
+            ],
+            "raw_source_excerpt": "The presence of \n2019-nCoV in respi­ratory specimens was detected by next-\ngeneration se­quencing or real-time RT-PCR methods.",
+            "model_quote_unchanged": "The presence of 2019-nCoV in respi­ratory specimens was detected by next-generation se­quencing or real-time RT-PCR methods.",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S03",
+            "pdf_page": 2,
+            "char_start": 877,
+            "char_end_exclusive": 1033,
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "source_blocks": [
+              {
+                "block_number": 6,
+                "bbox": [
+                  36.85,
+                  269.643,
+                  478.516,
+                  346.899
+                ]
+              }
+            ],
+            "raw_source_excerpt": "We prospectively \ncollected and analysed data on patients with laboratory-confirmed 2019-nCoV infection by real-time RT-PCR and \nnext-generation sequencing.",
+            "model_quote_unchanged": "We prospectively collected and analysed data on patients with laboratory-confirmed 2019-nCoV infection by real-time RT-PCR and next-generation sequencing.",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "fail",
+        "reason_basis": "仅审紧凑v2理由：nasal and pharyngeal不能合并为鼻咽/nasopharyngeal；we归被引作者，不追加only，完整归属仍待核。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    },
+    {
+      "point_number": 17,
+      "case_id": "r1pdf:0243ab815badba958177a9a8",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "e4ad444006abd833755ccf1b81f5eacb1d23090e1b978f827e9b3baf03a4ed11",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S05",
+            "pdf_page": 2,
+            "char_start": 1141,
+            "char_end_exclusive": 1226,
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "source_blocks": [
+              {
+                "block_number": 1,
+                "bbox": [
+                  108.0,
+                  61.42,
+                  505.89,
+                  506.765
+                ]
+              }
+            ],
+            "raw_source_excerpt": "a scheme using three traditional syndromal categories and a six-stage numeric \nscheme",
+            "model_quote_unchanged": "a scheme using three traditional syndromal categories and a six-stage numeric scheme",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S06",
+            "pdf_page": 40,
+            "char_start": 1762,
+            "char_end_exclusive": 1858,
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "source_blocks": [
+              {
+                "block_number": 3,
+                "bbox": [
+                  150.0,
+                  101.92,
+                  511.29,
+                  393.265
+                ]
+              }
+            ],
+            "raw_source_excerpt": "A numeric clinical staging scheme is defined only for individuals in \nthe Alzheimer’s continuum.",
+            "model_quote_unchanged": "A numeric clinical staging scheme is defined only for individuals in the Alzheimer’s continuum.",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "pass_recommended",
+        "reason_basis": "S05六阶段数值方案及S06在Alzheimer连续体中的临床分期直接对应原理由；不外推为任意人群适用或临床验证效果。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0,
+        "previous_current_note": "分类建议方向相同，限描述性主张；李云尚未确认。"
+      }
+    },
+    {
+      "point_number": 18,
+      "case_id": "r1pdf:0625d9ca3ef5bf2a22c6109b",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "b88e3b2c8e7054b8a8598965b4ceb1361d94eb23aafb9cbdcadcf0183f29e568",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S04",
+            "pdf_page": 8,
+            "char_start": 399,
+            "char_end_exclusive": 497,
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "source_blocks": [
+              {
+                "block_number": 4,
+                "bbox": [
+                  36.85,
+                  149.178,
+                  253.147,
+                  324.915
+                ]
+              }
+            ],
+            "raw_source_excerpt": "These features of 2019-nCoV infection \nbear some resemblance to SARS-CoV and MERS-CoV \ninfections.",
+            "model_quote_unchanged": "These features of 2019-nCoV infection bear some resemblance to SARS-CoV and MERS-CoV infections.",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "fail",
+        "reason_basis": "S04 bear some resemblance支持定性相似；完全模仿的强化出现在模型reason，不能添加给施引原句；同时提及MERS不构成反证。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    },
+    {
+      "point_number": 19,
+      "case_id": "r1pdf:826cdb765c276ba900010084",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "efa022a2b065c7812344b6112965f36291d8f75f2602db282cc1a53feb86b5f4",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S01",
+            "pdf_page": 38,
+            "char_start": 381,
+            "char_end_exclusive": 566,
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "source_blocks": [
+              {
+                "block_number": 8,
+                "bbox": [
+                  150.0,
+                  235.92,
+                  500.51,
+                  275.08
+                ]
+              }
+            ],
+            "raw_source_excerpt": "A and T indicate specific neuropathologic changes that define Alzheimer’s disease, \nwhereas (N) and (C) are not specific to Alzheimer’s disease and are therefore placed in \nparentheses.",
+            "model_quote_unchanged": "A and T indicate specific neuropathologic changes that define Alzheimer’s disease, \nwhereas (N) and (C) are not specific to Alzheimer’s disease and are therefore placed in \nparentheses.",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          },
+          {
+            "evidence_id": "D01:S05",
+            "pdf_page": 11,
+            "char_start": 2359,
+            "char_end_exclusive": 2472,
+            "source_pdf_sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+            "source_blocks": [
+              {
+                "block_number": 4,
+                "bbox": [
+                  150.0,
+                  389.42,
+                  523.86,
+                  498.58
+                ]
+              }
+            ],
+            "raw_source_excerpt": "For these reasons, we have placed (N) in parenthesis, indicating the fundamental \ndifferences between (N) and AT.",
+            "model_quote_unchanged": "For these reasons, we have placed (N) in parenthesis, indicating the fundamental \ndifferences between (N) and AT.",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "pass_recommended",
+        "reason_basis": "S01/S05直接支持(N)非特异性及与A/T区别、括号理由；年份身份独立列报。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    },
+    {
+      "point_number": 20,
+      "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+      "proposal": {
+        "version": "pdf20_missing_component_batch_20261026",
+        "prepared_date": "2026-10-26",
+        "author_role": "assistant",
+        "status": "prepared_for_Li_review_not_confirmed",
+        "is_human_review": false,
+        "human_confirmed": false,
+        "joint_confirmed": false,
+        "generation_version": "remaining13_r2_original_512_generation",
+        "review_parser_or_mapping_version": "route1_pdf_explanation_parser_v4_20261024",
+        "raw_response_sha256": "a6e31c4f659059a58d881ba190d954e1b078742a51c7a2b9342fbf2ca8129f79",
+        "source_mapping_recommendation": "source_mapping_supported_recommendation",
+        "location_scope": "仅核所选摘录的来源、页码和块级bbox；不是完整主张支持或原严格解析通过。",
+        "quote_locators_compact": [
+          {
+            "evidence_id": "D01:S06",
+            "pdf_page": 2,
+            "char_start": 2344,
+            "char_end_exclusive": 2384,
+            "source_pdf_sha256": "c190fb11a9017478688f81c07e12a81f7de727c5b33cc8a2dc0c70d399a4ef14",
+            "source_blocks": [
+              {
+                "block_number": 7,
+                "bbox": [
+                  36.841,
+                  357.627,
+                  478.517,
+                  489.873
+                ]
+              }
+            ],
+            "raw_source_excerpt": "26 (63%) of 41 patients had lymphopenia.",
+            "model_quote_unchanged": "26 (63%) of 41 patients had lymphopenia.",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "reason_recommendation": "pending",
+        "reason_basis": "26/41支持本队列常见，不证明严重；原理由保留缺口，跨报告一致性按引用组分配责任，不要求单篇证明另一篇报告。",
+        "new_classification_label": null,
+        "existing_classification_and_confirmations_reused": true,
+        "formal_acceptance_added": 0
+      }
+    }
+  ],
+  "existing_classification_opinions_unchanged": true,
+  "new_classification_labels": 0,
+  "independent_blind_review_claimed": false,
+  "independent_page_by_page_rereading_claimed": false,
+  "Chen_opinions_unchanged": true,
+  "Chen_pending_for_new_Li_opinions": {
+    "location": [
+      6
+    ],
+    "reason": [
+      8
+    ]
+  },
+  "new_joint_signoffs": 0,
+  "formal_acceptance_added": 0,
+  "new_model_runs": 0
+}

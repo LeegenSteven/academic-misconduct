@@ -1,0 +1,276 @@
+{
+  "case_id": "r1pdf:1dfa922c755ed870245927e3",
+  "candidate_count": 10,
+  "checks": [
+    {
+      "evidence_id": "D01:S01",
+      "pdf_fragments": [
+        {
+          "pdf_page": 1,
+          "char_start": 1889,
+          "char_end_exclusive": 2265,
+          "raw_text": "+ (P = 0.002) \ngroups also progressed faster than the A+T− group. In summary, evidence \nof advanced Alzheimer’s disease pathological changes provided by a \ncombination of abnormal amyloid and tau PET examinations is strongly \nassociated with short-term (that is, 3–5 years) cognitive decline in cognitively \nunimpaired individuals and is therefore of high clinical relevance.\n",
+          "raw_text_sha256": "9119ba558c87a2b2c6cae8b6b2038c9ea8216701431fe124a25fadaefa23f034",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 12,
+              "bbox": [
+                217.328,
+                562.585,
+                561.959,
+                645.337
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S02",
+      "pdf_fragments": [
+        {
+          "pdf_page": 5,
+          "char_start": 4743,
+          "char_end_exclusive": 4833,
+          "raw_text": "A+T−\n2.43 (1.38–\n4.26), P = 0.002\n0.94 (0.25–\n3.59), P = 0.93\n2.93 (1.16–7.39), \nP = 0.02\n",
+          "raw_text_sha256": "ce91bc144e7c400754ee6769e6777457ef521318b6b202adc8edb69a621837c2",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 31,
+              "bbox": [
+                43.682,
+                151.712,
+                239.311,
+                169.77
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S03",
+      "pdf_fragments": [
+        {
+          "pdf_page": 2,
+          "char_start": 2243,
+          "char_end_exclusive": 3640,
+          "raw_text": "Aside from philosophical differences (for example, according \nto the IWG criteria the term AD should be restricted to symptomatic \nindividuals), the discrepancy between the NIA-AA and IWG can be \nexplained by at least two factors. First, according to the IWG criteria, \ncurrently available Αβ and tau biomarkers show ‘low predictive accu-\nracy’ for development of cognitive symptoms. For Αβ biomarkers \nalone this may indeed be the case4,5, although PET studies with long \nfollow-ups (approximately 10 years) indicate substantial Αβ-associated \nrisk for cognitive decline6, dementia7 and death7. For tau biomarkers, \nhowever, the clinicopathological correlates are much stronger than \nfor Αβ biomarkers8,9, even in asymptomatic individuals10,11. Second, \nmost prognostic studies to date are based on cerebrospinal fluid (CSF) \nbiomarkers of soluble phospho-tau levels, which is an early marker of \nAD pathology12,13. In contrast, the more recently introduced tau PET \ntechnique measures more advanced pathological changes since it \ncaptures insoluble tau aggregates14,15. Although tau PET positivity in the \nneocortex is relatively rare among cognitively unimpaired individuals \n(approximately 5–10%16–18), its presence is strongly associated with \nworse cross-sectional10,19–22 and longitudinal11,23–32 cognitive outcomes. \nHowever, large-scale longitudinal studies with combinations of amyloid \n",
+          "raw_text_sha256": "c1e1252c33f611bdbfb42d8f6729eb1c4c1a20bd2997c8f6df01fef6d36b603d",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 11,
+              "bbox": [
+                39.685,
+                531.346,
+                296.392,
+                745.776
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S04",
+      "pdf_fragments": [
+        {
+          "pdf_page": 5,
+          "char_start": 3955,
+          "char_end_exclusive": 4309,
+          "raw_text": "The main strengths of this study include the large-scale multi-\ncenter dataset with available amyloid PET, tau PET and longitudinal \nclinical and cognitive data, which allowed us to accurately estimate the \nrelative risk of the different AT groups in terms of clinical progression \nand cognitive decline. This study also has several limitations. First, \n",
+          "raw_text_sha256": "8d5e34d2021332f4fd0a1f74af90c5f6765c2dce56be8102319e3b55ff1537ca",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 15,
+              "bbox": [
+                306.142,
+                692.596,
+                562.815,
+                745.776
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S05",
+      "pdf_fragments": [
+        {
+          "pdf_page": 2,
+          "char_start": 4652,
+          "char_end_exclusive": 4734,
+          "raw_text": "Follow-up duration, months\n43.0 ± 18.9\n40.1 ± 17.6\n39.0 ± 16.5\n36.4 ± 14.9\n0.004c\n",
+          "raw_text_sha256": "0057ee006150fc8ec4c3f87e7574a50c5baaedc1f1d0892bf1b2f51cfd045dda",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 36,
+              "bbox": [
+                44.819,
+                336.138,
+                527.42,
+                345.693
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S06",
+      "pdf_fragments": [
+        {
+          "pdf_page": 3,
+          "char_start": 3133,
+          "char_end_exclusive": 3222,
+          "raw_text": "781\n777\n603\n471\n333\n236\n53\n292\n287\n226\n171\n99\n70\n9\n51\n50\n46\n27\n12\n9\n4\n60\n59\n40\n26\n12\n6\n1\n",
+          "raw_text_sha256": "6f83a80b6e8b03ace9695ad7abfe9db6fc9b687cceff0714b06bc397ea20e741",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 54,
+              "bbox": [
+                336.19,
+                223.633,
+                547.895,
+                259.773
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S07",
+      "pdf_fragments": [
+        {
+          "pdf_page": 10,
+          "char_start": 2849,
+          "char_end_exclusive": 2963,
+          "raw_text": "Additional information\nExtended data is available for this paper at  \nhttps://doi.org/10.1038/s41591-022-02049-x.\n",
+          "raw_text_sha256": "e1bfb9461c390c3bf86e6a5bc439368d3db68e4eadad36b521e21f74fdb29fed",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 8,
+              "bbox": [
+                306.142,
+                206.273,
+                467.52,
+                240.284
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S08",
+      "pdf_fragments": [
+        {
+          "pdf_page": 9,
+          "char_start": 414,
+          "char_end_exclusive": 550,
+          "raw_text": "Reporting summary\nFurther information on research design is available in the Nature \nResearch Reporting Summary linked to this article.\n",
+          "raw_text_sha256": "6f0eaa77be0cc154f19b9ede891eedab47d432c5facce22662ee525e6d291060",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 4,
+              "bbox": [
+                39.685,
+                111.572,
+                296.415,
+                143.776
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S09",
+      "pdf_fragments": [
+        {
+          "pdf_page": 8,
+          "char_start": 4459,
+          "char_end_exclusive": 6769,
+          "raw_text": "Clinical outcome measures\nWe used both binary and continuous measures of clinical progression. \nFirst, we examined progression from cognitively unimpaired to MCI \n(Fig. 2a), all-cause dementia (Fig. 2d) or AD-type dementia (Extended \nData Fig. 2). MCI was established using the Petersen criteria56 and is \ndefined as significant cognitive symptoms as assessed by a physician, \nin combination with cognitive impairment on one or multiple domains \n(for example, memory, executive functioning, attention, language) that \nis below the normative range given an individual’s age, sex and educa-\ntional background but not sufficiently severe to meet the diagnostic cri-\nteria for dementia. A large systematic review assessing 11,000 studies \nshowed convergence across practices when validated diagnostic tools \nwere used, such as in the current study57. AD-type dementia was diag-\nnosed using established criteria58. Both MCI and dementia diagnoses \nwere made by clinicians who were blinded for any PET or CSF outcome. \nFor BACS, no formal diagnosis of MCI or dementia was made during the \nstudy; hence, the cohort was excluded from this analysis. Second, we \nexamined cognitive trajectories using a sensitive composite measure \nspecifically developed to detect cognitive changes in preclinical stages \nof AD (that is, the mPACC5 (refs. 34,59); Fig. 3a) and a screening tests of \nglobal cognition (that is, the MMSE, which is frequently used in clinical \npractice and in trials; Fig. 3b). The mPACC5 consists of tests capturing \nepisodic memory, executive function, semantic memory and global \ncognition34. Individual tests were z-transformed using the baseline test \nscores of Αβ-negative participants in each cohort as the reference group \nand then averaged to obtain a composite z-score. The composition of \nmPACC5 is described for each cohort in Supplementary Table 5. Note \nthat we used a modified version of the mPACC5 because, although we \nmeasured the same cognitive domains, the specific tests used in this \nstudy are not consistent with the original mPACC5 and they differ by \ncohort. However, a direct comparison between the original PACC5 and \nthe mPACC5 in HABS (where the original PACC5 was developed) showed \na strong correspondence between the 2 versions (r = 0.89, P < 0.001; \nSupplementary Fig. 2).\n",
+          "raw_text_sha256": "78af6674070839084d5ca69cdbc855fbb1c3e315dd3829072c3f946f9291e8d9",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 10,
+              "bbox": [
+                306.142,
+                90.072,
+                562.841,
+                455.526
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    },
+    {
+      "evidence_id": "D01:S10",
+      "pdf_fragments": [
+        {
+          "pdf_page": 7,
+          "char_start": 112,
+          "char_end_exclusive": 2399,
+          "raw_text": "28.\t Teng, E. et al. Baseline [18F]GTP1 tau PET imaging is associated \nwith subsequent cognitive decline in Alzheimer’s disease. \nAlzheimers Res. Ther. 13, 196 (2021).\n29.\t Biel, D. et al. Tau-PET and in vivo Braak-staging as prognostic \nmarkers of future cognitive decline in cognitively normal to \ndemented individuals. Alzheimers Res. Ther. 13, 137 (2021).\n30.\t Pontecorvo, M. J. et al. A multicentre longitudinal study of \nflortaucipir (18F) in normal ageing, mild cognitive impairment and \nAlzheimer’s disease dementia. Brain 142, 1723–1735 (2019).\n31.\t Cho, H. et al. Progressive tau accumulation in Alzheimer disease: \n2-year follow-up study. J. Nucl. Med. 60, 1611–1621 (2019).\n32.\t Strikwerda-Brown, C. et al. Association of elevated amyloid  \nand tau positron emission tomography signal with near- \nterm development of Alzheimer disease symptoms in older  \nadults without cognitive impairment. JAMA Neurology 79, \n975–985 (2022).\n33.\t Wolters, E. E. et al. Clinical validity of increased cortical uptake \nof [18F]flortaucipir on PET as a biomarker for Alzheimer’s disease \nin the context of a structured 5-phase biomarker development \nframework. Eur. J. Nucl. Med. Mol. Imaging 48, 2097–2109 (2021).\n34.\t Papp, K. V., Rentz, D. M., Orlovsky, I., Sperling, R. A. & Mormino, \nE. C. Optimizing the preclinical Alzheimer’s cognitive composite \nwith semantic processing: the PACC5. Alzheimers Dement. (N Y) 3, \n668–677 (2017).\n35.\t Pascoal, T. A. et al. 18F-MK-6240 PET for early and late detection of \nneurofibrillary tangles. Brain 143, 2818–2830 (2020).\n36.\t Insel, P. S. et al. Determining clinically meaningful decline in \npreclinical Alzheimer disease. Neurology 93, e322–e333 (2019).\n37.\t Dumitrescu, L. et al. Genetic variants and functional pathways \nassociated with resilience to Alzheimer’s disease. Brain 143, \n2561–2575 (2020).\n38.\t Vemuri, P. et al. Effect of lifestyle activities on Alzheimer disease \nbiomarkers and cognition. Ann. Neurol. 72, 730–738 (2012).\n39.\t Stern, Y. et al. Whitepaper: defining and investigating cognitive \nreserve, brain reserve, and brain maintenance. Alzheimers \nDement. 16, 1305–1311 (2020).\n40.\t Karanth, S. et al. Prevalence and clinical phenotype of  \nquadruple misfolded proteins in older adults. JAMA Neurol. 77, \n1299–1307 (2020).\n",
+          "raw_text_sha256": "a3698a0d2dc5c622a883e33de602b9d437d74f12c67c507a2011a15008e2d797",
+          "printed_page": null,
+          "source_blocks": [
+            {
+              "block_number": 3,
+              "bbox": [
+                39.671,
+                46.612,
+                296.789,
+                466.06
+              ]
+            }
+          ],
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+        }
+      ],
+      "raw_and_bbox_replayed": true
+    }
+  ]
+}

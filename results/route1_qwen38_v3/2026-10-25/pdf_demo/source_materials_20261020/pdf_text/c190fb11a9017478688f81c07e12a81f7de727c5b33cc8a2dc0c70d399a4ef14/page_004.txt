@@ -1,0 +1,148 @@
+Articles
+www.thelancet.com   Vol 395   February 15, 2020	
+499
+(methylprednisolone 40–120 mg per day) was given as 
+a combined regimen if severe community-acquired 
+pneumonia was diagnosed by physicians at the 
+designated hospital. Oxygen support (eg, nasal cannula 
+and invasive mechanical ventilation) was administered 
+to patients according to the severity of hypoxaemia. 
+Repeated tests for 2019-nCoV were done in patients 
+confirmed to have 2019-nCoV infection to show viral 
+clearance before hospital discharge or discontinuation of 
+isolation.
+Data collection
+We reviewed clinical charts, nursing records, laboratory 
+findings, and chest x-rays for all patients with laboratory-
+confirmed 2019-nCoV infection who were reported by 
+the local health authority. The admission data of 
+these patients was from Dec 16, 2019, to Jan 2, 2020. 
+Epidemiological, clinical, laboratory, and radiological 
+characteristics and treatment and outcomes data were 
+obtained with standardised data collection forms 
+(modified case record form for severe acute respira­
+tory infection clinical characterisation shared by WHO 
+and the International Severe Acute Respiratory and 
+Emerging 
+Infection 
+Consortium) 
+from 
+electronic 
+medical records. Two researchers also independently 
+reviewed the data collection forms to double check the 
+data collected. To ascertain the epidemiological and 
+symptom data, which were not available from electronic 
+medical 
+records, 
+the 
+researchers 
+also 
+directly 
+communicated with patients or their families to ascertain 
+epidemiological and symptom data.
+Cytokine and chemokine measurement
+To characterise the effect of coronavirus on the production 
+of cytokines or chemokines in the acute phase of the 
+illness, plasma cytokines and chemokines (IL1B, IL1RA, 
+IL2, IL4, IL5, IL6, IL7, IL8 (also known as CXCL8), IL9, 
+IL10, IL12p70, IL13, IL15, IL17A, Eotaxin (also known as 
+CCL11), basic FGF2, GCSF (CSF3), GMCSF (CSF2), 
+IFNγ, IP10 (CXCL10), MCP1 (CCL2), MIP1A (CCL3), 
+MIP1B (CCL4), PDGFB, RANTES (CCL5), TNFα, and 
+VEGFA were measured using Human Cytokine Standard 
+27-Plex Assays panel and the Bio-Plex 200 system 
+(Bio-Rad, Hercules, CA, USA) for all patients according 
+to the manufacturer’s instructions. The plasma samples 
+from four healthy adults were used as controls for cross-
+comparison. The median time from being transferred to 
+a designated hospital to the blood sample collection was 
+4 days (IQR 2–5).
+Detection of coronavirus in plasma
+Each 80 µL plasma sample from the patients and contacts 
+was added into 240 µL of Trizol LS (10296028; Thermo 
+Fisher Scientific, Carlsbad, CA, USA) in the Biosafety 
+Level 3 laboratory. Total RNA was extracted by Direct-zol 
+RNA Miniprep kit (R2050; Zymo research, Irvine, CA, 
+USA) according to the manufacturer’s instructions and 
+50 µL elution was obtained for each sample. 5 µL RNA 
+was used for real-time RT-PCR, which targeted the 
+NP gene using AgPath-ID One-Step RT-PCR Reagent 
+(AM1005; Thermo Fisher Scientific). The final reaction 
+mix concentration of the primers was 500 nM and probe 
+was 200 nM. Real-time RT-PCR was per­formed using the 
+following conditions: 50°C for 15 min and 95°C for 3 min, 
+50 cycles of amplification at 95°C for 10 s and 60°C for 
+45 s. Since we did not perform tests for detecting 
+infectious virus in blood, we avoided the term viraemia 
+and used RNAaemia instead. RNAaemia was defined as a 
+positive result for real-time RT-PCR in the plasma sample.
+Definitions
+Acute respiratory distress syndrome (ARDS) and shock 
+were defined according to the interim guidance of WHO 
+For the International Severe 
+Acute Respiratory and 
+Emerging Infection 
+Consortium–WHO case record 
+form for severe acute 
+respiratory infections see 
+https://isaric.tghn.org/protocols/
+severe-acute-respiratory-
+infection-data-tools/
+Figure 1: Date of illness onset and age distribution of patients with laboratory-confirmed 2019-nCoV 
+infection
+(A) Number of hospital admissions by age group. (B) Distribution of symptom onset date for laboratory-confirmed 
+cases. The Wuhan local health authority issued an epidemiological alert on Dec 30, 2019, and closed the Huanan 
+seafood market 2 days later.
+0
+<18
+18–24
+25–49
+50–64
+≥65
+5
+10
+15
+20
+Number of cases
+Age (years)
+A
+General ward
+Intensive care unit
+Dec 1, 2019
+Dec 10, 2019
+Dec 11, 2019
+Dec 12, 2019
+Dec 13, 2019
+Dec 14, 2019
+Dec 15, 2019
+Dec 16, 2019
+Dec 17, 2019
+Dec 18, 2019
+Dec 19, 2019
+Dec 20, 2019
+Dec 21, 2019
+Dec 22, 2019
+Dec 23, 2019
+Dec 24, 2019
+Dec 25, 2019
+Dec 26, 2019
+Dec 27, 2019
+Dec 28, 2019
+Dec 29, 2019
+Dec 30, 2019
+Dec 31, 2019
+Jan 1, 2020
+Jan 2, 2020
+0
+2
+4
+6
+8
+Number of cases
+Onset date
+B
+No
+Yes
+Huanan seafood market exposure
+Epidemiological alert
+Market closed

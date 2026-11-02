@@ -1,0 +1,83 @@
+D638–D646
+Nucleic Acids Research, 2023, Vol. 51, Database issue
+Published online 12 November 2022
+https://doi.org/10.1093/nar/gkac1000
+The STRING database in 2023: protein–protein
+association networks and functional enrichment
+analyses for any sequenced genome of interest
+Damian Szklarczyk1,2, Rebecca Kirsch3, Mikaela Koutrouli
+3, Katerina Nastou
+3,
+Farrokh Mehryary
+4, Radja Hachilif1,2, Annika L. Gable1,2, Tao Fang
+1,2,
+Nadezhda T. Doncheva
+3, Sampo Pyysalo4, Peer Bork5,6,7,8,*, Lars J. Jensen3,* and
+Christian von Mering
+1,2,*
+1Department of Molecular Life Sciences, University of Zurich, 8057 Zurich, Switzerland, 2SIB Swiss Institute of
+Bioinformatics, 1015 Lausanne, Switzerland, 3Novo Nordisk Foundation Center for Protein Research, University of
+Copenhagen, 2200 Copenhagen N, Denmark, 4TurkuNLP lab, Department of Computing, University of Turku, 20014
+Turku, Finland, 5Structural and Computational Biology Unit, European Molecular Biology Laboratory, 69117
+Heidelberg, Germany, 6Yonsei Frontier Lab (YFL), Yonsei University, Seoul 03722, South Korea, 7Max Delbr¨uck
+Centre for Molecular Medicine, 13125 Berlin, Germany and 8Department of Bioinformatics, Biozentrum, University of
+W¨urzburg, 97074 W¨urzburg, Germany
+Received September 15, 2022; Revised October 10, 2022; Editorial Decision October 11, 2022; Accepted October 19, 2022
+ABSTRACT
+Much of the complexity within cells arises from func-
+tional and regulatory interactions among proteins.
+The core of these interactions is increasingly known,
+but novel interactions continue to be discovered,
+and the information remains scattered across differ-
+ent database resources, experimental modalities and
+levels of mechanistic detail. The STRING database
+(https://string-db.org/) systematically collects and
+integrates protein–protein interactions––both phys-
+ical interactions as well as functional associations.
+The data originate from a number of sources: auto-
+mated text mining of the scientiﬁc literature, compu-
+tational interaction predictions from co-expression,
+conserved genomic context, databases of interac-
+tion experiments and known complexes/pathways
+from curated sources. All of these interactions are
+critically assessed, scored, and subsequently auto-
+matically transferred to less well-studied organisms
+using hierarchical orthology information. The data
+can be accessed via the website, but also program-
+matically and via bulk downloads. The most recent
+developments in STRING (version 12.0) are: (i) it is
+now possible to create, browse and analyze a full in-
+teraction network for any novel genome of interest,
+by submitting its complement of encoded proteins,
+(ii) the co-expression channel now uses variational
+auto-encoders to predict interactions, and it covers
+two new sources, single-cell RNA-seq and experi-
+mental proteomics data and (iii) the conﬁdence in
+each experimentally derived interaction is now es-
+timated based on the detection method used, and
+communicated to the user in the web-interface. Fur-
+thermore, STRING continues to enhance its facilities
+for functional enrichment analysis, which are now
+fully available also for user-submitted genomes.
+INTRODUCTION
+A dense network of functional connections among pro-
+teins has evolved to support cellular life, forming a mul-
+titude of pathways, protein complexes and cellular struc-
+tures (1,2). Recent developments have further improved
+our ability to unravel this connectivity, through techniques
+such as high-throughput genetic screens (3–5), systematic
+co-fractionation of proteomes (6,7), in-vivo proteome-wide
+cross-linking of proteins (8–10), and deep learning-based
+computational prediction frameworks such as AlphaFold
+(11,12). These efforts complement earlier results based on
+focused, small-scale laboratory studies, yeast two-hybrid
+screens, affinity purifications, co-crystallization and compu-
+tational prediction algorithms (reviewed in (13)). Together,
+the many approaches have begun to reveal a large part of
+the interaction landscape of cellular proteins, but they each
+*To whom correspondence should be addressed. Tel: +41 44 6353147; Fax: +41 44 6356864; Email: mering@imls.uzh.ch
+Correspondence may also be addressed to Lars J. Jensen. Tel: +45 3 532 5025; Email: lars.juhl.jensen@cpr.ku.dk
+Correspondence may also be addressed to Peer Bork. Tel: +49 6221 387 8526; Fax: +49 6221 387 517; Email: bork@embl.de
+C⃝The Author(s) 2022. Published by Oxford University Press on behalf of Nucleic Acids Research.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which
+permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.

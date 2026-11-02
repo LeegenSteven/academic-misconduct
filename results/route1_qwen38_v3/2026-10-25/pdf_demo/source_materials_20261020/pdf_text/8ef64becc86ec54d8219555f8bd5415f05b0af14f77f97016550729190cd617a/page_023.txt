@@ -1,0 +1,48 @@
+rates with age and the long preclinical period of AD [227], it cannot be known if that person 
+would have developed T, (N), or (C) had they lived longer.
+For conceptual completeness, we have outlined what undoubtedly seems like a complex 
+system, but it is important to note that the design of this framework poses many questions 
+that are readily testable using subsets of the population. Many research questions may use 
+only a few of the cells in Table 4, and thus large research cohorts are not necessary to 
+evaluate many aspects of this framework. For example, are rates of cognitive decline 
+different for different manifestations of transitional cognitive decline (subjective report, 
+subtle decline on testing, or neurobehavioral symptoms)? How do cognitive outcomes differ 
+among various biomarker profiles? What is the influence of age on these relationships? Is 
+the prevalence of cerebrovascular disease different among the three suspected non-AD 
+pathologic change biomarker profiles [A−T+(N)−, A−T−(N) + , and A−T+(N)+]?
+16. Future directions
+The NIA-AA research framework defines AD biologically, by neuropathologic change or 
+biomarkers, and treats cognitive impairment as a symptom/sign of the disease rather than the 
+definition of the disease. This approach should enhance efforts to understand both the 
+biology of AD and the multifactorial etiology of dementia, which has been obscured to some 
+extent in the past by equating amnestic multidomain dementia with the presence of AD 
+neuropathologic changes, and by equating the absence of the prototypical dementia 
+syndrome with the absence of AD neuropathologic changes. The notion of providing a 
+common language with which researchers can communicate is important. If one research 
+group defines AD as Aβ plaques and pathologic tau (either by biomarkers or 
+neuropathology) and a different group defines AD as the presence of amnestic dementia (see 
+Fig. 5), then the findings from the two groups point to different entities, and the conclusions 
+are not directly comparable.
+We recognize that current biomarkers used in AD research are either expensive or invasive. 
+The current generation of biomarkers is invaluable for research; however, widespread, use 
+will be facilitated by the development of less-expensive and less-invasive biomarkers. For 
+example, new ultrasensitive immunoassay techniques may enable measurement of minute 
+amounts of brain-specific proteins in blood samples [228]. Candidate blood biomarkers such 
+as neurofilament light protein [204] and plasma tau [205] show promise as non-disease-
+specific tools to identify neurodegeneration. Plasma Aβ measures now show promise 
+[202,203]. In the future, less-invasive/less-expensive blood-based biomarker tests along with 
+genetics, clinical, and demographic information will likely play an important screening role 
+in selecting individuals for more-expensive/ more-invasive biomarker testing. This has been 
+the history in other biologically defined diseases such as cardiovascular disease (see, e.g., 
+the 2013 ACC/AHA Guideline on the Treatment of Blood Cholesterol to Reduce 
+Atherosclerotic Cardiovascular Risk in Adults) [229].
+This unifying research framework is a natural descendant of the 2011 NIA-AA preclinical 
+AD recommendations that were based on the concept that AD, identified by biomarkers, can 
+exist in the absence of symptoms [4]. The present research framework extends this concept 
+Jack et al.
+Page 23
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

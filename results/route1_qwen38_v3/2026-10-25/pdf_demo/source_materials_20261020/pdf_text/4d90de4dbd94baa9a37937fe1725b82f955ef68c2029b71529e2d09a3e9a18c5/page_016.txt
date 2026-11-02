@@ -1,0 +1,177 @@
+S A. 2005; 102(20): 7145–50.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+218. 	
+ Nogly P, Weinert T, James D, et al.: Retinal isomerization in 
+bacteriorhodopsin captured by a femtosecond x-ray laser. Science. 2018; 
+361(6398): eaat0094.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+219. 	
+ Nango E, Royant A, Kubo M, et al.: A three-dimensional movie of structural 
+changes in bacteriorhodopsin. Science. 2016; 354(6319): 1552–7.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+220. 	
+ Pande K, Hutchison CDM, Groenhof G, et al.: Femtosecond structural 
+dynamics drives the trans/cis isomerization in photoactive yellow protein. 
+Science. 2016; 352(6286): 725–9.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+221. 	 Coquelle N, Sliwa M, Woodhouse J, et al.: Chromophore twisting in the excited 
+state of a photoswitchable fluorescent protein captured by time-resolved 
+serial femtosecond crystallography. Nat Chem. 2018; 10(1): 31–7.  
+PubMed Abstract | Publisher Full Text 
+222. 	
+ Woodhouse J, Nass Kovacs G, Coquelle N, et al.: Photoswitching 
+mechanism of a fluorescent protein revealed by time-resolved crystallography 
+and transient absorption spectroscopy. Nat Commun. 2020; 11(1): 741.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+223. 	
+ Kern J, Chatterjee R, Young ID, et al.: Structures of the intermediates of 
+Kok’s photosynthetic water oxidation clock. Nature. 2018; 563(7731): 421–5. 
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+224. 	
+ Young ID, Ibrahim M, Chatterjee R, et al.: Structure of photosystem II 
+and substrate binding at room temperature. Nature. 2016; 540(7633): 453–7. 
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+225. 	 Kern J, Tran R, Alonso-Mori R, et al.: Taking snapshots of photosynthetic water 
+oxidation using femtosecond X-ray diffraction and spectroscopy. Nat Commun. 
+2014; 5: 4371.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+226. 	 Olmos JL, Pandey S, Martin-Garcia JM, et al.: Enzyme intermediates captured 
+“on the fly” by mix-and-inject serial crystallography. BMC Biol. 2018; 16(1): 59. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+227. 	 Dasgupta M, Budday D, de Oliveira SHP, et al.: Mix-and-inject XFEL 
+crystallography reveals gated conformational dynamics during enzyme 
+catalysis. Proc Natl Acad Sci U S A. 2019; 116(51): 25634–40.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+228. 	 Thompson MC, Barad BA, Wolff AM, et al.: Temperature-jump solution X-ray 
+scattering reveals distinct motions in a dynamic enzyme. Nat Chem. 2019; 
+11(11): 1058–66.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+229. 	
+ Tosha T, Nomura T, Nishida T, et al.: Capturing an initial intermediate during 
+the P450nor enzymatic reaction using time-resolved XFEL crystallography and 
+caged-substrate. Nat Commun. 2017; 8(1): 246.  
+Publisher Full Text | Faculty Opinions Recommendation 
+230. 	 Hekstra DR, White KI, Socolich MA, et al.: Electric-field-stimulated protein 
+mechanics. Nature. 2016; 540(7633): 400–5.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+231. 	 Frank J: Time-resolved cryo-electron microscopy: Recent progress. J Struct 
+Biol. 2017; 200(3): 303–6.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+232. 	 Kaledhonkar S, Fu Z, White H, et al.: Time-Resolved Cryo-electron Microscopy 
+Using a Microfluidic Chip. Methods Mol Biol. 2018; 1764: 59–71.  
+PubMed Abstract | Publisher Full Text 
+233. 	
+ Kontziampasis D, Klebl DP, Iadanza MG, et al.: A cryo-EM grid preparation 
+device for time-resolved structural studies. IUCrJ. 2019; 6(Pt 6): 1024–31. 
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+234. 	 Feng X, Fu Z, Kaledhonkar S, et al.: A Fast and Effective Microfluidic Spraying-
+Plunging Method for High-Resolution Single-Particle Cryo-EM. Structure. 2017; 
+25(4): 663–670.e3.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+235. 	
+ Kaledhonkar S, Fu Z, Caban K, et al.: Late steps in bacterial translation 
+initiation visualized using time-resolved cryo-EM. Nature. 2019; 570(7761): 
+400–4.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+236. 	 de Rosier DJ, Klug A: Reconstruction of three dimensional structures from 
+electron micrographs. Nature. 1968; 217(5124): 130–4.  
+PubMed Abstract | Publisher Full Text 
+237. 	 Crowther RA, Amos LA, Finch JT, et al.: Three Dimensional Reconstructions of 
+Spherical Viruses by Fourier Synthesis from Electron Micrographs. Nature. 
+1970; 226(5244): 421–5.  
+PubMed Abstract | Publisher Full Text 
+238. 	 Henderson R, Unwin PN: Three-dimensional model of purple membrane 
+obtained by electron microscopy. Nature. 1975; 257(5521): 28–32.  
+PubMed Abstract | Publisher Full Text 
+239. 	 Grigorieff N, Ceska TA, Downing KH, et al.: Electron-crystallographic Refinement 
+of the Structure of Bacteriorhodopsin. J Mol Biol. 1996; 259(3): 393–421. 
+PubMed Abstract | Publisher Full Text 
+240. 	
+ Henderson R, Baldwin JM, Ceska TA, et al.: Model for the structure of 
+bacteriorhodopsin based on high-resolution electron cryo-microscopy. J Mol 
+Biol. 1990; 213(4): 899–929.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+241. 	 Kimura Y, Vassylyev DG, Miyazawa A, et al.: Surface of bacteriorhodopsin 
+revealed by high-resolution electron crystallography. Nature. 1997; 389(6647): 
+206–11.  
+PubMed Abstract | Publisher Full Text 
+242. 	 Kühlbrandt W, Wang DN, Fujiyoshi Y: Atomic model of plant light-harvesting 
+complex by electron crystallography. Nature. 1994; 367(6464): 614–21.  
+PubMed Abstract | Publisher Full Text 
+243. 	
+ Gonen T, Sliz P, Kistler J, et al.: Aquaporin-0 membrane junctions reveal the 
+structure of a closed water pore. Nature. 2004; 429(6988): 193–7.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+244. 	
+ Hiroaki Y, Tani K, Kamegawa A, et al.: Implications of the aquaporin-4 
+structure on array formation and cell adhesion. J Mol Biol. 2006; 355(4): 628–
+39.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+245. 	 Walz T, Hirai T, Murata K, et al.: The three-dimensional structure of aquaporin-1. 
+Nature. 1997; 387(6633): 624–7.  
+PubMed Abstract | Publisher Full Text 
+246. 	
+ Gonen T, Cheng Y, Sliz P, et al.: Lipid-protein interactions in double-layered 
+two-dimensional AQP0 crystals. Nature. 2005; 438(7068): 633–8.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+247. 	 Glaeser RM: Specimen flatness of thin crystalline arrays: Influence of the 
+substrate. Ultramicroscopy. 1992; 46(1–4): 33–43.  
+PubMed Abstract | Publisher Full Text 
+248. 	
+ Righetto RD, Biyani N, Kowal J, et al.: Retrieving high-resolution information 
+from disordered 2D crystals by single-particle cryo-EM. Nat Commun. 2019; 
+10(1): 1722.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+249. 	 Matricardi VR, Moretz RC, Parsons DF: Electron Diffraction of Wet Proteins: 
+Catalase. Science. 1972; 177(4045): 268–70.  
+PubMed Abstract | Publisher Full Text 
+250. 	 Taylor KA, Glaeser RM: Electron diffraction of frozen, hydrated protein crystals. 
+Science. 1974; 186(4168): 1036–7.  
+PubMed Abstract | Publisher Full Text 
+251. 	 Dorset DL, Parsons DF: Electron diffraction from single, fully-hydrated, ox-liver 
+catalase microcrystals. Acta Cryst A. 1975; 31: 210–5.  
+Publisher Full Text 
+252. 	 Grigorieff N, Henderson R: Comparison of calculated and observed dynamical 
+diffraction from purple membrane: Implications. Ultramicroscopy. 1996; 65(1–2): 
+101–7.  
+Publisher Full Text 
+253. 	 Subramanian G, Basu S, Liu H, et al.: Solving protein nanocrystals by cryo-EM 
+diffraction: Multiple scattering artifacts. Ultramicroscopy. 2015; 148: 87–93. 
+PubMed Abstract | Publisher Full Text 
+254. 	 Mugnaioli E, Gorelik T, Kolb U: “Ab initio” structure solution from electron 
+diffraction data obtained by a combination of automated diffraction 
+tomography and precession technique. Ultramicroscopy. 2009; 109(6): 758–65. 
+PubMed Abstract | Publisher Full Text 
+255. 	 Sun J, Zou X: Structure determination of zeolites and ordered mesoporous 
+materials by electron crystallography. Dalton Trans. 2010; 39(36): 8355–62. 
+PubMed Abstract | Publisher Full Text 
+256. 	 Jiang L, Georgieva D, Nederlof I, et al.: Image Processing and Lattice 
+Determination for Three-Dimensional Nanocrystals. Microsc Microanal. 2011; 
+17(6): 879–85.  
+PubMed Abstract | Publisher Full Text 
+257. 	 Gemmi M, Mugnaioli E, Gorelik TE, et al.: 3D Electron Diffraction: The 
+Nanocrystallography Revolution. ACS Cent Sci. 2019; 5(8): 1315–29.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+258. 	
+ Shi D, Nannenga BL, Iadanza MG, et al.: Three-dimensional electron 
+crystallography of protein microcrystals. eLife. 2013; 2: e01345.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+259. 	 Nederlof I, van Genderen E, Li YW, et al.: A Medipix quantum area detector 
+allows rotation electron diffraction data collection from submicrometre three-
+dimensional protein crystals. Acta Crystallogr D Biol Crystallogr. 2013; 69(Pt 7): 
+1223–30.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+260. 	 Yonekura K, Kato K, Ogasawara M, et al.: Electron crystallography of ultrathin 
+3D protein crystals: Atomic model with charges. Proc Natl Acad Sci U S A. 
+Page 16 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-20",
+  "stage": "source_scope_and_citing_locations_only",
+  "freeze_status": "source_scope_locked_before_new_inference",
+  "selected_points": 20,
+  "selected_pairs": 10,
+  "distinct_citing_articles": 6,
+  "distinct_cited_articles": 10,
+  "all_prepared_points": 22,
+  "reserve_points": 2,
+  "source_or_location_pending_records": 6,
+  "known_route2_shared_pair_overlap": 0,
+  "new_classifier_runs": 0,
+  "engineering_successes": 0,
+  "human_confirmed_locator_valid": null,
+  "explanation_passes": 0,
+  "adjudicated_classification_correct": null,
+  "adjudicated_labels": 0,
+  "formal_location_validity_rate": null,
+  "meaning": "Sources and physical citation locations locked; this is not 20 completed/qualified points and not a 100% validity result.",
+  "expected_final_locator_denominator": 20,
+  "minimum_valid_for_80_percent": 16,
+  "no_silent_subset_denominator": true,
+  "models_or_gold_modified": false,
+  "extractor": {
+    "name": "PyMuPDF",
+    "version": "1.28.2"
+  },
+  "source_files_manifest": "SHA256SUMS.json"
+}

@@ -1,0 +1,96 @@
+n engl j med﻿  nejm.org﻿
+11
+Characteristics of Coronavirus Disease 2019 in China
+(2%),20 so afebrile patients may be missed if the 
+surveillance case definition focuses on fever 
+detection.14 Lymphocytopenia was common and, 
+in some cases, severe, a finding that was consis-
+tent with the results of two recent reports.1,12 We 
+found a lower case fatality rate (1.4%) than the 
+rate that was recently reportedly,1,12 probably 
+because of the difference in sample sizes and 
+case inclusion criteria. Our findings were more 
+similar to the national official statistics, which 
+showed a rate of death of 3.2% among 51,857 
+cases of Covid-19 as of February 16, 2020.11,24 
+Since patients who were mildly ill and who did 
+not seek medical attention were not included in 
+our study, the case fatality rate in a real-world 
+scenario might be even lower. Early isolation, 
+early diagnosis, and early management might 
+have collectively contributed to the reduction in 
+mortality in Guangdong.
+Despite the phylogenetic homogeneity between 
+SARS-CoV-2 and SARS-CoV, there are some clini-
+cal characteristics that differentiate Covid-19 from 
+SARS-CoV, MERS-CoV, and seasonal influenza 
+infections. (For example, seasonal influenza has 
+been more common in respiratory outpatient 
+clinics and wards.) Some additional characteris-
+tics that are unique to Covid-19 are detailed in 
+Table S3.
+Our study has some notable limitations. First, 
+some cases had incomplete documentation of 
+the exposure history and laboratory testing, 
+given the variation in the structure of electronic 
+databases among different participating sites 
+and the urgent timeline for data extraction. 
+Some cases were diagnosed in outpatient set-
+tings where medical information was briefly 
+documented and incomplete laboratory testing 
+was performed, along with a shortage of infra-
+structure and training of medical staff in non-
+specialty hospitals. Second, we could estimate 
+the incubation period in only 291 of the study 
+patients who had documented information. The 
+uncertainty of the exact dates (recall bias) might 
+have inevitably affected our assessment. Third, 
+because many patients remained in the hospital 
+and the outcomes were unknown at the time of 
+data cutoff, we censored the data regarding their 
+clinical outcomes as of the time of our analysis. 
+Fourth, we no doubt missed patients who were 
+asymptomatic or had mild cases and who were 
+treated at home, so our study cohort may repre-
+sent the more severe end of Covid-19. Fifth, 
+Variable
+All Patients 
+(N = 1099)
+Disease Severity
+Presence of Composite Primary End Point
+Nonsevere 
+(N = 926)
+Severe 
+(N = 173)
+Yes 
+(N = 67)
+No 
+(N = 1032)
+Clinical outcomes at data cutoff — no. (%)
+Discharge from hospital
+55 (5.0)
+50 (5.4)
+5 (2.9)
+1 (1.5)
+54 (5.2)
+Death
+15 (1.4)
+1 (0.1)
+14 (8.1)
+15 (22.4)
+0
+Recovery
+9 (0.8)
+7 (0.8)
+2 (1.2)
+0
+9 (0.9)
+Hospitalization
+1029 (93.6)
+875 (94.5)
+154 (89.0)
+51 (76.1)
+978 (94.8)
+*	For the development of pneumonia, data were missing for 347 patients (31.6%) regarding the time since the initial diagnosis and for 161 patients (14.6%) regarding the time since 
+symptom onset.
+†	Data regarding the median length of hospital stay were missing for 136 patients (12.4%).

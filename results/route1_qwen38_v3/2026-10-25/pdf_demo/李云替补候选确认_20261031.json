@@ -1,0 +1,27 @@
+{
+  "record_type": "LiYun_explicit_replacement_candidate_confirmation",
+  "recorded_date": "2026-10-31",
+  "source": "current_chat_user_confirmation",
+  "exact_confirmation": "认可：A替代第1点，B替代第15点",
+  "candidate_A": {
+    "substitute_point": 1,
+    "citing_pmcid": "PMC11350039",
+    "cited_pmcid": "PMC5958625",
+    "case_id": "r1pdf:7cec9c89372bb76396f53fdb"
+  },
+  "candidate_B": {
+    "substitute_point": 15,
+    "citing_pmcid": "PMC7092819",
+    "cited_pmcid": "PMC7159299",
+    "case_id": "r1pdf:7f30025df2b6e4c93f2addd5"
+  },
+  "new_official_list": "original_18_plus_candidate_A_and_candidate_B",
+  "original_held_points": [
+    1,
+    15
+  ],
+  "freeze_scope": "citation scope, inputs, adapter and acceptance configuration remain those already frozen on 2026-10-29; this confirmation does not trigger a new model run",
+  "personal_confirmation": true,
+  "joint_signoff": false,
+  "formal_end_to_end_acceptance": false
+}

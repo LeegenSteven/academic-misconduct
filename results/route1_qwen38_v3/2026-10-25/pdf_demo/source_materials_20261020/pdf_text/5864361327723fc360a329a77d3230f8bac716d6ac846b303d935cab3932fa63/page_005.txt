@@ -1,0 +1,129 @@
+Articles
+568	
+www.thelancet.com   Vol 395   February 22, 2020
+assembled genome sequences were confirmed by Sanger 
+sequencing.
+Rapid amplification of cDNA ends (RACE) was done 
+to obtain the sequences of the 5ʹ and 3ʹ termini, using the 
+Invitrogen 5ʹ RACE System and 3ʹ RACE System 
+(Invitrogen, Carlsbad, CA, USA), according to the manu­
+facturer’s instructions. Gene-specific primers (appendix 
+p 1) for 5ʹ and 3ʹ RACE PCR amplification were designed 
+to obtain a fragment of approximately 400–500 bp for the 
+two regions. Purified PCR products were cloned into the 
+pMD18-T Simple Vector (TaKaRa, Takara Biotechnology, 
+Dalian, China) and chemically com­petent Escherichia coli 
+(DH5α cells; TaKaRa), according to the manufacturer’s 
+instructions. PCR products were sequenced with use of 
+M13 forward and reverse primers.
+Virus genome analysis and annotation
+Reference virus genomes were obtained from GenBank 
+using Blastn with 2019-nCoV as a query. The open 
+reading frames of the verified genome sequences were 
+predicted using Geneious (version 11.1.5) and anno­
+tated using the Conserved Domain Database.19 Pairwise 
+sequence identities were also calculated using Geneious. 
+Potential genetic recombination was investigated using 
+SimPlot software (version 3.5.1)20 and phylogenetic 
+analysis.
+Phylogenetic analysis
+Sequence alignment of 2019-nCoV with reference se­
+quences was done with Mafft software (version 7.450).21 
+Phylogenetic analyses of the complete genome and 
+major coding regions were done with RAxML software 
+(version 8.2.9)22 with 1000 bootstrap replicates, employing 
+the general time reversible nucleotide substitution model.
+Development of molecular diagnostics for 2019-nCoV
+On the basis of the genome sequences obtained, a real-time 
+PCR detection assay was developed. PCR primers and 
+probes were designed using Applied Biosystems Primer 
+Express Software (ThermoFisher Scientific, Foster City, CA, 
+USA) on the basis of our sequenced virus genomes. The 
+specific primers and probe set (labelled with the reporter 
+6-carboxyfluorescein [FAM] and the quencher Black Hole 
+Quencher 1 [BHQ1]) for orf1a were as follows: for­ward primer 
+5ʹ-AGAAGATTGGTTAGATGATGATAGT-3ʹ; re­verse pri­mer 
+5ʹ-TTCCATCTCTAATTGAGGTTGAACC-3ʹ; 
+and 
+probe 
+5ʹ-FAM-TCCTCACTGCCGTCTTGTTG­ACCA-BHQ1-3ʹ. 
+The human GAPDH gene was used as an internal con­trol 
+(forward primer 5ʹ-TCAAGAA­GGTGGTGAAGCAGG-3ʹ; 
+reverse 
+primer 
+5ʹ-CAGCGTC­AAA­GGTG­GAGGAGT-3ʹ; 
+probe 
+5ʹ-VIC-­CCT­CAA­GGG­CATCC­TGGG­CTACACT-
+BHQ1-3ʹ). Primers and probes were synthesised by BGI 
+(Beijing, China). RT-PCR was done with an Applied 
+Biosystems 7300 Real-Time PCR System (Thermo­
+Scientific), with 30 µL reaction volumes consisting of 14 µL 
+of diluted RNA, 15 µL of 2X Taqman One-Step RT-PCR 
+Master Mix Reagents (4309169; Applied Biosystems, 
+ThermoFisher), 0·5 µL of 40X MultiScribe and RNase 
+inhibitor mixture, 0·75 μL forward primer (10 μmol/L), 
+0·75 μL reverse primer (10 μmol/L), and 0·375 μL probe 
+(10 μmol/L). Thermal cycling parameters were 30 min 
+at 42°C, followed by 10 min at 95°C, and a subsequent 
+40 cycles of amplification (95°C for 15 s and 58°C for 45 s). 
+Fluorescence was recorded during the 58°C phase.
+Role of the funding source
+The funder of the study had no role in data collection, 
+data analysis, data interpretation, or writing of report. 
+GFG and WS had access to all the data in the study, and 
+GFG, WS, WT, WC, and GW were responsible for the 
+decision to submit for publication.
+Results
+From the nine patients’ samples analysed, eight complete 
+and two partial genome sequences of 2019-nCoV were 
+obtained. These data have been deposited in the China 
+National Microbiological Data Center (accession num­
+ber NMDC10013002 and genome accession numbers 
+NMDC60013002-01 to NMDC60013002-10) and the data 
+from BGI have been deposited in the China National 
+GeneBank (acces­sion numbers CNA0007332–35).
+Based on these genomes, we developed a real-time 
+PCR assay and tested the original clinical samples from 
+the BGI (WH01, WH02, WH03, and WH04) again to 
+determine their threshold cycle (Ct) values (table). The 
+remaining samples were tested by a different real-time 
+PCR assay developed by the Chinese CDC, with Ct values 
+ranging from 22·85 to 32·41 (table). These results 
+confirmed the presence of 2019-nCoV in the patients.
+Bronchoalveolar lavage fluid samples or cultured 
+viruses of nine patients were used for next-generation 
+sequencing. After removing host (human) reads, de novo 
+assembly was done and the contigs obtained used as 
+queries to search the non-redundant protein database. 
+Some contigs identified in all the samples were 
+closely related to the bat SARS-like betacoronavirus 
+bat-SL-CoVZC45 
+betacoronavirus.23 
+Bat-SL-CoVZC45 
+was then used as the reference genome and reads from 
+each pool were mapped to it, generating consensus 
+sequences corresponding to all the pools. These 
+consensus sequences were then used as new reference 
+genomes. Eight complete genomes and two partial 
+genomes (from samples WH19002 and WH02; table) 
+were obtained. The de novo assembly of the clean reads 
+from all the pools did not identify any other long contigs 
+that corresponded to other viruses at high abundance.
+The eight complete genomes were nearly identical 
+across the whole genome, with sequence identity above 
+99·98%, indicative of a very recent emergence into the 
+human population (figure 1A). The largest nucleotide 
+difference was four mutations. Notably, the sequence 
+identity between the two virus genomes from the same 
+patient (WH19001, from bronchoalveolar lavage fluid, 
+and WH19005, from cell culture) was more than 99·99%, 
+See Online for appendix
+For Genbank see https://www.
+ncbi.nlm.nih.gov/genbank
+For the China National 
+Microbiological Data Center 
+website see http://nmdc.cn/
+For the data from BGI on the 
+China National GeneBank see 
+https://db.cngb.org/datamart/
+disease/DATAdis19/

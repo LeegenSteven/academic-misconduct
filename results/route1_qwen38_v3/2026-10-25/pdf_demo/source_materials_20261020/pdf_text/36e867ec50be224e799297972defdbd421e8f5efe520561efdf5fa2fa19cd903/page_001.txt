@@ -1,0 +1,43 @@
+The Author(s) BMC Bioinformatics 2017, 18(Suppl 3):80
+DOI 10.1186/s12859-017-1469-3
+RESEARCH
+Open Access
+AfterQC: automatic filtering, trimming,
+error removing and quality control for
+fastq data
+Shifu Chen1,2,3, Tanxiao Huang2, Yanqing Zhou2, Yue Han2, Mingyan Xu2 and Jia Gu1*
+From The Fifteenth Asia Pacific Bioinformatics Conference
+Shenzhen, China. 16–18 January 2017
+Abstract
+Background: Some applications, especially those clinical applications requiring high accuracy of sequencing data,
+usually have to face the troubles caused by unavoidable sequencing errors. Several tools have been proposed to
+profile the sequencing quality, but few of them can quantify or correct the sequencing errors. This unmet requirement
+motivated us to develop AfterQC, a tool with functions to profile sequencing errors and correct most of them, plus
+highly automated quality control and data filtering features. Different from most tools, AfterQC analyses the
+overlapping of paired sequences for pair-end sequencing data. Based on overlapping analysis, AfterQC can detect and
+cut adapters, and furthermore it gives a novel function to correct wrong bases in the overlapping regions. Another
+new feature is to detect and visualise sequencing bubbles, which can be commonly found on the flowcell lanes and
+may raise sequencing errors. Besides normal per cycle quality and base content plotting, AfterQC also provides features
+like polyX (a long sub-sequence of a same base X) filtering, automatic trimming and K-MER based strand bias profiling.
+Results: For each single or pair of FastQ files, AfterQC filters out bad reads, detects and eliminates sequencer’s bubble
+effects, trims reads at front and tail, detects the sequencing errors and corrects part of them, and finally outputs clean
+data and generates HTML reports with interactive figures. AfterQC can run in batch mode with multiprocess support,
+it can run with a single FastQ file, a single pair of FastQ files (for pair-end sequencing), or a folder for all included FastQ
+files to be processed automatically. Based on overlapping analysis, AfterQC can estimate the sequencing error rate
+and profile the error transform distribution. The results of our error profiling tests show that the error distribution is
+highly platform dependent.
+Conclusion: Much more than just another new quality control (QC) tool, AfterQC is able to perform quality control,
+data filtering, error profiling and base correction automatically. Experimental results show that AfterQC can help to
+eliminate the sequencing errors for pair-end sequencing data to provide much cleaner outputs, and consequently
+help to reduce the false-positive variants, especially for the low-frequency somatic mutations. While providing rich
+configurable options, AfterQC can detect and set all the options automatically and require no argument in most cases.
+Keywords: NGS, Overlap analysis, Quality control, Data filtering, Bubble
+*Correspondence: jia.gu@siat.ac.cn
+1Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences,
+Xueyuan Road, Shenzhen, China
+Full list of author information is available at the end of the article
+© The Author(s). 2017 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the
+Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+(http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.

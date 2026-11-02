@@ -1,0 +1,12 @@
+JACK ET AL.
+5149
+FIGURE 1
+Staging illustrated with imaging biomarkers along with modifying effects of copathology and cognitive reserve. A, Prototypical
+temporal evolution in Alzheimer’s disease (AD): sequential evolution of amyloid and tau positron emission tomography (PET), followed by
+neurodegeneration and clinical symptoms. Time is on the x axis and magnitude of biomarker or clinical abnormality is on the y axis; (A) also
+illustrates an idealized evolution of AD imaging biomarkers in an individual with only AD neuropathologic change (MTL refers to medial temporal
+lobe uptake on tau PET). B, The effect of neurodegenerative copathology in a person with biological AD stage A (i.e., A+T2−) but severe
+neurodegeneration and clinical symptoms that are out of proportion to the degree of tauopathy. This is denoted by a leftward shift (horizontal gray
+arrow) of neurodegeneration (N) and clinical symptoms (C) relative to the pure AD temporal sequence. C, The effect of exceptional cognitive
+reserve. This is denoted by a rightward shift, later in time (horizontal gray arrow), in the appearance of cognitive symptoms (C, dashed green line)
+relative to the average temporal biomarker sequence.

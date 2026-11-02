@@ -1,0 +1,28 @@
+Text Box 3 Flexibility of the AT(N) system
+The AT(N) system is designed to incorporate new biomarkers within existing AT(N) 
+groups. For example, neurofilament light chain (cerebrospinal fluid or plasma) or 
+neurogranin will likely be added to the (N) group.
+The AT(N) system is also designed to incorporate new biomarkers in categories beyond 
+AT(N). The notation ATX(N) might be useful when conceptualizing the incorporation of 
+new biomarker groups, where X represents an array of biomarkers that may become 
+available in the future. For example, when a measure that incorporates and appropriately 
+weights the many sources of information about cerebrovascular disease has been 
+developed and standardized, AT(N) will be expanded to ATV(N). When biomarkers for 
+both V and synuclein have been developed, AT(N) will be expanded to ATVS(N), and so 
+on for biomarkers of inflammation (I), TDP43, etc.
+Cut points: Cut points should be selected to fit the specific research question(s) of 
+interest. The framework is outlined using a single cut point approach, which labels each 
+biomarker group normal (−) or abnormal (+). This approach is conceptually 
+straightforward and will always be needed in some use cases, for example, as an 
+inclusion criterion in clinical trials. However, a two–cut point approach (lenient and 
+conservative) might have great appeal. If the research question centered on the earliest 
+detectable evidence of Alzheimer’s pathologic change, then a lenient cut point would be 
+appropriate. If the research questions required high diagnostic certainty, then more 
+conservative cut points would be appropriate.
+Jack et al.
+Page 39
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

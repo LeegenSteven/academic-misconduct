@@ -1,0 +1,46 @@
+“Alzheimer’s disease” would be applied if biomarker evidence of both Aβ and pathologic 
+tau was present (Table 2, Fig. 1, Text Box 1). Alzheimer’s pathologic change and AD are not 
+regarded as separate entities but earlier and later phases of the “Alzheimer’s continuum” (an 
+umbrella term that includes both). These definitions are applied independently from clinical 
+symptoms. They also meet our specifications to function equally well across the disease 
+spectrum: from early-through late-life onset, from presymptomatic through symptomatic 
+phases, and for typical and atypical clinical presentations.
+7. Staging
+We next developed a system for staging severity. Our guiding principles were the following. 
+Two types of information about the research participant are staged independently from each 
+other: (1) grading disease severity using biomarkers and (2) grading the severity of cognitive 
+impairment. Measures used to define AD must be specific for the disease, whereas measures 
+used to stage severity need not be. Thus, different measures have different roles (Text Box 
+2). Aβ biomarkers determine whether or not an individual is in the Alzheimer’s continuum. 
+Pathologic tau biomarkers determine if someone who is in the Alzheimer’s continuum has 
+AD because both Aβ and tau are required for a neuropathologic diagnosis of the disease. 
+Neurodegenerative/neuronal injury biomarkers and cognitive symptoms, neither of which is 
+specific for AD, are used only to stage severity not to define the presence of the Alzheimer’s 
+continuum.
+8. Biomarker profiles and categories
+In many research studies, it will be most appropriate to treat biomarkers of amyloid, 
+pathologic tau, and neurodegeneration/neuronal injury as continuous measures without using 
+normal/abnormal cut points. However, biomarkers used in medicine often use a cut point 
+denoting normal versus abnormal values to support management decisions for an individual 
+patient. The need for discrete categorization of biomarker continua is also obvious for AD 
+clinical trials, where explicit cut points serve as inclusion/exclusion criteria.
+The addition of a normal/abnormal cut point for each AT(N) biomarker group results in 
+eight different AT(N) “biomarker profiles” (Table 2, Text Box 1): A+T−(N)−, A+T + (N) 
++ , etc. Based on the definitions of Alzheimer’s pathologic change and AD outlined earlier, 
+the ATN biomarker system assigns every individual to one of three “biomarker categories” 
+(Table 2, Text Box 1): (1) individuals with normal AD biomarkers; (2) those in the 
+Alzheimer’s continuum (subdivided into Alzheimer’s pathologic change and AD); and (3) 
+those with a normal amyloid biomarker but with abnormal T or (N), or both. This latter 
+biomarker profile implies evidence of one or more neuropathologic processes other than AD 
+[35,40,107] and has been labeled “suspected non-Alzheimer’s pathophysiology” (or SNAP) 
+[38].
+It is worthwhile emphasizing that, like the 2012 NIA-AA classification system for AD 
+neuropathic change [105,106], AT(N) scoring of biomarkers is independent from clinical 
+symptoms.
+Jack et al.
+Page 8
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

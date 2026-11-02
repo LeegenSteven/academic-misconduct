@@ -1,0 +1,206 @@
+586  |  Nature  |  Vol 596  |  26 August 2021
+Article
+representation—for a pairwise description of amino acids to be represent-
+able as a single 3D structure, many constraints must be satisfied including 
+the triangle inequality on distances. On the basis of this intuition, we 
+arrange the update operations on the pair representation in terms of 
+triangles of edges involving three different nodes (Fig. 3c). In particular, 
+we add an extra logit bias to axial attention31 to include the ‘missing edge’ 
+of the triangle and we define a non-attention update operation ‘triangle 
+multiplicative update’ that uses two edges to update the missing third 
+edge (see Supplementary Methods 1.6.5 for details). The triangle multipli-
+cative update was developed originally as a more symmetric and cheaper 
+replacement for the attention, and networks that use only the attention or 
+multiplicative update are both able to produce high-accuracy structures. 
+However, the combination of the two updates is more accurate.
+We also use a variant of axial attention within the MSA representation. 
+During the per-sequence attention in the MSA, we project additional 
+logits from the pair stack to bias the MSA attention. This closes the loop 
+by providing information flow from the pair representation back into 
+the MSA representation, ensuring that the overall Evoformer block is 
+able to fully mix information between the pair and MSA representations 
+and prepare for structure generation within the structure module.
+ 
+End-to-end structure prediction
+The structure module (Fig. 3d) operates on a concrete 3D backbone 
+structure using the pair representation and the original sequence row 
+(single representation) of the MSA representation from the trunk. The 
+3D backbone structure is represented as Nres independent rotations 
+and translations, each with respect to the global frame (residue gas) 
+(Fig. 3e). These rotations and translations—representing the geometry 
+of the N-Cα-C atoms—prioritize the orientation of the protein back-
+bone so that the location of the side chain of each residue is highly 
+constrained within that frame. Conversely, the peptide bond geometry 
+is completely unconstrained and the network is observed to frequently 
+violate the chain constraint during the application of the structure mod-
+ule as breaking this constraint enables the local refinement of all parts 
+of the chain without solving complex loop closure problems. Satisfac-
+tion of the peptide bond geometry is encouraged during fine-tuning 
+by a violation loss term. Exact enforcement of peptide bond geometry 
+is only achieved in the post-prediction relaxation of the structure by 
+gradient descent in the Amber32 force field. Empirically, this final relaxa-
+tion does not improve the accuracy of the model as measured by the 
+f
+Backbone frames
+(r, 3×3) and (r,3)
+Backbone frames
+(r, 3×3) and (r,3) 
+(initially all at the origin)
+Predict relative 
+rotations and 
+translations
+Predict F angles 
+and compute all 
+atom positions 
+(Rk, tk)
+xi
+8 blocks (shared weights)
+d
+Pair 
+representation
+(r,r,c)
+Single repr. (r,c) 
+Single repr. (r,c) 
+MSA 
+representation 
+(s,r,c)
+Pair 
+representation
+(r,r,c)
+Row-wise 
+gated 
+self-
+attention 
+with pair 
+bias
+Column-
+wise 
+gated 
+self-
+attention 
++
+Tran-
+sition
+Outer 
+product 
+mean
++
++
+Triangle 
+update 
+using 
+outgoing
+edges
+Triangle 
+self-
+attention 
+around 
+starting 
+node
+Triangle 
+self-
+attention 
+around 
+ending 
+node
+Triangle 
+update 
+using 
+incoming
+edges
+Tran-
+sition
+MSA 
+representation 
+(s,r,c)
+Pair 
+representation
+(r,r,c)
+a
++
++
++
++
++
++
+Triangle self-attention around 
+starting node
+Triangle self-attention around 
+ending node
+ki
+ij
+kj
+jk
+ij
+ik
+i
+k
+j
+i
+j
+k
+ki
+ij
+kj
+i
+j
+k
+ik
+ij
+jk
+i
+j
+k
+Triangle multiplicative update
+using ‘outgoing’ edges
+Triangle multiplicative update
+using ‘incoming’ edges
+c
+IPA
+module
++
+Pair representation 
+(r,r,c)
+ij
+i
+j
+k
+ik
+i
+j
+k
+jk
+kj
+ji
+ki
+i
+j
+k
+ij
+ji
+jk
+kj
+ki
+ik
+Corresponding edges 
+in a graph
+b
+48 blocks (no shared weights)
+e
+(Rk, tk)
+~
+~
+xi
+~
+Fig. 3 | Architectural details. a, Evoformer block. Arrows show the information 
+flow. The shape of the arrays is shown in parentheses. b, The pair representation 
+interpreted as directed edges in a graph. c, Triangle multiplicative update and 
+triangle self-attention. The circles represent residues. Entries in the pair 
+representation are illustrated as directed edges and in each diagram, the edge 
+being updated is ij. d, Structure module including Invariant point attention (IPA) 
+module. The single representation is a copy of the first row of the MSA 
+representation. e, Residue gas: a representation of each residue as one 
+free-floating rigid body for the backbone (blue triangles) and χ angles for the 
+side chains (green circles). The corresponding atomic structure is shown below. 
+f, Frame aligned point error (FAPE). Green, predicted structure; grey, true 
+structure; (Rk, tk), frames; xi, atom positions.

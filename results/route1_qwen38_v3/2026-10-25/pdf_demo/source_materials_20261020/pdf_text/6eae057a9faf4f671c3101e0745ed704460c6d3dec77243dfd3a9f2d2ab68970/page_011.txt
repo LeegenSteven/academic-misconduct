@@ -1,0 +1,52 @@
+1
+nature research  |  reporting summary
+April 2020
+Corresponding author(s):
+John Jumper, Demis Hassabis
+Last updated by author(s): Jul 11, 2021
+Reporting Summary
+Nature Research wishes to improve the reproducibility of the work that we publish. This form provides structure for consistency and transparency 
+in reporting. For further information on Nature Research policies, see our Editorial Policies and the Editorial Policy Checklist.
+Statistics
+For all statistical analyses, confirm that the following items are present in the figure legend, table legend, main text, or Methods section.
+n/a Confirmed
+The exact sample size (n) for each experimental group/condition, given as a discrete number and unit of measurement
+A statement on whether measurements were taken from distinct samples or whether the same sample was measured repeatedly
+The statistical test(s) used AND whether they are one- or two-sided 
+Only common tests should be described solely by name; describe more complex techniques in the Methods section.
+A description of all covariates tested
+A description of any assumptions or corrections, such as tests of normality and adjustment for multiple comparisons
+A full description of the statistical parameters including central tendency (e.g. means) or other basic estimates (e.g. regression coefficient) 
+AND variation (e.g. standard deviation) or associated estimates of uncertainty (e.g. confidence intervals)
+For null hypothesis testing, the test statistic (e.g. F, t, r) with confidence intervals, effect sizes, degrees of freedom and P value noted 
+Give P values as exact values whenever suitable.
+For Bayesian analysis, information on the choice of priors and Markov chain Monte Carlo settings
+For hierarchical and complex designs, identification of the appropriate level for tests and full reporting of outcomes
+Estimates of effect sizes (e.g. Cohen's d, Pearson's r), indicating how they were calculated
+Our web collection on statistics for biologists contains articles on many of the points above.
+Software and code
+Policy information about availability of computer code
+Data collection
+Source code for the AlphaFold model, trained weights, and inference script will be made available under an open-source license at https://
+github.com/deepmind/ upon publication. 
+ 
+Neural networks were developed with TensorFlow v1 (https://github.com/tensorflow/tensorflow), Sonnet v1 (https://github.com/deepmind/
+sonnet), JAX v0.1.69 (https://github.com/google/jax/), and Haiku v0.0.4 (https://github.com/deepmind/dm-haiku). The XLA compiler is 
+bundled with JAX and does not have a separate version number. 
+ 
+For MSA search on BFD+Uniclust30, and for template search against PDB70, we used HHBlits and HHSearch from hh-suite v3.0-beta.3 
+14/07/2017 (https://github.com/soedinglab/hh-suite). For MSA search on UniRef90 and clustered MGnify, we used jackhmmer from HMMER 
+v3.3 (http://eddylab.org/software/hmmer/). For constrained relaxation of structures, we used OpenMM v7.3.1 (https://github.com/openmm/
+openmm) with the Amber99sb force field.  
+ 
+Construction of BFD used MMseqs2 version 925AF (https://github.com/soedinglab/MMseqs2) and FAMSA v1.2.5 (https://github.com/refresh-
+bio/FAMSA). 
+Data analysis
+Data analysis used Python v3.6 (https://www.python.org/), NumPy v1.16.4 (https://github.com/numpy/numpy), SciPy v1.2.1 (https://
+www.scipy.org/), seaborn v0.11.1 (https://github.com/mwaskom/seaborn), Matplotlib v3.3.4 (https://github.com/matplotlib/matplotlib), 
+bokeh v1.4.0 (https://github.com/bokeh/bokeh), pandas v1.1.5 (https://github.com/pandas-dev/pandas), plotnine v0.8.0 (https://github.com/
+has2k1/plotnine), statsmodels v0.12.2 (https://github.com/statsmodels/statsmodels) and Colab (https://research.google.com/colaboratory). 
+TM-align v20190822 (https://zhanglab.dcmb.med.umich.edu/TM-align/) was used for computing TM-scores. Structure visualizations were 
+created in Pymol v2.3.0 (https://github.com/schrodinger/pymol-open-source).
+For manuscripts utilizing custom algorithms or software that are central to the research but not yet described in published literature, software must be made available to editors and 
+reviewers. We strongly encourage code deposition in a community repository (e.g. GitHub). See the Nature Research guidelines for submitting code & software for further information.

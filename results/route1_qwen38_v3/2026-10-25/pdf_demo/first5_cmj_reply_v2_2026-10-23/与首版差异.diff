@@ -1,0 +1,267 @@
+--- 首批5点语义核对_陈明进_20261022.md
++++ 首批5点语义核对_陈明进_v2_20261022.md
+@@ -1,23 +1,24 @@
+-# 首批5点真实双PDF闭环语义核对（陈明进）
++# 首批5点真实双PDF闭环语义核对（陈明进 v2）
+ 
+ **日期**：2026-10-22
+ **核对人**：陈明进
+-**同步检查**：DeepSeek独立核对，4个待确认问题全部同意
+-**状态**：语义核对完成，待双方共同确认口径后更新模型理由形成v2
++**同步检查**：DeepSeek独立核对4个待确认问题，全部同意
++**李云反馈**：2026-10-22接收核对，提出修正与待核项（见第五节）
++**状态**：语义核对完成，1点双方一致（AfterQC），4点保留条件或待核；口径确认前不重跑模型，不记为5点全部验收通过
+ 
+ ---
+ 
+ ## 一、总体结论
+ 
+-| 点 | 主题 | 模型标签 | 核对结论 | 理由是否需修正 |
++| 点 | 主题 | 模型标签 | 核对结论 | 状态 |
+ |---|---|---|---|---|
+-| 1 | PDB结构数量 | NOT_ACCURATE | 维持标签 | 是："数量级差异"→"口径不同" |
+-| 2 | Trimmomatic | ACCURATE | 维持 | 否 |
+-| 3 | AfterQC | ACCURATE | 维持 | 是："支持有限"→"支持充分" |
+-| 4 | 武汉病例 | ACCURATE | 维持 | 否 |
+-| 5 | 新型冠状病毒 | ACCURATE | 维持 | 是：需注明enveloped未直接出现 |
+-
+-**6处摘录不一致**：全部为PDF换行/断词连字符/引用标记导致，模型做了合理规范化，无编造内容。
++| 1 | PDB结构数量 | NOT_ACCURATE | 口径不同一致；NA标签待共同确认 | 待确认标签方案 |
++| 2 | Trimmomatic | ACCURATE | 核心功能有依据；原理由adapter tool限制需纠正 | 条件项与理由分开确认 |
++| 3 | AfterQC | ACCURATE | 支持充分，理由过度保守 | **双方内容方向一致** |
++| 4 | 武汉病例 | ACCURATE | Dec 1是发病日期非识别日期，需补依据或待核 | **继续待核** |
++| 5 | 新型冠状病毒 | ACCURATE | enveloped常识豁免需说明材料边界与版本 | **继续待核** |
++
++**6处摘录不一致**：全部为PDF换行/断词连字符/引用标记导致，模型做了合理规范化，无编造内容。但全面规范化通过率需另版实现后实测，不预填。
+ 
+ ---
+ 
+@@ -34,11 +35,11 @@
+ - D01:S03："The PDB Core Archive houses 3D atomic coordinates of more than 144 000 structural models of proteins, DNA/RNA, and their complexes with metals and small molecules"
+ - D01:S07："The PDB Core Archive houses 3D atomic coordinates of >144 000 structural models of proteins, DNA/RNA, and their complexes with metals and small molecules"
+ 
+-**核对结论**：维持NOT_ACCURATE。
+-- 模型理由中"数量级差异"表述不准确——144k和100k同为10^5量级。
+-- 真正问题是**口径不同**：被引论文给出的是PDB总结构数>144,000（含蛋白质、DNA/RNA及复合物），claim要求的是"unique proteins"数量。被引论文未直接给出unique proteins的拆分数量。
+-- 不能因总结构数>144k就自动否定"约100k unique proteins"（一个蛋白质可能有多个结构，且总数包含DNA/RNA/复合物），但claim的具体数值在被引论文中未获直接支持。
+-- **修正后理由**：被引论文给出PDB总结构数>144,000（含蛋白质、DNA/RNA及复合物），但未直接给出"unique proteins"的数量；claim的"约100,000个独特蛋白质"与被引论文的总结构数口径不同，具体数值未获直接支持。
++**核对结论**：
++- 双方一致：总结构数（>144k，含蛋白质、DNA/RNA及复合物）与unique proteins（约100k）口径不同，不能按数值大小判矛盾。
++- 陈明进建议：按重要数值未获支持保留NOT_ACCURATE。李云先作为待共同确认方案登记，不自动裁决。
++- 模型理由中"数量级差异"表述不准确，应改为"口径不同、具体数值未获直接支持"。
++- **人工建议理由（不写回原模型输出）**：被引论文给出PDB总结构数>144,000（含蛋白质、DNA/RNA及复合物），但未直接给出"unique proteins"的数量；claim的"约100,000个独特蛋白质"与被引论文的总结构数口径不同，具体数值未获直接支持。
+ 
+ ---
+ 
+@@ -53,10 +54,11 @@
+ - D01:S04："Both quality modes are shown for Trimmomatic. MI indicates Maximum Information mode, and SW indicates Sliding Window mode."
+ - D01:S08："Trimmomatic uses a pipeline-based architecture, allowing individual 'steps' (adapter removal, quality filtering, etc.) to be applied to each read/read pair"
+ 
+-**核对结论**：维持ACCURATE。
+-- D01:S02直接支持"sliding window cutting"算法机制。
+-- D01:S08支持"adapter removal"和"quality filtering"，即trimming adapter tool核心功能。
+-- "popular"为弱修饰语，被引论文未直接提及，但不影响核心主张。
++**核对结论**：
++- 核心功能（滑动窗口质量修剪）有直接依据（D01:S02）。
++- popular按不影响实质内容处理（李云已收到该建议，待共同确认）。
++- 原理由中"未直接证明adapter tool"的限制仍建议单独纠正——D01:S08明确提到adapter removal，支持trimming adapter tool。
++- **人工建议理由（不写回原模型输出）**：D01:S02直接支持滑动窗口算法机制；D01:S08支持adapter removal和quality filtering，即trimming adapter tool核心功能；popular为弱修饰语不影响核心判断。
+ 
+ ---
+ 
+@@ -72,11 +74,10 @@
+ - D01:S06（标题）："AfterQC: automatic filtering, trimming, error removing and quality control for fastq data"
+ - D01:S08（Abstract）："AfterQC can detect and cut adapters... Much more than just another new quality control (QC) tool, AfterQC is able to perform quality control, data filtering, error profiling and base correction automatically"
+ 
+-**核对结论**：维持ACCURATE，模型理由过于保守，应修正为"支持充分"。
+-- D01:S01直接支持"developed a tool called AfterQC with rich quality control, data filtering..."，即integrate into one tool。
+-- D01:S08的"detect and cut adapters"支持adapter trimming。
+-- D01:S06标题直接列出filtering、trimming、error removing、quality control全部要素。
+-- **修正后理由**：D01:S01直接支持"developed a tool called AfterQC with rich quality control, data filtering..."（integrate into one tool）；D01:S08的"detect and cut adapters"支持adapter trimming；D01:S06标题直接列出filtering、trimming、error removing、quality control。候选对claim各要素支持充分。
++**核对结论**：**双方内容方向一致**。
++- 模型理由过于保守，应修正为"支持充分"。
++- D01:S01直接支持integrate into one tool；D01:S08的"detect and cut adapters"支持adapter trimming；D01:S06标题直接列出全部功能。
++- **人工建议理由（不写回原模型输出）**：D01:S01直接支持"developed a tool called AfterQC with rich quality control, data filtering..."；D01:S08的"detect and cut adapters"支持adapter trimming；D01:S06标题直接列出filtering、trimming、error removing、quality control。候选对claim各要素支持充分。
+ 
+ ---
+ 
+@@ -90,10 +91,13 @@
+ - D01:S01："In December, 2019, a series of pneumonia cases of unknown cause emerged in Wuhan, Hubei, China"
+ - D01:S05："The symptom onset date of the first patient identified was Dec 1, 2019."
+ 
+-**核对结论**：维持ACCURATE。
+-- D01:S01支持"2019年12月""武汉""湖北""原因不明肺炎"。
+-- D01:S05支持"Dec 1, 2019"（early December）和"first patient identified"。
+-- "capital city of Hubei province"为地理常识，被引论文写了"Wuhan, Hubei"但未写"capital city"，属常识性修饰语。
++**核对结论**：**继续待核**。
++- D01:S01支持"2019年12月""武汉""湖北""原因不明肺炎"，但原文是"a series of"而非"the first"。
++- **关键问题**：D01:S05的Dec 1修饰的是symptom onset（发病日期），句中identified修饰patient，并没有说识别（identified）发生在12月1日。不能将Dec 1直接作为"early December identified"的识别日期依据。
++- 陈明进此前将Dec 1与first patient identified分别摘出，尚未给出"12月初被识别"的候选依据。
++- capital city是否属于次要描述，是另外的问题，与日期问题分开处理。
++- 原模型理由还把复数first cases称为单数，不能归为完全无需修正。
++- **待核项**：需补"12月初被识别"的候选依据，或明确继续待核。
+ 
+ ---
+ 
+@@ -109,12 +113,12 @@
+ - D01:S04："a novel coronavirus (termed 2019-nCoV) has been identified...showed that the virus belongs to the subgenus Sarbecovirus"
+ - D01:S10："This evidence indicates that 2019-nCoV is a novel betacoronavirus from the subgenus Sarbecovirus"
+ 
+-**核对结论**：维持ACCURATE，需注明enveloped未在候选中直接出现。
+-- novel：D01:S01/S04直接支持。
+-- RNA：D01:S02支持冠状病毒科有单链正义RNA基因组。
+-- betacoronavirus：D01:S10直接支持。
+-- enveloped：候选top10中未直接提及，但属冠状病毒定义性特征，不与候选矛盾。
+-- **修正后理由**：novel RNA betacoronavirus核心主张有候选直接支持（D01:S01/S04/S10）；enveloped未在候选中直接出现，属冠状病毒定义性特征，不构成重要歪曲。
++**核对结论**：**继续待核**。
++- novel（D01:S01/S04）、RNA（D01:S02）、betacoronavirus（D01:S10）有候选直接支持。
++- enveloped：候选top10中未直接提及。
++- **关键问题**：原冻结提示明确"只依据给出的候选证据""不使用外部知识"。若采用常识豁免（enveloped是冠状病毒定义性特征），需要单独说明适用范围、依据与版本，不能把事后引入的常识写成原候选已直接支持，也不能把"不矛盾"当作"已直接支持"。
++- 本次没有决定修改规则，也不以全文新段落回填冻结输入。
++- **待核项**：常识豁免的材料边界与版本需双方共同确认。
+ 
+ ---
+ 
+@@ -122,70 +126,77 @@
+ 
+ 全部为PDF文本提取artifacts，模型做了合理规范化，无编造：
+ 
+-| 点 | evidence_id | 不一致类型 | 判断 |
++| 点 | evidence_id | 不一致类型 | 空白紧缩后是否匹配 |
+ |---|---|---|---|
+-| 1 PDB | D01:S01 | 换行+连字符 | "experimentally-\ndetermined"→"experimentally-determined"，合理 |
+-| 1 PDB | D01:S03 | 换行 | 多行合并为单行，内容一致，合理 |
+-| 1 PDB | D01:S07 | 换行+连字符 | "struc-\ntural"→"structural"，合理 |
+-| 5 新冠 | D01:S02 | 换行 | "single-\nstrand"→"single-strand"，合理 |
+-| 5 新冠 | D01:S04 | 换行+引用标记 | 去掉句末引用上标"10,11"，合理 |
+-| 5 新冠 | D01:S10 | 换行+软连字符 | "beta­coronavirus"（U+00AD）→"betacoronavirus"，合理 |
+-
+-**结论**：6处均为PDF排版导致的文本规范化差异，模型未编造内容。原严格逐字匹配失败，采用规范化文本后均可通过。
+-
+----
+-
+-## 四、双方共同确认口径（待李云确认）
+-
+-### 4.1 解析规则：版本化容忍，双版本报告
+-
+-- **v1 strict**：保留原严格解析结果（1/5），标注"strict parser, v1"，作为工程记录。
+-- **v2 normalized**：另立解析规则，明确容忍：
+-  1. 外层JSON代码围栏（```json ... ```）
+-  2. PDF换行合并
+-  3. 连字符断词合并（含U+00AD软连字符）
+-  4. 引用上标去除（如"10,11"）
+-- **规则先定后跑**：v2规则必须先写进验收文档，再重跑，不按结果事后调整规则。
+-- **双版本报告**：同时报告strict（1/5）和normalized（3/5结构检查通过）。
+-- **格式与语义分离**：规范化只用于结构/摘录检查，不自动意味着语义正确；语义仍需人工核对。不把"模型输出带代码围栏"计为语义错误。
+-
+-### 4.2 语义门槛：三分法
+-
+-**A类：核心实质（必须由候选直接支持）**
+-- claim的主干命题（主语+谓语+关键宾语）。
+-- 未获支持或被候选矛盾 → NOT_ACCURATE。
+-- "using algorithms such as X"中的X是举例，不是唯一要求；候选支持核心功能+至少一种算法即可。若claim写"using the X algorithm"（定指），则X为A类核心。
+-
+-**B类：常识性修饰语（可豁免，但必须注明）**
+-- 判定条件：①该修饰语是领域内定义性/公认常识；②候选虽未逐字出现但不矛盾；③去掉该修饰语后claim核心事实主张不变。
+-- 处理：维持ACCURATE，理由中明确写"X未在候选中直接出现，属常识性修饰语，不构成重要歪曲"。
+-- 不允许不注明就豁免。
+-- 示例：enveloped（冠状病毒）、capital city（武汉）、popular（工具评价）。
+-
+-**C类：不同口径的具体数值（不豁免，按"未直接支持"处理）**
+-- 判定条件：①候选给的是不同统计口径；②候选未给出claim所需口径的具体数值；③不能从候选数值直接推出claim数值。
+-- 处理：NOT_ACCURATE或待核，理由写"候选给出的是X口径，claim是Y口径，具体数值未获直接支持"。
+-- 不接受"约数容差"自动豁免，容差规则需双方事先约定，不单方增设。
+-- 示例：总结构数>144k vs unique proteins约100k。
+-
+-**补充：模糊量词（numerous、many、several）**
+-- 按"弱限定"处理：候选至少覆盖该量词所指范围的最低门槛（如numerous至少2-3项），即可支持。
+-- 候选只有1项 → 未支持。
+-- 不要求精确计数，但理由中写明候选实际覆盖了几项。
+-
+----
+-
+-## 五、按确认口径落到5点
+-
+-| 点 | 标签 | 适用类别 | 说明 |
+-|---|---|---|---|
+-| 1 PDB | NOT_ACCURATE | C类（不同口径数值） | 总结构数>144k ≠ unique proteins约100k，具体数值未获直接支持 |
+-| 2 Trimmomatic | ACCURATE | A类核心支持 + B类（popular） | 滑动窗口质量修剪有直接支持；popular为弱修饰语 |
+-| 3 AfterQC | ACCURATE | A类核心支持充分 | D01:S01/S05/S06/S08直接覆盖各要素 |
+-| 4 武汉病例 | ACCURATE | A类核心支持 + B类（capital city） | 时间/地点/事件有支持；capital city为地理常识 |
+-| 5 新冠 | ACCURATE | A类核心支持 + B类（enveloped） | novel/RNA/betacoronavirus有支持；enveloped为冠状病毒定义性特征 |
+-
+----
+-
+-**文件位置**：deliverables/2026-10-20_45条漏检案例复核/首批5点语义核对_陈明进_20261022.md
++| 1 PDB | D01:S01 | 换行+连字符 | 是 |
++| 1 PDB | D01:S03 | 换行 | 是 |
++| 1 PDB | D01:S07 | 换行+断词连字符 | 否（涉及断词合并） |
++| 5 新冠 | D01:S02 | 换行 | 是 |
++| 5 新冠 | D01:S04 | 换行（上标在摘录范围外） | 是（仅合并空白即可，不需删除上标） |
++| 5 新冠 | D01:S10 | 换行+软连字符（U+00AD） | 否（涉及软连字符） |
++
++**说明**：
++- 本次只在6处差异副本上核对空白紧缩：4处即可找到连续匹配，PDB S07及新冠S10还涉及断词/软连字符。
++- 此结果不构成新解析器，不证明页面定位，更不替换原逐字失败。
++- 新冠S04：模型摘录在identified处结束，上标10,11位于截取范围之后；这处因换行不能逐字匹配，不需要先删除上标。当前例子不能作为泛化"删除引用标记"的充分理由。不能用全局删数字或连字符破坏数值、负号、复合词、引用归属。
++
++---
++
++## 四、解析规则与语义门槛（李云反馈后修订）
++
++### 4.1 解析规则：双版本保留，全面规范化需另版实现
++
++- **v1 strict**：原严格解析结果1/5，保留作为工程记录。
++- **v2 去围栏补充**：仅剥离完整外层json围栏、仍使用原逐字检查，实测3/5。这不是同时容忍断词、软连字符、上标的完整normalized结果。
++- **全面规范化版本（待实现）**：若再允许断词、软连字符等规范化，须先定义规则、保存逐字原文和偏移映射、验证匹配唯一性，运行后再报实测数，不能预填通过数。
++- **不泛化删除引用标记**：S04的上标在摘录范围外，仅合并空白即可匹配，不能因此泛化全局删除引用标记。
++- **格式与语义分离**：规范化只用于结构/摘录检查，不自动意味着语义正确；语义仍需人工核对。
++
++### 4.2 语义门槛：保留待决项，本轮不增设新规则
++
++- **核心实质必须候选直接支持**：A类未获支持不能无条件全部改成NOT_ACCURATE，原规则还保留insufficient_evidence。
++- **常识豁免（待确认）**：若采用，需单独定义适用范围、依据与版本；不能写成原候选已直接支持，也不能把"不矛盾"当作"已直接支持"。popular不是可以自动核实的定义性事实。
++- **不同口径数值**：PDB的总结构数与unique proteins口径不同，不能按数值大小判矛盾；具体数值未获直接支持的标签方案待共同确认。
++- **such as X（不放宽）**：such as X不要求只使用X，但原主张明确提到X时，不能仅凭任意另一算法就认定提及X的部分获支持。本点（Trimmomatic）已有SW直接证据，无需放宽算法口径。
++- **numerous（不设阈值）**："numerous至少2-3项"没有现成双方依据，也不适用于一切领域或计量对象，本轮不增设数量阈值。
++
++### 4.3 修正理由的身份
++
++- 人工修订建议另列，保留原理由。
++- 不能将修改过的文字写回raw_output、reason_unreviewed，或冒充原模型解释成功。
++- 若未来另立模型/提示/解析版本，先冻结再运行，并把新运行结果与本轮原结果分开。
++
++---
++
++## 五、李云反馈要点（2026-10-22）
++
++1. **AfterQC**：双方内容方向一致，ACCURATE及理由过度保守。
++2. **PDB**：口径不同一致；NA标签先作为待共同确认方案登记。
++3. **Trimmomatic**：核心功能有依据，popular按不影响实质处理；原理由"未直接证明adapter tool"的限制仍建议单独纠正。
++4. **武汉**：S05的Dec 1是symptom onset（发病日期），不能直接作为early December identified的识别日期；需补候选依据或继续待核。
++5. **常识豁免**：原冻结提示禁止外部知识，enveloped/capital city若要采用需单独说明材料边界与版本。
++6. **3/5含义**：仅去外层围栏仍严格匹配的实测数；全面规范化需另版实现后报数。
++7. **引用上标**：S04上标在摘录范围外，不宜泛化删除引用标记。
++8. **修正理由**：单列为人工建议，原模型输出和失败记录保留。
++9. **such as X/numerous**：不放宽、不增设阈值，保留待决。
++10. **不重跑模型**：口径确认前不重跑，原strict 1/5与去围栏补充3/5同时保留，不记为5点全部验收通过。
++
++---
++
++## 六、当前状态汇总
++
++- **双方一致**：AfterQC（1点）
++- **待共同确认标签方案**：PDB（1点）
++- **条件项与理由分开确认**：Trimmomatic（1点）
++- **继续待核**：武汉病例（识别日期依据）、新型冠状病毒（常识豁免边界）（2点）
++- **原strict 1/5**：保留
++- **去围栏补充3/5**：保留
++- **全面规范化通过率**：待另版实现后实测
++- **正式双方验收**：0/5
++- **固定20点分母、首批5点输入、所有模型原响应**：保持不变
++
++---
++
++**文件位置**：deliverables/2026-10-20_45条漏检案例复核/首批5点语义核对_陈明进_v2_20261022.md
+ **原始材料**：C:\Users\Administrator\AppData\Local\Temp\ly_5points_20261022\
++**李云接收核对**：C:\Users\Administrator\Desktop\接收核对结论.md

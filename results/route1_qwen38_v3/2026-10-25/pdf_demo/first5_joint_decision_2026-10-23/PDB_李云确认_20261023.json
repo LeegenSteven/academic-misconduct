@@ -1,0 +1,32 @@
+{
+  "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+  "fixed20_point_number": 2,
+  "first5_point_number": 1,
+  "reviewer": "李云",
+  "status": "confirmed_by_liyun_in_current_chat",
+  "confirmed_label": "NOT_ACCURATE",
+  "confirmed_reason": "核心数量主张未获候选支持。“约100,000个独特蛋白质”与“超过144,000个结构模型”统计对象不同，不能据大小判矛盾，也不应使用原理由中的“数量级差异”。",
+  "confirmation_source": {
+    "type": "direct_human_user_message_in_current_chat",
+    "question_context": "PDB这一点建议采用NOT_ACCURATE，依据是核心数量主张未获候选支持。你是否认可本点的标签和上述理由？",
+    "user_message_exact": "认可"
+  },
+  "recorded_at_utc": "2026-10-23T13:06:02.305008+00:00",
+  "recording_time_is_not_claimed_to_be_user_review_time": true,
+  "reviewed_at": null,
+  "review_time_note": "The chat content confirms the opinion; an exact user-message timestamp was not supplied.",
+  "referenced_proposal_file": "PDB_共同裁决建议_待确认.json",
+  "referenced_proposal_sha256": "e59d94ae7e2ddbd0d3aac1a6c3e505b602cdf51a09668910e097371b14e39a7f",
+  "Chen_personal_label_as_received": "NOT_ACCURATE",
+  "Chen_original_source_file": "首批5点语义核对_陈明进_v2_20261022.md",
+  "Chen_original_source_sha256": "4879f6ea33fd9af6db28acd4d1f0877134aa23480f04a3269384e1dd34c17896",
+  "personal_label_values_agree": true,
+  "new_approval_of_S07_line_joins": false,
+  "production_parser_approval": false,
+  "other_cases_approved": false,
+  "original_model_reason_accepted_by_this_confirmation": false,
+  "formal_review_imported": false,
+  "formal_end_to_end_acceptance_added": false,
+  "original_model_response_changed": false,
+  "new_model_run": false
+}

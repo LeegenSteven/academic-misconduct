@@ -1,0 +1,49 @@
+9. Characteristics and limitations of biomarkers
+9.1. CSF versus imaging biomarkers
+While we place imaging and CSF biomarkers into common groups, a fundamental 
+difference between the two should be recognized. CSF biomarkers are measures of the 
+concentrations of proteins in CSF from the lumbar sac that reflect the rates of both 
+production (protein expression or release/secretion from neurons or other brain cells) and 
+clearance (degradation or removal) at a given point in time [114,115]. Imaging measures, on 
+the other hand, represent the magnitude of the neuropathologic load or damage accumulated 
+over time. Low CSF Aβ42 is therefore best considered a biomarker of a pathologic state that 
+is associated with amyloid plaque formation and not a measure of amyloid plaque load as 
+amyloid PET is. Similarly, CSF P-tau is best considered a biomarker of a pathologic state 
+that is associated with PHF tau formation and not a measure of pathologic tau deposits as tau 
+PET is.
+Discordances between imaging and CSF biomarkers may occur [36,41,116–119]. In some 
+situations, discordance in normal/abnormal labels between an imaging and CSF biomarker 
+within a study is simply a product of how cut points were established that can be rectified by 
+adjusting them. The continuous relationship between CSF Aβ42 and amyloid PET, however, 
+is “L-shaped” rather than linear [116,117,120]. This may be due to a temporal offset 
+between these two measures [121–123]. In the limited data currently available, tau PET 
+ligand binding is linearly correlated with elevated CSF P-tau [82,83,115]; however, the 
+correlation is imperfect. This may be in part because P-tau seems to plateau later in the 
+disease [14] while the tau PET signal continues to increase [124]. Given these observations, 
+one might ask “how could a CSF and an imaging measure be used as biomarkers of a 
+common pathologic process?” The answer lies in the chronic nature of AD, which spans 
+years to decades. Thus, an ongoing active pathologic state, denoted by CSF, and the 
+accumulation of neuropathologic load, denoted by imaging, will be concordant over the long 
+term.
+9.2. Tau PET
+Tau PET is a new modality, and the ligands that have been evaluated to date are considered 
+first-generation compounds. These compounds suffer from limitations, the most common 
+being off-target binding [125]. However, at least one first-generation ligand has emerged as a 
+reliable biomarker of 3R/4R PHF tau deposits [28]. Autoradiographic studies have shown 
+that the most widely studied ligand, flortaucipir, does not bind to amyloid plaques, TAR 
+DNA Binding Protein 43 (TDP43), argyrophilic grains, or α-synuclein. Flortaucipir binds 
+weakly or not at all to sole 4R or sole 3R tau deposits in primary tauopathies [126–128]. In 
+vivo imaging to autopsy comparisons also indicates specific binding of flortaucipir to PHF 
+tangles [23] and correlation with the Braak neurofibrillary tangles stage [129]. Elevated tau 
+PET binding in both medial temporal lobe structures and the neocortex is strongly associated 
+with positive amyloid PET scans and with clinical impairment across the normal aging to 
+dementia clinical spectrum [82,130–141]. New tau PET ligands are in the early stages of 
+development and evaluation [142], and there is optimism that some of the limitations of the 
+first-generation compounds will be addressed in the next generation of tau PET ligands.
+Jack et al.
+Page 10
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

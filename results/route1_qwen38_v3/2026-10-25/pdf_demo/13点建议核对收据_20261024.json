@@ -1,0 +1,41 @@
+{
+  "version": "route1_remaining13_personal_review_suggestions_20261024",
+  "recorded_at_utc": "2026-10-24T11:22:21.242878+00:00",
+  "rows": 13,
+  "unique_case_ids": 13,
+  "candidate_fragments_replayed": 130,
+  "current_quote_positions_replayed": 14,
+  "source_pdf_files_hashed": 6,
+  "2018_source_identity_check": {
+    "file": "10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC5958625.1\\PMC5958625.1.pdf",
+    "sha256": "8ef64becc86ec54d8219555f8bd5415f05b0af14f77f97016550729190cd617a",
+    "pdf_page": 1,
+    "publication_lines": [
+      "Alzheimers Dement. 2018 April ; 14(4): 535–562. doi:10.1016/j.jalz.2018.02.018."
+    ],
+    "not_added_to_model_inputs": true
+  },
+  "suggested_labels_not_human_labels": {
+    "pending": 7,
+    "ACCURATE": 5,
+    "NOT_ACCURATE": 1
+  },
+  "new_human_labels": 0,
+  "new_semantic_acceptances": 0,
+  "new_formal_acceptances": 0,
+  "model_loaded": false,
+  "inference_performed": false,
+  "GPU_used": false,
+  "current_versions_match_sent_package": true,
+  "source_files_sha256_relative_to_workspace": {
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/remaining13_a100_audit_2026-10-24/strict_assembled/records.jsonl": "fd3316daf02344f0c02d3f98c222340402deb24ae2df60706f6504d26b10ae19",
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/point16_compact_v2_a100_verified_2026-10-24/current_13_versioned_records.jsonl": "7901c4a8b39e4e54772b46582046f9ca35fd378aa96f981de9a533f2146f29d2",
+    "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/fixed20_progress.jsonl": "051a5fadbeec66b1530d2c7e9202268dd878617280c34c6ebb8335530c541128",
+    "10.19-11.2/剩余13点_统一复核收尾包_v2_20261024/01_13点集中语义建议_待确认.jsonl": "c34d953bf4445cec03331870e350623d340ee4bbf9b6329e785b8b35cb87ea14"
+  },
+  "derived_files_sha256": {
+    "13点个人意见建议_待李云确认_20261024.jsonl": "87904ca5472f4a4b5ab09d9d5529acf9e9f9e6485dd6a5dfe9245a9e88d3aec9",
+    "13点个人意见建议_待李云确认_20261024.md": "8c2e89245b02d8d5e1fe702b65bf8253321c32f3f51dd2009f3f9e8aea1e8b86"
+  },
+  "suggestion_semantics_are_not_proven_by_position_checks": true
+}

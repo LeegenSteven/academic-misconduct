@@ -1,0 +1,122 @@
+for details). We also fine-tuned these models after CASP14 to add a 
+pTM prediction objective (Supplementary Methods 1.9.7) and use the 
+obtained models for Fig. 2d.
+Inference regimen
+We inference the five trained models and use the predicted confidence 
+score to select the best model per target.
+Using our CASP14 configuration for AlphaFold, the trunk of the net-
+work is run multiple times with different random choices for the MSA 
+cluster centres (see Supplementary Methods 1.11.2 for details of the 
+ensembling procedure). The full time to make a structure prediction 
+varies considerably depending on the length of the protein. Repre-
+sentative timings for the neural network using a single model on V100 
+GPU are 4.8 min with 256 residues, 9.2 min with 384 residues and 18 h 
+at 2,500 residues. These timings are measured using our open-source 
+code, and the open-source code is notably faster than the version we 
+ran in CASP14 as we now use the XLA compiler75.
+Since CASP14, we have found that the accuracy of the network with-
+out ensembling is very close or equal to the accuracy with ensembling 
+and we turn off ensembling for most inference. Without ensembling, 
+the network is 8× faster and the representative timings for a single 
+model are 0.6 min with 256 residues, 1.1 min with 384 residues and 
+2.1 h with 2,500 residues.
+Inferencing large proteins can easily exceed the memory of a single 
+GPU. For a V100 with 16 GB of memory, we can predict the structure 
+of proteins up to around 1,300 residues without ensembling and the 
+256- and 384-residue inference times are using the memory of a single 
+GPU. The memory usage is approximately quadratic in the number of 
+residues, so a 2,500-residue protein involves using unified memory so 
+that we can greatly exceed the memory of a single V100. In our cloud 
+setup, a single V100 is used for computation on a 2,500-residue protein 
+but we requested four GPUs to have sufficient memory.
+Searching genetic sequence databases to prepare inputs and final 
+relaxation of the structures take additional central processing unit 
+(CPU) time but do not require a GPU or TPU.
+Metrics
+The predicted structure is compared to the true structure from the 
+PDB in terms of lDDT metric34, as this metric reports the domain accu-
+racy without requiring a domain segmentation of chain structures. 
+The distances are either computed between all heavy atoms (lDDT) 
+or only the Cα atoms to measure the backbone accuracy (lDDT-Cα). 
+As lDDT-Cα only focuses on the Cα atoms, it does not include the pen-
+alty for structural violations and clashes. Domain accuracies in CASP 
+are reported as GDT33 and the TM-score27 is used as a full chain global 
+superposition metric.
+We also report accuracies using the r.m.s.d.95 (Cα r.m.s.d. at 95% cov-
+erage). We perform five iterations of (1) a least-squares alignment of the 
+predicted structure and the PDB structure on the currently chosen Cα 
+atoms (using all Cα atoms in the first iteration); (2) selecting the 95% 
+of Cα atoms with the lowest alignment error. The r.m.s.d. of the atoms 
+chosen for the final iterations is the r.m.s.d.95. This metric is more robust 
+to apparent errors that can originate from crystal structure artefacts, 
+although in some cases the removed 5% of residues will contain genuine 
+modelling errors.
+Test set of recent PDB sequences
+For evaluation on recent PDB sequences (Figs. 2a–d, 4a, 5a), we used 
+a copy of the PDB downloaded 15 February 2021. Structures were fil-
+tered to those with a release date after 30 April 2018 (the date limit for 
+inclusion in the training set for AlphaFold). Chains were further filtered 
+to remove sequences that consisted of a single amino acid as well as 
+sequences with an ambiguous chemical component at any residue 
+position. Exact duplicates were removed, with the chain with the most 
+resolved Cα atoms used as the representative sequence. Subsequently, 
+structures with less than 16 resolved residues, with unknown residues 
+or solved by NMR methods were removed. As the PDB contains many 
+near-duplicate sequences, the chain with the highest resolution was 
+selected from each cluster in the PDB 40% sequence clustering of the 
+data. Furthermore, we removed all sequences for which fewer than 
+80 amino acids had the alpha carbon resolved and removed chains with 
+more than 1,400 residues. The final dataset contained 10,795 protein 
+sequences.
+The procedure for filtering the recent PDB dataset based on prior 
+template identity was as follows. Hmmsearch was run with default 
+parameters against a copy of the PDB SEQRES fasta downloaded 
+15 February 2021. Template hits were accepted if the associated struc-
+ture had a release date earlier than 30 April 2018. Each residue position 
+in a query sequence was assigned the maximum identity of any template 
+hit covering that position. Filtering then proceeded as described in 
+the individual figure legends, based on a combination of maximum 
+identity and sequence coverage.
+The MSA depth analysis was based on computing the normalized 
+number of effective sequences (Neff) for each position of a query 
+sequence. Per-residue Neff values were obtained by counting the num-
+ber of non-gap residues in the MSA for this position and weighting the 
+sequences using the Neff scheme76 with a threshold of 80% sequence 
+identity measured on the region that is non-gap in either sequence.
+Reporting summary
+Further information on research design is available in the Nature 
+Research Reporting Summary linked to this paper.
+Data availability
+All input data are freely available from public sources.
+Structures from the PDB were used for training and as templates 
+(https://www.wwpdb.org/ftp/pdb-ftp-sites; for the associated 
+sequence data and 40% sequence clustering see also https://ftp.wwpdb.
+org/pub/pdb/derived_data/ and https://cdn.rcsb.org/resources/
+sequence/clusters/bc-40.out). Training used a version of the PDB 
+downloaded 28 August 2019, while the CASP14 template search used 
+a version downloaded 14 May 2020. The template search also used the 
+PDB70 database, downloaded 13 May 2020 (https://wwwuser.gwdg.
+de/~compbiol/data/hhsuite/databases/hhsuite_dbs/).
+We show experimental structures from the PDB with accession num-
+bers 6Y4F77, 6YJ178, 6VR479, 6SK080, 6FES81, 6W6W82, 6T1Z83 and 7JTL84.
+For MSA lookup at both the training and prediction time, we used 
+UniRef90 v.2020_01 (https://ftp.ebi.ac.uk/pub/databases/uniprot/
+previous_releases/release-2020_01/uniref/), BFD (https://bfd.mmseqs.
+com), Uniclust30 v.2018_08 (https://wwwuser.gwdg.de/~compbiol/
+uniclust/2018_08/) and MGnify clusters v.2018_12 (https://ftp.ebi.ac.uk/
+pub/databases/metagenomics/peptide_database/2018_12/). Uniclust30 
+v.2018_08 was also used as input for constructing a distillation structure 
+dataset.
+Code availability
+Source code for the AlphaFold model, trained weights and inference 
+script are available under an open-source license at https://github.
+com/deepmind/alphafold.
+Neural networks were developed with TensorFlow v.1 (https://github.
+com/tensorflow/tensorflow), Sonnet v.1 (https://github.com/deep-
+mind/sonnet), JAX v.0.1.69 (https://github.com/google/jax/) and Haiku 
+v.0.0.4 (https://github.com/deepmind/dm-haiku). The XLA compiler is 
+bundled with JAX and does not have a separate version number.
+For MSA search on BFD+Uniclust30, and for template search against 
+PDB70, we used HHBlits and HHSearch from hh-suite v.3.0-beta.3 
+release 14/07/2017 (https://github.com/soedinglab/hh-suite). For MSA 
+search on UniRef90 and clustered MGnify, we used jackhmmer from 

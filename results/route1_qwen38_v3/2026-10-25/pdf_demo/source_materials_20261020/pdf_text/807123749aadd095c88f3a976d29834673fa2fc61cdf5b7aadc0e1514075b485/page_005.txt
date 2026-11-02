@@ -1,0 +1,117 @@
+D524 Nucleic Acids Research, 2019, Vol. 47, Database issue
+Release of PDB entries requires either a request from the
+Data Depositor, a notification that the related manuscript
+has been published in a scientific journal, or the expiration
+of the on-hold period (currently maximum one year from
+the date of deposition), whichever occurs first.
+The RCSB PDB currently serves as the designated PDB
+Core Archive Keeper, coordinating a two-phase weekly
+update procedure for both new and revised entries. Each
+wwPDB regional data center finalizes entries for the next
+weekly release up until Thursday at noon local time. At this
+time, data marked for release are compiled and re-checked
+at RCSB PDB and then distributed to all wwPDB partner
+sites. Phase 1 of the weekly update occurs every Saturday at
+03:00 UTC, when the wwPDB website (www.wwpdb.org/
+download/downloads) makes the following data available
+for each new entry: amino acid and nucleotide sequences
+for each distinct polymer and, where appropriate, the InChI
+string(s) for each distinct ligand, and the crystallization pH
+value(s). Phase 2 of the weekly update occurs every Wednes-
+day at 00:00 UTC, when the wwPDB FTP system and the
+FTP sites at wwPDB partner sites are updated to include
+all new and modified PDB entries and obsolete entries are
+removed from the active archive. Release of PDB data in
+two phases is intended to assist the computational biology
+community in operating various prediction challenges, in-
+cluding CASP (32), CAPRI (33), CAMEO (34) and D3R
+(35).
+DATA DISSEMINATION
+The wwPDB website (www.wwpdb.org) provides news an-
+nouncements, describes how to access PDB data, and hosts
+PDBx/mmCIF data dictionary resources.
+PDB data are made available from all wwPDB partner
+sites via FTP and also through their individual websites -
+RCSB PDB (rcsb.org), PDBe (pdbe.org), PDBj (pdbj.org),
+and BMRB (www.bmrb.wisc.edu). In 2017, the FTP archive
+recorded >450 million structure data file downloads, and
+at the individual wwPDB partner websites they numbered
+>220 million (Figure 3). The aggregate number of unique
+PDB Users (unique IP addresses) worldwide is conserva-
+tively estimated at >1 million.
+Following consultation with PDB Users, the wwPDB im-
+plemented versioning of data in the PDB Core Archive. Au-
+tomatic auditing of changes to PDB entries has been intro-
+duced, which distinguishes between updates to atomic co-
+ordinates, chemistry or polymer sequence (denoted as ‘ma-
+jor’) and other updates, including citation updates (denoted
+as ‘minor’). A versioned FTP archive (ftp://ftp-versioned.
+wwpdb.org) has been introduced, which serves up the latest
+minor version of each major version of a PDB entry. This
+provision allows Users access to information on updates to
+each PDB structure and allows for comparison of avail-
+able major versions to review changes. In the versioned
+FTP, PDB entries are identified by an eight character ID
+allowing for extension of the PDB code beyond its current
+four characters.
+All MX experimental data in the PDB Core Archive are
+distributed via the wwPDB FTP. Experimental data relating
+to 3D structures coming from NMR are also distributed via
+the wwPDB FTP. Additional NMR experimental data as-
+sociated with 3D structures, not collected by OneDep but
+deposited at BMRB, are distributed by BMRB. The ww-
+PDB FTP also mirrors the EMDB FTP, providing access
+to the entire contents of the EMDB.
+ARCHIVE UPDATES
+To improve consistency of data within the PDB Core
+archive, wwPDB biocurators routinely update PDB entries
+with new or corrected metadata, such as citation informa-
+tion or updates triggered by changes to the CCD (30).
+The wwPDB has undertaken several archive-wide reme-
+diations, starting with the standardization of the PDB Core
+archive in 2007. This major undertaking introduced chem-
+ical descriptors to the CCD and ensured that atom names
+of standard residues are consistent with IUPAC nomencla-
+ture (36). Subsequent remediations have focused on adding
+further metadata, including taxonomy information (2009),
+and on introducing missing molecular assembly informa-
+tion (2011). As noted above, in 2014, after the adoption of
+PDBx/mmCIF as the master format, structural models that
+spanned more than one PDB entry due to limitations of the
+historical PDB file format were combined into single PDB
+entries distributed exclusively in PDBx/mmCIF format.
+Launch of the OneDep system has enabled, for the first
+time, large-scale remediation to improve data consistency
+across all entries in the PDB Core archive. Older PDB en-
+tries deposited using legacy deposition systems were up-
+dated to ensure that their metadata are consistent with
+newer entries deposited using the OneDep system (∼30% of
+older PDB entries underwent remediation). This effort also
+included better representation of data related to 3DEM en-
+tries. Remediation is an ongoing process, intended to ensure
+better data quality and consistency and improved searcha-
+bility across the PDB Core Archives. Consistent representa-
+tion of carbohydrates and post-translational modifications
+will be the focus of future remediation efforts.
+COMMUNITY ENGAGEMENT
+The enduring value of the PDB Core archive to its large,
+global User community depends critically on data consis-
+tency, accuracy, and accessibility. It is, therefore, essential
+to ensure that the User needs are both understood and ad-
+dressed. The wwPDB is guided by an expert international
+advisory board, which reviews the activities of the organiza-
+tion annually to ensure that the wwPDB is delivering value
+to its diverse User community. Outcomes of the annual ad-
+visory board meetings are published on the wwPDB web-
+site (www.wwpdb.org/about/advisory). This advisory board
+provides essential guidance for wwPDB developments and
+delivers community feedback on changes that can benefit
+the PDB archive.
+The field of structural biology is constantly evolving,
+and the wwPDB is committed to staying abreast of these
+advances. Over the years, expert, method-specific wwPDB
+Validation Task Forces have been established for MX (19),
+NMR (17) and 3DEM (16). Each of these groups con-
+tributed to the development of the OneDep validation
+system and the wwPDB validation report. In collabora-
+tion with the Cambridge Crystallographic Data Centre

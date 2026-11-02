@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-20",
+  "archive": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF20点_来源与被引检索交接_20261020.zip",
+  "archive_sha256": "6710893640734d072a50e284676b20c79bdc168d75f9db7940c5a72d9f06be9c",
+  "archive_bytes": 30516892,
+  "archive_files": 391,
+  "source_scope_folder": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020",
+  "selected_pairs": 10,
+  "selected_points": 20,
+  "reserve_points": 2,
+  "known_shared_route2_overlap": 0,
+  "source_character_replay_checked": 20,
+  "visual_marker_previews_assisted_reviewed": 20,
+  "fresh_extracted_copy_standard_library_verification": "PASS",
+  "meaning": "Preparation-file integrity only; no model inference or final acceptance.",
+  "next_step": "Cited-side source/scope review and fixed retrieval; citing-side unified entry in parallel.",
+  "new_classifier_runs": 0,
+  "engineering_successes": 0,
+  "formal_locator_validity": null,
+  "human_joint_scope_signoff": false,
+  "outgoing_message_sent": false
+}

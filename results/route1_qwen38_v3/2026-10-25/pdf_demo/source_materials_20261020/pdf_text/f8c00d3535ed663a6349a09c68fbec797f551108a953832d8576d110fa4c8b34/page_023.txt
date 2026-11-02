@@ -1,0 +1,26 @@
+3
+nature research  |  reporting summary
+April 2020
+Clinical data
+Policy information about clinical studies
+All manuscripts should comply with the ICMJE guidelines for publication of clinical research and a completed CONSORT checklist must be included with all submissions.
+Clinical trial registration
+BioFINDER-1: NCT01208675, BioFINDER-2: NCT03174938. 
+Study protocol
+MSCA: https://www.mayo.edu/research/clinical-trials/cls-20311806 
+BioFINDER-1: https://clinicaltrials.gov/ct2/show/NCT01208675 
+BioFINDER-2: www.biofinder.se 
+AIBL: https://aibl.csiro.au/ 
+ADC: https://www.alzheimercentrum.nl/wetenschap/amsterdam-dementia-cohort/ 
+BACS: https://jagustlab.neuro.berkeley.edu/bacs 
+HABS: https://habs.mgh.harvard.edu/ 
+Data collection
+Data were collected between Jan 1 2014 and April 1 2022. Participating cohorts included MSCA (a population-based cohort in 
+Rochester, USA), BioFINDER-2 and BioFINDER-2 (a mix of population-based and memory clinic-based studies in Lund and Malmo, 
+Sweden), BACS (a population-based cohort in Berkeley, USA), AIBL (a multicenter study that combines population-based and memory 
+clinic-based participants from Australia), HABS (a population-based cohort in Boston, USA) and the ADC (a memory clinic-based 
+sample from Amsterdam, the Netherlands).
+Outcomes
+The predefined primary outcome measures are 1) progression to MCI or all-cause dementia and 2) longitudinal changes on the 
+mPACC5 and MMSE. As predefined secondary outcomes we assessed the mPACC5 subcomponents (i.e., delayed episodic memory, 
+timed executive functions and semantic memory).

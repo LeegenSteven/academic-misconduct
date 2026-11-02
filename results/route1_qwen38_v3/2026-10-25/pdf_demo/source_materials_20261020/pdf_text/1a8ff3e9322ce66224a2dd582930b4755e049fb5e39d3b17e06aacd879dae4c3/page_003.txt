@@ -1,0 +1,100 @@
+n engl j med﻿  nejm.org﻿
+3
+Characteristics of Coronavirus Disease 2019 in China
+were used in a previous study to assess the se-
+verity of other serious infectious diseases, such 
+as H7N9 infection.16 Secondary end points were 
+the rate of death and the time from symptom 
+onset until the composite end point and until 
+each component of the composite end point.
+Study Definitions
+The incubation period was defined as the inter-
+val between the potential earliest date of contact 
+of the transmission source (wildlife or person 
+with suspected or confirmed case) and the poten-
+tial earliest date of symptom onset (i.e., cough, 
+fever, fatigue, or myalgia). We excluded incuba-
+tion periods of less than 1 day because some 
+patients had continuous exposure to contamina-
+tion sources; in these cases, the latest date of 
+exposure was recorded. The summary statistics 
+of incubation periods were calculated on the 
+basis of 291 patients who had clear information 
+regarding the specific date of exposure.
+Fever was defined as an axillary temperature 
+of 37.5°C or higher. Lymphocytopenia was de-
+fined as a lymphocyte count of less than 1500 
+cells per cubic millimeter. Thrombocytopenia was 
+defined as a platelet count of less than 150,000 
+per cubic millimeter. Additional definitions — 
+including exposure to wildlife, acute respiratory 
+distress syndrome (ARDS), pneumonia, acute 
+kidney failure, acute heart failure, and rhabdo-
+myolysis — are provided in the Supplementary 
+Appendix, available at NEJM.org.
+Laboratory Confirmation
+Laboratory confirmation of SARS-CoV-2 was per-
+formed at the Chinese Center for Disease Preven-
+tion and Control before January 23, 2020, and 
+subsequently in certified tertiary care hospitals. 
+RT-PCR assays were performed in accordance 
+with the protocol established by the WHO.17 De-
+tails regarding laboratory confirmation processes 
+are provided in the Supplementary Appendix.
+Statistical Analysis
+Continuous variables were expressed as medians 
+and interquartile ranges or simple ranges, as ap-
+propriate. Categorical variables were summarized 
+as counts and percentages. No imputation was 
+made for missing data. Because the cohort of 
+patients in our study was not derived from ran-
+dom selection, all statistics are deemed to be 
+descriptive only. We used ArcGIS, version 10.2.2, 
+to plot the numbers of patients with reportedly 
+confirmed cases on a map. All the analyses were 
+performed with the use of R software, version 
+3.6.2 (R Foundation for Statistical Computing).
+Results
+Demographic and Clinical Characteristics
+Of the 7736 patients with Covid-19 who had been 
+hospitalized at 552 sites as of January 29, 2020, 
+we obtained data regarding clinical symptoms 
+and outcomes for 1099 patients (14.2%). The 
+largest number of patients (132) had been ad-
+mitted to Wuhan Jinyintan Hospital. The hospi-
+tals that were included in this study accounted 
+for 29.7% of the 1856 designated hospitals 
+where patients with Covid-19 could be admitted 
+in 30 provinces, autonomous regions, or munici-
+palities across China (Fig. 1).
+The demographic and clinical characteristics 
+of the patients are shown in Table 1. A total of 
+3.5% were health care workers, and a history of 
+contact with wildlife was documented in 1.9%; 
+483 patients (43.9%) were residents of Wuhan. 
+Among the patients who lived outside Wuhan, 
+72.3% had contact with residents of Wuhan, in-
+cluding 31.3% who had visited the city; 25.9% of 
+nonresidents had neither visited the city nor had 
+contact with Wuhan residents.
+The median incubation period was 4 days 
+(interquartile range, 2 to 7). The median age of 
+the patients was 47 years (interquartile range, 35 
+to 58); 0.9% of the patients were younger than 
+15 years of age. A total of 41.9% were female. 
+Fever was present in 43.8% of the patients on 
+admission but developed in 88.7% during hospi-
+talization. The second most common symptom 
+was cough (67.8%); nausea or vomiting (5.0%) 
+and diarrhea (3.8%) were uncommon. Among 
+the overall population, 23.7% had at least one 
+coexisting illness (e.g., hypertension and chronic 
+obstructive pulmonary disease).
+On admission, the degree of severity of 
+­Covid-19 was categorized as nonsevere in 926 
+patients and severe in 173 patients. Patients with 
+severe disease were older than those with non-
+severe disease by a median of 7 years. Moreover, 
+the presence of any coexisting illness was more 
+common among patients with severe disease than 
+among those with nonsevere disease (38.7% vs. 

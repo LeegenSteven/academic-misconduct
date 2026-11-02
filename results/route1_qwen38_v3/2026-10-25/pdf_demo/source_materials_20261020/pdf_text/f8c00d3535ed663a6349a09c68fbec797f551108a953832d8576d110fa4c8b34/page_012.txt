@@ -1,0 +1,14 @@
+Nature Medicine 
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+Extended Data Fig. 2 | Progression to AD dementia in the different AT 
+categories. a, Survival curves in relation to progression to AD dementia 
+in the main AT categories, with the table of total number of participants 
+available at each time point. b, Survival curves in relation to progression to 
+AD dementia when including the A-T + group, with the table of total number 
+of participants available at each time point. Given the small number of 
+events, the hazard ratios are difficult to interpret, but the A + T-, A + TMTL + and 
+A + TNEO-T + groups had higher HR’s compared to A-T- reference group (all 
+p < 0.001). Pairwise comparisons indicated that both the A + TNEO-T + (p < 0.001) 
+and A + TMTL + (p = 0.008) groups differed from the A + T- group, and the 
+A + TNEO-T + group differed from the A + TMTL + group (p = 0.01).

@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_geometry_extractor": "PyMuPDF 1.28.2",
+  "verification_command": "python tools/verify_package.py",
+  "pdf_location_replay_command": "python tools/audit_and_preview_case_manifest.py",
+  "location_offset_replay_requires_pinned_extractor_or_recorded_page_text_hash_checks": true,
+  "no_gpu_libraries_loaded_by_package_verifier": true
+}

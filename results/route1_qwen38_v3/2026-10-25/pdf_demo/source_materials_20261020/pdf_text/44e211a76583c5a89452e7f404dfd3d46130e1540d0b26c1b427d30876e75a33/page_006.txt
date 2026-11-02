@@ -1,0 +1,74 @@
+two complexes, we inspected sparkline traces of two co-fractiona-
+tion experiments (Wan et al, 2015) (Fig 3C). We identified two sepa-
+rate
+elution
+peaks
+of
+HSPA9
+which
+correspond
+to
+the
+two
+complexes. This example shows the ability of our complex map to
+identify multifunctional promiscuous proteins and place them into
+their respective non-overlapping functional complexes.
+Saeed and Deane (2006) previously showed a strong relationship
+between protein age and interaction connectivity. We therefore
+−2
+0
+2
+4
+6
+Z-score
+Cellular 
+Euk+Bac
+Euk_Archaea
+Eukaryota
+Opisthokonta
+Eumetazoa
+Vertebrata
+Mammalia
+D
+Older
+Younger
+HSPA9
+PCBP2
+GRPEL1
+Reactome: R-HSA-1268020 
+Mitochondrial protein import
+HuMAP2_00358
+HSPA9
+HSPA8
+PABPC1
+Reactome: R-HSA-3371453 
+Regulation of HSF1-mediated 
+heat shock response
+HuMAP2_01130
+A
+20
+60
+100
+20
+40
+60
+80
+HSPA9
+HSPA8
+GRPEL1
+PABPC1
+PCBP2
+Fly
+HEK 293
+Heparin Fractions
+CAT-WAX Fractions
+Wan et al. CF-MS
+B
+C
+Figure 3.
+6 of 16
+Molecular Systems Biology
+17: e10016 | 2021
+ª 2021 The Authors
+Molecular Systems Biology
+Kevin Drew et al

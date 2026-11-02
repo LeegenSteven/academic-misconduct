@@ -1,0 +1,89 @@
+{
+  "pair_id": "r1pair:dfc4fa2f6288240b4e04",
+  "points": [
+    {
+      "original_point_number": 2,
+      "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+      "citation_marker_locator": [
+        {
+          "pdf_page": 1,
+          "printed_page": null,
+          "char_start": 1012,
+          "char_end_exclusive": 1013,
+          "raw_text": "5",
+          "raw_text_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+          "source_blocks": [
+            {
+              "block_number": 4,
+              "bbox": [
+                217.32,
+                251.126,
+                562.884,
+                509.216
+              ]
+            }
+          ],
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes",
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open"
+        }
+      ]
+    },
+    {
+      "original_point_number": 11,
+      "case_id": "r1pdf:976890f040d5c2cab2e50965",
+      "citation_marker_locator": [
+        {
+          "pdf_page": 1,
+          "printed_page": null,
+          "char_start": 3673,
+          "char_end_exclusive": 3674,
+          "raw_text": "5",
+          "raw_text_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+          "source_blocks": [
+            {
+              "block_number": 6,
+              "bbox": [
+                306.142,
+                531.346,
+                562.83,
+                616.776
+              ]
+            }
+          ],
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes",
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open"
+        }
+      ]
+    },
+    {
+      "original_point_number": 15,
+      "case_id": "r1pdf:896e930269210ee1300d8037",
+      "citation_marker_locator": [
+        {
+          "pdf_page": 8,
+          "printed_page": null,
+          "char_start": 4172,
+          "char_end_exclusive": 4173,
+          "raw_text": "5",
+          "raw_text_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+          "source_blocks": [
+            {
+              "block_number": 9,
+              "bbox": [
+                306.142,
+                69.096,
+                562.807,
+                165.276
+              ]
+            }
+          ],
+          "bbox_scope": "whole intersecting text blocks, not exact sentence boxes",
+          "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open"
+        }
+      ]
+    }
+  ],
+  "physical_points_merged": false,
+  "classifications_or_reviews_transferred": false,
+  "note": "Points 2, 11 and 15 cite the same PDF pair at distinct physical occurrences. No automatic transfer of the count dispute or resource-only disposition."
+}

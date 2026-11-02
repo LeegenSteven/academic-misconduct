@@ -1,0 +1,67 @@
+{
+  "checks": [
+    {
+      "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+      "evidence_id": "D01:S01",
+      "quote_unchanged": "making >144 000 experimentally-determined structures of proteins, DNA, and RNA, and their complexes with metal ions, drugs, and other small molecules freely available",
+      "candidate_model_text_sha256": "31f3579f1daf80de835eb4b647c21f811416440302af0a436f7d9585bdee4ba9",
+      "raw_substring_match": false,
+      "whitespace_only_contiguous_match": true,
+      "accepted_parser_changed": false,
+      "PDF_page_location_proven_by_this_check": false
+    },
+    {
+      "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+      "evidence_id": "D01:S03",
+      "quote_unchanged": "The PDB Core Archive houses 3D atomic coordinates of more than 144 000 structural models of proteins, DNA/RNA, and their complexes with metals and small molecules",
+      "candidate_model_text_sha256": "49ad0e47ab6997b3c06c30b99d3bd8cc9b93c7901e0110eed9b0b2e36f1a0f78",
+      "raw_substring_match": false,
+      "whitespace_only_contiguous_match": true,
+      "accepted_parser_changed": false,
+      "PDF_page_location_proven_by_this_check": false
+    },
+    {
+      "case_id": "r1pdf:c39ba37fc4698431f556d6b9",
+      "evidence_id": "D01:S07",
+      "quote_unchanged": "The PDB Core Archive houses 3D atomic coordinates of >144 000 structural models of proteins, DNA/RNA, and their complexes with metals and small molecules.",
+      "candidate_model_text_sha256": "f235f4bdf044c93918691a026eab6c120113ee8066f6cfe233e4eee8191a0525",
+      "raw_substring_match": false,
+      "whitespace_only_contiguous_match": false,
+      "accepted_parser_changed": false,
+      "PDF_page_location_proven_by_this_check": false
+    },
+    {
+      "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+      "evidence_id": "D01:S02",
+      "quote_unchanged": "Viruses of the family Coronaviridae possess a single-strand, positive-sense RNA genome",
+      "candidate_model_text_sha256": "b8c131e52165e3364685a8b6136af4563f5dbc38138aeba72ce56dee35bf5826",
+      "raw_substring_match": false,
+      "whitespace_only_contiguous_match": true,
+      "accepted_parser_changed": false,
+      "PDF_page_location_proven_by_this_check": false
+    },
+    {
+      "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+      "evidence_id": "D01:S04",
+      "quote_unchanged": "a novel coronavirus (termed 2019-nCoV) has been identified",
+      "candidate_model_text_sha256": "c242e0d55ebce359dc5cbcbc0794ff655a182398f8140a76799d13e17c5622c2",
+      "raw_substring_match": false,
+      "whitespace_only_contiguous_match": true,
+      "accepted_parser_changed": false,
+      "PDF_page_location_proven_by_this_check": false
+    },
+    {
+      "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+      "evidence_id": "D01:S10",
+      "quote_unchanged": "This evidence indicates that 2019-nCoV is a novel betacoronavirus from the subgenus Sarbecovirus",
+      "candidate_model_text_sha256": "c5eaefaf138372224ee175c39e654ca6fa5721dc21a22b121871fe9979283587",
+      "raw_substring_match": false,
+      "whitespace_only_contiguous_match": false,
+      "accepted_parser_changed": false,
+      "PDF_page_location_proven_by_this_check": false
+    }
+  ],
+  "whitespace_only_matched": 4,
+  "total": 6,
+  "scope": "逐处差异诊断；非完整规范化解析器，不更改原始严格失败或3/5补充结果。"
+}

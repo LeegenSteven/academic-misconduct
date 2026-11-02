@@ -1,0 +1,23 @@
+The Author(s) BMC Bioinformatics 2017, 18(Suppl 3):80
+Page 93 of 175
+Fig. 1 Pipeline diagram of AfterQC. For each single or pair of FastQ file(s), AfterQC will perform pre-filtering QC, automatic trimming, data filtering,
+error correction and post-filtering QC. Reads will be categorized as good or bad reads and stored separately, figures will be included in the final
+HTML report
+the polyX and circle figures, and use these circles to filter
+out all the reads located in them. Figure 2 shows how we
+implement deBubble algorithm.
+Bubble detection is optional in AfterQC and is not
+enabled by default. According to our study, Illumina
+NextSeq sequencers are more likely to raise bubbles, so we
+suggest enabling this option for NextSeq sequencer out-
+puts and disabling it for HiSeq sequencer outputs. Figure 3
+shows a part of debubble’s output, from which we can also
+find that NextSeq sequencers produce much more polyX
+reads.
+Automatic trimming
+In the whole sequencing process, the first several cycles
+can have more biases or errors since the signal coordi-
+nation hasn’t been established yet, and the last several
+cycles can also have errors due to error accumulation and
+lack of following correction. In some cases, the beginning
+Fig. 2 Algorithm diagram of deBubble. The major steps of this algorithm are polyX detection, polyX clustering and filtering, circle fitting and filtering

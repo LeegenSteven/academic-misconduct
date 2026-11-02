@@ -1,0 +1,86 @@
+{
+  "status": "LI_CONFIRMED_REMAINING13_R2_SCOPE_AND_TRANSCRIPTION",
+  "reviewer": "李云",
+  "exact_user_reply": "确认",
+  "confirmation_source": "Direct user reply to the r2 review conclusion and complete 13-point proposal in this chat",
+  "scope": "13 points: r2 scope and source transcription only; no semantic labels or acceptance signoff",
+  "client_record_date": "2026-10-24",
+  "recorded_at_utc": "2026-10-24T05:56:12.068260+00:00",
+  "reviewed_at": null,
+  "exact_human_review_time_unknown": true,
+  "recorded_time_is_not_exact_human_review_time": true,
+  "r2_review_document_sha256": "3c66df9af583d320cbe6cdf22bcab17f3581b4e876f16e4bb406c330bdec5599",
+  "r2_package_sha256": "a63d15d8ed44bfd1e99aaa9c3b59aeff29c6d55b933a2facf23a3c2dbb635a34",
+  "local_r2_runtime_plan_sha256": "867c6b6c393ddb857f373efe012c3261cb5a68d4fde2cd7f6e0472a23470f0d3",
+  "selected_scopes": [
+    {
+      "point_number": 7,
+      "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+      "scope_sha256": "2441e3f0c60fe64bb2f033fde4f88a3c49931f491d56ef9db69aaf72a00a1165"
+    },
+    {
+      "point_number": 8,
+      "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+      "scope_sha256": "bfb95726c39170abccc3f7d7232e9849a43e0592d858047bb2f9e8170e251495"
+    },
+    {
+      "point_number": 9,
+      "case_id": "r1pdf:c20f0ec9e9d5958f62b304f8",
+      "scope_sha256": "b65ab47859767dd0901d973316ea4304260776e774ac365c63636a823cdf50f4"
+    },
+    {
+      "point_number": 10,
+      "case_id": "r1pdf:1dfa922c755ed870245927e3",
+      "scope_sha256": "6a258c03e3f7cd8aa040546d9543ad12a40a5b99e981a21c34c283c47675f75a"
+    },
+    {
+      "point_number": 11,
+      "case_id": "r1pdf:976890f040d5c2cab2e50965",
+      "scope_sha256": "3935bfa298c0a8eca7e0eda6864cd4f898cf70a016742c6954e01026e9d5f71f"
+    },
+    {
+      "point_number": 12,
+      "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+      "scope_sha256": "2bbaf76fc6b794214296cfd1cafb8a54ad52c42fe3751d6e235be1d4268b2bc8"
+    },
+    {
+      "point_number": 13,
+      "case_id": "r1pdf:43c53ece80a7c35828d5246d",
+      "scope_sha256": "4b80a5b7a73dcb1512c2259e0117c540f83a45333743710b0975079c3c1ff477"
+    },
+    {
+      "point_number": 14,
+      "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+      "scope_sha256": "bd34fcfc2f9e2f3619d349762dbc4d58569d019da42fbaa33c3330df81ba4c42"
+    },
+    {
+      "point_number": 16,
+      "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+      "scope_sha256": "af5751ce45370659dc517056ad051a923a65060969d90273ac0ed888ad129c60"
+    },
+    {
+      "point_number": 17,
+      "case_id": "r1pdf:0243ab815badba958177a9a8",
+      "scope_sha256": "d9d991a33d99bebafb3c525437840ca028c20a86680c45f18bdc982d19ceb68d"
+    },
+    {
+      "point_number": 18,
+      "case_id": "r1pdf:0625d9ca3ef5bf2a22c6109b",
+      "scope_sha256": "2a909a2f50b2fe1c30c339097dfb38a904454a2f6bf2d54838011717ea19e2e7"
+    },
+    {
+      "point_number": 19,
+      "case_id": "r1pdf:826cdb765c276ba900010084",
+      "scope_sha256": "eb635af7eaea07ae76b7209d4d08e338b14210d8ec70a4e37c4b33a93335332a"
+    },
+    {
+      "point_number": 20,
+      "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+      "scope_sha256": "feb92a2a18b2132743e2f9d06d3388f52b4ad070312e66fcf58e4655ca893dad"
+    }
+  ],
+  "A100_r2_CPU_check": "pending",
+  "actual_GPU_release_created": false,
+  "new_human_labels": 0,
+  "new_formal_acceptances": 0
+}

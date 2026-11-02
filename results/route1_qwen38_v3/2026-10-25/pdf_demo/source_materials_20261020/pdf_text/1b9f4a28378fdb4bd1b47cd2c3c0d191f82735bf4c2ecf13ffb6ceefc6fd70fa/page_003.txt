@@ -1,0 +1,112 @@
+Articles
+www.thelancet.com   Vol 395   March 28, 2020	
+1055
+Prof Hua Chen, Department of 
+Tuberculosis and Respiratory 
+Disease, Jinyintan Hospital, 
+Dongxihu District, 
+Wuhan 430023, China 
+2716637947@qq.com
+outcome (death or discharge) as of Jan 31, 2020. We aim 
+to explore risk factors of in-hospital death for patients 
+and describe the clinical course of symptoms, viral 
+shedding, and tem­poral changes of laboratory findings 
+during hospitalisation.
+Methods
+Study design and participants
+This retrospective cohort study included two cohorts of 
+adult inpatients (≥18 years old) from Jinyintan Hospital and 
+Wuhan Pulmonary Hospital (Wuhan, China). All adult 
+patients who were diagnosed with COVID-19 according to 
+WHO interim guidance were screened, and those who died 
+or were discharged between Dec 29, 2019 (ie, when the first 
+patients were admitted), and Jan 31, 2020, were included in 
+our study. Since these two hospitals were the only desig­
+nated hospitals for transfer of patients with COVID-19 
+from other hospitals in Wuhan until Feb 1, 2020, our study 
+enrolled all adult inpatients who were hospitalised for 
+COVID-19 and had a definite outcome (dead or discharged) 
+at the early stage of the outbreak.
+Before Jan 11, 2020, SARS-CoV-2 RNA detection results 
+were not available in the electronic medical records, from 
+which data for this study were obtained retrospectively; 
+therefore, this study includes 29 of the 41 patients 
+originally reported on.5
+The study was approved by the Research Ethics 
+Commission of Jinyintan Hospital (KY-2020–01.01) and 
+the requirement for informed consent was waived by the 
+Ethics Commission as described previously.5
+Data collection
+Epidemiological, demographic, clinical, laboratory, treat­
+ment, and outcome data were extracted from electronic 
+medical records using a standardised data collection 
+form, which was a modified version of the WHO/
+International Severe Acute Respiratory and Emerging 
+Infection Consortium case record form for severe 
+acute respiratory infections. All data were checked by 
+two physicians (FZ and ZL) and a third researcher (GF) 
+adjudicated any difference in interpretation between the 
+two primary reviewers.
+Laboratory procedures
+Methods for laboratory confirmation of SARS-CoV-2 
+infection have been described elsewhere.5 Briefly, four 
+institutions—the Chinese Center for Disease Control 
+and Prevention, the Chinese Academy of Medical 
+Science, the Academy of Military Medical Sciences, and 
+the Wuhan Institute of Virology, Chinese Academy of 
+Sciences—were responsible for SARS-CoV-2 detection 
+in respiratory specimens by next-generation sequencing 
+or real-time RT-PCR methods. From Jan 11, 2020, 
+SARS-CoV-2 RNA were detected by local Centers for 
+Disease Control and Prevention, local health institutions, 
+and Jingyintan Hospital and Wuhan Pulmonary Hospital. 
+Throat-swab specimens were obtained for SARS-CoV-2 
+PCR re-examination every other day after clinical 
+remission of symptoms, including fever, cough, and 
+dyspnoea, but only qualitative data were available. The 
+criteria for discharge were absence of fever for at least 
+3 days, substantial improvement in both lungs in chest 
+CT, clinical remission of respiratory symptoms, and two 
+throat-swab samples negative for SARS-CoV-2 RNA 
+obtained at least 24 h apart.
+Routine blood examinations were complete blood 
+count, coagulation profile, serum biochemical tests 
+(including renal and liver function, creatine kinase, 
+lactate dehydrogenase, and electrolytes), myocardial 
+enzymes, interleukin-6 (IL-6), serum ferritin, and 
+Research in context
+Evidence before this study
+We searched PubMed on Feb 23, 2020, for articles that 
+documented the risk factors of mortality and viral shedding 
+in patients with coronavirus disease 2019 (COVID-19), 
+resulting from infection with severe acute respiratory 
+syndrome coronavirus 2 (SARS-CoV-2), using the search 
+terms (“novel coronavirus” OR “SARS-CoV-2” OR “COVID-19”) 
+AND (“death” OR “mortality” OR “viral shedding”) with no 
+language or time restrictions. Age, comorbidities, 
+lymphocytopenia and elevated alanine aminotransferase, 
+d-dimer, creatine kinase, high-sensitivity cardiac troponin I, 
+prothrombin time, and disease severity were reported to be 
+associated with intensive care unit admission. However, 
+no published works were found about the risk factors of 
+mortality for adult patients with COVID-19. One study 
+compared the sensitivity of SARS-CoV-2 RNA detection in 
+throat and nasopharyngeal swab in 17 patients with 
+COVID-19.
+Added value of this study
+In this retrospective cohort study of adult inpatients in 
+two hospitals in Wuhan, China, we found increasing odds of 
+in-hospital death associated with older age (odds ratio 1·10, 
+95% CI 1·03–1·17; p=0·0043), higher Sequential Organ Failure 
+Assessment (SOFA) score (5·65, 2·61–12·23; p<0·0001), 
+and d-dimer levels greater than 1·0 µg/mL (18·42, 2·64–128·55; 
+p=0·0033) on admission. Duration of viral shedding ranged 
+between 8 and 37 days. The median duration of viral shedding 
+was 20·0 days (IQR 17·0–24·0) in survivors, but continued until 
+death in fatal cases.
+Implications of all the available evidence
+Older age, elevated d-dimer levels, and high SOFA score could 
+help clinicians to identify at an early stage those patients with 
+COVID-19 who have poor prognosis. Prolonged viral shedding 
+provides the rationale for a strategy of isolation of infected 
+patients and optimal antiviral interventions in the future.

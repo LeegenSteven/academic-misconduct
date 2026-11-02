@@ -1,0 +1,175 @@
+of cytochrome c oxidase utilizing high-energy X-rays. J Synchrotron Rad. 2019; 
+26(Pt 4): 912–21.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+132. 	 van den Bedem H, Dhanik A, Latombe JC, et al.: Modeling discrete heterogeneity 
+in X-ray diffraction data by fitting multi-conformers. Acta Crystallogr D Biol 
+Crystallogr. 2009; 65(Pt 10): 1107–17.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+133. 	 Keedy DA, Fraser JS, van den Bedem H, et al.: Exposing Hidden Alternative 
+Backbone Conformations in X-ray Crystallography Using qFit. PLoS Comput 
+Biol. 2015; 11(10): e1004507.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+134. 	 van Zundert GCP, Hudson BM, de Oliveira SHP, et al.: qFit-ligand Reveals 
+Widespread Conformational Heterogeneity of Drug-Like Molecules in X-Ray 
+Electron Density Maps. J Med Chem. 2018; 61(24): 11183–98.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+135. 	
+ Lang PT, Ng HL, Fraser JS, et al.: Automated electron-density sampling 
+reveals widespread conformational polymorphism in proteins. Protein Sci. 
+2010; 19(7): 1420–31.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+136. 	 Burnley BT, Afonine PV, Adams PD, et al.: Modelling dynamics in protein crystal 
+structures by ensemble refinement. eLife. 2012; 1: e00311.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+137. 	 van Benschoten AH, Liu L, Gonzalez A, et al.: Measuring and modeling diffuse 
+scattering in protein X-ray crystallography. Proc Natl Acad Sci U S A. 2016; 
+113(15): 4069–74.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+138. 	 Wall ME, van Benschoten AH, Sauter NK, et al.: Conformational dynamics of a 
+crystalline protein from microsecond-scale molecular dynamics simulations 
+and diffuse X-ray scattering. Proc Natl Acad Sci U S A. 2014; 111(50): 17887–92. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+139. 	
+ de Klijn T, Schreurs AMM, Kroon-Batenburg LMJ: Rigid-body motion is the 
+main source of diffuse scattering in protein crystallography. IUCrJ. 2019; 6(Pt 
+2): 277–89.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+140. 	 Wall ME: Internal protein motions in molecular-dynamics simulations of Bragg 
+and diffuse X-ray scattering. IUCrJ. 2018; 5(Pt 2): 172–81.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+141. 	
+ Meisburger SP, Case DA, Ando N: Diffuse X-ray scattering from correlated 
+motions in a protein crystal. Nat Commun. 2020; 11(1): 1271.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+142. 	 Janowski PA, Liu C, Deckman J, et al.: Molecular dynamics simulation of triclinic 
+lysozyme in a crystal lattice. Protein Sci. 2016; 25(1): 87–102.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+143. 	 Cerutti DS, Freddolino PL, Duke RE, et al.: Simulations of a Protein Crystal 
+with a High Resolution X-ray Structure: Evaluation of Force Fields and Water 
+Models. J Phys Chem B. 2010; 114(40): 12811–24.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+144. 	 Cerutti DS, Case DA: Molecular dynamics simulations of macromolecular 
+crystals. Wiley Interdiscip Rev Comput Mol Sci. 2019; 9(4): e1402.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+145. 	
+ Moriarty NW, Janowski PA, Swails JM, et al.: Improved chemistry restraints 
+for crystallographic refinement by integrating the Amber force field into 
+Phenix. Acta Crystallogr D Struct Biol. 2020; 76(Pt 1): 51–62.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+146. 	 Emma P, Akre R, Arthur J, et al.: First lasing and operation of an ångstrom-
+wavelength free-electron laser. Nat Photonics. 2010; 4: 641–7.  
+Publisher Full Text 
+147. 	 Schlichting I, Miao J: Emerging opportunities in structural biology with X-ray 
+free-electron lasers. Curr Opin Struct Biol. 2012; 22(5): 613–26.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+148. 	 Schlichting I: Serial femtosecond crystallography: The first five years. IUCrJ. 
+2015; 2(Pt 2): 246–55.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+149. 	 Martin-Garcia JM, Conrad CE, Coe J, et al.: Serial femtosecond crystallography: 
+A revolution in structural biology. Arch Biochem Biophys. 2016; 602: 32–47. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+150. 	 Neutze R, Huldt G, Hajdu J, et al.: Potential impact of an X-ray free electron laser 
+on structural biology. Radiat Phys Chem. 2004; 71: 905–16.  
+Publisher Full Text 
+151. 	 Chapman HN, Caleman C, Timneanu N: Diffraction before destruction. Philos 
+Trans R Soc Lond B Biol Sci. 2014; 369(1647): 20130313.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+152. 	
+ Chapman HN, Fromme P, Barty A, et al.: Femtosecond X-ray protein 
+nanocrystallography. Nature. 2011; 470(7332): 73–7.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+153. 	 Shapiro DA, Chapman HN, Deponte D, et al.: Powder diffraction from a 
+continuous microjet of submicrometer protein crystals. J Synchrotron Radiat. 
+2008; 15(Pt 6): 593–9.  
+PubMed Abstract | Publisher Full Text 
+154. 	 Rossmann MG: Serial crystallography using synchrotron radiation. IUCrJ. 2014; 
+1(Pt 2): 84–6.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+155. 	 Spence JCH: Serial Crystallography: Preface. Crystals. 2020; 10(2): 135. 
+Publisher Full Text 
+156. 	 DePonte DP, Weierstall U, Schmidt K, et al.: Gas dynamic virtual nozzle for 
+generation of microscopic droplet streams. J Phys D Appl Phys. 2008; 41(19): 
+195505.  
+Publisher Full Text 
+157. 	 Sierra RG, Laksmono H, Kern J, et al.: Nanoflow electrospinning serial 
+femtosecond crystallography. Acta Crystallogr D Biol Crystallogr. 2012; 68(Pt 11): 
+1584–7.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+158. 	
+ Weierstall U, James D, Wang C, et al.: Lipidic cubic phase injector facilitates 
+membrane protein serial femtosecond crystallography. Nat Commun. 2014; 5: 
+1119.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+159. 	 Tono K: Fluid sample injectors for x-ray free electron laser at SACLA. High Pow 
+Laser Sci Eng. 2017; 5.  
+Publisher Full Text 
+160. 	 Wolff AM, Young ID, Sierra RG, et al.: Comparing serial X-ray crystallography 
+and microcrystal electron diffraction (MicroED) as methods for routine 
+structure determination from small macromolecular crystals. IUCrJ. 2020; 7(Pt 
+2): 306–23.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+161. 	 Cohen AE, Soltis SM, González A, et al.: Goniometer-based femtosecond 
+crystallography with X-ray free electron lasers. Proc Natl Acad Sci U S A. 2014; 
+111(48): 17122–7.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+162. 	 Roedig P, Ginn HM, Pakendorf T, et al.: High-speed fixed-target serial virus 
+crystallography. Nat Methods. 2017; 14(8): 805–10.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+163. 	 Baxter EL, Aguila L, Alonso-Mori R, et al.: High-density grids for efficient data 
+collection from multiple crystals. Acta Crystallogr D Struct Biol. 2016; 72(Pt 1): 
+2–11.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+164. 	 Mueller C, Marx A, Epp SW, et al.: Fixed target matrix for femtosecond time-
+resolved and in situ serial micro-crystallography. Struct Dyn. 2015; 2(5): 
+054302.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+165. 	 Mathews II, Allison K, Robbins T, et al.: The Conformational Flexibility of the 
+Acyltransferase from the Disorazole Polyketide Synthase Is Revealed by an 
+X-ray Free-Electron Laser Using a Room-Temperature Sample Delivery Method 
+for Serial Crystallography. Biochemistry. 2017; 56(36): 4751–6.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+166. 	 Lyubimov AY, Murray TD, Koehl A, et al.: Capture and X-ray diffraction studies 
+of protein microcrystals in a microfluidic trap array. Acta Crystallogr D Biol 
+Crystallogr. 2015; 71(Pt 4): 928–40.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+167. 	 Roessler CG, Agarwal R, Allaire M, et al.: Acoustic Injectors for Drop-On-
+Demand Serial Femtosecond Crystallography. Structure. 2016; 24(4): 631–40. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+168. 	 Fuller FD, Gul S, Chatterjee R, et al.: Drop-on-demand sample delivery for 
+studying biocatalysts in action at X-ray free-electron lasers. Nat Methods. 2017; 
+14(4): 443–9.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+169. 	 Botha S, Nass K, Barends TRM, et al.: Room-temperature serial crystallography 
+at synchrotron X-ray sources using slowly flowing free-standing high-
+viscosity microstreams. Acta Crystallogr D Biol Crystallogr. 2015; 71(Pt 2): 
+387–97.  
+PubMed Abstract | Publisher Full Text 
+170. 	 Jaeger K, Dworkowski F, Nogly P, et al.: Serial Millisecond Crystallography of 
+Membrane Proteins. Adv Exp Med Biol. 2016; 922: 137–49.  
+PubMed Abstract | Publisher Full Text 
+171. 	 Martin-Garcia JM, Conrad CE, Nelson G, et al.: Serial millisecond crystallography 
+of membrane and soluble protein microcrystals using synchrotron radiation. 
+IUCrJ. 2017; 4(Pt 4): 439–54.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+172. 	 Stellato F, Oberthür D, Liang M, et al.: Room-temperature macromolecular serial 
+crystallography using synchrotron radiation. IUCrJ. 2014; 1(Pt 4)����������
+: 204–12.  
+PubMed Abstract | Publisher Full Text | Free Full Text
+173. 	
+ de La Mora E, Coquelle N, Bury CS, et al.: Radiation damage and dose limits 
+in serial synchrotron crystallography at cryo- and room temperatures. Proc 
+Natl Acad Sci U S A. 2020; 117(8): 4142–51.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+174. 	 Nass K: Radiation damage in protein crystallography at X-ray free-electron 
+lasers. Acta Crystallogr D Struct Biol. 2019; 75(Pt 2): 211–8.  
+PubMed Abstract | Publisher Full Text | Free Full Text
+Page 14 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

@@ -1,0 +1,32 @@
+{
+  "requested_at_utc": "2026-10-31T11:34:16.380022+00:00",
+  "operator": "LiYun",
+  "gpu": {
+    "gpu": "0",
+    "free_mib": 40441,
+    "utilization": 0
+  },
+  "package_files_sha256": {
+    "code/ly/route1_pdf_hf_backend_v3.py": "800e2f1db364ba955fdcbecf26740fb3e3ae2e585a04ea18670f09a72b108caf",
+    "code/ly/route1_pdf_pipeline_v3.py": "80d17ad57db84c218ac3b0046432f12cbd915835003576ccf3fc5f6571faf055",
+    "code/ly/run_route1_pdf_v3.py": "6674fc6e49bead010f4155cef897a00a4b0b26d78e7c626fcacae06fed81b1cb",
+    "code/ly/prepare_pdf20_scope_inputs_20261020.py": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+    "code/ly/build_sarol_inputs_v2.py": "2f4b32708646337b91064474d13b1769029038c5f72b8ec5059599329bc6e3af",
+    "code/ly/replay_cmj_pdf20_retrieval_20261020.py": "bd5c00227300678a9799a52254de2906a2790c2178218505438466c65a72b6d5",
+    "results/route1_qwen38_v3/2026-10-25/pdf_demo/supplement_official_freeze_20261029/official_supplement_manifest.jsonl": "3f22a047e765940e2f1e4c75b7919aadd1caafc0e5726009ac758a18828c31ad",
+    "results/route1_qwen38_v3/2026-10-25/pdf_demo/supplement_official_freeze_20261029/two_point_runtime_plan.json": "a4fb8aae9f9beb9dedbb5410de1a4fa0afc5d6aeb5be4ce325550f4ddaf8c0a0",
+    "results/route1_qwen38_v3/2026-10-25/pdf_demo/supplement_official_freeze_20261029/prepared_items.jsonl": "9b1ab5e26740e76f81b5d3f5f500774c1a08f621b2218001da45bcea5419937a",
+    "results/route1_qwen38_v3/2026-10-25/pdf_demo/supplement_official_freeze_20261029/classification.inputs.jsonl": "8a211d406945968252b9771a9b040047bba6172de05a77f712524088e2054ad8",
+    "results/route1_qwen38_v3/2026-10-25/pdf_demo/supplement_official_freeze_20261029/explanation.inputs.jsonl": "ec656f0535e1540d07f19a8ab8472fed9b7fc95c33fb0589da31c9a0c99f871f",
+    "results/route1_qwen38_v3/2026-10-25/pdf_demo/supplement_official_freeze_20261029/freeze_receipt.json": "6a5b17120c207dfd0b4aa5513df9c1dc5e641038185280468c76edc788d2628f",
+    "results/route1_qwen38_v3/2026-10-25/pdf_demo/supplement_official_freeze_20261029/preparation_receipt.json": "9331932d811ef44e01427d646b64cf718603eac2930269a05ba555c470ec5677",
+    "results/route1_qwen38_v3/2026-10-25/pdf_demo/supplement_official_freeze_20261029/run_plan.json": "61c3256b505b1854b32d80a83a3e30d76e86e4c3401546ae22a063990400d0e5",
+    "results/route1_qwen38_v3/2026-10-25/pdf_demo/supplement_official_freeze_20261029/run_two_point_a100_20261029.py": "3eef92f03c0ead083f98d6f36301226d447011f963ba17f9081aecc2ef5025e5",
+    "official/chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+    "official/18_shards_expected_sha256.txt": "3ebc83ee545cc54cb2558d805802d4a4e9da42c316d1b248846debee545b99c9",
+    "continue_a100_20261031.py": "62d9960a554442728e094825f53251a9986b5dc84c0f3f2abde7dbf0783e9bdf"
+  },
+  "two_point_plan_sha256": "a4fb8aae9f9beb9dedbb5410de1a4fa0afc5d6aeb5be4ce325550f4ddaf8c0a0",
+  "scope": "two frozen PDF supplements; original 18 reused; no training or Test",
+  "automatic_retry": false
+}

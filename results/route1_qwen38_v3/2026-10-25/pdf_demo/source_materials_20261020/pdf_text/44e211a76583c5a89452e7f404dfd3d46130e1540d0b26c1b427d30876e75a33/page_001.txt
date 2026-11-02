@@ -1,0 +1,85 @@
+Article
+hu.MAP 2.0: integration of over 15,000 proteomic
+experiments builds a global compendium of human
+multiprotein assemblies
+Kevin Drew*,†
+, John B Wallingford & Edward M Marcotte**
+Abstract
+A general principle of biology is the self-assembly of proteins into
+functional complexes. Characterizing their composition is, there-
+fore, required for our understanding of cellular functions. Unfortu-
+nately, we lack knowledge of the comprehensive set of identities
+of protein complexes in human cells. To address this gap, we devel-
+oped a machine learning framework to identify protein complexes
+in over 15,000 mass spectrometry experiments which resulted in
+the identification of nearly 7,000 physical assemblies. We show
+our resource, hu.MAP 2.0, is more accurate and comprehensive
+than previous state of the art high-throughput protein complex
+resources and gives rise to many new hypotheses, including for
+274 completely uncharacterized proteins. Further, we identify 253
+promiscuous proteins that participate in multiple complexes point-
+ing to possible moonlighting roles. We have made hu.MAP 2.0
+easily searchable in a web interface (http://humap2.proteincomple
+xes.org/), which will be a valuable resource for researchers across
+a broad range of interests including systems biology, structural
+biology, and molecular explanations of disease.
+Keywords data integration; human protein complexes; mass spectrometry;
+moonlighting proteins
+Subject Categories Methods & Resources; Post-translational Modifications
+& Proteolysis
+DOI 10.15252/msb.202010016 | Received 23 September 2020 | Revised 8 April
+2021 | Accepted 9 April 2021
+Mol Syst Biol. (2021) 17: e10016
+Introduction
+Macromolecular protein complexes carry out a wide variety of func-
+tions in the cell including essential functions such as replication,
+transcription, translation, and protein degradation (e.g., MCM-ORC,
+RNA polymerase, ribosome, proteasome) (Alberts, 1998; Hartwell
+et al, 1999). The disruption of protein complexes is implicated in
+many human diseases (Goh et al, 2007; Bruel et al, 2017) and many
+therapeutics target protein complexes (Arkin et al, 2014). The
+formation of protein complexes to carry out biological function is a
+general principle of biology and characterizing their composition is
+therefore a basic requirement to our full understanding of cellular
+functions. Unfortunately, we still lack knowledge of a comprehen-
+sive set of protein complexes for the human cell.
+To address this gap in knowledge, there is an ongoing worldwide
+effort to identify all protein interactions in human cells. High-
+throughput protein interaction screens using affinity purification
+(AP-MS) (Malovannaya et al, 2011; Hein et al, 2015; Huttlin et al,
+2015, 2017) have greatly increased coverage of protein interactions
+across the proteome. Likewise, biochemical separation strategies,
+such as co-fractionation mass spectrometry (CF-MS), have provided
+orthogonal approaches to identifying protein complexes (Havugimana
+et al, 2012; Kristensen et al, 2012; Kirkwood et al, 2013; Wan et al,
+2015). Although these methods have identified tens of thousands of
+protein interactions, they still have limited coverage of the entire
+human interactome.
+Fortunately, these high-throughput methods are orthogonal, each
+sampling different parts of the human proteome and identifying sets
+of interactions which do not completely overlap. We previously re-
+analyzed and integrated three of the largest datasets available at the
+time (Hein et al, 2015; Huttlin et al, 2015; Wan et al, 2015), over
+9,000 mass spectrometry experiments, to build a more complete and
+accurate set of protein complexes (Drew et al, 2017). Our resource,
+hu.MAP, identified interactions for over a third of all human
+proteins.
+We envision interactomes as evolving entities, growing, and
+improving as new technologies and datasets emerge. Here, we intro-
+duce hu.MAP 2.0, which we find to be the most accurate and
+comprehensive human protein complex map available to date.
+hu.MAP 2.0 is an integration of over 15,000 mass spectrometry
+experiments and identifies 6,965 complexes consisting of 57,148
+unique interactions among 9,963 human proteins. Multiple perfor-
+mance metrics demonstrate that hu.MAP 2.0 outperforms our previ-
+ous map and other complex maps available in the literature. We
+further show that complexes in hu.MAP 2.0 are not only highly
+enriched for specific literature-curated annotations but also have
+Department of Molecular Biosciences, Center for Systems and Synthetic Biology, University of Texas, Austin, TX, USA
+*Corresponding author. Tel: +1 312 996 9341; E-mail: ksdrew@uic.edu
+**Corresponding author. Tel: +1 512 471 5435; E-mail: marcotte@utexas.edu
+†Present address: Department of Biological Sciences, University of Illinois at Chicago, Chicago, IL, USA
+ª 2021 The Authors. Published under the terms of the CC BY 4.0 license
+Molecular Systems Biology
+17: e10016 | 2021
+1 of 16

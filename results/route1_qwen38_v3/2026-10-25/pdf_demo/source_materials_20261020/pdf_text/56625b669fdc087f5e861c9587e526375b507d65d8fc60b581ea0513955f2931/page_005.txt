@@ -1,0 +1,69 @@
+D642 Nucleic Acids Research, 2023, Vol. 51, Database issue
+Figure 3. Processing and scoring of experimental interaction evidence. Experimental evidence is retrieved from several public databases. Protein pairs from
+low-throughput (LT) experiments are grouped by detection method and pairs coming from high-throughput (HT) experiments are grouped by experiment.
+Within each group, pairs are benchmarked against the KEGG pathway database to assess the confidence of identifying functional associations. All LT
+pairs are assigned the benchmark score derived for the particular detection method. HT pairs are scored based on calibration on the experiment level.
+and TISSUES (60). This assignment is done based on the
+consensus of the pathway annotations of the pre-existing
+STRING proteins in the most specific orthologous group
+that a new protein is assigned to. If these pre-existing pro-
+teins carry no pathway annotation, the consensus is at-
+tempted in the next-higher, parental orthologous group in
+the orthology hierarchy; this is repeated until it is success-
+ful or until the root level is reached. STRING does not as-
+sign pathways or functional subsystems outside their pre-
+viously known taxonomic scope. A pathway’s scope is de-
+fined by the last common ancestor of all organisms that
+have in the past been annotated with this pathway. At the
+end of the computation process, all predictions are auto-
+matically uploaded to the internal STRING database, bulk
+download files are generated, and the user is given a unique
+STRING proteome identifier. This identifier functions as an
+organism name on the input page, making the newly sub-
+mitted genome browsable and searchable. Submitters can
+share this identifier with other users, but if they choose not
+to, the submitted genomes remain private.
+IMPROVED CO-EXPRESSION ANALYSIS
+The degree of co-expression between RNAs (or between
+proteins) across different conditions provides an essential
+insight into the functional protein–protein interaction net-
+work of a cell (61–64). STRING collects gene expression ev-
+idence from RNA expression arrays and RNA-Seq datasets
+processed by the GEO database (65) as well as co-regulation
+evidence from the ProteomeHD database (7). In version
+12.0 of STRING, the co-expression network is being ex-
+tended with evidence from two novel sources: single-cell
+RNA-Seq data from the Human Protein Atlas (66) and pro-
+teomics datasets from the PRIDE database (67).
+The
+expression
+data
+tends
+to
+be
+sparse,
+high-
+dimensional
+and
+highly
+redundant.
+These
+attributes
+decrease the performance of correlations using Pearson
+Correlation Coefficient. For previous versions of STRING
+we have reduced the redundancy by removing highly
+correlated expression matrices before correlating the gene
+expression which, in turn, increased the recovery of the
+functional associations derived from these matrices. How-
+ever, this did not fully address all of the challenges of such
+datasets.
+To address that, in the latest version we have utilized a
+novel method called FAVA (Functional Associations us-
+ing Variational Autoencoders) (68) to build STRING’s co-
+expression network. This deep-learning model reduces the
+dimensionality of the data into lower-dimensional latent
+spaces using variational autoencoders (VAE). The benefit
+of encoding the matrices into fewer dimensions is 2-fold:
+it reduces the overall sparsity of the data and limits re-
+dundancy by essentially compressing the data. The pre-
+dictions obtained from all the sources are combined in a

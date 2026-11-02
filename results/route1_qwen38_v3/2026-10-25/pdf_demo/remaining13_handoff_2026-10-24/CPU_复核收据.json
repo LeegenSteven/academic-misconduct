@@ -1,0 +1,52 @@
+{
+  "version": "route1_pdf_remaining13_runtime_20261024",
+  "recorded_at_utc": "2026-10-24T05:21:06.799079+00:00",
+  "protected_original_files_checked": 45,
+  "source_map_negative_controls": [
+    {
+      "point": 7,
+      "mutation": "source_offset_plus_one",
+      "rejected": true
+    },
+    {
+      "point": 7,
+      "mutation": "old_corrupted_spelling_reintroduced",
+      "rejected": true
+    },
+    {
+      "point": 12,
+      "mutation": "source_offset_plus_one",
+      "rejected": true
+    },
+    {
+      "point": 12,
+      "mutation": "old_corrupted_spelling_reintroduced",
+      "rejected": true
+    },
+    {
+      "point": 16,
+      "mutation": "source_offset_plus_one",
+      "rejected": true
+    },
+    {
+      "point": 16,
+      "mutation": "old_corrupted_spelling_reintroduced",
+      "rejected": true
+    },
+    {
+      "mutation": "blank_confirmations_release_attempt",
+      "rejected": true
+    }
+  ],
+  "independent_loader_and_builder_scope_and_40_stage_fingerprints_equal": true,
+  "runtime_CPU_preparation_passed": true,
+  "fixed_points": 20,
+  "selected_remaining_points": 13,
+  "new_scope_confirmations": 0,
+  "model_loaded": false,
+  "new_model_runs": 0,
+  "existing_runtime_code_sha256": "80d17ad57db84c218ac3b0046432f12cbd915835003576ccf3fc5f6571faf055",
+  "new_runtime_adapter_sha256": "b47324dcdfb92a059de38dae3a9efc7ba587c551ae0bd3947c3a9342e7f3c186",
+  "draft_summary_sha256": "2d0ce10fd8e74196f1fb07b71c799b63c65252b039d6ce66dd65d1fb019920c8",
+  "runtime_plan_sha256": "8a37b0436fd44ca7c4eccb53722addd2580e03d3e1fa39bcb3bdce27919e78c7"
+}

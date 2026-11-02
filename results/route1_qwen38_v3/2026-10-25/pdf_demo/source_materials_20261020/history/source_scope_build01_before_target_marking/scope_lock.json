@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-20",
+  "case_count": 20,
+  "phase": "before any new classifier inference on this batch",
+  "files_sha256": {
+    "case_manifest.jsonl": "78148b6f667b5289e9b43a9f00581dbff954e43997e65dcf4a5e2959bbad15e0",
+    "pair_manifest.jsonl": "a6b6eb039487d5cc943c91a59812a0538579210078ad48393089b3415caaf387",
+    "selection_policy_v2_before_new_inference.json": "fe5a49e0a697c432bfbf8809c94a6a834fea54dbcf94f1e72b69d424c000eb19",
+    "cited_retrieval_requests.jsonl": "2d898b34f65ca0db1c96debc6bf3bf19f427366ceb8d865f94ce9334092d22fa"
+  },
+  "human_joint_signoff": false
+}

@@ -1,0 +1,496 @@
+{
+  "case_id": "r1pdf:976890f040d5c2cab2e50965",
+  "original_point_number": 11,
+  "original_records_sha256": "495e96f319bc49d062460f14f9c23fccb62a18427c3ac0a0c1cab821a24fd2b5",
+  "citing_pdf": {
+    "pmcid": "PMC8371605",
+    "title": "Highly accurate protein structure prediction with AlphaFold",
+    "doi": "10.1038/s41586-021-03819-2",
+    "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC8371605.1\\PMC8371605.1.pdf",
+    "requested_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8371605.1/PMC8371605.1.pdf?md5=4dc25af78cf3eee19ad66075d43f4b4d",
+    "final_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8371605.1/PMC8371605.1.pdf?md5=4dc25af78cf3eee19ad66075d43f4b4d",
+    "retrieved_at_utc": "2026-10-20T07:58:37.773431+00:00",
+    "http_status": 200,
+    "etag": "\"4dc25af78cf3eee19ad66075d43f4b4d\"",
+    "last_modified": "Sun, 22 Feb 2026 10:22:58 GMT",
+    "sha256": "6eae057a9faf4f671c3101e0745ed704460c6d3dec77243dfd3a9f2d2ab68970",
+    "bytes": 3651992,
+    "official_md5": "4dc25af78cf3eee19ad66075d43f4b4d",
+    "official_md5_verified": true,
+    "attempts": [],
+    "relative_path": "sources/PMC8371605.1/PMC8371605.1.pdf",
+    "path_resolution": "batch root / relative_path; absolute path retained as local acquisition history"
+  },
+  "cited_pdf": {
+    "pmcid": "PMC6324056",
+    "title": "Protein Data Bank: the single global archive for 3D macromolecular structure data",
+    "doi": "10.1093/nar/gky949",
+    "path": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\路线一PDF独立清单_20261020\\sources\\PMC6324056.1\\PMC6324056.1.pdf",
+    "requested_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6324056.1/PMC6324056.1.pdf?md5=7fd02002bae72914b91e146550d16b53",
+    "final_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6324056.1/PMC6324056.1.pdf?md5=7fd02002bae72914b91e146550d16b53",
+    "retrieved_at_utc": "2026-10-20T07:58:23.010667+00:00",
+    "http_status": 200,
+    "etag": "\"7fd02002bae72914b91e146550d16b53\"",
+    "last_modified": "Sat, 21 Feb 2026 19:46:20 GMT",
+    "sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+    "bytes": 1442805,
+    "official_md5": "7fd02002bae72914b91e146550d16b53",
+    "official_md5_verified": true,
+    "attempts": [],
+    "relative_path": "sources/PMC6324056.1/PMC6324056.1.pdf",
+    "path_resolution": "batch root / relative_path; absolute path retained as local acquisition history"
+  },
+  "scope": {
+    "case_id": "r1pdf:976890f040d5c2cab2e50965",
+    "pair_id": "r1pair:dfc4fa2f6288240b4e04",
+    "dedup_key": "976890f040d5c2cab2e50965387de6c786fbab2d7093fdf6bc756e7e9dd4928f",
+    "source_pool_candidate_id": "PMC-OA-EXP-04",
+    "target_reference_id": "CR5",
+    "original_full_context_marked": "The development of computational methods to predict three-dimensional (3D) protein structures from the protein sequence has proceeded along two complementary paths that focus on either the physical interactions or the evolutionary history. The physical interaction programme heavily integrates our understanding of molecular driving forces into either thermodynamic or kinetic simulation of protein physics16 or statistical approximations thereof17. Although theoretically very appealing, this approach has proved highly challenging for even moderate-sized proteins due to the computational intractability of molecular simulation, the context dependence of protein stability and the difficulty of producing sufficiently accurate models of protein physics. The evolutionary programme has provided an alternative in recent years, in which the constraints on protein structure are derived from bioinformatics analysis of the evolutionary history of proteins, homology to solved structures18,19 and pairwise evolutionary correlations20–24. This bioinformatics approach has benefited greatly from the steady growth of experimental protein structures deposited in the Protein Data Bank (PDB)[[TARGET_REFERENCE]]5[[/TARGET_REFERENCE]], the explosion of genomic sequencing and the rapid development of deep learning techniques to interpret these correlations. Despite these advances, contemporary physical and evolutionary-history-based approaches produce predictions that are far short of experimental accuracy in the majority of cases in which a close homologue has not been solved experimentally and this has limited their utility for many biological applications",
+    "old_scope_query": "This bioinformatics approach has benefited greatly from the steady growth of experimental protein structures deposited in the Protein Data Bank (PDB)5, the explosion of genomic sequencing and the rapid development of deep learning techniques to interpret these correlations",
+    "primary_scope_pieces": [
+      {
+        "text": "This bioinformatics approach has benefited greatly from the steady growth of experimental protein structures deposited in the Protein Data Bank (PDB)5",
+        "normalized_context_start": 1036,
+        "normalized_context_end_exclusive": 1186,
+        "source_pdf_fragments": [
+          {
+            "pdf_page": 1,
+            "printed_page": null,
+            "char_start": 3522,
+            "char_end_exclusive": 3674,
+            "raw_text": "This bioinformatics approach has benefited greatly from \nthe steady growth of experimental protein structures deposited in \nthe Protein Data Bank (PDB)5",
+            "raw_text_sha256": "75a893f347d6f7c16813e6e64d037f3edaa864e7db322eccd9da36bc3fe8cb51",
+            "source_blocks": [
+              {
+                "block_number": 5,
+                "bbox": [
+                  39.685,
+                  531.346,
+                  296.403,
+                  702.776
+                ]
+              },
+              {
+                "block_number": 6,
+                "bbox": [
+                  306.142,
+                  531.346,
+                  562.83,
+                  616.776
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ]
+      }
+    ],
+    "context_only_pieces": [],
+    "prepared_query": "This bioinformatics approach has benefited greatly from the steady growth of experimental protein structures deposited in the Protein Data Bank (PDB)5",
+    "query_changed": true,
+    "boundary_reason": "保留 bioinformatics approach 受益于实验结构持续增长的主张，截止当前 PDB5 标记；不把后续基因组测序增长和深度学习并列项归给 PDB 文献。",
+    "scope_status": "assistant_source_boundary_checked",
+    "reviewer_signoff": {
+      "李云": null,
+      "陈明进": null
+    },
+    "exposure": {
+      "prior_retrieval_known": true,
+      "new_model_predictions_seen": false,
+      "independent_blind_claimed": false
+    },
+    "label": null,
+    "joint_adjudication": null
+  },
+  "citation_marker_locator": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "char_start": 3673,
+      "char_end_exclusive": 3674,
+      "raw_text": "5",
+      "raw_text_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "source_blocks": [
+        {
+          "block_number": 6,
+          "bbox": [
+            306.142,
+            531.346,
+            562.83,
+            616.776
+          ]
+        }
+      ],
+      "bbox_scope": "whole intersecting text blocks, not exact sentence boxes",
+      "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open"
+    }
+  ],
+  "full_context_marked": "The development of computational methods to predict three-dimensional (3D) protein structures from the protein sequence has proceeded along two complementary paths that focus on either the physical interactions or the evolutionary history. The physical interaction programme heavily integrates our understanding of molecular driving forces into either thermodynamic or kinetic simulation of protein physics16 or statistical approximations thereof17. Although theoretically very appealing, this approach has proved highly challenging for even moderate-sized proteins due to the computational intractability of molecular simulation, the context dependence of protein stability and the difficulty of producing sufficiently accurate models of protein physics. The evolutionary programme has provided an alternative in recent years, in which the constraints on protein structure are derived from bioinformatics analysis of the evolutionary history of proteins, homology to solved structures18,19 and pairwise evolutionary correlations20–24. This bioinformatics approach has benefited greatly from the steady growth of experimental protein structures deposited in the Protein Data Bank (PDB)[[TARGET_REFERENCE]]5[[/TARGET_REFERENCE]], the explosion of genomic sequencing and the rapid development of deep learning techniques to interpret these correlations. Despite these advances, contemporary physical and evolutionary-history-based approaches produce predictions that are far short of experimental accuracy in the majority of cases in which a close homologue has not been solved experimentally and this has limited their utility for many biological applications",
+  "retrieval": {
+    "case_id": "r1pdf:976890f040d5c2cab2e50965",
+    "pair_id": "r1pair:dfc4fa2f6288240b4e04",
+    "query": "This bioinformatics approach has benefited greatly from the steady growth of experimental protein structures deposited in the Protein Data Bank (PDB)5",
+    "stage": "local_CPU_scope_query_and_text_correction_preparation_v2",
+    "operator": "李云侧辅助准备",
+    "candidate_pool_size": 97,
+    "filtered_short": 22,
+    "filtered_reference": 0,
+    "candidates": [
+      {
+        "evidence_id": "D01:S01",
+        "retrieval_rank": 1,
+        "retrieval_score": 21.448217,
+        "source_block_id": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485:P1:B8",
+        "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+        "pdf_fragments": [
+          {
+            "pdf_page": 1,
+            "char_start": 1591,
+            "char_end_exclusive": 2407,
+            "raw_text": "The Protein Data Bank (PDB, pdb.org) was established\nin 1971 as the first open-access, molecular data resource\nin biology (1). More than 47 years later, the PDB con-\ntinues to serve as the single global repository for atomic-\nlevel, 3D structure data, making >144 000 experimentally-\ndetermined structures of proteins, DNA, and RNA, and\ntheir complexes with metal ions, drugs, and other small\nmolecules freely available without restrictions on use. Since\n2003, the PDB has been managed jointly by the World-\nwide Protein Data Bank (wwPDB) consortium (2), in-\ncluding the US Research Collaboratory for Structural\nBioinformatics Protein Data Bank (RCSB PDB;\nrcsb.\norg) (3), the Protein Data Bank in Europe (PDBe; pdbe.\norg) (4), Protein Data Bank Japan (PDBj; pdbj.org)\n(5) and BioMagResBank (BMRB; www.bmrb.wisc.edu)\n",
+            "raw_text_sha256": "31f3579f1daf80de835eb4b647c21f811416440302af0a436f7d9585bdee4ba9",
+            "printed_page": null,
+            "source_blocks": [
+              {
+                "block_number": 8,
+                "bbox": [
+                  42.224,
+                  537.088,
+                  289.308,
+                  700.472
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "raw_text": "The Protein Data Bank (PDB, pdb.org) was established\nin 1971 as the first open-access, molecular data resource\nin biology (1). More than 47 years later, the PDB con-\ntinues to serve as the single global repository for atomic-\nlevel, 3D structure data, making >144 000 experimentally-\ndetermined structures of proteins, DNA, and RNA, and\ntheir complexes with metal ions, drugs, and other small\nmolecules freely available without restrictions on use. Since\n2003, the PDB has been managed jointly by the World-\nwide Protein Data Bank (wwPDB) consortium (2), in-\ncluding the US Research Collaboratory for Structural\nBioinformatics Protein Data Bank (RCSB PDB;\nrcsb.\norg) (3), the Protein Data Bank in Europe (PDBe; pdbe.\norg) (4), Protein Data Bank Japan (PDBj; pdbj.org)\n(5) and BioMagResBank (BMRB; www.bmrb.wisc.edu)\n",
+        "raw_text_sha256": "31f3579f1daf80de835eb4b647c21f811416440302af0a436f7d9585bdee4ba9",
+        "model_text": "The Protein Data Bank (PDB, pdb.org) was established\nin 1971 as the first open-access, molecular data resource\nin biology (1). More than 47 years later, the PDB con-\ntinues to serve as the single global repository for atomic-\nlevel, 3D structure data, making >144 000 experimentally-\ndetermined structures of proteins, DNA, and RNA, and\ntheir complexes with metal ions, drugs, and other small\nmolecules freely available without restrictions on use. Since\n2003, the PDB has been managed jointly by the World-\nwide Protein Data Bank (wwPDB) consortium (2), in-\ncluding the US Research Collaboratory for Structural\nBioinformatics Protein Data Bank (RCSB PDB;\nrcsb.\norg) (3), the Protein Data Bank in Europe (PDBe; pdbe.\norg) (4), Protein Data Bank Japan (PDBj; pdbj.org)\n(5) and BioMagResBank (BMRB; www.bmrb.wisc.edu)\n",
+        "model_text_sha256": "31f3579f1daf80de835eb4b647c21f811416440302af0a436f7d9585bdee4ba9",
+        "correction_patch_ids": []
+      },
+      {
+        "evidence_id": "D01:S02",
+        "retrieval_rank": 2,
+        "retrieval_score": 17.850147,
+        "source_block_id": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485:P9:B10",
+        "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+        "pdf_fragments": [
+          {
+            "pdf_page": 9,
+            "char_start": 4880,
+            "char_end_exclusive": 5234,
+            "raw_text": "1 Research Collaboratory for Structural Bioinformatics\nProtein Data Bank, Institute for Quantitative Biomedicine,\nRutgers, The State University of New Jersey, Piscataway, NJ\n08854, USA\n2 Research Collaboratory for Structural Bioinformatics\nProtein Data Bank, San Diego Supercomputer Center, Uni-\nversity of California, San Diego, La Jolla, CA 92093, USA\n",
+            "raw_text_sha256": "4f8eef9a7b0d5af38128de0aa13aca42570381882591faf8aea0662c04ed1f9f",
+            "printed_page": null,
+            "source_blocks": [
+              {
+                "block_number": 10,
+                "bbox": [
+                  309.228,
+                  364.628,
+                  556.333,
+                  443.962
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "raw_text": "1 Research Collaboratory for Structural Bioinformatics\nProtein Data Bank, Institute for Quantitative Biomedicine,\nRutgers, The State University of New Jersey, Piscataway, NJ\n08854, USA\n2 Research Collaboratory for Structural Bioinformatics\nProtein Data Bank, San Diego Supercomputer Center, Uni-\nversity of California, San Diego, La Jolla, CA 92093, USA\n",
+        "raw_text_sha256": "4f8eef9a7b0d5af38128de0aa13aca42570381882591faf8aea0662c04ed1f9f",
+        "model_text": "1 Research Collaboratory for Structural Bioinformatics\nProtein Data Bank, Institute for Quantitative Biomedicine,\nRutgers, The State University of New Jersey, Piscataway, NJ\n08854, USA\n2 Research Collaboratory for Structural Bioinformatics\nProtein Data Bank, San Diego Supercomputer Center, Uni-\nversity of California, San Diego, La Jolla, CA 92093, USA\n",
+        "model_text_sha256": "4f8eef9a7b0d5af38128de0aa13aca42570381882591faf8aea0662c04ed1f9f",
+        "correction_patch_ids": []
+      },
+      {
+        "evidence_id": "D01:S03",
+        "retrieval_rank": 3,
+        "retrieval_score": 17.824208,
+        "source_block_id": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485:P1:B6",
+        "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+        "pdf_fragments": [
+          {
+            "pdf_page": 1,
+            "char_start": 349,
+            "char_end_exclusive": 1578,
+            "raw_text": "The\nProtein\nData\nBank\n(PDB)\nis\nthe\nsingle\nglobal archive of experimentally determined three-\ndimensional (3D) structure data of biological macro-\nmolecules. Since 2003, the PDB has been man-\naged by the Worldwide Protein Data Bank (wwPDB;\nwwpdb.org), an international consortium that col-\nlaboratively oversees deposition, validation, biocu-\nration, and open access dissemination of 3D macro-\nmolecular structure data. The PDB Core Archive\nhouses 3D atomic coordinates of more than 144 000\nstructural models of proteins, DNA/RNA, and their\ncomplexes with metals and small molecules and re-\nlated experimental data and metadata. Structure and\nexperimental data/metadata are also stored in the\nPDB Core Archive using the readily extensible ww-\nPDB PDBx/mmCIF master data format, which will\ncontinue to evolve as data/metadata from new ex-\nperimental techniques and structure determination\nmethods are incorporated by the wwPDB. Impacts\nof the recently developed universal wwPDB OneDep\ndeposition/validation/biocuration system and vari-\nous methods-speciﬁc wwPDB Validation Task Forces\non improving the quality of structures and data\nhoused in the PDB Core Archive are described to-\ngether with current challenges and future plans.\n",
+            "raw_text_sha256": "49ad0e47ab6997b3c06c30b99d3bd8cc9b93c7901e0110eed9b0b2e36f1a0f78",
+            "printed_page": null,
+            "source_blocks": [
+              {
+                "block_number": 6,
+                "bbox": [
+                  42.224,
+                  204.072,
+                  289.311,
+                  500.967
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "raw_text": "The\nProtein\nData\nBank\n(PDB)\nis\nthe\nsingle\nglobal archive of experimentally determined three-\ndimensional (3D) structure data of biological macro-\nmolecules. Since 2003, the PDB has been man-\naged by the Worldwide Protein Data Bank (wwPDB;\nwwpdb.org), an international consortium that col-\nlaboratively oversees deposition, validation, biocu-\nration, and open access dissemination of 3D macro-\nmolecular structure data. The PDB Core Archive\nhouses 3D atomic coordinates of more than 144 000\nstructural models of proteins, DNA/RNA, and their\ncomplexes with metals and small molecules and re-\nlated experimental data and metadata. Structure and\nexperimental data/metadata are also stored in the\nPDB Core Archive using the readily extensible ww-\nPDB PDBx/mmCIF master data format, which will\ncontinue to evolve as data/metadata from new ex-\nperimental techniques and structure determination\nmethods are incorporated by the wwPDB. Impacts\nof the recently developed universal wwPDB OneDep\ndeposition/validation/biocuration system and vari-\nous methods-speciﬁc wwPDB Validation Task Forces\non improving the quality of structures and data\nhoused in the PDB Core Archive are described to-\ngether with current challenges and future plans.\n",
+        "raw_text_sha256": "49ad0e47ab6997b3c06c30b99d3bd8cc9b93c7901e0110eed9b0b2e36f1a0f78",
+        "model_text": "The\nProtein\nData\nBank\n(PDB)\nis\nthe\nsingle\nglobal archive of experimentally determined three-\ndimensional (3D) structure data of biological macro-\nmolecules. Since 2003, the PDB has been man-\naged by the Worldwide Protein Data Bank (wwPDB;\nwwpdb.org), an international consortium that col-\nlaboratively oversees deposition, validation, biocu-\nration, and open access dissemination of 3D macro-\nmolecular structure data. The PDB Core Archive\nhouses 3D atomic coordinates of more than 144 000\nstructural models of proteins, DNA/RNA, and their\ncomplexes with metals and small molecules and re-\nlated experimental data and metadata. Structure and\nexperimental data/metadata are also stored in the\nPDB Core Archive using the readily extensible ww-\nPDB PDBx/mmCIF master data format, which will\ncontinue to evolve as data/metadata from new ex-\nperimental techniques and structure determination\nmethods are incorporated by the wwPDB. Impacts\nof the recently developed universal wwPDB OneDep\ndeposition/validation/biocuration system and vari-\nous methods-speciﬁc wwPDB Validation Task Forces\non improving the quality of structures and data\nhoused in the PDB Core Archive are described to-\ngether with current challenges and future plans.\n",
+        "model_text_sha256": "49ad0e47ab6997b3c06c30b99d3bd8cc9b93c7901e0110eed9b0b2e36f1a0f78",
+        "correction_patch_ids": []
+      },
+      {
+        "evidence_id": "D01:S04",
+        "retrieval_rank": 4,
+        "retrieval_score": 17.128731,
+        "source_block_id": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485:P8:B7",
+        "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+        "pdf_fragments": [
+          {
+            "pdf_page": 8,
+            "char_start": 3419,
+            "char_end_exclusive": 7634,
+            "raw_text": "10. Morin,A., Eisenbraun,B., Key,J., Sanschagrin,P.C., Timony,M.A.,\nOttaviano,M. and Sliz,P. (2013) Collaboration gets the most out of\nsoftware. Elife, 2, e01456.\n11. Grabowski,M., Langner,K.M., Cymborowski,M., Porebski,P.J.,\nSroka,P., Zheng,H., Cooper,D.R., Zimmerman,M.D., Elsliger,M.A.,\nBurley,S.K. et al. (2016) A public database of macromolecular\ndiffraction experiments. Acta Crystallogr. D Struct. Biol., 72,\n1181–1193.\n12. Valentini,E., Kikhney,A.G., Previtali,G., Jeffries,C.M.C.M. and\nSvergun,D.I. (2015) SASBDB, a repository for biological small-angle\nscattering data. Nucleic Acids Res., 43, D357–D363.\n13. Iudin,A., Korir,P.K., Salavert-Torres,J., Kleywegt,G.J. and\nPatwardhan,A. (2016) EMPIAR: a public archive for raw electron\nmicroscopy image data. Nat. Methods, 13, 387–388.\n14. Gore,S., Velankar,S. and Kleywegt,G.J. (2012) Implementing an\nX-ray validation pipeline for the Protein Data Bank. Acta Crystallogr.\nD Biol. Crystallogr., 68, 478–483.\n15. Gore,S., Sanz Garc´ıa,E., Hendrickx,P.M.S., Gutmanas,A.,\nWestbrook,J.D., Yang,H., Feng,Z., Baskaran,K., Berrisford,J.M.,\nHudson,B.P. et al. (2017) Validation of structures in the Protein Data\nBank. Structure, 25, 1916–1927.\n16. Henderson,R., Sali,A., Baker,M.L., Carragher,B., Devkota,B.,\nDowning,K.H., Egelman,E.H., Feng,Z., Frank,J., Grigorieff,N. et al.\n(2012) Outcome of the first electron microscopy validation task force\nmeeting. Structure, 20, 205–214.\n17. Montelione,G.T., Nilges,M., Bax,A., G¨untert,P., Herrmann,T.,\nRichardson,J.S., Schwieters,C.D., Vranken,W.F., Vuister,G.W.,\nWishart,D.S. et al. (2013) Recommendations of the wwPDB NMR\nValidation Task Force. Structure, 21, 1563–1570.\n18. Adams,P.D., Aertgeerts,K., Bauer,C., Bell,J.A., Berman,H.M.,\nBhat,T.N., Blaney,J.M., Bolton,E., Bricogne,G., Brown,D. et al.\n(2016) Outcome of the first wwPDB/CCDC/D3R ligand validation\nworkshop. Structure, 24, 502–508.\n19. Read,R.J., Adams,P.D., Arendall,W.B., Brunger,A.T., Emsley,P.,\nJoosten,R.P., Kleywegt,G.J., Krissinel,E.B., L¨utteke,T.,\nOtwinowski,Z. et al. (2011) A new generation of crystallographic\nvalidation tools for the Protein Data Bank. Structure, 19, 1395–1412.\n20. Westbrook,J.D., Shao,C., Feng,Z., Zhuravleva,M., Velankar,S. and\nYoung,J. (2015) The chemical component dictionary: complete\ndescriptions of constituent molecules in experimentally determined\n3D macromolecules in the Protein Data Bank. Bioinformatics, 31,\n1274–1278.\n21. Young,J.Y., Feng,Z., Dimitropoulos,D., Sala,R., Westbrook,J.,\nZhuravleva,M., Shao,C., Quesada,M., Peisach,E. and Berman,H.M.\n(2013) Chemical annotation of small and peptide-like molecules at\nthe Protein Data Bank. Database, 2013, bat079.\n22. Westbrook,J.D. and Bourne,P.E. (2000) STAR/mmCIF: an ontology\nfor macromolecular structure. Bioinformatics, 16, 159–168.\n23. Fitzgerald,P.M.D., Westbrook,J.D., Bourne,P.E., McMahon,B.,\nWatenpaugh,K.D. and Berman,H.M. (2005) The Macromolecular\ndictionary (mmCIF). In: International Tables for Crystallography,\nVolume G. pp. 295–443.\n24. Westbrook,J., Henrick,K., Ulrich,E.L. and Berman,H.M. (2005) The\nProtein Data Bank exchange data dictionary. In: International Tables\nfor Crystallography, Volume G. pp. 195–198.\n25. Ulrich,E.L., Argentar,D., Klimowicz,A., Westler,W.M. and\nMarkley,J.L. (1996) STAR/CIF macromolecular NMR data\ndictionaries and data file formats. Acta Crystallogr. A Found.\nCrystallogr., 52, C577–C577.\n26. Doreleijers,J.F., Mading,S., Maziuk,D., Sojourner,K., Yin,L., Zhu,J.,\nMarkley,J.L. and Ulrich,E.L. (2003) BioMagResBank database with\nsets of experimental NMR constraints corresponding to the\nstructures of over 1400 biomolecules deposited in the Protein Data\nBank. J. Biomol. NMR, 26, 139–146.\n27. Tagari,M., Newman,R., Chagoyen,M., Carazo,J.M. and Henrick,K.\n(2002) New electron microscopy database and deposition system.\nTrends Biochem Sci., 27, 589.\n28. Westbrook,J., Ito,N., Nakamura,H., Henrick,K. and Berman,H.M.\n(2005) PDBML: the representation of archival macromolecular\nstructure data in XML. Bioinformatics, 21, 988–992.\n29. Kinjo,A.R., Suzuki,H., Yamashita,R., Ikegawa,Y., Kudou,T.,\nIgarashi,R., Kengaku,Y., Cho,H., Standley,D.M., Nakagawa,A. et al.\n(2012) Protein Data Bank Japan (PDBj): maintaining a structural\n",
+            "raw_text_sha256": "bb6d76617bbd773cfe90c1a7a442de1336986722d2bf890e6627539294425a7a",
+            "printed_page": null,
+            "source_blocks": [
+              {
+                "block_number": 7,
+                "bbox": [
+                  322.591,
+                  69.929,
+                  569.67,
+                  723.479
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "raw_text": "10. Morin,A., Eisenbraun,B., Key,J., Sanschagrin,P.C., Timony,M.A.,\nOttaviano,M. and Sliz,P. (2013) Collaboration gets the most out of\nsoftware. Elife, 2, e01456.\n11. Grabowski,M., Langner,K.M., Cymborowski,M., Porebski,P.J.,\nSroka,P., Zheng,H., Cooper,D.R., Zimmerman,M.D., Elsliger,M.A.,\nBurley,S.K. et al. (2016) A public database of macromolecular\ndiffraction experiments. Acta Crystallogr. D Struct. Biol., 72,\n1181–1193.\n12. Valentini,E., Kikhney,A.G., Previtali,G., Jeffries,C.M.C.M. and\nSvergun,D.I. (2015) SASBDB, a repository for biological small-angle\nscattering data. Nucleic Acids Res., 43, D357–D363.\n13. Iudin,A., Korir,P.K., Salavert-Torres,J., Kleywegt,G.J. and\nPatwardhan,A. (2016) EMPIAR: a public archive for raw electron\nmicroscopy image data. Nat. Methods, 13, 387–388.\n14. Gore,S., Velankar,S. and Kleywegt,G.J. (2012) Implementing an\nX-ray validation pipeline for the Protein Data Bank. Acta Crystallogr.\nD Biol. Crystallogr., 68, 478–483.\n15. Gore,S., Sanz Garc´ıa,E., Hendrickx,P.M.S., Gutmanas,A.,\nWestbrook,J.D., Yang,H., Feng,Z., Baskaran,K., Berrisford,J.M.,\nHudson,B.P. et al. (2017) Validation of structures in the Protein Data\nBank. Structure, 25, 1916–1927.\n16. Henderson,R., Sali,A., Baker,M.L., Carragher,B., Devkota,B.,\nDowning,K.H., Egelman,E.H., Feng,Z., Frank,J., Grigorieff,N. et al.\n(2012) Outcome of the first electron microscopy validation task force\nmeeting. Structure, 20, 205–214.\n17. Montelione,G.T., Nilges,M., Bax,A., G¨untert,P., Herrmann,T.,\nRichardson,J.S., Schwieters,C.D., Vranken,W.F., Vuister,G.W.,\nWishart,D.S. et al. (2013) Recommendations of the wwPDB NMR\nValidation Task Force. Structure, 21, 1563–1570.\n18. Adams,P.D., Aertgeerts,K., Bauer,C., Bell,J.A., Berman,H.M.,\nBhat,T.N., Blaney,J.M., Bolton,E., Bricogne,G., Brown,D. et al.\n(2016) Outcome of the first wwPDB/CCDC/D3R ligand validation\nworkshop. Structure, 24, 502–508.\n19. Read,R.J., Adams,P.D., Arendall,W.B., Brunger,A.T., Emsley,P.,\nJoosten,R.P., Kleywegt,G.J., Krissinel,E.B., L¨utteke,T.,\nOtwinowski,Z. et al. (2011) A new generation of crystallographic\nvalidation tools for the Protein Data Bank. Structure, 19, 1395–1412.\n20. Westbrook,J.D., Shao,C., Feng,Z., Zhuravleva,M., Velankar,S. and\nYoung,J. (2015) The chemical component dictionary: complete\ndescriptions of constituent molecules in experimentally determined\n3D macromolecules in the Protein Data Bank. Bioinformatics, 31,\n1274–1278.\n21. Young,J.Y., Feng,Z., Dimitropoulos,D., Sala,R., Westbrook,J.,\nZhuravleva,M., Shao,C., Quesada,M., Peisach,E. and Berman,H.M.\n(2013) Chemical annotation of small and peptide-like molecules at\nthe Protein Data Bank. Database, 2013, bat079.\n22. Westbrook,J.D. and Bourne,P.E. (2000) STAR/mmCIF: an ontology\nfor macromolecular structure. Bioinformatics, 16, 159–168.\n23. Fitzgerald,P.M.D., Westbrook,J.D., Bourne,P.E., McMahon,B.,\nWatenpaugh,K.D. and Berman,H.M. (2005) The Macromolecular\ndictionary (mmCIF). In: International Tables for Crystallography,\nVolume G. pp. 295–443.\n24. Westbrook,J., Henrick,K., Ulrich,E.L. and Berman,H.M. (2005) The\nProtein Data Bank exchange data dictionary. In: International Tables\nfor Crystallography, Volume G. pp. 195–198.\n25. Ulrich,E.L., Argentar,D., Klimowicz,A., Westler,W.M. and\nMarkley,J.L. (1996) STAR/CIF macromolecular NMR data\ndictionaries and data file formats. Acta Crystallogr. A Found.\nCrystallogr., 52, C577–C577.\n26. Doreleijers,J.F., Mading,S., Maziuk,D., Sojourner,K., Yin,L., Zhu,J.,\nMarkley,J.L. and Ulrich,E.L. (2003) BioMagResBank database with\nsets of experimental NMR constraints corresponding to the\nstructures of over 1400 biomolecules deposited in the Protein Data\nBank. J. Biomol. NMR, 26, 139–146.\n27. Tagari,M., Newman,R., Chagoyen,M., Carazo,J.M. and Henrick,K.\n(2002) New electron microscopy database and deposition system.\nTrends Biochem Sci., 27, 589.\n28. Westbrook,J., Ito,N., Nakamura,H., Henrick,K. and Berman,H.M.\n(2005) PDBML: the representation of archival macromolecular\nstructure data in XML. Bioinformatics, 21, 988–992.\n29. Kinjo,A.R., Suzuki,H., Yamashita,R., Ikegawa,Y., Kudou,T.,\nIgarashi,R., Kengaku,Y., Cho,H., Standley,D.M., Nakagawa,A. et al.\n(2012) Protein Data Bank Japan (PDBj): maintaining a structural\n",
+        "raw_text_sha256": "bb6d76617bbd773cfe90c1a7a442de1336986722d2bf890e6627539294425a7a",
+        "model_text": "10. Morin,A., Eisenbraun,B., Key,J., Sanschagrin,P.C., Timony,M.A.,\nOttaviano,M. and Sliz,P. (2013) Collaboration gets the most out of\nsoftware. Elife, 2, e01456.\n11. Grabowski,M., Langner,K.M., Cymborowski,M., Porebski,P.J.,\nSroka,P., Zheng,H., Cooper,D.R., Zimmerman,M.D., Elsliger,M.A.,\nBurley,S.K. et al. (2016) A public database of macromolecular\ndiffraction experiments. Acta Crystallogr. D Struct. Biol., 72,\n1181–1193.\n12. Valentini,E., Kikhney,A.G., Previtali,G., Jeffries,C.M.C.M. and\nSvergun,D.I. (2015) SASBDB, a repository for biological small-angle\nscattering data. Nucleic Acids Res., 43, D357–D363.\n13. Iudin,A., Korir,P.K., Salavert-Torres,J., Kleywegt,G.J. and\nPatwardhan,A. (2016) EMPIAR: a public archive for raw electron\nmicroscopy image data. Nat. Methods, 13, 387–388.\n14. Gore,S., Velankar,S. and Kleywegt,G.J. (2012) Implementing an\nX-ray validation pipeline for the Protein Data Bank. Acta Crystallogr.\nD Biol. Crystallogr., 68, 478–483.\n15. Gore,S., Sanz Garc´ıa,E., Hendrickx,P.M.S., Gutmanas,A.,\nWestbrook,J.D., Yang,H., Feng,Z., Baskaran,K., Berrisford,J.M.,\nHudson,B.P. et al. (2017) Validation of structures in the Protein Data\nBank. Structure, 25, 1916–1927.\n16. Henderson,R., Sali,A., Baker,M.L., Carragher,B., Devkota,B.,\nDowning,K.H., Egelman,E.H., Feng,Z., Frank,J., Grigorieff,N. et al.\n(2012) Outcome of the first electron microscopy validation task force\nmeeting. Structure, 20, 205–214.\n17. Montelione,G.T., Nilges,M., Bax,A., G¨untert,P., Herrmann,T.,\nRichardson,J.S., Schwieters,C.D., Vranken,W.F., Vuister,G.W.,\nWishart,D.S. et al. (2013) Recommendations of the wwPDB NMR\nValidation Task Force. Structure, 21, 1563–1570.\n18. Adams,P.D., Aertgeerts,K., Bauer,C., Bell,J.A., Berman,H.M.,\nBhat,T.N., Blaney,J.M., Bolton,E., Bricogne,G., Brown,D. et al.\n(2016) Outcome of the first wwPDB/CCDC/D3R ligand validation\nworkshop. Structure, 24, 502–508.\n19. Read,R.J., Adams,P.D., Arendall,W.B., Brunger,A.T., Emsley,P.,\nJoosten,R.P., Kleywegt,G.J., Krissinel,E.B., L¨utteke,T.,\nOtwinowski,Z. et al. (2011) A new generation of crystallographic\nvalidation tools for the Protein Data Bank. Structure, 19, 1395–1412.\n20. Westbrook,J.D., Shao,C., Feng,Z., Zhuravleva,M., Velankar,S. and\nYoung,J. (2015) The chemical component dictionary: complete\ndescriptions of constituent molecules in experimentally determined\n3D macromolecules in the Protein Data Bank. Bioinformatics, 31,\n1274–1278.\n21. Young,J.Y., Feng,Z., Dimitropoulos,D., Sala,R., Westbrook,J.,\nZhuravleva,M., Shao,C., Quesada,M., Peisach,E. and Berman,H.M.\n(2013) Chemical annotation of small and peptide-like molecules at\nthe Protein Data Bank. Database, 2013, bat079.\n22. Westbrook,J.D. and Bourne,P.E. (2000) STAR/mmCIF: an ontology\nfor macromolecular structure. Bioinformatics, 16, 159–168.\n23. Fitzgerald,P.M.D., Westbrook,J.D., Bourne,P.E., McMahon,B.,\nWatenpaugh,K.D. and Berman,H.M. (2005) The Macromolecular\ndictionary (mmCIF). In: International Tables for Crystallography,\nVolume G. pp. 295–443.\n24. Westbrook,J., Henrick,K., Ulrich,E.L. and Berman,H.M. (2005) The\nProtein Data Bank exchange data dictionary. In: International Tables\nfor Crystallography, Volume G. pp. 195–198.\n25. Ulrich,E.L., Argentar,D., Klimowicz,A., Westler,W.M. and\nMarkley,J.L. (1996) STAR/CIF macromolecular NMR data\ndictionaries and data file formats. Acta Crystallogr. A Found.\nCrystallogr., 52, C577–C577.\n26. Doreleijers,J.F., Mading,S., Maziuk,D., Sojourner,K., Yin,L., Zhu,J.,\nMarkley,J.L. and Ulrich,E.L. (2003) BioMagResBank database with\nsets of experimental NMR constraints corresponding to the\nstructures of over 1400 biomolecules deposited in the Protein Data\nBank. J. Biomol. NMR, 26, 139–146.\n27. Tagari,M., Newman,R., Chagoyen,M., Carazo,J.M. and Henrick,K.\n(2002) New electron microscopy database and deposition system.\nTrends Biochem Sci., 27, 589.\n28. Westbrook,J., Ito,N., Nakamura,H., Henrick,K. and Berman,H.M.\n(2005) PDBML: the representation of archival macromolecular\nstructure data in XML. Bioinformatics, 21, 988–992.\n29. Kinjo,A.R., Suzuki,H., Yamashita,R., Ikegawa,Y., Kudou,T.,\nIgarashi,R., Kengaku,Y., Cho,H., Standley,D.M., Nakagawa,A. et al.\n(2012) Protein Data Bank Japan (PDBj): maintaining a structural\n",
+        "model_text_sha256": "bb6d76617bbd773cfe90c1a7a442de1336986722d2bf890e6627539294425a7a",
+        "correction_patch_ids": []
+      },
+      {
+        "evidence_id": "D01:S05",
+        "retrieval_rank": 5,
+        "retrieval_score": 17.077205,
+        "source_block_id": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485:P1:B11",
+        "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+        "pdf_fragments": [
+          {
+            "pdf_page": 1,
+            "char_start": 3828,
+            "char_end_exclusive": 4385,
+            "raw_text": "The PDB Core Archive has seen steady growth since\nits inception, with over 11,000 new structures plus exper-\nimental data/metadata released in 2017 (Figure 1A). In\naggregate, most of the 3D structures (89.5%) in the PDB\nCore Archive were determined using macromolecular crys-\ntallography (MX), with the remainder determined by NMR\n(8.5%), 3DEM (1.6%), and other techniques (0.4%). These\noverall metrics mask recent trends, which show that in 2016\n3DEM overtook NMR as the second most popular tech-\nnique for determining atomic level structures (Figure 1B).\n",
+            "raw_text_sha256": "ea935cc98fdb6b5b449d80e7e38ded2ed4f5f0122c55794ba3b51f7e24d69eb4",
+            "printed_page": null,
+            "source_blocks": [
+              {
+                "block_number": 11,
+                "bbox": [
+                  309.231,
+                  482.472,
+                  556.316,
+                  591.064
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "raw_text": "The PDB Core Archive has seen steady growth since\nits inception, with over 11,000 new structures plus exper-\nimental data/metadata released in 2017 (Figure 1A). In\naggregate, most of the 3D structures (89.5%) in the PDB\nCore Archive were determined using macromolecular crys-\ntallography (MX), with the remainder determined by NMR\n(8.5%), 3DEM (1.6%), and other techniques (0.4%). These\noverall metrics mask recent trends, which show that in 2016\n3DEM overtook NMR as the second most popular tech-\nnique for determining atomic level structures (Figure 1B).\n",
+        "raw_text_sha256": "ea935cc98fdb6b5b449d80e7e38ded2ed4f5f0122c55794ba3b51f7e24d69eb4",
+        "model_text": "The PDB Core Archive has seen steady growth since\nits inception, with over 11,000 new structures plus exper-\nimental data/metadata released in 2017 (Figure 1A). In\naggregate, most of the 3D structures (89.5%) in the PDB\nCore Archive were determined using macromolecular crys-\ntallography (MX), with the remainder determined by NMR\n(8.5%), 3DEM (1.6%), and other techniques (0.4%). These\noverall metrics mask recent trends, which show that in 2016\n3DEM overtook NMR as the second most popular tech-\nnique for determining atomic level structures (Figure 1B).\n",
+        "model_text_sha256": "ea935cc98fdb6b5b449d80e7e38ded2ed4f5f0122c55794ba3b51f7e24d69eb4",
+        "correction_patch_ids": []
+      },
+      {
+        "evidence_id": "D01:S06",
+        "retrieval_rank": 6,
+        "retrieval_score": 17.062519,
+        "source_block_id": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485:P8:B4",
+        "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+        "pdf_fragments": [
+          {
+            "pdf_page": 8,
+            "char_start": 644,
+            "char_end_exclusive": 1642,
+            "raw_text": "The RCSB Protein Data Bank is jointly funded by the Na-\ntional Science Foundation; National Institute of General\nMedical Sciences; National Cancer Institute; Department\nof Energy [NSF-DBI 1338415]. The Protein Data Bank\nin Europe is supported by European Molecular Biology\nLaboratory-European Bioinformatics Institute; Wellcome\nTrust [88944, 104948]; Biotechnology and Biological Sci-\nences Research Council [BB/G022577/1, BB/J007471/1,\nBB/K016970/1,\nBB/K020013/1,\nBB/M013146/1,\nBB/M011674/1,\nBB/M020347/1,\nBB/M020428/1];\nEuropean Union [284209, 675858]. The Protein Data Bank\nJapan is supported by the Database Integration Coordi-\nnation Program from the National Bioscience Database\nCentre (NBDC)-JST (Japan Science and Technology\nAgency) and the joint usage program of Institute for Pro-\ntein Research, Osaka University. The BMRB is supported\nby the U.S. National Institutes of Health [R01GM109046].\nFunding for open access charge: Wellcome Trust.\nConflict of interest statement. None declared.\n",
+            "raw_text_sha256": "852714f804ec22f0c3699037d2dc5d4319d2792b76adb765e2ba33b2ab9db06a",
+            "printed_page": null,
+            "source_blocks": [
+              {
+                "block_number": 4,
+                "bbox": [
+                  55.601,
+                  224.83,
+                  302.691,
+                  432.052
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "raw_text": "The RCSB Protein Data Bank is jointly funded by the Na-\ntional Science Foundation; National Institute of General\nMedical Sciences; National Cancer Institute; Department\nof Energy [NSF-DBI 1338415]. The Protein Data Bank\nin Europe is supported by European Molecular Biology\nLaboratory-European Bioinformatics Institute; Wellcome\nTrust [88944, 104948]; Biotechnology and Biological Sci-\nences Research Council [BB/G022577/1, BB/J007471/1,\nBB/K016970/1,\nBB/K020013/1,\nBB/M013146/1,\nBB/M011674/1,\nBB/M020347/1,\nBB/M020428/1];\nEuropean Union [284209, 675858]. The Protein Data Bank\nJapan is supported by the Database Integration Coordi-\nnation Program from the National Bioscience Database\nCentre (NBDC)-JST (Japan Science and Technology\nAgency) and the joint usage program of Institute for Pro-\ntein Research, Osaka University. The BMRB is supported\nby the U.S. National Institutes of Health [R01GM109046].\nFunding for open access charge: Wellcome Trust.\nConflict of interest statement. None declared.\n",
+        "raw_text_sha256": "852714f804ec22f0c3699037d2dc5d4319d2792b76adb765e2ba33b2ab9db06a",
+        "model_text": "The RCSB Protein Data Bank is jointly funded by the Na-\ntional Science Foundation; National Institute of General\nMedical Sciences; National Cancer Institute; Department\nof Energy [NSF-DBI 1338415]. The Protein Data Bank\nin Europe is supported by European Molecular Biology\nLaboratory-European Bioinformatics Institute; Wellcome\nTrust [88944, 104948]; Biotechnology and Biological Sci-\nences Research Council [BB/G022577/1, BB/J007471/1,\nBB/K016970/1,\nBB/K020013/1,\nBB/M013146/1,\nBB/M011674/1,\nBB/M020347/1,\nBB/M020428/1];\nEuropean Union [284209, 675858]. The Protein Data Bank\nJapan is supported by the Database Integration Coordi-\nnation Program from the National Bioscience Database\nCentre (NBDC)-JST (Japan Science and Technology\nAgency) and the joint usage program of Institute for Pro-\ntein Research, Osaka University. The BMRB is supported\nby the U.S. National Institutes of Health [R01GM109046].\nFunding for open access charge: Wellcome Trust.\nConflict of interest statement. None declared.\n",
+        "model_text_sha256": "852714f804ec22f0c3699037d2dc5d4319d2792b76adb765e2ba33b2ab9db06a",
+        "correction_patch_ids": []
+      },
+      {
+        "evidence_id": "D01:S07",
+        "retrieval_rank": 7,
+        "retrieval_score": 14.97927,
+        "source_block_id": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485:P8:B6",
+        "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+        "pdf_fragments": [
+          {
+            "pdf_page": 8,
+            "char_start": 1653,
+            "char_end_exclusive": 3419,
+            "raw_text": "1. Protein Data Bank (1971) Protein Data Bank. Nat. New Biol., 233,\n223.\n2. Berman,H., Henrick,K. and Nakamura,H. (2003) Announcing the\nworldwide Protein Data Bank. Nat. Struct. Biol., 10, 980–980.\n3. Berman,H.M., Westbook,J., Feng,Z., Gilliland,G., Bhat,T.N.,\nWeissig,H., Shindyalov,I.N. and Bourne,P.E. (2000) The Protein Data\nBank. Nucleic Acids Res., 28, 235–242.\n4. Mir,S., Alhroub,Y., Anyango,S., Armstrong,D.R., Berrisford,J.M.,\nClark,A.R., Conroy,M.J., Dana,J.M., Deshpande,M., Gupta,D. et al.\n(2017) PDBe: towards reusable data delivery infrastructure at protein\ndata bank in Europe. Nucleic Acids Res., 46, D486–D492.\n5. Kinjo,A.R., Bekker,G.-J., Suzuki,H., Tsuchiya,Y., Kawabata,T.,\nIkegawa,Y. and Nakamura,H. (2017) Protein Data Bank Japan\n(PDBj): updated user interfaces, resource description framework,\nanalysis tools for large structures. Nucleic Acids Res., 45, D282–D288.\n6. Ulrich,E.L., Akutsu,H., Doreleijers,J.F., Harano,Y., Ioannidis,Y.E.,\nLin,J., Livny,M., Mading,S., Maziuk,D., Miller,Z. et al. (2008)\nBioMagResBank. Nucleic Acids Res., 36, D402–D408.\n7. Wilkinson,M.D., Dumontier,M., Aalbersberg,Ij.J., Appleton,G.,\nAxton,M., Baak,A., Blomberg,N., Boiten,J.-W., da Silva Santos,L.B.,\nBourne,P.E. et al. (2016) The FAIR Guiding Principles for scientific\ndata management and stewardship. Sci. Data, 3, 160018.\n8. Abbott,S., Iudin,A., Korir,P.K., Somasundharam,S. and\nPatwardhan,A. (2018) EMDB Web Resources. Curr. Protoc.\nBioinforma., 61, 5.10.1–5.10.12.\n9. Young,J.Y., Westbrook,J.D., Feng,Z., Sala,R., Peisach,E.,\nOldfield,T.J., Sen,S., Gutmanas,A., Armstrong,D.R., Berrisford,J.M.\net al. (2017) OneDep: unified wwPDB system for deposition,\nbiocuration, and validation of macromolecular structures in the PDB\narchive. Structure, 25, 536–545.\n",
+            "raw_text_sha256": "ad16d363341196c14d249c1376900d75cb3bb0cb059f941e88e17d8bf001a0bc",
+            "printed_page": null,
+            "source_blocks": [
+              {
+                "block_number": 6,
+                "bbox": [
+                  59.585,
+                  467.838,
+                  302.683,
+                  735.941
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "raw_text": "1. Protein Data Bank (1971) Protein Data Bank. Nat. New Biol., 233,\n223.\n2. Berman,H., Henrick,K. and Nakamura,H. (2003) Announcing the\nworldwide Protein Data Bank. Nat. Struct. Biol., 10, 980–980.\n3. Berman,H.M., Westbook,J., Feng,Z., Gilliland,G., Bhat,T.N.,\nWeissig,H., Shindyalov,I.N. and Bourne,P.E. (2000) The Protein Data\nBank. Nucleic Acids Res., 28, 235–242.\n4. Mir,S., Alhroub,Y., Anyango,S., Armstrong,D.R., Berrisford,J.M.,\nClark,A.R., Conroy,M.J., Dana,J.M., Deshpande,M., Gupta,D. et al.\n(2017) PDBe: towards reusable data delivery infrastructure at protein\ndata bank in Europe. Nucleic Acids Res., 46, D486–D492.\n5. Kinjo,A.R., Bekker,G.-J., Suzuki,H., Tsuchiya,Y., Kawabata,T.,\nIkegawa,Y. and Nakamura,H. (2017) Protein Data Bank Japan\n(PDBj): updated user interfaces, resource description framework,\nanalysis tools for large structures. Nucleic Acids Res., 45, D282–D288.\n6. Ulrich,E.L., Akutsu,H., Doreleijers,J.F., Harano,Y., Ioannidis,Y.E.,\nLin,J., Livny,M., Mading,S., Maziuk,D., Miller,Z. et al. (2008)\nBioMagResBank. Nucleic Acids Res., 36, D402–D408.\n7. Wilkinson,M.D., Dumontier,M., Aalbersberg,Ij.J., Appleton,G.,\nAxton,M., Baak,A., Blomberg,N., Boiten,J.-W., da Silva Santos,L.B.,\nBourne,P.E. et al. (2016) The FAIR Guiding Principles for scientific\ndata management and stewardship. Sci. Data, 3, 160018.\n8. Abbott,S., Iudin,A., Korir,P.K., Somasundharam,S. and\nPatwardhan,A. (2018) EMDB Web Resources. Curr. Protoc.\nBioinforma., 61, 5.10.1–5.10.12.\n9. Young,J.Y., Westbrook,J.D., Feng,Z., Sala,R., Peisach,E.,\nOldfield,T.J., Sen,S., Gutmanas,A., Armstrong,D.R., Berrisford,J.M.\net al. (2017) OneDep: unified wwPDB system for deposition,\nbiocuration, and validation of macromolecular structures in the PDB\narchive. Structure, 25, 536–545.\n",
+        "raw_text_sha256": "ad16d363341196c14d249c1376900d75cb3bb0cb059f941e88e17d8bf001a0bc",
+        "model_text": "1. Protein Data Bank (1971) Protein Data Bank. Nat. New Biol., 233,\n223.\n2. Berman,H., Henrick,K. and Nakamura,H. (2003) Announcing the\nworldwide Protein Data Bank. Nat. Struct. Biol., 10, 980–980.\n3. Berman,H.M., Westbook,J., Feng,Z., Gilliland,G., Bhat,T.N.,\nWeissig,H., Shindyalov,I.N. and Bourne,P.E. (2000) The Protein Data\nBank. Nucleic Acids Res., 28, 235–242.\n4. Mir,S., Alhroub,Y., Anyango,S., Armstrong,D.R., Berrisford,J.M.,\nClark,A.R., Conroy,M.J., Dana,J.M., Deshpande,M., Gupta,D. et al.\n(2017) PDBe: towards reusable data delivery infrastructure at protein\ndata bank in Europe. Nucleic Acids Res., 46, D486–D492.\n5. Kinjo,A.R., Bekker,G.-J., Suzuki,H., Tsuchiya,Y., Kawabata,T.,\nIkegawa,Y. and Nakamura,H. (2017) Protein Data Bank Japan\n(PDBj): updated user interfaces, resource description framework,\nanalysis tools for large structures. Nucleic Acids Res., 45, D282–D288.\n6. Ulrich,E.L., Akutsu,H., Doreleijers,J.F., Harano,Y., Ioannidis,Y.E.,\nLin,J., Livny,M., Mading,S., Maziuk,D., Miller,Z. et al. (2008)\nBioMagResBank. Nucleic Acids Res., 36, D402–D408.\n7. Wilkinson,M.D., Dumontier,M., Aalbersberg,Ij.J., Appleton,G.,\nAxton,M., Baak,A., Blomberg,N., Boiten,J.-W., da Silva Santos,L.B.,\nBourne,P.E. et al. (2016) The FAIR Guiding Principles for scientific\ndata management and stewardship. Sci. Data, 3, 160018.\n8. Abbott,S., Iudin,A., Korir,P.K., Somasundharam,S. and\nPatwardhan,A. (2018) EMDB Web Resources. Curr. Protoc.\nBioinforma., 61, 5.10.1–5.10.12.\n9. Young,J.Y., Westbrook,J.D., Feng,Z., Sala,R., Peisach,E.,\nOldfield,T.J., Sen,S., Gutmanas,A., Armstrong,D.R., Berrisford,J.M.\net al. (2017) OneDep: unified wwPDB system for deposition,\nbiocuration, and validation of macromolecular structures in the PDB\narchive. Structure, 25, 536–545.\n",
+        "model_text_sha256": "ad16d363341196c14d249c1376900d75cb3bb0cb059f941e88e17d8bf001a0bc",
+        "correction_patch_ids": []
+      },
+      {
+        "evidence_id": "D01:S08",
+        "retrieval_rank": 8,
+        "retrieval_score": 14.396918,
+        "source_block_id": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485:P5:B13",
+        "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+        "pdf_fragments": [
+          {
+            "pdf_page": 5,
+            "char_start": 4388,
+            "char_end_exclusive": 5134,
+            "raw_text": "Launch of the OneDep system has enabled, for the first\ntime, large-scale remediation to improve data consistency\nacross all entries in the PDB Core archive. Older PDB en-\ntries deposited using legacy deposition systems were up-\ndated to ensure that their metadata are consistent with\nnewer entries deposited using the OneDep system (∼30% of\nolder PDB entries underwent remediation). This effort also\nincluded better representation of data related to 3DEM en-\ntries. Remediation is an ongoing process, intended to ensure\nbetter data quality and consistency and improved searcha-\nbility across the PDB Core Archives. Consistent representa-\ntion of carbohydrates and post-translational modifications\nwill be the focus of future remediation efforts.\n",
+            "raw_text_sha256": "c714b5e50cf03ce3a8b4b2d872db2d4c4b01ec8acbe7bc2ccb2856343b1ad752",
+            "printed_page": null,
+            "source_blocks": [
+              {
+                "block_number": 13,
+                "bbox": [
+                  309.228,
+                  331.822,
+                  556.312,
+                  473.29
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "raw_text": "Launch of the OneDep system has enabled, for the first\ntime, large-scale remediation to improve data consistency\nacross all entries in the PDB Core archive. Older PDB en-\ntries deposited using legacy deposition systems were up-\ndated to ensure that their metadata are consistent with\nnewer entries deposited using the OneDep system (∼30% of\nolder PDB entries underwent remediation). This effort also\nincluded better representation of data related to 3DEM en-\ntries. Remediation is an ongoing process, intended to ensure\nbetter data quality and consistency and improved searcha-\nbility across the PDB Core Archives. Consistent representa-\ntion of carbohydrates and post-translational modifications\nwill be the focus of future remediation efforts.\n",
+        "raw_text_sha256": "c714b5e50cf03ce3a8b4b2d872db2d4c4b01ec8acbe7bc2ccb2856343b1ad752",
+        "model_text": "Launch of the OneDep system has enabled, for the first\ntime, large-scale remediation to improve data consistency\nacross all entries in the PDB Core archive. Older PDB en-\ntries deposited using legacy deposition systems were up-\ndated to ensure that their metadata are consistent with\nnewer entries deposited using the OneDep system (∼30% of\nolder PDB entries underwent remediation). This effort also\nincluded better representation of data related to 3DEM en-\ntries. Remediation is an ongoing process, intended to ensure\nbetter data quality and consistency and improved searcha-\nbility across the PDB Core Archives. Consistent representa-\ntion of carbohydrates and post-translational modifications\nwill be the focus of future remediation efforts.\n",
+        "model_text_sha256": "c714b5e50cf03ce3a8b4b2d872db2d4c4b01ec8acbe7bc2ccb2856343b1ad752",
+        "correction_patch_ids": []
+      },
+      {
+        "evidence_id": "D01:S09",
+        "retrieval_rank": 9,
+        "retrieval_score": 14.174644,
+        "source_block_id": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485:P7:B13",
+        "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+        "pdf_fragments": [
+          {
+            "pdf_page": 7,
+            "char_start": 5556,
+            "char_end_exclusive": 6348,
+            "raw_text": "Above all since 2003, joint management by the wwPDB\nhas ensured that the resource remains the single global\narchive for 3D macromolecular structure data, becoming a\ncentral player in the international biological data ecosys-\ntem. In addition, joint management has enabled a host\nof important accomplishments, including (i) adoption of\nthe PDBx/mmCIF data dictionary, (ii) multiple rounds of\narchive-wide remediation to improve data consistency and\ndata quality, (iii) mandatory deposition of experimental\ndata, (iv) development of community standards for valida-\ntion of structures and related data/metadata from multiple\nexperimental methods, (v) launch of the universal OneDep\ndeposition/validation/biocuration system and (vi) launch\nof the PDB-Dev prototype for archiving I/HM structures.\n",
+            "raw_text_sha256": "bcadf3f8b7404f16856c085f676da2b46e20eededc720beaeb6b1e9043c907eb",
+            "printed_page": null,
+            "source_blocks": [
+              {
+                "block_number": 13,
+                "bbox": [
+                  309.231,
+                  540.07,
+                  556.314,
+                  692.501
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "raw_text": "Above all since 2003, joint management by the wwPDB\nhas ensured that the resource remains the single global\narchive for 3D macromolecular structure data, becoming a\ncentral player in the international biological data ecosys-\ntem. In addition, joint management has enabled a host\nof important accomplishments, including (i) adoption of\nthe PDBx/mmCIF data dictionary, (ii) multiple rounds of\narchive-wide remediation to improve data consistency and\ndata quality, (iii) mandatory deposition of experimental\ndata, (iv) development of community standards for valida-\ntion of structures and related data/metadata from multiple\nexperimental methods, (v) launch of the universal OneDep\ndeposition/validation/biocuration system and (vi) launch\nof the PDB-Dev prototype for archiving I/HM structures.\n",
+        "raw_text_sha256": "bcadf3f8b7404f16856c085f676da2b46e20eededc720beaeb6b1e9043c907eb",
+        "model_text": "Above all since 2003, joint management by the wwPDB\nhas ensured that the resource remains the single global\narchive for 3D macromolecular structure data, becoming a\ncentral player in the international biological data ecosys-\ntem. In addition, joint management has enabled a host\nof important accomplishments, including (i) adoption of\nthe PDBx/mmCIF data dictionary, (ii) multiple rounds of\narchive-wide remediation to improve data consistency and\ndata quality, (iii) mandatory deposition of experimental\ndata, (iv) development of community standards for valida-\ntion of structures and related data/metadata from multiple\nexperimental methods, (v) launch of the universal OneDep\ndeposition/validation/biocuration system and (vi) launch\nof the PDB-Dev prototype for archiving I/HM structures.\n",
+        "model_text_sha256": "bcadf3f8b7404f16856c085f676da2b46e20eededc720beaeb6b1e9043c907eb",
+        "correction_patch_ids": []
+      },
+      {
+        "evidence_id": "D01:S10",
+        "retrieval_rank": 10,
+        "retrieval_score": 14.105295,
+        "source_block_id": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485:P2:B7",
+        "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+        "pdf_fragments": [
+          {
+            "pdf_page": 2,
+            "char_start": 1553,
+            "char_end_exclusive": 1926,
+            "raw_text": "Ongoing collaborative work among wwPDB partners\nhelps to ensure completeness, consistency, and accuracy\nof data in the two Core Archives. The wwPDB has also\nworked to enable growth of the corpus of structure data\nto accommodate new experimental techniques. Herein,\nwe describe impacts of the recently developed universal\nwwPDB OneDep deposition/validation/biocuration sys-\n",
+            "raw_text_sha256": "1eb36cb1cf138dde964e5e2cb793ce250a15f859d1bc2ec7698df53d80b99090",
+            "printed_page": null,
+            "source_blocks": [
+              {
+                "block_number": 7,
+                "bbox": [
+                  322.593,
+                  650.933,
+                  569.679,
+                  726.649
+                ]
+              }
+            ],
+            "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+            "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+          }
+        ],
+        "raw_text": "Ongoing collaborative work among wwPDB partners\nhelps to ensure completeness, consistency, and accuracy\nof data in the two Core Archives. The wwPDB has also\nworked to enable growth of the corpus of structure data\nto accommodate new experimental techniques. Herein,\nwe describe impacts of the recently developed universal\nwwPDB OneDep deposition/validation/biocuration sys-\n",
+        "raw_text_sha256": "1eb36cb1cf138dde964e5e2cb793ce250a15f859d1bc2ec7698df53d80b99090",
+        "model_text": "Ongoing collaborative work among wwPDB partners\nhelps to ensure completeness, consistency, and accuracy\nof data in the two Core Archives. The wwPDB has also\nworked to enable growth of the corpus of structure data\nto accommodate new experimental techniques. Herein,\nwe describe impacts of the recently developed universal\nwwPDB OneDep deposition/validation/biocuration sys-\n",
+        "model_text_sha256": "1eb36cb1cf138dde964e5e2cb793ce250a15f859d1bc2ec7698df53d80b99090",
+        "correction_patch_ids": []
+      }
+    ],
+    "original_v1_candidates_preserved": true
+  },
+  "original_classifier_response": null,
+  "original_explanation_response": null
+}

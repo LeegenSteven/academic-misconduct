@@ -1,0 +1,78 @@
+{
+  "case_id": "r1pdf:bf08cfaceb2c2e5fdd7aab42",
+  "original_point_number": 8,
+  "status": "scope_preparation_complete_governing_assertion_role_revision_pending_human_confirmation",
+  "reference_role": "One member, reference 6, of the retained (6,7) method-specific citation group.",
+  "reading_paraphrase_not_source_quote": "系统性蛋白质组共分级这类技术，有助于解析蛋白之间的联系。",
+  "primary_pieces_recommended": [
+    "Recent developments have further improved our ability to unravel this connectivity, through techniques such as",
+    "systematic co-fractionation of proteomes (6,7)"
+  ],
+  "context_recommended": [
+    "A dense network of functional connections among proteins"
+  ],
+  "preserve": [
+    "systematic",
+    "proteomes",
+    "have further improved our ability to unravel this connectivity",
+    "(6,7)"
+  ],
+  "do_not_attribute_to_reference6": [
+    "All genetic screen claims tied to references 3–5",
+    "In-vivo cross-linking tied to references 8–10",
+    "AlphaFold tied to references 11–12",
+    "An exhaustive or error-free map of every functional association"
+  ],
+  "candidate_reading_notes": [
+    {
+      "evidence_ids": [
+        "D01:S02"
+      ],
+      "note": "Explicitly discusses CF-MS and identification of protein complexes; also retains the statement of limited interactome coverage. It cites earlier studies, so do not relabel all the cited historical experiments as new hu.MAP 2.0 experiments."
+    },
+    {
+      "evidence_ids": [
+        "D01:S07"
+      ],
+      "note": "A multi-panel Figure 4 legend. Relevant co-fractionation observations are in B and D; cite the appropriate subpassage rather than treating all panels as one interchangeable claim."
+    },
+    {
+      "evidence_ids": [
+        "D01:S01",
+        "D01:S04"
+      ],
+      "note": "Distinguish stable physical complexes and integrated-map results from the broader functional-connectivity context. Preserve scope limitations."
+    },
+    {
+      "evidence_ids": [
+        "D01:S06"
+      ],
+      "note": "Describes an orthogonal co-expression/co-regulation comparison; do not silently equate co-regulation with the target co-fractionation method."
+    },
+    {
+      "evidence_ids": [
+        "D01:S01",
+        "D01:S03",
+        "D01:S05",
+        "D01:S08",
+        "D01:S09"
+      ],
+      "note": "These PDF text-block candidates end mid-sentence. Exact PDF-position replay is not evidence that each fragment is a self-contained conclusion; no candidate was extended or completed in the active input."
+    }
+  ],
+  "transcription_patch_needed_for_target_words": false,
+  "role_revision_proposed_not_applied": true,
+  "existing_top10_changed": false,
+  "runtime_scope_changed": false,
+  "human_scope_confirmation": {
+    "李云": null,
+    "陈明进": null
+  },
+  "classification_label": null,
+  "joint_adjudication": null,
+  "independent_blind_review_claimed": false,
+  "formal_end_to_end_accepted": false,
+  "fixed_denominator": 20,
+  "model_loaded": false,
+  "inference_performed": false
+}

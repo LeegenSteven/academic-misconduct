@@ -1,0 +1,50 @@
+﻿OpenAlex_W,标题,年份,被引,是否撤稿标记,group
+W4366003430,Resource allocation scheme for eMBB and uRLLC coexistence in 6G networks,2023,43,False,正式对照
+W4311298123,Secure user authentication and key agreement scheme for IoT device access control based smart home communications,2022,42,False,正式对照
+W4393126398,An enhanced deep learning-based disease detection model in wireless body area network with energy efficient routing protocol,2024,42,False,正式对照
+W4399926906,Enriched energy optimized LEACH protocol for efficient data transmission in wireless sensor network,2024,42,False,正式对照
+W4386031706,A novel intrusion detection system for internet of things devices and data,2023,40,False,正式对照
+W4318980483,Target-aware distributed coverage and connectivity algorithm for wireless sensor networks,2023,38,False,正式对照
+W4404245070,An hybrid machine learning and improved social spider optimization based clustering and routing protocol for wireless sensor network,2024,37,False,正式对照
+W4316670155,Multiple agent based reinforcement learning for energy efficient routing in WSN,2023,36,False,正式对照
+W4225155264,Multiband miniaturisefrequency reconfigurable patch antenna using PIN diodes,2022,35,False,正式对照
+W4387373365,Lightweight real-time WiFi-based intrusion detection system using LightGBM,2023,34,False,正式对照
+W4398242681,6G-DeFLI: enhanced quality-of-services using distributed hash table and blockchain-enabled federated learning approach in 6G IoT networks,2024,34,False,正式对照
+W4404245500,Multi objective constellation optimization and dynamic link utilization for sustainable information delivery using PD-NOMA deep reinforcement learning,2024,34,False,正式对照
+W4392156206,A healthcare application based on IoT devices,2024,33,False,正式对照
+W3200458614,A symmetrical SIW-based leaky-wave antenna with continuous beam scanning from backward-to-forward through broadside,2021,32,False,正式对照
+W4386325840,Identifying SH-IoT devices from network traffic characteristics using random forest classifier,2023,32,False,正式对照
+W4361218755,Artificial neural networks-based improved Levenberg–Marquardt neural network for energy efficiency and anomaly detection in WSN,2023,30,False,正式对照
+W4388631016,A comprehensive survey of artificial intelligence and cloud computing applications in the sports industry,2023,30,False,正式对照
+W4391314022,Novel energy consumption and reduces number of transmission attempts (ECRTA) model for heterogeneous wireless muti-hop network,2024,30,False,正式对照
+W4292416280,A wide axial-ratio beamwidth circularly-polarized oval patch antenna with sunlight-shaped slots for gnss and wimax applications,2022,28,False,正式对照
+W4390976885,Recent trends and future directions of congestion management strategies for routing in IoT-based wireless sensor network: a thematic review,2024,28,False,正式对照
+W4400226877,Enhancing UAV-assisted vehicle edge computing networks through a digital twin-driven task offloading framework,2024,28,False,正式对照
+W4395038829,A comprehensive ensemble classification techniques detecting and managing concept drift in dynamic imbalanced data streams,2024,27,False,正式对照
+W4206327130,An adaptive sliding window for anomaly detection of time series in wireless sensor networks,2022,26,False,正式对照
+W4391350541,OMIBC: optimal modified identity-based cryptography for signcryption and private key extraction using fuzzy model,2024,26,False,正式对照
+W4400337558,A novel multi-objective optimized DAG task scheduling strategy for fog computing based on container migration mechanism,2024,26,False,正式对照
+W4403734533,Effective area reduction & surface waves suppression of a novel four-element MIMO antenna exclusively designed for dual band 5G sub 6 GHz (N77/N78 & N79) applications,2024,24,False,正式对照
+W4403727809,Routing attacks detection in MANET using trust management enabled hybrid machine learning,2024,21,False,正式对照
+W4389345936,An efficient deep neural network channel state estimator for OFDM wireless systems,2023,18,False,正式对照
+W4406617812,Double fuzzy clustering-driven context neural network for intrusion detection in cloud computing,2025,17,False,正式对照
+W4407637291,Reinforcement learning based routing in delay tolerant networks,2025,16,False,正式对照
+W4411347819,TEAD: trust-enhanced anomaly detection framework for intrusion detection in IoT-enabled wireless sensor networks (WSNs),2025,13,False,正式对照
+W3201219560,"Machine learning-based physical layer security: techniques, open challenges, and applications",2021,44,False,正式对照
+W3136175494,A review of optical networking technologies supporting 5G communication infrastructure,2021,43,False,正式对照
+W4206651745,Cross layered cryptography based secure routing for IoT-enabled smart healthcare system,2022,43,False,正式对照
+W3162613386,Deep reinforcement learning-based computation offloading and resource allocation in security-aware mobile edge computing,2021,41,False,正式对照
+W3203922793,Internet of things multi hop energy efficient cluster-based routing using particle swarm optimization,2021,41,False,正式对照
+W3215835399,Topology management for flying ad hoc networks based on particle swarm optimization and software-defined networking,2021,41,False,正式对照
+W4292002597,A PUF-based anonymous authentication protocol for wireless medical sensor networks,2022,41,False,正式对照
+W3118760788,Intelligent energy-aware and secured QoS routing protocol with dynamic mobility estimation for wireless sensor networks,2021,40,False,正式对照
+W3156496273,Artificial intelligence empowered emails classifier for Internet of Things based systems in industry 4.0,2021,40,False,正式对照
+W3212133652,An energy-aware clustering method in the IoT using a swarm-based algorithm,2021,40,False,正式对照
+W3190326634,Machine learning based volatile block chain construction for secure routing in decentralized military sensor networks,2021,38,False,正式对照
+W4285095121,An energy-efficient distributed node clustering routing protocol with mobility pattern support for underwater wireless sensor networks,2022,37,False,正式对照
+W3158665334,Rendezvous points based energy-aware routing using hybrid neural network for mobile sink in wireless sensor networks,2021,36,False,正式对照
+W4399906977,IRS assisted UAV communications for 6G networks: a systematic literature review,2024,33,False,盲测样本
+W4205835406,Privacy-preserving federated learning framework in multimedia courses recommendation,2022,37,False,盲测样本
+W4309883499,NOMA for 5G and beyond: literature review and novel trends,2022,37,False,盲测样本
+W3133496911,Q-learning based routing for in-network aggregation in wireless sensor networks,2021,37,False,盲测样本
+W4380886145,Highly accurate sybil attack detection in vanet using extreme learning machine with preserved location,2023,30,False,盲测样本

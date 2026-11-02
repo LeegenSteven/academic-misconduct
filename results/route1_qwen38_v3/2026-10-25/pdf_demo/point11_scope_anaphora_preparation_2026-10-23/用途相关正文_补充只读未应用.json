@@ -1,0 +1,48 @@
+{
+  "case_id": "r1pdf:976890f040d5c2cab2e50965",
+  "status": "supplemental_source_inspection_only",
+  "source_pdf_sha256": "807123749aadd095c88f3a976d29834673fa2fc61cdf5b7aadc0e1514075b485",
+  "resource_use_fragment": {
+    "pdf_page": 2,
+    "char_start": 1176,
+    "char_end_exclusive": 1552,
+    "raw_text": "PDB data are being used by researchers, educators, spe-\ncialist bioinformatics resources and other Users from every\ninhabited continent and every UN-recognized sovereign na-\ntion. Nearly two million daily structure data file downloads\nfrom wwPDB partner websites and the two Core Archives\nattest to the important role that the wwPDB plays within\nthe biological data ecosystem.",
+    "raw_text_sha256": "17c1aa77906912d588b5f7658f314a77c8f6b2a5023ca155d8904f0f25ce3c03",
+    "source_blocks": [
+      {
+        "block_number": 6,
+        "bbox": [
+          322.593,
+          574.218,
+          569.686,
+          649.934
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "computational_prediction_community_fragment": {
+    "pdf_page": 5,
+    "char_start": 1338,
+    "char_end_exclusive": 1533,
+    "raw_text": "Release of PDB data in\ntwo phases is intended to assist the computational biology\ncommunity in operating various prediction challenges, in-\ncluding CASP (32), CAPRI (33), CAMEO (34) and D3R\n(35).",
+    "raw_text_sha256": "47dc0cf820f4c59777c7a6794b0e45ae0257d67e1dbbb048181a496f68f229c1",
+    "source_blocks": [
+      {
+        "block_number": 3,
+        "bbox": [
+          42.224,
+          123.562,
+          289.322,
+          363.661
+        ]
+      }
+    ],
+    "offset_basis": "PyMuPDF page.get_text(text, sort=False); Unicode code points; zero-based half-open",
+    "bbox_scope": "whole intersecting text blocks, not exact sentence boxes"
+  },
+  "scope_limit": "General use/assistance is not a measured effect size for the specific evolutionary approach or proof of greatly. Do not write a classification from these supplemental passages.",
+  "active_evidence_id_assigned": false,
+  "added_to_model_input": false
+}

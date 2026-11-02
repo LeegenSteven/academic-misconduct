@@ -1,0 +1,37 @@
+{
+  "status": "POINT16_A100_FOLLOWUP_VERIFIED_AND_13_POINT_CURRENT_VIEW_ASSEMBLED",
+  "recorded_at_utc": "2026-10-24T10:50:34.133067+00:00",
+  "downloaded_files": 7,
+  "files_verified_against_A100_metadata": 6,
+  "downloaded_files_sha256": {
+    "exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "model_input.json": "177777d6e619109998b69bbbd6fda25f70fd84781c010dece83b9ce091583176",
+    "request.json": "71668dba08604e15a05680eec2cf877396a5ba8dbc5f7103918b0873c7faa804",
+    "response.jsonl": "62d05e1b2b8c67e6ff2064c56d8b70ce359086a2b53408b68023e0e0ff6f678a",
+    "run.log": "aeca41b64bf1c8eb5f5c980f1d1125e54ecdf3427b4c8996d005d83a1a43dbcd",
+    "run_metadata.json": "eb8dd61b7de9272ac94fd071ef4253f79a2a56aff33bc2965ece8dee2c8e52e7",
+    "summary.json": "31013aaf00e06d370c04f3b5fdcc323731ee735653d6d1977cbed563f61840cd"
+  },
+  "exit_code": 0,
+  "generated_tokens": 198,
+  "parser_status": "structure_and_source_mapping_valid_pending_human_semantics",
+  "quote_locators_replayed_against_source_pdf": 2,
+  "compact_output_constraint_issues": [],
+  "parent_original_failure_preserved": true,
+  "parent_original_18_files_unchanged": true,
+  "frozen_original_code_unchanged": true,
+  "current_batch_points": 13,
+  "fixed_denominator": 20,
+  "current_batch_parser_counts": {
+    "structure_and_source_mapping_valid_pending_human_semantics": 11,
+    "insufficient_evidence": 2
+  },
+  "current_view_contains_distinct_generation_versions": true,
+  "note": "11/13 is a versioned current engineering view: ten original generations parsed with v4 plus one compact-v2 follow-up. It is not a uniform frozen-run score or semantic acceptance rate.",
+  "A100_generation_calls_in_this_followup": 1,
+  "new_model_runs_during_local_audit": 0,
+  "GPU_used_during_local_audit": false,
+  "new_human_labels": 0,
+  "new_semantic_acceptances": 0,
+  "new_formal_end_to_end_acceptances": 0
+}

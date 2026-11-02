@@ -1,0 +1,123 @@
+JACK ET AL.
+5155
+TABLE 3
+Biological staging.
+Initial-stage
+biomarkers
+Early-stage
+biomarkers
+Intermediate-stage
+biomarkers
+Advanced-stage
+biomarkers
+(A)
+(B)
+(C)
+(D)
+PET
+Amyloid PET
+Tau PET medial
+temporal region
+Tau PET moderate
+neocortical uptake
+Tau PET high
+neocortical uptake
+A+T2−
+A+T2MTL+
+A+T2MOD+
+A+T2HIGH+
+Core 1 fluid
+CSF Aβ42/40, p-tau181/Aβ42, t-tau/Aβ42, and accuratea Core 1 plasma assays can establish that an individual is in
+biological stage A or higher, but cannot discriminate between PET stages A–D at present.
+Notes: Staging may be accomplished by (1) a combination of amyloid PET and tau PET or (2) a combination of Core 1 fluid biomarkers (which would establish
+biological stage A or higher) plus tau PET (which would be used to discriminate between stages). The approach to determining A+ versus A−with amyloid
+PET may need special consideration in autosomal dominant Alzheimer’s disease (ADAD) and Down syndrome AD (DSAD).
+Abbreviations: Aβ, amyloid beta; CSF, cerebrospinal fluid; PET, positron emission tomography; p-tau, phosphorylated tau.
+aAccurate is defined in the text (Section 3.2) and in Box 2.
+TABLE 4
+Operationalization of biological staging by positron emission tomography (PET).
+Stage
+Amyloid
+PET
+Tau PET medial
+temporal
+Tau PET moderate
+neocortical uptake
+Tau PET high
+neocortical uptake
+AT2 notation
+A
++
+–
+–
+–
+A+T2−
+B
++
++
+–
+–
+A+T2MTL+
+C
++
++
++
+–
+A+T2MOD+
+D
++
++
++
++
+A+T2HIGH+
+TABLE 5
+Conceptual biological staging with fluid biomarkers.
+Initial-stage biomarkers
+Early-stage
+biomarkers
+Intermediate-stage
+biomarkers
+Advanced-stage
+biomarkers
+(A)
+(B)
+(C)
+(D)
+Fluid staging
+CSF Aβ42/40, p-tau181/Aβ42,
+t-tau/Aβ42, and accurateb
+plasma assays
+Other p-tau forms
+(e.g., p-tau205a)
+MTBR-tau243a
+Non-phosphorylated
+tau fragmentsa
+Note: PET and fluid measures are not equivalent; hence, stages A–D with PET should not be treated as equivalent to stages A–D for these fluid biomarkers.
+Abbreviations: Aβ, amyloid beta; CSF, cerebrospinal fluid; MTBR, microtubule-binding region; PET, positron emission tomography; p-tau, phosphorylated tau.
+aValidation of p-tau205, MTBR-tau243, and non-phosphorylated tau fragments as early-, intermediate-, and advanced-stage fluid markers, respectively, is
+conceptual for now, awaiting further studies.
+bAccurate is defined in the text (Section 3.2) and in Box 2.
+neocortical uptake) and uptake magnitude in the neocortical meta-
+ROI. In addition, the neocortical meta-ROI will capture staging for both
+typical and atypical/hippocampal sparing AD presentations.131,132 We
+also point out that continuous measures of uptake in the neocortical
+tau PET ROI, while not a staging method, can provide a standardized
+anatomic target for quantification. Finally, this PET scheme can serve
+as a reference standard for validation of fluid-based staging schemes,
+as outlined in Section 4.5.
+Amyloid PET, like tau PET, exists on a continuous scale, and higher
+amyloid PET SUVR or Centiloid values are associated with more
+advanced disease and worse outcomes.53,133 However, rather than
+incorporating a separate continuous amyloid PET scale into the PET
+staging scheme, amyloid PET is denoted in a binary manner, with the
+recognition that increasing amyloid PET uptake will be captured by
+progressively worse tau PET stages.130,133,134
+4.4
+Biological staging with Core 1 fluid
+biomarkers and tau PET
+Currently approved treatments targeting Aβ require documentation
+of Aβ pathology for treatment eligibility. It is anticipated that many
+patients will undergo testing with fluid Core 1 biomarkers to assess eli-
+gibility. Individuals in whom ADNPC has been established by fluid Core
+1 biomarkers (Table 2) could then undergo tau PET; a single fluid test
+plus a single tau PET study could then be used for biological staging

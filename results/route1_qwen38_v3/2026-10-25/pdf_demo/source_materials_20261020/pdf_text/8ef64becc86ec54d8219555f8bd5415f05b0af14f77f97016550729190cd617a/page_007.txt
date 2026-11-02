@@ -1,0 +1,48 @@
+However, it is increasingly recognized that neurodegeneration/injury, even in classic AD 
+brain regions, also occurs in non-AD conditions. This is particularly so in elderly individuals 
+where comorbidities are common [92]. AT(N) classification provides a solution to this 
+problem, which is to separate biomarkers that are specific for pathologic tau from those that 
+are nonspecific measures of neurodegeneration/neuronal injury.
+The AT(N) system was designed with both a CSF and an imaging biomarker in each of the 
+three biomarker groups (Table 1) [16]. Thus, complete AT(N) biomarker characterization of 
+research participants is possible using either imaging or CSF biomarkers alone. However, 
+some research groups may prefer a mixture of imaging and CSF biomarkers for AT(N) 
+characterization. For example, when lumbar puncture and MRI are accessible but PET is 
+not, investigators may choose to use CSF Aβ42 and P-tau as the A and T biomarkers and 
+MRI as the (N) biomarker.
+6. Definition of AD
+Once the committee agreed that AD should be defined as a biologic construct that is 
+identified by biomarkers in living people, the next logical question was “what biomarker 
+signature or profile(s) defines AD?” The committee agreed that only biomarkers that are 
+specific for hallmark AD proteinopathies (i.e., Aβ and pathologic tau) should be considered 
+as potential biomarker definitions of the disease. Different possible biomarker profiles were 
+considered.
+Numerous studies have shown that CU individuals with abnormal amyloid biomarkers have 
+more rapid progression of atrophy, hypometabolism, and clinical/cognitive decline than 
+individuals without biomarker evidence of Aβ deposition [13,33,80,93–99] The proportion 
+of amyloid PET-positive clinically normal individuals by age nearly perfectly parallels the 
+(increasing) age-specific prevalence of individuals clinically diagnosed as AD dementia 15–
+20 years later [53]. The first biomarkers to become abnormal in carriers of deterministic AD 
+mutations are those of Aβ [9–11,14]. These human data and animal model data [100] 
+suggest a causal upstream role for Aβ in the pathogenesis of AD; and although β-
+amyloidosis alone is insufficient to cause cognitive deterioration directly, it may be sufficient 
+to cause downstream pathologic changes (i.e., tauopathy and neurodegeneration) that 
+ultimately lead to cognitive deterioration. These findings are supported by clinicopathologic 
+studies as well [101,102]. Consequently, a widely held view is that amyloid biomarkers 
+represent the earliest evidence of AD neuropathologic change currently detectable in living 
+persons [9,11,72,103,104]. This suggests that abnormal β-amyloidosis biomarkers alone 
+could serve as the defining signature of AD. However, both Aβ and paired helical filament 
+(PHF) tau deposits are required to fulfill neuropathologic criteria for AD [105,106], which 
+suggests that evidence of abnormalities in both Aβ and pathologic tau biomarkers should be 
+present to apply the label “Alzheimer’s disease” in a living person (Fig. 1). With these 
+considerations in mind, the committee agreed on the following definitions.
+An individual with biomarker evidence of Aβ deposition alone (abnormal amyloid PET scan 
+or low CSF Aβ42 or Aβ42/Aβ40 ratio) with a normal pathologic tau biomarker would be 
+assigned the label “Alzheimer’s pathologic change” (Table 2, Fig. 2, Text Box 1). The term 
+Jack et al.
+Page 7
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

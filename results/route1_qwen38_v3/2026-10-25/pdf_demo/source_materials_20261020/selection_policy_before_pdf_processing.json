@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-20",
+  "purpose": "prepare independent route1 real-PDF cases, not new training data",
+  "source_pool": "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\data\\interim\\pmc_oa_expansion_candidate_pool_v1_2026-10-08.json",
+  "source_pool_sha256": "cfe92e3d0d9d590f16a1fd5de516219a9b864e93b5a476a59f16f0ef2e6ec8c6",
+  "candidate_pairs": [
+    {
+      "candidate_id": "PMC-OA-EXP-01",
+      "citing_pmcid": "PMC8005924",
+      "citing_doi": "10.1136/bmj.n71",
+      "citing_title": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
+      "cited_pmcid": "PMC6631872",
+      "cited_doi": "10.1186/s13643-019-1089-2",
+      "cited_title": "Clarifying differences between reviews within evidence ecosystems",
+      "citing_xml_locator": "PMC fullTextXML; bibliography_xref=ref2; paragraph containing xref"
+    },
+    {
+      "candidate_id": "PMC-OA-EXP-02",
+      "citing_pmcid": "PMC8005924",
+      "citing_doi": "10.1136/bmj.n71",
+      "citing_title": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
+      "cited_pmcid": "PMC6293542",
+      "cited_doi": "10.1186/s12916-018-1226-0",
+      "cited_title": "Reporting guidelines: doing better for readers",
+      "citing_xml_locator": "PMC fullTextXML; bibliography_xref=ref3; paragraph containing xref"
+    },
+    {
+      "candidate_id": "PMC-OA-EXP-03",
+      "citing_pmcid": "PMC8371605",
+      "citing_doi": "10.1038/s41586-021-03819-2",
+      "citing_title": "Highly accurate protein structure prediction with AlphaFold",
+      "cited_pmcid": "PMC7333361",
+      "cited_doi": "10.12688/f1000research.25097.1",
+      "cited_title": "Advances in methods for atomic resolution macromolecular structure determination",
+      "citing_xml_locator": "PMC fullTextXML; bibliography_xref=CR1; paragraph containing xref"
+    },
+    {
+      "candidate_id": "PMC-OA-EXP-04",
+      "citing_pmcid": "PMC8371605",
+      "citing_doi": "10.1038/s41586-021-03819-2",
+      "citing_title": "Highly accurate protein structure prediction with AlphaFold",
+      "cited_pmcid": "PMC6324056",
+      "cited_doi": "10.1093/nar/gky949",
+      "cited_title": "Protein Data Bank: the single global archive for 3D macromolecular structure data",
+      "citing_xml_locator": "PMC fullTextXML; bibliography_xref=CR5; paragraph containing xref"
+    },
+    {
+      "candidate_id": "PMC-OA-EXP-05",
+      "citing_pmcid": "PMC6129281",
+      "citing_doi": "10.1093/bioinformatics/bty560",
+      "citing_title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "cited_pmcid": "PMC4103590",
+      "cited_doi": "10.1093/bioinformatics/btu170",
+      "cited_title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+      "citing_xml_locator": "PMC fullTextXML; bibliography_xref=bty560-B3; paragraph containing xref"
+    },
+    {
+      "candidate_id": "PMC-OA-EXP-06",
+      "citing_pmcid": "PMC6129281",
+      "citing_doi": "10.1093/bioinformatics/bty560",
+      "citing_title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "cited_pmcid": "PMC5374548",
+      "cited_doi": "10.1186/s12859-017-1469-3",
+      "cited_title": "AfterQC: automatic filtering, trimming, error removing and quality control for fastq data",
+      "citing_xml_locator": "PMC fullTextXML; bibliography_xref=bty560-B5; paragraph containing xref"
+    },
+    {
+      "candidate_id": "PMC-OA-EXP-07",
+      "citing_pmcid": "PMC7092819",
+      "citing_doi": "10.1056/NEJMoa2002032",
+      "citing_title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "cited_pmcid": "PMC7159299",
+      "cited_doi": "10.1016/S0140-6736(20)30183-5",
+      "cited_title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+      "citing_xml_locator": "PMC fullTextXML; bibliography_xref=r1; paragraph containing xref"
+    },
+    {
+      "candidate_id": "PMC-OA-EXP-08",
+      "citing_pmcid": "PMC7092819",
+      "citing_doi": "10.1056/NEJMoa2002032",
+      "citing_title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+      "cited_pmcid": "PMC7159086",
+      "cited_doi": "10.1016/S0140-6736(20)30251-8",
+      "cited_title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+      "citing_xml_locator": "PMC fullTextXML; bibliography_xref=r2; paragraph containing xref"
+    },
+    {
+      "candidate_id": "PMC-OA-EXP-09",
+      "citing_pmcid": "PMC7270627",
+      "citing_doi": "10.1016/S0140-6736(20)30566-3",
+      "citing_title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+      "cited_pmcid": "PMC7121484",
+      "cited_doi": "10.1056/NEJMoa2001316",
+      "cited_title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia",
+      "citing_xml_locator": "PMC fullTextXML; bibliography_xref=bib4; paragraph containing xref"
+    },
+    {
+      "candidate_id": "PMC-OA-EXP-10",
+      "citing_pmcid": "PMC9825434",
+      "citing_doi": "10.1093/nar/gkac1000",
+      "citing_title": "The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any sequenced genome of interest",
+      "cited_pmcid": "PMC8111494",
+      "cited_doi": "10.15252/msb.202010016",
+      "cited_title": "hu.MAP 2.0: integration of over 15,000 proteomic experiments builds a global compendium of human multiprotein assemblies",
+      "citing_xml_locator": "PMC fullTextXML; bibliography_xref=B6; paragraph containing xref"
+    }
+  ],
+  "selection_order": "all existing expansion pool pairs, original candidate_id order; within pair PDF location order",
+  "point_selection": "round robin across valid pairs, 20 points if available; retain all reserves and failures",
+  "technical_checks": [
+    "real main PDFs with text layer",
+    "reference identity",
+    "exact citation marker in source PDF",
+    "point deduplication",
+    "route2 shared sample overlap"
+  ],
+  "forbidden_selection_inputs": [
+    "gold labels",
+    "model predictions",
+    "whether a prediction is correct"
+  ],
+  "new_classifier_predictions_read": false,
+  "scope_assignment": "provisional until source and overlap audit complete",
+  "old_five_route2_pairs_kept_separately": true
+}

@@ -1,0 +1,10 @@
+{
+  "version": "route1_pdf_remaining13_runtime_20261024",
+  "fixed_points": 20,
+  "source_candidates_replayed": 200,
+  "stages_checked": 40,
+  "all_within_budget": true,
+  "released": 0,
+  "model_runs": 0,
+  "maximum_required_tokens": 4628
+}

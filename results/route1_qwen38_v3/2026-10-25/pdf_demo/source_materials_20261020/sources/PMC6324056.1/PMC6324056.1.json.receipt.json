@@ -1,0 +1,13 @@
+{
+  "requested_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6324056.1/PMC6324056.1.json",
+  "final_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6324056.1/PMC6324056.1.json",
+  "retrieved_at_utc": "2026-10-20T07:58:10.868846+00:00",
+  "http_status": 200,
+  "etag": "\"194ad4bd02851b70c95bd07d1a9c35e7\"",
+  "last_modified": "Fri, 26 Jun 2026 20:17:29 GMT",
+  "sha256": "fa35cba7477616cda64d661f442a956c958a564dd12d1c667c3ad15e654ecba5",
+  "bytes": 1099,
+  "official_md5": null,
+  "official_md5_verified": false,
+  "attempts": []
+}

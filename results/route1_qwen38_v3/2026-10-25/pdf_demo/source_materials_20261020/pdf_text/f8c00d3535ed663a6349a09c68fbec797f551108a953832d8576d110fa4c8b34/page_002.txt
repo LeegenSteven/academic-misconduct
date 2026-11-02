@@ -1,0 +1,159 @@
+Nature Medicine | Volume 28 | November 2022 | 2381–2387
+2382
+Article
+https://doi.org/10.1038/s41591-022-02049-x
+PET and tau PET biomarker profiles as predictors of clinical progression 
+among cognitively unimpaired individuals are lacking33.
+In addition to addressing the differences between the NIA-AA 
+and IWG criteria, early detection of AD pathological changes may be 
+key for future interventions with disease-modifying treatments since 
+these will most likely be cost-effective and show the most favorable 
+benefit versus risk ratio when specifically targeting preclinical popula-
+tions with AD that are most likely to experience substantial cognitive 
+deterioration in the short term (that is, 3–5 years). Therefore, the aim 
+of the current multicenter study was to examine clinical progression 
+to MCI or dementia and assess cognitive decline in cognitively unim-
+paired individuals with different Αβ (A) and tau (T) biomarker profiles 
+as defined by PET at baseline. We divided A+T+ individuals into medial 
+temporal lobe (MTL) only (A+TMTL
++) and temporal neocortical (A+TNEO-T
++) 
+T+ groups to additionally investigate the impact of more advanced tau 
+pathological changes on clinical progression.
+Results
+Participants
+We included 1,325 cognitively unimpaired participants from 7 cohorts, 
+of whom 843 (63.6%) were A−T−, 328 (24.8%) A+T−, 55 (4.2%) A+TMTL
++ 
+and 65 (4.9%) A+TNEO-T
++ (see Table 1 and Supplementary Table 1 for 
+a breakdown by cohort). All biomarker-positive groups were older 
+and had lower baseline Mini-Mental State Examination (MMSE) 
+scores compared to the A−T− group (all P < 0.001). There were no sex 
+differences between groups. The average follow-up duration was 
+41.8 ± 18.9 months. The A−T+ group was considerably smaller than 
+positive AD biomarkers. Consequently, there is fundamental disagree-
+ment between the criteria about the nomenclature for cognitively 
+unimpaired individuals who harbor one or both AD hallmark neuro-
+pathological features. For example, a cognitively unimpaired individual 
+with positive Αβ (Α+) and tau (T+) biomarkers is classified as ‘preclinical 
+AD’ by the NIA-AA criteria2, while the IWG criteria3 would label such an 
+individual ‘at risk for progression to AD’ (Fig. 1).
+Aside from philosophical differences (for example, according 
+to the IWG criteria the term AD should be restricted to symptomatic 
+individuals), the discrepancy between the NIA-AA and IWG can be 
+explained by at least two factors. First, according to the IWG criteria, 
+currently available Αβ and tau biomarkers show ‘low predictive accu-
+racy’ for development of cognitive symptoms. For Αβ biomarkers 
+alone this may indeed be the case4,5, although PET studies with long 
+follow-ups (approximately 10 years) indicate substantial Αβ-associated 
+risk for cognitive decline6, dementia7 and death7. For tau biomarkers, 
+however, the clinicopathological correlates are much stronger than 
+for Αβ biomarkers8,9, even in asymptomatic individuals10,11. Second, 
+most prognostic studies to date are based on cerebrospinal fluid (CSF) 
+biomarkers of soluble phospho-tau levels, which is an early marker of 
+AD pathology12,13. In contrast, the more recently introduced tau PET 
+technique measures more advanced pathological changes since it 
+captures insoluble tau aggregates14,15. Although tau PET positivity in the 
+neocortex is relatively rare among cognitively unimpaired individuals 
+(approximately 5–10%16–18), its presence is strongly associated with 
+worse cross-sectional10,19–22 and longitudinal11,23–32 cognitive outcomes. 
+However, large-scale longitudinal studies with combinations of amyloid 
+Normal AD biomarkers,
+cognitively unimpaired
+Not at risk for 
+progression to AD
+At risk for 
+progression to AD
+At risk for 
+progression to AD
+Preclinical AD 
+pathological change
+Preclinical AD
+A−T−
+A+T−
+Cognitively
+unimpaired
+NIA – AA criteria:
+IWG criteria: 
+Risk for progression
+At risk for 
+progression to AD
+Preclinical AD
+Jack et al.2
+Dubois et al.3
+A+TMTL
++
+A+TNEO-TT+
+Fig. 1 | NIA-AA versus IWG criteria. Differences in the nomenclature of cognitively unimpaired individuals with (+) or without (−) in vivo biomarker evidence of Aβ 
+(A) and tau (T) pathology in the NIA-AA versus IWG criteria for AD. Note that for the IWG criteria, the presumed ‘risk for progression’ level rises when both A and T 
+biomarkers are positive.
+Table 1 | Participant characteristics
+A−T−
+A+T−
+A+TMTL
++
+A+TNEO-T
++
+P
+n
+843
+328
+55
+65
+Age, years
+68.6 ± 9.6
+75.5 ± 8.2
+75.6 ± 6.6
+76.4 ± 6.8
+<0.001a
+Sex, n (%) male
+424 (50.3)
+164 (50.0)
+24 (43.6)
+31 (47.7)
+0.822
+Education, years
+14.7 ± 3.1
+14.6 ± 3.1
+13.7 ± 3.8
+13.9 ± 3.5
+0.02b
+Follow-up duration, months
+43.0 ± 18.9
+40.1 ± 17.6
+39.0 ± 16.5
+36.4 ± 14.9
+0.004c
+Follow-up visits, number
+4.1 ± 1.5
+4.1 ± 1.4
+4.0 ± 1.3
+3.6 ± 1.2
+0.07
+MMSE, baseline score
+29.0 ± 1.0
+28.7 ± 1.3
+28.3 ± 1.5
+28.2 ± 1.3
+<0.001d
+Progression to MCI, n (%)
+26 (8.9%)
+26 (3.3%)
+25 (49.0%)
+32 (53.3%)
+<0.001
+Progression to all-cause dementia, n (%)
+4 (0.5%)
+3 (1.0%)
+2 (3.9%)
+12 (20.0%)
+<0.001
+P values from two-sided statistical tests were reported. ANOVAs were used for continuous variables and chi-squared tests were used for categorical variables. Post-hoc tests were adjusted 
+using Bonferroni correction. aA+TNEO-T
++ and A+TMTL
++ and A+T− > A−T− b post-hoc tests revealed no significant group differences, cA−T− > A+TNEO-T
++, dA+TNEO-T
++, A+TMTL
++ and A+T− < A−T− and A+TNEO-T
++ < A+ T-.

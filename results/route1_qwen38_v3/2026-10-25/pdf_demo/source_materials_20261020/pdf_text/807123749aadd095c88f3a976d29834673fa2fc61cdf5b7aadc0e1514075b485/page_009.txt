@@ -1,0 +1,131 @@
+D528 Nucleic Acids Research, 2019, Vol. 47, Database issue
+data archive and resource description framework format. Nucleic
+Acids Res., 40, D453–D460.
+30. Young,J.Y., Westbrook,J.D., Feng,Z., Peisach,E., Persikova,I.,
+Sala,R., Sen,S., Berrisford,J.M., Swaminathan,G.J., Oldfield,T.J. et al.
+(2018) Worldwide Protein Data Bank biocuration supporting open
+access to high-quality 3D structural biology data. Database
+(Oxford), 2018, doi:10.1093/database/bay002.
+31. Smart,O.S., Horsk´y,V., Gore,S., Svobodov´a Vaˇrekov´a,R.,
+Bendov´a,V., Kleywegt,G.J. and Velankar,S. (2018) Validation of
+ligands in macromolecular structures determined by X-ray
+crystallography. Acta Crystallogr. D Struct. Biol., 74, 228–236.
+32. Kryshtafovych,A., Monastyrskyy,B., Fidelis,K., Moult,J.,
+Schwede,T. and Tramontano,A. (2018) Evaluation of the
+template-based modeling in CASP12. Proteins Struct. Funct.
+Bioinforma., 86, 321–334.
+33. Lensink,M.F., Velankar,S., Baek,M., Heo,L., Seok,C. and
+Wodak,S.J. (2018) The challenge of modeling protein assemblies: the
+CASP12-CAPRI experiment. Proteins, 86(Suppl. 1), 257–273.
+34. Haas,J., Barbato,A., Behringer,D., Studer,G., Roth,S., Bertoni,M.,
+Mostaguir,K., Gumienny,R. and Schwede,T. (2018) Continuous
+Automated Model EvaluatiOn (CAMEO) complementing the critical
+assessment of structure prediction in CASP12. Proteins, 86(Suppl. 1),
+387–398.
+35. Gaieb,Z., Liu,S., Gathiaka,S., Chiu,M., Yang,H., Shao,C.,
+Feher,V.A., Walters,W.P., Kuhn,B., Rudolph,M.G. et al. (2018) D3R
+Grand Challenge 2: blind prediction of protein-ligand poses, affinity
+rankings, and relative binding free energies. J. Comput. Aided Mol.
+Des., 32, 1–20.
+36. Henrick,K., Feng,Z., Bluhm,W.F., Dimitropoulos,D., Doreleijers,J.F.,
+Dutta,S., Flippen-Anderson,J.L., Ionides,J., Kamada,C., Krissinel,E.
+et al. (2007) Remediation of the protein data bank archive. Nucleic
+Acids Res., 36, D426–D433.
+37. Groom,C.R. and Allen,F.H. (2014) The Cambridge Structural
+Database in retrospect and prospect. Angew. Chem. Int. Ed. Engl., 53,
+662–671.
+38. Trewhella,J., Hendrickson,W.A., Kleywegt,G.J., Sali,A., Sato,M.,
+Schwede,T., Svergun,D.I., Tainer,J.A., Westbrook,J. and
+Berman,H.M. (2013) Report of the wwPDB Small-Angle Scattering
+Task Force: data requirements for biomolecular modeling and the
+PDB. Structure, 21, 875–881.
+39. Sali,A., Berman,H.M., Schwede,T., Trewhella,J., Kleywegt,G.,
+Burley,S.K., Markley,J., Nakamura,H., Adams,P., Bonvin,A.M.J.J.
+et al. (2015) Outcome of the First wwPDB Hybrid/Integrative
+Methods Task Force Workshop. Structure, 23, 1156–1167.
+40. Gutmanas,A., Adams,P.D., Bardiaux,B., Berman,H.M., Case,D.A.,
+Fogh,R.H., G¨untert,P., Hendrickx,P.M.S., Herrmann,T.,
+Kleywegt,G.J. et al. (2015) NMR Exchange Format: a unified and
+open standard for representation of NMR restraint data. Nat. Struct.
+Mol. Biol., 22, 433–434.
+41. Vallat,B., Webb,B., Westbrook,J.D., Sali,A. and Berman,H.M. (2018)
+Development of a prototype system for archiving integrative/hybrid
+structure models of biological macromolecules. Structure, 26,
+894–904.
+42. Burley,S.K., Kurisu,G., Markley,J.L., Nakamura,H., Velankar,S.,
+Berman,H.M., Sali,A., Schwede,T. and Trewhella,J. (2017) PDB-Dev:
+a prototype system for depositing integrative/hybrid structural
+models. Structure, 25, 1317–1318.
+CURRENT WWPDB CONSORTIUM MEMBERS WITH
+AFFILIATIONS
+RCSB Protein Data Bank:
+Stephen K. Burley1,2,3, Helen M. Berman1, Charmi
+Bhikadiya1, Chunxiao Bi3, Li Chen1, Luigi Di Costanzo1,
+Cole Christie3, Jose M. Duarte3, Shuchismita Dutta1,
+Zukang Feng1, Sutapa Ghosh1, David S. Goodsell1,4,
+Rachel Kramer Green1, Vladimir Guranovic1, Dmytro
+Guzenko2, Brian P. Hudson1, Yuhe Liang1, Robert Lowe1,
+Ezra Peisach1, Irina Periskova1, Chris Randle3, Alexander
+Rose3, Monica Sekharan1, Chenghua Shao1, Yi-Ping Tao1,
+Yana Valasatava3, Maria Voigt1, John Westbrook1, Jasmine
+Young1, Christine Zardecki1, and Marina Zhuravleva1
+Protein Data Bank Japan:
+Genji Kurisu5, Haruki Nakamura5, Yumiko Kengaku5,
+Hasumi Cho5, Junko Sato5, Ju Yaen Kim5, Yasuyo
+Ikegawa5,
+Atsushi
+Nakagawa5,
+Reiko
+Yamashita5,
+Takahiro Kudou5, Gert-Jan Bekker5, Hirofumi Suzuki5,
+Takeshi Iwata5, Masashi Yokochi5, Naohiro Kobayashi5,
+and Toshimichi Fujiwara5
+Protein Data Bank in Europe:
+Sameer
+Velankar6,
+Gerard
+J.
+Kleywegt6,
+Stephen
+Anyango6, David R. Armstrong6, John M. Berrisford6,
+Matthew J. Conroy6, Jose M. Dana6, Mandar Deshpande6,
+Paul Gane6, Romana G´aborov´a7, Deepti Gupta6, Alek-
+sandras Gutmanas6, Jaroslav Koˇca7, Lora Mak6, Saqib
+Mir6, Abhik Mukhopadhyay6, Nurul Nadzirin6, Sreenath
+Nair6, Ardan Patwardhan8, Typhaine Paysan-Lafosse6,
+Lukas Pravda6, Osman Salih8, David Sehnal6,7, Mihaly
+Varadi6, and Radka Vaˇrekov´a7
+Biological Magnetic Resonance data Bank
+John L. Markley9, Jeffrey C. Hoch10, Pedro R. Romero9,
+Kumaran Baskaran9, Dimitri Maziuk9, Eldon L. Ulrich9,
+Jonathan R. Wedell9, Hongyang Yao9, Miron Livny11, Yan-
+nis E. Ioannidis12
+1 Research Collaboratory for Structural Bioinformatics
+Protein Data Bank, Institute for Quantitative Biomedicine,
+Rutgers, The State University of New Jersey, Piscataway, NJ
+08854, USA
+2 Research Collaboratory for Structural Bioinformatics
+Protein Data Bank, San Diego Supercomputer Center, Uni-
+versity of California, San Diego, La Jolla, CA 92093, USA
+3 Rutgers Cancer Institute of New Jersey, Robert Wood
+Johnson Medical School, New Brunswick, NJ 08903, USA
+4 The Scripps Research Institute, La Jolla, CA 92037,
+USA
+5 Institute for Protein Research, Osaka University, Suita,
+Osaka 565-0871, Japan
+6 Protein Data Bank in Europe, EMBL-EBI, Wellcome
+Genome Campus, Hinxton, Cambridge CB10 1SD, UK
+7 CEITEC – Central European Institute of Technol-
+ogy, Masaryk University Brno, Kamencie 5, 625 00 Brno-
+Bohuice, Czech Republic
+8 Cellular Structure and 3D Bioimaging, EMBL-EBI,
+Wellcome Genome Campus, Hinxton, Cambridge CB10
+1SD, UK
+9 Biochemistry Department, University of Wisconsin-
+Madison, Madison, WI 53706, USA
+10 Department of Molecular Biology and Biophysics,
+UConn Health, Farmington, CT 06030, USA
+11 Department of Computer Sciences, University of
+Wisconsin-Madison, Madison, WI 53706, USA
+12 ATHENA Research and Innovation Center, Athens,
+Greece

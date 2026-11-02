@@ -1,0 +1,124 @@
+D526 Nucleic Acids Research, 2019, Vol. 47, Database issue
+Instead of devoting efforts to unnecessary repetitious work
+on relatively uncomplicated depositions, our biocurators
+are now able to focus more of their time on the more com-
+plex depositions, thereby improving data consistency and
+accuracy. ORCiD IDs (orcid.org) for OneDep Depositor(s)
+of Record were made mandatory in 2018. To further im-
+prove the depositor experience and enable better manage-
+ment of incoming data, OneDep protocols will be changed
+to allow login using ORCiD persistent digital identifier
+unique to each researcher.
+Rapidly
+evolving
+experimental
+methods,
+such
+as
+SFX/XFEL and 3DEM, require frequent extensions of the
+PDBx/mmCIF data dictionary for expanded collection of
+related metadata using the OneDep system. Validation of
+3DEM structural data also requires further development
+of OneDep, particularly for validation of 3D atomic co-
+ordinates against Coulomb potential maps that will allow
+better assessment of 3DEM structure quality. Emerging
+methods, such as Integrative/Hybrid Methods (I/HM),
+present entirely new challenges in data representation and
+validation. In 2014, the wwPDB established a wwPDB
+Hybrid Methods Task Force, which produced a white
+paper detailing the outcome of its inaugural meeting (39).
+These recommendations led to development of a prototype
+system (PDB-Dev, pdb-dev.wwpdb.org) for representation,
+deposition, and archiving of I/HM structure data (41,
+42). In parallel, as a first step towards inclusion of I/HM
+structures in the PDB Core Archive, the OneDep system,
+in partnership with SASBDB (12), recently introduced
+combined data deposition for structures determined using
+SAS data in addition to the use of traditional structure
+determination techniques.
+To avoid fragmentation of structural biology data in dif-
+ferent archives that do not interoperate with one another,
+wwPDB partners are leading efforts to coordinate archiving
+activities across the discipline. Going beyond the two Core
+Archives, the PDBx/mmCIF data dictionary contains data
+items that provide links for individual 3D structures with
+related data stored by other specialist data resources, such
+as SBGRID (10), IIRMC (11) and EMPIAR (13).
+PLANS FORWARD
+The wwPDB is committed to ensuring that all data in the
+PDB Core archive are as accurate and consistent as possible.
+Three major initiatives are planned for the coming years.
+First, Depositors of Record will be able to make correc-
+tions to existing structures in the PDB Core Archive by up-
+dating the atomic coordinates, while preserving the orig-
+inal PDB identifier to improve ligand structures or make
+a better quality structure available for a particular macro-
+molecule. The recent introduction of versioning makes this
+long-desired opportunity feasible for the first time.
+Second, work is underway to further enhance the original
+wwPDB validation report. Of particular importance will be
+enhanced validation for both NMR and 3DEM structures.
+For NMR, the OneDep system will restrict deposition of re-
+straints to the NEF (40) or NMR-STAR (25, 26) formats,
+and the future validation reports will include analysis of
+NMR experimental restraint data. The archival format for
+NMR restraint data will continue to be NMR-STAR. For
+3DEM, the wwPDB partners are working with EMDB to
+improve validation of atomic models built using Coulomb
+potential maps. Finally, ligand representation and valida-
+tion will be improved as recommended in the Ligand Vali-
+dation Workshop white paper (31). All of this work will be
+informed by ongoing discussions with the various wwPDB
+Validation Task Forces and other community experts.
+Third, the wwPDB plans to develop a new mechanism to
+resolve the official DOI for each PDB structure. Evolution
+of the wwPDB PDB Core Archives has resulted in there be-
+ing multiple data files associated with a given 3D structure,
+including the atomic coordinates, experimental data, vali-
+dation reports, and other associated files. The wwPDB part-
+ners plan to introduce a new wwPDB web page accessible
+from the official DOI that will provide access to all relevant
+files across the two Core Archives. The wwPDB strongly en-
+courages all scientific journals to link to these pages using
+the DOI for each newly published 3D structure once these
+pages are made available.
+HISTORICAL PERSPECTIVE AND POSTSCRIPT
+The PDB has undergone enormous changes since its hum-
+ble beginnings with just seven structures in 1971. Notwith-
+standing seismic shifts in the discipline that we now call
+structural biology and 20,000-fold growth in the PDB, man-
+agement of the resource as the single global archive of 3D
+structure data for biological macromolecules continues to
+be underpinned by an unwavering commitment to univer-
+sal access to high data quality without limitations on us-
+age. Initially, what is now referred to as the PDB Core
+Archive was managed entirely within the United States, first
+at Brookhaven National Laboratory (1), and then by the
+RCSB PDB, a consortium formed by Rutgers University,
+the San Diego Supercomputer Center/University of Cali-
+fornia San Diego and the National Institute of Standards
+and Technology (3). Since 1999, PDBj and PDBe (formerly
+known as Macromolecular Structure Database (MSD)) in-
+formally worked with RCSB PDB to support PDB deposi-
+tion and biocuration. In 2003, this arrangement was formal-
+ized, and joint international management of the resource
+began with founding of the wwPDB by the RCSB PDB,
+PDBe, and PDBj (2). BMRB joined the wwPDB in 2006.
+Above all since 2003, joint management by the wwPDB
+has ensured that the resource remains the single global
+archive for 3D macromolecular structure data, becoming a
+central player in the international biological data ecosys-
+tem. In addition, joint management has enabled a host
+of important accomplishments, including (i) adoption of
+the PDBx/mmCIF data dictionary, (ii) multiple rounds of
+archive-wide remediation to improve data consistency and
+data quality, (iii) mandatory deposition of experimental
+data, (iv) development of community standards for valida-
+tion of structures and related data/metadata from multiple
+experimental methods, (v) launch of the universal OneDep
+deposition/validation/biocuration system and (vi) launch
+of the PDB-Dev prototype for archiving I/HM structures.
+As in 2003, the wwPDB partners remain committed to
+working together with their diverse User communities to
+confront myriad challenges presented by ever more com-
+plex structures and related data/metadata. Many of the

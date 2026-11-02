@@ -1,0 +1,112 @@
+JACK ET AL.
+5153
+therapeutic research studies (Box 4). This recommendation would
+change in the future if disease-targeted therapies, currently being eval-
+uated in trials, demonstrate benefit in preventing cognitive decline and
+are approved for clinical use in individuals with preclinical AD.
+4
+BIOLOGICAL DISEASE STAGING
+We distinguish staging the severity of AD biology with biomarkers from
+staging the severity of clinical symptoms. This section addresses the
+former. Staging of AD applies only to individuals in whom the disease
+has been diagnosed by means of Core 1 biomarkers and does not apply
+to individuals who are not in the AD pathway. We structured this doc-
+ument to reflect this (i.e., diagnosis is the first step and only then does
+staging of AD become relevant).
+4.1
+Approaches to biological staging
+In the 2018 framework, the “plus/minus” combinations of AT(N) were
+used as an informal staging scheme; individuals in the AD continuum
+were expected to progress from A+T−N−to A+T+N−to A+T+N+.7
+However, in 2018 we used the term biomarker profile rather than
+staging to avoid confusion with clinical staging. In the current update,
+however, we recommend an explicit scheme for staging the biologi-
+cal severity of AD that is distinct from staging the severity of clinical
+impairment, and then integrate these two staging axes.
+Two general approaches may be taken for biological disease stag-
+ing. Staging may be based on the order of biomarker events in the
+natural history of the disease, in which each event is categorized as
+present/abnormal (+) or absent/normal (−). This approach assumes
+that an archetypical order of biomarker events can be established
+through natural history studies; this sequence of biomarker events
+is then the de facto staging scheme. Alternatively, biological staging
+may be based on the magnitude of a continuous biomarker denoting
+progressively more severe disease. This latter approach is widely used
+for some diseases (e.g., estimated glomerular filtration rate [eGFR]
+for chronic kidney disease) but poses complexity for AD wherein two
+defining proteinopathies exist rather than a single physiologic readout.
+4.2
+Biological staging scheme overview
+We recommend a biological staging scheme that uses only core
+biomarkers. N biomarkers certainly add prognostic information;107–110
+however, the temporal relationships between core AD biomarkers and
+N biomarkers are inconsistent across individuals. Biological staging
+implies that a person should progress from initial to advanced stages in
+sequence, and N biomarkers do not always follow a stereotypical A+ to
+T2+ to N+ sequence. People with abnormal Core 1 biomarker(s), who,
+by our definition, have AD, may develop significant neurodegeneration
+owing primarily to copathologies (Figures 1 and 2). The same reasoning
+applies to I biomarkers.
+We propose a four-stage scheme based on the sequence of events
+observed in natural history studies: stage A, initial changing biomark-
+ers; stage B, early changing; stage C, intermediate changing; stage D,
+advanced changing (Figure 1). Staging by amyloid and tau PET or with
+a combination of T1 fluid markers and tau PET is clinically viable
+at the present time and is our focus for biological staging (Tables 3
+and 4). We also describe a conceptual staging scheme based on fluid
+biomarkers alone (Table 5). We do not attempt to link PET and fluid
+biomarker stages but do use the same naming convention within each
+modality.
+4.3
+Biological staging with amyloid PET and tau
+PET
+Unlike fluid biomarkers, imaging captures both topographic and mag-
+nitude information. Separate staging schemes for amyloid and tau
+PET have been proposed using either topographic distribution111–118
+or cutpoints in the continuous distribution of values from a defined
+region of interest (ROI).92,118–120 However, PET staging that integrates
+both amyloid and tau PET has not been described, and a comprehen-
+sive disease staging scheme for AD should include both biomarker
+categories.
+Highly
+reproducible
+results
+from
+observational
+studies
+show that abnormal amyloid PET often exists as an isolated
+finding
+in
+older
+individuals
+who
+are
+cognitively
+unimpaired
+and who do not have neocortical tau PET uptake or obvious
+neurodegeneration.35,40,43–45,49,51,121,122 In contrast, high levels of
+neocortical tau PET are rarely seen in the absence of abnormal amyloid
+PET and are invariably accompanied by neurodegeneration and clinical
+symptoms.35,40 In individuals with abnormal tau PET, clinical symp-
+toms and neurodegeneration are closely related, both temporally and
+functionally, with location and magnitude of uptake on tau PET but not
+amyloid PET.35,121–127 This set of findings is consistent with a stereo-
+typical sequence of unidirectional imaging biomarker events that can
+be summarized as follows: abnormal amyloid PET (A) precedes tau PET
+(T2), which, in turn, leads to neurodegeneration (N) and clinical symp-
+toms (C), A to T2 to N to C.46,49,121,122,128 Amyloidosis appears to facil-
+itate topographic spread of tauopathy, with the latter most commonly,
+but not always, beginning in medial temporal areas.111,115,129,130
+Therefore, we propose the following biological staging scheme
+for amyloid and tau PET (Tables 3 and 4). Stage A (initial)—abnormal
+amyloid PET with no uptake on tau PET (A+T2−); stage B (early)—
+abnormal amyloid PET plus tau PET uptake that is restricted to medial
+temporal areas (A+T2MTL+); stage C (intermediate)—abnormal amyloid
+PET plus tau PET uptake in the moderate standardized uptake value
+ratio (SUVR) range on a neocortical ROI (A+T2MOD+); and stage D
+(advanced)—abnormal amyloid PET plus tau PET uptake in the high
+SUVR range in the same neocortical ROI (A+T2HIGH+).
+This PET staging scheme incorporates five elements. Both amy-
+loid PET and tau PET are included to capture the two defin-
+ing proteinopathies. Within tau PET, the scheme incorporates both
+topography (by distinguishing between medial temporal lobe and

@@ -1,0 +1,74 @@
+Nature  |  Vol 596  |  26 August 2021  |  583
+Article
+Highly accurate protein structure prediction 
+with AlphaFold
+John Jumper1,4 ✉, Richard Evans1,4, Alexander Pritzel1,4, Tim Green1,4, Michael Figurnov1,4, 
+Olaf Ronneberger1,4, Kathryn Tunyasuvunakool1,4, Russ Bates1,4, Augustin Žídek1,4, 
+Anna Potapenko1,4, Alex Bridgland1,4, Clemens Meyer1,4, Simon A. A. Kohl1,4, 
+Andrew J. Ballard1,4, Andrew Cowie1,4, Bernardino Romera-Paredes1,4, Stanislav Nikolov1,4, 
+Rishub Jain1,4, Jonas Adler1, Trevor Back1, Stig Petersen1, David Reiman1, Ellen Clancy1, 
+Michal Zielinski1, Martin Steinegger2,3, Michalina Pacholska1, Tamas Berghammer1, 
+Sebastian Bodenstein1, David Silver1, Oriol Vinyals1, Andrew W. Senior1, Koray Kavukcuoglu1, 
+Pushmeet Kohli1 & Demis Hassabis1,4 ✉
+Proteins are essential to life, and understanding their structure can facilitate a 
+mechanistic understanding of their function. Through an enormous experimental 
+effort1–4, the structures of around 100,000 unique proteins have been determined5, but 
+this represents a small fraction of the billions of known protein sequences6,7. Structural 
+coverage is bottlenecked by the months to years of painstaking effort required to 
+determine a single protein structure. Accurate computational approaches are needed 
+to address this gap and to enable large-scale structural bioinformatics. Predicting the 
+three-dimensional structure that a protein will adopt based solely on its amino acid 
+sequence—the structure prediction component of the ‘protein folding problem’8—has 
+been an important open research problem for more than 50 years9. Despite recent 
+progress10–14, existing methods fall far short of atomic accuracy, especially when no 
+homologous structure is available. Here we provide the first computational method 
+that can regularly predict protein structures with atomic accuracy even in cases in which 
+no similar structure is known. We validated an entirely redesigned version of our neural 
+network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein 
+Structure Prediction (CASP14)15, demonstrating accuracy competitive with 
+experimental structures in a majority of cases and greatly outperforming other 
+methods. Underpinning the latest version of AlphaFold is a novel machine learning 
+approach that incorporates physical and biological knowledge about protein structure, 
+leveraging multi-sequence alignments, into the design of the deep learning algorithm.
+The development of computational methods to predict 
+three-dimensional (3D) protein structures from the protein sequence 
+has proceeded along two complementary paths that focus on either the 
+physical interactions or the evolutionary history. The physical interac-
+tion programme heavily integrates our understanding of molecular 
+driving forces into either thermodynamic or kinetic simulation of pro-
+tein physics16 or statistical approximations thereof17. Although theoreti-
+cally very appealing, this approach has proved highly challenging for 
+even moderate-sized proteins due to the computational intractability 
+of molecular simulation, the context dependence of protein stability 
+and the difficulty of producing sufficiently accurate models of protein 
+physics. The evolutionary programme has provided an alternative in 
+recent years, in which the constraints on protein structure are derived 
+from bioinformatics analysis of the evolutionary history of proteins, 
+homology to solved structures18,19 and pairwise evolutionary correla-
+tions20–24. This bioinformatics approach has benefited greatly from 
+the steady growth of experimental protein structures deposited in 
+the Protein Data Bank (PDB)5, the explosion of genomic sequencing 
+and the rapid development of deep learning techniques to interpret 
+these correlations. Despite these advances, contemporary physical 
+and evolutionary-history-based approaches produce predictions that 
+are far short of experimental accuracy in the majority of cases in which 
+a close homologue has not been solved experimentally and this has 
+limited their utility for many biological applications.
+In this study, we develop the first, to our knowledge, computational 
+approach capable of predicting protein structures to near experimental 
+accuracy in a majority of cases. The neural network AlphaFold that we 
+developed was entered into the CASP14 assessment (May–July 2020; 
+entered under the team name ‘AlphaFold2’ and a completely different 
+model from our CASP13 AlphaFold system10). The CASP assessment is 
+carried out biennially using recently solved structures that have not 
+been deposited in the PDB or publicly disclosed so that it is a blind test 
+https://doi.org/10.1038/s41586-021-03819-2
+Received: 11 May 2021
+Accepted: 12 July 2021
+Published online: 15 July 2021
+Open access
+ Check for updates
+1DeepMind, London, UK. 2School of Biological Sciences, Seoul National University, Seoul, South Korea. 3Artificial Intelligence Institute, Seoul National University, Seoul, South Korea. 4These 
+authors contributed equally: John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin Žídek, Anna 
+Potapenko, Alex Bridgland, Clemens Meyer, Simon A. A. Kohl, Andrew J. Ballard, Andrew Cowie, Bernardino Romera-Paredes, Stanislav Nikolov, Rishub Jain, Demis Hassabis.  
+✉e-mail: jumper@deepmind.com; dhcontact@deepmind.com

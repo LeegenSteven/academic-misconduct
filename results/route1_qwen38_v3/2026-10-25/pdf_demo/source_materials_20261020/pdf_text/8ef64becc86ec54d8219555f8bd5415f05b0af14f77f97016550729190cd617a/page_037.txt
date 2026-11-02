@@ -1,0 +1,52 @@
+Text Box 1 Glossary
+•
+Alzheimer disease (AD) – refers to Aβ plaques and pathologic tau deposits, 
+defined in vivo by abnormal biomarkers of Aβ and pathologic tau (both are 
+required)
+•
+Alzheimer’s pathologic change – early stage of Alzheimer’s continuum, 
+defined in vivo by an abnormal Aβ biomarker with normal pathologic tau 
+biomarker
+•
+Alzheimer’s continuum – refers to individuals with biomarker designation of 
+either AD or Alzheimer’s pathologic change
+•
+Alzheimer’s clinical syndrome – recommended terminology for clinically 
+ascertained multi- (or single-) domain amnestic syndrome or a classic 
+syndromal variant (i.e., what has historically been labeled “possible or 
+probable AD”). It applies to both mildly impaired and demented individuals. 
+The term “Alzheimer’s disease” is reserved for situations where 
+neuropathologic or biomarker evidence of the disease (i.e. Aβ plaques and 
+pathologic tau deposits) is present
+•
+Biomarker group – refers to three different pathologic processes of AD that 
+a biomarker can measure: Aβ (A), pathologic tau (T), and neurodegeneration/
+neuronal injury (N)
+•
+Biomarker profile – binarizing each of the three biomarker groups into 
+normal/abnormal (+/−) results in eight possible biomarker profiles: A+T−(N) 
+−, A+T+(N) −, etc
+•
+Biomarker category – biomarker profiles are grouped into three possible 
+biomarker categories: normal AD biomarkers, A−T−(N)−; Alzheimer’s 
+continuum any A+ combination, and non-Alzheimer’s pathologic change (i.e., 
+suspected non-Alzheimer’s pathophysiology or SNAP), A−T+(N)−, A−T−(N)
++ or A−T+(N) +
+•
+Cognitively unimpaired – cognitive performance in the nonimpaired range 
+for that individual, defined as not mild cognitive impairment or demented
+•
+Neurobehavioral symptoms – symptoms attributable to mood or behavioral 
+disorders, for example, anxiety, depression, and apathy
+•
+Transitional cognitive decline – cognitive performance in the nonimpaired 
+range but with a subjective complaint of cognitive decline, or a subtle decline 
+measured on longitudinal cognitive testing, or neurobehavioral symptoms, or 
+combinations of these
+Jack et al.
+Page 37
+Alzheimers Dement. Author manuscript; available in PMC 2018 May 18.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+Author Manuscript

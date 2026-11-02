@@ -1,0 +1,102 @@
+JACK ET AL.
+5151
+3.3
+Blood-based versus CSF biomarkers
+CSF p-tau is typically not used as a standalone diagnostic test; rather,
+diagnostic CSF assays are hybrid ratios (Table 2): p-tau181/Aβ42, total
+tau/Aβ42, or Aβ42/40.65–67 In contrast, some plasma p-tau assays
+have demonstrated very good clinical performance in clinical trials and
+observational studies as a standalone biomarker.75,78–85
+The fold difference between individuals with and without Aβ patho-
+logic change is ≈50% for CSF Aβ42/40 but only 10% to 15% for plasma
+Aβ42/40.70,72,86–88 This limited diagnostic range accounts for the gen-
+erally worse clinical robustness of plasma Aβ42/40 assays compared to
+CSF assays or plasma p-tau217 assays.89–91
+3.4
+Biofluid assay development transparency
+Specific regulations are established by national and international labo-
+ratory medicine associations, and regulations for the use of laboratory
+tests include the International Medical Device Regulations, FDA reg-
+ulations, European Commission In Vitro Diagnostics regulations, and
+Clinical Laboratory Improvement Amendments (CLIA) of 1988. The
+commonprinciple isthatfor clinical use ofbiomarker tests, documenta-
+tion and proof need to be provided at the following levels: (1) scientific
+validity, which includes details of the reference standard (i.e., autopsy,
+approved CSF assays, or amyloid PET); (2) analytical validation, includ-
+ing criteria for test precision, bias, and linearity, which are addressed by
+the Clinical and Laboratory Standards Institute guidelines; and (3) clini-
+cal validation in the intended-use population, showing clinical accuracy,
+positive and negative predictive value at the medical decision limit (i.e.,
+predetermined cutpoints) in each intended-use population, and safety
+(which includes the effect of incorrect test diagnosis). The information
+provided should also include details of the population(s) tested, such as
+demographic data (e.g., sex, age, race) and pertinent clinical data (e.g.,
+degree of cognitive impairment).
+3.5
+Conservative treatment of values near a
+cutpoint; the indeterminant zone
+The definition of an abnormal test value requires creating a cutpoint
+in the continuous range of values for a biomarker. Cutpoints denoting
+normal versus abnormal values may be selected by various means92
+and will vary with the fluid assay; for PET, it will depend on the specific
+ligand and details of the analytic pipeline for quantitative analyses. Fur-
+thermore, criteria for cutpoint selection depend on the intended use.
+Sensitivity and specificity are obviously inversely related, and optimiz-
+ing one versus the other will depend on the intended use as well as the
+prior probability of AD in the relevant population.
+Regardless of the biofluid assay or imaging modality, a level of diag-
+nostic uncertainty exists for values at or near a cutpoint. When using
+a CSF, blood-based, or PET biomarker quantitatively for diagnosis,
+a useful approach would be to report results with two cutpoints93
+that divide the continuous range of values into confidently normal,
+confidently abnormal, and indeterminant. Values that fall within the
+indeterminant zone might prompt additional testing.94 The width of
+the indeterminant zone would depend on biomarker precision and
+intended use.95 Higher biomarker precision would allow a narrower
+indeterminant zone and vice versa. The upper cutpoint can be more
+conservative to increase positive predictive value. Regulatory approval
+for assays is usually based on a single validated cutpoint and does
+not require designation of an indeterminant zone; however, the pack-
+age insert for one approved CSF assay does include a range described
+as “likely consistent with a positive amyloid PET scan result,” which
+conveys the notion of an indeterminant zone.65
+For imaging, visual reads usually provide a normal/abnormal deter-
+mination, but the approach of labeling some studies as indeterminant is
+common in clinical radiology and serves the same function as the inde-
+terminant zone in quantitative analyses. While regulatory approval of
+amyloid and tau PET ligands was based on visual reads, the field is
+moving toward greater use of quantitative methods.96
+3.6
+Clinical judgment
+Clinical judgement must always be used in the practice of medicine, and
+the application of diagnostic tests for AD is no exception. Limitations of
+currently available biomarkers (Box 3) underscore the importance of
+clinical judgment when used clinically.
+Because copathology is common, clinical judgment is always
+required to address this question: Is AD a cause of—or a dominant com-
+ponent of—a patient’s symptoms (Box 4)? The nature of the syndromic
+presentation may indicate the likelihood that AD is or is not a dominant
+contributor to symptoms. For example, in someone with Parkinsonism
+and visual hallucinations who also has positive Core 1 biomarkers, the
+clinician’s judgment is needed to assess the degree to which cognitive
+symptoms are likely attributable to AD versus neuronal synuclein dis-
+ease (NSD).57 In such a situation, additional testing may be clinically
+indicated. An abnormal Core 2 biomarker would suggest that AD is s
+a dominant contributor to symptoms, while a normal Core 2 biomarker
+would suggest that AD may be less so.
+Clinical judgment is also essential when Core 1 biomarkers are
+discordant with the clinical impression: for example, a negative test
+result in a patient in whom the clinical presentation suggests a high
+probability of AD. In such a situation, additional testing is logical.
+Clinical judgment is also required to assess the potential effects
+of confounding conditions on biomarker results. For example,
+head trauma or cardiorespiratory arrest may transiently increase
+p-tau values.97 Elevated p-tau181 has been reported in autopsy-
+verified cases of amyotrophic lateral sclerosis with little to no AD
+copathology.98 Certain medications,99 CSF dynamics disorders,100
+and impaired renal function can alter some plasma biomarker
+values.101–103 These and other104 potentially confounding situations
+should be apparent to the clinician.
+Because of the essential role of clinical judgment, we recommend
+that biomarker testing should be performed only under the supervi-
+sion of a clinician. Furthermore, clinicians should not be restricted by

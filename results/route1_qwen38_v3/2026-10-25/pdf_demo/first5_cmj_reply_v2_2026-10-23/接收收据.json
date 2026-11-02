@@ -1,0 +1,92 @@
+{
+  "version": "route1_first5_cmj_v2_receipt_20261023",
+  "recorded_at_utc": "2026-10-23T06:29:07.562407+00:00",
+  "recorded_client_date": "2026-10-23",
+  "source_path": "D:\\缓存\\xwechat_files\\wxid_jho22qm3wuo322_070b\\temp\\RWTemp\\2026-10\\3fa490bdfcbe9cd7dfe4136c47bf27ad\\首批5点语义核对_陈明进_v2_20261022.md",
+  "source_sha256": "876c57b94552fb4dfc37b49504e91aaf4a4085a71057b4a6817172dda297bb6b",
+  "source_copied_verbatim": true,
+  "source_declared_reviewer": "陈明进",
+  "source_declared_review_date": "2026-10-22",
+  "source_declares_AI_assistance": true,
+  "AI_assistance_independently_verified": false,
+  "source_files_sha256": {
+    "D:\\缓存\\xwechat_files\\wxid_jho22qm3wuo322_070b\\temp\\RWTemp\\2026-10\\3fa490bdfcbe9cd7dfe4136c47bf27ad\\首批5点语义核对_陈明进_v2_20261022.md": "876c57b94552fb4dfc37b49504e91aaf4a4085a71057b4a6817172dda297bb6b",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\陈明进首批5点回复核对_20261022\\首批5点语义核对_陈明进_20261022.md": "6c9550314f1308bf0ca8128559dea3428d1dd1615d63e89960ebecbcbfb6768a",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\PDF首批5点_李云确认_20261022\\确认记录.json": "15ffb330bf38739ebca711744eeac1a6511aa37b71fa5c8449b9b17dae9dd4be",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\PDF首批5点_李云确认_20261022\\逐点确认与保留项.jsonl": "d388fd303beee89798c3ffbcc54ee210940c36829e45dfe2ba7c5e8514ba2225",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\PDF首批5点_复查结果_20261022\\逐点复查结论_非签核.jsonl": "2194ff450a5ea6574bd07c17f51150526e15c0e9ec1d1452d45fe2a6d7f57233",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\PDF首批5点_复查结果_20261022\\50条候选与5条原响应_只读对照.jsonl": "368f6098a0a15afcd9de9cbc631cb5da7a256fd35a1df22dc2926c055addfe5a",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\PDF首批5点_复查结果_20261022\\技术复算\\核对摘要.json": "61454a81a5a93b1ac380b9330be5c91bfbdc633ef1df1a1dbc50a3f2c66b2f20",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01\\assembled\\summary.json": "fdb69b5842b35947e2dadcbd5f9f916f6e14e32c7d975e4788f1274fec2f8caa",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\_route1_test_pair_publish_20261019\\code\\ly\\prepare_pdf20_scope_inputs_20261020.py": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f"
+  },
+  "original_directories_inventory_before": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\陈明进首批5点回复核对_20261022": {
+      "6处差异_补充核对.json": "ade8668e645b45c8be4251d3b0cec2891cbfcd002cf7858ec6115e31d86b9b82",
+      "接收收据.json": "de7f2dd9457a18723a7f0899dca2e5737bfd298bc138f95abb4b9390a1a3162b",
+      "接收核对结论.md": "1bc5c884dce30dac56560535d8e6afc26cfb353351cc9e1d54be88fa54ed0643",
+      "本目录_SHA256.json": "d5956146a741f464313c3ef572669f1a1c3201abfd178b89de1190ad1e692370",
+      "给陈明进的回复草稿.txt": "642bbb29d93311ff1e9d5bd524424e2ff5262693f16adda9b356de7cb1b8a599",
+      "进度入口_更新前.md": "9c6df0576440f17195bfd66ad4fed37339737aec73f6c7c4c3dff502a6d0987f",
+      "逐点对照_非共同裁决.jsonl": "f7625777ad63438373154c1a5898701f03fee9e2ebe3fdb422e037ec812a4564",
+      "首批5点语义核对_陈明进_20261022.md": "6c9550314f1308bf0ca8128559dea3428d1dd1615d63e89960ebecbcbfb6768a"
+    },
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\PDF首批5点_复查结果_20261022": {
+      "50条候选与5条原响应_只读对照.jsonl": "368f6098a0a15afcd9de9cbc631cb5da7a256fd35a1df22dc2926c055addfe5a",
+      "先看这里_5点复查结论.md": "5738e1e7a9070e32ff99e5775a1f508f5c33911172e0135e6cf6b1b640160a2a",
+      "复查收据.json": "03a7cc3901e53c8946d29ec12133ab9d6df2def69c591e33afd35dc6c29a216b",
+      "本目录_SHA256.json": "a0eb1c909c7bd3ac99d1bece25a97acfd14be45c674aa0d34110fff3950e8fda",
+      "进度入口_更新前.md": "b1796e61a20f4036cf1de2b8f336afda2465a8c9a501851200c4ca87a9407e23",
+      "逐点复查结论_非签核.jsonl": "2194ff450a5ea6574bd07c17f51150526e15c0e9ec1d1452d45fe2a6d7f57233",
+      "技术复算/5点人工复核材料_未填写.jsonl": "8fdafbde2cb47c66b601036e756bfd9b1e8ff5214a8e193e0b5a4361a486fd8d",
+      "技术复算/原始15文件_SHA256.json": "e80a581d9240e71b31a318cab2b7af332cc5fc405cb6504f6e877826abea3dc4",
+      "技术复算/核对报告.md": "c59b2b3f74a604c5b345c1c5afaa7d1c984377d8091411808b10dfb60525dd96",
+      "技术复算/核对摘要.json": "61454a81a5a93b1ac380b9330be5c91bfbdc633ef1df1a1dbc50a3f2c66b2f20",
+      "技术复算/逐字摘录不一致明细.jsonl": "e3c32560a56fb4718c6d893ffb3315df6a520494a180e161277fb48e87af61ad",
+      "技术复算/逐点补充解析.jsonl": "f608389a45de842dde7f26f8708585a8905881d68d2e30e9be2242dc78b62a99"
+    },
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\PDF首批5点_李云确认_20261022": {
+      "本目录_SHA256.json": "00d09ae88fb732268c0603c3112145c2b66fa050e401e982d04de44295759e76",
+      "李云会话回复原文.txt": "88507eba69bf3f38fdfd2cf8b35263dddd2e93c0bba5c5189bf378cdeb76681c",
+      "确认记录.json": "15ffb330bf38739ebca711744eeac1a6511aa37b71fa5c8449b9b17dae9dd4be",
+      "确认说明.md": "5b9b272c6967273219d4f062392fae3e30c5a49d9970297277caec9ae42ac1f8",
+      "进度入口_更新前.md": "43f0e8f8a09a2902e3a1456f3f67c4e224f1efdf0e84101b03168bf911465592",
+      "逐点确认与保留项.jsonl": "d388fd303beee89798c3ffbcc54ee210940c36829e45dfe2ba7c5e8514ba2225"
+    },
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\A100_PDF首批5点资源修订_20261022\\route1_pdf_first5_20261022_resource_run01": {
+      "classifier.run.log": "48b7fd0563403fa7ac1016214f590cd877bb2799dfc6525a88aceb8c4a847bce",
+      "execution_request.json": "d887a9fe37028d24571667dc583750abe1d84cc9cf6a4e638c0fa30754f7acac",
+      "execution_summary.json": "54df73f1c2580e6b320ff158221375281b8dd72bf3b868a8fe768c4932a7e27e",
+      "explainer.run.log": "4195868deb16bc81fb41b991dedb3767ef0259594bebd12183cc46c55e950a6a",
+      "assembled/records.csv": "9949b3483b37edfc6ad41095839c8a4198e4f299ccfd0bf751a8e3f8dde5527e",
+      "assembled/records.jsonl": "495e96f319bc49d062460f14f9c23fccb62a18427c3ac0a0c1cab821a24fd2b5",
+      "assembled/summary.json": "fdb69b5842b35947e2dadcbd5f9f916f6e14e32c7d975e4788f1274fec2f8caa",
+      "classifier/exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "classifier/responses.jsonl": "56fb1aa0b816e0741ecf07607d73005d23ed56bd4fa7a94896a02d2141bfa84f",
+      "classifier/run.log": "ae0b1827e98a2f0e9965bbbf4909490e4c33bcc86e501cca0e777f278b20f9e7",
+      "classifier/run_metadata.json": "a2c06607edc8e661bc847b4bf0c1a4162ad6ff53bb0b02735247778bdad5ec74",
+      "explainer/exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "explainer/responses.jsonl": "97dbf80644bb691dcc9146830f733eb39484ca0bf3dbf3058fbc456290285c3f",
+      "explainer/run.log": "65b8cd1d127cbe179d82cdde38eb1e6bae78c3194d3a12f1b8c0e50c3275cb79",
+      "explainer/run_metadata.json": "53ef5d679e1c33b725cbb433fb8d2a29b8c1b27f1147864f4218736ab1f8bb4b"
+    }
+  },
+  "strict_engineering_success": 1,
+  "fence_only_supplemental_passed": 3,
+  "whitespace_only_quote_difference_matches": 4,
+  "quote_differences_total": 6,
+  "first_batch_attempted": 5,
+  "fixed_denominator": 20,
+  "content_opinion_alignment_cases": [
+    "r1pdf:e1636ac35ca5131bfdf6fb44"
+  ],
+  "formal_end_to_end_accepted": 0,
+  "new_Li_confirmation_inferred": false,
+  "formal_review_import_performed": false,
+  "new_model_inference": false,
+  "new_parser_implemented": false,
+  "draft_normalization_plan_created": true,
+  "external_message_sent": false,
+  "GitHub_pushed_this_turn": false,
+  "Sarol_case112_new_record_created": false
+}

@@ -1,0 +1,118 @@
+Introduction
+Atomic-level structural information brings deep insight into 
+macromolecular 
+mechanism 
+and 
+function, 
+but 
+successful 
+applications of structural biology methods are often challeng-
+ing. Driven by the powerful insights they deliver, all of the major 
+approaches—X-ray crystallography, multidimensional nuclear 
+magnetic resonance (NMR), and electron microscopy—have 
+evolved tremendously from their origins to their present forms 
+through diverse technical innovations: improvements in instru-
+mentation, analysis software, robotic automation, molecular engi-
+neering strategies, and so on. Major advances in structural biology 
+have often come in waves, and structural biologists are now wit-
+nessing a sea change in the range and power of available methods 
+for structure determination. These methodological advances are 
+making it possible to illuminate molecular systems of grow-
+ing complexity, and with sizes larger and smaller than have been 
+possible before, at finer levels of spatial resolution. Likewise, 
+new opportunities abound for dissecting the kinetic behavior and 
+energetic landscapes of dynamic and polymorphic structures. 
+Here we highlight some of the most recent developments 
+and future prospects for applications of X-ray and electron-based 
+crystallography and imaging methods.
+Developments in single-particle cryo-electron 
+microscopy
+For some decades following proof-of-concept experiments in 
+cryo-electron microscopy (cryo-EM), the technique occupied 
+a somewhat limited niche in structural biology. Single-particle 
+imaging in cryo-EM was primarily useful for the study of large 
+complexes, typically reaching resolutions in the nanometer range, 
+and particularly well-suited for the study of highly symmetrical 
+structures such as viruses, for example. The prospects for single-
+particle cryo-EM changed with the introduction of new detectors, 
+microscopes, and data analysis platforms1,2. These upgrades led 
+to an explosion in the successful use of single-particle cryo-EM 
+methods to illuminate the detailed structures of macromolecules3,4. 
+Cryo-EM modalities now include single-particle methods, tomog-
+raphy, 2D crystallography, and microcrystal electron-diffraction 
+(MicroED). The first two modalities rely on real space 
+imaging of either many identical copies of a molecule (single par-
+ticle) or a single sample from different angles (tomography). As 
+a diffraction method, two-dimensional crystallography has tra-
+ditionally achieved the highest resolutions from highly ordered 
+single or multi-layer protein assemblies5. Based on diffraction 
+from highly ordered three-dimensional biomolecular assemblies, 
+MicroED has extended the attainable resolution in cryo-EM 
+to the sub-ångstrom (Å) range using approaches borrowed 
+from macromolecular crystallography.
+The hardware and software improvements that drove the cryo-EM 
+“resolution revolution” have enabled the technique, in favora-
+ble cases, to reach levels of detail that rival X-ray crystallogra-
+phy. Correspondingly, interest in cryo-EM has grown and with it 
+a pressing need to expand accessibility to the technique. This has 
+proven to be a major challenge owing to the high cost of purchas-
+ing and operating high-end electron microscopes. With current 
+efforts to establish scientific centers and to develop tools that 
+consolidate and streamline data collection, access is growing. 
+Simultaneous efforts to improve the resolution obtainable using 
+less-expensive microscopes are democratizing access6,7. As a 
+result, two models are emerging for cryo-EM data collection. 
+The first is driven by large national facilities that house high-end 
+equipment and can be accessed by outside users through pro-
+posal-based systems. The second is an assortment of screening 
+and data collection instruments operated independently by 
+individual laboratories or research institutions.
+Achievements in throughput and resolution
+While computational methods had been under development 
+since the 1970s for analyzing cryo-EM images with low 
+signal-to-noise 
+and 
+performing 
+three-dimensional 
+image 
+reconstructions8, more recent hardware and software devel-
+opments opened the door for high-resolution cryo-EM1,2. 
+Specifically, the creation and application of cameras that could 
+detect electrons directly allowed for the collection of microscopic 
+data as movies rather than as individual frames9. This techno-
+logical breakthrough led to the key data processing innovation 
+known as “motion correction”, whereby the radiation-induced 
+drift of particles during electron exposure could be partially 
+corrected10. With images less affected by blurring, microscopists 
+could thereafter produce three-dimensional reconstructions 
+of macromolecules at near-atomic resolution.
+The dramatic improvements in image quality fueled a flurry of 
+software developments directed toward automating data collection 
+and processing and producing more accurate three-dimensional 
+image reconstructions11–13. The current explosion of cryo-
+EM technology has also uniquely benefitted from coincident 
+advances in computer science. Cryo-EM software developers 
+have capitalized on high-performance GPU computing14–16, cloud 
+computing17,18, and machine learning approaches for nearly user-
+free data processing19–21. The resulting increase in throughput is 
+evident (Figure 1). To date, there are approximately 3,000 den-
+sity map depositions and 2,000 atomic coordinate set deposi-
+tions by cryo-EM at better than 4 Å resolution. If the exponential 
+growth were to continue—we estimate the doubling time over 
+the last 5 years to be about 1.1 years—then structure deposi-
+tions by cryo-EM would be similar in number to those by X-ray 
+diffraction by about 2023. The improvements in resolution are 
+also notable. An example near the current resolution limit is a 
+1.65 Å structure of apoferritin13. Other recent reports in the lit-
+erature, including structures of ribosomes bound to antibiotics22 
+and a TRP channel bound to capsaicin and other vanilloid 
+ligands23, highlight the ability of cryo-EM to achieve the resolu-
+tion needed for structural biology applications in areas such as 
+drug discovery24 (Figure 2).
+Advances in imaging difficult macromolecules
+Large macromolecular assemblies generally provide the easi-
+est targets for cryo-EM, owing to the high signal-to-noise 
+obtained in individual particle images. Recent successes elu-
+cidating the structures of large macromolecular complexes are 
+Page 3 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

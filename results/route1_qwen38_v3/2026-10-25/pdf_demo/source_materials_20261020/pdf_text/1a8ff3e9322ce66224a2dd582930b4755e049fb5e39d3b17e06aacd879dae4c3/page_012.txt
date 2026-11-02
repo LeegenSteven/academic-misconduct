@@ -1,0 +1,95 @@
+n engl j med﻿  nejm.org﻿
+12
+The new engl and jour nal of medicine
+many patients did not undergo sputum bacterio-
+logic or fungal assessment on admission because, 
+in some hospitals, medical resources were over-
+whelmed. Sixth, data generation was clinically 
+driven and not systematic.
+Covid-19 has spread rapidly since it was first 
+identified in Wuhan and has been shown to have 
+a wide spectrum of severity. Some patients with 
+Covid-19 do not have fever or radiologic abnor-
+malities on initial presentation, which has com-
+plicated the diagnosis.
+Supported by the National Health Commission of China, the 
+National Natural Science Foundation, and the Department of 
+Science and Technology of Guangdong Province.
+Disclosure forms provided by the authors are available with 
+the full text of this article at NEJM.org.
+We thank all the hospital staff members (see Supplementary 
+Appendix for a full list of the staff) for their efforts in collecting 
+the information that was used in this study; Zong-jiu Zhang, 
+Ya-hui Jiao, Xin-qiang Gao, and Tao Wei (National Health Com-
+mission), Yu-fei Duan and Zhi-ling Zhao (Health Commission of 
+Guangdong Province), and Yi-min Li, Nuo-fu Zhang, Qing-hui 
+Huang, Wen-xi Huang, and Ming Li (Guangzhou Institute of Re-
+spiratory Health) for facilitating the collection of patients’ data; 
+the statistical team members Zheng Chen, Dong Han, Li Li, Zhi-
+ying Zhan, Jin-jian Chen, Li-jun Xu, and Xiao-han Xu (State Key 
+Laboratory of Organ Failure Research, Department of Biostatis-
+tics, Guangdong Provincial Key Laboratory of Tropical Disease 
+Research, School of Public Health, and Southern Medical Uni-
+versity, respectively); Li-qiang Wang, Wei-peng Cai, Zi-sheng Chen 
+(the Sixth Affiliated Hospital of Guangzhou Medical University) 
+and Chang-xing Ou, Xiao-min Peng, Si-ni Cui, Yuan Wang, Mou 
+Zeng, Xin Hao, Qi-hua He, Jing-pei Li, Xu-kai Li, Wei Wang, Li-
+min Ou, Ya-lei Zhang, Jing-wei Liu, Xin-guo Xiong, Wei-juna Shi, 
+San-mei Yu, Run-dong Qin, Si-yang Yao, Bo-meng Zhang, Xiao-
+hong Xie, Zhan-hong Xie, Wan-di Wang, Xiao-xian Zhang, Hui-
+yin Xu, Zi-qing Zhou, Ying Jiang, Ni Liu, Jing-jing Yuan, Zheng 
+Zhu, Jie-xia Zhang, Hong-hao Li, Wei-hua Huang, Lu-lin Wang, 
+Jie-ying Li, Li-fen Gao, Cai-chen Li, Xue-wei Chen, Jia-bo Gao, 
+Ming-shan Xue, Shou-xie Huang, Jia-man Tang, and Wei-li Gu 
+(Guangzhou Institute of Respiratory Health) for their dedication 
+to data entry and verification; Tencent (Internet-services com-
+pany) for providing the number of hospitals certified to admit 
+patients with Covid-19 throughout China; and all the patients 
+who consented to donate their data for analysis and the medical 
+staff members who are on the front line of caring for patients.
+Appendix
+The authors’ full names and academic degrees are as follows: Wei‑jie Guan, Ph.D., Zheng‑yi Ni, M.D., Yu Hu, M.D., Wen‑hua Liang, 
+Ph.D., Chun‑quan Ou, Ph.D., Jian‑xing He, M.D., Lei Liu, M.D., Hong Shan, M.D., Chun‑liang Lei, M.D., David S.C. Hui, M.D., Bin 
+Du, M.D., Lan‑juan Li, M.D., Guang Zeng, M.Sc., Kwok‑Yung Yuen, Ph.D., Ru‑chong Chen, M.D., Chun‑li Tang, M.D., Tao Wang, 
+M.D., Ping‑yan Chen, M.D., Jie Xiang, M.D., Shi‑yue Li, M.D., Jin‑lin Wang, M.D., Zi‑jing Liang, M.D., Yi‑xiang Peng, M.D., Li Wei, 
+M.D., Yong Liu, M.D., Ya‑hua Hu, M.D., Peng Peng, M.D., Jian‑ming Wang, M.D., Ji‑yang Liu, M.D., Zhong Chen, M.D., Gang Li, M.D., 
+Zhi‑jian Zheng, M.D., Shao‑qin Qiu, M.D., Jie Luo, M.D., Chang‑jiang Ye, M.D., Shao‑yong Zhu, M.D., and Nan‑shan Zhong, M.D.
+The authors’ affiliations are as follows: the State Key Laboratory of Respiratory Disease, National Clinical Research Center for Respi-
+ratory Disease, Guangzhou Institute of Respiratory Health, First Affiliated Hospital of Guangzhou Medical University (W.G., W.L., J.H., 
+R.C., C.T., T.W., S.L., Jin-lin Wang, N.Z., J.H., W.L.), the Departments of Thoracic Oncology (W.L.), Thoracic Surgery and Oncology 
+(J.H.), and Emergency Medicine (Z.L.), First Affiliated Hospital of Guangzhou Medical University, and Guangzhou Eighth People’s 
+Hospital, Guangzhou Medical University (C.L.), and the State Key Laboratory of Organ Failure Research, Department of Biostatistics, 
+Guangdong Provincial Key Laboratory of Tropical Disease Research, School of Public Health, Southern Medical University (C.O., P.C.), 
+Guangzhou, Wuhan Jinyintan Hospital (Z.N., J.X.), Union Hospital, Tongji Medical College, Huazhong University of Science and Tech-
+nology (Yu Hu), the Central Hospital of Wuhan (Y.P.), Wuhan No. 1 Hospital, Wuhan Hospital of Traditional Chinese and Western 
+Medicine (L.W.), Wuhan Pulmonary Hospital (P.P.), Tianyou Hospital Affiliated to Wuhan University of Science and Technology (Jian-
+ming Wang), and the People’s Hospital of Huangpi District (S.Z.), Wuhan, Shenzhen Third People’s Hospital and the Second Affiliated 
+Hospital of Southern University of Science and Technology, National Clinical Research Center for Infectious Diseases (L. Liu), and the 
+Department of Clinical Microbiology and Infection Control, University of Hong Kong–Shenzhen Hospital (K.-Y.Y.), Shenzhen, the Fifth 
+Affiliated Hospital of Sun Yat-sen University, Zhuhai (H.S.), the Department of Medicine and Therapeutics, Chinese University of Hong 
+Kong, Shatin (D.S.C.H.), and the Department of Microbiology and the Carol Yu Center for Infection, Li Ka Shing Faculty of Medicine, 
+University of Hong Kong, Pok Fu Lam (K.-Y.Y.), Hong Kong, Medical ICU, Peking Union Medical College Hospital, Peking Union 
+Medical College and Chinese Academy of Medical Sciences (B.D.), and the Chinese Center for Disease Control and Prevention (G.Z.), 
+Beijing, the State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious 
+Diseases, First Affiliated Hospital, College of Medicine, Zhejiang University, Hangzhou (L. Li), Chengdu Public Health Clinical Medical 
+Center, Chengdu (Y.L.), Huangshi Central Hospital of Edong Healthcare Group, Affiliated Hospital of Hubei Polytechnic University, 
+Huangshi (Ya-hua Hu), the First Hospital of Changsha, Changsha (J. Liu), the Third People’s Hospital of Hainan Province, Sanya (Z.C.), 
+Huanggang Central Hospital, Huanggang (G.L.), Wenling First People’s Hospital, Wenling (Z.Z.), the Third People’s Hospital of 
+Yichang, Yichang (S.Q.), Affiliated Taihe Hospital of Hubei University of Medicine, Shiyan (J. Luo), and Xiantao First People’s Hospital, 
+Xiantao (C.Y.) — all in China.
+References
+1.	 Huang C, Wang Y, Li X, et al. Clinical 
+features of patients infected with 2019 
+novel coronavirus in Wuhan, China. Lan-
+cet 2020;​395:​497-506.
+2.	 Lu R, Zhao X, Li J, et al. Genomic 
+characterisation and epidemiology of 2019 
+novel coronavirus: implications for virus 
+origins and receptor binding. Lancet 2020;​
+395:​565-74.
+3.	 Zhu N, Zhang D, Wang W, et al. A 
+novel coronavirus from patients with pneu-
+monia in China, 2019. N Engl J Med 2020;​
+382:​727-33.
+4.	 Chan JF, Yuan S, Kok KH, et al. A famil-
+ial cluster of pneumonia associated with 

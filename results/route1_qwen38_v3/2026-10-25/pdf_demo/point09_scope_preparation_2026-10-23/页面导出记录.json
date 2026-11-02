@@ -1,0 +1,97 @@
+{
+  "pymupdf_version": "1.28.2",
+  "images": [
+    {
+      "path": "页面核对图/01_施引第3页_This前文及标记7.png",
+      "pdf_role": "citing",
+      "pdf_page": 3,
+      "clip_pdf_points": [
+        286.7349853515625,
+        456.0979919433594,
+        569.5089721679688,
+        555.8729858398438
+      ],
+      "sha256": "3e78bdf4f0c6326e4eb784515041675cc964370d5198f27796f7a8138caf4dac",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/02_施引第21页_参考文献7.png",
+      "pdf_role": "citing",
+      "pdf_page": 21,
+      "clip_pdf_points": [
+        304.65399169921875,
+        159.65499877929688,
+        557.6090087890625,
+        737.5430297851562
+      ],
+      "sha256": "4e04ef056e82862d01597f5c92235df4e7c35205e117a9f2ef85ad33c134098d",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/03_被引第1页_题名.png",
+      "pdf_role": "cited",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        82.00199890136719,
+        119.66999816894531,
+        517.1199951171875,
+        172.3300018310547
+      ],
+      "sha256": "6b47361f9f6666210ddf0fed6af512087127e1e7cb63b099d5bc36241ee90223",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/04_被引第1页_刊期与DOI.png",
+      "pdf_role": "cited",
+      "pdf_page": 1,
+      "clip_pdf_points": [
+        87.29199981689453,
+        82.0199966430664,
+        433.1499938964844,
+        109.18000030517578
+      ],
+      "sha256": "28283a6fa068c34f6294e05155f114c329ec43d24e035f201a5054e011e7af48",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/05_被引第39页_既有候选S01_ATX说明.png",
+      "pdf_role": "cited",
+      "pdf_page": 39,
+      "clip_pdf_points": [
+        142.0,
+        127.91999816894531,
+        515.6400146484375,
+        253.0800018310547
+      ],
+      "sha256": "e2296811eefcb5835a2221b1ea75974f1613ce497bb9063fa346e1a32087864e",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    },
+    {
+      "path": "页面核对图/06_被引第2页_既有候选S02_研究框架说明.png",
+      "pdf_role": "cited",
+      "pdf_page": 2,
+      "clip_pdf_points": [
+        100.0,
+        53.41999816894531,
+        513.8900146484375,
+        514.7650146484375
+      ],
+      "sha256": "b56a7f4ff146cbcd833852059c3933a90ff75e4c4278cce0c57d7481d6be2240",
+      "bbox_scope": "whole intersecting source blocks with margin"
+    }
+  ],
+  "status": "assistant_inspected_six_source_crops_no_human_signoff",
+  "assistant_inspection": {
+    "recorded_at_utc": "2026-10-23T11:33:27.196344+00:00",
+    "inspector_role": "assistant",
+    "observations": [
+      "The target ATX(N) sentence ends with superscript 7 on citing PDF page 3; its immediately preceding sentence resolves This.",
+      "Citing reference 7 names the 2018 NIA-AA Research Framework with matching author names, volume and pages.",
+      "The cited PDF title and publication DOI line agree with the source identity record.",
+      "Existing S01 visibly includes ATX(N), might be useful, future biomarkers, and conditional examples.",
+      "Existing S02 distinguishes adding biomarkers within existing groups from adding groups beyond AT(N)."
+    ],
+    "human_review": null,
+    "semantic_acceptance": null
+  }
+}

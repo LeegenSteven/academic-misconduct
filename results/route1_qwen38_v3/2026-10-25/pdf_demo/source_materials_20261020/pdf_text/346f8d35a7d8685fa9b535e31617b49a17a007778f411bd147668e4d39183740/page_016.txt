@@ -1,0 +1,98 @@
+5158
+JACK ET AL.
+5.3
+Risk alleles
+We have not included AD risk alleles in the staging scheme because the
+presence of risk alleles does not indicate with certainty the presence
+or severity of ADNPC in an individual at a given point in time. This con-
+trasts with Core biomarkers, which do. We therefore regard risk alleles
+as a risk factor for AD, not diagnostic of or a stage of AD.
+Knowledge of apolipoprotein E (APOE) genotype has, however,
+assumed heightened clinical importance in the context of anti-Aβ
+immunotherapy. The risk of amyloid-related imaging abnormalities
+(ARIAs) is substantially greater in APOE ε4 homozygotes than in het-
+erozygotes and non-carriers.161 Consequently, screening for APOE is
+recommended in the FDA label for lecanemab, and counseling around
+risk is recommended for homozygotes.162
+5.4
+Syndromic staging
+Often, the first step that patients undergo will be a clinical evalua-
+tion prior to any knowledge of biomarker results that would support
+a diagnosis of AD. During this initial clinical evaluation, clinicians may
+characterize the level of impairment based on a syndromic assessment
+(e.g., MCI or dementia). Approximate mapping of typical syndromes
+onto numeric AD clinical staging is as follows. Numeric clinical stages
+1 and 2 correspond to cognitively unimpaired, with the latter corre-
+sponding somewhat to subjective cognitive decline; numeric stage 3
+roughly corresponds to MCI;163–165 and numeric stages 4, 5, and 6 cor-
+respond to mild, moderate, and severe dementia, respectively. Unlike
+numeric clinical staging, syndromic classification is not conditioned on
+a biological AD diagnosis and is applicable to individuals who may or
+may not have AD.
+For individuals with biologically confirmed AD, we believe that
+numeric staging provides a clarifying framework for categorizing the
+clinical continuum of AD. The term prodromal AD has been used to
+denote individuals with abnormal AD biomarkers who have clinically
+evident impairment that falls short of dementia. Our position is that
+such an individual has the disease, not a prodrome of the disease,
+and our terminology in this instance would be “AD clinical stage 3”
+(Table 6). The same logic applies to unimpaired individuals with abnor-
+mal biomarker test results; we would categorize these individuals as
+AD clinical stage 1 or 2, not as “at risk for AD” because they already
+have the disease.
+6
+INTEGRATED BIOLOGICAL AND CLINICAL
+STAGING
+As in the 2018 NIA-AA framework, clinical staging and biological dis-
+ease staging in our revised criteria are regarded as quasi-independent
+variables. The symptomatic consequence of biological AD is modified
+by interindividual differences in copathologies, resistance, and reserve
+(i.e., education and other social determinants of health).166–168 Conse-
+quently, the degree of cognitive/functional impairment does not follow
+in lockstep with biological AD severity (i.e., a range of possible rela-
+tionships between biological AD stage and clinical stage will be found
+across the population; Figure 1). While clinical staging and biological
+staging must be performed independently, these two types of staging
+information can be integrated while still preserving independence of
+content.
+As shown in Table 7, we propose an integrated biological and clini-
+cal staging scheme in which clinical stages are denoted in the columns
+using the numeric six-stage scheme plus stage 0. Biological stages are
+denoted in the rows. Integrated stages appear in the cells. This format
+is intended to convey the concept that biological AD stage and clinical
+severity are related, but do not move in lockstep in all individuals.
+To avoid confusion when integrating numeric clinical staging with
+biological staging, we use numbers for clinical staging and letters for
+biological staging (Table 7). For example, clinical stage 2 and biological
+stage A are integrated stage 2A.
+7
+NEURODEGENERATION, INFLAMMATION,
+VASCULAR, AND α-SYNUCLEIN (NIVS) BIOMARKER
+CATEGORIES
+Tables 1 and 2 categorize core and non-core biomarkers. We describe
+the latter here.
+7.1
+Biomarkers that are non-specific but
+important in AD pathogenesis
+In this revision we identify two categories of biomarkers that are not
+specific to AD but are important in the AD pathogenic pathway. These
+are N and I biomarkers.
+In the 2018 research framework, we placed (N) in parentheses to
+emphasize that, in contrast to A and T, (N) biomarkers were not spe-
+cific for AD.7 We no longer use this parentheses notation because it
+should be clear that N biomarkers do not belong in the same cate-
+gory as core biomarkers. While neurodegeneration and neuronal injury
+are obviously important steps in AD pathogenesis, abnormalities in N
+biomarkers occur in many other conditions, including non-AD neurode-
+generative diseases, traumatic brain injury, ischemic injury, and others
+(Figure 1).
+Fluid N biomarkers denote active neuronal injury or more sub-
+tle neuronal dysfunction. For example, NfL (neurofilament light chain)
+is a marker of large-caliber axonal injury that can be measured in
+CSF or plasma and becomes abnormal in various disorders including
+multiple sclerosis, amyotrophic lateral sclerosis, and traumatic brain
+injury.31,32,97,169 The absence of total tau from the fluid biomarker
+N category (Tables 1 and 2) is a departure from the 2018 NIA-AA
+research framework.7 CSF and plasma total tau begin to increase early
+in the disease course in ADAD21 and closely correlate with fluid p-
+tau in ADAD and sporadic AD.97 This could be taken as evidence that

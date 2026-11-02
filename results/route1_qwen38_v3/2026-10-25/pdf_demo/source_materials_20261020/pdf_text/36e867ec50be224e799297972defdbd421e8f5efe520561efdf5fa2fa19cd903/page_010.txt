@@ -1,0 +1,125 @@
+The Author(s) BMC Bioinformatics 2017, 18(Suppl 3):80
+Page 100 of 175
+Conclusion
+In summary, we developed a tool called AfterQC with
+rich quality control, data filtering, error profiling and cor-
+rection functions for next generation sequencing data.
+AfterQC is fully tested with a large amount of data and has
+been accepted by some community users. The overlap-
+ping analysis and other techniques used in this tool make
+it possible to generate high quality clean reads, and make it
+very useful for low frequency somatic mutation detection
+in deep sequencing applications.
+Acknowledgments
+The authors would like to thank Liwei Deng and Cheng Jin for beautifying the
+diagram charts.
+Declarations
+This article has been published as part of BMC Bioinformatics Volume 18
+Supplement 3, 2017. Selected articles from the 15th Asia Pacific Bioinformatics
+Conference (APBC 2017): bioinformatics. The full contents of the supplement
+are available online https://bmcbioinformatics.biomedcentral.com/articles/
+supplements/volume-18-supplement-3
+Funding
+This study was funded by National Science Foundation of China
+(No.61472411) for high performance servers and publication cost, by
+Technology Development and Creative Design Program of Nanshan
+Shenzhen (No. KC2015JSJS0028A) for data collection, and by Special Funds for
+Future Industries of Shenzhen (No. JSGG20160229123927512) for sequencer
+and reagents.
+Availability of data and materials
+Project name: AfterQC
+Project home page: https://github.com/OpenGene/AfterQC
+Operating system(s): Linux, Mac OS X and Windows
+Programming language(s): Python and C
+Other requirements: None
+License: MIT License
+Any restrictions to use by non-academics: None
+Authors’ contributions
+SC wrote most codes and wrote the manuscript, YZ/TH/YH did the testing and
+revised the manuscript, MX provided the idea of sequencer’s bubble effect and
+JG gave some key ideas. All authors read and approved the final manuscript.
+Competing interests
+The authors declare that they have no competing interests.
+Consent for publication
+Not applicable.
+Ethics approval and consent to participate
+Not applicable.
+Author details
+1Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences,
+Xueyuan Road, Shenzhen, China. 2HaploX BioTechnology, Songpingshan
+Road, Shenzhen, China. 3University of Chinese Academy of Sciences, 19 A
+Yuquan Rd, Shijingshan District, Beijing, China.
+Published: 14 March 2017
+References
+1.
+Schwarzenbach H, Hoon DS, Pantel K. Cell-free nucleic acids as
+biomarkers in cancer patients. Nat Rev Cancer. 2011;11(6):426–37.
+2.
+Quail MA, Smith M, Coupland P, Otto TD, Harris SR, Connor TR, Bertoni A,
+Swerdlow HP, Gu Y. A tale of three next generation sequencing
+platforms: comparison of ion torrent, pacific biosciences and illumina
+miseq sequencers. BMC genomics. 2012;13(1):1.
+3.
+Newman AM, Bratman SV, To J, Wynne JF, Eclov NC, Modlin LA, Liu CL,
+Neal JW, Wakelee HA, Merritt RE, Shrager JB. An ultrasensitive method
+for quantitating circulating tumor dna with broad patient coverage.
+Nature medicine. 2014;20(5):548.
+4.
+Andrews S. A Quality Control Tool for High Throughput Sequence Data.
+http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/. Accessed 7 Dec
+2016.
+5.
+Schmieder R, Edwards R. Quality control and preprocessing of
+metagenomic datasets. Bioinformatics. 2014;27(6):266–7.
+6.
+Bolger AM, Lohse M, Usadel B. Trimmomatic: A flexible trimmer for
+illumina sequence data. Bioinformatics. 2014;13:266–7.
+7.
+Cox MP, Peterson DA, J BP. Solexaqa: At-a-glance quality assessment of
+illumina second-generation sequencing data. BMC Bioinforma.
+2010;11(1):266–7.
+8.
+M M. Cutadapt removes adapter sequences from high-throughput
+sequencing reads. EMBnet J. 2011;17(1):10–12.
+9.
+Illumina: Two-Channel SBS Sequencing Technology. San Francisco; 2015.
+https://www.illumina.com/content/dam/illumina-marketing/
+documents/products/techspotlights/techspotlight_two-channel_sbs.
+pdf.
+10. Institute B. A Set of Java Command Line Tools for Manipulating
+High-throughput Sequencing (HTS) Data and Formats. https://github.
+com/broadinstitute/picard. Accessed 7 Dec 2016.
+11. Gao X, Xiao B, Tao D, Li X. A survey of graph edit distance. Pattern Anal
+Applic. 2010;13(1):266–7.
+12. Hunter JD. Matplotlib: A 2d graphics environment. Comput Sci Eng.
+2007;9(3):90–5.
+13. Sievert C, Parmer C, Hocking T, Chamberlain S, Ram K, Corvellec M,
+Despouy P. MCreate Interactive Web Graphics Via Plotly.js. https://github.
+com/plotly/plotly.js. Accessed 7 Dec 2016.
+14. Snyder MW, Kircher M, Hill AJ, Daza RM, Shendure J. Cell-free dna
+comprises an in vivo nucleosome footprint that informs its
+tissues-of-origin. Cell. 2016;164(1):57–68.
+15. Li H, Durbin R. Fast and accurate short read alignment with
+burrows–wheeler transform. Bioinformatics. 2009;25(14):1754–60.
+16. Li H, Handsaker B, Wysoker A, Fennell T, Ruan J, Homer N, Marth G,
+Abecasis G, Durbin R. The sequence alignment/map format and
+samtools. Bioinformatics. 2009;25(16):2078–079.
+17. Koboldt DC, Zhang Q, Larson DE, Shen D, McLellan MD, Lin L, Miller
+CA, Mardis ER, Ding L, Wilson RK. Varscan 2: somatic mutation and copy
+number alteration discovery in cancer by exome sequencing. Genome
+research. 2012;22(3):568–76.
+18. Hyman D, Solit D, Arcila M, Cheng D, Sabbatini P, Baselga J, Berger M,
+Ladanyi M. Precision medicine at memorial sloan kettering cancer center:
+clinical next-generation sequencing enabling next-generation targeted
+therapy trials. Drug discovery todal. 2015;20(12):1422–8.
+•  We accept pre-submission inquiries 
+•  Our selector tool helps you to ﬁnd the most relevant journal
+•  We provide round the clock customer support 
+•  Convenient online submission
+•  Thorough peer review
+•  Inclusion in PubMed and all major indexing services 
+•  Maximum visibility for your research
+Submit your manuscript at
+www.biomedcentral.com/submit
+Submit your next manuscript to BioMed Central 
+and we will help you at every step:

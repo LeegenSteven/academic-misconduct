@@ -1,0 +1,110 @@
+JACK ET AL.
+5161
+programs,149,150,161,229 provide solid empiric support for a biological
+definition of AD.
+While Aβ may be reduced to subdetection levels on PET, this does
+not mean that the disease pathophysiology has been eradicated. Indi-
+viduals followed after cessation of Aβ immunotherapy have shown
+decreasing plasma Aβ42/40, small recurrent accumulation of amyloid
+on PET, and clinical progression similar to that in patients receiving
+placebo.231 The underlying AD pathophysiologic process is therefore
+still active in an individual who has had fibrillar amyloid removed
+to below PET detection levels. The biological diagnosis and staging
+schemes outlined earlier are based on observations of the natural
+history of the disease. Successful disease-modifying therapies alter
+the relationships between biomarkers that are present in the nat-
+ural evolution of the disease. For example, an individual who has
+been treated with an anti-Aβ monoclonal antibody may change from
+A+ at baseline to A−after treatment, but the pathogenic process is
+still present. This state has recently been labeled “Treatment Related
+Amyloid Clearance (TRAC)” by an AA–convened workgroup. There-
+fore, the staging schemes outlined earlier should be regarded as
+tools for diagnosis, staging/prognosis, and treatment assignment but
+not as indicators of the stage of the natural history of the disease
+posttreatment.
+Anti-Aβ immunotherapies that reduce plaque load often result in
+higher rates of whole-brain volume loss or ventricular enlargement
+in treated versus placebo individuals.149,229,232,233 Interestingly, the
+hippocampus seems to be spared from this effect.150,161 Explana-
+tions for the volume reduction effect include therapy-induced fluid
+shifts or a reduction in volume of amyloid plaque and peri-plaque
+inflammation.232 It has become apparent that slowing of the rate of
+whole-brain volume loss by successful amyloid plaque removal, which
+was anticipated based on natural history studies, has not been seen in
+the relatively short duration of most clinical trials. Slowing whole-brain
+atrophy rates may occur over much longer time scales with success-
+ful therapy, but this remains to be shown. Serial whole-brain volume
+measures may only be considered a measure of the rate of neurode-
+generation in the absence of abrupt changes in plaque volume or brain
+edema. MRI does have an important role in anti-amyloid therapy in
+trials and in clinical use as a means of identifying ARIAs for safety
+purposes.213,234
+10
+DIVERSITY AND NEED FOR MORE
+REPRESENTATIVE COHORTS
+The need for more representative cohorts for observational studies
+and clinical trials has been pointed out repeatedly, and the committee
+endorses this position.85,235–237 Much of the published AD biomarker
+data have been derived from highly educated, non-Hispanic White
+cohorts and these biomarkers have not yet been tested extensively
+in broadly representative populations. Relationships among biomark-
+ers, genetic variants like APOE ε4, and clinical outcomes may differ
+by race/ethnicity.238–242 The prevalence of APOE ε4,243 prevalence
+of biomarker abnormalities, and mixed pathology may also differ by
+race/ethnicity; however, it is often unclear to what degree this may be
+influenced by enrollment biases in existing cohort studies.102,244–246
+A relatively consistent theme across much of the current literature is
+that groupwise differences in the prevalence of AD biomarker abnor-
+malities do not explain the higher prevalence of dementia in Black
+and Hispanic groups compared to non-Hispanic White groups.247,248
+It is unclear to what extent this may be attributable to a higher
+prevalence of non-AD pathologies in underrepresented groups (e.g.,
+cerebrovascular disease) or to additional factors.244
+Representativeness encompasses many factors, including race and
+ethnicity, but also social determinants of health such as socioeco-
+nomic status, education, geographic location, and lifestyle. Definitive
+observational studies with more representative cohorts are needed
+to assess natural history relationships among biomarkers, genet-
+ics, comorbidities, and clinical outcomes. Furthermore, randomization
+rates and eligibility rates for AD clinical trials vary disproportionately
+by race/ethnicity, education, and socioeconomic status. Therefore,
+morerepresentativecohortsarealsoneededintrialstoassesswhether
+treatments are effective across race/ethnicity and the range of social
+determinants of health.102,246,249
+11
+FUTURE DIRECTIONS
+In recent years the field has moved from diagnosing and characterizing
+AD based on clinical presentation alone to diagnosing the disease bio-
+logically. Biologically based diagnosis and staging is now transitioning
+from priorities dominated by research alone to the priorities required
+for both research and clinical care. Future directions could include the
+following.
+1. Observational studies and clinical trials should be conducted with
+more representative cohorts. Furthermore, nearly all observational
+studies in underrepresented groups that have included biomark-
+ers have been in convenience samples with inevitable selection
+biases. True epidemiolocal and real-world data studies of biomarker
+properties in representative groups are needed to ascertain rela-
+tionships that are valid at the population level.
+2. Standardization of biofluid assays, tau PET quantification methods,
+and cutpoints is needed. As in other diseases, the exact thresh-
+olds for abnormality may evolve over time as additional data inform
+prognostic value.
+3. Improved understanding of various posttranslational modifications
+of tau may enhance fluid-based biological staging.
+4. With improved understanding of the role of immune/inflammatory
+processes, microglia, and astrocyte biology in AD pathogenesis, we
+envision a more prominent role for I biomarkers in biological char-
+acterization and prognosis, especially if brain-specific changes can
+be detected in blood.
+5. As
+clinical
+trials
+targeting
+mechanisms
+other
+than
+anti-Aβ
+immunotherapy are performed, the effects of these interven-
+tions on biomarkers and clinical outcomes should be included in
+future criteria.

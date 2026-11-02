@@ -1,0 +1,107 @@
+work by Gonen258, Abrahams259, Yonekura260, and many others. 
+These efforts benefitted from several compelling aspects of 
+electron diffraction, including the large electron scattering 
+cross section, the shorter electron wavelength (and flatter Ewald 
+sphere) in conventional electron microscopes, and the ability of 
+the method to adopt many of the computational developments 
+and software tools honed for X-ray crystallography over the last 
+several decades261,262. This lowered the barriers for application 
+of the method. However, the early studies in three-dimensional 
+electron diffraction of protein crystals brought to light key 
+distinctions between the use of X-rays and electrons for crystal-
+lography. Because of the strong interaction of electrons with 
+matter, electron crystallography of three-dimensional protein crys-
+tals resuscitated concerns over multiple scattering, the resulting 
+fidelity of diffraction measurements, and ultimately the accuracy 
+of structures determined by these methods253. While some of 
+these concerns have been dispelled by the determination of 
+novel and ab initio macromolecular structures263–266 (Figure 4), 
+there is considerable room for improvements in our understanding 
+and practice of electron diffraction from protein nanocrystals.
+The ability to measure diffraction from sub-micron-sized areas 
+of three-dimensional protein nanocrystals, on the scale of the 
+conventional domain block, has further facilitated the interrogation 
+of individual crystallites derived from bundles or larger clusters267. 
+Crystals as thick as half a micrometer might be tolerated, but 
+thinner specimens avoid heavy absorption and minimize mul-
+tiple scattering268. The term ‘MicroED’ was coined to empha-
+size the requirement for small crystals and is complemented 
+by terms like three-dimensional electron diffraction (3DED) and 
+continuous rotation electron diffraction (CRED)257. Some self-
+associating proteins—amyloidogenic peptides, for example—
+tend to grow small or needle-like crystals, making them natural 
+targets for study. For general applications, methods are 
+being investigated for reliably producing microcrystals, or for 
+nano-machining thin sections from larger protein crystals by 
+FIB milling268–270. To date, less than a hundred structures deter-
+mined by electron diffraction from three-dimensional crystals 
+can be found in the PDB. Among the largest is a 110 kDa 
+calcium ATPase; most are small proteins and peptides (Figure 4).
+One notable challenge still faced by electron diffraction is 
+de novo phasing. The majority of MicroED structures deposited 
+to date have not been novel (Figure 4); many were determined by 
+molecular replacement based on highly similar known structures. 
+Some structures have been determined by direct methods, thus 
+far only when macromolecules were small (e.g. oligopeptides) 
+and diffracted to very high resolution. The weaker scatter-
+ing for heavier atoms by electrons compared to X-rays, and the 
+absence of anomalous scattering effects, may call for remedies to 
+the phasing problem that could be unique to electron diffraction. 
+For example, owing to the strength of electron scattering, infor-
+mation useful for structure determination might be extractable 
+from secondary or ‘dynamic’ scattering phenomena252,271. Scat-
+tering factors for electrons are distinct from those used in X-ray 
+experiments and may need to be further refined. Theoretical 
+and computational efforts to more accurately analyze electron 
+diffraction data will no doubt benefit from ongoing improvements 
+to detectors and from the collection of energy-filtered patterns272.
+As electron diffraction develops beyond initial demonstra-
+tions, new opportunities and challenges arise. Recent studies 
+have demonstrated increasingly facile structure determination 
+of organic molecules, and the scope of substrates continues to 
+grow. Electron nanobeams (5–100 nm in diameter) have enabled 
+some early studies on the fine structure of macromolecular crys-
+tals and offer growth in new areas of serial or multi-structure 
+crystallography273–275. However, the advantageous features of auto-
+mation, speed, and process integration offered by most modern 
+X-ray beamlines are not yet available for electron diffraction. 
+Wider adoption of the method will necessarily be linked to its 
+accessibility and its capacity to rapidly determine informative 
+and novel structures.
+Summary
+Methods for elucidating the three-dimensional structures of mac-
+romolecules continue to expand and diversify. The technical 
+advances surveyed here push the envelope in terms of the biologi-
+cal systems that can be elucidated in atomic detail and the kinds 
+of mechanistic insights that might be extracted. On one hand, 
+improvements in robustness and automation are lowering the bar-
+riers to entry and making applications accessible to a growing 
+body of scientists working across expansive areas of molecular 
+biology. On the other hand, forward progress is bringing new 
+challenges into view. Interestingly, some of the emerging chal-
+lenges have historical roots, having arisen in somewhat different 
+contexts in other areas of structural biology. The phase prob-
+lem, re-emerging now in MicroED, was surmounted in the field 
+of X-ray diffraction by heavy atom and anomalous phasing meth-
+ods. The challenges of interpreting polymorphic and dynamic 
+systems, a key goal of many of the methods discussed here, 
+invoke connections to NMR and molecular dynamics simulation 
+methods, which championed the study of dynamics for several 
+decades. And efforts to expand the reach of various X-ray and 
+electron microscopy and diffraction methods to new kinds of 
+macromolecular systems are drawing increasingly on advances 
+in the area of protein design. Thus, exciting developments in 
+structural biology methods, aided by advanced computing and 
+other approaches (including many not discussed here), are 
+steadily expanding our ability to dissect the structure and dynam-
+ics of biological molecules in atomic detail. Combinations of 
+different methods, new and old, should bring us closer to this 
+ultimate goal.
+Acknowledgements
+The authors thank Jenna Pellegrino (University of California, 
+San Francisco), D. John Lee (University of California, San 
+Francisco), Ian Seiple (University of California, San Francisco), 
+and James Fraser (University of California, San Francisco), 
+for access to data ahead of public release.
+Page 10 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

@@ -1,0 +1,102 @@
+5160
+JACK ET AL.
+reasoning applies to perfusion MRI (arterial spin labeling or variants).
+Thus, these modalities are not disease specific. White matter hyperin-
+tensities on MRI have long been interpreted to indicate microvascular
+ischemic injury.208 However, white matter hyperintensities may also
+be attributed to distal axonopathy, autoimmune demyelination, and
+loss of blood–brain barrier integrity from cerebral amyloid angiopathy
+(CAA).209
+The vascular markers described earlier are linked with traditional
+systemic vascular risk factors and cerebral ischemia. CAA merits spe-
+cial mention because while the disorder is one of cerebral vessels, the
+etiology is disordered processing of Aβ rather than traditional systemic
+vascular risk factors, and CAA is commonly observed in association
+with Aβ plaques in AD. CAA represents the aggregation of Aβ in cere-
+bral vessel walls leading to vessel fragility.210 This, in turn, can lead
+to spontaneous leakage or exudate of intravascular contents, includ-
+ing heme products, into the sulcal space or brain parenchyma. The
+result is seen on MRI as superficial siderosis or cerebral microbleeds,
+typically in a lobar distribution.211 A serious potential complication is
+lobar hemorrhage.212 MRI evidence of CAA (microbleeds or siderosis)
+increases the risk of ARIA in patients undergoing some forms of anti-Aβ
+immunotherapy, and, thus, detection plays an important role in clinical
+care.213
+8
+MULTIMODAL BIOMARKER PROFILES AND
+IDENTIFICATION OF COMORBID PATHOLOGIC
+CHANGE
+We distinguish multimodal biomarker “profiles” from AD biological
+staging. Biomarker profiles may involve the use of core and non-core
+biomarkers to characterize the general neuropathophysiological state
+of an individual beyond or in addition to the presence of AD. Biological
+staging of AD applies only to individuals in whom AD has been detected
+by core biomarkers; in contrast, biomarker profiles are applicable to all
+individuals in the population.
+Using markers outlined in Tables 1 and 2, a full multimodal
+biomarker profile would appear as AT1T2NISV, with results indicated
+(± dichotomized or a continuous quantitative scale) as appropriate
+to each category. Full profiles require extensive biomarker phenotyp-
+ing; however, partial profiles may be useful conceptually and in clinical
+practice to characterize individuals.
+One potential use of multimodal biomarker profiles is to provide
+simple conceptual organization and practical shorthand notation to
+characterize persons with comorbid pathologies. With advancing age,
+copathologies are the rule and isolated AD is the exception. Thus,
+AD must be considered in the context of copathologies. Common
+age-related brain pathologies that underlie cognitive impairment or
+dementia other than AD in older persons are cerebrovascular dis-
+ease, NSD, and limbic-associated TAR DNA-binding protein (TDP-43)
+encephalopathy (LATE).214–223 LATE merits special mention because
+while it is a common and clinically important contributor to late-
+life cognitive impairment, no confirmed disease-specific biomarkers
+exist currently.214 CSF dynamics disorders may contribute to impair-
+ment and can be detected by MRI.224 Examples of direct indicators
+of copathology include a positive αSyn-SAA test result (A+T2+S+) or
+multiple infarctions (A+T2+V+) in someone who also had biomarker
+evidence of AD. However, there are also useful indirect indicators
+that one or more non-AD copathologies likely is present, as described
+below.
+To this point we have not emphasized N biomarkers, but a use-
+ful indirect indicator of copathology is a “T2N” mismatch in an AT2N
+profile.225–228 Neurodegeneration in AD is closely related in time and
+topography to tau deposition. The T2−N+ biomarker profile (i.e., T2N
+mismatch) therefore indicates the presence of neurodegeneration or
+neuronal injury due to a disease(s) other than AD. An archetypical
+example of this is an older person with a progressive amnestic clinical
+course and an A+T2−N+ biomarker profile, in which N+ is represented
+by severe medial temporal lobe atrophy on MRI or hypometabolism on
+PET (Figures 1 and 2). Such a person has AD biological stage A (denoted
+by A+T2−), but likely also has LATE (denoted by T2−N+).214
+8.1
+Intended uses
+Indicators of copathology may be useful clinically when considering the
+etiology of symptoms, prognosis, and treatment decisions. For exam-
+ple, a cognitively impaired individual with an A+T2−N+ biomarker
+profile may not respond to anti-Aβ immunotherapy in the same manner
+as someone who has an A+T2+N−or A+T2+N+ biomarker profile.
+In clinical trials, indicators of copathology could be used as exclu-
+sionary criteria in phase 2 trials in which a biologically homogeneous
+cohort with purer AD is desirable to maximize statistical power. Indi-
+viduals with indicators of copathology could be included in phase 3
+AD trials, with preplanned subset analyses, to establish efficacy in a
+broader population.
+9
+TREATMENT EFFECTS
+The focus of this document is on criteria for diagnosis and staging of
+AD; detailed discussion of the roles of biomarkers as outcome mea-
+sures or indicators of target engagement in clinical trials is beyond
+the scope of this work. Nonetheless, the recent regulatory approval
+of treatments targeting core AD pathology promises to be trans-
+formative. Anti-Aβ immunotherapy can dramatically reduce the load
+of amyloid plaque in a time- and dose-dependent manner; change
+downstream biomarkers (including CSF and plasma p-tau and total
+tau150,161,229,230 and plasma GFAP161,230) in the direction of normal-
+ization; and slow accumulation of tau PET.161,229 Most importantly,
+recent trials have demonstrated that anti-Aβ immunotherapy that sub-
+stantially reduces fibrillar Aβ levels measured on PET can slow the
+rate of cognitive decline in early symptomatic AD.149,150,161,229 Con-
+sistent results across both successful and failed immunotherapy trials
+show that the amount of amyloid PET reduction is associated with the
+degree of clinical benefit. These findings linking biology to clinical mani-
+festations, which have been replicated across independent therapeutic

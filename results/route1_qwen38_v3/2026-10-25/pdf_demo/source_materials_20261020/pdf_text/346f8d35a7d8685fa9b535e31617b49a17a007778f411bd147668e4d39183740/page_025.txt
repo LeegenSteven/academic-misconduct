@@ -1,0 +1,130 @@
+JACK ET AL.
+5167
+134. Sanchez JS, Becker JA, Jacobs HIL, et al. The cortical origin and
+initial spread of medial temporal tauopathy in Alzheimer’s dis-
+ease assessed with positron emission tomography. Sci Transl Med.
+2021;13:eabc0655.
+135. Mattsson-Carlgren N, Collij LE, Stomrud E, et al. Plasma biomarker
+strategy for selecting patients with Alzheimer disease for antiamy-
+loid immunotherapies. JAMA Neurol. 2024;81:69-78.
+136. Montoliu-Gaya L, Benedet AL, Tissot C, et al. Mass spectrometric
+simultaneous quantification of tau species in plasma shows differ-
+ential associations with amyloid and tau pathologies. Nat Aging.
+2023;3:661-669.
+137. Horie K, Barthelemy NR, Sato C, Bateman RJ. CSF tau microtubule
+binding region identifies tau tangle and clinical stages of Alzheimer’s
+disease. Brain. 2021;144:515-527.
+138. Barthelemy NR, Saef B, Li Y, et al. CSF tau phosphorylation occupan-
+cies at T217 and T205 represent improved biomarkers of amyloid
+and tau pathology in Alzheimer’s disease. Nat Aging. 2023;3:391-401.
+139. Horie K, Salvado G, Barthelemy NR, et al. CSF MTBR-tau243 is a spe-
+cific biomarker of tau tangle pathology in Alzheimer’s disease. Nat
+Med. 2023;29:1954-1963.
+140. Lantero-Rodriguez J, Montoliu-Gaya L, Benedet AL, et al. CSF p-
+tau205: a biomarker of tau pathology in Alzheimer’s disease. Acta
+Neuropathol. 2024;147:12.
+141. Horie K, Koppisetti RK, Janelidzde S, et al. Plasma MTBR-tau243 is
+a specific biomarker of tau tangle pathology in Alzheimer’s disease.
+Clinical Trials on Alzheimer’s Disease 2023. 2023.
+142. Jack CR Jr., Wiste HJ, Schwarz CG, et al. Longitudinal tau PET in
+ageing and Alzheimer’s disease. Brain. 2018;141:1517-1528.
+143. Villemagne V, Leuzy A, Bohorquez SMS, et al. CenTauR: towards
+a universal scale and masks for standardizing tau imaging studies.
+Alzheimer’s and Dementia. 2023;15:e12454.
+144. Klunk WE, Koeppe RA, Price JC, et al. The Centiloid Project: stan-
+dardizing quantitative amyloid plaque estimation by PET. Alzheimer’s
+Dement. 2015;11:1-15.
+145. Therriault J, Schindler SE, Salvado G, et al. Biomarker-based stag-
+ing of Alzheimer disease: rationale and clinical applications. Nat Rev
+Neurol. 2024.
+146. Klunk WE, Price JC, Mathis CA, et al. Amyloid deposition begins in
+the striatum of presenilin-1 mutation carriers from two unrelated
+pedigrees. J Neurosci. 2007;27:6174-6184.
+147. Cohen AD, McDade E, Christian B, et al. Early striatal amyloid
+deposition distinguishes Down syndrome and autosomal dominant
+Alzheimer’s disease from late-onset amyloid deposition. Alzheimers
+Dement. 2018;14:743-750.
+148. Sperling RA, Mormino EC, Schultz AP, et al. The impact of amyloid-
+beta and tau on prospective cognitive decline in older individuals.Ann
+Neurol. 2019;85:181-193.
+149. Mintun MA, Lo AC, Duggan Evans C, et al. Donanemab in early
+Alzheimer’s disease. N Engl J Med. 2021;384:1691-1704.
+150. Sims JR, Zimmer JA, Evans CD, et al. Donanemab in early symp-
+tomatic Alzheimer disease: the TRAILBLAZER-ALZ 2 randomized
+clinical trial. JAMA. 2023;330:512-527.
+151. Sperling RA, Rentz DM, Johnson KA, et al. The A4 study: stopping AD
+before symptoms begin? Sci Transl Med. 2014;6:228fs213.
+152. Rafii MS, Sperling RA, Donohue MC, et al. The AHEAD 3-45 study:
+design of a prevention trial for Alzheimer’s disease. Alzheimers
+Dement. 2023;19:1227-1233.
+153. Reisberg B, Ferris SH, de Leon MJ, Crook T. The Global Deterio-
+ration Scale for assessment of primary degenerative dementia. The
+American journal of psychiatry. 1982;139:1136-1139.
+154. Administration UFaD. Early Alzheimer’s Disease: Developing Drugs
+forTreatmentIn:ServicesUSDoHaH,AdministrationFaD,eds.Office
+of Communications, Division of Drug Information: US Food and Drug
+Administration, 2024.
+155. Ismail Z, Smith EE, Geda Y, et al. Neuropsychiatric symptoms as early
+manifestations of emergent dementia: provisional diagnostic criteria
+for mild behavioral impairment. Alzheimers Dement. 2016;12:195-
+202.
+156. Johansson M, Stomrud E, Lindberg O, et al. Apathy and anxiety are
+early markers of Alzheimer’s disease. Neurobiol Aging. 2020;85:74-
+82.
+157. Johansson M, Stomrud E, Johansson PM, et al. Development of apa-
+thy, anxiety, and depression in cognitively unimpaired older adults:
+effects of Alzheimer’s disease pathology and cognitive decline. Biol
+Psychiatry. 2022;92:34-43.
+158. Graff-Radford J, Yong KXX, Apostolova LG, et al. New insights into
+atypical Alzheimer’s disease in the era of biomarkers. Lancet Neurol.
+2021;20:222-234.
+159. Dubois B, Villain N, Frisoni GB, et al. Clinical diagnosis of Alzheimer’s
+disease: recommendations of the International Working Group.
+Lancet Neurol. 2021;20:484-496.
+160. Fortea J, Zaman SH, Hartley S, Rafii MS, Head E, Carmona-Iragui M.
+Alzheimer’s disease associated with Down syndrome: a genetic form
+of dementia. Lancet Neurol. 2021;20:930-942.
+161. van Dyck CH, Swanson CJ, Aisen P, et al. Lecanemab in early
+Alzheimer’s disease. N Engl J Med. 2023;388:9-21.
+162. Administration UFaD. Leqembi Prescribing Information. 2023.
+163. Petersen RC, Doody R, Kurz A, et al. Current concepts in mild
+cognitive impairment. Arch Neurol. 2001;58:1985-1992.
+164. Roberts JS, Karlawish JH, Uhlmann WR, Petersen RC, Green RC. Mild
+cognitive impairment in clinical care: a survey of American Academy
+of Neurology members. Neurology. 2010;75:425-431.
+165. Bertens D, Vos S, Kehoe P, et al. Use of mild cognitive impairment
+and prodromal AD/MCI due to AD in clinical care: a European survey.
+Alzheimers Res Ther. 2019;11:74.
+166. Vemuri P, Lesnick TG, Przybelski SA, et al. Association of lifetime
+intellectual enrichment with cognitive decline in the older popula-
+tion. JAMA Neurol. 2014;71:1017-1024.
+167. Jagust WJ, Mormino EC. Lifespan brain activity, beta-amyloid, and
+Alzheimer’s disease. Trends Cogn Sci. 2011;15:520-526.
+168. Arenaza-Urquijo EM, Vemuri P. Resistance vs resilience to Alzheimer
+disease: clarifying terminology for preclinical studies. Neurology.
+2018;90:695-703.
+169. Bridel C, van Wieringen WN, Zetterberg H, et al. Diagnostic value
+of cerebrospinal fluid neurofilament light protein in neurology: a
+systematic review and meta-analysis. JAMA Neurol. 2019;76:1035-
+1048.
+170. Kmezic I, Samuelsson K, Finn A, et al. Neurofilament light chain
+and total tau in the differential diagnosis and prognostic evaluation
+of acute and chronic inflammatory polyneuropathies. Eur J Neurol.
+2022;29:2810-2822.
+171. Jack CR Jr., Petersen RC, O’Brien PC, Tangalos EG. MR-based
+hippocampal volumetry in the diagnosis of Alzheimer’s disease.
+Neurology. 1992;42:183-188.
+172. Bobinski M, de Leon MJ, Wegiel J, et al. The histological validation of
+post mortem magnetic resonance imaging-determined hippocampal
+volume in Alzheimer’s disease. Neuroscience. 2000;95:721-725.
+173. Zarow C, Vinters HV, Ellis WG, et al. Correlates of hippocampal neu-
+ron number in Alzheimer’s disease and ischemic vascular dementia.
+Ann Neurol. 2005;57:896-903.
+174. Jack CR Jr., Dickson DW, Parisi JE, et al. Antemortem MRI find-
+ings correlate with hippocampal neuropathology in typical aging and
+dementia. Neurology. 2002;58:750-757.
+175. Thijssen EH, Verberk IMW, Kindermans J, et al. Differential diagnos-
+tic performance of a panel of plasma biomarkers for different types
+of dementia. Alzheimers Dement (Amst). 2022;14:e12285.
+176. Finnema SJ, Nabulsi NB, Eid T, et al. Imaging synaptic density in the
+living human brain. Sci Transl Med. 2016;8:348ra396.

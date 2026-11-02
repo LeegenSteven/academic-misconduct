@@ -1,0 +1,103 @@
+Vol. 30 no. 15 2014, pages 2114–2120
+BIOINFORMATICS
+ORIGINAL PAPER
+doi:10.1093/bioinformatics/btu170
+Genome analysis
+Advance Access publication April 1, 2014
+Trimmomatic: a flexible trimmer for Illumina sequence data
+Anthony M. Bolger1,2, Marc Lohse1 and Bjoern Usadel2,3,*
+1Department Metabolic Networks, Max Planck Institute of Molecular Plant Physiology, Am Mu¨ hlenberg 1, 14476
+Golm,2Institut fu¨ r Biologie I, RWTH Aachen, Worringer Weg 3, 52074 Aachen and 3Institute of Bio- and Geosciences:
+Plant Sciences, Forschungszentrum Ju¨ lich, Leo-Brandt-Straße, 52425 Ju¨ lich, Germany
+Associate Editor: Inanc Birol
+ABSTRACT
+Motivation: Although many next-generation sequencing (NGS) read
+preprocessing tools already existed, we could not find any tool or
+combination of tools that met our requirements in terms of flexibility,
+correct handling of paired-end data and high performance. We have
+developed Trimmomatic as a more flexible and efficient preprocessing
+tool, which could correctly handle paired-end data.
+Results: The value of NGS read preprocessing is demonstrated for
+both reference-based and reference-free tasks. Trimmomatic is
+shown to produce output that is at least competitive with, and in
+many cases superior to, that produced by other tools, in all scenarios
+tested.
+Availability and implementation: Trimmomatic is licensed under GPL
+V3. It is cross-platform (Java 1.5þ required) and available at
+http://www.usadellab.org/cms/index.php?page¼trimmomatic
+Contact: usadel@bio1.rwth-aachen.de
+Supplementary information: Supplementary data are available at
+Bioinformatics online.
+Received on July 13, 2013; revised on March 9, 2014; accepted on
+March 25, 2014
+1
+INTRODUCTION
+The presence of poor quality or technical sequences such as
+adapters in next-generation sequencing (NGS) data can easily
+result in suboptimal downstream analyses.
+Nonetheless, it is not trivial to precisely identify such se-
+quences, including partial adapter sequences, while leaving
+valid sequence data intact (Li et al., 2013). Furthermore, given
+the rate with which NGS sequence data are currently being pro-
+duced (Mardis, 2008), the additional burden of sequence prepro-
+cessing must be kept relatively modest so as to avoid adding
+undue overhead to the bioinformatics pipeline.
+The preprocessing approach must also not interfere with the
+downstream analysis of the data. For example, NGS data often
+come in the form of paired-end reads, and typically, the forward
+and reverse reads are stored in two separate FASTQ files, which
+contain reads from each DNA fragment in the same order. Many
+downstream tools use this positional relationship between pairs,
+so it must be maintained when preprocessing the sequence data.
+The wide range of available NGS library preparations
+combined with the range of downstream applications demand
+a flexible approach. It should be possible to choose a set of
+processing steps to be applied in a user-defined order, and ideally
+even allow some steps to be included more than once. In other
+domains, this can be achieved using a shell pipeline to combine
+multiple tools as required, e.g. in Newick (Junier and Zdobnov,
+2010). However, the need for ‘pair awareness’ makes this ap-
+proach difficult to apply, as the connection between the corres-
+ponding reads in the paired files will typically be lost. Correcting
+this would require an additional step to reconcile the read pairs
+and store the ‘singleton’ reads separately. Furthermore, the pro-
+cessing steps would not be able to assess the read pair as a unit,
+which is necessary or at least advantageous in some cases.
+The alternative approach of executing a series of tools in suc-
+cession would involve the creation of intermediate files at each
+step, a non-trivial overhead given the data size involved, and
+would still require pair-awareness to be built into every tool
+used. These issues suggest that the typical approaches to achieve
+flexibility by combining multiple single-purpose tools are not
+optimal.
+Thus, although many NGS read preprocessing tools exist,
+none of them, alone or in combination, could offer the desired
+flexibility and performance, and most were not designed to work
+on paired-end data. As a result, we developed Trimmomatic as a
+more flexible, pair-aware and efficient preprocessing tool, opti-
+mized for Illumina NGS data.
+2
+ALGORITHMS
+Trimmomatic includes a variety of processing steps for read
+trimming and filtering, but the main algorithmic innovations
+are related to identification of adapter sequences and quality
+filtering, and are described in detail below. A list of the other
+processing steps is presented in the Supplementary Materials.
+2.1
+Removal of technical sequences
+Trimmomatic uses two approaches to detect technical sequences
+within the reads. The first, referred to as ‘simple mode’, works by
+finding an approximate match between the read and the user-
+supplied technical sequence. This mode has the advantage of
+working for all technical sequences, including adapters and poly-
+merase chain reaction (PCR) primers, or fragments thereof. Such
+sequences can be detected in any location or orientation within
+the reads but requires a substantial minimum overlap between
+the read and technical sequence to prevent false-positive findings.
+However, short partial adapter sequences, which often occur at
+the ends of reads, are inherently unable to meet this minimum
+overlap requirement and therefore are not detectable.
+*To whom correspondence should be addressed.
+ The Author 2014. Published by Oxford University Press.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/), which
+permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.

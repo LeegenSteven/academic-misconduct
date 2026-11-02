@@ -1,0 +1,90 @@
+5144
+JACK ET AL.
+Clifford R. Jack Jr, Billy Dunn, Heather M.
+Snyder, Eliezer Masliah, and Maria C. Carrillo
+are the members of the steering committee.
+Funding information
+National Institutes of Health; Alexander family
+professorship; GHR Foundation; Alzheimer’s
+Association; Veterans Administration; State of
+Arizona; Life Molecular Imaging; Michael J. Fox
+Foundation for Parkinson’s Research; Avid
+Radiopharmaceuticals/Eli Lilly; Gates
+Foundation; AVID Radiopharmaceuticals;
+Biogen; C2N Diagnostics; Eisai; Fujirebio; GE
+Healthcare; Roche; National Institute on
+Aging; Roche/Genentech; BrightFocus
+Foundation; Eli Lilly; Hoffmann-La Roche,
+Grant/Award Numbers: R01AG062167,
+R01AG077507, U19AG024904,
+U19AG078109, U19AG073153,
+R01AG066203, R01AG070028,
+R01AG027161, RF1AG052324; Novo
+Nordisk; Toyama; UCB; AC Immune; Alzheon;
+Research of the European Commission,
+Grant/Award Number: 860197; Innovative
+Medicines Initiatives 3TR, Grant/Award
+Numbers: 831434, 101034344; National MS
+Society; Alzheimer Drug Discovery
+Foundation; Health Holland; Dutch Research
+Council; TAP-dementia, Grant/Award Number:
+10510032120003; The Selfridges Group
+Foundation; Alzheimer Netherlands
+presentation, has long been standard in many areas of medicine (e.g., oncology), and is
+becoming a unifying concept common to all neurodegenerative diseases, not just AD.
+The present document is consistent with this principle. Our intent is to present objec-
+tive criteria for diagnosis and staging AD, incorporating recent advances in biomarkers,
+to serve as a bridge between research and clinical care. These criteria are not intended
+to provide step-by-step clinical practice guidelines for clinical workflow or specific
+treatment protocols, but rather serve as general principles to inform diagnosis and
+staging of AD that reflect current science.
+KEYWORDS
+Alzheimer’s disease diagnosis, Alzheimer’s disease imaging, Alzheimer’s disease staging, amyloid
+positron emission tomography, biofluid biomarkers Alzheimer’s disease, biomarkers Alzheimer’s
+disease, preclinical Alzheimer’s disease, tau positron emission tomography
+Highlights
+∙We define Alzheimer’s disease (AD) to be a biological process that begins with
+the appearance of AD neuropathologic change (ADNPC) while people are asymp-
+tomatic. Progression of the neuropathologic burden leads to the later appearance
+and progression of clinical symptoms.
+∙Early-changing Core 1 biomarkers (amyloid positron emission tomography [PET],
+approved cerebrospinal fluid biomarkers, and accurate plasma biomarkers [espe-
+cially phosphorylated tau 217]) map onto either the amyloid beta or AD tauopathy
+pathway; however, these reflect the presence of ADNPC more generally (i.e., both
+neuritic plaques and tangles).
+∙An abnormal Core 1 biomarker result is sufficient to establish a diagnosis of AD and
+to inform clinical decision making throughout the disease continuum.
+∙Later-changing Core 2 biomarkers (biofluid and tau PET) can provide prognostic
+information, and when abnormal, will increase confidence that AD is contributing
+to symptoms.
+∙An integrated biological and clinical staging scheme is described that accommodates
+the fact that common copathologies, cognitive reserve, and resistance may modify
+relationships between clinical and biological AD stages.
+1
+BACKGROUND
+In 2011, the National Institute on Aging and the Alzheimer’s Associ-
+ation (NIA-AA) convened three workgroups that published separate
+recommendations for the diagnosis and evaluation of Alzheimer’s
+disease (AD) in its preclinical, mild cognitive impairment (MCI), and
+dementia phases.1–4 In 2012, an NIA-AA workgroup published a
+consensus document on the neuropathologic diagnosis of AD.5,6
+Several years later, the NIA-AA convened a single workgroup to
+update 2011 recommendations for diagnosis and evaluation. The prod-
+uct of that workgroup, published in 2018, was labeled a research
+framework.7 The 2018 publication stated that the framework should
+be updated in the future as needed in response to scientific
+advances.
+The convening organization for these revised criteria is the AA. The
+AA identified a four-person core leadership group for this effort (i.e.,
+a steering committee) as well as a larger full workgroup. Members of
+the full workgroup were selected to provide a range of relevant sci-
+entific and clinical expertise; to achieve a representative sample of
+professional stakeholders; and to achieve a balance of academic and
+industry representation, sex/ethnicity, and geographic location. The
+steering committee also engaged expert advisors to provide reviews of
+the project.
+Although the purpose of this document is to update the 2018 doc-
+ument, a set of fundamental principles emerged from prior NIA-AA
+workgroups. These principles, outlined in Box 1, are carried forward
+and serve as the foundation or starting point for the current revised
+criteria.

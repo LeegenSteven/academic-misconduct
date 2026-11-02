@@ -1,0 +1,109 @@
+{
+  "record_type": "liyun_personal_disposition_confirmation",
+  "recorded_date": "2026-11-01",
+  "scope": "PDF固定20点未定10点（5/6/7/10/11/12/13/14/16/20）的个人处理口径",
+  "source": "user_explicit_confirmation",
+  "confirmation_quote": "认可：按上述口径登记个人意见，未定分类继续待核（推荐）",
+  "joint_conclusion": false,
+  "formal_20_point_acceptance": false,
+  "model_run": false,
+  "dispositions": [
+    {
+      "point": 5,
+      "case_id": "r1pdf:cc2e2247d91afc3f3559aa23",
+      "disposition": "原理由不通过；完整分类待定",
+      "label_status": "pending"
+    },
+    {
+      "point": 6,
+      "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+      "disposition": "证据/完整主张继续待核",
+      "label_status": "pending"
+    },
+    {
+      "point": 7,
+      "case_id": "r1pdf:43dd5182e91a0ff7d0bec65d",
+      "disposition": "覆盖缺口单列；完整分类待定",
+      "label_status": "pending"
+    },
+    {
+      "point": 10,
+      "case_id": "r1pdf:1dfa922c755ed870245927e3",
+      "disposition": "证据不足与全文条件意见分开；完整分类待定",
+      "label_status": "pending"
+    },
+    {
+      "point": 11,
+      "case_id": "r1pdf:976890f040d5c2cab2e50965",
+      "disposition": "覆盖缺口单列；完整分类待定",
+      "label_status": "pending"
+    },
+    {
+      "point": 12,
+      "case_id": "r1pdf:8eec93b561ea2378e0da8197",
+      "disposition": "原理由不通过；完整分类待定",
+      "label_status": "pending"
+    },
+    {
+      "point": 13,
+      "case_id": "r1pdf:43c53ece80a7c35828d5246d",
+      "disposition": "原理由需修订；个人倾向NOT_ACCURATE，最终标签待定",
+      "label_status": "tendency_only",
+      "label_tendency": "NOT_ACCURATE"
+    },
+    {
+      "point": 14,
+      "case_id": "r1pdf:fab3e8c6971477d942ccbcc4",
+      "disposition": "版本归属、研究类型和完整主张继续待核",
+      "label_status": "pending"
+    },
+    {
+      "point": 16,
+      "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+      "disposition": "正式基线与v2补充版本边界继续待核；不合并nasal与pharyngeal",
+      "label_status": "pending"
+    },
+    {
+      "point": 20,
+      "case_id": "r1pdf:07b8a2180cd71a89f1c772cc",
+      "disposition": "常见频率与严重程度分开；完整分类和原理由继续待核",
+      "label_status": "pending"
+    }
+  ],
+  "boundary": "个人处理口径不等于双方共同标签；joint_*、score_*、正式定位率、解释语义正确率和分类正确率均不因本记录改变。",
+  "handoff": {
+    "status": "CHEN_POINTWISE_PERSONAL_REPLY_RECEIVED",
+    "recipient": "陈明进",
+    "reply_received_date": "2026-11-01",
+    "reply_source": "_route1_test_pair_publish_20261019/results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_20261101/发给李云_未定10点逐点回复_20261101.md",
+    "reply_sha256": "12492df082df4ceace5947bbdd3baaa78b0f51c09f902b0755811609dd27bf3a",
+    "sent_by_tool": false,
+    "actual_send_time": null,
+    "source_note": "依据实际回复登记收到；此前用户纠正本轮尚未发送，不倒推或补造发送日期。",
+    "next_action": "第13点待李云明确最终标签，第14点与其余证据不足项继续待核；不重复索要本轮回复。"
+  },
+  "point6_supplemental_confirmation_20261101": {
+    "reviewer": "李云",
+    "confirmation_date": "2026-11-01",
+    "exact_time": null,
+    "source": "user_explicit_confirmation",
+    "question_as_presented": "第6点的指定被引Lu论文全文第8页有包膜刺突蛋白论述，但原冻结10段没有。是否认可这两项个人判断建议：仅在全文综合支持层面将该限定主张判为ACCURATE；原模型理由只按“冻结候选缺少包膜依据”的覆盖说明限定通过？原严格解析失败、冻结输入缺口及陈明进待核意见均保留。",
+    "confirmation_quote": "认可两项建议，登记为李云个人意见",
+    "point_number": 6,
+    "case_id": "r1pdf:df5053bbd503ea2762b3617d",
+    "fulltext_classification": "ACCURATE",
+    "classification_scope": "仅PMC7092819第2页reference2对应novel enveloped RNA betacoronavirus主句；指定Lu/PMC7159086全文综合支持，不扩展引用3命名/相似性。",
+    "original_reason_opinion": "PASSED_WITH_LIMITED_SCOPE",
+    "reason_scope": "仅认可原理由关于冻结候选未涵盖包膜属性的覆盖说明；不作Lu全文缺证或引用错误判断。",
+    "source_pdf_sha256": "5864361327723fc360a329a77d3230f8bac716d6ac846b303d935cab3932fa63",
+    "fulltext_envelope_pdf_page": 8,
+    "frozen_10_candidates_unchanged": true,
+    "original_strict_engineering_success": false,
+    "chen_classification_still_pending": true,
+    "joint_conclusion": false,
+    "formal_acceptance_added": false,
+    "model_run": false,
+    "prior_disposition_preserved": "本文件dispositions为先前集中确认快照；本次仅更新第6点个人意见，其余九点不变。"
+  },
+  "current_disposition_note": "先前dispositions原文保留；第6点当前个人意见以point6_supplemental_confirmation_20261101为准，其余点沿用。"
+}

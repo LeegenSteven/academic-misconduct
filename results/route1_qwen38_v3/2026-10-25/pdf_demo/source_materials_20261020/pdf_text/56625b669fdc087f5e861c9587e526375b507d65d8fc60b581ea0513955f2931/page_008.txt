@@ -1,0 +1,146 @@
+Nucleic Acids Research, 2023, Vol. 51, Database issue D645
+10. Graziadei,A. and Rappsilber,J. (2022) Leveraging crosslinking mass
+spectrometry in structural and cell biology. Structure, 30, 37–54.
+11. Humphreys,I.R., Pei,J., Baek,M., Krishnakumar,A., Anishchenko,I.,
+Ovchinnikov,S., Zhang,J., Ness,T.J., Banjade,S., Bagde,S.R. et al.
+(2021) Computed structures of core eukaryotic protein complexes.
+Science, 374, eabm4805.
+12. Tunyasuvunakool,K. (2022) The prospects and opportunities of
+protein structure prediction with aI. Nat. Rev. Mol. Cell Biol., 23,
+445–446.
+13. Elhabashy,H., Merino,F., Alva,V., Kohlbacher,O. and Lupas,A.N.
+(2022) Exploring protein–protein interactions at the proteome level.
+Structure, 30, 462–475.
+14. Kamburov,A. and Herwig,R. (2022) ConsensusPathDB 2022:
+molecular interactions update as a resource for network biology.
+Nucleic Acids Res., 50, D587–D595.
+15. Persson,E., Castresana-Aguirre,M., Buzzao,D., Guala,D. and
+Sonnhammer,E.L.L. (2021) FunCoup 5: functional association
+networks in all domains of life, supporting directed links and
+tissue-specificity. J. Mol. Biol., 433, 166835.
+16. Franz,M., Rodriguez,H., Lopes,C., Zuberi,K., Montojo,J.,
+Bader,G.D. and Morris,Q. (2018) GeneMANIA update 2018. Nucleic
+Acids Res., 46, W60–W64.
+17. Greene,C.S., Krishnan,A., Wong,A.K., Ricciotti,E., Zelaya,R.A.,
+Himmelstein,D.S., Zhang,R., Hartmann,B.M., Zaslavsky,E.,
+Sealfon,S.C. et al. (2015) Understanding multicellular function and
+disease with human tissue-specific networks. Nat. Genet., 47, 569–576.
+18. Kim,C.Y., Baek,S., Cha,J., Yang,S., Kim,E., Marcotte,E.M., Hart,T.
+and Lee,I. (2022) HumanNet v3: an improved database of human
+gene networks for disease research. Nucleic Acids Res., 50,
+D632–D639.
+19. Kotlyar,M., Pastrello,C., Ahmed,Z., Chee,J., Varyova,Z. and
+Jurisica,I. (2022) IID 2021: towards context-specific protein
+interaction analyses by increased coverage, enhanced annotation and
+enrichment analysis. Nucleic Acids Res., 50, D640–D647.
+20. Snel,B., Lehmann,G., Bork,P. and Huynen,M.A. (2000) STRING: a
+web-server to retrieve and display the repeatedly occurring
+neighbourhood of a gene. Nucleic Acids Res., 28, 3442–3444.
+21. Szklarczyk,D., Gable,A.L., Lyon,D., Junge,A., Wyder,S.,
+Huerta-Cepas,J., Simonovic,M., Doncheva,N.T., Morris,J.H., Bork,P.
+et al. (2019) STRING v11: protein–protein association networks with
+increased coverage, supporting functional discovery in genome-wide
+experimental datasets. Nucleic Acids Res., 47, D607–D613.
+22. Szklarczyk,D., Gable,A.L., Nastou,K.C., Lyon,D., Kirsch,R.,
+Pyysalo,S., Doncheva,N.T., Legeay,M., Fang,T., Bork,P. et al. (2021)
+The STRING database in 2021: customizable protein–protein
+networks, and functional characterization of user-uploaded
+gene/measurement sets. Nucleic Acids Res., 49, D605–D612.
+23. Wei,J., Alfajaro,M.M., DeWeirdt,P.C., Hanna,R.E.,
+Lu-Culligan,W.J., Cai,W.L., Strine,M.S., Zhang,S.-M.,
+Graziano,V.R., Schmitz,C.O. et al. (2021) Genome-wide CRISPR
+screens reveal host factors critical for SARS-CoV-2 infection. Cell,
+184, 76–91.
+24. Schneider,W.M., Luna,J.M., Hoffmann,H.-H., S´anchez-Rivera,F.J.,
+Leal,A.A., Ashbrook,A.W., Le Pen,J., Ricardo-Lax,I., Michailidis,E.,
+Peace,A. et al. (2021) Genome-Scale identification of SARS-CoV-2
+and Pan-coronavirus host factor networks. Cell, 184, 120–132.
+25. Biering,S.B., Sarnik,S.A., Wang,E., Zengel,J.R., Leist,S.R.,
+Sch¨afer,A., Sathyan,V., Hawkins,P., Okuda,K., Tau,C. et al. (2022)
+Genome-wide bidirectional CRISPR screens identify mucins as host
+factors modulating SARS-CoV-2 infection. Nat. Genet., 54,
+1078–1089.
+26. Kulmanov,M., Khan,M.A., Hoehndorf,R. and Wren,J. (2018)
+DeepGO: predicting protein functions from sequence and
+interactions using a deep ontology-aware classifier. Bioinformatics,
+34, 660–668.
+27. Zhang,F., Song,H., Zeng,M., Li,Y., Kurgan,L. and Li,M. (2019)
+DeepFunc: a deep learning framework for accurate prediction of
+protein functions from protein sequences and interactions.
+Proteomics, 19, e1900019.
+28. Enright,A.J. and Ouzounis,C.A. (2001) Functional associations of
+proteins in entire genomes by means of exhaustive detection of gene
+fusions. Genome Biol., 2, RESEARCH0034.
+29. Snel,B., Bork,P. and Huynen,M.A. (2002) The identification of
+functional modules from the genomic association of genes. Proc.
+Natl. Acad. Sci. U.S.A., 99, 5890–5895.
+30. Guala,D., Ogris,C., M¨uller,N. and Sonnhammer,E.L.L. (2020)
+Genome-wide functional association networks: background, data &
+state-of-the-art resources. Brief Bioinform, 21, 1224–1237.
+31. Kanehisa,M., Furumichi,M., Sato,Y., Ishiguro-Watanabe,M. and
+Tanabe,M. (2021) KEGG: integrating viruses and cellular organisms.
+Nucleic Acids Res., 49, D545–D551.
+32. Gillespie,M., Jassal,B., Stephan,R., Milacic,M., Rothfels,K.,
+Senff-Ribeiro,A., Griss,J., Sevilla,C., Matthews,L., Gong,C. et al.
+(2022) The reactome pathway knowledgebase 2022. Nucleic Acids
+Res., 50, D687–D692.
+33. von Mering,C., Jensen,L.J., Snel,B., Hooper,S.D., Krupp,M.,
+Foglierini,M., Jouffre,N., Huynen,M.A. and Bork,P. (2005) STRING:
+known and predicted protein–protein associations, integrated and
+transferred across organisms. Nucleic Acids Res., 33, D433–D437.
+34. Morales,J., Pujar,S., Loveland,J.E., Astashyn,A., Bennett,R.,
+Berry,A., Cox,E., Davidson,C., Ermolaeva,O., Farrell,C.M. et al.
+(2022) A joint NCBI and EMBL-EBI transcript set for clinical
+genomics and research. Nature, 604, 310–315.
+35. Huynen,M., Snel,B., Lathe,W. 3rd and Bork,P. (2000) Predicting
+protein function by genomic context: quantitative evaluation and
+qualitative inferences. Genome Res., 10, 1204–1210.
+36. Skrabanek,L., Saini,H.K., Bader,G.D. and Enright,A.J. (2008)
+Computational prediction of protein–protein interactions. Mol.
+Biotechnol., 38, 445–468.
+37. Oughtred,R., Rust,J., Chang,C., Breitkreutz,B.-J., Stark,C.,
+Willems,A., Boucher,L., Leung,G., Kolas,N., Zhang,F. et al. (2021)
+The BioGRID database: a comprehensive biomedical resource of
+curated protein, genetic, and chemical interactions. Protein Sci., 30,
+187–200.
+38. Salwinski,L., Miller,C.S., Smith,A.J., Pettit,F.K., Bowie,J.U. and
+Eisenberg,D. (2004) The database of interacting proteins: 2004
+update. Nucleic Acids Res., 32, D449–D51.
+39. Berman,H.M., Westbrook,J., Feng,Z., Gilliland,G., Bhat,T.N.,
+Weissig,H., Shindyalov,I.N. and Bourne,P.E. (2000) The protein data
+bank. Nucleic Acids Res., 28, 235–242.
+40. Orchard,S., Ammari,M., Aranda,B., Breuza,L., Briganti,L.,
+Broackes-Carter,F., Campbell,N.H., Chavali,G., Chen,C.,
+del-Toro,N. et al. (2014) The MIntAct project–IntAct as a common
+curation platform for 11 molecular interaction databases. Nucleic
+Acids Res., 42, D358–D363.
+41. Caspi,R., Billington,R., Keseler,I.M., Kothari,A.,
+Krummenacker,M., Midford,P.E., Ong,W.K., Paley,S., Subhraveti,P.
+and Karp,P.D. (2020) The metacyc database of metabolic pathways
+and enzymes - a 2019 update. Nucleic Acids Res., 48, D445–D453.
+42. Meldal,B.H.M., Perfetto,L., Combe,C., Lubiana,T., Ferreira
+Cavalcante,J.V., Bye-A-Jee,H., Waagmeester,A., Del-Toro,N.,
+Shrivastava,A., Barrera,E. et al. (2022) Complex portal 2022: new
+curation frontiers. Nucleic Acids Res., 50, D578–D586.
+43. Gene Ontology Consortium (2021) The gene ontology resource:
+enriching a GOld mine. Nucleic Acids Res., 49, D325–D334.
+44. Amberger,J.S., Bocchini,C.A., Scott,A.F. and Hamosh,A. (2019)
+OMIM.org: leveraging knowledge across phenotype-gene
+relationships. Nucleic Acids Res., 47, D1038–D1043.
+45. Cherry,J.M., Hong,E.L., Amundsen,C., Balakrishnan,R., Binkley,G.,
+Chan,E.T., Christie,K.R., Costanzo,M.C., Dwight,S.S., Engel,S.R.
+et al. (2012) Saccharomyces genome database: the genomics resource
+of budding yeast. Nucleic Acids Res., 40, D700–D705.
+46. Franceschini,A., Szklarczyk,D., Frankild,S., Kuhn,M.,
+Simonovic,M., Roth,A., Lin,J., Minguez,P., Bork,P., von Mering,C.
+et al. (2013) STRING v9.1: protein–protein interaction networks,
+with increased coverage and integration. Nucleic Acids Res., 41,
+D808–D815.
+47. Lee,J., Yoon,W., Kim,S., Kim,D., Kim,S., So,C.H. and Kang,J. (2020)
+BioBERT: a pre-trained biomedical language representation model
+for biomedical text mining. Bioinformatics, 36, 1234–1240.
+48. Lewis,P., Ott,M., Du,J. and Stoyanov,V. (2020) Pretrained language
+models for biomedical and clinical tasks: understanding and
+extending the state-of-the-art. In: Proceedings of the 3rd Clinical
+Natural Language Processing Workshop. Association for
+Computational Linguistics, Stroudsburg, PA, USA.

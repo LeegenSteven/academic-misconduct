@@ -1,0 +1,174 @@
+175. 	 Johansson LC, Stauch B, Ishchenko A, et al.: A Bright Future for Serial 
+Femtosecond Crystallography with XFELs. Trends Biochem Sci. 2017; 42(9): 
+749–62.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+176. 	 Kern J, Yachandra VK, Yano J: Metalloprotein structures at ambient conditions 
+and in real-time: Biological crystallography and spectroscopy using X-ray free 
+electron lasers. Curr Opin Struct Biol. 2015; 34: 87–98.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+177. 	 Ebrahim A, Moreno-Chicano T, Appleby MV, et al.: Dose-resolved serial 
+synchrotron and XFEL structures of radiation-sensitive metalloproteins. IUCrJ. 
+2019; 6(Pt 4): 543–51.  
+PubMed Abstract | Publisher Full Text | Free Full Text
+178. 	
+ Sauter NK, Kern J, Yano J, et al.: Towards the spatial resolution of 
+metalloprotein charge states by detailed modeling of XFEL crystallographic 
+diffraction. Acta Crystallogr D Struct Biol. 2020; 76(Pt 2): 176–92.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+179. 	 Suga M, Shimada A, Akita F, et al.: Time-resolved studies of metalloproteins 
+using X-ray free electron laser radiation at SACLA. Biochim Biophys Acta Gen 
+Subj. 2020; 1864(2): 129466.  
+PubMed Abstract | Publisher Full Text 
+180. 	 Kang Y, Zhou XE, Gao X, et al.: Crystal structure of rhodopsin bound to arrestin 
+by femtosecond X-ray laser. Nature. 2015; 523(7562): 561–7.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+181. 	
+ Lin G, Weiss SC, Vergara S, et al.: Transcription with a laser: Radiation-
+damage-free diffraction of RNA Polymerase II crystals. Methods. 2019;  
+159–160: 23–8.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+182. 	
+ Coulibaly F, Chiu E, Ikeda K, et al.: The molecular organization of cypovirus 
+polyhedra. Nature. 2007; 446(7131): 97–101.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+183. 	 Coulibaly F, Chiu E, Gutmann S, et al.: The atomic structure of baculovirus 
+polyhedra reveals the independent emergence of infectious crystals in DNA 
+and RNA viruses. Proc Natl Acad Sci U S A. 2009; 106(52): 22205–10.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+184. 	 Sawaya MR, Cascio D, Gingery M, et al.: Protein crystal structure obtained at 
+2.9 Å resolution from injecting bacterial cells into an X-ray free-electron laser 
+beam. Proc Natl Acad Sci U S A. 2014; 111(35): 12769–74.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+185. 	 Colletier JP, Sawaya MR, Gingery M, et al.: De novo phasing with X-ray laser 
+reveals mosquito larvicide BinAB structure. Nature. 2016; 539(7627): 43–7. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+186. 	
+ Tetreau G, Banneville AS, Andreeva EA, et al.: Serial femtosecond 
+crystallography on in vivo-grown crystals drives elucidation of mosquitocidal 
+Cyt1Aa bioactivation cascade. Nat Commun. 2020; 11(1): 1153.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+187. 	 Chen JPJ, Donatelli JJ, Schmidt KE, et al.: Shape transform phasing of edgy 
+nanocrystals. Acta Crystallogr A Found Adv. 2019; 75(Pt 2): 239–59.  
+PubMed Abstract | Publisher Full Text 
+188. 	 Millane RP, Chen JPJ: Aspects of direct phasing in femtosecond 
+nanocrystallography. Philos Trans R Soc Lond, B Biol Sci. 2014; 369(1647): 
+20130498.  
+PubMed Abstract | Publisher Full Text 
+189. 	 Kirian RA, Bean RJ, Beyerlein KR, et al.: Phasing coherently illuminated 
+nanocrystals bounded by partial unit cells. Phil Trans R Soc B. 2014; 369(1647): 
+20130331.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+190. 	 Chen JPJ, Spence JCH, Millane RP: Direct phasing in femtosecond 
+nanocrystallography. I. Diffraction characteristics. Acta Crystallogr A Found Adv. 
+2014; 70(Pt 2): 143–53.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+191. 	 Chen JPJ, Spence JCH, Millane RP: Direct phasing in femtosecond 
+nanocrystallography. II. Phase retrieval. Acta Crystallogr A Found Adv. 2014; 
+70(Pt 2): 154–61.  
+PubMed Abstract | Publisher Full Text 
+192. 	
+ Ebrahim A, Appleby MV, Axford D, et al.: Resolving polymorphs and 
+radiation-driven effects in microcrystals using fixed-target serial synchrotron 
+crystallography. Acta Crystallogr D Struct Biol. 2019; 75(Pt 2): 151–159.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+193. 	 Thompson MC, Cascio D, Yeates TO: Microfocus diffraction from different 
+regions of a protein crystal: Structural variations and unit-cell polymorphism. 
+Acta Crystallogr D Struct Biol. 2018; 74(Pt 5): 411–421.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+194. 	 Neutze R: Opportunities and challenges for time-resolved studies of protein 
+structural dynamics at X-ray free-electron lasers. Philos Trans R Soc Lond B Biol 
+Sci. 2014; 369(1647): 20130318.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+195. 	
+ Eisenmesser EZ, Millet O, Labeikovsky W, et al.: Intrinsic dynamics of an 
+enzyme underlies catalysis. Nature. 2005; 438(7064): 117–21.  
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+196. 	 Henzler-Wildman KA, Lei M, Thai V, et al.: A hierarchy of timescales in protein 
+dynamics is linked to enzyme catalysis. Nature. 2007; 450(7171): 913–6. 
+PubMed Abstract | Publisher Full Text 
+197. 	 Henzler-Wildman KA, Thai V, Lei M, et al.: Intrinsic motions along an enzymatic 
+reaction trajectory. Nature. 2007; 450(7171): 838–44.  
+PubMed Abstract | Publisher Full Text 
+198. 	 Sawaya MR, Kraut J: Loop and subdomain movements in the mechanism 
+of Escherichia coli dihydrofolate reductase: Crystallographic evidence. 
+Biochemistry. 1997; 36(3): 586–603.  
+PubMed Abstract | Publisher Full Text 
+199. 	 Chakrabarti KS, Agafonov RV, Pontiggia F, et al.: Conformational Selection in a 
+Protein-Protein Interaction Revealed by Dynamic Pathway Analysis. Cell Rep. 
+2016; 14(1): 32–42.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+200. 	
+ Dellus-Gur E, Elias M, Caselli E, et al.: Negative Epistasis and Evolvability 
+in TEM-1 β-Lactamase--The Thin Line between an Enzyme’s Conformational 
+Freedom and Disorder. J Mol Biol. 2015; 427(14): 2396–409.  
+PubMed Abstract | Publisher Full Text | Free Full Text |  
+Faculty Opinions Recommendation 
+201. 	 Cimermancic P, Weinkam P, Rettenmaier TJ, et al.: CryptoSite: Expanding the 
+Druggable Proteome by Characterization and Prediction of Cryptic Binding 
+Sites. J Mol Biol. 2016; 428(4): 709–19.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+202. 	 Bowman GR, Geissler PL: Equilibrium fluctuations of a single folded protein 
+reveal a multitude of potential cryptic allosteric sites. Proc Natl Acad Sci U S A. 
+2012; 109(29): 11681–6.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+203. 	 Hart KM, Moeder KE, Ho CMW, et al.: Designing small molecules to target 
+cryptic pockets yields both positive and negative allosteric modulators. PLoS 
+One. 2017; 12(6): e0178678.  
+PubMed Abstract | Publisher Full Text | Free Full Text 
+204. 	 Moffat K: Time-resolved crystallography. Acta Crystallogr A. 1998; 54(Pt 6 Pt 1): 
+833–41.  
+PubMed Abstract | Publisher Full Text 
+205. 	 Schlichting I, Goody RS: Triggering methods in crystallographic enzyme 
+kinetics. Meth Enzymol. 1997; 277: 467–90.  
+PubMed Abstract | Publisher Full Text 
+206. 	 Chen CC, Herzberg O: Inhibition of β-Lactamase by Clavulanate. Trapped 
+Intermediates in Cryocrystallographic Studies. J Mol Biol. 1992; 224(4):  
+1103–13.  
+PubMed Abstract | Publisher Full Text 
+207. 	 Moffat K, Henderson R: Freeze trapping of reaction intermediates. Curr Opin 
+Struct Biol. 1995; 5(5): 656–63.  
+PubMed Abstract | Publisher Full Text 
+208. 	 Ding X, Rasmussen BF, Petsko GA, et al.: Direct Structural Observation of an 
+Acyl-Enzyme Intermediate in the Hydrolysis of an Ester Substrate by Elastase. 
+Biochemistry. 1994; 33(31): 9285–93.  
+PubMed Abstract | Publisher Full Text 
+209. 	 Teng TY, Srajer V, Moffat K: Photolysis-induced structural changes in single 
+crystals of carbonmonoxy myoglobin at 40 K. Nat Struct Biol. 1994; 1(10): 
+701–5.  
+PubMed Abstract | Publisher Full Text 
+210. 	 Bourgeois D, Ursby T, Wulff M, et al.: Feasibility and Realization of Single-Pulse 
+Laue Diffraction on Macromolecular Crystals at ESRF. J Synchrotron Radiat. 
+1996; 3(Pt 2): 65–74.  
+PubMed Abstract | Publisher Full Text 
+211. 	 Hajdu J, Acharya KR, Stuart DI, et al.: Catalysis in the crystal: Synchrotron 
+radiation studies with glycogen phosphorylase b. EMBO J. 1987; 6(2): 539–46. 
+PubMed Abstract | Publisher Full Text | Free Full Text 
+212. 	 Schlichting I, Almo SC, Rapp G, et al.: Time-resolved X-ray crystallographic 
+study of the conformational change in Ha-Ras p21 protein on GTP hydrolysis. 
+Nature. 1990; 345(6273): 309–15.  
+PubMed Abstract | Publisher Full Text 
+213. 	 Ng K, Getzoff ED, Moffat K: Optical Studies of a Bacterial Photoreceptor 
+Protein, Photoactive Yellow Protein, in Single Crystals. Biochemistry. 2002; 
+34(3): 879–90.  
+PubMed Abstract | Publisher Full Text 
+214. 	 Genick UK, Borgstahl GE, Ng K, et al.: Structure of a protein photocycle 
+intermediate by millisecond time-resolved crystallography. Science. 1997; 
+275(5305): 1471–5.  
+PubMed Abstract | Publisher Full Text 
+215. 	
+ Schotte F, Lim M, Jackson TA, et al.: Watching a Protein as it Functions with 
+150-ps Time-Resolved X-ray Crystallography. Science. 2003; 300(5627): 1944–7. 
+PubMed Abstract | Publisher Full Text | Faculty Opinions Recommendation 
+216. 	 Schotte F, Soman J, Olson JS, et al.: Picosecond time-resolved X-ray 
+crystallography: Probing protein function in real time. J Struct Biol. 2004; 
+147(3): 235–46.  
+PubMed Abstract | Publisher Full Text 
+217. 	
+ Ihee H, Rajagopal S, Srajer V, et al.: Visualizing reaction pathways in 
+photoactive yellow protein from nanoseconds to seconds. Proc Natl Acad Sci U 
+Page 15 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

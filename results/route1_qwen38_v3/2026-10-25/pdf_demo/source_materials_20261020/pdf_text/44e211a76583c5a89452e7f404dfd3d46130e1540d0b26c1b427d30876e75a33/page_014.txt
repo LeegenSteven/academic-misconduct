@@ -1,0 +1,119 @@
+individual promiscuous and non-promiscuous protein, and the
+resulting distribution was plotted.
+Data availability
+hu.MAP 2.0 is available at: http://humap2.proteincomplexes.org/
+Protein
+Complexes
+List:
+humap2_complexes
+http://humap2.
+proteincomplexes.org/static/downloads/humap2/humap2_comple
+xes_20200809.txt
+Protein Interaction Network with probability scores: humap2_
+ppis_ACC
+http://humap2.proteincomplexes.org/static/downloads/
+humap2/humap2_ppis_ACC_20200821.pairsWprob.gz
+Cytoscape Network: humap2_protein_complex_map http://hum
+ap2.proteincomplexes.org/static/downloads/humap2/humap2_protein_
+complex_map_20200821.cys
+Train Complexes: humap2_train_complexes_ACC
+http://humap2.proteincomplexes.org/static/downloads/humap2/
+humap2_train_complexes_ACC_20200818.txt
+Test Complexes: humap2_test_complexes_ACC
+http://humap2.proteincomplexes.org/static/downloads/humap2/
+humap2_test_complexes_ACC_20200818.txt
+Train Positive PPIs: humap2_train_ppis_ACC
+http://humap2.proteincomplexes.org/static/downloads/humap2/
+humap2_train_ppis_ACC_20200818.txt
+Train Negative PPIs: humap2_neg_train_ppis_ACC
+http://humap2.proteincomplexes.org/static/downloads/humap2/
+humap2_neg_train_ppis_ACC_20200818.txt
+Test Positive PPIs: humap2_test_ppis_ACC
+http://humap2.proteincomplexes.org/static/downloads/humap2/
+humap2_test_ppis_ACC_20200818.txt
+Test Negative PPIs: humap2_neg_test_ppis_ACC
+http://humap2.proteincomplexes.org/static/downloads/humap2/
+humap2_neg_test_ppis_ACC_20200818.txt
+Feature Matrix: humap2_feature_matrix
+http://humap2.proteincomplexes.org/static/downloads/humap2/
+humap2_feature_matrix_20200820.featmat.gz
+Software pipeline: GitHub https://github.com/marcottelab/prote
+in_complex_maps
+Expanded View for this article is available online.
+Acknowledgements
+This work was supported by grants from the NIH (01 DK110520, R35
+GM122480 to E.M.M.; R01 HL117164 and R01 HD085901 to J.B.W.; K99
+HD092613 and L40 HD096554 to K.D.) and the Welch Foundation (F-1515) to
+E.M.M. The authors acknowledge the Texas Advanced Computing Center
+(TACC) at The University of Texas at Austin for providing high-performance
+computing resources that have contributed to the research results reported
+within this paper. URL: http://www.tacc.utexas.edu.
+Author contributions
+KD, JBW, and EMM conceived of the study. KD designed all experiments and
+analyzed data. KD wrote software including software pipeline and web resources.
+KD, JBW, and EMM discussed and interpreted the results, and wrote the manuscript.
+Conflict of interest
+The authors declare that they have no conflict of interest.
+References
+Alberts B (1998) The cell as a collection of protein machines: preparing the
+next generation of molecular biologists. Cell 92: 291–294
+Arkin MR, Tang Y, Wells JA (2014) Small-molecule inhibitors of
+protein-protein interactions: progressing towards the reality. Chem Biol 21:
+1102–1114
+Ashburner M, Ball CA, Blake JA, Botstein D, Butler H, Cherry JM, Davis AP,
+Dolinski K, Dwight SS, Eppig JT et al (2000) Gene ontology: tool for the
+unification of biology. The Gene Ontology Consortium. Nat Genet 25:
+25–29
+Baltz A, Munschauer M, Schwanh€ausser B, Vasile A, Murakawa Y, Schueler M,
+Youngs N, Penfold-Brown D, Drew K, Milek M et al (2012) The mRNA-
+bound proteome and its global occupancy profile on protein-coding
+transcripts. Mol Cell 46: 674–690
+Boldt K, van Reeuwijk J, Lu Q, Koutroumpas K, Nguyen T-M, Texier Y, van
+Beersum SEC, Horn N, Willer JR, Mans DA et al (2016) An organelle-
+specific protein landscape identifies novel diseases and molecular
+mechanisms. Nat Commun 7: 11491
+Bruel A-L, Franco B, Duffourd Y, Thevenon J, Jego L, Lopez E, Deleuze J-F,
+Doummar D, Giles RH, Johnson CA et al (2017) Fifteen years of research
+on oral-facial-digital syndromes: from 1 to 16 causal genes. J Med Genet
+54: 371–380
+Buitinck L, Louppe G, Blondel M, Pedregosa F, Mueller A, Grisel O, Niculae V,
+Prettenhofer P, Gramfort A, Grobler J et al (2013) API design for machine
+learning software: experiences from the scikit-learn project. ArXiv https://
+arxiv.org/abs/1309.0238v1 [PREPRINT]
+Castello A, Fischer B, Eichelbaum K, Horos R, Beckmann B, Strein C, Davey N,
+Humphreys D, Preiss T, Steinmetz L et al (2012) Insights into RNA biology
+from an atlas of mammalian mRNA-binding proteins. Cell 149: 1393–1406
+Chang C-C, Lin C-J (2011) LIBSVM: a library for support vector machines. ACM
+Trans Intell Syst Technol 2: 27:1– 27:27
+Chapados BR, Chai Q, Hosfield DJ, Qiu J, Shen B, Tainer JA (2001)
+Structural biochemistry of a type 2 RNase H: RNA primer recognition
+and removal during DNA replication11Edited by K. Morikawa. J Mol Biol
+307: 541–556
+Chapple CE, Robisson B, Spinelli L, Guien C, Becker E, Brun C (2015) Extreme
+multifunctional proteins identified from a human protein interaction
+network. Nat Commun 6: 7412
+Davis J, Goadrich M (2006) The relationship between Precision-Recall and
+ROC curves. In Proceedings of the 23rd international conference on
+Machine learning - ICML ’06, pp 233–240. Pittsburgh, PA: ACM Press
+Diep J, Ooi YS, Wilkinson AW, Peters CE, Foy E, Johnson JR, Zengel J, Ding S,
+Weng K-F, Laufman O et al (2019) Enterovirus pathogenesis requires the
+host methyltransferase SETD3. Nat Microbiol 4: 2523–2537
+Drew K, Lee C, Huizar RL, Tu F, Borgeson B, McWhite CD, Ma Y, Wallingford
+JB, Marcotte EM (2017) Integration of over 9,000 mass spectrometry
+experiments builds a global map of human protein complexes. Mol Syst
+Biol 13: 932
+Enright AJ, Van Dongen S, Ouzounis CA (2002) An efficient algorithm for
+large-scale detection of protein families. Nucleic Acids Res 30: 1575–1584
+Fabregat A, Sidiropoulos K, Garapati P, Gillespie M, Hausmann K, Haw R,
+Jassal B, Jupe S, Korninger F, McKay S et al (2016) The reactome pathway
+knowledgebase. Nucleic Acids Res 44: D481–D487
+Gavin A-C, Bösche M, Krause R, Grandi P, Marzioch M, Bauer A, Schultz J, Rick
+JM, Michon A-M, Cruciat C-M et al (2002) Functional organization of the
+yeast proteome by systematic analysis of protein complexes. Nature 415:
+141–147
+14 of 16
+Molecular Systems Biology
+17: e10016 | 2021
+ª 2021 The Authors
+Molecular Systems Biology
+Kevin Drew et al

@@ -1,0 +1,113 @@
+hypothesize that the promiscuous proteins would be on average
+older due to younger proteins not having enough evolutionary time
+to make multiple connections. Figure 3D shows a clear enrichment
+in older proteins in the set of promiscuous proteins and a depletion
+for younger proteins (see Materials and Methods). Using gProfiler
+(Reimand et al, 2016) to identify functionally annotations for the
+older promiscuous proteins, we identify older promiscuous proteins
+are
+enriched
+for
+Reactome
+“Metabolism”
+(adjusted
+P-value
+~ 5 × 10E−8, g:SCS corrected) among other metabolism-related
+annotations (Fig EV2). Consistent with this finding, many “moon-
+lighting” proteins are enzymes with multifunctional roles (Jeffery,
+2015). Our results suggest a protein’s complex membership may
+play a role in its multifunctional activity.
+Functional annotation of uncharacterized proteins
+High-quality protein complex maps have long been sought after for
+the purpose of functionally annotating poorly characterized proteins
+in a genome due to the relationship between physical interaction
+and biological function (Gavin et al, 2002; Ho et al, 2002; Wang &
+Marcotte, 2010). To assess hu.MAP 2.0’s ability to functionally
+annotate uncharacterized proteins, we first tested whether our iden-
+tified complexes are enriched with literature-curated annotations
+including Gene Ontology (Ashburner et al, 2000), Reactome (Fabregat
+et al, 2016), CORUM (Giurgiu et al, 2019), Human Phenotype
+Ontology (Ko¨hler et al, 2014), and KEGG (Kanehisa et al, 2014). We
+see in Fig EV3 that >40% of our complexes are enriched with at
+least one annotation which is 20.5-fold higher than expected by
+randomly shuffled complexes. This result shows hu.MAP 2.0
+complexes are functionally coherent.
+As an example of the utility of hu.MAP 2.0 in annotating poorly
+characterized proteins, Fig 4A shows two previously unreported
+interactions with RNaseH2, CMTR1, and SETD3. The evidence for
+these interactions is elucidated from co-fractionation mass spec-
+trometry experiments which demonstrate a high degree of correla-
+tion over multiple separation column types and multiple organisms,
+which we have shown suggests a deep conservation in function
+(Wan et al, 2015) (Fig 4B). RNaseH2 is implicated in Aicardi–-
+Goutieres syndrome, a monogenic autoinflammatory disorder which
+mimics in utero viral infection of the brain (Reijns & Jackson, 2014).
+Mechanistically, RNaseH2 degrades RNA fragments of RNA-DNA
+hybrids including Okazaki fragment RNA primers during DNA repli-
+cation (Chapados et al, 2001). Mutations in RNaseH2 are thought to
+disrupt the degradation of immuno-stimulating nucleic acids and
+cause innate immune activation (Reijns & Jackson, 2014). CMTR1 is
+a mRNA methyltransferase and a known regulator of protein expres-
+sion of IFN-stimulated genes to restrict viral infection (Williams
+et al, 2020). SETD3, also a methyltransferase, is a human host
+protein critical for infection of a wide range of viruses and partici-
+pates in viral replication yet its mode of action is currently unknown
+(Diep et al, 2019). The links we identify between CMTR1, SETD3,
+and RNaseH2 point to the hypothesis where CMTR1 and SETD3
+interact with RNaseH2 to modulate the innate immune response
+and affect viral replication.
+It has been observed that biomedical research is biased toward
+the study of well-annotated genes and this bias is due less to the
+physiological importance or disease relevance of the gene but rather
+to the ease of experimentation using traditional methods (Stoeger
+et al, 2018). Unbiased systematic approaches such as the integration
+of thousands of mass spectrometry experiments described here
+provide a powerful tool for closing the gap of uncharacterized
+proteins. We therefore cross-referenced genes deemed poorly anno-
+tated (UniProt (The UniProt Consortium, 2017) annotation score
+≤3) with hu.MAP 2.0 complexes that were enriched for functional
+◀
+Figure 3.
+hu.MAP 2.0 complexes identify promiscuous proteins.
+A, B
+Multifunctional protein HSPA9 participates in two distinct complexes, HuMAP2_00358 (A) and HuMAP2_01130 (B). HuMAP2_00358 (turquoise, “high” confidence) is
+enriched for Reactome annotation “Mitochondrial protein import”, a known function of HSPA9. HuMAP2_01130 (blue, “very high” confidence) is enriched for
+Reactome annotation “Regulation of HSF1-mediated heat shock response”, another known function of HSPA9. Weight of network edges represent confidence of
+interactions.
+C
+Sparkline elution profiles from two orthogonal biochemical fractionation experiments. HEK 293 cell lysate was separated using a mixed bed ion-exchange column
+and Drosophila melanogaster embryo lysate was separated using a heparin column (Wan et al, 2015). HSPA9 elutes in two distinct peaks (shaded) which co-elute
+with members of the two complexes. X-axis represents fraction collected along biochemical separation. Y-axis for each row represents observed protein abundance.
+D
+Promiscuous proteins are older on average than single complex proteins. Z-scores for each protein age group were determined by comparing the number of
+promiscuous proteins to a randomly sampled background set consisting of non-promiscuous proteins (i.e., participating in only one complex).
+▸
+Figure 4.
+Transfer of function annotations to uncharacterized proteins.
+A
+SETD3 and CMTR1 are identified as co-complex interactors with the Ribonuclease H2 complex which provides a possible mechanistic explanation for their role in
+viral infection.
+B
+Sparkline elution profiles from multiple orthogonal co-fractionation experiments demonstrate a strong degree of co-elution among subunits in the SETD3-CMTR1-
+RNAse H2 complex. Weight of network edges represents confidence of interactions. X-axis represents fraction collected along biochemical separation. Y-axis for each
+row represents observed protein abundance.
+C
+The uncharacterized protein, C7orf26, is identified as part of the Integrator complex.
+D
+Sparkline elution profiles show a high degree of correlation between C7orf26 and subunits of the Integrator complex from multiple orthogonal co-fractionation
+experiments.
+E
+The association of C7orf26 and Integrator complex is additionally supported by affinity purification mass spectrometry (AP-MS) experiment where C7orf26 is pulled
+down with Integrator subunit baits.
+F
+The uncharacterized protein, CCDC9, is identified as co-complex with the exon–exon junction complex (EJC), a ribonucleoprotein complex involved in splicing.
+G
+Sparkline elution profiles from the independently collected RNA DIF-FRAC size exclusion chromatography (SEC) experiment show CCDC9 co-elutes with known
+subunits of the EJC when RNA is present (black). The elution profiles also show CCDC9 is sensitive to RNAse A treatment (shift of elution peak between black and red
+profiles) as are the subunits of the EJC further supporting CCDC9’s participation in this known ribonucleoprotein complex.
+ª 2021 The Authors
+Molecular Systems Biology
+17: e10016 | 2021
+7 of 16
+Kevin Drew et al
+Molecular Systems Biology

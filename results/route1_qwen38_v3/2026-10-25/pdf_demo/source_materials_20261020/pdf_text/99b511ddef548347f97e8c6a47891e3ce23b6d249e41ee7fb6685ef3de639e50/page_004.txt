@@ -1,0 +1,84 @@
+sequencing methods such as Duplex-Seq (Kennedy et al., 2014) and
+iDES (Newman et al., 2016). For Illumina sequencing platforms,
+UMI can be integrated into the sample index or inserted DNA. UMI
+should be shifted to the read identifier to be retained by alignment
+tools like BWA (Li and Durbin, 2009) or Bowtie (Langmead et al.,
+2012).
+Some tools have already been developed for preprocessing UMI-
+integrated FASTQ data, such as UMI-tools (Smith et al., 2017) and
+umis (Valentine Svensson, 2018). However, these tools are not effi-
+cient enough and require individual execution that consumes add-
+itional I/O and computational resources. fastp supports UMI
+preprocessing with little overhead; that is, it supports UMI in either
+a sample index or inserted DNA (or both). Compared to UMI-tools
+or umis, fastp runs approximately 3 times faster even when perform-
+ing other tasks simultaneously (i.e. QC and filtering). Performance
+evaluation results are discussed in the next section.
+2.7 Output splitting
+Parallel processing of NGS data has become a new trend, especially
+in a cloud-computing environment. In a typical parallel NGS data
+processing pipeline, an original FASTQ file will be split into multiple
+pieces, and each piece will be run with aligners and alignment ad-
+justment tools to obtain the corresponding BAM file. These BAM
+files can then be merged into different forms for parallel variant
+calling.
+fastp supports two splitting modes: splitting by file lines and
+splitting by file numbers. The latter is more complicated because
+fastp must evaluate the total lines of the input files, which is espe-
+cially difficult for GZIP-compressed data. fastp evaluates total lines
+by comparing the stream size of the first 1 M reads.
+2.8 Duplication evaluation
+Duplication level evaluation is important to profile the diversity of
+the sequencing libraries. FASTQC evaluates duplication by first
+recording the reads appear in the first 100 000 records, and then
+counting these reads through the whole file. For each read, only the
+first 50 bp is used for the comparison to reduce computation cost
+and eliminate sequencing error interference. FASTQC’s method has
+a major drawback that it doesn’t support paired-end duplication
+analysis. For paired-end input, it detects duplicated reads for read1
+and read2 individually. So it’s result only reflects the duplication
+level of read1 and read2 respectively, but doesn’t reflect the duplica-
+tion level of the whole inserted DNA sequence. This may result in
+overestimation, particularly for high-depth sequencing while it’s
+quite common that two different DNA fragments share the starting
+sequences but have different lengths.
+fastp supports duplication level evaluation for both single-end
+and paired-end data. Different from FASTQC that uses a hash table
+to store the duplication keys, fastp stores them by a duplication
+array D and a counting array C to provide much faster access. fastp
+computes two keys from a paired-end reads, the first 12 bp of read1
+as key1, and first 32 bp of read2 as key2. key1 is used to find the off-
+set of array D, while key2 is denoted by a 64-bit long integer for fast
+comparison. For each read pair, fastp looks up the array C by key1,
+and checks that whether it’s 0. If the count is 0, then the correspond-
+ing element of array D will be occupied by key2, and the count is re-
+set as 1. If the count is not 0, the corresponding element of array D
+will be compared with key2, and the count will be increased by 1
+only if they are identical. The arrays D and C have a size of 224,
+which is much bigger than 100 000 used in FASTQC.
+Paired-end duplication analysis is very important to estimate
+more accurate duplication level. We conducted an experiment for a
+10 000 paired-end cell-free DNA sequencing data to compare
+FASTQC and fastp for duplication evaluation. In the result,
+FASTQC reported duplication rates of 79.99% and 77.75% for
+read1 and read2 respectively, but fastp only reported a duplication
+rate of 16.22%. We then run fastp in single-end mode for read1 and
+read2 individually, and it reported duplication rates of 79.23% and
+79.06 for read1 and read2 respectively, which are quite close to
+FASTQC’s result, but are obviously overestimated.
+In addition to evaluating the duplication levels, fastp also records
+the GC percentage for each read. The duplication level histogram
+and corresponding mean GC percentages are then presented to-
+gether, as demonstrated in Figure 4.
+2.9 Overrepresented sequence analysis
+Some sequences, or even entire reads, can be overrepresented in
+FASTQ data. Analysis of these overrepresented sequences provides
+an overview of certain sequencing artifacts such as PCR over-
+duplication, polyG tails and adapter contamination. FASTQC offers
+an overrepresented sequence analysis module, however, according
+to the author’s introduction, FASTQC only tracks the first 1 M
+reads of the input file to conserve memory. We suggest that inferring
+Fig. 3. The base content ratio curves generated by fastp for one Illumina NextSeq FASTQ ﬁle. (a) Before fastp preprocessing, and (b) after fastp preprocessing. As
+depicted in (a), the G curve is abnormal and the G/C curves are separated. In (b), the G/C separation problem is eliminated
+fastp
+i887

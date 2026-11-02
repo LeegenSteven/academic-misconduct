@@ -1,0 +1,41 @@
+{
+  "created_at_utc": "2026-10-23T06:23:55.967130+00:00",
+  "review_mode": "AI-assisted nonblind source review",
+  "source_csv": "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\成员3对接\\R2EXP25_陈明进首轮回传核查_20261023\\陈明进_R2EXP25独立语义标注_v1_20261022_原始回传.csv",
+  "source_csv_sha256": "948bb8dc7f76ed1aff0d7535b4eee89ddfe9070a7d12416ad7c1e12324e15a86",
+  "records_reviewed": 25,
+  "cmj_original_labels": {
+    "ACCURATE": 20,
+    "EMPTY": 4,
+    "NOT_ACCURATE": 1
+  },
+  "priority_ids": [
+    "R2EXP-PMC-04",
+    "R2EXP-PMC-06",
+    "R2EXP-PMC-07",
+    "R2EXP-PMC-12",
+    "R2EXP-PMC-19",
+    "R2EXP-PMC-21",
+    "R2EXP-PMC-24",
+    "R2EXP-PMC-27",
+    "R2EXP-PMC-28"
+  ],
+  "scoped_support_suggestions": 16,
+  "joint_adjudication_completed": false,
+  "formal_qualified_count": null,
+  "independent_agreement": null,
+  "original_inputs_unchanged": true,
+  "protected_files": {
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\成员3对接\\R2EXP25_陈明进首轮回传核查_20261023\\陈明进_R2EXP25独立语义标注_v1_20261022_原始回传.csv": "948bb8dc7f76ed1aff0d7535b4eee89ddfe9070a7d12416ad7c1e12324e15a86",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\成员3对接\\R2EXP25_独立语义标注准备包_v1_20261022\\李云_独立语义标注空表_v1.csv": "395756ce51e28a1cf03236e66e95c09a9e28b7c8ece439864008d10ecc23235e",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\成员3对接\\R2EXP25_独立语义标注准备包_v1_20261022\\陈明进_独立语义标注空表_v1.csv": "395756ce51e28a1cf03236e66e95c09a9e28b7c8ece439864008d10ecc23235e",
+    "C:\\Users\\y\\Desktop\\学术引用不端\\10.19-11.2\\成员3对接\\R2EXP25_独立语义标注准备包_v1_20261022\\annotation_units.jsonl": "18f224d5bcac7183fa054d02c5b52e17dec52076b768251c5a44882a838c2da4"
+  },
+  "files": {
+    "25条证据辅助核查_含原值与原文定位.jsonl": "c9d4713d946bbbf38eceaca75cbe0b8f14b0be355c853b42792ec8dc5a245520",
+    "开始查看_25条辅助核查.html": "c3ba0f4527c59e8ec3bc242e405d93b1820b5bf090ad1caa186312d01b435d1e",
+    "逐条核查与共同确认问题.md": "ffebb7971bba3b43e73c7dd8e65e656336b877c1a73d783e85a7007fcf327d96",
+    "需共同确认的9条问题.txt": "c6ee680087f43a45b244b8668ee85b3aa66238bf7b516f6945d4ab872888360f",
+    "产物复核记录.json": "4b401409c3f42397b913a7f746221b561b6bfc23636aea8541db4cab60539c74"
+  }
+}

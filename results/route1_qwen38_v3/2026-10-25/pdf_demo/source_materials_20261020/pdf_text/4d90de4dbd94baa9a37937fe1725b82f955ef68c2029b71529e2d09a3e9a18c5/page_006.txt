@@ -1,0 +1,121 @@
+molecular models from cryo-EM data, in some cases utiliz-
+ing complex automated modeling80,81 or molecular dynamics 
+calculations82–85. The new breakthroughs in cryo-EM resolution 
+resulted in a new type of experimentally derived atomic model, 
+which in turn necessitated the development of validation meth-
+ods to assess data and model quality86,87. This was achieved 
+through repurposing of existing tools for analysis of molecular 
+geometries88, which had already been used for years by X-ray 
+crystallographers, as well as through the creation of new tools 
+that analyze data quality89–91 and the fit of atomic models to 
+three-dimensional density map reconstructions92,93.
+An emerging frontier in cryo-EM data interpretation is the anal-
+ysis of energetic landscapes and the dissection of structural 
+heterogeneity94. In a cryo-EM data set with a large number of par-
+ticles, the equilibrium ensemble of conformational states should 
+be statistically represented, offering the ability to model different 
+conformations of a molecule or complex from a single sample 
+if one can correctly classify the particles into groups sharing the 
+same conformational state. A number of different computational 
+strategies 
+for 
+performing 
+this 
+task 
+are 
+under 
+active 
+development58,58,95–98. With sufficiently large data sets, it should 
+be possible to structurally and energetically characterize the 
+conformational landscape and functional motions for complex 
+molecules99–102. Finally, for systems where computational sort-
+ing of alternative conformational states is challenging, the field 
+of antibody engineering has increasingly come to the rescue. For 
+example, engineered antibody fragments of various types devel-
+oped through library selection methods have been used to trap 
+specific 
+conformational 
+states 
+of 
+interest103,104 
+(reviewed 
+in 105,106) and/or to act as fiducial markers for molecules and 
+complexes that have ambiguous orientations, sometimes due to 
+pseudosymmetry107,108.
+Developments in X-ray crystallography
+While rapid developments in cryo-EM have placed it in the spot-
+light over the past several years, X-ray crystallography remains 
+the workhorse of structural biology, yielding the majority of 
+structures deposited annually into the Protein Data Bank (PDB) 
+by a wide margin (Figure 1a). Additionally, for structural stud-
+ies of small soluble proteins that require Å-level precision, 
+as is often the case in the fields of enzyme catalysis, drug dis-
+covery, and protein engineering, X-ray crystallography still 
+reigns supreme109 (Figure 1b). X-ray crystallography has ben-
+efited from decades of research on automation. Modern synchro-
+tron beamlines currently measure hundreds of samples per day, 
+with very little human intervention80,109–111. This rapid data col-
+lection has enabled experiments such as crystallographic 
+fragment screening, which combines high-throughput compound 
+screening with high-resolution structural measurements112–115.
+Two major synergistic advances in X-ray crystallographic data 
+collection and interpretation have driven exciting technologi-
+cal developments that complement more traditional experimental 
+measurements. These developments have broadened the scope 
+of questions that can be addressed using the method. First, the 
+view of X-ray crystallography as a method for determining a sin-
+gle, static structure of a molecule is evolving, as several recent 
+developments are opening exciting opportunities for extracting 
+information about the conformational landscape by visualizing 
+multiple structural states for a crystallized macromolecule. Sec-
+ond, the dramatic increase in photon flux at synchrotron beam-
+lines and the unprecedented X-ray pulse energies available at 
+XFEL sources have opened the door to measuring diffraction 
+from very small or highly radiation-sensitive macromolecular 
+crystals, enabling a variety of interesting new experiments. While 
+the majority of crystallographic experiments are still performed 
+using traditional measurement strategies, recent examples from 
+the literature, some of which are highlighted below, demon-
+strate the deep mechanistic insight that can be obtained using 
+exciting new experimental methods.
+Crystallography at near-physiological temperatures and 
+modeling the conformational ensemble
+A bane of traditional crystallography has been its mainly static 
+nature, notwithstanding the important information contained in 
+atomic displacement parameters and sparsely modeled alternative 
+conformations. In the late 1970s, cryocrystallography—wherein 
+a crystal is frozen in liquid nitrogen and maintained at cryo-
+genic temperature (~100 K) throughout the course of data collec-
+tion—took over the field of macromolecular crystallography116,117. 
+Importantly, cryocooling increased the tolerance of crystals to 
+radiation damage, a common limiting factor for successful data 
+collection, by approximately two orders of magnitude118–121. While 
+it was appreciated several decades ago that cryocooling would 
+alter the intrinsic dynamics of a crystallized macromolecule122–124, 
+the effect of cryocooling on the interpretation of mechanism was 
+not well documented until 2009, when a study of proline isomer-
+ase demonstrated that a crystal structure determined at 100 K 
+showed only a single side chain conformation for most residues, 
+whereas a structure determined at 277 K revealed a series of 
+alternative side chain conformations that were shown by muta-
+genesis to be critical for catalysis125. In the decade since this key 
+observation was made, a number of additional cases have dem-
+onstrated that structural information derived from data collected 
+closer to physiological temperature (or across a range of tem-
+peratures) can provide a wealth of information about the confor-
+mational ensemble beyond a single static structure115,126–128. As 
+noted above, similar ideas are emerging in electron microscopy94.
+Performing crystallography at non-cryogenic temperatures is 
+now easier than ever because modern X-ray detectors and data 
+processing software enable the measurement of X-ray diffrac-
+tion using permissibly low X-ray doses129–131. Additionally, 
+computational modelling software that can use experimental 
+X-ray diffraction data to create models of alternative conforma-
+tions or entire conformational ensembles is now available132–136, 
+allowing crystallographers to maximize the amount of struc-
+tural and biophysical information that can be accessed from data 
+collected at non-cryogenic temperatures. Frontiers in this area of 
+research include the measurement of diffuse (non-Bragg) scatter-
+ing for the analysis of protein dynamics137–141 and the incorporation 
+Page 6 of 18
+F1000Research 2020, 9(Faculty Rev):667 Last updated: 02 JUL 2020

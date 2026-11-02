@@ -1,0 +1,105 @@
+JACK ET AL.
+5157
+TABLE 6
+Clinical staging for individuals on the Alzheimer’s
+disease continuum.
+Stage 0 Asymptomatic, deterministic genea
+No evidence of clinical change. Biomarkers in normal range.
+Stage 1 Asymptomatic, biomarker evidence only
+Performance within expected range on objective cognitive tests.
+No evidence of recent cognitive decline or new symptoms.
+Stage 2 Transitional decline: mild detectable change, but minimal
+impact on daily function
+Normal performance within expected range on objective cognitive
+tests.
+Decline from previous level of cognitive or neurobehavioral function
+that represents a change from individual baseline within the past 1 to 3
+years, and has been persistent for at least 6 months.
+May be documented by evidence of subtle decline on longitudinal
+cognitive testing, which may involve memory or other cognitive
+domains but performance still within normal range.
+May be documented through subjective report of cognitive decline.
+May be documented with recent-onset change in mood, anxiety,
+motivation not explained by life events.
+Remains fully independent with no or minimal functional impact on
+activities of daily living (ADLs)
+Stage 3 Cognitive impairment with early functional impact
+Performance in the impaired/abnormal range on objective cognitive
+tests.
+Evidence of decline from baseline, documented by the individual’s
+report or by an observer’s (e.g., study partner) report or by change on
+longitudinal cognitive testing or neurobehavioral assessments.
+Performs daily life activities independently but cognitive difficulty may
+result in detectable functional impact on complex ADLs (i.e., may take
+more time or be less efficient but still can complete—either
+self-reported or corroborated by an observer).
+Stage 4 Dementia with mild functional impairment
+Progressive cognitive and mild functional impairment on instrumental
+ADLs, with independence in basic ADLs.
+Stage 5 Dementia with moderate functional impairment
+Progressive cognitive and moderate functional impairment on basic
+ADLs requiring assistance.
+Stage 6 Dementia with severe functional impairment
+Progressive cognitive and functional impairment, and complete
+dependence for basic ADLs.
+aIndividuals with Down syndrome may not be fully independent even
+in stage 0 because of underlying intellectual disability. In these individ-
+uals, decline in functional independence from baseline may be a more
+appropriate indicator of stage.
+(i.e., inefficient activities of daily living but still independent); 4 to 6, loss
+of independence with progressively worse functional loss.
+Numeric clinical stages 1 through 6 (Table 6) bear a close resem-
+blance to the Global Deterioration Scale,153 with the important
+distinction that the latter was created before the development of
+disease-specific AD biomarkers. The six-stage numeric scheme also
+closely resembles staging in the FDA guidance for conduct of clinical
+trials in early AD.154
+Stage 2 is called out as a distinct transitional stage between asymp-
+tomatic (stage 1) and mildly impaired (stage 3) and resembles “stage 3
+preclinical AD” in the 2011 NIA-AA guidelines.1 This stage is defined
+by one or more of three components: objective cognitive decline,
+subjective cognitive decline, or subtle neurobehavioral difficulties. All
+three of these components can be attributable to AD, but they also
+can be attributable to factors other than AD, particularly neurobe-
+havioral symptoms (e.g., depression, anxiety, apathy),155–157 which are
+often not associated with neurodegenerative disease. An individual
+may be assigned to stage 2 based on neurobehavioral symptoms alone
+(i.e., without objective or subjective cognitive decline), but individuals
+must have cognitive impairment to be placed into stages 3 through
+6. Advances in unsupervised digital cognitive testing may improve
+the ability to reliably detect the subtle cognitive alterations charac-
+teristic of stage 2 through repeated testing, but this remains to be
+determined.
+The nature of cognitive decline or impairment in stages 2 through 6
+may involve any cognitive domain(s), not only memory. Clinical staging
+is based on the severity of cognitive/functional impairment rather than
+on phenotype, but different phenotypic presentations of AD are well
+known. Five characteristic AD phenotypes are recognized: amnestic or
+“typical,” language variant, visuospatial variant, behavioral variant, and
+dysexecutive variant.158,159 Different phenotypes often overlap within
+an individual, and the severity of impairment within each domain can
+be variable.
+Although we describe clinical AD stages, it is important to bear two
+principles in mind. First, cognitive performance and cognitive decline
+are continuous processes. Dividing this continuous process into stages
+has value in clinical trials and clinical practice, but staging represents
+a categorical construct that is superimposed on a continuous process.
+Second, the severity of clinical impairment is the product of all neu-
+ropathological insults experienced by an individual, not only AD. The
+presence and severity of symptoms in an individual with abnormal AD
+biomarkers often cannot be ascribed solely to AD with confidence, par-
+ticularly in older persons because of the likely presence of comorbid
+pathologic change (Box 3).
+5.2
+Stage 0
+The change we propose in clinical staging from 2018 is the addition of
+stage 0. Stage 0 represents part of the AD continuum and is defined
+as genetically determined AD (which includes ADAD or DSAD)46,160
+in an individual who is biomarker negative and clinically asymptomatic
+(Table 6). The rationale is that these individuals have the disease from
+birth, prior to onset of brain pathologic change or symptoms. A per-
+son with DSAD or ADAD would move from stage 0 into stage 1 when
+a diagnostic Core 1 biomarker(s) became positive. The idea of stage
+0 as genetically determined disease that has not yet manifested clini-
+cally or with biomarkers is conceptually consistent with recent staging
+proposals for Huntington’s and NSD.57–59

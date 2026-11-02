@@ -1,0 +1,72 @@
+The new england  
+journal of medicine
+n engl j med 382;13  nejm.org  March 26, 2020
+1199
+established in 1812	
+March 26, 2020	
+vol. 382 
+no. 13
+The authors' affiliations are listed in the 
+Appendix. Address reprint requests to Dr. 
+Feng at the Chinese Center for Disease 
+Control and Prevention, No. 155 Chang-
+bai Rd., Changping District, Beijing, ­China, 
+or at ­fengzj@​­chinacdc​.­cn; to Dr. G.M. 
+Leung or Dr. Cowling at the School of 
+Public Health, Li Ka Shing Faculty of Medi-
+cine, University of Hong Kong, 21 Sas-
+soon Rd., Pokfulam, Hong Kong, China, or 
+at ­gmleung@​­hku​.­hk or ­bcowling@​­hku​.­hk, 
+respectively; or to Dr. B. Yang at the Hu-
+bei Center for Disease Control and Pre-
+vention, No. 35 Zhuodaoquan North Rd., 
+Hongshan District, Wuhan, Hubei, China, 
+or at ­49205957@​­qq​.­com.
+Drs. Q. Li, X. Guan, P. Wu, and X. Wang and 
+Drs. B. Cowling, B. Yang, M. Leung, and 
+Z. Feng contributed equally to this article.
+This article was published on January 29, 
+2020, and last updated on January 31, 2020, 
+at NEJM.org.
+N Engl J Med 2020;382:1199-207.
+DOI: 10.1056/NEJMoa2001316
+Copyright © 2020 Massachusetts Medical Society.
+BACKGROUND
+The initial cases of novel coronavirus (2019-nCoV)–infected pneumonia (NCIP) 
+occurred in Wuhan, Hubei Province, China, in December 2019 and January 2020. 
+We analyzed data on the first 425 confirmed cases in Wuhan to determine the 
+epidemiologic characteristics of NCIP.
+METHODS
+We collected information on demographic characteristics, exposure history, and 
+illness timelines of laboratory-confirmed cases of NCIP that had been reported by 
+January 22, 2020. We described characteristics of the cases and estimated the key 
+epidemiologic time-delay distributions. In the early period of exponential growth, 
+we estimated the epidemic doubling time and the basic reproductive number.
+RESULTS
+Among the first 425 patients with confirmed NCIP, the median age was 59 years 
+and 56% were male. The majority of cases (55%) with onset before January 1, 2020, 
+were linked to the Huanan Seafood Wholesale Market, as compared with 8.6% of 
+the subsequent cases. The mean incubation period was 5.2 days (95% confidence 
+interval [CI], 4.1 to 7.0), with the 95th percentile of the distribution at 12.5 days. 
+In its early stages, the epidemic doubled in size every 7.4 days. With a mean 
+serial interval of 7.5 days (95% CI, 5.3 to 19), the basic reproductive number was 
+estimated to be 2.2 (95% CI, 1.4 to 3.9).
+CONCLUSIONS
+On the basis of this information, there is evidence that human-to-human trans-
+mission has occurred among close contacts since the middle of December 2019. 
+Considerable efforts to reduce transmission will be required to control outbreaks 
+if similar dynamics apply elsewhere. Measures to prevent or reduce transmission 
+should be implemented in populations at risk. (Funded by the Ministry of Science 
+and Technology of China and others.)
+abstr act
+Early Transmission Dynamics in Wuhan, China,  
+of Novel Coronavirus–Infected Pneumonia
+Qun Li, M.Med., Xuhua Guan, Ph.D., Peng Wu, Ph.D., Xiaoye Wang, M.P.H., Lei Zhou, M.Med., 
+Yeqing Tong, Ph.D., Ruiqi Ren, M.Med., Kathy S.M. Leung, Ph.D., Eric H.Y. Lau, Ph.D., Jessica Y. Wong, Ph.D., 
+Xuesen Xing, Ph.D., Nijuan Xiang, M.Med., Yang Wu, M.Sc., Chao Li, M.P.H., Qi Chen, M.Sc., Dan Li, M.P.H., 
+Tian Liu, B.Med., Jing Zhao, M.Sc., Man Liu, M.Sc., Wenxiao Tu, M.Med., Chuding Chen, M.Sc., 
+Lianmei Jin, M.Med., Rui Yang, M.Med., Qi Wang, M.P.H., Suhua Zhou, M.Med., Rui Wang, M.D., 
+Hui Liu, M.Med., Yinbo Luo, M.Sc., Yuan Liu, M.Med., Ge Shao, B.Med., Huan Li, M.P.H., Zhongfa Tao, M.P.H., 
+Yang Yang, M.Med., Zhiqiang Deng, M.Med., Boxi Liu, M.P.H., Zhitao Ma, M.Med., Yanping Zhang, M.Med., 
+Guoqing Shi, M.P.H., Tommy T.Y. Lam, Ph.D., Joseph T. Wu, Ph.D., George F. Gao, D.Phil., 
+Benjamin J. Cowling, Ph.D., Bo Yang, M.Sc., Gabriel M. Leung, M.D., and Zijian Feng, M.Med.​

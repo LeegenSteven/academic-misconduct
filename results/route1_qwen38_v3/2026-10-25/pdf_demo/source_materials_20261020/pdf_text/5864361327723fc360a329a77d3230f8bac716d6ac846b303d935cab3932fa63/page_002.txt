@@ -1,0 +1,115 @@
+Articles
+www.thelancet.com   Vol 395   February 22, 2020	
+565
+Genomic characterisation and epidemiology of 2019 novel 
+coronavirus: implications for virus origins and receptor 
+binding
+Roujian Lu*, Xiang Zhao*, Juan Li*, Peihua Niu*, Bo Yang*, Honglong Wu*, Wenling Wang, Hao Song, Baoying Huang, Na Zhu, Yuhai Bi, 
+Xuejun Ma, Faxian Zhan, Liang Wang, Tao Hu, Hong Zhou, Zhenhong Hu, Weimin Zhou, Li Zhao, Jing Chen, Yao Meng, Ji Wang, Yang Lin, 
+Jianying Yuan, Zhihao Xie, Jinmin Ma, William J Liu, Dayan Wang, Wenbo Xu, Edward C Holmes, George F Gao, Guizhen Wu¶, Weijun Chen¶, 
+Weifeng Shi¶, Wenjie Tan¶
+Summary
+Background In late December, 2019, patients presenting with viral pneumonia due to an unidentified microbial agent 
+were reported in Wuhan, China. A novel coronavirus was subsequently identified as the causative pathogen, 
+provisionally named 2019 novel coronavirus (2019-nCoV). As of Jan 26, 2020, more than 2000 cases of 2019-nCoV 
+infection have been confirmed, most of which involved people living in or visiting Wuhan, and human-to-human 
+transmission has been confirmed.
+Methods We did next-generation sequencing of samples from bronchoalveolar lavage fluid and cultured isolates from 
+nine inpatients, eight of whom had visited the Huanan seafood market in Wuhan. Complete and partial 2019-nCoV 
+genome sequences were obtained from these individuals. Viral contigs were connected using Sanger sequencing to 
+obtain the full-length genomes, with the terminal regions determined by rapid amplification of cDNA ends. 
+Phylogenetic analysis of these 2019-nCoV genomes and those of other coronaviruses was used to determine the 
+evolutionary history of the virus and help infer its likely origin. Homology modelling was done to explore the likely 
+receptor-binding properties of the virus.
+Findings The ten genome sequences of 2019-nCoV obtained from the nine patients were extremely similar, exhibiting 
+more than 99·98% sequence identity. Notably, 2019-nCoV was closely related (with 88% identity) to two bat-derived 
+severe acute respiratory syndrome (SARS)-like coronaviruses, bat-SL-CoVZC45 and bat-SL-CoVZXC21, collected 
+in 2018 in Zhoushan, eastern China, but were more distant from SARS-CoV (about 79%) and MERS-CoV (about 50%). 
+Phylogenetic analysis revealed that 2019-nCoV fell within the subgenus Sarbecovirus of the genus Betacoronavirus, 
+with a relatively long branch length to its closest relatives bat-SL-CoVZC45 and bat-SL-CoVZXC21, and was genetically 
+distinct from SARS-CoV. Notably, homology modelling revealed that 2019-nCoV had a similar receptor-binding 
+domain structure to that of SARS-CoV, despite amino acid variation at some key residues.
+Interpretation 2019-nCoV is sufficiently divergent from SARS-CoV to be considered a new human-infecting 
+betacoronavirus. Although our phylogenetic analysis suggests that bats might be the original host of this virus, an 
+animal sold at the seafood market in Wuhan might represent an intermediate host facilitating the emergence of the 
+virus in humans. Importantly, structural analysis suggests that 2019-nCoV might be able to bind to the angiotensin-
+converting enzyme 2 receptor in humans. The future evolution, adaptation, and spread of this virus warrant urgent 
+investigation.
+Funding National Key Research and Development Program of China, National Major Project for Control and 
+Prevention of Infectious Disease in China, Chinese Academy of Sciences, Shandong First Medical University.
+Copyright © 2020 Elsevier Ltd. All rights reserved.
+Introduction
+Viruses of the family Coronaviridae possess a single-
+strand, positive-sense RNA genome ranging from 
+26 to 32 kilobases in length.1 Coronaviruses have been 
+identified in several avian hosts,2,3 as well as in various 
+mammals, including camels, bats, masked palm civets, 
+mice, dogs, and cats. Novel mammalian coronaviruses 
+are now regularly identified.1 For example, an HKU2-
+related coronavirus of bat origin was responsible for a 
+fatal acute diarrhoea syndrome in pigs in 2018.4
+Among the several coronaviruses that are pathogenic 
+to humans, most are associated with mild clinical 
+symptoms,1 with two notable exceptions: severe acute 
+respiratory syndrome (SARS) coronavirus (SARS-CoV), a 
+novel betacoronavirus that emerged in Guangdong, 
+southern China, in November, 2002,5 and resulted in 
+more than 8000 human infections and 774 deaths in 
+37 countries during 2002–03;6 and Middle East respiratory 
+syndrome (MERS) coronavirus (MERS-CoV), which was 
+first detected in Saudi Arabia in 20127 and was responsible 
+Lancet 2020; 395: 565–74
+Published Online 
+January 29, 2020 
+https://doi.org/10.1016/
+S0140-6736(20)30251-8
+*Contributed equally
+¶Contributed equally
+NHC Key Laboratory of 
+Biosafety, National Institute 
+for Viral Disease Control and 
+Prevention, Chinese Center for 
+Disease Control and 
+Prevention, Beijing, China 
+(Prof R Lu MSc, X Zhao MD, 
+P Niu PhD, Prof W Wang PhD, 
+B Huang PhD, N Zhu PhD, 
+Prof X Ma PhD, Prof W Zhou MD, 
+L Zhao PhD, Y Meng PhD, 
+J Wang PhD, Prof W J Liu PhD, 
+Prof D Wang PhD, Prof W Xu MD, 
+Prof G F Gao DPhil, 
+Prof G Wu MD, Prof W Tan MD); 
+Key Laboratory of Etiology and 
+Epidemiology of Emerging 
+Infectious Diseases in 
+Universities of Shandong, 
+Shandong First Medical 
+University and Shandong 
+Academy of Medical Sciences, 
+Tai’an, China (J Li PhD, T Hu MSc, 
+H Zhou PhD, Prof W Shi PhD); 
+Division for Viral Disease 
+Detection, Hubei Provincial 
+Center for Disease Control and 
+Prevention, Wuhan, China 
+(B Yang MSc, Prof F Zhan PhD); 
+BGI PathoGenesis 
+Pharmaceutical Technology, 
+Shenzhen, China (H Wu MSc, 
+Y Lin BS, J Yuan MSc, Z Xie BS, 
+J Ma PhD, Prof W Chen PhD); 
+Research Network of Immunity 
+and Health (RNIH), Beijing 
+Institutes of Life Science, 
+Chinese Academy of Sciences, 
+Beijing, China (H Song PhD); 
+Chinese Academy of Sciences 
+Key Laboratory of Pathogenic 
+Microbiology and 
+Immunology, Institute of 
+Microbiology, Chinese 
+Academy of Sciences, Beijing, 
+China (Prof Y Bi PhD, 
+L Wang PhD, Prof G F Gao); 
+Center for Influenza Research 

@@ -1,0 +1,136 @@
+the overall distribution from the first 1 M reads is not a reliable solu-
+tion as the initial reads in Illumina FASTQ data usually originate
+from the edges of flowcell lanes, which may have lower quality and
+different patterns than the overall distribution.
+Unlike FASTQC, fastp samples all reads evenly to evaluate over-
+represented sequences and eliminate partial distribution bias. To
+achieve an efficient implementation of this feature, we designed a
+two-step method. In the first step, fastp completely analyzes the first
+1.5 M base pairs of the input FASTQ to obtain a list of sequences
+with relatively high occurrence frequency in different sizes. In the se-
+cond step, fastp samples the entire file and counts the occurrence of
+each sequence. Finally, the sequences with high occurrence fre-
+quency are reported.
+Besides the occurrence frequency, fastp also records the positions
+of overrepresented sequences. This information is quite useful for
+diagnosing sequence quality issues. Some sequences tend to appear
+in the read head whereas others appear more often in the read tail.
+The distribution of overrepresented sequences is visualized in the
+HTML report. Figure 5 shows a demonstration of overrepresented
+sequence analysis results.
+2.10 Quality control and reporting
+fastp supports filtering reads using a low-quality base percentage, N
+base number and read length. These filters are trivial and thus not
+described here. fastp also supports filtering low-complexity reads by
+evaluating the percentage of consecutive bases. fastp records the
+number of reads that were filtered out according to different filtering
+criteria.
+fastp also provides comprehensive information on quality-
+profiling results. In contrast to FASTQC, fastp offers results for
+both pre-filtering and post-filtering data, which allows for evalu-
+ation of the filtering effect by comparing the figures directly. fastp
+also reports results in JSON and HTML format, the former of which
+contains all data visualized in the HTML report. The format of the
+JSON report is manually optimized to be easily readable by humans.
+The HTML report is a single standalone web page, with all figures
+created dynamically using JavaScript and web canvas. Additionally,
+fastp provides a full k-mer occurrence table for all 6-bp sequences.
+An online demonstration of the HTML report can be found at
+http://opengene.org/fastp/fastp.html.
+3 Results
+We conducted several experiments to evaluate the performance of
+fastp in terms of speed and quality. We chose FASTQC, Cutadapt,
+Trimmomatic,
+SOAPnuke
+and
+AfterQC
+for
+performance
+comparison, and the results revealed that fastp is much faster than
+these tools while providing similar or even better quality.
+3.1 Speed evaluation
+We compared the speed of all six tools by preprocessing the
+B17NCB1 dataset, obtained from the National Center for Clinical
+Laboratories in China. This dataset is paired-end, containing
+9316 M bases. We evaluated the used time for PE and SE mode, re-
+spectively. All tools were run with a single thread to ensure fair com-
+parison. Results are listed in Table 1.
+As indicated, fastp is much faster than other tools. The second-
+fastest tool is FASTQC, which takes about twice the time of fastp.
+However, FASTQC only performs quality control, whereas fastp
+performs quality control (for pre-filtering data and post-filtering
+data), data filtering and other operations. The other tools take 3–5
+times longer than fastp. Because fastp was natively designed for
+multi-thread processing, it may demonstrate even higher perform-
+ance when executed in real applications in multi-thread mode. As
+some of the selected tools do not support multi-threading, a multi-
+threading performance comparison is not provided.
+3.2 Quality evaluation
+To evaluate the adapter trimming and quality pruning of fastp
+compared to other tools (i.e. AfterQC, SOAPnuke, Trimmomatic
+and Cutadapt), we used an Illumina NextSeq PE150 dataset
+(NS_PE150). Among these tools, fastp and AfterQC can trim adapt-
+ers via overlap analysis, whereas the other tools require adapter se-
+quence input. We evaluated the amount of suspected adapters by
+searching the 33 bp-long adapter sequences from post-filtering data
+with tolerance of several mismatches; results are shown in Figure 6.
+From Figure 6, we can learn that fastp and Trimmomatic give
+the best performance. The fastp-filtered data contains no suspected
+Fig. 4. Duplication estimation. The read percentages and mean GC ratios of
+different duplication levels. The mean GC ratio curve is truncated since the
+reads with higher duplication level are too few to compute a stable mean
+value
+Fig. 5. Overrepresented sequence analysis results. The right column shows
+the histogram of occurrence among all sequencing cycles
+Table 1. Speed comparison of fastp and other software
+Tool
+Input
+Time (min)
+Throughput
+(reads/s)
+Fastp
+SE
+6
+129397.9
+PE
+13.3
+116750.0
+FASTQC
+SE
+13
+59722.1
+PE
+25.8
+60185.1
+Cutadapt
+SE
+18
+43132.6
+PE
+24.6
+63120.9
+SOAPnuke
+SE
+30.7
+25289.5
+PE
+32.5
+47777.7
+AfterQC
+SE
+25.2
+30809.0
+PE
+57.2
+27146.4
+Trimmomatic
+SE
+31.9
+24338.2
+PE
+60.9
+25497.1
+Note: Results for both paired-end (PE) and single-end (SE) input were
+compared.
+i888
+S.Chen et al.

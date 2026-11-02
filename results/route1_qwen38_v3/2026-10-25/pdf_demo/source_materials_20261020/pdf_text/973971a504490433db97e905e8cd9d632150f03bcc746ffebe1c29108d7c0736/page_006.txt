@@ -1,0 +1,98 @@
+n engl j med 382;13  nejm.org  March 26, 2020
+1204
+The new engl and jour nal of medicine
+R0 of SARS was estimated to be around 3,12 and 
+SARS outbreaks were successfully controlled by 
+isolation of patients and careful infection con-
+trol.13 In the case of NCIP, challenges to control 
+include the apparent presence of many mild in-
+fections14 and limited resources for isolation of 
+cases and quarantine of their close contacts. Our 
+estimate of R0 was limited to the period up to 
+January 4 because increases in awareness of the 
+outbreak and greater availability and use of tests 
+in more recent weeks will have increased the 
+proportions of infections ascertained. It is possi-
+ble that subsequent control measures in Wuhan, 
+and more recently elsewhere in the country as 
+well as overseas, have reduced transmissibility, 
+but the detection of an increasing number of 
+cases in other domestic locations and around 
+the world suggest that the epidemic has contin-
+ued to increase in size. Although the population 
+quarantine of Wuhan and neighboring cities 
+since January 23 should reduce the exportation 
+of cases to the rest of the country and overseas, 
+it is now a priority to determine whether local 
+transmission at a similar intensity is occurring 
+in other locations.
+It is notable that few of the early cases oc-
+curred in children, and almost half the 425 cases 
+were in adults 60 years of age or older, although 
+our case definition specified severe enough ill-
+ness to require medical attention, which may 
+vary according to the presence of coexisting 
+conditions. Furthermore, children might be less 
+likely to become infected or, if infected, may 
+show milder symptoms, and either of these situ-
+ations would account for underrepresentation in 
+the confirmed case count. Serosurveys after the 
+Figure 2. Key Time-to-Event Distributions.
+The estimated incubation period distribution (i.e., the time from infection to illness onset) is shown in Panel A. The 
+estimated serial interval distribution (i.e., the time from illness onset in successive cases in a transmission chain) is 
+shown in Panel B. The estimated distributions of times from illness onset to first medical visit are shown in Panel C. 
+The estimated distributions of times from illness onset to hospital admission are shown in Panel D.
+A
+0
+7
+14
+21
+0.00
+0.05
+0.10
+0.25
+0.20
+0.15
+Days from Infection to Symptom Onset
+B
+0
+7
+14
+21
+0.00
+0.05
+0.10
+0.20
+0.15
+Serial Interval (days)
+0
+3
+6
+9
+12
+0.00
+0.05
+0.10
+0.15
+0.20
+0.25
+Days from Illness Onset to First Medical Visit
+Onset before January 1
+Onset during January 1−11
+C
+0
+10
+20
+30
+0.00
+0.05
+0.10
+0.15
+Days from Illness Onset to Hospitalization
+Relative Frequency
+Relative Frequency
+Relative Frequency
+Relative Frequency
+D
+Onset before January 1
+Onset during January 1−11
