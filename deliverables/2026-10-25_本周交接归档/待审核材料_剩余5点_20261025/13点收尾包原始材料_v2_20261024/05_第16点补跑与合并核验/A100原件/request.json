@@ -1,0 +1,44 @@
+{
+  "version": "route1_pdf_point16_compact_v2_20261024",
+  "created_at_utc": "2026-10-24T10:36:44.466520+00:00",
+  "point_number": 16,
+  "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+  "parent_release_sha256": "09a875e7d8bcae223e39e1ba1c903c99405b17f8c08a8f3797e49dacb01106ec",
+  "unchanged_scope_sha256": "af5751ce45370659dc517056ad051a923a65060969d90273ac0ed888ad129c60",
+  "parent_model_input_sha256": "5028fabd5588bbc04608fea32160899b5cb8d235c677f0a77ab7fb0605212490",
+  "parent_raw_response_sha256": "b664a3458f4f4958db3dc3ae7fca1500cca07ac483e3e21892d222c9dbc47b6c",
+  "new_model_input_sha256": "0679d723ad7afd78c955bf67f6f6edeb658d183f52cdff23b7f060a3181b2f24",
+  "new_input_budget": {
+    "input_tokens": 2379,
+    "required_total": 2891,
+    "input_ids_sha256": "0ff01c04ef304bb95f08f506abacbf4adad116c23b30221b425d437d9e935298",
+    "within_budget": true,
+    "truncation": false
+  },
+  "original_code_sha256": {
+    "route1_pdf_pipeline_v3.py": "80d17ad57db84c218ac3b0046432f12cbd915835003576ccf3fc5f6571faf055",
+    "route1_pdf_hf_backend_v3.py": "800e2f1db364ba955fdcbecf26740fb3e3ae2e585a04ea18670f09a72b108caf",
+    "run_route1_pdf_v3.py": "6674fc6e49bead010f4155cef897a00a4b0b26d78e7c626fcacae06fed81b1cb",
+    "prepare_pdf20_scope_inputs_20261020.py": "2dfe7d5cfc75558d04cddddfda1140f26d8a80645ddd253ba1202c73c74e846f",
+    "build_sarol_inputs_v2.py": "2f4b32708646337b91064474d13b1769029038c5f72b8ec5059599329bc6e3af",
+    "route1_pdf_remaining13_runtime_20261024.py": "b47324dcdfb92a059de38dae3a9efc7ba587c551ae0bd3947c3a9342e7f3c186"
+  },
+  "settings": {
+    "max_length": 5120,
+    "max_new_tokens": 512,
+    "enable_thinking": false,
+    "do_sample": false,
+    "retry_policy": "none; keep all first attempts"
+  },
+  "output_constraint_suffix": "\n\n本次紧凑输出约束：仅输出单个紧凑JSON，不用Markdown代码围栏，不输出JSON以外的说明。evidence_ids最多2个；每个选中编号恰好1处连续原文短摘录，所有quote合计不超过280字符；reason不超过80字符，明确支持范围与缺口。不得为了限长而省略会改变判断的重要限定，不补造证据。若不能在这些约束内可靠给出解释，返回{\"failure_status\":\"insufficient_evidence\"}。",
+  "parser_policy_sha256": "d31b5c9f407b8d261655cbc5176e26b69f9725b4b3866b074c4dc01b0390951a",
+  "new_model": "same official base without adapter",
+  "candidate_set_changed": false,
+  "scope_changed": false,
+  "old_scope_confirmation_is_not_a_new_semantic_or_prompt_signature": true,
+  "new_prompt_is_a_separate_explanation_followup": true,
+  "original_attempt_overwritten": false,
+  "classification_recomputed": false,
+  "test_run": false,
+  "semantic_acceptance_inferred": false
+}

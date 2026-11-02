@@ -1,0 +1,28 @@
+师兄，466补充材料已收到，我已完成回源核验，意见如下。
+
+## 核验记录
+
+1. 施引XML（PMC3310790）SHA256：33af3dd4584eda4a48eabd24f52bdb211a32d54a28575273537ae1c8e6a39845，与诊断旁表及包内SHA256.json一致。
+2. Results比较小节两段段落哈希已复核：
+   - p1（body/sec[2]/sec[4]/p[1]，436字符）：64226ff87b8c20ce3a603e0da15138aaec267b20e78637a9195abff118b43290
+   - p2（body/sec[2]/sec[4]/p[2]，556字符）：4110bae5411fc8ebb7c9af1aa0228924a8596ae90b811b83e477639cfd34992a
+   与诊断旁表一致。
+3. Discussion目标句"The comparison of findings between the present study and Voineagu et al. [20] demonstrates a consistent overlap involving several pathways including repair- and immune-related processes."在XML中逐字存在，即恢复后第二句。
+4. Results p2数字回源核对：25个p<0.05重叠探针（p<0.0001）；6个Tissue Remodeling and Wound Repair基因（p=1.622E-4，FDR<0.05）；7个Immune System Response基因（p=4.772E-4，FDR<0.05）；末句"some consistency...particularly within domains of repair and immune response"。
+5. 被引PMC3607626可定位免疫/炎症富集：上调基因N=235富集immune/inflammatory response GO类别；存档被引正文无repair一词，与旁表记录一致。
+
+## 我的确认意见
+
+同意：仅对恢复后第二句，登记限定性ACCURATE。
+
+依据：比较动作由Results p1直接报告；重叠探针数、修复/免疫基因数及富集显著性由Results p2直接报告；Discussion目标句是该小节的作者自身概括，引用忠实性范围内成立。免疫方向可定位被引；修复归类来自施引作者自己的跨研究MetaCore分析，不要求被引正文预先使用repair分类名，本回复不主张被引正文直接写了repair。
+
+## 保留限制（与诊断旁表一致）
+
+1. 仅支持恢复后第二句的作者报告性比较，不替残缺冻结claim补出原模型已见证据。
+2. 本轮未独立重做25探针匹配、富集分析及两篇原始基因列表计算，不是数据层面的完全复现。
+3. 被引免疫异常可直接定位；修复归类来自施引论文自己的跨研究结果，不谎称被引正文直接写了repair。
+4. 原NOT_ACCURATE gold、两模型预测、Test分母与成绩全部保留，不用恢复句重算旧结果。
+5. 本意见为诊断性个人意见，不是新的双方三分类裁决；原冻结残缺claim的三分类仍暂缓。"consistent"对应Results"some consistency"，强度差异属施引作者Discussion自身概括，不构成核心歪曲。
+
+235、250、490、580按各自已对齐的限定范围处理，本次不重复填写。466行个人意见已更新进复核CSV与v7报告，原始输入、gold和Test成绩未改动。

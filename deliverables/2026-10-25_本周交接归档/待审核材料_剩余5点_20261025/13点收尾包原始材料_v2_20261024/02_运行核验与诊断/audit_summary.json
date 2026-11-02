@@ -1,0 +1,154 @@
+{
+  "status": "DOWNLOADED_A100_PROVENANCE_AND_OFFLINE_DIAGNOSIS_COMPLETED",
+  "created_at_utc": "2026-10-24T09:47:34.589182+00:00",
+  "downloaded_original_files": 18,
+  "downloaded_files_sha256": {
+    "route1_pdf_remaining13_r2_release_20261024/approval_record.json": "d19f5fb772b60c475c30dc42554b93d4130c1d81be6b804d2d891a8b489d0bb9",
+    "route1_pdf_remaining13_r2_release_20261024/freeze_receipt.json": "effc5e6472be9dd26b24a6ed54c84f2ecd64260ab74352fada23f2e7c1183484",
+    "route1_pdf_remaining13_r2_release_20261024/release.json": "09a875e7d8bcae223e39e1ba1c903c99405b17f8c08a8f3797e49dacb01106ec",
+    "route1_pdf_remaining13_r2_release_20261024/scope_confirmations.json": "f2cd11eb975c21e5da630c29801049fba17e9dc107d09aab61602f377ead21d1",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/classifier_effective_backend.py.txt": "a4d304f1d8cf84733dfbccf987440568f08755a5240a07c4bc3c26720cdda5c1",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/classifier_execution_request.json": "f26cfc74b987b1137701c6025f0cb3f1d9209ac9a733ceb6e13cdf2ed907b49e",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/classifier_launch_summary.json": "927f4cacf07bf7961479c3a9fabf7b73a66c46680db1f612b25cfc39363e6d90",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/explainer_effective_backend.py.txt": "a4d304f1d8cf84733dfbccf987440568f08755a5240a07c4bc3c26720cdda5c1",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/explainer_execution_request.json": "c77d10430c29f44b33f24a25628e10b8a5ac8ebcb3805daa6696b4f23819aa24",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/explainer_launch_summary.json": "0a35ba2a3bf2a9be825e082325b8828426294e84a14c295d3774baace95d8f76",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/classifier/exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/classifier/responses.jsonl": "21125d49b2ce2636e4f97ea07dfbe62cb5d1dac65f25475d0ca6c05c49cea372",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/classifier/run.log": "85872c53693fc1c498269d80eb30e735e6067f2831ad6808ca22fe9ace822af1",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/classifier/run_metadata.json": "641d5a3f338bfdacbb522d72b537b992eae4b832784f45310e1439e73d12a8fa",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/explainer/exit_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/explainer/responses.jsonl": "557ad5631d54a178cea71902aa292bbb38762991760326b14dd0097665bff2d5",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/explainer/run.log": "5b48e67a6ccf6cf9fadee81ab844bd04e4bf0c2e715e34dccd5b4b54fae93906",
+    "route1_pdf_remaining13_r2_resource_trial_20261024_run01/explainer/run_metadata.json": "e36a845bd223d771c092c8f40902d3e9072d81e4350a8582af69a24a9698df24"
+  },
+  "release_sha256": "09a875e7d8bcae223e39e1ba1c903c99405b17f8c08a8f3797e49dacb01106ec",
+  "stage_output_files_checked_against_A100_metadata": 4,
+  "actual_input_token_fingerprints_recomputed": 26,
+  "approval_record_content_equal_line_endings_only_difference": true,
+  "approval_record_A100_sha256": "d19f5fb772b60c475c30dc42554b93d4130c1d81be6b804d2d891a8b489d0bb9",
+  "approval_record_local_original_sha256": "afea81f01b8fbc12c1da9ac7d4ea93fe87bf153f010e17a91664eef64e9529bb",
+  "generated_raw_outputs_redecoded_from_token_ids": 26,
+  "PDF_candidate_fragments_replayed": 200,
+  "official_base_identity": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "same_18_base_shards_in_both_roles": true,
+  "classifier_adapter": "Mbio/checkpoint-100",
+  "explainer_adapter_loaded": false,
+  "stage_exit_codes": {
+    "classifier": 0,
+    "explainer": 0
+  },
+  "settings": {
+    "max_length": 5120,
+    "max_new_tokens": 512,
+    "enable_thinking": false,
+    "do_sample": false,
+    "retry_policy": "none; keep all first attempts"
+  },
+  "original_strict_explainer_counts": {
+    "invalid_explanation_output": 10,
+    "insufficient_evidence": 2,
+    "structure_and_quotes_valid_pending_human_semantics": 1
+  },
+  "fence_only_supplemental_counts": {
+    "invalid_explanation_output": 9,
+    "insufficient_evidence": 2,
+    "structure_and_quotes_valid_pending_human_semantics": 2
+  },
+  "complete_fences": 9,
+  "hit_limit_and_incomplete_points": [
+    16
+  ],
+  "quote_mapping_status_counts": {
+    "unique_mapping_line_join_review_required": 2,
+    "normalized_unique": 7,
+    "exact_unique": 3
+  },
+  "mapping_by_case": {
+    "r1pdf:43dd5182e91a0ff7d0bec65d": {
+      "quotes": 1,
+      "all_unique_mappings": true,
+      "line_join_review_required": true
+    },
+    "r1pdf:bf08cfaceb2c2e5fdd7aab42": {
+      "quotes": 1,
+      "all_unique_mappings": true,
+      "line_join_review_required": false
+    },
+    "r1pdf:c20f0ec9e9d5958f62b304f8": {
+      "quotes": 1,
+      "all_unique_mappings": true,
+      "line_join_review_required": false
+    },
+    "r1pdf:1dfa922c755ed870245927e3": {
+      "quotes": 0,
+      "all_unique_mappings": false,
+      "line_join_review_required": false
+    },
+    "r1pdf:976890f040d5c2cab2e50965": {
+      "quotes": 1,
+      "all_unique_mappings": true,
+      "line_join_review_required": true
+    },
+    "r1pdf:8eec93b561ea2378e0da8197": {
+      "quotes": 1,
+      "all_unique_mappings": true,
+      "line_join_review_required": false
+    },
+    "r1pdf:43c53ece80a7c35828d5246d": {
+      "quotes": 1,
+      "all_unique_mappings": true,
+      "line_join_review_required": false
+    },
+    "r1pdf:fab3e8c6971477d942ccbcc4": {
+      "quotes": 0,
+      "all_unique_mappings": false,
+      "line_join_review_required": false
+    },
+    "r1pdf:8b6ea1cffce94cc72ba1c9cf": {
+      "quotes": 0,
+      "all_unique_mappings": false,
+      "line_join_review_required": false
+    },
+    "r1pdf:0243ab815badba958177a9a8": {
+      "quotes": 2,
+      "all_unique_mappings": true,
+      "line_join_review_required": false
+    },
+    "r1pdf:0625d9ca3ef5bf2a22c6109b": {
+      "quotes": 1,
+      "all_unique_mappings": true,
+      "line_join_review_required": false
+    },
+    "r1pdf:826cdb765c276ba900010084": {
+      "quotes": 2,
+      "all_unique_mappings": true,
+      "line_join_review_required": false
+    },
+    "r1pdf:07b8a2180cd71a89f1c772cc": {
+      "quotes": 1,
+      "all_unique_mappings": true,
+      "line_join_review_required": false
+    }
+  },
+  "new_batch_strict_assembly": {
+    "fixed_denominator": 20,
+    "attempted_classifier": 13,
+    "attempted_explainer": 13,
+    "engineering_success": 1,
+    "locator_human_valid": null,
+    "formal_location_rate": null,
+    "explanation_semantic_passed": null,
+    "classification_correct": null,
+    "classification_adjudicated_denominator": 0,
+    "classification_unadjudicated": 20,
+    "formal_end_to_end_accepted": 0,
+    "note": "Four outcomes remain separate; no human review is inferred from model/format/PDF checks."
+  },
+  "scope": "Original A100 13-point run only. Supplemental fence removal and quote mapping are offline diagnostics, not production parser changes or acceptance.",
+  "original_files_unchanged": true,
+  "new_model_runs": 0,
+  "GPU_used": false,
+  "new_human_labels": 0,
+  "new_formal_acceptances": 0
+}

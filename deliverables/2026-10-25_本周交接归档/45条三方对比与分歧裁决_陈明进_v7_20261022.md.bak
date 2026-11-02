@@ -1,0 +1,133 @@
+# 45条Mbio退化案例三方复核 v7（陈明进个人意见，待共同裁决）
+
+**版本**：v7（2026-10-22）
+**分布**：41 NOT_ACCURATE / 4 ACCURATE
+**待核/暂缓**：4条（235、466、490、580）
+**冻结gold和Test成绩未修改**
+
+## v7相对v6的变更
+
+### 一、李云v6接收核对指出的2个问题修正
+
+| claim | 变更内容 |
+|---|---|
+| 502 | 修正跨案例串号：v6理由误写D03:S01/D04:S01（实为490候选），按502原候选（D01/D02/D08，全为IFN-I和方法学）重写；全文RDV小鼠结果另列注明模型未见 |
+| 490 | 补实验计数依据：in vitro 2项（D01:S02含IFNb体外评估、D07:S01 RDV+IFNb体外比较），in vivo 2项（D03/D04逐字重复计1项、D04:S02 MIRACLE试验）；D03与D04去重依据为文本完全一致；加入待共同确认清单（'It'指代IFN-I单药还是泛抗病毒治疗待裁决） |
+| 112 | evidence_ids补全：理由中引用了D02:S01/D03:S01说明恒河猴研究，字段同步补全 |
+
+### 二、12条新暂缓项理由收紧（全部维持NOT_ACCURATE）
+
+| claim | 收紧方向 |
+|---|---|
+| 0 | 候选支持TMAO通路但FMO3特异证据缺失；FMO3可能由引用组其他文献承担 |
+| 15 | 候选支持MS4A区域但未精确对应MS4A6A/MS4A4E具体基因名；具体成员可能由引用组其他文献承担 |
+| 20 | 位点列表有支持，'within past 3 years'时间限定候选未覆盖；多研究引用组不能要求单篇给时间戳 |
+| 24 | 部分位点有显著P值及重复分析，但未逐项证明每个基因都满足多数据集校正后显著 |
+| 28 | 九项位点数量不矛盾；五篇研究的合并总结不能由当前候选单篇充分覆盖 |
+| 44 | 候选未直接列65个SNP；77个transcripts为不同口径不能作数值对照 |
+| 63 | 候选为单篇commentary，不能证明'大多数文献为综述'的文献分布论断 |
+| 94 | 候选记录阴性结果本身，但施引作者'敲低不足/表达不足'的解释未被直接支持 |
+| 217 | 候选支持饮食有变化，但'small'幅度无直接证据；全文REAP-s变化0.81未进原候选 |
+| 243 | 候选为单篇全球调查招募国家，不能证明领域文献分布；招募地点≠研究篇数分布 |
+| 469 | 候选支持set-enrichment方法存在，但具体算法实现细节候选未完整覆盖 |
+| 480 | 原候选仅含比较研究标题，未给出RDV优于组合的具体结果；全文有结果但未进原候选 |
+
+## 4条ACCURATE
+
+### claim 138
+- **原论断**：IFN-γ, TNF-α and IL-2 spike-specific CD8+ T cell responses were shown to contribute in protecting RhM against reinfection [<|cit|>].
+- **证据**：D01:S01;D03:S02;D06:S01;D07:S01
+- **理由**：改判：claim说"CD8+ T cells expressing IFN-gamma, TNF-alpha, and IL-2 contribute to protection"，D01直接列出这三种细胞因子的S-specific CD8+ T反应，D06/D07支持CD8+ T对re-challenge保护有贡献；claim是说表达这三种因子的CD8+ T细胞整体贡献保护，不是要求每种因子独立贡献；原判决误读为三种因子各自独立贡献。
+
+### claim 236
+- **原论断**：Flanagan et al. (<|cit|>) have used a validated instrument to collect their data, which may have enhanced the internal validity of their results.
+- **证据**：D03:S01;D04:S01;D04:S02
+- **理由**：改判：claim说"used a validated instrument, which may have enhanced internal validity"，候选D03明确说"combination of validated questionnaires with minor modifications"，确实使用了验证工具；"may have enhanced"是弱推断（may），候选支持使用验证工具这一事实；原判决将"a validated instrument"理解为"仅用验证工具"过于严格，claim未排除自编题。
+
+### claim 342
+- **原论断**：recent publications indicate that pharmacological stimulation of autophagy can be beneficial and reduce Aβ mediated toxicity <|multi_cit|>.
+- **证据**：D02:S01;D02:S02;D02:S03;D04:S03
+- **理由**：改判：claim说"pharmacological stimulation of autophagy can be beneficial and reduce Abeta-related toxicity"，候选支持雷帕霉素（mTOR抑制剂，一种药物）通过刺激自噬降低Aβ；claim是可能性主张（can be），雷帕霉素作为药物实例支持该主张；原判决将"pharmacological stimulation"理解为"所有药物"过于宽泛，claim未要求推广到所有药物。
+
+### claim 490
+- **原论断**：It has been noted in the previously published literature that IFN-I treatment has activity against MERS-CoV and SARS-CoV.[<|other_cit|>] It has been i
+- **证据**：D01:S02;D07:S01;D03:S01;D04:S02
+- **理由**：【待核】目标14只承担第二句'It has been investigated in numerous experiments both in vitro and in vivo'，不承担首句'IFN-I对MERS-CoV/SARS-CoV有活性'（首句引other_cit），也不要求单药或结果全部阳性。实验计数按原候选：in vitro 2项——D01:S02（FDA批准疗法含IFNb体外抗MERS-CoV活性评估）、D07:S01（RDV+IFNb vs LPV+RTV体外抗病毒活性比较）；in vivo 2项——D03:S01与D04:S01为完全重复句（'RDV provides su
+
+## 4条待核/暂缓
+
+### claim 235（NOT_ACCURATE）
+- **原论断**：In the United States, Zachary et al. (<|other_cit|>) and Flanagan et al. (<|cit|>) found that approximately 22 and 27.5%, respectively, of their sampl
+- **证据**：D01:S01;D02:S01;D05:S01
+- **理由**：【待核】当前目标Flanagan只承担27.5%这一数字，D05:S01支持27.5%（D01:S01为27.3%）；Zachary的22%属other_cit，不由当前目标承担，不能作为当前目标NOT_ACCURATE的依据。当前目标对Flanagan数字有支持；但claim中'In the United States'与多国样本是否相符需另议，与250地理描述统一口径。
+
+### claim 466（NOT_ACCURATE）
+- **原论断**：The comparison of findings between the present study and Voineagu et al. <|cit|>, have identified potential functional genomic abnormalities in autism
+- **证据**：D01:S01;D02:S01;D04:S01
+- **理由**：【暂缓】原候选支持自闭症转录与功能通路异常（D01 RNA-Seq验证、D02模块与疾病相关）；冻结claim末尾包含被截断的'biological validation requires postmo[rtem]'，原候选无死后验证的直接讨论。但该claim存在重复拼接和截短，目标引用真实承载范围需另核，不能仅围绕截断片段诊断全文引用失实。仅就冻结截断文本而言原候选覆盖不足，不诊断真实引用。
+
+### claim 490（ACCURATE）
+- **原论断**：It has been noted in the previously published literature that IFN-I treatment has activity against MERS-CoV and SARS-CoV.[<|other_cit|>] It has been i
+- **证据**：D01:S02;D07:S01;D03:S01;D04:S02
+- **理由**：【待核】目标14只承担第二句'It has been investigated in numerous experiments both in vitro and in vivo'，不承担首句'IFN-I对MERS-CoV/SARS-CoV有活性'（首句引other_cit），也不要求单药或结果全部阳性。实验计数按原候选：in vitro 2项——D01:S02（FDA批准疗法含IFNb体外抗MERS-CoV活性评估）、D07:S01（RDV+IFNb vs LPV+RTV体外抗病毒活性比较）；in vivo 2项——D03:S01与D04:S01为完全重复句（'RDV provides superior antiviral activity against MERS-CoV in vitro and in vivo as compared with LPV/RTV-IFNb'）计1项、D
+
+### claim 580（NOT_ACCURATE）
+- **原论断**：the increase in BMI SD score was likely associated with a combination of various factors that changed during the COVID-19 pandemic. In children, chang
+- **证据**：D01:S01;D02:S01;D04:S01;D07:S01
+- **理由**：【待核】目标标记只覆盖'changes in diet'子项，不承担后面的mental health和increased sedentary time。原候选D02:S01/D04:S01支持肥胖儿童/青少年饮食行为出现不利变化；原句'in children'不是字面all children，但候选对象为肥胖儿童小样本，是否可外推到一般儿童需裁决。不要求该目标同时证明心理健康内容。
+
+## 其余37条NOT_ACCURATE
+
+| claim | 原因码 | 核心理由 |
+|---|---|---|
+| 0 * | CTX;ATT;UNK | 候选支持TMAO通路（饮食→肠道菌群→TMA/TMAO→动脉粥样硬化）：D06提及其他膳食营养素可能生成TMAO促进动脉粥样硬化，D07支持L-carnitin |
+| 15 * | CTX;ATT;UNK | claim精确列出MS4A6A和MS4A4E两个具体基因名。候选支持MS4A区域与LOAD关联：D02:S01列10个易感位点含MS4A（cluster层面）， |
+| 20 * | CTX;ATT;UNK | 九项位点列表有支持：D01列10个LOAD易感位点含APOE，去掉APOE即为9项（CLU/PICALM/CR1/BIN1/MS4A/ABCA7/CD33/EP |
+| 24 * | CTX;ATT;UNK | 候选支持部分位点与LOAD关联并有重复验证：D01列10个易感位点，D03支持Stage 1+2确认BIN1/CR1/CLU/PICALM，D06给出CR1/C |
+| 28 * | CTX;ATT;UNK | 九项位点数量不矛盾（9个新位点vs10个总位点含APOE）。但claim明确列出5篇研究（Harold/Lambert/Seshadri/Hollingwort |
+| 44 * | CTX;RET;UNK | 候选未直接列出'65个index SNPs'这一具体数字。D01提及77个transcripts为不同口径（转录本数≠index SNP数），不能作数值对照；D |
+| 48 | CTX;RET | 候选支持RAS阻断剂与ACE2表达及COVID-19风险的讨论，部分建议不要因感染担忧停药；但未直接支持'应用RAS阻断剂治疗COVID-19成为研究/应用热点 |
+| 51 | SEM;CTX | 复用此前共同确认NOT_ACCURATE：候选仅有动物实验和有限报告提示ACE-I/ARB可能影响ACE2表达，无直接证据支持"接受ACE-I/ARB的心血管疾 |
+| 63 * | ATT;CTX;UNK | 'most of them are review or opinion articles'是关于整个领域文献数量分布的元论断。候选为单篇commentary（D |
+| 87 | SEM;CTX | 候选D01提及PINK1促进线粒体降解的同时线粒体生成持续或增加，但没有直接支持"pink1/parkin敲低果蝇中mfn升高反映线粒体生成增加"这一具体推测； |
+| 94 * | CTX;SEM | 候选记录旧实验阴性结果本身：D02:S01显示HeLa内源PARL检测不到但shRNA抑制过表达PARL，D02:S02显示PARL敲低不改变PINK1水平，D |
+| 112 | CTX | 改判：claim核心限定是'reduced neutralizing antibody titres against viral variants是否足够保护尚 |
+| 120 | CTX | 改判：claim说'T cell response might be important for recovery and long-term immunity |
+| 147 | SEM;CTX;RET | 候选D01直接支持"哮喘患者中男性、非裔与ACE2/TMPRSS2高表达相关"，但claim增加了"confirmed to be positive after |
+| 149 | SEM | 候选D03:S02明确说"it is reasonable to infer that increases in expression...will incre |
+| 186 | SEM;ATT | 候选为SUD（物质使用障碍，尤其OUD）研究，支持SUD患者COVID-19感染/不良结局风险增加；SUD是精神障碍的一个子类，候选未覆盖其他类型精神障碍。从S |
+| 190 | SEM;ATT;RET | 候选支持SUD患者合并症（慢性肾病/肝病/肺病）患病率较高，但claim对象是PWID（注射用药者），SUD范围更宽泛；且候选未充分控制合并症，不能直接当作PW |
+| 196 | SEM;ATT | 目标标记在"chronic diseases"后，候选支持SUD患者慢性病高患病率，但claim对象是PWID；无家可归、食物不安全、监禁、性行为风险因素均接o |
+| 197 | SEM;ATT | 同段不同目标标记（在结论句后），候选为SUD及其合并症的观察与推测，不能直接等同注射行为（PWID）的独立风险结论；SUD与PWID分母不同，未充分控制合并症的 |
+| 217 * | CTX;RET;UNK | 候选支持疫情期间饮食行为有变化：D02说明评估饮食行为变化，D08列出总体变化图（REAP-s），D04说'abrupt changes'导致心理健康下降及正负 |
+| 233 | CTX | 按引用范围判断：目标20承担的是'美国居家令期间心理健康挑战增加'从句；句末'were associated with weight gain in this  |
+| 242 | CTX;UNK | claim的'This increase'由although让步从句可知指健康饮食改善，非体重增加。肥胖组健康饮食改善更大有全文支持，但该句未进入原候选；原候选 |
+| 243 * | CTX;ATT | 'Much of the research has been conducted outside the U.S.'是关于整个领域文献数量分布的论断。候选D01 |
+| 250 | ATT;UNK | 候选D03直接支持"早餐跳过频率降低"，D04:S03说全样本与美国亚组结果无差异；但claim说"in a study conducted in the Un |
+| 257 | CTX;UNK | 候选支持存在positive dietary changes（D03定义positive change=更健康REAP-s，D04列出单项positive ch |
+| 278 | SEM | claim说"immunity and COVID-19 infection correlate positively with age"（免疫力随年龄正相关） |
+| 307 | SEM;ATT | 目标标记在diet后，候选D01说"impact of lifestyle habits such as unhealthy diets on suscepti |
+| 379 | SEM | 候选D02说"there are suggestions that suicide rates will rise, although this is not  |
+| 391 | SEM;CTX | 候选D03/D07支持某些IBD药物（TNF联合+硫唑嘌呤、硫唑嘌呤单药）可能增加重症风险，但这是IBD患者内部不同药物的比较，不是与一般公众（general  |
+| 469 * | CTX;ATT;UNK | 目标引用在'in a manner previously described'后，承担方法描述方式。候选支持GWAS set-enrichment分析方法的存在 |
+| 480 * | CTX;UNK | 目标引用<|cit|>承担'remdesivir治疗MERS-CoV优于LPV/RTV/IFNβ组合'。原候选D01:S01仅为比较研究标题（'Comparat |
+| 484 | SEM | 候选D04明确说"RTV to increase LPV half-life through the inhibition of cytochrome P450 |
+| 491 | SEM | 候选D01/D06明确说"RDV and IFNb have superior antiviral activity to LPV and RTV in vit |
+| 502 | RET;UNK | claim的'The antiviral efficacy'承接前文remdesivir（RDV）。原候选全部为IFN-I相关及方法学内容：D01:S01支持t |
+| 506 | SEM;CTX;ATT | 候选支持TREX1通过降解HIV逆转录产物抑制固有免疫，但实验细胞为CD4+ T细胞、巨噬细胞和小鼠细胞（D02:S02），claim限定"in DCs"（树突 |
+| 525 | SEM | 候选D02:S02说TREX1降解"reverse transcripts that are not imported into the nucleus"（未入 |
+| 544 | SEM;ATT | 候选为49名黑人美国HIV患者子样本，显示COVID-19负面影响的横断关联与较低ART依从性有关（D01、D08、D09），但未提供同一人群前后纵向对比，也未 |
+| 600 | CTX;RET;UNK | 原候选D06:S02明确说'no quantitative measures of activity levels were available'（无客观定量活 |
+
+\* v7理由收紧条目
+
+## 待共同裁决事项
+
+1. **490实验计数与指代**：4项实验计数已补依据，但claim中'It'指代IFN-I单药还是泛抗MERS-CoV治疗需共同确认；若限定IFN-I单药，D03/D04（RDV）和D04:S02（组合疗法）是否计入需裁决。
+2. **235地理描述**：Flanagan 27.5%有支持，22%属other_cit；'In the United States'与多国样本是否构成重要歪曲待裁决（与250统一口径）。
+3. **466 claim截断**：冻结claim末尾'postmo'被截断，原XML目标更接近repair/immune通路比较；仅就冻结截断文本判NOT_ACCURATE，不诊断真实引用。
+4. **580引用范围**：目标只承担diet从句，不要求mental health；'in children'省略obesity限定是否构成重要歪曲待裁决。
+5. **250地理描述分歧**：多国研究vs conducted in US，继续保留。
+
+---
+*本文件为陈明进个人复核意见，非双方共同裁决结果。冻结gold、模型输入和正式Test成绩均未修改。*

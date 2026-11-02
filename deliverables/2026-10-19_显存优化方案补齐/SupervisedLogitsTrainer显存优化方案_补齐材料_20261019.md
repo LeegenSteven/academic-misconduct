@@ -178,3 +178,45 @@
 - 实际配置已记录在 `test_refreeze5120_run02/test_config_freeze.json`
 - 脚本默认值为 4096，通过 `--max-length 5120` 参数覆盖
 - 3 条超 9000 的记录（237/250/256）在 5120 下会被截断约 4000+ token，主要截断候选证据部分
+
+---
+
+## 八、10/20 等价性测试失败根因与修复
+
+### 8.1 A100 实测结果
+
+李云 10/19 在 A100 上运行真实 27B 等价性测试，四场景（single_micro、accum4_tail、padded_accum4_tail、production_accum16_tail）**全部未通过**。
+
+### 8.2 根因：loss 归一化不一致
+
+| 版本 | loss 计算方式 |
+|---|---|
+| 标准版（transformers 5.8 Trainer） | `sum(token_losses) / num_items_in_batch`，`num_items_in_batch` = 整个梯度累积周期的有效 token 总数 |
+| 优化版（修复前） | `mean(token_losses) / gradient_accumulation_steps` |
+
+当各样本监督 token 数不同时，两者数学上不等价。实测 accum4_tail micro_step 1：标准版 raw_loss=0.1602（sum/37），优化版 raw_loss=0.5927（mean/1）。
+
+另外，修复前 `self.model_accepts_loss_kwargs = False`，导致 Trainer 不传入 `num_items_in_batch`。
+
+### 8.3 修复内容
+
+1. `self.model_accepts_loss_kwargs = True` — 让 Trainer 传入 `num_items_in_batch`
+2. `compute_loss` 中：`num_items_in_batch` 不为 None 时用 `sum / num_items_in_batch`，为 None 时用 `mean`
+3. 等价性测试脚本测试2重写，正确模拟标准版 Trainer 的 `num_items_in_batch` 行为
+
+**修复后优化版脚本哈希**：`9A47A2DAA2C92B19D6274E26B526075A5402406E3DE068852585FF32818E4ABA`
+（修复前：`1DFFDCE3CC00C6957D8EB91D8C27C844E95F2FE4C8E5E157774A617614473D22`）
+
+### 8.4 遗留问题：single micro 梯度数值差异
+
+即使 loss 值完全相同，single micro 场景下梯度仍有 ~3e-3 差异（阈值 1e-4）。原因是标准版 forward 计算完整 logits 后由 loss function 内部 shift+gather，优化版用 `logits_to_keep` 通过 slice 只计算监督位置 logits，计算图不同导致 bfloat16 数值差异。此差异在 bfloat16 训练中可接受，需讨论是否放宽阈值。
+
+### 8.5 状态更新
+
+- [x] 等价性测试脚本已编写（10/19）
+- [x] 等价性测试已在 A100 运行（10/19，四场景 FAIL）
+- [x] 根因已定位（loss 归一化不一致）
+- [x] 优化版脚本已修复（10/20）
+- [x] 等价性测试脚本已同步更新（10/20）
+- [ ] 修复后等价性测试待 A100 重新运行
+- [ ] single micro 梯度数值差异待讨论（是否放宽阈值）

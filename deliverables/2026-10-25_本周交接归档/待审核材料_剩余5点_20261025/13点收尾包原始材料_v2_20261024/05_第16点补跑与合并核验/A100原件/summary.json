@@ -1,0 +1,15 @@
+{
+  "version": "route1_pdf_point16_compact_v2_20261024",
+  "case_id": "r1pdf:8b6ea1cffce94cc72ba1c9cf",
+  "generated_tokens": 198,
+  "parser_status": "structure_and_source_mapping_valid_pending_human_semantics",
+  "compact_output_constraint_issues": [],
+  "technical_record_valid": true,
+  "human_semantics_pending": true,
+  "classification_recomputed": false,
+  "test_run": false,
+  "old_length_failure_preserved": true,
+  "new_model_generation_calls": 1,
+  "parent_release_sha256": "09a875e7d8bcae223e39e1ba1c903c99405b17f8c08a8f3797e49dacb01106ec",
+  "new_input_sha256": "0679d723ad7afd78c955bf67f6f6edeb658d183f52cdff23b7f060a3181b2f24"
+}

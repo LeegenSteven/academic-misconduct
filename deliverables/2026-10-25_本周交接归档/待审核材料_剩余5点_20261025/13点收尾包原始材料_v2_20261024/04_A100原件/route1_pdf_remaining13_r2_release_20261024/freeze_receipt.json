@@ -1,0 +1,14 @@
+{
+  "status": "REMAINING13_R2_FROZEN",
+  "created_at_utc": "2026-10-24T06:18:44.855081+00:00",
+  "selected_count": 13,
+  "fixed_denominator": 20,
+  "release_sha256": "09a875e7d8bcae223e39e1ba1c903c99405b17f8c08a8f3797e49dacb01106ec",
+  "control_bundle_sha256": "5fdab5f4e934c1feaac400ce3e38a66d2d4f895043e932b707de0ef0eebc76d4",
+  "A100_runtime_plan_sha256": "95893ace7229ce67f75f6b9248cfc5bf7199f04db267600bc8856dedcd93e2ee",
+  "A100_CPU_comparison_sha256": "27c199b0eca88b9bff8272de89bf57265aff88ff3e86fcae1c50107d30e7957c",
+  "model_loaded": false,
+  "GPU_used": false,
+  "new_labels": 0,
+  "new_formal_acceptances": 0
+}

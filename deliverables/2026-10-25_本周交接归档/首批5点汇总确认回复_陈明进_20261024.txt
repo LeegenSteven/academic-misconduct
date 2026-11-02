@@ -1,0 +1,28 @@
+师兄，首批5点汇总已收到并逐条核对完毕，无异议。以下按case_id回复，实际核对日期2026-10-24。
+
+## 逐点确认（5点全部与汇总一致）
+
+| case_id | 李云意见 | 陈明进确认 |
+|---|---|---|
+| r1pdf:c39ba37fc4698431f556d6b9（PDB） | NOT_ACCURATE：核心数量未获支持；两类口径不同，不按大小判矛盾 | 同意。个人标签同值NOT_ACCURATE；原模型"数量级差异"理由不成立，人工理由按"口径不同、具体数值未获直接支持"另列，不写回模型 |
+| r1pdf:ecd1a395eb5f25610750d721（Trimmomatic） | ACCURATE：S02/S04支持SW质量修剪，S08支持adapter removal；popular仅本句按非关键修饰 | 同意。popular处理按个案（case-specific），不建立通用豁免；原模型adapter tool限制另列解释问题 |
+| r1pdf:e1636ac35ca5131bfdf6fb44（AfterQC） | ACCURATE：复用此前认可；原理由过度保守 | 同意。原模型输出保留，人工建议理由不写回 |
+| r1pdf:cc2e2247d91afc3f3559aa23（武汉） | 继续待核：Dec 1是发病日期、Dec 31是警报日期，均非识别日期 | 同意继续待核。双方未补出"12月初首次识别"的候选依据 |
+| r1pdf:df5053bbd503ea2762b3617d（包膜） | 继续待核：沿用冻结候选、不增常识豁免；全文补充单列 | 同意。与我v2立场一致——常识豁免须另行定义适用范围与版本，本轮不改解析规则，全文材料不回填冻结输入 |
+
+## S07两处断词确认（已回源PDF亲自核验）
+
+被引PMC6324056第1页，用PyMuPDF同版重放原文：
+
+1. **struc-/tural**：原页字符区间[3262,3264)为`-\n`，上下文"ates of >144 000 struc-\ntural models of proteins"，合并得structural。
+2. **com-/plexes**：原页字符区间[3312,3314)为`-\n`，上下文"DNA/RNA, and their com-\nplexes with metals and sma"，合并得complexes。
+
+两处均为印刷行末连字符断词（`-\n`），合并后与冻结候选D01:S07摘录"The PDB Core Archive houses 3D atomic coordinates of >144 000 structural models of proteins, DNA/RNA, and their complexes with metals and small molecules."逐字一致。确认映射成立，同意作为该两处断词的逐处核验记录。
+
+边界：仅针对S07这两处`-\n`逐处确认，不泛化为删除连字符或全局断词合并规则；断词复核项保持未签核状态直到纳入正式解析规则讨论。
+
+## 材料边界核对
+
+1. PDB核心数量、Trimmomatic的SW/adapter、AfterQC工具功能：人工理由均单列，原模型reason/raw_output/输入哈希全部保留，未写回。
+2. 武汉、包膜：继续待核、不填人工三标签；包膜项全文补充单列、不回填冻结输入。
+3. 计数保留：strict 1/5、去围栏补充3/5、摘录映射诊断16条（S07断词现已逐处确认）、正式端到端验收0、固定20点分母。未重跑模型、未改Test成绩。

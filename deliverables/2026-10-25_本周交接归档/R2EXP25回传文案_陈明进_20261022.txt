@@ -1,0 +1,14 @@
+师兄，R2EXP 25条独立语义标注已完成，CSV附后。
+
+分布：20条ACCURATE、1条NOT_ACCURATE、4条待确认。
+
+待确认4条：
+- R2EXP-PMC-04：施引称Bellenguez 2022估计heritability时排除UK Biobank，但被引文献主要分析是EADB与UKBB meta分析，未找到明确排除UKBB估计heritability的描述，可能在补充材料中
+- R2EXP-PMC-06：施引将Singhal 2023（Med-PaLM）归为continual pre-training，但被引文献实际用的是instruction prompt tuning，仅在future work中提到continual learning，术语是否可归为一类需确认
+- R2EXP-PMC-12：CR1/C1s成组引用[19,20]，CR1是经典AD风险基因应在Bellenguez 2022中但正文搜索未直接命中，C1s可能由[20]承担，各文献承担范围需确认
+- R2EXP-PMC-27：施引称"absence of genuine understanding"引用ChatGPT综述，但被引文献讨论了limitations（superficial/inaccurate content等），未找到该 exact 表述，是否由被引文献明确提出需核实
+
+NOT_ACCURATE 1条：
+- R2EXP-PMC-19：施引称"Pfam ID是指向UniProt网站的活动链接"引用InterPro文章，但被引InterPro文献未提及该功能，更适合引用UniProt文章
+
+其余20条方法学/标准引用及明确支持的引用均判ACCURATE，证据定位和理由已填入CSV。请共同核对分歧。

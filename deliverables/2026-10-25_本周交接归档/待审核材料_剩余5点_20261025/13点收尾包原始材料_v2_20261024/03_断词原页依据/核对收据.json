@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-10-24T09:58:02.636249+00:00",
+  "PDF_images_inspected": 2,
+  "candidate_quotes_checked": 2,
+  "line_end_join_positions_checked": 3,
+  "source_fragments_and_offsets_match": true,
+  "original_downloaded_18_files_unchanged": true,
+  "protected_original_code_unchanged": true,
+  "new_model_runs": 0,
+  "GPU_used": false,
+  "new_human_labels": 0,
+  "new_semantic_acceptances": 0,
+  "new_formal_end_to_end_acceptances": 0
+}

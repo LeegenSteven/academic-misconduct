@@ -1,0 +1,12 @@
+{
+  "00_先看这里.md": "671ac728172149c9b00470ed1cad8caedd8a8c393bae558ead4b49cb8d521f69",
+  "01_等价性验证_27B_NF4/route1_qwen38_train_sarol_memopt_v1.py": "9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba",
+  "01_等价性验证_27B_NF4/run_gpu_equivalence_a100.py": "3461b8cc6f37f3a39107e8dc677c952982e37283d8b60333e9be74cde41fbb2d",
+  "01_等价性验证_27B_NF4/train.gold.jsonl": "f245b94aafc67934b43c760a1d6c68b0f1042d7561f493280c77d49467c1fad8",
+  "01_等价性验证_27B_NF4/train.inputs.jsonl": "712338b41e7f1b56b8a4cb8a75018a57bab89706ed0b6d9f4a2e7dc8bd0d0180",
+  "02_保存与重载验证/route1_qwen38_eval_v1.py": "c5a5862512911c37bad0e131d8f7342658c78443f8c1df3a5b0e4ea81eaa1d42",
+  "02_保存与重载验证/route1_qwen38_train_sarol_memopt_v1.py": "9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba",
+  "02_保存与重载验证/smoke32.gold.jsonl": "4ba3335edede70d3de0cf2e55b8fb1ffc322e08b21e57d59dd91cde6320299ca",
+  "02_保存与重载验证/smoke32.inputs.jsonl": "3675d36859434e4d37bf7c96a626aa3e25fa3a6bb334f570adcbfd19e5dc9bf1",
+  "03_参考/李云CPU包_00_先看结论.md": "02777e3149b523bc6fd21914bfb6a08f9cb10a73d440eb074f4b03fdbd3a360b"
+}

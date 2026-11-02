@@ -1,0 +1,12 @@
+{
+  "audit_summary.json": "ea0135441c38ba06a896d27ec10ab31379b5d1c2bc4dd4e7bc409ffe5c525c1a",
+  "diagnostic_categories.json": "a4b691dab059fda7fe1a0b542ed957fe19839253fa75b693f07ef709ce54c5b8",
+  "original_files_sha256.json": "3d0e392ab38b6012960db1eb8b0fc1a5cac25d36899b47ce9e08a6062ec311b2",
+  "point_diagnostics.jsonl": "79d538f4dd12e829944e3d7e4da1aa04bd60d8d31e0fa1c6731c0a812b8d3374",
+  "quote_mapping_diagnostics.jsonl": "288e1ead98f564a611639099ad5e7cfe4d3ac2593ba3862910d60037d6965b78",
+  "review_template.jsonl": "74e76a327e8bf095d95f92c41f07c31f50fb47d9db3195c40463a1f865695ec5",
+  "核对结论与下一步.md": "067a78b4c23b2f2221940a657662c384289c33f009c2963d923d5c74c8511a7c",
+  "strict_assembled/records.csv": "d7d0f22188a4b66e380874025b898927eebd38636ac4c7c965086bfcbe81d951",
+  "strict_assembled/records.jsonl": "fd3316daf02344f0c02d3f98c222340402deb24ae2df60706f6504d26b10ae19",
+  "strict_assembled/summary.json": "482b94ae2f2e08a114025609bb08dd5d33bdbf6a800f593ee5eb26cf92c62198"
+}

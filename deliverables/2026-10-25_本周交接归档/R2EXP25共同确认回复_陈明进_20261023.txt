@@ -1,0 +1,75 @@
+R2EXP25 共同确认回复（陈明进，2026-10-23）
+
+原始标签保留：20 ACC / 1 NA / 4待确认。以下为逐条共同确认意见，不替代独立盲标。
+
+=== 9条需共同确认 ===
+
+R2EXP-PMC-04（原待确认）
+意见：保留待确认。
+理由：施引正文body/p4明确说缺失遗传力时由施引作者自行重算（用summary statistics + LDSC），图注body/p21说"excluding UK Biobank data"。Bellenguez引用标记在图注"Bellenguez et al. studies"处，excluding UKBB在句末，二者不紧邻。引用Bellenguez承担的是summary statistics数据来源，不是声称Bellenguez原作者排除UKBB估计遗传力。被引正文body/p2说EADB与UKBB meta分析，不能据此反驳施引作者的重分析。关键分歧：图注中"excluding UKBB"虽不紧挨Bellenguez引用，但同一句中是否让读者误以为原作者排除了UKBB？需结合施引重算方法的完整语境确认。若只承担数据来源则ACCURATE；若承担"排除UKBB估计遗传力"的方法归属则有问题。保留待确认。
+
+R2EXP-PMC-06（原待确认）
+意见：同意改为NOT_ACCURATE。
+理由：被引Med-PaLM论文（Singhal et al. 2023）明确提出instruction prompt tuning（body/p8），continual learning仅出现在future work段（body/p37）。所核段落中未检出"continual pre-training"术语。施引称"continual pre-training (Singhal et al., 2023)"，将continual pre-training归给该论文，但原文未使用此术语或方法。continual pre-training与instruction prompt tuning是不同技术概念，不能因都涉及适配就视为同义。方法归属错误，改NOT_ACCURATE。
+
+R2EXP-PMC-07（原ACCURATE）
+意见：维持ACCURATE，限定引用范围。
+理由：引用14承担的是"定义AT(N)生物标志物框架"这一分句，被引2024 NIA-AA标准body/p14/p16明确更新AT(N)分类，有直接支持。"cost and invasiveness of these methods drive the need for scalable plasma biomarkers"是施引作者的推论，不由引用14承担。被引body/p13讨论BBM可及性（"more generally accessible"），间接支持成本/可及性方向，但未直接说cost/invasiveness。限定范围为AT(N)框架定义后维持ACCURATE，注明cost/invasiveness不由该引用直接承担。原证据定位body/p1不准确（主要是工作组历史），应改用body/p14/p16。
+
+R2EXP-PMC-12（原待确认）
+意见：修正后保留待确认。
+理由：李云已在Bellenguez Table 1找到CR1关联行rs679515，我原理由中"原文没有CR1"是错误的，在此修正。[19]（Bellenguez）承担CR1风险关联有支持。C1s和"inducers of complement activation"的功能性分句不在[19]中，可能由[20]承担，但本次缓存无[20]全文。成组引用中[19]承担CR1、[20]承担C1s和功能描述可能是合理分工，待[20]全文核实后确认。保留待确认，等[20]全文核实C1s归属后再定最终标签。
+
+R2EXP-PMC-19（原NOT_ACCURATE）
+意见：维持NOT_ACCURATE，修正理由。
+理由：施引整段在描述自建网站功能，"Pfam ID is an active link to the record on the UniProt website"是对自建站点外链的具体声明，引用[45]位于该句句末，紧挨整个功能声明。引用[45]（InterPro in 2022）支持Pfam为InterPro成员数据库（body/p2），且InterPro网站承接了Pfam网站功能（body/p34），但未直接说明"Pfam ID链接到UniProt网站"这一具体跳转关系。该功能声明更适合引用UniProt文章。李云指出需区分资源来源引用与功能转述：若[45]仅作为Pfam资源背景引用，则不承担跳转功能；若承担跳转功能声明，则被引不支持。我判断此处[45]在句末紧挨具体功能声明，应承担该功能，被引不支持，维持NA。若要最终确认需当时版本的网站页面/代码/截图（当前不可得，待补）。
+
+R2EXP-PMC-21（原ACCURATE）
+意见：维持ACCURATE，限定引用范围。
+理由：[18]（WHO分类）Table 15支持CD56作为BPDCN免疫表型诊断标准（"Expression of CD123 and one other pDC marker in addition to CD4 and/or CD56"），承担"CD56 expression is a characteristic feature of BPDCN"有支持。需注明：Table 15中CD4和/或CD56为"and/or"关系，即CD56是诊断标准列出的标记之一，但非每个病例必表达；这与施引"although it may be negative in very rare cases"的限定一致。"may be negative in very rare cases, particularly in pediatric BPDCN"由[2]承担（成组引用分工），不在[18]范围内。原"typically expressed"摘录不是逐字原文，应改用Table 15原文。限定[18]只承担一般诊断标准后维持ACCURATE。
+
+R2EXP-PMC-24（原ACCURATE）
+意见：维持ACCURATE，加限定说明。
+理由：被引综述body/p17明确支持"generation of realistic and variable clinical vignettes, customized clinical cases with immediate feedback, summarization"，与施引主张的核心功能一致。"oncology clinical vignettes"中的oncology是施引列举的专科应用场景，被引未单独验证肿瘤专科能力；若施引未宣称该综述专门验证oncology（仅将临床案例具体化为肿瘤案例），则不构成核心错误。body/p57提醒结果推广局限，应一并注明。维持ACCURATE，注明"被引支持一般临床案例生成，oncology为施引专科应用场景，被引未单独验证肿瘤专科；body/p57提示结果推广局限"。
+
+R2EXP-PMC-27（原待确认）
+意见：保留待确认，不强行填标签。
+理由：被引body/p39讨论"superficial, inaccurate, or incorrect content"作为ChatGPT在科研写作中的局限，body/p6比较人类智能与AI的属性（理解复杂抽象概念的能力）。但本次缓存正文未找到直接提出"absence of genuine understanding"或"lack of reasoning"的对应论断。从"内容肤浅/不准确"到"缺乏真正理解"是认知层面的推论跳跃，被引未直接支持这个更强的哲学论断。李云指出"未检出不等于已证实无关或不准确"，正确。保留待确认：若有更直接段落请补出；否则可考虑NOT_ACCURATE（被引未直接支持该具体表述），但不填IRRELEVANT。
+
+R2EXP-PMC-28（原ACCURATE）
+意见：同意改为NOT_ACCURATE。
+理由：被引摘要明确写"111,326 clinically diagnosed/'proxy' AD cases"，body/p2（Methods/Study population段）可核算：临床病例39,106+25,392=64,498，代理病例46,828，合计111,326。施引将111,326全部称为"clinically diagnosed AD patients"，遗漏了"proxy"（代理病例）限定。代理病例（proxy-AD）基于亲属诊断，与临床诊断病例定义不同。总数相同不能作为ACCURATE的充分理由，病例定义的遗漏构成重要范围简化。改NOT_ACCURATE。
+
+=== 16条限定范围支持（同意维持ACCURATE，需修正证据定位/摘录）===
+
+03、05、11、13、14、15（KEGG系列）：同意限定为KEGG通路数据库资源引用，不承担施引作者的富集分析参数/结果。原证据多为body/p1的改写，应改用body/p17的PATHWAY定义逐字摘录。维持ACCURATE。
+
+08（EMPA-KIDNEY）：同意HR=0.72等主要数值匹配，原定位body/p15/P20应修正为body/p14/P19。不能误读为心血管死亡单独终点显著。维持ACCURATE。
+
+10、25（SignalP）：同意限定为SignalP 6.0方法资源引用，不承担施引作者的预测结果。原证据应改用body/p2正文（"Here, we present SignalP 6.0, based on protein language models"），不用标题拼接。维持ACCURATE。
+
+18（WHO B-ALL）：同意限定为B-ALL细胞遗传学分类，原定位body/p1应修正为body/p14/Par9。维持ACCURATE。
+
+20（InterPro IDR）：同意限定为InterPro包含预测的无序区域注释（MobiDB-lite），原证据应改用body/p2后半段。维持ACCURATE。
+
+22（ColabFold）：同意限定为AlphaFold-Multimer工具资源引用，原定位body/p1应修正为body/p32/Par31。维持ACCURATE。
+
+23（NIA-AA BBM）：同意2024标准纳入血液生物标志物，原定位body/p1应修正为body/p23。维持ACCURATE。
+
+26、29（UniProt）：同意限定为UniProt参考蛋白质组资源引用，具体proteome ID/版本/下载日期为施引作者报告。原摘录将"each organism"改成"different organisms"应修正为逐字原文。维持ACCURATE。
+
+30（InterPro v98）：同意限定为InterPro蛋白质域数据库资源引用，v98.0是施引作者使用版本，被引介绍的是v90.0，不应把版本差异直接视为错误。原证据应分开登记v90原文和施引自报v98.0。维持ACCURATE。
+
+=== 汇总 ===
+
+标签变更：
+- 06：待确认 → NOT_ACCURATE（方法归属错误，continual pre-training vs instruction prompt tuning）
+- 28：ACCURATE → NOT_ACCURATE（遗漏proxy病例限定）
+- 19：维持NOT_ACCURATE（修正理由）
+- 04、12、27：保留待确认
+- 07、21、24：维持ACCURATE（加范围限定）
+- 其余16条：维持ACCURATE（修正证据定位/摘录）
+
+最终分布（待李云确认后）：19 ACC / 3 NA / 3待确认（28从ACC改NA后ACC减1；原1NA+06+28=3NA；原4待确认中06改NA、04/12/27保留=3待确认）
+
+原始CSV不改写，等双方确认后再更新最终标签。

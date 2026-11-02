@@ -1,0 +1,9 @@
+{
+  "source": "Local test tool execution in this conversation",
+  "test_script_sha256": "1c78d6ce97f4c5e30b20c83f604751b4d647b8371593c0cda3ffc29c5d50c412",
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "test_data": "Synthetic parser boundary fixtures; no A100 performance or semantic acceptance inferred"
+}
