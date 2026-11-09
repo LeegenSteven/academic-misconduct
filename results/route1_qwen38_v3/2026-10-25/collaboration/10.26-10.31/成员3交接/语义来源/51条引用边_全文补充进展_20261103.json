@@ -1,0 +1,1901 @@
+{
+  "version": "source_acquisition_followup_20261103",
+  "date": "2026-11-08",
+  "original_missing_queue": {
+    "file": "11.2-11.8/51条引用边_26条缺失全文清单_20261103.jsonl",
+    "sha256": "0dbe3c478ba42076c8b243b89457f7eb99f65ed6f27be6ec2e313d13e1f541f2",
+    "records": 26,
+    "previous_report": "11.2-11.8/51条引用边_26条缺失全文清单_20261103.md",
+    "previous_report_sha256": "59dcf2c24c4927b8e2728b2042051f02e556c2eea596de8a7422d23961b43c23",
+    "user_reported_sent_to": "成员4",
+    "sent_copy_preserved": true
+  },
+  "counts": {
+    "original_total_edges": 51,
+    "original_registered_both_end_fulltext": 25,
+    "new_target_doi_matched_repository_fulltext": 1,
+    "current_registered_both_end_identity_matched_files_including_version_limited": 26,
+    "remaining_target_fulltext_not_established": 25,
+    "of_remaining_related_preprint_candidate": 1,
+    "of_remaining_no_new_fulltext_file": 24,
+    "new_downloaded_pdf_files_including_unconfirmed_candidate": 2,
+    "original_missing_cited": 10,
+    "original_missing_citing": 16,
+    "current_remaining_cited_target_fulltext": 9,
+    "current_remaining_citing_target_fulltext": 16,
+    "new_human_semantic_reviews": 0,
+    "new_joint_classifications": 0,
+    "new_model_runs": 0,
+    "new_auxiliary_fulltext_reviews_ready": 1,
+    "new_human_labels_confirmed": 1
+  },
+  "identity_scope": "Dundee作者稿有官方DOI身份，逐句期刊版等价未核；arXiv仅相关候选，正式DOI对应未核，不计为目标缺口补齐。",
+  "visual_checks": {
+    "Dundee_repository_cover_pdf_page_1": true,
+    "Dundee_article_title_pdf_page_2": true,
+    "arxiv_version_pdf_page_1": true,
+    "scope": "身份页和版本信息核对，不是全文语义裁决。"
+  },
+  "records": [
+    {
+      "sequence": 1,
+      "citation_id": "M3-W4387330299-W1871398651",
+      "paper_pair_id": "PP-W4387330299--W1871398651",
+      "focus_role": "outgoing",
+      "citing_id": "W4387330299",
+      "cited_id": "W1871398651",
+      "missing_side": "cited",
+      "missing_side_zh": "被引全文",
+      "missing_work_id": "W1871398651",
+      "missing_work_doi": "10.1109/icacea.2015.7164818",
+      "missing_work_title": "Energy aware path formation with link stability in wireless adhoc network",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：已查OpenAlex/Europe PMC公开索引及位置快照，未登记可核全文文件。",
+      "available_version_or_candidate_scope": "仅有书目/索引信息；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1109/icacea.2015.7164818",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "citing",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W1871398651"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 2,
+      "citation_id": "M3-W4387330299-W2031163406",
+      "paper_pair_id": "PP-W4387330299--W2031163406",
+      "focus_role": "outgoing",
+      "citing_id": "W4387330299",
+      "cited_id": "W2031163406",
+      "missing_side": "cited",
+      "missing_side_zh": "被引全文",
+      "missing_work_id": "W2031163406",
+      "missing_work_doi": "10.1109/iciinfs.2014.7036635",
+      "missing_work_title": "An on demand routing protocol AODV with end to end reliability and backward route information",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：已查OpenAlex/Europe PMC公开索引及位置快照，未登记可核全文文件。",
+      "available_version_or_candidate_scope": "仅有书目/索引信息；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1109/iciinfs.2014.7036635",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "citing",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W2031163406"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 3,
+      "citation_id": "M3-W4387330299-W2520540666",
+      "paper_pair_id": "PP-W4387330299--W2520540666",
+      "focus_role": "outgoing",
+      "citing_id": "W4387330299",
+      "cited_id": "W2520540666",
+      "missing_side": "cited",
+      "missing_side_zh": "被引全文",
+      "missing_work_id": "W2520540666",
+      "missing_work_doi": "10.1109/wispnet.2016.7566201",
+      "missing_work_title": "Distortion aware novel routing protocol for video transmission over MANETs",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：已查OpenAlex/Europe PMC公开索引及位置快照，未登记可核全文文件。",
+      "available_version_or_candidate_scope": "仅有书目/索引信息；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1109/wispnet.2016.7566201",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "citing",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W2520540666"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 4,
+      "citation_id": "M3-W4387330299-W2552133479",
+      "paper_pair_id": "PP-W4387330299--W2552133479",
+      "focus_role": "outgoing",
+      "citing_id": "W4387330299",
+      "cited_id": "W2552133479",
+      "missing_side": "cited",
+      "missing_side_zh": "被引全文",
+      "missing_work_id": "W2552133479",
+      "missing_work_doi": "10.1038/nature20479",
+      "missing_work_title": "Efficient fault tolerance",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "2026-11-03官方出版页仍为订阅预览；保留书目与来源线索，不将预览摘要计为全文。",
+      "available_version_or_candidate_scope": "目前仅有出版方预览；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1038/nature20479",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "citing",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "通过机构馆藏或作者提供可核对版本的全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": true,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W2552133479"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [
+        {
+          "url": "https://www.nature.com/articles/nature20479",
+          "result": "Official publisher page remains a subscription preview"
+        }
+      ],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 5,
+      "citation_id": "M3-W4387330299-W2753886374",
+      "paper_pair_id": "PP-W4387330299--W2753886374",
+      "focus_role": "outgoing",
+      "citing_id": "W4387330299",
+      "cited_id": "W2753886374",
+      "missing_side": "cited",
+      "missing_side_zh": "被引全文",
+      "missing_work_id": "W2753886374",
+      "missing_work_doi": "10.1109/tmi.2017.2750210",
+      "missing_work_title": "Structure Prediction for Gland Segmentation With Hand-Crafted and Deep Convolutional Features",
+      "source_status": "FULLTEXT_FILE_IDENTITY_MATCHED_VERSION_PENDING",
+      "missing_side_source_status": "REPOSITORY_MANUSCRIPT_IDENTITY_MATCHED_VERSION_PENDING",
+      "source_status_reason": "2026-11-03从Dundee新的/ws/files/公开入口实际取得13页PDF；封面DOI和题名与目标相符，版本标注Peer reviewed version。旧/files/403记录保留。",
+      "available_version_or_candidate_scope": "Dundee官方仓储同行评审作者稿已取得并完成本次全文辅助核对；目标DOI及文献身份明确，期刊定稿逐句等价未核。",
+      "known_doi_url": "https://doi.org/10.1109/tmi.2017.2750210",
+      "known_candidate_url": "https://discovery.dundee.ac.uk/en/publications/9ef4f5fd-6f1e-4e3f-a51c-a54d6a3a6643",
+      "existing_other_side_fulltext": {
+        "side": "citing",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [
+        {
+          "url": "https://discovery.dundee.ac.uk/en/publications/9ef4f5fd-6f1e-4e3f-a51c-a54d6a3a6643",
+          "result": "HTML landing page with citation_pdf_url"
+        },
+        {
+          "url": "https://discovery.dundee.ac.uk/files/18221407/TMI_unmarked.pdf",
+          "result": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10046665/1/TMI_17.pdf",
+          "result": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ],
+      "historical_reason_raw": "Public source request did not yield a verified full text in this stage.",
+      "next_action": "李云已明确确认本范围个人意见；纳入后续新增全文的集中复核事项，由陈明进实际复核后再处理共同结论，成员4正式接入另行留痕。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": true,
+      "newly_obtained_file": "11.2-11.8/补充全文/W2753886374_Dundee_peer_reviewed_version.pdf",
+      "newly_obtained_file_sha256": "57eeb6481f931b82387522544dff651f9fd569a2610062f18e3f533a6c03eabb",
+      "version_identity_verified": "官方仓储注明Peer reviewed version；属于作者稿，期刊定稿逐句一致性尚未核验。",
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W2753886374"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_FILE_IDENTITY_MATCHED_VERSION_PENDING",
+      "new_followup_attempts": [
+        {
+          "url": "https://discovery.dundee.ac.uk/ws/files/18221407/TMI_unmarked.pdf",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "bytes": 6416243,
+          "pages": 13,
+          "sha256": "57eeb6481f931b82387522544dff651f9fd569a2610062f18e3f533a6c03eabb"
+        }
+      ],
+      "file_identity_status": "TARGET_DOI_AND_TITLE_EXPLICIT_ON_REPOSITORY_COVER",
+      "version_equivalent_to_published_text": null,
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "baseline_available_version_or_candidate_scope": "已知作者稿候选链接；正文未取得、版本未核清。",
+      "assistant_fulltext_review": {
+        "status": "LIYUN_SCOPED_PERSONAL_OPINION_CONFIRMED_CHEN_REVIEW_PENDING",
+        "date": "2026-11-03",
+        "review_type": "assistant_auxiliary_review_not_human_annotation",
+        "review_context": "SEEN_MEMBER4_PRIOR_LABEL_NOT_BLIND",
+        "citation_id": "M3-W4387330299-W2753886374",
+        "paper_pair_id": "PP-W4387330299--W2753886374",
+        "annotation_unit_id": "M3-W4387330299-W2753886374:central_pdf_p3_o1",
+        "source_files": {
+          "citing": {
+            "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+            "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+            "pages": 25
+          },
+          "cited": {
+            "file": "11.2-11.8/补充全文/W2753886374_Dundee_peer_reviewed_version.pdf",
+            "sha256": "57eeb6481f931b82387522544dff651f9fd569a2610062f18e3f533a6c03eabb",
+            "pages": 13,
+            "version": "Dundee repository Peer reviewed version; journal final wording equivalence unverified"
+          }
+        },
+        "locator_convention": {
+          "extractor": "pypdf 6.10.0",
+          "method": "PdfReader.pages[n-1].extract_text() with default arguments",
+          "offsets": "zero-based Unicode code point indices, half-open [start,end); PDF page numbering is one-based",
+          "display_normalization": "whitespace collapsed only; raw offsets refer to original page extraction"
+        },
+        "citing_scope": {
+          "pdf_page": 3,
+          "printed_page": "713",
+          "sentence_char_span": [
+            2780,
+            2983
+          ],
+          "sentence": "In dynamic QoS routing, the QoS requirements of the network appli- cations may vary over time, and the routing algorithm adjusts the path selection dynamically based on the changing QoS parameters [ 16].",
+          "context_char_span": [
+            2533,
+            2983
+          ],
+          "scope_zh": "动态QoS路由中，网络应用的QoS需求可随时间变化，路由算法依据变化的QoS参数动态调整路径。紧邻的静态路由说明作为上下文保留。",
+          "reference_marker": "[16]",
+          "reference_key": "3515_CR16",
+          "reference_pdf_page": 23,
+          "reference_printed_page": "733",
+          "reference_char_span": [
+            688,
+            957
+          ],
+          "reference_doi": "10.1109/TMI.2017.2750210",
+          "reference_identity_status": "PDF_REFERENCE16_DOI_TITLE_AUTHORS_MATCH_REPOSITORY_COVER"
+        },
+        "cited_evidence": [
+          {
+            "pdf_page": 4,
+            "printed_page": "3",
+            "section": "III. Method",
+            "section_char_span": [
+              3591,
+              4428
+            ],
+            "excerpt_char_span": [
+              3604,
+              3681
+            ],
+            "excerpt": "Gland segmentation takes a histology image as input and outputs a label image",
+            "summary_zh": "输入是组织学图像，输出是腺体/非腺体像素标签；对网格位置提取图像特征，用SVM预测局部标签结构，再聚合及后处理为独立腺体区域。"
+          },
+          {
+            "pdf_page": 6,
+            "printed_page": "5",
+            "section": "IV. Experiments / A. Dataset",
+            "section_char_span": [
+              5104,
+              6387
+            ],
+            "summary_zh": "评估采用Warwick-QU/GlaS结直肠组织学图像，包含165幅图像及腺体标注；这是分割实验数据，不是通信网络QoS或路径选择实验。"
+          },
+          {
+            "pdf_page": 11,
+            "printed_page": "10",
+            "section": "V. Discussion and Conclusion",
+            "section_char_span": [
+              2688,
+              3246
+            ],
+            "summary_zh": "结论总结以聚类获得局部标签结构样例并训练分类器进行对象实例分割，应用范围延伸至类似生物医学图像分析问题。"
+          }
+        ],
+        "support_analysis": {
+          "suggested_label": "IRRELEVANT",
+          "scope": "仅限已定位的动态QoS路由主张与当前身份匹配的Dundee同行评审作者稿之间的支持关系。",
+          "rationale_zh": "引用标记及参考文献DOI匹配。被引稿的具体方法、实验对象和结论均针对组织图像的腺体实例分割，未提供该动态路由主张的论证或应用桥接；其中network指卷积神经网络，不能据此等同通信网络QoS路由。建议IRRELEVANT，判断的是此引用的支持关系，不是判定动态路由常识本身错误。",
+          "basis": "positive task/method/data/conclusion mismatch plus scoped fulltext review; not keyword absence alone",
+          "not_based_on_retraction": true,
+          "not_an_inference_from_abstract_only": true
+        },
+        "supplemental_search": {
+          "terms": [
+            "QoS",
+            "routing",
+            "wireless",
+            "bandwidth",
+            "path selection"
+          ],
+          "scope": "article PDF pages 2-13; case-insensitive whitespace-compacted extracted text",
+          "match_counts": {
+            "QoS": 0,
+            "routing": 0,
+            "wireless": 0,
+            "bandwidth": 0,
+            "path selection": 0
+          },
+          "limitations": "仅辅助排查，不能以词项未出现独立推出语义无关。"
+        },
+        "visual_verification": {
+          "citing_scope_pdf_page3": true,
+          "citing_reference16_pdf_page23": true,
+          "cited_method_pdf_page4": true,
+          "cited_dataset_pdf_page6": true,
+          "cited_conclusion_pdf_page11": true,
+          "repository_cover_and_title_checked_previously": true
+        },
+        "version_limits": [
+          "官方仓储封面列目标DOI并标注Peer reviewed version，正文为投稿格式；未取得期刊定稿作逐句比对。",
+          "原队列年份2017、参考文献与仓储出版年2018分别保留；本轮不凭年份字段差异改换文献或判错。"
+        ],
+        "prior_member4_opinion": {
+          "label": "IRRELEVANT",
+          "source": "baseline v5 row judgment_label",
+          "evidence_basis": "prior abstract-based opinion retained separately; not retroactively upgraded to a fulltext review"
+        },
+        "liyun_personal_opinion": {
+          "reviewer": "李云",
+          "label": "IRRELEVANT",
+          "date": "2026-11-03",
+          "citation_id": "M3-W4387330299-W2753886374",
+          "paper_pair_id": "PP-W4387330299--W2753886374",
+          "scope": "仅限已定位的动态QoS路由主张与当前身份匹配的Dundee同行评审作者稿之间的支持关系。",
+          "citing_claim": "动态QoS路由中，网络应用的QoS需求可随时间变化，路由算法依据变化的QoS参数动态调整路径。紧邻的静态路由说明作为上下文保留。",
+          "reason_zh": "施引处讨论依据变化的QoS参数动态调整网络路径；被引作者稿的方法、实验和结论针对组织图像腺体分割，未提供该动态QoS路由主张的论证或应用桥接。个人意见仅判断此引用支持关系，不判定路由常识本身错误。",
+          "citing_file_sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+          "cited_file_sha256": "57eeb6481f931b82387522544dff651f9fd569a2610062f18e3f533a6c03eabb",
+          "version_limits": [
+            "官方仓储封面列目标DOI并标注Peer reviewed version，正文为投稿格式；未取得期刊定稿作逐句比对。",
+            "原队列年份2017、参考文献与仓储出版年2018分别保留；本轮不凭年份字段差异改换文献或判错。"
+          ],
+          "version_equivalence_to_journal_final_confirmed": null,
+          "confirmation": {
+            "source": "explicit_user_reply_to_concentrated_review_question",
+            "question": "是否认可这条李云个人意见：引用边 M3-W4387330299-W2753886374 中，施引论文第3页的“动态QoS路由随参数变化调整路径”主张，与被引Dundee作者稿的方法、实验及结论（腺体图像分割）无关，登记为 IRRELEVANT？范围仅限当前同行评审作者稿，期刊定稿逐句一致性未核；共同结论和分数继续留空。",
+            "answer_verbatim": "认可，按上述范围登记李云个人意见",
+            "question_item_id": "[\"request_user_input_async\",\"call_493b93811c48467ea24d3685402155cc\",0]",
+            "date": "2026-11-03",
+            "exact_time": null
+          },
+          "review_mode": "辅助全文核对后本人明确认可；已见成员4原意见，非独立盲标。",
+          "independent_blind_review": false,
+          "separate_primary_fulltext_read_by_user_inferred": false,
+          "joint_acceptance": false,
+          "score_added": null
+        },
+        "chen_personal_opinion": null,
+        "joint_decision": null,
+        "score_added": null,
+        "new_model_run": false,
+        "next_action": "李云已明确确认本范围个人意见；纳入后续新增全文的集中复核事项，由陈明进实际复核后再处理共同结论，成员4正式接入另行留痕。"
+      }
+    },
+    {
+      "sequence": 6,
+      "citation_id": "M3-W4387330299-W2892808760",
+      "paper_pair_id": "PP-W4387330299--W2892808760",
+      "focus_role": "outgoing",
+      "citing_id": "W4387330299",
+      "cited_id": "W2892808760",
+      "missing_side": "cited",
+      "missing_side_zh": "被引全文",
+      "missing_work_id": "W2892808760",
+      "missing_work_doi": "10.1109/tdsc.2018.2872536",
+      "missing_work_title": "DNIC Architectural Developments for 0-Knowledge Detection of OPC Malware",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：已查OpenAlex/Europe PMC公开索引及位置快照，未登记可核全文文件。",
+      "available_version_or_candidate_scope": "仅有书目/索引信息；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1109/tdsc.2018.2872536",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "citing",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W2892808760"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 7,
+      "citation_id": "M3-W4387330299-W2897280001",
+      "paper_pair_id": "PP-W4387330299--W2897280001",
+      "focus_role": "outgoing",
+      "citing_id": "W4387330299",
+      "cited_id": "W2897280001",
+      "missing_side": "cited",
+      "missing_side_zh": "被引全文",
+      "missing_work_id": "W2897280001",
+      "missing_work_doi": "10.1109/tdsc.2018.2877332",
+      "missing_work_title": "Enabling Reliable Keyword Search in Encrypted Decentralized Storage with Fairness",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：已查OpenAlex/Europe PMC公开索引及位置快照，未登记可核全文文件。",
+      "available_version_or_candidate_scope": "仅有书目/索引信息；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1109/tdsc.2018.2877332",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "citing",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W2897280001"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 8,
+      "citation_id": "M3-W4387330299-W3022034429",
+      "paper_pair_id": "PP-W4387330299--W3022034429",
+      "focus_role": "outgoing",
+      "citing_id": "W4387330299",
+      "cited_id": "W3022034429",
+      "missing_side": "cited",
+      "missing_side_zh": "被引全文",
+      "missing_work_id": "W3022034429",
+      "missing_work_doi": "10.1109/parc49193.2020.236630",
+      "missing_work_title": "New Approach for Improving Battery Power Consumption of Wireless Mobile Adhoc Networks Nodes Using Genetic Algorithm",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：已查OpenAlex/Europe PMC公开索引及位置快照，未登记可核全文文件。",
+      "available_version_or_candidate_scope": "仅有书目/索引信息；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1109/parc49193.2020.236630",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "citing",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W3022034429"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 9,
+      "citation_id": "M3-W4387330299-W3203972939",
+      "paper_pair_id": "PP-W4387330299--W3203972939",
+      "focus_role": "outgoing",
+      "citing_id": "W4387330299",
+      "cited_id": "W3203972939",
+      "missing_side": "cited",
+      "missing_side_zh": "被引全文",
+      "missing_work_id": "W3203972939",
+      "missing_work_doi": "10.1038/s41586-021-03928-y",
+      "missing_work_title": "Fault-tolerant control of an error-corrected qubit",
+      "source_status": "TARGET_DOI_ASSOCIATED_PREPRINT_FULLTEXT_VERSION_LIMITED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "已核到Nature正式条目，目标DOI、正式版题名、作者与arXiv候选作者和研究内容对应。arXiv标题与正式版不同，当前本机只有23页预印本，未取得正式期刊PDF，未验证逐句版本等价。",
+      "available_version_or_candidate_scope": "存在仓储候选；下载内容未作为全文接纳。",
+      "known_doi_url": "https://doi.org/10.1038/s41586-021-03928-y",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "citing",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "取得正式期刊全文或继续补版本对照后，再使用该被引全文进行引用语义复核。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": true,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": "WORK_IDENTITY_ASSOCIATED_VERSION_EQUIVALENCE_PENDING",
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W3203972939"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "TARGET_DOI_ASSOCIATED_PREPRINT_FULLTEXT_VERSION_LIMITED",
+      "new_followup_attempts": [
+        {
+          "url": "https://arxiv.org/abs/2009.11482",
+          "http_status": 200,
+          "bytes": 42828,
+          "sha256": "6cac087d8915a58b144c3176069d716d9019a67a9eefa85a4df77960f219af97"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2009.11482",
+          "http_status": 200,
+          "content_type": "application/pdf",
+          "bytes": 1813098,
+          "pages": 23,
+          "sha256": "0fc02fdcf0c6755abf2c9b35342afb838ace6f547ed52582d7d8356e17db7e3f"
+        },
+        {
+          "url": "https://jqi.umd.edu/research/publications/fault-tolerant-control-error-corrected-qubit",
+          "http_status": 404,
+          "result": "Target journal DOI linkage not established"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-021-03928-y",
+          "result": "OFFICIAL_DOI_TITLE_AUTHOR_RESEARCH_IDENTITY_ASSOCIATED",
+          "lookup_date": "2026-11-07"
+        }
+      ],
+      "related_preprint_candidate": {
+        "arxiv_id": "2009.11482v2",
+        "version_date": "2021-01-07",
+        "title": "Fault-Tolerant Operation of a Quantum Error-Correction Code",
+        "file": "11.2-11.8/补充全文/W3203972939_arxiv_2009.11482.pdf",
+        "sha256": "0fc02fdcf0c6755abf2c9b35342afb838ace6f547ed52582d7d8356e17db7e3f",
+        "pages": 23,
+        "metadata_snapshot": "11.2-11.8/补充全文/W3203972939_arxiv_2009.11482_abs.html",
+        "metadata_sha256": "6cac087d8915a58b144c3176069d716d9019a67a9eefa85a4df77960f219af97",
+        "official_abs_url": "https://arxiv.org/abs/2009.11482",
+        "pdf_url": "https://arxiv.org/pdf/2009.11482",
+        "target_journal_doi_association_confirmed": true,
+        "target_journal_version_equivalence_verified": false
+      },
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "official_version_lookup": {
+        "url": "https://www.nature.com/articles/s41586-021-03928-y",
+        "doi": "10.1038/s41586-021-03928-y",
+        "official_title": "Fault-tolerant control of an error-corrected qubit",
+        "journal": "Nature",
+        "volume_pages": "598, 281–286 (2021)",
+        "authors_match_arxiv_candidate": true,
+        "research_content_match_arxiv_candidate": true,
+        "journal_fulltext_obtained": false,
+        "version_equivalence_verified": false,
+        "lookup_date": "2026-11-07",
+        "evidence_note": "官方Nature条目与arXiv摘要/作者页用于建立研究身份对应，未将预印本当作正式版逐句替代。"
+      }
+    },
+    {
+      "sequence": 10,
+      "citation_id": "M3-W4387330299-W4313132011",
+      "paper_pair_id": "PP-W4387330299--W4313132011",
+      "focus_role": "outgoing",
+      "citing_id": "W4387330299",
+      "cited_id": "W4313132011",
+      "missing_side": "cited",
+      "missing_side_zh": "被引全文",
+      "missing_work_id": "W4313132011",
+      "missing_work_doi": "10.1109/access.2022.3227394",
+      "missing_work_title": "Improving Bitcoin’s Post-Quantum Transaction Efficiency With a Novel Lattice-Based Aggregate Signature Scheme Based on CRYSTALS-Dilithium and a STARK Protocol",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "2026-11-03官方DOI入口仅返回JavaScript验证提示；搜索摘要虽含部分正文，不作为完整全文取得。",
+      "available_version_or_candidate_scope": "有官方OA候选入口；尚无可核全文文件。",
+      "known_doi_url": "https://doi.org/10.1109/access.2022.3227394",
+      "known_candidate_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09973246.pdf",
+      "existing_other_side_fulltext": {
+        "side": "citing",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09973246.pdf",
+          "result": "HTTPError: HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9973246",
+          "result": "Official PDF-viewer entry unavailable through web retrieval; no PDF obtained."
+        }
+      ],
+      "historical_reason_raw": "Public source request did not yield a verified full text in this stage.",
+      "next_action": "核对可正常下载的官方全文入口或取得作者稿。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": true,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4313132011"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [
+        {
+          "url": "https://doi.org/10.1109/access.2022.3227394",
+          "resolved_url": "https://ieeexplore.ieee.org/document/9973246/",
+          "result": "Official web open returned JavaScript robot-check text, not full text"
+        }
+      ],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 11,
+      "citation_id": "M3-W4402919591-W4387330299",
+      "paper_pair_id": "PP-W4402919591--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4402919591",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4402919591",
+      "missing_work_doi": "10.1007/s11081-024-09904-5",
+      "missing_work_title": "Intelligent fault diagnosis of mechanical engineering using NLF-LSTM optimized deep learning model",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "本轮复核：出版方摘要可检索，未取得可下载全文。",
+      "available_version_or_candidate_scope": "出版方摘要和书目信息可核；本地全文未取得",
+      "known_doi_url": "https://doi.org/10.1007/s11081-024-09904-5",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4402919591"
+      },
+      "followup_date": "2026-11-07",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s11081-024-09904-5",
+          "result": "OFFICIAL_ABSTRACT_VISIBLE_FULLTEXT_REQUIRED"
+        }
+      ],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 12,
+      "citation_id": "M3-W4396634358-W4387330299",
+      "paper_pair_id": "PP-W4396634358--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4396634358",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4396634358",
+      "missing_work_doi": "10.1016/j.compeleceng.2024.109276",
+      "missing_work_title": "A decentralized path planning model based on deep reinforcement learning",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：SSRN DOI入口403，未取得正文。",
+      "available_version_or_candidate_scope": "相关SSRN预印本候选；与期刊版的逐句对应未核。",
+      "known_doi_url": "https://doi.org/10.1016/j.compeleceng.2024.109276",
+      "known_candidate_url": "https://doi.org/10.2139/ssrn.4411759",
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [
+        {
+          "url": "https://doi.org/10.2139/ssrn.4411759",
+          "result": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ],
+      "historical_reason_raw": "Public source request did not yield a verified full text in this stage.",
+      "next_action": "取得期刊全文或预印本正文，并明确版本适用范围。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4396634358"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 13,
+      "citation_id": "M3-W4394910925-W4387330299",
+      "paper_pair_id": "PP-W4394910925--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4394910925",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4394910925",
+      "missing_work_doi": "10.1109/icimia60377.2023.10426091",
+      "missing_work_title": "An Enhancing Network Security: A Stacked Ensemble Intrusion Detection System for Effective Threat Mitigation",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：已查OpenAlex/Europe PMC公开索引及位置快照，未登记可核全文文件。",
+      "available_version_or_candidate_scope": "仅有书目/索引信息；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1109/icimia60377.2023.10426091",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4394910925"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 14,
+      "citation_id": "M3-W4416874876-W4387330299",
+      "paper_pair_id": "PP-W4416874876--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4416874876",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4416874876",
+      "missing_work_doi": "10.1109/icoici65217.2025.11252990",
+      "missing_work_title": "Artificial Intelligence-Powered Protocols for Enhancing Security in Next-Generation Communication Networks",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：已查OpenAlex/Europe PMC公开索引及位置快照，未登记可核全文文件。",
+      "available_version_or_candidate_scope": "仅有书目/索引信息；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1109/icoici65217.2025.11252990",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4416874876"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 15,
+      "citation_id": "M3-W4391882695-W4387330299",
+      "paper_pair_id": "PP-W4391882695--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4391882695",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4391882695",
+      "missing_work_doi": "10.1007/s11277-023-10822-5",
+      "missing_work_title": "The Privacy Protection of IoT Data Fusion and Sensing Detection Under Artificial Intelligence Technology",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "本轮复核：ResearchGate公开作者稿正文且DOI/题名身份一致，未保存本地PDF。",
+      "available_version_or_candidate_scope": "作者稿正文身份可核；本地PDF未取得",
+      "known_doi_url": "https://doi.org/10.1007/s11277-023-10822-5",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4391882695"
+      },
+      "followup_date": "2026-11-07",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [
+        {
+          "url": "https://www.researchgate.net/publication/378265959_The_Privacy_Protection_of_IoT_Data_Fusion_and_Sensing_Detection_Under_Artificial_Intelligence_Technology",
+          "result": "PUBLIC_AUTHOR_MANUSCRIPT_FULLTEXT_VISIBLE_LOCAL_PDF_PENDING"
+        }
+      ],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 16,
+      "citation_id": "M3-W4401171603-W4387330299",
+      "paper_pair_id": "PP-W4401171603--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4401171603",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4401171603",
+      "missing_work_doi": "10.1016/j.entcom.2024.100852",
+      "missing_work_title": "Production and dissemination path of new media film and television content based on 5G technology",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：已查OpenAlex/Europe PMC公开索引及位置快照，未登记可核全文文件。",
+      "available_version_or_candidate_scope": "仅有书目/索引信息；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1016/j.entcom.2024.100852",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4401171603"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 17,
+      "citation_id": "M3-W4413480838-W4387330299",
+      "paper_pair_id": "PP-W4413480838--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4413480838",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4413480838",
+      "missing_work_doi": "10.3390/math13172715",
+      "missing_work_title": "Adaptive Spectrum Management in Optical WSNs for Real-Time Data Transmission and Fault Tolerance",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：MDPI PDF入口403；追加官方HTML入口429。",
+      "available_version_or_candidate_scope": "有官方OA候选；PDF或完整正文尚未取得。",
+      "known_doi_url": "https://doi.org/10.3390/math13172715",
+      "known_candidate_url": "https://www.mdpi.com/2227-7390/13/17/2715/pdf?version=1755938065",
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [
+        {
+          "url": "https://www.mdpi.com/2227-7390/13/17/2715/pdf?version=1755938065",
+          "result": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2227-7390/13/17/2715",
+          "result": "Additional official HTML fetch returned HTTP 429; not retried."
+        }
+      ],
+      "historical_reason_raw": "Public source request did not yield a verified full text in this stage.",
+      "next_action": "补充正常可访问的出版方全文，取得后再定位引用。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4413480838"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 18,
+      "citation_id": "M3-W4390504230-W4387330299",
+      "paper_pair_id": "PP-W4390504230--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4390504230",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4390504230",
+      "missing_work_doi": "10.1002/cpe.8010",
+      "missing_work_title": "Handoff performance analysis of PMIPv6‐based distributed mobility management protocol‐urban scenario",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：Wiley全文入口403；已核到书目对应，未取得正文。",
+      "available_version_or_candidate_scope": "出版方条目已对应；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1002/cpe.8010",
+      "known_candidate_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cpe.8010",
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cpe.8010",
+          "result": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ],
+      "historical_reason_raw": "Public source request did not yield a verified full text in this stage.",
+      "next_action": "通过机构馆藏或作者补充施引全文及正文引用位置。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4390504230"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 19,
+      "citation_id": "M3-W4411948763-W4387330299",
+      "paper_pair_id": "PP-W4411948763--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4411948763",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4411948763",
+      "missing_work_doi": "10.1109/access.2025.3585459",
+      "missing_work_title": "Computational Overhead Across Prioritizing Bioinformatics Traffic Packet Operations by Differentiated Services Code Point (DSCP)",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "本轮复核：ResearchGate公开作者稿正文且DOI/题名身份一致，IEEE官方PDF入口仍被验证页阻断。",
+      "available_version_or_candidate_scope": "作者稿正文身份可核；本地PDF未取得",
+      "known_doi_url": "https://doi.org/10.1109/access.2025.3585459",
+      "known_candidate_url": "https://doi.org/10.1109/access.2025.3585459",
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [
+        {
+          "url": "https://doi.org/10.1109/access.2025.3585459",
+          "result": "NOT_PDF",
+          "http_status": 202,
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ],
+      "historical_reason_raw": "Indexed public location did not return a PDF; full text not obtained in this stage.",
+      "next_action": "补充可正常访问的官方PDF或作者稿并核对身份。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4411948763"
+      },
+      "followup_date": "2026-11-07",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [
+        {
+          "url": "https://www.researchgate.net/publication/393351238_Computational_Overhead_Across_Prioritizing_Bioinformatics_Traffic_Operations_by_Differentiated_Services_Code_Point_DSCP",
+          "result": "PUBLIC_AUTHOR_MANUSCRIPT_FULLTEXT_VISIBLE_LOCAL_PDF_PENDING"
+        }
+      ],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 20,
+      "citation_id": "M3-W4403048172-W4387330299",
+      "paper_pair_id": "PP-W4403048172--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4403048172",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4403048172",
+      "missing_work_doi": "10.1007/978-981-97-6103-6_44",
+      "missing_work_title": "Intrusion Detection System Using a Hybrid of SVM and RFE",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：已查OpenAlex/Europe PMC公开索引及位置快照，未登记可核全文文件。",
+      "available_version_or_candidate_scope": "仅有书目/索引信息；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1007/978-981-97-6103-6_44",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4403048172"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 21,
+      "citation_id": "M3-W4403723223-W4387330299",
+      "paper_pair_id": "PP-W4403723223--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4403723223",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4403723223",
+      "missing_work_doi": "10.1109/iacis61494.2024.10721799",
+      "missing_work_title": "Compatibility and optimization Strategy of Multiple Network Protocols in the Internet of Things Installation and Debugging Training Bench",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "本轮复核：检出会议元数据和摘要式总结，未取得全文。",
+      "available_version_or_candidate_scope": "会议元数据可核；本地全文未取得",
+      "known_doi_url": "https://doi.org/10.1109/iacis61494.2024.10721799",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4403723223"
+      },
+      "followup_date": "2026-11-07",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [
+        {
+          "url": "https://eurekamag.com/research/095/931/095931801.php",
+          "result": "PUBLIC_METADATA_SUMMARY_ONLY"
+        }
+      ],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 22,
+      "citation_id": "M3-W4408017740-W4387330299",
+      "paper_pair_id": "PP-W4408017740--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4408017740",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4408017740",
+      "missing_work_doi": "10.1109/icmsci62561.2025.10894596",
+      "missing_work_title": "Enhanced Monitoring and Security Measures with Video Analysis",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "旧记录：已查OpenAlex/Europe PMC公开索引及位置快照，未登记可核全文文件。",
+      "available_version_or_candidate_scope": "仅有书目/索引信息；无已核全文版本。",
+      "known_doi_url": "https://doi.org/10.1109/icmsci62561.2025.10894596",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4408017740"
+      },
+      "followup_date": "2026-11-03",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 23,
+      "citation_id": "M3-W4414534611-W4387330299",
+      "paper_pair_id": "PP-W4414534611--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W4414534611",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W4414534611",
+      "missing_work_doi": "10.1002/itl2.70045",
+      "missing_work_title": "Design and Implementation of Intelligent Construction Automation System Based on 6G Network",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "本轮复核：Wiley官方文章页可读，PDF接口返回403，未取得本地PDF。",
+      "available_version_or_candidate_scope": "官方HTML正文身份可核；本地PDF未取得。",
+      "known_doi_url": "https://doi.org/10.1002/itl2.70045",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W4414534611"
+      },
+      "followup_date": "2026-11-07",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/itl2.70045",
+          "result": "OFFICIAL_HTML_METADATA_AND_ABSTRACT_VISIBLE"
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/itl2.70045",
+          "result": "HTTP_403"
+        }
+      ],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 24,
+      "citation_id": "M3-W7160385562-W4387330299",
+      "paper_pair_id": "PP-W7160385562--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W7160385562",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W7160385562",
+      "missing_work_doi": "10.1007/978-3-032-18802-1_37",
+      "missing_work_title": "Energy-Efficient Resource Allocation and Relay-Selection for Wireless Sensor Networks",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "本轮复核：目标DOI为2026年Springer图书章节；检出的同名2023年IJISAE论文因DOI、年份和载体不一致排除。",
+      "available_version_or_candidate_scope": "目标章节无已核全文；同名IJISAE论文仅作异版排除记录。",
+      "known_doi_url": "https://doi.org/10.1007/978-3-032-18802-1_37",
+      "known_candidate_url": null,
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [],
+      "historical_reason_raw": "No public full-text candidate in the checked OpenAlex/Europe PMC indexes; institutional or author-copy lookup remains open.",
+      "next_action": "继续从机构馆藏、作者稿或新的仓储来源补齐全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W7160385562"
+      },
+      "followup_date": "2026-11-07",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [
+        {
+          "url": "https://ijisae.org/index.php/IJISAE/article/view/3871",
+          "result": "SAME_TITLE_DIFFERENT_DOI_YEAR_VENUE_REJECTED"
+        },
+        {
+          "url": "https://ijisae.org/index.php/IJISAE/article/download/3871/2509/8849",
+          "result": "SAME_TITLE_DIFFERENT_DOI_YEAR_VENUE_REJECTED"
+        }
+      ],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 25,
+      "citation_id": "M3-W7161582739-W4387330299",
+      "paper_pair_id": "PP-W7161582739--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W7161582739",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W7161582739",
+      "missing_work_doi": "10.4018/ijkm.410301",
+      "missing_work_title": "Knowledge-Driven Evaluation of Online Classroom Participation",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "本轮复核：ScienceDirect和IGI官方开放文章页可读正文，ResearchGate标注全文可用；本机官方直取返回403，未保存本地PDF。",
+      "available_version_or_candidate_scope": "官方HTML正文身份与DOI已核；本地PDF未取得。",
+      "known_doi_url": "https://doi.org/10.4018/ijkm.410301",
+      "known_candidate_url": "https://doi.org/10.4018/ijkm.410301",
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [
+        {
+          "url": "https://doi.org/10.4018/ijkm.410301",
+          "result": "HTTPError: HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "historical_reason_raw": "Public source request did not yield a verified full text in this stage.",
+      "next_action": "通过正常出版方访问、机构馆藏或作者补充全文。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": "OFFICIAL_HTML_DOI_TITLE_MATCHED_LOCAL_PDF_PENDING",
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W7161582739"
+      },
+      "followup_date": "2026-11-07",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1548066626000469",
+          "result": "OFFICIAL_OPEN_HTML_FULLTEXT_VISIBLE_WEB_SEARCH_LOCAL_HTTP_403"
+        },
+        {
+          "url": "https://www.igi-global.com/article/knowledge-driven-evaluation-of-online-classroom-participation/410301",
+          "result": "OFFICIAL_OPEN_HTML_FULLTEXT_VISIBLE_WEB_SEARCH"
+        },
+        {
+          "url": "https://www.researchgate.net/publication/404984071_Knowledge-Driven_Evaluation_of_Online_Classroom_Participation_An_AI_Approach_Using_DTW_and_Fuzzy_Cross-Entropy",
+          "result": "FULLTEXT_MARKED_AVAILABLE"
+        }
+      ],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    },
+    {
+      "sequence": 26,
+      "citation_id": "M3-W7221172091-W4387330299",
+      "paper_pair_id": "PP-W7221172091--W4387330299",
+      "focus_role": "incoming",
+      "citing_id": "W7221172091",
+      "cited_id": "W4387330299",
+      "missing_side": "citing",
+      "missing_side_zh": "施引全文",
+      "missing_work_id": "W7221172091",
+      "missing_work_doi": "10.1088/1742-6596/3328/1/012028",
+      "missing_work_title": "A reliability optimization method for wireless Ad Hoc networks in complex environments of power distribution cable channels",
+      "source_status": "FULLTEXT_REQUIRED",
+      "missing_side_source_status": "FULLTEXT_NOT_OBTAINED",
+      "source_status_reason": "本轮复核：OpenAlex和IOP均指向官方OA PDF，直取仍返回验证HTML，未取得本地PDF。",
+      "available_version_or_candidate_scope": "官方OA PDF位置已核；本地PDF未取得。",
+      "known_doi_url": "https://doi.org/10.1088/1742-6596/3328/1/012028",
+      "known_candidate_url": "https://iopscience.iop.org/article/10.1088/1742-6596/3328/1/012028/pdf",
+      "existing_other_side_fulltext": {
+        "side": "cited",
+        "file": "10.26-10.31/成员3交接/语义来源/fulltext/W4387330299.pdf",
+        "sha256": "789b4db595c380f8615f3efc31cf568f8614ec4b298a43b724e9641e904e026e",
+        "work_id": "W4387330299"
+      },
+      "historical_lookup_date": "2026-10-31",
+      "historical_attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1742-6596/3328/1/012028/pdf",
+          "result": "NOT_PDF",
+          "http_status": 200,
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ],
+      "historical_reason_raw": "Indexed public location did not return a PDF; full text not obtained in this stage.",
+      "next_action": "补充正常可访问的IOP全文并核对文献身份。",
+      "list_inventory_checked_date": "2026-11-03",
+      "new_public_retrieval_performed": false,
+      "newly_obtained_file": null,
+      "newly_obtained_file_sha256": null,
+      "version_identity_verified": null,
+      "joint_classification_added": null,
+      "score_added": null,
+      "provenance": {
+        "baseline_csv": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+        "baseline_csv_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+        "acquisition_log": "10.26-10.31/成员3交接/语义来源/nonfocus_fulltext_acquisition.json",
+        "acquisition_log_sha256": "5dd31da405c1302359db23295cb897878ac4efc426e5a4d26d9f5b67e4367277",
+        "acquisition_record_work_id": "W7221172091"
+      },
+      "followup_date": "2026-11-07",
+      "current_source_status": "FULLTEXT_REQUIRED",
+      "new_followup_attempts": [
+        {
+          "url": "https://doi.org/10.1088/1742-6596/3328/1/012028",
+          "result": "OFFICIAL_DOI_OA_IDENTITY_MATCHED"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1742-6596/3328/1/012028/pdf",
+          "result": "HTML_VERIFICATION_PAGE_REJECTED"
+        }
+      ],
+      "baseline_source_status": "FULLTEXT_REQUIRED",
+      "baseline_missing_side_source_status": "FULLTEXT_NOT_OBTAINED"
+    }
+  ],
+  "existing_external_requests": {
+    "mbio_28_error_review": "用户已报告发送陈明进，回复待回收",
+    "member4_original_26_gap_list_and_25_result_receipt": "用户已报告发送，回文待回收"
+  },
+  "field_semantics": "source_status/current_source_status记录本次跟进状态；baseline_*保留原已发送清单状态。本跟进表不是共同语义裁决或正式评分导入表。 assistant_fulltext_review为非盲的辅助建议，不属于李云或陈明进个人签核；个人意见、joint及score均需真实后续记录。",
+  "new_material_handoff_reported": false,
+  "new_material_human_review_reported": false,
+  "new_material_assistant_review_completed": true,
+  "new_material_personal_confirmation_reported": true,
+  "counting_note": "new_human_labels_confirmed统计本人明确认可的个人标签。new_human_semantic_reviews=0表示未收到独立人工原文复读的单独执行记录；不据认可辅助建议推定独立盲标、本人原文复读或共同裁决。",
+  "last_followup_date": "2026-11-07",
+  "last_followup_note": "已完成五批公开来源检索，新增两条公开作者稿正文身份核对和两条元数据核对；没有新增本地正式PDF，未改变标签、分数、共同裁决或模型运行状态。",
+  "result_integration_audit_20261107": {
+    "status": "LOCAL_FIELD_ALIGNMENT_AUDIT_ONLY",
+    "audit_date": "2026-11-07",
+    "merged_workbook": "10.26-10.31/route1_25_fulltext_review_liyun_chen_20261101.xlsx",
+    "merged_workbook_sha256": "6432219661b0f3caeea5773bb7387bf5a5b5af26d7194a8be56ea0b53a6fce98",
+    "v5_source": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+    "v5_source_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+    "row_count": 25,
+    "unique_citation_id_count": 25,
+    "all_ids_found_in_v5": true,
+    "member4_label_counts": {
+      "IRRELEVANT": 11,
+      "ACCURATE": 9,
+      "NOT_ACCURATE": 5
+    },
+    "liyun_label_counts": {
+      "": 8,
+      "IRRELEVANT": 8,
+      "ACCURATE": 6,
+      "NOT_ACCURATE": 3
+    },
+    "chen_label_counts": {
+      "IRRELEVANT": 9,
+      "待核": 5,
+      "ACCURATE": 6,
+      "NOT_ACCURATE": 5
+    },
+    "joint_label_nonempty_count": 0,
+    "joint_status_nonempty_count": 0,
+    "member4_labels_match_v5_judgment_label": true,
+    "v5_review_status_counts": {
+      "COMPLETED_PENDING_JOINT_REVIEW": 25
+    },
+    "external_member4_receipt_confirmed": false,
+    "joint_decision_added": false,
+    "score_fields_added": false,
+    "new_model_run": false,
+    "interpretation": "本地文件字段和稳定ID已对齐，不能据此登记成员4已接入或共同裁决。"
+  },
+  "public_source_search_20261107": {
+    "log": "../../../../../11.2-11.8/51条公开来源检索记录_20261107.json",
+    "log_sha256": "b2ffaeda903a2eb715c50db0224273c3ce3f1baee275cee8525829e928780395",
+    "scope": "首批公开来源检索、正式页面身份核对及下载入口尝试",
+    "valid_new_local_fulltext_count": 0,
+    "records_checked": 26,
+    "download_attempts": 8,
+    "fulltext_count_changed": false,
+    "labels_or_scores_changed": false,
+    "joint_decisions_added": false,
+    "model_runs_added": false,
+    "search_batch_count": 5,
+    "last_followup_note": "五批公开来源检索完成。W4391882695和W4411948763公开作者稿正文已核对身份但未保存本地PDF，W4402919591仅有摘要，W4403723223仅有会议元数据。"
+  },
+  "public_source_search_20261108": {
+    "scope": "W1871398651, W2031163406, W2520540666, W2552133479 exact DOI public-source follow-up",
+    "records_checked": 24,
+    "valid_new_local_fulltext_count": 0,
+    "fulltext_count_changed": false,
+    "labels_or_scores_changed": false,
+    "joint_decisions_added": false,
+    "model_runs_added": false,
+    "entries": [
+      {
+        "work_id": "W1871398651",
+        "doi": "10.1109/icacea.2015.7164818",
+        "source_url": "https://www.researchgate.net/publication/285526120_Energy_aware_path_formation_with_link_stability_in_wireless_adhoc_network",
+        "result": "identity_and_abstract_visible; no downloadable fulltext acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W2031163406",
+        "doi": "10.1109/iciinfs.2014.7036635",
+        "source_url": "https://www.researchgate.net/publication/272495668_An_on_demand_routing_protocol_AODV_with_end_to_end_reliability_and_backward_route_information",
+        "result": "identity_and_abstract_visible; no downloadable fulltext acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W2520540666",
+        "doi": "10.1109/wispnet.2016.7566201",
+        "source_url": "https://www.researchgate.net/publication/301284572_Distortion_Aware_Novel_Routing_Protocol_for_Video_Transmission_over_MANETs",
+        "result": "page advertises conference PDF availability; no local file acquired or version verified",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W2552133479",
+        "doi": "10.1038/nature20479",
+        "source_url": "https://www.nature.com/articles/nature20479.pdf",
+        "result": "official article identity visible; access remains subscription restricted",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W2892808760",
+        "doi": "10.1109/TDSC.2018.2872536",
+        "source_url": "https://www.researchgate.net/publication/327946874_DNIC_Architectural_Developments_for_0-Knowledge_Detection_of_OPC_Malware",
+        "secondary_url": "https://dtic.minsky.ai/index/10.1109%2Ftdsc.2018.2872536",
+        "result": "ResearchGate author-upload page exposes article text and advertises PDF; direct PDF retrieval returned cache miss; no local file acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W2897280001",
+        "doi": "10.1109/TDSC.2018.2877332",
+        "source_url": "https://research.monash.edu/en/publications/enabling-reliable-keyword-search-in-encrypted-decentralized-stora/",
+        "secondary_url": "https://www.researchgate.net/publication/328438612_Enabling_Reliable_Keyword_Search_in_Encrypted_Decentralized_Storage_with_Fairness",
+        "result": "institutional metadata and abstract visible; no downloadable fulltext acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W3022034429",
+        "doi": "10.1109/PARC49193.2020.236630",
+        "source_url": "https://www.researchgate.net/publication/341237503_New_Approach_for_Improving_Battery_Power_Consumption_of_Wireless_Mobile_Adhoc_Networks_Nodes_Using_Genetic_Algorithm",
+        "result": "identity and abstract visible; fulltext requires author request",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4313132011",
+        "doi": "10.1109/ACCESS.2022.3227394",
+        "source_url": "https://doi.org/10.1109/ACCESS.2022.3227394",
+        "result": "DOI resolves to IEEE Xplore but page requires JavaScript/robot verification; no PDF acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4402919591",
+        "doi": "10.1007/s11081-024-09904-5",
+        "source_url": "https://www.researchgate.net/publication/384430258_Intelligent_fault_diagnosis_of_mechanical_engineering_using_NLF-LSTM_optimized_deep_learning_model",
+        "result": "identity and publisher preview visible; fulltext PDF requires request or publisher access; no local file acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4396634358",
+        "doi": "10.1016/j.compeleceng.2024.109276",
+        "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0045790624002040",
+        "result": "official abstract page confirms identity and abstract; article access restricted; no local file acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4394910925",
+        "doi": "10.1109/ICIMIA60377.2023.10426091",
+        "source_url": "https://www.researchgate.net/publication/379942359_An_Enhancing_Network_Security_A_Stacked_Ensemble_Intrusion_Detection_System_for_Effective_Threat_Mitigation",
+        "result": "identity visible; page explicitly says no fulltext available and requests author copy",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4416874876",
+        "doi": "10.1109/ICoICI65217.2025.11252990",
+        "source_url": "https://www.researchgate.net/publication/398213906_Artificial_Intelligence-Powered_Protocols_for_Enhancing_Security_in_Next-Generation_Communication_Networks",
+        "result": "author-upload page exposes readable content and PDF link; direct PDF retrieval returned cache miss; no local file acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4401171603",
+        "doi": "10.1016/j.entcom.2024.100852",
+        "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S1875952124002209",
+        "secondary_url": "https://www.researchgate.net/publication/382749145_Production_and_dissemination_path_of_new_media_film_and_television_content_based_on_5G_technology",
+        "result": "publisher abstract and identity visible; ResearchGate requests fulltext; no local file acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4413480838",
+        "doi": "10.3390/math13172715",
+        "source_url": "https://www.mdpi.com/2227-7390/13/17/2715",
+        "result": "official HTML article page identifies the paper and exposes full text; PDF could not be saved locally in this batch",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4390504230",
+        "doi": "10.1002/cpe.8010",
+        "source_url": "https://onlinelibrary.wiley.com/doi/10.1002/cpe.8010",
+        "result": "Wiley page confirms identity and article information; fulltext access requires page terms/access; no local file acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4411948763",
+        "doi": "10.1109/ACCESS.2025.3585459",
+        "source_url": "https://www.researchgate.net/publication/393351238_Computational_Overhead_Across_Prioritizing_Bioinformatics_Traffic_Packet_Operations_by_Differentiated_Services_Code_Point_DSCP",
+        "result": "author-version page exposes readable content and CC BY 4.0; direct PDF retrieval returned cache miss; no local file acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4403048172",
+        "doi": "10.1007/978-981-97-6103-6_44",
+        "source_url": "https://link.springer.com/chapter/10.1007/978-981-97-6103-6_44",
+        "result": "Springer chapter page confirms title, authors, pages 703-711, DOI and abstract; chapter PDF requires institutional access or purchase",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4403723223",
+        "doi": "10.1109/IACIS61494.2024.10721799",
+        "source_url": "https://eurekamag.com/research/095/931/095931801.php",
+        "result": "identity and abstract-level metadata visible; no fulltext acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4408017740",
+        "doi": "10.1109/ICMSCI62561.2025.10894596",
+        "source_url": "https://ouci.dntb.gov.ua/en/works/4M1rOWex/",
+        "result": "conference identity, authors and pages 262-267 visible; no fulltext acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4414534611",
+        "doi": "10.1002/itl2.70045",
+        "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/itl2.70045",
+        "result": "Wiley version-of-record HTML is readable and identity is confirmed; no local PDF saved",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W4391882695",
+        "doi": "10.1007/s11277-023-10822-5",
+        "source_url": "https://www.researchgate.net/publication/378265959_The_Privacy_Protection_of_IoT_Data_Fusion_and_Sensing_Detection_Under_Artificial_Intelligence_Technology",
+        "result": "Springer publisher preview and abstract visible; no downloadable fulltext acquired",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W7160385562",
+        "doi": "10.1007/978-3-032-18802-1_37",
+        "source_url": "https://www.researchgate.net/publication/404503429_Energy-Efficient_Resource_Allocation_and_Relay-Selection_for_Wireless_Sensor_Networks",
+        "result": "Springer chapter identity visible; page explicitly requests author fulltext and provides no fulltext",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W7161582739",
+        "doi": "10.4018/IJKM.410301",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S1548066626000469",
+        "secondary_url": "https://www.igi-global.com/article/knowledge-driven-evaluation-of-online-classroom-participation/410301",
+        "result": "publisher HTML article is open access and readable; no local PDF saved",
+        "status": "FULLTEXT_REQUIRED"
+      },
+      {
+        "work_id": "W7221172091",
+        "doi": "10.1088/1742-6596/3328/1/012028",
+        "source_url": "https://iopscience.iop.org/",
+        "result": "IOP access remains verification-gated; exact title-to-DOI fulltext identity not independently verified",
+        "status": "FULLTEXT_REQUIRED"
+      }
+    ],
+    "source_note": "Web search results are retrieval leads only. No source is promoted to formal local fulltext coverage.",
+    "search_batch_count": 6
+  }
+}

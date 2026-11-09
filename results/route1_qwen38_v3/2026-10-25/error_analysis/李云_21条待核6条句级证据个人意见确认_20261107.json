@@ -1,0 +1,30 @@
+{
+  "status": "LIYUN_PERSONAL_OPINION_CONFIRMED_NO_JOINT_UPDATE",
+  "reviewer": "李云",
+  "review_date": "2026-11-07",
+  "source_review": "../../../../../11.2-11.8/陈明进_21条待核6条句级证据复核意见_20261106.md",
+  "source_review_sha256": "c521e13fa2b26aab943b92d6826caff35a5e2816e78bf5f8bd6c010072b2b7d2",
+  "confirmation": "认可全部6条",
+  "cases": [
+    "sarol:test:29",
+    "sarol:test:61",
+    "sarol:test:156",
+    "sarol:test:253",
+    "sarol:test:504",
+    "sarol:test:601"
+  ],
+  "personal_opinion": {
+    "sarol:test:29": "NOT_ACCURATE",
+    "sarol:test:61": "NOT_ACCURATE",
+    "sarol:test:156": "NOT_ACCURATE",
+    "sarol:test:253": "NOT_ACCURATE",
+    "sarol:test:504": "NOT_ACCURATE",
+    "sarol:test:601": "NOT_ACCURATE"
+  },
+  "basis": "陈明进对原始gold句级证据的个人复核意见",
+  "joint_decision_added": false,
+  "joint_fields_filled": false,
+  "gold_model_test_changed": false,
+  "new_model_run": false,
+  "remaining_pending_count": 15
+}

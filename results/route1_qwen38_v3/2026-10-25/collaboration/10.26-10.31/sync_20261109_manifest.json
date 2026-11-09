@@ -1,0 +1,292 @@
+{
+  "sync_date": "2026-11-09",
+  "base_commit": "25aca2a037076ed1e3e30cca705d57607d546733",
+  "weekly_report_excluded": true,
+  "files": [
+    {
+      "path": "code/ly/analyze_mbio_prediction_changes_v1.py",
+      "bytes": 16796,
+      "sha256": "0d0cd1bbb0d888741d54dcd7791328a8b997af41f2b4c397e897e41c59539425"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/README.md",
+      "bytes": 4662,
+      "sha256": "3054c70d38daa7b93558de31cb596c9f4071ca7ac9d5e93b0fea6f11ce8dd792"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4406937095/ego_1hop_W4406937095.png",
+      "bytes": 602455,
+      "sha256": "0125c217da332f44a59273a983e038d03ccf8cb086efdabad3e8de4676354511"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4406937095/任务1_案例网络重建_W4406937095_edges.csv",
+      "bytes": 1254,
+      "sha256": "db2641f917977aa51ee6d8548d2c93abb84477f8809107bd38e5fb1cd2fb3cb8"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4406937095/任务1_案例网络重建_W4406937095_nodes.csv",
+      "bytes": 662,
+      "sha256": "dbd9b345b235fa13a071e2d528e8373417ecb95278bebe630fee0ecfda1415f2"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4406937095/任务1_案例说明_W4406937095.txt",
+      "bytes": 221,
+      "sha256": "0b2ac3e16e205e26ea5cc9463b19362f1140925f51e8c2f7963faa4ac0c456e8"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4408141068/ego_1hop_W4408141068.png",
+      "bytes": 189718,
+      "sha256": "00aac0bba0e05ae16ecf162ddec102c105e32197b9a5a454994cbad0109bab1a"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4408141068/任务1_案例网络重建_W4408141068_edges.csv",
+      "bytes": 379,
+      "sha256": "a4a8726f06a1d545636f54d6fa408a20049e280787751700954e24437dfee91c"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4408141068/任务1_案例网络重建_W4408141068_nodes.csv",
+      "bytes": 207,
+      "sha256": "977d46a2f894fcec07297c82c409c6ede48216bf445f7147dd20700f03674b14"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4408141068/任务1_案例说明_W4408141068.txt",
+      "bytes": 221,
+      "sha256": "9b5e79c497d71d957017747be2a17c2880bfc11678f30a6c1d764cb86488c733"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4410605740/ego_1hop_W4410605740.png",
+      "bytes": 166955,
+      "sha256": "37e7f9243ac8dfa1a007455355538ddc03e390840ab9986a360a5034794f4118"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4410605740/任务1_案例网络重建_W4410605740_edges.csv",
+      "bytes": 279,
+      "sha256": "3f68c0c72866042921e9b4de7a4ebff05938a7db3bbad29f56f266a5b3d1ba77"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4410605740/任务1_案例网络重建_W4410605740_nodes.csv",
+      "bytes": 155,
+      "sha256": "8bf364538093c0766ec1f0ff577043b369c4a0821d7c9e3a14ad034132ccf26a"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4410605740/任务1_案例说明_W4410605740.txt",
+      "bytes": 221,
+      "sha256": "1cfab69b2335b9b4fb690a24303ca04f25db6e110afe67aa1762bfec8985b8d5"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4414063206/ego_1hop_W4414063206.png",
+      "bytes": 818844,
+      "sha256": "6420a4e334d5e41069d0288df6fbff28c9856413bc87075fbdac97ff3d849b06"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4414063206/任务1_案例网络重建_W4414063206_edges.csv",
+      "bytes": 1779,
+      "sha256": "60ed332de4ec6f3d8bce1192819270b1660e62bc03ee609d6c691908774a2ebf"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4414063206/任务1_案例网络重建_W4414063206_nodes.csv",
+      "bytes": 935,
+      "sha256": "c266d2a7216fd5cdd3e5dfe8d42eb6e7c38bb41f26b56a616e7c5381ac4c54e3"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4414063206/任务1_案例说明_W4414063206.txt",
+      "bytes": 221,
+      "sha256": "7c2c379fc8d79c0cefa5dc41faf9675ddd6c26e1afa86ad982dc76c5bedd508d"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4415532054/ego_1hop_W4415532054.png",
+      "bytes": 187701,
+      "sha256": "589d73257f0a1ec1936e6ad3916a4ead7676152dd4cb5a08149dc4d0c963f3f6"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4415532054/任务1_案例网络重建_W4415532054_edges.csv",
+      "bytes": 329,
+      "sha256": "10442be7015d2a8f6f78b5906792bcd885d94264e41a1b59ae24492ae0207964"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4415532054/任务1_案例网络重建_W4415532054_nodes.csv",
+      "bytes": 181,
+      "sha256": "587e988c74814ed10f03e5cedf4ffcd8ca02490db6f02a985db3cf05f414a23c"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/case_W4415532054/任务1_案例说明_W4415532054.txt",
+      "bytes": 221,
+      "sha256": "25e35e3b161586058b17485d8211b614bc7c36f17a8648acf1745745b58a75bc"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/交付包_哈希清单.csv",
+      "bytes": 6361,
+      "sha256": "97ffb4dc7824425b3011577f9c5fb349405503ee30c54452100ded5504ed7292"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务1_Reason原文核查表.csv",
+      "bytes": 6566,
+      "sha256": "7b48477dc62da07f2bbee492cd83fb5e9624eb5508e5e8ca10efaf31e8b62ab3"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务1_剩余候选可得性统计.csv",
+      "bytes": 660,
+      "sha256": "e0d9b1f472eac73a14de5776ebe96fce3e8f8d3961bc82684f3be7968f840d20"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务1_新增案例清单.csv",
+      "bytes": 15508,
+      "sha256": "fac40337aefe13a8f7d1038222caf10a9a5d6030ea2133fb1f5a3d3483e995c2"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务1_旧种子链接复核.csv",
+      "bytes": 1791,
+      "sha256": "17ef784c81b4c376c9570976d611dc797093e5167852ea8b81c2360a08a092a5"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务1_计数矛盾案例.csv",
+      "bytes": 5,
+      "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务2_V2漏排原因报告.csv",
+      "bytes": 10782,
+      "sha256": "18ca25210b7a01c34756f8e9875874eafb95ad56e8b47a6e2ce70d5fd23fb7c5"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务2_首例V2漏排诊断.csv",
+      "bytes": 827,
+      "sha256": "ac991084522300c49dc089f3a37efda0ee28c4366cdeb25b4cca0ea0f6b4be5a"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务3_v5_citation_id全量导出.csv",
+      "bytes": 2707,
+      "sha256": "f70238be238724f914d97a273e82586bbeef861e096cc21912814642c7575a40"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务3_v5语义表字段说明.csv",
+      "bytes": 3253,
+      "sha256": "bc7defa70cfc8a40f7284ee13257af92876d6f2e3e1cae4c9f566dd4c85eeea9"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务3_新增案例待语义对接清单.csv",
+      "bytes": 2343,
+      "sha256": "795296ed593bbfe1679c269777dbeb5309c07448ff7ac43b5abb51af11ee3b33"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务3_盲测状态表.csv",
+      "bytes": 344,
+      "sha256": "5e127011db2c8125e9f693f94f5a6f7d1403eee02d164aa5d20f793b784d329c"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务3_覆盖与对照核验表.csv",
+      "bytes": 1503,
+      "sha256": "138dc5c3d50d4cc57754d790289bbdb021749f9d626ee4e6701b169a5a36ab66"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/任务3_语义对接说明.txt",
+      "bytes": 421,
+      "sha256": "25e50e1afa954399c74a25429cb06ffd446e176bb48b97e953c5aef6e3b76bb4"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/成员3回传核验_20261108.md",
+      "bytes": 2035,
+      "sha256": "8cba568d69a68126b76fbb640c70240457eb1fd310e09908f48200a99decf9e8"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/成员3回传补充说明_20261108.md",
+      "bytes": 1869,
+      "sha256": "14595c25976e3f92f97ec50f0b6d04830367398ff1f3abb39b6e1a4994b48e8e"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/语义来源/51条公开来源检索记录_20261107.json",
+      "bytes": 15396,
+      "sha256": "b2ffaeda903a2eb715c50db0224273c3ce3f1baee275cee8525829e928780395"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/语义来源/51条引用边_26条缺失全文清单_20261103.jsonl",
+      "bytes": 55505,
+      "sha256": "0dbe3c478ba42076c8b243b89457f7eb99f65ed6f27be6ec2e313d13e1f541f2"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/语义来源/51条引用边_26条缺失全文清单_20261103.md",
+      "bytes": 15424,
+      "sha256": "59dcf2c24c4927b8e2728b2042051f02e556c2eea596de8a7422d23961b43c23"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/语义来源/51条引用边_全文补充进展_20261103.json",
+      "bytes": 103538,
+      "sha256": "c2be5f119d6efc5284f138bc428f48fbeca93a545e54fdd403eb0398e89444a4"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/成员3交接/语义来源/51条引用边_全文补充进展_20261103.md",
+      "bytes": 17856,
+      "sha256": "659c516b77a0d3d9dcf7fe352b578e58c7cff4e9d9755d4150fd549f1a5f39cd"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/旧R2EXP25/R2EXP25_四条待核本地证据复核_20261109.md",
+      "bytes": 3224,
+      "sha256": "8cbbebd483c6d6153cb32d5d774323c9316d25b028174606f539a8f3906475ae"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/旧R2EXP25/R2EXP25_当前交付状态_20261023.md",
+      "bytes": 7488,
+      "sha256": "26a1ee6d80a8fa100f804a8f5672ab291f915f330595e3a631a77be230c7f6b8"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/旧R2EXP25/发给李云_R2EXP25四条待核依据与定标签条件_20261108.md",
+      "bytes": 3712,
+      "sha256": "7d76d0f9e6dd2f04664cb8fc3a420f4c8e8ce99bdec4bcb68bba5749477c6360"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/旧R2EXP25/李云_R2EXP25_第27点个人意见确认_20261109.json",
+      "bytes": 1478,
+      "sha256": "82998c52a43b74ad309e511d690baaed44a36d21c122953e498d321b5fa8da05"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/error_analysis/21条待核_原始Sarol标注补料_20261106.jsonl",
+      "bytes": 33442,
+      "sha256": "1df3ebd44793596b1e81d080363aab169de1c96aaaaafe447a5cc6d155932374"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/error_analysis/25条结果接入字段核对_20261107.json",
+      "bytes": 1341,
+      "sha256": "9a2e308ab9f5e7f6dcf99aedfba02b4a1d9b4f646327d9bc581698730ae524ad"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/error_analysis/6条共同分类登记_20261107.json",
+      "bytes": 1122,
+      "sha256": "d21c4cb5fdb5ed7b07ece460a6fe8384c7e900c4236d8158d14fe71f27e4e25d"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/error_analysis/李云_21条待核6条句级证据个人意见确认_20261107.json",
+      "bytes": 1024,
+      "sha256": "161c2148de9643e221af8468cb088e7f5a3c392d27f703c9d36ce7a9c7a45a08"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/error_analysis/错引漏检变化分析_20261103.md",
+      "bytes": 22756,
+      "sha256": "a3b5980097afade2ec976ff816f65498d42b96fc40448359aca1d478a535740e"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/error_analysis/陈明进_15条gold句级证据缺失确认_20261108.md",
+      "bytes": 5172,
+      "sha256": "edefca6b5df0d3ac1a0fbe9cbdd8656a812092e693683ce0b203ad0d5fee5c0b"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/error_analysis/陈明进_21条待核6条句级证据复核意见_20261106.md",
+      "bytes": 8915,
+      "sha256": "c521e13fa2b26aab943b92d6826caff35a5e2816e78bf5f8bd6c010072b2b7d2"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/error_analysis/陈明进_28条错引漏检复核意见_20261103.md",
+      "bytes": 15960,
+      "sha256": "5e60fc8ddb22a72eec185f5b277ef68e91917727213aceaa976ca504c7a4f84a"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/error_analysis/陈明进_6条共同分项确认_20261107.md",
+      "bytes": 3731,
+      "sha256": "33128a461ab5ed3babd552e346ca34d51a04961e25bf0fb8342a543e8bec6bb3"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/error_analysis/陈明进_错引漏检归因分析与改进建议_20261108.md",
+      "bytes": 11089,
+      "sha256": "359c867dffa4737e65c1c497e43172620399f0a2eb25cf9c5c69d08def6ea5ea"
+    }
+  ]
+}

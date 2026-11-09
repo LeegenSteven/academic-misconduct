@@ -1,0 +1,26 @@
+﻿openalex_w,Reason_raw,case_category,evidence_grade,dominant_reason,classify_hit,can_rebuild
+W3026679524,Compromised Peer Review;Concerns/Issues about Article;Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;Unreliable Results and/or Conclusions;Upgrade/Update of Prior Notice(s);,一般撤稿,C,评审流程受损/假评审,引文关切+主导原因:评审流程受损/假评审,是
+W4413404258,Concerns/Issues about Referencing/Attributions;,待核可疑,B2,—,仅引文关切，无出版方调查背书,否(截断/覆盖率不足/硬计数矛盾)
+W3126595278,Compromised Peer Review;Computer-Aided Content or Computer-Generated Content;Concerns/Issues about Article;Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;Objections by Author(s);Unreliable Results and/or Conclusions;,一般撤稿,C,评审流程受损/假评审,引文关切+主导原因:评审流程受损/假评审,是
+W7128604843,Concerns/Issues about Data;Concerns/Issues about Referencing/Attributions;Error in Text;Investigation by Journal/Publisher;,待核可疑,B1,—,引文关切+出版方调查，无更强主因,否(截断/覆盖率不足/硬计数矛盾)
+W4409404921,Computer-Aided Content or Computer-Generated Content;Concerns/Issues about Referencing/Attributions;Unreliable Results and/or Conclusions;,一般撤稿,C,AI生成内容,引文关切+主导原因:AI生成内容,是
+W4321482665,Compromised Peer Review;Computer-Aided Content or Computer-Generated Content;Concerns/Issues about Article;Concerns/Issues about Data;Concerns/Issues about Methods;Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;Objections by Author(s);Paper Mill;Unreliable Results and/or Conclusions;,一般撤稿,C,论文工厂,引文关切+主导原因:论文工厂,是
+W4405131432,Computer-Aided Content or Computer-Generated Content;Concerns/Issues about Referencing/Attributions;Unreliable Results and/or Conclusions;,一般撤稿,C,AI生成内容,引文关切+主导原因:AI生成内容,否(截断/覆盖率不足/硬计数矛盾)
+W4406937095,Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;Unreliable Results and/or Conclusions;,待核可疑,B1,—,引文关切+出版方调查，无更强主因,是
+W4309408841,Concerns/Issues about Image;Concerns/Issues about Referencing/Attributions;Duplication of/in Image;Euphemisms for Duplication;Investigation by Third Party;,待核可疑,C,图像重复,引文关切+主导原因:图像重复,否(截断/覆盖率不足/硬计数矛盾)
+W4413404184,Concerns/Issues about Referencing/Attributions;,待核可疑,B2,—,仅引文关切，无出版方调查背书,否(截断/覆盖率不足/硬计数矛盾)
+W4385212201,Concerns/Issues about Referencing/Attributions;Investigation by Company/Institution;Lack of Approval from Third Party;,一般撤稿,C,缺少第三方批准,引文关切+主导原因:缺少第三方批准,是
+W4413404188,Concerns/Issues about Referencing/Attributions;,待核可疑,B2,—,仅引文关切，无出版方调查背书,是
+W4399777848,Concerns/Issues about Article;Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;,待核可疑,B1,—,引文关切+出版方调查，无更强主因,否(截断/覆盖率不足/硬计数矛盾)
+W4387184176,Compromised Peer Review;Concerns/Issues about Article;Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;Objections by Author(s);Unreliable Results and/or Conclusions;,一般撤稿,C,评审流程受损/假评审,引文关切+主导原因:评审流程受损/假评审,是
+W7117353649,Computer-Aided Content or Computer-Generated Content;Concerns/Issues about Referencing/Attributions;Error in Text;Investigation by Journal/Publisher;Investigation by Third Party;,一般撤稿,C,AI生成内容,引文关切+主导原因:AI生成内容,否(截断/覆盖率不足/硬计数矛盾)
+W4414063206,Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;,待核可疑,B1,—,引文关切+出版方调查，无更强主因,是
+W4391894363,Concerns/Issues about Referencing/Attributions;Euphemisms for Plagiarism;Investigation by Journal/Publisher;Investigation by Third Party;Plagiarism of/in Article;,一般撤稿,C,抄袭剽窃,引文关切+主导原因:抄袭剽窃,否(截断/覆盖率不足/硬计数矛盾)
+W4415532054,Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;Unreliable Results and/or Conclusions;,待核可疑,B1,—,引文关切+出版方调查，无更强主因,是
+W4408141068,Concerns/Issues about Referencing/Attributions;Concerns/Issues about Results and/or Conclusions;Investigation by Journal/Publisher;Objections by Author(s);,待核可疑,B1,—,引文关切+出版方调查，无更强主因,是
+W4411453307,Computer-Aided Content or Computer-Generated Content;Concerns/Issues about Referencing/Attributions;Unreliable Results and/or Conclusions;,一般撤稿,C,AI生成内容,引文关切+主导原因:AI生成内容,是
+W4400848638,Concerns/Issues about Authorship/Affiliation;Concerns/Issues about Data;Concerns/Issues about Methods;Concerns/Issues about Referencing/Attributions;False/Forged Authorship;Investigation by Journal/Publisher;Investigation by Third Party;Objections by Author(s);,一般撤稿,C,署名问题,引文关切+主导原因:署名问题,是
+W4402497527,Concerns/Issues about Authorship/Affiliation;Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;Investigation by Third Party;Objections by Author(s);,一般撤稿,C,署名问题,引文关切+主导原因:署名问题,是
+W4410605740,Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;Investigation by Third Party;Objections by Author(s);,待核可疑,B1,—,引文关切+出版方调查，无更强主因,是
+W4323805960,Compromised Peer Review;Computer-Aided Content or Computer-Generated Content;Concerns/Issues about Article;Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;Investigation by Third Party;Objections by Author(s);Unreliable Results and/or Conclusions;,一般撤稿,C,评审流程受损/假评审,引文关切+主导原因:评审流程受损/假评审,是
+W7084385960,Computer-Aided Content or Computer-Generated Content;Concerns/Issues about Referencing/Attributions;Investigation by Journal/Publisher;Objections by Author(s);,一般撤稿,C,AI生成内容,引文关切+主导原因:AI生成内容,是

@@ -1,0 +1,26 @@
+﻿openalex_w,cited_by_count,cites_meta_count,入边已抓取,入边覆盖率,endpoint_truncated,referenced_works记录数,出边完整性备注
+W3026679524,113,113,113,1.0,False,80,
+W4413404258,0,0,0,0.0,False,32,
+W3126595278,19,19,19,1.0,False,78,
+W7128604843,0,0,0,0.0,False,8,OpenAlex referenced_works可能短于PDF真实参考文献，非OA论文出边易缺失
+W4409404921,3,3,3,1.0,False,9,OpenAlex referenced_works可能短于PDF真实参考文献，非OA论文出边易缺失
+W4321482665,1,1,1,1.0,False,41,
+W4405131432,0,0,0,0.0,False,21,
+W4406937095,3,3,3,1.0,False,46,
+W4309408841,0,0,0,0.0,False,33,
+W4413404184,0,0,0,0.0,False,31,
+W4385212201,1,1,1,1.0,False,4,OpenAlex referenced_works可能短于PDF真实参考文献，非OA论文出边易缺失
+W4413404188,1,1,1,1.0,False,24,
+W4399777848,0,0,0,0.0,False,114,
+W4387184176,7,7,7,1.0,False,69,
+W7117353649,0,0,0,0.0,False,6,OpenAlex referenced_works可能短于PDF真实参考文献，非OA论文出边易缺失
+W4414063206,3,3,3,1.0,False,67,
+W4391894363,0,0,0,0.0,False,0,OpenAlex referenced_works可能短于PDF真实参考文献，非OA论文出边易缺失
+W4415532054,1,1,1,1.0,False,11,
+W4408141068,3,3,3,1.0,False,11,
+W4411453307,2,2,2,1.0,False,55,
+W4400848638,13,13,13,1.0,False,27,
+W4402497527,8,8,8,1.0,False,43,
+W4410605740,1,1,1,1.0,False,9,OpenAlex referenced_works可能短于PDF真实参考文献，非OA论文出边易缺失
+W4323805960,10,10,10,1.0,False,54,
+W7084385960,2,2,2,1.0,False,29,

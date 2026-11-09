@@ -1,0 +1,29 @@
+{
+  "status": "LIYUN_PERSONAL_OPINION_CONFIRMED_NO_JOINT_UPDATE",
+  "reviewer": "李云",
+  "review_date": "2026-11-09",
+  "source_review": "R2EXP25_四条待核本地证据复核_20261109.md",
+  "source_review_sha256": "8cbbebd483c6d6153cb32d5d774323c9316d25b028174606f539a8f3906475ae",
+  "source_annotation_units": "../10.19-11.2/成员3对接/R2EXP25_独立语义标注准备包_v1_20261022/annotation_units.jsonl",
+  "source_annotation_units_sha256": "18f224d5bcac7183fa054d02c5b52e17dec52076b768251c5a44882a838c2da4",
+  "confirmation": "认可：按限定范围登记个人 ACCURATE",
+  "case": {
+    "sample_id": "R2EXP-PMC-27",
+    "annotation_unit_id": "R2EXP-PMC-27-P40-X1",
+    "edge_key": "W4402830391->W4327946446",
+    "target_reference": "ref92",
+    "citing_doi": "10.2196/64406",
+    "cited_doi": "10.3390/healthcare11060887",
+    "personal_opinion": "ACCURATE",
+    "classification_scope": "仅限 [92] 所承担的第一句 absence of genuine understanding",
+    "evidence_locator": "PMC10048148; body/p ordinal=49",
+    "evidence_summary": "被引第49段明确写 current LLMs including ChatGPT are unable to comprehend the complexity of biologic systems",
+    "excluded_scope": "后续 lack true comprehension or reasoning abilities 由 [93] 承担，不并入本点"
+  },
+  "joint_decision_added": false,
+  "joint_fields_filled": false,
+  "original_csv_gold_model_test_changed": false,
+  "new_model_run": false,
+  "r2exp25_remaining_joint_pending": 4
+}
+

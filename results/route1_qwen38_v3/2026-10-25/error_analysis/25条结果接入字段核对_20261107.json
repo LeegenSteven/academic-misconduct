@@ -1,0 +1,39 @@
+{
+  "status": "LOCAL_FIELD_ALIGNMENT_AUDIT_ONLY",
+  "audit_date": "2026-11-07",
+  "merged_workbook": "10.26-10.31/route1_25_fulltext_review_liyun_chen_20261101.xlsx",
+  "merged_workbook_sha256": "6432219661b0f3caeea5773bb7387bf5a5b5af26d7194a8be56ea0b53a6fce98",
+  "v5_source": "10.26-10.31/paper_pair_semantic_evidence_v5_assistant_fulltext_review25_20261101.csv",
+  "v5_source_sha256": "abb03936351d04fabbc91f4f5b76455a1d8c3ed4d296c946c75998601bb973a4",
+  "row_count": 25,
+  "unique_citation_id_count": 25,
+  "all_ids_found_in_v5": true,
+  "member4_label_counts": {
+    "IRRELEVANT": 11,
+    "ACCURATE": 9,
+    "NOT_ACCURATE": 5
+  },
+  "liyun_label_counts": {
+    "": 8,
+    "IRRELEVANT": 8,
+    "ACCURATE": 6,
+    "NOT_ACCURATE": 3
+  },
+  "chen_label_counts": {
+    "IRRELEVANT": 9,
+    "待核": 5,
+    "ACCURATE": 6,
+    "NOT_ACCURATE": 5
+  },
+  "joint_label_nonempty_count": 0,
+  "joint_status_nonempty_count": 0,
+  "member4_labels_match_v5_judgment_label": true,
+  "v5_review_status_counts": {
+    "COMPLETED_PENDING_JOINT_REVIEW": 25
+  },
+  "external_member4_receipt_confirmed": false,
+  "joint_decision_added": false,
+  "score_fields_added": false,
+  "new_model_run": false,
+  "interpretation": "本地文件字段和稳定ID已对齐，不能据此登记成员4已接入或共同裁决。"
+}

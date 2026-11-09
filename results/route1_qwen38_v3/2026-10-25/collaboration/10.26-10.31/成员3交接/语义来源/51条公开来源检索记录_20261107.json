@@ -1,0 +1,315 @@
+{
+  "version": "public_source_search_log_20261107",
+  "date": "2026-11-07",
+  "scope": "51条引用边缺全文公开来源首批检索和下载尝试",
+  "record_count": 26,
+  "valid_new_local_fulltext_count": 0,
+  "search_findings": {
+    "M3-W4387330299-W1871398651": {
+      "status": "PUBLIC_METADATA_NO_FULLTEXT",
+      "sources": [
+        "https://www.researchgate.net/publication/285526120_Energy_aware_path_formation_with_link_stability_in_wireless_adhoc_network",
+        "https://eurekamag.com/research/110/139/110139607.php"
+      ],
+      "result": "摘要和书目信息可见，页面显示需向作者申请全文，未取得PDF。"
+    },
+    "M3-W4387330299-W2031163406": {
+      "status": "PUBLIC_METADATA_NO_FULLTEXT",
+      "sources": [
+        "https://www.researchgate.net/publication/272495668_An_on_demand_routing_protocol_AODV_with_end_to_end_reliability_and_backward_route_information"
+      ],
+      "result": "摘要和书目信息可见，未取得PDF。"
+    },
+    "M3-W4387330299-W2520540666": {
+      "status": "PUBLIC_PDF_CANDIDATE_NOT_DOWNLOADED",
+      "sources": [
+        "https://www.researchgate.net/publication/301284572_Distortion_Aware_Novel_Routing_Protocol_for_Video_Transmission_over_MANETs",
+        "https://eurekamag.com/research/107/878/107878152.php"
+      ],
+      "result": "ResearchGate页面标注PDF可用，当前未取得本地文件，需继续尝试公开下载或作者稿。"
+    },
+    "M3-W4387330299-W2552133479": {
+      "status": "OFFICIAL_PREVIEW_PAYWALLED",
+      "sources": [
+        "https://www.nature.com/articles/nature20479.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/27851728/"
+      ],
+      "result": "Nature正式条目和DOI身份明确，页面为订阅预览，未取得正式全文。"
+    },
+    "M3-W4387330299-W2892808760": {
+      "status": "PUBLIC_AUTHOR_UPLOAD_ACCESS_BLOCKED",
+      "sources": [
+        "https://www.researchgate.net/publication/327946874_DNIC_Architectural_Developments_for_0-Knowledge_Detection_of_OPC_Malware"
+      ],
+      "result": "ResearchGate页面标注作者上传全文并可读，直接PDF入口返回临时不可用/访问限制，未保存本地PDF。"
+    },
+    "M3-W4387330299-W2897280001": {
+      "status": "PUBLIC_INSTITUTIONAL_METADATA_ABSTRACT_ONLY",
+      "sources": [
+        "https://research.monash.edu/en/publications/enabling-reliable-keyword-search-in-encrypted-decentralized-stora/"
+      ],
+      "result": "Monash机构页提供作者、摘要、DOI和页码，未提供可下载PDF。"
+    },
+    "M3-W4387330299-W3022034429": {
+      "status": "PUBLIC_METADATA_NO_FULLTEXT",
+      "sources": [
+        "https://www.researchgate.net/publication/341237503_New_Approach_for_Improving_Battery_Power_Consumption_of_Wireless_Mobile_Adhoc_Networks_Using_Genetic_Algorithm"
+      ],
+      "result": "书目信息可见，页面显示向作者申请全文，未取得PDF。"
+    },
+    "M3-W4387330299-W4313132011": {
+      "status": "OFFICIAL_HTML_ACCESS_CHALLENGE",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9973246/",
+        "https://doi.org/10.1109/access.2022.3227394",
+        "https://www.mendeley.com/catalogue/8eeb283e-edc8-3def-9305-0fb615f9127e/"
+      ],
+      "result": "IEEE官方页面显示PDF和开放获取标记，网页触发JavaScript/机器人验证，stamp PDF返回418，未取得本地PDF。"
+    },
+    "M3-W4402919591-W4387330299": {
+      "status": "OFFICIAL_ABSTRACT_ONLY_FULLTEXT_REQUIRED",
+      "sources": [
+        "https://link.springer.com/article/10.1007/s11081-024-09904-5",
+        "https://www.researchgate.net/publication/"
+      ],
+      "result": "出版方条目和摘要可检索，未发现可直接下载的开放全文；ResearchGate未形成目标文章的可读全文记录。"
+    },
+    "M3-W4396634358-W4387330299": {
+      "status": "RELATED_PREPRINT_CANDIDATE_EXISTING",
+      "sources": [
+        "https://doi.org/10.2139/ssrn.4411759"
+      ],
+      "result": "沿用已有SSRN候选，期刊版正文和版本对应未核。"
+    },
+    "M3-W4394910925-W4387330299": {
+      "status": "PUBLIC_METADATA_SUMMARY_ONLY",
+      "sources": [
+        "https://enterprise.eurekamag.com/research/106/756/106756466.php"
+      ],
+      "result": "书目和摘要可见，未取得PDF。"
+    },
+    "M3-W4416874876-W4387330299": {
+      "status": "PUBLIC_IDENTITY_SEARCH_INCONCLUSIVE",
+      "sources": [
+        "https://ieeexplore.ieee.org/"
+      ],
+      "result": "本轮检索未取得该确切DOI的可核全文，沿用原缺口。"
+    },
+    "M3-W4391882695-W4387330299": {
+      "status": "PUBLIC_AUTHOR_MANUSCRIPT_FULLTEXT_VISIBLE_NOT_LOCAL",
+      "sources": [
+        "https://www.researchgate.net/publication/378265959_The_Privacy_Protection_of_IoT_Data_Fusion_and_Sensing_Detection_Under_Artificial_Intelligence_Technology",
+        "https://doi.org/10.1007/s11277-023-10822-5"
+      ],
+      "result": "ResearchGate页面公开作者稿正文并与目标DOI、题名和作者身份一致；未取得可保存的本地PDF，正式全文覆盖仍未增加。"
+    },
+    "M3-W4401171603-W4387330299": {
+      "status": "PUBLIC_CITATION_ONLY",
+      "sources": [
+        "https://doi.org/10.1016/j.entcom.2024.100852"
+      ],
+      "result": "检索到题名、DOI和二手引用记录，未取得正文。"
+    },
+    "M3-W4413480838-W4387330299": {
+      "status": "OFFICIAL_HTML_PAGE_ACCESSIBLE_PDF_403",
+      "sources": [
+        "https://www.mdpi.com/2227-7390/13/17/2715",
+        "https://www.mdpi.com/2227-7390/13/17/2715/pdf?version=1755938065"
+      ],
+      "result": "MDPI官方文章页可由网页检索读取完整正文，官方PDF入口返回403，HTML也无法通过本机网络保存，本地没有新增文件。"
+    },
+    "M3-W4390504230-W4387330299": {
+      "status": "OFFICIAL_PDF_403",
+      "sources": [
+        "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cpe.8010"
+      ],
+      "result": "Wiley PDF入口返回403，未保存文件。"
+    },
+    "M3-W4411948763-W4387330299": {
+      "status": "PUBLIC_AUTHOR_MANUSCRIPT_FULLTEXT_VISIBLE_NOT_LOCAL",
+      "sources": [
+        "https://www.researchgate.net/publication/393351238_Computational_Overhead_Across_Prioritizing_Bioinformatics_Traffic_Operations_by_Differentiated_Services_Code_Point_DSCP",
+        "https://doi.org/10.1109/ACCESS.2025.3585459"
+      ],
+      "result": "ResearchGate页面公开作者稿正文，题名、DOI和作者身份与目标记录一致；IEEE官方PDF入口仍需机器人验证，未取得可保存的本地PDF。"
+    },
+    "M3-W4403048172-W4387330299": {
+      "status": "OFFICIAL_CONTENT_ACCESS_BLOCKED_HTML",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-981-97-6103-6_44",
+        "https://link.springer.com/content/pdf/10.1007/978-981-97-6103-6_44.pdf"
+      ],
+      "result": "Springer PDF请求返回3038字节HTML访问页，未接纳为PDF并已删除无效文件。"
+    },
+    "M3-W4403723223-W4387330299": {
+      "status": "PUBLIC_METADATA_SUMMARY_ONLY",
+      "sources": [
+        "https://eurekamag.com/research/095/931/095931801.php",
+        "https://doi.org/10.1109/iacis61494.2024.10721799"
+      ],
+      "result": "检出会议元数据和摘要式总结，未取得目标会议论文全文或可验收PDF。"
+    },
+    "M3-W4408017740-W4387330299": {
+      "status": "PUBLIC_METADATA_ONLY",
+      "sources": [
+        "https://ouci.dntb.gov.ua/en/works/4M1rOWex/"
+      ],
+      "result": "可见DOI、会议和参考文献元数据，未取得PDF。"
+    },
+    "M3-W4414534611-W4387330299": {
+      "status": "OFFICIAL_HTML_VISIBLE_PDF_BLOCKED",
+      "sources": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/itl2.70045",
+        "https://onlinelibrary.wiley.com/doi/pdf/10.1002/itl2.70045"
+      ],
+      "result": "Wiley官方文章页可读取题名、DOI、摘要和参考文献；PDF接口返回HTTP 403，未取得可验收的本地PDF。"
+    },
+    "M3-W7160385562-W4387330299": {
+      "status": "TITLE_COLLISION_REJECTED",
+      "sources": [
+        "https://ijisae.org/index.php/IJISAE/article/view/3871",
+        "https://ijisae.org/index.php/IJISAE/article/download/3871/2509/8849",
+        "https://doi.org/10.1007/978-3-032-18802-1_37"
+      ],
+      "result": "检出同名的2023年IJISAE开放论文，但目标记录是DOI 10.1007/978-3-032-18802-1_37、2026年Springer图书章节。出版年、载体和DOI不一致，不能替代目标全文。"
+    },
+    "M3-W7161582739-W4387330299": {
+      "status": "OFFICIAL_HTML_FULLTEXT_VISIBLE_PDF_NOT_SAVED",
+      "sources": [
+        "https://www.sciencedirect.com/science/article/pii/S1548066626000469",
+        "https://www.igi-global.com/article/knowledge-driven-evaluation-of-online-classroom-participation/410301",
+        "https://www.researchgate.net/publication/404984071_Knowledge-Driven_Evaluation_of_Online_Classroom_Participation_An_AI_Approach_Using_DTW_and_Fuzzy_Cross-Entropy"
+      ],
+      "result": "ScienceDirect和IGI官方开放文章页可读取正文、DOI和页码范围，ResearchGate页面标注全文可用；本机直取官方页面返回访问拒绝，未保存本地PDF，因此正式本地全文覆盖未增加。"
+    },
+    "M3-W7221172091-W4387330299": {
+      "status": "OFFICIAL_OA_PDF_STILL_BLOCKED",
+      "sources": [
+        "https://doi.org/10.1088/1742-6596/3328/1/012028",
+        "https://iopscience.iop.org/article/10.1088/1742-6596/3328/1/012028/pdf"
+      ],
+      "result": "OpenAlex和IOP入口均指向该开放获取PDF，但直取仍返回验证HTML，未保存可验收的本地PDF。"
+    },
+    "M3-W4387330299-W3203972939": {
+      "status": "TARGET_DOI_ASSOCIATED_PREPRINT_VERSION_LIMITED",
+      "sources": [
+        "https://www.nature.com/articles/s41586-021-03928-y",
+        "https://arxiv.org/abs/2009.11482"
+      ],
+      "result": "研究身份已关联，正式期刊PDF和逐句版本等价仍待核。"
+    },
+    "M3-W4387330299-W2753886374": {
+      "status": "EXISTING_AUTHOR_MANUSCRIPT_IDENTITY_MATCHED",
+      "sources": [
+        "https://discovery.dundee.ac.uk/en/publications/9ef4f5fd-6f1e-4e3f-a51c-a54d6a3a6643"
+      ],
+      "result": "已有Dundee身份匹配作者稿，期刊定稿逐句等价仍待核。"
+    }
+  },
+  "download_attempts": [
+    {
+      "citation_id": "M3-W4387330299-W2892808760",
+      "url": "https://www.researchgate.net/profile/Julian-Rrushi-3/publication/327946874_DNIC_Architectural_Developments_for_0-Knowledge_Detection_of_OPC_Malware/links/5c6c9d274585156b570a9744/DNIC-Architectural-Developments-for-0-Knowledge-Detection-of-OPC-Malware.pdf",
+      "result": "temporary_unavailable_or_access_restricted",
+      "local_file": null
+    },
+    {
+      "citation_id": "M3-W4387330299-W4413480838",
+      "url": "https://www.mdpi.com/2227-7390/13/17/2715/pdf?version=1755938065",
+      "result": "HTTP_403",
+      "local_file": null
+    },
+    {
+      "citation_id": "M3-W4390504230-W4387330299",
+      "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cpe.8010",
+      "result": "HTTP_403",
+      "local_file": null
+    },
+    {
+      "citation_id": "M3-W4387330299-W4313132011",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9973246",
+      "result": "HTTP_418_or_bot_verification",
+      "local_file": null
+    },
+    {
+      "citation_id": "M3-W4403048172-W4387330299",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-981-97-6103-6_44.pdf",
+      "result": "HTML_access_page_3038_bytes_rejected",
+      "local_file": null
+    },
+    {
+      "citation_id": "M3-W4413480838-W4387330299",
+      "url": "https://www.mdpi.com/2227-7390/13/17/2715",
+      "result": "HTML_accessible_in_web_search_but_local_request_denied",
+      "local_file": null
+    },
+    {
+      "citation_id": "M3-W4414534611-W4387330299",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/itl2.70045",
+      "result": "HTTP_403",
+      "local_file": null
+    },
+    {
+      "citation_id": "M3-W7161582739-W4387330299",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1548066626000469",
+      "result": "HTTP_403",
+      "local_file": null
+    }
+  ],
+  "fulltext_count_changed": false,
+  "labels_or_scores_changed": false,
+  "joint_decisions_added": false,
+  "model_runs_added": false,
+  "search_batches": [
+    {
+      "batch": "batch1",
+      "date": "2026-11-07",
+      "scope": "W1871398651、W2031163406、W2520540666、W2552133479、W2892808760、W2897280001、W3022034429、W4313132011、W4408017740、W4413480838、W4390504230、W4403048172等",
+      "result": "公开摘要、机构元数据、正式页面和访问失败记录已写入search_findings；没有新增本地正式PDF。"
+    },
+    {
+      "batch": "batch2",
+      "date": "2026-11-07",
+      "queries": [
+        {
+          "doi": "10.1007/s11081-024-09904-5",
+          "result": "未检出精确公开全文结果，沿用缺口。"
+        },
+        {
+          "doi": "10.1007/s11277-023-10822-5",
+          "result": "未检出精确公开全文结果，沿用缺口。"
+        },
+        {
+          "doi": "10.1109/access.2025.3585459",
+          "result": "未检出精确公开全文结果，沿用缺口。"
+        },
+        {
+          "doi": "10.1109/iacis61494.2024.10721799",
+          "result": "未检出精确公开全文结果，搜索结果为同会议邻近论文，未混入目标记录。"
+        }
+      ],
+      "result": "没有新增可接纳的本地正式PDF、语义标签或共同裁决。"
+    },
+    {
+      "batch": "batch3",
+      "date": "2026-11-07",
+      "scope": "W2520540666、W4313132011现有公开候选再次核对",
+      "result": "W252 ResearchGate页面仍标注PDF可用但未暴露可下载直链；W431 IEEE官方页面可读取完整正文并标注PDF/开放获取，页面仍触发机器人验证。没有新增本地文件。"
+    },
+    {
+      "batch": "batch4",
+      "date": "2026-11-07",
+      "scope": "W4414534611、W7160385562、W7161582739、W7221172091官方页面和同名版本复核",
+      "result": "W4414534611与W7161582739的官方开放正文可在公开搜索结果中读取，但本机未保存PDF；W7160385562检出的同名IJISAE论文因DOI、年份和载体不一致被排除；W7221172091的IOP PDF仍返回验证HTML。没有新增可接纳的本地正式PDF。"
+    },
+    {
+      "batch": "batch5",
+      "date": "2026-11-07",
+      "scope": "W4402919591、W4391882695、W4411948763、W4403723223的精确DOI与公开页面复核",
+      "result": "W4391882695和W4411948763的作者稿正文在ResearchGate公开可读，但未保存本地PDF；W4402919591仅有摘要，W4403723223仅有会议元数据。没有新增可接纳的本地正式PDF。"
+    }
+  ],
+  "search_batch_count": 5,
+  "last_followup_date": "2026-11-07",
+  "last_followup_note": "已完成五批公开来源检索。W4391882695和W4411948763公开作者稿正文已核对身份但未保存本地PDF，W4402919591仅有摘要，W4403723223仅有会议元数据；没有新增本地正式PDF。"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "JOINT_CLASSIFICATION_CONFIRMED",
+  "review_date": "2026-11-07",
+  "scope": "Six Sarol cases only; complete-claim classification",
+  "confirming_reviewer": "陈明进",
+  "source_reply": "陈明进_6条共同分项确认_20261107.md",
+  "source_reply_sha256": "33128a461ab5ed3babd552e346ca34d51a04961e25bf0fb8342a543e8bec6bb3",
+  "cases": [
+    "sarol:test:29",
+    "sarol:test:61",
+    "sarol:test:156",
+    "sarol:test:253",
+    "sarol:test:504",
+    "sarol:test:601"
+  ],
+  "joint_label": {
+    "sarol:test:29": "NOT_ACCURATE",
+    "sarol:test:61": "NOT_ACCURATE",
+    "sarol:test:156": "NOT_ACCURATE",
+    "sarol:test:253": "NOT_ACCURATE",
+    "sarol:test:504": "NOT_ACCURATE",
+    "sarol:test:601": "NOT_ACCURATE"
+  },
+  "scope_rule": "Register the complete claim as NOT_ACCURATE; local support is retained as a range note and does not create a separate ACCURATE label.",
+  "unchanged": [
+    "original gold",
+    "model outputs",
+    "Test scores",
+    "prediction files",
+    "remaining 15 pending cases",
+    "formal acceptance status"
+  ],
+  "model_run_added": false,
+  "formal_acceptance": false
+}
