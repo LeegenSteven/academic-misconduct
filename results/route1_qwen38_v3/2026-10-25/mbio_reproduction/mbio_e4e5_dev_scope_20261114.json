@@ -1,0 +1,138 @@
+{
+  "version": "route1_mbio_e4e5_dev_scope_v1_20261114",
+  "status": "scope_frozen_prepared_not_run",
+  "split": "sarol/dev",
+  "input_files": {
+    "dev.inputs.jsonl": {
+      "records": 316,
+      "bytes": 2089338,
+      "sha256": "2c0690ab3a0c50cc63c47bf0db06f63895de51513d1257ecf4aeb051d1e64403"
+    },
+    "dev.gold.jsonl": {
+      "records": 316,
+      "bytes": 91149,
+      "sha256": "d1d0362dba636ea5c93803c50671ca822bd5c1cd058db10bc261eda6386823c4"
+    },
+    "claims-dev-model.jsonl": {
+      "bytes": 327379,
+      "sha256": "1efc1b9ddb77dbe79f3f80e511449b81c430fdc519652fb8584d39e4fae6cd4a"
+    }
+  },
+  "e4": {
+    "purpose": "annotated_document_not_in_candidates",
+    "claim_ids": [
+      "6",
+      "12",
+      "16",
+      "43",
+      "59",
+      "63",
+      "65",
+      "86",
+      "93",
+      "95",
+      "106",
+      "117",
+      "149",
+      "184",
+      "230",
+      "244",
+      "254",
+      "261",
+      "267",
+      "269",
+      "272",
+      "281",
+      "282",
+      "286"
+    ],
+    "count": 24,
+    "na_count": 24,
+    "accurate_controls": 47
+  },
+  "e5": {
+    "purpose": "annotated_document_visible_sentence_not_selected",
+    "claim_ids": [
+      "1",
+      "24",
+      "69",
+      "76",
+      "81",
+      "87",
+      "161",
+      "179",
+      "214",
+      "227"
+    ],
+    "count": 10,
+    "na_count": 10,
+    "accurate_controls": 27
+  },
+  "c_observation": {
+    "purpose": "annotated_sentence_visible_but_missed",
+    "claim_ids": [
+      "35",
+      "42",
+      "73",
+      "97",
+      "99",
+      "109",
+      "110",
+      "114",
+      "116",
+      "122",
+      "135",
+      "158",
+      "165",
+      "170",
+      "194",
+      "195",
+      "229",
+      "237",
+      "239",
+      "271",
+      "288",
+      "291",
+      "293",
+      "295",
+      "297",
+      "305",
+      "308"
+    ],
+    "count": 27,
+    "run_as": "training_side_observation_not_e4_e5"
+  },
+  "excluded_etiquette": [
+    "145",
+    "152",
+    "159"
+  ],
+  "test_anchor_ids": [
+    "29",
+    "156",
+    "601",
+    "61",
+    "253",
+    "504",
+    "385",
+    "426",
+    "604"
+  ],
+  "constraints": {
+    "test_used_for_selection": false,
+    "gold_modified": false,
+    "joint_or_score_modified": false,
+    "top_k_change": "10_to_20_for_e4",
+    "model_run": "not_started"
+  },
+  "baseline": {
+    "ckpt100": {
+      "e4_na_correct": 12,
+      "e5_na_correct": 3
+    },
+    "ckpt134": {
+      "e4_na_correct": 10,
+      "e5_na_correct": 2
+    }
+  }
+}

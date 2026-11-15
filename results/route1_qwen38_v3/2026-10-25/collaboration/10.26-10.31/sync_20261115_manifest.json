@@ -1,0 +1,108 @@
+{
+  "version": "route1_weekly_sync_20261115",
+  "base_commit": "a1e2a99",
+  "generated": "2026-11-15",
+  "scope": "Current-week technical and collaboration materials through 2026-11-15; weekly report package excluded",
+  "excluded": [
+    "发给师兄_本周汇报_2026-11-15",
+    "full model weights",
+    "other local uncommitted work outside this selected set"
+  ],
+  "files": [
+    {
+      "path": "code/ly/prepare_mbio_e4e5_inputs_20261114.py",
+      "bytes": 5463,
+      "sha256": "6e57b94e773bac8e5e457f5231ff6134597f45c730b20e93bbcfa22266fd1dfe"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/mbio_reproduction/mbio_e4e5_dev_scope_20261114.json",
+      "bytes": 2588,
+      "sha256": "4227af77308c31ea8947388269d37b169a3092a3d960c7b3f9b60377cc88b93b"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/mbio_reproduction/mbio_e4e5_a100_input_package_20261114.zip",
+      "bytes": 64777,
+      "sha256": "59bf9d92f950380899a07218c7011765338b296baab9aaf723f2463845829e08"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/mbio_reproduction/mbio_e4e5_freeze_reply_20261114.md",
+      "bytes": 3291,
+      "sha256": "fcdd515aec7b2cf2a5400ddddd11be7fa667047146ce901725118da70d3136b7"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/mbio_reproduction/mbio_dev_execution_current_20261110.md",
+      "bytes": 15191,
+      "sha256": "0252022ea0c78406d8258c66b9a62ef591abcdacdeeffce0c62ebd5058173481"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/route1_25_review_current_20261110.md",
+      "bytes": 10196,
+      "sha256": "5b164b543d887be546fef4e8d0394296637f67100313ab2e2c1a8a4f3c9cce39"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/route1_25_disputes_20261115.md",
+      "bytes": 3745,
+      "sha256": "040e2470d9a88ee8a18767079be56e046602fb84c4723b3a11ce20a23d1ba4d8"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/route1_25_id_table_20261110.xlsx",
+      "bytes": 43265,
+      "sha256": "fae91a85b32e803ecd83b3a4682c7a8691335c3027f9a0df5d0d1f0c6c851fa7"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/sarol_dev_visibility_audit_20261110.jsonl",
+      "bytes": 105082,
+      "sha256": "663a7ce1784cf51989384e9298faf4be50e46efd9d7c32312cb2a69927c610b9"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/member3_15_sources_corrected_20261115.xlsx",
+      "bytes": 8870,
+      "sha256": "7a9ce81ff29a09b3c5ad6cb6c4193baa385ed55ca879262e2a94ee0a3770be40"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/member3_500ctrl_original_20261114.csv",
+      "bytes": 5635,
+      "sha256": "fff0e3136f2910ce96230025ed21a5669dee9c5485f5586d0bee05e1473b7fe4"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/10.26-10.31/member3_15_source_audit_20261114.md",
+      "bytes": 2920,
+      "sha256": "674a7f49e0116b840697326dc996d4b6a2e1727bb3595b551068202ed2dc4b47"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_20261101/member4_poc1_personal_return_20261114.zip",
+      "bytes": 2477,
+      "sha256": "2ecdbbe345782e1fb238f8bf0e067d156d53a6dcf0eac8d1492d02b6fc222145"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_20261101/member4_poc1_joint_return_20261114.zip",
+      "bytes": 1438,
+      "sha256": "808702b4ec3dfd7fbc8a323fda2ae42a35a3bdfd95e9e4400bf7338d0de8c2c2"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_20261101/member4_poc1_joint_20261114.md",
+      "bytes": 595,
+      "sha256": "e76f536ca8aa94d9ce4a25ed846dd31440d4aafa3f2f7d20419dc1b1c3f4cc60"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_20261101/member4_poc2_personal_return_20261114.zip",
+      "bytes": 2695,
+      "sha256": "169846b76bda7b6f9ebe78c708cc626580a85755e1e368a3ae516d103521d80a"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/pdf_demo/peer_replies_20261101/member4_poc2_joint_20261115.md",
+      "bytes": 655,
+      "sha256": "5c03a3303544a7c12b497d1dddf0f46066dd974c34d392068d762de3fecc241c"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/旧R2EXP25/R2EXP25_supplement_20261112.md",
+      "bytes": 4390,
+      "sha256": "5a465c07182fa5470bf43855a6374beabb6410efd855814eb6b63ab31f42cd70"
+    },
+    {
+      "path": "results/route1_qwen38_v3/2026-10-25/collaboration/旧R2EXP25/R2EXP25_review_current_20261115.md",
+      "bytes": 5499,
+      "sha256": "a7bbfb027dc67b2b7e6344831a28eb5243b8443bc06e9349128a4c10a217fb21"
+    }
+  ]
+}
