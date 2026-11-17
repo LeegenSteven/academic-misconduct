@@ -1,0 +1,42 @@
+{
+  "record_type": "LiYun_explicit_two_supplement_personal_opinion_confirmation",
+  "recorded_date": "2026-11-01",
+  "source": "current_chat_user_explicit_question_reply",
+  "question": "两点已完成原PDF及冻结输入核对。是否认可以下集中建议并登记为李云个人意见：两条引用在“原PDF＋施引上下文”层面均为ACCURATE；补充点1原模型理由不通过，补充点2原理由仅在候选证据覆盖说明的限定范围内通过；三处摘录认可压缩空白诊断定位，原严格工程仍为0/2；冻结输入覆盖缺口及未形成的共同结论继续保留？",
+  "exact_answer": "认可全部建议，登记为李云个人意见",
+  "opinion_owner": "李云",
+  "scope": "Original PDFs plus citing context for citation classification; original model reasons separately reviewed against frozen candidate evidence. Assisted source review, not a new independent blind annotation.",
+  "case_opinions": [
+    {
+      "case_id": "r1pdf:7cec9c89372bb76396f53fdb",
+      "replacement": "A replaces original point1",
+      "full_source_citation_label": "ACCURATE",
+      "original_model_reason": "NOT_PASSED",
+      "reason_scope": "Unsupported causal bridge from nonspecificity to exclusion/reclassification; original response retained.",
+      "locator_opinion": "PASS_WHITESPACE_DIAGNOSTIC_ONLY",
+      "selected_quotes": 1,
+      "strict_verbatim_pass": false,
+      "frozen_input_coverage_gap_preserved": true
+    },
+    {
+      "case_id": "r1pdf:7f30025df2b6e4c93f2addd5",
+      "replacement": "B replaces original point15",
+      "full_source_citation_label": "ACCURATE",
+      "original_model_reason": "PASSED_WITH_LIMITED_SCOPE",
+      "reason_scope": "Accept only the candidate-coverage statement: Findings supports numerical facts; title/Methods and later citing comparison are separate full-source/context evidence.",
+      "locator_opinion": "PASS_WHITESPACE_DIAGNOSTIC_ONLY",
+      "selected_quotes": 2,
+      "strict_verbatim_pass": false,
+      "frozen_input_coverage_gap_preserved": true
+    }
+  ],
+  "strict_engineering_success_unchanged": 0,
+  "strict_engineering_denominator": 2,
+  "formal20_location_rate_created": false,
+  "formal20_explanation_rate_created": false,
+  "formal20_classification_rate_created": false,
+  "new_joint_signature": false,
+  "chen_pending_components_preserved": true,
+  "input_or_response_modified": false,
+  "model_run": false
+}

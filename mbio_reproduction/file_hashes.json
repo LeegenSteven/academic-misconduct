@@ -1,0 +1,14 @@
+{
+  "audit.md": "0ec7095ebe7d3578d4028a55cbecf03296cd5f6c4e5aa9357d81141acea98755",
+  "file_hashes.json": "0df19e4933cc0496e02ef4f0355020994a15b4f780853ef7b31acbbacbec4c6e",
+  "README.md": "339d99399475d22f482681515b04bfb2344d4f3100f2e7e02ec8189eb850e3f3",
+  "adapter_recovery/adapter_recovery_index.md": "3e7513ae8917bd33282573649cd708a6a1b560c3d050cdb1253ce0d885665157",
+  "code/recount_train2141_lengths_20261024.py": "f8dd4cced44ab3955ce011cef2aba2ac203f1f04f6840280a43af24f65c9641d",
+  "code/route1_qwen38_train_sarol_memopt_v1.py": "9a47a2daa2c92b19d6274e26b526075a5402406e3de068852585ff32818e4aba",
+  "code/test_supervised_logits_equivalence.py": "ae0f122c1db46abcc97060799da298849814888a93646ed756529d8759481f10",
+  "equivalence_test/李云CPU包_00_先看结论.md": "02777e3149b523bc6fd21914bfb6a08f9cb10a73d440eb074f4b03fdbd3a360b",
+  "equivalence_test/李云CPU包_03_核验结论.md": "d06954e03f94b5c6c1a7f7dcc812ab501415376393a3e12a529ed87d225c39ab",
+  "equivalence_test/equivalence_test_说明.md": "564c27946fd8c6c567e27cd3cbc1a9083738935dc40f61d0fffe8b869bfd9b94",
+  "length_report/sarol_train2141_length_recount_20261024.json": "8903acba73e39d7ecf14e9410d19d8aed6fdc693361857ae8fad4a71a46bb693",
+  "length_report/sarol_train2141_length_report_20261024.md": "a3ca7e72cd3f7edbd8dcc71c03cabc1632562ffa595f32e4514f8a7a528081ed"
+}

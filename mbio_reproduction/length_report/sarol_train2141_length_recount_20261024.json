@@ -1,0 +1,40 @@
+{
+  "total_records": 2141,
+  "label_distribution": {
+    "ACCURATE": 1368,
+    "NOT_ACCURATE": 630,
+    "IRRELEVANT": 143
+  },
+  "min_length": 508,
+  "max_length": 4924,
+  "mean_length": 824.39,
+  "median_length": 787,
+  "over_4096_count": 3,
+  "over_4096_records": [
+    {
+      "claim_id": "237",
+      "length": 4789,
+      "label": "ACCURATE"
+    },
+    {
+      "claim_id": "250",
+      "length": 4924,
+      "label": "NOT_ACCURATE"
+    },
+    {
+      "claim_id": "256",
+      "length": 4866,
+      "label": "NOT_ACCURATE"
+    }
+  ],
+  "over_5120_count": 0,
+  "supervised_token_total": 20042,
+  "samples_with_eos_supervised": 2141,
+  "total_eos_supervised": 2141,
+  "encoding_failures": [],
+  "tokenizer": "Qwen3.8-27B official (trust_remote_code=True, local_files_only)",
+  "input_file": "C:\\Users\\Administrator\\Documents\\academic-misconduct\\results\\route1_qwen38_v2\\2026-10-15\\sarol\\train.inputs.jsonl",
+  "gold_file": "C:\\Users\\Administrator\\Documents\\academic-misconduct\\results\\route1_qwen38_v2\\2026-10-15\\sarol\\train.gold.jsonl",
+  "check_date": "2026-10-24",
+  "all_pass": true
+}

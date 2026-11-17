@@ -1,0 +1,642 @@
+{
+  "version": "v3.3.1_head_backward_isolation_import_fix",
+  "status": "HEAD_ISOLATION_COMPLETED_REQUIRES_REVIEW",
+  "phase": "completed",
+  "started_utc": "2026-10-25T13:56:31.953913+00:00",
+  "script_sha256": "354f2c84037b8ff9593e164c5f6d389ec6464b0fedfae6b80431f959e6b853e6",
+  "base_script_sha256": "42f28e8f61ce3fa819df7001a87796da83795b39bb238cdc8daa8ac5003a0ebe",
+  "reference_summary_sha256": "01ee8fc50263e3bbcbc3bfa83fa5d810a74fd82386232c3672c886a9d6fb64e3",
+  "reference_run": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/strict_diagnostic_20261025T130552Z_euy9zwk1",
+  "source_run": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/equivalence_runs/equivalence_20261025T025430Z_dende0qg",
+  "exit_code": 0,
+  "scope": "One capture before optimizer, then frozen output-head VJPs; not five-case acceptance or Test",
+  "optimizer_steps_executed": 0,
+  "candidate_modified": false,
+  "frozen_results_modified": false,
+  "head_conditions": [
+    {
+      "name": "bf16_original",
+      "autocast_bf16": true,
+      "runtime_policy": {
+        "deterministic_algorithms": true,
+        "deterministic_warn_only": false,
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "cuda_matmul_allow_tf32": false,
+        "cudnn_allow_tf32": false,
+        "bf16_reduced_precision_reduction": true,
+        "sdp_backends_enabled_not_actual_kernel": {
+          "flash": true,
+          "memory_efficient": true,
+          "math": true,
+          "cudnn": true
+        },
+        "cuda_visible_devices": "GPU-ad785776-f83b-2516-d23b-228692d20358",
+        "cublas_workspace_config": ":4096:8",
+        "torch_version": "2.11.0+cu130"
+      },
+      "cross_shape_dh": {
+        "finite": true,
+        "max_abs": 3.0517578125e-05,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": false,
+        "exact": false
+      },
+      "cross_shape_logits": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.125,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "full_repeat_dh": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "selected_repeat_dh": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "full_repeat_logits": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.125,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "selected_repeat_logits": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.125,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "full_dh_vs_native_v32": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "selected_dh_vs_candidate_v32": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "full_logits_vs_native_v32": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.125,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "selected_logits_vs_candidate_v32": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.125,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "replay_tensors": {
+        "path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/head_isolation_v331_20261025T135631Z_01mdno3a/bf16_original_selected_position_replays.safetensors",
+        "bytes": 40551088,
+        "sha256": "2b165402789c17ca7dfb508402be0c66c22fe649a211edf7174f90f3ddec4a71"
+      }
+    },
+    {
+      "name": "bf16_reduction_off",
+      "autocast_bf16": true,
+      "runtime_policy": {
+        "deterministic_algorithms": true,
+        "deterministic_warn_only": false,
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "cuda_matmul_allow_tf32": false,
+        "cudnn_allow_tf32": false,
+        "bf16_reduced_precision_reduction": false,
+        "sdp_backends_enabled_not_actual_kernel": {
+          "flash": true,
+          "memory_efficient": true,
+          "math": true,
+          "cudnn": true
+        },
+        "cuda_visible_devices": "GPU-ad785776-f83b-2516-d23b-228692d20358",
+        "cublas_workspace_config": ":4096:8",
+        "torch_version": "2.11.0+cu130"
+      },
+      "cross_shape_dh": {
+        "finite": true,
+        "max_abs": 1.52587890625e-05,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": false,
+        "exact": false
+      },
+      "cross_shape_logits": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.125,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "full_repeat_dh": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "selected_repeat_dh": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "full_repeat_logits": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.125,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "selected_repeat_logits": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.125,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "full_dh_vs_native_v32": {
+        "finite": true,
+        "max_abs": 3.0517578125e-05,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": false,
+        "exact": false
+      },
+      "selected_dh_vs_candidate_v32": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "full_logits_vs_native_v32": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.125,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "selected_logits_vs_candidate_v32": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.125,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "replay_tensors": {
+        "path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/head_isolation_v331_20261025T135631Z_01mdno3a/bf16_reduction_off_selected_position_replays.safetensors",
+        "bytes": 40551088,
+        "sha256": "39c5e4226c2d0ddd83fdfc4eb592eeaf911c7eb19c4f51c644d19ef5b4bd8c7f"
+      }
+    },
+    {
+      "name": "head_fp32_control",
+      "autocast_bf16": false,
+      "runtime_policy": {
+        "deterministic_algorithms": true,
+        "deterministic_warn_only": false,
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "cuda_matmul_allow_tf32": false,
+        "cudnn_allow_tf32": false,
+        "bf16_reduced_precision_reduction": true,
+        "sdp_backends_enabled_not_actual_kernel": {
+          "flash": true,
+          "memory_efficient": true,
+          "math": true,
+          "cudnn": true
+        },
+        "cuda_visible_devices": "GPU-ad785776-f83b-2516-d23b-228692d20358",
+        "cublas_workspace_config": ":4096:8",
+        "torch_version": "2.11.0+cu130"
+      },
+      "cross_shape_dh": {
+        "finite": true,
+        "max_abs": 6.272457540035248e-07,
+        "reference_max_abs": 0.006322577595710754,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": false
+      },
+      "cross_shape_logits": {
+        "finite": true,
+        "max_abs": 5.53131103515625e-05,
+        "reference_max_abs": 26.0993595123291,
+        "passed_A": true,
+        "passed_B": false,
+        "exact": false
+      },
+      "full_repeat_dh": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 0.006322577595710754,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "selected_repeat_dh": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 0.006322577595710754,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "full_repeat_logits": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.0993595123291,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "selected_repeat_logits": {
+        "finite": true,
+        "max_abs": 0.0,
+        "reference_max_abs": 26.099315643310547,
+        "passed_A": true,
+        "passed_B": true,
+        "exact": true
+      },
+      "full_dh_vs_native_v32": {
+        "finite": true,
+        "max_abs": 3.2135751098394394e-05,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": false,
+        "exact": false
+      },
+      "selected_dh_vs_candidate_v32": {
+        "finite": true,
+        "max_abs": 1.5247613191604614e-05,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": false,
+        "exact": false
+      },
+      "full_logits_vs_native_v32": {
+        "finite": true,
+        "max_abs": 0.062043190002441406,
+        "reference_max_abs": 26.125,
+        "passed_A": false,
+        "passed_B": false,
+        "exact": false
+      },
+      "selected_logits_vs_candidate_v32": {
+        "finite": true,
+        "max_abs": 0.06204032897949219,
+        "reference_max_abs": 26.125,
+        "passed_A": false,
+        "passed_B": false,
+        "exact": false
+      },
+      "replay_tensors": {
+        "path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/head_isolation_v331_20261025T135631Z_01mdno3a/head_fp32_control_selected_position_replays.safetensors",
+        "bytes": 40551088,
+        "sha256": "6b7cad7b1ff991d1e8ae8e46d3c69642ea7aa82c2126ab1170f1a476c9bc2ed7"
+      }
+    }
+  ],
+  "replay_count_completed": 12,
+  "equivalence_passed": false,
+  "precision_controls_are_diagnostic_only": true,
+  "source_introspection_preflight": {
+    "status": "PINNED_SOURCE_INTROSPECTION_PASS",
+    "nested_classes": [
+      "FullManual",
+      "SelectedMean",
+      "Observe"
+    ],
+    "missing_registration_negative_control_rejected": [
+      "FullManual",
+      "SelectedMean",
+      "Observe"
+    ],
+    "scope": "Synthetic nested class definitions only; no Trainer/model execution",
+    "base_script_sha256": "42f28e8f61ce3fa819df7001a87796da83795b39bb238cdc8daa8ac5003a0ebe",
+    "gpu_runtime_tested": false
+  },
+  "native_capture_metadata": {
+    "status": "CAPTURED_BEFORE_OPTIMIZER",
+    "started_utc": "2026-10-25T13:56:42.721842+00:00",
+    "variant": "native",
+    "repeat": 1,
+    "exit_code": 0,
+    "script_sha256": "42f28e8f61ce3fa819df7001a87796da83795b39bb238cdc8daa8ac5003a0ebe",
+    "scope": "One unchanged short Train micro; actual Trainer; stop before optimizer; diagnostic only",
+    "claim_id": "967",
+    "batch_sha256": "e57c472950c301a9bc9987e79d02dcdf0659fa5dda46b1434b768d64faa9da2f",
+    "num_items_in_batch": 10,
+    "optimizer_steps_executed": 0,
+    "diagnostic_version": "v3.2_strict_determinism",
+    "previous_script_sha256": "2fcfe86eb7c078d1e73019b3ee3b576e2f4aaab3e7359e46ce826d252d2174c7",
+    "backward_completed": true,
+    "logits_probe_location": "raw_lm_head_output",
+    "policy_before_enabling": {
+      "deterministic_algorithms": false,
+      "deterministic_warn_only": false,
+      "cudnn_deterministic": false,
+      "cudnn_benchmark": false,
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_allow_tf32": false,
+      "bf16_reduced_precision_reduction": true,
+      "sdp_backends_enabled_not_actual_kernel": {
+        "flash": true,
+        "memory_efficient": true,
+        "math": true,
+        "cudnn": true
+      },
+      "cuda_visible_devices": "GPU-ad785776-f83b-2516-d23b-228692d20358",
+      "cublas_workspace_config": ":4096:8",
+      "torch_version": "2.11.0+cu130"
+    },
+    "policy_before_model_load": {
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_allow_tf32": false,
+      "bf16_reduced_precision_reduction": true,
+      "sdp_backends_enabled_not_actual_kernel": {
+        "flash": true,
+        "memory_efficient": true,
+        "math": true,
+        "cudnn": true
+      },
+      "cuda_visible_devices": "GPU-ad785776-f83b-2516-d23b-228692d20358",
+      "cublas_workspace_config": ":4096:8",
+      "torch_version": "2.11.0+cu130"
+    },
+    "phase": "completed_without_optimizer",
+    "model_execution_info": {
+      "model_class": "Qwen3_5ForCausalLM",
+      "config_attn_implementation": "sdpa",
+      "text_attn_implementation": "sdpa",
+      "attention_module_classes": [
+        "transformers.models.qwen3_5.modeling_qwen3_5.Qwen3_5Attention",
+        "transformers.models.qwen3_5.modeling_qwen3_5.Qwen3_5GatedDeltaNet"
+      ],
+      "trainable_dtype_counts": {
+        "torch.float32": 512
+      },
+      "backend_note": "Configured implementations and enabled SDP backends are not a profiler identification of the actual kernel."
+    },
+    "initial_trainable_sha256": "b3d6a043de050aae3ef4bc5e5b6fc95f7b2cde43808349d2649aa0ba7c6b48c2",
+    "policy_at_training_step": {
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_allow_tf32": false,
+      "bf16_reduced_precision_reduction": true,
+      "sdp_backends_enabled_not_actual_kernel": {
+        "flash": true,
+        "memory_efficient": true,
+        "math": true,
+        "cudnn": true
+      },
+      "cuda_visible_devices": "GPU-ad785776-f83b-2516-d23b-228692d20358",
+      "cublas_workspace_config": ":4096:8",
+      "torch_version": "2.11.0+cu130"
+    },
+    "raw_loss": 1.6648108959197998,
+    "outputs_logits_dtype": "torch.float32",
+    "outputs_logits_requires_grad": true,
+    "public_vs_raw_logits_max_abs": 0.0,
+    "policy_after_backward": {
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_allow_tf32": false,
+      "bf16_reduced_precision_reduction": true,
+      "sdp_backends_enabled_not_actual_kernel": {
+        "flash": true,
+        "memory_efficient": true,
+        "math": true,
+        "cudnn": true
+      },
+      "cuda_visible_devices": "GPU-ad785776-f83b-2516-d23b-228692d20358",
+      "cublas_workspace_config": ":4096:8",
+      "torch_version": "2.11.0+cu130"
+    },
+    "returned_scaled_loss": 1.6648108959197998,
+    "parameters_unchanged": true,
+    "tensor_count": 516,
+    "probe_keys_present": [
+      "probe::head_input",
+      "probe::head_input_grad",
+      "probe::logits",
+      "probe::logits_grad"
+    ],
+    "probe_keys_missing": [],
+    "lm_head": "base_model.model.lm_head",
+    "head_input_dtype": "torch.float32",
+    "head_input_shape": [
+      1,
+      588,
+      5120
+    ],
+    "head_input_requires_grad": true,
+    "raw_logits_dtype": "torch.bfloat16",
+    "raw_logits_shape": [
+      1,
+      588,
+      248320
+    ],
+    "raw_logits_requires_grad": true,
+    "finished_utc": "2026-10-25T13:57:33.866124+00:00",
+    "loaded_model_class": "Qwen3_5ForCausalLM",
+    "capture_sha256": "8037c1d2fbc35ae2be85982d45e54961b4660027770709c52fe26c2904016a98"
+  },
+  "capture_wrapper_note": "Pinned v3.2 worker plus v3.3 full-tensor observational hooks; wrapper hash recorded separately.",
+  "native_capture_vs_v32": {
+    "actual": "native_capture",
+    "reference": "native_1",
+    "raw_loss": {
+      "finite": true,
+      "max_abs": 0.0,
+      "passed_A": true,
+      "passed_B": true
+    },
+    "scaled_loss": {
+      "finite": true,
+      "max_abs": 0.0,
+      "passed_A": true,
+      "passed_B": true
+    },
+    "gradients_max_abs": 0.0,
+    "gradient_tensor_count": 512,
+    "passed_A_loss_gradients": true,
+    "passed_B_loss_gradients": true,
+    "worst_gradients": [
+      {
+        "name": "gradient::base_model.model.model.layers.0.mlp.down_proj.lora_A.default.weight",
+        "max_abs": 0.0,
+        "reference_max_abs": 0.181640625,
+        "passed_A": true,
+        "passed_B": true
+      },
+      {
+        "name": "gradient::base_model.model.model.layers.0.mlp.down_proj.lora_B.default.weight",
+        "max_abs": 0.0,
+        "reference_max_abs": 0.0576171875,
+        "passed_A": true,
+        "passed_B": true
+      },
+      {
+        "name": "gradient::base_model.model.model.layers.0.mlp.gate_proj.lora_A.default.weight",
+        "max_abs": 0.0,
+        "reference_max_abs": 0.0517578125,
+        "passed_A": true,
+        "passed_B": true
+      },
+      {
+        "name": "gradient::base_model.model.model.layers.0.mlp.gate_proj.lora_B.default.weight",
+        "max_abs": 0.0,
+        "reference_max_abs": 0.0458984375,
+        "passed_A": true,
+        "passed_B": true
+      },
+      {
+        "name": "gradient::base_model.model.model.layers.0.mlp.up_proj.lora_A.default.weight",
+        "max_abs": 0.0,
+        "reference_max_abs": 0.05517578125,
+        "passed_A": true,
+        "passed_B": true
+      },
+      {
+        "name": "gradient::base_model.model.model.layers.0.mlp.up_proj.lora_B.default.weight",
+        "max_abs": 0.0,
+        "reference_max_abs": 0.03515625,
+        "passed_A": true,
+        "passed_B": true
+      },
+      {
+        "name": "gradient::base_model.model.model.layers.1.mlp.down_proj.lora_A.default.weight",
+        "max_abs": 0.0,
+        "reference_max_abs": 0.0986328125,
+        "passed_A": true,
+        "passed_B": true
+      },
+      {
+        "name": "gradient::base_model.model.model.layers.1.mlp.down_proj.lora_B.default.weight",
+        "max_abs": 0.0,
+        "reference_max_abs": 0.030517578125,
+        "passed_A": true,
+        "passed_B": true
+      }
+    ],
+    "forward_backward_probes": [
+      {
+        "name": "probe::head_input",
+        "max_abs": 0.0,
+        "reference_max_abs": 35.58803176879883,
+        "passed_A": true,
+        "passed_B": true
+      },
+      {
+        "name": "probe::head_input_grad",
+        "max_abs": 0.0,
+        "reference_max_abs": 0.006317138671875,
+        "passed_A": true,
+        "passed_B": true
+      },
+      {
+        "name": "probe::logits",
+        "max_abs": 0.0,
+        "reference_max_abs": 26.125,
+        "passed_A": true,
+        "passed_B": true
+      },
+      {
+        "name": "probe::logits_grad",
+        "max_abs": 0.0,
+        "reference_max_abs": 0.10009765625,
+        "passed_A": true,
+        "passed_B": true
+      }
+    ]
+  },
+  "cuda_memory_after_backbone_release": {
+    "allocated_bytes": 5152703488,
+    "reserved_bytes": 5203034112
+  },
+  "full_capture_checks": {
+    "unselected_positions": 578,
+    "unselected_dy_nonzero": 0,
+    "unselected_dh_nonzero": 0
+  },
+  "head_info": {
+    "class": "torch.nn.modules.linear.Linear",
+    "weight_dtype": "torch.float32",
+    "weight_shape": [
+      248320,
+      5120
+    ],
+    "weight_version": 0,
+    "bias": null,
+    "autocast_enabled": true,
+    "autocast_dtype": "torch.bfloat16",
+    "autocast_cache_enabled": true
+  },
+  "weight_sha256_before_replay": "92111fa342be6d82e979d930b1e90cac32a274ce3eae21a808f17126b2918b6d",
+  "frozen_tensor_digests": {
+    "full_h": "e3236fb9cf39265f005a240e462a5ae867c161e34061dbb760347a9ce858b298",
+    "full_dy": "fd9fad076fb9ff586c2164c9f19dfac1c7788f1fe2a995751bf6b66ffd7e009a",
+    "full_dh": "268d7511ea0699bf6a0c6c59289441fb7bbbdb613e4a47b97366a068b658e06e"
+  },
+  "full_head_capture": {
+    "path": "/home/admire/citation_integrity_member2/incoming/quality_v1_20261009/cmj_gpu_validation_v2_20261025/diagnostic_runs/head_isolation_v331_20261025T135631Z_01mdno3a/full_head_capture.safetensors",
+    "bytes": 316109208,
+    "sha256": "cee371c7c148a0f2dbdc3dcb8fce5cb6954671be2aed6148646a26d80e3db07a",
+    "weight_saved": false,
+    "note": "Original weight remains in the pinned model; identity recorded, not duplicated."
+  },
+  "original_head_path_reproduced_exactly": true,
+  "weight_sha256_after_replay": "92111fa342be6d82e979d930b1e90cac32a274ce3eae21a808f17126b2918b6d",
+  "interpretation": "Execution and baseline reproduction complete; numerical controls need review. Not five-case or candidate acceptance.",
+  "finished_utc": "2026-10-25T13:58:27.483732+00:00"
+}
